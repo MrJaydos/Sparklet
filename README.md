@@ -57,7 +57,7 @@ Optional repo **variables**: `MIN_BANK` (default 40), `TOPUP_COUNT` (default 10)
 ## Deployment (Coolify)
 
 Coolify watches `main` on GitHub and rebuilds on push using the
-`docker-compose.yml` (app + Postgres + MinIO). Set the env vars from
+`docker-compose.yaml` (app + Postgres + MinIO). Set the env vars from
 `.env.example` in Coolify's UI. The container's start command
 (`npm run start:prod`) runs `prisma migrate deploy` + both seed steps before
 `next start`, so **every** deploy — code or content-only — leaves the DB
