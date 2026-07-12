@@ -44,14 +44,39 @@ export function Feed({
   const [reportFor, setReportFor] = useState<string | null>(null);
   const [sessionViews, setSessionViews] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [autoRead, setAutoRead] = useState(false);
+  const [speakingId, setSpeakingId] = useState<string | null>(null);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const viewedRef = useRef<Set<string>>(new Set());
   const loadingRef = useRef(false);
+  const autoReadRef = useRef(false);
+  const activeIdRef = useRef<string | null>(null);
   const cardsRef = useRef(cards);
   useEffect(() => {
     cardsRef.current = cards;
   }, [cards]);
+
+  const speakCard = useCallback((card: FeedCard) => {
+    if (!("speechSynthesis" in window)) return;
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(`${card.title}. ${card.body}`);
+    u.lang = "en";
+    u.rate = 1.05;
+    const clear = () => setSpeakingId((id) => (id === card.id ? null : id));
+    u.onend = clear;
+    u.onerror = clear;
+    window.speechSynthesis.speak(u);
+    setSpeakingId(card.id);
+  }, []);
+
+  const stopSpeech = useCallback(() => {
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    setSpeakingId(null);
+  }, []);
+
+  // Never leave speech running after leaving the feed.
+  useEffect(() => stopSpeech, [stopSpeech]);
 
   const fetchCards = useCallback(
     async (slugs: string[], opts?: { reset?: boolean; allowRepeats?: boolean }) => {
@@ -90,22 +115,41 @@ export function Feed({
     []
   );
 
-  // Restore saved topic selection (may differ from the server-rendered feed).
+  // Restore saved topic selection (may differ from the server-rendered feed)
+  // and the auto-read preference.
   useEffect(() => {
     try {
       const saved: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
-      if (saved.length) {
-        // Deferred so the restore doesn't force a cascading render mid-hydration.
-        queueMicrotask(() => {
+      const savedAutoRead = localStorage.getItem("sparklet.autoread") === "true";
+      // Deferred so the restore doesn't force a cascading render mid-hydration.
+      queueMicrotask(() => {
+        if (savedAutoRead) {
+          autoReadRef.current = true;
+          setAutoRead(true);
+        }
+        if (saved.length) {
           setSelected(saved);
           fetchCards(saved, { reset: true });
-        });
-      }
+        }
+      });
     } catch {
       /* ignore corrupt storage */
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  const toggleAutoRead = () => {
+    const next = !autoRead;
+    setAutoRead(next);
+    autoReadRef.current = next;
+    localStorage.setItem("sparklet.autoread", String(next));
+    if (next) {
+      const active = cardsRef.current.find((c) => c.id === activeIdRef.current);
+      if (active) speakCard(active);
+    } else {
+      stopSpeech();
+    }
+  };
 
   const markViewed = useCallback(async (cardId: string) => {
     if (viewedRef.current.has(cardId)) return;
@@ -152,7 +196,16 @@ export function Feed({
           if (!entry.isIntersecting) continue;
           const el = entry.target as HTMLElement;
           const id = el.dataset.cardId;
-          if (id) markViewed(id);
+          if (id) {
+            markViewed(id);
+            if (id !== activeIdRef.current) {
+              activeIdRef.current = id;
+              if (autoReadRef.current) {
+                const card = cardsRef.current.find((c) => c.id === id);
+                if (card) speakCard(card);
+              }
+            }
+          }
           const idx = Number(el.dataset.index);
           if (!Number.isNaN(idx) && idx >= cardsRef.current.length - 3 && !exhausted) {
             fetchCards(selected);
@@ -163,7 +216,7 @@ export function Feed({
     );
     container.querySelectorAll("[data-index]").forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, [cards, selected, exhausted, markViewed, fetchCards]);
+  }, [cards, selected, exhausted, markViewed, fetchCards, speakCard]);
 
   // Keyboard navigation for desktop.
   useEffect(() => {
@@ -229,6 +282,19 @@ export function Feed({
           >
             🔥 {streak}
           </span>
+          <button
+            type="button"
+            onClick={toggleAutoRead}
+            aria-pressed={autoRead}
+            title={autoRead ? "Auto-read on — cards are read aloud" : "Auto-read off"}
+            className={`rounded-full px-3 py-1.5 text-sm backdrop-blur transition ${
+              autoRead
+                ? "bg-violet-600/80 hover:bg-violet-500/80"
+                : "bg-neutral-900/80 hover:bg-neutral-800"
+            }`}
+          >
+            {autoRead ? "🔊" : "🔇"}
+          </button>
           <Link
             href="/notifications"
             aria-label="Notifications"
@@ -270,6 +336,10 @@ export function Feed({
                 card={item.card}
                 liked={likes[item.card.id] ?? false}
                 commentCount={commentCounts[item.card.id] ?? 0}
+                speaking={speakingId === item.card.id}
+                onToggleSpeak={() =>
+                  speakingId === item.card.id ? stopSpeech() : speakCard(item.card)
+                }
                 onToggleLike={() => toggleLike(item.card.id)}
                 onOpenComments={() => setCommentsFor(item.card)}
                 onReport={() => setReportFor(item.card.id)}

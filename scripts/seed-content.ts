@@ -40,6 +40,7 @@ async function listJsonFiles(dir: string): Promise<string[]> {
 }
 
 const urlCache = new Map<string, boolean>();
+const sleepMs = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function urlIsAlive(url: string): Promise<boolean> {
   const cached = urlCache.get(url);
@@ -52,38 +53,95 @@ async function urlIsAlive(url: string): Promise<boolean> {
       headers: { "user-agent": UA, accept: "text/html,*/*" },
       signal: AbortSignal.timeout(10_000),
     });
-    return res.status >= 200 && res.status < 400;
+    return res.status;
   };
 
   let alive = false;
-  try {
-    alive = await attempt("HEAD");
-    // Some sites reject HEAD (405/403) but serve GET fine.
-    if (!alive) alive = await attempt("GET");
-  } catch {
+  for (let retry = 0; retry < 3; retry++) {
     try {
-      alive = await attempt("GET");
+      let status = await attempt("HEAD");
+      // Some sites reject HEAD (405/403) but serve GET fine.
+      if (status >= 400 && status !== 429 && status !== 503) status = await attempt("GET");
+      if (status >= 200 && status < 400) {
+        alive = true;
+        break;
+      }
+      if (status === 429 || status === 503) {
+        if (retry < 2) {
+          await sleepMs(3_000 * (retry + 1));
+          continue;
+        }
+        // Still throttled after backoff: the host is responding, so this is
+        // NOT a dead link — don't fail the fact-check gate over rate limits.
+        alive = true;
+        break;
+      }
+      alive = false; // real 4xx/5xx after both methods
+      break;
     } catch {
-      alive = false;
+      // Network error/timeout — retry, then treat as dead.
+      if (retry < 2) await sleepMs(2_000);
+      else alive = false;
     }
   }
   urlCache.set(url, alive);
   return alive;
 }
 
-/** Resolve a Wikipedia article's lead image thumbnail (free, verifiable). */
-async function resolveWikipediaImage(title: string): Promise<string | null> {
+/** "https://en.wikipedia.org/wiki/Ada_Lovelace" → "Ada Lovelace" */
+function wikiTitleFromUrl(url: string): string | null {
+  const m = url.match(/^https:\/\/en\.wikipedia\.org\/wiki\/([^#?]+)/);
+  if (!m) return null;
   try {
-    const res = await fetch(
-      `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
-      { headers: { "user-agent": UA }, signal: AbortSignal.timeout(10_000) }
-    );
-    if (!res.ok) return null;
-    const data = (await res.json()) as { thumbnail?: { source?: string } };
-    return data.thumbnail?.source ?? null;
+    return decodeURIComponent(m[1]).replace(/_/g, " ");
   } catch {
     return null;
   }
+}
+
+/**
+ * Best-effort image for a card: explicit title first, then any Wikipedia
+ * article among its sources/read-more link — many cards cite an article
+ * whose lead image fits even when the model omitted imageWikipediaTitle.
+ */
+async function resolveCardImage(card: {
+  imageWikipediaTitle?: string | null;
+  readMoreUrl: string;
+  sources: { url: string }[];
+}): Promise<string | null> {
+  const candidates = [
+    card.imageWikipediaTitle,
+    wikiTitleFromUrl(card.readMoreUrl),
+    ...card.sources.map((s) => wikiTitleFromUrl(s.url)),
+  ].filter((t): t is string => !!t);
+
+  for (const title of [...new Set(candidates)]) {
+    const url = await resolveWikipediaImage(title);
+    if (url && (await urlIsAlive(url))) return url;
+  }
+  return null;
+}
+
+/** Resolve a Wikipedia article's lead image thumbnail (free, verifiable). */
+async function resolveWikipediaImage(title: string): Promise<string | null> {
+  for (let retry = 0; retry < 3; retry++) {
+    try {
+      const res = await fetch(
+        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`,
+        { headers: { "user-agent": UA }, signal: AbortSignal.timeout(10_000) }
+      );
+      if (res.status === 429 || res.status === 503) {
+        await sleepMs(3_000 * (retry + 1));
+        continue;
+      }
+      if (!res.ok) return null;
+      const data = (await res.json()) as { thumbnail?: { source?: string } };
+      return data.thumbnail?.source ?? null;
+    } catch {
+      if (retry < 2) await sleepMs(2_000);
+    }
+  }
+  return null;
 }
 
 async function importCard(card: CardInput, modelUsed: string | undefined, stats: Record<string, number>) {
@@ -109,10 +167,8 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
   }
 
   let imageUrl = card.imageUrl ?? null;
-  if (!imageUrl && card.imageWikipediaTitle) {
-    imageUrl = await resolveWikipediaImage(card.imageWikipediaTitle);
-  }
   if (imageUrl && !(await urlIsAlive(imageUrl))) imageUrl = null;
+  if (!imageUrl) imageUrl = await resolveCardImage(card);
 
   const published = deadUrls.length === 0;
   await prisma.card.create({
@@ -160,6 +216,59 @@ async function main() {
   console.log(
     `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
   );
+
+  // Backfill: cards imported before the source-URL image fallback existed
+  // (or whose lookup failed transiently) get another chance each deploy.
+  const imageless = await prisma.card.findMany({
+    where: { imageUrl: null },
+    select: { id: true, title: true, readMoreUrl: true, sources: true },
+    take: 200,
+  });
+  let backfilled = 0;
+  for (const card of imageless) {
+    const imageUrl = await resolveCardImage({
+      readMoreUrl: card.readMoreUrl,
+      sources: card.sources as { url: string }[],
+    });
+    if (imageUrl) {
+      await prisma.card.update({ where: { id: card.id }, data: { imageUrl } });
+      backfilled++;
+    }
+    await sleepMs(150); // stay well under Wikipedia's rate limits
+  }
+  if (imageless.length) {
+    console.log(`Image backfill: ${backfilled}/${imageless.length} imageless card(s) resolved.`);
+  }
+
+  // Re-check cards held for "dead" links — transient throttling at import
+  // time can false-positive, and those should heal on a later run.
+  const held = await prisma.card.findMany({
+    where: { published: false, reviewNote: { startsWith: "Dead source URL" } },
+    select: { id: true, title: true, readMoreUrl: true, sources: true },
+    take: 100,
+  });
+  let healed = 0;
+  for (const card of held) {
+    const urls = [...(card.sources as { url: string }[]).map((s) => s.url), card.readMoreUrl];
+    let allAlive = true;
+    for (const url of urls) {
+      if (!(await urlIsAlive(url))) {
+        allAlive = false;
+        break;
+      }
+    }
+    if (allAlive) {
+      await prisma.card.update({
+        where: { id: card.id },
+        data: { published: true, reviewNote: null },
+      });
+      healed++;
+    }
+    await sleepMs(150);
+  }
+  if (held.length) {
+    console.log(`Held-card recheck: ${healed}/${held.length} republished (links verified alive).`);
+  }
 }
 
 main()

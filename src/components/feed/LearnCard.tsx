@@ -7,6 +7,8 @@ export function LearnCard({
   card,
   liked,
   commentCount,
+  speaking,
+  onToggleSpeak,
   onToggleLike,
   onOpenComments,
   onReport,
@@ -14,6 +16,8 @@ export function LearnCard({
   card: FeedCard;
   liked: boolean;
   commentCount: number;
+  speaking: boolean;
+  onToggleSpeak: () => void;
   onToggleLike: () => void;
   onOpenComments: () => void;
   onReport: () => void;
@@ -153,6 +157,21 @@ export function LearnCard({
                 ▼
               </button>
             </div>
+
+            <button
+              type="button"
+              onClick={onToggleSpeak}
+              aria-label={speaking ? "Stop reading" : "Read card aloud"}
+              aria-pressed={speaking}
+              title={speaking ? "Stop reading" : "Read aloud"}
+              className={`rounded-full px-3 py-2 text-sm backdrop-blur transition ${
+                speaking
+                  ? "bg-violet-600/80 text-white"
+                  : "bg-neutral-900/80 text-neutral-400 hover:text-neutral-200"
+              }`}
+            >
+              {speaking ? "⏹" : "🔊"}
+            </button>
 
             <button
               type="button"
