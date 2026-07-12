@@ -77,17 +77,22 @@ type InventoryCategory = {
 async function fetchInventory(): Promise<InventoryCategory[] | null> {
   const base = process.env.APP_URL;
   if (!base) return null;
-  try {
-    const res = await fetch(`${base.replace(/\/$/, "")}/api/inventory`, {
-      signal: AbortSignal.timeout(15_000),
-    });
-    if (!res.ok) throw new Error(`${res.status}`);
-    const data = await res.json();
-    return data.categories as InventoryCategory[];
-  } catch (e) {
-    console.warn(`Could not fetch inventory from ${base}: ${e}`);
-    return null;
+  // Retry across a few minutes: the app 404s briefly mid-deploy, and a
+  // scheduled run colliding with a deploy shouldn't kill the day's top-up.
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    try {
+      const res = await fetch(`${base.replace(/\/$/, "")}/api/inventory`, {
+        signal: AbortSignal.timeout(15_000),
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      return data.categories as InventoryCategory[];
+    } catch (e) {
+      console.warn(`Inventory fetch attempt ${attempt}/5 failed: ${e}`);
+      if (attempt < 5) await sleep(45_000);
+    }
   }
+  return null;
 }
 
 /** Titles already in local content files, as a dedupe hint when there's no inventory. */
