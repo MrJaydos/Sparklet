@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-07-12T17:54:22.986Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Word 'Spinster'",
+      "body": "The word 'spinster' originally meant a person who spun yarn, and only later came to refer to an unmarried woman.",
+      "imageWikipediaTitle": "Spinning",
+      "sources": [
+        {
+          "title": "Spinster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spinster"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spinster",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Linguistic 'Lunch'",
+      "body": "The word 'lunch' originated in the 16th century, when it referred to a small snack eaten between meals, and is likely derived from the Old English word 'nuncheon', meaning 'a small piece of food'.",
+      "imageWikipediaTitle": "Sandwich",
+      "sources": [
+        {
+          "title": "Lunch",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lunch"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lunch",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History of 'Hazard'",
+      "body": "The word 'hazard' originated in the 14th century, and is derived from the Arabic word 'al-zahr', meaning 'the die', as it was initially used to refer to a dice game.",
+      "imageWikipediaTitle": "Dice",
+      "sources": [
+        {
+          "title": "Hazard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hazard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hazard",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Origin of 'Thug'",
+      "body": "The word 'thug' originated in India in the 13th century, and was initially used to refer to a member of a gang of professional robbers and murderers known as the 'Thuggee'.",
+      "imageWikipediaTitle": "Thuggee",
+      "sources": [
+        {
+          "title": "Thuggee",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thuggee"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thuggee",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fascinating 'Flop'",
+      "body": "The word 'flop' originated in the 16th century, and initially referred to the sound of something falling flat, such as a bird's wings.",
+      "imageWikipediaTitle": "Flop (disambiguation)",
+      "sources": [
+        {
+          "title": "Flop",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flop"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flop",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Story of 'Sob'",
+      "body": "The word 'sob' originated in the 14th century, and is believed to be derived from the Old English word 'sobban', which meant 'to sigh or lament'.",
+      "imageWikipediaTitle": "Crying",
+      "sources": [
+        {
+          "title": "Sob",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sob"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sob",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History of 'Toast'",
+      "body": "The word 'toast' originated in the 14th century, and was initially used to refer to a piece of bread that had been browned or crisped, often served as a accompaniment to drinks.",
+      "imageWikipediaTitle": "Toast",
+      "sources": [
+        {
+          "title": "Toast",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toast"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Toast",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Etymology of 'Panic'",
+      "body": "The word 'panic' originated in ancient Greece, and is derived from the name of the god Pan, who was believed to cause fear and confusion in those who encountered him.",
+      "imageWikipediaTitle": "Pan (mythology)",
+      "sources": [
+        {
+          "title": "Panic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Panic"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Panic",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Linguistic 'Chat'",
+      "body": "The word 'chat' originated in the 15th century, and is derived from the Old French word 'chater', meaning 'to converse or talk'.",
+      "imageWikipediaTitle": "Conversation",
+      "sources": [
+        {
+          "title": "Chat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chat",
+      "category": "language"
+    }
+  ]
+}

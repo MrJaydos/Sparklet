@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T17:55:34.273Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Cigarette Economy of World War II POW Camps",
+      "body": "Inside World War II prisoner-of-war camps, cigarettes spontaneously became a highly sophisticated currency. Prisoners used them to price everything from food to services. The cigarette economy even experienced inflation when Red Cross shipments arrived, and deflation when supplies ran low, proving that money-like systems naturally emerge whenever people need to trade.",
+      "imageWikipediaTitle": "Cigarette",
+      "sources": [
+        {
+          "title": "The Economic Organisation of a P.O.W. Camp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Economic_Organisation_of_a_P._O._W._Camp"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Economic_Organisation_of_a_P._O._W._Camp",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Austrian Town with Money That Expired",
+      "body": "During the Great Depression, the Austrian town of Wörgl took a radical step to cure local unemployment. They issued their own local currency called \"stamp scrip.\" To keep its value, citizens had to stick a cheap stamp on their notes every month. This demurrage fee meant holding onto cash cost money, which incentivized rapid spending and successfully revived the town's economy.",
+      "imageWikipediaTitle": "Wörgl",
+      "sources": [
+        {
+          "title": "Wörgl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/W%C3%B6rgl"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/W%C3%B6rgl",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Dots That Stop Photocopiers",
+      "body": "Look closely at many modern banknotes, and you might spot a pattern of five tiny, colored circles. This is the EURion constellation. Most color photocopiers, scanners, and image-editing programs are hardcoded to detect this specific geometric arrangement. If they find it, they instantly refuse to copy or print the document, preventing casual counterfeiters from duplicating cash at home.",
+      "imageWikipediaTitle": "EURion constellation",
+      "sources": [
+        {
+          "title": "EURion constellation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/EURion_constellation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/EURion_constellation",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the Dollar Sign Evolved from the Spanish Peso",
+      "body": "The ubiquitous \"$\" symbol was not invented for the US dollar. It actually originated from the Spanish-American peso, which was the dominant currency in North America before the US mint existed. Merchants abbreviated \"pesos\" as \"ps.\" Over time, writers began to scribble the \"s\" directly over the \"p,\" which eventually simplified into a single vertical stroke through the letter \"S.\"",
+      "imageWikipediaTitle": "Dollar sign",
+      "sources": [
+        {
+          "title": "Dollar sign",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dollar_sign"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dollar_sign",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 43-Pound Copper Coins of Sweden",
+      "body": "In the 17th century, Sweden faced a strange monetary problem: it was rich in copper but lacked silver. To back their currency, the government minted \"plate money\"—massive, rectangular sheets of copper stamped with value. The largest of these plates weighed a staggering 43 pounds (19.7 kg). Carrying enough cash to buy basic groceries required a wheelbarrow or a sturdy horse-drawn cart.",
+      "imageWikipediaTitle": "Plate money",
+      "sources": [
+        {
+          "title": "Plate money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plate_money"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Plate_money",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Paying for Dead Cobras Backfired Spectacularly",
+      "body": "During British rule in India, the government tried to eliminate wild cobras by offering a cash bounty for every dead snake brought to them. Instead of depleting the population, enterprising locals realized they could make easy money by breeding cobras in captivity. When the government realized this and canceled the bounty, breeders released the now-worthless snakes, leaving Delhi with more cobras than before.",
+      "imageWikipediaTitle": "Indian cobra",
+      "sources": [
+        {
+          "title": "Perverse incentive",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Perverse_incentive"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Perverse_incentive",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Smashed Benches of Renaissance Bankers",
+      "body": "The modern word \"bankruptcy\" has a violent, literal origin. It derives from the Italian \"banca rotta,\" which translates to \"broken bench.\" During the Renaissance, Italian merchants traded from wooden benches in public marketplaces. If a banker ran out of money and could not fulfill his financial obligations, his bench was publicly smashed to pieces, visually signaling to everyone that he was out of business.",
+      "imageWikipediaTitle": "Bankruptcy",
+      "sources": [
+        {
+          "title": "Bankruptcy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bankruptcy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bankruptcy",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Hidden Cost of Changing a Price Tag",
+      "body": "Changing prices is not free. In economics, \"menu costs\" refer to the real resources a business must consume to update its prices. This includes printing new menus, retagging retail items, and updating digital systems. During periods of high inflation, these costs escalate rapidly, forcing businesses to waste valuable labor and time simply keeping their price tags aligned with the plummeting value of currency.",
+      "imageWikipediaTitle": "Menu (list)",
+      "sources": [
+        {
+          "title": "Menu cost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Menu_cost"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Menu_cost",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Europe's First Paper Banknotes Ended in a Death Sentence",
+      "body": "In 1661, Sweden’s Stockholms Banco issued Europe’s first official paper banknotes to replace heavy copper coins. Initially a huge success, the bank quickly printed far more paper money than it could back with actual metal. When depositors rushed to exchange their paper back to copper, the bank collapsed. The bank's founder, Johan Palmstruch, was blamed for the disaster and sentenced to death, though his sentence was later commuted.",
+      "imageWikipediaTitle": "Stockholms Banco",
+      "sources": [
+        {
+          "title": "Stockholms Banco",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stockholms_Banco"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stockholms_Banco",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Playing Cards Saved a Colony's Economy",
+      "body": "In 1685, the colony of New France (modern Canada) faced a severe shortage of French coins. To pay his soldiers, the governor took decks of ordinary playing cards, cut them, wrote monetary values on them, and signed them as official currency. This emergency \"card money\" was widely accepted by merchants and remained in circulation for decades, demonstrating that any medium can function as money if people trust it.",
+      "imageWikipediaTitle": "Playing card",
+      "sources": [
+        {
+          "title": "Card money in New France",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Card_money_in_New_France"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Card_money_in_New_France",
+      "category": "money"
+    }
+  ]
+}

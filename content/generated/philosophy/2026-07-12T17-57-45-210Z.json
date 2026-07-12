@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T17:57:45.210Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moral Luck",
+      "body": "Philosopher Bernard Williams introduced the concept of moral luck, which questions whether our moral judgments should be based on factors beyond our control.",
+      "imageWikipediaTitle": "Bernard Williams",
+      "sources": [
+        {
+          "title": "Moral Luck",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moral_luck"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moral_luck",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Veil of Ignorance",
+      "body": "John Rawls' thought experiment proposes that we should design a just society from behind a veil of ignorance, without knowing our own social status or position.",
+      "imageWikipediaTitle": "John Rawls",
+      "sources": [
+        {
+          "title": "A Theory of Justice",
+          "publisher": "Harvard University Press",
+          "url": "https://en.wikipedia.org/wiki/A_Theory_of_Justice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/A_Theory_of_Justice",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Problem of Evil",
+      "body": "This philosophical problem questions how an all-powerful, all-knowing, and all-good God could allow evil to exist in the world.",
+      "imageWikipediaTitle": "Augustine of Hippo",
+      "sources": [
+        {
+          "title": "Problem of evil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Problem_of_evil"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Problem_of_evil",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Epicureanism",
+      "body": "Epicureanism is a school of thought that advocates for the pursuit of moderate desires and the avoidance of physical pain and mental distress.",
+      "imageWikipediaTitle": "Epicurus",
+      "sources": [
+        {
+          "title": "Epicureanism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epicureanism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Epicureanism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stoicism",
+      "body": "Stoicism is a philosophy that emphasizes reason, self-control, and indifference to external events, with the goal of achieving inner peace and wisdom.",
+      "imageWikipediaTitle": "Zeno of Citium",
+      "sources": [
+        {
+          "title": "Stoicism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stoicism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stoicism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Hard Problem of Consciousness",
+      "body": "Philosopher David Chalmers formulated the hard problem of consciousness, which questions why we have subjective experiences at all.",
+      "imageWikipediaTitle": "David Chalmers",
+      "sources": [
+        {
+          "title": "Consciousness Studies",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Consciousness_studies"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Solipsism",
+      "body": "Solipsism is the philosophical idea that only one's own mind is sure to exist, and that the external world and other minds may not be real.",
+      "imageWikipediaTitle": "René Descartes",
+      "sources": [
+        {
+          "title": "Solipsism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solipsism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Solipsism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Absurdism",
+      "body": "Absurdism is a philosophical and literary movement that emphasizes the absurdity and meaninglessness of human existence, often with a sense of irony or humor.",
+      "imageWikipediaTitle": "Albert Camus",
+      "sources": [
+        {
+          "title": "Absurdism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Absurdism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Absurdism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Determinism",
+      "body": "Determinism is the philosophical idea that every event, including human decisions and actions, is the inevitable result of prior causes and is therefore predetermined.",
+      "imageWikipediaTitle": "Baruch Spinoza",
+      "sources": [
+        {
+          "title": "Determinism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Determinism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Determinism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Existentialism",
+      "body": "Existentialism is a philosophical movement that emphasizes individual freedom and choice, and the inherent meaninglessness of life, which must be overcome by individual responsibility.",
+      "imageWikipediaTitle": "Jean-Paul Sartre",
+      "sources": [
+        {
+          "title": "Existentialism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Existentialism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Existentialism",
+      "category": "philosophy"
+    }
+  ]
+}

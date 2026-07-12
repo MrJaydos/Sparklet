@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T17:52:05.026Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your bones are actually hormone-producing glands",
+      "body": "For centuries, scientists viewed bones as passive scaffolding. Today, we know bones are part of the endocrine system. They produce a hormone called osteocalcin, which travels through the bloodstream to regulate blood sugar, boost testosterone, and even influence memory and brain development. When you exercise, your bones release more osteocalcin, signaling your muscles to absorb more energy.",
+      "imageWikipediaTitle": "Bone",
+      "sources": [
+        {
+          "title": "Osteocalcin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Osteocalcin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Osteocalcin",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your skin gets goosebumps when you are cold or scared",
+      "body": "Goosebumps are a biological leftover from our evolutionary ancestors. When you are cold or threatened, your sympathetic nervous system triggers tiny muscles at the base of each hair follicle to contract. In furry mammals, this lofts the fur to trap a layer of warm air or make them look larger to predators. Since humans have sparse body hair, we are left with just the bumps.",
+      "imageWikipediaTitle": "Goose bumps",
+      "sources": [
+        {
+          "title": "Goose bumps",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goose_bumps"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goose_bumps",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tiny trapdoor that prevents you from choking",
+      "body": "Every time you swallow, your body performs a perfectly timed mechanical feat. A small, leaf-shaped flap of cartilage called the epiglottis acts like a railroad switch at the back of your throat. Normally pointed upward to allow breathing, it automatically folds backward to seal off your windpipe whenever food or liquid passes by, safely steering your meal down the esophagus into your stomach.",
+      "imageWikipediaTitle": "Epiglottis",
+      "sources": [
+        {
+          "title": "Epiglottis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epiglottis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Epiglottis",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your spleen is a recycling center and emergency blood bank",
+      "body": "The spleen plays a quiet but vital role in managing your blood. It acts as a quality-control filter, identifying and destroying worn-out red blood cells while recycling their iron. It also functions as an emergency reservoir, holding a backup supply of blood and infection-fighting white blood cells. During sudden trauma or intense physical exertion, the spleen contracts to pump this extra blood into circulation.",
+      "imageWikipediaTitle": "Spleen",
+      "sources": [
+        {
+          "title": "Spleen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spleen"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spleen",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden daily movements that burn more calories than workouts",
+      "body": "When thinking about burning calories, we often focus on intense gym workouts. However, a much larger portion of daily energy expenditure comes from Non-Exercise Activity Thermogenesis, or NEAT. This includes all the energy we expend for everything we do that is not sleeping, eating, or sports-like exercise—such as fidgeting, walking to the car, typing, and standing.",
+      "imageWikipediaTitle": "Walking",
+      "sources": [
+        {
+          "title": "Non-exercise activity thermogenesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Non-exercise_activity_thermogenesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Non-exercise_activity_thermogenesis",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The vital drainage system in your body that has no pump",
+      "body": "Your cardiovascular system relies on the heart to pump blood, but your lymphatic system—responsible for draining waste and circulating immune cells—has no central pump. Instead, it relies entirely on your physical movements. When your muscles contract during walking, breathing, or stretching, they squeeze the lymphatic vessels, pushing the fluid through one-way valves. Physical inactivity can cause this essential drainage system to stagnate.",
+      "imageWikipediaTitle": "Lymphatic system",
+      "sources": [
+        {
+          "title": "Lymphatic system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lymphatic_system"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lymphatic_system",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body produces three chemically distinct types of tears",
+      "body": "Not all tears are created equal. Your eyes produce basal tears to keep the cornea lubricated, and reflex tears to wash away irritants like onion vapors or dust. However, emotional tears are chemically unique. Triggered by intense feelings, emotional tears contain significantly higher concentrations of protein-based hormones, including natural painkillers and stress hormones like ACTH. This chemical release is why crying often brings a sense of physical relief.",
+      "imageWikipediaTitle": "Crying",
+      "sources": [
+        {
+          "title": "Tears",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tears"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tears",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you quickly become blind to the smell of your own home",
+      "body": "When you enter someone else's house, you instantly notice its distinct scent, yet you cannot smell your own home. This is due to olfactory adaptation. To prevent sensory overload, your brain's smell receptors stop responding to constant, familiar background odors after just a few minutes. This neural dampening frees up your sensory system to detect new, unfamiliar scents that could signal potential food or danger.",
+      "imageWikipediaTitle": "Olfaction",
+      "sources": [
+        {
+          "title": "Olfactory fatigue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olfactory_fatigue"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Olfactory_fatigue",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How your nervous system uses insulation to teleport signals",
+      "body": "If nerve signals traveled purely as a continuous wave down an uninsulated pathway, they would move incredibly slowly. To speed things up, your body wraps nerve fibers in a fatty insulating sheath called myelin. Instead of crawling along the wire, the electrical impulse literally jumps from one gap in the insulation to the next. This process, called saltatory conduction, increases signal speeds up to one hundred times.",
+      "imageWikipediaTitle": "Myelin",
+      "sources": [
+        {
+          "title": "Myelin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myelin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Myelin",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden sixth sense that lets you move in the dark",
+      "body": "You can easily touch your nose with your eyes closed because of a hidden sixth sense called proprioception. Tiny sensory receptors called proprioceptors are embedded in your muscles, tendons, and joints. They constantly measure muscle stretch and joint angles, sending a continuous stream of data to your brain. This real-time map allows your brain to know exactly where your limbs are in space without relying on sight.",
+      "imageWikipediaTitle": "Proprioception",
+      "sources": [
+        {
+          "title": "Proprioception",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Proprioception"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Proprioception",
+      "category": "health"
+    }
+  ]
+}

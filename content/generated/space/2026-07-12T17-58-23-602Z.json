@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T17:58:23.602Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mysterious invisible force is pulling our galaxy across space",
+      "body": "Our entire galactic neighborhood, including the Milky Way, is being dragged toward a specific point in deep space at over a million miles per hour. Known as the Great Attractor, this massive gravitational anomaly lies about 150 million light-years away. Because it sits directly behind the dusty disc of our own galaxy, it remains shrouded in mystery, hidden from our direct view.",
+      "imageWikipediaTitle": "Great Attractor",
+      "sources": [
+        {
+          "title": "Great Attractor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Attractor"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The solar system's innermost planet has a tail like a comet",
+      "body": "Mercury might look like a barren, cratered rock, but it boasts a surprising, comet-like feature: a glowing orange tail flowing behind it. This tail, stretching millions of miles into space, is made of sodium atoms blasted off Mercury's surface by intense solar wind and micrometeoroids. The sun's radiation pressure then pushes these atoms away, creating a faint cosmic streamer.",
+      "imageWikipediaTitle": "Mercury (planet)",
+      "sources": [
+        {
+          "title": "Atmosphere of Mercury",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Mercury"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Mercury",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun's outer atmosphere is inexplicably hotter than its surface",
+      "body": "It defies common sense: the surface of the Sun burns at a searing 10,000 degrees Fahrenheit, but its outer atmosphere, the corona, reaches millions of degrees. This is like standing next to a campfire and finding that the air yards away is hundreds of times hotter than the flames. Scientists believe magnetic waves and nanoflares drive this mysterious, counterintuitive heating.",
+      "imageWikipediaTitle": "Stellar corona",
+      "sources": [
+        {
+          "title": "Stellar corona",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stellar_corona"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stellar_corona",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "It rains precious gemstones deep inside Uranus and Neptune",
+      "body": "Deep within the icy giants Uranus and Neptune, extreme atmospheric pressures and temperatures squeeze hydrogen and carbon into solid diamonds. These glittering gemstones then slowly sink like heavy hailstones down through the planets' mantle layers toward their solid cores. Scientists have even recreated this exotic diamond rain in laboratory experiments using high-powered lasers.",
+      "imageWikipediaTitle": "Neptune",
+      "sources": [
+        {
+          "title": "Neptune",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neptune"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Neptune",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Astronauts report that open space smells like seared steak",
+      "body": "Although space is a vacuum, it is not completely odorless. Astronauts returning from spacewalks consistently report a distinct scent clinging to their spacesuits and tools once the airlock repressurizes. They describe it as a mixture of seared steak, hot metal, and welding fumes. This odor is likely caused by highly reactive, single oxygen atoms bonding with the space gear.",
+      "imageWikipediaTitle": "Extravehicular activity",
+      "sources": [
+        {
+          "title": "Outer space",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Outer_space"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Outer_space",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Moon is actively shrinking and experiencing its own quakes",
+      "body": "The Moon is not a dead, static rock. It experiences moonquakes that can last for up to ten minutes—far longer than typical earthquakes on our damp planet. Some of these tremors are caused by tidal forces from Earth's gravity, while others occur as the Moon's interior cools down, causing its crust to contract and wrinkle like a drying grape.",
+      "imageWikipediaTitle": "Moon",
+      "sources": [
+        {
+          "title": "Moonquake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moonquake"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moonquake",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The universe's smallest stars can live for trillions of years",
+      "body": "While massive stars burn through their fuel quickly and die in spectacular supernovas, tiny red dwarf stars are incredibly frugal. They fuse hydrogen so slowly and efficiently that the smallest among them can shine for up to ten trillion years. Since the universe is only 13.8 billion years old, not a single red dwarf has ever died of old age.",
+      "imageWikipediaTitle": "Red dwarf",
+      "sources": [
+        {
+          "title": "Red dwarf",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Red_dwarf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Red_dwarf",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Countless dark worlds wander interstellar space without a star",
+      "body": "Not all planets orbit a star. Billions of rogue planets drift completely alone through the pitch-black void of the Milky Way. Cast out of their original solar systems during the chaotic process of planetary formation, these cosmic orphans wander the galaxy untethered, destined to spend eternity in freezing, starless darkness.",
+      "imageWikipediaTitle": "Rogue planet",
+      "sources": [
+        {
+          "title": "Rogue planet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rogue_planet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rogue_planet",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A permanent, perfect hexagon spins on Saturn's north pole",
+      "body": "One of the solar system's strangest sights is a massive, six-sided jet stream spinning eternally at Saturn's north pole. Each side of this geometric storm is nearly 9,000 miles long—wider than Earth itself. Scientists believe this perfect hexagon is a standing wave pattern created by the planet's intense, deep-seated atmospheric winds interacting with each other.",
+      "imageWikipediaTitle": "Saturn's hexagon",
+      "sources": [
+        {
+          "title": "Saturn's hexagon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Saturn%27s_hexagon",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sunsets on the red planet are a cool, icy blue",
+      "body": "On Mars, the daytime sky is a butterscotch color, but as the sun dips below the horizon, the sky glows a chilly, electric blue. This happens because the fine dust suspended in the thin Martian atmosphere scatters red light away while letting blue light penetrate much more efficiently. It creates a striking, inverse version of Earth's familiar orange sunsets.",
+      "imageWikipediaTitle": "Mars",
+      "sources": [
+        {
+          "title": "Astronomy on Mars",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Astronomy_on_Mars"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Astronomy_on_Mars",
+      "category": "space"
+    }
+  ]
+}
