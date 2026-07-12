@@ -71,7 +71,13 @@ async function generateWithGroq(prompt: string, apiKey: string): Promise<Generat
   return { text, model: GROQ_MODEL };
 }
 
-/** Generate a JSON response, falling back Gemini → Groq on quota/server errors. */
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Generate a JSON response. Retries Gemini with backoff on rate limits
+ * (free tier is easy to trip when generating many categories in a row),
+ * then falls back to Groq if configured.
+ */
 export async function generateJSON(prompt: string): Promise<GenerateResult> {
   const geminiKey = process.env.GEMINI_API_KEY;
   const groqKey = process.env.GROQ_API_KEY;
@@ -79,16 +85,27 @@ export async function generateJSON(prompt: string): Promise<GenerateResult> {
     throw new Error("No AI provider configured: set GEMINI_API_KEY and/or GROQ_API_KEY");
   }
 
+  let lastError: unknown;
   if (geminiKey) {
-    try {
-      return await generateWithGemini(prompt, geminiKey);
-    } catch (e) {
-      const status = e instanceof ProviderError ? e.status : 0;
-      // 404 = model retired/renamed; still worth trying the other provider.
-      const retryable = status === 429 || status === 404 || status >= 500 || status === 0;
-      if (!groqKey || !retryable) throw e;
-      console.warn(`  Gemini failed (${status}) — falling back to Groq`);
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        return await generateWithGemini(prompt, geminiKey);
+      } catch (e) {
+        lastError = e;
+        const status = e instanceof ProviderError ? e.status : 0;
+        // 404 = model retired/renamed — retrying won't help, go to fallback.
+        if (status === 404) break;
+        const retryable = status === 429 || status >= 500 || status === 0;
+        if (!retryable) throw e;
+        if (attempt < 3) {
+          const wait = attempt * 30_000;
+          console.warn(`  Gemini ${status} — retrying in ${wait / 1000}s (attempt ${attempt + 1}/3)`);
+          await sleep(wait);
+        }
+      }
     }
+    if (!groqKey) throw lastError;
+    console.warn(`  Gemini exhausted retries — falling back to Groq`);
   }
   return generateWithGroq(prompt, groqKey!);
 }

@@ -15,7 +15,6 @@
 import "dotenv/config";
 import { mkdir, writeFile, readFile, readdir } from "fs/promises";
 import { join } from "path";
-import { z } from "zod";
 import { generateJSON } from "../src/lib/ai-provider";
 import { cardSchema, type CardInput } from "../src/lib/content-schema";
 
@@ -40,7 +39,6 @@ const FALLBACK_CATEGORIES: Record<string, string> = {
 };
 
 const generatedCardSchema = cardSchema.omit({ category: true });
-const responseSchema = z.object({ cards: z.array(generatedCardSchema) });
 
 function buildPrompt(opts: {
   categoryName: string;
@@ -117,6 +115,23 @@ async function localTitles(slug: string): Promise<string[]> {
   return titles;
 }
 
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+
+/** Parse model output, salvaging valid cards instead of all-or-nothing. */
+function parseCards(text: string, slug: string): CardInput[] {
+  const raw = JSON.parse(text) as { cards?: unknown[] };
+  if (!Array.isArray(raw.cards)) throw new Error('missing "cards" array');
+  const cards: CardInput[] = [];
+  let dropped = 0;
+  for (const item of raw.cards) {
+    const result = generatedCardSchema.safeParse(item);
+    if (result.success) cards.push({ ...result.data, category: slug });
+    else dropped++;
+  }
+  if (dropped) console.warn(`  ! ${slug}: dropped ${dropped} card(s) that failed schema validation`);
+  return cards;
+}
+
 async function generateForCategory(target: {
   slug: string;
   name: string;
@@ -132,15 +147,26 @@ async function generateForCategory(target: {
     existingTitles: target.existingTitles,
   });
 
-  const { text, model } = await generateJSON(prompt);
-
-  let cards: CardInput[];
-  try {
-    const parsed = responseSchema.parse(JSON.parse(text));
-    cards = parsed.cards.map((c) => ({ ...c, category: target.slug }));
-  } catch (e) {
-    console.error(`  ✗ ${target.slug}: model output failed validation — skipping. ${e instanceof Error ? e.message.slice(0, 300) : e}`);
-    return { slug: target.slug, written: 0 };
+  // Two attempts: models occasionally emit malformed JSON.
+  let cards: CardInput[] = [];
+  let model = "";
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    const result = await generateJSON(prompt);
+    model = result.model;
+    try {
+      cards = parseCards(result.text, target.slug);
+      if (cards.length > 0) break;
+      throw new Error("no valid cards in response");
+    } catch (e) {
+      const msg = e instanceof Error ? e.message.slice(0, 200) : String(e);
+      if (attempt < 2) {
+        console.warn(`  ! ${target.slug}: bad model output (${msg}) — retrying once`);
+        await sleep(5_000);
+      } else {
+        console.error(`  ✗ ${target.slug}: bad model output after retry (${msg}) — skipping`);
+        return { slug: target.slug, written: 0 };
+      }
+    }
   }
 
   const dir = join(process.cwd(), "content", "generated", target.slug);
@@ -214,11 +240,30 @@ async function main() {
   }
 
   let total = 0;
-  for (const target of targets) {
-    const { written } = await generateForCategory(target);
-    total += written;
+  const failed: string[] = [];
+  for (const [i, target] of targets.entries()) {
+    try {
+      const { written } = await generateForCategory(target);
+      total += written;
+      if (written === 0) failed.push(target.slug);
+    } catch (e) {
+      // One category failing must not lose the others' output.
+      console.error(`  ✗ ${target.slug}: ${e instanceof Error ? e.message.slice(0, 300) : e}`);
+      failed.push(target.slug);
+    }
+    // Pace requests — the free tier rate-limits bursts.
+    if (i < targets.length - 1) await sleep(10_000);
   }
-  console.log(`\nDone: ${total} card(s) written across ${targets.length} categor${targets.length === 1 ? "y" : "ies"}.`);
+
+  console.log(
+    `\nDone: ${total} card(s) written across ${targets.length - failed.length}/${targets.length} categor${targets.length === 1 ? "y" : "ies"}.`
+  );
+  if (failed.length) {
+    console.warn(`Failed categories (will be retried by the next scheduled run): ${failed.join(", ")}`);
+  }
+  // Only fail the job when nothing at all was produced, so partial output
+  // still gets committed by CI.
+  if (targets.length > 0 && total === 0) process.exit(1);
 }
 
 main().catch((e) => {
