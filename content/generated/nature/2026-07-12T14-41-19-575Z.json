@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:41:19.575Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bdelloid rotifers survived 24,000 years frozen in Siberian permafrost",
+      "body": "Deep beneath the Siberian permafrost, scientists revived tiny, multicellular organisms called bdelloid rotifers after a 24,000-year sleep. These microscopic creatures survived by entering a state of cryptobiosis, shutting down their metabolism completely. Once thawed, they not only wiggled back to life but successfully reproduced, proving that multicellular life can survive tens of thousands of years in frozen suspension.",
+      "imageWikipediaTitle": "Bdelloidea",
+      "sources": [
+        {
+          "title": "Bdelloidea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bdelloidea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bdelloidea",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bombardier beetles mix chemicals inside their bodies to shoot boiling-hot spray",
+      "body": "When threatened, the bombardier beetle unleashes a high-velocity chemical weapon from its abdomen. By mixing hydroquinone and hydrogen peroxide with specialized enzymes in an internal reaction chamber, the beetle produces a boiling-hot, toxic spray. This chemical reaction heats the liquid to nearly 100 degrees Celsius, shooting it in rapid pulses that can easily deter or even kill predatory insects and small amphibians.",
+      "imageWikipediaTitle": "Bombardier beetle",
+      "sources": [
+        {
+          "title": "Bombardier beetle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bombardier_beetle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bombardier_beetle",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hooded pitohui is one of the world's few poisonous birds",
+      "body": "While we often associate poison with frogs or snakes, the hooded pitohui of New Guinea carries a lethal secret in its feathers and skin. It harbors batrachotoxin, the same neurotoxin found in poison dart frogs. The bird does not produce the toxin itself; it accumulates the poison by eating toxic choresine beetles. Merely touching the bird can cause numbness, burning, and tingling in humans.",
+      "imageWikipediaTitle": "Hooded pitohui",
+      "sources": [
+        {
+          "title": "Hooded pitohui",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hooded_pitohui"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hooded_pitohui",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Woodpeckers wrap their incredibly long tongues around their brains to prevent concussions",
+      "body": "Woodpeckers strike tree trunks with a force of up to 1,200 g-forces, which would easily cause a human concussion. To protect their brains, these birds rely on a bizarre anatomical safety belt. Their extremely long tongues loop out of their mouths, wrap around the back of their skulls, and anchor between their eyes. This muscular apparatus acts as a shock absorber, stabilizing the skull during high-impact hammering.",
+      "imageWikipediaTitle": "Woodpecker",
+      "sources": [
+        {
+          "title": "Woodpecker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodpecker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Woodpecker",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The coelacanth was thought to be extinct for 66 million years until a live one was found",
+      "body": "For decades, scientists believed the coelacanth, a bizarre lobe-finned fish, had vanished alongside the dinosaurs 66 million years ago. That changed in 1938 when a living specimen was discovered off the coast of South Africa. These deep-sea survivors can grow over six feet long, possess a unique lobed fin structure resembling limbs, and have remained virtually unchanged for millions of years, earning them the title of living fossils.",
+      "imageWikipediaTitle": "Coelacanth",
+      "sources": [
+        {
+          "title": "Coelacanth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coelacanth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Coelacanth",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The sandbox tree explodes to fling its seeds at highway speeds",
+      "body": "The sandbox tree of the Amazon rainforest is covered in sharp spikes and produces highly toxic sap, but its reproduction method is even more dangerous. Its pumpkin-shaped seed pods dry out until they build immense internal tension. When fully ripe, they explode with a loud bang like a gunshot, launching seeds at speeds exceeding 150 miles per hour, scattering them up to 100 feet away from the parent tree.",
+      "imageWikipediaTitle": "Hura crepitans",
+      "sources": [
+        {
+          "title": "Hura crepitans",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hura_crepitans"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hura_crepitans",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horned lizards can squirt blood from their eyes to scare away predators",
+      "body": "When cornered by a predator like a coyote, the coast horned lizard deploys a shocking defense mechanism called autohaemorrhaging. By restricting blood flow out of its head, the lizard increases pressure in the tiny vessels around its eyes until they rupture. It can then spray a stream of foul-tasting blood from its eye sockets up to several feet, tasting so terrible to canines that they immediately retreat.",
+      "imageWikipediaTitle": "Horned lizard",
+      "sources": [
+        {
+          "title": "Horned lizard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horned_lizard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Horned_lizard",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This sea slug steals solar power from algae to survive like a plant",
+      "body": "The bright green sea slug Elysia chlorotica behaves more like a plant than an animal. By eating algae, it doesn't just digest its food; it harvests the photosynthetic chloroplasts and embeds them into its own digestive cells. This process, called kleptoplasty, allows the slug to live off pure sunlight and carbon dioxide for up to nine months, effectively running on solar power.",
+      "imageWikipediaTitle": "Elysia chlorotica",
+      "sources": [
+        {
+          "title": "Elysia chlorotica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elysia_chlorotica"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Elysia_chlorotica",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Monarch butterflies take four generations to complete their annual migration",
+      "body": "Every autumn, millions of monarch butterflies travel thousands of miles from North America to Mexico. Amazingly, no single butterfly makes the entire round trip. It takes four successive generations to complete the annual cycle. The super generation born in late summer lives up to eight months to make the long flight south, while the spring generations only live for a few weeks, passing the migration torch northward.",
+      "imageWikipediaTitle": "Monarch butterfly",
+      "sources": [
+        {
+          "title": "Monarch butterfly migration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monarch_butterfly_migration"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Monarch_butterfly_migration",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Archerfish shoot down land-dwelling insects with high-precision water jets",
+      "body": "The archerfish is a master marksman of the aquatic world. By pressing its tongue against a groove in its mouth, it acts like a gun barrel, spitting high-pressure streams of water at insects resting on overhanging branches. The fish can accurately hit targets up to six feet away, calculating light refraction at the water's surface in a fraction of a second to ensure a perfect strike.",
+      "imageWikipediaTitle": "Archerfish",
+      "sources": [
+        {
+          "title": "Archerfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Archerfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Archerfish",
+      "category": "nature"
+    }
+  ]
+}

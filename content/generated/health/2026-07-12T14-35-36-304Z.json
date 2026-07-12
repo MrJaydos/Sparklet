@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:35:36.304Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gut Bacteria",
+      "body": "The bacteria in your gut produce certain vitamins, like biotin and vitamin K, that are essential for your body.",
+      "imageWikipediaTitle": "Gut_flora",
+      "sources": [
+        {
+          "title": "Gut flora",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gut_flora"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gut_flora",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sodium Intake",
+      "body": "Consuming too much sodium can increase blood pressure, which can lead to heart disease and stroke.",
+      "imageWikipediaTitle": "Hypertension",
+      "sources": [
+        {
+          "title": "Sodium and Health",
+          "publisher": "American Heart Association",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium-and-salt"
+        }
+      ],
+      "readMoreUrl": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium-and-salt",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Muscle Atrophy",
+      "body": "Prolonged periods of inactivity can cause muscle atrophy, which is the loss of muscle mass and strength.",
+      "imageWikipediaTitle": "Muscle_atrophy",
+      "sources": [
+        {
+          "title": "Muscle atrophy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscle_atrophy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Muscle_atrophy",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Probiotics",
+      "body": "Probiotics are live bacteria and yeasts that can help maintain a healthy gut microbiome.",
+      "imageWikipediaTitle": "Probiotics",
+      "sources": [
+        {
+          "title": "Probiotics",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know"
+        }
+      ],
+      "readMoreUrl": "https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dehydration",
+      "body": "Severe dehydration can cause seizures, brain damage, and even death if left untreated.",
+      "imageWikipediaTitle": "Dehydration",
+      "sources": [
+        {
+          "title": "Dehydration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dehydration"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dehydration",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Exercise and Mental Health",
+      "body": "Regular exercise can help reduce symptoms of anxiety and depression by releasing endorphins.",
+      "imageWikipediaTitle": "Exercise",
+      "sources": [
+        {
+          "title": "Exercise and Mental Health",
+          "publisher": "National Institute of Mental Health",
+          "url": "https://www.nimh.nih.gov/health/topics/fitness/index.shtml"
+        }
+      ],
+      "readMoreUrl": "https://www.nimh.nih.gov/health/topics/fitness/index.shtml",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sugar Intake",
+      "body": "Consuming high amounts of added sugars can increase the risk of obesity, type 2 diabetes, and heart disease.",
+      "imageWikipediaTitle": "Sugar",
+      "sources": [
+        {
+          "title": "Added Sugars",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/nutrition/data-statistics/added-sugars.html"
+        }
+      ],
+      "readMoreUrl": "https://www.cdc.gov/nutrition/data-statistics/added-sugars.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sleep Stages",
+      "body": "There are three stages of non-rapid eye movement sleep and one stage of rapid eye movement sleep.",
+      "imageWikipediaTitle": "Sleep",
+      "sources": [
+        {
+          "title": "Sleep",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleep"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sleep",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Caffeine Effects",
+      "body": "Caffeine can increase alertness and energy by blocking adenosine receptors in the brain.",
+      "imageWikipediaTitle": "Caffeine",
+      "sources": [
+        {
+          "title": "Caffeine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Caffeine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Caffeine",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nutrient Deficiencies",
+      "body": "Deficiencies in essential nutrients like iron, vitamin B12, and omega-3 fatty acids can lead to various health problems.",
+      "imageWikipediaTitle": "Nutrient_deficiency",
+      "sources": [
+        {
+          "title": "Nutrient deficiency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nutrient_deficiency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nutrient_deficiency",
+      "category": "health"
+    }
+  ]
+}

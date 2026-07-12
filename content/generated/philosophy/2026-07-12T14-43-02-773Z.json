@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:43:02.773Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Trolley Problem",
+      "body": "A runaway trolley is headed towards five people. You can divert it to a side track, killing one person. What do you do?",
+      "imageWikipediaTitle": "Trolley problem",
+      "sources": [
+        {
+          "title": "Trolley problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trolley_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Trolley_problem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Brain in a Vat",
+      "body": "Imagine your brain is in a vat, and your experiences are simulated. Can you ever be sure what's real?",
+      "imageWikipediaTitle": "Brain in a vat",
+      "sources": [
+        {
+          "title": "Brain in a vat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brain_in_a_vat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brain_in_a_vat",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ship of Theseus",
+      "body": "If you replace every part of a ship, is it still the same ship? This thought experiment raises questions about identity and change.",
+      "imageWikipediaTitle": "Ship of Theseus",
+      "sources": [
+        {
+          "title": "Ship of Theseus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ship_of_Theseus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ship_of_Theseus",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Prisoner's Dilemma",
+      "body": "Two prisoners must decide whether to cooperate or betray each other. This dilemma illustrates the conflict between individual and group rationality.",
+      "imageWikipediaTitle": "Prisoner's dilemma",
+      "sources": [
+        {
+          "title": "Prisoner's dilemma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Prisoner%27s_dilemma",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Experience Machine",
+      "body": "Imagine a machine that can simulate any experience. Would you choose to spend your life in a simulated reality?",
+      "imageWikipediaTitle": "Experience machine",
+      "sources": [
+        {
+          "title": "Experience machine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Experience_machine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Experience_machine",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Philosophical Zombie",
+      "body": "A being that behaves like a human but lacks consciousness. This thought experiment raises questions about the nature of consciousness.",
+      "imageWikipediaTitle": "Philosophical zombie",
+      "sources": [
+        {
+          "title": "Philosophical zombie",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philosophical_zombie"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Philosophical_zombie",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mary's Room",
+      "body": "A person with complete knowledge of the world, but no experiences. Can they truly understand what it's like to experience something?",
+      "imageWikipediaTitle": "Mary's room",
+      "sources": [
+        {
+          "title": "Mary's room",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mary%27s_room"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mary%27s_room",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Grandfather Paradox",
+      "body": "What if a time traveler went back in time and killed their own grandfather? This paradox raises questions about the consistency of time travel.",
+      "imageWikipediaTitle": "Grandfather paradox",
+      "sources": [
+        {
+          "title": "Grandfather paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grandfather_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Grandfather_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Chinese Room",
+      "body": "A person who doesn't speak Chinese is locked in a room with Chinese characters. Can they truly understand the language?",
+      "imageWikipediaTitle": "Chinese room argument",
+      "sources": [
+        {
+          "title": "Chinese room argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_room_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chinese_room_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Simulation Hypothesis",
+      "body": "The idea that our reality is a simulation created by a more advanced civilization. Is it possible to prove or disprove this hypothesis?",
+      "imageWikipediaTitle": "Simulation hypothesis",
+      "sources": [
+        {
+          "title": "Simulation hypothesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Simulation_hypothesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+      "category": "philosophy"
+    }
+  ]
+}

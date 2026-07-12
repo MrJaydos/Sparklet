@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-07-12T14:44:45.840Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mental Health Stigma",
+      "body": "People with mental health issues often face social stigma, leading to decreased help-seeking behavior and social isolation.",
+      "sources": [
+        {
+          "title": "Reducing Stigma",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/mental_health/stigma/en/"
+        }
+      ],
+      "readMoreUrl": "https://www.who.int/mental_health/stigma/en/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Brain Plasticity",
+      "body": "The brain can reorganize itself in response to new experiences, learning, and environmental changes throughout life.",
+      "imageWikipediaTitle": "Neuroplasticity",
+      "sources": [
+        {
+          "title": "Neuroplasticity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neuroplasticity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Neuroplasticity",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Emotional Contagion",
+      "body": "People can 'catch' emotions from others, influencing their mood and behavior, often unconsciously.",
+      "imageWikipediaTitle": "Emotional_contagion",
+      "sources": [
+        {
+          "title": "Emotional Contagion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emotional_contagion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Emotional_contagion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Confirmation Bias",
+      "body": "People tend to favor information that confirms their existing beliefs and ignore or undervalue contradictory evidence.",
+      "imageWikipediaTitle": "Confirmation_bias",
+      "sources": [
+        {
+          "title": "Confirmation Bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Confirmation_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Confirmation_bias",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Dunning-Kruger Effect",
+      "body": "People with limited knowledge or expertise often overestimate their abilities and performance, while underestimating others.",
+      "imageWikipediaTitle": "Dunning%E2%80%93Kruger_effect",
+      "sources": [
+        {
+          "title": "Dunning-Kruger Effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Baader-Meinhof Phenomenon",
+      "body": "People tend to notice and remember patterns or phenomena they've recently learned about, even if they're not actually more common.",
+      "imageWikipediaTitle": "Frequency_illusion",
+      "sources": [
+        {
+          "title": "Frequency Illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frequency_illusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Frequency_illusion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Impostor Syndrome",
+      "body": "High-achieving individuals often feel like they're 'faking it' and fear being discovered as incompetent, despite evidence of their abilities.",
+      "imageWikipediaTitle": "Impostor_syndrome",
+      "sources": [
+        {
+          "title": "Impostor Syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Impostor_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Impostor_syndrome",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Power of Priming",
+      "body": "Subtle cues, such as words or images, can influence people's thoughts, feelings, and behavior without them realizing it.",
+      "imageWikipediaTitle": "Priming_(psychology)",
+      "sources": [
+        {
+          "title": "Priming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Priming_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Priming_(psychology)",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Loss Aversion",
+      "body": "People tend to fear losses more than they value gains, which can lead to risk-averse decision-making.",
+      "imageWikipediaTitle": "Loss_aversion",
+      "sources": [
+        {
+          "title": "Loss Aversion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Loss_aversion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Loss_aversion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Availability Heuristic",
+      "body": "People tend to overestimate the importance or likelihood of information that readily comes to mind, rather than seeking a more balanced view.",
+      "imageWikipediaTitle": "Availability_heuristic",
+      "sources": [
+        {
+          "title": "Availability Heuristic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Availability_heuristic"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Availability_heuristic",
+      "category": "psychology"
+    }
+  ]
+}

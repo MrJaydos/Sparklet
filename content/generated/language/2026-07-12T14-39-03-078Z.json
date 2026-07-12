@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:39:03.078Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Word 'Robot'",
+      "body": "The word 'robot' originated from the Czech word 'robota', meaning forced labor or drudgery. It was first used in the 1920 play 'R.U.R.' by Karel Čapek.",
+      "imageWikipediaTitle": "Robot",
+      "sources": [
+        {
+          "title": "Robot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robot",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Quirky 'Quarrel'",
+      "body": "The word 'quarrel' originated from the Old French word 'querele', which referred to a crossbow bolt. Over time, the term took on a more figurative meaning, representing a conflict or disagreement.",
+      "imageWikipediaTitle": "Crossbow",
+      "sources": [
+        {
+          "title": "Quarrel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quarrel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Quarrel",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Linguistic 'Lingo'",
+      "body": "The word 'lingo' originated from the Latin word 'lingua', meaning language or tongue. It has been used to describe a particular dialect or jargon since the 17th century.",
+      "imageWikipediaTitle": "Linguistics",
+      "sources": [
+        {
+          "title": "Lingo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lingo"
+        },
+        {
+          "title": "Lingua",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lingua"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lingo",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Etymological 'Echo'",
+      "body": "The word 'echo' originated from Greek mythology, where Echo was a nymph who could only repeat the last words spoken to her. The term has been used to describe a repeated sound since the 16th century.",
+      "imageWikipediaTitle": "Echo (mythology)",
+      "sources": [
+        {
+          "title": "Echo (mythology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Echo_(mythology)"
+        },
+        {
+          "title": "Echo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Echo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Echo_(mythology)",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Curious 'Curator'",
+      "body": "The word 'curator' originated from the Latin word 'curare', meaning to take care of. It has been used to describe a person responsible for managing and preserving collections since the 17th century.",
+      "imageWikipediaTitle": "Museum curator",
+      "sources": [
+        {
+          "title": "Curator",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curator"
+        },
+        {
+          "title": "Curare",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curare"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Curator",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History of 'Harass'",
+      "body": "The word 'harass' originated from the Old French word 'harer', which meant to set dogs on or to torment. It has been used to describe a persistent and annoying behavior since the 17th century.",
+      "imageWikipediaTitle": "Harassment",
+      "sources": [
+        {
+          "title": "Harassment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harassment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Harassment",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Word 'Sandwich'",
+      "body": "The word 'sandwich' originated from John Montagu, the 4th Earl of Sandwich, who requested his valet to bring him slices of meat between two pieces of bread so he could eat while continuing to play cards.",
+      "imageWikipediaTitle": "John Montagu, 4th Earl of Sandwich",
+      "sources": [
+        {
+          "title": "Sandwich",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sandwich"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sandwich",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Intriguing 'Igloo'",
+      "body": "The word 'igloo' originated from the Inuit language, where it is spelled 'iglu' and means 'house' or 'dwelling'. The term has been used to describe a type of shelter built from blocks of snow since the 17th century.",
+      "imageWikipediaTitle": "Igloo",
+      "sources": [
+        {
+          "title": "Igloo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Igloo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Igloo",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Story of 'Slogan'",
+      "body": "The word 'slogan' originated from the Gaelic phrase 'sluagh-ghairm', which means 'battle cry'. It has been used to describe a catchy phrase or motto since the 17th century.",
+      "imageWikipediaTitle": "Slogan",
+      "sources": [
+        {
+          "title": "Slogan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Slogan"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Slogan",
+      "category": "language"
+    }
+  ]
+}

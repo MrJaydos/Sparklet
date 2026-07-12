@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:37:19.445Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rosetta Stone",
+      "body": "The Rosetta Stone, discovered in 1799, is a decree issued by Egyptian pharaoh Ptolemy V, featuring the same text in three languages: ancient Greek, demotic script, and hieroglyphics, allowing scholars to decipher Egyptian hieroglyphs.",
+      "imageWikipediaTitle": "Rosetta Stone",
+      "sources": [
+        {
+          "title": "Rosetta Stone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rosetta_Stone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Computer Bug",
+      "body": "The first computer bug was an actual insect that got stuck in the Harvard Mark II computer in 1947, prompting the operators to tape the moth to the computer log and write 'First actual case of bug being found'",
+      "imageWikipediaTitle": "Computer bug",
+      "sources": [
+        {
+          "title": "Computer bug",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_bug"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Computer_bug",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Radium Girls",
+      "body": "During World War I, hundreds of women were employed to paint watch faces with glow-in-the-dark paint containing radium, leading to severe health issues and the subsequent fight for workers' rights.",
+      "imageWikipediaTitle": "Radium Girls",
+      "sources": [
+        {
+          "title": "Radium Girls",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Radium_Girls"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Radium_Girls",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Great Fire of London",
+      "body": "In 1666, a devastating fire swept through London, destroying much of the city and leading to significant changes in building codes and firefighting practices.",
+      "imageWikipediaTitle": "Great Fire of London",
+      "sources": [
+        {
+          "title": "Great Fire of London",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Fire_of_London"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Fire_of_London",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The First Successful Heart Transplant",
+      "body": "In 1967, Dr. Christiaan Barnard performed the world's first successful human-to-human heart transplant, revolutionizing cardiovascular surgery.",
+      "imageWikipediaTitle": "Christiaan Barnard",
+      "sources": [
+        {
+          "title": "Christiaan Barnard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christiaan_Barnard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Christiaan_Barnard",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Discovery of Penicillin",
+      "body": "In 1928, Scottish scientist Alexander Fleming discovered penicillin, a naturally occurring antibiotic that has saved countless lives and transformed the treatment of bacterial infections.",
+      "imageWikipediaTitle": "Alexander Fleming",
+      "sources": [
+        {
+          "title": "Alexander Fleming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Alexander_Fleming",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wright Brothers' First Flight",
+      "body": "On December 17, 1903, Orville and Wilbur Wright successfully flew the world's first powered, heavier-than-air aircraft, marking a pivotal moment in aviation history.",
+      "imageWikipediaTitle": "Wright brothers",
+      "sources": [
+        {
+          "title": "Wright brothers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wright_brothers"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wright_brothers",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Construction of the Panama Canal",
+      "body": "The Panama Canal, completed in 1914, is one of the most complex and ambitious engineering projects in history, connecting the Atlantic and Pacific Oceans and revolutionizing global trade.",
+      "imageWikipediaTitle": "Panama Canal",
+      "sources": [
+        {
+          "title": "Panama Canal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Panama_Canal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Panama_Canal",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The First Moon Landing",
+      "body": "On July 20, 1969, NASA's Apollo 11 mission successfully landed astronauts Neil Armstrong and Buzz Aldrin on the surface of the Moon, marking a historic achievement in space exploration.",
+      "imageWikipediaTitle": "Apollo 11",
+      "sources": [
+        {
+          "title": "Apollo 11",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_11"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Apollo_11",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Discovery of King Tut's Tomb",
+      "body": "In 1922, British archaeologist Howard Carter discovered the tomb of Pharaoh Tutankhamun, one of the most significant archaeological finds of the 20th century, providing valuable insights into ancient Egyptian history and culture.",
+      "imageWikipediaTitle": "Tutankhamun",
+      "sources": [
+        {
+          "title": "Tutankhamun",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tutankhamun"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tutankhamun",
+      "category": "history"
+    }
+  ]
+}

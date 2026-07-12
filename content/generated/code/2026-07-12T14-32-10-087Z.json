@@ -1,0 +1,149 @@
+{
+  "generatedAt": "2026-07-12T14:32:10.087Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Code Red",
+      "body": "The term 'code red' originated in the 1970s at the NASA Johnson Space Center, where it signified a critical issue with the space shuttle's computer system.",
+      "sources": [
+        {
+          "title": "NASA",
+          "publisher": "NASA",
+          "url": "https://en.wikipedia.org/wiki/Code_red"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Code_red",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Compiler",
+      "body": "The first compiler was written by Grace Hopper in 1952, revolutionizing programming by allowing developers to write code in higher-level languages.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        {
+          "title": "Grace Hopper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Open Source",
+      "body": "The term 'open source' was first coined in 1998 by Christine Peterson, a futurist and lecturer, to describe software that is freely available and modifiable.",
+      "sources": [
+        {
+          "title": "Open-source software",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Open-source_software"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Open-source_software",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bug Origin",
+      "body": "The term 'bug' originated from a moth that got stuck in the Harvard Mark II computer in 1947, causing it to malfunction.",
+      "sources": [
+        {
+          "title": "Software bug",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Software_bug"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Software_bug",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Virus",
+      "body": "The first computer virus, 'Creeper', was discovered in 1971 and replicated itself on the ARPANET network, a precursor to the modern internet.",
+      "sources": [
+        {
+          "title": "Computer virus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_virus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Computer_virus",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "AI Winter",
+      "body": "The 'AI winter' of the 1980s occurred when funding for artificial intelligence research decreased due to a lack of progress and high expectations.",
+      "sources": [
+        {
+          "title": "AI winter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/AI_winter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/AI_winter",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Algorithm",
+      "body": "The first algorithm was developed by ancient Greek mathematician Euclid, who described a method for finding the greatest common divisor of two numbers.",
+      "imageWikipediaTitle": "Euclid",
+      "sources": [
+        {
+          "title": "Euclid's algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euclid%27s_algorithm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Euclid%27s_algorithm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Code Review",
+      "body": "Code review, a crucial step in software development, was first introduced in the 1970s by IBM, to ensure that code met certain standards and was free of errors.",
+      "sources": [
+        {
+          "title": "Code review",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Code_review"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Code_review",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Programming Language",
+      "body": "Short Code, developed in the 1940s, is considered one of the first high-level programming languages, simplifying the process of writing code.",
+      "sources": [
+        {
+          "title": "Short Code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Short_Code"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Short_Code",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Debugging",
+      "body": "The term 'debugging' was popularized by Admiral Grace Hopper, who found a moth stuck in a relay switch of the Harvard Mark II computer, coining the term.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        {
+          "title": "Debugging",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Debugging"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Debugging",
+      "category": "code"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:49:55.786Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Webcam",
+      "body": "The first webcam was created to monitor a coffee pot, allowing researchers to avoid getting up to find an empty pot.",
+      "imageWikipediaTitle": "Webcam",
+      "sources": [
+        {
+          "title": "Webcam",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Webcam"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Webcam",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moore's Law",
+      "body": "Gordon Moore observed that transistors on a microchip double about every two years, driving drastic increases in computing power.",
+      "imageWikipediaTitle": "Moore's law",
+      "sources": [
+        {
+          "title": "Moore's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moore%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moore%27s_law",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fiber Optics",
+      "body": "Fiber optic cables use light to transmit data, with some spanning entire oceans to connect continents.",
+      "imageWikipediaTitle": "Fiber-optic communication",
+      "sources": [
+        {
+          "title": "Fiber-optic communication",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fiber-optic_communication"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fiber-optic_communication",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Robotics Origins",
+      "body": "The word 'robot' comes from the Czech word 'robota', meaning forced labor, and was first used in a 1920 play.",
+      "imageWikipediaTitle": "Robot",
+      "sources": [
+        {
+          "title": "Robot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robot",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Virtual Reality",
+      "body": "The first virtual reality headset was developed in 1968 by Ivan Sutherland, a computer scientist.",
+      "imageWikipediaTitle": "Virtual reality",
+      "sources": [
+        {
+          "title": "Virtual reality",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Virtual_reality"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Virtual_reality",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Microprocessor",
+      "body": "The first microprocessor, the Intel 4004, was released in 1971 and had all the components of a computer on a single chip.",
+      "imageWikipediaTitle": "Intel 4004",
+      "sources": [
+        {
+          "title": "Intel 4004",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intel_4004"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lithium-Ion Batteries",
+      "body": "Lithium-ion batteries, used in most portable devices, were first proposed in the 1970s but didn't become practical until the 1990s.",
+      "imageWikipediaTitle": "Lithium-ion battery",
+      "sources": [
+        {
+          "title": "Lithium-ion battery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lithium-ion_battery"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lithium-ion_battery",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "First Cellular Network",
+      "body": "The first cellular network was launched in Japan in 1979, marking the beginning of mobile phone technology.",
+      "imageWikipediaTitle": "Mobile phone",
+      "sources": [
+        {
+          "title": "Mobile phone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mobile_phone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mobile_phone",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Touchscreen History",
+      "body": "The first touchscreen device was developed in the 1960s by E.A. Johnson, using a capacitive touchscreen.",
+      "imageWikipediaTitle": "Touchscreen",
+      "sources": [
+        {
+          "title": "Touchscreen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Touchscreen"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Touchscreen",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "3D Printing Origins",
+      "body": "The first 3D printing technology, stereolithography, was patented in 1986 by Chuck Hull, allowing for rapid prototyping.",
+      "imageWikipediaTitle": "3D printing",
+      "sources": [
+        {
+          "title": "3D printing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/3D_printing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/3D_printing",
+      "category": "tech"
+    }
+  ]
+}

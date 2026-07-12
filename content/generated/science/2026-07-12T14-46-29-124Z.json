@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:46:29.124Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gravity Warps Time",
+      "body": "According to Einstein's theory of general relativity, gravity warps the fabric of spacetime, causing time to pass slower near massive objects.",
+      "imageWikipediaTitle": "Gravitational time dilation",
+      "sources": [
+        {
+          "title": "General Relativity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_relativity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/General_relativity",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Butterfly Wings Create Rainbows",
+      "body": "The microscopic scales on butterfly wings reflect light and create the beautiful colors and rainbows we see, due to a phenomenon called thin-film interference.",
+      "imageWikipediaTitle": "Butterfly",
+      "sources": [
+        {
+          "title": "Butterfly",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Butterfly"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Iridescence",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Photosynthesis Powers Life",
+      "body": "Photosynthesis is the process by which plants, algae, and some bacteria convert sunlight, water, and carbon dioxide into glucose and oxygen, supporting life on Earth.",
+      "imageWikipediaTitle": "Photosynthesis",
+      "sources": [
+        {
+          "title": "Photosynthesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Photosynthesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Photosynthesis",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "DNA is Highly Resilient",
+      "body": "DNA is an incredibly resilient molecule, able to withstand extreme temperatures, radiation, and other forms of damage, which is essential for the survival of living organisms.",
+      "imageWikipediaTitle": "DNA",
+      "sources": [
+        {
+          "title": "DNA",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/DNA"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/DNA",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sound Waves Have Frequency",
+      "body": "Sound waves have frequency, which is the number of oscillations or cycles per second, measured in Hertz, and is perceived as pitch by the human ear.",
+      "imageWikipediaTitle": "Sound wave",
+      "sources": [
+        {
+          "title": "Sound",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sound"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sound",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Human Nose Can Detect Billions",
+      "body": "The human nose can detect an astonishing number of different odors, with estimates suggesting that we can recognize over a billion different scents.",
+      "imageWikipediaTitle": "Human nose",
+      "sources": [
+        {
+          "title": "Olfaction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olfaction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Olfaction",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Black Holes Have Event Horizons",
+      "body": "Black holes have event horizons, which mark the boundary beyond which nothing, including light, can escape the gravitational pull of the black hole.",
+      "imageWikipediaTitle": "Black hole",
+      "sources": [
+        {
+          "title": "Black hole",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Black_hole"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Black_hole",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Human Brain Uses 20% Energy",
+      "body": "The human brain accounts for only about 2% of the body's mass, but it uses approximately 20% of the body's energy expenditure, making it a highly active and energy-hungry organ.",
+      "imageWikipediaTitle": "Human brain",
+      "sources": [
+        {
+          "title": "Human brain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_brain"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Human_brain",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's Atmosphere Extends Far",
+      "body": "The Earth's atmosphere extends far beyond what we can see, with the exosphere, the outermost layer, reaching out to about 630,000 kilometers into space.",
+      "imageWikipediaTitle": "Atmosphere of Earth",
+      "sources": [
+        {
+          "title": "Atmosphere of Earth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Earth",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chaos Theory Applies Everywhere",
+      "body": "Chaos theory, which describes the behavior of complex and dynamic systems, applies to a wide range of phenomena, from weather patterns to population growth and even financial markets.",
+      "imageWikipediaTitle": "Chaos theory",
+      "sources": [
+        {
+          "title": "Chaos theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chaos_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chaos_theory",
+      "category": "science"
+    }
+  ]
+}

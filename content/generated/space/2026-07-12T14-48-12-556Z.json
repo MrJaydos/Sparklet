@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:48:12.556Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Space Debris",
+      "body": "Thousands of pieces of space debris, including old satellites and rocket parts, are orbiting the Earth, posing a collision risk to operational spacecraft.",
+      "imageWikipediaTitle": "Space debris",
+      "sources": [
+        {
+          "title": "Space Debris",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Safety_Security/Space_Debris"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/Safety_Security/Space_Debris",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fastest Moving Object",
+      "body": "The Parker Solar Probe is the fastest moving object ever built, with a top speed of over 150,000 miles per hour as it explores the Sun's corona.",
+      "imageWikipediaTitle": "Parker Solar Probe",
+      "sources": [
+        {
+          "title": "Parker Solar Probe",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/content/parker-solar-probe"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/content/parker-solar-probe",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Largest Black Hole",
+      "body": "The largest known black hole, Ton 618, has a mass of approximately 6.6 billion solar masses, making it one of the most massive objects in the universe.",
+      "imageWikipediaTitle": "Black hole",
+      "sources": [
+        {
+          "title": "Ton 618",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ton_618"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ton_618",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cosmic Microwave Background",
+      "body": "The cosmic microwave background radiation is the residual heat from the Big Bang, detectable in the form of microwave radiation that fills the universe.",
+      "imageWikipediaTitle": "Cosmic microwave background",
+      "sources": [
+        {
+          "title": "Cosmic Microwave Background",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cosmic_microwave_background",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gravitational Lensing",
+      "body": "Gravitational lensing is a phenomenon where the light from distant galaxies is bent by the gravitational field of massive objects, such as galaxies and galaxy clusters.",
+      "imageWikipediaTitle": "Gravitational lensing",
+      "sources": [
+        {
+          "title": "Gravitational Lensing",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/astrophysics/focus-areas/gravitational-lensing"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/astrophysics/focus-areas/gravitational-lensing",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asteroid Belt",
+      "body": "The asteroid belt is a region between the orbits of Mars and Jupiter where millions of small rocky objects, known as asteroids, orbit the Sun.",
+      "imageWikipediaTitle": "Asteroid belt",
+      "sources": [
+        {
+          "title": "Asteroid Belt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asteroid_belt"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Asteroid_belt",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Comet Tails",
+      "body": "Comets develop tails when they approach the Sun, as the solar wind and radiation cause the comet's ices to vaporize and create a stream of gas and dust.",
+      "imageWikipediaTitle": "Comet",
+      "sources": [
+        {
+          "title": "Comet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Comet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Comet",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dark Matter",
+      "body": "Dark matter is a type of matter that does not emit, absorb, or reflect any electromagnetic radiation, making it invisible to our telescopes, yet its presence can be inferred through its gravitational effects.",
+      "imageWikipediaTitle": "Dark matter",
+      "sources": [
+        {
+          "title": "Dark Matter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dark_matter",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Galaxy Clusters",
+      "body": "Galaxy clusters are the largest known structures in the universe, consisting of hundreds to thousands of galaxies held together by gravity, with vast amounts of dark matter and hot gas.",
+      "imageWikipediaTitle": "Galaxy cluster",
+      "sources": [
+        {
+          "title": "Galaxy Cluster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Galaxy_cluster"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Galaxy_cluster",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Solar Flares",
+      "body": "Solar flares are intense bursts of radiation that occur on the Sun, often accompanied by coronal mass ejections, which can affect the Earth's magnetic field and cause disruptions to communication and navigation systems.",
+      "imageWikipediaTitle": "Solar flare",
+      "sources": [
+        {
+          "title": "Solar Flare",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/solar-flare"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/solar-flare",
+      "category": "space"
+    }
+  ]
+}

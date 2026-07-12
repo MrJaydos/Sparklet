@@ -1,0 +1,156 @@
+{
+  "generatedAt": "2026-07-12T14:33:53.190Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tattoos in Japan",
+      "body": "In Japan, tattoos have a long history and are associated with the Yakuza, but they were originally used to mark social status and spiritual beliefs.",
+      "imageWikipediaTitle": "Irezumi",
+      "sources": [
+        {
+          "title": "Tattoo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tattoo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tattoo",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Day of the Dead",
+      "body": "Mexico's Day of the Dead is a celebration to honor loved ones who have passed away, with altars, decorations, and traditional foods like pan de muerto.",
+      "imageWikipediaTitle": "Day of the Dead",
+      "sources": [
+        {
+          "title": "Day of the Dead",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Kintsugi Art",
+      "body": "Kintsugi is a Japanese art form that repairs broken pottery with gold or silver, highlighting the brokenness rather than disguising it.",
+      "imageWikipediaTitle": "Kintsugi",
+      "sources": [
+        {
+          "title": "Kintsugi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kintsugi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kintsugi",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Henna Traditions",
+      "body": "In many cultures, henna is used to stain skin and hair, and is often associated with special occasions like weddings and festivals.",
+      "imageWikipediaTitle": "Henna",
+      "sources": [
+        {
+          "title": "Henna",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Henna"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Henna",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Geisha Culture",
+      "body": "Geishas are traditional Japanese entertainers who are trained in arts like music, dance, and poetry, and are known for their distinctive clothing and makeup.",
+      "imageWikipediaTitle": "Geisha",
+      "sources": [
+        {
+          "title": "Geisha",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geisha"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Geisha",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Carnival Celebrations",
+      "body": "Carnival is a festive season that occurs before Lent, and is celebrated with parades, music, and costumes in many countries around the world.",
+      "imageWikipediaTitle": "Carnival",
+      "sources": [
+        {
+          "title": "Carnival",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carnival"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Carnival",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Maori Face Tattoos",
+      "body": "Traditional Maori face tattoos, called Ta Moko, are intricate designs that signify status, rank, and spirituality in Maori culture.",
+      "imageWikipediaTitle": "Tā moko",
+      "sources": [
+        {
+          "title": "Tā moko",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tā_moko"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tā_moko",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sikh Turbans",
+      "body": "The Sikh turban, called a Dastar, is a symbol of spirituality and identity, and is worn by Sikh men as a reminder of their faith and values.",
+      "imageWikipediaTitle": "Dastar",
+      "sources": [
+        {
+          "title": "Dastar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dastar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dastar",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Navajo Weaving",
+      "body": "Navajo weaving is a traditional art form that involves creating intricate patterns and designs on looms, often using wool and other natural materials.",
+      "imageWikipediaTitle": "Navajo weaving",
+      "sources": [
+        {
+          "title": "Navajo weaving",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Navajo_weaving"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Navajo_weaving",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bollywood Dance",
+      "body": "Bollywood dance is a fusion of traditional and modern styles, often featuring intricate footwork and energetic movements, and is a popular form of entertainment in India.",
+      "imageWikipediaTitle": "Bollywood dance",
+      "sources": [
+        {
+          "title": "Bollywood dance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bollywood_dance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bollywood_dance",
+      "category": "culture"
+    }
+  ]
+}
