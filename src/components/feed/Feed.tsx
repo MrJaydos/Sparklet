@@ -5,6 +5,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FeedCard } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
 import { CategorySheet, type CategoryOption } from "./CategorySheet";
+import { CommentsSheet } from "./CommentsSheet";
+import { ReportSheet } from "./ReportSheet";
 
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
@@ -19,11 +21,13 @@ export function Feed({
   initialExhausted,
   categories,
   initialStreak,
+  initialUnread,
 }: {
   initialCards: FeedCard[];
   initialExhausted: boolean;
   categories: CategoryOption[];
   initialStreak: number;
+  initialUnread: number;
 }) {
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [exhausted, setExhausted] = useState(initialExhausted);
@@ -31,8 +35,13 @@ export function Feed({
   const [likes, setLikes] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.liked]))
   );
+  const [commentCounts, setCommentCounts] = useState<Record<string, number>>(() =>
+    Object.fromEntries(initialCards.map((c) => [c.id, c.commentCount]))
+  );
   const [streak, setStreak] = useState(initialStreak);
   const [showSheet, setShowSheet] = useState(false);
+  const [commentsFor, setCommentsFor] = useState<FeedCard | null>(null);
+  const [reportFor, setReportFor] = useState<string | null>(null);
   const [sessionViews, setSessionViews] = useState(0);
   const [loading, setLoading] = useState(false);
 
@@ -61,6 +70,10 @@ export function Feed({
         const data: { cards: FeedCard[]; exhausted: boolean } = await res.json();
         setLikes((prev) => ({
           ...Object.fromEntries(data.cards.map((c) => [c.id, c.liked])),
+          ...(opts?.reset ? {} : prev),
+        }));
+        setCommentCounts((prev) => ({
+          ...Object.fromEntries(data.cards.map((c) => [c.id, c.commentCount])),
           ...(opts?.reset ? {} : prev),
         }));
         setCards((prev) => (opts?.reset ? data.cards : [...prev, ...data.cards]));
@@ -156,7 +169,7 @@ export function Feed({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== " ") return;
-      if (showSheet) return;
+      if (showSheet || commentsFor || reportFor) return;
       e.preventDefault();
       containerRef.current?.scrollBy({
         top: (e.key === "ArrowUp" ? -1 : 1) * window.innerHeight,
@@ -165,7 +178,7 @@ export function Feed({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [showSheet]);
+  }, [showSheet, commentsFor, reportFor]);
 
   // Prefetch the next few images so swipes feel instant.
   useEffect(() => {
@@ -216,6 +229,18 @@ export function Feed({
           >
             🔥 {streak}
           </span>
+          <Link
+            href="/notifications"
+            aria-label="Notifications"
+            className="relative rounded-full bg-neutral-900/80 px-3 py-1.5 text-sm backdrop-blur transition hover:bg-neutral-800"
+          >
+            🔔
+            {initialUnread > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-violet-600 px-1 text-[10px] font-bold text-white">
+                {initialUnread > 9 ? "9+" : initialUnread}
+              </span>
+            )}
+          </Link>
           <button
             type="button"
             onClick={() => setShowSheet(true)}
@@ -244,7 +269,10 @@ export function Feed({
               <LearnCard
                 card={item.card}
                 liked={likes[item.card.id] ?? false}
+                commentCount={commentCounts[item.card.id] ?? 0}
                 onToggleLike={() => toggleLike(item.card.id)}
+                onOpenComments={() => setCommentsFor(item.card)}
+                onReport={() => setReportFor(item.card.id)}
               />
             </div>
           ) : item.kind === "checkin" ? (
@@ -320,6 +348,21 @@ export function Feed({
           onApply={applyCategories}
           onClose={() => setShowSheet(false)}
         />
+      )}
+
+      {commentsFor && (
+        <CommentsSheet
+          cardId={commentsFor.id}
+          cardTitle={commentsFor.title}
+          onClose={() => setCommentsFor(null)}
+          onCountChange={(n) =>
+            setCommentCounts((prev) => ({ ...prev, [commentsFor.id]: n }))
+          }
+        />
+      )}
+
+      {reportFor && (
+        <ReportSheet target={{ cardId: reportFor }} onClose={() => setReportFor(null)} />
       )}
     </div>
   );

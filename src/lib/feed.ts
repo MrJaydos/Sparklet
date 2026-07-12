@@ -11,6 +11,9 @@ export type FeedCard = {
   readMoreUrl: string;
   liked: boolean;
   seen: boolean;
+  score: number;
+  myVote: number;
+  commentCount: number;
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
@@ -21,6 +24,22 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+/**
+ * Weighted sampling without replacement (Efraimidis–Spirakis A-Res): each
+ * card's chance of surfacing early scales with its community score, while
+ * low-scored cards still appear — just less often. Used for the
+ * Random/Everything feed.
+ */
+function weightedShuffle<T extends { score: number }>(arr: T[]): T[] {
+  return arr
+    .map((item) => {
+      const weight = Math.max(0.5, 3 + item.score);
+      return { item, key: Math.pow(Math.random(), 1 / weight) };
+    })
+    .sort((a, b) => b.key - a.key)
+    .map((e) => e.item);
 }
 
 /**
@@ -54,8 +73,10 @@ export async function getFeedCards(opts: {
       videoUrl: string | null;
       sources: unknown;
       readMoreUrl: string;
+      score: number;
       category: { slug: string; name: string; colorHex: string; icon: string };
-      interactions: { liked: boolean }[];
+      interactions: { liked: boolean; vote: number }[];
+      _count: { comments: number };
     },
     seen: boolean
   ): FeedCard => ({
@@ -69,13 +90,21 @@ export async function getFeedCards(opts: {
     readMoreUrl: c.readMoreUrl,
     liked: c.interactions[0]?.liked ?? false,
     seen,
+    score: c.score,
+    myVote: c.interactions[0]?.vote ?? 0,
+    commentCount: c._count.comments,
     category: c.category,
   });
 
   const include = {
     category: { select: { slug: true, name: true, colorHex: true, icon: true } },
-    interactions: { where: { userId }, select: { liked: true } },
+    interactions: { where: { userId }, select: { liked: true, vote: true } },
+    _count: { select: { comments: { where: { hiddenAt: null } } } },
   };
+
+  // Community score weights the Random/Everything feed; pinned-topic feeds
+  // stay a pure shuffle so niche topics aren't drowned out.
+  const order = categorySlugs?.length ? shuffle : weightedShuffle;
 
   const unseen = await prisma.card.findMany({
     where: { ...baseWhere, interactions: { none: { userId } } },
@@ -84,7 +113,7 @@ export async function getFeedCards(opts: {
 
   if (unseen.length > 0) {
     return {
-      cards: shuffle(unseen).slice(0, take).map((c) => toFeedCard(c, false)),
+      cards: order(unseen).slice(0, take).map((c) => toFeedCard(c, false)),
       // Only exhausted once nothing unseen remains beyond what we returned
       exhausted: unseen.length <= take,
     };
@@ -97,7 +126,7 @@ export async function getFeedCards(opts: {
     include,
   });
   return {
-    cards: shuffle(seen).slice(0, take).map((c) => toFeedCard(c, true)),
+    cards: order(seen).slice(0, take).map((c) => toFeedCard(c, true)),
     exhausted: true,
   };
 }

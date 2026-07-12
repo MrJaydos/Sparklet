@@ -12,7 +12,7 @@ export default async function FeedPage() {
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
 
-  const [categories, feed, user] = await Promise.all([
+  const [categories, feed, user, unread] = await Promise.all([
     prisma.category.findMany({
       orderBy: { name: "asc" },
       select: { slug: true, name: true, colorHex: true, icon: true },
@@ -22,6 +22,7 @@ export default async function FeedPage() {
       where: { id: userId },
       select: { currentStreak: true },
     }),
+    prisma.notification.count({ where: { userId, readAt: null } }),
   ]);
 
   return (
@@ -30,6 +31,7 @@ export default async function FeedPage() {
       initialExhausted={feed.exhausted}
       categories={categories}
       initialStreak={user.currentStreak}
+      initialUnread={unread}
     />
   );
 }
