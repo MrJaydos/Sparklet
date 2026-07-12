@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T14:02:01.384Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Apollo astronauts said the Moon smells like spent gunpowder",
+      "body": "When Apollo astronauts returned to their lunar landers and took off their helmets, they noticed a distinct scent clinging to their spacesuits. They described it as smelling like wet ashes or spent gunpowder. This lunar smell remains somewhat of a mystery because Moon dust brought back to Earth loses its odor once it reacts with air and moisture.",
+      "imageWikipediaTitle": "Apollo 11",
+      "sources": [
+        {
+          "title": "Lunar soil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lunar_soil"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lunar_soil",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Martian volcano that curves over the horizon",
+      "body": "Olympus Mons on Mars is the largest volcano in the solar system, standing three times taller than Mount Everest. It is so wide—spanning roughly the size of Arizona—that if you stood on its peak, the base of the volcano would curve completely out of sight over the Martian horizon.",
+      "imageWikipediaTitle": "Olympus Mons",
+      "sources": [
+        {
+          "title": "Olympus Mons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olympus_Mons"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Olympus_Mons",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single teaspoon of a neutron star weighs billions of tons",
+      "body": "When massive stars collapse in supernovas, their cores can compress into neutron stars. These objects are incredibly dense, packing the mass of our Sun into a sphere just 12 miles wide. A single teaspoon of neutron star material would weigh about six billion tons on Earth, roughly equivalent to the weight of Mount Everest.",
+      "imageWikipediaTitle": "Neutron star",
+      "sources": [
+        {
+          "title": "Neutron star",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neutron_star"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Neutron_star",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The golden message currently leaving our solar system",
+      "body": "Launched in 1977, the Voyager 1 and 2 spacecraft carry identical phonograph records made of gold-plated copper. These records contain sounds of nature, classical music, greetings in 55 languages, and a written message from US President Jimmy Carter. They are designed to act as a cosmic time capsule for any intelligent life that might find them.",
+      "imageWikipediaTitle": "Voyager Golden Record",
+      "sources": [
+        {
+          "title": "Voyager Golden Record",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Voyager_Golden_Record",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The planet that rolls around the Sun on its side",
+      "body": "While most planets spin like upright tops, Uranus is completely different. Its axis of rotation is tilted by a massive 98 degrees, meaning it essentially rolls on its side as it orbits the Sun. Scientists believe a colossal collision with an Earth-sized body billions of years ago may have knocked the planet over.",
+      "imageWikipediaTitle": "Uranus",
+      "sources": [
+        {
+          "title": "Uranus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Uranus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Uranus",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jupiter's famous Great Red Spot is steadily shrinking",
+      "body": "The Great Red Spot is a giant, high-pressure storm on Jupiter that has raged for at least 150 years, and likely much longer. It is wider than Earth, but historical observations show it is shrinking. In the late 19th century, the storm was four times the diameter of Earth; today, it is only about 1.3 times as wide.",
+      "imageWikipediaTitle": "Great Red Spot",
+      "sources": [
+        {
+          "title": "Great Red Spot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Red_Spot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why metal instantly fuses together in the vacuum of space",
+      "body": "If two clean, flat pieces of the same metal touch in outer space, they will permanently bond together without any heat. This phenomenon is called cold welding. It happens because the vacuum of space lacks air and water molecules to form a protective oxide layer on the metal, leaving the atoms free to join directly.",
+      "imageWikipediaTitle": "Cold welding",
+      "sources": [
+        {
+          "title": "Cold welding",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cold_welding"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cold_welding",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Saturnian moon with lakes of liquid methane",
+      "body": "Saturn's largest moon, Titan, is the only place in our solar system besides Earth known to have stable bodies of liquid on its surface. However, these are not water lakes. Because surface temperatures hover around minus 290 degrees Fahrenheit, Titan's vast lakes and seas are filled with liquid hydrocarbons like methane and ethane.",
+      "imageWikipediaTitle": "Titan (moon)",
+      "sources": [
+        {
+          "title": "Lakes of Titan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lakes_of_Titan"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lakes_of_Titan",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Venus is hotter than Mercury despite being further from the Sun",
+      "body": "Mercury is the closest planet to the Sun, but Venus is the hottest. Venus is blanketed by a dense atmosphere of carbon dioxide, topped with clouds of sulfuric acid. This thick greenhouse gas layer traps the Sun's heat, raising surface temperatures to a scorching 867 degrees Fahrenheit—hot enough to melt lead.",
+      "imageWikipediaTitle": "Venus",
+      "sources": [
+        {
+          "title": "Atmosphere of Venus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Venus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Venus",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why footprints on the Moon will last for millions of years",
+      "body": "The footprints left by Apollo astronauts on the Moon are likely to remain undisturbed for millions of years. Unlike Earth, the Moon has no atmosphere, which means there is no wind or liquid water to erode the soil. The only forces that will eventually erase the prints are micrometeorite impacts and solar radiation.",
+      "imageWikipediaTitle": "Apollo 11",
+      "sources": [
+        {
+          "title": "Lunar soil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lunar_soil"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lunar_soil",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first exoplanets discovered orbit a dead star's corpse",
+      "body": "The very first planets discovered outside our solar system were found in 1992, orbiting a pulsar named PSR B1257+12. Pulsars are highly magnetized, rapidly rotating remnants of dead massive stars. These planets exist in a hostile environment, constantly bombarded by intense, lethal radiation from their host star's corpse.",
+      "imageWikipediaTitle": "PSR B1257+12",
+      "sources": [
+        {
+          "title": "PSR B1257+12",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PSR_B1257%2B12"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/PSR_B1257%2B12",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When to expect the next visit of Halley's Comet",
+      "body": "Halley's Comet is the only active comet that is regularly visible to the naked eye from Earth twice in a single human lifetime. It orbits the Sun approximately every 75 to 76 years. Its last close approach was in 1986, and astronomers estimate it will return to our skies in mid-2061.",
+      "imageWikipediaTitle": "Halley's Comet",
+      "sources": [
+        {
+          "title": "Halley's Comet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Halley%27s_Comet",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A giant cloud of alcohol drifting in deep space",
+      "body": "Deep in the center of our Milky Way galaxy, inside a star-forming region called Sagittarius B2, lies a massive molecular cloud. This cloud contains vast quantities of ethyl alcohol—the same type of alcohol found in drinks on Earth. The cloud contains enough alcohol to fill astronomical numbers of pints.",
+      "imageWikipediaTitle": "Sagittarius B2",
+      "sources": [
+        {
+          "title": "Sagittarius B2",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sagittarius_B2"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sagittarius_B2",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The toxic heavy-metal snow of Venus",
+      "body": "High up on the mountain peaks of Venus, it snows—but not water ice. Scientists believe the metallic highlands are coated in a frost made of heavy metals, specifically galena (lead sulfide) and bismuthinite (bismuth sulfide). These compounds vaporize in the hot lower atmosphere and condense on the cooler mountaintops.",
+      "imageWikipediaTitle": "Venus",
+      "sources": [
+        {
+          "title": "Venus snow",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus_snow"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Venus_snow",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Boötes Void: A massive pocket of nothingness in space",
+      "body": "The Boötes Void is a colossal, nearly empty region of space measuring nearly 330 million light-years in diameter. While a typical region of this size should contain thousands of galaxies, astronomers have found fewer than 100 inside the void. If the Milky Way were at its center, we wouldn't have known other galaxies existed until the 1960s.",
+      "imageWikipediaTitle": "Boötes Void",
+      "sources": [
+        {
+          "title": "Boötes Void",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bo%C3%B6tes_Void",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can never actually stand on Jupiter",
+      "body": "Jupiter is a gas giant, meaning it lacks a well-defined solid surface. If you tried to step onto the planet, you would sink into its atmosphere of hydrogen and helium. As you sank deeper, the atmospheric pressure and temperature would steadily rise until they became high enough to crush and melt any spacecraft.",
+      "imageWikipediaTitle": "Jupiter",
+      "sources": [
+        {
+          "title": "Jupiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jupiter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Jupiter",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The water you drink is older than the Sun",
+      "body": "Much of the water on Earth predates our own Sun. Studies of the ratio of deuterium to hydrogen in our oceans suggest that up to half of Earth's water originated in the interstellar molecular cloud from which our solar system formed, roughly 4.6 billion years ago.",
+      "imageWikipediaTitle": "Water",
+      "sources": [
+        {
+          "title": "Origin of water on Earth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Origin_of_water_on_Earth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Origin_of_water_on_Earth",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn is less dense than water",
+      "body": "Saturn is famous for its rings, but it is also the least dense planet in our solar system. Made mostly of hydrogen and helium, Saturn's average density is lower than that of water. If you could build a bathtub large enough to hold it, the giant planet would actually float on the surface.",
+      "imageWikipediaTitle": "Saturn",
+      "sources": [
+        {
+          "title": "Saturn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saturn"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Saturn",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Pillars of Creation might already be gone",
+      "body": "The famous Pillars of Creation, located in the Eagle Nebula, are giant towers of gas and dust. Because they are 7,000 light-years away, we see them as they existed in the past. Some astronomers believe a nearby supernova shockwave may have destroyed them 6,000 years ago, but we won't see it happen for another millennium.",
+      "imageWikipediaTitle": "Pillars of Creation",
+      "sources": [
+        {
+          "title": "Pillars of Creation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pillars_of_Creation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How spaceflight temporarily makes astronauts taller",
+      "body": "In the microgravity environment of space, astronauts can grow up to three percent taller—sometimes adding up to two inches of height. Without the constant downward pull of Earth's gravity, the spine decompresses and the cartilage discs between vertebrae expand. However, they return to their normal height shortly after landing back on Earth.",
+      "imageWikipediaTitle": "Astronaut",
+      "sources": [
+        {
+          "title": "Effect of spaceflight on the human body",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Martian canyon that makes the Grand Canyon look tiny",
+      "body": "Mars is home to Valles Marineris, a massive canyon system that spans over 2,500 miles long, up to 120 miles wide, and 4 miles deep. By comparison, Earth's Grand Canyon is just 277 miles long and 1 mile deep. If placed in the United States, Valles Marineris would stretch all the way from New York to San Francisco.",
+      "imageWikipediaTitle": "Valles Marineris",
+      "sources": [
+        {
+          "title": "Valles Marineris",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valles_Marineris"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Valles_Marineris",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ice fountains erupting from Saturn's moon Enceladus",
+      "body": "Enceladus, a small icy moon of Saturn, has a global liquid ocean hidden beneath its frozen crust. Near its south pole, giant geysers blast plumes of water vapor, ice particles, and organic molecules hundreds of miles into space. This activity makes Enceladus one of the most promising targets in the search for extraterrestrial life.",
+      "imageWikipediaTitle": "Enceladus",
+      "sources": [
+        {
+          "title": "Enceladus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enceladus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Enceladus",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun contains nearly all the mass in our solar system",
+      "body": "The Sun is unimaginably massive. It accounts for about 99.86% of the total mass of the entire solar system. Most of the remaining 0.14% is contained within the gas giant planets, especially Jupiter. Earth and the other rocky planets make up only a tiny fraction of a percent of the solar system's matter.",
+      "imageWikipediaTitle": "Sun",
+      "sources": [
+        {
+          "title": "Solar System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_System"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Solar_System",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The extreme exoplanet that is hotter than most stars",
+      "body": "KELT-9b is a giant gas exoplanet located 670 light-years away. It orbits so close to its host star that its dayside temperature reaches a blistering 7,800 degrees Fahrenheit. This makes KELT-9b hotter than the surface of most stars in the galaxy, causing molecules in its atmosphere to tear themselves apart.",
+      "imageWikipediaTitle": "KELT-9b",
+      "sources": [
+        {
+          "title": "KELT-9b",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/KELT-9b"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/KELT-9b",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The bizarre orbital rhythm of planet Mercury",
+      "body": "A single day on Mercury is incredibly long. Due to its slow rotation, Mercury completes only one rotation on its axis every 59 Earth days. However, because it is so close to the Sun, it completes a full orbit in just 88 Earth days, meaning its year is barely longer than its day.",
+      "imageWikipediaTitle": "Mercury (planet)",
+      "sources": [
+        {
+          "title": "Mercury (planet)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mercury_(planet)",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Voyager 1's silent journey at 38,000 miles per hour",
+      "body": "Launched in 1977, NASA's Voyager 1 probe is the farthest human-made object from Earth. It crossed into interstellar space in 2012 and is currently speeding away from us at roughly 38,000 miles per hour. Despite its incredible distance of over 15 billion miles, it still transmits data back to Earth.",
+      "imageWikipediaTitle": "Voyager 1",
+      "sources": [
+        {
+          "title": "Voyager 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voyager_1"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Voyager_1",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why space travel causes rapid bone loss",
+      "body": "Without gravity pushing against their bodies, astronauts on the International Space Station do not need to support their weight. This lack of mechanical stress causes their bodies to reabsorb bone tissue, leading to a bone density loss of about 1% to 2% for every month spent in space. Daily exercise helps limit this damage.",
+      "imageWikipediaTitle": "International Space Station",
+      "sources": [
+        {
+          "title": "Spaceflight osteopenia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spaceflight_osteopenia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spaceflight_osteopenia",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blue planet where it rains glass sideways",
+      "body": "From a distance, the exoplanet HD 189733b looks like a beautiful, deep-blue marble resembling Earth. Up close, however, it is a nightmare. Its cobalt color comes from silicate particles in its atmosphere. Whipped by winds blowing up to 5,400 miles per hour, these particles condense into liquid glass, creating deadly, sideways-raining glass storms.",
+      "imageWikipediaTitle": "HD 189733b",
+      "sources": [
+        {
+          "title": "HD 189733b",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HD_189733b"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HD_189733b",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Moon is slowly backing away from Earth",
+      "body": "The Moon is not locked in a permanent orbit. Because of tidal friction between Earth's oceans and its crust, energy is transferred to the Moon, pushing its orbit slightly higher. Laser measurements using reflectors left by Apollo astronauts show that the Moon is drifting away from Earth at a rate of 1.5 inches per year.",
+      "imageWikipediaTitle": "Moon",
+      "sources": [
+        {
+          "title": "Orbit of the Moon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Orbit_of_the_Moon",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rebellious backward orbit of Neptune's moon Triton",
+      "body": "Triton, the largest moon of Neptune, is unique among all large moons in our solar system because it orbits its planet in the opposite direction of Neptune's rotation. This retrograde orbit suggests that Triton did not form around Neptune. Instead, it was likely a dwarf planet from the Kuiper belt captured by Neptune's gravity.",
+      "imageWikipediaTitle": "Triton (moon)",
+      "sources": [
+        {
+          "title": "Triton (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Triton_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Triton_(moon)",
+      "category": "space"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T13:56:34.047Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sudden Collapse of Ancient Civilizations",
+      "body": "Around 1200 BCE, several highly advanced Mediterranean civilizations, including the Mycenaeans and Hittites, collapsed almost simultaneously. For centuries, historians blamed mysterious invaders known as the \"Sea Peoples.\" Today, researchers believe a combination of droughts, earthquakes, and disrupted trade networks triggered this ancient dark age.",
+      "imageWikipediaTitle": "Late Bronze Age collapse",
+      "sources": [
+        {
+          "title": "Late Bronze Age collapse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Great Emu War of 1932",
+      "body": "In 1932, the Australian military deployed soldiers armed with Lewis machine guns to combat a crop-destroying population of 20,000 emus. Despite firing thousands of rounds, the highly agile birds easily evaded the troops, leading to an embarrassing military withdrawal and an outright victory for the emus.",
+      "imageWikipediaTitle": "Emu War",
+      "sources": [
+        {
+          "title": "Emu War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emu_War"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Emu_War",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Slow Decay of Alexandria's Great Library",
+      "body": "Contrary to the popular belief that the Library of Alexandria was destroyed in a single catastrophic fire set by Julius Caesar, its decline was actually a slow, centuries-long process. Budget cuts, religious riots, and systemic neglect gradually eroded the collection until nothing remained.",
+      "imageWikipediaTitle": "Library of Alexandria",
+      "sources": [
+        {
+          "title": "Library of Alexandria",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Library_of_Alexandria"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Library_of_Alexandria",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Emperor Who Accidentally Devalued Gold",
+      "body": "In 1324, Mansa Musa, the ruler of the Mali Empire, embarked on a pilgrimage to Mecca. Traveling with thousands of soldiers and heralds, he distributed so much gold in Cairo, Medina, and Mecca that the sudden influx of the precious metal caused inflation that devastated local economies for over a decade.",
+      "imageWikipediaTitle": "Mansa Musa",
+      "sources": [
+        {
+          "title": "Mansa Musa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mansa_Musa",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Volcanic Winter of 1816",
+      "body": "In April 1815, Mount Tambora in Indonesia erupted in the largest volcanic event in recorded history. The massive ash cloud blocked sunlight globally, causing 1816 to become known as the \"Year Without a Summer.\" Severe frosts destroyed crops across North America and Europe, sparking widespread famine.",
+      "imageWikipediaTitle": "Year Without a Summer",
+      "sources": [
+        {
+          "title": "Year Without a Summer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Largest Explosion Before the Atomic Bomb",
+      "body": "In December 1917, a French cargo ship fully loaded with wartime explosives collided with another vessel in the harbor of Halifax, Canada. The resulting detonation was the largest human-made explosion prior to the atomic bomb, obliterating a square mile of the city and killing nearly 2,000 people.",
+      "imageWikipediaTitle": "Halifax Explosion",
+      "sources": [
+        {
+          "title": "Halifax Explosion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halifax_Explosion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Halifax_Explosion",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The True Nature of Hammurabi's Code",
+      "body": "While famous for the \"eye for an eye\" principle, the Code of Hammurabi was not the world's oldest written law code, nor did it apply laws equally. Punishments varied drastically depending on social status, protecting elites far more than commoners or enslaved people.",
+      "imageWikipediaTitle": "Code of Hammurabi",
+      "sources": [
+        {
+          "title": "Code of Hammurabi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deadliest Civil War in Human History",
+      "body": "Led by Hong Xiuquan, a man who believed he was the younger brother of Jesus Christ, the Taiping Rebellion raged in China from 1850 to 1864. This devastating civil war against the Qing dynasty resulted in an estimated 20 to 30 million deaths, far eclipsing World War I.",
+      "imageWikipediaTitle": "Taiping Rebellion",
+      "sources": [
+        {
+          "title": "Taiping Rebellion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taiping_Rebellion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Taiping_Rebellion",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Throwing Politicians Out the Window to Start a War",
+      "body": "In 1618, Protestant nobles in Prague threw three Catholic royal officials out of a third-story window of Prague Castle. Amazingly, the officials survived the seventy-foot drop with only minor injuries. This bizarre event, known as the Defenestration of Prague, triggered the devastating Thirty Years' War.",
+      "imageWikipediaTitle": "Defenestrations of Prague",
+      "sources": [
+        {
+          "title": "Defenestrations of Prague",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Defenestrations_of_Prague"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Julius Caesar Demanded a Higher Ransom",
+      "body": "In 75 BCE, Sicilian pirates kidnapped a young Julius Caesar and demanded twenty talents of silver for his release. Insulted by the low price, Caesar laughed and insisted they ask for fifty. Once the ransom was paid and he was freed, Caesar raised a fleet, captured the pirates, and had them executed.",
+      "imageWikipediaTitle": "Julius Caesar",
+      "sources": [
+        {
+          "title": "Julius Caesar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Julius_Caesar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Julius_Caesar",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Unbreakable Medieval Cipher",
+      "body": "Written in the early 15th century, the Voynich Manuscript is an illustrated codex hand-written in an entirely unknown writing system. Despite decades of intense study by professional cryptographers and codebreakers from both World Wars, not a single word of the mysterious text has ever been deciphered.",
+      "imageWikipediaTitle": "Voynich manuscript",
+      "sources": [
+        {
+          "title": "Voynich manuscript",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Self-Proclaimed Emperor of the United States",
+      "body": "In 1859, a bankrupt San Francisco merchant named Joshua Abraham Norton declared himself \"Emperor of these United States.\" Instead of mocking him, local citizens embraced him. He printed his own currency, which local businesses accepted, and was honored with a massive public funeral when he died.",
+      "imageWikipediaTitle": "Emperor Norton",
+      "sources": [
+        {
+          "title": "Emperor Norton",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emperor_Norton"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Emperor_Norton",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Fatal Dancing Plague of 1518",
+      "body": "In July 1518, a woman named Frau Troffea began dancing fervently in a street in Strasbourg. Within a month, hundreds of citizens joined her, dancing uncontrollably for days without rest. Many reportedly died from exhaustion, strokes, or heart attacks before the mysterious mass hysteria finally subsided.",
+      "imageWikipediaTitle": "Dancing plague of 1518",
+      "sources": [
+        {
+          "title": "Dancing plague of 1518",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deadly Beer Flood of London",
+      "body": "In 1814, a massive vat containing over 130,000 gallons of fermenting porter ruptured at a London brewery. The sudden release triggered a domino effect, bursting other vats and sending a fifteen-foot wave of beer rushing through the streets, destroying homes and claiming eight lives.",
+      "imageWikipediaTitle": "London Beer Flood",
+      "sources": [
+        {
+          "title": "London Beer Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/London_Beer_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/London_Beer_Flood",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's First Analog Computer",
+      "body": "Discovered in a Roman shipwreck in 1901, the Antikythera Mechanism is a complex Greek bronze device dating back to the second century BCE. Containing dozens of intricate gears, it was used to track astronomical positions and eclipses with astonishing mathematical accuracy, centuries ahead of its time.",
+      "imageWikipediaTitle": "Antikythera mechanism",
+      "sources": [
+        {
+          "title": "Antikythera mechanism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Medieval War Fought Over an Oak Bucket",
+      "body": "In 1325, a bloody war broke out between the Italian city-states of Bologna and Modena. According to legend, the conflict was ignited when Modenese soldiers stole an oak bucket from a Bolognese well. Though the underlying tensions were political, the bucket remains on display in Modena to this day.",
+      "imageWikipediaTitle": "War of the Bucket",
+      "sources": [
+        {
+          "title": "War of the Bucket",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/War_of_the_Bucket"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/War_of_the_Bucket",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Man Who Single-Handedly Saved the World",
+      "body": "In September 1983, Soviet officer Stanislav Petrov received a computer warning that the United States had launched several nuclear missiles. Believing it was a system glitch rather than a real attack, Petrov chose to ignore protocol and not report it, successfully preventing a catastrophic global nuclear war.",
+      "imageWikipediaTitle": "Stanislav Petrov",
+      "sources": [
+        {
+          "title": "Stanislav Petrov",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stanislav_Petrov"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stanislav_Petrov",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Elite Ancient Army of Romantic Couples",
+      "body": "The Sacred Band of Thebes was an elite troop of select soldiers that formed the core of the Theban army in the 4th century BCE. The unit was comprised entirely of 150 male couples, based on the belief that lovers would fight more fiercely to protect each other.",
+      "imageWikipediaTitle": "Sacred Band of Thebes",
+      "sources": [
+        {
+          "title": "Sacred Band of Thebes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sacred_Band_of_Thebes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sacred_Band_of_Thebes",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Solar Storm That Set Telegraphs on Fire",
+      "body": "In September 1859, a massive solar flare slammed into Earth's magnetosphere, creating the most intense geomagnetic storm in recorded history. The event, known as the Carrington Event, generated brilliant auroras worldwide and caused telegraph lines to spark, shocking operators and setting offices on fire.",
+      "imageWikipediaTitle": "Solar flare",
+      "sources": [
+        {
+          "title": "Carrington Event",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carrington_Event"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Carrington_Event",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Great Boston Molasses Flood",
+      "body": "In January 1919, a giant storage tank in Boston burst, releasing a wave of sticky molasses that reached twenty-five feet high and traveled at thirty-five miles per hour. The sweet disaster killed twenty-one people and injured over a hundred, leaving the neighborhood smelling of molasses for decades.",
+      "imageWikipediaTitle": "Great Molasses Flood",
+      "sources": [
+        {
+          "title": "Great Molasses Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Lioness of Brittany's Blood Revenge",
+      "body": "In 14th-century France, after the French king executed her husband for treason, Jeanne de Clisson sold her lands, bought three warships, and painted them black with red sails. For thirteen years, the \"Lioness of Brittany\" hunted French ships, personally beheading any French noble she captured.",
+      "imageWikipediaTitle": "Jeanne de Clisson",
+      "sources": [
+        {
+          "title": "Jeanne de Clisson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jeanne_de_Clisson"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Jeanne_de_Clisson",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The War for a Golden Stool",
+      "body": "In 1900, a British governor demanded to sit on the Golden Stool, the sacred throne and spiritual symbol of the Ashanti Empire in modern-day Ghana. Insulted by this profound disrespect, the Ashanti Queen Mother Yaa Asantewaa led an army against the British in a fierce, month-long rebellion.",
+      "imageWikipediaTitle": "Yaa Asantewaa",
+      "sources": [
+        {
+          "title": "War of the Golden Stool",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/War_of_the_Golden_Stool",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Man With an Insatiable Appetite",
+      "body": "In late 18th-century France, a showman named Tarrare possessed an inexplicable medical condition that gave him an endless, voracious appetite. He could eat enough food to feed fifteen people in a single sitting, and reportedly consumed live cats, snakes, and even wooden corks without ever gaining weight.",
+      "imageWikipediaTitle": "Tarrare",
+      "sources": [
+        {
+          "title": "Tarrare",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tarrare"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tarrare",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saving a Wheel of Cheese from the Great Fire",
+      "body": "During the Great Fire of London in 1666, famous diarist Samuel Pepys fled his home to save his most valuable possessions. Alongside his gold and scientific instruments, Pepys carefully buried an expensive wheel of Italian Parmesan cheese in his garden to protect it from the encroaching flames.",
+      "imageWikipediaTitle": "Samuel Pepys",
+      "sources": [
+        {
+          "title": "Samuel Pepys",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Samuel_Pepys"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Samuel_Pepys",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Two Empires Divided the Entire World",
+      "body": "In 1494, Spain and Portugal signed the Treaty of Tordesillas, which drew an imaginary line through the Atlantic Ocean. With the Pope's blessing, they agreed that all newly discovered lands to the west of the line belonged to Spain, while everything to the east belonged to Portugal.",
+      "imageWikipediaTitle": "Treaty of Tordesillas",
+      "sources": [
+        {
+          "title": "Treaty of Tordesillas",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Tordesillas"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Treaty_of_Tordesillas",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Shortest War in Recorded History",
+      "body": "On August 27, 1896, the British Empire declared war on the Sultanate of Zanzibar after a non-approved successor took the throne. The Anglo-Zanzibar War lasted a mere 38 to 45 minutes before the Sultan's forces surrendered, making it the shortest war in human history.",
+      "imageWikipediaTitle": "Anglo-Zanzibar War",
+      "sources": [
+        {
+          "title": "Anglo-Zanzibar War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anglo-Zanzibar_War",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The President Who Sent Bones to Confront a Scientist",
+      "body": "Thomas Jefferson was obsessed with proving that American wildlife was not inferior to European species, opposing a French theory of \"American degeneracy.\" To prove his point, Jefferson ordered a massive mastodon skeleton and sent a giant, stuffed bull moose directly to the French naturalist's office.",
+      "imageWikipediaTitle": "Thomas Jefferson",
+      "sources": [
+        {
+          "title": "Thomas Jefferson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Tsar Who Taxed Beards to Modernize Russia",
+      "body": "In 1698, Tsar Peter the Great returned from Europe determined to modernize Russia. Viewing traditional long beards as outdated, he imposed a \"beard tax\" on any man who wished to keep his facial hair. Those who paid received a bronze token verifying their right to wear a beard.",
+      "imageWikipediaTitle": "Beard tax",
+      "sources": [
+        {
+          "title": "Beard tax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beard_tax"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Beard_tax",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The British Empire's 1,000-Mile Inland Hedge",
+      "body": "To enforce a highly unpopular tax on salt, the British colonial administration in India constructed a massive, continuous hedge of thorny bushes and trees. Stretching over 1,100 miles across the Indian subcontinent, this living barrier was heavily guarded to prevent salt smugglers from crossing.",
+      "imageWikipediaTitle": "Inland Customs Line",
+      "sources": [
+        {
+          "title": "Inland Customs Line",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inland_Customs_Line"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Inland_Customs_Line",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Global Campaign That Defeated Smallpox",
+      "body": "Smallpox plagued humanity for thousands of years, killing hundreds of millions of people. In 1967, the World Health Organization launched an unprecedented, highly coordinated global vaccination campaign. By 1980, the disease was officially declared eradicated, marking one of humanity's greatest cooperative triumphs.",
+      "imageWikipediaTitle": "Smallpox",
+      "sources": [
+        {
+          "title": "Smallpox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Smallpox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Smallpox",
+      "category": "history"
+    }
+  ]
+}

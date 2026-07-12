@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T14:00:05.068Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Giant Stone Coins That Never Moved",
+      "body": "On the Pacific island of Yap, traditional currency took the form of giant limestone discs called Rai stones. Because some stones were too heavy to move, ownership was transferred simply by oral agreement. Even if a stone accidentally sank to the bottom of the ocean during transport, it still held value. Everyone agreed it was still there, proving that money is ultimately just a shared belief.",
+      "imageWikipediaTitle": "Rai stones",
+      "sources": [
+        {
+          "title": "Rai stones",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rai_stones"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rai_stones",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Your Paycheck is Linked to Salt",
+      "body": "The word \"salary\" comes from the Latin word \"salarium,\" which was money paid to Roman soldiers to buy salt. In ancient times, salt was a highly valuable commodity used to preserve food and treat wounds. While soldiers weren't directly paid in salt, the allowance designated for purchasing this essential mineral cemented the linguistic link between physical labor and financial compensation.",
+      "imageWikipediaTitle": "Salt",
+      "sources": [
+        {
+          "title": "Salary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Salary"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Salary",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Money Backed by Nothing But Trust",
+      "body": "Most modern currencies, like the US dollar or the Euro, are \"fiat\" money. This means they are not backed by physical gold or silver. Instead, their value comes entirely from collective trust and government decree. If a government is stable and its citizens believe the currency has value, the system works. Without that shared trust, the paper becomes worthless.",
+      "imageWikipediaTitle": "Banknote",
+      "sources": [
+        {
+          "title": "Fiat money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fiat_money"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fiat_money",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Price of a Single Flower Bulb",
+      "body": "During the Dutch Golden Age in the 1630s, the price of tulip bulbs skyrocketed to astronomical levels. At the peak of this \"Tulip Mania,\" a single rare bulb could cost more than a luxurious estate. Investors purchased futures contracts expecting prices to rise forever. When the market suddenly collapsed in 1637, many speculators were left holding worthless bulbs, creating one of history's first famous asset bubbles.",
+      "imageWikipediaTitle": "Tulip mania",
+      "sources": [
+        {
+          "title": "Tulip mania",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tulip_mania"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wallpapering Rooms with Banknotes",
+      "body": "In 1923, Germany experienced extreme hyperinflation. The government printed money rapidly to pay war reparations, causing the German Mark to lose almost all value. Prices doubled every few days. Workers were paid multiple times a day and carried cash in wheelbarrows. Because the paper currency was worth less than firewood, some families actually used banknotes as wallpaper to keep their homes warm.",
+      "imageWikipediaTitle": "Hyperinflation in the Weimar Republic",
+      "sources": [
+        {
+          "title": "Hyperinflation in the Weimar Republic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hyperinflation_in_the_Weimar_Republic",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Flying Cash of the Song Dynasty",
+      "body": "Carrying heavy copper coins along trade routes was exhausting and dangerous for merchants in 7th-century China. To solve this, the Tang and Song dynasties introduced \"flying cash\"—paper receipts issued by merchants and banks. This system evolved into the world's first government-issued paper currency, changing how value moved across the globe and laying the foundation for modern banking.",
+      "imageWikipediaTitle": "Jiaozi (currency)",
+      "sources": [
+        {
+          "title": "Banknote",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Banknote"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Banknote",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Slow-Motion Magic of Compound Interest",
+      "body": "Compound interest works by earning interest not just on your initial savings, but also on the interest you have already accumulated. Over long periods, this creates an exponential growth curve. A small amount saved early in life can balloon into a small fortune, illustrating why time, rather than timing, is the most valuable asset in personal finance.",
+      "imageWikipediaTitle": "Compound interest",
+      "sources": [
+        {
+          "title": "Compound interest",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compound_interest"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compound_interest",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Shared Resources Get Ruined",
+      "body": "The tragedy of the commons is an economic theory describing how individuals acting in their own self-interest can deplete a shared resource. If a pasture is open to all herders, each has an incentive to add more cows. Eventually, the land is overgrazed and ruined for everyone. This concept explains modern environmental issues, from overfishing in international waters to global air pollution.",
+      "imageWikipediaTitle": "Tragedy of the commons",
+      "sources": [
+        {
+          "title": "Tragedy of the commons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Most Enduring Currency",
+      "body": "Long before coins and paper bills, humans used glossy cowrie shells as money. Found abundantly in the Indian Ocean, these shells were durable, light, and impossible to counterfeit. For over three thousand years, they served as currency across Africa, Asia, and Europe. They represent the longest-standardized currency in human history, shaping early international trade networks.",
+      "imageWikipediaTitle": "Shell money",
+      "sources": [
+        {
+          "title": "Shell money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shell_money"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Shell_money",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Hidden Cost of Every Choice",
+      "body": "In economics, opportunity cost is the value of the next best alternative you give up when making a decision. If you spend twenty dollars on a movie ticket, the opportunity cost isn't just the money; it is the book you could have bought or the hours of study time you traded away. Every financial choice has an invisible price tag: what you chose not to do.",
+      "imageWikipediaTitle": "Opportunity cost",
+      "sources": [
+        {
+          "title": "Opportunity cost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Opportunity_cost"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Opportunity_cost",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Measuring Wealth with a Double Patty",
+      "body": "In 1986, The Economist invented the Big Mac Index to compare purchasing power across countries. Since the McDonald's burger is made with the same ingredients worldwide, its price should theoretically reflect local costs of living. By comparing the cost of a Big Mac in different currencies, economists can estimate whether a currency is undervalued or overvalued compared to the US dollar.",
+      "imageWikipediaTitle": "Big Mac Index",
+      "sources": [
+        {
+          "title": "Big Mac Index",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Big_Mac_Index"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Big_Mac_Index",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Shell Beads of Early American Trade",
+      "body": "Before European colonization, Indigenous peoples of North America used wampum—intricately carved purple and white shell beads—for ceremonial gifts and storytelling. As European settlers arrived, they faced a severe shortage of metal coins. They quickly adopted wampum as a formal currency, even declaring it legal tender in Massachusetts in 1637 to facilitate trade with Native tribes.",
+      "imageWikipediaTitle": "Wampum",
+      "sources": [
+        {
+          "title": "Wampum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wampum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wampum",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Misspelled Clay Led to Piggy Banks",
+      "body": "During the Middle Ages, people stored their spare coins in jars made of a cheap, orange-colored clay called \"pygg.\" As English spelling evolved, the clay's name came to sound exactly like the animal. In the 19th century, potters began shaping these clay money boxes into the actual shapes of pigs as a playful pun, creating the iconic piggy banks we use today.",
+      "imageWikipediaTitle": "Piggy bank",
+      "sources": [
+        {
+          "title": "Piggy bank",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Piggy_bank"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Piggy_bank",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Cash is the Ultimate Liquid Asset",
+      "body": "In finance, \"liquidity\" refers to how quickly and easily an asset can be converted into spendable cash without losing its value. Cash is the most liquid asset because it is immediately ready to use. Real estate, by contrast, is highly illiquid; selling a house can take months of negotiation and paperwork. Understanding liquidity helps individuals balance daily spending needs against long-term investments.",
+      "imageWikipediaTitle": "Cash",
+      "sources": [
+        {
+          "title": "Market liquidity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Market_liquidity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Market_liquidity",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Losing Money Hurts Twice as Much",
+      "body": "Behavioral economists have found that humans experience the pain of losing money about twice as intensely as the joy of gaining the exact same amount. This psychological quirk, known as loss aversion, explains why investors often hold onto failing stocks for too long hoping to break even, or why they avoid making smart, calculated financial risks.",
+      "imageWikipediaTitle": "Loss aversion",
+      "sources": [
+        {
+          "title": "Loss aversion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Loss_aversion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Loss_aversion",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Banknote Worth 100 Trillion Dollars",
+      "body": "In 2008, Zimbabwe experienced one of the worst hyperinflations in modern history. Prices rose so fast that the central bank issued a 100-trillion-dollar banknote. Despite the staggering number of zeroes, this massive bill could barely purchase a bus ticket or a loaf of bread. The country eventually abandoned its local currency entirely, switching to foreign currencies like the US dollar.",
+      "imageWikipediaTitle": "Zimbabwean dollar",
+      "sources": [
+        {
+          "title": "Zimbabwean dollar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zimbabwean_dollar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zimbabwean_dollar",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Strange Goods That Defy Supply and Demand",
+      "body": "Basic economic law says that when prices rise, demand drops. But \"Giffen goods\" defy this rule. These are essential, low-income staples, like bread or rice. When the price of rice rises, poor families can no longer afford expensive foods like meat. To compensate, they actually buy more rice to survive, causing demand to increase as the price goes up.",
+      "imageWikipediaTitle": "Giffen good",
+      "sources": [
+        {
+          "title": "Giffen good",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giffen_good"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Giffen_good",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Kingdom That Invented Coins",
+      "body": "Around 600 BCE, the Kingdom of Lydia, in modern-day Turkey, became the first civilization to mint standardized metal coins. Made of electrum—a natural alloy of gold and silver—these coins featured a stamped lion's head to guarantee their weight and purity. This simple innovation eliminated the need to weigh raw metal during every transaction, sparking a revolution in global trade.",
+      "imageWikipediaTitle": "Coin",
+      "sources": [
+        {
+          "title": "Lydian coinage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lydian_coinage"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lydian_coinage",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the Civil War Created the Greenback",
+      "body": "Before the American Civil War, paper money was issued by individual private banks, leading to chaos and counterfeiting. To fund the war in 1861, the US federal government printed its own national paper currency. Because the backs of these bills were printed with cheap, counterfeit-resistant green ink, the public began calling them \"greenbacks\"—a nickname that still defines the US dollar today.",
+      "imageWikipediaTitle": "Greenback (1860s paper money)",
+      "sources": [
+        {
+          "title": "Greenback (1860s paper money)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greenback_(1860s_paper_money)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Greenback_(1860s_paper_money)",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Throwing Good Money After Bad",
+      "body": "The sunk cost fallacy is the cognitive bias where we continue investing time or money into a failing project simply because we have already invested so much. Economists emphasize that past expenses are gone and cannot be recovered. When making financial decisions, you should only look at future costs and benefits, not what you have already lost.",
+      "imageWikipediaTitle": "Sunk cost",
+      "sources": [
+        {
+          "title": "Sunk cost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunk_cost"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Banks Create Money Out of Thin Air",
+      "body": "When you deposit money into a bank, it doesn't just sit in a vault. Under fractional reserve banking, banks are only required to keep a small fraction of your deposit on hand. They lend the rest to other borrowers. This process of repeatedly lending out the same pool of funds effectively creates new money, expanding the overall money supply in the economy.",
+      "imageWikipediaTitle": "Fractional-reserve banking",
+      "sources": [
+        {
+          "title": "Fractional-reserve banking",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fractional-reserve_banking"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fractional-reserve_banking",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Algorithm Rating Your Financial Life",
+      "body": "In 1989, the Fair Isaac Corporation introduced the FICO score, transforming how lenders evaluate borrowers. Before this standardized credit score, getting a loan was highly subjective, often relying on personal interviews and local bankers' biases. The three-digit FICO score changed finance by analyzing payment histories and debt levels mathematically, standardizing credit risk worldwide.",
+      "imageWikipediaTitle": "Credit score",
+      "sources": [
+        {
+          "title": "Credit score",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Credit_score"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Credit_score",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Era When Gold Ruled the Dollar",
+      "body": "For decades, major global currencies operated under the gold standard, meaning paper money could be directly exchanged for a fixed amount of physical gold. This limited inflation because governments couldn't print money unless they acquired more gold. However, the system also restricted economic flexibility during crises. In 1971, President Richard Nixon ended the US gold standard permanently.",
+      "imageWikipediaTitle": "Gold standard",
+      "sources": [
+        {
+          "title": "Gold standard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gold_standard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gold_standard",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Edible Currency of the Silk Road",
+      "body": "For centuries in parts of China, Tibet, and Mongolia, compressed blocks of tea leaves called tea bricks were used as currency. They were preferred over metal coins because they were lighter, did not rust, and could be eaten or brewed into medicine during times of famine. The value of each brick was determined by the quality of the leaves and the distance traveled.",
+      "imageWikipediaTitle": "Tea brick",
+      "sources": [
+        {
+          "title": "Tea brick",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tea_brick"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tea_brick",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Did Tulip Mania Actually Ruin the Dutch?",
+      "body": "Popular history claims that the 1637 Dutch Tulip Mania caused a massive nationwide economic depression. However, modern historians argue this is a myth. While a small group of wealthy merchants and speculators lost fortunes when bulb prices collapsed, the wider Dutch economy was barely affected. The sensationalist stories of widespread ruin were largely written by later moralists warning against greed.",
+      "imageWikipediaTitle": "Tulip",
+      "sources": [
+        {
+          "title": "Tulip mania",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tulip_mania"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Luxury Items That Sell Better When Expensive",
+      "body": "In standard economics, demand falls as prices rise. But \"Veblen goods\" defy this law. Named after economist Thorstein Veblen, these are luxury items like designer handbags, high-end watches, or supercars. For these goods, a high price tag makes them more desirable because they serve as status symbols, signaling the buyer's immense wealth and taste to society.",
+      "imageWikipediaTitle": "Veblen good",
+      "sources": [
+        {
+          "title": "Veblen good",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Veblen_good"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Veblen_good",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Profit Made from Minting Pennies",
+      "body": "Seigniorage is the difference between the face value of money and the cost to physically produce it. If it costs the government 5 cents to print a 100-dollar bill, the seigniorage profit is 99.95 dollars. However, this can work in reverse. Today, many countries lose money minting low-denomination coins, like the US penny, which costs more than one cent to manufacture.",
+      "imageWikipediaTitle": "Seigniorage",
+      "sources": [
+        {
+          "title": "Seigniorage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seigniorage"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Seigniorage",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Bad Money Drives Out Good Money",
+      "body": "Gresham's Law is an economic principle stating that if two forms of money have the same face value but different intrinsic values, the \"bad\" money will circulate while the \"good\" money is hoarded. For example, when the US introduced copper-nickel quarters to replace silver quarters, people spent the cheaper copper quarters and kept the silver ones, removing silver from circulation.",
+      "imageWikipediaTitle": "Gresham's law",
+      "sources": [
+        {
+          "title": "Gresham's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gresham%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gresham%27s_law",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Forgotten Cardboard Credit Card",
+      "body": "The modern credit card was born from an embarrassing dinner. In 1949, businessman Frank McNamara forgot his wallet while dining at a New York restaurant. To avoid future embarrassment, he co-founded the Diners Club. Their first card was made of cardboard and allowed patrons to sign for their meals and pay the bill later, paving the way for today's global credit networks.",
+      "imageWikipediaTitle": "Diners Club International",
+      "sources": [
+        {
+          "title": "Diners Club International",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diners_Club_International"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Diners_Club_International",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a Dollar Today is Worth More Than Tomorrow",
+      "body": "The \"time value of money\" is a core financial concept stating that a dollar in your hand today is worth more than a dollar promised in the future. This is because money today can be invested to earn interest, and inflation will erode the purchasing power of that future dollar. Delaying receipt of money carries a real cost, which is why lenders charge interest.",
+      "imageWikipediaTitle": "Time value of money",
+      "sources": [
+        {
+          "title": "Time value of money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Time_value_of_money"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Time_value_of_money",
+      "category": "money"
+    }
+  ]
+}

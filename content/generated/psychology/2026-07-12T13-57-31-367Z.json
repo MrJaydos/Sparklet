@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T13:57:31.367Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why making a small mistake can make you more likable",
+      "body": "If you want to make friends, being perfect might actually work against you. Social psychologist Elliot Aronson discovered the \"pratfall effect,\" which shows that when highly competent people make a minor blunder—like spilling coffee on themselves—their perceived attractiveness and likability go up. However, the same mistake makes an average-performing person seem less appealing.",
+      "imageWikipediaTitle": "Elliot Aronson",
+      "sources": [
+        {
+          "title": "Pratfall effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratfall_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pratfall_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain won't let you forget unfinished business",
+      "body": "Ever wonder why a cliffhanger keeps you hooked, or why an unfinished chore bugs you all day? Lithuanian psychologist Bluma Zeigarnik noticed that waiters could remember complex, unpaid orders perfectly, but forgot them the moment the bill was settled. Her research confirmed that our brains hold onto active, uncompleted tasks far better than those we have successfully checked off.",
+      "imageWikipediaTitle": "Bluma Zeigarnik",
+      "sources": [
+        {
+          "title": "Zeigarnik effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zeigarnik_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The simple color test that breaks your brain",
+      "body": "Try reading a list of color words where the word 'RED' is printed in blue ink, and you must name the ink color instead of reading the word. You will likely stumble. Known as the Stroop effect, this delay happens because reading is an automatic process for adults. Your brain struggles to suppress the written word while trying to identify the actual visual color.",
+      "imageWikipediaTitle": "Stroop effect",
+      "sources": [
+        {
+          "title": "Stroop effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stroop_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stroop_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The iron rod that mapped the human brain",
+      "body": "In 1848, railroad worker Phineas Gage survived a horrific accident when an iron rod blasted completely through his skull, destroying much of his left frontal lobe. While he physically recovered, his friends reported his personality changed drastically, turning a polite man into an irreverent, fitful worker. His case became the first famous evidence that specific brain regions control personality and behavior.",
+      "imageWikipediaTitle": "Phineas Gage",
+      "sources": [
+        {
+          "title": "Phineas Gage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phineas_Gage"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Phineas_Gage",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why high-adrenaline dates make people fall in love",
+      "body": "If you want someone to find you attractive, take them on a roller coaster. In a famous 1974 study, researchers had men cross either a scary, swaying suspension bridge or a safe, low bridge. Men on the scary bridge were much more likely to call an attractive female researcher afterward. They misattributed their racing hearts and physiological fear as romantic attraction to her.",
+      "imageWikipediaTitle": "Capilano Suspension Bridge",
+      "sources": [
+        {
+          "title": "Misattribution of arousal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Misattribution_of_arousal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Misattribution_of_arousal",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nobody is noticing your bad hair day as much as you think",
+      "body": "We walk around believing there is a spotlight shining on our flaws, but psychology says we are mostly invisible. In a classic study, students were made to wear an embarrassing t-shirt featuring Barry Manilow. While the wearers estimated that half of the people in the room would notice the shirt, in reality, fewer than a quarter actually did. This is called the spotlight effect.",
+      "imageWikipediaTitle": "Spotlight (theatre)",
+      "sources": [
+        {
+          "title": "Spotlight effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spotlight_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spotlight_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we love our own shaky, self-assembled furniture",
+      "body": "If you spend hours assembling a Swedish bookshelf, you will likely value it more than an identical, pre-built one. Researchers coined this the 'IKEA effect.' When we invest our own labor into creating a product, we form an emotional attachment and overvalue the result. This cognitive bias only works, however, if we actually succeed in completing the task.",
+      "imageWikipediaTitle": "IKEA",
+      "sources": [
+        {
+          "title": "IKEA effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IKEA_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/IKEA_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your eyes can hijack what you hear",
+      "body": "Your brain does not process sounds in isolation. In the McGurk effect, a video plays a person saying the sound 'ba-ba,' but the visual track shows their mouth moving to say 'ga-ga.' Even though the audio clip is unchanged, most listeners will actually hear the sound 'da-da.' This illusion demonstrates how heavily our visual system influences and overrides our sense of hearing.",
+      "imageWikipediaTitle": "McGurk effect",
+      "sources": [
+        {
+          "title": "McGurk effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/McGurk_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/McGurk_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the brain misses giant changes right in front of us",
+      "body": "Our brains cannot process everything in our field of vision, so they take shortcuts. In a famous experiment, an actor stopped a pedestrian to ask for directions. Mid-conversation, workers carrying a large door walked between them, and the actor was secretly swapped with a completely different person. Over half of the participants failed to notice they were suddenly talking to a stranger.",
+      "imageWikipediaTitle": "Visual perception",
+      "sources": [
+        {
+          "title": "Change blindness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Change_blindness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Change_blindness",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Losing ten dollars hurts twice as much as finding ten dollars",
+      "body": "Humans are deeply sensitive to loss. Behavioral economics and psychology show that the pain of losing something is mathematically about twice as powerful as the pleasure of gaining the exact same thing. This concept, known as loss aversion, explains why we hold onto bad investments and why marketing tactics that warn us 'don't miss out' are so incredibly effective.",
+      "imageWikipediaTitle": "Daniel Kahneman",
+      "sources": [
+        {
+          "title": "Loss aversion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Loss_aversion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Loss_aversion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The psychological trick behind horoscopes and tarot cards",
+      "body": "Why do horoscopes feel so eerily accurate? It is due to the Barnum effect, where individuals believe that generic, universally applicable personality descriptions are tailored specifically for them. In 1948, psychologist Bertram Forer gave his students a personality test but handed everyone the exact same vague feedback sheet. On average, students rated the accuracy of their unique profile as 4.3 out of 5.",
+      "imageWikipediaTitle": "P. T. Barnum",
+      "sources": [
+        {
+          "title": "Barnum effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barnum_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Barnum_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How our minds resolve conflicting beliefs",
+      "body": "When our actions clash with our beliefs, it creates a deeply uncomfortable mental tension called cognitive dissonance. To ease this discomfort, our brains will perform mental gymnastics to justify the behavior. For instance, a smoker who knows cigarettes are unhealthy might convince themselves that the stress-relieving benefits of smoking outweigh the physical risks, aligning their attitude with their habit.",
+      "imageWikipediaTitle": "Leon Festinger",
+      "sources": [
+        {
+          "title": "Cognitive dissonance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You probably don't know how a zipper actually works",
+      "body": "If asked, you would likely say you know how a common zipper or toilet works. However, when researchers ask people to write down the step-by-step mechanical process, most find themselves completely stuck. This is the 'illusion of explanatory depth.' We mistake our familiarity with everyday objects for a deep, functional understanding of how they actually operate.",
+      "imageWikipediaTitle": "Zipper",
+      "sources": [
+        {
+          "title": "Illusion of explanatory depth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why repeating a word makes it lose all meaning",
+      "body": "Say the word 'window' thirty times in a row. Very quickly, the letters will begin to feel like a meaningless jumble of strange sounds. This phenomenon is called semantic satiation. When you repeat a word rapidly, the neural pattern representing its meaning is fired so frequently that the brain's receptors temporarily fatigue, leaving you with only the physical, empty sound of the word.",
+      "imageWikipediaTitle": "Linguistics",
+      "sources": [
+        {
+          "title": "Semantic satiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Semantic_satiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Semantic_satiation",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How your memory edits the past",
+      "body": "When recalling an experience, your brain does not average out every moment. Instead, it relies on the 'peak-end rule.' We judge past events almost entirely on two points: how intense they felt at their peak (good or bad) and how they ended. A long, painful medical procedure that ends gently is remembered more favorably than a shorter one that ends abruptly with sharp pain.",
+      "imageWikipediaTitle": "Daniel Kahneman",
+      "sources": [
+        {
+          "title": "Peak-end rule",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How other people's expectations shape your reality",
+      "body": "What people expect of us often determines how we perform. In a famous classroom study, researchers told teachers that certain random students were 'intellectual bloomers' poised for a breakthrough. By the end of the year, those randomly selected students actually showed significant IQ increases. The teachers' high expectations led them to subconsciously provide more warmth, feedback, and encouragement to those children.",
+      "imageWikipediaTitle": "Pygmalion (mythology)",
+      "sources": [
+        {
+          "title": "Pygmalion effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pygmalion_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pygmalion_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spend too much time gaming, and your dreams will adapt",
+      "body": "Spend hours playing a repetitive puzzle game like Tetris, and you may find yourself seeing falling blocks when you close your eyes, or visualizing how real-life furniture might fit together. This is the Tetris effect. It happens when a highly repetitive activity begins to dominate a person's thoughts, mental imagery, and even their dreams, showing how plastic the brain is to training.",
+      "imageWikipediaTitle": "Tetris",
+      "sources": [
+        {
+          "title": "Tetris effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tetris_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tetris_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we assume attractive people are also highly intelligent",
+      "body": "Our brains love to take shortcuts, and one of the strongest is the halo effect. When we perceive one positive trait in a person, like physical attractiveness, we subconsciously assume they possess other positive traits, like honesty, intelligence, and kindness. This bias heavily influences hiring decisions, courtroom verdicts, and political elections, often without anyone realizing it.",
+      "imageWikipediaTitle": "Edward Thorndike",
+      "sources": [
+        {
+          "title": "Halo effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halo_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Halo_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden number that quietly controls your decisions",
+      "body": "If you see a jacket priced at $500, but marked down to $100, it feels like an incredible steal. However, if you saw the same jacket priced regularly at $100, you might hesitate. This is the anchoring bias. Our brains rely far too heavily on the very first piece of information we receive when making a decision, setting a mental baseline that distorts all future math.",
+      "imageWikipediaTitle": "Anchor",
+      "sources": [
+        {
+          "title": "Anchoring (cognitive bias)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we blame victims for things out of their control",
+      "body": "It is comforting to believe that good things happen to good people and bad things happen to bad people. This cognitive bias, known as the just-world hypothesis, helps us feel safe in an unpredictable world. Unfortunately, it also leads people to blame victims of crimes or tragedies for their own misfortune, falsely assuming they must have done something to deserve it.",
+      "imageWikipediaTitle": "Melvin J. Lerner",
+      "sources": [
+        {
+          "title": "Just-world hypothesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Just-world_hypothesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Just-world_hypothesis",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you believe bad things only happen to other people",
+      "body": "Most of us suffer from a chronic case of hope. The optimism bias causes us to believe we are far less likely to experience negative events—like getting divorced, suffering a car accident, or falling ill—than our peers. While this bias can lead to risky behaviors, it also plays a vital evolutionary role, keeping us motivated, reducing stress levels, and protecting our mental health.",
+      "imageWikipediaTitle": "Tali Sharot",
+      "sources": [
+        {
+          "title": "Optimism bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Optimism_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Optimism_bias",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why having too many options makes us miserable",
+      "body": "You might think that more choices equal more freedom, but psychology suggests otherwise. Known as the paradox of choice, having too many options can paralyze us. When we face dozens of varieties of jam or streaming movies, we take longer to decide, feel less satisfied with our final selection, and worry we missed out on a better option.",
+      "imageWikipediaTitle": "Supermarket",
+      "sources": [
+        {
+          "title": "The Paradox of Choice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Paradox_of_Choice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Paradox_of_Choice",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You think way more people agree with you than actually do",
+      "body": "We tend to overestimate how common our own beliefs, values, and habits are. Known as the false consensus effect, this bias occurs because our social circles usually consist of like-minded people. Consequently, we generalize our friend group's views to the broader public, leading us to believe that our personal preferences and opinions are the default settings for humanity.",
+      "imageWikipediaTitle": "Conformity",
+      "sources": [
+        {
+          "title": "False consensus effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/False_consensus_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/False_consensus_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we feel like we 'knew it all along'",
+      "body": "Once an event has occurred, our brains immediately rewrite history. Hindsight bias is the psychological tendency to believe we predicted an outcome perfectly, even if we had no idea what would happen. This happens because our brains integrate the new information into our existing memory of the event, making the actual outcome seem obvious and inevitable in retrospect.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Hindsight bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hindsight_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hindsight_bias",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we see faces in electrical outlets and clouds",
+      "body": "Human survival once depended on spotting hidden predators in the brush. Because of this evolutionary pressure, our brains evolved to be hyper-active pattern finders. This tendency is called apophenia. When it specifically causes us to see human faces in inanimate objects—like toast, cars, or Martian rocks—it is known as pareidolia, a harmless byproduct of our survival instincts.",
+      "imageWikipediaTitle": "Pareidolia",
+      "sources": [
+        {
+          "title": "Apophenia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apophenia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Apophenia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The sweet spot where stress actually improves performance",
+      "body": "Stress gets a bad reputation, but some of it is essential for success. The Yerkes-Dodson Law states that performance increases with physiological arousal, but only up to an optimal point. Too little stress leaves you bored and unmotivated; too much stress triggers panic and degrades performance. Finding that perfect middle zone of pressure is key to peak mental focus.",
+      "imageWikipediaTitle": "Yerkes-Dodson law",
+      "sources": [
+        {
+          "title": "Yerkes-Dodson law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the least competent people are often the most confident",
+      "body": "True expertise breeds humility, while ignorance breeds confidence. The Dunning-Kruger effect is a cognitive bias where people with low ability in a specific task overestimate their competence. Because they lack the basic knowledge to recognize their own errors, they cannot accurately assess their skills. Conversely, highly skilled individuals often underestimate their relative competence, assuming others find tasks just as easy.",
+      "imageWikipediaTitle": "Overconfidence effect",
+      "sources": [
+        {
+          "title": "Dunning-Kruger effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the exact same fact can lead to opposite choices",
+      "body": "The way information is presented can completely alter our decisions. If doctors describe a surgery as having a '90 percent survival rate,' patients are far more likely to agree to it than if they are told it has a '10 percent mortality rate.' Even though the math is identical, our brains react emotionally to the positive or negative framing of the options.",
+      "imageWikipediaTitle": "Cognitive bias",
+      "sources": [
+        {
+          "title": "Framing effect (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When you remember the fact but forget the liar who told you",
+      "body": "Our brains are terrible at keeping track of where we learned things. Known as source amnesia, this glitch means we often remember a piece of information perfectly while completely forgetting its context or credibility. This explains why fake news is so stubborn: even if we are told a rumor is false, we may later recall the lie as a true fact because the warning has faded.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Source amnesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Source_amnesia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Source_amnesia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we always think the world is going to the dogs",
+      "body": "Since ancient times, humans have complained that society is in a state of moral decay. This cognitive bias is called declinism. Our brains naturally filter out bad memories from our own youth over time, leaving us with a warm, nostalgic view of the past. When we compare this polished memory of yesterday to the messy, unfiltered reality of today, the present looks much worse.",
+      "imageWikipediaTitle": "Nostalgia",
+      "sources": [
+        {
+          "title": "Declinism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Declinism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Declinism",
+      "category": "psychology"
+    }
+  ]
+}

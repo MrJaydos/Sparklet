@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T13:55:45.065Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's core is younger than its crust",
+      "body": "Thanks to Einstein's theory of general relativity, we know gravity warps time. Because gravity is stronger at the center of the Earth than at its surface, time actually moves slightly slower there. Physicists calculated that the Earth's solid iron inner core is about two and a half years younger than the planet's crust, despite forming at the same time.",
+      "imageWikipediaTitle": "Inner core",
+      "sources": [
+        {
+          "title": "Gravitational time dilation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gravitational_time_dilation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gravitational_time_dilation",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we can never reach absolute zero",
+      "body": "Absolute zero, or minus 273.15 degrees Celsius, is the temperature at which all classical atomic motion stops. However, the laws of thermodynamics and quantum mechanics make reaching this temperature impossible. Due to the Heisenberg uncertainty principle, particles must always maintain a tiny amount of jittery quantum motion, known as zero-point energy.",
+      "imageWikipediaTitle": "Absolute zero",
+      "sources": [
+        {
+          "title": "Absolute zero",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Absolute_zero"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Absolute_zero",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The microscopic animals that survive outer space",
+      "body": "Tardigrades, or water bears, can survive the vacuum of space, extreme radiation, and temperatures near absolute zero. They do this by entering a state called cryptobiosis, where they expel almost all water from their bodies and suspend their metabolism. They can remain in this dormant state for decades, reviving when rehydrated.",
+      "imageWikipediaTitle": "Tardigrade",
+      "sources": [
+        {
+          "title": "Tardigrade",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tardigrade"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tardigrade",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Light can be a wave and a particle at the same time",
+      "body": "In the famous double-slit experiment, physicists discovered that light and matter can display characteristics of both waves and particles. When unobserved, single photons pass through two slits and create an interference pattern like waves. But when we place a detector to watch them, they behave like individual, solid particles.",
+      "imageWikipediaTitle": "Double-slit experiment",
+      "sources": [
+        {
+          "title": "Double-slit experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Double-slit_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Double-slit_experiment",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fungi are more closely related to us than to plants",
+      "body": "Though mushrooms look like plants, evolutionary biology shows they are far closer to animals. Fungi do not perform photosynthesis; instead, they absorb nutrients from their surroundings, much like animals digest food. Cell walls in fungi are made of chitin, the same tough material found in insect exoskeletons, rather than plant cellulose.",
+      "imageWikipediaTitle": "Fungus",
+      "sources": [
+        {
+          "title": "Fungus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fungus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fungus",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The liquid that can climb walls",
+      "body": "When helium is cooled to extremely low temperatures near absolute zero, it undergoes a phase transition to become a superfluid. In this state, it has zero viscosity, meaning it experiences no friction. Superfluid helium can escape its container by spontaneously creeping up the walls and flowing over the top in a thin film.",
+      "imageWikipediaTitle": "Superfluidity",
+      "sources": [
+        {
+          "title": "Superfluid helium-4",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Superfluid_helium-4"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Superfluid_helium-4",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Half of your DNA comes from genetic parasites",
+      "body": "About eight percent of the human genome is made of remnants of ancient viruses that infected our ancestors millions of years ago. These endogenous retroviruses inserted their genetic code into our reproductive cells. Over time, some of these viral genes were repurposed by our bodies, including one crucial for building the human placenta.",
+      "imageWikipediaTitle": "DNA",
+      "sources": [
+        {
+          "title": "Endogenous retrovirus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endogenous_retrovirus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Endogenous_retrovirus",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the vacuum of space can squeeze objects together",
+      "body": "In quantum physics, a vacuum is never truly empty; it is filled with fleeting electromagnetic waves. If you place two uncharged metal plates incredibly close together in a vacuum, fewer waves can exist between them than outside. This difference in quantum pressure pushes the plates together, a phenomenon known as the Casimir effect.",
+      "imageWikipediaTitle": "Casimir effect",
+      "sources": [
+        {
+          "title": "Casimir effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Casimir_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Casimir_effect",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A material one atom thick that is stronger than steel",
+      "body": "Graphene consists of a single layer of carbon atoms arranged in a hexagonal honeycomb lattice. Despite being virtually two-dimensional, it is about 200 times stronger than structural steel of the same thickness. It is also an exceptional conductor of heat and electricity, paving the way for revolutionary electronics and materials science.",
+      "imageWikipediaTitle": "Graphene",
+      "sources": [
+        {
+          "title": "Graphene",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Graphene"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Graphene",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The doctor who was ridiculed for suggesting handwashing",
+      "body": "In 1847, Hungarian physician Ignaz Semmelweis discovered that childbed fever deaths plummeted when doctors washed their hands in a chlorine solution before delivering babies. Despite his overwhelming evidence, the medical community rejected his ideas because germ theory had not yet been established. He died in an asylum before his work was vindicated.",
+      "imageWikipediaTitle": "Ignaz Semmelweis",
+      "sources": [
+        {
+          "title": "Ignaz Semmelweis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How sound can turn into light",
+      "body": "Sonoluminescence occurs when intense sound waves are focused into a liquid, creating tiny gas bubbles. As the sound wave passes, these bubbles rapidly expand and then violently collapse. The temperature inside the collapsing bubble spikes to thousands of degrees Kelvin—hotter than the surface of the Sun—emitting a brief, bright flash of light.",
+      "imageWikipediaTitle": "Sonoluminescence",
+      "sources": [
+        {
+          "title": "Sonoluminescence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sonoluminescence"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sonoluminescence",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient bacteria living inside your cells",
+      "body": "Millions of years ago, a primitive single-celled organism swallowed a bacterium but did not digest it. Instead, they formed a mutually beneficial relationship. Over generations, this bacterium evolved into the mitochondrion, the powerhouse of the cell. Today, mitochondria still carry their own unique DNA, completely separate from the host cell's nucleus.",
+      "imageWikipediaTitle": "Mitochondrion",
+      "sources": [
+        {
+          "title": "Symbiogenesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Symbiogenesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Symbiogenesis",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we love the smell of fresh rain",
+      "body": "The earthy scent that rises after a dry spell is called petrichor. It is primarily caused by geosmin, an organic compound produced by soil-dwelling bacteria. When raindrops hit the ground, they trap tiny air bubbles that shoot upward, releasing geosmin aerosols into the air. Humans are incredibly sensitive to this scent, detecting it at miniscule concentrations.",
+      "imageWikipediaTitle": "Rain",
+      "sources": [
+        {
+          "title": "Petrichor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Petrichor"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Petrichor",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Using lasers to freeze matter",
+      "body": "While we usually think of lasers as heating things up, scientists use them to cool atoms to temperatures just a fraction above absolute zero. By aiming laser beams from multiple directions at moving atoms, the light particles collide with the atoms and slow them down. Since temperature is a measure of atomic motion, slowing them freezes them.",
+      "imageWikipediaTitle": "Laser cooling",
+      "sources": [
+        {
+          "title": "Laser cooling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Laser_cooling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Laser_cooling",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How trees talk to each other underground",
+      "body": "Trees in a forest are not isolated individuals; they are connected by a vast underground network of fungal threads called mycorrhizae. Through this wood wide web, trees can share nutrients, water, and even send chemical warning signals about pests. Older mother trees use this network to nurture younger seedlings, helping them survive.",
+      "imageWikipediaTitle": "Mycorrhiza",
+      "sources": [
+        {
+          "title": "Mycorrhizal network",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mycorrhizal_network"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mycorrhizal_network",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why dry ice never melts into a puddle",
+      "body": "Dry ice is solid carbon dioxide. Unlike regular water ice, it does not melt into a liquid when heated at standard atmospheric pressure. Instead, it undergoes sublimation, transitioning directly from a solid to a gas. This happens because carbon dioxide requires high pressures—at least five times Earth's atmospheric pressure—to exist as a liquid.",
+      "imageWikipediaTitle": "Dry ice",
+      "sources": [
+        {
+          "title": "Dry ice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dry_ice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dry_ice",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's magnetic poles swap places over time",
+      "body": "Earth's magnetic field is generated by the churning of liquid iron in its outer core. This field is dynamic and constantly shifting. Historically, every few hundred thousand years, the magnetic poles swap places entirely—magnetic north becomes south, and vice versa. The last complete reversal occurred about 780,000 years ago.",
+      "imageWikipediaTitle": "Geomagnetic reversal",
+      "sources": [
+        {
+          "title": "Geomagnetic reversal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geomagnetic_reversal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Geomagnetic_reversal",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The shrimp with sixteen color-receptive cones",
+      "body": "Humans see the world using three types of color-receptive cone cells in our eyes. The mantis shrimp possesses up to sixteen different types of photoreceptors. They can detect ultraviolet, infrared, and even polarized light. Rather than processing colors by comparing signals in the brain as humans do, they process visual input directly in their eyes.",
+      "imageWikipediaTitle": "Mantis shrimp",
+      "sources": [
+        {
+          "title": "Mantis shrimp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mantis_shrimp"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why scientists keep themselves in the dark",
+      "body": "In clinical trials, the gold standard is the double-blind study. Neither the patients nor the researchers administering the treatment know who is receiving the real drug and who is getting a placebo. This rigorous method eliminates unconscious bias, preventing researchers from imagining improvements or accidentally hinting to patients how they should feel.",
+      "imageWikipediaTitle": "Clinical trial",
+      "sources": [
+        {
+          "title": "Double-blind trial",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Double-blind"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Double-blind",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The echo of the Big Bang you can see on old TVs",
+      "body": "The Cosmic Microwave Background (CMB) is the oldest light in the universe, dating back to 380,000 years after the Big Bang. As the universe expanded, this light stretched into the microwave spectrum. If you tune an old analog television to an empty channel, about one percent of the static you see is this cosmic background radiation.",
+      "imageWikipediaTitle": "Cosmic microwave background",
+      "sources": [
+        {
+          "title": "Cosmic microwave background",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cosmic_microwave_background",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The animal that steals solar power from plants",
+      "body": "The emerald green sea slug, Elysia chlorotica, can survive for months without eating. It achieves this by consuming algae and stealing their chloroplasts—the cellular engines of photosynthesis. The slug embeds these stolen chloroplasts into its own digestive cells, turning sunlight directly into usable energy in a process called kleptoplasty.",
+      "imageWikipediaTitle": "Elysia chlorotica",
+      "sources": [
+        {
+          "title": "Elysia chlorotica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elysia_chlorotica"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Elysia_chlorotica",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The acid that can destroy bones from the inside",
+      "body": "Hydrofluoric acid is chemically classified as a weak acid because it does not fully dissociate in water. However, it is exceptionally dangerous. It passes easily through human skin without causing immediate, painful burns. Once inside, it greedily binds to calcium in the body, destroying bone tissue and triggering fatal cardiac arrest.",
+      "imageWikipediaTitle": "Hydrofluoric acid",
+      "sources": [
+        {
+          "title": "Hydrofluoric acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hydrofluoric_acid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hydrofluoric_acid",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The quantum trick that keeps the Sun shining",
+      "body": "The Sun generates energy by fusing hydrogen atoms into helium. However, the electrostatic repulsion between positively charged protons is so strong that the Sun's core is technically not hot enough to overcome it. Fusion only occurs because of quantum tunneling, a phenomenon where particles occasionally teleport through energy barriers they cannot climb over.",
+      "imageWikipediaTitle": "Quantum tunnelling",
+      "sources": [
+        {
+          "title": "Quantum tunnelling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quantum_tunnelling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Quantum_tunnelling",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bees use geometry and the Sun to find flowers",
+      "body": "When a foraging honeybee finds a rich source of nectar, she returns to the hive and performs a waggle dance. The angle of her run relative to vertical gravity indicates the direction of the flowers relative to the Sun. The duration of the waggle tells other bees how far they need to fly.",
+      "imageWikipediaTitle": "Waggle dance",
+      "sources": [
+        {
+          "title": "Waggle dance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Waggle_dance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Waggle_dance",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a scientific theory must be able to fail",
+      "body": "Philosopher Karl Popper established that for a theory to be considered scientific, it must be falsifiable. This means there must be a possible, observable experiment that could prove the theory wrong. If a hypothesis can explain every imaginable outcome and cannot be tested or disproved, it falls outside the realm of empirical science.",
+      "imageWikipediaTitle": "Karl Popper",
+      "sources": [
+        {
+          "title": "Falsifiability",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Falsifiability"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Falsifiability",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why nuclear reactors glow blue",
+      "body": "Inside water-cooled nuclear reactors, an eerie blue glow emerges. This is Cherenkov radiation. It occurs when charged particles, like electrons, are ejected at speeds faster than the speed of light in that medium (water slows light down to about 75% of its speed in a vacuum). The particles create a glowing electromagnetic shockwave, similar to a sonic boom.",
+      "imageWikipediaTitle": "Cherenkov radiation",
+      "sources": [
+        {
+          "title": "Cherenkov radiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cherenkov_radiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cherenkov_radiation",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Crows understand the concept of zero",
+      "body": "Recognizing nothing as a numerical quantity is a sophisticated cognitive skill. Scientists discovered that crows possess specialized neurons in their brains that fire specifically when they see zero items, distinct from when they see one or two. This places crows alongside humans, monkeys, and honeybees in a select group of animals that grasp empty sets.",
+      "imageWikipediaTitle": "Carrion crow",
+      "sources": [
+        {
+          "title": "Bird intelligence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bird_intelligence"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bird_intelligence",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How your lifestyle can change how your genes behave",
+      "body": "Your DNA sequence is fixed, but your environment can change how your body reads it. Epigenetics is the study of chemical tags added to DNA that turn genes on or off. Factors like diet, stress, and sleep can alter these tags. Remarkably, some of these epigenetic changes can be passed down to future generations.",
+      "imageWikipediaTitle": "Epigenetics",
+      "sources": [
+        {
+          "title": "Epigenetics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epigenetics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Epigenetics",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The inert gas that dominates our air",
+      "body": "Nitrogen makes up roughly 78% of Earth's atmosphere, yet we cannot use it directly to breathe or build proteins. This is because nitrogen gas consists of two nitrogen atoms locked together by a triple covalent bond—one of the strongest bonds in chemistry. Breaking this bond requires massive energy, which only lightning and specialized soil bacteria can provide.",
+      "imageWikipediaTitle": "Nitrogen",
+      "sources": [
+        {
+          "title": "Nitrogen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nitrogen"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nitrogen",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real biology of fake pills",
+      "body": "The placebo effect is not just all in your head. When patients take a fake sugar pill believing it is real medicine, their brains can trigger actual physical changes. Neuroimaging shows that placebos can stimulate the release of endorphins (natural painkillers) and dopamine, demonstrating the powerful connection between expectation and neurochemistry.",
+      "imageWikipediaTitle": "Placebo",
+      "sources": [
+        {
+          "title": "Placebo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Placebo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Placebo",
+      "category": "science"
+    }
+  ]
+}

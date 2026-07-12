@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T14:02:56.684Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain physically washes itself while you sleep",
+      "body": "During deep sleep, your brain cells literally shrink by about 60 percent. This space allows cerebrospinal fluid to rush through the brain like a dishwasher, flushing out metabolic waste products like amyloid-beta. This process, known as the glymphatic system, helps prevent cognitive decline and clears the cellular debris accumulated during your waking hours.",
+      "imageWikipediaTitle": "Glymphatic system",
+      "sources": [
+        {
+          "title": "Glymphatic system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glymphatic_system"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Glymphatic_system",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Not all body fat is the same: the calorie-burning power of brown fat",
+      "body": "Unlike white fat, which stores excess energy, brown adipose tissue acts like a cellular furnace. Packed with iron-rich mitochondria, brown fat burns lipids and glucose to generate body heat. Activated by cold exposure, even small amounts of brown fat can significantly boost your metabolic rate and help regulate blood sugar levels.",
+      "imageWikipediaTitle": "Brown adipose tissue",
+      "sources": [
+        {
+          "title": "Brown adipose tissue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brown_adipose_tissue"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brown_adipose_tissue",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles are actually giant chemical factories",
+      "body": "When you contract your muscles during exercise, they do not just burn energy; they also release signaling proteins called myokines. These compounds travel through your bloodstream, communicating directly with your brain, liver, and fat tissue. Myokines help reduce systemic inflammation, improve insulin sensitivity, and can even promote the growth of new brain cells.",
+      "imageWikipediaTitle": "Skeletal muscle",
+      "sources": [
+        {
+          "title": "Myokine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myokine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Myokine",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lifting weights actually reshapes your skeleton",
+      "body": "Bones are dynamic, living tissues that constantly remodel themselves. When you perform weight-bearing exercise, the physical stress creates tiny electrical currents in your bones. Specialized cells called osteoblasts detect this stress and respond by laying down new calcium and mineral deposits, making your bones denser, stronger, and more resistant to fractures.",
+      "imageWikipediaTitle": "Bone",
+      "sources": [
+        {
+          "title": "Bone remodeling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone_remodeling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bone_remodeling",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your stomach doesn't digest itself",
+      "body": "Your stomach contains hydrochloric acid strong enough to dissolve metal, yet it remains undamaged. This protection comes from a specialized mucosal barrier. Epithelial cells in the stomach lining secrete a thick, bicarbonate-rich mucus that neutralizes the acid before it can reach the tissue. Additionally, the stomach replaces its entire inner lining every few days to repair any minor damage.",
+      "imageWikipediaTitle": "Stomach",
+      "sources": [
+        {
+          "title": "Gastric mucosal barrier",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastric_mucosal_barrier"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gastric_mucosal_barrier",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The only part of your body that breathes air directly",
+      "body": "Most of your body relies on blood vessels to deliver oxygen, but your corneas are a unique exception. Because blood vessels would block light and impair your vision, the cornea must remain completely clear. Instead, it absorbs oxygen directly from the outside air and extracts nutrients from the tears on its surface and the aqueous humor behind it.",
+      "imageWikipediaTitle": "Cornea",
+      "sources": [
+        {
+          "title": "Cornea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cornea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cornea",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your kidneys filter your entire blood volume dozens of times a day",
+      "body": "Your kidneys are remarkably efficient filtration systems. Every single day, these two fist-sized organs filter your entire blood supply about 40 times. They process roughly 180 liters of fluid, straining out metabolic waste, excess salts, and toxins while reclaiming essential water and nutrients. The filtered waste is then concentrated and excreted as urine.",
+      "imageWikipediaTitle": "Kidney",
+      "sources": [
+        {
+          "title": "Kidney",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kidney"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kidney",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Vitamin D is not actually a vitamin",
+      "body": "Despite its name, Vitamin D is technically a prohormone. True vitamins are nutrients that your body cannot produce on its own. However, when your skin is exposed to UVB sunlight, it synthesizes a compound that your liver and kidneys convert into active calcitriol. This hormone regulates over 1,000 genes, controlling calcium absorption, immune function, and cellular growth.",
+      "imageWikipediaTitle": "Vitamin D",
+      "sources": [
+        {
+          "title": "Vitamin D",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vitamin_D"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vitamin_D",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your liver can regrow from a tiny fraction of itself",
+      "body": "The liver possesses an extraordinary capacity for regeneration. Even if up to 70 percent of its mass is surgically removed, the remaining healthy tissue can completely rebuild the organ within a few weeks. Hepatocytes, the primary liver cells, act like stem cells during this process, rapidly dividing to restore the liver to its original weight and functional capacity.",
+      "imageWikipediaTitle": "Liver",
+      "sources": [
+        {
+          "title": "Liver regeneration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liver_regeneration"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Liver_regeneration",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The appendix is actually a safe house for good bacteria",
+      "body": "Long dismissed as a useless evolutionary leftover, the appendix plays a vital role in your immune system. Researchers have discovered that it serves as a secure reservoir for beneficial gut bacteria. During a severe gastrointestinal illness when healthy microbes are flushed from the digestive tract, the appendix safely repopulates your gut with the essential bacteria needed to restore proper digestion.",
+      "imageWikipediaTitle": "Appendix (anatomy)",
+      "sources": [
+        {
+          "title": "Appendix (anatomy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Appendix_(anatomy)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Appendix_(anatomy)",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lactic acid does not cause muscle soreness the next day",
+      "body": "Many people blame lactic acid for the muscle soreness felt after an intense workout. However, lactic acid actually leaves your muscles within an hour of finishing exercise. The soreness you feel 24 to 48 hours later, called Delayed Onset Muscle Soreness, is actually caused by microscopic tears in the muscle fibers, which trigger temporary localized inflammation as they heal and strengthen.",
+      "imageWikipediaTitle": "Delayed onset muscle soreness",
+      "sources": [
+        {
+          "title": "Delayed onset muscle soreness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Delayed_onset_muscle_soreness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Delayed_onset_muscle_soreness",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The \"second brain\" hiding in your gut",
+      "body": "Your digestive tract has its own independent nervous system containing over 100 million neurons, earning it the nickname the second brain. This network communicates constantly with your actual brain via the vagus nerve. Amazingly, about 90 percent of your body's serotonin, a key neurotransmitter that regulates mood and emotion, is produced in the gut, directly linking digestive health to mental well-being.",
+      "imageWikipediaTitle": "Enteric nervous system",
+      "sources": [
+        {
+          "title": "Gut–brain axis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gut%E2%80%93brain_axis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gut%E2%80%93brain_axis",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your body paralyzes itself while you sleep",
+      "body": "Every night during Rapid Eye Movement sleep, your brain enters a state of REM atonia. It temporarily shuts down motor neurons to paralyze your voluntary muscles. This natural safety mechanism prevents you from physically acting out your dreams and potentially injuring yourself. When this process briefly malfunctions during waking, it results in the frightening but harmless experience of sleep paralysis.",
+      "imageWikipediaTitle": "Sleep paralysis",
+      "sources": [
+        {
+          "title": "Sleep paralysis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleep_paralysis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sleep_paralysis",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Boost your plant-iron absorption with this simple trick",
+      "body": "The iron found in plant foods, called non-heme iron, is chemically different from the heme iron in animal products and is much harder for your body to absorb. Fortunately, you can easily bypass this barrier by pairing plant iron with Vitamin C. Ascorbic acid chemically reduces the iron into a more soluble form, allowing your small intestine to absorb it up to three times more efficiently.",
+      "imageWikipediaTitle": "Iron",
+      "sources": [
+        {
+          "title": "Iron deficiency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iron_deficiency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Iron_deficiency",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why blue light keeps you wide awake at night",
+      "body": "Your eyes contain specialized cells that have nothing to do with conscious vision. These cells contain a light-sensitive pigment called melanopsin, which is highly sensitive to blue light wavelengths. When blue light from the sun or screens hits these cells, they signal your brain's master clock to suppress melatonin, the hormone responsible for sleepiness, tricking your body into thinking it is daytime.",
+      "imageWikipediaTitle": "Melanopsin",
+      "sources": [
+        {
+          "title": "Melanopsin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Melanopsin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Melanopsin",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A healthy heart does not beat at a perfectly steady pace",
+      "body": "If your heart rate is 60 beats per minute, it does not beat exactly once every second. Instead, the time between beats varies slightly. This variation is called Heart Rate Variability. A higher variability is a sign of a healthy, adaptable nervous system that can transition smoothly between stress and relaxation, whereas a rigid, highly regular rhythm can indicate physical stress or exhaustion.",
+      "imageWikipediaTitle": "Heart rate variability",
+      "sources": [
+        {
+          "title": "Heart rate variability",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heart_rate_variability"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Heart_rate_variability",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The math error that gave spinach its superfood status",
+      "body": "Popeye's love for spinach was built on a mistake. In 1870, a German chemist calculating the iron content of spinach misplaced a decimal point, making the vegetable appear ten times richer in iron than it actually was. Although the error was corrected decades later, the myth of spinach as an extraordinary, muscle-building source of iron persisted in popular culture for generations.",
+      "imageWikipediaTitle": "Spinach",
+      "sources": [
+        {
+          "title": "Spinach",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spinach"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spinach",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you start shivering when you are sleep-deprived",
+      "body": "If you have ever felt chilly or started shivering after pulling an all-nighter, your brain is to blame. Sleep deprivation disrupts the hypothalamus, the brain region responsible for regulating your core body temperature. Naturally, your body temperature drops to its lowest point during early morning sleep. Without rest, your brain struggles to keep you warm, triggering shivering to generate heat.",
+      "imageWikipediaTitle": "Hypothalamus",
+      "sources": [
+        {
+          "title": "Hypothalamus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hypothalamus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hypothalamus",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "What actually happens during a brain freeze",
+      "body": "A brain freeze is a rapid response to cold on the roof of your mouth. When you eat something cold quickly, it abruptly constricts the local blood vessels. Your body reacts by flooding the area with blood to warm it up, causing the vessels to rapidly dilate. This sudden swelling triggers pain receptors, sending a signal along the trigeminal nerve that your brain misinterprets as pain in your forehead.",
+      "imageWikipediaTitle": "Trigeminal nerve",
+      "sources": [
+        {
+          "title": "Cold-stimulus headache",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cold-stimulus_headache"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cold-stimulus_headache",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How dietary fiber feeds your gut microbiome",
+      "body": "Your body lacks the enzymes required to digest dietary fiber. Instead, fiber travels intact to your large intestine, where it serves as food for trillions of gut bacteria. As these microbes ferment the fiber, they produce short-chain fatty acids like butyrate. These compounds nourish the cells lining your colon, strengthen your gut barrier, reduce inflammation, and help regulate your immune system.",
+      "imageWikipediaTitle": "Short-chain fatty acid",
+      "sources": [
+        {
+          "title": "Short-chain fatty acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Short-chain_fatty_acid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Short-chain_fatty_acid",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You keep burning calories long after your workout ends",
+      "body": "After an intense workout, your metabolism does not immediately return to its baseline. Your body enters a state called Excess Post-Exercise Oxygen Consumption, or EPOC. To recover, your body must consume extra oxygen to restore hormone levels, replenish cellular fuel stores, and repair damaged muscle tissue. This elevated oxygen demand keeps your calorie burn elevated for hours after you finish exercising.",
+      "imageWikipediaTitle": "Aerobic exercise",
+      "sources": [
+        {
+          "title": "Excess post-exercise oxygen consumption",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Excess_post-exercise_oxygen_consumption"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Excess_post-exercise_oxygen_consumption",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your skin is covered in a protective acid shield",
+      "body": "Healthy human skin has a slightly acidic pH, typically between 4.5 and 5.5. This acidity is maintained by the acid mantle, a very thin fluid film composed of sebum, sweat, and beneficial fatty acids. This microscopic barrier acts as a defense mechanism, inhibiting the growth of harmful bacteria and fungi while keeping the skin barrier hydrated, intact, and resilient against environmental damage.",
+      "imageWikipediaTitle": "Skin",
+      "sources": [
+        {
+          "title": "Acid mantle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid_mantle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Acid_mantle",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ultimate cardiorespiratory fitness metric for longevity",
+      "body": "VO2 max measures the maximum amount of oxygen your body can utilize during intense exercise. More than just an athletic metric, research shows that a high VO2 max is one of the strongest predictors of long-term health and longevity. Improving your cardiovascular fitness through aerobic training enhances mitochondrial efficiency, strengthens your heart, and significantly reduces the risk of all-cause mortality.",
+      "imageWikipediaTitle": "VO2 max",
+      "sources": [
+        {
+          "title": "VO2 max",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/VO2_max"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/VO2_max",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can overdose on some vitamins but not others",
+      "body": "Vitamins are split into two categories: water-soluble and fat-soluble. Water-soluble vitamins, like Vitamin C, are easily excreted in your urine if you consume too much. However, fat-soluble vitamins, specifically A, D, E, and K, accumulate in your liver and fatty tissues. Because your body cannot easily flush them out, taking excessive supplements of these vitamins can lead to toxic and dangerous buildups.",
+      "imageWikipediaTitle": "Vitamin",
+      "sources": [
+        {
+          "title": "Hypervitaminosis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hypervitaminosis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hypervitaminosis",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The cellular battery that powers your entire nervous system",
+      "body": "Every cell in your body contains tiny molecular structures called sodium-potassium pumps. These pumps constantly push sodium ions out of the cell and pull potassium ions in. This movement creates an electrical gradient across the cell membrane, functioning like a microscopic battery. This charge is absolutely essential, powering the transmission of nerve impulses, muscle contractions, and kidney filtration.",
+      "imageWikipediaTitle": "Sodium-potassium pump",
+      "sources": [
+        {
+          "title": "Sodium-potassium pump",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sodium-potassium_pump"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sodium-potassium_pump",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tiny master clock inside your brain",
+      "body": "Deep within your brain's hypothalamus sits a cluster of about 20,000 neurons called the suprachiasmatic nucleus. This tiny structure acts as your body's master clock, coordinating all your biological rhythms. It relies on light signals from your eyes to sync your body with the 24-hour day-night cycle, regulating hormone production, body temperature, and when you feel awake or sleepy.",
+      "imageWikipediaTitle": "Suprachiasmatic nucleus",
+      "sources": [
+        {
+          "title": "Suprachiasmatic nucleus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Suprachiasmatic_nucleus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Suprachiasmatic_nucleus",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The two distinct ways fiber improves your health",
+      "body": "Dietary fiber is categorized into soluble and insoluble types, each serving a unique function. Soluble fiber dissolves in water to form a gel-like substance, slowing digestion to help regulate blood sugar and lower cholesterol. Insoluble fiber does not dissolve; instead, it adds bulk to your stool and helps food pass more quickly through the digestive tract, preventing constipation and supporting overall gut health.",
+      "imageWikipediaTitle": "Dietary fiber",
+      "sources": [
+        {
+          "title": "Dietary fiber",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dietary_fiber"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dietary_fiber",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How endurance exercise physically changes your heart",
+      "body": "Regular aerobic exercise triggers cardiovascular remodeling, a physical transformation of your heart. Over time, the left ventricle—the chamber responsible for pumping oxygenated blood to the body—actually grows larger and stronger. This adaptation allows your heart to pump more blood with each individual beat. As a result, your resting heart rate drops, making your entire cardiovascular system highly efficient.",
+      "imageWikipediaTitle": "Athletic heart syndrome",
+      "sources": [
+        {
+          "title": "Athletic heart syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Athletic_heart_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Athletic_heart_syndrome",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a 20-minute nap is better than a 45-minute one",
+      "body": "If you need a quick afternoon boost, keep your nap under 20 minutes. A short nap provides light sleep, boosting alertness and motor skills without leaving you groggy. If you sleep longer than 30 minutes, your brain enters deep slow-wave sleep. Waking up during this stage triggers sleep inertia, a state of grogginess and disorientation that can ruin your productivity for hours.",
+      "imageWikipediaTitle": "Nap",
+      "sources": [
+        {
+          "title": "Nap",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nap"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nap",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The amino acids your body cannot make on its own",
+      "body": "Proteines are built from 20 different amino acids, which your body needs to grow and function. While your body can synthesize 11 of these on its own, there are nine essential amino acids it cannot make. You must obtain these nine compounds through your diet. Foods like eggs, quinoa, and meat contain all nine, making them complete proteins, while many plant foods must be combined.",
+      "imageWikipediaTitle": "Amino acid",
+      "sources": [
+        {
+          "title": "Essential amino acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Essential_amino_acid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Essential_amino_acid",
+      "category": "health"
+    }
+  ]
+}

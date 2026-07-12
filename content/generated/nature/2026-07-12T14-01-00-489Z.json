@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T14:01:00.489Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The jellyfish that can hit rewind on its own life cycle",
+      "body": "When threatened, sick, or aging, the Turritopsis dohrnii jellyfish can reverse its aging process. It transforms its existing cells back into a younger state, reverting from an adult medusa into a polyp colony. This cycle can theoretically repeat indefinitely, making it biologically immortal.",
+      "imageWikipediaTitle": "Turritopsis dohrnii",
+      "sources": [
+        {
+          "title": "Turritopsis dohrnii",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Trees share resources and warnings through an underground fungal internet",
+      "body": "Beneath the forest floor lies a vast network of fungal threads called mycorrhizae. These fungi connect the roots of different trees, allowing them to share water, carbon, and nutrients. When a tree is attacked by pests, it can even send chemical warning signals through this wood wide web to help neighboring trees prepare.",
+      "imageWikipediaTitle": "Mycorrhiza",
+      "sources": [
+        {
+          "title": "Mycorrhizal network",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mycorrhizal_network"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mycorrhizal_network",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tardigrades can survive the vacuum of space by turning into glass",
+      "body": "Tardigrades, also known as water bears, are famously resilient. When faced with extreme environments like freezing cold, boiling heat, or even the vacuum of outer space, they enter a state called cryptobiosis. They dehydrate their bodies and protect their cellular machinery using unique proteins that create a glass-like matrix inside their cells.",
+      "imageWikipediaTitle": "Tardigrade",
+      "sources": [
+        {
+          "title": "Tardigrade",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tardigrade"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tardigrade",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Brainless slime molds can solve mazes and find the shortest paths",
+      "body": "The single-celled yellow slime mold, Physarum polycephalum, has no brain or nervous system, yet it exhibits intelligent behavior. When placed in a maze with food at the exits, it retreats from dead ends and highlights the shortest path. Researchers have used it to model efficient transit networks like the Tokyo rail system.",
+      "imageWikipediaTitle": "Physarum polycephalum",
+      "sources": [
+        {
+          "title": "Physarum polycephalum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Physarum_polycephalum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Physarum_polycephalum",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A massive forest of forty thousand trees is actually a single organism",
+      "body": "In Utah, a forest of quaking aspen trees named Pando is actually a single living organism. Spanning over one hundred acres, all forty-seven thousand trees in the grove share a single, massive underground root system and are genetically identical clones. It is estimated to weigh over six million kilograms, making it one of the heaviest organisms on Earth.",
+      "imageWikipediaTitle": "Pando (tree)",
+      "sources": [
+        {
+          "title": "Pando (tree)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pando_(tree)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pando_(tree)",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The pistol shrimp hunts by shooting bubbles hotter than the surface of the sun",
+      "body": "The pistol shrimp snaps its specialized claw shut so fast that it shoots out a high-speed jet of water. This jet creates a low-pressure bubble that collapses violently. The collapse produces a loud snapping sound, a flash of light, and temperatures reaching nearly five thousand Kelvin, which instantly stuns its prey.",
+      "imageWikipediaTitle": "Alpheidae",
+      "sources": [
+        {
+          "title": "Alpheidae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alpheidae"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Alpheidae",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The superb lyrebird can mimic chainsaws, car alarms, and other birds",
+      "body": "Australia's superb lyrebird is one of nature's greatest vocal mimics. To attract mates, males imitate a wide variety of sounds with near-perfect accuracy. This includes the calls of other bird species, forest mammals, and even human-made sounds like chainsaws, camera shutters, and car alarms from nearby human encroachment.",
+      "imageWikipediaTitle": "Superb lyrebird",
+      "sources": [
+        {
+          "title": "Superb lyrebird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Superb_lyrebird"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Superb_lyrebird",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Parasitic wasps turn caterpillars into mind-controlled bodyguards",
+      "body": "The parasitic wasp Cotesia glomerata injects its eggs inside live caterpillars. The larvae feed on the host's body fat, eventually chewing their way out to spin cocoons. Surprisingly, the caterpillar survives this exit and is chemically manipulated to defend the wasp cocoons from predators, starving to death once the wasps hatch.",
+      "imageWikipediaTitle": "Cotesia glomerata",
+      "sources": [
+        {
+          "title": "Cotesia glomerata",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cotesia_glomerata"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cotesia_glomerata",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why some trees refuse to touch each other in the forest canopy",
+      "body": "In certain forests, the uppermost branches of trees do not touch. Instead, they leave clear, channel-like gaps between their crowns. This phenomenon, known as crown shyness, helps prevent the spread of harmful pests and diseases, and ensures that wind-blown branches do not damage neighboring trees, while maximizing light absorption for all.",
+      "imageWikipediaTitle": "Crown shyness",
+      "sources": [
+        {
+          "title": "Crown shyness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crown_shyness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Crown_shyness",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Whale waste plays a crucial role in cycling nutrients through oceans",
+      "body": "Whales feed in the deep ocean and return to the surface to breathe and defecate. Their iron-rich fecal plumes act as an essential fertilizer for marine phytoplankton. This whale pump boosts the growth of these microscopic organisms, which form the base of the marine food web and absorb vast amounts of carbon dioxide from our atmosphere.",
+      "imageWikipediaTitle": "Whale",
+      "sources": [
+        {
+          "title": "Whale pump",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whale_pump"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Whale_pump",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Electric eels can alter their voltage to track and hunt hidden prey",
+      "body": "Electric eels do not just use electricity to shock their prey. They also emit low-voltage pulses to navigate murky waters, acting like a biological radar. When hunting, they emit high-voltage doublets that cause hidden prey to twitch involuntarily, revealing their exact location and allowing the eel to strike.",
+      "imageWikipediaTitle": "Electric eel",
+      "sources": [
+        {
+          "title": "Electric eel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electric_eel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Electric_eel",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The unique physiological trick behind the wombat's cube-shaped poop",
+      "body": "Wombats are the only known animals that produce cube-shaped feces. They use these flat-sided blocks to mark territory on rocks and logs without them rolling away. Their intestines have uneven elasticity, with two distinct stiff grooves and two flexible regions that shape the digestive waste into distinct cubes before excretion.",
+      "imageWikipediaTitle": "Wombat",
+      "sources": [
+        {
+          "title": "Wombat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wombat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wombat",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Axolotls can perfectly regenerate entire limbs, organs, and parts of their brain",
+      "body": "Unlike humans, who form scar tissue when injured, the axolotl can perfectly regenerate complex structures. If an axolotl loses a limb, it grows back fully functional, bones and nerves included. They can also regenerate parts of their heart, lungs, spinal cord, and brain, making them a prime focus for regenerative medicine.",
+      "imageWikipediaTitle": "Axolotl",
+      "sources": [
+        {
+          "title": "Axolotl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axolotl"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Axolotl",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mantis shrimp see a world of color humans cannot even imagine",
+      "body": "While humans have three types of color-receptive cone cells in our eyes, the mantis shrimp has up to sixteen. This allows them to detect ultraviolet, infrared, and polarized light. Their complex vision helps them communicate via polarized patterns on their shells and spot camouflaged prey in the vibrant, cluttered environment of coral reefs.",
+      "imageWikipediaTitle": "Mantis shrimp",
+      "sources": [
+        {
+          "title": "Mantis shrimp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mantis_shrimp"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The desert plant that lives for thousands of years on just two leaves",
+      "body": "In the Namib Desert grows Welwitschia mirabilis, a plant that produces only two leaves in its entire lifetime. These leaves grow continuously from the base, getting frayed and split by harsh desert winds over centuries. Living for over a thousand years, it survives primarily on moisture collected from ocean fog.",
+      "imageWikipediaTitle": "Welwitschia",
+      "sources": [
+        {
+          "title": "Welwitschia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Welwitschia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Welwitschia",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The slow-moving shark that can live for four hundred years",
+      "body": "The Greenland shark is the longest-lived vertebrate on Earth. Living in the freezing waters of the North Atlantic, they grow at a rate of only about one centimeter per year. Marine biologists estimating their age using radiocarbon dating of eye proteins discovered that these sharks can live for four centuries, reaching sexual maturity at around one hundred and fifty years.",
+      "imageWikipediaTitle": "Greenland shark",
+      "sources": [
+        {
+          "title": "Greenland shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greenland_shark"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The zombie fungus that takes over the minds of ants",
+      "body": "Ophiocordyceps unilateralis is a parasitic fungus that infects forest ants. Once inside, the fungus manipulates the ant’s nervous system, forcing it to climb a plant, bite down hard on the underside of a leaf, and die. The fungus then sprouts a fruiting body from the ant's head to shower spores down on more victims below.",
+      "imageWikipediaTitle": "Ophiocordyceps unilateralis",
+      "sources": [
+        {
+          "title": "Ophiocordyceps unilateralis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Crows understand cause and effect well enough to build their own tools",
+      "body": "New Caledonian crows are famous for their remarkable problem-solving skills. In the wild, they craft tools by stripping twigs and bending stiff leaves into hooks to extract insects from tree bark. In laboratory experiments, they have demonstrated the ability to combine multiple short sticks to reach food, a cognitive skill once thought unique to primates.",
+      "imageWikipediaTitle": "New Caledonian crow",
+      "sources": [
+        {
+          "title": "New Caledonian crow",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/New_Caledonian_crow"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/New_Caledonian_crow",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eucalyptus trees use flammable oil to encourage forest fires",
+      "body": "Eucalyptus trees have evolved to survive, and even thrive, in forest fires. Their leaves contain highly flammable oils that encourage intense, fast-moving blazes. While the fire destroys competing plant species, the eucalyptus survives thanks to its fire-resistant bark and deep epicormic buds, which sprout new growth immediately after the fire passes.",
+      "imageWikipediaTitle": "Eucalyptus",
+      "sources": [
+        {
+          "title": "Eucalyptus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eucalyptus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eucalyptus",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The star-nosed mole can detect and eat its prey in a fraction of a second",
+      "body": "Living in dark, damp soils, the star-nosed mole relies on twenty-two fleshy, pink tentacles surrounding its snout to navigate. Covered in over twenty-five thousand microscopic sensory receptors, this star can identify and consume insects in less than a quarter of a second, making it the fastest-foraging mammal known.",
+      "imageWikipediaTitle": "Star-nosed mole",
+      "sources": [
+        {
+          "title": "Star-nosed mole",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Star-nosed_mole"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Star-nosed_mole",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The century plant blooms just once in its life and then dies",
+      "body": "The Agave americana, commonly known as the century plant, spends up to thirty years storing nutrients in its spiky leaves. When it finally reaches maturity, it grows a single, massive flower spike up to nine meters tall. After a spectacular bloom that attracts pollinators, the plant's resources are completely exhausted, and it dies.",
+      "imageWikipediaTitle": "Agave americana",
+      "sources": [
+        {
+          "title": "Agave americana",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agave_americana"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Agave_americana",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Weakly electric fish navigate using their own self-generated field",
+      "body": "Gymnotiform fish, also known as weakly electric fish, generate low-voltage electric fields around their bodies using specialized muscle tissue. By detecting distortions in this field with receptors on their skin, they can map their surroundings, spot prey, and communicate with other electric fish in pitch-black waters.",
+      "imageWikipediaTitle": "Weakly electric fish",
+      "sources": [
+        {
+          "title": "Weakly electric fish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weakly_electric_fish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Weakly_electric_fish",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mimic octopus can impersonate multiple toxic sea animals",
+      "body": "Discovered in 1998, the mimic octopus does not just blend into its surroundings. It actively impersonates other local sea creatures to deter predators. By changing its shape, behavior, and color pattern, it can convincingly mimic toxic flatfish, venomous lionfish, sea snakes, and even stinging jellyfish.",
+      "imageWikipediaTitle": "Mimic octopus",
+      "sources": [
+        {
+          "title": "Mimic octopus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mimic_octopus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mimic_octopus",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The carnivorous pitcher plant that rents out space to bats",
+      "body": "In the rainforests of Borneo, the carnivorous pitcher plant Nepenthes hemsleyana has formed a unique partnership with Hardwicke's woolly bats. The bats roost inside the pitcher, which provides a safe, parasite-free shelter. In exchange, the plant gains up to a third of its nitrogen from the bat's nutrient-rich droppings.",
+      "imageWikipediaTitle": "Nepenthes hemsleyana",
+      "sources": [
+        {
+          "title": "Nepenthes hemsleyana",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nepenthes_hemsleyana"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nepenthes_hemsleyana",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea otters use pockets and stones to crack open hard shells",
+      "body": "Sea otters are among the few marine mammals that use tools. They carry a favorite stone in a loose fold of skin under their forelimbs, which acts like a built-in pocket. Floating on their backs, they place the stone on their chests and smash clams, sea urchins, and mussels against it to crack them open.",
+      "imageWikipediaTitle": "Sea otter",
+      "sources": [
+        {
+          "title": "Sea otter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_otter",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bullhorn acacia trees hire aggressive ants to fight off herbivores",
+      "body": "The bullhorn acacia tree has a mutualistic relationship with pseudomyrmecine ants. The tree provides the ants with hollow thorns for shelter and specialized nectar and protein-rich food bodies. In return, the ants vigorously defend the tree, attacking any herbivores that attempt to feed on it and clearing competing vegetation from around its base.",
+      "imageWikipediaTitle": "Acacia cornigera",
+      "sources": [
+        {
+          "title": "Acacia cornigera",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acacia_cornigera"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Acacia_cornigera",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The narwhal's long tusk is actually a highly sensitive sensory tooth",
+      "body": "The famous horn of the narwhal is not a horn at all, but an elongated left canine tooth that grows directly through their upper lip. This tusk is packed with millions of nerve endings and can detect changes in water temperature, salinity, and pressure, helping the narwhal navigate and hunt in icy Arctic waters.",
+      "imageWikipediaTitle": "Narwhal",
+      "sources": [
+        {
+          "title": "Narwhal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Narwhal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Narwhal",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The desert rain frog defends itself with a surprisingly high-pitched squeak",
+      "body": "The desert rain frog, native to a narrow strip of coastline in Namibia and South Africa, cannot swim or hop. Instead, it crawls across sand dunes. When threatened, this tiny, round frog inflates its body and lets out a high-pitched, squeaky cry that sounds remarkably like a toy squeaker, designed to deter predators.",
+      "imageWikipediaTitle": "Desert rain frog",
+      "sources": [
+        {
+          "title": "Desert rain frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Desert_rain_frog"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Desert_rain_frog",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Leafcutter ants do not eat leaves, they use them to farm fungus",
+      "body": "Leafcutter ants carry large pieces of foliage back to their underground nests, but they do not consume them. Instead, they chew the leaves into a pulp and use them to cultivate a specialized fungus. The ants feed exclusively on this fungus, maintaining vast underground farms that support millions of colony members.",
+      "imageWikipediaTitle": "Leafcutter ant",
+      "sources": [
+        {
+          "title": "Leafcutter ant",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leafcutter_ant"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Leafcutter_ant",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Alaskan wood frog survives the winter by freezing solid",
+      "body": "During the bitter Alaskan winter, the wood frog survives by allowing up to sixty percent of its body water to freeze. Its heart stops beating, and its breathing ceases. To prevent its cells from bursting, the frog floods its tissues with glucose, which acts as a natural antifreeze, before thawing completely in the spring.",
+      "imageWikipediaTitle": "Wood frog",
+      "sources": [
+        {
+          "title": "Wood frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wood_frog"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wood_frog",
+      "category": "nature"
+    }
+  ]
+}

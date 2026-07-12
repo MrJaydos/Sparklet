@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T14:03:49.553Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we call overused phrases \"clichés\"",
+      "body": "In 19th-century French printing shops, typesetters used a cast plate to reproduce frequently used words or phrases all at once. The metal plate made a clicking sound, or \"cliché,\" when striking the molten metal. This mechanical shortcut gave us the word \"cliché\" to describe a stale, overused expression that is repeated mechanically without original thought.",
+      "imageWikipediaTitle": "Stereotype (printing)",
+      "sources": [
+        {
+          "title": "Cliché",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clich%C3%A9"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Clich%C3%A9",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a ball of thread became a \"clue\"",
+      "body": "Originally, a \"clew\" was simply a ball of thread or yarn. Its meaning shifted dramatically thanks to the Greek myth of Theseus, who used a ball of thread to navigate his way out of the Minotaur's labyrinth. Over time, the spelling changed to \"clue,\" and the word evolved from a physical ball of thread into a term for any guide or key to solving a mystery.",
+      "imageWikipediaTitle": "Theseus",
+      "sources": [
+        {
+          "title": "Clue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clue"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Clue",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The astrological roots of the word \"disaster\"",
+      "body": "Before we understood plate tectonics or meteorology, humans looked to the heavens to explain sudden misfortunes. The word \"disaster\" comes from the Latin prefix \"dis-\", meaning bad or contrary, and \"aster\", meaning star. To the ancients, a disaster was literally an \"ill-starred\" event, a catastrophe caused by the unfavorable alignment of the planets and stars.",
+      "imageWikipediaTitle": "Astrology",
+      "sources": [
+        {
+          "title": "Disaster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Disaster"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Disaster",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The maritime origins of the \"quarantine\"",
+      "body": "During the Black Death in the 14th century, the city-state of Venice took strict measures to prevent the spread of plague. Ships arriving from infected ports were required to anchor off the coast for forty days before landing. This period was called the \"quarentena\", derived from the Italian word for forty. This practice gave birth to our modern concept of quarantine.",
+      "imageWikipediaTitle": "Venice",
+      "sources": [
+        {
+          "title": "Quarantine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quarantine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Quarantine",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real person behind the word \"boycott\"",
+      "body": "The word \"boycott\" comes from Captain Charles Boycott, an unpopular English land agent in 19th-century Ireland. When local tenant farmers demanded lower rents, Boycott refused and attempted to evict them. In response, the local community peacefully ostracized him—laborers refused to harvest his crops, merchants would not serve him, and mail carriers would not deliver his mail, creating a new form of protest.",
+      "imageWikipediaTitle": "Charles Boycott",
+      "sources": [
+        {
+          "title": "Charles Boycott",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_Boycott"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Charles_Boycott",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The painful physical origin of \"sarcasm\"",
+      "body": "While we think of sarcasm as a dry, intellectual form of humor, its etymology is surprisingly violent. The word traces back to the Ancient Greek verb \"sarkazein\", which literally means \"to tear flesh like dogs.\" This evolved into a metaphor for speaking bitterly, sneering, or stripping off the skin with sharp words, perfectly capturing how sarcasm can sting.",
+      "imageWikipediaTitle": "Sarcasm",
+      "sources": [
+        {
+          "title": "Sarcasm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sarcasm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sarcasm",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your \"salary\" is historically linked to salt",
+      "body": "The word \"salary\" comes from the Latin \"salarium\", which was an allowance paid to Roman soldiers. While popular myth claims soldiers were paid directly in salt, historical evidence suggests the \"salarium\" was actually money given to soldiers to purchase salt, an essential and highly valued preservative in the ancient world. This payment eventually became synonymous with regular wages.",
+      "imageWikipediaTitle": "Salt",
+      "sources": [
+        {
+          "title": "Salary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Salary"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Salary",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The poetic reason behind the name \"daisy\"",
+      "body": "The name of the common daisy flower has surprisingly poetic roots in Old English. Originally called the \"day's eye\" (\"dæges ēage\"), the flower earned this name because its white petals open at dawn to reveal a yellow center, resembling an eye looking at the sun, and close completely at dusk. Over centuries, \"day's eye\" slurred and softened into the word \"daisy.\"",
+      "imageWikipediaTitle": "Bellis perennis",
+      "sources": [
+        {
+          "title": "Bellis perennis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bellis_perennis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bellis_perennis",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The linguistic bias built into \"ambidextrous\"",
+      "body": "Being ambidextrous means you can use both hands with equal skill. However, the etymology of the word reveals an ancient bias against left-handedness. \"Ambidextrous\" comes from the Latin roots \"ambi-\", meaning both, and \"dexter\", meaning right-handed. Thus, to the ancient Romans, being equally skilled with both hands literally meant being \"double right-handed.\"",
+      "imageWikipediaTitle": "Ambidexterity",
+      "sources": [
+        {
+          "title": "Ambidexterity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ambidexterity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ambidexterity",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"sinister\" once just meant left-handed",
+      "body": "Today, \"sinister\" describes something evil or threatening, but its original Latin meaning was simply \"on the left side.\" Because left-handedness was historically viewed with suspicion and superstition, the left side became associated with bad luck, deceit, and malice. Over time, the neutral anatomical term \"sinister\" shifted entirely into its modern, dark meaning, while \"dexter\" (right) came to mean skillful.",
+      "imageWikipediaTitle": "Left-handedness",
+      "sources": [
+        {
+          "title": "Bias against left-handed people",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bias_against_left-handed_people"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bias_against_left-handed_people",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The brilliant philosopher who became the first \"dunce\"",
+      "body": "The word \"dunce\" originally referred to the followers of John Duns Scotus, one of the most brilliant scholastic philosophers of the Middle Ages. Centuries after his death, Renaissance humanists rejected his complex theological ideas and mocked his followers as \"Dunsmen\" who resisted new learning. Eventually, the name of this highly respected scholar became a permanent shorthand for a slow-witted person.",
+      "imageWikipediaTitle": "John Duns Scotus",
+      "sources": [
+        {
+          "title": "John Duns Scotus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Duns_Scotus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/John_Duns_Scotus",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient Greek connection between \"tragedy\" and goats",
+      "body": "The word \"tragedy\" traces back to the Ancient Greek word \"tragōidia\", which literally translates to \"goat song.\" Historians still debate the exact reason for this name. It may refer to the goats sacrificed during theatrical festivals, the goat skins worn by performers playing satyrs, or a goat being awarded as a prize to the best tragic playwright.",
+      "imageWikipediaTitle": "Theatre of Dionysus",
+      "sources": [
+        {
+          "title": "Tragedy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tragedy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tragedy",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The architectural origin of \"eavesdropping\"",
+      "body": "Long before it meant listening to a private conversation, \"eavesdrop\" was a noun describing the physical area where rainwater fell from a building's roof. An \"eavesdropper\" was someone who literally stood within this dripping zone, close to the walls of a house, to secretly listen to the occupants through windows or doors. Over time, the physical location was forgotten, leaving only the sneaky action.",
+      "imageWikipediaTitle": "Eaves",
+      "sources": [
+        {
+          "title": "Eavesdropping",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eavesdropping"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eavesdropping",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why political \"candidates\" are named after the color white",
+      "body": "In ancient Rome, men running for public office wore a specially whitened toga called a \"toga candida\". This bright white garment, rubbed with chalk to make it stand out in crowds, symbolized the purity and honesty of the politician's intentions. These office-seekers were called \"candidati\", meaning \"those clothed in white,\" which directly gave us the modern word \"candidate.\"",
+      "imageWikipediaTitle": "Toga",
+      "sources": [
+        {
+          "title": "Toga",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toga"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Toga",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The invisible poison behind the word \"malaria\"",
+      "body": "Before the discovery of disease-carrying mosquitoes, people believed that deadly swamp gases and night air caused sickness. This theory of \"miasma\" gave us the word \"malaria,\" which comes from the medieval Italian words \"mala aria\", literally meaning \"bad air.\" It wasn't until the late 19th century that scientists proved a parasite, not smelly air, was the true culprit behind the disease.",
+      "imageWikipediaTitle": "Anopheles",
+      "sources": [
+        {
+          "title": "Malaria",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Malaria"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Malaria",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The surprising Nahuatl origin of \"avocado\"",
+      "body": "The word \"avocado\" has a surprisingly botanical and anatomical history. It comes from the Spanish \"aguacate\", which borrowed from the indigenous Nahuatl word \"āhuacatl\". In classical Nahuatl, the word was used to mean both \"avocado\" and \"testicle,\" likely due to the fruit's shape and how it hangs in pairs from the tree. Spanish explorers adapted the word, leading to its modern English form.",
+      "imageWikipediaTitle": "Avocado",
+      "sources": [
+        {
+          "title": "Avocado",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Avocado"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Avocado",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a US dollar is slangily called a \"buck\"",
+      "body": "Calling a US dollar a \"buck\" dates back to the mid-18th century, decades before the United States printed its first official dollar. At the time, European settlers and Native Americans traded heavily in animal skins. A buckskin, or \"buck,\" became a standard unit of value in transactions. Even after paper money was introduced, the slang term \"buck\" survived as a synonym for a dollar.",
+      "imageWikipediaTitle": "Deerskin",
+      "sources": [
+        {
+          "title": "Dollar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dollar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dollar",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient Greek mystery of the \"sycophant\"",
+      "body": "Today, a sycophant is a self-serving flatterer, but the Greek word \"sykophantēs\" originally meant \"one who shows figs.\" Historians are still unsure of the connection. Some believe it referred to informants who reported people illegally exporting sacred figs from Athens, while others suggest it described an obscene hand gesture resembling a fig. Regardless, the term evolved to mean a deceitful accuser, and eventually, a flatterer.",
+      "imageWikipediaTitle": "Fig",
+      "sources": [
+        {
+          "title": "Sycophancy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sycophancy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sycophancy",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The noisy plumbing behind the \"gargoyle\"",
+      "body": "Though we often think of gargoyles as creepy stone monsters guarding gothic cathedrals, their primary function was purely practical: plumbing. The word \"gargoyle\" comes from the French \"gargouille\", meaning \"throat,\" which mimics the gurgling sound of water. True gargoyles are waterspouts designed to direct rainwater away from stone walls. If a stone creature does not spout water, it is technically a \"grotesque,\" not a gargoyle.",
+      "imageWikipediaTitle": "Gargoyle",
+      "sources": [
+        {
+          "title": "Gargoyle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gargoyle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gargoyle",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The revealing Greek root of \"gymnasium\"",
+      "body": "Modern gyms are places where we wear athletic clothes to work out, but in ancient Greece, clothing was entirely optional. The word \"gymnasium\" comes from the Greek verb \"gymnazein\", which means \"to train naked.\" In ancient Greek city-states, young men exercised, wrestled, and competed in the nude to celebrate the human form and keep cool, making the ancient gymnasium a very different place indeed.",
+      "imageWikipediaTitle": "Gymnasium (ancient Greece)",
+      "sources": [
+        {
+          "title": "Gymnasium (ancient Greece)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gymnasium_(ancient_Greece)",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How \"whiskey\" was originally called the \"water of life\"",
+      "body": "The word \"whiskey\" is a phonetic adaptation of the classical Gaelic term \"uisce beatha\", which literally translates to \"water of life.\" This term was a translation of the Latin \"aqua vitae\", used by medieval monks to describe distilled spirits. Over time, the Gaelic phrase was shortened in speech to \"uisce\", and through English mispronunciation, it eventually morphed into \"whiskey.\"",
+      "imageWikipediaTitle": "Whisky",
+      "sources": [
+        {
+          "title": "Whisky",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whisky"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Whisky",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why vertical lines are called \"plumb\"",
+      "body": "In construction, a line or wall that is perfectly vertical is said to be \"plumb.\" This term comes from the Latin word \"plumbum\", meaning \"lead.\" Ancient builders used a heavy lead weight suspended on a string—called a plumb bob—to determine a true vertical line. This Latin root also gave us the word \"plumber,\" who originally worked with lead pipes.",
+      "imageWikipediaTitle": "Plumb bob",
+      "sources": [
+        {
+          "title": "Plumb bob",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plumb_bob"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Plumb_bob",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The terrifying literal meaning of \"sarcophagus\"",
+      "body": "While we use \"sarcophagus\" to describe an ornate stone coffin, its ancient Greek etymology is surprisingly gruesome. The word comes from \"sarx\" (flesh) and \"phagein\" (to eat), translating literally to \"flesh-eating stone.\" The Greeks believed that coffins carved from a specific limestone quarried near Assos would rapidly decompose and dissolve the bodies placed inside them, leaving only bones within forty days.",
+      "imageWikipediaTitle": "Sarcophagus",
+      "sources": [
+        {
+          "title": "Sarcophagus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sarcophagus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sarcophagus",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When \"myriad\" had an exact mathematical value",
+      "body": "Today, we use \"myriad\" to describe an indefinite, countless number of things. However, in ancient Greece, a \"myriad\" (\"myrias\") was a highly specific mathematical unit meaning exactly ten thousand. It was the largest named number in the Greek numeral system. Over time, as languages evolved, the word shifted from denoting this precise five-digit figure to expressing any immense, uncountable quantity.",
+      "imageWikipediaTitle": "Greek numerals",
+      "sources": [
+        {
+          "title": "Myriad",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myriad"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Myriad",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ordinary crossroads that gave us \"trivial\"",
+      "body": "Something \"trivial\" is minor or of little importance, a meaning that traces back to Roman roads. The Latin word \"trivialis\" literally means \"of the crossroads\" (from \"tres\" meaning three, and \"viae\" meaning roads). Crossroads were bustling public places where people gathered to chat and exchange casual gossip. Consequently, anything \"trivial\" came to mean commonplace, ordinary, or lacking in deep significance.",
+      "imageWikipediaTitle": "Intersection (road)",
+      "sources": [
+        {
+          "title": "Trivium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trivium"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Trivium",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When \"awful\" and \"awesome\" meant the exact same thing",
+      "body": "Today, \"awful\" is terrible and \"awesome\" is great, but they share the exact same root: \"awe.\" In Old English, both words meant \"inspiring wonder, fear, or reverence.\" Over centuries, semantic drift pulled them apart. \"Awful\" became associated strictly with the terrifying, negative aspect of awe, while \"awesome\" retained the positive, grand element, illustrating how a single root can split into total opposites.",
+      "imageWikipediaTitle": "Awe",
+      "sources": [
+        {
+          "title": "Semantic change",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Semantic_change"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Semantic_change",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tough native history behind \"pecan\"",
+      "body": "The word \"pecan\" comes from the Algonquian language family, spoken by Native American tribes including the Ojibwe and Cree. The original word \"pakani\" was a generic term used to describe any nut that was too hard to crack with your bare hands, requiring a stone to open. French colonists in North America adopted the word specifically for the hickory nut we enjoy today.",
+      "imageWikipediaTitle": "Pecan",
+      "sources": [
+        {
+          "title": "Pecan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pecan"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pecan",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The West African origin of \"mumbo jumbo\"",
+      "body": "Often used to describe confusing language or nonsense, \"mumbo jumbo\" originates from the Mandinka word \"Maamajomboo\". In West African culture, this was the name of a masked ritual dancer who resolved domestic disputes within villages. European travelers in the 18th century misunderstood the complex ceremonies, reducing the sacred cultural figure to a slang term for meaningless superstition or incomprehensible talk.",
+      "imageWikipediaTitle": "Mungo Park (explorer)",
+      "sources": [
+        {
+          "title": "Mumbo jumbo (phrase)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mumbo_jumbo_(phrase)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mumbo_jumbo_(phrase)",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How canned meat became junk email",
+      "body": "The term \"spam\" for unwanted digital messages did not come from the food company, but from a famous 1970 Monty Python comedy sketch. In the sketch, a group of Vikings loudly and repeatedly chants the word \"Spam\" to drown out all other conversations in a cafe. Early internet users adopted the term to describe repetitive, unwanted forum posts that drowned out real discussion, cementing it in tech history.",
+      "imageWikipediaTitle": "Spam (food)",
+      "sources": [
+        {
+          "title": "Spam (comedy sketch)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spam_(comedy_sketch)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spam_(comedy_sketch)",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The icy Persian ancestry of \"sherbet\"",
+      "body": "Whether you call it sherbet, sorbet, or syrup, these sweet terms all share a single linguistic ancestor. They derive from the Arabic word \"shariba\", meaning \"to drink.\" This evolved into the Persian and Turkish \"sharbat\", a chilled fruit beverage. When European traders encountered this refreshing drink, the name was adapted into Italian as \"sorbetto\", French as \"sorbet\", and English as \"sherbet.\"",
+      "imageWikipediaTitle": "Sherbet",
+      "sources": [
+        {
+          "title": "Sherbet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sherbet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sherbet",
+      "category": "language"
+    }
+  ]
+}

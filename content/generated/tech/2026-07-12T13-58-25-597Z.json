@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T13:58:25.597Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real engineering reason behind the QWERTY layout",
+      "body": "Popular myth says the QWERTY keyboard layout was designed to slow typists down. In reality, its inventor, Christopher Sholes, arranged the keys to prevent mechanical arms from jamming. By placing commonly paired letters—like \"S\" and \"T\"—on opposite sides of the basket, the physical typebars had time to fall back before the next key was struck, allowing faster, jam-free typing.",
+      "imageWikipediaTitle": "QWERTY",
+      "sources": [
+        {
+          "title": "QWERTY",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QWERTY"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/QWERTY",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient Greek computer that predicted eclipses",
+      "body": "Discovered in a shipwreck in 1901, the Antikythera mechanism is an ancient Greek hand-wound analogue computer dating back to the second century BC. It used a complex system of over thirty bronze gears to track astronomical positions, eclipses, and even the four-year cycle of the ancient Olympic Games, displaying technology that wouldn't reappear in Europe for over a millennium.",
+      "imageWikipediaTitle": "Antikythera mechanism",
+      "sources": [
+        {
+          "title": "Antikythera mechanism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Visualizing a nanosecond with pieces of wire",
+      "body": "Computer pioneer Grace Hopper had a unique way of explaining the concept of time to skeptical generals and programmers. She handed out physical pieces of wire cut to exactly 11.8 inches long. This length represented the maximum distance an electrical signal could travel through a wire in one billionth of a second—a nanosecond—making abstract digital speed instantly tangible.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        {
+          "title": "Grace Hopper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a mother's foresight saved the Apollo 11 moon landing",
+      "body": "Minutes before Apollo 11 touched down on the Moon, the lunar module's computer was overwhelmed by radar data. Fortunately, lead software engineer Margaret Hamilton had designed the onboard operating system to use asynchronous executive scheduling. This allowed the computer to drop low-priority radar tasks and focus entirely on firing the thrusters, avoiding an abort.",
+      "imageWikipediaTitle": "Margaret Hamilton (software engineer)",
+      "sources": [
+        {
+          "title": "Margaret Hamilton (software engineer)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we still click a 1970s relic to save our digital files",
+      "body": "The ubiquitous \"save\" icon is a 3.5-inch floppy disk, a physical storage medium introduced by IBM in the 1970s and popularized by Sony in 1981. Although most modern computer users have never handled a physical floppy disk, the metaphor persists. Cognitive scientists call this a \"skeuomorph\"—a digital design element that mimics a physical tool to help users understand its function.",
+      "imageWikipediaTitle": "Floppy disk",
+      "sources": [
+        {
+          "title": "Skeuomorph",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Skeuomorph"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Skeuomorph",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The bug that helped a supercomputer defeat a chess champion",
+      "body": "In 1997, IBM's Deep Blue defeated World Chess Champion Garry Kasparov. During one critical game, a software glitch caused the machine to make a completely random move when it couldn't decide on a strategy. Kasparov, misinterpreting this erratic move as a sign of deep, superior intelligence, became flustered, which ultimately contributed to his defeat.",
+      "imageWikipediaTitle": "Deep Blue (chess computer)",
+      "sources": [
+        {
+          "title": "Deep Blue versus Garry Kasparov",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why GPS satellites must account for Einstein's theories of relativity",
+      "body": "The Global Positioning System relies on atomic clocks accurate to nanoseconds. Because gravity is weaker in space and satellites move at high speeds, time runs faster for them by about 38 microseconds per day compared to clocks on Earth. Without relativistic corrections based on Einstein's theories of relativity, GPS navigation errors would accumulate at a rate of several kilometers every day.",
+      "imageWikipediaTitle": "Global Positioning System",
+      "sources": [
+        {
+          "title": "Global Positioning System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Global_Positioning_System"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Global_Positioning_System",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The massive weight of the first 5-megabyte hard drive",
+      "body": "In 1956, IBM shipped the RAMAC 305, the world's first commercial computer with a hard disk drive. The storage unit weighed over one ton and had to be loaded onto airplanes using forklifts. Despite its massive physical size, the system could store only about 5 megabytes of data—barely enough to hold a single high-quality MP3 song today.",
+      "imageWikipediaTitle": "IBM 350",
+      "sources": [
+        {
+          "title": "IBM 350",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IBM_350"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/IBM_350",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The incredibly low computing power guiding Voyager into interstellar space",
+      "body": "Launched in 1977, the Voyager space probes have traveled farther from Earth than any other human-made objects. Their onboard computer systems possess just 69 kilobytes of memory—millions of times less than a typical modern smartphone. Yet, through hyper-efficient assembly programming, these ancient computers continue to manage power, instruments, and communications from beyond our solar system.",
+      "imageWikipediaTitle": "Voyager 1",
+      "sources": [
+        {
+          "title": "Voyager program",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voyager_program"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Voyager_program",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mathematician who defined the \"bit\" and founded the digital age",
+      "body": "In 1948, Claude Shannon published a groundbreaking paper that single-handedly established the field of information theory. He was the first to propose that all information—whether text, sound, or images—could be measured and transmitted using binary digits, or \"bits.\" Shannon's mathematical formulation of communication limits still governs how our modern internet, Wi-Fi, and cellular networks operate today.",
+      "imageWikipediaTitle": "Claude Shannon",
+      "sources": [
+        {
+          "title": "Claude Shannon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Claude_Shannon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Claude_Shannon",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the computer mouse was originally called an \"X-Y Position Indicator\"",
+      "body": "Invented by Douglas Engelbart in 1964, the first computer mouse was a simple wooden box with two metal wheels positioned perpendicular to each other. Officially patented as an \"X-Y Position Indicator for a Display System,\" it earned its nickname because the cord extending out of the back resembled a rodent's tail. Engelbart's team never patented the nickname, and its origin remains a simple linguistic accident.",
+      "imageWikipediaTitle": "Computer mouse",
+      "sources": [
+        {
+          "title": "Computer mouse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_mouse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Computer_mouse",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How you unknowingly digitize old books by proving you are human",
+      "body": "When you solve a reCAPTCHA puzzle, you are often doing free labor for digital archives. While original CAPTCHAs generated random characters, the reCAPTCHA system, developed at Carnegie Mellon, displays scanned words from old books or newspapers that optical character recognition software failed to read. By correctly typing the words, millions of users help digitize historical texts, including the archives of The New York Times.",
+      "imageWikipediaTitle": "reCAPTCHA",
+      "sources": [
+        {
+          "title": "reCAPTCHA",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/reCAPTCHA"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/reCAPTCHA",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fragile glass fibers at the bottom of the ocean that power the internet",
+      "body": "While we often think of the internet as existing in the \"cloud,\" over 95 percent of international data traffic travels through physical fiber-optic cables laid on the ocean floor. These cables, some of which are as thin as a garden hose, span hundreds of thousands of miles. They rely on total internal reflection to bounce light pulses across oceans at nearly the speed of light.",
+      "imageWikipediaTitle": "Submarine communications cable",
+      "sources": [
+        {
+          "title": "Submarine communications cable",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Submarine_communications_cable"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Submarine_communications_cable",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tenth-century Viking king who inspired wireless technology",
+      "body": "In 1997, Intel engineer Jim Kardach proposed the name \"Bluetooth\" for a new short-range wireless technology. He was reading a novel about Harald Bluetooth, a tenth-century Danish king famous for uniting warring Scandinavian tribes. Kardach realized the name was a perfect metaphor for a technology designed to unite communication protocols. The Bluetooth logo is even a combination of two runic letters representing the king's initials.",
+      "imageWikipediaTitle": "Bluetooth",
+      "sources": [
+        {
+          "title": "Bluetooth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bluetooth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bluetooth",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The open-source operating system running the world behind the scenes",
+      "body": "While Microsoft Windows and Apple's macOS dominate desktop computers, the open-source operating system Linux runs almost everything else. Linux powers all of the world's top 500 supercomputers, the majority of public cloud servers, the Android operating system, smart TVs, and even the Mars Perseverance Rover. Developed by Linus Torvalds in 1991, its collaborative model revolutionized how software is built.",
+      "imageWikipediaTitle": "Linux",
+      "sources": [
+        {
+          "title": "Linux",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Linux"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Linux",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the feared Y2K bug was a real threat, not a hoax",
+      "body": "Many believe the \"Year 2000 bug\" was an overhyped media panic because few systems actually failed on January 1, 2000. In reality, catastrophe was averted only through an unprecedented global engineering effort. Hundreds of thousands of programmers spent years searching through millions of lines of legacy code to update two-digit year representations to four digits, costing an estimated $300 billion worldwide.",
+      "imageWikipediaTitle": "Year 2000 problem",
+      "sources": [
+        {
+          "title": "Year 2000 problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2000_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Year_2000_problem",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The nineteenth-century countess who wrote the first computer algorithm",
+      "body": "In 1843, mathematician Ada Lovelace published notes on Charles Babbage's proposed mechanical computer, the Analytical Engine. In her notes, she included an algorithm to calculate Bernoulli numbers, which is widely recognized as the world's first computer program. Remarkably, Lovelace also realized that computers could do more than calculate numbers; she predicted they could one day compose music and create art.",
+      "imageWikipediaTitle": "Ada Lovelace",
+      "sources": [
+        {
+          "title": "Ada Lovelace",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The six pioneering women who programmed the world's first electronic computer",
+      "body": "In 1945, the United States unveiled ENIAC, the first general-purpose, fully electronic computer. While male engineers designed the hardware, six brilliant women—Kay McNulty, Betty Jennings, Betty Snyder, Marlyn Wescoff, Frances Bilas, and Ruth Lichterman—were tasked with programming it. They had to configure the machine physically using thousands of switches and patch cables, establishing the foundational concepts of modern software development.",
+      "imageWikipediaTitle": "ENIAC",
+      "sources": [
+        {
+          "title": "ENIAC",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ENIAC"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/ENIAC",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tiny microscopic switch that makes all modern computers possible",
+      "body": "Invented at Bell Labs in 1947, the transistor is the fundamental building block of modern electronics. Acting as a microscopic electrical switch, a transistor controls the flow of current to represent binary ones and zeros. Today, a single microchip inside a smartphone can contain over 15 billion transistors, each thousands of times smaller than a red blood cell, enabling the high-speed processing of digital data.",
+      "imageWikipediaTitle": "Transistor",
+      "sources": [
+        {
+          "title": "Transistor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Transistor"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Transistor",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The observation that accurately predicted the exponential rise of computing power",
+      "body": "In 1965, Intel co-founder Gordon Moore made a bold observation: the number of transistors on a microchip doubles roughly every two years, while the cost of computers is halved. Known as Moore's Law, this empirical projection became a self-fulfilling prophecy, guiding the semiconductor industry's research and development targets for decades and driving the rapid transition from room-sized computers to pocket-sized smartphones.",
+      "imageWikipediaTitle": "Moore's law",
+      "sources": [
+        {
+          "title": "Moore's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moore%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moore%27s_law",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The silicon chip that condensed a room-sized computer into a fingernail",
+      "body": "Released by Intel in 1971, the Intel 4004 was the world's first commercially available single-chip microprocessor. Prior to its invention, computer central processing units required multiple circuit boards filled with individual components. By etching 2,300 transistors onto a single slice of silicon the size of a fingernail, engineers paved the way for the personal computer revolution and the ubiquity of embedded electronics.",
+      "imageWikipediaTitle": "Intel 4004",
+      "sources": [
+        {
+          "title": "Intel 4004",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intel_4004"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Intel_4004",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a forgotten printing symbol became the cornerstone of email addresses",
+      "body": "In 1971, computer engineer Ray Tomlinson was looking for a way to route messages between different computers on the ARPANET. He needed a character to separate the user's name from their host computer, choosing the \"@\" symbol because it was rarely used in programming and meant \"at.\" This simple choice saved the obscure ledger symbol from obscurity, turning it into a global icon.",
+      "imageWikipediaTitle": "At sign",
+      "sources": [
+        {
+          "title": "At sign",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/At_sign"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/At_sign",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How trapped beams of light carry your data across the world",
+      "body": "Fiber-optic cables transmit digital information as pulses of light over vast distances with minimal signal loss. This technology relies on a physics phenomenon called total internal reflection. Inside the cable, a core of highly pure glass is wrapped in a cladding layer with a lower refractive index. This causes the light waves to continuously bounce off the boundary, trapping them inside the core.",
+      "imageWikipediaTitle": "Optical fiber",
+      "sources": [
+        {
+          "title": "Optical fiber",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Optical_fiber"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Optical_fiber",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why solid-state drives have a finite lifetime of writes",
+      "body": "Unlike traditional hard drives with spinning platters, Solid State Drives (SSDs) store data electronically in flash memory cells. However, writing data to these cells requires trapping electrons behind a microscopic insulating barrier. Over time, the high voltages used to push electrons through this barrier wear it down, eventually preventing the cells from reliably holding charge. This physical degradation limits how many times an SSD can be written to.",
+      "imageWikipediaTitle": "Solid-state drive",
+      "sources": [
+        {
+          "title": "Solid-state drive",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solid-state_drive"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Solid-state_drive",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real history behind the famous \"404 Not Found\" error code",
+      "body": "A popular urban legend claims that the \"404 Not Found\" error code was named after room 404 at CERN, where the first web servers were housed. In reality, the code was simply a systematic choice by the creators of the World Wide Web. Under the HTTP protocol, the \"4\" indicates a client-side error, while the \"04\" designates the specific error: the requested resource does not exist.",
+      "imageWikipediaTitle": "HTTP 404",
+      "sources": [
+        {
+          "title": "HTTP 404",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTTP_404"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HTTP_404",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The delicate temporal dance keeping GPS satellites in sync with Earth",
+      "body": "GPS satellites experience two opposing relativistic effects. Because they travel at 14,000 kilometers per hour, time slows down for them by 7 microseconds per day relative to Earth. However, because they are high above Earth's gravity well, time speeds up for them by 45 microseconds per day. Subtracting these two values yields a net difference of 38 microseconds, requiring daily clock adjustments to maintain positioning accuracy.",
+      "imageWikipediaTitle": "Global Positioning System",
+      "sources": [
+        {
+          "title": "Error analysis for the Global Positioning System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How liquid crystals twist light to create the images on your screen",
+      "body": "Liquid Crystal Displays (LCDs) use a unique state of matter that flows like a liquid but has ordered molecules like a crystal. When no electrical voltage is applied, these molecules naturally twist, allowing backlight to pass through two polarizing filters. Applying an electrical charge untwists the molecules, blocking the light. By rapidly controlling this twisting across millions of subpixels, LCDs generate the images we see.",
+      "imageWikipediaTitle": "Liquid-crystal display",
+      "sources": [
+        {
+          "title": "Liquid-crystal display",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liquid-crystal_display"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Liquid-crystal_display",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How studying black holes led to the invention of modern Wi-Fi",
+      "body": "In the 1990s, Australian researchers at the CSIRO were trying to detect faint radio signals from exploding black holes. To solve the problem of radio waves bouncing off indoor walls and distorting signals, engineer John O'Sullivan and his team developed a complex mathematical equation to process and clean up the waves. This exact signal-processing technique became the foundation for the high-speed wireless networking we now call Wi-Fi.",
+      "imageWikipediaTitle": "Wi-Fi",
+      "sources": [
+        {
+          "title": "Wi-Fi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wi-Fi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wi-Fi",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hand-woven copper memory that guided astronauts to the moon",
+      "body": "The Apollo Guidance Computer used a highly reliable form of read-only memory called \"core rope memory.\" Instead of modern transistors, software instructions were physically woven by hand into copper wires threaded through magnetic rings. Threading a wire through a ring represented a binary \"one,\" while skipping it represented a \"zero.\" This physical software was virtually indestructible, protecting the lunar mission's code from cosmic radiation.",
+      "imageWikipediaTitle": "Core rope memory",
+      "sources": [
+        {
+          "title": "Core rope memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Core_rope_memory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Core_rope_memory",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How laser printers use static electricity to guide ink onto paper",
+      "body": "Laser printers rely on the principles of electrostatics to produce crisp text. Inside the printer, a laser beam draws an electrostatic image of the page onto a rotating, photosensitive drum, changing its electrical charge. Negatively charged toner powder is then attracted to these laser-drawn areas. Finally, a strong electrical charge on the paper pulls the toner off the drum, and heated rollers fuse the plastic-based ink permanently to the page.",
+      "imageWikipediaTitle": "Laser printing",
+      "sources": [
+        {
+          "title": "Laser printing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Laser_printing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Laser_printing",
+      "category": "tech"
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "generatedAt": "2026-07-12T13:59:16.057Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Stone Age Spray Painters",
+      "body": "Over 17,000 years ago, Paleolithic artists in Lascaux, France, didn't just paint with brushes. They invented an early airbrush technique. By blowing charcoal dust and ground iron oxide pigments through hollow bird bones or reeds, they sprayed color onto the cave walls, creating soft-edged animal silhouettes.",
+      "imageWikipediaTitle": "Lascaux",
+      "sources": [
+        {
+          "title": "Lascaux",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lascaux"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lascaux",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Blue That Protected Samurai",
+      "body": "Traditional Japanese indigo dyeing, or aizome, produces a deep, brilliant blue that was prized by samurai. Beyond its aesthetic appeal, natural indigo-dyed fabric has natural antibacterial properties, repels insects, and acts as a flame retardant. Samurai wore indigo garments beneath their armor to help keep wounds clean.",
+      "imageWikipediaTitle": "Indigo dye",
+      "sources": [
+        {
+          "title": "Indigo dye",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indigo_dye"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Indigo_dye",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Kimchi Used to Be White",
+      "body": "Today, we associate kimchi with a vibrant, fiery red color, but it wasn't always spicy. For centuries, the Korean staple was seasoned only with salt, garlic, and ginger. Chili peppers, native to the Americas, were not introduced to Korea until Portuguese traders brought them in the late 16th century, forever transforming Korean cuisine.",
+      "imageWikipediaTitle": "Kimchi",
+      "sources": [
+        {
+          "title": "Kimchi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kimchi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kimchi",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Art of Honoring Broken Ceramic",
+      "body": "Instead of discarding broken pottery, Japanese craftspeople practice kintsugi, the art of repairing fractures with a lacquer dusted with powdered gold, silver, or platinum. Rather than hiding the damage, kintsugi treats the breakage and repair as a beautiful part of the object's history, embodying the philosophy of wabi-sabi.",
+      "imageWikipediaTitle": "Kintsugi",
+      "sources": [
+        {
+          "title": "Kintsugi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kintsugi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kintsugi",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Minister Behind the Shadow",
+      "body": "The word 'silhouette' comes from Etienne de Silhouette, an 18th-century French finance minister. Known for imposing harsh economic cuts on the wealthy, his name became synonymous with anything cheap or basic. Since paper cutout profiles were a low-cost alternative to painted portraits, they were mockingly named after him.",
+      "imageWikipediaTitle": "Silhouette",
+      "sources": [
+        {
+          "title": "Silhouette",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Silhouette"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Silhouette",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Forbidden Chord of the Middle Ages",
+      "body": "The tritone, an interval spanning three whole tones, is often called the 'Devil in music.' In medieval music theory, it was considered highly unstable and difficult to sing. While popular myth claims the Catholic Church formally banned it, composers actually avoided it because it disrupted the mathematical harmony of medieval religious chants.",
+      "imageWikipediaTitle": "Tritone",
+      "sources": [
+        {
+          "title": "Tritone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tritone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tritone",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Swedish Mandate to Slow Down",
+      "body": "In Sweden, 'fika' is much more than a coffee break; it is a vital social ritual. It requires clearing your schedule to enjoy coffee and a pastry, usually cinnamon buns, with friends or colleagues. Many Swedish companies make fika mandatory, recognizing that regular, informal breaks boost productivity and workplace well-being.",
+      "imageWikipediaTitle": "Fika (Sweden)",
+      "sources": [
+        {
+          "title": "Fika (Sweden)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fika_(Sweden)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fika_(Sweden)",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Forks Were Considered a Sin",
+      "body": "When forks were first introduced to Europe in the 11th century by a Byzantine princess marrying a Venetian noble, they were met with horror. Clergymen condemned the utensil, arguing that God gave humans natural fingers to eat with, and replacing them with metallic prongs was an insult to divine creation.",
+      "imageWikipediaTitle": "Fork",
+      "sources": [
+        {
+          "title": "Fork",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fork"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fork",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Dark Purpose Behind Venetian Masks",
+      "body": "Venetian masks are famous today for their beauty, but they historically served a democratic purpose. During the Carnival of Venice, citizens wore masks to erase social status, gender, and religious differences. This anonymity allowed ordinary citizens and aristocrats to mingle, debate, and behave freely without fear of retribution.",
+      "imageWikipediaTitle": "Carnival of Venice",
+      "sources": [
+        {
+          "title": "Carnival of Venice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carnival_of_Venice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Carnival_of_Venice",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Pigment Worth More Than Gold",
+      "body": "During the Renaissance, the color ultramarine was so precious that artists reserved it only for the most important subjects, like the Virgin Mary's robes. Made by grinding the semi-precious stone lapis lazuli, which had to be imported from remote mines in Afghanistan, it often cost more than its weight in pure gold.",
+      "imageWikipediaTitle": "Ultramarine",
+      "sources": [
+        {
+          "title": "Ultramarine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ultramarine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ultramarine",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why High Heels Were Invented for Men",
+      "body": "High heels were not originally designed for women. They were invented for Persian cavalry soldiers in the 10th century. The heel locked the rider's foot into the stirrups, providing stability so they could shoot bows and arrows more effectively. European aristocrats later adopted them as a symbol of masculinity and power.",
+      "imageWikipediaTitle": "High-heeled shoe",
+      "sources": [
+        {
+          "title": "High-heeled shoe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/High-heeled_shoe"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/High-heeled_shoe",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Art of Singing Two Notes at Once",
+      "body": "In the grasslands of Tuva and Mongolia, throat singers practice 'khoomei,' a technique where a single vocalist produces two or more distinct pitches simultaneously. By shaping their throat, mouth, and tongue, singers create a low, vibrating drone while isolating high-pitched, flute-like overtones that mimic the sounds of whistling wind and rushing water.",
+      "imageWikipediaTitle": "Tuvan throat singing",
+      "sources": [
+        {
+          "title": "Tuvan throat singing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tuvan_throat_singing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tuvan_throat_singing",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Most Expensive Spice",
+      "body": "Saffron is the most expensive spice by weight in the world, largely because of how it must be harvested. The spice consists of the delicate, thread-like stigmas of the purple saffron crocus flower. Each flower produces only three stigmas, which must be painstakingly hand-plucked. It takes about 75,000 flowers to produce a single pound of saffron.",
+      "imageWikipediaTitle": "Saffron",
+      "sources": [
+        {
+          "title": "Saffron",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saffron"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Saffron",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Six-Toed Cats of Key West",
+      "body": "Visitors to Ernest Hemingway's home in Key West, Florida, will find dozens of free-roaming cats, many of which have six toes. Hemingway was gifted his first polydactyl cat, named Snow White, by a ship captain. Sailors believed extra-toed cats were good luck because their wide paws made them superior mouse hunters on rocky ships.",
+      "imageWikipediaTitle": "Ernest Hemingway House",
+      "sources": [
+        {
+          "title": "Ernest Hemingway House",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway_House"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ernest_Hemingway_House",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Beer Fermented by Spit",
+      "body": "In the Andes, the traditional corn beer known as chicha de muko relies on human saliva for its fermentation. To make it, brewers chew dry corn kernels and then spit them into warm water. Enzymes in the saliva break down the complex starches in the corn into simple, fermentable sugars, allowing wild yeasts to convert it into alcohol.",
+      "imageWikipediaTitle": "Chicha",
+      "sources": [
+        {
+          "title": "Chicha",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chicha"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chicha",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Powerful Meaning Behind the Haka",
+      "body": "The Haka is a traditional Maori dance characterized by vigorous foot-stamping, tongue protrusions, and rhythmic body slapping. While famous globally as a pre-match war cry by New Zealand's rugby team, the Haka is traditionally performed for many reasons, including welcoming distinguished guests, celebrating milestones, and honoring the deceased at funerals.",
+      "imageWikipediaTitle": "Haka",
+      "sources": [
+        {
+          "title": "Haka",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haka"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Haka",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Printing Sound That Became a Word",
+      "body": "The word 'cliche' originated in 19th-century French printing shops. When printers wanted to reproduce a block of text repeatedly, they cast a metal plate of the phrase. The molten metal made a clicking sound—'cliche'—as it cooled. Eventually, the word shifted from describing a reused printing plate to describing an overused, unoriginal phrase.",
+      "imageWikipediaTitle": "Cliché",
+      "sources": [
+        {
+          "title": "Cliche",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clich%C3%A9"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Clich%C3%A9",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Island Where People Talk in Whistles",
+      "body": "On the mountainous island of La Gomera in the Canary Islands, residents communicate across deep valleys using Silbo Gomero, a fully developed whistled language. Capable of mimicking the Spanish language's vowels and consonants, a skilled whistler can project messages up to five kilometers away, allowing easy communication across rugged terrain.",
+      "imageWikipediaTitle": "Silbo Gomero",
+      "sources": [
+        {
+          "title": "Silbo Gomero",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Silbo_Gomero"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Silbo_Gomero",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Coffee Was Grounds for Divorce",
+      "body": "In 15th-century Istanbul, coffee was so central to social life that it was integrated into family law. Under Ottoman rule, a woman had the legal right to divorce her husband if he failed to provide her with a daily quota of fresh coffee. Coffee houses were vibrant intellectual hubs, often feared by sultans for brewing political dissent.",
+      "imageWikipediaTitle": "History of coffee",
+      "sources": [
+        {
+          "title": "History of coffee",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_coffee"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/History_of_coffee",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "What Yankee Doodle's 'Macaroni' Actually Means",
+      "body": "When the song 'Yankee Doodle' mentions sticking a feather in his cap and calling it 'macaroni,' it isn't talking about pasta. In 18th-century England, a 'macaroni' was a slang term for a highly fashionable man who adopted flamboyant, continental European styles. British soldiers sang the song to mock American colonists as unsophisticated.",
+      "imageWikipediaTitle": "Macaroni (fashion)",
+      "sources": [
+        {
+          "title": "Macaroni (fashion)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Macaroni_(fashion)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Macaroni_(fashion)",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Flower Path for the Dead",
+      "body": "During Mexico's Day of the Dead, vibrant orange Mexican marigolds, or cempasuchil, are used to decorate altars and graves. According to Aztec tradition, the scent and bright color of these 'flowers of the dead' help guide the spirits of deceased loved ones back to the living world to visit their families.",
+      "imageWikipediaTitle": "Day of the Dead",
+      "sources": [
+        {
+          "title": "Day of the Dead",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Day_of_the_Dead",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Myth of the 'Vein of Love'",
+      "body": "The tradition of wearing a wedding ring on the fourth finger of the left hand dates back to ancient Roman belief. Romans believed that a vein, which they called the 'Vena Amoris' or 'Vein of Love,' ran directly from this finger to the heart. Although modern anatomy disproves this vein, the romantic tradition remains intact globally.",
+      "imageWikipediaTitle": "Ring finger",
+      "sources": [
+        {
+          "title": "Ring finger",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ring_finger"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ring_finger",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Luncheon Meat Named Junk Email",
+      "body": "The term 'spam' for unwanted emails comes from a 1970 Monty Python comedy sketch. In the sketch, a group of Vikings drowned out all conversation in a cafe by loudly singing 'Spam, Spam, Spam' to celebrate the ubiquity of Hormel's canned luncheon meat. Early internet users adopted the term to describe repetitive, unwanted messages that drowned out real discussions.",
+      "imageWikipediaTitle": "Spam (electronic)",
+      "sources": [
+        {
+          "title": "Spam (electronic)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spam_(electronic)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spam_(electronic)",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Venice's Gondolas Are Uniformly Black",
+      "body": "Venice's iconic gondolas were not always black. In the 16th century, wealthy Venetians competed to build the most lavish, brightly colored boats to show off their wealth. To curb this extravagant spending, the Venetian government passed a sumptuary law mandating that all gondolas be painted black, a tradition that persists to this day.",
+      "imageWikipediaTitle": "Gondola",
+      "sources": [
+        {
+          "title": "Gondola",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gondola"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gondola",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Flaw in the Taj Mahal's Perfect Symmetry",
+      "body": "The Taj Mahal is famous for its near-perfect bilateral symmetry, representing harmony and order. However, there is one major exception: the tombs inside. While the cenotaph of Queen Mumtaz Mahal sits in the exact center of the chamber, her husband Shah Jahan's cenotaph was added later and placed off-center next to hers, breaking the monument's layout.",
+      "imageWikipediaTitle": "Taj Mahal",
+      "sources": [
+        {
+          "title": "Taj Mahal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taj_Mahal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Origami Was a Luxury Ritual",
+      "body": "Paper folding, or origami, began in Japan as a luxury reserved for religious rituals and formal ceremonies. Because paper was expensive and handmade, folded paper creations were used as elegant tokens. For example, folded paper butterflies called 'ocho' and 'mecho' were used to adorn sake bottles at traditional Shinto weddings to represent the bride and groom.",
+      "imageWikipediaTitle": "Origami",
+      "sources": [
+        {
+          "title": "Origami",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Origami"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Origami",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Gambling Lord Who Created the Sandwich",
+      "body": "The sandwich is named after John Montagu, the 4th Earl of Sandwich. According to 18th-century accounts, Montagu was an avid gambler who did not want to leave the gaming table to eat. He ordered his cook to bring him meat tucked between two slices of bread, allowing him to eat with one hand while keeping his cards clean.",
+      "imageWikipediaTitle": "Sandwich",
+      "sources": [
+        {
+          "title": "Sandwich",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sandwich"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sandwich",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Canvas Tents That Became Blue Jeans",
+      "body": "Blue jeans were born during the California Gold Rush. In 1873, Levi Strauss, a dry goods merchant, and Jacob Davis, a tailor, patented work pants reinforced with metal rivets at stress points. Initially made of heavy brown canvas used for tents and wagon covers, they soon switched to indigo-dyed denim, creating an icon of global youth culture.",
+      "imageWikipediaTitle": "Jeans",
+      "sources": [
+        {
+          "title": "Jeans",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jeans"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Jeans",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Greek Origin of Birthday Candles",
+      "body": "The tradition of putting candles on birthday cakes traces back to ancient Greece. Greeks placed glowing candles on round honey cakes to symbolize the radiant moon and presented them to Artemis, the goddess of the hunt and the moon. They believed the rising smoke carried their prayers and wishes directly to the gods in the heavens.",
+      "imageWikipediaTitle": "Birthday cake",
+      "sources": [
+        {
+          "title": "Birthday cake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Birthday_cake"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Birthday_cake",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mineral That Paid Roman Soldiers",
+      "body": "In ancient Rome, salt was so vital for food preservation and health that it was used as currency. Roman soldiers were sometimes paid an allowance to purchase salt, known as a 'salarium.' This Latin root is the origin of the modern English word 'salary,' as well as the phrase 'worth one's salt.'",
+      "imageWikipediaTitle": "History of salt",
+      "sources": [
+        {
+          "title": "History of salt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_salt"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/History_of_salt",
+      "category": "culture"
+    }
+  ]
+}
