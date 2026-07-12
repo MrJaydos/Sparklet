@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-07-12T00:00:00Z",
+  "model": "human-curated",
+  "cards": [
+    {
+      "category": "science",
+      "title": "Water can boil and freeze at the same time",
+      "body": "At exactly 0.01 °C and a pressure of about 611.7 pascals — the 'triple point' — water exists as ice, liquid, and vapor simultaneously, all three in equilibrium. It's so precise that until 2019 the triple point of water was used to define the kelvin, the SI unit of temperature.",
+      "imageWikipediaTitle": "Triple point",
+      "sources": [
+        { "title": "Triple point", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Triple_point" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Triple_point"
+    },
+    {
+      "category": "history",
+      "title": "Oxford University is older than the Aztec Empire",
+      "body": "Teaching existed at Oxford by 1096, and the university grew rapidly from 1167. The Aztec capital Tenochtitlan wasn't founded until around 1325 — more than two centuries later. By the time the Aztec Empire rose, Oxford had already been examining students for generations.",
+      "imageWikipediaTitle": "University of Oxford",
+      "sources": [
+        { "title": "University of Oxford", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/University_of_Oxford" },
+        { "title": "Tenochtitlan", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tenochtitlan" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/University_of_Oxford"
+    },
+    {
+      "category": "psychology",
+      "title": "Cramming works worse than spacing — and we've known since 1885",
+      "body": "The 'spacing effect' shows you remember far more when study sessions are spread out over time rather than massed together. Hermann Ebbinghaus documented it in 1885 by memorizing thousands of nonsense syllables on himself. It remains one of the most replicated findings in the science of learning.",
+      "imageWikipediaTitle": "Hermann Ebbinghaus",
+      "sources": [
+        { "title": "Spacing effect", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Spacing_effect" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spacing_effect"
+    },
+    {
+      "category": "tech",
+      "title": "The first computer 'bug' was an actual moth",
+      "body": "On 9 September 1947, operators of the Harvard Mark II found a moth stuck in one of its relays. They taped it into the logbook with the note: 'First actual case of bug being found.' Grace Hopper loved telling the story — and the logbook, moth included, is preserved at the Smithsonian.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        { "title": "Software bug", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Software_bug" },
+        { "title": "Grace Hopper", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Grace_Hopper" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Software_bug"
+    },
+    {
+      "category": "culture",
+      "title": "The oldest known musical instruments are 40,000-year-old flutes",
+      "body": "Flutes carved from bird bone and mammoth ivory, found in caves in southern Germany like Hohle Fels and Geissenklösterle, are at least 40,000 years old. Music wasn't a late luxury — some of the earliest modern humans in Europe were already making instruments.",
+      "imageWikipediaTitle": "Paleolithic flutes",
+      "sources": [
+        { "title": "Paleolithic flutes", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Paleolithic_flutes" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paleolithic_flutes"
+    },
+    {
+      "category": "money",
+      "title": "The Rule of 72: doubling money in your head",
+      "body": "Divide 72 by an annual growth rate and you get roughly how many years it takes to double. At 6% growth, money doubles in about 12 years; at 9%, about 8. It works because of how compound interest approximates — and it's just as handy for inflation or debt as for investments.",
+      "imageWikipediaTitle": "Compound interest",
+      "sources": [
+        { "title": "Rule of 72", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rule_of_72" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rule_of_72"
+    },
+    {
+      "category": "nature",
+      "title": "Octopuses have three hearts and blue blood",
+      "body": "Two hearts pump blood through the gills while a third serves the rest of the body — and the main heart actually stops beating when an octopus swims, which is partly why they prefer crawling. Their blood is blue because it uses copper-based hemocyanin instead of iron-based hemoglobin.",
+      "imageWikipediaTitle": "Octopus",
+      "sources": [
+        { "title": "Octopus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Octopus" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Octopus"
+    },
+    {
+      "category": "space",
+      "title": "A day on Venus is longer than its year",
+      "body": "Venus takes about 243 Earth days to spin once on its axis but only about 225 Earth days to orbit the Sun — so its day outlasts its year. It also rotates backwards compared to most planets, meaning on Venus the Sun rises in the west and sets in the east.",
+      "imageWikipediaTitle": "Venus",
+      "sources": [
+        { "title": "Venus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Venus" },
+        { "title": "Venus", "publisher": "NASA Science", "url": "https://science.nasa.gov/venus/" }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/venus/"
+    },
+    {
+      "category": "health",
+      "title": "Your afternoon coffee is still working at midnight",
+      "body": "Caffeine's half-life in healthy adults is roughly five hours — so half of a 4 p.m. coffee's caffeine is still circulating at 9 p.m., and a quarter of it near 2 a.m. That's why sleep researchers often suggest cutting off caffeine six or more hours before bed.",
+      "imageWikipediaTitle": "Caffeine",
+      "sources": [
+        { "title": "Caffeine", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Caffeine" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Caffeine"
+    },
+    {
+      "category": "language",
+      "title": "'Nice' used to be an insult",
+      "body": "When 'nice' entered English around 1300 — from Latin nescius, 'ignorant' — it meant foolish or senseless. Over the centuries it drifted through meanings like fussy, precise, and delicate before settling into today's 'pleasant' by the 18th century. Words rarely sit still.",
+      "imageWikipediaTitle": "Etymology",
+      "sources": [
+        { "title": "nice (adj.)", "publisher": "Online Etymology Dictionary", "url": "https://www.etymonline.com/word/nice" }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/nice"
+    },
+    {
+      "category": "philosophy",
+      "title": "If you replace every plank, is it the same ship?",
+      "body": "The Ship of Theseus puzzle, recorded by Plutarch nearly 2,000 years ago, asks whether an object that has had every part replaced is still the same object. It still shapes modern debates about identity — from what makes you 'you' over time to when a rebuilt band or repaired artwork stops being the original.",
+      "imageWikipediaTitle": "Ship of Theseus",
+      "sources": [
+        { "title": "Ship of Theseus", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ship_of_Theseus" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ship_of_Theseus"
+    },
+    {
+      "category": "code",
+      "title": "The first programmer died a century before computers existed",
+      "body": "In 1843, Ada Lovelace published notes on Charles Babbage's proposed Analytical Engine, including a step-by-step method for computing Bernoulli numbers — widely regarded as the first published algorithm intended for a machine. She saw further than Babbage did, predicting machines could one day manipulate music and symbols, not just numbers.",
+      "imageWikipediaTitle": "Ada Lovelace",
+      "sources": [
+        { "title": "Ada Lovelace", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ada_Lovelace" }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+    }
+  ]
+}
