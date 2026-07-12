@@ -27,7 +27,8 @@ export async function POST(req: NextRequest) {
   if (action === "view") {
     await prisma.userCardInteraction.upsert({
       where: { userId_cardId: { userId, cardId } },
-      update: { completed: true },
+      // Re-views bump viewedAt so profile history reflects recency.
+      update: { completed: true, viewedAt: new Date() },
       create: { userId, cardId, completed: true },
     });
     const streak = await updateStreakOnActivity(userId, tzOffsetMinutes ?? 0);

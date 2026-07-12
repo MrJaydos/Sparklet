@@ -7,12 +7,20 @@ import { isAdminEmail } from "@/lib/admin";
 export const metadata = { title: "Profile — Sparklet" };
 export const dynamic = "force-dynamic";
 
+function formatWhen(d: Date) {
+  const days = Math.floor((Date.now() - d.getTime()) / 86_400_000);
+  if (days === 0) return "today";
+  if (days === 1) return "yesterday";
+  if (days < 7) return `${days}d ago`;
+  return d.toLocaleDateString("en-NZ", { day: "numeric", month: "short" });
+}
+
 export default async function ProfilePage() {
   const session = await auth();
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
 
-  const [user, totalViewed, topCategories, likedCards] = await Promise.all([
+  const [user, totalViewed, topCategories, likedCards, history] = await Promise.all([
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
       select: { email: true, currentStreak: true, longestStreak: true },
@@ -46,6 +54,21 @@ export default async function ProfilePage() {
             id: true,
             title: true,
             readMoreUrl: true,
+            category: { select: { name: true, icon: true, colorHex: true } },
+          },
+        },
+      },
+    }),
+    prisma.userCardInteraction.findMany({
+      where: { userId, completed: true },
+      orderBy: { viewedAt: "desc" },
+      take: 50,
+      select: {
+        viewedAt: true,
+        card: {
+          select: {
+            id: true,
+            title: true,
             category: { select: { name: true, icon: true, colorHex: true } },
           },
         },
@@ -111,6 +134,35 @@ export default async function ProfilePage() {
             ))}
           </div>
         </>
+      )}
+
+      <h2 className="mt-8 text-lg font-bold">History</h2>
+      {history.length === 0 ? (
+        <p className="mt-3 text-sm text-neutral-500">
+          Every card you view ends up here, so nothing is ever lost to a scroll
+          or a refresh.
+        </p>
+      ) : (
+        <ul className="mt-3 space-y-1.5">
+          {history.map(({ card, viewedAt }) => (
+            <li key={card.id}>
+              <Link
+                href={`/card/${card.id}`}
+                className="flex items-baseline justify-between gap-3 rounded-lg border border-transparent px-3 py-2 transition hover:border-neutral-700 hover:bg-neutral-900"
+              >
+                <span className="min-w-0">
+                  <span className="text-xs" style={{ color: card.category.colorHex }}>
+                    {card.category.icon}
+                  </span>{" "}
+                  <span className="text-sm text-neutral-200">{card.title}</span>
+                </span>
+                <span className="shrink-0 text-xs text-neutral-600">
+                  {formatWhen(viewedAt)}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
       )}
 
       <h2 className="mt-8 text-lg font-bold">Saved for later</h2>
