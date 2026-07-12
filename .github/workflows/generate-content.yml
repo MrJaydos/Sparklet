@@ -48,5 +48,11 @@ jobs:
             echo "No new content to commit."
           else
             git commit -m "content: scheduled top-up $(date -u +%Y-%m-%d)"
-            git push origin main
+            # Rebase over anything pushed to main while generation ran —
+            # content files are uniquely timestamped, so this can't conflict.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin main && break
+              echo "Push attempt $i failed, retrying…"
+              sleep 10
+            done
           fi
