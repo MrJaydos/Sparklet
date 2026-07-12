@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
+import { isAdminEmail } from "@/lib/admin";
 
 export const metadata = { title: "Profile — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -63,11 +64,18 @@ export default async function ProfilePage() {
         <Link href="/feed" className="text-sm text-neutral-400 hover:text-neutral-200">
           ← Back to feed
         </Link>
-        <form action={signOutAction}>
-          <button type="submit" className="text-sm text-neutral-400 hover:text-neutral-200">
-            Sign out
-          </button>
-        </form>
+        <div className="flex items-center gap-4">
+          {isAdminEmail(user.email) && (
+            <Link href="/admin" className="text-sm text-neutral-400 hover:text-neutral-200">
+              🛠️ Admin
+            </Link>
+          )}
+          <form action={signOutAction}>
+            <button type="submit" className="text-sm text-neutral-400 hover:text-neutral-200">
+              Sign out
+            </button>
+          </form>
+        </div>
       </div>
 
       <h1 className="mt-6 text-2xl font-bold">Your learning</h1>
