@@ -8,8 +8,10 @@
  * path.
  */
 
-const GEMINI_MODEL = "gemini-2.5-flash";
-const GROQ_MODEL = "llama-3.3-70b-versatile";
+// "-latest" alias tracks the current stable Flash release — pinned versions
+// get retired for new users (gemini-2.5-flash 404s as of mid-2026).
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
+const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
 
 export type GenerateResult = { text: string; model: string };
 
@@ -82,7 +84,8 @@ export async function generateJSON(prompt: string): Promise<GenerateResult> {
       return await generateWithGemini(prompt, geminiKey);
     } catch (e) {
       const status = e instanceof ProviderError ? e.status : 0;
-      const retryable = status === 429 || status >= 500 || status === 0;
+      // 404 = model retired/renamed; still worth trying the other provider.
+      const retryable = status === 429 || status === 404 || status >= 500 || status === 0;
       if (!groqKey || !retryable) throw e;
       console.warn(`  Gemini failed (${status}) — falling back to Groq`);
     }

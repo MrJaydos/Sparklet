@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-12T13:52:50.669Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why medieval stained glass is thicker at the bottom",
+      "body": "For decades, a popular myth claimed that old church windows are thicker at the bottom because glass is a slow-flowing liquid. In reality, glass is an amorphous solid. Medieval glassmakers produced flat sheets by spinning molten glass into discs, which naturally varied in thickness. Builders simply installed the heavier, thicker edges at the bottom for structural stability. It would take longer than the age of the universe for glass to flow noticeably at room temperature.",
+      "imageWikipediaTitle": "Stained glass",
+      "sources": [
+        {
+          "title": "Glass",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glass"
+        },
+        {
+          "title": "Crown glass (window)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crown_glass_(window)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Glass",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The jellyfish that can hit the reset button on life",
+      "body": "When threatened by environmental stress, physical damage, or old age, the tiny jellyfish Turritopsis dohrnii does something extraordinary. Instead of dying, it reverses its lifecycle. It transforms its adult cells back into a youthful polyp state, effectively starting its life cycle over again. This process, called transdifferentiation, makes the organism biologically immortal, though it can still be killed by predators or disease.",
+      "imageWikipediaTitle": "Turritopsis dohrnii",
+      "sources": [
+        {
+          "title": "Turritopsis dohrnii",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+        },
+        {
+          "title": "Transdifferentiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Transdifferentiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+      "category": "science"
+    }
+  ]
+}
