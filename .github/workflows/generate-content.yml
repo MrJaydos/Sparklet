@@ -1,0 +1,52 @@
+name: Scheduled content top-up
+
+on:
+  schedule:
+    # 17:00 UTC ≈ 5-6am NZ time, daily
+    - cron: "0 17 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Cards per category (overrides TOPUP_COUNT)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Inventory-based: only categories under $MIN_BANK published cards get
+      # topped up, judged via the live app's /api/inventory endpoint.
+      - name: Generate cards for low-inventory categories
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          APP_URL: ${{ secrets.APP_URL }}
+          MIN_BANK: ${{ vars.MIN_BANK || '40' }}
+          TOPUP_COUNT: ${{ github.event.inputs.count || vars.TOPUP_COUNT || '10' }}
+        run: npm run generate:content -- --top-up
+
+      # Pushing to main triggers Coolify's webhook; the deploy's start command
+      # runs the seed importer, which fact-checks URLs before publishing.
+      - name: Commit new content
+        run: |
+          git config user.name "sparklet-content-bot"
+          git config user.email "actions@github.com"
+          git add content/generated
+          if git diff --cached --quiet; then
+            echo "No new content to commit."
+          else
+            git commit -m "content: scheduled top-up $(date -u +%Y-%m-%d)"
+            git push origin main
+          fi

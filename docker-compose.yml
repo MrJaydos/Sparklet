@@ -1,0 +1,59 @@
+# Coolify stack: app + Postgres + MinIO (media storage).
+# Coolify injects env vars defined in its UI; see .env.example for the list.
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: postgresql://sparklet:${POSTGRES_PASSWORD}@db:5432/sparklet
+      AUTH_SECRET: ${AUTH_SECRET}
+      NEXTAUTH_URL: ${NEXTAUTH_URL}
+      AUTH_TRUST_HOST: "true"
+      EMAIL_SERVER: ${EMAIL_SERVER}
+      EMAIL_FROM: ${EMAIL_FROM}
+      S3_ENDPOINT: http://minio:9000
+      S3_ACCESS_KEY: ${MINIO_ROOT_USER}
+      S3_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
+      S3_BUCKET: sparklet-media
+    depends_on:
+      db:
+        condition: service_healthy
+      minio:
+        condition: service_started
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 40s
+      retries: 3
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: sparklet
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: sparklet
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sparklet -d sparklet"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    volumes:
+      - miniodata:/data
+
+volumes:
+  pgdata:
+  miniodata:

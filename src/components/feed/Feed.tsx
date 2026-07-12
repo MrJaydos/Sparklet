@@ -40,7 +40,9 @@ export function Feed({
   const viewedRef = useRef<Set<string>>(new Set());
   const loadingRef = useRef(false);
   const cardsRef = useRef(cards);
-  cardsRef.current = cards;
+  useEffect(() => {
+    cardsRef.current = cards;
+  }, [cards]);
 
   const fetchCards = useCallback(
     async (slugs: string[], opts?: { reset?: boolean; allowRepeats?: boolean }) => {
@@ -80,8 +82,11 @@ export function Feed({
     try {
       const saved: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
       if (saved.length) {
-        setSelected(saved);
-        fetchCards(saved, { reset: true });
+        // Deferred so the restore doesn't force a cascading render mid-hydration.
+        queueMicrotask(() => {
+          setSelected(saved);
+          fetchCards(saved, { reset: true });
+        });
       }
     } catch {
       /* ignore corrupt storage */
