@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FeedCard, FeedQuiz } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
 import { CategorySheet, type CategoryOption } from "./CategorySheet";
+import { SearchSheet } from "./SearchSheet";
 import { CommentsSheet } from "./CommentsSheet";
 import { ReportSheet } from "./ReportSheet";
 import { QuizView } from "./QuizView";
@@ -50,6 +51,7 @@ export function Feed({
   );
   const [streak, setStreak] = useState(initialStreak);
   const [showSheet, setShowSheet] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
   const [commentsFor, setCommentsFor] = useState<FeedCard | null>(null);
   const [reportFor, setReportFor] = useState<string | null>(null);
   const [sessionViews, setSessionViews] = useState(0);
@@ -272,7 +274,7 @@ export function Feed({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== " ") return;
-      if (showSheet || commentsFor || reportFor) return;
+      if (showSheet || showSearch || commentsFor || reportFor) return;
       e.preventDefault();
       containerRef.current?.scrollBy({
         top: (e.key === "ArrowUp" ? -1 : 1) * window.innerHeight,
@@ -281,11 +283,12 @@ export function Feed({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [showSheet, commentsFor, reportFor]);
+  }, [showSheet, showSearch, commentsFor, reportFor]);
 
-  // Prefetch the next few images so swipes feel instant.
+  // Prefetch each incoming batch's images so swipes feel instant — and so
+  // the service worker has them cached before a connection drop.
   useEffect(() => {
-    cards.slice(0, 4).forEach((c) => {
+    cards.slice(-10).forEach((c) => {
       if (c.imageUrl) new Image().src = c.imageUrl;
     });
   }, [cards]);
@@ -333,6 +336,14 @@ export function Feed({
           ✨ Sparklet
         </Link>
         <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => setShowSearch(true)}
+            aria-label="Search cards"
+            className="rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
+          >
+            🔍
+          </button>
           <button
             type="button"
             onClick={() => setShowSheet(true)}
@@ -456,6 +467,8 @@ export function Feed({
           </div>
         )}
       </div>
+
+      {showSearch && <SearchSheet onClose={() => setShowSearch(false)} />}
 
       {showSheet && (
         <CategorySheet

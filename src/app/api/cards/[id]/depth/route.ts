@@ -75,7 +75,7 @@ Respond with JSON only: {"title": "...", "body": "..."}`;
   let variant;
   let model = "";
   try {
-    const result = await generateJSON(prompt);
+    const result = await generateJSON(prompt, { interactive: true });
     model = result.model;
     variant = variantSchema.parse(JSON.parse(result.text));
   } catch {

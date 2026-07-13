@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
+import { getRelatedCards } from "@/lib/related";
+import { timeAgo } from "@/lib/time";
 import { CommentsPanel } from "@/components/feed/CommentsSheet";
 
 export const dynamic = "force-dynamic";
@@ -22,6 +24,7 @@ export default async function CardPage({
   if (!card) notFound();
 
   const sources = card.sources as { title: string; publisher: string; url: string }[];
+  const related = (await getRelatedCards([card.id], 3)).get(card.id) ?? [];
 
   return (
     <main className="mx-auto min-h-dvh w-full max-w-lg px-5 py-8">
@@ -36,12 +39,17 @@ export default async function CardPage({
             <img src={card.imageUrl} alt="" className="h-full w-full object-cover" />
           </div>
         )}
-        <span
-          className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
-          style={{ backgroundColor: `${card.category.colorHex}33`, color: card.category.colorHex }}
-        >
-          {card.category.icon} {card.category.name}
-        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          <span
+            className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
+            style={{ backgroundColor: `${card.category.colorHex}33`, color: card.category.colorHex }}
+          >
+            {card.category.icon} {card.category.name}
+          </span>
+          <span className="text-xs text-neutral-500" title="When this card was published">
+            published {timeAgo(card.createdAt)}
+          </span>
+        </div>
         <h1 className="mt-3 text-2xl font-bold leading-snug">{card.title}</h1>
         <p className="mt-3 leading-relaxed text-neutral-300">{card.body}</p>
         <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -67,6 +75,27 @@ export default async function CardPage({
           </a>
         </div>
       </article>
+
+      {related.length > 0 && (
+        <>
+          <h2 className="mt-8 border-t border-neutral-800 pt-6 text-lg font-bold">
+            Connects to
+          </h2>
+          <ul className="mt-3 space-y-1.5">
+            {related.map((r) => (
+              <li key={r.id}>
+                <Link
+                  href={`/card/${r.id}`}
+                  className="flex items-baseline gap-2 rounded-lg border border-transparent px-3 py-2 transition hover:border-neutral-700 hover:bg-neutral-900"
+                >
+                  <span className="text-xs">{r.icon}</span>
+                  <span className="text-sm text-neutral-200">{r.title}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
 
       <h2 className="mt-8 border-t border-neutral-800 pt-6 text-lg font-bold">Comments</h2>
       <div className="mt-3 max-h-[50dvh]">

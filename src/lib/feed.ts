@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { getRelatedCards, type RelatedLink } from "@/lib/related";
 
 export type FeedCard = {
   id: string;
@@ -17,6 +18,8 @@ export type FeedCard = {
   commentCount: number;
   depthLevel: "SIMPLE" | "STANDARD" | "DEEP";
   category: { slug: string; name: string; colorHex: string; icon: string };
+  createdAt: string; // ISO — freshness signal ("published X ago")
+  related: RelatedLink[]; // light-touch "this connects to…" trail
 };
 
 export type FeedQuiz = {
@@ -69,6 +72,7 @@ type CardRow = {
   readMoreUrl: string;
   score: number;
   depthLevel: "SIMPLE" | "STANDARD" | "DEEP";
+  createdAt: Date;
   category: { slug: string; name: string; colorHex: string; icon: string };
   interactions: { vote: number }[];
   savedBy: { id: string }[];
@@ -120,7 +124,15 @@ export async function getFeedCards(opts: {
     commentCount: c._count.comments,
     depthLevel: c.depthLevel,
     category: c.category,
+    createdAt: c.createdAt.toISOString(),
+    related: [], // filled in withRelated once the batch is assembled
   });
+
+  const withRelated = async (cards: FeedCard[]) => {
+    const rel = await getRelatedCards(cards.map((c) => c.id));
+    for (const c of cards) c.related = rel.get(c.id) ?? [];
+    return cards;
+  };
 
   const include = {
     category: { select: { slug: true, name: true, colorHex: true, icon: true } },
@@ -205,20 +217,20 @@ export async function getFeedCards(opts: {
 
   if (unseen.length > 0) {
     return {
-      cards: [
+      cards: await withRelated([
         ...reviewCards,
         ...order(unseen)
           .filter((c) => !reviewIds.has(c.id))
           .slice(0, newTake)
           .map((c) => toFeedCard(c, false)),
-      ],
+      ]),
       quizzes,
       exhausted: unseen.length <= newTake,
     };
   }
 
   if (!allowRepeats) {
-    return { cards: reviewCards, quizzes, exhausted: true };
+    return { cards: await withRelated(reviewCards), quizzes, exhausted: true };
   }
 
   const seen = (await prisma.card.findMany({
@@ -226,13 +238,13 @@ export async function getFeedCards(opts: {
     include,
   })) as CardRow[];
   return {
-    cards: [
+    cards: await withRelated([
       ...reviewCards,
       ...order(seen)
         .filter((c) => !reviewIds.has(c.id))
         .slice(0, newTake)
         .map((c) => toFeedCard(c, true)),
-    ],
+    ]),
     quizzes,
     exhausted: true,
   };

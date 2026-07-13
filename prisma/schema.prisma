@@ -119,6 +119,10 @@ model Card {
 
   createdAt DateTime @default(now())
 
+  // Generated column (see card_search_vector migration): to_tsvector over
+  // title + body, kept in sync by Postgres. Powers search + related cards.
+  search Unsupported("tsvector")?
+
   category      Category              @relation(fields: [categoryId], references: [id])
   batch         GenerationBatch?      @relation(fields: [generationBatchId], references: [id])
   interactions  UserCardInteraction[]
@@ -131,6 +135,7 @@ model Card {
 
   @@index([categoryId, published])
   @@index([depthGroupId])
+  @@index([search], type: Gin)
 }
 
 enum DepthLevel {

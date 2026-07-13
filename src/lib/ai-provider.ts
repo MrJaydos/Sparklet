@@ -1,11 +1,13 @@
 /**
- * Provider-agnostic LLM wrapper for content generation scripts.
- * Tries Gemini first (free tier, 1,500 req/day); falls back to Groq
- * (Llama 3.3 70B) on 429/5xx or when no Gemini key is configured.
+ * Provider-agnostic LLM wrapper. Tries Gemini first (free tier, 1,500
+ * req/day); falls back to Groq (Llama 3.3 70B) on 429/5xx or when no Gemini
+ * key is configured.
  *
- * Used ONLY by standalone scripts (scripts/generate-content.ts) — never from
- * the running web app, keeping API keys and cost control out of the request
- * path.
+ * Two callers with different latency needs:
+ *  - content scripts (scripts/generate-content.ts): patient, retry Gemini
+ *    with backoff before falling back — daily quota recovers.
+ *  - the depth-variant route (a user is waiting on a button): pass
+ *    `interactive: true` to swap to Groq instantly on the first failure.
  */
 
 // "-latest" alias tracks the current stable Flash release — pinned versions
@@ -25,7 +27,11 @@ class ProviderError extends Error {
   }
 }
 
-async function generateWithGemini(prompt: string, apiKey: string): Promise<GenerateResult> {
+async function generateWithGemini(
+  prompt: string,
+  apiKey: string,
+  timeoutMs = 120_000
+): Promise<GenerateResult> {
   const res = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`,
     {
@@ -38,7 +44,7 @@ async function generateWithGemini(prompt: string, apiKey: string): Promise<Gener
           responseMimeType: "application/json",
         },
       }),
-      signal: AbortSignal.timeout(120_000),
+      signal: AbortSignal.timeout(timeoutMs),
     }
   );
   if (!res.ok) throw new ProviderError("gemini", res.status, await res.text());
@@ -142,8 +148,15 @@ export async function generateJSONWith(provider: "gemini" | "groq", prompt: stri
  * Generate a JSON response. Retries Gemini with backoff on rate limits
  * (free tier is easy to trip when generating many categories in a row),
  * then falls back to Groq if configured.
+ *
+ * `interactive: true` (someone is waiting on the response): one Gemini
+ * attempt with a short timeout, then straight to Groq — no backoff sleeps.
  */
-export async function generateJSON(prompt: string): Promise<GenerateResult> {
+export async function generateJSON(
+  prompt: string,
+  opts?: { interactive?: boolean }
+): Promise<GenerateResult> {
+  const interactive = opts?.interactive ?? false;
   const geminiKey = process.env.GEMINI_API_KEY;
   const groqKey = process.env.GROQ_API_KEY;
   if (!geminiKey && !groqKey) {
@@ -152,9 +165,10 @@ export async function generateJSON(prompt: string): Promise<GenerateResult> {
 
   let lastError: unknown;
   if (geminiKey) {
-    for (let attempt = 1; attempt <= 3; attempt++) {
+    const attempts = interactive ? 1 : 3;
+    for (let attempt = 1; attempt <= attempts; attempt++) {
       try {
-        return await generateWithGemini(prompt, geminiKey);
+        return await generateWithGemini(prompt, geminiKey, interactive ? 20_000 : 120_000);
       } catch (e) {
         lastError = e;
         const status = e instanceof ProviderError ? e.status : 0;
@@ -162,15 +176,19 @@ export async function generateJSON(prompt: string): Promise<GenerateResult> {
         if (status === 404) break;
         const retryable = status === 429 || status >= 500 || status === 0;
         if (!retryable) throw e;
-        if (attempt < 3) {
+        if (attempt < attempts) {
           const wait = attempt * 30_000;
-          console.warn(`  Gemini ${status} — retrying in ${wait / 1000}s (attempt ${attempt + 1}/3)`);
+          console.warn(`  Gemini ${status} — retrying in ${wait / 1000}s (attempt ${attempt + 1}/${attempts})`);
           await sleep(wait);
         }
       }
     }
     if (!groqKey) throw lastError;
-    console.warn(`  Gemini exhausted retries — falling back to Groq`);
+    console.warn(
+      interactive
+        ? `  Gemini unavailable — switching to Groq immediately`
+        : `  Gemini exhausted retries — falling back to Groq`
+    );
   }
   return generateWithGroq(prompt, groqKey!);
 }

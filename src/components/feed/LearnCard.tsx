@@ -1,7 +1,9 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import type { FeedCard } from "@/lib/feed";
+import { timeAgo } from "@/lib/time";
 
 type DepthVariant = { title: string; body: string; level: "SIMPLE" | "STANDARD" | "DEEP" };
 
@@ -123,7 +125,7 @@ export function LearnCard({
         )}
         <div className="pr-16">{/* keep text clear of the action rail */}
 
-        <div className="mb-3 flex items-center gap-2">
+        <div className="mb-3 flex flex-wrap items-center gap-2">
           <span
             className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
             style={{ backgroundColor: `${card.category.colorHex}33`, color: card.category.colorHex }}
@@ -140,6 +142,9 @@ export function LearnCard({
               seen before
             </span>
           )}
+          <span className="text-xs text-neutral-500" title="When this card was published">
+            published {timeAgo(card.createdAt)}
+          </span>
         </div>
 
         <h2 className="text-2xl font-bold leading-snug sm:text-3xl">{shownTitle}</h2>
@@ -205,6 +210,22 @@ export function LearnCard({
             Read more ↗
           </a>
         </div>
+
+        {/* Related trail — somewhere for curiosity to go next */}
+        {card.related.length > 0 && (
+          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
+            <span className="text-neutral-500">Connects to</span>
+            {card.related.map((r) => (
+              <Link
+                key={r.id}
+                href={`/card/${r.id}`}
+                className="max-w-[15rem] truncate rounded-full border border-dashed border-neutral-700 px-3 py-1 text-neutral-300 transition hover:border-neutral-500 hover:text-white"
+              >
+                {r.icon} {r.title}
+              </Link>
+            ))}
+          </div>
+        )}
         </div>{/* /pr-16 */}
 
       {/* Action rail — TikTok-style vertical stack, clear of the text column */}
