@@ -133,7 +133,7 @@ export default async function AdminPage() {
   }
 
   return (
-    <main className="mx-auto min-h-dvh w-full max-w-2xl px-5 py-8">
+    <main className="mx-auto min-h-dvh w-full max-w-2xl px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
       <Link href="/feed" className="text-sm text-neutral-400 hover:text-neutral-200">
         ← Back to feed
       </Link>
