@@ -110,9 +110,9 @@ export function LearnCard({
         }}
       />
 
-      <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-24 pt-16">
+      <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+4rem)] pt-[calc(env(safe-area-inset-top)+4rem)]">
         {card.imageUrl && (
-          <div className="mb-5 max-h-[35dvh] overflow-hidden rounded-2xl">
+          <div className="mb-4 max-h-[32dvh] overflow-hidden rounded-2xl">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={card.imageUrl}
@@ -125,6 +125,7 @@ export function LearnCard({
             />
           </div>
         )}
+        <div className="pr-16">{/* keep text clear of the action rail */}
 
         <div className="mb-3 flex items-center gap-2">
           <span
@@ -199,113 +200,111 @@ export function LearnCard({
               🔗 {s.publisher}
             </a>
           ))}
-        </div>
-
-        <div className="mt-4 flex items-center justify-between gap-2">
           <a
             href={card.readMoreUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-xl bg-neutral-100 px-4 py-2.5 text-sm font-semibold text-neutral-900 transition hover:bg-white"
+            className="inline-flex whitespace-nowrap rounded-full bg-neutral-100 px-3.5 py-1 text-xs font-semibold text-neutral-900 transition hover:bg-white"
           >
             Read more ↗
           </a>
-
-          <div className="flex items-center gap-1">
-            {/* Vote group */}
-            <div className="flex items-center rounded-full bg-neutral-900/80 backdrop-blur">
-              <button
-                type="button"
-                onClick={() => vote(1)}
-                aria-label="Upvote"
-                aria-pressed={myVote === 1}
-                className={`rounded-l-full px-2.5 py-2 text-lg transition active:scale-125 ${
-                  myVote === 1 ? "text-emerald-400" : "text-neutral-500 hover:text-neutral-300"
-                }`}
-              >
-                ▲
-              </button>
-              <span
-                className={`min-w-6 text-center text-sm font-semibold tabular-nums ${
-                  score > 0 ? "text-emerald-400" : score < 0 ? "text-red-400" : "text-neutral-400"
-                }`}
-              >
-                {score}
-              </span>
-              <button
-                type="button"
-                onClick={() => vote(-1)}
-                aria-label="Downvote"
-                aria-pressed={myVote === -1}
-                className={`rounded-r-full px-2.5 py-2 text-lg transition active:scale-125 ${
-                  myVote === -1 ? "text-red-400" : "text-neutral-500 hover:text-neutral-300"
-                }`}
-              >
-                ▼
-              </button>
-            </div>
-
-            <button
-              type="button"
-              onClick={onToggleSpeak}
-              aria-label={speaking ? "Stop reading" : "Read card aloud"}
-              aria-pressed={speaking}
-              title={speaking ? "Stop reading" : "Read aloud"}
-              className={`rounded-full px-3 py-2 text-sm backdrop-blur transition ${
-                speaking
-                  ? "bg-violet-600/80 text-white"
-                  : "bg-neutral-900/80 text-neutral-400 hover:text-neutral-200"
-              }`}
-            >
-              {speaking ? "⏹" : "🔊"}
-            </button>
-
-            <button
-              type="button"
-              onClick={onOpenComments}
-              aria-label="Comments"
-              className="rounded-full bg-neutral-900/80 px-3 py-2 text-sm text-neutral-300 backdrop-blur transition hover:bg-neutral-800"
-            >
-              💬 {commentCount > 0 ? commentCount : ""}
-            </button>
-
-            <button
-              type="button"
-              onClick={onToggleLike}
-              aria-label={liked ? "Unlike" : "Like"}
-              aria-pressed={liked}
-              className={`rounded-full bg-neutral-900/80 px-3 py-2 text-sm backdrop-blur transition active:scale-125 ${
-                liked ? "" : "grayscale opacity-60 hover:opacity-100"
-              }`}
-            >
-              ❤️
-            </button>
-
-            <button
-              type="button"
-              onClick={onToggleSave}
-              aria-label={saved ? "Remove from notebook" : "Save to notebook"}
-              aria-pressed={saved}
-              title={saved ? "In your notebook" : "Save to notebook"}
-              className={`rounded-full bg-neutral-900/80 px-3 py-2 text-sm backdrop-blur transition active:scale-125 ${
-                saved ? "text-amber-300" : "text-neutral-500 hover:text-neutral-300"
-              }`}
-            >
-              {saved ? "🔖" : "📑"}
-            </button>
-
-            <button
-              type="button"
-              onClick={onReport}
-              aria-label="Report card"
-              title="Report"
-              className="rounded-full bg-neutral-900/80 px-3 py-2 text-sm text-neutral-500 backdrop-blur transition hover:text-neutral-300"
-            >
-              ⚑
-            </button>
-          </div>
         </div>
+        </div>{/* /pr-16 */}
+
+      {/* Action rail — TikTok-style vertical stack, clear of the text column */}
+      <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+4rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5">
+        <div className="flex flex-col items-center rounded-full bg-neutral-900/70 py-1 backdrop-blur">
+          <button
+            type="button"
+            onClick={() => vote(1)}
+            aria-label="Upvote"
+            aria-pressed={myVote === 1}
+            className={`px-3 py-1 text-lg leading-none transition active:scale-125 ${
+              myVote === 1 ? "text-emerald-400" : "text-neutral-400"
+            }`}
+          >
+            ▲
+          </button>
+          <span
+            className={`text-xs font-semibold tabular-nums ${
+              score > 0 ? "text-emerald-400" : score < 0 ? "text-red-400" : "text-neutral-300"
+            }`}
+          >
+            {score}
+          </span>
+          <button
+            type="button"
+            onClick={() => vote(-1)}
+            aria-label="Downvote"
+            aria-pressed={myVote === -1}
+            className={`px-3 py-1 text-lg leading-none transition active:scale-125 ${
+              myVote === -1 ? "text-red-400" : "text-neutral-400"
+            }`}
+          >
+            ▼
+          </button>
+        </div>
+
+        <button
+          type="button"
+          onClick={onOpenComments}
+          aria-label="Comments"
+          className="flex h-11 w-11 flex-col items-center justify-center rounded-full bg-neutral-900/70 text-lg backdrop-blur transition active:scale-110"
+        >
+          💬
+          {commentCount > 0 && (
+            <span className="-mt-1 text-[10px] font-semibold text-neutral-300">
+              {commentCount}
+            </span>
+          )}
+        </button>
+
+        <button
+          type="button"
+          onClick={onToggleLike}
+          aria-label={liked ? "Unlike" : "Like"}
+          aria-pressed={liked}
+          className={`flex h-11 w-11 items-center justify-center rounded-full bg-neutral-900/70 text-lg backdrop-blur transition active:scale-125 ${
+            liked ? "" : "grayscale opacity-70"
+          }`}
+        >
+          ❤️
+        </button>
+
+        <button
+          type="button"
+          onClick={onToggleSave}
+          aria-label={saved ? "Remove from notebook" : "Save to notebook"}
+          aria-pressed={saved}
+          className={`flex h-11 w-11 items-center justify-center rounded-full bg-neutral-900/70 text-lg backdrop-blur transition active:scale-125 ${
+            saved ? "text-amber-300" : "opacity-70"
+          }`}
+        >
+          {saved ? "🔖" : "📑"}
+        </button>
+
+        <button
+          type="button"
+          onClick={onToggleSpeak}
+          aria-label={speaking ? "Stop reading" : "Read card aloud"}
+          aria-pressed={speaking}
+          className={`flex h-11 w-11 items-center justify-center rounded-full text-lg backdrop-blur transition ${
+            speaking ? "bg-violet-600/80 text-white" : "bg-neutral-900/70 opacity-70"
+          }`}
+        >
+          {speaking ? "⏹" : "🔊"}
+        </button>
+
+        <button
+          type="button"
+          onClick={onReport}
+          aria-label="Report card"
+          className="flex h-9 w-9 items-center justify-center rounded-full bg-neutral-900/50 text-sm text-neutral-500 backdrop-blur transition hover:text-neutral-300"
+        >
+          ⚑
+        </button>
       </div>
+      </div>{/* /content column */}
     </article>
   );
 }

@@ -339,34 +339,31 @@ export function Feed({
   return (
     <div className="relative h-dvh overflow-hidden bg-neutral-950">
       {/* Floating header */}
-      <header className="pointer-events-none absolute inset-x-0 top-0 z-40 flex items-center justify-between px-4 py-3">
-        <Link href="/" className="pointer-events-auto text-lg font-bold drop-shadow">
+      <header className="pointer-events-none absolute inset-x-0 top-0 z-40 flex items-center justify-between gap-2 px-4 pb-2 pt-[calc(env(safe-area-inset-top)+0.625rem)]">
+        <Link
+          href="/"
+          className="pointer-events-auto whitespace-nowrap text-lg font-bold drop-shadow"
+        >
           ✨ Sparklet
         </Link>
-        <div className="pointer-events-auto flex items-center gap-2">
+        <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => setShowSheet(true)}
+            className="min-w-0 max-w-32 truncate rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
+          >
+            {topicLabel} ▾
+          </button>
           <span
-            className="rounded-full bg-neutral-900/80 px-3 py-1.5 text-sm font-semibold backdrop-blur"
+            className="whitespace-nowrap rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs font-semibold backdrop-blur"
             title="Daily streak"
           >
             🔥 {streak}
           </span>
-          <button
-            type="button"
-            onClick={toggleAutoRead}
-            aria-pressed={autoRead}
-            title={autoRead ? "Auto-read on — cards are read aloud" : "Auto-read off"}
-            className={`rounded-full px-3 py-1.5 text-sm backdrop-blur transition ${
-              autoRead
-                ? "bg-violet-600/80 hover:bg-violet-500/80"
-                : "bg-neutral-900/80 hover:bg-neutral-800"
-            }`}
-          >
-            {autoRead ? "🔊" : "🔇"}
-          </button>
           <Link
             href="/notifications"
             aria-label="Notifications"
-            className="relative rounded-full bg-neutral-900/80 px-3 py-1.5 text-sm backdrop-blur transition hover:bg-neutral-800"
+            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
           >
             🔔
             {initialUnread > 0 && (
@@ -375,17 +372,10 @@ export function Feed({
               </span>
             )}
           </Link>
-          <button
-            type="button"
-            onClick={() => setShowSheet(true)}
-            className="rounded-full bg-neutral-900/80 px-3 py-1.5 text-sm font-semibold backdrop-blur transition hover:bg-neutral-800"
-          >
-            {topicLabel} ▾
-          </button>
           <Link
             href="/profile"
             aria-label="Profile"
-            className="rounded-full bg-neutral-900/80 px-3 py-1.5 text-sm backdrop-blur transition hover:bg-neutral-800"
+            className="rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
           >
             👤
           </Link>
@@ -489,6 +479,8 @@ export function Feed({
           selected={selected}
           onApply={applyCategories}
           onClose={() => setShowSheet(false)}
+          autoRead={autoRead}
+          onToggleAutoRead={toggleAutoRead}
         />
       )}
 
