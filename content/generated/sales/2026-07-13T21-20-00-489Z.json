@@ -1,0 +1,512 @@
+{
+  "generatedAt": "2026-07-13T21:20:00.490Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mirroring Works",
+      "body": "Mirroring a person's body language increases the chances of a successful sales pitch by building rapport and trust.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Loss Aversion",
+      "body": "People tend to fear losses more than they value gains, which can be leveraged in sales by framing products as loss prevention.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Prospect Theory",
+          "publisher": "Econometrica",
+          "url": "https://en.wikipedia.org/wiki/Prospect_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Prospect_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Scarcity Principle",
+      "body": "Limited availability of a product increases its perceived value, making it more attractive to potential buyers.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Social Proof",
+      "body": "Customer testimonials and reviews can increase sales by providing social proof of a product's quality and effectiveness.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Anchoring Effect",
+      "body": "Providing an initial high price can make subsequent prices seem more reasonable by comparison, increasing the chances of a sale.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Anchoring Effect",
+          "publisher": "Journal of Behavioral Decision Making",
+          "url": "https://en.wikipedia.org/wiki/Anchoring"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anchoring",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Reciprocity",
+      "body": "Offering something for free can create a sense of obligation in the recipient, making them more likely to buy from you in the future.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Urgency",
+      "body": "Creating a sense of urgency can motivate potential buyers to make a decision, increasing the chances of a sale.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Psychology of Scarcity",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://en.wikipedia.org/wiki/Scarcity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Scarcity",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Foot-in-the-Door Technique",
+      "body": "Getting someone to agree to a small request can increase the likelihood of them agreeing to a larger request later.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Foot-in-the-Door Technique",
+          "publisher": "Journal of Personality and Social Psychology",
+          "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Door-in-the-Face Technique",
+      "body": "Making an extreme request that is likely to be rejected can increase the chances of a subsequent, more moderate request being accepted.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Door-in-the-Face Technique",
+          "publisher": "Journal of Personality and Social Psychology",
+          "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Power of Free",
+      "body": "Offering free products or services can increase sales by creating a sense of reciprocity and building trust with potential customers.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Free: The Future of a Radical Price",
+          "publisher": "Hyperion",
+          "url": "https://en.wikipedia.org/wiki/Free:_The_Future_of_a_Radical_Price"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Free:_The_Future_of_a_Radical_Price",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Emotional Connections",
+      "body": "Creating an emotional connection with potential customers can increase the chances of a sale by making the product more relatable and personal.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Emotional Intelligence",
+          "publisher": "Bantam Books",
+          "url": "https://en.wikipedia.org/wiki/Emotional_Intelligence"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Emotional_Intelligence",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Storytelling",
+      "body": "Using storytelling techniques can increase the effectiveness of a sales pitch by making the product more memorable and engaging.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Storytelling Animal",
+          "publisher": "Houghton Mifflin Harcourt",
+          "url": "https://en.wikipedia.org/wiki/The_Storytelling_Animal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Storytelling_Animal",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Authenticity",
+      "body": "Being authentic and transparent can increase trust with potential customers, making them more likely to buy from you.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Authenticity Hoax",
+          "publisher": "Random House Canada",
+          "url": "https://en.wikipedia.org/wiki/Authenticity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Authenticity",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Consistency",
+      "body": "Following up with potential customers and being consistent in your messaging can increase the chances of a sale.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Liking",
+      "body": "People are more likely to buy from someone they like, making it essential to build a rapport with potential customers.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Authority",
+      "body": "Establishing authority and credibility can increase trust with potential customers, making them more likely to buy from you.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influence: The Psychology of Persuasion",
+          "publisher": "HarperBusiness",
+          "url": "https://en.wikipedia.org/wiki/Influence:_The_Psychology_of_Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Commitment",
+      "body": "Getting someone to commit to a small purchase can increase the likelihood of them making a larger purchase in the future.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Psychology of Commitment",
+          "publisher": "Journal of Personality and Social Psychology",
+          "url": "https://en.wikipedia.org/wiki/Commitment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Commitment",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Exclusivity",
+      "body": "Making a product or service exclusive can increase its perceived value and make it more desirable to potential customers.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Psychology of Exclusivity",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://en.wikipedia.org/wiki/Exclusivity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Exclusivity",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nostalgia",
+      "body": "Using nostalgia in marketing can increase sales by evoking positive emotions and creating a sense of familiarity.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Power of Nostalgia",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://en.wikipedia.org/wiki/Nostalgia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nostalgia",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Surprise",
+      "body": "Using surprise in marketing can increase sales by creating a sense of excitement and making the product more memorable.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Psychology of Surprise",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://en.wikipedia.org/wiki/Surprise"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Surprise",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Social Identity",
+      "body": "People tend to buy from companies that align with their social identity, making it essential to understand your target audience's values.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Social Identity Theory",
+          "publisher": "Journal of Personality and Social Psychology",
+          "url": "https://en.wikipedia.org/wiki/Social_identity_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Social_identity_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Personalization",
+      "body": "Personalizing marketing messages can increase sales by making the product more relevant and tailored to the individual customer.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Power of Personalization",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://en.wikipedia.org/wiki/Personalization"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Personalization",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Power of Now",
+      "body": "Creating a sense of urgency can increase sales by motivating customers to make a decision quickly.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "The Power of Now",
+          "publisher": "Namaste Publishing",
+          "url": "https://en.wikipedia.org/wiki/The_Power_of_Now"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Power_of_Now",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Word-of-Mouth",
+      "body": "Encouraging satisfied customers to share their experiences can increase sales by providing social proof and building credibility.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Word-of-Mouth Marketing",
+          "publisher": "Journal of Marketing",
+          "url": "https://en.wikipedia.org/wiki/Word-of-mouth_marketing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Word-of-mouth_marketing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gamification",
+      "body": "Using game design elements in marketing can increase sales by making the experience more engaging and interactive.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Gamification",
+          "publisher": "Penguin Books",
+          "url": "https://en.wikipedia.org/wiki/Gamification"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gamification",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sustainability",
+      "body": "Emphasizing the environmental and social benefits of a product can increase sales by appealing to customers' values.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Sustainable Marketing",
+          "publisher": "Journal of Marketing",
+          "url": "https://en.wikipedia.org/wiki/Sustainable_marketing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sustainable_marketing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Customer Experience",
+      "body": "Providing a positive customer experience can increase sales by building loyalty and encouraging repeat business.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Customer Experience Management",
+          "publisher": "Journal of Marketing",
+          "url": "https://en.wikipedia.org/wiki/Customer_experience"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Customer_experience",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Influencer Marketing",
+      "body": "Partnering with influencers can increase sales by reaching new audiences and building credibility.",
+      "imageWikipediaTitle": "",
+      "sources": [
+        {
+          "title": "Influencer Marketing",
+          "publisher": "Journal of Marketing",
+          "url": "https://en.wikipedia.org/wiki/Influencer_marketing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Influencer_marketing",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the term for the technique of mirroring a person's body language to build rapport?",
+      "options": [
+        "Mirroring",
+        "Matching",
+        "Social proof",
+        "Anchoring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mirroring is a technique used to build rapport and trust by imitating a person's body language."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the term for the concept that people tend to follow the actions of others?",
+      "options": [
+        "Social proof",
+        "Scarcity",
+        "Urgency",
+        "Exclusivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Social proof is the concept that people tend to follow the actions of others, especially when they are uncertain."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What is the term for the technique of getting someone to agree to a small request to increase the likelihood of them agreeing to a larger request later?",
+      "options": [
+        "Foot-in-the-door technique",
+        "Door-in-the-face technique",
+        "Anchoring",
+        "Social proof"
+      ],
+      "correctIndex": 0,
+      "explanation": "The foot-in-the-door technique involves getting someone to agree to a small request to increase the likelihood of them agreeing to a larger request later."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What is the term for the technique of making an extreme request that is likely to be rejected to increase the chances of a subsequent, more moderate request being accepted?",
+      "options": [
+        "Door-in-the-face technique",
+        "Foot-in-the-door technique",
+        "Anchoring",
+        "Social proof"
+      ],
+      "correctIndex": 0,
+      "explanation": "The door-in-the-face technique involves making an extreme request that is likely to be rejected to increase the chances of a subsequent, more moderate request being accepted."
+    },
+    {
+      "cardIndex": 12,
+      "question": "What is the term for the concept that people tend to like and trust those who are similar to themselves?",
+      "options": [
+        "Liking",
+        "Authority",
+        "Social proof",
+        "Exclusivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Liking is the concept that people tend to like and trust those who are similar to themselves, which can increase the chances of a sale."
+    },
+    {
+      "cardIndex": 15,
+      "question": "What is the term for the concept that people tend to value things more when they are scarce?",
+      "options": [
+        "Scarcity",
+        "Urgency",
+        "Exclusivity",
+        "Social proof"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scarcity is the concept that people tend to value things more when they are scarce, which can increase the chances of a sale."
+    },
+    {
+      "cardIndex": 18,
+      "question": "What is the term for the technique of using storytelling to make a product more memorable and engaging?",
+      "options": [
+        "Storytelling",
+        "Authenticity",
+        "Consistency",
+        "Exclusivity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Storytelling is the technique of using narratives to make a product more memorable and engaging, which can increase the chances of a sale."
+    }
+  ]
+}

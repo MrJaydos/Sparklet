@@ -33,9 +33,12 @@ const FALLBACK_CATEGORIES: Record<string, string> = {
   nature: "Animals, plants, ecosystems and the living world",
   space: "Astronomy, spaceflight and everything beyond the atmosphere",
   health: "Nutrition, sleep, exercise and how your body actually works",
-  language: "Etymology, linguistics and surprising word origins",
+  language:
+    "Word origins and linguistics, plus everyday basics from world languages — how to say hello, count and get by, with pronunciation",
   philosophy: "Thought experiments, ethics and big ideas explained simply",
   code: "Programming, computer science and hacker lore",
+  sales:
+    "Practical sales and persuasion tactics — small, evidence-backed techniques you can use in your next pitch, negotiation or conversation",
 };
 
 const generatedCardSchema = cardSchema.omit({ category: true });

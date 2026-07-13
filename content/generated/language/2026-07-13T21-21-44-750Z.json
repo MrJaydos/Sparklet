@@ -1,0 +1,236 @@
+{
+  "generatedAt": "2026-07-13T21:21:44.751Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hello in Japanese",
+      "body": "In Japan, people greet each other with 'Konnichiwa', which roughly translates to 'good day' or 'hello'. The formal greeting is 'Ohayou gozaimasu' in the morning and 'Oyasumi nasai' at night.",
+      "imageWikipediaTitle": "Japanese language",
+      "sources": [
+        {
+          "title": "Japanese language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Japanese_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting in French",
+      "body": "In French, the numbers 70 to 79 are expressed using a combination of the numbers 60 and 10, due to the French Revolution's attempt to decimalize the language.",
+      "imageWikipediaTitle": "French language",
+      "sources": [
+        {
+          "title": "French language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/French_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/French_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Word Origin: 'Hello'",
+      "body": "The word 'hello' originated in the 19th century as a term used to attract attention, and was popularized by the introduction of the telephone.",
+      "imageWikipediaTitle": "Hello",
+      "sources": [
+        {
+          "title": "Hello",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hello"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hello",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Linguistic Diversity",
+      "body": "There are over 7,000 languages spoken worldwide, with Indonesia having the most languages spoken within its borders, at over 700.",
+      "imageWikipediaTitle": "Language",
+      "sources": [
+        {
+          "title": "Language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mandarin Chinese Tones",
+      "body": "Mandarin Chinese has four main tones, with the same word having different meanings based on the tone used, such as 'ma' meaning 'mother', 'hemp', 'horse', or 'scold'.",
+      "imageWikipediaTitle": "Mandarin Chinese",
+      "sources": [
+        {
+          "title": "Mandarin Chinese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Arabic Script",
+      "body": "The Arabic script is written from right to left, and is the second most widely used writing system in the world, with over 300 million people using it.",
+      "imageWikipediaTitle": "Arabic script",
+      "sources": [
+        {
+          "title": "Arabic script",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic_script"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arabic_script",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Portuguese Pronunciation",
+      "body": "Portuguese has a unique pronunciation, with the 's' sound often being pronounced as a 'sh' sound, and the 'j' sound being pronounced as a soft 'zh' sound.",
+      "imageWikipediaTitle": "Portuguese language",
+      "sources": [
+        {
+          "title": "Portuguese language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Portuguese_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Russian Alphabet",
+      "body": "The Russian alphabet, also known as Cyrillic, consists of 33 letters, with some letters similar to those in the Latin alphabet, but with distinct pronunciation.",
+      "imageWikipediaTitle": "Cyrillic script",
+      "sources": [
+        {
+          "title": "Cyrillic script",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cyrillic_script"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cyrillic_script",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Korean Writing System",
+      "body": "The Korean writing system, known as Hangul, was created in the 15th century and consists of 14 consonants and 10 vowels, making it one of the most phonetic writing systems in the world.",
+      "imageWikipediaTitle": "Hangul",
+      "sources": [
+        {
+          "title": "Hangul",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hangul"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hangul",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Word Origin: 'Goodbye'",
+      "body": "The word 'goodbye' originated from the phrase 'God be with you', which was used as a way to bid farewell, with the phrase being shortened over time.",
+      "imageWikipediaTitle": "Goodbye",
+      "sources": [
+        {
+          "title": "Goodbye",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goodbye"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goodbye",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spanish Dialects",
+      "body": "There are many dialects of Spanish, with the most common being Castilian Spanish, but other dialects such as Andalusian and Rioplatense also being widely spoken.",
+      "imageWikipediaTitle": "Spanish language",
+      "sources": [
+        {
+          "title": "Spanish language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spanish_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spanish_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "German Grammar",
+      "body": "German grammar is known for its complexity, with four cases (nominative, accusative, genitive, and dative) and three main verb conjugations, making it a challenging language to learn.",
+      "imageWikipediaTitle": "German grammar",
+      "sources": [
+        {
+          "title": "German grammar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_grammar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/German_grammar",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the formal greeting in Japan in the morning?",
+      "options": [
+        "Konnichiwa",
+        "Ohayou gozaimasu",
+        "Oyasumi nasai",
+        "Sayonara"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ohayou gozaimasu is the formal greeting in Japan in the morning."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How many languages are spoken worldwide?",
+      "options": [
+        "Over 5,000",
+        "Over 6,000",
+        "Over 7,000",
+        "Over 8,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "There are over 7,000 languages spoken worldwide."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What is unique about the Arabic script?",
+      "options": [
+        "It is written from left to right",
+        "It is written from right to left",
+        "It is written from top to bottom",
+        "It is written from bottom to top"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Arabic script is written from right to left."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How many letters are in the Russian alphabet?",
+      "options": [
+        "25",
+        "30",
+        "33",
+        "35"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Russian alphabet, also known as Cyrillic, consists of 33 letters."
+    }
+  ]
+}
