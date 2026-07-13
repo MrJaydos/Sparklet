@@ -5,6 +5,7 @@ import { prisma } from "@/lib/db";
 import { getRelatedCards } from "@/lib/related";
 import { timeAgo } from "@/lib/time";
 import { CommentsPanel } from "@/components/feed/CommentsSheet";
+import { CardActions } from "@/components/CardActions";
 
 export const dynamic = "force-dynamic";
 
@@ -17,9 +18,14 @@ export default async function CardPage({
   if (!session?.user?.id) redirect("/login");
   const { id } = await params;
 
+  const userId = session.user.id;
   const card = await prisma.card.findUnique({
     where: { id },
-    include: { category: { select: { name: true, colorHex: true, icon: true } } },
+    include: {
+      category: { select: { name: true, colorHex: true, icon: true } },
+      interactions: { where: { userId }, select: { vote: true } },
+      savedBy: { where: { userId }, select: { id: true } },
+    },
   });
   if (!card) notFound();
 
@@ -74,6 +80,13 @@ export default async function CardPage({
             Read more ↗
           </a>
         </div>
+
+        <CardActions
+          cardId={card.id}
+          initialScore={card.score}
+          initialVote={card.interactions[0]?.vote ?? 0}
+          initialSaved={card.savedBy.length > 0}
+        />
       </article>
 
       {related.length > 0 && (
