@@ -270,6 +270,33 @@ export function Feed({
     return () => observer.disconnect();
   }, [cards, selected, exhausted, markViewed, fetchCards, speakCard, reportDwell]);
 
+  // Wheel navigation for desktop: with mandatory snap, a single wheel tick
+  // scrolls a few pixels and snaps straight back — feels dead. Treat each
+  // wheel gesture as "advance one card", accumulating small trackpad deltas
+  // and locking briefly to swallow the gesture's momentum tail.
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    let locked = false;
+    let acc = 0;
+    const onWheel = (e: WheelEvent) => {
+      e.preventDefault();
+      if (locked) return;
+      // deltaMode: 0 = pixels, 1 = lines, 2 = pages (Firefox uses lines).
+      acc += e.deltaY * (e.deltaMode === 1 ? 33 : e.deltaMode === 2 ? 300 : 1);
+      if (Math.abs(acc) < 50) return;
+      locked = true;
+      const dir = Math.sign(acc);
+      acc = 0;
+      container.scrollBy({ top: dir * window.innerHeight, behavior: "smooth" });
+      setTimeout(() => {
+        locked = false;
+      }, 700);
+    };
+    container.addEventListener("wheel", onWheel, { passive: false });
+    return () => container.removeEventListener("wheel", onWheel);
+  }, []);
+
   // Keyboard navigation for desktop.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -466,6 +493,28 @@ export function Feed({
             {loading ? "Loading your feed…" : "No cards yet — check back soon."}
           </div>
         )}
+      </div>
+
+      {/* Prev/next for mouse users — touch swipes and arrow keys cover the rest */}
+      <div className="absolute right-3 top-1/3 z-30 hidden -translate-y-1/2 flex-col gap-2 pointer-fine:flex">
+        <button
+          type="button"
+          aria-label="Previous card"
+          onClick={() =>
+            containerRef.current?.scrollBy({ top: -window.innerHeight, behavior: "smooth" })
+          }
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900/70 text-neutral-300 backdrop-blur transition hover:bg-neutral-800 hover:text-white"
+        >
+          ↑
+        </button>
+        <button
+          type="button"
+          aria-label="Next card"
+          onClick={scrollNext}
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-neutral-900/70 text-neutral-300 backdrop-blur transition hover:bg-neutral-800 hover:text-white"
+        >
+          ↓
+        </button>
       </div>
 
       {showSearch && <SearchSheet onClose={() => setShowSearch(false)} />}
