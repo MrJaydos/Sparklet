@@ -20,10 +20,15 @@ export default async function ProfilePage() {
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
 
-  const [user, totalViewed, topCategories, likedCards, history] = await Promise.all([
+  const [user, totalViewed, topCategories, likedCards, history, savedCards, dueReviews] = await Promise.all([
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
-      select: { email: true, currentStreak: true, longestStreak: true },
+      select: {
+        email: true,
+        currentStreak: true,
+        longestStreak: true,
+        streakFreezesAvailable: true,
+      },
     }),
     prisma.userCardInteraction.count({ where: { userId, completed: true } }),
     prisma.userCardInteraction.groupBy({
@@ -74,6 +79,23 @@ export default async function ProfilePage() {
         },
       },
     }),
+    prisma.savedCard.findMany({
+      where: { userId },
+      orderBy: { savedAt: "desc" },
+      take: 100,
+      select: {
+        card: {
+          select: {
+            id: true,
+            title: true,
+            category: { select: { name: true, icon: true, colorHex: true } },
+          },
+        },
+      },
+    }),
+    prisma.spacedRepetitionState.count({
+      where: { userId, nextReviewAt: { lte: new Date() } },
+    }),
   ]);
 
   async function signOutAction() {
@@ -118,6 +140,51 @@ export default async function ProfilePage() {
           <div className="mt-1 text-xs text-neutral-400">longest streak</div>
         </div>
       </div>
+
+      <p className="mt-3 text-center text-xs text-neutral-500">
+        🧊 {user.streakFreezesAvailable} streak freeze{user.streakFreezesAvailable === 1 ? "" : "s"}{" "}
+        available — a freeze automatically covers a missed day. Refills to 2 each month.
+        {dueReviews > 0 && (
+          <>
+            {" "}
+            · 🔁 {dueReviews} card{dueReviews === 1 ? "" : "s"} due for review in your feed
+          </>
+        )}
+      </p>
+
+      <div className="mt-8 flex items-center justify-between">
+        <h2 className="text-lg font-bold">Notebook</h2>
+        {savedCards.length > 0 && (
+          <a
+            href="/api/notebook/export"
+            className="text-sm text-neutral-400 underline hover:text-neutral-200"
+          >
+            Export as markdown
+          </a>
+        )}
+      </div>
+      {savedCards.length === 0 ? (
+        <p className="mt-3 text-sm text-neutral-500">
+          Tap 📑 on a card to collect it here — your deliberate keep-list, separate from quick ❤️
+          reactions.
+        </p>
+      ) : (
+        <ul className="mt-3 space-y-1.5">
+          {savedCards.map(({ card }) => (
+            <li key={card.id}>
+              <Link
+                href={`/card/${card.id}`}
+                className="flex items-baseline gap-2 rounded-lg border border-transparent px-3 py-2 transition hover:border-neutral-700 hover:bg-neutral-900"
+              >
+                <span className="text-xs" style={{ color: card.category.colorHex }}>
+                  {card.category.icon}
+                </span>
+                <span className="text-sm text-neutral-200">{card.title}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
 
       {topCategories.length > 0 && (
         <>

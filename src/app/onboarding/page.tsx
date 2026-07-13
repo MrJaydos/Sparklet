@@ -1,0 +1,28 @@
+import { redirect } from "next/navigation";
+import { auth } from "@/auth";
+import { prisma } from "@/lib/db";
+import { OnboardingGrid } from "@/components/OnboardingGrid";
+
+export const metadata = { title: "Pick your interests — Sparklet" };
+export const dynamic = "force-dynamic";
+
+export default async function OnboardingPage() {
+  const session = await auth();
+  if (!session?.user?.id) redirect("/login");
+
+  const categories = await prisma.category.findMany({
+    orderBy: { name: "asc" },
+    select: { id: true, name: true, colorHex: true, icon: true },
+  });
+
+  return (
+    <main className="mx-auto flex min-h-dvh w-full max-w-lg flex-col justify-center px-6 py-10">
+      <h1 className="text-3xl font-bold">What sparks your curiosity?</h1>
+      <p className="mt-2 text-neutral-400">
+        Pick 3–5 topics to shape your first feed. You&apos;ll still see
+        everything — this just decides where we start.
+      </p>
+      <OnboardingGrid categories={categories} />
+    </main>
+  );
+}

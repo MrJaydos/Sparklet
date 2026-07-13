@@ -16,7 +16,7 @@ import "dotenv/config";
 import { mkdir, writeFile, readFile, readdir } from "fs/promises";
 import { join } from "path";
 import { generateJSON } from "../src/lib/ai-provider";
-import { cardSchema, type CardInput } from "../src/lib/content-schema";
+import { cardSchema, quizSchema, type CardInput, type QuizInput } from "../src/lib/content-schema";
 
 const MIN_BANK = Number(process.env.MIN_BANK) || 40; // top-up threshold
 const TOPUP_COUNT = Number(process.env.TOPUP_COUNT) || 10;
@@ -63,7 +63,14 @@ Each card:
 Accuracy rules: no urban legends presented as fact, no disputed claims stated flatly, numbers must match the cited source. If a fun "fact" is actually a myth, either skip it or make the card about the myth being false.
 ${avoid}
 
-Respond with JSON only, shaped exactly as: {"cards": [ ... ]}`;
+Also produce "quizzes": for roughly one third of your cards, a low-stakes multiple-choice question testing that card's core fact:
+- "cardIndex": the 0-based index of the card it tests
+- "question": one clear question under 200 characters
+- "options": exactly 4 plausible answers (one correct)
+- "correctIndex": 0-3
+- "explanation": one line (under 300 chars) saying why the answer is right
+
+Respond with JSON only, shaped exactly as: {"cards": [ ... ], "quizzes": [ ... ]}`;
 }
 
 type InventoryCategory = {
@@ -122,19 +129,33 @@ async function localTitles(slug: string): Promise<string[]> {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-/** Parse model output, salvaging valid cards instead of all-or-nothing. */
-function parseCards(text: string, slug: string): CardInput[] {
-  const raw = JSON.parse(text) as { cards?: unknown[] };
+/** Parse model output, salvaging valid cards/quizzes instead of all-or-nothing. */
+function parseCards(text: string, slug: string): { cards: CardInput[]; quizzes: QuizInput[] } {
+  const raw = JSON.parse(text) as { cards?: unknown[]; quizzes?: unknown[] };
   if (!Array.isArray(raw.cards)) throw new Error('missing "cards" array');
   const cards: CardInput[] = [];
+  // Map original card index -> index in the salvaged array, so quiz links
+  // survive dropped cards.
+  const indexMap = new Map<number, number>();
   let dropped = 0;
-  for (const item of raw.cards) {
+  raw.cards.forEach((item, i) => {
     const result = generatedCardSchema.safeParse(item);
-    if (result.success) cards.push({ ...result.data, category: slug });
-    else dropped++;
-  }
+    if (result.success) {
+      indexMap.set(i, cards.length);
+      cards.push({ ...result.data, category: slug });
+    } else dropped++;
+  });
   if (dropped) console.warn(`  ! ${slug}: dropped ${dropped} card(s) that failed schema validation`);
-  return cards;
+
+  const quizzes: QuizInput[] = [];
+  for (const item of raw.quizzes ?? []) {
+    const result = quizSchema.safeParse(item);
+    if (!result.success) continue;
+    const mapped = indexMap.get(result.data.cardIndex);
+    if (mapped === undefined || result.data.correctIndex >= result.data.options.length) continue;
+    quizzes.push({ ...result.data, cardIndex: mapped });
+  }
+  return { cards, quizzes };
 }
 
 async function generateForCategory(target: {
@@ -154,12 +175,13 @@ async function generateForCategory(target: {
 
   // Two attempts: models occasionally emit malformed JSON.
   let cards: CardInput[] = [];
+  let quizzes: QuizInput[] = [];
   let model = "";
   for (let attempt = 1; attempt <= 2; attempt++) {
     const result = await generateJSON(prompt);
     model = result.model;
     try {
-      cards = parseCards(result.text, target.slug);
+      ({ cards, quizzes } = parseCards(result.text, target.slug));
       if (cards.length > 0) break;
       throw new Error("no valid cards in response");
     } catch (e) {
@@ -179,9 +201,9 @@ async function generateForCategory(target: {
   const file = join(dir, `${new Date().toISOString().replace(/[:.]/g, "-")}.json`);
   await writeFile(
     file,
-    JSON.stringify({ generatedAt: new Date().toISOString(), model, cards }, null, 2)
+    JSON.stringify({ generatedAt: new Date().toISOString(), model, cards, quizzes }, null, 2)
   );
-  console.log(`  ✓ ${cards.length} card(s) → ${file} (${model})`);
+  console.log(`  ✓ ${cards.length} card(s) + ${quizzes.length} quiz(zes) → ${file} (${model})`);
   return { slug: target.slug, written: cards.length };
 }
 

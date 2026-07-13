@@ -1,0 +1,91 @@
+{
+  "generatedAt": "2026-07-13T06:21:43.732Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Plato's Cave",
+      "body": "Imagine being imprisoned in a cave, facing a wall where shadows are projected. This thought experiment by Plato explores the nature of reality and perception.",
+      "imageWikipediaTitle": "Allegory of the Cave",
+      "sources": [
+        {
+          "title": "Plato",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plato"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Allegory_of_the_cave",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Epicurus' Hedonism",
+      "body": "Epicurus believed that the key to happiness is living modestly and limiting desires, rather than pursuing excessive pleasure.",
+      "imageWikipediaTitle": "Epicurus",
+      "sources": [
+        {
+          "title": "Epicureanism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epicureanism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Epicureanism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Veil of Ignorance",
+      "body": "Philosopher John Rawls proposed that we should design a just society from behind a 'veil of ignorance', without knowing our own social status or position.",
+      "imageWikipediaTitle": "John Rawls",
+      "sources": [
+        {
+          "title": "A Theory of Justice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Theory_of_Justice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Original_position",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moral Relativism",
+      "body": "Moral relativism is the idea that moral judgments are relative to the cultural or personal context, and there is no universal moral truth.",
+      "sources": [
+        {
+          "title": "Moral relativism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moral_relativism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moral_relativism",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Who wrote the Allegory of the Cave?",
+      "options": [
+        "Plato",
+        "Aristotle",
+        "Epicurus",
+        "Socrates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plato wrote the Allegory of the Cave to explore the nature of reality and perception."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the main idea behind the Veil of Ignorance?",
+      "options": [
+        "To maximize personal gain",
+        "To design a just society without knowing one's social status",
+        "To prioritize individual freedom",
+        "To promote cultural relativism"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Veil of Ignorance is a thought experiment that aims to design a just society by removing personal biases and interests."
+    }
+  ]
+}

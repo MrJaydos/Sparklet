@@ -12,9 +12,12 @@
 import "dotenv/config";
 import { readdir, readFile } from "fs/promises";
 import { join } from "path";
-import { PrismaClient } from "../src/generated/prisma/client";
+import { PrismaClient, Prisma } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { contentFileSchema, contentHash, type CardInput } from "../src/lib/content-schema";
+import { contentFileSchema, contentHash, type CardInput, type QuizInput } from "../src/lib/content-schema";
+import { embedText, cosineSimilarity, verifierFor, generateJSONWith } from "../src/lib/ai-provider";
+
+const DUPLICATE_THRESHOLD = 0.92; // cosine similarity above this = near-duplicate
 
 const prisma = new PrismaClient({
   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
@@ -144,19 +147,104 @@ async function resolveWikipediaImage(title: string): Promise<string | null> {
   return null;
 }
 
-async function importCard(card: CardInput, modelUsed: string | undefined, stats: Record<string, number>) {
+/** Crude HTML → text for fact-check context. */
+async function fetchPageText(url: string): Promise<string | null> {
+  try {
+    const res = await fetch(url, {
+      headers: { "user-agent": UA, accept: "text/html" },
+      redirect: "follow",
+      signal: AbortSignal.timeout(15_000),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    return html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&[a-z#0-9]+;/gi, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 3500);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Second-model fact-check: the provider that did NOT generate the card reads
+ * the actual source text and judges whether it supports the card's claims.
+ * Only a hard "no" blocks publish — scraping fails on paywalled/JS pages, so
+ * "unverifiable" must not auto-reject.
+ */
+async function crossVerify(
+  card: CardInput,
+  modelUsed: string | undefined
+): Promise<{ verdict: "yes" | "partial" | "no" | "skipped"; note?: string }> {
+  const verifier = verifierFor(modelUsed);
+  if (!verifier) return { verdict: "skipped" };
+
+  const excerpts: string[] = [];
+  for (const s of card.sources.slice(0, 2)) {
+    const text = await fetchPageText(s.url);
+    if (text) excerpts.push(`SOURCE (${s.publisher} — ${s.url}):\n${text}`);
+  }
+  if (excerpts.length === 0) return { verdict: "skipped", note: "no source text retrievable" };
+
+  const prompt = `You are fact-checking a learning card against the actual text of its cited sources. Judge whether the sources support the card's specific factual claims — names, numbers, dates, causal statements. Do not judge writing quality.
+
+CARD TITLE: ${card.title}
+CARD BODY: ${card.body}
+
+${excerpts.join("\n\n")}
+
+Respond with JSON only: {"verdict": "yes" | "partial" | "no", "note": "<one line: which claim is unsupported or contradicted, if any>"}
+- "yes": every specific claim is supported by the source text.
+- "partial": the core claim is supported but a detail is not confirmed by this text (it may be elsewhere in the source).
+- "no": the source text CONTRADICTS a claim, or the central claim is absent entirely.`;
+
+  try {
+    const { text } = await generateJSONWith(verifier, prompt);
+    const parsed = JSON.parse(text) as { verdict?: string; note?: string };
+    if (parsed.verdict === "yes" || parsed.verdict === "partial" || parsed.verdict === "no") {
+      return { verdict: parsed.verdict, note: parsed.note };
+    }
+    return { verdict: "skipped", note: "verifier returned malformed output" };
+  } catch (e) {
+    return { verdict: "skipped", note: `verifier error: ${e instanceof Error ? e.message.slice(0, 100) : e}` };
+  }
+}
+
+// Per-category cache of published-card embeddings for duplicate detection.
+const embeddingCache = new Map<string, { id: string; title: string; vector: number[] }[]>();
+
+async function loadCategoryEmbeddings(categoryId: string) {
+  let cached = embeddingCache.get(categoryId);
+  if (!cached) {
+    const rows = await prisma.card.findMany({
+      where: { categoryId, embedding: { not: Prisma.DbNull } },
+      select: { id: true, title: true, embedding: true },
+    });
+    cached = rows
+      .filter((r) => Array.isArray(r.embedding))
+      .map((r) => ({ id: r.id, title: r.title, vector: r.embedding as number[] }));
+    embeddingCache.set(categoryId, cached);
+  }
+  return cached;
+}
+
+async function importCard(card: CardInput, modelUsed: string | undefined, stats: Record<string, number>): Promise<string | null> {
   const hash = contentHash(card);
   const existing = await prisma.card.findUnique({ where: { contentHash: hash } });
   if (existing) {
     stats.skipped++;
-    return;
+    return existing.id;
   }
 
   const category = await prisma.category.findUnique({ where: { slug: card.category } });
   if (!category) {
     console.warn(`  ! Unknown category "${card.category}" for "${card.title}" — skipping`);
     stats.badCategory++;
-    return;
+    return null;
   }
 
   // Fact-check gate: every cited URL must be alive.
@@ -170,8 +258,34 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
   if (imageUrl && !(await urlIsAlive(imageUrl))) imageUrl = null;
   if (!imageUrl) imageUrl = await resolveCardImage(card);
 
-  const published = deadUrls.length === 0;
-  await prisma.card.create({
+  let published = deadUrls.length === 0;
+  let reviewNote = published ? null : `Dead source URL(s): ${deadUrls.join(", ")}`;
+  let embedding: number[] | null = null;
+
+  if (published) {
+    // Near-duplicate check (embeddings; skipped when no Gemini key).
+    embedding = await embedText(`${card.title}\n${card.body}`);
+    if (embedding) {
+      const existingVectors = await loadCategoryEmbeddings(category.id);
+      const duplicate = existingVectors.find(
+        (e) => cosineSimilarity(e.vector, embedding!) >= DUPLICATE_THRESHOLD
+      );
+      if (duplicate) {
+        console.warn(`  ! "${card.title}" skipped — near-duplicate of "${duplicate.title}"`);
+        stats.duplicates++;
+        return null;
+      }
+    }
+
+    // Cross-model fact-check against the actual source text.
+    const check = await crossVerify(card, modelUsed);
+    if (check.verdict === "no") {
+      published = false;
+      reviewNote = `Fact-check failed (${modelUsed ?? "?"} card, cross-checked): ${check.note ?? "source contradicts claim"}`;
+    }
+  }
+
+  const created = await prisma.card.create({
     data: {
       categoryId: category.id,
       type: card.type,
@@ -181,22 +295,65 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
       sources: card.sources,
       readMoreUrl: card.readMoreUrl,
       published,
-      reviewNote: published ? null : `Dead source URL(s): ${deadUrls.join(", ")}`,
+      reviewNote,
       contentHash: hash,
       modelUsed: modelUsed ?? null,
+      embedding: embedding ?? Prisma.DbNull,
+      lastValidatedAt: new Date(),
     },
   });
-  if (published) stats.published++;
-  else {
+  if (published) {
+    stats.published++;
+    if (embedding) {
+      embeddingCache
+        .get(category.id)
+        ?.push({ id: created.id, title: created.title, vector: embedding });
+    }
+  } else {
     stats.review++;
-    console.warn(`  ! "${card.title}" held for review — dead URLs: ${deadUrls.join(", ")}`);
+    console.warn(`  ! "${card.title}" held for review — ${reviewNote}`);
+  }
+  return created.id;
+}
+
+async function importQuizzes(
+  quizzes: QuizInput[],
+  cardIds: (string | null)[],
+  stats: Record<string, number>
+) {
+  for (const quiz of quizzes) {
+    const cardId = cardIds[quiz.cardIndex];
+    if (!cardId) continue;
+    const existing = await prisma.quizCard.findFirst({
+      where: { cardId, question: quiz.question },
+      select: { id: true },
+    });
+    if (existing) continue;
+    await prisma.quizCard.create({
+      data: {
+        cardId,
+        question: quiz.question,
+        options: quiz.options,
+        correctIndex: quiz.correctIndex,
+        explanation: quiz.explanation,
+      },
+    });
+    stats.quizzes++;
   }
 }
 
 async function main() {
   const files = await listJsonFiles(CONTENT_DIR);
   console.log(`Found ${files.length} content file(s).`);
-  const stats = { published: 0, review: 0, skipped: 0, badCategory: 0, invalidFile: 0 };
+  const stats = {
+    published: 0,
+    review: 0,
+    skipped: 0,
+    badCategory: 0,
+    invalidFile: 0,
+    duplicates: 0,
+    quizzes: 0,
+  };
 
   for (const file of files) {
     let parsed;
@@ -208,13 +365,17 @@ async function main() {
       continue;
     }
     console.log(`Importing ${parsed.cards.length} card(s) from ${file}`);
+    const cardIds: (string | null)[] = [];
     for (const card of parsed.cards) {
-      await importCard(card, parsed.model, stats);
+      cardIds.push(await importCard(card, parsed.model, stats));
+    }
+    if (parsed.quizzes?.length) {
+      await importQuizzes(parsed.quizzes, cardIds, stats);
     }
   }
 
   console.log(
-    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
+    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} quizzes=${stats.quizzes} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
   );
 
   // Backfill: cards imported before the source-URL image fallback existed

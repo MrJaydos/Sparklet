@@ -21,12 +21,20 @@ model User {
   longestStreak  Int       @default(0)
   lastActiveDate DateTime? // date (UTC midnight of the user's local day) of last counted activity
 
+  streakFreezesAvailable Int       @default(2)
+  freezesRefilledAt      DateTime? // start of the month freezes were last refilled
+  onboardedAt            DateTime? // completed (or skipped) interest onboarding
+
   accounts      Account[]
   sessions      Session[]
   interactions  UserCardInteraction[]
   comments      Comment[]
   reports       Report[]
   notifications Notification[]
+  reviewStates  SpacedRepetitionState[]
+  quizAttempts  UserQuizAttempt[]
+  savedCards    SavedCard[]
+  interests     UserInterest[]
 }
 
 model Account {
@@ -74,8 +82,9 @@ model Category {
   colorHex    String
   icon        String // emoji
 
-  cards   Card[]
-  batches GenerationBatch[]
+  cards     Card[]
+  batches   GenerationBatch[]
+  interests UserInterest[]
 }
 
 enum CardType {
@@ -99,6 +108,11 @@ model Card {
   published         Boolean @default(false) // gated until source URLs are validated
   reviewNote        String? // why validation failed / was reported, for manual review
   score             Int     @default(0) // denormalized upvotes - downvotes
+
+  depthGroupId    String?    @default(cuid()) // groups depth variants of one fact
+  depthLevel      DepthLevel @default(STANDARD)
+  embedding       Json? // title+body embedding, for near-duplicate detection
+  lastValidatedAt DateTime? // last time source URLs were re-checked
   contentHash       String  @unique // dedupe across seed runs
   generationBatchId String?
   modelUsed         String?
@@ -111,8 +125,18 @@ model Card {
   comments      Comment[]
   reports       Report[]
   notifications Notification[]
+  reviewStates  SpacedRepetitionState[]
+  quizCards     QuizCard[]
+  savedBy       SavedCard[]
 
   @@index([categoryId, published])
+  @@index([depthGroupId])
+}
+
+enum DepthLevel {
+  SIMPLE
+  STANDARD
+  DEEP
 }
 
 model UserCardInteraction {
@@ -147,6 +171,79 @@ model GenerationBatch {
 
   category Category? @relation(fields: [categoryId], references: [id])
   cards    Card[]
+}
+
+// ---------- Learning: spaced repetition, quizzes, notebook, interests ----------
+
+model SpacedRepetitionState {
+  id              String   @id @default(cuid())
+  userId          String
+  cardId          String
+  easeFactor      Float    @default(2.5)
+  intervalDays    Int      @default(1)
+  repetitionCount Int      @default(0)
+  nextReviewAt    DateTime
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cardId])
+  @@index([userId, nextReviewAt])
+}
+
+model QuizCard {
+  id           String   @id @default(cuid())
+  cardId       String // the source card whose fact this tests
+  question     String
+  options      Json // string[]
+  correctIndex Int
+  explanation  String
+  createdAt    DateTime @default(now())
+
+  card     Card              @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  attempts UserQuizAttempt[]
+
+  @@index([cardId])
+}
+
+model UserQuizAttempt {
+  id         String   @id @default(cuid())
+  userId     String
+  quizCardId String
+  correct    Boolean
+  answeredAt DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quizCard QuizCard @relation(fields: [quizCardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, quizCardId])
+}
+
+model SavedCard {
+  id      String   @id @default(cuid())
+  userId  String
+  cardId  String
+  savedAt DateTime @default(now())
+  folder  String? // future: user folders
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cardId])
+  @@index([userId, savedAt])
+}
+
+model UserInterest {
+  id         String @id @default(cuid())
+  userId     String
+  categoryId String
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, categoryId])
 }
 
 // ---------- Community: comments, reports, notifications ----------

@@ -2,39 +2,50 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { FeedCard } from "@/lib/feed";
+import type { FeedCard, FeedQuiz } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
 import { CategorySheet, type CategoryOption } from "./CategorySheet";
 import { CommentsSheet } from "./CommentsSheet";
 import { ReportSheet } from "./ReportSheet";
+import { QuizView } from "./QuizView";
 
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
 
+const QUIZ_EVERY = 8; // roughly 1 recall quiz per 8-10 cards
+
 type FeedItem =
   | { kind: "card"; card: FeedCard }
+  | { kind: "quiz"; quiz: FeedQuiz }
   | { kind: "checkin"; afterCount: number }
   | { kind: "end" };
 
 export function Feed({
   initialCards,
+  initialQuizzes,
   initialExhausted,
   categories,
   initialStreak,
   initialUnread,
 }: {
   initialCards: FeedCard[];
+  initialQuizzes: FeedQuiz[];
   initialExhausted: boolean;
   categories: CategoryOption[];
   initialStreak: number;
   initialUnread: number;
 }) {
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
+  const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
   const [exhausted, setExhausted] = useState(initialExhausted);
   const [selected, setSelected] = useState<string[]>([]);
   const [likes, setLikes] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.liked]))
   );
+  const [saves, setSaves] = useState<Record<string, boolean>>(() =>
+    Object.fromEntries(initialCards.map((c) => [c.id, c.saved]))
+  );
+  const [freezeNotice, setFreezeNotice] = useState<string | null>(null);
   const [commentCounts, setCommentCounts] = useState<Record<string, number>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.commentCount]))
   );
@@ -92,9 +103,14 @@ export function Feed({
         }
         const res = await fetch(`/api/feed?${params}`);
         if (!res.ok) return;
-        const data: { cards: FeedCard[]; exhausted: boolean } = await res.json();
+        const data: { cards: FeedCard[]; quizzes: FeedQuiz[]; exhausted: boolean } =
+          await res.json();
         setLikes((prev) => ({
           ...Object.fromEntries(data.cards.map((c) => [c.id, c.liked])),
+          ...(opts?.reset ? {} : prev),
+        }));
+        setSaves((prev) => ({
+          ...Object.fromEntries(data.cards.map((c) => [c.id, c.saved])),
           ...(opts?.reset ? {} : prev),
         }));
         setCommentCounts((prev) => ({
@@ -102,6 +118,11 @@ export function Feed({
           ...(opts?.reset ? {} : prev),
         }));
         setCards((prev) => (opts?.reset ? data.cards : [...prev, ...data.cards]));
+        setQuizzes((prev) => {
+          const base = opts?.reset ? [] : prev;
+          const known = new Set(base.map((q) => q.id));
+          return [...base, ...data.quizzes.filter((q) => !known.has(q.id))];
+        });
         setExhausted(data.exhausted && data.cards.length === 0 ? true : data.exhausted);
         if (opts?.reset) {
           viewedRef.current = new Set();
@@ -167,11 +188,38 @@ export function Feed({
       });
       if (res.ok) {
         const data = await res.json();
-        if (data.streak) setStreak(data.streak.currentStreak);
+        if (data.streak) {
+          setStreak(data.streak.currentStreak);
+          if (data.streak.freezesUsed > 0) {
+            setFreezeNotice(
+              `🧊 A streak freeze covered ${
+                data.streak.freezesUsed === 1 ? "yesterday" : `${data.streak.freezesUsed} missed days`
+              } — your ${data.streak.currentStreak}-day streak is intact. ${data.streak.freezesAvailable} freeze${data.streak.freezesAvailable === 1 ? "" : "s"} left this month.`
+            );
+            setTimeout(() => setFreezeNotice(null), 8000);
+          }
+        }
       }
     } catch {
       /* non-fatal */
     }
+  }, []);
+
+  // Long-dwell reporting: when the user moves off a card, tell the server
+  // how long they lingered (enters spaced repetition when unusually long).
+  const activeSinceRef = useRef<number>(0);
+  const reportDwell = useCallback((cardId: string, dwellMs: number) => {
+    if (dwellMs < 12_000) return; // server threshold prefilter
+    fetch("/api/interactions", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        cardId,
+        action: "view",
+        dwellMs,
+        tzOffsetMinutes: new Date().getTimezoneOffset(),
+      }),
+    }).catch(() => {});
   }, []);
 
   const toggleLike = useCallback((cardId: string) => {
@@ -183,6 +231,18 @@ export function Feed({
         body: JSON.stringify({ cardId, action: liked ? "like" : "unlike" }),
       }).catch(() => {});
       return { ...prev, [cardId]: liked };
+    });
+  }, []);
+
+  const toggleSave = useCallback((cardId: string) => {
+    setSaves((prev) => {
+      const saved = !prev[cardId];
+      fetch(`/api/cards/${cardId}/save`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ saved }),
+      }).catch(() => {});
+      return { ...prev, [cardId]: saved };
     });
   }, []);
 
@@ -199,7 +259,11 @@ export function Feed({
           if (id) {
             markViewed(id);
             if (id !== activeIdRef.current) {
+              if (activeIdRef.current) {
+                reportDwell(activeIdRef.current, Date.now() - activeSinceRef.current);
+              }
               activeIdRef.current = id;
+              activeSinceRef.current = Date.now();
               if (autoReadRef.current) {
                 const card = cardsRef.current.find((c) => c.id === id);
                 if (card) speakCard(card);
@@ -216,7 +280,7 @@ export function Feed({
     );
     container.querySelectorAll("[data-index]").forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, [cards, selected, exhausted, markViewed, fetchCards, speakCard]);
+  }, [cards, selected, exhausted, markViewed, fetchCards, speakCard, reportDwell]);
 
   // Keyboard navigation for desktop.
   useEffect(() => {
@@ -249,13 +313,17 @@ export function Feed({
 
   const items = useMemo<FeedItem[]>(() => {
     const out: FeedItem[] = [];
+    let quizCursor = 0;
     cards.forEach((card, i) => {
       out.push({ kind: "card", card });
+      if ((i + 1) % QUIZ_EVERY === 0 && quizCursor < quizzes.length) {
+        out.push({ kind: "quiz", quiz: quizzes[quizCursor++] });
+      }
       if ((i + 1) % CHECKIN_EVERY === 0) out.push({ kind: "checkin", afterCount: i + 1 });
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, exhausted]);
+  }, [cards, quizzes, exhausted]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });
@@ -335,16 +403,20 @@ export function Feed({
               <LearnCard
                 card={item.card}
                 liked={likes[item.card.id] ?? false}
+                saved={saves[item.card.id] ?? false}
                 commentCount={commentCounts[item.card.id] ?? 0}
                 speaking={speakingId === item.card.id}
                 onToggleSpeak={() =>
                   speakingId === item.card.id ? stopSpeech() : speakCard(item.card)
                 }
                 onToggleLike={() => toggleLike(item.card.id)}
+                onToggleSave={() => toggleSave(item.card.id)}
                 onOpenComments={() => setCommentsFor(item.card)}
                 onReport={() => setReportFor(item.card.id)}
               />
             </div>
+          ) : item.kind === "quiz" ? (
+            <QuizView key={`quiz-${item.quiz.id}`} quiz={item.quiz} onContinue={scrollNext} />
           ) : item.kind === "checkin" ? (
             <section
               key={`checkin-${i}`}
@@ -433,6 +505,14 @@ export function Feed({
 
       {reportFor && (
         <ReportSheet target={{ cardId: reportFor }} onClose={() => setReportFor(null)} />
+      )}
+
+      {freezeNotice && (
+        <div className="pointer-events-none fixed inset-x-0 top-14 z-50 flex justify-center px-4">
+          <div className="rounded-xl border border-sky-800 bg-sky-950/95 px-4 py-3 text-sm text-sky-200 shadow-lg backdrop-blur">
+            {freezeNotice}
+          </div>
+        </div>
       )}
     </div>
   );

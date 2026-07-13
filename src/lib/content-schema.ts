@@ -20,11 +20,22 @@ export const cardSchema = z.object({
   readMoreUrl: z.string().url(),
 });
 
+export const quizSchema = z.object({
+  cardIndex: z.number().int().min(0), // index into the same file's cards[]
+  question: z.string().min(10).max(200),
+  options: z.array(z.string().min(1).max(120)).min(3).max(4),
+  correctIndex: z.number().int().min(0).max(3),
+  explanation: z.string().min(10).max(300),
+});
+
 export const contentFileSchema = z.object({
   generatedAt: z.string(),
   model: z.string().optional(),
   cards: z.array(cardSchema),
+  quizzes: z.array(quizSchema).optional(),
 });
+
+export type QuizInput = z.infer<typeof quizSchema>;
 
 export type CardInput = z.infer<typeof cardSchema>;
 export type ContentFile = z.infer<typeof contentFileSchema>;

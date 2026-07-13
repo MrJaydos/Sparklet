@@ -3,27 +3,74 @@
 import { useState } from "react";
 import type { FeedCard } from "@/lib/feed";
 
+type DepthVariant = { title: string; body: string; level: "SIMPLE" | "STANDARD" | "DEEP" };
+
 export function LearnCard({
   card,
   liked,
+  saved,
   commentCount,
   speaking,
   onToggleSpeak,
   onToggleLike,
+  onToggleSave,
   onOpenComments,
   onReport,
 }: {
   card: FeedCard;
   liked: boolean;
+  saved: boolean;
   commentCount: number;
   speaking: boolean;
   onToggleSpeak: () => void;
   onToggleLike: () => void;
+  onToggleSave: () => void;
   onOpenComments: () => void;
   onReport: () => void;
 }) {
   const [score, setScore] = useState(card.score);
   const [myVote, setMyVote] = useState(card.myVote);
+  const [variant, setVariant] = useState<DepthVariant | null>(null);
+  const [depthLoading, setDepthLoading] = useState<"SIMPLE" | "DEEP" | null>(null);
+  const [depthUnavailable, setDepthUnavailable] = useState(false);
+  const variantCache = useState<Map<string, DepthVariant>>(() => new Map())[0];
+
+  const level = variant?.level ?? "STANDARD";
+  const shownTitle = variant?.title ?? card.title;
+  const shownBody = variant?.body ?? card.body;
+
+  const setDepth = async (target: "SIMPLE" | "STANDARD" | "DEEP") => {
+    if (target === "STANDARD") {
+      setVariant(null);
+      return;
+    }
+    const cached = variantCache.get(target);
+    if (cached) {
+      setVariant(cached);
+      return;
+    }
+    if (depthLoading) return;
+    setDepthLoading(target);
+    try {
+      const res = await fetch(`/api/cards/${card.id}/depth`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ level: target }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const v: DepthVariant = { title: data.card.title, body: data.card.body, level: target };
+        variantCache.set(target, v);
+        setVariant(v);
+      } else if (res.status === 503) {
+        setDepthUnavailable(true);
+      }
+    } catch {
+      /* leave standard text showing */
+    } finally {
+      setDepthLoading(null);
+    }
+  };
 
   const vote = async (value: 1 | -1) => {
     const next = myVote === value ? 0 : value;
@@ -86,17 +133,57 @@ export function LearnCard({
           >
             {card.category.icon} {card.category.name}
           </span>
-          {card.seen && (
+          {card.review && (
+            <span className="rounded-full bg-violet-500/20 px-3 py-1 text-xs font-semibold text-violet-300">
+              🔁 Review — seen this one?
+            </span>
+          )}
+          {card.seen && !card.review && (
             <span className="rounded-full bg-neutral-800 px-3 py-1 text-xs text-neutral-400">
               seen before
             </span>
           )}
         </div>
 
-        <h2 className="text-2xl font-bold leading-snug sm:text-3xl">{card.title}</h2>
+        <h2 className="text-2xl font-bold leading-snug sm:text-3xl">{shownTitle}</h2>
         <p className="mt-3 text-base leading-relaxed text-neutral-300 sm:text-lg">
-          {card.body}
+          {shownBody}
         </p>
+
+        {/* Depth toggle — an enhancement; standard text never depends on it */}
+        {!depthUnavailable && (
+          <div className="mt-3 flex items-center gap-2 text-xs">
+            {level !== "SIMPLE" && (
+              <button
+                type="button"
+                onClick={() => setDepth("SIMPLE")}
+                disabled={depthLoading !== null}
+                className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200 disabled:opacity-50"
+              >
+                {depthLoading === "SIMPLE" ? "…" : "✨ Simpler"}
+              </button>
+            )}
+            {level !== "STANDARD" && (
+              <button
+                type="button"
+                onClick={() => setDepth("STANDARD")}
+                className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200"
+              >
+                ↩ Standard
+              </button>
+            )}
+            {level !== "DEEP" && (
+              <button
+                type="button"
+                onClick={() => setDepth("DEEP")}
+                disabled={depthLoading !== null}
+                className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200 disabled:opacity-50"
+              >
+                {depthLoading === "DEEP" ? "…" : "🔬 Go deeper"}
+              </button>
+            )}
+          </div>
+        )}
 
         {/* Sources — deliberately visible, not tucked away */}
         <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -192,6 +279,19 @@ export function LearnCard({
               }`}
             >
               ❤️
+            </button>
+
+            <button
+              type="button"
+              onClick={onToggleSave}
+              aria-label={saved ? "Remove from notebook" : "Save to notebook"}
+              aria-pressed={saved}
+              title={saved ? "In your notebook" : "Save to notebook"}
+              className={`rounded-full bg-neutral-900/80 px-3 py-2 text-sm backdrop-blur transition active:scale-125 ${
+                saved ? "text-amber-300" : "text-neutral-500 hover:text-neutral-300"
+              }`}
+            >
+              {saved ? "🔖" : "📑"}
             </button>
 
             <button

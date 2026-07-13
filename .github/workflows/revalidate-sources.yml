@@ -1,0 +1,31 @@
+name: Weekly source re-validation
+
+on:
+  schedule:
+    # Sundays 16:00 UTC ≈ 4-5am Monday NZ time
+    - cron: "0 16 * * 0"
+  workflow_dispatch:
+
+jobs:
+  revalidate:
+    runs-on: ubuntu-latest
+    steps:
+      # Loops the app's batch endpoint until every published card has been
+      # re-checked. Rotted cards land in the /admin review queue.
+      - name: Re-validate published card sources
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
+        run: |
+          total_checked=0
+          total_unpublished=0
+          for i in $(seq 1 100); do
+            resp=$(curl -sf -X POST "$APP_URL/api/admin/revalidate" \
+              -H "Authorization: Bearer $REVALIDATE_TOKEN") || { echo "Request failed"; exit 1; }
+            echo "batch $i: $resp"
+            total_checked=$((total_checked + $(echo "$resp" | jq '.checked')))
+            total_unpublished=$((total_unpublished + $(echo "$resp" | jq '.unpublished')))
+            if [ "$(echo "$resp" | jq '.done')" = "true" ]; then break; fi
+            sleep 5
+          done
+          echo "Re-validated $total_checked cards; $total_unpublished unpublished for link rot."

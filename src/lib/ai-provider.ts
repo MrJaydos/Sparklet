@@ -74,6 +74,71 @@ async function generateWithGroq(prompt: string, apiKey: string): Promise<Generat
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /**
+ * Embed text via Gemini (used for near-duplicate detection at import).
+ * Returns null when no Gemini key is configured — callers must treat the
+ * check as skipped, not failed.
+ */
+export async function embedText(text: string): Promise<number[] | null> {
+  const apiKey = process.env.GEMINI_API_KEY;
+  if (!apiKey) return null;
+  for (let retry = 0; retry < 3; retry++) {
+    try {
+      const res = await fetch(
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:embedContent",
+        {
+          method: "POST",
+          headers: { "content-type": "application/json", "x-goog-api-key": apiKey },
+          body: JSON.stringify({
+            content: { parts: [{ text }] },
+            outputDimensionality: 768,
+          }),
+          signal: AbortSignal.timeout(30_000),
+        }
+      );
+      if (res.status === 429 || res.status >= 500) {
+        await sleep(3_000 * (retry + 1));
+        continue;
+      }
+      if (!res.ok) return null;
+      const data = await res.json();
+      const values = data?.embedding?.values;
+      return Array.isArray(values) ? values : null;
+    } catch {
+      if (retry < 2) await sleep(2_000);
+    }
+  }
+  return null;
+}
+
+export function cosineSimilarity(a: number[], b: number[]): number {
+  let dot = 0;
+  let na = 0;
+  let nb = 0;
+  for (let i = 0; i < Math.min(a.length, b.length); i++) {
+    dot += a[i] * b[i];
+    na += a[i] * a[i];
+    nb += b[i] * b[i];
+  }
+  return na && nb ? dot / (Math.sqrt(na) * Math.sqrt(nb)) : 0;
+}
+
+/**
+ * Which provider should independently verify a card: the one that did NOT
+ * generate it. Returns null when that provider's key isn't configured.
+ */
+export function verifierFor(modelUsed: string | null | undefined): "gemini" | "groq" | null {
+  const generatedByGemini = (modelUsed ?? "").toLowerCase().includes("gemini");
+  if (generatedByGemini) return process.env.GROQ_API_KEY ? "groq" : null;
+  return process.env.GEMINI_API_KEY ? "gemini" : null;
+}
+
+/** Run a JSON prompt against one specific provider (for cross-verification). */
+export async function generateJSONWith(provider: "gemini" | "groq", prompt: string): Promise<GenerateResult> {
+  if (provider === "gemini") return generateWithGemini(prompt, process.env.GEMINI_API_KEY!);
+  return generateWithGroq(prompt, process.env.GROQ_API_KEY!);
+}
+
+/**
  * Generate a JSON response. Retries Gemini with backoff on rate limits
  * (free tier is easy to trip when generating many categories in a row),
  * then falls back to Groq if configured.

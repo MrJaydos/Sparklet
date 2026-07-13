@@ -20,14 +20,22 @@ export default async function FeedPage() {
     getFeedCards({ userId, take: 10 }),
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
-      select: { currentStreak: true },
+      select: {
+        currentStreak: true,
+        onboardedAt: true,
+        _count: { select: { interactions: true } },
+      },
     }),
     prisma.notification.count({ where: { userId, readAt: null } }),
   ]);
 
+  // First session: offer interest onboarding (skippable, one-time).
+  if (!user.onboardedAt && user._count.interactions === 0) redirect("/onboarding");
+
   return (
     <Feed
       initialCards={feed.cards}
+      initialQuizzes={feed.quizzes}
       initialExhausted={feed.exhausted}
       categories={categories}
       initialStreak={user.currentStreak}
