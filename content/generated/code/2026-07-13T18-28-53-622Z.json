@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-07-13T18:28:53.622Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Code Golf",
+      "body": "Code golf is a challenge to write the shortest possible code to achieve a task, often used to demonstrate programming skills.",
+      "imageWikipediaTitle": "Golf",
+      "sources": [
+        {
+          "title": "Code golf",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Code_golf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Code_golf",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "COBOL",
+      "body": "COBOL, or Common Business-Oriented Language, is a high-level programming language first developed in 1959.",
+      "imageWikipediaTitle": "COBOL",
+      "sources": [
+        {
+          "title": "COBOL",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/COBOL"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/COBOL",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Linux Kernel",
+      "body": "The Linux kernel is the core of the Linux operating system, written by Linus Torvalds in 1991.",
+      "imageWikipediaTitle": "Linux",
+      "sources": [
+        {
+          "title": "Linux kernel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Linux_kernel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Linux_kernel",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Buffer Overflow",
+      "body": "A buffer overflow occurs when a program writes data to a buffer, exceeding its capacity, potentially causing a crash or security vulnerability.",
+      "imageWikipediaTitle": "Buffer overflow",
+      "sources": [
+        {
+          "title": "Buffer overflow",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Buffer_overflow"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Buffer_overflow",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "John McCarthy",
+      "body": "John McCarthy, an American computer scientist, coined the term 'Artificial Intelligence' in 1956.",
+      "imageWikipediaTitle": "John McCarthy (computer scientist)",
+      "sources": [
+        {
+          "title": "John McCarthy (computer scientist)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Y2K Bug",
+      "body": "The Y2K bug, or Millennium Bug, was a widespread concern that computer systems would fail when the year 2000 began.",
+      "imageWikipediaTitle": "Y2K bug",
+      "sources": [
+        {
+          "title": "Year 2000 problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2000_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Year_2000_problem",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "SQL Injection",
+      "body": "SQL injection is a type of security vulnerability that occurs when an attacker injects malicious SQL code into a web application.",
+      "imageWikipediaTitle": "SQL",
+      "sources": [
+        {
+          "title": "SQL injection",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SQL_injection"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/SQL_injection",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Donald Knuth",
+      "body": "Donald Knuth, an American computer scientist, wrote the comprehensive book series 'The Art of Computer Programming'.",
+      "imageWikipediaTitle": "Donald Knuth",
+      "sources": [
+        {
+          "title": "Donald Knuth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_Knuth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Donald_Knuth",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Phreaking",
+      "body": "Phreaking, or phone phreaking, is the exploration and experimentation with telephone systems.",
+      "imageWikipediaTitle": "Telephone",
+      "sources": [
+        {
+          "title": "Phreaking",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phreaking"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Phreaking",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "CAPTCHA",
+      "body": "A CAPTCHA, or Completely Automated Public Turing test, is a challenge to determine whether the user is human or a computer.",
+      "imageWikipediaTitle": "CAPTCHA",
+      "sources": [
+        {
+          "title": "CAPTCHA",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CAPTCHA"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/CAPTCHA",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the goal of Code Golf?",
+      "options": [
+        "To write the longest code",
+        "To write the shortest code",
+        "To write the most complex code",
+        "To write the most readable code"
+      ],
+      "correctIndex": 1,
+      "explanation": "The goal of Code Golf is to write the shortest possible code to achieve a task."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Who wrote the Linux kernel?",
+      "options": [
+        "Linus Torvalds",
+        "John McCarthy",
+        "Donald Knuth",
+        "Alan Turing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linus Torvalds wrote the Linux kernel in 1991."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What is SQL injection?",
+      "options": [
+        "A type of buffer overflow",
+        "A type of security vulnerability",
+        "A type of malware",
+        "A type of programming language"
+      ],
+      "correctIndex": 1,
+      "explanation": "SQL injection is a type of security vulnerability that occurs when an attacker injects malicious SQL code into a web application."
+    }
+  ]
+}

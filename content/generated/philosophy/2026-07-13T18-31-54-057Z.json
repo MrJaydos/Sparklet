@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-07-13T18:31:54.057Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Free Will?",
+      "body": "Philosopher John Locke argued that our identity is based on conscious memory, influencing modern ideas on free will and personal identity.",
+      "imageWikipediaTitle": "John Locke",
+      "sources": [
+        {
+          "title": "John Locke",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Locke"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/John_Locke",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Philosophy of Time",
+      "body": "Philosopher Henri Poincaré proposed the concept of conventionalism, which posits that time is a human construct, relative and dependent on our measurement tools.",
+      "imageWikipediaTitle": "Henri Poincaré",
+      "sources": [
+        {
+          "title": "Henri Poincaré",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Henri_Poincar%C3%A9",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Buridan's Donkey",
+      "body": "In a thought experiment, Jean Buridan's donkey starves between two equal piles of food, illustrating indecision and the problem of arbitrary choice.",
+      "imageWikipediaTitle": "Jean Buridan",
+      "sources": [
+        {
+          "title": "Buridan's donkey",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Buridan%27s_donkey"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Buridan%27s_donkey",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hobbes' Social Contract",
+      "body": "Thomas Hobbes argued that humans are naturally self-interested and need a strong central authority to maintain social order and prevent chaos.",
+      "imageWikipediaTitle": "Thomas Hobbes",
+      "sources": [
+        {
+          "title": "Thomas Hobbes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Hobbes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thomas_Hobbes",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nietzsche's Will",
+      "body": "Friedrich Nietzsche introduced the concept of the 'will to power,' arguing that human behavior is driven by a fundamental desire for self-overcoming and excellence.",
+      "imageWikipediaTitle": "Friedrich Nietzsche",
+      "sources": [
+        {
+          "title": "Friedrich Nietzsche",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Kant's Categorical",
+      "body": "Immanuel Kant developed the categorical imperative, a moral principle that universalizes individual actions, providing a framework for ethical decision-making.",
+      "imageWikipediaTitle": "Immanuel Kant",
+      "sources": [
+        {
+          "title": "Immanuel Kant",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Euthyphro Dilemma",
+      "body": "In the Euthyphro dialogue, Plato presents a dilemma: are moral rules based on divine command, or are they independent of divine will?",
+      "imageWikipediaTitle": "Plato",
+      "sources": [
+        {
+          "title": "Euthyphro dilemma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euthyphro_dilemma"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Euthyphro_dilemma",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Russell's Teapot",
+      "body": "Philosopher Bertrand Russell introduced the concept of Russell's teapot, arguing that unfalsifiable claims, like the existence of a celestial teapot, are meaningless.",
+      "imageWikipediaTitle": "Bertrand Russell",
+      "sources": [
+        {
+          "title": "Russell's teapot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Russell%27s_teapot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Russell%27s_teapot",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Aristotle's Hylomorphism",
+      "body": "Aristotle proposed hylomorphism, the idea that reality consists of matter and form, which underlies his metaphysics and philosophy of nature.",
+      "imageWikipediaTitle": "Aristotle",
+      "sources": [
+        {
+          "title": "Hylomorphism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hylomorphism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hylomorphism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mill's Utilitarianism",
+      "body": "John Stuart Mill developed the theory of utilitarianism, which argues that actions are right if they promote the greatest happiness for the greatest number of people.",
+      "imageWikipediaTitle": "John Stuart Mill",
+      "sources": [
+        {
+          "title": "John Stuart Mill",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Stuart_Mill"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/John_Stuart_Mill",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Who argued our identity is based on conscious memory?",
+      "options": [
+        "John Locke",
+        "Immanuel Kant",
+        "Friedrich Nietzsche",
+        "Jean-Paul Sartre"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Locke argued that our identity is based on conscious memory, influencing modern ideas on free will and personal identity."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Who argued humans are naturally self-interested?",
+      "options": [
+        "Thomas Hobbes",
+        "John Locke",
+        "Jean-Jacques Rousseau",
+        "Immanuel Kant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thomas Hobbes argued that humans are naturally self-interested and need a strong central authority to maintain social order and prevent chaos."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What dilemma presents a moral principle based on divine command?",
+      "options": [
+        "The Trolley Problem",
+        "The Euthyphro Dilemma",
+        "The Prisoner's Dilemma",
+        "The Brain in a Vat"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Euthyphro dilemma presents a moral principle based on divine command, or independent of divine will."
+    }
+  ]
+}
