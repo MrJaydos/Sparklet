@@ -33,9 +33,9 @@ services:
       test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/api/health"]
       interval: 30s
       timeout: 5s
-      # Generous start window: the container runs migrations + content seeding
-      # (which URL-checks any newly generated cards) before `next start`.
-      start_period: 180s
+      # Only migrations + category seed block `next start` now; the content
+      # import happens in the background after the server is up.
+      start_period: 60s
       retries: 3
 
   db:

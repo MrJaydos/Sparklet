@@ -1,6 +1,7 @@
 # Sparklet — single image serving the Next.js app.
-# On start it runs migrations + seeds (idempotent) before serving, so every
-# deploy — app change or content-only commit — ends with an up-to-date DB.
+# On start it runs migrations + category seed before serving; the (slow,
+# idempotent) content import runs in the background after the server is up,
+# so the site is usable while new cards are still being validated.
 FROM node:22-alpine
 
 WORKDIR /app

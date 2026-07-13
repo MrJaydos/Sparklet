@@ -10,7 +10,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "seed:content": "tsx scripts/seed-content.ts",
     "generate:content": "tsx scripts/generate-content.ts",
-    "start:prod": "prisma migrate deploy && tsx prisma/seed.ts && tsx scripts/seed-content.ts && next start"
+    "start:prod": "sh scripts/start-prod.sh"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.11.2",
