@@ -20,7 +20,7 @@ export default async function ProfilePage() {
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
 
-  const [user, totalViewed, topCategories, likedCards, history, savedCards, dueReviews] = await Promise.all([
+  const [user, totalViewed, topCategories, history, savedCards, dueReviews] = await Promise.all([
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
       select: {
@@ -48,21 +48,6 @@ export default async function ProfilePage() {
         counts.set(c.category.name, cur);
       }
       return [...counts.values()].sort((a, b) => b.count - a.count).slice(0, 5);
-    }),
-    prisma.userCardInteraction.findMany({
-      where: { userId, liked: true },
-      orderBy: { viewedAt: "desc" },
-      take: 50,
-      select: {
-        card: {
-          select: {
-            id: true,
-            title: true,
-            readMoreUrl: true,
-            category: { select: { name: true, icon: true, colorHex: true } },
-          },
-        },
-      },
     }),
     prisma.userCardInteraction.findMany({
       where: { userId, completed: true },
@@ -165,8 +150,7 @@ export default async function ProfilePage() {
       </div>
       {savedCards.length === 0 ? (
         <p className="mt-3 text-sm text-neutral-500">
-          Tap 📑 on a card to collect it here — your deliberate keep-list, separate from quick ❤️
-          reactions.
+          Tap 📑 on a card to save it to your notebook — your deliberate keep-list.
         </p>
       ) : (
         <ul className="mt-3 space-y-1.5">
@@ -232,30 +216,6 @@ export default async function ProfilePage() {
         </ul>
       )}
 
-      <h2 className="mt-8 text-lg font-bold">Saved for later</h2>
-      {likedCards.length === 0 ? (
-        <p className="mt-3 text-sm text-neutral-500">
-          Cards you ❤️ in the feed show up here so you can come back to them.
-        </p>
-      ) : (
-        <ul className="mt-3 space-y-2">
-          {likedCards.map(({ card }) => (
-            <li key={card.id}>
-              <a
-                href={card.readMoreUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block rounded-xl border border-neutral-800 bg-neutral-900 p-4 transition hover:border-neutral-600"
-              >
-                <div className="text-xs" style={{ color: card.category.colorHex }}>
-                  {card.category.icon} {card.category.name}
-                </div>
-                <div className="mt-1 font-medium">{card.title}</div>
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
     </main>
   );
 }

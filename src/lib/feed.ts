@@ -9,7 +9,6 @@ export type FeedCard = {
   videoUrl: string | null;
   sources: { title: string; publisher: string; url: string }[];
   readMoreUrl: string;
-  liked: boolean;
   saved: boolean;
   seen: boolean;
   review: boolean; // due spaced-repetition review, surfaced near the top
@@ -71,7 +70,7 @@ type CardRow = {
   score: number;
   depthLevel: "SIMPLE" | "STANDARD" | "DEEP";
   category: { slug: string; name: string; colorHex: string; icon: string };
-  interactions: { liked: boolean; vote: number }[];
+  interactions: { vote: number }[];
   savedBy: { id: string }[];
   _count: { comments: number };
 };
@@ -113,7 +112,6 @@ export async function getFeedCards(opts: {
     videoUrl: c.videoUrl,
     sources: c.sources as FeedCard["sources"],
     readMoreUrl: c.readMoreUrl,
-    liked: c.interactions[0]?.liked ?? false,
     saved: c.savedBy.length > 0,
     seen,
     review,
@@ -126,7 +124,7 @@ export async function getFeedCards(opts: {
 
   const include = {
     category: { select: { slug: true, name: true, colorHex: true, icon: true } },
-    interactions: { where: { userId }, select: { liked: true, vote: true } },
+    interactions: { where: { userId }, select: { vote: true } },
     savedBy: { where: { userId }, select: { id: true } },
     _count: { select: { comments: { where: { hiddenAt: null } } } },
   };

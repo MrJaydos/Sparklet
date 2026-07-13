@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
+import { enterReviewSchedule } from "@/lib/sm2";
 
 const bodySchema = z.object({ value: z.union([z.literal(-1), z.literal(0), z.literal(1)]) });
 
@@ -39,6 +40,9 @@ export async function POST(
       select: { score: true },
     });
   });
+
+  // An upvote is a deliberate "this matters to me" — schedule it for review.
+  if (value === 1) await enterReviewSchedule(userId, cardId);
 
   return NextResponse.json({ ok: true, score: updated.score, myVote: value });
 }

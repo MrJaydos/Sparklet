@@ -7,23 +7,19 @@ type DepthVariant = { title: string; body: string; level: "SIMPLE" | "STANDARD" 
 
 export function LearnCard({
   card,
-  liked,
   saved,
   commentCount,
   speaking,
   onToggleSpeak,
-  onToggleLike,
   onToggleSave,
   onOpenComments,
   onReport,
 }: {
   card: FeedCard;
-  liked: boolean;
   saved: boolean;
   commentCount: number;
   speaking: boolean;
   onToggleSpeak: () => void;
-  onToggleLike: () => void;
   onToggleSave: () => void;
   onOpenComments: () => void;
   onReport: () => void;
@@ -257,18 +253,6 @@ export function LearnCard({
               {commentCount}
             </span>
           )}
-        </button>
-
-        <button
-          type="button"
-          onClick={onToggleLike}
-          aria-label={liked ? "Unlike" : "Like"}
-          aria-pressed={liked}
-          className={`flex h-11 w-11 items-center justify-center rounded-full bg-neutral-900/70 text-lg backdrop-blur transition active:scale-125 ${
-            liked ? "" : "grayscale opacity-70"
-          }`}
-        >
-          ❤️
         </button>
 
         <button

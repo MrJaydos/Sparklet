@@ -39,13 +39,12 @@ export function Feed({
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
   const [exhausted, setExhausted] = useState(initialExhausted);
   const [selected, setSelected] = useState<string[]>([]);
-  const [likes, setLikes] = useState<Record<string, boolean>>(() =>
-    Object.fromEntries(initialCards.map((c) => [c.id, c.liked]))
-  );
   const [saves, setSaves] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.saved]))
   );
   const [freezeNotice, setFreezeNotice] = useState<string | null>(null);
+  const [saveNotice, setSaveNotice] = useState<string | null>(null);
+  const saveNoticeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [commentCounts, setCommentCounts] = useState<Record<string, number>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.commentCount]))
   );
@@ -105,10 +104,6 @@ export function Feed({
         if (!res.ok) return;
         const data: { cards: FeedCard[]; quizzes: FeedQuiz[]; exhausted: boolean } =
           await res.json();
-        setLikes((prev) => ({
-          ...Object.fromEntries(data.cards.map((c) => [c.id, c.liked])),
-          ...(opts?.reset ? {} : prev),
-        }));
         setSaves((prev) => ({
           ...Object.fromEntries(data.cards.map((c) => [c.id, c.saved])),
           ...(opts?.reset ? {} : prev),
@@ -222,18 +217,6 @@ export function Feed({
     }).catch(() => {});
   }, []);
 
-  const toggleLike = useCallback((cardId: string) => {
-    setLikes((prev) => {
-      const liked = !prev[cardId];
-      fetch("/api/interactions", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ cardId, action: liked ? "like" : "unlike" }),
-      }).catch(() => {});
-      return { ...prev, [cardId]: liked };
-    });
-  }, []);
-
   const toggleSave = useCallback((cardId: string) => {
     setSaves((prev) => {
       const saved = !prev[cardId];
@@ -242,6 +225,9 @@ export function Feed({
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ saved }),
       }).catch(() => {});
+      if (saveNoticeTimer.current) clearTimeout(saveNoticeTimer.current);
+      setSaveNotice(saved ? "🔖 Saved to your notebook" : "Removed from notebook");
+      saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 1800);
       return { ...prev, [cardId]: saved };
     });
   }, []);
@@ -392,14 +378,12 @@ export function Feed({
             <div key={item.card.id} data-index={cards.indexOf(item.card)} data-card-id={item.card.id}>
               <LearnCard
                 card={item.card}
-                liked={likes[item.card.id] ?? false}
                 saved={saves[item.card.id] ?? false}
                 commentCount={commentCounts[item.card.id] ?? 0}
                 speaking={speakingId === item.card.id}
                 onToggleSpeak={() =>
                   speakingId === item.card.id ? stopSpeech() : speakCard(item.card)
                 }
-                onToggleLike={() => toggleLike(item.card.id)}
                 onToggleSave={() => toggleSave(item.card.id)}
                 onOpenComments={() => setCommentsFor(item.card)}
                 onReport={() => setReportFor(item.card.id)}
@@ -503,6 +487,14 @@ export function Feed({
         <div className="pointer-events-none fixed inset-x-0 top-14 z-50 flex justify-center px-4">
           <div className="rounded-xl border border-sky-800 bg-sky-950/95 px-4 py-3 text-sm text-sky-200 shadow-lg backdrop-blur">
             {freezeNotice}
+          </div>
+        </div>
+      )}
+
+      {saveNotice && (
+        <div className="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5rem)] z-50 flex justify-center px-4">
+          <div className="rounded-full border border-amber-800 bg-neutral-900/95 px-4 py-2 text-sm text-amber-200 shadow-lg backdrop-blur">
+            {saveNotice}
           </div>
         </div>
       )}

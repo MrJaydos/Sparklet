@@ -2,7 +2,7 @@ import { prisma } from "@/lib/db";
 
 /**
  * SM-2 spaced repetition over cards. Cards enter the schedule when a user
- * likes them or lingers unusually long; reviews surface in the feed when due.
+ * upvotes them or lingers unusually long; reviews surface in the feed when due.
  *
  * Quality grades (0-5) are inferred from behavior rather than self-grading:
  *   re-viewing a due card = 4, quiz correct = 5, quiz wrong = 2.
