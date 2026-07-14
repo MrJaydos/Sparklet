@@ -42,5 +42,11 @@ Session cookie name: `authjs.session-token`.
 
 ## Gotchas
 
+- Editing `globals.css` while the dev server is **down** can leave Turbopack's
+  persistent cache serving a stale CSS chunk after restart (new classes
+  silently missing; `getComputedStyle` shows `animationName: none`). Fix:
+  `rm -rf .next` and restart. Confirm by grepping the served chunk:
+  `curl -s http://localhost:3001/_next/static/chunks/<css> | grep -o "@keyframes [a-z-]*"`.
+
 - `notFound()` on pages with a `loading.tsx` streams the 404 UI with HTTP **200** (documented Next behavior for streamed responses) — don't chase it as a bug; check body text not status.
 - Service worker only registers in prod builds; dev verification never hits it.

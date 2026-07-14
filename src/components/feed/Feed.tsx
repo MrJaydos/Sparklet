@@ -719,14 +719,15 @@ export function Feed({
         </button>
       </div>
 
-      {/* First-visit swipe hint */}
+      {/* First-visit swipe hint: an animated upward flick + call to action */}
       {showSwipeHint && cards.length > 1 && (
-        <div className="pointer-events-none absolute inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5.5rem)] z-40 flex flex-col items-center gap-1">
-          <div className="animate-bounce text-4xl drop-shadow" aria-hidden>
-            👆
+        <div className="pointer-events-none absolute inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5.5rem)] z-40 flex flex-col items-center">
+          <div className="relative flex h-28 items-end justify-center" aria-hidden>
+            <div className="swipe-trail absolute bottom-6 h-16 w-1.5 rounded-full bg-gradient-to-t from-white/0 via-white/40 to-white/0" />
+            <div className="swipe-hand text-5xl drop-shadow-lg">👆</div>
           </div>
-          <span className="rounded-full bg-neutral-900/85 px-4 py-1.5 text-sm text-neutral-200 backdrop-blur">
-            Swipe up for the next card
+          <span className="rounded-full bg-neutral-100 px-5 py-2 text-sm font-semibold text-neutral-900 shadow-lg">
+            Start swiping to learn
           </span>
         </div>
       )}
