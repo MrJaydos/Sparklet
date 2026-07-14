@@ -69,11 +69,50 @@ export function Feed({
     cardsRef.current = cards;
   }, [cards]);
 
+  // Pick the most natural English voice the device offers. Platforms bury
+  // their good voices behind getVoices(): Edge's "Natural", Chrome's
+  // network "Google" voices, iOS "Enhanced"/"Premium" — the default is
+  // usually the robotic one.
+  const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
+  useEffect(() => {
+    if (!("speechSynthesis" in window)) return;
+    const pick = () => {
+      const voices = window.speechSynthesis
+        .getVoices()
+        .filter((v) => v.lang.toLowerCase().startsWith("en"));
+      if (!voices.length) return;
+      const pref = (navigator.language || "en").toLowerCase();
+      const score = (v: SpeechSynthesisVoice) => {
+        const n = v.name.toLowerCase();
+        const locale = v.lang.toLowerCase();
+        let s = 0;
+        if (n.includes("natural") || n.includes("neural")) s += 8;
+        if (n.includes("premium")) s += 6;
+        if (n.includes("enhanced")) s += 5;
+        if (n.includes("google")) s += 4;
+        if (!v.localService) s += 2; // network voices usually sound better
+        if (locale === pref) s += 3;
+        else if (/^en-(nz|au|gb)/.test(locale)) s += 1;
+        if (v.default) s += 1;
+        return s;
+      };
+      voiceRef.current = [...voices].sort((a, b) => score(b) - score(a))[0] ?? null;
+    };
+    pick();
+    window.speechSynthesis.addEventListener("voiceschanged", pick);
+    return () => window.speechSynthesis.removeEventListener("voiceschanged", pick);
+  }, []);
+
   const speakCard = useCallback((card: FeedCard) => {
     if (!("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(`${card.title}. ${card.body}`);
-    u.lang = "en";
+    if (voiceRef.current) {
+      u.voice = voiceRef.current;
+      u.lang = voiceRef.current.lang;
+    } else {
+      u.lang = "en";
+    }
     u.rate = 1.05;
     const clear = () => setSpeakingId((id) => (id === card.id ? null : id));
     u.onend = clear;
