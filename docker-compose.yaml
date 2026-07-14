@@ -19,6 +19,9 @@ services:
       # when unset.
       GEMINI_API_KEY: ${GEMINI_API_KEY}
       GROQ_API_KEY: ${GROQ_API_KEY}
+      # Topical GIF fallback for cards with no Wikipedia image. Unset = those
+      # cards simply have no image (previous behavior).
+      GIPHY_API_KEY: ${GIPHY_API_KEY}
       REVALIDATE_TOKEN: ${REVALIDATE_TOKEN}
       S3_ENDPOINT: http://minio:9000
       S3_ACCESS_KEY: ${MINIO_ROOT_USER}

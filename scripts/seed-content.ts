@@ -108,6 +108,7 @@ function wikiTitleFromUrl(url: string): string | null {
  * whose lead image fits even when the model omitted imageWikipediaTitle.
  */
 async function resolveCardImage(card: {
+  title: string;
   imageWikipediaTitle?: string | null;
   readMoreUrl: string;
   sources: { url: string }[];
@@ -122,7 +123,42 @@ async function resolveCardImage(card: {
     const url = await resolveWikipediaImage(title);
     if (url && (await urlIsAlive(url))) return url;
   }
-  return null;
+  // No encyclopedia image anywhere — fall back to a topical GIF.
+  return resolveGiphyGif(card.imageWikipediaTitle ?? card.title);
+}
+
+// Topical GIF fallback (GIPHY) for cards with no Wikipedia lead image —
+// abstract topics (psychology, money, language…) rarely have one, and a GIF
+// keeps those cards fun. Skipped entirely when GIPHY_API_KEY is unset.
+// GIPHY beta keys allow ~42 reads/hour, so each run caps its lookups; the
+// deploy-time backfill picks up the remainder on later runs.
+const GIPHY_KEY = process.env.GIPHY_API_KEY;
+const GIF_LOOKUPS_PER_RUN = 40;
+let gifLookups = 0;
+
+async function resolveGiphyGif(query: string): Promise<string | null> {
+  if (!GIPHY_KEY || gifLookups >= GIF_LOOKUPS_PER_RUN) return null;
+  gifLookups++;
+  const params = new URLSearchParams({
+    api_key: GIPHY_KEY,
+    q: query,
+    limit: "1",
+    rating: "g",
+    lang: "en",
+  });
+  try {
+    const res = await fetch(`https://api.giphy.com/v1/gifs/search?${params}`, {
+      signal: AbortSignal.timeout(10_000),
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as {
+      data?: { images?: { downsized?: { url?: string }; fixed_height?: { url?: string } } }[];
+    };
+    const images = data.data?.[0]?.images;
+    return images?.downsized?.url || images?.fixed_height?.url || null;
+  } catch {
+    return null;
+  }
 }
 
 /** Resolve a Wikipedia article's lead image thumbnail (free, verifiable). */
@@ -388,6 +424,7 @@ async function main() {
   let backfilled = 0;
   for (const card of imageless) {
     const imageUrl = await resolveCardImage({
+      title: card.title,
       readMoreUrl: card.readMoreUrl,
       sources: card.sources as { url: string }[],
     });

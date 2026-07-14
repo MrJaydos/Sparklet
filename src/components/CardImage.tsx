@@ -17,6 +17,9 @@ export function CardImage({ src, className }: { src: string; className?: string 
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
+  // GIPHY's terms require attribution on their content.
+  const isGiphy = /(^|\.)giphy\.com\//.test(src.replace(/^https?:\/\//, ""));
+
   if (hidden) return null;
   return (
     <>
@@ -24,7 +27,7 @@ export function CardImage({ src, className }: { src: string; className?: string 
         type="button"
         onClick={() => setOpen(true)}
         aria-label="View image full screen"
-        className={`block w-full cursor-zoom-in overflow-hidden ${className ?? ""}`}
+        className={`relative block w-full cursor-zoom-in overflow-hidden ${className ?? ""}`}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
@@ -34,6 +37,11 @@ export function CardImage({ src, className }: { src: string; className?: string 
           className="h-full w-full object-cover"
           onError={() => setHidden(true)}
         />
+        {isGiphy && (
+          <span className="absolute bottom-1.5 right-1.5 rounded bg-black/60 px-1.5 py-0.5 text-[10px] font-medium text-neutral-300">
+            via GIPHY
+          </span>
+        )}
       </button>
 
       {open && (
