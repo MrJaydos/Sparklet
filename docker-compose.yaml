@@ -62,10 +62,14 @@ services:
     build: ./piper
     restart: unless-stopped
     # No external ports — only the app talks to it on the compose network.
-    # Hard-capped to one core: narration is a background nicety and must
-    # never starve the app, builds, or the tunnel on this box.
-    cpus: 1.0
-    mem_limit: 700m
+    # Two of the box's three cores + 1 GB: one core made the cori-high voice
+    # slower than the 120s synth timeout, so pre-generation kept bailing and
+    # the audio cache never filled. Still capped so it can't starve the app.
+    cpus: 2.0
+    mem_limit: 1g
+    environment:
+      # Let ORT use both cores (sitecustomize.py defaults this to 1).
+      ORT_INTRA_THREADS: "2"
 
   minio:
     image: minio/minio:latest
