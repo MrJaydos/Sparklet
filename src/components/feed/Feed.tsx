@@ -280,6 +280,8 @@ export function Feed({
     let locked = false;
     let acc = 0;
     const onWheel = (e: WheelEvent) => {
+      // Don't page the feed underneath an open image lightbox.
+      if ((e.target as HTMLElement | null)?.closest?.("[data-lightbox]")) return;
       // Long-form card text scrolls natively; only hijack once it's exhausted.
       const inner = (e.target as HTMLElement | null)?.closest?.("[data-wheel-scroll]");
       if (inner && inner.scrollHeight > inner.clientHeight) {

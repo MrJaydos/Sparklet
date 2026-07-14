@@ -6,6 +6,7 @@ import { getRelatedCards } from "@/lib/related";
 import { timeAgo } from "@/lib/time";
 import { CommentsPanel } from "@/components/feed/CommentsSheet";
 import { CardActions } from "@/components/CardActions";
+import { CardImage } from "@/components/CardImage";
 
 export const dynamic = "force-dynamic";
 
@@ -40,10 +41,7 @@ export default async function CardPage({
 
       <article className="mt-6">
         {card.imageUrl && (
-          <div className="mb-5 max-h-64 overflow-hidden rounded-2xl">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={card.imageUrl} alt="" className="h-full w-full object-cover" />
-          </div>
+          <CardImage src={card.imageUrl} className="mb-5 max-h-64 rounded-2xl" />
         )}
         <div className="flex flex-wrap items-center gap-2">
           <span

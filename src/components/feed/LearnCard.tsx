@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { FeedCard } from "@/lib/feed";
 import { timeAgo } from "@/lib/time";
+import { CardImage } from "@/components/CardImage";
 
 type DepthLevel = "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
 type DepthVariant = { title: string; body: string; level: DepthLevel };
@@ -155,18 +156,7 @@ export function LearnCard({
 
       <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+4rem)] pt-[calc(env(safe-area-inset-top)+4rem)]">
         {card.imageUrl && (
-          <div className="mb-4 max-h-[32dvh] overflow-hidden rounded-2xl">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={card.imageUrl}
-              alt=""
-              loading="lazy"
-              className="h-full w-full object-cover"
-              onError={(e) => {
-                (e.target as HTMLImageElement).parentElement!.style.display = "none";
-              }}
-            />
-          </div>
+          <CardImage src={card.imageUrl} className="mb-4 max-h-[32dvh] rounded-2xl" />
         )}
         <div className="pr-16">{/* keep text clear of the action rail */}
 
