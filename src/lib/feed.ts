@@ -161,7 +161,9 @@ export async function getFeedCards(opts: {
   const reviewIds = new Set(reviewCards.map((c) => c.id));
 
   // Recall quizzes: fact already seen, quiz not yet attempted. Client mixes
-  // ~1 per 8-10 cards.
+  // ~1 per 8-10 cards. Sample a wide pool and shuffle — a bare `take` always
+  // returns the same head rows, which the client then dedupes into starvation
+  // (quizzes stop appearing mid-session on the Everything feed).
   const quizRows = await prisma.quizCard.findMany({
     where: {
       card: {
@@ -171,7 +173,7 @@ export async function getFeedCards(opts: {
       },
       attempts: { none: { userId } },
     },
-    take: Math.max(1, Math.ceil(take / 8)) + 1,
+    take: 30,
     select: {
       id: true,
       question: true,
@@ -181,7 +183,9 @@ export async function getFeedCards(opts: {
       },
     },
   });
-  const quizzes: FeedQuiz[] = shuffle(quizRows).map((q) => ({
+  const quizzes: FeedQuiz[] = shuffle(quizRows)
+    .slice(0, Math.max(1, Math.ceil(take / 8)) + 1)
+    .map((q) => ({
     id: q.id,
     question: q.question,
     options: q.options as string[],
