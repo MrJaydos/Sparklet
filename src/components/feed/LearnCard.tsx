@@ -115,6 +115,49 @@ export function LearnCard({
     return () => observer.disconnect();
   }, []);
 
+  // Swipe left/right to vote (touch): horizontal drags grow a ▲/▼ overlay
+  // and commit past the threshold; vertical swipes stay the feed's scroll.
+  const SWIPE_THRESHOLD = 80;
+  const [dragX, setDragX] = useState(0);
+  const [swipeFlash, setSwipeFlash] = useState<{ text: string; up: boolean } | null>(null);
+  const swipeFlashTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const touchRef = useRef<{ x: number; y: number; horizontal: boolean | null } | null>(null);
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length !== 1) return;
+    const target = e.target as HTMLElement;
+    if (target.closest("button, a, [data-lightbox]")) return;
+    touchRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY, horizontal: null };
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    const t = touchRef.current;
+    if (!t) return;
+    const dx = e.touches[0].clientX - t.x;
+    const dy = e.touches[0].clientY - t.y;
+    if (t.horizontal === null && (Math.abs(dx) > 10 || Math.abs(dy) > 10)) {
+      t.horizontal = Math.abs(dx) > Math.abs(dy);
+    }
+    if (t.horizontal) setDragX(Math.max(-140, Math.min(140, dx)));
+  };
+
+  const endTouch = () => {
+    const committed = touchRef.current?.horizontal && Math.abs(dragX) >= SWIPE_THRESHOLD;
+    if (committed) {
+      const dir: 1 | -1 = dragX > 0 ? 1 : -1;
+      const removing = myVote === dir;
+      vote(dir);
+      if (swipeFlashTimer.current) clearTimeout(swipeFlashTimer.current);
+      setSwipeFlash({
+        text: removing ? "Vote removed" : dir === 1 ? "▲ Upvoted" : "▼ Downvoted",
+        up: dir === 1 && !removing,
+      });
+      swipeFlashTimer.current = setTimeout(() => setSwipeFlash(null), 900);
+    }
+    touchRef.current = null;
+    setDragX(0);
+  };
+
   const vote = async (value: 1 | -1) => {
     const next = myVote === value ? 0 : value;
     const prevVote = myVote;
@@ -145,6 +188,10 @@ export function LearnCard({
       ref={rootRef}
       className="relative flex h-dvh w-full snap-start flex-col overflow-hidden"
       data-card-id={card.id}
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={endTouch}
+      onTouchCancel={endTouch}
     >
       {/* Backdrop */}
       <div
@@ -154,7 +201,51 @@ export function LearnCard({
         }}
       />
 
-      <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+4rem)] pt-[calc(env(safe-area-inset-top)+4rem)]">
+      {/* Swipe-to-vote feedback */}
+      {dragX !== 0 && (
+        <div className="pointer-events-none absolute inset-0 z-30 flex items-center justify-center">
+          <div
+            style={{
+              opacity: Math.min(1, Math.abs(dragX) / SWIPE_THRESHOLD),
+              transform: `scale(${0.85 + Math.min(0.15, Math.abs(dragX) / (SWIPE_THRESHOLD * 6))})`,
+            }}
+            className={`rounded-2xl px-6 py-4 text-2xl font-bold backdrop-blur ${
+              dragX > 0 ? "bg-emerald-500/20 text-emerald-300" : "bg-red-500/20 text-red-300"
+            }`}
+          >
+            {dragX > 0
+              ? myVote === 1
+                ? "▲ Remove upvote"
+                : "▲ Upvote"
+              : myVote === -1
+                ? "▼ Remove downvote"
+                : "▼ Downvote"}
+          </div>
+        </div>
+      )}
+      {swipeFlash && (
+        <div className="pointer-events-none absolute inset-0 z-30 flex items-center justify-center">
+          <div
+            className={`rounded-2xl bg-neutral-900/90 px-6 py-4 text-2xl font-bold backdrop-blur ${
+              swipeFlash.text === "Vote removed"
+                ? "text-neutral-300"
+                : swipeFlash.up
+                  ? "text-emerald-300"
+                  : "text-red-300"
+            }`}
+          >
+            {swipeFlash.text}
+          </div>
+        </div>
+      )}
+
+      <div
+        className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+4rem)] pt-[calc(env(safe-area-inset-top)+4rem)]"
+        style={{
+          transform: `translateX(${dragX * 0.35}px)`,
+          transition: dragX === 0 ? "transform 150ms ease-out" : "none",
+        }}
+      >
         {card.imageUrl && (
           <CardImage src={card.imageUrl} className="mb-4 max-h-[32dvh] rounded-2xl" />
         )}
