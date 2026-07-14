@@ -14,7 +14,13 @@ import { readdir, readFile } from "fs/promises";
 import { join } from "path";
 import { PrismaClient, Prisma } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { contentFileSchema, contentHash, type CardInput, type QuizInput } from "../src/lib/content-schema";
+import {
+  contentFileSchema,
+  contentHash,
+  type CardInput,
+  type QuizInput,
+  type GuessInput,
+} from "../src/lib/content-schema";
 import { embedText, cosineSimilarity, verifierFor, generateJSONWith } from "../src/lib/ai-provider";
 
 const DUPLICATE_THRESHOLD = 0.92; // cosine similarity above this = near-duplicate
@@ -378,6 +384,34 @@ async function importQuizzes(
   }
 }
 
+async function importGuesses(
+  guesses: GuessInput[],
+  cardIds: (string | null)[],
+  stats: Record<string, number>
+) {
+  for (const guess of guesses) {
+    const cardId = cardIds[guess.cardIndex];
+    if (!cardId) continue;
+    const existing = await prisma.guessCard.findFirst({
+      where: { cardId, prompt: guess.prompt },
+      select: { id: true },
+    });
+    if (existing) continue;
+    await prisma.guessCard.create({
+      data: {
+        cardId,
+        prompt: guess.prompt,
+        answer: guess.answer,
+        min: guess.min,
+        max: guess.max,
+        unit: guess.unit,
+        explanation: guess.explanation,
+      },
+    });
+    stats.guesses++;
+  }
+}
+
 async function main() {
   const files = await listJsonFiles(CONTENT_DIR);
   console.log(`Found ${files.length} content file(s).`);
@@ -389,6 +423,7 @@ async function main() {
     invalidFile: 0,
     duplicates: 0,
     quizzes: 0,
+    guesses: 0,
   };
 
   for (const file of files) {
@@ -408,10 +443,13 @@ async function main() {
     if (parsed.quizzes?.length) {
       await importQuizzes(parsed.quizzes, cardIds, stats);
     }
+    if (parsed.guesses?.length) {
+      await importGuesses(parsed.guesses, cardIds, stats);
+    }
   }
 
   console.log(
-    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} quizzes=${stats.quizzes} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
+    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} quizzes=${stats.quizzes} guesses=${stats.guesses} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
   );
 
   // Backfill: cards imported before the source-URL image fallback existed

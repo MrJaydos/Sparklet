@@ -25,6 +25,8 @@ model User {
   freezesRefilledAt      DateTime? // start of the month freezes were last refilled
   onboardedAt            DateTime? // completed (or skipped) interest onboarding
 
+  xp Int @default(0) // lifetime XP (denormalized sum of XpEvent)
+
   accounts      Account[]
   sessions      Session[]
   interactions  UserCardInteraction[]
@@ -33,8 +35,10 @@ model User {
   notifications Notification[]
   reviewStates  SpacedRepetitionState[]
   quizAttempts  UserQuizAttempt[]
+  guessAttempts UserGuessAttempt[]
   savedCards    SavedCard[]
   interests     UserInterest[]
+  xpEvents      XpEvent[]
 }
 
 model Account {
@@ -116,6 +120,7 @@ model Card {
   contentHash       String  @unique // dedupe across seed runs
   generationBatchId String?
   modelUsed         String?
+  enrichedAt        DateTime? // deploy-time quiz/guess backfill has examined this card
 
   createdAt DateTime @default(now())
 
@@ -131,6 +136,7 @@ model Card {
   notifications Notification[]
   reviewStates  SpacedRepetitionState[]
   quizCards     QuizCard[]
+  guessCards    GuessCard[]
   savedBy       SavedCard[]
 
   @@index([categoryId, published])
@@ -225,6 +231,54 @@ model UserQuizAttempt {
   quizCard QuizCard @relation(fields: [quizCardId], references: [id], onDelete: Cascade)
 
   @@unique([userId, quizCardId])
+  @@index([userId, answeredAt])
+}
+
+// Guess-before-reveal: a numeric prediction about a card's core fact,
+// answered on a slider before the fact is shown.
+model GuessCard {
+  id          String   @id @default(cuid())
+  cardId      String // the card whose fact this previews
+  prompt      String // "What % of the ocean has been explored?"
+  answer      Float
+  min         Float // slider range — chosen so the answer isn't obvious
+  max         Float
+  unit        String // "%", "km", "years", "" …
+  explanation String
+  createdAt   DateTime @default(now())
+
+  card     Card               @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  attempts UserGuessAttempt[]
+
+  @@index([cardId])
+}
+
+model UserGuessAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  guessCardId String
+  guess       Float
+  accuracy    Float // 0..1 closeness of the guess to the answer
+  answeredAt  DateTime @default(now())
+
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guessCard GuessCard @relation(fields: [guessCardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, guessCardId])
+  @@index([userId, answeredAt])
+}
+
+// One row per XP award — powers the daily goal ring and future recaps.
+model XpEvent {
+  id        String   @id @default(cuid())
+  userId    String
+  amount    Int
+  kind      String // "read" | "review" | "quiz" | "guess"
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
 }
 
 model SavedCard {

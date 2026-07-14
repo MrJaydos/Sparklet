@@ -17,6 +17,9 @@ tsx prisma/seed.ts
   else
     echo "[startup] content import failed — unimported content retries on next deploy."
   fi
+  # Quizzes + guess challenges for cards that predate them.
+  tsx scripts/enrich-cards.ts \
+    || echo "[startup] card enrichment failed — retries next deploy."
   # Narration for any cards missing cached audio (new imports included).
   tsx scripts/pregen-audio.ts \
     || echo "[startup] audio pre-generation failed — cards fall back to lazy narration."

@@ -1,7 +1,9 @@
 /**
- * Provider-agnostic LLM wrapper. Tries Gemini first (free tier, 1,500
- * req/day); falls back to Groq (Llama 3.3 70B) on 429/5xx or when no Gemini
- * key is configured.
+ * Provider-agnostic LLM wrapper. Tries Gemini first (free tier: ~10 req/min
+ * and ~250 req/day for Flash); falls back to Groq (Llama 3.3 70B) on 429/5xx
+ * or when no Gemini key is configured. Scheduled scripts cap their own volume
+ * (TOPUP_MAX_CATEGORIES, ENRICH_MAX_PER_RUN) so a day's scripted calls leave
+ * quota for interactive depth requests.
  *
  * Two callers with different latency needs:
  *  - content scripts (scripts/generate-content.ts): patient, retry Gemini

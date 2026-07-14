@@ -28,14 +28,33 @@ export const quizSchema = z.object({
   explanation: z.string().min(10).max(300),
 });
 
+// Guess-before-reveal: a numeric prediction answered on a slider before the
+// card's fact is shown. The range must make the answer non-obvious (answer
+// strictly inside it, not at either end).
+export const guessSchema = z
+  .object({
+    cardIndex: z.number().int().min(0), // index into the same file's cards[]
+    prompt: z.string().min(10).max(200),
+    answer: z.number().finite(),
+    min: z.number().finite(),
+    max: z.number().finite(),
+    unit: z.string().max(20),
+    explanation: z.string().min(10).max(300),
+  })
+  .refine((g) => g.min < g.max && g.answer >= g.min && g.answer <= g.max, {
+    message: "answer must lie within [min, max] and min < max",
+  });
+
 export const contentFileSchema = z.object({
   generatedAt: z.string(),
   model: z.string().optional(),
   cards: z.array(cardSchema),
   quizzes: z.array(quizSchema).optional(),
+  guesses: z.array(guessSchema).optional(),
 });
 
 export type QuizInput = z.infer<typeof quizSchema>;
+export type GuessInput = z.infer<typeof guessSchema>;
 
 export type CardInput = z.infer<typeof cardSchema>;
 export type ContentFile = z.infer<typeof contentFileSchema>;

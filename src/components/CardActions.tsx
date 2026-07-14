@@ -2,15 +2,17 @@
 
 import { useState } from "react";
 
-/** Vote + save actions for the standalone card page — same APIs as the
- * feed's action rail, laid out horizontally for the document view. */
+/** Vote + save + share actions for the standalone card page — same APIs as
+ * the feed's action rail, laid out horizontally for the document view. */
 export function CardActions({
   cardId,
+  cardTitle,
   initialScore,
   initialVote,
   initialSaved,
 }: {
   cardId: string;
+  cardTitle: string;
   initialScore: number;
   initialVote: number;
   initialSaved: boolean;
@@ -18,6 +20,22 @@ export function CardActions({
   const [score, setScore] = useState(initialScore);
   const [myVote, setMyVote] = useState(initialVote);
   const [saved, setSaved] = useState(initialSaved);
+  const [copied, setCopied] = useState(false);
+
+  const share = () => {
+    const url = `${window.location.origin}/card/${cardId}`;
+    if (navigator.share) {
+      navigator.share({ title: cardTitle, text: cardTitle, url }).catch(() => {});
+      return;
+    }
+    navigator.clipboard
+      ?.writeText(url)
+      .then(() => {
+        setCopied(true);
+        setTimeout(() => setCopied(false), 1800);
+      })
+      .catch(() => {});
+  };
 
   const vote = async (value: 1 | -1) => {
     const next = myVote === value ? 0 : value;
@@ -99,6 +117,14 @@ export function CardActions({
         }`}
       >
         {saved ? "🔖 Saved" : "📑 Save"}
+      </button>
+
+      <button
+        type="button"
+        onClick={share}
+        className="rounded-full bg-neutral-900 px-4 py-1.5 text-sm font-medium text-neutral-400 transition hover:text-neutral-200 active:scale-105"
+      >
+        {copied ? "✅ Link copied" : "📤 Share"}
       </button>
     </div>
   );

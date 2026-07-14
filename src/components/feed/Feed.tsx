@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { FeedCard, FeedQuiz } from "@/lib/feed";
+import type { FeedCard, FeedQuiz, FeedGuess } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
 import { CategorySheet, type CategoryOption } from "./CategorySheet";
 import { SearchSheet } from "./SearchSheet";
@@ -10,36 +10,53 @@ import { MenuSheet } from "./MenuSheet";
 import { CommentsSheet } from "./CommentsSheet";
 import { ReportSheet } from "./ReportSheet";
 import { QuizView } from "./QuizView";
+import { GuessView } from "./GuessView";
+import { XpRing } from "./XpRing";
+import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
 
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
 
-const QUIZ_EVERY = 8; // roughly 1 recall quiz per 8-10 cards
+const QUIZ_EVERY = 5; // roughly 1 recall quiz per 5 cards
+// Guess challenges land between quiz slots (offset so they never stack).
+const GUESS_EVERY = 8;
+const GUESS_OFFSET = 3;
 
 type FeedItem =
   | { kind: "card"; card: FeedCard }
   | { kind: "quiz"; quiz: FeedQuiz }
+  | { kind: "guess"; guess: FeedGuess }
   | { kind: "checkin"; afterCount: number }
   | { kind: "end" };
 
 export function Feed({
   initialCards,
   initialQuizzes,
+  initialGuesses,
   initialExhausted,
   categories,
   initialStreak,
   initialUnread,
+  initialXpToday,
+  dailyGoal,
 }: {
   initialCards: FeedCard[];
   initialQuizzes: FeedQuiz[];
+  initialGuesses: FeedGuess[];
   initialExhausted: boolean;
   categories: CategoryOption[];
   initialStreak: number;
   initialUnread: number;
+  initialXpToday: number;
+  dailyGoal: number;
 }) {
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
+  const [guesses, setGuesses] = useState<FeedGuess[]>(initialGuesses);
   const [exhausted, setExhausted] = useState(initialExhausted);
+  const [xpToday, setXpToday] = useState(initialXpToday);
+  const [goalCelebration, setGoalCelebration] = useState(false);
+  const xpTodayRef = useRef(initialXpToday);
   const [selected, setSelected] = useState<string[]>([]);
   const [saves, setSaves] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.saved]))
@@ -162,6 +179,41 @@ export function Feed({
   // Never leave speech running after leaving the feed.
   useEffect(() => stopSpeech, [stopSpeech]);
 
+  // XP flows back from every interaction/answer; crossing the daily goal
+  // gets one big celebration per session.
+  const handleXp = useCallback(
+    (xp: XpInfo | undefined) => {
+      if (!xp) return;
+      const prev = xpTodayRef.current;
+      const next = Math.max(prev, xp.today);
+      xpTodayRef.current = next;
+      setXpToday(next);
+      if (prev < dailyGoal && next >= dailyGoal) {
+        setGoalCelebration(true);
+        vibrate([40, 60, 40, 60, 80]);
+        setTimeout(() => setGoalCelebration(false), 4000);
+      }
+    },
+    [dailyGoal]
+  );
+
+  // Share a card: native sheet where available, clipboard everywhere else.
+  const shareCard = useCallback((card: FeedCard) => {
+    const url = `${window.location.origin}/card/${card.id}`;
+    if (navigator.share) {
+      navigator.share({ title: card.title, text: card.title, url }).catch(() => {});
+      return;
+    }
+    navigator.clipboard
+      ?.writeText(url)
+      .then(() => {
+        if (saveNoticeTimer.current) clearTimeout(saveNoticeTimer.current);
+        setSaveNotice("🔗 Link copied — send it to someone");
+        saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 1800);
+      })
+      .catch(() => {});
+  }, []);
+
   const fetchCards = useCallback(
     async (slugs: string[], opts?: { reset?: boolean; allowRepeats?: boolean }) => {
       if (loadingRef.current) return;
@@ -176,8 +228,12 @@ export function Feed({
         }
         const res = await fetch(`/api/feed?${params}`);
         if (!res.ok) return;
-        const data: { cards: FeedCard[]; quizzes: FeedQuiz[]; exhausted: boolean } =
-          await res.json();
+        const data: {
+          cards: FeedCard[];
+          quizzes: FeedQuiz[];
+          guesses: FeedGuess[];
+          exhausted: boolean;
+        } = await res.json();
         setSaves((prev) => ({
           ...Object.fromEntries(data.cards.map((c) => [c.id, c.saved])),
           ...(opts?.reset ? {} : prev),
@@ -191,6 +247,11 @@ export function Feed({
           const base = opts?.reset ? [] : prev;
           const known = new Set(base.map((q) => q.id));
           return [...base, ...data.quizzes.filter((q) => !known.has(q.id))];
+        });
+        setGuesses((prev) => {
+          const base = opts?.reset ? [] : prev;
+          const known = new Set(base.map((g) => g.id));
+          return [...base, ...data.guesses.filter((g) => !known.has(g.id))];
         });
         setExhausted(data.exhausted && data.cards.length === 0 ? true : data.exhausted);
         if (opts?.reset) {
@@ -257,6 +318,7 @@ export function Feed({
       });
       if (res.ok) {
         const data = await res.json();
+        handleXp(data.xp);
         if (data.streak) {
           setStreak(data.streak.currentStreak);
           if (data.streak.freezesUsed > 0) {
@@ -272,7 +334,7 @@ export function Feed({
     } catch {
       /* non-fatal */
     }
-  }, []);
+  }, [handleXp]);
 
   // Long-dwell reporting: when the user moves off a card, tell the server
   // how long they lingered (enters spaced repetition when unusually long).
@@ -432,16 +494,20 @@ export function Feed({
   const items = useMemo<FeedItem[]>(() => {
     const out: FeedItem[] = [];
     let quizCursor = 0;
+    let guessCursor = 0;
     cards.forEach((card, i) => {
       out.push({ kind: "card", card });
       if ((i + 1) % QUIZ_EVERY === 0 && quizCursor < quizzes.length) {
         out.push({ kind: "quiz", quiz: quizzes[quizCursor++] });
       }
+      if ((i + 1) % GUESS_EVERY === GUESS_OFFSET && guessCursor < guesses.length) {
+        out.push({ kind: "guess", guess: guesses[guessCursor++] });
+      }
       if ((i + 1) % CHECKIN_EVERY === 0) out.push({ kind: "checkin", afterCount: i + 1 });
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, quizzes, exhausted]);
+  }, [cards, quizzes, guesses, exhausted]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });
@@ -478,6 +544,7 @@ export function Feed({
           >
             🔥 {streak}
           </span>
+          <XpRing today={xpToday} goal={dailyGoal} />
           <button
             type="button"
             onClick={() => setShowSearch(true)}
@@ -538,10 +605,23 @@ export function Feed({
                 onToggleSave={() => toggleSave(item.card.id)}
                 onOpenComments={() => setCommentsFor(item.card)}
                 onReport={() => setReportFor(item.card.id)}
+                onShare={() => shareCard(item.card)}
               />
             </div>
           ) : item.kind === "quiz" ? (
-            <QuizView key={`quiz-${item.quiz.id}`} quiz={item.quiz} onContinue={scrollNext} />
+            <QuizView
+              key={`quiz-${item.quiz.id}`}
+              quiz={item.quiz}
+              onContinue={scrollNext}
+              onResult={(r) => handleXp(r.xp)}
+            />
+          ) : item.kind === "guess" ? (
+            <GuessView
+              key={`guess-${item.guess.id}`}
+              guess={item.guess}
+              onContinue={scrollNext}
+              onResult={(r) => handleXp(r.xp)}
+            />
           ) : item.kind === "checkin" ? (
             <section
               key={`checkin-${i}`}
@@ -679,6 +759,19 @@ export function Feed({
 
       {reportFor && (
         <ReportSheet target={{ cardId: reportFor }} onClose={() => setReportFor(null)} />
+      )}
+
+      {goalCelebration && (
+        <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center">
+          <ConfettiBurst big />
+          <div className="rounded-2xl border border-amber-700 bg-neutral-950/95 px-8 py-6 text-center shadow-2xl backdrop-blur">
+            <div className="text-4xl">⚡</div>
+            <div className="mt-2 text-xl font-bold text-amber-300">Daily goal reached!</div>
+            <div className="mt-1 text-sm text-neutral-400">
+              {dailyGoal} XP today — everything from here is a bonus.
+            </div>
+          </div>
+        </div>
       )}
 
       {freezeNotice && (

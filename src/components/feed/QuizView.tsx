@@ -2,15 +2,29 @@
 
 import { useState } from "react";
 import type { FeedQuiz } from "@/lib/feed";
+import { ConfettiBurst, XpReward, vibrate, type XpInfo } from "./Celebration";
 
-/** Low-stakes recall quiz: instant answer + explanation, no scores kept. */
-export function QuizView({ quiz, onContinue }: { quiz: FeedQuiz; onContinue: () => void }) {
+type QuizResult = {
+  correct: boolean;
+  correctIndex: number;
+  explanation: string;
+  xp: XpInfo;
+  combo: number;
+  multiplier: number;
+};
+
+/** Low-stakes recall quiz: instant answer + explanation, XP + combo reward. */
+export function QuizView({
+  quiz,
+  onContinue,
+  onResult,
+}: {
+  quiz: FeedQuiz;
+  onContinue: () => void;
+  onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
+}) {
   const [picked, setPicked] = useState<number | null>(null);
-  const [result, setResult] = useState<{
-    correct: boolean;
-    correctIndex: number;
-    explanation: string;
-  } | null>(null);
+  const [result, setResult] = useState<QuizResult | null>(null);
 
   const answer = async (index: number) => {
     if (picked !== null) return;
@@ -19,9 +33,14 @@ export function QuizView({ quiz, onContinue }: { quiz: FeedQuiz; onContinue: () 
       const res = await fetch(`/api/quiz/${quiz.id}/answer`, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ index }),
+        body: JSON.stringify({ index, tzOffsetMinutes: new Date().getTimezoneOffset() }),
       });
-      if (res.ok) setResult(await res.json());
+      if (res.ok) {
+        const data: QuizResult = await res.json();
+        setResult(data);
+        vibrate(data.correct ? [30, 40, 60] : 20);
+        onResult({ xp: data.xp, correct: data.correct, combo: data.combo });
+      }
     } catch {
       /* leave picked highlighted; user can continue */
     }
@@ -35,6 +54,8 @@ export function QuizView({ quiz, onContinue }: { quiz: FeedQuiz; onContinue: () 
           background: `linear-gradient(160deg, ${quiz.category.colorHex}26 0%, #0a0a0a 45%, #0a0a0a 100%)`,
         }}
       />
+      {result?.correct && <ConfettiBurst big={result.combo >= 5} />}
+
       <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-center px-5 pb-24 pt-16">
         <span
           className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
@@ -78,6 +99,7 @@ export function QuizView({ quiz, onContinue }: { quiz: FeedQuiz; onContinue: () 
               {result.correct ? "✅ Nailed it" : "💡 Good try — now you know"}
             </div>
             <p className="mt-1 text-sm text-neutral-400">{result.explanation}</p>
+            <XpReward xp={result.xp} combo={result.combo} multiplier={result.multiplier} />
             <button
               type="button"
               onClick={onContinue}

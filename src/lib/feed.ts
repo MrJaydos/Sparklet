@@ -29,6 +29,17 @@ export type FeedQuiz = {
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
+// Guess-before-reveal challenge; the answer stays server-side until the
+// user locks in a guess.
+export type FeedGuess = {
+  id: string;
+  prompt: string;
+  min: number;
+  max: number;
+  unit: string;
+  category: { slug: string; name: string; colorHex: string; icon: string };
+};
+
 const REVIEWS_PER_BATCH = 3;
 const NEW_USER_VIEW_LIMIT = 50; // interest weighting only shapes early sessions
 
@@ -91,7 +102,12 @@ export async function getFeedCards(opts: {
   take?: number;
   allowRepeats?: boolean;
   excludeIds?: string[]; // cards already on screen this session
-}): Promise<{ cards: FeedCard[]; quizzes: FeedQuiz[]; exhausted: boolean }> {
+}): Promise<{
+  cards: FeedCard[];
+  quizzes: FeedQuiz[];
+  guesses: FeedGuess[];
+  exhausted: boolean;
+}> {
   const { userId, categorySlugs, allowRepeats, excludeIds } = opts;
   const take = opts.take ?? 10;
 
@@ -161,7 +177,7 @@ export async function getFeedCards(opts: {
   const reviewIds = new Set(reviewCards.map((c) => c.id));
 
   // Recall quizzes: fact already seen, quiz not yet attempted. Client mixes
-  // ~1 per 8-10 cards. Sample a wide pool and shuffle — a bare `take` always
+  // ~1 per 5 cards. Sample a wide pool and shuffle — a bare `take` always
   // returns the same head rows, which the client then dedupes into starvation
   // (quizzes stop appearing mid-session on the Everything feed).
   const quizRows = await prisma.quizCard.findMany({
@@ -173,7 +189,7 @@ export async function getFeedCards(opts: {
       },
       attempts: { none: { userId } },
     },
-    take: 30,
+    take: 40,
     select: {
       id: true,
       question: true,
@@ -184,13 +200,47 @@ export async function getFeedCards(opts: {
     },
   });
   const quizzes: FeedQuiz[] = shuffle(quizRows)
-    .slice(0, Math.max(1, Math.ceil(take / 8)) + 1)
+    .slice(0, Math.max(1, Math.ceil(take / 5)) + 1)
     .map((q) => ({
     id: q.id,
     question: q.question,
     options: q.options as string[],
     category: q.card.category,
   }));
+
+  // Guess-before-reveal: the fact must still be UNSEEN — guessing is only
+  // fun before you've read the answer. Same wide-pool-then-shuffle shape.
+  const guessRows = await prisma.guessCard.findMany({
+    where: {
+      card: {
+        published: true,
+        ...categoryFilter,
+        interactions: { none: { userId } },
+      },
+      attempts: { none: { userId } },
+    },
+    take: 30,
+    select: {
+      id: true,
+      prompt: true,
+      min: true,
+      max: true,
+      unit: true,
+      card: {
+        select: { category: { select: { slug: true, name: true, colorHex: true, icon: true } } },
+      },
+    },
+  });
+  const guesses: FeedGuess[] = shuffle(guessRows)
+    .slice(0, Math.max(1, Math.ceil(take / 8)) + 1)
+    .map((g) => ({
+      id: g.id,
+      prompt: g.prompt,
+      min: g.min,
+      max: g.max,
+      unit: g.unit,
+      category: g.card.category,
+    }));
 
   // Interest boost, only while the user is new and only in Everything mode.
   let boostSlugs: Set<string> | undefined;
@@ -242,12 +292,13 @@ export async function getFeedCards(opts: {
           .map((c) => toFeedCard(c, false)),
       ]),
       quizzes,
+      guesses,
       exhausted: unseen.length <= newTake,
     };
   }
 
   if (!allowRepeats) {
-    return { cards: await withRelated(reviewCards), quizzes, exhausted: true };
+    return { cards: await withRelated(reviewCards), quizzes, guesses, exhausted: true };
   }
 
   const seen = (await prisma.card.findMany({
@@ -263,6 +314,7 @@ export async function getFeedCards(opts: {
         .map((c) => toFeedCard(c, true)),
     ]),
     quizzes,
+    guesses,
     exhausted: true,
   };
 }

@@ -16,10 +16,23 @@ import "dotenv/config";
 import { mkdir, writeFile, readFile, readdir } from "fs/promises";
 import { join } from "path";
 import { generateJSON } from "../src/lib/ai-provider";
-import { cardSchema, quizSchema, type CardInput, type QuizInput } from "../src/lib/content-schema";
+import {
+  cardSchema,
+  quizSchema,
+  guessSchema,
+  type CardInput,
+  type QuizInput,
+  type GuessInput,
+} from "../src/lib/content-schema";
 
 const MIN_BANK = Number(process.env.MIN_BANK) || 40; // top-up threshold
 const TOPUP_COUNT = Number(process.env.TOPUP_COUNT) || 10;
+// Cap categories per scheduled run so the day's Gemini usage (generation
+// here + one cross-verify call per imported card at deploy) stays inside
+// the free tier's ~250 req/day — otherwise the overflow lands on Groq,
+// whose cards we'd rather keep to a minimum. Emptiest categories go first;
+// the rest wait for tomorrow's run.
+const TOPUP_MAX_CATEGORIES = Number(process.env.TOPUP_MAX_CATEGORIES) || 6;
 
 // Categories the generator knows about even without inventory access.
 // Kept in sync with prisma/seed.ts.
@@ -85,14 +98,23 @@ Each card:
 Accuracy rules: no urban legends presented as fact, no disputed claims stated flatly, numbers must match the cited source. If a fun "fact" is actually a myth, either skip it or make the card about the myth being false.
 ${extras}${avoid}
 
-Also produce "quizzes": for roughly one third of your cards, a low-stakes multiple-choice question testing that card's core fact:
+Also produce "quizzes": for roughly half of your cards, a low-stakes multiple-choice question testing that card's core fact:
 - "cardIndex": the 0-based index of the card it tests
 - "question": one clear question under 200 characters
 - "options": exactly 4 plausible answers (one correct)
 - "correctIndex": 0-3
 - "explanation": one line (under 300 chars) saying why the answer is right
 
-Respond with JSON only, shaped exactly as: {"cards": [ ... ], "quizzes": [ ... ]}`;
+Also produce "guesses": for each card whose core fact is a striking NUMBER, a guess-before-reveal challenge the reader answers on a slider BEFORE seeing the card:
+- "cardIndex": the 0-based index of the card it previews
+- "prompt": the question, phrased so someone who hasn't read the card can guess (under 200 chars). Do NOT give the answer away.
+- "answer": the true number (must match the card and its source)
+- "min"/"max": slider range. The answer must sit strictly inside it, never at an endpoint, and the range must be wide enough that guessing is genuinely uncertain (typically answer ± several times itself, or the natural bounds like 0-100 for percentages).
+- "unit": short display unit ("%", "km", "years", "" for plain counts)
+- "explanation": one line of payoff context (under 300 chars)
+Only create a guess when the number itself is the surprise — skip cards without one.
+
+Respond with JSON only, shaped exactly as: {"cards": [ ... ], "quizzes": [ ... ], "guesses": [ ... ]}`;
 }
 
 type InventoryCategory = {
@@ -151,9 +173,12 @@ async function localTitles(slug: string): Promise<string[]> {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-/** Parse model output, salvaging valid cards/quizzes instead of all-or-nothing. */
-function parseCards(text: string, slug: string): { cards: CardInput[]; quizzes: QuizInput[] } {
-  const raw = JSON.parse(text) as { cards?: unknown[]; quizzes?: unknown[] };
+/** Parse model output, salvaging valid cards/quizzes/guesses instead of all-or-nothing. */
+function parseCards(
+  text: string,
+  slug: string
+): { cards: CardInput[]; quizzes: QuizInput[]; guesses: GuessInput[] } {
+  const raw = JSON.parse(text) as { cards?: unknown[]; quizzes?: unknown[]; guesses?: unknown[] };
   if (!Array.isArray(raw.cards)) throw new Error('missing "cards" array');
   const cards: CardInput[] = [];
   // Map original card index -> index in the salvaged array, so quiz links
@@ -177,7 +202,16 @@ function parseCards(text: string, slug: string): { cards: CardInput[]; quizzes: 
     if (mapped === undefined || result.data.correctIndex >= result.data.options.length) continue;
     quizzes.push({ ...result.data, cardIndex: mapped });
   }
-  return { cards, quizzes };
+
+  const guesses: GuessInput[] = [];
+  for (const item of raw.guesses ?? []) {
+    const result = guessSchema.safeParse(item);
+    if (!result.success) continue;
+    const mapped = indexMap.get(result.data.cardIndex);
+    if (mapped === undefined) continue;
+    guesses.push({ ...result.data, cardIndex: mapped });
+  }
+  return { cards, quizzes, guesses };
 }
 
 async function generateForCategory(target: {
@@ -199,12 +233,13 @@ async function generateForCategory(target: {
   // Two attempts: models occasionally emit malformed JSON.
   let cards: CardInput[] = [];
   let quizzes: QuizInput[] = [];
+  let guesses: GuessInput[] = [];
   let model = "";
   for (let attempt = 1; attempt <= 2; attempt++) {
     const result = await generateJSON(prompt);
     model = result.model;
     try {
-      ({ cards, quizzes } = parseCards(result.text, target.slug));
+      ({ cards, quizzes, guesses } = parseCards(result.text, target.slug));
       if (cards.length > 0) break;
       throw new Error("no valid cards in response");
     } catch (e) {
@@ -224,9 +259,15 @@ async function generateForCategory(target: {
   const file = join(dir, `${new Date().toISOString().replace(/[:.]/g, "-")}.json`);
   await writeFile(
     file,
-    JSON.stringify({ generatedAt: new Date().toISOString(), model, cards, quizzes }, null, 2)
+    JSON.stringify(
+      { generatedAt: new Date().toISOString(), model, cards, quizzes, guesses },
+      null,
+      2
+    )
   );
-  console.log(`  ✓ ${cards.length} card(s) + ${quizzes.length} quiz(zes) → ${file} (${model})`);
+  console.log(
+    `  ✓ ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es) → ${file} (${model})`
+  );
   return { slug: target.slug, written: cards.length };
 }
 
@@ -250,18 +291,22 @@ async function main() {
       console.error("--top-up requires APP_URL pointing at a running Sparklet instance.");
       process.exit(1);
     }
-    targets = inventory
+    const low = inventory
       .filter((c) => c.publishedCount < MIN_BANK)
-      .map((c) => ({
-        slug: c.slug,
-        name: c.name,
-        description: c.description,
-        count,
-        existingTitles: c.titles,
-      }));
+      .sort((a, b) => a.publishedCount - b.publishedCount);
+    targets = low.slice(0, TOPUP_MAX_CATEGORIES).map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      description: c.description,
+      count,
+      existingTitles: c.titles,
+    }));
     console.log(
       targets.length
-        ? `Top-up: ${targets.map((t) => `${t.slug}`).join(", ")} below ${MIN_BANK} published cards.`
+        ? `Top-up: ${targets.map((t) => `${t.slug}`).join(", ")} below ${MIN_BANK} published cards.` +
+            (low.length > targets.length
+              ? ` (${low.length - targets.length} more deferred to stay inside the Gemini daily quota.)`
+              : "")
         : `All categories have ≥ ${MIN_BANK} published cards — nothing to do.`
     );
   } else {

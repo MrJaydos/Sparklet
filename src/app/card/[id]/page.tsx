@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getRelatedCards } from "@/lib/related";
@@ -10,25 +11,54 @@ import { CardImage } from "@/components/CardImage";
 
 export const dynamic = "force-dynamic";
 
+// Shared cards are the growth loop: this page (and its OG image) is public
+// so a link pasted into a chat unfurls and opens without a login wall.
+// Votes, saves and comments still require an account.
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const card = await prisma.card.findUnique({
+    where: { id },
+    select: { title: true, body: true, published: true },
+  });
+  // 404 must be decided here: by the time the page body runs, streaming has
+  // begun and a notFound() there renders the 404 UI with a 200 status.
+  if (!card) notFound();
+  if (!card.published) {
+    const session = await auth();
+    if (!session?.user?.id) notFound();
+    return { title: `${card.title} — Sparklet`, robots: { index: false } };
+  }
+  return {
+    title: `${card.title} — Sparklet`,
+    description: card.body.slice(0, 160),
+    openGraph: { title: card.title, description: card.body.slice(0, 160) },
+    twitter: { card: "summary_large_image", title: card.title },
+  };
+}
+
 export default async function CardPage({
   params,
 }: {
   params: Promise<{ id: string }>;
 }) {
   const session = await auth();
-  if (!session?.user?.id) redirect("/login");
+  const userId = session?.user?.id ?? null;
   const { id } = await params;
 
-  const userId = session.user.id;
   const card = await prisma.card.findUnique({
     where: { id },
     include: {
       category: { select: { name: true, colorHex: true, icon: true } },
-      interactions: { where: { userId }, select: { vote: true } },
-      savedBy: { where: { userId }, select: { id: true } },
+      interactions: userId ? { where: { userId }, select: { vote: true } } : false,
+      savedBy: userId ? { where: { userId }, select: { id: true } } : false,
     },
   });
-  if (!card) notFound();
+  if (!card || (!card.published && !userId)) notFound();
 
   const sources = card.sources as { title: string; publisher: string; url: string }[];
   const related = (await getRelatedCards([card.id], 3)).get(card.id) ?? [];
@@ -79,12 +109,27 @@ export default async function CardPage({
           </a>
         </div>
 
-        <CardActions
-          cardId={card.id}
-          initialScore={card.score}
-          initialVote={card.interactions[0]?.vote ?? 0}
-          initialSaved={card.savedBy.length > 0}
-        />
+        {userId ? (
+          <CardActions
+            cardId={card.id}
+            cardTitle={card.title}
+            initialScore={card.score}
+            initialVote={card.interactions?.[0]?.vote ?? 0}
+            initialSaved={(card.savedBy?.length ?? 0) > 0}
+          />
+        ) : (
+          <div className="mt-6 rounded-2xl border border-neutral-800 bg-neutral-900/60 p-4">
+            <p className="text-sm text-neutral-300">
+              ✨ Sparklet is a feed of fact-checked learning cards like this one.
+            </p>
+            <Link
+              href="/login"
+              className="mt-3 inline-block rounded-xl bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-500"
+            >
+              Join free — start your streak
+            </Link>
+          </div>
+        )}
       </article>
 
       {related.length > 0 && (
@@ -108,10 +153,14 @@ export default async function CardPage({
         </>
       )}
 
-      <h2 className="mt-8 border-t border-neutral-800 pt-6 text-lg font-bold">Comments</h2>
-      <div className="mt-3 max-h-[50dvh]">
-        <CommentsPanel cardId={card.id} />
-      </div>
+      {userId && (
+        <>
+          <h2 className="mt-8 border-t border-neutral-800 pt-6 text-lg font-bold">Comments</h2>
+          <div className="mt-3 max-h-[50dvh]">
+            <CommentsPanel cardId={card.id} />
+          </div>
+        </>
+      )}
     </main>
   );
 }

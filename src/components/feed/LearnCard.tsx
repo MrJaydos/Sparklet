@@ -20,6 +20,7 @@ export function LearnCard({
   onToggleSave,
   onOpenComments,
   onReport,
+  onShare,
 }: {
   card: FeedCard;
   saved: boolean;
@@ -29,6 +30,7 @@ export function LearnCard({
   onToggleSave: () => void;
   onOpenComments: () => void;
   onReport: () => void;
+  onShare: () => void;
 }) {
   const [score, setScore] = useState(card.score);
   const [myVote, setMyVote] = useState(card.myVote);
@@ -411,6 +413,15 @@ export function LearnCard({
           }`}
         >
           {saved ? "🔖" : "📑"}
+        </button>
+
+        <button
+          type="button"
+          onClick={onShare}
+          aria-label="Share card"
+          className="flex h-11 w-11 items-center justify-center rounded-full bg-neutral-900/70 text-lg opacity-70 backdrop-blur transition active:scale-125"
+        >
+          📤
         </button>
 
         <button

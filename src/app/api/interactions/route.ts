@@ -4,6 +4,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { updateStreakOnActivity } from "@/lib/streak";
 import { enterReviewSchedule, recordReview, isLongDwell } from "@/lib/sm2";
+import { awardXp, getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 
 const bodySchema = z.object({
   cardId: z.string().min(1),
@@ -22,6 +23,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "invalid body" }, { status: 400 });
   }
   const { cardId, tzOffsetMinutes, dwellMs } = parsed.data;
+  const tz = tzOffsetMinutes ?? 0;
 
   const card = await prisma.card.findUnique({
     where: { id: cardId },
@@ -29,6 +31,10 @@ export async function POST(req: NextRequest) {
   });
   if (!card) return NextResponse.json({ error: "card not found" }, { status: 404 });
 
+  const existing = await prisma.userCardInteraction.findUnique({
+    where: { userId_cardId: { userId, cardId } },
+    select: { id: true },
+  });
   await prisma.userCardInteraction.upsert({
     where: { userId_cardId: { userId, cardId } },
     // Re-views bump viewedAt so profile history reflects recency.
@@ -38,16 +44,26 @@ export async function POST(req: NextRequest) {
 
   // Spaced repetition: viewing a due review counts as a successful recall;
   // an unusually long dwell on a new card enters it into the schedule.
+  let reviewRecalled = false;
   const srState = await prisma.spacedRepetitionState.findUnique({
     where: { userId_cardId: { userId, cardId } },
     select: { nextReviewAt: true },
   });
   if (srState && srState.nextReviewAt.getTime() <= Date.now()) {
     await recordReview(userId, cardId, 4);
+    reviewRecalled = true;
   } else if (!srState && dwellMs !== undefined && isLongDwell(dwellMs, card.body)) {
     await enterReviewSchedule(userId, cardId);
   }
 
-  const streak = await updateStreakOnActivity(userId, tzOffsetMinutes ?? 0);
-  return NextResponse.json({ ok: true, streak });
+  // XP: first read of a card earns 1, recalling a due review earns 5.
+  // Dwell-only follow-up posts (same card) award nothing new.
+  const xp = reviewRecalled
+    ? await awardXp(userId, 5, "review", tz)
+    : !existing
+      ? await awardXp(userId, 1, "read", tz)
+      : { awarded: 0, today: await getXpToday(userId, tz), total: 0, goal: DAILY_GOAL_XP };
+
+  const streak = await updateStreakOnActivity(userId, tz);
+  return NextResponse.json({ ok: true, streak, xp });
 }

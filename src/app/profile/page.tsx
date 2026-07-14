@@ -31,6 +31,7 @@ export default async function ProfilePage() {
         currentStreak: true,
         longestStreak: true,
         streakFreezesAvailable: true,
+        xp: true,
       },
     }),
     prisma.userCardInteraction.count({ where: { userId, completed: true } }),
@@ -143,10 +144,14 @@ export default async function ProfilePage() {
         </button>
       </form>
 
-      <div className="mt-6 grid grid-cols-3 gap-3 text-center">
+      <div className="mt-6 grid grid-cols-2 gap-3 text-center sm:grid-cols-4">
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
           <div className="text-3xl font-bold">{totalViewed}</div>
           <div className="mt-1 text-xs text-neutral-400">cards learned</div>
+        </div>
+        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
+          <div className="text-3xl font-bold text-amber-300">⚡ {user.xp.toLocaleString("en")}</div>
+          <div className="mt-1 text-xs text-neutral-400">lifetime XP</div>
         </div>
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
           <div className="text-3xl font-bold">🔥 {user.currentStreak}</div>

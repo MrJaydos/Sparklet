@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getFeedCards } from "@/lib/feed";
+import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { Feed } from "@/components/feed/Feed";
 
 export const metadata = { title: "Feed — Sparklet" };
@@ -28,6 +29,9 @@ export default async function FeedPage() {
     }),
     prisma.notification.count({ where: { userId, readAt: null } }),
   ]);
+  // Server render can't know the client timezone; UTC is close enough for
+  // the initial ring — the first interaction response corrects it.
+  const xpToday = await getXpToday(userId, 0);
 
   // First session: offer interest onboarding (skippable, one-time).
   if (!user.onboardedAt && user._count.interactions === 0) redirect("/onboarding");
@@ -36,10 +40,13 @@ export default async function FeedPage() {
     <Feed
       initialCards={feed.cards}
       initialQuizzes={feed.quizzes}
+      initialGuesses={feed.guesses}
       initialExhausted={feed.exhausted}
       categories={categories}
       initialStreak={user.currentStreak}
       initialUnread={unread}
+      initialXpToday={xpToday}
+      dailyGoal={DAILY_GOAL_XP}
     />
   );
 }
