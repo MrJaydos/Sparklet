@@ -80,6 +80,8 @@ const btn =
 export default async function AdminPage() {
   await requireAdmin();
 
+  const daysAgo = (n: number) => new Date(Date.now() - n * 86_400_000);
+
   const [userCount, publishedCount, unpublished, openReports, commentCount] =
     await Promise.all([
       prisma.user.count(),
@@ -117,6 +119,74 @@ export default async function AdminPage() {
       prisma.comment.count(),
     ]);
 
+  const [
+    dau,
+    wau,
+    newUsers7d,
+    views7d,
+    quizAttempts,
+    quizCorrect,
+    savesCount,
+    dueReviews,
+    viewsByDay,
+    categoryStats,
+    topCards,
+    worstCards,
+  ] = await Promise.all([
+    prisma.user.count({ where: { lastActiveDate: { gte: daysAgo(1) } } }),
+    prisma.user.count({ where: { lastActiveDate: { gte: daysAgo(7) } } }),
+    prisma.user.count({ where: { createdAt: { gte: daysAgo(7) } } }),
+    prisma.userCardInteraction.count({ where: { viewedAt: { gte: daysAgo(7) } } }),
+    prisma.userQuizAttempt.count(),
+    prisma.userQuizAttempt.count({ where: { correct: true } }),
+    prisma.savedCard.count(),
+    prisma.spacedRepetitionState.count({ where: { nextReviewAt: { lte: new Date() } } }),
+    prisma.$queryRaw<{ day: Date; views: number }[]>`
+      SELECT date_trunc('day', "viewedAt") AS day, count(*)::int AS views
+      FROM "UserCardInteraction"
+      WHERE "viewedAt" >= now() - interval '14 days'
+      GROUP BY 1 ORDER BY 1
+    `,
+    prisma.$queryRaw<
+      { name: string; icon: string; published: number; views7d: number; score: number }[]
+    >`
+      SELECT cat.name, cat.icon,
+        (SELECT count(*)::int FROM "Card" c
+          WHERE c."categoryId" = cat.id AND c.published AND c."depthLevel" = 'STANDARD') AS published,
+        (SELECT count(*)::int FROM "UserCardInteraction" i
+          JOIN "Card" c2 ON c2.id = i."cardId"
+          WHERE c2."categoryId" = cat.id AND i."viewedAt" >= now() - interval '7 days') AS "views7d",
+        (SELECT coalesce(sum(c3.score), 0)::int FROM "Card" c3
+          WHERE c3."categoryId" = cat.id AND c3.published) AS score
+      FROM "Category" cat
+      ORDER BY "views7d" DESC, published DESC
+    `,
+    prisma.$queryRaw<{ id: string; title: string; views: number; score: number }[]>`
+      SELECT c.id, c.title, count(*)::int AS views, c.score
+      FROM "UserCardInteraction" i
+      JOIN "Card" c ON c.id = i."cardId"
+      WHERE i."viewedAt" >= now() - interval '7 days'
+      GROUP BY c.id ORDER BY views DESC LIMIT 5
+    `,
+    prisma.card.findMany({
+      where: { published: true, score: { lt: 0 } },
+      orderBy: { score: "asc" },
+      take: 5,
+      select: { id: true, title: true, score: true },
+    }),
+  ]);
+
+  // Fill the 14-day window so quiet days render as gaps, not omissions.
+  const dayViews = new Map(
+    viewsByDay.map((r) => [new Date(r.day).toISOString().slice(0, 10), r.views])
+  );
+  const chartDays = Array.from({ length: 14 }, (_, i) => {
+    const d = daysAgo(13 - i);
+    const key = d.toISOString().slice(0, 10);
+    return { key, label: d.toLocaleDateString("en-NZ", { day: "numeric", month: "short" }), views: dayViews.get(key) ?? 0 };
+  });
+  const maxViews = Math.max(1, ...chartDays.map((d) => d.views));
+
   // Group open reports by target.
   const cardReports = new Map<string, { card: NonNullable<(typeof openReports)[0]["card"]>; reports: typeof openReports }>();
   const commentReports = new Map<string, { comment: NonNullable<(typeof openReports)[0]["comment"]>; reports: typeof openReports }>();
@@ -142,7 +212,16 @@ export default async function AdminPage() {
       <div className="mt-6 grid grid-cols-2 gap-3 text-center sm:grid-cols-4">
         {[
           [userCount, "users"],
+          [`${dau} / ${wau}`, "active today / 7d"],
+          [newUsers7d, "new users (7d)"],
+          [views7d, "views (7d)"],
           [publishedCount, "published cards"],
+          [
+            quizAttempts ? `${Math.round((quizCorrect / quizAttempts) * 100)}%` : "—",
+            `quiz accuracy (${quizAttempts})`,
+          ],
+          [savesCount, "notebook saves"],
+          [dueReviews, "reviews due"],
           [commentCount, "comments"],
           [openReports.length, "open reports"],
         ].map(([n, label]) => (
@@ -152,6 +231,109 @@ export default async function AdminPage() {
           </div>
         ))}
       </div>
+
+      {/* Views per day */}
+      <h2 className="mt-10 text-lg font-bold">Views — last 14 days</h2>
+      <div className="mt-3 rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
+        <div className="flex h-28 items-end gap-[2px]">
+          {chartDays.map((d) => (
+            <div
+              key={d.key}
+              title={`${d.label} — ${d.views} view${d.views === 1 ? "" : "s"}`}
+              className="flex-1 rounded-t"
+              style={{
+                height: `${Math.max(d.views > 0 ? 4 : 1, (d.views / maxViews) * 100)}%`,
+                backgroundColor: d.views > 0 ? "#8b5cf6" : "#262626",
+              }}
+            />
+          ))}
+        </div>
+        <div className="mt-2 flex justify-between text-[10px] text-neutral-500">
+          <span>{chartDays[0].label}</span>
+          <span>peak {maxViews}</span>
+          <span>{chartDays[13].label}</span>
+        </div>
+      </div>
+
+      {/* Per-category performance */}
+      <h2 className="mt-10 text-lg font-bold">Categories</h2>
+      <div className="mt-3 overflow-x-auto rounded-2xl border border-neutral-800 bg-neutral-900">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="border-b border-neutral-800 text-left text-xs text-neutral-500">
+              <th className="px-4 py-2 font-medium">Category</th>
+              <th className="px-4 py-2 text-right font-medium">Published</th>
+              <th className="px-4 py-2 text-right font-medium">Views (7d)</th>
+              <th className="px-4 py-2 text-right font-medium">Net score</th>
+            </tr>
+          </thead>
+          <tbody>
+            {categoryStats.map((c) => (
+              <tr key={c.name} className="border-b border-neutral-800/50 last:border-0">
+                <td className="px-4 py-2">
+                  {c.icon} {c.name}
+                </td>
+                <td className={`px-4 py-2 text-right tabular-nums ${c.published < 40 ? "text-amber-400" : ""}`}>
+                  {c.published}
+                </td>
+                <td className="px-4 py-2 text-right tabular-nums">{c.views7d}</td>
+                <td
+                  className={`px-4 py-2 text-right tabular-nums ${
+                    c.score > 0 ? "text-emerald-400" : c.score < 0 ? "text-red-400" : ""
+                  }`}
+                >
+                  {c.score}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="mt-2 text-xs text-neutral-500">
+        Published counts in amber are below the 40-card top-up threshold.
+      </p>
+
+      {/* Top / struggling cards */}
+      <h2 className="mt-10 text-lg font-bold">Top cards this week</h2>
+      {topCards.length === 0 ? (
+        <p className="mt-2 text-sm text-neutral-500">No views in the last 7 days.</p>
+      ) : (
+        <ul className="mt-3 space-y-1.5">
+          {topCards.map((c) => (
+            <li key={c.id}>
+              <Link
+                href={`/card/${c.id}`}
+                className="flex items-baseline justify-between gap-3 rounded-lg border border-transparent px-3 py-2 transition hover:border-neutral-700 hover:bg-neutral-900"
+              >
+                <span className="text-sm text-neutral-200">{c.title}</span>
+                <span className="shrink-0 text-xs tabular-nums text-neutral-500">
+                  {c.views} views · {c.score >= 0 ? "+" : ""}
+                  {c.score}
+                </span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+
+      {worstCards.length > 0 && (
+        <>
+          <h2 className="mt-10 text-lg font-bold">Downvoted cards</h2>
+          <ul className="mt-3 space-y-1.5">
+            {worstCards.map((c) => (
+              <li key={c.id}>
+                <Link
+                  href={`/card/${c.id}`}
+                  className="flex items-baseline justify-between gap-3 rounded-lg border border-transparent px-3 py-2 transition hover:border-neutral-700 hover:bg-neutral-900"
+                >
+                  <span className="text-sm text-neutral-200">{c.title}</span>
+                  <span className="shrink-0 text-xs tabular-nums text-red-400">{c.score}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
 
       {/* Reported cards */}
       <h2 className="mt-10 text-lg font-bold">Reported cards</h2>
