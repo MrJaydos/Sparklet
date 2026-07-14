@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-07-14T18:01:25.926Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Map is Not",
+      "body": "The map is not the territory, a concept by Alfred Korzybski, highlights that our representations of reality are not reality itself.",
+      "imageWikipediaTitle": "Alfred Korzybski",
+      "sources": [
+        {
+          "title": "Map–territory relation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Occam's Razor",
+      "body": "Occam's Razor, a philosophical principle, states that the simplest explanation for a phenomenon is usually the most accurate one.",
+      "imageWikipediaTitle": "William of Ockham",
+      "sources": [
+        {
+          "title": "Occam's Razor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Occam%27s_razor"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Occam%27s_razor",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Tragedy of the Commons",
+      "body": "The Tragedy of the Commons, a concept by Garrett Hardin, explains how shared resources can be depleted due to individual self-interest.",
+      "imageWikipediaTitle": "Tragedy of the Commons",
+      "sources": [
+        {
+          "title": "Tragedy of the Commons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tragedy_of_the_commons",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pascal's Wager",
+      "body": "Pascal's Wager, an argument by Blaise Pascal, suggests that it is rational to believe in God because the potential reward is infinite.",
+      "imageWikipediaTitle": "Blaise Pascal",
+      "sources": [
+        {
+          "title": "Pascal's Wager",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pascal%27s_Wager"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pascal%27s_Wager",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Utility Monster",
+      "body": "The Utility Monster, a thought experiment by Robert Nozick, argues against the idea that moral decisions should be based solely on overall happiness.",
+      "imageWikipediaTitle": "Robert Nozick",
+      "sources": [
+        {
+          "title": "Utility Monster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utility_monster"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Utility_monster",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moral Imperative",
+      "body": "The Moral Imperative, a concept by Immanuel Kant, states that moral laws should be based on reason and universal principles.",
+      "imageWikipediaTitle": "Immanuel Kant",
+      "sources": [
+        {
+          "title": "Moral Imperative",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moral_imperative"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moral_imperative",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sorites Paradox",
+      "body": "The Sorites Paradox, also known as the paradox of the heap, raises questions about the nature of vagueness and categorization.",
+      "imageWikipediaTitle": "Sorites Paradox",
+      "sources": [
+        {
+          "title": "Sorites Paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sorites_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sorites_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mere Addition Paradox",
+      "body": "The Mere Addition Paradox, a thought experiment by Derek Parfit, challenges the idea that overall happiness is the only consideration in moral decisions.",
+      "imageWikipediaTitle": "Derek Parfit",
+      "sources": [
+        {
+          "title": "Mere Addition Paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mere_addition_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mere_addition_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Asymmetry",
+      "body": "The Asymmetry, a concept by Derek Parfit, suggests that our attitudes towards creating happy lives and preventing suffering are not symmetrical.",
+      "imageWikipediaTitle": "Derek Parfit",
+      "sources": [
+        {
+          "title": "Asymmetry (philosophy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asymmetry_(philosophy)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Asymmetry_(philosophy)",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Repugnant Conclusion",
+      "body": "The Repugnant Conclusion, a thought experiment by Derek Parfit, suggests that a world with a large population of people living barely tolerable lives could be better than a world with a small population of very happy people.",
+      "imageWikipediaTitle": "Derek Parfit",
+      "sources": [
+        {
+          "title": "Repugnant Conclusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Repugnant_Conclusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Repugnant_Conclusion",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What concept highlights that representations of reality are not reality itself?",
+      "options": [
+        "The Map is Not the Territory",
+        "Occam's Razor",
+        "The Tragedy of the Commons",
+        "Pascal's Wager"
+      ],
+      "correctIndex": 0,
+      "explanation": "The map is not the territory, a concept by Alfred Korzybski, highlights that our representations of reality are not reality itself."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What concept explains how shared resources can be depleted due to individual self-interest?",
+      "options": [
+        "The Tragedy of the Commons",
+        "Occam's Razor",
+        "Pascal's Wager",
+        "The Utility Monster"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tragedy of the Commons, a concept by Garrett Hardin, explains how shared resources can be depleted due to individual self-interest."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What concept states that moral laws should be based on reason and universal principles?",
+      "options": [
+        "Moral Imperative",
+        "The Utility Monster",
+        "The Tragedy of the Commons",
+        "Pascal's Wager"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Moral Imperative, a concept by Immanuel Kant, states that moral laws should be based on reason and universal principles."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What thought experiment challenges the idea that overall happiness is the only consideration in moral decisions?",
+      "options": [
+        "The Mere Addition Paradox",
+        "The Repugnant Conclusion",
+        "The Utility Monster",
+        "The Tragedy of the Commons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Mere Addition Paradox, a thought experiment by Derek Parfit, challenges the idea that overall happiness is the only consideration in moral decisions."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What thought experiment suggests that a world with a large population of people living barely tolerable lives could be better than a world with a small population of very happy people?",
+      "options": [
+        "The Repugnant Conclusion",
+        "The Mere Addition Paradox",
+        "The Utility Monster",
+        "The Tragedy of the Commons"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Repugnant Conclusion, a thought experiment by Derek Parfit, suggests that a world with a large population of people living barely tolerable lives could be better than a world with a small population of very happy people."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 9,
+      "prompt": "What is the minimum number of people that would make a world with barely tolerable lives better than a world with 100 very happy people, according to the Repugnant Conclusion?",
+      "answer": 1000000,
+      "min": 10000,
+      "max": 10000000,
+      "unit": "",
+      "explanation": "The Repugnant Conclusion suggests that a large population of people living barely tolerable lives could be better than a small population of very happy people."
+    }
+  ]
+}

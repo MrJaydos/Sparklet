@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-14T17:59:41.208Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Turritopsis dohrnii",
+      "body": "Turritopsis dohrnii, also known as the 'immortal jellyfish,' is a species of jellyfish that can transform its body into a younger state through a process called transdifferentiation.",
+      "imageWikipediaTitle": "Turritopsis dohrnii",
+      "sources": [
+        {
+          "title": "Turritopsis dohrnii",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mary Toft",
+      "body": "Mary Toft was an English woman who in 1726 convinced doctors that she had given birth to rabbits, a hoax that became a famous medical case.",
+      "imageWikipediaTitle": "Mary Toft",
+      "sources": [
+        {
+          "title": "Mary Toft",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mary_Toft"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mary_Toft",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fountain of Youth",
+      "body": "The concept of the Fountain of Youth has been around for thousands of years, with ancient civilizations such as the Greeks and Chinese searching for a magical spring that would grant eternal youth.",
+      "imageWikipediaTitle": "Fountain of Youth",
+      "sources": [
+        {
+          "title": "Fountain of Youth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fountain_of_Youth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fountain_of_Youth",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Voynich Manuscript",
+      "body": "The Voynich Manuscript is a mysterious, undeciphered book that has been carbon-dated to the 15th century, with its origins and meaning still unknown.",
+      "imageWikipediaTitle": "Voynich manuscript",
+      "sources": [
+        {
+          "title": "Voynich manuscript",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Voynich_manuscript",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Slime Molds",
+      "body": "Slime molds are single-celled organisms that can solve mazes and make decisions, despite lacking a brain or nervous system.",
+      "imageWikipediaTitle": "Slime mold",
+      "sources": [
+        {
+          "title": "Slime mold",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Slime_mold"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Slime_mold",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sentinelese",
+      "body": "The Sentinelese are an indigenous people who inhabit North Sentinel Island, and are known for their isolation and hostility towards outsiders.",
+      "imageWikipediaTitle": "Sentinelese",
+      "sources": [
+        {
+          "title": "Sentinelese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sentinelese"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sentinelese",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Bloop",
+      "body": "The Bloop is a low-frequency sound detected by the National Oceanic and Atmospheric Administration (NOAA) in 1997, which remains one of the loudest sounds ever recorded.",
+      "imageWikipediaTitle": "The Bloop",
+      "sources": [
+        {
+          "title": "The Bloop",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Bloop"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Bloop",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Great Attractor",
+      "body": "The Great Attractor is a region of space that is pulling our galaxy, the Milky Way, and many others towards it, with a mass equivalent to thousands of galaxies.",
+      "imageWikipediaTitle": "Great Attractor",
+      "sources": [
+        {
+          "title": "Great Attractor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Attractor"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Attractor",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fast Radio Bursts",
+      "body": "Fast Radio Bursts (FRBs) are brief, intense pulses of radio energy that originate from distant galaxies, with some theories suggesting they could be evidence of advanced alien technology.",
+      "imageWikipediaTitle": "Fast radio burst",
+      "sources": [
+        {
+          "title": "Fast radio burst",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_radio_burst"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_radio_burst",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wow! Signal",
+      "body": "The Wow! Signal is a strong, narrowband radio signal that was detected in 1977, and remains one of the most intriguing examples of an unexplained phenomenon in the search for extraterrestrial intelligence (SETI).",
+      "imageWikipediaTitle": "Wow! Signal",
+      "sources": [
+        {
+          "title": "Wow! Signal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wow!_Signal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wow!_Signal",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is Turritopsis dohrnii known for?",
+      "options": [
+        "Being the largest jellyfish",
+        "Having a deadly sting",
+        "Being immortal",
+        "Having a unique shape"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turritopsis dohrnii is known for its ability to transform its body into a younger state through a process called transdifferentiation, making it theoretically immortal."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the concept of the Fountain of Youth about?",
+      "options": [
+        "A magical spring that grants eternal youth",
+        "A mythological creature that grants wishes",
+        "A historical event that changed the world",
+        "A scientific theory that explains aging"
+      ],
+      "correctIndex": 0,
+      "explanation": "The concept of the Fountain of Youth has been around for thousands of years, with ancient civilizations searching for a magical spring that would grant eternal youth."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is unique about slime molds?",
+      "options": [
+        "They are single-celled organisms",
+        "They have a complex nervous system",
+        "They can solve mazes and make decisions",
+        "They are found only in certain environments"
+      ],
+      "correctIndex": 2,
+      "explanation": "Slime molds are single-celled organisms that can solve mazes and make decisions, despite lacking a brain or nervous system."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What is the Bloop?",
+      "options": [
+        "A low-frequency sound detected by NOAA",
+        "A type of marine animal",
+        "A natural phenomenon that occurs in the ocean",
+        "A man-made structure that emits sound"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bloop is a low-frequency sound detected by the National Oceanic and Atmospheric Administration (NOAA) in 1997, which remains one of the loudest sounds ever recorded."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What are Fast Radio Bursts?",
+      "options": [
+        "Brief, intense pulses of radio energy",
+        "Long-duration signals that originate from galaxies",
+        "Natural phenomena that occur in the atmosphere",
+        "Man-made signals used for communication"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fast Radio Bursts (FRBs) are brief, intense pulses of radio energy that originate from distant galaxies, with some theories suggesting they could be evidence of advanced alien technology."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 7,
+      "prompt": "How many galaxies is the mass of the Great Attractor equivalent to?",
+      "answer": 1000,
+      "min": 100,
+      "max": 10000,
+      "unit": "",
+      "explanation": "The Great Attractor is a region of space that is pulling our galaxy, the Milky Way, and many others towards it, with a mass equivalent to thousands of galaxies."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "How many people inhabit North Sentinel Island?",
+      "answer": 100,
+      "min": 10,
+      "max": 1000,
+      "unit": "",
+      "explanation": "The Sentinelese are an indigenous people who inhabit North Sentinel Island, and are known for their isolation and hostility towards outsiders."
+    }
+  ]
+}

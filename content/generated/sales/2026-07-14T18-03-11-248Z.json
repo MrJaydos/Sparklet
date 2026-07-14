@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-14T18:03:11.248Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Price Anchoring",
+      "body": "Customers perceive a product as cheaper when compared to a more expensive option, even if they have no intention of buying the pricier item.",
+      "sources": [
+        {
+          "title": "Anchoring Effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anchoring_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anchoring_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 60-30-10 Rule",
+      "body": "In sales, 60% of customers are not a good fit, 30% are a potential fit, and 10% are a perfect fit.",
+      "imageWikipediaTitle": "Sales",
+      "sources": [
+        {
+          "title": "Sales Management",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sales_management"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sales_management",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Priming",
+      "body": "Exposing customers to certain words or images can influence their purchasing decisions, making them more likely to buy.",
+      "sources": [
+        {
+          "title": "Priming (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Priming_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Priming_(psychology)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Baader-Meinhof Phenomenon",
+      "body": "When people notice a product or brand, they are more likely to notice it again, making them think it's more popular than it is.",
+      "sources": [
+        {
+          "title": "Baader-Meinhof Phenomenon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baader%E2%80%93Meinhof_phenomenon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Baader%E2%80%93Meinhof_phenomenon",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Decoy Pricing",
+      "body": "A higher-priced option can make a similarly-priced option seem like a better value, increasing sales.",
+      "sources": [
+        {
+          "title": "Decoy effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decoy_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Decoy_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Limited-Time Offers",
+      "body": "Creating a sense of urgency with limited-time offers can increase sales by 20-30%.",
+      "sources": [
+        {
+          "title": "Time-limited offer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Time-limited_offer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Time-limited_offer",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Charity-Linked Sales",
+      "body": "Products linked to charitable causes can increase sales by 10-15%, as customers feel good about supporting a good cause.",
+      "sources": [
+        {
+          "title": "Cause marketing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cause_marketing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cause_marketing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Endowment Effect",
+      "body": "People place a higher value on things they already own, making them more likely to keep rather than sell or trade.",
+      "sources": [
+        {
+          "title": "Endowment effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endowment_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Endowment_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bundling and Unbundling",
+      "body": "Offering services or products separately or together can increase overall sales and customer satisfaction.",
+      "sources": [
+        {
+          "title": "Product bundling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Product_bundling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Product_bundling",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Post-Purchase Rationalization",
+      "body": "After making a purchase, customers often rationalize their decision, telling themselves it was a good choice, even if it wasn't.",
+      "sources": [
+        {
+          "title": "Post-purchase rationalization",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Post-purchase_rationalization"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Post-purchase_rationalization",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 3,
+      "question": "What phenomenon makes people notice a product more after initial exposure?",
+      "options": [
+        "Baader-Meinhof Phenomenon",
+        "Decoy Effect",
+        "Priming Effect",
+        "Anchoring Effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Baader-Meinhof Phenomenon explains how people notice a product more after initial exposure."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What tactic can increase sales by creating a sense of urgency?",
+      "options": [
+        "Limited-Time Offers",
+        "Decoy Pricing",
+        "Charity-Linked Sales",
+        "Bundling and Unbundling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Limited-time offers create a sense of urgency, increasing sales."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the approximate distribution of customer fit in sales?",
+      "options": [
+        "20-50-30",
+        "50-30-20",
+        "60-30-10",
+        "30-60-10"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 60-30-10 rule states that 60% of customers are not a good fit, 30% are a potential fit, and 10% are a perfect fit."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What effect makes people value things they already own more?",
+      "options": [
+        "Endowment Effect",
+        "Decoy Effect",
+        "Priming Effect",
+        "Anchoring Effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Endowment Effect explains how people value things they already own more."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What happens to customers after making a purchase?",
+      "options": [
+        "They immediately regret their decision",
+        "They start to question their decision",
+        "They rationalize their decision",
+        "They become indifferent to their decision"
+      ],
+      "correctIndex": 2,
+      "explanation": "After making a purchase, customers often rationalize their decision."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 5,
+      "prompt": "By what percentage can limited-time offers increase sales?",
+      "answer": 25,
+      "min": 5,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Limited-time offers can increase sales due to the created sense of urgency."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "By what percentage can charity-linked sales increase sales?",
+      "answer": 12.5,
+      "min": 5,
+      "max": 30,
+      "unit": "%",
+      "explanation": "Charity-linked sales can increase sales as customers feel good about supporting a good cause."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of customers are a perfect fit according to the 60-30-10 rule?",
+      "answer": 10,
+      "min": 0,
+      "max": 50,
+      "unit": "%",
+      "explanation": "The 60-30-10 rule provides insight into customer fit."
+    }
+  ]
+}

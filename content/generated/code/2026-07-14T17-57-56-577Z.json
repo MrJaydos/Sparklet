@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-14T17:57:56.577Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Turing Test",
+      "body": "The Turing Test measures a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.",
+      "imageWikipediaTitle": "Turing Test",
+      "sources": [
+        {
+          "title": "Turing Test",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turing_Test"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turing_Test",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Grace Hopper",
+      "body": "Grace Hopper developed the first compiler, revolutionizing programming with her work on the Harvard Mark I computer.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        {
+          "title": "Grace Hopper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "World Wide Web",
+      "body": "The World Wide Web was invented by Tim Berners-Lee, enabling users to access and share information via web browsers and hyperlinks.",
+      "imageWikipediaTitle": "World Wide Web",
+      "sources": [
+        {
+          "title": "World Wide Web",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/World_Wide_Web",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cybersecurity",
+      "body": "The first computer virus, Creeper, was discovered in 1971 and was an experimental self-replicating virus.",
+      "imageWikipediaTitle": "Computer Virus",
+      "sources": [
+        {
+          "title": "Computer Virus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_virus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Computer_virus",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hash Function",
+      "body": "A hash function is a one-way mathematical function that takes input data of any size and produces a fixed-size output, known as a hash value.",
+      "imageWikipediaTitle": "Hash Function",
+      "sources": [
+        {
+          "title": "Hash Function",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hash_function"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hash_function",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cloud Computing",
+      "body": "Cloud computing allows users to store and process data remotely, using a network of servers accessed over the internet.",
+      "imageWikipediaTitle": "Cloud Computing",
+      "sources": [
+        {
+          "title": "Cloud Computing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cloud_computing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cloud_computing",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Programming Paradigm",
+      "body": "Object-oriented programming is a paradigm that organizes software design around data, or objects, and their interactions.",
+      "imageWikipediaTitle": "Object-Oriented Programming",
+      "sources": [
+        {
+          "title": "Object-Oriented Programming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Object-oriented_programming"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Object-oriented_programming",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Data Encryption",
+      "body": "Public-key cryptography uses a pair of keys, one public and one private, to securely encrypt and decrypt data.",
+      "imageWikipediaTitle": "Public-Key Cryptography",
+      "sources": [
+        {
+          "title": "Public-Key Cryptography",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Public-key_cryptography"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Human-Computer Interaction",
+      "body": "The field of human-computer interaction focuses on designing interfaces that are intuitive, user-friendly, and accessible to users.",
+      "imageWikipediaTitle": "Human-Computer Interaction",
+      "sources": [
+        {
+          "title": "Human-Computer Interaction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human-computer_interaction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Human-computer_interaction",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Internet of Things",
+      "body": "The Internet of Things refers to the network of physical devices, vehicles, and other items embedded with sensors and connected to the internet.",
+      "imageWikipediaTitle": "Internet of Things",
+      "sources": [
+        {
+          "title": "Internet of Things",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Internet_of_things"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Internet_of_things",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary goal of the Turing Test?",
+      "options": [
+        "To measure human intelligence",
+        "To exhibit intelligent behavior equivalent to a human",
+        "To develop an AI system",
+        "To create a computer virus"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Turing Test is designed to assess a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Who invented the World Wide Web?",
+      "options": [
+        "Tim Berners-Lee",
+        "Steve Jobs",
+        "Bill Gates",
+        "Larry Page"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tim Berners-Lee is credited with inventing the World Wide Web, enabling users to access and share information via web browsers and hyperlinks."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary function of a hash function?",
+      "options": [
+        "To encrypt data",
+        "To decrypt data",
+        "To produce a fixed-size output",
+        "To generate a random number"
+      ],
+      "correctIndex": 2,
+      "explanation": "A hash function is a one-way mathematical function that takes input data of any size and produces a fixed-size output, known as a hash value."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What programming paradigm organizes software design around data, or objects, and their interactions?",
+      "options": [
+        "Functional programming",
+        "Object-oriented programming",
+        "Imperative programming",
+        "Declarative programming"
+      ],
+      "correctIndex": 1,
+      "explanation": "Object-oriented programming is a paradigm that organizes software design around data, or objects, and their interactions."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What field of study focuses on designing interfaces that are intuitive, user-friendly, and accessible to users?",
+      "options": [
+        "Human-computer interaction",
+        "Computer science",
+        "Information technology",
+        "Software engineering"
+      ],
+      "correctIndex": 0,
+      "explanation": "The field of human-computer interaction focuses on designing interfaces that are intuitive, user-friendly, and accessible to users."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In what year was the first computer virus discovered?",
+      "answer": 1971,
+      "min": 1960,
+      "max": 1980,
+      "unit": "years",
+      "explanation": "The first computer virus, Creeper, was discovered in 1971 and was an experimental self-replicating virus."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "What percentage of devices are estimated to be connected to the Internet of Things?",
+      "answer": 10,
+      "min": 5,
+      "max": 20,
+      "unit": "%",
+      "explanation": "The Internet of Things refers to the network of physical devices, vehicles, and other items embedded with sensors and connected to the internet, with an estimated 10% of devices already connected."
+    }
+  ]
+}
