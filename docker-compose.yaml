@@ -24,6 +24,8 @@ services:
       S3_ACCESS_KEY: ${MINIO_ROOT_USER}
       S3_SECRET_KEY: ${MINIO_ROOT_PASSWORD}
       S3_BUCKET: sparklet-media
+      # Piper TTS sidecar — card narration. Unset = browser TTS fallback.
+      PIPER_URL: http://piper:5000
     depends_on:
       db:
         condition: service_healthy
@@ -52,6 +54,11 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
+
+  piper:
+    build: ./piper
+    restart: unless-stopped
+    # No external ports — only the app talks to it on the compose network.
 
   minio:
     image: minio/minio:latest

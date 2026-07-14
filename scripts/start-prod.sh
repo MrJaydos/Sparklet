@@ -17,6 +17,9 @@ tsx prisma/seed.ts
   else
     echo "[startup] content import failed — unimported content retries on next deploy."
   fi
+  # Narration for any cards missing cached audio (new imports included).
+  tsx scripts/pregen-audio.ts \
+    || echo "[startup] audio pre-generation failed — cards fall back to lazy narration."
 ) &
 
 exec next start

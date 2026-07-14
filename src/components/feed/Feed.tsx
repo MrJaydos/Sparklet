@@ -103,7 +103,7 @@ export function Feed({
     return () => window.speechSynthesis.removeEventListener("voiceschanged", pick);
   }, []);
 
-  const speakCard = useCallback((card: FeedCard) => {
+  const browserSpeak = useCallback((card: FeedCard) => {
     if (!("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(`${card.title}. ${card.body}`);
@@ -121,7 +121,37 @@ export function Feed({
     setSpeakingId(card.id);
   }, []);
 
+  // Narration: server-side Piper audio (natural, same voice everywhere,
+  // cached per card) with browser speechSynthesis as the fallback.
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const speakCard = useCallback(
+    (card: FeedCard) => {
+      if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+      const a = audioRef.current ?? (audioRef.current = new Audio());
+      a.onerror = null; // don't let aborting the previous track trigger fallback
+      a.pause();
+      let fellBack = false;
+      const fallback = () => {
+        if (fellBack) return;
+        fellBack = true;
+        browserSpeak(card);
+      };
+      const clear = () => setSpeakingId((id) => (id === card.id ? null : id));
+      a.src = `/api/cards/${card.id}/audio`;
+      a.onended = clear;
+      a.onerror = fallback;
+      setSpeakingId(card.id);
+      a.play().catch(fallback);
+    },
+    [browserSpeak]
+  );
+
   const stopSpeech = useCallback(() => {
+    if (audioRef.current) {
+      audioRef.current.onerror = null;
+      audioRef.current.pause();
+    }
     if ("speechSynthesis" in window) window.speechSynthesis.cancel();
     setSpeakingId(null);
   }, []);
