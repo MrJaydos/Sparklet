@@ -59,6 +59,10 @@ services:
     build: ./piper
     restart: unless-stopped
     # No external ports — only the app talks to it on the compose network.
+    # Hard-capped to one core: narration is a background nicety and must
+    # never starve the app, builds, or the tunnel on this box.
+    cpus: 1.0
+    mem_limit: 700m
 
   minio:
     image: minio/minio:latest

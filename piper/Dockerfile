@@ -4,6 +4,10 @@ FROM python:3.12-slim
 
 RUN pip install --no-cache-dir piper-tts flask
 
+# Explicit ORT thread count — avoids pthread affinity failures on hosts
+# with restricted cpusets and keeps CPU use modest. See sitecustomize.py.
+COPY sitecustomize.py /usr/local/lib/python3.12/site-packages/sitecustomize.py
+
 WORKDIR /voices
 RUN python -m piper.download_voices en_GB-cori-high --download-dir /voices
 
