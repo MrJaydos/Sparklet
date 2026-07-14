@@ -26,14 +26,18 @@ async function main() {
     return;
   }
 
+  // Only STANDARD cards: the feed narrates the standard row's id even when
+  // a depth variant is showing, so DEEP/EXTRA_DEEP rows never get audio
+  // requests — and the multi-paragraph ones blow the synthesis timeout.
   const cards = await prisma.card.findMany({
-    where: { published: true },
+    where: { published: true, depthLevel: "STANDARD" },
     orderBy: { createdAt: "desc" },
     select: { id: true, title: true, body: true },
   });
 
   let generated = 0;
   let failed = 0;
+  let consecutiveFailures = 0;
   for (const card of cards) {
     if (generated >= MAX_PER_RUN) {
       console.log(`Per-run ceiling of ${MAX_PER_RUN} reached — the rest continues next deploy.`);
@@ -43,17 +47,21 @@ async function main() {
     try {
       await getCardAudio(card.id, `${card.title}. ${card.body}`);
       generated++;
+      consecutiveFailures = 0;
     } catch (e) {
       failed++;
+      consecutiveFailures++;
       console.warn(`  ✗ ${card.id}: ${e instanceof Error ? e.message : e}`);
-      if (failed >= 5) {
-        console.warn("Too many narration failures — stopping (will retry next deploy).");
+      // Only a run of back-to-back failures means Piper itself is down;
+      // isolated slow cards shouldn't abort the whole sweep.
+      if (consecutiveFailures >= 5) {
+        console.warn("5 narration failures in a row — Piper looks down, stopping (retries next deploy).");
         break;
       }
     }
     await sleep(PAUSE_MS);
   }
-  console.log(`Audio pre-generation done: ${generated} generated, ${failed} failed, ${cards.length} total published cards.`);
+  console.log(`Audio pre-generation done: ${generated} generated, ${failed} failed, ${cards.length} standard published cards.`);
 }
 
 main()

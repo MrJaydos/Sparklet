@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  // Absolute base for og:image / twitter:image URLs — without it they
+  // resolve to localhost in prod and shared links unfurl without an image.
+  metadataBase: new URL(process.env.NEXTAUTH_URL || "http://localhost:3000"),
   title: "Sparklet",
   description: "Learn something real, one swipe at a time.",
   manifest: "/manifest.webmanifest",
