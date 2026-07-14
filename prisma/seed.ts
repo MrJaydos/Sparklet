@@ -20,6 +20,7 @@ const categories = [
   { slug: "philosophy", name: "Philosophy & Ideas", description: "Thought experiments, ethics and big ideas explained simply.", colorHex: "#c084fc", icon: "💭" },
   { slug: "code", name: "Code", description: "Programming, computer science and hacker lore.", colorHex: "#2dd4bf", icon: "💻" },
   { slug: "sales", name: "Sales", description: "Practical sales and persuasion tactics — small, evidence-backed techniques you can use in your next pitch, negotiation or conversation.", colorHex: "#f97316", icon: "🤝" },
+  { slug: "fun", name: "Fun & Weird", description: "Weird-but-true trivia and delightfully useless facts — the stranger the better. Famous 'facts' that are actually myths get busted, not repeated.", colorHex: "#e879f9", icon: "🤪" },
 ];
 
 async function main() {

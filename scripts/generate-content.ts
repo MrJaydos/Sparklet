@@ -39,6 +39,7 @@ const FALLBACK_CATEGORIES: Record<string, string> = {
   code: "Programming, computer science and hacker lore",
   sales:
     "Practical sales and persuasion tactics — small, evidence-backed techniques you can use in your next pitch, negotiation or conversation",
+  fun: "Weird-but-true trivia and delightfully useless facts — the stranger the better. Famous 'facts' that are actually myths get busted, not repeated",
 };
 
 const generatedCardSchema = cardSchema.omit({ category: true });
@@ -51,6 +52,12 @@ Language-specific rules:
 - When a card teaches a word or phrase from another language, the body MUST include it in its native script — e.g. こんにちは (konnichiwa), 안녕하세요 (annyeonghaseyo), مرحبا (marhaban), 你好 (nǐ hǎo) — followed by romanization in parentheses and a plain-English pronunciation hint.
 - NEVER leave empty parentheses or romanization-only where native script belongs. If you cannot produce the native script accurately, pick a different card topic instead.
 - Roughly half the cards should teach practical basics (greetings, counting, please/thank-you, getting by); the rest can cover etymology and linguistics.`,
+  fun: `
+Fun & Weird rules:
+- Every card should make someone say "wait, really?!" and want to tell a friend: absurd animal behavior, bizarre laws and historical moments, silly human quirks, delightfully useless facts (think: wombats have cubic poop; Scotland's national animal is the unicorn).
+- This is NOT a records book — no "longest/tallest/largest/deepest X" superlative listings.
+- Playful titles are welcome, but the fact itself must still be true and verifiable.
+- If a famous fun "fact" is actually a myth (like cows being unable to walk down stairs), write the card busting the myth.`,
 };
 
 function buildPrompt(opts: {

@@ -1,0 +1,489 @@
+{
+  "generatedAt": "2026-07-14T00:38:07.524Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Candy Medicine",
+      "body": "Some medications are designed to taste like candy to improve patient compliance.",
+      "sources": [
+        {
+          "title": "Medication Adherence",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4166969/"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4166969/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wombat Poop",
+      "body": "Wombats produce cubic-shaped scat, which helps their droppings stay put on rocky terrain.",
+      "imageWikipediaTitle": "Wombat",
+      "sources": [
+        {
+          "title": "Wombat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wombat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wombat",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Unicorn Nation",
+      "body": "The unicorn is Scotland's national animal, dating back to the 12th century.",
+      "imageWikipediaTitle": "Unicorn",
+      "sources": [
+        {
+          "title": "Unicorn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unicorn"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Unicorn",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Honey Never Spoils",
+      "body": "Honey's unique properties make it impossible for it to spoil, thanks to its low water content.",
+      "imageWikipediaTitle": "Honey",
+      "sources": [
+        {
+          "title": "Honey",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honey"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Honey",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dream Memory",
+      "body": "Research suggests that we tend to forget up to 90% of our dreams within the first few minutes of waking.",
+      "sources": [
+        {
+          "title": "Dream",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dream"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dream",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chewing Sound",
+      "body": "The sound of chewing can trigger a response in the brain associated with hunger.",
+      "sources": [
+        {
+          "title": "Neural basis of food perception",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/food-perception"
+        }
+      ],
+      "readMoreUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/food-perception",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Taste Smell Connection",
+      "body": "Our sense of smell plays a significant role in our perception of taste.",
+      "sources": [
+        {
+          "title": "Smell and Taste",
+          "publisher": "National Institute on Deafness and Other Communication Disorders",
+          "url": "https://www.nidcd.nih.gov/health/smell/taste"
+        }
+      ],
+      "readMoreUrl": "https://www.nidcd.nih.gov/health/smell/taste",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Colorful Animals",
+      "body": "Some species of frogs can change their skin color to match their surroundings.",
+      "imageWikipediaTitle": "Camouflage",
+      "sources": [
+        {
+          "title": "Camouflage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Camouflage"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Camouflage",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea Cucumber Regeneration",
+      "body": "Some sea cucumbers can expel their internal organs as a defense mechanism and then regrow them.",
+      "imageWikipediaTitle": "Sea cucumber",
+      "sources": [
+        {
+          "title": "Sea cucumber",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_cucumber"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_cucumber",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Giraffe Neck",
+      "body": "Giraffes have the highest blood pressure of any animal, which helps them pump blood up to their brains against gravity.",
+      "imageWikipediaTitle": "Giraffe",
+      "sources": [
+        {
+          "title": "Giraffe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giraffe"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Giraffe",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dancing Peacock Spiders",
+      "body": "Male peacock spiders perform complex courtship dances to attract females.",
+      "imageWikipediaTitle": "Peacock spider",
+      "sources": [
+        {
+          "title": "Peacock spider",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peacock_spider"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peacock_spider",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Zombie Fungus",
+      "body": "The Ophiocordyceps unilateralis fungus infects ants and controls their behavior, causing them to climb to high locations before producing spores.",
+      "imageWikipediaTitle": "Ophiocordyceps_unilateralis",
+      "sources": [
+        {
+          "title": "Ophiocordyceps unilateralis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Vampire Squid",
+      "body": "Vampire squid have a unique ability to turn their skin into a 'cloak of darkness' by expanding their skin cells to cover their bioluminescent spots.",
+      "imageWikipediaTitle": "Vampire squid",
+      "sources": [
+        {
+          "title": "Vampire squid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vampire_squid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vampire_squid",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Electric Eels",
+      "body": "Electric eels can generate up to 600 volts of electricity, which they use for self-defense and hunting.",
+      "imageWikipediaTitle": "Electric eel",
+      "sources": [
+        {
+          "title": "Electric eel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electric_eel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Electric_eel",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Glowing Waves",
+      "body": "Certain types of phytoplankton can make waves glow in the dark, a phenomenon known as 'sea sparkles'.",
+      "sources": [
+        {
+          "title": "Bioluminescence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bioluminescence"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bioluminescence",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Butterfly Taste",
+      "body": "Butterflies taste with their feet, which helps them detect the sweetness or bitterness of a substance.",
+      "imageWikipediaTitle": "Butterfly",
+      "sources": [
+        {
+          "title": "Butterfly",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Butterfly"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Butterfly",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea Pig",
+      "body": "The sea pig is a type of sea cucumber that uses its many tentacles to capture food particles from the seafloor.",
+      "imageWikipediaTitle": "Sea pig",
+      "sources": [
+        {
+          "title": "Sea pig",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_pig"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_pig",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dumbo Octopus",
+      "body": "The Dumbo octopus has ear-like fins that resemble the ears of Disney's Dumbo the elephant.",
+      "imageWikipediaTitle": "Dumbo octopus",
+      "sources": [
+        {
+          "title": "Dumbo octopus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dumbo_octopus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dumbo_octopus",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Axolotl Regeneration",
+      "body": "Axolotls have the unique ability to regrow their limbs, eyes, and parts of their brain, making them a subject of scientific interest.",
+      "imageWikipediaTitle": "Axolotl",
+      "sources": [
+        {
+          "title": "Axolotl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axolotl"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Axolotl",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Narwhal Tusk",
+      "body": "The narwhal's tusk is actually a modified tooth that can grow up to 10 feet long.",
+      "imageWikipediaTitle": "Narwhal",
+      "sources": [
+        {
+          "title": "Narwhal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Narwhal"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Narwhal",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mantis Shrimp",
+      "body": "The mantis shrimp has the most advanced eyes of any animal, with the ability to see up to 12 different colors and perceive polarized light.",
+      "imageWikipediaTitle": "Mantis shrimp",
+      "sources": [
+        {
+          "title": "Mantis shrimp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mantis_shrimp"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Star-Nosed Mole",
+      "body": "The star-nosed mole has 22 fleshy tentacles on its snout that it uses to detect seismic vibrations in the ground.",
+      "imageWikipediaTitle": "Star-nosed mole",
+      "sources": [
+        {
+          "title": "Star-nosed mole",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Star-nosed_mole"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Star-nosed_mole",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Blobfish",
+      "body": "The blobfish is a deep-sea fish that has a soft, gelatinous body and a head that is surrounded by a floating mass of flesh.",
+      "imageWikipediaTitle": "Blobfish",
+      "sources": [
+        {
+          "title": "Blobfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blobfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blobfish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Aye-Aye",
+      "body": "The aye-aye is a type of lemur that has a long, thin middle finger that it uses to catch insects and grubs.",
+      "imageWikipediaTitle": "Aye-aye",
+      "sources": [
+        {
+          "title": "Aye-aye",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aye-aye"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Aye-aye",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tarsier Eyes",
+      "body": "The tarsier has the largest eyes of any mammal relative to its body size, with eyes that are fixed in place and can only move by rotating its head.",
+      "imageWikipediaTitle": "Tarsier",
+      "sources": [
+        {
+          "title": "Tarsier",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tarsier"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tarsier",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Duck-Billed Platypus",
+      "body": "The duck-billed platypus is one of the few venomous mammals, with males having a venomous spur on their hind legs.",
+      "imageWikipediaTitle": "Platypus",
+      "sources": [
+        {
+          "title": "Platypus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Platypus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Platypus",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What shape is wombat scat?",
+      "options": [
+        "Circular",
+        "Triangular",
+        "Cubic",
+        "Oval"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wombat scat is cubic in shape, which helps it stay in place on rocky terrain."
+    },
+    {
+      "cardIndex": 5,
+      "question": "How much of our dreams do we tend to forget?",
+      "options": [
+        "50%",
+        "75%",
+        "90%",
+        "25%"
+      ],
+      "correctIndex": 2,
+      "explanation": "Research suggests that we tend to forget up to 90% of our dreams within the first few minutes of waking."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What is unique about the vampire squid's skin?",
+      "options": [
+        "It changes color",
+        "It glows in the dark",
+        "It expands to cover bioluminescent spots",
+        "It is transparent"
+      ],
+      "correctIndex": 2,
+      "explanation": "The vampire squid has a unique ability to expand its skin cells to cover its bioluminescent spots, turning its skin into a 'cloak of darkness'."
+    },
+    {
+      "cardIndex": 12,
+      "question": "What do butterflies use to taste?",
+      "options": [
+        "Their antennae",
+        "Their feet",
+        "Their proboscis",
+        "Their wings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Butterflies taste with their feet, which helps them detect the sweetness or bitterness of a substance."
+    },
+    {
+      "cardIndex": 15,
+      "question": "What is unique about the axolotl's abilities?",
+      "options": [
+        "It can fly",
+        "It can breathe underwater",
+        "It can regrow its limbs",
+        "It can change color"
+      ],
+      "correctIndex": 2,
+      "explanation": "The axolotl has the unique ability to regrow its limbs, eyes, and parts of its brain, making it a subject of scientific interest."
+    },
+    {
+      "cardIndex": 18,
+      "question": "What is the narwhal's tusk actually?",
+      "options": [
+        "A modified tooth",
+        "A horn",
+        "A fin",
+        "A sensory organ"
+      ],
+      "correctIndex": 0,
+      "explanation": "The narwhal's tusk is actually a modified tooth that can grow up to 10 feet long."
+    },
+    {
+      "cardIndex": 22,
+      "question": "What is unique about the star-nosed mole's snout?",
+      "options": [
+        "It has a long, thin nose",
+        "It has 22 fleshy tentacles",
+        "It has a flat, disk-like shape",
+        "It has a pointed, triangular shape"
+      ],
+      "correctIndex": 1,
+      "explanation": "The star-nosed mole has 22 fleshy tentacles on its snout that it uses to detect seismic vibrations in the ground."
+    },
+    {
+      "cardIndex": 25,
+      "question": "What is the duck-billed platypus?",
+      "options": [
+        "A type of mammal",
+        "A type of bird",
+        "A type of reptile",
+        "A type of fish"
+      ],
+      "correctIndex": 0,
+      "explanation": "The duck-billed platypus is one of the few venomous mammals, with males having a venomous spur on their hind legs."
+    }
+  ]
+}
