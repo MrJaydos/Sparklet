@@ -6,6 +6,7 @@ import type { FeedCard, FeedQuiz } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
 import { CategorySheet, type CategoryOption } from "./CategorySheet";
 import { SearchSheet } from "./SearchSheet";
+import { MenuSheet } from "./MenuSheet";
 import { CommentsSheet } from "./CommentsSheet";
 import { ReportSheet } from "./ReportSheet";
 import { QuizView } from "./QuizView";
@@ -52,6 +53,8 @@ export function Feed({
   const [streak, setStreak] = useState(initialStreak);
   const [showSheet, setShowSheet] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+  const [showSwipeHint, setShowSwipeHint] = useState(false);
   const [commentsFor, setCommentsFor] = useState<FeedCard | null>(null);
   const [reportFor, setReportFor] = useState<string | null>(null);
   const [sessionViews, setSessionViews] = useState(0);
@@ -380,7 +383,7 @@ export function Feed({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== " ") return;
-      if (showSheet || showSearch || commentsFor || reportFor) return;
+      if (showSheet || showSearch || showMenu || commentsFor || reportFor) return;
       if (document.querySelector("[data-lightbox]")) return;
       e.preventDefault();
       containerRef.current?.scrollBy({
@@ -390,7 +393,26 @@ export function Feed({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [showSheet, showSearch, commentsFor, reportFor]);
+  }, [showSheet, showSearch, showMenu, commentsFor, reportFor]);
+
+  // One-time swipe hint for brand-new visitors; dismissed by the first scroll.
+  useEffect(() => {
+    try {
+      if (!localStorage.getItem("sparklet.hinted")) {
+        queueMicrotask(() => setShowSwipeHint(true));
+      }
+    } catch {
+      /* private mode */
+    }
+  }, []);
+  const dismissSwipeHint = useCallback(() => {
+    setShowSwipeHint(false);
+    try {
+      localStorage.setItem("sparklet.hinted", "1");
+    } catch {
+      /* private mode */
+    }
+  }, []);
 
   // Prefetch each incoming batch's images so swipes feel instant — and so
   // the service worker has them cached before a connection drop.
@@ -438,23 +460,15 @@ export function Feed({
       <header className="pointer-events-none absolute inset-x-0 top-0 z-40 flex items-center justify-between gap-2 px-4 pb-2 pt-[calc(env(safe-area-inset-top)+0.625rem)]">
         <Link
           href="/"
-          className="pointer-events-auto whitespace-nowrap text-lg font-bold drop-shadow"
+          className="pointer-events-auto shrink-0 whitespace-nowrap text-base font-bold drop-shadow sm:text-lg"
         >
           ✨ Sparklet
         </Link>
         <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
           <button
             type="button"
-            onClick={() => setShowSearch(true)}
-            aria-label="Search cards"
-            className="rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
-          >
-            🔍
-          </button>
-          <button
-            type="button"
             onClick={() => setShowSheet(true)}
-            className="min-w-0 max-w-32 truncate rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
+            className="min-w-0 max-w-28 truncate rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:max-w-40"
           >
             {topicLabel} ▾
           </button>
@@ -464,31 +478,26 @@ export function Feed({
           >
             🔥 {streak}
           </span>
-          <Link
-            href="/notifications"
-            aria-label="Notifications"
+          <button
+            type="button"
+            onClick={() => setShowMenu(true)}
+            aria-label="Menu"
             className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
           >
-            🔔
+            ☰
             {initialUnread > 0 && (
               <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-violet-600 px-1 text-[10px] font-bold text-white">
                 {initialUnread > 9 ? "9+" : initialUnread}
               </span>
             )}
-          </Link>
-          <Link
-            href="/profile"
-            aria-label="Profile"
-            className="rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
-          >
-            👤
-          </Link>
+          </button>
         </div>
       </header>
 
       {/* The feed */}
       <div
         ref={containerRef}
+        onScroll={showSwipeHint ? dismissSwipeHint : undefined}
         className="no-scrollbar h-dvh snap-y snap-mandatory overflow-y-scroll"
       >
         {items.map((item, i) =>
@@ -596,6 +605,29 @@ export function Feed({
           ↓
         </button>
       </div>
+
+      {/* First-visit swipe hint */}
+      {showSwipeHint && cards.length > 1 && (
+        <div className="pointer-events-none absolute inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5.5rem)] z-40 flex flex-col items-center gap-1">
+          <div className="animate-bounce text-4xl drop-shadow" aria-hidden>
+            👆
+          </div>
+          <span className="rounded-full bg-neutral-900/85 px-4 py-1.5 text-sm text-neutral-200 backdrop-blur">
+            Swipe up for the next card
+          </span>
+        </div>
+      )}
+
+      {showMenu && (
+        <MenuSheet
+          unread={initialUnread}
+          onClose={() => setShowMenu(false)}
+          onSearch={() => {
+            setShowMenu(false);
+            setShowSearch(true);
+          }}
+        />
+      )}
 
       {showSearch && <SearchSheet onClose={() => setShowSearch(false)} />}
 

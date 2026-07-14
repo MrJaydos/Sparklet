@@ -214,6 +214,19 @@ export async function getFeedCards(opts: {
 
   const newTake = Math.max(0, take - reviewCards.length);
 
+  // New users should recognize their onboarding picks immediately: front-load
+  // ~70% of the batch from chosen topics, then blend in everything else.
+  // (The ×3 weight boost alone was too subtle — first swipes looked random.)
+  const compose = (rows: CardRow[]) => {
+    const ordered = order(rows);
+    if (!boostSlugs) return ordered;
+    const boost: CardRow[] = [];
+    const rest: CardRow[] = [];
+    for (const c of ordered) (boostSlugs.has(c.category.slug) ? boost : rest).push(c);
+    const head = boost.slice(0, Math.ceil(newTake * 0.7));
+    return [...head, ...shuffle([...rest, ...boost.slice(head.length)])];
+  };
+
   const unseen = (await prisma.card.findMany({
     where: { ...baseWhere, interactions: { none: { userId } } },
     include,
@@ -223,7 +236,7 @@ export async function getFeedCards(opts: {
     return {
       cards: await withRelated([
         ...reviewCards,
-        ...order(unseen)
+        ...compose(unseen)
           .filter((c) => !reviewIds.has(c.id))
           .slice(0, newTake)
           .map((c) => toFeedCard(c, false)),
@@ -244,7 +257,7 @@ export async function getFeedCards(opts: {
   return {
     cards: await withRelated([
       ...reviewCards,
-      ...order(seen)
+      ...compose(seen)
         .filter((c) => !reviewIds.has(c.id))
         .slice(0, newTake)
         .map((c) => toFeedCard(c, true)),

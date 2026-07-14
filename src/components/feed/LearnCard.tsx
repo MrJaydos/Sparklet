@@ -279,8 +279,8 @@ export function LearnCard({
           data-wheel-scroll
           className={level === "EXTRA_DEEP" ? "max-h-[45dvh] overflow-y-auto pr-2" : ""}
         >
-          <h2 className="text-2xl font-bold leading-snug sm:text-3xl">{shownTitle}</h2>
-          <p className="mt-3 whitespace-pre-line text-base leading-relaxed text-neutral-300 sm:text-lg">
+          <h2 className="text-xl font-bold leading-snug sm:text-3xl">{shownTitle}</h2>
+          <p className="mt-3 whitespace-pre-line text-[15px] leading-relaxed text-neutral-300 sm:text-lg">
             {shownBody}
           </p>
         </div>
