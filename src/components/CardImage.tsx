@@ -43,7 +43,7 @@ export function CardImage({ src, className }: { src: string; className?: string 
           aria-modal="true"
           aria-label="Image viewer"
           onClick={() => setOpen(false)}
-          className="fixed inset-0 z-[60] flex cursor-zoom-out items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+          className="fixed inset-0 z-[60] flex touch-none cursor-zoom-out items-center justify-center overscroll-contain bg-black/90 p-4 backdrop-blur-sm"
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={src} alt="" className="max-h-full max-w-full rounded-xl object-contain" />

@@ -312,6 +312,7 @@ export function Feed({
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== " ") return;
       if (showSheet || showSearch || commentsFor || reportFor) return;
+      if (document.querySelector("[data-lightbox]")) return;
       e.preventDefault();
       containerRef.current?.scrollBy({
         top: (e.key === "ArrowUp" ? -1 : 1) * window.innerHeight,
