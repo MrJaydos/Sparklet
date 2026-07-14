@@ -6,7 +6,7 @@ import { useState } from "react";
 export function OnboardingGrid({
   categories,
 }: {
-  categories: { id: string; name: string; colorHex: string; icon: string }[];
+  categories: { id: string; slug: string; name: string; colorHex: string; icon: string }[];
 }) {
   const router = useRouter();
   const [picked, setPicked] = useState<string[]>([]);
@@ -31,6 +31,14 @@ export function OnboardingGrid({
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ categoryIds }),
       });
+      // Picks become the feed's topic selection (same as the topic picker) —
+      // the feed pins to them, and the user can widen it anytime.
+      const slugs = categories.filter((c) => categoryIds.includes(c.id)).map((c) => c.slug);
+      try {
+        localStorage.setItem("sparklet.categories", JSON.stringify(slugs));
+      } catch {
+        /* private mode */
+      }
     } finally {
       router.push("/feed");
     }
