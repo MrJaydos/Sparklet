@@ -15,6 +15,11 @@ const prisma = new PrismaClient({
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
+// Pause between cards and per-run ceiling: the backfill is deliberately slow
+// and spread across deploys — narration must never contend with real traffic.
+const PAUSE_MS = Number(process.env.PREGEN_PAUSE_MS) || 3_000;
+const MAX_PER_RUN = Number(process.env.PREGEN_MAX_PER_RUN) || 150;
+
 async function main() {
   if (!audioCacheEnabled()) {
     console.log("Audio pre-generation skipped (PIPER_URL and/or S3 not configured).");
@@ -30,6 +35,10 @@ async function main() {
   let generated = 0;
   let failed = 0;
   for (const card of cards) {
+    if (generated >= MAX_PER_RUN) {
+      console.log(`Per-run ceiling of ${MAX_PER_RUN} reached — the rest continues next deploy.`);
+      break;
+    }
     if (await hasCardAudio(card.id)) continue;
     try {
       await getCardAudio(card.id, `${card.title}. ${card.body}`);
@@ -42,8 +51,7 @@ async function main() {
         break;
       }
     }
-    // Keep the box breathable — this shares CPU with the live app.
-    await sleep(500);
+    await sleep(PAUSE_MS);
   }
   console.log(`Audio pre-generation done: ${generated} generated, ${failed} failed, ${cards.length} total published cards.`);
 }
