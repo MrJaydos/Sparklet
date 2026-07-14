@@ -16,7 +16,7 @@ export type FeedCard = {
   score: number;
   myVote: number;
   commentCount: number;
-  depthLevel: "SIMPLE" | "STANDARD" | "DEEP";
+  depthLevel: "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
   category: { slug: string; name: string; colorHex: string; icon: string };
   createdAt: string; // ISO — freshness signal ("published X ago")
   related: RelatedLink[]; // light-touch "this connects to…" trail
@@ -71,7 +71,7 @@ type CardRow = {
   sources: unknown;
   readMoreUrl: string;
   score: number;
-  depthLevel: "SIMPLE" | "STANDARD" | "DEEP";
+  depthLevel: "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
   createdAt: Date;
   category: { slug: string; name: string; colorHex: string; icon: string };
   interactions: { vote: number }[];

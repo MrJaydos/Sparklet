@@ -1,11 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { FeedCard } from "@/lib/feed";
 import { timeAgo } from "@/lib/time";
 
-type DepthVariant = { title: string; body: string; level: "SIMPLE" | "STANDARD" | "DEEP" };
+type DepthLevel = "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
+type DepthVariant = { title: string; body: string; level: DepthLevel };
+
+const DEPTH_PREF_KEY = "sparklet.depth";
 
 export function LearnCard({
   card,
@@ -29,7 +32,7 @@ export function LearnCard({
   const [score, setScore] = useState(card.score);
   const [myVote, setMyVote] = useState(card.myVote);
   const [variant, setVariant] = useState<DepthVariant | null>(null);
-  const [depthLoading, setDepthLoading] = useState<"SIMPLE" | "DEEP" | null>(null);
+  const [depthLoading, setDepthLoading] = useState<Exclude<DepthLevel, "STANDARD"> | null>(null);
   const [depthUnavailable, setDepthUnavailable] = useState(false);
   const variantCache = useState<Map<string, DepthVariant>>(() => new Map())[0];
 
@@ -37,7 +40,7 @@ export function LearnCard({
   const shownTitle = variant?.title ?? card.title;
   const shownBody = variant?.body ?? card.body;
 
-  const setDepth = async (target: "SIMPLE" | "STANDARD" | "DEEP") => {
+  const setDepth = async (target: DepthLevel) => {
     if (target === "STANDARD") {
       setVariant(null);
       return;
@@ -70,6 +73,47 @@ export function LearnCard({
     }
   };
 
+  // A manual tap is also a preference: keep serving that depth on future
+  // cards until the user switches back to Standard.
+  const chooseDepth = (target: DepthLevel) => {
+    try {
+      localStorage.setItem(DEPTH_PREF_KEY, target);
+    } catch {
+      /* private mode */
+    }
+    setDepth(target);
+  };
+
+  // Auto-apply the remembered depth when this card first scrolls into view
+  // (per-view, so a fast scroll doesn't fire a generation for every card).
+  const setDepthRef = useRef(setDepth);
+  useEffect(() => {
+    setDepthRef.current = setDepth;
+  });
+  const rootRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const el = rootRef.current;
+    if (!el) return;
+    let pref: string | null = null;
+    try {
+      pref = localStorage.getItem(DEPTH_PREF_KEY);
+    } catch {
+      return;
+    }
+    if (pref !== "SIMPLE" && pref !== "DEEP" && pref !== "EXTRA_DEEP") return;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          observer.disconnect();
+          setDepthRef.current(pref as DepthLevel);
+        }
+      },
+      { threshold: 0.6 }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   const vote = async (value: 1 | -1) => {
     const next = myVote === value ? 0 : value;
     const prevVote = myVote;
@@ -97,6 +141,7 @@ export function LearnCard({
 
   return (
     <article
+      ref={rootRef}
       className="relative flex h-dvh w-full snap-start flex-col overflow-hidden"
       data-card-id={card.id}
     >
@@ -147,43 +192,42 @@ export function LearnCard({
           </span>
         </div>
 
-        <h2 className="text-2xl font-bold leading-snug sm:text-3xl">{shownTitle}</h2>
-        <p className="mt-3 text-base leading-relaxed text-neutral-300 sm:text-lg">
-          {shownBody}
-        </p>
+        {/* Long-form variants scroll inside the card; the feed's wheel
+            handler yields to [data-wheel-scroll] so desktop can read them. */}
+        <div
+          data-wheel-scroll
+          className={level === "EXTRA_DEEP" ? "max-h-[45dvh] overflow-y-auto pr-2" : ""}
+        >
+          <h2 className="text-2xl font-bold leading-snug sm:text-3xl">{shownTitle}</h2>
+          <p className="mt-3 whitespace-pre-line text-base leading-relaxed text-neutral-300 sm:text-lg">
+            {shownBody}
+          </p>
+        </div>
 
-        {/* Depth toggle — an enhancement; standard text never depends on it */}
+        {/* Depth toggle — an enhancement; standard text never depends on it.
+            Choices persist as a preference for subsequent cards. */}
         {!depthUnavailable && (
-          <div className="mt-3 flex items-center gap-2 text-xs">
-            {level !== "SIMPLE" && (
-              <button
-                type="button"
-                onClick={() => setDepth("SIMPLE")}
-                disabled={depthLoading !== null}
-                className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200 disabled:opacity-50"
-              >
-                {depthLoading === "SIMPLE" ? "…" : "✨ Simpler"}
-              </button>
-            )}
-            {level !== "STANDARD" && (
-              <button
-                type="button"
-                onClick={() => setDepth("STANDARD")}
-                className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200"
-              >
-                ↩ Standard
-              </button>
-            )}
-            {level !== "DEEP" && (
-              <button
-                type="button"
-                onClick={() => setDepth("DEEP")}
-                disabled={depthLoading !== null}
-                className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200 disabled:opacity-50"
-              >
-                {depthLoading === "DEEP" ? "…" : "🔬 Go deeper"}
-              </button>
-            )}
+          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
+            {(
+              [
+                ["SIMPLE", "✨ Simpler"],
+                ["STANDARD", "↩ Standard"],
+                ["DEEP", "🔬 Go deeper"],
+                ["EXTRA_DEEP", "📚 Extra deep"],
+              ] as [DepthLevel, string][]
+            )
+              .filter(([l]) => l !== level)
+              .map(([l, label]) => (
+                <button
+                  key={l}
+                  type="button"
+                  onClick={() => chooseDepth(l)}
+                  disabled={depthLoading !== null && l !== "STANDARD"}
+                  className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200 disabled:opacity-50"
+                >
+                  {depthLoading === l ? "…" : label}
+                </button>
+              ))}
           </div>
         )}
 

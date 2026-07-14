@@ -13,11 +13,11 @@ import { contentHash } from "@/lib/content-schema";
  * never depend on it.
  */
 
-const bodySchema = z.object({ level: z.enum(["SIMPLE", "DEEP"]) });
+const bodySchema = z.object({ level: z.enum(["SIMPLE", "DEEP", "EXTRA_DEEP"]) });
 
 const variantSchema = z.object({
   title: z.string().min(5).max(120),
-  body: z.string().min(30).max(1200),
+  body: z.string().min(30).max(4000),
 });
 
 export async function POST(
@@ -60,10 +60,14 @@ export async function POST(
     return NextResponse.json({ error: "depth variants unavailable" }, { status: 503 });
   }
 
-  const spec =
-    level === "SIMPLE"
-      ? "a SIMPLER version: 30-45 words, plainer vocabulary a 12-year-old follows easily, keep the single most interesting point"
-      : "a DEEPER version: 90-130 words adding mechanism, context or a second supporting detail — still one coherent idea, no lists";
+  const specs = {
+    SIMPLE:
+      "a SIMPLER version: 30-45 words, plainer vocabulary a 12-year-old follows easily, keep the single most interesting point",
+    DEEP: "a DEEPER version: 90-130 words adding mechanism, context or a second supporting detail — still one coherent idea, no lists",
+    EXTRA_DEEP:
+      "an EXTRA-DEEP version: a 300-450 word mini-article in 3-5 short paragraphs separated by blank lines — explain the mechanism, add history or wider context, and end on a surprising implication. Flowing prose only: no headings, no lists",
+  } as const;
+  const spec = specs[level];
 
   const prompt = `Rewrite this learning card as ${spec}. Stay strictly within the facts of the original — do not introduce new claims that its sources would not support.
 

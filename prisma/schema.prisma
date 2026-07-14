@@ -142,6 +142,7 @@ enum DepthLevel {
   SIMPLE
   STANDARD
   DEEP
+  EXTRA_DEEP // multi-paragraph mini-article
 }
 
 model UserCardInteraction {

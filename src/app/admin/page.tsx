@@ -77,10 +77,10 @@ async function reviewCard(formData: FormData) {
 const btn =
   "rounded-lg px-3 py-1.5 text-xs font-semibold transition disabled:opacity-40";
 
+const daysAgo = (n: number) => new Date(Date.now() - n * 86_400_000);
+
 export default async function AdminPage() {
   await requireAdmin();
-
-  const daysAgo = (n: number) => new Date(Date.now() - n * 86_400_000);
 
   const [userCount, publishedCount, unpublished, openReports, commentCount] =
     await Promise.all([

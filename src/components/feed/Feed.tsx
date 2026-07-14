@@ -280,6 +280,14 @@ export function Feed({
     let locked = false;
     let acc = 0;
     const onWheel = (e: WheelEvent) => {
+      // Long-form card text scrolls natively; only hijack once it's exhausted.
+      const inner = (e.target as HTMLElement | null)?.closest?.("[data-wheel-scroll]");
+      if (inner && inner.scrollHeight > inner.clientHeight) {
+        const atTop = inner.scrollTop <= 0 && e.deltaY < 0;
+        const atBottom =
+          inner.scrollTop + inner.clientHeight >= inner.scrollHeight - 1 && e.deltaY > 0;
+        if (!atTop && !atBottom) return;
+      }
       e.preventDefault();
       if (locked) return;
       // deltaMode: 0 = pixels, 1 = lines, 2 = pages (Firefox uses lines).
