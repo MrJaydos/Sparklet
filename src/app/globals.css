@@ -44,6 +44,21 @@ body {
   animation: confetti-fly var(--dur) cubic-bezier(0.15, 0.6, 0.4, 1) forwards;
 }
 
+/* Panels that drop down from the header (menu, XP explainer) */
+@keyframes sheet-drop {
+  from {
+    transform: translateY(-16px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.sheet-drop {
+  animation: sheet-drop 180ms ease-out;
+}
+
 /* "+N XP" chip floating up out of an answer result */
 @keyframes xp-float {
   0% {
