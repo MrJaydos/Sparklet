@@ -19,7 +19,7 @@ export default async function OnboardingPage() {
     <main className="mx-auto flex min-h-dvh w-full max-w-lg flex-col justify-center px-6 py-10">
       <h1 className="text-3xl font-bold">What sparks your curiosity?</h1>
       <p className="mt-2 text-neutral-400">
-        Pick 3–5 topics to shape your first feed. You&apos;ll still see
+        Pick at least 3 topics to shape your first feed. You&apos;ll still see
         everything — this just decides where we start.
       </p>
       <OnboardingGrid categories={categories} />

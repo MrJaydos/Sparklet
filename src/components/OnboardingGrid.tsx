@@ -10,16 +10,22 @@ export function OnboardingGrid({
 }) {
   const router = useRouter();
   const [picked, setPicked] = useState<string[]>([]);
+  const [name, setName] = useState("");
   const [busy, setBusy] = useState(false);
 
   const toggle = (id: string) =>
-    setPicked((p) =>
-      p.includes(id) ? p.filter((x) => x !== id) : p.length < 5 ? [...p, id] : p
-    );
+    setPicked((p) => (p.includes(id) ? p.filter((x) => x !== id) : [...p, id]));
 
   const submit = async (categoryIds: string[]) => {
     setBusy(true);
     try {
+      if (name.trim()) {
+        await fetch("/api/profile", {
+          method: "PATCH",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ name: name.trim() }),
+        }).catch(() => {});
+      }
       await fetch("/api/interests", {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -32,7 +38,16 @@ export function OnboardingGrid({
 
   return (
     <>
-      <div className="mt-6 grid grid-cols-2 gap-2 sm:grid-cols-3">
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        maxLength={40}
+        placeholder="What should we call you? (optional)"
+        className="mt-6 w-full rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm text-neutral-100 placeholder:text-neutral-500 focus:border-violet-500 focus:outline-none"
+      />
+
+      <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
         {categories.map((c) => {
           const active = picked.includes(c.id);
           return (

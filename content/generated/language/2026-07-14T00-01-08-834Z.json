@@ -1,0 +1,236 @@
+{
+  "generatedAt": "2026-07-14T00:01:08.835Z",
+  "model": "llama-3.3-70b-versatile",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Swahili Greeting",
+      "body": "In Swahili, habari (hah-BAH-ree) means 'hello' or 'greetings' — literally 'news', as in 'what's the news?'. Swahili is written in the Latin alphabet, and a warm reply is nzuri (n-ZOO-ree), meaning 'good'.",
+      "imageWikipediaTitle": "Swahili language",
+      "sources": [
+        {
+          "title": "Swahili language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Swahili_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Swahili_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Polite in Thai",
+      "body": "In Thai, ค่ะ (kha) (KAH) is used to make a statement polite when speaking to someone older or in a position of authority.",
+      "imageWikipediaTitle": "Thai language",
+      "sources": [
+        {
+          "title": "Thai language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thai_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thai_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting in Japanese",
+      "body": "In Japanese, the number one is 一 (ichi) (EE-chee), two is 二 (ni) (NEE), and three is 三 (san) (SAHN).",
+      "imageWikipediaTitle": "Japanese numerals",
+      "sources": [
+        {
+          "title": "Japanese numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_numerals"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Japanese_numerals",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Goodbye in Arabic",
+      "body": "In Arabic, مع السلامة (ma'a as-salaama) (MA-ah ah-sah-LAH-mah) means 'goodbye' or 'go with peace'.",
+      "imageWikipediaTitle": "Arabic language",
+      "sources": [
+        {
+          "title": "Arabic language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arabic_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Please in Spanish",
+      "body": "In Spanish, por favor (pohr fah-VOHR) means 'please', and is used to be polite when asking for something.",
+      "imageWikipediaTitle": "Spanish language",
+      "sources": [
+        {
+          "title": "Spanish language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spanish_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spanish_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Etymology of 'Dictionary'",
+      "body": "The word 'dictionary' comes from the Latin 'dictionarium', meaning 'a collection of words'.",
+      "imageWikipediaTitle": "Dictionary",
+      "sources": [
+        {
+          "title": "Dictionary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dictionary"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dictionary",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Linguistic Diversity",
+      "body": "There are over 7,000 languages spoken worldwide, with many more dialects and regional variations.",
+      "imageWikipediaTitle": "Language",
+      "sources": [
+        {
+          "title": "Language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chinese Tones",
+      "body": "Mandarin Chinese has four main tones: flat (first tone), rising (second tone), falling then rising (third tone), and sharply falling (fourth tone).",
+      "imageWikipediaTitle": "Mandarin Chinese",
+      "sources": [
+        {
+          "title": "Mandarin Chinese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Korean Greeting",
+      "body": "In Korean, 안녕하세요 (annyeonghaseyo) (AHN-yohng-hah-seh-yoh) is a formal greeting, while 안녕 (annyeong) (AHN-yohng) is more informal.",
+      "imageWikipediaTitle": "Korean language",
+      "sources": [
+        {
+          "title": "Korean language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Korean_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Korean_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Russian Alphabet",
+      "body": "The Russian alphabet, also known as Cyrillic, consists of 33 letters and is used to write many languages, including Russian, Ukrainian, and Belarusian.",
+      "imageWikipediaTitle": "Cyrillic script",
+      "sources": [
+        {
+          "title": "Cyrillic script",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cyrillic_script"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cyrillic_script",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "German Grammar",
+      "body": "German grammar has four cases: nominative, accusative, genitive, and dative, which can be challenging for non-native speakers to learn.",
+      "imageWikipediaTitle": "German language",
+      "sources": [
+        {
+          "title": "German language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/German_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Portuguese Pronunciation",
+      "body": "In Portuguese, the letter 'c' is pronounced as /k/ when followed by 'a', 'o', or 'u', but as /s/ when followed by 'e' or 'i'.",
+      "imageWikipediaTitle": "Portuguese language",
+      "sources": [
+        {
+          "title": "Portuguese language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Portuguese_language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does 'habari' mean in Swahili?",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Thank you",
+        "Yes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Habari is a Swahili greeting that means 'hello' or 'greetings'."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the Japanese word for the number one?",
+      "options": [
+        "二 (ni)",
+        "三 (san)",
+        "一 (ichi)",
+        "四 (shi)"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Japanese word for the number one is 一 (ichi)."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What is the origin of the word 'dictionary'?",
+      "options": [
+        "Latin 'dictionarium'",
+        "Greek 'lexikon'",
+        "French 'dictionnaire'",
+        "Spanish 'diccionario'"
+      ],
+      "correctIndex": 0,
+      "explanation": "The word 'dictionary' comes from the Latin 'dictionarium', meaning 'a collection of words'."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How many letters are in the Russian alphabet?",
+      "options": [
+        "26",
+        "30",
+        "33",
+        "40"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Russian alphabet, also known as Cyrillic, consists of 33 letters."
+    }
+  ]
+}

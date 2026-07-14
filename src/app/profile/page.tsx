@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import { revalidatePath } from "next/cache";
 import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
+import { displayName } from "@/lib/display";
 
 export const metadata = { title: "Profile — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -25,6 +27,7 @@ export default async function ProfilePage() {
       where: { id: userId },
       select: {
         email: true,
+        name: true,
         currentStreak: true,
         longestStreak: true,
         streakFreezesAvailable: true,
@@ -88,6 +91,18 @@ export default async function ProfilePage() {
     await signOut({ redirectTo: "/" });
   }
 
+  async function updateNameAction(formData: FormData) {
+    "use server";
+    const session = await auth();
+    if (!session?.user?.id) return;
+    const name = String(formData.get("name") ?? "").trim().slice(0, 40);
+    await prisma.user.update({
+      where: { id: session.user.id },
+      data: { name: name || null },
+    });
+    revalidatePath("/profile");
+  }
+
   return (
     <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
       <div className="flex items-center justify-between">
@@ -108,8 +123,25 @@ export default async function ProfilePage() {
         </div>
       </div>
 
-      <h1 className="mt-6 text-2xl font-bold">Your learning</h1>
+      <h1 className="mt-6 text-2xl font-bold">{displayName(user)}</h1>
       <p className="mt-1 text-sm text-neutral-500">{user.email}</p>
+
+      <form action={updateNameAction} className="mt-3 flex gap-2">
+        <input
+          type="text"
+          name="name"
+          defaultValue={user.name ?? ""}
+          maxLength={40}
+          placeholder="Set a display name"
+          className="min-w-0 flex-1 rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-2 text-sm text-neutral-100 placeholder:text-neutral-500 focus:border-violet-500 focus:outline-none"
+        />
+        <button
+          type="submit"
+          className="rounded-xl border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-300 transition hover:border-neutral-500 hover:text-white"
+        >
+          Save
+        </button>
+      </form>
 
       <div className="mt-6 grid grid-cols-3 gap-3 text-center">
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">

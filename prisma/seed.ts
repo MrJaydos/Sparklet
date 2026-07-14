@@ -16,7 +16,7 @@ const categories = [
   { slug: "nature", name: "Nature", description: "Animals, plants, ecosystems and the living world.", colorHex: "#4ade80", icon: "🌿" },
   { slug: "space", name: "Space", description: "Astronomy, spaceflight and everything beyond the atmosphere.", colorHex: "#818cf8", icon: "🚀" },
   { slug: "health", name: "Health & Body", description: "Nutrition, sleep, exercise and how your body actually works.", colorHex: "#f472b6", icon: "🫀" },
-  { slug: "language", name: "Language & Words", description: "Word origins and linguistics, plus everyday basics from world languages — how to say hello, count and get by, with pronunciation.", colorHex: "#facc15", icon: "🗣️" },
+  { slug: "language", name: "Language & Words", description: "Word origins and linguistics, plus everyday basics from world languages — greetings, counting and phrases, always written in the native script (こんにちは, 你好, مرحبا) alongside romanization and pronunciation.", colorHex: "#facc15", icon: "🗣️" },
   { slug: "philosophy", name: "Philosophy & Ideas", description: "Thought experiments, ethics and big ideas explained simply.", colorHex: "#c084fc", icon: "💭" },
   { slug: "code", name: "Code", description: "Programming, computer science and hacker lore.", colorHex: "#2dd4bf", icon: "💻" },
   { slug: "sales", name: "Sales", description: "Practical sales and persuasion tactics — small, evidence-backed techniques you can use in your next pitch, negotiation or conversation.", colorHex: "#f97316", icon: "🤝" },

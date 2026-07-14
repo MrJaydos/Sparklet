@@ -3,7 +3,7 @@ import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 
-const bodySchema = z.object({ categoryIds: z.array(z.string()).max(8) });
+const bodySchema = z.object({ categoryIds: z.array(z.string()).max(30) });
 
 export async function POST(req: NextRequest) {
   const session = await auth();

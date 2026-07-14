@@ -34,7 +34,7 @@ const FALLBACK_CATEGORIES: Record<string, string> = {
   space: "Astronomy, spaceflight and everything beyond the atmosphere",
   health: "Nutrition, sleep, exercise and how your body actually works",
   language:
-    "Word origins and linguistics, plus everyday basics from world languages — how to say hello, count and get by, with pronunciation",
+    "Word origins and linguistics, plus everyday basics from world languages — greetings, counting and phrases, always written in the native script (こんにちは, 你好, مرحبا) alongside romanization and pronunciation",
   philosophy: "Thought experiments, ethics and big ideas explained simply",
   code: "Programming, computer science and hacker lore",
   sales:
@@ -43,7 +43,18 @@ const FALLBACK_CATEGORIES: Record<string, string> = {
 
 const generatedCardSchema = cardSchema.omit({ category: true });
 
+// Extra per-category instructions appended to the prompt. The description
+// alone is too weak for some requirements — spell them out as hard rules.
+const CATEGORY_PROMPT_EXTRAS: Record<string, string> = {
+  language: `
+Language-specific rules:
+- When a card teaches a word or phrase from another language, the body MUST include it in its native script — e.g. こんにちは (konnichiwa), 안녕하세요 (annyeonghaseyo), مرحبا (marhaban), 你好 (nǐ hǎo) — followed by romanization in parentheses and a plain-English pronunciation hint.
+- NEVER leave empty parentheses or romanization-only where native script belongs. If you cannot produce the native script accurately, pick a different card topic instead.
+- Roughly half the cards should teach practical basics (greetings, counting, please/thank-you, getting by); the rest can cover etymology and linguistics.`,
+};
+
 function buildPrompt(opts: {
+  slug: string;
   categoryName: string;
   categoryDescription: string;
   count: number;
@@ -52,6 +63,7 @@ function buildPrompt(opts: {
   const avoid = opts.existingTitles.length
     ? `\nAlready covered — do NOT repeat these topics:\n${opts.existingTitles.map((t) => `- ${t}`).join("\n")}`
     : "";
+  const extras = CATEGORY_PROMPT_EXTRAS[opts.slug] ?? "";
 
   return `You write cards for Sparklet, a learning feed where every card must be factually accurate and verifiable. Generate ${opts.count} cards about ${opts.categoryName} (${opts.categoryDescription}).
 
@@ -64,7 +76,7 @@ Each card:
 - "type": "TEXT_IMAGE".
 
 Accuracy rules: no urban legends presented as fact, no disputed claims stated flatly, numbers must match the cited source. If a fun "fact" is actually a myth, either skip it or make the card about the myth being false.
-${avoid}
+${extras}${avoid}
 
 Also produce "quizzes": for roughly one third of your cards, a low-stakes multiple-choice question testing that card's core fact:
 - "cardIndex": the 0-based index of the card it tests
@@ -170,6 +182,7 @@ async function generateForCategory(target: {
 }) {
   console.log(`\n▶ ${target.slug}: generating ${target.count} card(s)…`);
   const prompt = buildPrompt({
+    slug: target.slug,
     categoryName: target.name,
     categoryDescription: target.description,
     count: target.count,
