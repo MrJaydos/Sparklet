@@ -1,4 +1,5 @@
 import { redirect } from "next/navigation";
+import { cookies } from "next/headers";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getFeedCards } from "@/lib/feed";
@@ -29,9 +30,11 @@ export default async function FeedPage() {
     }),
     prisma.notification.count({ where: { userId, readAt: null } }),
   ]);
-  // Server render can't know the client timezone; UTC is close enough for
-  // the initial ring — the first interaction response corrects it.
-  const xpToday = await getXpToday(userId, 0);
+  // Client timezone comes from a cookie the feed sets on first visit;
+  // without it (first ever load) UTC approximates and the first
+  // interaction response corrects the ring.
+  const tzRaw = Number((await cookies()).get("sparklet.tz")?.value);
+  const xpToday = await getXpToday(userId, Number.isFinite(tzRaw) ? tzRaw : 0);
 
   // First session: offer interest onboarding (skippable, one-time).
   if (!user.onboardedAt && user._count.interactions === 0) redirect("/onboarding");

@@ -179,13 +179,22 @@ export function Feed({
   // Never leave speech running after leaving the feed.
   useEffect(() => stopSpeech, [stopSpeech]);
 
+  // Timezone hint for the server: lets the next server render compute the
+  // daily XP window in local time instead of guessing UTC.
+  useEffect(() => {
+    document.cookie = `sparklet.tz=${new Date().getTimezoneOffset()}; path=/; max-age=31536000; samesite=lax`;
+  }, []);
+
   // XP flows back from every interaction/answer; crossing the daily goal
-  // gets one big celebration per session.
+  // gets one big celebration per session. Always adopt the server's value:
+  // it's computed with the client's real timezone, unlike the server-rendered
+  // initial (UTC guess), which may start too high — clamping to the max would
+  // freeze the ring until real XP catches the inflated number.
   const handleXp = useCallback(
     (xp: XpInfo | undefined) => {
       if (!xp) return;
       const prev = xpTodayRef.current;
-      const next = Math.max(prev, xp.today);
+      const next = xp.today;
       xpTodayRef.current = next;
       setXpToday(next);
       if (prev < dailyGoal && next >= dailyGoal) {
