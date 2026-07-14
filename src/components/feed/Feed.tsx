@@ -480,9 +480,33 @@ export function Feed({
           </span>
           <button
             type="button"
+            onClick={() => setShowSearch(true)}
+            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+          >
+            🔍 Search
+          </button>
+          <Link
+            href="/notifications"
+            className="relative hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+          >
+            🔔 Notifications
+            {initialUnread > 0 && (
+              <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-violet-600 px-1 text-[10px] font-bold text-white">
+                {initialUnread > 9 ? "9+" : initialUnread}
+              </span>
+            )}
+          </Link>
+          <Link
+            href="/profile"
+            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+          >
+            👤 Profile
+          </Link>
+          <button
+            type="button"
             onClick={() => setShowMenu(true)}
             aria-label="Menu"
-            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
+            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 sm:hidden"
           >
             ☰
             {initialUnread > 0 && (
