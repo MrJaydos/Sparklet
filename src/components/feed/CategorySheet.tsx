@@ -9,6 +9,17 @@ export type CategoryOption = {
   icon: string;
 };
 
+// Same key LearnCard reads to auto-apply a depth as cards scroll into view;
+// STANDARD is stored but treated as "no preference".
+const DEPTH_PREF_KEY = "sparklet.depth";
+type DepthLevel = "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
+const DEPTH_OPTIONS: { level: DepthLevel; label: string; blurb: string }[] = [
+  { level: "SIMPLE", label: "✨ Simpler", blurb: "plain-English takes" },
+  { level: "STANDARD", label: "📖 Standard", blurb: "the card as written" },
+  { level: "DEEP", label: "🔬 Deeper", blurb: "more detail" },
+  { level: "EXTRA_DEEP", label: "📚 Extra deep", blurb: "mini-articles" },
+];
+
 export function CategorySheet({
   categories,
   selected,
@@ -25,9 +36,26 @@ export function CategorySheet({
   onToggleAutoRead: () => void;
 }) {
   const [picked, setPicked] = useState<string[]>(selected);
+  const [depth, setDepth] = useState<DepthLevel>(() => {
+    try {
+      const v = localStorage.getItem(DEPTH_PREF_KEY);
+      return v === "SIMPLE" || v === "DEEP" || v === "EXTRA_DEEP" ? v : "STANDARD";
+    } catch {
+      return "STANDARD";
+    }
+  });
 
   const toggle = (slug: string) =>
     setPicked((p) => (p.includes(slug) ? p.filter((s) => s !== slug) : [...p, slug]));
+
+  const chooseDepth = (level: DepthLevel) => {
+    setDepth(level);
+    try {
+      localStorage.setItem(DEPTH_PREF_KEY, level);
+    } catch {
+      /* private mode */
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col justify-end" role="dialog" aria-modal="true">
@@ -71,6 +99,36 @@ export function CategorySheet({
                 style={active ? { backgroundColor: `${c.colorHex}40`, borderColor: c.colorHex } : undefined}
               >
                 {c.icon} {c.name}
+              </button>
+            );
+          })}
+        </div>
+
+        <h3 className="mt-5 text-sm font-semibold text-neutral-200">Reading depth</h3>
+        <p className="mt-0.5 text-xs text-neutral-500">
+          How much detail cards show — applies from the next card you scroll to.
+        </p>
+        <div className="mt-2 grid grid-cols-2 gap-2">
+          {DEPTH_OPTIONS.map((o) => {
+            const active = depth === o.level;
+            return (
+              <button
+                key={o.level}
+                type="button"
+                onClick={() => chooseDepth(o.level)}
+                aria-pressed={active}
+                className={`rounded-xl border px-3 py-2.5 text-left transition ${
+                  active
+                    ? "border-violet-500 bg-violet-500/15"
+                    : "border-neutral-800 bg-neutral-900 hover:border-neutral-600"
+                }`}
+              >
+                <span
+                  className={`block text-sm font-medium ${active ? "text-violet-300" : "text-neutral-300"}`}
+                >
+                  {o.label}
+                </span>
+                <span className="block text-xs text-neutral-500">{o.blurb}</span>
               </button>
             );
           })}
