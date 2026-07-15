@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-15T18:03:20.932Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Can cows actually walk down stairs?",
+      "body": "You may have heard that cows physically cannot walk down stairs. This is actually a myth. While cows have the physical capability to walk downstairs, they are extremely reluctant to do so. Their joint structure makes it highly awkward, and their poor vertical depth perception makes looking down stairs terrifying. With training or enough motivation, however, a cow can successfully navigate a flight of stairs.",
+      "imageWikipediaTitle": "Cattle",
+      "sources": [
+        {
+          "title": "Cattle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cattle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cattle",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "High heels were originally made for men",
+      "body": "High heels were not originally designed for women's fashion, but for 10th-century Persian cavalrymen. The heels secured a soldier's feet in his stirrups, allowing him to stand up and shoot arrows with much greater stability while riding a galloping horse. When Persian diplomats visited Europe in 1599, European aristocrats eagerly adopted the shoes as a masculine symbol of power, wealth, and military prowess.",
+      "imageWikipediaTitle": "High-heeled_shoe",
+      "sources": [
+        {
+          "title": "High-heeled shoe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/High-heeled_shoe"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/High-heeled_shoe",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sharks existed before trees did",
+      "body": "Sharks are evolutionary survivors of the highest order. Fossil evidence shows that early shark ancestors were swimming in the world's oceans roughly 450 million years ago. Meanwhile, the earliest ancestral land trees did not evolve until about 350 million years ago. This means sharks successfully navigated four out of the \"Big Five\" mass extinction events, pre-dating trees, dinosaurs, and even Saturn's rings.",
+      "imageWikipediaTitle": "Shark",
+      "sources": [
+        {
+          "title": "Shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shark"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Shark",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The time Switzerland accidentally invaded Liechtenstein",
+      "body": "In March 2007, a company of 170 Swiss infantry soldiers accidentally crossed the unmarked border into neighboring Liechtenstein during a nighttime military training exercise. Armed with assault rifles but no ammunition, the soldiers marched over a mile into the tiny principality before realizing their mistake and turning back. Liechtenstein's government only found out about the \"invasion\" when Switzerland officially apologized the next morning.",
+      "imageWikipediaTitle": "Liechtenstein",
+      "sources": [
+        {
+          "title": "Liechtenstein–Switzerland relations",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liechtenstein%E2%80%93Switzerland_relations"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Liechtenstein%E2%80%93Switzerland_relations",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cleopatra lived closer to the Moon landing than to the Pyramids",
+      "body": "Ancient Egypt's history spans a mind-boggling amount of time. Cleopatra VII, the famous final ruler of the Ptolemaic Kingdom, died in 30 BC. This means her life occurred roughly 1,999 years before the Apollo 11 Moon landing in 1969. In contrast, the construction of the Great Pyramid of Giza was completed around 2560 BC, more than 2,500 years before Cleopatra was even born.",
+      "imageWikipediaTitle": "Cleopatra",
+      "sources": [
+        {
+          "title": "Cleopatra",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cleopatra"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cleopatra",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sloths can hold their breath longer than dolphins",
+      "body": "Sloths are famously slow on land, but they are surprisingly accomplished swimmers. Even more shocking is their lung capacity: a sloth can hold its breath underwater for up to 40 minutes. They achieve this feat by actively slowing their metabolism and reducing their heart rate to less than a third of its normal pace. By comparison, dolphins must surface for air roughly every ten minutes.",
+      "imageWikipediaTitle": "Three-toed_sloth",
+      "sources": [
+        {
+          "title": "Sloth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sloth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sloth",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The radar-hiding myth of carrot vision",
+      "body": "The popular belief that eating carrots gives you excellent night vision was actually a highly successful piece of military propaganda. During World War II, the British Royal Air Force developed a new, secret airborne radar technology to intercept German bombers at night. To keep this technological breakthrough under wraps, the government launched a public campaign claiming their pilots' deadly accuracy was due to eating lots of carrots.",
+      "imageWikipediaTitle": "Carrot",
+      "sources": [
+        {
+          "title": "Carrot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carrot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Carrot",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The gross but clever way vultures cool down",
+      "body": "Vultures have a stomach-churning yet highly effective survival trick called urohidrosis. To beat the heat, they urinate and defecate directly onto their own legs. As the liquid evaporates, it cools the blood vessels in their legs, lowering their overall body temperature. Furthermore, because vulture waste is highly acidic, it acts as a sterile disinfectant, killing off any nasty bacteria they picked up while walking on decaying carcasses.",
+      "imageWikipediaTitle": "Vulture",
+      "sources": [
+        {
+          "title": "Urohidrosis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Urohidrosis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Urohidrosis",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why humans share half their DNA with bananas",
+      "body": "It might sound bizarre, but humans share about 50% of their DNA with bananas. This does not mean we are half-fruit. Instead, it reflects our deep evolutionary history. Millions of years ago, humans and bananas shared a common single-celled ancestor. Many of the fundamental genes required for basic cellular function—like replicating DNA, managing cell division, and processing nutrients—remain identical across almost all complex life on Earth today.",
+      "imageWikipediaTitle": "Banana",
+      "sources": [
+        {
+          "title": "Sequence homology",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sequence_homology"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sequence_homology",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The birds that sleep while flying",
+      "body": "Great frigatebirds can spend months continuously flying over the open ocean without landing. To survive these marathon flights, they have evolved the ability to sleep in midair. They can put one hemisphere of their brain to sleep while keeping the other active to navigate. Sometimes, they even enter full REM sleep with both hemispheres shut down, gliding safely through the sky in short bursts of up to ten seconds.",
+      "imageWikipediaTitle": "Great_frigatebird",
+      "sources": [
+        {
+          "title": "Frigatebird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frigatebird"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Frigatebird",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What makes it difficult and frightening for a cow to walk downstairs?",
+      "options": [
+        "They are physically unable to bend their knees",
+        "Their joint structure and poor depth perception make it awkward and scary",
+        "They lack a sense of balance when facing downward",
+        "Their hooves slip easily on flat stair surfaces"
+      ],
+      "correctIndex": 1,
+      "explanation": "While cows are physically capable of walking down stairs, their joint anatomy and poor vertical vision make it highly unnatural and terrifying for them."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why were high heels originally invented in 10th-century Persia?",
+      "options": [
+        "To keep riders' feet secure in stirrups while shooting arrows",
+        "To keep royal garments from dragging in the dirt",
+        "To make soldiers look taller and more intimidating",
+        "To prevent slipping on wet ship decks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Persian cavalrymen wore high heels to secure their boots in stirrups, giving them the stability needed to shoot bows and arrows while riding."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which neighboring country did Swiss soldiers accidentally invade in 2007?",
+      "options": [
+        "Austria",
+        "France",
+        "Liechtenstein",
+        "Italy"
+      ],
+      "correctIndex": 2,
+      "explanation": "A company of 170 Swiss soldiers got lost in the dark and wandered over a mile into Liechtenstein, which only found out when Switzerland apologized."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why did the British government spread the myth that eating carrots improves night vision?",
+      "options": [
+        "To deal with a massive national carrot surplus",
+        "To hide their secret invention of airborne radar technology",
+        "To discourage people from buying expensive imported fruits",
+        "To improve the health of factory workers during rationing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The British Royal Air Force used the carrot rumor to explain their pilots' nighttime success, successfully masking their secret radar technology from the Germans."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why do vultures engage in the practice of urohidrosis (urinating on their own legs)?",
+      "options": [
+        "To mark their territory while feeding",
+        "To cool their body temperature and disinfect their legs",
+        "To attract potential mates during breeding season",
+        "To soften the tough hides of their prey"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urohidrosis cools a vulture's blood vessels via evaporation and uses highly acidic waste to kill off bacteria picked up from rotting carcasses."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How do great frigatebirds manage to sleep while flying over the ocean?",
+      "options": [
+        "They only sleep when riding thermal updrafts with closed eyes",
+        "They shut down one brain hemisphere at a time, or occasionally both for seconds",
+        "They fall into a light sleep state that keeps their wings beating automatically",
+        "They don't actually sleep at all during flights, resting only after landing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frigatebirds use unihemispheric sleep to rest one half of the brain while flying, and can even put both halves to sleep for seconds at a time."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many millions of years older are sharks than the first trees on Earth?",
+      "answer": 100,
+      "min": 10,
+      "max": 300,
+      "unit": "million years",
+      "explanation": "Sharks evolved roughly 450 million years ago, whereas the earliest trees didn't appear until about 350 million years ago!"
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many years elapsed between Cleopatra's death (30 BC) and the Apollo 11 moon landing (1969 AD)?",
+      "answer": 1999,
+      "min": 500,
+      "max": 4000,
+      "unit": "years",
+      "explanation": "Cleopatra died in 30 BC, meaning she lived 1,999 years before the Moon landing, but over 2,500 years after the Great Pyramid of Giza was built."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "How many minutes can a three-toed sloth hold its breath underwater?",
+      "answer": 40,
+      "min": 5,
+      "max": 120,
+      "unit": "minutes",
+      "explanation": "By slowing down their metabolism and heart rate to a third of their normal speed, sloths can stay underwater for up to 40 minutes!"
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "What percentage of their DNA do humans share with bananas?",
+      "answer": 50,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Because humans and bananas share a distant single-celled ancestor, we still share about 50% of our basic housekeeping genes."
+    }
+  ]
+}

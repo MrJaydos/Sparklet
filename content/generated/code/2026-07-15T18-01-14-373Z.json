@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-15T18:01:14.373Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The woman who fought to make software a real science",
+      "body": "In the 1960s, writing code was seen as menial clerical work compared to hardware engineering. While leading the team writing flight software for NASA's Apollo missions, Margaret Hamilton began calling her discipline \"software engineering\" to earn it the respect it deserved. She fought for its recognition, and her code ultimately saved the Apollo 11 lunar landing when the radar overloaded.",
+      "imageWikipediaTitle": "Margaret Hamilton (software engineer)",
+      "sources": [
+        {
+          "title": "Margaret Hamilton (software engineer)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a missing hyphen doomed a rocket",
+      "body": "In 1962, the Mariner 1 space probe was launched toward Venus. Just 293 seconds after liftoff, a guidance officer ordered its destruction due to erratic flight. The culprit was a single missing hyphen or overline in the handwritten guidance equations, which was transcribed incorrectly into the computer code. This small omission caused the computer to miscalculate steering commands, costing NASA over $18 million.",
+      "imageWikipediaTitle": "Mariner 1",
+      "sources": [
+        {
+          "title": "Mariner 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mariner_1"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mariner_1",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we call software updates \"patches\"",
+      "body": "Today, downloading a software patch happens in seconds over the internet. But the term has a literal, physical origin. Early computer programs were stored on paper tape or punched cardboard cards. When programmers discovered an error, they would correct the code by physically gluing small patches of paper over the incorrect holes, or punching new holes over existing ones to modify the instructions.",
+      "imageWikipediaTitle": "Punched tape",
+      "sources": [
+        {
+          "title": "Patch (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Patch_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Patch_(computing)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The humble origin of coding's universal greeting",
+      "body": "Almost every programmer begins their journey by writing a program that displays \"Hello, World!\" This tradition started in 1972 with Brian Kernighan. He wrote the first known instance in an internal tutorial for the B programming language at Bell Labs. He later reused it in his famous 1978 book on C, cementing it as the global entry point for learning how to code.",
+      "imageWikipediaTitle": "\"Hello, World!\" program",
+      "sources": [
+        {
+          "title": "\"Hello, World!\" program",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a backup on a pregnant mom's computer saved Toy Story 2",
+      "body": "In 1998, an accidental command deleted 90% of Pixar's files for Toy Story 2. Worse, the master backup system had silently failed. The film was rescued by Galyn Susman, the supervising technical director, who had been working from home after giving birth. She had a copy of the entire movie database on her home computer. They carefully drove her computer to Pixar to restore the film.",
+      "imageWikipediaTitle": "Toy Story 2",
+      "sources": [
+        {
+          "title": "Toy Story 2",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toy_Story_2"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Toy_Story_2",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mysterious magic number that sped up 3D gaming",
+      "body": "In 1999, the video game Quake III Arena revolutionized 3D graphics using an insanely fast algorithm to calculate reflection and lighting. It relied on a mathematical trick that bypassed standard division. At its core was a mysterious hexadecimal constant, 0x5f3759df. By manipulating the bits of floating-point numbers, this \"magic number\" computed inverse square roots four times faster than standard methods, with almost perfect accuracy.",
+      "imageWikipediaTitle": "Fast inverse square root",
+      "sources": [
+        {
+          "title": "Fast inverse square root",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_inverse_square_root"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_inverse_square_root",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programming language designed to hurt your brain",
+      "body": "In 1993, Urban Müller created Brainfuck, a programming language designed to be as difficult and minimalist as possible. It consists of only eight simple commands, represented by single characters like +, -, <, and >. While practically useless for real-world software, it is Turing-complete, meaning it can theoretically compute anything. Müller's goal was to write a compiler for it that was under 240 bytes.",
+      "imageWikipediaTitle": "Brainfuck",
+      "sources": [
+        {
+          "title": "Brainfuck",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brainfuck"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brainfuck",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The race condition that turned a healer into a killer",
+      "body": "Between 1985 and 1987, the Therac-25 radiation therapy machine gave massive overdoses of radiation to several cancer patients, killing at least three. The cause was a software bug known as a race condition. If an operator corrected a mistake too quickly, the machine's software failed to configure the hardware safety shields before activating the high-energy electron beam, firing raw radiation directly into the patients.",
+      "imageWikipediaTitle": "Radiation therapy",
+      "sources": [
+        {
+          "title": "Therac-25",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Therac-25"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Therac-25",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The six women who programmed the world's first computer",
+      "body": "In 1946, the ENIAC, the world's first general-purpose electronic computer, was unveiled. While male engineers received the credit, six women—Kay McNulty, Betty Jennings, Marlyn Wescoff, Ruth Lichterman, Frances Bilas, and Jean Bartik—did the actual programming. With no programming languages or manuals in existence, they had to map out programs using paper blueprints and physically configure the machine's 3,000 switches and hundreds of cables.",
+      "imageWikipediaTitle": "ENIAC",
+      "sources": [
+        {
+          "title": "ENIAC",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ENIAC"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/ENIAC",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programs that print their own source code",
+      "body": "In computer science, a \"quine\" is a program that takes no input and outputs an exact copy of its own source code. Named after logician Willard Van Orman Quine, writing one is a classic programming challenge. It cannot cheat by simply reading its own file from the disk. Instead, the code must contain a self-referential trick, typically utilizing a template string that formats itself with its own contents.",
+      "imageWikipediaTitle": "Quine (computing)",
+      "sources": [
+        {
+          "title": "Quine (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quine_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Quine_(computing)",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Who coined the term 'software engineering' while working on NASA's Apollo missions?",
+      "options": [
+        "Grace Hopper",
+        "Margaret Hamilton",
+        "Ada Lovelace",
+        "Katherine Johnson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Margaret Hamilton began calling her work 'software engineering' during the Apollo project to secure professional respect for the software developers."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What physical medium did early programmers modify to apply a software 'patch'?",
+      "options": [
+        "Magnetic tapes",
+        "Paper tapes or punched cards",
+        "Copper wiring",
+        "Vacuum tubes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early programs were on physical paper tape or punched cards; 'patches' were literally glued over mistakes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which programming language was first used to write a 'Hello, World!' program?",
+      "options": [
+        "C",
+        "B",
+        "Assembly",
+        "FORTRAN"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brian Kernighan first wrote 'Hello, World!' in an internal manual for the B programming language in 1972 before adapting it to C."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What type of software bug caused the tragic Therac-25 radiation therapy accidents?",
+      "options": [
+        "Buffer overflow",
+        "Syntax error",
+        "Race condition",
+        "Integer overflow"
+      ],
+      "correctIndex": 2,
+      "explanation": "A race condition occurred when fast-typing operators triggered a software mismatch, firing radiation before physical shields were in place."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What is a 'quine' in computer science?",
+      "options": [
+        "A program that outputs its own source code",
+        "A compiler written in its own language",
+        "An algorithm that runs in O(1) time",
+        "A programming language with only five commands"
+      ],
+      "correctIndex": 0,
+      "explanation": "A quine is a program that, when executed, produces an exact copy of its own source code as its only output, without reading from disk."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many seconds after liftoff did Mariner 1 survive before a software typo forced its destruction?",
+      "answer": 293,
+      "min": 10,
+      "max": 1500,
+      "unit": "seconds",
+      "explanation": "A transcription error of a single hyphen or overline in the flight equations caused Mariner 1 to veer off course, forcing destruction 293 seconds into flight."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of the files for 'Toy Story 2' were accidentally deleted by a single command during production?",
+      "answer": 90,
+      "min": 5,
+      "max": 100,
+      "unit": "%",
+      "explanation": "An accidental 'rm -rf' command wiped 90% of the film's assets. Luckily, a technical director had a full backup on her home computer."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "Urban Müller designed the minimalist language Brainfuck with the goal of writing a compiler under how many bytes?",
+      "answer": 240,
+      "min": 50,
+      "max": 2000,
+      "unit": "bytes",
+      "explanation": "Müller wanted to create a language with an extremely tiny compiler, successfully writing one that was under 240 bytes."
+    }
+  ]
+}
