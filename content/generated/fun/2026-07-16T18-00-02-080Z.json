@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-16T18:00:02.081Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Oregon has an official state microbe, and you can drink it",
+      "body": "In 2013, Oregon became the first U.S. state to officially designate a state microbe: Saccharomyces cerevisiae, commonly known as brewer's yeast. This tiny fungus is responsible for baking bread and brewing beer, two cornerstones of Oregon's craft culinary economy. Legislators passed the bill to celebrate the organism's massive economic contribution to the state's famous craft breweries.",
+      "imageWikipediaTitle": "Saccharomyces cerevisiae",
+      "sources": [
+        {
+          "title": "Saccharomyces cerevisiae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Goldfish can learn to drive cars on dry land",
+      "body": "In 2022, Israeli researchers successfully trained goldfish to navigate a robotic \"fish-operated vehicle\" on dry land. The vehicle used a camera to track the fish's movements inside a water tank, translating them into wheel motions. When the fish swam toward a pink target placed in the room, they were rewarded with food. The fish quickly mastered the controls, proving their navigation skills translate outside of water.",
+      "imageWikipediaTitle": "Goldfish",
+      "sources": [
+        {
+          "title": "Goldfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goldfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goldfish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The day London was flooded by a tidal wave of beer",
+      "body": "In 1814, a massive vat at the Meux & Co. brewery in London ruptured, unleashing a tidal wave of over 320,000 gallons of fermenting beer into the surrounding streets. The deluge destroyed two homes and crumbled the wall of a local pub. Sadly, the disaster resulted in eight deaths, primarily from drowning and injuries, making it one of the strangest industrial accidents in history.",
+      "imageWikipediaTitle": "London Beer Flood",
+      "sources": [
+        {
+          "title": "London Beer Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/London_Beer_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/London_Beer_Flood",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The United States once planned to detonate a nuclear bomb on the Moon",
+      "body": "During the height of the Cold War Space Race in 1958, the United States developed a highly classified plan called Project A119. The goal was to detonate a nuclear device on the Moon. Scientists believed the resulting explosion and flash of light would be visible from Earth, serving as a massive display of American scientific and military power to intimidate the Soviet Union. The project was ultimately canceled.",
+      "imageWikipediaTitle": "Project A119",
+      "sources": [
+        {
+          "title": "Project A119",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Project_A119"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Project_A119",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pigeons can tell the difference between Picasso and Monet",
+      "body": "Pigeons are surprisingly artistic critics. In a 1995 study, researchers trained pigeons to distinguish between paintings by Claude Monet and Pablo Picasso. The birds successfully associated Monet's impressionist style with food and Picasso's cubism with no reward. Even when shown paintings they had never seen before, the pigeons correctly categorized them, demonstrating a remarkable ability to process complex visual styles.",
+      "imageWikipediaTitle": "Feral pigeon",
+      "sources": [
+        {
+          "title": "Pigeon intelligence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pigeon_intelligence"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pigeon_intelligence",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mysterious sky that rained meat over Kentucky",
+      "body": "On a clear day in March 1876, residents of Bath County, Kentucky, witnessed a bizarre phenomenon: chunks of fresh red meat fell from the sky over a settlement. Several people even tasted the meat, guessing it was mutton or venison. Scientists later concluded the \"meat shower\" was likely caused by a flock of vultures that had regurgitated their meals while flying overhead, a common defense mechanism when startled.",
+      "imageWikipediaTitle": "Turkey vulture",
+      "sources": [
+        {
+          "title": "Kentucky meat shower",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kentucky_meat_shower"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kentucky_meat_shower",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why goats have horizontal, rectangular pupils",
+      "body": "Goats, sheep, and other grazing prey animals have bizarre, rectangular pupils. This unique shape provides them with a panoramic field of vision of up to 340 degrees, allowing them to spot predators approaching from almost any direction. Even more remarkably, when a goat lowers its head to graze, its eyeballs rotate to keep the horizontal slit parallel to the ground, maintaining its wide-angle security view.",
+      "imageWikipediaTitle": "Goat",
+      "sources": [
+        {
+          "title": "Goat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goat",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The time the Australian military lost a war to emus",
+      "body": "In 1932, Australia declared war on a population of over 20,000 emus that were destroying wheat crops in Western Australia. The military deployed soldiers armed with Lewis machine guns and thousands of rounds of ammunition. However, the flightless birds proved to be highly elusive, scattering into small groups and absorbing bullets without slowing down. After weeks of failed attempts, the military withdrew, leaving the emus victorious.",
+      "imageWikipediaTitle": "Emu",
+      "sources": [
+        {
+          "title": "Emu War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emu_War"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Emu_War",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Navy recruits dolphins and sea lions for military duty",
+      "body": "Since the 1960s, the United States Navy has trained bottlenose dolphins and California sea lions for specialized underwater missions. These animals possess highly advanced sensory capabilities that human technology cannot match. Dolphins use their natural sonar to detect underwater mines, while sea lions are trained to locate and attach recovery clamps to lost equipment or intruders. Both species play active roles in guarding naval bases.",
+      "imageWikipediaTitle": "United States Navy Marine Mammal Program",
+      "sources": [
+        {
+          "title": "United States Navy Marine Mammal Program",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States_Navy_Marine_Mammal_Program"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/United_States_Navy_Marine_Mammal_Program",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first webcam was invented to check a coffee pot",
+      "body": "In 1991, researchers at the University of Cambridge computer laboratory got tired of walking to the break room only to find the coffee pot empty. To solve this, they hooked up a camera to a computer and wrote software that captured a 128x128 grayscale image of the pot every few seconds. This Trojan Room coffee pot feed was later connected to the early web, becoming the world's very first webcam stream.",
+      "imageWikipediaTitle": "Trojan Room coffee pot",
+      "sources": [
+        {
+          "title": "Trojan Room coffee pot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which tiny organism did Oregon designate as its official state microbe in 2013?",
+      "options": [
+        "Lactobacillus acidophilus",
+        "Saccharomyces cerevisiae (brewer's yeast)",
+        "Escherichia coli",
+        "Penicillium chrysogenum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oregon chose brewer's yeast to honor its massive economic and cultural contribution to the state's famous craft brewing industry."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What liquid caused a deadly flood in London in 1814, destroying homes and claiming eight lives?",
+      "options": [
+        "Molasses",
+        "Beer",
+        "Gin",
+        "Milk"
+      ],
+      "correctIndex": 1,
+      "explanation": "A massive brewery vat ruptured at Meux & Co., releasing over 320,000 gallons of fermenting beer into the local neighborhood."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which two famous painters did researchers train pigeons to distinguish between in a 1995 study?",
+      "options": [
+        "Vincent van Gogh and Salvador Dalí",
+        "Leonardo da Vinci and Michelangelo",
+        "Claude Monet and Pablo Picasso",
+        "Andy Warhol and Jackson Pollock"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pigeons successfully categorized paintings by Monet and Picasso, even when shown works they had never seen before."
+    },
+    {
+      "cardIndex": 7,
+      "question": "In 1932, the Australian military was deployed with machine guns to combat which animal, ultimately losing the conflict?",
+      "options": [
+        "Kangaroo",
+        "Emu",
+        "Feral camel",
+        "Cane toad"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Great Emu War ended in failure for the military, as the highly agile birds easily scattered and evaded the soldiers."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What daily nuisance inspired computer scientists at the University of Cambridge to invent the world's first webcam in 1991?",
+      "options": [
+        "Checking if a parking lot was full",
+        "Checking if a coffee pot was empty",
+        "Monitoring a pet hamster",
+        "Seeing if the mail had arrived"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tired of walking to the break room to find an empty pot, researchers set up a camera stream to monitor the coffee level remotely."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In 1814, how many gallons of beer flooded the streets of London after a massive brewery vat ruptured?",
+      "answer": 320000,
+      "min": 50000,
+      "max": 1000000,
+      "unit": "gallons",
+      "explanation": "A ruptured vat at Meux & Co. unleashed over 320,000 gallons of beer, causing a mini-tsunami that claimed eight lives."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many degrees is a goat's panoramic field of vision, thanks to its rectangular pupils?",
+      "answer": 340,
+      "min": 180,
+      "max": 360,
+      "unit": "degrees",
+      "explanation": "Their horizontal, rectangular pupils allow goats to see almost 340 degrees around themselves to spot approaching predators."
+    }
+  ]
+}
