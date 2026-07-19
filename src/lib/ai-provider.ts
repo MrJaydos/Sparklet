@@ -37,7 +37,7 @@ function getBatchClient(): GoogleGenAI | null {
   return batchClient;
 }
 
-import { GoogleGenAI, type BatchJob } from "@google/genai";
+import { GoogleGenAI, type BatchJob, type GenerateContentResponse } from "@google/genai";
 
 export type GenerateResult = { text: string; model: string };
 
@@ -281,17 +281,40 @@ export type BatchResult = {
   text: string | null;
   error: string | null;
   finishReason?: string;
-  raw?: unknown;
 };
+
+/**
+ * batches.get()'s InlinedResponse.response is a plain object built field-by
+ * -field (see @google/genai's generateContentResponseFromMldev), not an
+ * actual `new GenerateContentResponse()` — so its `.text` convenience
+ * getter is simply absent, even though candidates[0].content.parts[].text
+ * holds the real content. Extract it the same way the getter does: skip
+ * `thought` parts, concatenate the rest.
+ */
+function extractBatchText(response: GenerateContentResponse | undefined): string | undefined {
+  const parts = response?.candidates?.[0]?.content?.parts;
+  if (!parts?.length) return undefined;
+  let text = "";
+  let any = false;
+  for (const part of parts) {
+    if (typeof part.text === "string" && !part.thought) {
+      any = true;
+      text += part.text;
+    }
+  }
+  return any ? text : undefined;
+}
 
 /** Per-request results from a completed (SUCCEEDED/PARTIALLY_SUCCEEDED) inline batch job. */
 export function batchResults(job: BatchJob): BatchResult[] {
   const responses = job.dest?.inlinedResponses ?? [];
-  return responses.map((r) => ({
-    key: r.metadata?.key ?? "",
-    text: r.response?.text ?? null,
-    error: r.error?.message ?? (r.response?.text ? null : "empty response"),
-    finishReason: r.response?.candidates?.[0]?.finishReason as string | undefined,
-    raw: r.response,
-  }));
+  return responses.map((r) => {
+    const text = extractBatchText(r.response) ?? null;
+    return {
+      key: r.metadata?.key ?? "",
+      text,
+      error: r.error?.message ?? (text ? null : "empty response"),
+      finishReason: r.response?.candidates?.[0]?.finishReason as string | undefined,
+    };
+  });
 }
