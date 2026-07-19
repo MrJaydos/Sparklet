@@ -370,12 +370,17 @@ async function runBatchTopUp(
         if (job.name) await deleteBatch(job.name);
         continue;
       }
-      for (const { key: slug, text, error, finishReason } of results) {
+      let dumpedRaw = false;
+      for (const { key: slug, text, error, finishReason, raw } of results) {
         if (!slug) continue;
         if (!text) {
           console.warn(
             `  ✗ ${slug}: batch item failed (${error}${finishReason ? `, finishReason=${finishReason}` : ""}) — will retry next run`
           );
+          if (!dumpedRaw) {
+            console.warn(`  raw response for ${slug}: ${JSON.stringify(raw)}`);
+            dumpedRaw = true;
+          }
           failed.push(slug);
           continue;
         }

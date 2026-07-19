@@ -281,6 +281,7 @@ export type BatchResult = {
   text: string | null;
   error: string | null;
   finishReason?: string;
+  raw?: unknown;
 };
 
 /** Per-request results from a completed (SUCCEEDED/PARTIALLY_SUCCEEDED) inline batch job. */
@@ -291,5 +292,6 @@ export function batchResults(job: BatchJob): BatchResult[] {
     text: r.response?.text ?? null,
     error: r.error?.message ?? (r.response?.text ? null : "empty response"),
     finishReason: r.response?.candidates?.[0]?.finishReason as string | undefined,
+    raw: r.response,
   }));
 }
