@@ -1,4 +1,6 @@
 import NextAuth from "next-auth";
+import Google from "next-auth/providers/google";
+import Apple from "next-auth/providers/apple";
 import Nodemailer from "next-auth/providers/nodemailer";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { createTransport } from "nodemailer";
@@ -18,6 +20,14 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     verifyRequest: "/login/check-email",
   },
   providers: [
+    // Credentials come from AUTH_GOOGLE_ID/AUTH_GOOGLE_SECRET and
+    // AUTH_APPLE_ID/AUTH_APPLE_SECRET (Auth.js v5 env-var convention —
+    // see .env.example). Both providers verify email ownership themselves,
+    // so it's safe to auto-link them onto an existing magic-link account
+    // that shares the same email rather than erroring the user into a
+    // second, disconnected account.
+    Google({ allowDangerousEmailAccountLinking: true }),
+    Apple({ allowDangerousEmailAccountLinking: true }),
     Nodemailer({
       // The dummy dev value is never used — sendVerificationRequest logs the
       // link instead of sending when EMAIL_SERVER is unset.

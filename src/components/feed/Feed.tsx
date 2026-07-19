@@ -13,6 +13,7 @@ import { QuizView } from "./QuizView";
 import { GuessView } from "./GuessView";
 import { XpRing } from "./XpRing";
 import { StreakBadge } from "./StreakBadge";
+import { NotificationsBell } from "./NotificationsBell";
 import { usePopoverAnchor } from "./usePopoverAnchor";
 import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
 import { PushPrompt } from "./PushPrompt";
@@ -77,6 +78,7 @@ export function Feed({
   const [streak, setStreak] = useState(initialStreak);
   const [longestStreak, setLongestStreak] = useState(initialLongestStreak);
   const [freezesAvailable, setFreezesAvailable] = useState(initialFreezesAvailable);
+  const [unread, setUnread] = useState(initialUnread);
   const [showSheet, setShowSheet] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const { triggerRef: searchTriggerRef, anchor: searchAnchor, measure: measureSearchAnchor, clear: clearSearchAnchor } = usePopoverAnchor<HTMLButtonElement>();
@@ -645,17 +647,7 @@ export function Feed({
           >
             🔍 Search
           </button>
-          <Link
-            href="/notifications"
-            className="relative hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
-          >
-            🔔 Notifications
-            {initialUnread > 0 && (
-              <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-violet-600 px-1 text-[10px] font-bold text-white">
-                {initialUnread > 9 ? "9+" : initialUnread}
-              </span>
-            )}
-          </Link>
+          <NotificationsBell unread={unread} onOpened={() => setUnread(0)} />
           <Link
             href="/profile"
             className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
@@ -669,9 +661,9 @@ export function Feed({
             className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 sm:hidden"
           >
             ☰
-            {initialUnread > 0 && (
+            {unread > 0 && (
               <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-violet-600 px-1 text-[10px] font-bold text-white">
-                {initialUnread > 9 ? "9+" : initialUnread}
+                {unread > 9 ? "9+" : unread}
               </span>
             )}
           </button>
@@ -818,7 +810,7 @@ export function Feed({
 
       {showMenu && (
         <MenuSheet
-          unread={initialUnread}
+          unread={unread}
           onClose={() => setShowMenu(false)}
           onSearch={() => {
             setShowMenu(false);
