@@ -17,6 +17,10 @@ jobs:
           APP_URL: ${{ secrets.APP_URL }}
           REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
         run: |
-          resp=$(curl -sf -X POST "$APP_URL/api/admin/nudge" \
-            -H "Authorization: Bearer $REVALIDATE_TOKEN") || { echo "Request failed"; exit 1; }
-          echo "$resp"
+          status=$(curl -s -o resp.json -w "%{http_code}" -X POST "$APP_URL/api/admin/nudge" \
+            -H "Authorization: Bearer $REVALIDATE_TOKEN")
+          cat resp.json; echo
+          if [ "$status" != "200" ]; then
+            echo "Nudge endpoint returned HTTP $status (401 usually means REVALIDATE_TOKEN is missing/mismatched in the app's server env)."
+            exit 1
+          fi
