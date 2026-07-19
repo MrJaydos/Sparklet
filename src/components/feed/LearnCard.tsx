@@ -15,8 +15,6 @@ export function LearnCard({
   card,
   saved,
   commentCount,
-  speaking,
-  onToggleSpeak,
   onToggleSave,
   onOpenComments,
   onReport,
@@ -25,8 +23,6 @@ export function LearnCard({
   card: FeedCard;
   saved: boolean;
   commentCount: number;
-  speaking: boolean;
-  onToggleSpeak: () => void;
   onToggleSave: () => void;
   onOpenComments: () => void;
   onReport: () => void;
@@ -422,18 +418,6 @@ export function LearnCard({
           className="flex h-11 w-11 items-center justify-center rounded-full bg-neutral-900/70 text-lg opacity-70 backdrop-blur transition active:scale-125"
         >
           📤
-        </button>
-
-        <button
-          type="button"
-          onClick={onToggleSpeak}
-          aria-label={speaking ? "Stop reading" : "Read card aloud"}
-          aria-pressed={speaking}
-          className={`flex h-11 w-11 items-center justify-center rounded-full text-lg backdrop-blur transition ${
-            speaking ? "bg-violet-600/80 text-white" : "bg-neutral-900/70 opacity-70"
-          }`}
-        >
-          {speaking ? "⏹" : "🔊"}
         </button>
 
         <button

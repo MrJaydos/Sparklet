@@ -102,110 +102,17 @@ export function Feed({
   const [reportFor, setReportFor] = useState<string | null>(null);
   const [sessionViews, setSessionViews] = useState(0);
   const [loading, setLoading] = useState(false);
-  const [autoRead, setAutoRead] = useState(false);
-  const [speakingId, setSpeakingId] = useState<string | null>(null);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const viewedRef = useRef<Set<string>>(new Set());
   const readRef = useRef<Set<string>>(new Set()); // cards that hit the read-dwell threshold
   const readTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const loadingRef = useRef(false);
-  const autoReadRef = useRef(false);
   const activeIdRef = useRef<string | null>(null);
   const cardsRef = useRef(cards);
   useEffect(() => {
     cardsRef.current = cards;
   }, [cards]);
-
-  // Pick the most natural English voice the device offers. Platforms bury
-  // their good voices behind getVoices(): Edge's "Natural", Chrome's
-  // network "Google" voices, iOS "Enhanced"/"Premium" — the default is
-  // usually the robotic one.
-  const voiceRef = useRef<SpeechSynthesisVoice | null>(null);
-  useEffect(() => {
-    if (!("speechSynthesis" in window)) return;
-    const pick = () => {
-      const voices = window.speechSynthesis
-        .getVoices()
-        .filter((v) => v.lang.toLowerCase().startsWith("en"));
-      if (!voices.length) return;
-      const pref = (navigator.language || "en").toLowerCase();
-      const score = (v: SpeechSynthesisVoice) => {
-        const n = v.name.toLowerCase();
-        const locale = v.lang.toLowerCase();
-        let s = 0;
-        if (n.includes("natural") || n.includes("neural")) s += 8;
-        if (n.includes("premium")) s += 6;
-        if (n.includes("enhanced")) s += 5;
-        if (n.includes("google")) s += 4;
-        if (!v.localService) s += 2; // network voices usually sound better
-        if (locale === pref) s += 3;
-        else if (/^en-(nz|au|gb)/.test(locale)) s += 1;
-        if (v.default) s += 1;
-        return s;
-      };
-      voiceRef.current = [...voices].sort((a, b) => score(b) - score(a))[0] ?? null;
-    };
-    pick();
-    window.speechSynthesis.addEventListener("voiceschanged", pick);
-    return () => window.speechSynthesis.removeEventListener("voiceschanged", pick);
-  }, []);
-
-  const browserSpeak = useCallback((card: FeedCard) => {
-    if (!("speechSynthesis" in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(`${card.title}. ${card.body}`);
-    if (voiceRef.current) {
-      u.voice = voiceRef.current;
-      u.lang = voiceRef.current.lang;
-    } else {
-      u.lang = "en";
-    }
-    u.rate = 1.05;
-    const clear = () => setSpeakingId((id) => (id === card.id ? null : id));
-    u.onend = clear;
-    u.onerror = clear;
-    window.speechSynthesis.speak(u);
-    setSpeakingId(card.id);
-  }, []);
-
-  // Narration: server-side Piper audio (natural, same voice everywhere,
-  // cached per card) with browser speechSynthesis as the fallback.
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-
-  const speakCard = useCallback(
-    (card: FeedCard) => {
-      if ("speechSynthesis" in window) window.speechSynthesis.cancel();
-      const a = audioRef.current ?? (audioRef.current = new Audio());
-      a.onerror = null; // don't let aborting the previous track trigger fallback
-      a.pause();
-      let fellBack = false;
-      const fallback = () => {
-        if (fellBack) return;
-        fellBack = true;
-        browserSpeak(card);
-      };
-      const clear = () => setSpeakingId((id) => (id === card.id ? null : id));
-      a.src = `/api/cards/${card.id}/audio`;
-      a.onended = clear;
-      a.onerror = fallback;
-      setSpeakingId(card.id);
-      a.play().catch(fallback);
-    },
-    [browserSpeak]
-  );
-
-  const stopSpeech = useCallback(() => {
-    if (audioRef.current) {
-      audioRef.current.onerror = null;
-      audioRef.current.pause();
-    }
-    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
-    setSpeakingId(null);
-  }, []);
-
-  // Never leave speech running after leaving the feed.
-  useEffect(() => stopSpeech, [stopSpeech]);
 
   // Timezone hint for the server: lets the next server render compute the
   // daily XP window in local time instead of guessing UTC.
@@ -311,18 +218,12 @@ export function Feed({
     []
   );
 
-  // Restore saved topic selection (may differ from the server-rendered feed)
-  // and the auto-read preference.
+  // Restore saved topic selection (may differ from the server-rendered feed).
   useEffect(() => {
     try {
       const saved: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
-      const savedAutoRead = localStorage.getItem("sparklet.autoread") === "true";
       // Deferred so the restore doesn't force a cascading render mid-hydration.
       queueMicrotask(() => {
-        if (savedAutoRead) {
-          autoReadRef.current = true;
-          setAutoRead(true);
-        }
         if (saved.length) {
           setSelected(saved);
           fetchCards(saved, { reset: true });
@@ -344,19 +245,6 @@ export function Feed({
       /* private mode — just skip the invite card this session */
     }
   }, []);
-
-  const toggleAutoRead = () => {
-    const next = !autoRead;
-    setAutoRead(next);
-    autoReadRef.current = next;
-    localStorage.setItem("sparklet.autoread", String(next));
-    if (next) {
-      const active = cardsRef.current.find((c) => c.id === activeIdRef.current);
-      if (active) speakCard(active);
-    } else {
-      stopSpeech();
-    }
-  };
 
   const postView = useCallback(async (cardId: string, dwellMs?: number) => {
     try {
@@ -469,10 +357,6 @@ export function Feed({
               activeIdRef.current = id;
               activeSinceRef.current = Date.now();
               scheduleReadPing(id, activeSinceRef.current);
-              if (autoReadRef.current) {
-                const card = cardsRef.current.find((c) => c.id === id);
-                if (card) speakCard(card);
-              }
             }
           }
           const idx = Number(el.dataset.index);
@@ -493,7 +377,7 @@ export function Feed({
       observer.disconnect();
       if (readTimerRef.current) clearTimeout(readTimerRef.current);
     };
-  }, [cards, selected, exhausted, markViewed, fetchCards, speakCard, reportDwell, scheduleReadPing]);
+  }, [cards, selected, exhausted, markViewed, fetchCards, reportDwell, scheduleReadPing]);
 
   // Wheel navigation for desktop: with mandatory snap, a single wheel tick
   // scrolls a few pixels and snaps straight back — feels dead. Treat each
@@ -724,10 +608,6 @@ export function Feed({
                 card={item.card}
                 saved={saves[item.card.id] ?? false}
                 commentCount={commentCounts[item.card.id] ?? 0}
-                speaking={speakingId === item.card.id}
-                onToggleSpeak={() =>
-                  speakingId === item.card.id ? stopSpeech() : speakCard(item.card)
-                }
                 onToggleSave={() => toggleSave(item.card.id)}
                 onOpenComments={() => setCommentsFor(item.card)}
                 onReport={() => setReportFor(item.card.id)}
@@ -902,8 +782,6 @@ export function Feed({
           selected={selected}
           onApply={applyCategories}
           onClose={() => setShowSheet(false)}
-          autoRead={autoRead}
-          onToggleAutoRead={toggleAutoRead}
         />
       )}
 

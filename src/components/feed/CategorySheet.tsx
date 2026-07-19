@@ -25,15 +25,11 @@ export function CategorySheet({
   selected,
   onApply,
   onClose,
-  autoRead,
-  onToggleAutoRead,
 }: {
   categories: CategoryOption[];
   selected: string[];
   onApply: (slugs: string[]) => void;
   onClose: () => void;
-  autoRead: boolean;
-  onToggleAutoRead: () => void;
 }) {
   const [picked, setPicked] = useState<string[]>(selected);
   const [depth, setDepth] = useState<DepthLevel>(() => {
@@ -134,22 +130,6 @@ export function CategorySheet({
             );
           })}
         </div>
-
-        <button
-          type="button"
-          onClick={onToggleAutoRead}
-          aria-pressed={autoRead}
-          className="mt-4 flex w-full items-center justify-between rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm font-medium text-neutral-300 transition hover:border-neutral-600"
-        >
-          <span>🔊 Read cards aloud automatically</span>
-          <span
-            className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
-              autoRead ? "bg-violet-600 text-white" : "bg-neutral-800 text-neutral-400"
-            }`}
-          >
-            {autoRead ? "On" : "Off"}
-          </span>
-        </button>
 
         <button
           type="button"

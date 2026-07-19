@@ -22,7 +22,7 @@ npm run seed:content       # import /content JSON (validates every source URL �
 npm run generate:content -- --category sales --count 10   # or --all / --top-up
 ```
 
-Deploys run `scripts/start-prod.sh`: `prisma migrate deploy` + category seed block startup; content import, card enrichment, and audio pre-gen run in the background after. A schema migration committed to `main` applies itself on the next deploy — no manual step.
+Deploys run `scripts/start-prod.sh`: `prisma migrate deploy` + category seed block startup; content import and card enrichment run in the background after. A schema migration committed to `main` applies itself on the next deploy — no manual step.
 
 For end-to-end verification (auth via curl, driving the feed, DB resets, known gotchas), follow `.claude/skills/verify/SKILL.md`.
 
