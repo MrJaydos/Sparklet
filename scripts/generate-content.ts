@@ -7,8 +7,11 @@
  *   --all --count 30            seed run: 30 cards for every category
  *   --category space --count 10 one category
  *   --top-up                    inventory mode (used by the scheduled job):
- *                               reads $APP_URL/api/inventory and only tops up
- *                               categories under $MIN_BANK published cards
+ *                               reads $APP_URL/api/inventory and tops up
+ *                               categories under their effective minimum —
+ *                               $MIN_BANK, raised to (most active reader's
+ *                               seen count + $TOPUP_HEADROOM) for categories
+ *                               actually being read
  *
  * No database access needed — safe to run from CI.
  */
@@ -25,8 +28,12 @@ import {
   type GuessInput,
 } from "../src/lib/content-schema";
 
-const MIN_BANK = Number(process.env.MIN_BANK) || 40; // top-up threshold
+const MIN_BANK = Number(process.env.MIN_BANK) || 40; // base top-up threshold
 const TOPUP_COUNT = Number(process.env.TOPUP_COUNT) || 10;
+// Demand-aware floor: a category's effective minimum is raised to its most
+// engaged recent reader's seen-count plus this buffer, so active readers
+// always have unseen cards waiting even when the global bank looks full.
+const TOPUP_HEADROOM = Number(process.env.TOPUP_HEADROOM) || 15;
 // Cap categories per scheduled run so the day's Gemini usage (generation
 // here + one cross-verify call per imported card at deploy) stays inside
 // the free tier's ~250 req/day — otherwise the overflow lands on Groq,
@@ -122,6 +129,7 @@ type InventoryCategory = {
   name: string;
   description: string;
   publishedCount: number;
+  maxSeen: number; // most cards any recently-active user has completed here
   titles: string[];
 };
 
@@ -291,9 +299,13 @@ async function main() {
       console.error("--top-up requires APP_URL pointing at a running Sparklet instance.");
       process.exit(1);
     }
+    // Effective minimum per category: the global floor, raised for categories
+    // being actively read so the fastest reader keeps TOPUP_HEADROOM unseen
+    // cards ahead of them. Most-starved categories go first.
     const low = inventory
-      .filter((c) => c.publishedCount < MIN_BANK)
-      .sort((a, b) => a.publishedCount - b.publishedCount);
+      .map((c) => ({ ...c, need: Math.max(MIN_BANK, (c.maxSeen ?? 0) + TOPUP_HEADROOM) }))
+      .filter((c) => c.publishedCount < c.need)
+      .sort((a, b) => (b.need - b.publishedCount) - (a.need - a.publishedCount));
     targets = low.slice(0, TOPUP_MAX_CATEGORIES).map((c) => ({
       slug: c.slug,
       name: c.name,
@@ -302,12 +314,19 @@ async function main() {
       existingTitles: c.titles,
     }));
     console.log(
-      targets.length
-        ? `Top-up: ${targets.map((t) => `${t.slug}`).join(", ")} below ${MIN_BANK} published cards.` +
+      low.length
+        ? `Top-up: ${low
+            .slice(0, TOPUP_MAX_CATEGORIES)
+            .map((c) =>
+              c.need > MIN_BANK
+                ? `${c.slug} (${c.publishedCount}/${c.need}, demand-raised: top reader at ${c.maxSeen})`
+                : `${c.slug} (${c.publishedCount}/${c.need})`
+            )
+            .join(", ")}.` +
             (low.length > targets.length
               ? ` (${low.length - targets.length} more deferred to stay inside the Gemini daily quota.)`
               : "")
-        : `All categories have ≥ ${MIN_BANK} published cards — nothing to do.`
+        : `All categories meet their bank minimums (base ${MIN_BANK}, +${TOPUP_HEADROOM} headroom over the most active reader) — nothing to do.`
     );
   } else {
     const slugs = all

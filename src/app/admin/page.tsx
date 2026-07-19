@@ -290,7 +290,8 @@ export default async function AdminPage() {
         </table>
       </div>
       <p className="mt-2 text-xs text-neutral-500">
-        Published counts in amber are below the 40-card top-up threshold.
+        Published counts in amber are below the 40-card base top-up threshold; the nightly job
+        also raises a category&apos;s minimum when its most active reader is close to running out.
       </p>
 
       {/* Top / struggling cards */}
