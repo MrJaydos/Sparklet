@@ -23,7 +23,7 @@ import {
 } from "../src/lib/content-schema";
 import { embedText, cosineSimilarity, verifierFor, generateJSONWith } from "../src/lib/ai-provider";
 
-const DUPLICATE_THRESHOLD = 0.92; // cosine similarity above this = near-duplicate
+const DUPLICATE_THRESHOLD = 0.85; // cosine similarity above this = near-duplicate
 
 const prisma = new PrismaClient({
   adapter: new PrismaPg({ connectionString: process.env.DATABASE_URL }),
@@ -256,22 +256,23 @@ Respond with JSON only: {"verdict": "yes" | "partial" | "no", "note": "<one line
   }
 }
 
-// Per-category cache of published-card embeddings for duplicate detection.
-const embeddingCache = new Map<string, { id: string; title: string; vector: number[] }[]>();
+// Cache of published-card embeddings for duplicate detection. Deliberately
+// global (not per-category): the same fact can get generated into more than
+// one category, and a near-duplicate check scoped to a single category can
+// never catch that.
+let embeddingCache: { id: string; title: string; vector: number[] }[] | null = null;
 
-async function loadCategoryEmbeddings(categoryId: string) {
-  let cached = embeddingCache.get(categoryId);
-  if (!cached) {
+async function loadAllEmbeddings() {
+  if (!embeddingCache) {
     const rows = await prisma.card.findMany({
-      where: { categoryId, embedding: { not: Prisma.DbNull } },
+      where: { embedding: { not: Prisma.DbNull } },
       select: { id: true, title: true, embedding: true },
     });
-    cached = rows
+    embeddingCache = rows
       .filter((r) => Array.isArray(r.embedding))
       .map((r) => ({ id: r.id, title: r.title, vector: r.embedding as number[] }));
-    embeddingCache.set(categoryId, cached);
   }
-  return cached;
+  return embeddingCache;
 }
 
 async function importCard(card: CardInput, modelUsed: string | undefined, stats: Record<string, number>): Promise<string | null> {
@@ -308,7 +309,7 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
     // Near-duplicate check (embeddings; skipped when no Gemini key).
     embedding = await embedText(`${card.title}\n${card.body}`);
     if (embedding) {
-      const existingVectors = await loadCategoryEmbeddings(category.id);
+      const existingVectors = await loadAllEmbeddings();
       const duplicate = existingVectors.find(
         (e) => cosineSimilarity(e.vector, embedding!) >= DUPLICATE_THRESHOLD
       );
@@ -346,10 +347,8 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
   });
   if (published) {
     stats.published++;
-    if (embedding) {
-      embeddingCache
-        .get(category.id)
-        ?.push({ id: created.id, title: created.title, vector: embedding });
+    if (embedding && embeddingCache) {
+      embeddingCache.push({ id: created.id, title: created.title, vector: embedding });
     }
   } else {
     stats.review++;
