@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-07-19T01:23:23.063Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your salivary glands produce enough spit daily to fill a wine bottle",
+      "body": "Your body constantly manufactures saliva, producing about 0.5 to 1.5 liters every single day. This fluid isn't just water; it is packed with enzymes like amylase that begin breaking down carbohydrates the moment food enters your mouth. Saliva also contains proteins that shield your teeth from decay and minerals that actively rebuild enamel. Without it, eating would be painful and your teeth would rapidly rot.",
+      "imageWikipediaTitle": "Saliva",
+      "sources": [
+        {
+          "title": "Saliva",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saliva"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Saliva",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your lungs have the surface area of a badminton court",
+      "body": "To extract enough oxygen from the air, your lungs require an enormous surface area. Inside them are millions of tiny, balloon-like air sacs called alveoli. If you were to unfold and lay all these alveoli completely flat, they would cover an area of roughly 70 square meters. This expansive surface area maximizes the contact between air and your blood capillaries, allowing oxygen to diffuse instantly.",
+      "imageWikipediaTitle": "Lung",
+      "sources": [
+        {
+          "title": "Lung",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lung"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lung",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles 'remember' past workouts at a cellular level",
+      "body": "When you lift weights, your muscle cells recruit new nuclei from surrounding stem cells to help manage the increased workload. If you stop training and your muscles shrink, these newly acquired nuclei do not disappear. Instead, they remain dormant for years. When you resume exercising, these leftover nuclei allow you to regain your former strength and size much faster than building it the first time.",
+      "imageWikipediaTitle": "Skeletal muscle",
+      "sources": [
+        {
+          "title": "Muscle memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscle_memory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Muscle_memory",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your blood vessels could wrap around the Earth twice",
+      "body": "The network of blood vessels in a single adult body is staggeringly vast. If you were to untangle and lay all your capillaries, veins, and arteries end-to-end, they would stretch for about 100,000 kilometers. This is long enough to circle the entire Earth more than two times. This immense highway system ensures that nearly every single cell in your body sits just a microscopic distance from a fresh blood supply.",
+      "imageWikipediaTitle": "Blood vessel",
+      "sources": [
+        {
+          "title": "Blood vessel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blood_vessel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blood_vessel",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your stomach uses physical stretch, not just digestion, to signal fullness",
+      "body": "Your brain doesn't wait for food to digest to know you are full. Instead, your stomach wall is embedded with specialized mechanoreceptors. As food enters, these receptors detect the physical stretching of the stomach tissue. They send immediate electrical signals up the vagus nerve directly to your brain's appetite center. This is why high-volume, low-calorie foods like leafy greens can make you feel physically full.",
+      "imageWikipediaTitle": "Stomach",
+      "sources": [
+        {
+          "title": "Satiety",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Satiety"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Satiety",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your nose runs when you step into freezing air",
+      "body": "A runny nose in cold weather is actually a physical defense mechanism. Your nose's primary job is to warm and humidify the air you breathe. When you inhale cold, dry air, your nasal passage increases mucus production to keep the delicate tissues moist. At the same time, the warm, wet air you exhale condenses upon hitting the cold nose tip, mixing with the excess mucus and causing a drip.",
+      "imageWikipediaTitle": "Human nose",
+      "sources": [
+        {
+          "title": "Rhinorrhea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rhinorrhea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rhinorrhea",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You get a brand-new set of taste buds every two weeks",
+      "body": "The cells that allow you to taste your food live incredibly short lives. Because they are constantly exposed to hot liquids, acidic foods, and physical friction, taste bud cells damage easily. To compensate, your body completely replaces your taste buds roughly every ten to fourteen days. As you age, however, this regeneration process slows down, which is why older adults often find flavors less intense.",
+      "imageWikipediaTitle": "Taste bud",
+      "sources": [
+        {
+          "title": "Taste bud",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taste_bud"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Taste_bud",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sweating doesn't cool you down—its disappearance does",
+      "body": "Dripping sweat is not what lowers your body temperature. The actual cooling happens through a process called phase transition. As liquid sweat on your skin absorbs your body's excess heat energy, it converts into a gas and evaporates into the air, carrying the heat away with it. This is why humid days feel so oppressive: the air is already saturated with moisture, preventing your sweat from evaporating.",
+      "imageWikipediaTitle": "Perspiration",
+      "sources": [
+        {
+          "title": "Perspiration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Perspiration"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Perspiration",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your urge to breathe is triggered by waste, not a lack of oxygen",
+      "body": "When you hold your breath, the burning sensation in your chest isn't your body screaming for oxygen. Instead, it is a response to the buildup of carbon dioxide, a metabolic waste product. Specialized chemoreceptors in your brainstem monitor the acidity of your blood, which rises as carbon dioxide dissolves into it. This chemical shift triggers the urgent reflex to inhale long before your oxygen levels actually become dangerously low.",
+      "imageWikipediaTitle": "Breathing",
+      "sources": [
+        {
+          "title": "Hypercapnia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hypercapnia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hypercapnia",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain consumes a fifth of your body's energy",
+      "body": "Although your brain accounts for only about two percent of your total body weight, it is an incredibly greedy organ. It consumes roughly twenty percent of your body's energy and oxygen. Unlike muscles, which can store glycogen for energy later, your brain relies on a continuous, uninterrupted delivery of glucose and oxygen from the bloodstream. Just a few minutes without this supply can cause permanent cellular damage.",
+      "imageWikipediaTitle": "Human brain",
+      "sources": [
+        {
+          "title": "Brain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brain"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brain",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 2,
+      "question": "Why do muscles regain strength faster after a period of inactivity?",
+      "options": [
+        "They retain extra water and hydration",
+        "They preserve extra capillaries built during workouts",
+        "They keep the new nuclei gained during previous training",
+        "They permanently store excess proteins"
+      ],
+      "correctIndex": 2,
+      "explanation": "Even when muscle fibers shrink from disuse, the extra cellular nuclei gained during exercise remain inside the muscle cells for years, allowing rapid rebuilding."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does your stomach primarily signal to your brain that you are full before digestion is complete?",
+      "options": [
+        "By releasing insulin directly into the bloodstream",
+        "Using stretch receptors to detect physical expansion",
+        "By dropping its internal core temperature",
+        "Using acid sensors that detect the chemical breakdown of food"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mechanoreceptors in the stomach wall detect physical stretching and send immediate electrical signals to the brain via the vagus nerve."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What causes your nose to run when you breathe cold air?",
+      "options": [
+        "Condensation of warm exhaled air mixed with extra protective mucus",
+        "A temporary allergic reaction to cold temperatures",
+        "The freezing and melting of nasal hairs",
+        "A sudden decrease in blood flow to the head"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nose produces extra mucus to protect dry nasal tissues, and warm exhaled air condenses when meeting the cold air at your nose tip."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What is the primary physical process that allows sweat to cool your body down?",
+      "options": [
+        "Conduction of cold air directly into the liquid sweat",
+        "Evaporation of sweat into the surrounding air",
+        "Absorption of cold air by wet skin cells",
+        "Radiation of heat from wet skin directly to space"
+      ],
+      "correctIndex": 1,
+      "explanation": "The phase transition of liquid sweat evaporating into gas absorbs and carries away your body's excess heat."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What chemical buildup in your blood is the primary trigger for your brain to make you breathe?",
+      "options": [
+        "Nitrogen",
+        "Carbon monoxide",
+        "Oxygen",
+        "Carbon dioxide"
+      ],
+      "correctIndex": 3,
+      "explanation": "Your brain monitors blood acidity, which rises as carbon dioxide (a metabolic waste product) builds up, triggering the urge to inhale."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many liters of saliva does a healthy human body produce on average each day?",
+      "answer": 1,
+      "min": 0.1,
+      "max": 5,
+      "unit": "liters",
+      "explanation": "An average adult produces between 0.5 and 1.5 liters of saliva daily to aid digestion, clean the mouth, and protect teeth."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "If you unfolded all the air sacs (alveoli) inside your lungs, how many square meters would they cover?",
+      "answer": 70,
+      "min": 5,
+      "max": 300,
+      "unit": "m²",
+      "explanation": "The massive 70-square-meter surface area—about the size of a badminton court—is vital for exchanging enough oxygen to sustain life."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "If you stretched all the blood vessels of an adult end-to-end, what would their total length be in kilometers?",
+      "answer": 100000,
+      "min": 5000,
+      "max": 500000,
+      "unit": "km",
+      "explanation": "An adult's blood vessels stretch for about 100,000 kilometers, enough to circle the Earth more than twice."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many days does it take for your body to completely replace a single taste bud cell?",
+      "answer": 10,
+      "min": 2,
+      "max": 60,
+      "unit": "days",
+      "explanation": "Taste bud cells are replaced roughly every 10 to 14 days because they are constantly exposed to damaging heat, acids, and friction."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "What percentage of your body's total daily energy does your brain consume?",
+      "answer": 20,
+      "min": 2,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Despite accounting for only 2% of your body weight, your brain is a metabolically demanding organ that consumes 20% of your energy."
+    }
+  ]
+}

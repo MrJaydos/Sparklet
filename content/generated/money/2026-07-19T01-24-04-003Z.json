@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-07-19T01:24:04.003Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Your US Paper Money Isn't Actually Paper",
+      "body": "If you accidentally wash a U.S. dollar bill, it usually survives the spin cycle intact. That is because American banknotes are not made of wood pulp paper. Instead, they are composed of a durable blend of 75 percent cotton and 25 percent linen. Synthetic fibers are also dispersed throughout to prevent counterfeiting, creating a highly resilient material that can bend thousands of times before tearing.",
+      "imageWikipediaTitle": "Federal Reserve Note",
+      "sources": [
+        {
+          "title": "Federal Reserve Note",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Federal_Reserve_Note"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Federal_Reserve_Note",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Bureau That Peels Apart Burned and Eaten Cash",
+      "body": "If your dog eats your savings, or your cash gets charred in a fire, the U.S. government might replace it for free. The Bureau of Engraving and Printing operates a dedicated Mutilated Currency Division. Every year, a team of forensic experts handles over 20,000 cases, painstakingly reconstructing damaged banknotes under microscopes. As long as at least 51 percent of a bill is identifiable, they will issue a full treasury check.",
+      "imageWikipediaTitle": "Bureau of Engraving and Printing",
+      "sources": [
+        {
+          "title": "Bureau of Engraving and Printing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bureau_of_Engraving_and_Printing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bureau_of_Engraving_and_Printing",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Switzerland's Parallel Currency Born in the Great Depression",
+      "body": "During the Great Depression, Swiss businesses faced severe cash shortages. To survive, they created the WIR franc, a private, interest-free complementary currency. Today, tens of thousands of Swiss businesses still trade with WIR, which exists only as electronic book entries. Because the currency does not pay interest, businesses are encouraged to spend it quickly, acting as a powerful economic stabilizer during recessions.",
+      "imageWikipediaTitle": "WIR Bank",
+      "sources": [
+        {
+          "title": "WIR Bank",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/WIR_Bank"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/WIR_Bank",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Law That Allows a Trillion-Dollar Platinum Coin",
+      "body": "During political gridlock over the U.S. debt ceiling, economists often debate a bizarre emergency option: minting a one-trillion-dollar coin. While the U.S. Treasury has strict limits on paper money and gold, silver, or copper coins, a legal loophole allows the Treasury Secretary to mint platinum coins of any denomination. The coin would be deposited at the Federal Reserve to instantly fund government operations.",
+      "imageWikipediaTitle": "Trillion-dollar coin",
+      "sources": [
+        {
+          "title": "Trillion-dollar coin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trillion-dollar_coin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Trillion-dollar_coin",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the First ATMs Used Radioactive Cash Vouchers",
+      "body": "Before modern plastic debit cards with magnetic stripes, the world's first automated teller machine in 1967 relied on a surprising security mechanism: radiation. Installed by Barclays in London, the machine required customers to insert special paper vouchers purchased from a teller. To prevent fraud, the vouchers were impregnated with carbon-14, a mildly radioactive isotope. The machine detected the radiation signature to verify and process the withdrawal.",
+      "imageWikipediaTitle": "Automated teller machine",
+      "sources": [
+        {
+          "title": "Automated teller machine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Automated_teller_machine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Automated_teller_machine",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Sea Shells Shaped the Written Chinese Language",
+      "body": "For thousands of years, cowrie shells were used as currency across Africa, Asia, and the Pacific. Because they were durable, lightweight, and impossible to counterfeit, they became the world's most widely used primitive money. This history is permanently etched into the Chinese language. The traditional Chinese character for 'money' or 'value' is a pictograph of a cowrie shell, and it still serves as the radical in words like 'buy,' 'sell,' and 'trade.'",
+      "imageWikipediaTitle": "Cowrie",
+      "sources": [
+        {
+          "title": "Shell money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shell_money"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Shell_money",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Trust-Based Network That Moves Billions Without Banks",
+      "body": "Centuries before global wire transfers, traders developed 'Hawala,' an informal value transfer system that remains vital today. Operating entirely on trust and family ties, Hawala allows money to cross borders without physically moving. A customer gives cash to a broker in one country, who contacts a counterpart in another. That counterpart pays out the recipient. The brokers settle their debts later through trade or service exchanges.",
+      "imageWikipediaTitle": "Hawala",
+      "sources": [
+        {
+          "title": "Hawala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hawala"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hawala",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Beaver Pelts Were More Secure Than Gold",
+      "body": "In colonial Canada, metal coins were incredibly scarce. Instead, the Hudson's Bay Company established a currency based on the region's most valuable trade good: beaver pelts. They created a standardized unit of value called the 'Made Beaver.' A prime beaver pelt could buy a specified quantity of European trade goods, like four spoonfuls of gunpowder or one heavy woolen blanket, establishing a highly stable commodity-based economy.",
+      "imageWikipediaTitle": "Beaver",
+      "sources": [
+        {
+          "title": "Made beaver",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Made_beaver"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Made_beaver",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Heavy Metal Bracelets Used as West African Money",
+      "body": "For centuries, West African societies used horseshoe-shaped metal rings called 'manillas' as currency. Crafted from bronze, copper, or brass, these heavy bracelets were used for daily transactions, bridal dowries, and international trade with European merchants. Because different regions preferred specific weights, shapes, and metallic sounds when struck, European metalworkers had to carefully replicate local designs to preserve their purchasing power in African markets.",
+      "imageWikipediaTitle": "Manilla (money)",
+      "sources": [
+        {
+          "title": "Manilla (money)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manilla_(money)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Manilla_(money)",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why New Money Benefits the Wealthy First",
+      "body": "When a government prints new money, the economic impact is not felt equally by everyone at the same time. This is known as the Cantillon Effect. Named after 18th-century economist Richard Cantillon, the theory shows that the institutions closest to the source of new money—like banks and government contractors—receive it first. They get to spend it before prices rise, while citizens at the end of the chain face higher prices before their wages adjust.",
+      "imageWikipediaTitle": "Richard Cantillon",
+      "sources": [
+        {
+          "title": "Cantillon effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cantillon_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cantillon_effect",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 2,
+      "question": "What economic crisis prompted Swiss businesses to create the WIR franc complementary currency in 1934?",
+      "options": [
+        "The Hyperinflation of 1923",
+        "The Great Depression",
+        "The Collapse of the Gold Standard",
+        "The Post-WWII Shortages"
+      ],
+      "correctIndex": 1,
+      "explanation": "The WIR Bank was founded in 1934 to counter the severe cash shortages and economic stagnation caused by the Great Depression."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What metal does a U.S. legal loophole allow the Treasury Secretary to mint into coins of any value?",
+      "options": [
+        "Gold",
+        "Silver",
+        "Platinum",
+        "Palladium"
+      ],
+      "correctIndex": 2,
+      "explanation": "While gold and silver coins have strict statutory limits, platinum coin minting has a loophole allowing any face value."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What radioactive isotope was embedded in the first ATM paper vouchers in 1967 to verify their authenticity?",
+      "options": [
+        "Uranium-238",
+        "Plutonium-239",
+        "Radium-226",
+        "Carbon-14"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Barclays cash machine read carbon-14 signatures on the paper vouchers to confirm they were genuine before dispensing money."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which ancient currency inspired the modern Chinese writing characters for trade and money?",
+      "options": [
+        "Cowrie shells",
+        "Bronze spade money",
+        "Silver ingots",
+        "Clay tokens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cowrie shells were widely used as money in ancient China, leaving their mark as the radical character for money-related words."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How do Hawala brokers settle their debts without physically moving money across borders?",
+      "options": [
+        "Through official central bank clearing",
+        "Using a global credit card system",
+        "Through mutual trust and future trade transactions",
+        "By exchanging gold bullion via secure couriers"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hawala brokers rely on a ledger of mutual debt, settling balances over time through goods, services, or family network favors."
+    },
+    {
+      "cardIndex": 7,
+      "question": "In colonial Canada, what was a 'Made Beaver' used for in the local economy?",
+      "options": [
+        "A special hat worn by tax collectors",
+        "A standardized unit of currency based on a prime pelt",
+        "A recipe book for traders",
+        "A stamp used to verify legal contracts"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Hudson's Bay Company standardized trade by using the 'Made Beaver' as a unit of account, pricing all trade goods against a single prime pelt."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of a United States banknote's material is made of cotton rather than paper wood pulp?",
+      "answer": 75,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "U.S. banknotes are made of 75% cotton and 25% linen, making them highly durable and resistant to water damage."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What is the minimum percentage of a mutilated or damaged U.S. banknote that must remain intact for the government to replace it?",
+      "answer": 51,
+      "min": 20,
+      "max": 90,
+      "unit": "%",
+      "explanation": "As long as at least 51% of the bill is present and recognizable, the Mutilated Currency Division will replace it."
+    }
+  ]
+}

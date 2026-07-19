@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T01:25:23.755Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Paint Made of Actual Mummies",
+      "body": "From the 16th to the early 20th century, artists prized a rich brown pigment called \"mummy brown.\" The pigment was made by grinding up embalmed Egyptian mummies, both human and feline, and mixing them with pitch and myrrh. It fell out of favor in the early 1900s when artists realized they were painting with human remains, and the supply of mummies eventually ran out.",
+      "imageWikipediaTitle": "Mummy brown",
+      "sources": [
+        {
+          "title": "Mummy brown",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mummy_brown"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mummy_brown",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Four-Minute Song of Absolute Silence",
+      "body": "In 1952, American composer John Cage premiered \"4'33\"\", a three-movement piece where the musicians do not play a single note. Instead of silence, the piece invites the audience to listen to the accidental environment around them, like the rustling of programs or the wind outside. Cage argued that true silence does not exist, and that ambient noise is the authentic music of our daily lives.",
+      "imageWikipediaTitle": "John Cage",
+      "sources": [
+        {
+          "title": "4'33\"",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/4%2733%22"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/4%2733%22",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Towering Human Pyramids of Catalonia",
+      "body": "In Catalonia, Spain, communities gather to build \"castells\"—astounding human towers that can reach up to ten levels high. This 200-year-old tradition requires hundreds of participants. Stronger, heavier members form the base, while agile children climb to the very top to raise their hand. Representing teamwork and community trust, the tradition is recognized by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity.",
+      "imageWikipediaTitle": "Castell",
+      "sources": [
+        {
+          "title": "Castell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Castell"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Castell",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Dangerous Chase for a Wheel of Cheese",
+      "body": "Every year on Cooper's Hill in Gloucestershire, England, brave competitors sprint down a steep hill chasing an eight-pound wheel of Double Gloucester cheese. The cheese can reach speeds of over 70 miles per hour, often bouncing wildly and outrunning the competitors. The first runner to cross the finish line at the bottom wins the cheese. Despite frequent injuries, this bizarre and thrilling tradition has persisted for centuries.",
+      "imageWikipediaTitle": "Cooper's Hill Cheese-Rolling and Wake",
+      "sources": [
+        {
+          "title": "Cooper's Hill Cheese-Rolling and Wake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cooper%27s_Hill_Cheese-Rolling_and_Wake"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cooper%27s_Hill_Cheese-Rolling_and_Wake",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Desert Nomads Who Wear Indigo Veils",
+      "body": "The Tuareg people of the Sahara Desert are often called the \"Blue Men\" because of their striking indigo-dyed clothing. Unlike many Islamic societies where women wear veils, among the Tuareg, adult men wear the \"tagelmust\"—a combination veil and turban. Because the indigo dye is often pounded into the fabric dry rather than chemically fixed, it rubs off onto their skin, leaving a lasting blue tint.",
+      "imageWikipediaTitle": "Tuareg people",
+      "sources": [
+        {
+          "title": "Tuareg people",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tuareg_people"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tuareg_people",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Near-Perfect Stone Spheres of Costa Rica",
+      "body": "Deep in the Diquís Delta of Costa Rica lie over three hundred mysterious, near-perfect stone spheres. Created by pre-Columbian peoples between 500 BCE and 1500 CE, these artifacts range in size from a few inches to over six feet in diameter, with the heaviest weighing up to 15 tons. Many were carved from hard volcanic rock using other stones, but their exact cultural and ceremonial purpose remains a mystery.",
+      "imageWikipediaTitle": "Stone spheres of Costa Rica",
+      "sources": [
+        {
+          "title": "Stone spheres of Costa Rica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stone_spheres_of_Costa_Rica",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Raked Gravel Gardens of Zen Buddhism",
+      "body": "Japanese dry landscape gardens, or karesansui, feature carefully arranged rocks, moss, and raked gravel rather than lush flowers. The patterns raked into the gravel or sand represent ripples in water or waves in the ocean. This practice is not just for decoration; Zen monks rake these precise lines as a form of active meditation, focusing the mind to achieve inner peace, discipline, and mental clarity.",
+      "imageWikipediaTitle": "Japanese dry garden",
+      "sources": [
+        {
+          "title": "Japanese dry garden",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_dry_garden"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Japanese_dry_garden",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Masterpieces Written for Just One Hand",
+      "body": "After losing his right arm in World War I, Austrian pianist Paul Wittgenstein refused to end his career. Instead, he commissioned famous composers like Maurice Ravel, Richard Strauss, and Benjamin Britten to write piano concertos specifically for the left hand alone. Ravel's resulting \"Piano Concerto for the Left Hand\" became an international masterpiece, proving that a single hand could produce a sound as rich and complex as two.",
+      "imageWikipediaTitle": "Paul Wittgenstein",
+      "sources": [
+        {
+          "title": "Paul Wittgenstein",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paul_Wittgenstein"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paul_Wittgenstein",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Japanese Festival Where Babies Try to Out-Cry Each Other",
+      "body": "For over 400 years, Japanese parents have brought their infants to the Nakizumo festival, where amateur sumo wrestlers hold them aloft and try to make them cry. According to local folklore, a baby's loud cry wards off evil spirits and ensures strong, healthy growth. If a baby refuses to cry, a priest wearing a traditional demon mask steps in to gently frighten them into shedding tears.",
+      "imageWikipediaTitle": "Nakizumo Crying Sumo",
+      "sources": [
+        {
+          "title": "Nakizumo Crying Sumo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nakizumo_Crying_Sumo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nakizumo_Crying_Sumo",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Bridges Grown from Living Tree Roots",
+      "body": "In the rainy hills of Meghalaya, India, the Khasi people don't build bridges out of wood or steel—they grow them. By guiding the strong, flexible roots of the rubber fig tree through hollowed bamboo trunks across rushing rivers, they create living root bridges. Over decades, these roots thicken and strengthen. Some of these living structures can hold up to fifty people at once and last for hundreds of years.",
+      "imageWikipediaTitle": "Living root bridge",
+      "sources": [
+        {
+          "title": "Living root bridge",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Living_root_bridge"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Living_root_bridge",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What unusual primary ingredient was used to make the popular artist pigment known as 'mummy brown'?",
+      "options": [
+        "Ground-up Egyptian mummies",
+        "Fossilized tree resin",
+        "Charred cocoa beans",
+        "Crushed volcanic obsidian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mummy brown was made from ground-up human and feline mummies mixed with pitch and myrrh."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What makes John Cage's famous 1952 musical composition '4'33\"' unique?",
+      "options": [
+        "The performers do not play a single note",
+        "It is played entirely on a broken piano",
+        "It can only be performed underwater",
+        "It features 433 different instruments"
+      ],
+      "correctIndex": 0,
+      "explanation": "The piece consists of four minutes and thirty-three seconds of ambient silence, with no notes played by the musicians."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In Catalonia, Spain, what are 'castells'?",
+      "options": [
+        "Towering human pyramids built by communities",
+        "Massive wooden castles burned during festivals",
+        "Intricate street carpets made of flower petals",
+        "Gigantic puppets controlled by strings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Castells are traditional human towers, sometimes up to ten levels high, built during festivals in Catalonia."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are the Tuareg people of the Sahara Desert traditionally known as the 'Blue Men'?",
+      "options": [
+        "Their indigo-dyed clothing rubs off on their skin",
+        "They paint their faces with blue clay before battle",
+        "They live in houses painted entirely in cobalt blue",
+        "They are famous for mining rare blue turquoise"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tuareg wear veils and robes dyed with indigo, which often transfers to their skin, giving it a blue tint."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why did pianist Paul Wittgenstein commission famous composers to write piano concertos for the left hand alone?",
+      "options": [
+        "He lost his right arm in World War I",
+        "He believed the left hand was more expressive",
+        "He wanted to break a world record",
+        "He was born with only one hand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paul Wittgenstein lost his right arm in World War I but continued his career by commissioning left-hand-only pieces."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What is the top speed (in miles per hour) that a wheel of Double Gloucester cheese can reach as it rolls down Cooper's Hill?",
+      "answer": 70,
+      "min": 10,
+      "max": 150,
+      "unit": "mph",
+      "explanation": "The heavy cheese wheel can reach speeds of over 70 mph (112 km/h) down the steep hill, often outpacing the runners."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "What is the weight (in tons) of the heaviest pre-Columbian stone spheres found in Costa Rica?",
+      "answer": 15,
+      "min": 1,
+      "max": 80,
+      "unit": "tons",
+      "explanation": "The largest of these mysterious, near-perfect stone spheres weigh up to 15 tons."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "For roughly how many years has the traditional Japanese baby-crying festival, Nakizumo, been practiced?",
+      "answer": 400,
+      "min": 50,
+      "max": 1500,
+      "unit": "years",
+      "explanation": "The Nakizumo festival has a history of over 400 years, believed to bring babies good health and ward off evil spirits."
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T01:26:44.136Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's longest-running laboratory experiment",
+      "body": "Tar pitch looks like a solid black rock that you can shatter with a hammer. But it is actually a highly viscous liquid. In 1927, Professor Thomas Parnell poured pitch into a sealed funnel. Three years later, he cut the stem. Since then, the pitch has been slowly dripping. It takes about a decade for a single drop to fall, proving that some apparent solids are just extremely slow-moving fluids.",
+      "imageWikipediaTitle": "Pitch drop experiment",
+      "sources": [
+        {
+          "title": "Pitch drop experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pitch_drop_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pitch_drop_experiment",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The immortal cells that outlived their owner",
+      "body": "In 1951, scientists took cancer cells from a patient named Henrietta Lacks without her knowledge. Unlike other human cells, which die after a few divisions, these cells divided indefinitely. Known as HeLa cells, they became the first immortal human cell line. Today, they are used worldwide for polio vaccines, gene mapping, and cancer research. Their total mass now vastly exceeds Henrietta's original body weight.",
+      "imageWikipediaTitle": "HeLa",
+      "sources": [
+        {
+          "title": "HeLa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HeLa"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HeLa",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "If the Sun vanished, we wouldn't know for eight minutes",
+      "body": "We often think of gravity as an instant pull, but Albert Einstein's theory of general relativity proved otherwise. Gravity travels as waves at the exact speed of light. If the Sun were to suddenly disappear from the universe, Earth would continue to orbit the empty space for about eight minutes and twenty seconds. Only then would we plunge into darkness and fly off into the cosmos.",
+      "imageWikipediaTitle": "General relativity",
+      "sources": [
+        {
+          "title": "Speed of gravity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Speed_of_gravity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Speed_of_gravity",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why bananas are naturally radioactive",
+      "body": "Bananas are famous for being rich in potassium, an essential nutrient for our bodies. However, a small, natural fraction of all potassium on Earth is the radioactive isotope potassium-40. Because of this, bananas emit tiny amounts of radiation. Sleeping next to someone actually exposes you to more radiation than eating a banana, but the banana equivalent dose is still a real unit used by nuclear scientists to explain radiation levels.",
+      "imageWikipediaTitle": "Banana",
+      "sources": [
+        {
+          "title": "Banana equivalent dose",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Banana_equivalent_dose"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Banana_equivalent_dose",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The dirty dish that saved millions of lives",
+      "body": "In 1928, biologist Alexander Fleming returned to his cluttered London laboratory after a vacation. He noticed that one of his petri dishes, left unwashed, had grown a blue-green mold. Crucially, the bacteria surrounding the mold had been destroyed. Fleming identified the mold as Penicillium, leading to the world's first mass-produced antibiotic. His messy habit turned a ruined experiment into one of medicine's greatest breakthroughs.",
+      "imageWikipediaTitle": "Alexander Fleming",
+      "sources": [
+        {
+          "title": "Penicillin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Penicillin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Penicillin",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your gold jewelry was forged in colliding stars",
+      "body": "The nuclear fusion inside normal stars can only forge elements up to iron. To create heavier elements like gold, platinum, and uranium, the universe requires far more extreme conditions. Scientists discovered that these precious metals are forged during the violent collisions of neutron stars—the collapsed cores of dead giants. The cosmic crash squeezes neutrons together so intensely that heavy atoms form and scatter across space, eventually seeding planets like Earth.",
+      "imageWikipediaTitle": "Neutron star",
+      "sources": [
+        {
+          "title": "Nucleosynthesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nucleosynthesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nucleosynthesis",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How much DNA you share with a banana",
+      "body": "Humans and bananas seem to have nothing in common, but deep inside our cells, the machinery of life is remarkably similar. Both humans and banana plants need to replicate DNA, build proteins, and divide cells to survive. Because we share these fundamental biological processes with all cellular life, about half of our genes have recognizable counterparts in bananas. We are evolutionary cousins, sharing a common ancestor from billions of years ago.",
+      "imageWikipediaTitle": "Banana",
+      "sources": [
+        {
+          "title": "Human genome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_genome"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Human_genome",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why ice floats instead of sinking",
+      "body": "Most liquids shrink and get denser as they cool, causing their solid forms to sink. Water behaves this way too, but only until it reaches four degrees Celsius. Below this temperature, water molecules begin to line up into a highly structured, hexagonal crystal lattice as they freeze. This spacing actually makes ice less dense than liquid water. This rare anomaly keeps lakes from freezing solid from the bottom up, preserving aquatic life.",
+      "imageWikipediaTitle": "Ice",
+      "sources": [
+        {
+          "title": "Properties of water",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Properties_of_water"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Properties_of_water",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The unfathomable weight of a neutron star",
+      "body": "When a massive star dies in a supernova, its core can collapse under gravity, packing an entire star's mass into a sphere the size of a city. This creates a neutron star, where atoms are crushed so tightly that protons and electrons fuse into neutrons. The material is so incredibly dense that a single teaspoon of neutron star matter would weigh about six billion tons on Earth—roughly the weight of a mountain.",
+      "imageWikipediaTitle": "Neutron star",
+      "sources": [
+        {
+          "title": "Neutron star",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neutron_star"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Neutron_star",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The most famous failed experiment in history",
+      "body": "In 1887, physicists Albert Michelson and Edward Morley set out to prove the existence of the \"luminiferous aether,\" an invisible medium thought to carry light waves through space. They built an ultra-sensitive instrument to measure differences in the speed of light. To their shock, they found absolutely no difference, disproving the aether entirely. This brilliant \"failure\" cleared the way for Albert Einstein to formulate his revolutionary theory of special relativity.",
+      "imageWikipediaTitle": "Albert A. Michelson",
+      "sources": [
+        {
+          "title": "Michelson–Morley experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What makes HeLa cells unique in scientific history?",
+      "options": [
+        "They were synthesized entirely from non-living chemicals.",
+        "They can divide indefinitely, making them the first immortal human cell line.",
+        "They are the only cells that can survive outside of a vacuum.",
+        "They contain DNA from two entirely different species."
+      ],
+      "correctIndex": 1,
+      "explanation": "HeLa cells are unique because they divide indefinitely in a laboratory setting, bypassing the normal cellular aging process that limits other human cells."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How fast does gravity travel through the vacuum of space?",
+      "options": [
+        "Instantly, with zero delay across any distance.",
+        "At the speed of sound.",
+        "At the speed of light.",
+        "It varies depending on the mass of the object."
+      ],
+      "correctIndex": 2,
+      "explanation": "According to Einstein's general theory of relativity, gravity travels as waves at the speed of light, not instantly."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which accidental discovery by Alexander Fleming revolutionized modern medicine?",
+      "options": [
+        "Aspirin",
+        "Insulin",
+        "Penicillin",
+        "The polio vaccine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fleming accidentally discovered penicillin in 1928 when mold contaminated one of his petri dishes and killed the surrounding bacteria."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Where are heavy elements like gold and platinum primarily forged?",
+      "options": [
+        "In the Earth's molten core",
+        "During the violent collisions of neutron stars",
+        "Inside normal, low-mass stars like our Sun",
+        "In the upper layers of Earth's atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elements heavier than iron require extreme, highly energetic cosmic environments to form, such as the collisions of neutron stars."
+    },
+    {
+      "cardIndex": 7,
+      "question": "At what temperature does liquid water reach its maximum density?",
+      "options": [
+        "0 °C",
+        "4 °C",
+        "100 °C",
+        "-40 °C"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water is unique because it is densest at 4 °C. Below this temperature, it begins to expand as it starts forming a crystal lattice, which is why ice floats."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What did the Michelson-Morley experiment fail to detect, paving the way for relativity?",
+      "options": [
+        "The curvature of spacetime",
+        "The cosmic microwave background",
+        "The luminiferous aether",
+        "The existence of atoms"
+      ],
+      "correctIndex": 2,
+      "explanation": "The experiment failed to detect the 'luminiferous aether,' the hypothetical medium through which light was thought to travel, disproving its existence."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many drops of pitch have fallen since the Pitch Drop Experiment began in 1930?",
+      "answer": 9,
+      "min": 1,
+      "max": 50,
+      "unit": "",
+      "explanation": "Only nine drops of the highly viscous pitch have fallen in nearly a century, proving how incredibly slow-moving this liquid is."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of naturally occurring potassium is the radioactive isotope potassium-40?",
+      "answer": 0.012,
+      "min": 0.001,
+      "max": 0.1,
+      "unit": "%",
+      "explanation": "Only about 0.012% of potassium is radioactive, making potassium-rich foods like bananas very mildly—and safely—radioactive."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "What percentage of our genes do humans share with a banana?",
+      "answer": 50,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Humans share roughly 50% of our genes with bananas because we share fundamental cellular functions inherited from a distant common ancestor."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "How many billion tons would a single teaspoon of neutron star material weigh on Earth?",
+      "answer": 6,
+      "min": 1,
+      "max": 50,
+      "unit": "billion tons",
+      "explanation": "Because a whole star's mass is squeezed into a city-sized sphere, a single teaspoon of a neutron star would weigh a massive 6 billion tons on Earth."
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2026-07-19T01:24:41.292Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we are less likely to help someone when others are around",
+      "body": "In an emergency, we often look to others to decide how to react. If everyone else is doing nothing, we assume help isn't needed. This is the bystander effect. In a classic 1968 study, when a participant thought they were the sole witness to a medical emergency, 85% took action. But when they believed four others were present, that number dropped to just 31%.",
+      "imageWikipediaTitle": "Bystander effect",
+      "sources": [
+        {
+          "title": "Bystander effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bystander_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bystander_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking for a favor makes people like you more",
+      "body": "It sounds backward: to make someone like you, you should ask them for a favor, not do one for them. This is the Ben Franklin effect. When we help someone, our brain resolves the cognitive dissonance of helping a stranger by concluding, \"I must like them, otherwise why would I do this?\" Benjamin Franklin famously used this trick to win over a hostile political rival.",
+      "imageWikipediaTitle": "Benjamin Franklin",
+      "sources": [
+        {
+          "title": "Ben Franklin effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ben_Franklin_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ben_Franklin_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a useless third option tricks you into spending more",
+      "body": "Imagine choosing between a small popcorn for $3 and a large for $7. You might pick the small. But if a cinema adds a \"medium\" for $6.50, the large suddenly looks like an incredible bargain. This is the decoy effect. Marketers introduce an asymmetric \"decoy\" option that is priced to make the most expensive option seem like the best value, steering your choice.",
+      "imageWikipediaTitle": "Decoy effect",
+      "sources": [
+        {
+          "title": "Decoy effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decoy_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Decoy_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain forgets things it knows it can search online",
+      "body": "Our brains are highly efficient organizers. When we know information is easily accessible online, we tend to forget the details and instead remember where to find it. Known as the Google effect or digital amnesia, a pioneering 2011 study showed that participants who believed their typed facts would be saved on a computer made far less effort to commit those facts to memory.",
+      "imageWikipediaTitle": "Google Search",
+      "sources": [
+        {
+          "title": "Google effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Google_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Google_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we judge whole experiences by their endings",
+      "body": "When evaluating a past event—like a vacation or a medical procedure—our brains don't average out the entire experience. Instead, we heavily judge it based on two points: the most intense moment (the peak) and the very end. In a famous experiment, patients undergoing a painful procedure rated the overall pain as lower if the doctor added an extra, slightly less painful minute at the very end.",
+      "imageWikipediaTitle": "Daniel Kahneman",
+      "sources": [
+        {
+          "title": "Peak–end rule",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we work less hard when we are in a group",
+      "body": "In 1913, French agricultural engineer Max Ringelmann discovered that when people pulled on a rope together, they didn't pull as hard as they did individually. This is social loafing. When pulling alone, people gave 100% effort. But in a group of eight, individual effort plummeted to just 49%. Because our personal contribution is hidden in a crowd, we unconsciously slack off, assuming others will carry the weight.",
+      "imageWikipediaTitle": "Tug of war",
+      "sources": [
+        {
+          "title": "Ringelmann effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ringelmann_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ringelmann_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we always underestimate how long a task will take",
+      "body": "Even when we know similar projects have run late in the past, we consistently underestimate how long our current tasks will take. Psychologists call this the planning fallacy. First proposed by Daniel Kahneman and Amos Tversky, it occurs because we focus on the best-case scenario and ignore unexpected delays, treating our current project as unique rather than part of a historical pattern of delays.",
+      "imageWikipediaTitle": "Planning fallacy",
+      "sources": [
+        {
+          "title": "Planning fallacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planning_fallacy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Planning_fallacy",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you think ads brainwash others but not you",
+      "body": "We are quick to believe that media campaigns, political propaganda, and advertisements heavily influence other people. However, we consistently believe that we ourselves are largely immune to these same influences. This cognitive bias is called the third-person effect. Studies show this gap in perception can lead people to support censorship of media they believe will harm others while leaving themselves unaffected.",
+      "imageWikipediaTitle": "Mass media",
+      "sources": [
+        {
+          "title": "Third-person effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Third-person_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Third-person_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How easily we split into hostile \"us versus them\" groups",
+      "body": "It takes shockingly little to trigger tribalism. In the 1970s, psychologist Henri Tajfel showed that when participants were divided into arbitrary groups based on trivial criteria—like whether they preferred a painting by Klee or Kandinsky—they immediately began favoring their \"in-group.\" Even when they had never met, they consistently awarded more points to members of their own group and penalized the \"out-group.\"",
+      "imageWikipediaTitle": "Henri Tajfel",
+      "sources": [
+        {
+          "title": "Minimal group paradigm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Minimal_group_paradigm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Minimal_group_paradigm",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we blame people's character instead of their situation",
+      "body": "When a driver cuts you off, you probably assume they are an aggressive jerk. But when you cut someone off, you blame the situation—like being late or a hidden blind spot. This is the fundamental attribution error. We systematically overemphasize internal character traits to explain other people's behavior, while ignoring the powerful situational forces that shape our own actions.",
+      "imageWikipediaTitle": "Attribution (psychology)",
+      "sources": [
+        {
+          "title": "Fundamental attribution error",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fundamental_attribution_error"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fundamental_attribution_error",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "According to the Ben Franklin effect, how can you make someone like you more?",
+      "options": [
+        "Do a nice favor for them",
+        "Ask them to do a favor for you",
+        "Ignore them until they notice you",
+        "Give them a small, expensive gift"
+      ],
+      "correctIndex": 1,
+      "explanation": "Asking someone for a favor forces their brain to resolve the inconsistency of helping a stranger by assuming they must actually like you."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the peak-end rule suggest we evaluate past experiences?",
+      "options": [
+        "We average the entire experience's pleasure or pain",
+        "We only remember the first few minutes",
+        "We focus on the most intense moment and the end",
+        "We recall only the most boring parts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Our brains shortcut long evaluations by focusing heavily on the peak intensity of the event and how the experience wrapped up."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why does the planning fallacy occur, according to psychologists?",
+      "options": [
+        "We deliberately lie to make ourselves look good",
+        "We focus on the best-case scenario and ignore past delays",
+        "We suffer from physical exhaustion while planning",
+        "We assume that time runs faster in the future"
+      ],
+      "correctIndex": 1,
+      "explanation": "We treat our current task as unique and plan for the ideal path, ignoring our own historical data showing that similar tasks usually run late."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What is the third-person effect in psychology?",
+      "options": [
+        "The belief that media influences others more than ourselves",
+        "The tendency to talk about ourselves in the third person",
+        "The ability to see things from an elevated, bird's-eye view",
+        "The assumption that others always agree with our opinions"
+      ],
+      "correctIndex": 0,
+      "explanation": "We tend to believe that persuasive messages and media have a greater impact on other people than on our own choices."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What did Henri Tajfel's minimal group paradigm demonstrate about human behavior?",
+      "options": [
+        "People only cooperate if they are genetically related",
+        "We form hostile 'us vs. them' biases even over completely trivial differences",
+        "Groups must spend years together to develop deep loyalty",
+        "People are naturally cooperative with all strangers regardless of groups"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tajfel showed that even meaningless, temporary groupings (like painting preference) trigger instant favoritism toward one's own group."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Which of these is an example of the fundamental attribution error?",
+      "options": [
+        "Assuming a late coworker is lazy rather than stuck in bad traffic",
+        "Thinking everyone agrees with your political views",
+        "Believing you are immune to advertising",
+        "Forgetting where you parked because you were distracted"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fundamental attribution error makes us blame a person's character for their behavior while ignoring the external situation they are dealing with."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In a classic 1968 study, what percentage of participants sought help for an emergency when they believed four other witnesses were present?",
+      "answer": 31,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "When participants believed they were the sole witness, 85% helped. But when they thought four others were present, diffusion of responsibility dropped that to just 31%."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "In Max Ringelmann's classic study on social loafing, what percentage of their maximum individual strength did people exert when pulling a rope in a group of eight?",
+      "answer": 49,
+      "min": 10,
+      "max": 90,
+      "unit": "%",
+      "explanation": "As group size increases, individual effort drops. In groups of eight, people pulled at only 49% of their potential capability."
+    }
+  ]
+}

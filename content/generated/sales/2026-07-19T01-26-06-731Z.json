@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T01:26:06.731Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How four simple words can double your sales compliance",
+      "body": "When making a pitch, adding a phrase like \"but you are free to say no\" can double your chances of success. Known as the \"But You Are Free\" technique, this reassurance disarms psychological reactance. By explicitly recognizing your prospect's autonomy, you reduce their urge to resist, making them far more open to saying yes to your request.",
+      "imageWikipediaTitle": "Choice",
+      "sources": [
+        {
+          "title": "But-you-are-free technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/But-you-are-free_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/But-you-are-free_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why showing a minor flaw makes your product more lovable",
+      "body": "Perfection can breed distrust. The Pratfall Effect is a psychological phenomenon where an individual's or product's attractiveness increases after they make a mistake or reveal a minor flaw—provided they are otherwise perceived as highly competent. Showing a small, honest drawback makes your sales pitch feel authentic and human, building deeper trust with your prospect.",
+      "imageWikipediaTitle": "Social psychology",
+      "sources": [
+        {
+          "title": "Pratfall effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pratfall_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pratfall_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why giving customers fewer options actually boosts sales",
+      "body": "While offering dozens of choices seems like a great way to satisfy everyone, it often paralyzes buyers. In a famous study on overchoice, researchers displayed either 6 or 24 varieties of jam. While the larger display attracted more onlookers, only 3% of them actually made a purchase. In contrast, 30% of those who saw the smaller selection bought a jar.",
+      "imageWikipediaTitle": "Jam",
+      "sources": [
+        {
+          "title": "Overchoice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Overchoice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Overchoice",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The clever psychology of \"That's not all!\"",
+      "body": "Before a customer can decline an offer, presenting an extra incentive or price reduction can dramatically increase sales. Known as the \"That's-not-all\" technique, this approach shifts the buyer's perspective. Instead of viewing the transaction as a negotiation where they lose money, they perceive the extra addition as a personal favor or concession, triggering a desire to reciprocate.",
+      "imageWikipediaTitle": "Marketing",
+      "sources": [
+        {
+          "title": "That's-not-all technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/That%27s-not-all_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/That%27s-not-all_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking for \"even a penny\" raises more money",
+      "body": "When asking for donations or assistance, adding the phrase \"even a penny will help\" can drastically increase your success rate. This technique removes the excuse of not having enough to give, making it socially awkward to refuse. Surprisingly, lowering the barrier doesn't decrease the average donation amount; people still tend to give standard amounts, but far more choose to participate.",
+      "imageWikipediaTitle": "United States one-cent coin",
+      "sources": [
+        {
+          "title": "Legitimizing paltry contributions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Legitimizing_paltry_contributions"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Legitimizing_paltry_contributions",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden trap of the low-ball pitch",
+      "body": "The low-ball technique is a highly effective, if controversial, persuasion tactic. A seller offers an item at an exceptionally low price to secure an initial agreement. Once the commitment is made, the seller reveals hidden costs or removes the discount. Because the buyer has already mentally committed to the purchase, they usually proceed anyway, prioritizing psychological consistency over their wallet.",
+      "imageWikipediaTitle": "Agreement",
+      "sources": [
+        {
+          "title": "Low-ball technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Low-ball_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Low-ball_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the final moments shape your customer's memory",
+      "body": "Customers do not evaluate their buying experiences by averaging every single moment. Instead, their memories are dominated by two points: the most intense moment (the peak) and the very end of the interaction. By ensuring the closing moments of your sales pitch or customer service are exceptionally positive, you can leave a lasting, highly favorable impression.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Peak–end rule",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How labeling your prospect shapes their behavior",
+      "body": "People strive to act in ways that align with how they are labeled. Known in sociology as altercasting, this technique involves assigning a positive identity to your prospect before asking them to act. For example, telling a client, \"I know you value cutting-edge innovation,\" subtly pressures them to live up to that label by accepting your advanced, high-tech solution.",
+      "imageWikipediaTitle": "Role-playing",
+      "sources": [
+        {
+          "title": "Altercasting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Altercasting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Altercasting",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why incomplete pitches keep prospects hooked",
+      "body": "Human brains hate unfinished business. The Zeigarnik Effect reveals that people remember uncompleted or interrupted tasks much better than completed ones. In sales, you can leverage this by leaving a small mystery or cliffhanger in your initial communications. By not revealing every detail upfront, you create cognitive tension that your prospect can only resolve by scheduling that follow-up.",
+      "imageWikipediaTitle": "Bluma Zeigarnik",
+      "sources": [
+        {
+          "title": "Zeigarnik effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zeigarnik_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zeigarnik_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How setting a visual contrast changes perceived value",
+      "body": "Our brains cannot easily evaluate value in a vacuum; we rely on comparison. The contrast effect occurs when you present a highly expensive or lower-quality option right before showing your target offering. By establishing this stark comparison, your main offering instantly appears far more attractive, lighter, or reasonably priced than if it had been presented on its own.",
+      "imageWikipediaTitle": "Contrast effect",
+      "sources": [
+        {
+          "title": "Contrast effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Contrast_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Contrast_effect",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "According to the Pratfall Effect, when does admitting a minor flaw actually increase your appeal?",
+      "options": [
+        "Only when you are already perceived as highly competent",
+        "Only when you are struggling to prove your competence",
+        "When the flaw is extremely severe",
+        "When you blame the flaw on someone else"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Pratfall Effect only works if the person or brand is already seen as highly competent; otherwise, a mistake just reinforces a negative perception of incompetence."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the \"That's-not-all\" technique increase compliance?",
+      "options": [
+        "It makes the buyer perceive the added bonus as a personal concession",
+        "It physically forces the buyer to pay more",
+        "It relies on confusing the buyer with complex math",
+        "It reduces the quality of the main product"
+      ],
+      "correctIndex": 0,
+      "explanation": "By offering a bonus before the buyer responds, the seller creates the illusion of making a personal concession, which encourages the buyer to reciprocate by purchasing."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why do people often proceed with a purchase after a \"low-ball\" price increase is revealed?",
+      "options": [
+        "They want to maintain cognitive and behavioral consistency",
+        "They forget the original price was lower",
+        "They are legally forced to complete the transaction",
+        "They prefer paying higher prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Once a person makes an initial commitment, they feel strong internal pressure to remain consistent with that decision, even if the terms change."
+    },
+    {
+      "cardIndex": 6,
+      "question": "According to the Peak-End Rule, which two moments dominate a customer's memory of an experience?",
+      "options": [
+        "The most intense point and the final moments",
+        "The very beginning and the average of all points",
+        "The cheapest moment and the most expensive moment",
+        "The first five minutes and the last five minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The human brain retains memories based primarily on the emotional peak (positive or negative) and the conclusion of the experience."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What is the core mechanism behind the persuasion technique known as altercasting?",
+      "options": [
+        "Assigning a specific role or social label to a person to influence their actions",
+        "Lowering the price repeatedly until the buyer agrees",
+        "Using physical gestures to mirror the customer's posture",
+        "Presenting three options where the middle one is a decoy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Altercasting works by placing the target into a specific role or identity, making them more likely to behave in ways consistent with that role."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How does the contrast effect influence a buyer's perception?",
+      "options": [
+        "It alters the perception of an item based on the immediately preceding comparison",
+        "It makes buyers completely forget the price of the first item",
+        "It forces buyers to purchase both items together",
+        "It reduces the physical size of the product in the buyer's eyes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The contrast effect enhances or diminishes our perception of an object's characteristics based on how it compares to something we just observed."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In a meta-analysis of over 22,000 people, how many independent studies confirmed that the \"But You Are Free\" technique effectively doubles compliance?",
+      "answer": 42,
+      "min": 5,
+      "max": 150,
+      "unit": "studies",
+      "explanation": "Christopher Carpenter's 2013 meta-analysis of 42 independent studies showed that this simple phrase consistently doubles compliance across various requests."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In the famous \"jam experiment\" on overchoice, what percentage of customers bought a jar when presented with only 6 choices?",
+      "answer": 30,
+      "min": 1,
+      "max": 100,
+      "unit": "%",
+      "explanation": "When offered 6 options, 30% of buyers made a purchase, compared to a meager 3% when presented with 24 options. Less choice reduces decision fatigue."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In Robert Cialdini's classic 1976 study, what percentage of people donated when the phrase \"even a penny will help\" was added?",
+      "answer": 50,
+      "min": 10,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Adding \"even a penny will help\" nearly doubled the donation rate from 29% to 50% without lowering the average amount donated per person."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "In Bluma Zeigarnik's original study, interrupted tasks were remembered what percentage better than completed ones?",
+      "answer": 90,
+      "min": 10,
+      "max": 200,
+      "unit": "%",
+      "explanation": "Zeigarnik found that participants remembered interrupted tasks about 90% better than completed ones because of the cognitive tension left by unfinished business."
+    }
+  ]
+}
