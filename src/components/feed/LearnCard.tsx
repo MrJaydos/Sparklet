@@ -242,7 +242,7 @@ export function LearnCard({
       )}
 
       <div
-        className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+4rem)] pt-[calc(env(safe-area-inset-top)+4rem)]"
+        className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)]"
         style={{
           transform: `translateX(${dragX * 0.35}px)`,
           transition: dragX === 0 ? "transform 150ms ease-out" : "none",
@@ -356,7 +356,7 @@ export function LearnCard({
         </div>{/* /pr-16 */}
 
       {/* Action rail — TikTok-style vertical stack, clear of the text column */}
-      <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+4rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5">
+      <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+2rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5">
         <div className="flex flex-col items-center rounded-full bg-neutral-900/70 py-1 backdrop-blur">
           <button
             type="button"

@@ -72,7 +72,10 @@ export function ReportSheet({
             </div>
             <textarea
               value={detail}
-              onChange={(e) => setDetail(e.target.value)}
+              onChange={(e) => {
+                setDetail(e.target.value);
+                if (!reason) setReason("OTHER");
+              }}
               maxLength={500}
               placeholder="Anything else we should know? (optional)"
               className="mt-3 w-full resize-none rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm outline-none focus:border-neutral-600"

@@ -799,7 +799,7 @@ export function Feed({
 
       {/* First-visit swipe hint: an animated upward flick + call to action */}
       {showSwipeHint && cards.length > 1 && (
-        <div className="pointer-events-none absolute inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5.5rem)] z-40 flex flex-col items-center">
+        <div className="pointer-events-none absolute inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+3.5rem)] z-40 flex flex-col items-center">
           <div className="relative flex h-28 items-end justify-center" aria-hidden>
             <div className="swipe-trail absolute bottom-6 h-16 w-1.5 rounded-full bg-gradient-to-t from-white/0 via-white/40 to-white/0" />
             <div className="swipe-hand text-5xl drop-shadow-lg">👆</div>
@@ -877,7 +877,7 @@ export function Feed({
       {showPushPrompt && <PushPrompt onDone={closePushPrompt} />}
 
       {saveNotice && (
-        <div className="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5rem)] z-50 flex justify-center px-4">
+        <div className="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+3rem)] z-50 flex justify-center px-4">
           <div className="rounded-full border border-amber-800 bg-neutral-900/95 px-4 py-2 text-sm text-amber-200 shadow-lg backdrop-blur">
             {saveNotice}
           </div>
