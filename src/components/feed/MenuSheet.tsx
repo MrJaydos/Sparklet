@@ -34,6 +34,9 @@ export function MenuSheet({
             </span>
           )}
         </Link>
+        <Link href="/leaderboard" className={item}>
+          🏆 Leaderboard
+        </Link>
         <Link href="/profile" className={item}>
           👤 Profile
         </Link>

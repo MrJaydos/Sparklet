@@ -111,6 +111,9 @@ export default async function ProfilePage() {
           ← Back to feed
         </Link>
         <div className="flex items-center gap-4">
+          <Link href="/leaderboard" className="text-sm text-neutral-400 hover:text-neutral-200">
+            🏆 Leaderboard
+          </Link>
           {isAdminEmail(user.email) && (
             <Link href="/admin" className="text-sm text-neutral-400 hover:text-neutral-200">
               🛠️ Admin
