@@ -751,7 +751,7 @@ export function Feed({
             <div className="swipe-trail absolute bottom-6 h-16 w-1.5 rounded-full bg-gradient-to-t from-white/0 via-white/40 to-white/0" />
             <div className="swipe-hand text-5xl drop-shadow-lg">👆</div>
           </div>
-          <span className="rounded-full bg-neutral-100 px-5 py-2 text-sm font-semibold text-neutral-900 shadow-lg">
+          <span className="rounded-full bg-violet-600 px-6 py-3 text-base font-bold text-white shadow-xl shadow-violet-600/30">
             Start swiping to learn
           </span>
         </div>
