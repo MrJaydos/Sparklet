@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-07-19T12:54:12.312Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lobsters communicate by peeing from their faces",
+      "body": "If you want to impress a lobster, you might have to spray it in the face with urine. Lobsters have bladder-like glands located just below their eyes. During fights or courtship, they shoot high-pressure streams of urine at each other to signal dominance or interest. This chemical cocktail carries pheromones that convey status and health, turning a smelly spray into a complex social conversation.",
+      "imageWikipediaTitle": "Lobster",
+      "sources": [
+        {
+          "title": "Lobster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lobster"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lobster",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Woodpeckers wrap their tongues around their brains",
+      "body": "To survive hammering into trees up to 20 times a second, woodpeckers need serious head protection. Instead of relying solely on a thick skull, they have an extraordinarily long tongue that splits, wraps around the back of their brain, and anchors near their nostrils. This unique anatomy acts like a natural seatbelt and shock absorber, dampening the brutal G-forces of every single strike.",
+      "imageWikipediaTitle": "Woodpecker",
+      "sources": [
+        {
+          "title": "Woodpecker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodpecker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Woodpecker",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The medieval pig that was put on trial and executed",
+      "body": "In 1386, the town of Falaise, France, bore witness to a bizarre legal proceeding: a pig was arrested, tried in a court of law, and sentenced to death for murdering a human child. To ensure a fair trial, the pig was dressed in human clothes, including a jacket and drawers, before being publicly hanged. Animal trials were surprisingly common in medieval Europe, treating beasts as morally responsible agents.",
+      "imageWikipediaTitle": "Animal trial",
+      "sources": [
+        {
+          "title": "Animal trial",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Animal_trial"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Animal_trial",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Play-Doh was originally sold as wallpaper cleaner",
+      "body": "Before it became a staple of childhood creativity, Play-Doh was a practical household cleaning product. In the 1930s, Kutol Products manufactured the pliable dough to clean black coal soot off wallpaper. When coal heating declined and sales plummeted, the company discovered schoolteachers were using the non-toxic clay for art classes. They removed the detergent, added bright colors, and successfully rebranded it in 1956.",
+      "imageWikipediaTitle": "Play-Doh",
+      "sources": [
+        {
+          "title": "Play-Doh",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Play-Doh"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Play-Doh",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The reptile with a fully functioning third eye",
+      "body": "The tuatara, a rare reptile native to New Zealand, boasts a fully formed third eye on the top of its head. Known as the parietal eye, it comes complete with a lens, retina, and nerve endings. While it is covered by scales in adults and cannot form images, it is highly sensitive to light and helps the tuatara regulate its body temperature and track seasonal cycles.",
+      "imageWikipediaTitle": "Tuatara",
+      "sources": [
+        {
+          "title": "Tuatara",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tuatara"
+        },
+        {
+          "title": "Parietal eye",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parietal_eye"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Parietal_eye",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The bank robber who thought lemon juice made him invisible",
+      "body": "In 1995, McArthur Wheeler boldly robbed two banks in Pittsburgh without wearing a mask. When police arrested him hours later, showing him the security footage, Wheeler was stunned, muttering, \"But I wore the juice!\" He mistakenly believed that rubbing lemon juice on his face would make him invisible to security cameras, just like it works as invisible ink. His extreme self-delusion inspired psychologists to study and define the Dunning-Kruger effect.",
+      "imageWikipediaTitle": "Dunning–Kruger effect",
+      "sources": [
+        {
+          "title": "Dunning–Kruger effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flamingos bend their legs at the ankle, not the knee",
+      "body": "When you watch a flamingo stand on one leg, it looks like its knee is bending backward. In reality, that prominent middle joint is actually its ankle. A flamingo's actual knees are located much higher up on its body, completely hidden from view beneath its dense feathers. What looks like a long shin is actually the bird's foot bones, meaning they are constantly standing on their tip-toes.",
+      "imageWikipediaTitle": "Flamingo",
+      "sources": [
+        {
+          "title": "Flamingo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flamingo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flamingo",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pigs can learn to play video games with their snouts",
+      "body": "Pigs are far smarter than most people realize. In a classic cognitive study, researchers trained four pigs—Hamlet, Omelet, Ebony, and Ivory—to use a custom joystick with their snouts. The pigs successfully moved a computer cursor to hit targets on a screen, demonstrating a clear understanding of the game's mechanics. They kept playing even when the food dispenser broke, motivated purely by the researchers' verbal encouragement.",
+      "imageWikipediaTitle": "Domestic pig",
+      "sources": [
+        {
+          "title": "Domestic pig",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Domestic_pig"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Domestic_pig",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The loneliest tree in the world was hit by a truck",
+      "body": "For decades, the Tree of Ténéré, a solitary acacia in Niger, was celebrated as the most isolated tree on Earth, with no other trees for 400 kilometers (250 miles) in any direction. Serving as a crucial landmark for Sahara desert travelers, its deep roots tapped into water 35 meters down. Tragically, in 1973, a reportedly drunk Libyan truck driver managed to crash directly into the lone tree, knocking it down.",
+      "imageWikipediaTitle": "Tree of Ténéré",
+      "sources": [
+        {
+          "title": "Tree of Ténéré",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tree_of_T%C3%A9n%C3%A9r%C3%A9"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tree_of_T%C3%A9n%C3%A9r%C3%A9",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Caterpillars turn completely into soup inside the chrysalis",
+      "body": "When a caterpillar retreats into its chrysalis, it doesn't just grow wings; it completely dissolves. Enzymes break down its body until it becomes a highly disorganized protein soup. Only a few specialized clusters of cells, called imaginal discs, survive this cellular demolition. Remarkably, despite this total structural liquefaction, scientific studies have shown that moths can retain memories they learned back when they were caterpillars.",
+      "imageWikipediaTitle": "Pupa",
+      "sources": [
+        {
+          "title": "Pupa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pupa"
+        },
+        {
+          "title": "Caterpillar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Caterpillar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pupa",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What body parts do lobsters use to shoot urine at each other for communication?",
+      "options": [
+        "Claws",
+        "Face and eyes",
+        "Tail",
+        "Gills"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lobsters have urine-releasing glands located just below their eyes, which they use to communicate status and attract mates."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where does a woodpecker's tongue wrap around to act as a shock absorber?",
+      "options": [
+        "Under its wings",
+        "Inside its spinal cord",
+        "Around its brain",
+        "Around its beak"
+      ],
+      "correctIndex": 2,
+      "explanation": "The woodpecker's extraordinarily long tongue splits, loops around the back of its brain, and anchors near the nostrils to act as a natural helmet."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was a pig dressed in human clothes and publicly executed in France in 1386?",
+      "options": [
+        "It belonged to the king",
+        "It was a sacrificial ritual",
+        "It was believed to be a werewolf",
+        "It was convicted in a formal court of law"
+      ],
+      "correctIndex": 3,
+      "explanation": "Animal trials were surprisingly common in medieval Europe, where animals were legally prosecuted and sentenced like humans."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is unique about the tuatara's third (parietal) eye?",
+      "options": [
+        "It has a lens and retina",
+        "It shoots defensive fluid",
+        "It can see in the infrared spectrum",
+        "It is located on its tail"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tuatara's third eye has a complete lens, retina, and nerve endings, though it is covered by scales in adulthood."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Which joint is actually bending backward when a flamingo stands on one leg?",
+      "options": [
+        "Its knee",
+        "Its ankle",
+        "Its hip",
+        "Its toe"
+      ],
+      "correctIndex": 1,
+      "explanation": "The visible joint in the middle of a flamingo's leg is its ankle. Its actual knees are located much higher, hidden under its feathers."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How did pigs interact with video games in cognitive research studies?",
+      "options": [
+        "By stepping on floor pads",
+        "By tracking screens with their eyes",
+        "By nudging a joystick with their snouts",
+        "By biting a touch screen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Researchers trained pigs to use their snouts to manipulate custom joysticks to move a cursor on a screen."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What happens to a caterpillar's body structure inside a chrysalis?",
+      "options": [
+        "It remains solid but grows wings",
+        "It dissolves completely into a liquid soup",
+        "It sheds its skeleton multiple times",
+        "It splits into two separate pupae"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enzymes completely break down the caterpillar's body into a protein soup before it reforms into a butterfly or moth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What year was Play-Doh officially rebranded and sold as a children's toy instead of a wallpaper cleaner?",
+      "answer": 1956,
+      "min": 1900,
+      "max": 2000,
+      "unit": "",
+      "explanation": "After coal heating declined, Kutol Products rebranded their wallpaper-soot cleaner as a colorful, non-toxic toy in 1956."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "In what year did McArthur Wheeler carry out his bank robberies using lemon juice as a 'cloaking device'?",
+      "answer": 1995,
+      "min": 1970,
+      "max": 2020,
+      "unit": "",
+      "explanation": "Wheeler's 1995 arrest led directly to the famous study of the Dunning-Kruger effect, describing how incompetent people overestimate their abilities."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "How many kilometers away was the nearest tree to the isolated Tree of Ténéré in the Sahara desert?",
+      "answer": 400,
+      "min": 50,
+      "max": 1000,
+      "unit": "km",
+      "explanation": "The Tree of Ténéré was the most isolated tree on Earth, with no other tree for 400 kilometers (250 miles) until it was knocked down in 1973."
+    }
+  ]
+}

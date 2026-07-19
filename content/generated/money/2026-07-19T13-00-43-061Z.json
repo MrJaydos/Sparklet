@@ -1,0 +1,256 @@
+{
+  "generatedAt": "2026-07-19T13:00:43.061Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Service Was Created to Fight Counterfeiting",
+      "body": "On April 14, 1865—the very day he was assassinated—President Abraham Lincoln authorized the creation of the Secret Service. However, their original mission wasn't presidential protection. It was combating rampant counterfeiting. At the close of the Civil War, an estimated one-third of all paper currency in circulation in the United States was fake, threatening to collapse the young nation's economy.",
+      "imageWikipediaTitle": "United States Secret Service",
+      "sources": [
+        {
+          "title": "United States Secret Service",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States_Secret_Service"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/United_States_Secret_Service",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Canned Fish Became Prison Currency",
+      "body": "When federal prisons banned smoking in 2004, the traditional cigarette currency vanished overnight. In its place, inmates adopted a new commodity money: the \"mack,\" a vacuum-sealed foil pouch of Atlantic mackerel. Macks became a stable unit of account and medium of exchange, used to pay for haircuts, laundry services, and cell cleaning, despite its edible nature and fishy smell.",
+      "imageWikipediaTitle": "Atlantic mackerel",
+      "sources": [
+        {
+          "title": "Mackerel as currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mackerel_as_currency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mackerel_as_currency",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The $100,000 Bill You Aren't Allowed to Own",
+      "body": "In 1934, the United States printed its highest-denomination banknote ever: the $100,000 Gold Certificate, featuring President Woodrow Wilson. These massive bills were never released into public circulation. Instead, they were used strictly for official, high-value transactions between Federal Reserve Banks before the advent of wire transfers. Today, owning one of these bills as a private citizen is completely illegal.",
+      "imageWikipediaTitle": "Large denominations of United States currency",
+      "sources": [
+        {
+          "title": "Large denominations of United States currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Large_denominations_of_United_States_currency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Large_denominations_of_United_States_currency",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Largest Gold Vault is in New York",
+      "body": "While Fort Knox is famous, the Federal Reserve Bank of New York houses the world's largest known monetary gold reserve. Sitting on the bedrock of Manhattan Island, eighty feet below street level, this high-security vault stores over 500,000 gold bars. Interestingly, nearly all of this gold belongs to foreign governments and central banks, who trust the US to store it safely.",
+      "imageWikipediaTitle": "Federal Reserve Bank of New York",
+      "sources": [
+        {
+          "title": "Federal Reserve Bank of New York",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_New_York"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Federal_Reserve_Bank_of_New_York",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Postal Loophole That Built the Original Ponzi Scheme",
+      "body": "In 1919, Charles Ponzi realized he could exploit a pricing loophole in International Reply Coupons. These coupons allowed a sender to pre-pay a recipient's return postage. Because of post-WWI inflation, Ponzi found he could buy coupons cheaply in Europe and exchange them for higher-value US stamps. Though he promised investors massive returns, he quickly shifted to paying old investors with new investors' money.",
+      "imageWikipediaTitle": "Charles Ponzi",
+      "sources": [
+        {
+          "title": "Ponzi scheme",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ponzi_scheme"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ponzi_scheme",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Markets Are Called Bulls and Bears",
+      "body": "The financial terms \"bull\" and \"bear\" date back to 18th-century London. \"Bear\" came first, originating from middlemen who sold bearskins before the bears were actually caught, hoping prices would drop in the meantime. Because bears and bulls were historically pitted against each other, the bull—which strikes upward with its horns—became the natural linguistic opposite of the bear, which swipes downward with its paws.",
+      "imageWikipediaTitle": "Charging Bull",
+      "sources": [
+        {
+          "title": "Market trend",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Market_trend"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Market_trend",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The German Emergency Money Made of Silk and Coal",
+      "body": "During the hyperinflation of 1920s Germany, the central bank couldn't print money fast enough. In response, local municipalities and institutions issued their own emergency currency, known as Notgeld. Because metal and paper were scarce, towns got creative, minting coins and notes out of porcelain, leather, silk, linen, and even pressed coal. These beautifully designed pieces are now prized by collectors worldwide.",
+      "imageWikipediaTitle": "Notgeld",
+      "sources": [
+        {
+          "title": "Notgeld",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Notgeld"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Notgeld",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Heavy Metal Coins That Pre-Dated Credit Cards",
+      "body": "Long before plastic cards or digital wallets, 19th-century department stores issued \"charge coins\" and metal plates to their trusted customers. These durable tokens, often made of brass, copper, or celluloid, were stamped with the customer's unique account number and the store's logo. Clerks used them to copy the account details onto paper sales slips, paving the way for the modern credit card system.",
+      "imageWikipediaTitle": "Charge coin",
+      "sources": [
+        {
+          "title": "Charge coin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charge_coin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Charge_coin",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Local Currency Keeping Cash in the Community",
+      "body": "In the Berkshire region of Massachusetts, residents don't just spend US dollars; they spend BerkShares. Launched in 2006, this highly successful local currency is designed to keep wealth circulating within the community. Over 400 local businesses accept the colorful bills, which are obtained at local banks at a 5% discount, incentivizing residents to buy from independent local merchants rather than national chains.",
+      "imageWikipediaTitle": "BerkShares",
+      "sources": [
+        {
+          "title": "BerkShares",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/BerkShares"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/BerkShares",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tracking Inflation with the Twelve Days of Christmas",
+      "body": "Every year since 1984, the PNC Financial Services Group has calculated the \"Christmas Price Index\"—the total cost of purchasing all the gifts mentioned in the classic song \"The Twelve Days of Christmas\". This includes hiring lords-a-leaping, purchasing gold rings, and buying partridges in pear trees. Economists track this humorous index alongside official government inflation metrics to see how commodity and labor costs change over time.",
+      "imageWikipediaTitle": "The Twelve Days of Christmas (song)",
+      "sources": [
+        {
+          "title": "Christmas Price Index",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christmas_Price_Index"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Christmas_Price_Index",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "Why did canned mackerel become a popular currency in US federal prisons after 2004?",
+      "options": [
+        "Smoking was banned, making cigarettes obsolete as a currency",
+        "Metal coins were outlawed to prevent weapon-making",
+        "Paper currency was found to transmit contagious skin diseases",
+        "The prison commissary stopped accepting electronic card payments"
+      ],
+      "correctIndex": 0,
+      "explanation": "After smoking was banned in 2004, inmates turned to stable, non-perishable goods like mackerel foil pouches to use as commodity money."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the original purpose of the $100,000 bill printed by the United States in 1934?",
+      "options": [
+        "To transfer funds officially between Federal Reserve Banks",
+        "To pay off foreign debt accumulated during World War I",
+        "To serve as emergency currency during the Great Depression",
+        "To reward high-ranking military officials upon retirement"
+      ],
+      "correctIndex": 0,
+      "explanation": "The $100,000 Gold Certificate was used strictly for official transactions between Federal Reserve Banks and was never released to the general public."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What international postal product did Charles Ponzi exploit to build his infamous original investment scheme?",
+      "options": [
+        "International Reply Coupons",
+        "Registered Airmail Stamps",
+        "Pre-paid Postcard Vouchers",
+        "Customs Declaration Seals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ponzi noticed a pricing discrepancy in International Reply Coupons, which could be bought cheaply in Europe and exchanged for higher-value US stamps."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Where does the term 'bear' in a falling stock market historically originate from?",
+      "options": [
+        "Middlemen who sold bearskins before the bears were actually caught",
+        "The sluggish movement of hibernating bears during winter",
+        "A famous 18th-century tavern where stock traders met to complain",
+        "The downward swiping motion of a bear's defense mechanism"
+      ],
+      "correctIndex": 0,
+      "explanation": "The phrase 'bear' came from 'bearskin jobbers' who sold skins they didn't yet own, hoping the market price would drop before they had to buy them."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What was 'Notgeld', used in Germany during the hyperinflation of the 1920s?",
+      "options": [
+        "Emergency money issued locally out of unusual materials like silk and porcelain",
+        "A tax levied exclusively on the wealthy to fund public transit",
+        "A digital ledger system used by merchants to avoid paper currency",
+        "Foreign currency smuggled into the country to pay for basic groceries"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because paper and metal were scarce, German towns issued emergency 'Notgeld' made from alternative materials like silk, leather, and porcelain."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "At the end of the US Civil War, what percentage of paper currency in circulation was estimated to be counterfeit?",
+      "answer": 33,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "With up to half of all currency suspected to be fake, Lincoln authorized the Secret Service to combat counterfeiting and restore trust in the dollar."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many tons of gold are stored in the high-security bedrock vault of the Federal Reserve Bank of New York?",
+      "answer": 6190,
+      "min": 500,
+      "max": 25000,
+      "unit": "tons",
+      "explanation": "The vault holds about 6,190 tons of gold, making it the largest known monetary gold depository in the world—even larger than Fort Knox."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "In what year was the BerkShares local currency officially launched in Western Massachusetts to support local businesses?",
+      "answer": 2006,
+      "min": 1980,
+      "max": 2024,
+      "unit": "year",
+      "explanation": "Launched in 2006, BerkShares has become one of the most successful local currency programs in the United States."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "In what year did PNC first calculate the Christmas Price Index based on 'The Twelve Days of Christmas'?",
+      "answer": 1984,
+      "min": 1950,
+      "max": 2020,
+      "unit": "year",
+      "explanation": "The index has been calculated annually since 1984, tracking the cost of gifts ranging from calling birds to lords-a-leaping."
+    }
+  ]
+}

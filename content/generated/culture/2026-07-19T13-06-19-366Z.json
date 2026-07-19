@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T13:06:19.366Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Language of Windmill Sails",
+      "body": "For centuries, Dutch millers used their windmills to broadcast news across the flat landscape. By stopping the giant sails at specific angles, they sent clear messages to their neighbors. Resting the sails just before the top vertical signaled a birth or joyful event, while stopping them just past the top announced a death. During World War II, these hidden signals were even used to warn locals of approaching Nazi raids.",
+      "imageWikipediaTitle": "Windmill",
+      "sources": [
+        {
+          "title": "Windmill sail",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Windmill_sail"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Windmill_sail",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Spanish Festival Where the Devil Jumps Over Babies",
+      "body": "In the Spanish village of Castrillo de Murcia, a highly unusual tradition has endured since 1621. During the festival of El Colacho, men dressed as the devil sprint down the streets and leap over mattresses laid on the ground. Upon those mattresses lie babies born during the previous year. This dramatic ritual is believed to cleanse the infants of original sin, guard them against illness, and chase away evil spirits.",
+      "imageWikipediaTitle": "El Colacho",
+      "sources": [
+        {
+          "title": "El Colacho",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/El_Colacho"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/El_Colacho",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Victorian Romance Coded in Hand Fans",
+      "body": "In the strict social environments of the 18th and 19th centuries, high-society European women bypassed chaperones using a complex language of hand fans. Placing a fan against the left cheek meant \"no,\" while resting it on the right cheek meant \"yes.\" Drawing the fan across the eyes meant \"I am sorry,\" and shutting a fully open fan quickly signaled sudden dislike. This silent code allowed lovers to flirt in plain sight.",
+      "imageWikipediaTitle": "Hand fan",
+      "sources": [
+        {
+          "title": "Hand fan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hand_fan"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hand_fan",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Icelanders Can Read 1,000-Year-Old Books",
+      "body": "Due to Iceland's extreme geographic isolation and a strong cultural push to preserve its vocabulary, the Icelandic language has changed remarkably little over the last millennium. Today, modern Icelandic speakers can read ancient Norse sagas written in the 10th and 11th centuries with relative ease. While other European languages underwent massive grammatical overhauls, Icelandic maintained its complex medieval grammar and original vocabulary, keeping a direct window to the Viking Age wide open.",
+      "imageWikipediaTitle": "Icelandic language",
+      "sources": [
+        {
+          "title": "Icelandic language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Icelandic_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Icelandic_language",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The African Statues Armed with Oaths and Nails",
+      "body": "In the Kongo culture of Central Africa, communities created powerful wooden figures called nkisi nkondi to enforce laws and seal pacts. When individuals made an oath, settled a dispute, or finalized a contract, they would drive a metal nail, peg, or blade deep into the wooden statue. This physical act was believed to awaken the spirit within the figure, which would then hunt down and punish anyone who dared to break the agreement.",
+      "imageWikipediaTitle": "Nkisi",
+      "sources": [
+        {
+          "title": "Nkisi nkondi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nkisi_nkondi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nkisi_nkondi",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Mud Mosque Maintained by an Entire City",
+      "body": "The Great Mosque of Djenné in Mali is the largest mud-brick building in the world. Because the sun-dried mud structure is highly vulnerable to seasonal rains, the entire local community gathers once a year for a massive, day-long festival. To the beat of drums, thousands of residents work together to replaster the mosque's walls with fresh mud, preserving their architectural masterpiece and reinforcing their cultural bond through shared labor.",
+      "imageWikipediaTitle": "Great Mosque of Djenné",
+      "sources": [
+        {
+          "title": "Great Mosque of Djenné",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Turkish Art of Painting on Water",
+      "body": "Ebru, the traditional Turkish art of paper marbling, involves painting directly on the surface of water. Artists thicken water using a natural gum called tragacanth, then sprinkle oil-resistant natural pigments onto the liquid surface. Using delicate combs, brushes, and needles, they swirl the floating colors into breathtaking, organic patterns or detailed flowers. Finally, a sheet of paper is gently laid on the water, instantly capturing and freezing the fluid masterpiece forever.",
+      "imageWikipediaTitle": "Paper marbling",
+      "sources": [
+        {
+          "title": "Paper marbling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paper_marbling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paper_marbling",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Giant Red Hats of Easter Island",
+      "body": "The iconic stone statues, or moai, of Easter Island were once even more imposing. Many were topped with giant, cylindrical red stone \"hats\" called pukao. Carved from a separate quarry of soft, red volcanic rock, these pukao could weigh up to 12 metric tons. Archaeologists believe they represented topknots of hair, a symbol of status and sacred power. Getting these massive stones atop the statues' heads required ingenious ramp-and-pulley systems.",
+      "imageWikipediaTitle": "Pukao",
+      "sources": [
+        {
+          "title": "Pukao",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pukao"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pukao",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 11th-Century Court Novel Written by a Woman",
+      "body": "Written in Japan around the year 1008, The Tale of Genji is widely celebrated as the world's very first novel. The monumental work was penned by Murasaki Shikibu, a noblewoman and lady-in-waiting at the imperial court. Spanning 54 chapters, the book provides a remarkably detailed look into the romantic intrigues, aesthetic rituals, and daily lives of the Heian-era aristocracy, establishing a narrative depth that paved the way for modern literature.",
+      "imageWikipediaTitle": "Murasaki Shikibu",
+      "sources": [
+        {
+          "title": "The Tale of Genji",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mexican Christmas Festival of Carved Radishes",
+      "body": "Every December 23, the city of Oaxaca, Mexico, hosts the Night of the Radishes, a unique festival dating back to 1897. Local artisans compete by carving incredibly detailed, miniature sculptures out of oversized radishes. These are not ordinary radishes; heavily fertilized, they grow up to two feet long and weigh up to several pounds. Sculptors transform them into complex religious nativities, historical battles, and traditional dances, drawing thousands of spectators to the town square.",
+      "imageWikipediaTitle": "Night of the Radishes",
+      "sources": [
+        {
+          "title": "Night of the Radishes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Night_of_the_Radishes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Night_of_the_Radishes",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did stopping a Dutch windmill's sails just before the top vertical traditionally signal to the community?",
+      "options": [
+        "A birth or celebration",
+        "A death in the family",
+        "An upcoming storm",
+        "A shortage of grain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stopping the sails just before the top vertical was an upward-leaning, optimistic position that signaled celebration, such as a birth."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In Victorian fan language, what did resting a fan on the right cheek mean?",
+      "options": [
+        "Yes",
+        "No",
+        "I am sorry",
+        "We are being watched"
+      ],
+      "correctIndex": 0,
+      "explanation": "Resting the fan on the right cheek meant 'yes', while the left cheek signaled 'no'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why can modern Icelanders read 1,000-year-old Viking sagas with relative ease?",
+      "options": [
+        "The language has changed very little",
+        "They are written in a simple pictorial code",
+        "The sagas are routinely updated with modern slang",
+        "All Icelanders must take mandatory translation classes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because of geographic isolation and linguistic preservation, Icelandic has changed so little that 1,000-year-old texts are still readable today."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How do artists of the Turkish Ebru technique prevent their paints from dissolving into the water?",
+      "options": [
+        "They thicken the water with natural gum and use oil-resistant pigments",
+        "They freeze the water before painting on it",
+        "They use chemical plastic sheets on top of the water",
+        "They spray the water with permanent sealants"
+      ],
+      "correctIndex": 0,
+      "explanation": "By thickening the water with a natural gum like tragacanth and using oil-resistant pigments, the paints float on top and can be swirled into intricate patterns."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What vegetable is carved into intricate, detailed sculptures during a famous Christmas festival in Oaxaca, Mexico?",
+      "options": [
+        "Radishes",
+        "Pumpkins",
+        "Potatoes",
+        "Turnips"
+      ],
+      "correctIndex": 0,
+      "explanation": "Artisans in Oaxaca carve oversized, specially grown radishes into complex artistic scenes for the Night of the Radishes on December 23."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In what year did the traditional baby-jumping festival of El Colacho begin in Spain?",
+      "answer": 1621,
+      "min": 1000,
+      "max": 2000,
+      "unit": "",
+      "explanation": "This dramatic ritual has been carried out in Castrillo de Murcia annually since 1621."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "Up to how many metric tons did a single red stone 'hat' (pukao) placed on Easter Island's statues weigh?",
+      "answer": 12,
+      "min": 1,
+      "max": 50,
+      "unit": "tons",
+      "explanation": "Some of these massive red stone topknots weighed up to 12 metric tons and were raised onto statues that stood up to 33 feet tall."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "Around what year was 'The Tale of Genji', widely recognized as the world's first novel, completed?",
+      "answer": 1008,
+      "min": 500,
+      "max": 1800,
+      "unit": "",
+      "explanation": "Murasaki Shikibu wrote her masterpiece in Japan's imperial court around the year 1008."
+    }
+  ]
+}

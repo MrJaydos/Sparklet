@@ -1,0 +1,256 @@
+{
+  "generatedAt": "2026-07-19T12:58:25.173Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Yawning acts as a radiator for your brain",
+      "body": "For years, scientists believed yawning was just a way to inhale more oxygen. Modern research suggests a different primary purpose: brain thermoregulation. When you yawn, the deep intake of air cools the blood vessels leading to your head, acting like a miniature radiator to lower your brain's temperature and keep you alert.",
+      "imageWikipediaTitle": "Yawn",
+      "sources": [
+        {
+          "title": "Yawn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yawn"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Yawn",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your digestive tract isn't actually the size of a tennis court",
+      "body": "For decades, textbooks claimed the surface area of the human small intestine was roughly the size of a tennis court. However, modern measurements show it is actually closer to 30 square meters—about the size of a half-doubles tennis court or a small studio apartment. It is still an incredibly efficient absorber, but much more compact than we thought.",
+      "imageWikipediaTitle": "Small intestine",
+      "sources": [
+        {
+          "title": "Small intestine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Small_intestine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Small_intestine",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden survival trigger when your face hits cold water",
+      "body": "Submerging your face in cold water triggers an ancient survival mechanism called the mammalian diving reflex. Your heart rate instantly drops by up to 25 percent, blood vessels in your limbs constrict, and blood is redirected to your heart and brain. This response conserves oxygen, allowing humans to survive underwater far longer than on land.",
+      "imageWikipediaTitle": "Mammalian diving reflex",
+      "sources": [
+        {
+          "title": "Mammalian diving reflex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mammalian_diving_reflex"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mammalian_diving_reflex",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You breathe in thousands of gallons of air every single day",
+      "body": "You might not think about breathing, but your lungs are incredibly busy. The average resting adult inhales and exhales about 11,000 liters of air every single day. That is nearly 3,000 gallons of air constantly circulating through your respiratory tract to deliver oxygen and expel carbon dioxide.",
+      "imageWikipediaTitle": "Inhalation",
+      "sources": [
+        {
+          "title": "Respiration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Respiration_(physiology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Respiration_(physiology)",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gram for gram, your bones are stronger than steel",
+      "body": "Bone is a masterpiece of biological engineering. Gram for gram, human bone is stronger than steel. A single cubic inch of bone can theoretically withstand a load of up to 19,000 pounds—roughly the weight of five standard cars. This incredible strength comes from a composite structure of flexible collagen and rigid calcium minerals.",
+      "imageWikipediaTitle": "Bone",
+      "sources": [
+        {
+          "title": "Bone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bone",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The acid in your stomach is strong enough to melt steel",
+      "body": "Your stomach is a highly corrosive environment. The hydrochloric acid inside has a pH typically between 1.5 and 3.5. This chemical bath is so powerful that it can easily dissolve common metals like zinc and steel. It serves as your body's first line of defense, destroying harmful bacteria on your food before they can infect your system.",
+      "imageWikipediaTitle": "Stomach",
+      "sources": [
+        {
+          "title": "Gastric acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastric_acid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gastric_acid",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your largest organ makes up a massive chunk of your weight",
+      "body": "We rarely think of skin as an organ, but it is actually your body's largest one. In an average adult, skin accounts for about 16 percent of total body weight. This waterproof, self-healing barrier weighs roughly 20 pounds or more, working constantly to protect you from microbes, regulate your temperature, and enable your sense of touch.",
+      "imageWikipediaTitle": "Human skin",
+      "sources": [
+        {
+          "title": "Human skin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_skin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Human_skin",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The \"second heart\" hiding in your calves",
+      "body": "Pumping blood back up from your feet to your heart is a major gravitational challenge. To help, your body relies on the soleus muscle in your calf. Often called the peripheral heart, this muscle acts as a powerful pump when you walk, squeezing deep veins to push pool-prone blood upward and maintain steady circulation.",
+      "imageWikipediaTitle": "Soleus muscle",
+      "sources": [
+        {
+          "title": "Soleus muscle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soleus_muscle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Soleus_muscle",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your fingers wrinkle in water to give you tire-like grip",
+      "body": "For years, scientists assumed wet fingers wrinkled due to simple osmosis absorbing water. Instead, it is an active response controlled by your autonomic nervous system. When wet, your blood vessels constrict, pulling the skin down to create channels. This mimics the tread of rain tires, improving your grip on wet underwater objects.",
+      "imageWikipediaTitle": "Finger",
+      "sources": [
+        {
+          "title": "Water-induced skin wrinkling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Water-induced_skin_wrinkling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Water-induced_skin_wrinkling",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tissue in your body that consumes oxygen faster than the brain",
+      "body": "While the brain is famous for its high energy usage, your eyes contain a tissue that is even more metabolically demanding. The retina—the light-sensitive layer at the back of your eye—consumes oxygen at a rate higher than any other tissue in the human body. This massive fuel consumption powers the rapid electrical firing needed to translate light into vision.",
+      "imageWikipediaTitle": "Retina",
+      "sources": [
+        {
+          "title": "Retina",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Retina"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Retina",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary evolutionary purpose of yawning suggested by modern thermoregulation research?",
+      "options": [
+        "To dramatically increase oxygen intake",
+        "To cool down the brain",
+        "To signal dominance to others",
+        "To lubricate the throat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yawning acts like a temporary radiator, cooling blood vessels heading to the brain to keep it alert."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Gram for gram, how does human bone compare to steel in terms of strength?",
+      "options": [
+        "It is slightly weaker than steel",
+        "It is about half as strong as steel",
+        "It is stronger than steel",
+        "It is exactly identical in strength"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ounce for ounce, human bone is stronger than steel due to its composite structure of collagen and calcium minerals."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What is the primary acid found in human gastric juices that is strong enough to dissolve metal?",
+      "options": [
+        "Sulfuric acid",
+        "Hydrochloric acid",
+        "Citric acid",
+        "Acetic acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydrochloric acid (pH 1.5 to 3.5) digests food and kills harmful bacteria in the stomach."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Which calf muscle is often nicknamed the 'peripheral heart' for its role in pumping blood back to the chest?",
+      "options": [
+        "Gastrocnemius",
+        "Soleus",
+        "Tibialis anterior",
+        "Biceps femoris"
+      ],
+      "correctIndex": 1,
+      "explanation": "The soleus muscle acts as a pump when you walk, squeezing veins to push blood upward against gravity."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What actually causes your fingers to wrinkle when submerged in water?",
+      "options": [
+        "Osmotic water absorption swelling the skin",
+        "An active neural response constricting blood vessels",
+        "The breakdown of natural oils on your skin",
+        "Muscle fatigue from holding objects underwater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Your nervous system actively constricts blood vessels to create wrinkles, improving your grip in wet environments."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many square meters is the actual surface area of the human small intestine?",
+      "answer": 30,
+      "min": 5,
+      "max": 300,
+      "unit": "m²",
+      "explanation": "While older textbooks estimated it to be the size of a tennis court (260 m²), modern measurements show it is actually only about 30 m²."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "By what maximum percentage can your heart rate drop when your face is submerged in cold water?",
+      "answer": 25,
+      "min": 5,
+      "max": 70,
+      "unit": "%",
+      "explanation": "The mammalian diving reflex can lower your heart rate by up to 25% instantly to conserve oxygen."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many liters of air does an average resting adult breathe in and out every day?",
+      "answer": 11000,
+      "min": 1000,
+      "max": 50000,
+      "unit": "liters",
+      "explanation": "An average adult moves about 11,000 liters (nearly 3,000 gallons) of air through their lungs daily."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "What percentage of an average adult's total body weight is made up of their skin?",
+      "answer": 16,
+      "min": 2,
+      "max": 45,
+      "unit": "%",
+      "explanation": "The skin is your largest organ, accounting for roughly 16% of your body weight (about 20 pounds on average)."
+    }
+  ]
+}

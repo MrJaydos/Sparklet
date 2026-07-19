@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T13:05:23.031Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fastest animal on Earth is a diving bird",
+      "body": "The peregrine falcon is the undisputed speed champion of the animal kingdom. When executing its signature hunting dive, called a stoop, the falcon folds its wings tight against its body and plummets through the air. In this aerodynamic dive, it can reach speeds exceeding 320 kilometers per hour (200 miles per hour) to strike prey mid-air with devastating force.",
+      "imageWikipediaTitle": "Peregrine falcon",
+      "sources": [
+        {
+          "title": "Peregrine falcon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peregrine_falcon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peregrine_falcon",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The parasite that replaces its host's tongue",
+      "body": "The tongue-eating louse is a bizarre marine parasite with a highly specific lifestyle. It enters a fish's gills, attaches itself to the base of the fish's tongue, and extracts blood. Deprived of circulation, the tongue eventually atrophies and falls off. The parasite then attaches itself to the remaining muscle stub, effectively replacing the fish's tongue and functioning as a normal tongue for the rest of the fish's life.",
+      "imageWikipediaTitle": "Cymothoa exigua",
+      "sources": [
+        {
+          "title": "Cymothoa exigua",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cymothoa_exigua"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cymothoa_exigua",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's largest flower has no roots or leaves",
+      "body": "Deep in the rainforests of Southeast Asia grows Rafflesia arnoldii, the producer of the world's largest individual flower. This massive bloom can stretch up to 100 centimeters (39 inches) in diameter. Because it is a parasite, the plant has no leaves, roots, or stems of its own, deriving all its nutrients from vines. To attract pollinating flies, it emits a powerful odor mimicking rotting meat.",
+      "imageWikipediaTitle": "Rafflesia arnoldii",
+      "sources": [
+        {
+          "title": "Rafflesia arnoldii",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rafflesia_arnoldii"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rafflesia_arnoldii",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tiny freshwater creature that never grows old",
+      "body": "While most animals inevitably age and die, the tiny freshwater hydra seems to escape time entirely. These simple, tentacled organisms possess an extraordinary abundance of stem cells that constantly divide and replace damaged tissues. Because their bodies are perpetually regenerating, hydras do not undergo biological aging. Under ideal conditions, a hydra could theoretically live indefinitely without ever showing signs of decay.",
+      "imageWikipediaTitle": "Hydra (genus)",
+      "sources": [
+        {
+          "title": "Hydra (genus)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hydra_(genus)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hydra_(genus)",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How cuttlefish change their texture to match rocks",
+      "body": "Cuttlefish are master shape-shifters of the ocean. Beyond altering their colors using thousands of pigment-filled skin cells, they can dynamically alter their physical texture. By contracting tiny circular muscles beneath their skin, they push up projections called papillae. This allows a smooth-skinned cuttlefish to instantly mimic the jagged texture of a coral reef or a rough, sandy seabed, rendering them completely invisible to predators.",
+      "imageWikipediaTitle": "Cuttlefish",
+      "sources": [
+        {
+          "title": "Cuttlefish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cuttlefish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cuttlefish",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mammal that survives below-freezing body temperatures",
+      "body": "During winter hibernation, the Arctic ground squirrel pushes the absolute limits of mammalian physiology. It drops its core body temperature down to minus 2.9 degrees Celsius (about 27 degrees Fahrenheit). This is the lowest naturally measured body temperature of any living mammal. Their blood remains liquid through a process called supercooling, which prevents ice crystals from forming and damaging their vital organs.",
+      "imageWikipediaTitle": "Arctic ground squirrel",
+      "sources": [
+        {
+          "title": "Arctic ground squirrel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arctic_ground_squirrel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arctic_ground_squirrel",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An ostrich's eye is larger than its brain",
+      "body": "The common ostrich is famous for its massive size and impressive running speeds, but its eyes hold their own record. Measuring about 5 centimeters across, an ostrich's eye is larger than its entire brain. This immense eye size gives them incredible panoramic vision, allowing them to spot movement and potential predators miles away across the open African savanna, compensating for their inability to fly.",
+      "imageWikipediaTitle": "Common ostrich",
+      "sources": [
+        {
+          "title": "Common ostrich",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_ostrich"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Common_ostrich",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Galápagos iguanas shrink their bones to survive famine",
+      "body": "When El Niño weather patterns strike the Galápagos Islands, warm waters kill off the marine algae that iguanas rely on for food. To survive the resulting famine, marine iguanas shrink their body length by up to 20 percent. They do not just lose weight; they actually digest their own bone tissue, reducing their skeletal size. Once food becomes plentiful again, their bones grow back to their normal size.",
+      "imageWikipediaTitle": "Marine iguana",
+      "sources": [
+        {
+          "title": "Marine iguana",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marine_iguana"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Marine_iguana",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The orchid that tricks wasps into mating with it",
+      "body": "The hammer orchid of Western Australia relies on a highly deceptive pollination strategy called sexual mimicry. The flower's lower lip is shaped and colored to look exactly like a wingless female thynnid wasp, and it even releases the exact chemical pheromone of the female. When a confused male wasp attempts to grasp the dummy and fly away to mate, the hinged flower swings him directly into its pollen payload.",
+      "imageWikipediaTitle": "Drakaea",
+      "sources": [
+        {
+          "title": "Drakaea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Drakaea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Drakaea",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How lopsided ears help barn owls hunt in total darkness",
+      "body": "Barn owls can capture prey in complete darkness using their extraordinary hearing. This ability relies on asymmetrical ears; one ear opening is set higher on the skull than the other, and one is further forward. When a sound is made, it reaches each ear at slightly different times and intensities. The owl's brain calculates these minuscule differences to pinpoint a mouse's precise location on both the horizontal and vertical axes.",
+      "imageWikipediaTitle": "Barn owl",
+      "sources": [
+        {
+          "title": "Barn owl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barn_owl"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Barn_owl",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "Which organ does the marine parasite Cymothoa exigua completely destroy and replace in its host fish?",
+      "options": [
+        "The tongue",
+        "The stomach",
+        "The gill cover",
+        "The dorsal fin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cymothoa exigua cuts off blood flow to the fish's tongue, causing it to wither and fall off, then attaches itself to the remaining stub to act as a fully functional replacement tongue."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What biological characteristic makes the tiny freshwater hydra fascinating to aging researchers?",
+      "options": [
+        "It does not undergo biological aging",
+        "It can survive being completely dehydrated",
+        "It lives without oxygen",
+        "It has a heart that never stops beating"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because their bodies are composed mostly of constantly dividing stem cells, hydras continually regenerate their tissues and show no signs of aging or natural decay over time."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do cuttlefish physically alter the texture of their skin to mimic rough objects like rocks?",
+      "options": [
+        "By raising muscular skin projections called papillae",
+        "By inflating small pockets of water under their skin",
+        "By shedding their outer skin layer",
+        "By secreting a hardening mucus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cuttlefish use specialized muscles to push up small, structural bumps on their skin called papillae, allowing them to perfectly mimic textures like rough coral or sand."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How does the physical size of an ostrich's eye compare to its brain?",
+      "options": [
+        "Its eye is larger than its brain",
+        "Its eye is exactly half the size of its brain",
+        "Its eye is one-quarter the size of its brain",
+        "Its eye is tiny and completely hidden by feathers"
+      ],
+      "correctIndex": 0,
+      "explanation": "An ostrich's eye is about 5 centimeters across—larger than its entire brain. This massive eye size provides excellent vision to detect predators on the savanna."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How does the hammer orchid trick male thynnid wasps into pollinating its flowers?",
+      "options": [
+        "By mimicking the appearance and pheromones of female wasps",
+        "By trapping the wasps inside a sticky, sweet chamber",
+        "By shooting high-velocity pollen at passing wasps",
+        "By producing a bright light that mimics fireflies"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hammer orchid uses sexual deception, mimicking the visual appearance and chemical scent of a female thynnid wasp to lure males into trying to fly off with the flower."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What physical adaptation allows barn owls to locate prey in total darkness using sound alone?",
+      "options": [
+        "Asymmetrical ear placement on their skull",
+        "A flexible neck that rotates 360 degrees",
+        "Two extra ear canals on the back of the head",
+        "The ability to emit high-frequency sonar clicks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Barn owls have asymmetrical ears set at different heights and positions on their head, letting them calculate the precise vertical and horizontal origin of a sound."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How fast can a peregrine falcon travel when performing its vertical hunting dive (stoop)?",
+      "answer": 320,
+      "min": 100,
+      "max": 500,
+      "unit": "km/h",
+      "explanation": "In an aerodynamic diving posture called a stoop, peregrine falcons can easily exceed 320 km/h (200 mph), making them the fastest animals on Earth."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What is the maximum diameter of the flower of Rafflesia arnoldii, the world's largest individual flower?",
+      "answer": 100,
+      "min": 20,
+      "max": 300,
+      "unit": "cm",
+      "explanation": "The bloom of Rafflesia arnoldii can reach up to 100 cm (about 3.3 feet) in diameter and weigh up to 11 kg, all without having any leaves, roots, or stems."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "What is the lowest core body temperature (in Celsius) recorded in a hibernating Arctic ground squirrel?",
+      "answer": -2.9,
+      "min": -15,
+      "max": 5,
+      "unit": "°C",
+      "explanation": "During hibernation, the Arctic ground squirrel can drop its core body temperature to -2.9 °C (26.8 °F) without its blood freezing, thanks to a process called supercooling."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "By what maximum percentage can marine iguanas shrink their body length to survive El Niño-induced famines?",
+      "answer": 20,
+      "min": 2,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Marine iguanas can shrink their body length by up to 20% by absorbing and digesting their own skeletal bones, conserving energy when food is scarce."
+    }
+  ]
+}

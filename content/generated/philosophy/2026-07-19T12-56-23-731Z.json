@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-19T12:56:23.731Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The game where an all-knowing predictor already knows your move",
+      "body": "Imagine a supercomputer that perfectly predicts human choices. It presents you with two boxes: Box A contains $1,000. Box B contains either $1 million or nothing. You can choose both boxes, or only Box B. The catch? The computer already predicted your choice. If it predicted you would take both, it left Box B empty. If it predicted you would take only B, it put the million inside. What do you do?",
+      "imageWikipediaTitle": "Robert Nozick",
+      "sources": [
+        {
+          "title": "Newcomb's paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Newcomb%27s_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Newcomb%27s_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "If lightning recreates you in a swamp, is it really you?",
+      "body": "Philosopher Donald Davidson imagined walking in a swamp when lightning strikes and vaporizes him. Simultaneously, the lightning causes nearby swamp muck to spontaneously assemble into an exact physical replica of Davidson. This \"Swampman\" behaves exactly like him, recognizes his friends, and writes philosophy. But does Swampman actually have the same memories and thoughts, or is he just a mindless, history-less copy?",
+      "imageWikipediaTitle": "Donald Davidson (philosopher)",
+      "sources": [
+        {
+          "title": "Swampman",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Swampman"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Swampman",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can never truly describe your own pain",
+      "body": "Ludwig Wittgenstein asked us to imagine a group of people, each holding a box. Everyone has something in their box they call a \"beetle,\" but no one can look inside anyone else's box. Each person only knows what a beetle is by looking at their own. If the word \"beetle\" is used, it doesn't refer to a specific object, but to whatever is in the box. This shows how our inner experiences, like pain, cannot be fully shared.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Private language argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Private_language_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Private_language_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Would you be good if nobody was watching?",
+      "body": "In Plato's Republic, a shepherd named Gyges finds a gold ring that grants him invisibility. Freed from the fear of social ruin and punishment, Gyges uses this power to depose the king and take over the kingdom. Plato uses this story to ask a haunting ethical question: do we behave morally because we genuinely care about justice, or do we only do so out of fear of getting caught?",
+      "imageWikipediaTitle": "Plato",
+      "sources": [
+        {
+          "title": "Ring of Gyges",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ring_of_Gyges"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ring_of_Gyges",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a tolerant society cannot tolerate intolerance",
+      "body": "Can a society be too open-minded? Philosopher Karl Popper argued that if a society is tolerant without limits, its ability to be tolerant will eventually be seized or destroyed by the intolerant. To maintain a tolerant society, the society must be prepared to be intolerant of intolerance. This paradox remains a cornerstone of modern debates surrounding free speech, hate speech, and democratic self-defense.",
+      "imageWikipediaTitle": "Karl Popper",
+      "sources": [
+        {
+          "title": "Paradox of tolerance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_tolerance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paradox_of_tolerance",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The non-consenting life support thought experiment",
+      "body": "In 1971, philosopher Judith Jarvis Thomson proposed a famous scenario: you wake up in a hospital, biologically plugged into a world-famous, unconscious violinist. The violinist has a fatal kidney ailment, and only your kidneys can filter his blood. Unplugging him will kill him. You must remain connected for nine months to save him. Thomson used this vivid analogy to argue that a person's right to life does not automatically override another's bodily autonomy.",
+      "imageWikipediaTitle": "Judith Jarvis Thomson",
+      "sources": [
+        {
+          "title": "A Defense of Abortion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Defense_of_Abortion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/A_Defense_of_Abortion",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Knowing you exist when your senses are completely gone",
+      "body": "Centuries before Descartes wrote \"I think, therefore I am,\" the Persian philosopher Avicenna proposed the \"Floating Man\" thought experiment in 1025. Imagine a person created fully formed in mid-air, with their eyes blindfolded and limbs splayed so they touch nothing. With no sensory input or memory of the physical world, Avicenna argued this floating person would still be absolutely certain of their own existence, proving the soul is independent of the body.",
+      "imageWikipediaTitle": "Avicenna",
+      "sources": [
+        {
+          "title": "Floating Man",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Floating_Man"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Floating_Man",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why do we cry over people who do not exist?",
+      "body": "When we read a tragic novel or watch a sad movie, we feel genuine grief, even though we know the characters are entirely fictional. This is the Paradox of Fiction. Philosophers wonder: how can we be rationally moved by things we know are not real? If you know Romeo and Juliet never existed, your emotional reaction seems logically inconsistent, yet it is a universal human experience.",
+      "imageWikipediaTitle": "Tragedy",
+      "sources": [
+        {
+          "title": "Paradox of fiction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_fiction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paradox_of_fiction",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the fastest runner can never catch a slow tortoise",
+      "body": "In Zeno's classic paradox, the swift hero Achilles races a tortoise. Because the tortoise is slower, it gets a head start. To overtake it, Achilles must first run to the tortoise's starting point. But by the time he arrives, the tortoise has crawled a small distance forward. Achilles must then reach that new point, but the tortoise has moved again. Mathematically, Achilles must cross infinite points, suggesting motion itself might be an illusion.",
+      "imageWikipediaTitle": "Zeno of Elea",
+      "sources": [
+        {
+          "title": "Zeno's paradoxes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why voluntary choices keep disrupting perfect equality",
+      "body": "Philosopher Robert Nozick used a basketball superstar to challenge wealth redistribution. Imagine a society with perfectly equal wealth. Now, one million fans voluntarily pay an extra 25 cents each to watch Wilt Chamberlain play, with the money going directly to him. Chamberlain becomes incredibly rich, while everyone else has slightly less. Nozick argued that because this inequality resulted entirely from free, voluntary transactions, any government attempt to force redistribution is inherently unjust.",
+      "imageWikipediaTitle": "Wilt Chamberlain",
+      "sources": [
+        {
+          "title": "Anarchy, State, and Utopia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Newcomb's Paradox, what is the predictor's unique ability?",
+      "options": [
+        "It can predict human choices perfectly",
+        "It can travel back in time",
+        "It can make boxes disappear",
+        "It can read minds from miles away"
+      ],
+      "correctIndex": 0,
+      "explanation": "The paradox hinges on a predictor that is highly reliable or perfect at predicting what choices you will make before you make them."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Donald Davidson's Swampman thought experiment, how is the replica created?",
+      "options": [
+        "By a rogue scientific cloning experiment",
+        "By a lightning strike in a swamp",
+        "By a 3D bio-printer",
+        "By an alien teleportation accident"
+      ],
+      "correctIndex": 1,
+      "explanation": "Davidson imagined a bolt of lightning striking a swamp, vaporizing him while simultaneously creating an identical replica out of the swamp muck."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the \"beetle\" represent in Ludwig Wittgenstein's private language thought experiment?",
+      "options": [
+        "Physical objects in the real world",
+        "A person's inner private experiences, like pain",
+        "The structure of logical arguments",
+        "The evolution of language over generations"
+      ],
+      "correctIndex": 1,
+      "explanation": "The beetle represents subjective inner states (like pain) that others cannot directly observe, showing how we use shared language to refer to unshareable private experiences."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What power does the mythical Ring of Gyges grant its wearer?",
+      "options": [
+        "Superhuman strength",
+        "Invisibility",
+        "Mind reading",
+        "The ability to fly"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ring of Gyges makes its wearer invisible, allowing Plato to explore whether people would remain moral if they couldn't be caught doing wrong."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to Karl Popper's Paradox of Tolerance, what must a tolerant society do to survive?",
+      "options": [
+        "Tolerate all viewpoints without exception",
+        "Incorporate all religious texts into law",
+        "Be prepared to be intolerant of intolerance",
+        "Abolish the concept of free speech entirely"
+      ],
+      "correctIndex": 2,
+      "explanation": "Popper argued that unlimited tolerance leads to the destruction of tolerance by the intolerant, meaning a tolerant society must defend itself against intolerance."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 6,
+      "prompt": "In what year did the Persian philosopher Avicenna write about his famous 'Floating Man' thought experiment?",
+      "answer": 1025,
+      "min": 500,
+      "max": 1800,
+      "unit": "",
+      "explanation": "Avicenna wrote this influential thought experiment in his work 'The Book of Healing', published around 1025 AD."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "In Robert Nozick's 'Wilt Chamberlain' thought experiment, how many cents does each fan voluntarily pay to watch Chamberlain play?",
+      "answer": 25,
+      "min": 1,
+      "max": 100,
+      "unit": "cents",
+      "explanation": "Nozick used a 25-cent surcharge per ticket to demonstrate how voluntary payments create inequality without any unjust actions."
+    }
+  ]
+}

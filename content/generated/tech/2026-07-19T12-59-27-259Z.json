@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T12:59:27.259Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first message sent over the internet was an accidental \"LO\"",
+      "body": "In October 1969, researchers at UCLA tried to send the first message to Stanford over ARPANET, the precursor to the internet. They planned to type \"LOGIN.\" However, the system crashed after they typed the first two letters. About an hour later, after fixing the bug, they successfully transmitted the full word.",
+      "imageWikipediaTitle": "ARPANET",
+      "sources": [
+        {
+          "title": "ARPANET",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ARPANET"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/ARPANET",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why internet \"cookies\" are named after a Unix programming trick",
+      "body": "In 1994, Netscape programmer Lou Montulli needed a way for websites to remember users without storing massive amounts of data on servers. He adapted a Unix concept called a \"magic cookie\"—a small packet of data passed between programs. This allowed shopping carts to work, paving the way for modern e-commerce.",
+      "imageWikipediaTitle": "HTTP cookie",
+      "sources": [
+        {
+          "title": "HTTP cookie",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTTP_cookie"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HTTP_cookie",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The toy whistle that helped Steve Jobs and Steve Wozniak start Apple",
+      "body": "Before building computers, Steve Jobs and Steve Wozniak built and sold \"blue boxes.\" These electronic devices mimicked the 2600 hertz tones used by analog telephone networks to route long-distance calls. Wozniak discovered that a toy whistle found in Cap'n Crunch cereal boxes generated this exact frequency, allowing them to make free calls worldwide.",
+      "imageWikipediaTitle": "Blue box (phreaking)",
+      "sources": [
+        {
+          "title": "Blue box",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_box"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blue_box",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why screensavers were once a critical hardware-saving necessity",
+      "body": "Modern screensavers are purely decorative, but they were once vital engineering tools. Early CRT monitors suffered from \"phosphor burn-in.\" If an image remained static for too long, the phosphor coating inside the glass would permanently wear out, leaving a ghost image etched on the screen. Screensavers kept pixels moving to prevent this permanent damage.",
+      "imageWikipediaTitle": "Screensaver",
+      "sources": [
+        {
+          "title": "Screensaver",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Screensaver"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Screensaver",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a spelling mistake gave Google its famous name",
+      "body": "In 1997, Larry Page and Sergey Brin wanted a name that represented the vast amount of information their search engine would organize. A friend suggested \"googol,\" the mathematical term for a 1 followed by 100 zeros. When searching to see if the domain was available, another student accidentally misspelled it as \"google.com.\" The founders liked the typo and registered it.",
+      "imageWikipediaTitle": "Google",
+      "sources": [
+        {
+          "title": "Google",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Google"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Google",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a British comedy sketch named our unwanted digital mail",
+      "body": "Unsolicited bulk email is called \"spam\" because of a 1970 Monty Python comedy sketch. In the sketch, a group of Vikings loudly and repeatedly chants \"Spam\" to drown out all other menu options in a cafe. Early internet users in the 1980s adopted the term to describe repetitive, unwanted messages that drowned out legitimate discussion on online forums.",
+      "imageWikipediaTitle": "Spam (food)",
+      "sources": [
+        {
+          "title": "Spamming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spamming"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spamming",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the JPEG format tricks your eyes to save file space",
+      "body": "The JPEG image format reduces file size by exploiting a quirk of human biology. Human eyes are incredibly sensitive to changes in brightness, but far less sensitive to slight variations in color. JPEG compression algorithms discard a massive amount of color data while preserving the precise brightness details, shrinking files by up to 90 percent without noticeable loss in quality.",
+      "imageWikipediaTitle": "JPEG",
+      "sources": [
+        {
+          "title": "JPEG",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/JPEG"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/JPEG",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The complex mechanical computers that aimed battleship guns",
+      "body": "Long before microchips, warships in World War II relied on massive mechanical computers called rangekeepers to aim their giant guns. Weighing up to 3,000 pounds, these analog machines used an intricate network of rotating gears, shafts, cams, and differentials to calculate target distance, wind speed, and Earth's rotation in real-time, all powered by hand cranks and electric motors.",
+      "imageWikipediaTitle": "Rangekeeper",
+      "sources": [
+        {
+          "title": "Rangekeeper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rangekeeper"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rangekeeper",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The forgotten keyboard key designed for a world before computer mice",
+      "body": "On modern keyboards, the \"Scroll Lock\" key is rarely used, but it was essential in the early days of personal computing. Before the computer mouse was common, pressing Scroll Lock changed the behavior of the arrow keys. Instead of moving the blinking cursor from character to character, the arrow keys would scroll the entire text screen up, down, left, or right.",
+      "imageWikipediaTitle": "Scroll Lock",
+      "sources": [
+        {
+          "title": "Scroll Lock",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scroll_Lock"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Scroll_Lock",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How NASA fixed a frozen Mars rover from millions of miles away",
+      "body": "In 1997, the Mars Pathfinder lander suddenly began repeatedly resetting itself, threatening the entire mission. NASA software engineers diagnosed the issue as \"priority inversion\"—a classic coding bug where a low-priority task blocked a high-priority task. From Earth, they transmitted a patch to change the real-time operating system's settings, correcting the error and saving the rover.",
+      "imageWikipediaTitle": "Mars Pathfinder",
+      "sources": [
+        {
+          "title": "Mars Pathfinder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mars_Pathfinder"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mars_Pathfinder",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was the very first, accidental message sent over the precursor to the internet?",
+      "options": [
+        "HI",
+        "HELLO",
+        "LO",
+        "TEST"
+      ],
+      "correctIndex": 2,
+      "explanation": "The system crashed after UCLA researchers typed the first two letters of \"LOGIN\" to Stanford."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Who invented the HTTP cookie in 1994 to help websites remember user sessions?",
+      "options": [
+        "Tim Berners-Lee",
+        "Lou Montulli",
+        "Marc Andreessen",
+        "Brendan Eich"
+      ],
+      "correctIndex": 1,
+      "explanation": "Netscape engineer Lou Montulli created the HTTP cookie to maintain persistent sessions, enabling shopping carts."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What physical issue did screensavers prevent on early CRT computer monitors?",
+      "options": [
+        "Screen flickering",
+        "Overheating components",
+        "Phosphor burn-in",
+        "Glass cracking"
+      ],
+      "correctIndex": 2,
+      "explanation": "Static images would permanently burn into the phosphor coating of CRT screens, leaving ghost images."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which comedy group inspired the term \"spam\" to describe unsolicited bulk emails?",
+      "options": [
+        "Monty Python",
+        "The Kids in the Hall",
+        "SCTV",
+        "The Marx Brothers"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Monty Python sketch featured Vikings singing \"Spam\" to drown out all other menu items, mimicking how junk mail drowns out legitimate communication."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What software scheduling error caused the Mars Pathfinder rover to repeatedly reset itself on Mars?",
+      "options": [
+        "Memory leak",
+        "Stack overflow",
+        "Priority inversion",
+        "Divide by zero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Priority inversion occurs when a low-priority task holds a resource needed by a high-priority task, freezing the system."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What frequency, in hertz (Hz), did early phone hackers use to bypass analog telephone routing trunks?",
+      "answer": 2600,
+      "min": 100,
+      "max": 10000,
+      "unit": "Hz",
+      "explanation": "Wozniak and Jobs built 'blue boxes' to play a 2600 Hz tone, tricking the phone network into granting free long-distance calls."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many zeros are in a \"googol,\" the incredibly large number that inspired the name of the search engine Google?",
+      "answer": 100,
+      "min": 10,
+      "max": 1000,
+      "unit": "",
+      "explanation": "A googol is 1 followed by 100 zeros. A spelling mistake on a domain search turned 'googol' into 'google.com'."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "By what maximum percentage can a standard JPEG compress an image file without a dramatic loss in perceived quality?",
+      "answer": 90,
+      "min": 10,
+      "max": 99,
+      "unit": "%",
+      "explanation": "Because humans are much less sensitive to minor color changes than brightness, JPEG can discard up to 90% of color data cleanly."
+    }
+  ]
+}

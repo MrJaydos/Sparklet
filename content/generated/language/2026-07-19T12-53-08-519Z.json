@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-07-19T12:53:08.519Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to Say \"Thank You\" in Hindi",
+      "body": "While English is widely understood in India, expressing gratitude in Hindi is a wonderful way to connect. The most formal way to say \"thank you\" is धन्यवाद (dhanyavaad, pronounced \"dhun-yuh-vaadh\"). For everyday casual situations, you can use the loanword शुक्रिया (shukriya, pronounced \"shook-ree-yah\"), which comes from Arabic and is extremely common across the Indian subcontinent.",
+      "imageWikipediaTitle": "Devanagari",
+      "sources": [
+        {
+          "title": "Hindi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hindi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hindi",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Navigating Crowds with Mandarin Politeness",
+      "body": "Navigating a bustling Chinese-speaking city is much easier with two polite phrases. To say \"excuse me\" when squeezing through a crowd or catching a waiter's attention, use 不好意思 (bù hǎoyìsi, pronounced \"boo-how-ee-sih\"). If you make a mistake or need to offer a sincere apology, use 对不起 (duìbuqǐ, pronounced \"dway-boo-chee\"), which translates directly to \"I'm sorry.\"",
+      "imageWikipediaTitle": "Beijing",
+      "sources": [
+        {
+          "title": "Mandarin Chinese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to Ask \"How Much?\" in Greece",
+      "body": "When shopping at a vibrant market in Athens, you can easily ask for the price of goods. The Greek phrase Πόσο κάνει; (póso kánei, pronounced \"POH-soh KAH-nee\") literally translates to \"How much does it make?\" and is the standard way to ask \"How much does this cost?\". It is a simple, practical tool for any traveler visiting Greece.",
+      "imageWikipediaTitle": "Athens",
+      "sources": [
+        {
+          "title": "Modern Greek",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Modern_Greek"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Modern_Greek",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Confusing Way Bulgarians Say \"Yes\" and \"No\"",
+      "body": "In Bulgaria, verbalizing agreement and disagreement is simple. \"Yes\" is Да (da, pronounced \"dah\") and \"no\" is Не (ne, pronounced \"neh\"). However, their accompanying physical gestures are reversed compared to most of the world. To say \"yes,\" Bulgarians shake their heads from side to side. To say \"no,\" they nod up and down, often confusing unprepared travelers.",
+      "imageWikipediaTitle": "Bulgaria",
+      "sources": [
+        {
+          "title": "Head shake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Head_shake"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Head_shake",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to Three in Hebrew",
+      "body": "Learning to count in Hebrew is a great introduction to Semitic languages. To count to three using feminine numbers (typically used for counting abstract items), say אחת (achat, pronounced \"ah-KHAT\") for one, שתיים (shtayim, pronounced \"SHTAH-yeem\") for two, and שלוש (shalosh, pronounced \"shah-LOSH\") for three. Hebrew is written from right to left, so these words are read in that direction.",
+      "imageWikipediaTitle": "Hebrew_alphabet",
+      "sources": [
+        {
+          "title": "Hebrew language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hebrew_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hebrew_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Fishy History of the Word \"Ketchup\"",
+      "body": "Long before ketchup was made of sweet tomatoes, it was a fermented fish sauce from Southern China. In the 17th century, British traders in Southeast Asia encountered a salty, dark sauce called 鮭汁 (kôe-chiap, pronounced \"kway-chee-up\" in the Hokkien dialect). They loved it so much they brought the recipe home, eventually substituting tomatoes for the fish.",
+      "imageWikipediaTitle": "Ketchup",
+      "sources": [
+        {
+          "title": "Ketchup",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ketchup"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ketchup",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Divine Origins of Your Online \"Avatar\"",
+      "body": "Long before it meant a digital profile picture or a blue-skinned alien, \"avatar\" was a sacred concept. The word comes from the Sanskrit अवतार (avatāra, pronounced \"uh-vuh-tah-ruh\"), which translates literally to \"descent.\" In Hinduism, it refers to the earthly manifestation or descent of a deity, such as Vishnu, taking on a physical form to restore cosmic order.",
+      "imageWikipediaTitle": "Vishnu",
+      "sources": [
+        {
+          "title": "Avatar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Avatar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Avatar",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The \"Empty Orchestra\" of Karaoke",
+      "body": "The word \"karaoke\" describes exactly what happens when you step up to the microphone. It is a Japanese portmanteau written as カラオケ (karaoke, pronounced \"kah-rah-oh-keh\"). It combines 空 (kara), meaning \"empty,\" and オーケストラ (ōkesutora), meaning \"orchestra.\" It was coined in the 1970s when a Japanese musician created a machine to play backing tracks without live performers.",
+      "imageWikipediaTitle": "Karaoke",
+      "sources": [
+        {
+          "title": "Karaoke",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karaoke"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Karaoke",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Most Translated Document",
+      "body": "While books like the Bible have been translated into thousands of languages, a single document holds the official Guinness World Record. The Universal Declaration of Human Rights, adopted by the United Nations in 1948, has been translated into 562 different languages and dialects. This monumental translation effort ensures that people worldwide can understand their fundamental human rights.",
+      "imageWikipediaTitle": "Universal_Declaration_of_Human_Rights",
+      "sources": [
+        {
+          "title": "Universal Declaration of Human Rights",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Universal_Declaration_of_Human_Rights",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 2,
+      "question": "What does the Modern Greek phrase 'Πόσο κάνει;' (póso kánei) translate to?",
+      "options": [
+        "How much does it cost?",
+        "Where is the bathroom?",
+        "Thank you very much",
+        "Have a good day"
+      ],
+      "correctIndex": 0,
+      "explanation": "Πόσο κάνει; (póso kánei) literally translates to 'how much does it make?' and is the standard way to ask for a price in Greek."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do people in Bulgaria traditionally express 'yes' using body language?",
+      "options": [
+        "By nodding up and down",
+        "By shaking their head from side to side",
+        "By blinking twice",
+        "By shrugging their shoulders"
+      ],
+      "correctIndex": 1,
+      "explanation": "In Bulgaria, a side-to-side head shake traditionally means 'yes' (Да), while an up-and-down nod means 'no' (Не)."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What was the original meaning of the Hokkien word 'kôe-chiap', from which we get 'ketchup'?",
+      "options": [
+        "Tomato paste",
+        "Spiced vinegar",
+        "Fish sauce",
+        "Mushroom broth"
+      ],
+      "correctIndex": 2,
+      "explanation": "The English word 'ketchup' comes from the Hokkien Chinese word 'kôe-chiap', which referred to a fermented fish sauce."
+    },
+    {
+      "cardIndex": 7,
+      "question": "The Japanese word 'karaoke' (カラオケ) literally translates to what?",
+      "options": [
+        "Singing machine",
+        "Empty orchestra",
+        "Drunken voice",
+        "Noisy stage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karaoke combines 'kara' (empty) and 'ōkesutora' (orchestra), literally translating to 'empty orchestra.'"
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 8,
+      "prompt": "Into how many languages and dialects has the Universal Declaration of Human Rights been translated, making it the most translated document?",
+      "answer": 562,
+      "min": 100,
+      "max": 1000,
+      "unit": "",
+      "explanation": "As of 2024, the Universal Declaration of Human Rights holds the Guinness World Record with 562 translations."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T13:07:06.740Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why some shapes sound sharp and others feel round",
+      "body": "If you show people a jagged shape and a curvy shape, and ask which is \"bouba\" and which is \"kiki,\" nearly everyone makes the exact same choice. Over 95% of people label the round shape \"bouba\" and the jagged one \"kiki.\" This phenomenon occurs across different languages and cultures, showing that our brains naturally map visual shapes to specific speech sounds in a universal, non-arbitrary way.",
+      "imageWikipediaTitle": "Bouba/kiki effect",
+      "sources": [
+        {
+          "title": "Bouba/kiki effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bouba/kiki_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bouba/kiki_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why it is so hard to explain things you understand well",
+      "body": "Once you learn a new concept or skill, your brain undergoes a subtle shift: you literally forget what it felt like to be ignorant of it. This cognitive bias, known as the \"curse of knowledge,\" makes it incredibly difficult to accurately estimate how much a beginner knows. It is why experts often give overly complex explanations, assuming their audience shares their background knowledge.",
+      "imageWikipediaTitle": "Cognitive bias",
+      "sources": [
+        {
+          "title": "Curse of knowledge",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curse_of_knowledge"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Curse_of_knowledge",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You might not notice if someone secretly swaps your choice",
+      "body": "Imagine choosing between two photos of faces, only for the experimenter to secretly swap your choice and ask why you picked the other person. In classic experiments, about 74% of participants failed to notice the switch entirely. Instead of catching the trick, they readily fabricated detailed, logical reasons explaining why they preferred the face they had actually rejected just moments before.",
+      "imageWikipediaTitle": "Choice blindness",
+      "sources": [
+        {
+          "title": "Choice blindness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Choice_blindness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Choice_blindness",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why rewarding someone for a hobby can make them quit",
+      "body": "If you love drawing, getting paid to draw should make you love it even more, right? Psychology says otherwise. Under the \"overjustification effect,\" introducing external rewards like money or prizes for an activity someone already enjoys can actually kill their intrinsic motivation. The brain begins to view the beloved hobby as \"work,\" shifting the psychological drive from personal joy to external compensation.",
+      "imageWikipediaTitle": "Motivation",
+      "sources": [
+        {
+          "title": "Overjustification effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Overjustification_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Overjustification_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When your brain steals an idea and tells you it's yours",
+      "body": "Have you ever come up with what felt like a brilliant, original idea, only to realize later you were just remembering something you read or heard years ago? This is cryptomnesia, a memory glitch where a forgotten memory returns without being recognized as such. Your brain correctly recalls the information but completely loses track of the source, tricking you into committing unintentional plagiarism.",
+      "imageWikipediaTitle": "Plagiarism",
+      "sources": [
+        {
+          "title": "Cryptomnesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cryptomnesia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cryptomnesia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why most people will agree with an obviously wrong crowd",
+      "body": "How far would you go to fit in? In famous social experiments led by Solomon Asch, participants were asked to match the length of lines on cards. When undercover actors unanimously gave an obviously incorrect answer, 75% of real participants conformed and agreed with the wrong answer at least once. Despite their own eyes telling them otherwise, they doubted themselves to avoid standing out.",
+      "imageWikipediaTitle": "Asch conformity experiments",
+      "sources": [
+        {
+          "title": "Asch conformity experiments",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asch_conformity_experiments"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Asch_conformity_experiments",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why looking only at successes leads to disastrous conclusions",
+      "body": "During World War II, researchers analyzed returning bombers to see where armor should be added. They noticed heavy damage on the wings and fuselage, so they proposed reinforcing those areas. But statistician Abraham Wald realized this was a mistake: they were only looking at the planes that survived. The armor actually belonged on the engines and cockpit—the areas where shot-down planes had been hit, causing them to crash.",
+      "imageWikipediaTitle": "Survivorship bias",
+      "sources": [
+        {
+          "title": "Survivorship bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Survivorship_bias",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The persuasion trick that starts with an extreme demand",
+      "body": "If you want someone to agree to a small request, try asking for something ridiculously massive first. When they inevitably say no, immediately follow up with your actual, much smaller request. This \"door-in-the-face\" technique exploits the social norm of reciprocity. Because you made a concession by lowering your demand, the other person feels a subconscious psychological pressure to make a concession too, saying yes to the second option.",
+      "imageWikipediaTitle": "Persuasion",
+      "sources": [
+        {
+          "title": "Door-in-the-face technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Door-in-the-face_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Door-in-the-face_technique",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain is hardwired to dwell on bad news",
+      "body": "If you receive nine compliments and one piece of criticism, you will likely spend all night thinking about the criticism. This isn't just sensitivity; it is negativity bias. Evolutionarily, paying more attention to threats, dangers, and negative events kept our ancestors alive. Our brains developed to process negative information more quickly and intensely than positive news, leaving us with a default setting that prioritizes worry over joy.",
+      "imageWikipediaTitle": "Evolutionary psychology",
+      "sources": [
+        {
+          "title": "Negativity bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negativity_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negativity_bias",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why minds stop trying to escape bad situations",
+      "body": "When humans or animals repeatedly experience painful or stressful situations they cannot escape, a strange shift occurs. Eventually, they stop trying to escape altogether. Even if the environment changes and a clear exit becomes available, they will sit passively and endure the distress. This psychological state, known as learned helplessness, explains why individuals in chronically difficult situations often struggle to seize opportunities for positive change.",
+      "imageWikipediaTitle": "Learned helplessness",
+      "sources": [
+        {
+          "title": "Learned helplessness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Learned_helplessness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Learned_helplessness",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What is the \"curse of knowledge\"?",
+      "options": [
+        "A biological inability to learn abstract concepts",
+        "A bias where experts find it difficult to think about a topic from a beginner's perspective",
+        "The cognitive decline that comes with studying a single topic for too long",
+        "A psychological fear of sharing ideas with other people"
+      ],
+      "correctIndex": 1,
+      "explanation": "Once you know something, you find it incredibly difficult to simulate what it is like not to know it, causing you to overestimate a beginner's understanding."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens during the overjustification effect?",
+      "options": [
+        "People justify their mistakes by blaming external circumstances",
+        "External rewards decrease a person's intrinsic motivation to perform a task",
+        "People work harder only when they are being actively watched by peers",
+        "Excessive punishment leads to faster, more permanent learning"
+      ],
+      "correctIndex": 1,
+      "explanation": "When external incentives like money or prizes are introduced to an activity someone already loves, their internal drive to do it for pure enjoyment drops."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is cryptomnesia?",
+      "options": [
+        "A severe form of amnesia caused by physical trauma",
+        "The ability to remember dreams with perfect, vivid clarity",
+        "Recalling a memory but mistakenly believing it is a brand-new, original thought",
+        "Subconsciously blocking out stressful memories from childhood"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cryptomnesia occurs when a forgotten memory returns without being recognized as a memory, leading someone to believe they generated a completely original idea."
+    },
+    {
+      "cardIndex": 6,
+      "question": "In Abraham Wald's WW2 analysis, why was reinforcing the damaged areas of returning planes a mistake?",
+      "options": [
+        "Armor in those areas made the planes too heavy to take off",
+        "The returning planes showed where they could be hit and still survive, meaning other areas were the truly lethal ones",
+        "Enemy fighters changed their tactics and stopped targeting those specific areas",
+        "The damage on the wings was entirely cosmetic and did not affect flight safety"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wald realized the data was biased because it only included planes that made it back. The planes that were shot down were hit in the undamaged areas, like the engine."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why does the door-in-the-face technique work?",
+      "options": [
+        "The target feels subconscious pressure to reciprocate the requester's concession",
+        "The target becomes too exhausted to argue further",
+        "The target wants to prove they are physically strong enough to help",
+        "The target is distracted by the scale of the initial request"
+      ],
+      "correctIndex": 0,
+      "explanation": "When you lower your initial extreme demand to a smaller one, the other person perceives this as a concession and feels socially obligated to meet you halfway."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of people across different cultures naturally match a round shape with the sound \"bouba\" and a jagged shape with \"kiki\"?",
+      "answer": 95,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "An overwhelming 95% of people make this mapping, showcasing a universal cognitive bridge between vision and language."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In classic choice blindness experiments, what percentage of participants completely failed to notice that the face they chose had been secretly swapped?",
+      "answer": 74,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "A staggering 74% of people didn't notice the swap and even fabricated detailed explanations for why they chose the person they actually rejected."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "In Solomon Asch's classic conformity experiments, what percentage of participants conformed to an obviously wrong group answer at least once?",
+      "answer": 75,
+      "min": 20,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Three-quarters of participants went along with the crowd's incorrect answer at least once, proving how strongly social pressure influences our behavior."
+    }
+  ]
+}

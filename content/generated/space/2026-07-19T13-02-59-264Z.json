@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T13:02:59.264Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The coldest natural place in the universe is colder than deep space",
+      "body": "The cosmic microwave background keeps empty space at a chilly 2.7 Kelvin (-455°F). But the Boomerang Nebula, a dying star expelling gas at high speeds, has cooled itself down to a mere 1 Kelvin (-458°F) through rapid expansion. This cosmic refrigerator is the only known natural object colder than the background glow of the Big Bang itself.",
+      "imageWikipediaTitle": "Boomerang Nebula",
+      "sources": [
+        {
+          "title": "Boomerang Nebula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boomerang_Nebula"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Boomerang_Nebula",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's companion asteroid may be a lost piece of the Moon",
+      "body": "Earth has several quasi-satellites, but one stands out. Kamoʻoalewa is a Ferris-wheel-sized asteroid orbiting the Sun in tandem with Earth. When astronomers analyzed its light spectrum, they found it matched lunar rocks from the Apollo missions perfectly, suggesting it was blasted off the Moon's surface by an ancient asteroid impact.",
+      "imageWikipediaTitle": "469219 Kamoʻoalewa",
+      "sources": [
+        {
+          "title": "469219 Kamoʻoalewa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/469219_Kamo%CA%BBoalewa"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/469219_Kamo%CA%BBoalewa",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The solar system is traveling through a giant, million-degree bubble",
+      "body": "Our solar system resides inside a cosmic cavity called the Local Bubble. Spanning about 1,000 light-years, this hollow region of space is filled with extremely hot, low-density gas emitting X-rays. Astronomers believe it was carved out by a series of supernova explosions that occurred between 10 and 20 million years ago, pushing interstellar dust away.",
+      "imageWikipediaTitle": "Local Bubble",
+      "sources": [
+        {
+          "title": "Local Bubble",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Local_Bubble"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Local_Bubble",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jupiter is not the protective shield we once thought",
+      "body": "For decades, it was believed that Jupiter’s massive gravity acted as a cosmic shield, sweeping up dangerous comets and protecting Earth. However, computer simulations reveal a more complex reality: while Jupiter does deflect some outer solar system comets, its powerful gravitational pull also hurls others directly into the inner solar system, acting as a cosmic sniper.",
+      "imageWikipediaTitle": "Jupiter",
+      "sources": [
+        {
+          "title": "Jupiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jupiter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Jupiter",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A supermassive black hole is humming a deep B-flat",
+      "body": "While space is famously silent because vacuums cannot carry sound waves, some regions are different. In the Perseus galaxy cluster, hot gas surrounds a supermassive black hole. The black hole releases pressure waves that ripple through this dense gas, creating a real acoustic sound. The pitch is a B-flat, 57 octaves below middle C—far too deep for human ears.",
+      "imageWikipediaTitle": "Perseus Cluster",
+      "sources": [
+        {
+          "title": "Perseus Cluster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Perseus_Cluster"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Perseus_Cluster",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pressurized space gloves can cause astronauts to lose their fingernails",
+      "body": "Spacewalks are notoriously brutal on hands. Inside a spacesuit, gloves must be highly pressurized to protect astronauts from the vacuum. When astronauts bend their fingers, the rigid gloves resist, placing extreme, constant pressure on their fingertips. This frequent chafing and squeezed circulation often leads to a painful condition called fingernail delamination, where nails completely detach from the nail bed.",
+      "imageWikipediaTitle": "Space suit",
+      "sources": [
+        {
+          "title": "Space suit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_suit"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Space_suit",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Moon has its own extremely thin atmosphere",
+      "body": "While the Moon is often described as having a total vacuum, it actually possesses a trace atmosphere called an exosphere. It weighs just 25,000 kilograms (about 55,000 pounds) in total—roughly the weight of a single loaded semi-truck spread across the entire lunar surface. This tenuous layer consists of gases like helium, neon, and hydrogen released from the lunar soil.",
+      "imageWikipediaTitle": "Atmosphere of the Moon",
+      "sources": [
+        {
+          "title": "Atmosphere of the Moon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_the_Moon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_the_Moon",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 'Zombie Star' that survived its own supernova",
+      "body": "Supernovas are usually the ultimate end for stars, but some survive. LP 40-365 is a low-mass white dwarf star traveling at extreme speeds out of our galaxy. Astronomers discovered that this 'zombie star' experienced a partial thermonuclear supernova. Instead of being completely obliterated, it survived the blast, which kicked it like a rocket across the cosmos.",
+      "imageWikipediaTitle": "LP 40-365",
+      "sources": [
+        {
+          "title": "LP 40-365",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/LP_40-365"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/LP_40-365",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Active volcanoes erupt on Jupiter's frozen moon Io",
+      "body": "Although situated in the freezing outer solar system, Jupiter's moon Io is the most volcanically active body in our solar system. It has hundreds of active volcanoes, some blasting plumes of sulfur 500 kilometers into space. This intense heat isn't from radioactive decay, but tidal heating: the competing gravitational pulls of Jupiter and neighboring moons constantly squeeze and stretch Io, melting its interior.",
+      "imageWikipediaTitle": "Io (moon)",
+      "sources": [
+        {
+          "title": "Io (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Io_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Io_(moon)",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "IceCube uses a cubic kilometer of Antarctic ice to detect 'ghosts'",
+      "body": "Neutrinos are nearly massless 'ghost particles' that pass through normal matter undetected. To catch them, scientists built the IceCube Neutrino Observatory at the South Pole. They drilled 86 holes into the Antarctic ice sheet, lowering thousands of light sensors over a cubic kilometer of ice. When a neutrino occasionally hits an atom in the ice, it produces a faint blue flash that the sensors record.",
+      "imageWikipediaTitle": "IceCube Neutrino Observatory",
+      "sources": [
+        {
+          "title": "IceCube Neutrino Observatory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IceCube_Neutrino_Observatory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/IceCube_Neutrino_Observatory",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What is the likely origin of Earth's quasi-satellite asteroid Kamoʻoalewa?",
+      "options": [
+        "It is a captured comet from the outer solar system",
+        "It is a fragment blasted off Earth's Moon",
+        "It is a piece of cosmic debris from Mars",
+        "It is a remnant of a destroyed planet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Analysis of Kamoʻoalewa's light spectrum showed an exact match with lunar rock samples brought back by the Apollo missions."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What cosmic events are believed to have carved out the 'Local Bubble' surrounding our solar system?",
+      "options": [
+        "A series of supernova explosions",
+        "The gravitational pull of a supermassive black hole",
+        "Collisions between giant galaxies",
+        "Intense solar winds from our young Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Supernova explosions that occurred 10 to 20 million years ago pushed away interstellar gas and dust, carving out the Local Bubble."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does Jupiter's gravity actually affect comets?",
+      "options": [
+        "It acts as a perfect shield, blocking 100% of comets",
+        "It has no effect on comet trajectories",
+        "It deflects some comets but also flings others toward the inner solar system",
+        "It vaporizes comets before they can reach Earth"
+      ],
+      "correctIndex": 2,
+      "explanation": "While Jupiter deflects many threats, simulations show its strong gravitational pull also redirects outer space comets into the inner solar system."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why do astronauts sometimes lose their fingernails after performing spacewalks?",
+      "options": [
+        "Exposure to direct solar radiation",
+        "Extreme cold freezing their fingertips",
+        "Constant pressure and chafing from rigid, pressurized gloves",
+        "The lack of gravity causes nails to stop growing"
+      ],
+      "correctIndex": 2,
+      "explanation": "Highly pressurized space gloves resist bending, causing extreme chafing and squeezing off circulation to the fingertips, which can lead to nail loss."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What makes the star LP 40-365 a rare 'zombie star'?",
+      "options": [
+        "It survived a partial supernova explosion",
+        "It feeds on other stars to stay alive",
+        "It has no core but continues to shine",
+        "It died billions of years ago but is still visible"
+      ],
+      "correctIndex": 0,
+      "explanation": "LP 40-365 is a white dwarf that survived a partial thermonuclear supernova, which kicked it out of the galaxy instead of destroying it completely."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How does the IceCube Observatory detect nearly massless neutrinos?",
+      "options": [
+        "Using highly sensitive radio dishes in the desert",
+        "By measuring faint blue flashes in a cubic kilometer of Antarctic ice",
+        "With a giant satellite orbiting Earth",
+        "By collecting dust samples from the upper atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "IceCube uses thousands of light sensors buried deep in a cubic kilometer of Antarctic ice to detect the faint blue light emitted when a neutrino collides with an atom."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What is the temperature of the Boomerang Nebula, the coldest known natural place in the universe, in degrees Celsius?",
+      "answer": -272,
+      "min": -273,
+      "max": -100,
+      "unit": "°C",
+      "explanation": "At -272°C, the Boomerang Nebula is just 1 degree Celsius above absolute zero (-273.15°C) and is even colder than the background radiation of space itself."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many octaves below middle C is the deep acoustic sound wave hummed by the Perseus cluster's supermassive black hole?",
+      "answer": 57,
+      "min": 5,
+      "max": 100,
+      "unit": "octaves",
+      "explanation": "The sound wave is a B-flat pitched 57 octaves below middle C, making it a sound wave with a period of 10 million years!"
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "What is the estimated total mass of the Moon's entire trace atmosphere (exosphere) in kilograms?",
+      "answer": 25000,
+      "min": 100,
+      "max": 500000,
+      "unit": "kg",
+      "explanation": "The Moon's entire exosphere weighs only about 25,000 kilograms (roughly the weight of a single loaded semi-truck), making it practically a vacuum."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "How many kilometers high into space can the volcanic plumes of Jupiter's moon Io reach?",
+      "answer": 500,
+      "min": 10,
+      "max": 2000,
+      "unit": "km",
+      "explanation": "Due to Io's low gravity and extreme volcanic activity, its eruptions can shoot sulfur plumes up to 500 kilometers high."
+    }
+  ]
+}

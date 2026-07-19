@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T12:57:33.353Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The prime number that was declared illegal",
+      "body": "In 2001, a prime number was discovered that doubled as an executable computer program. When written out as a binary file, this specific prime number decoded into DeCSS, a program that bypassed DVD copy protection. Because distributing DeCSS was deemed illegal under the Digital Millennium Copyright Act, possessing or publishing this exact mathematical prime number became a legal gray area, highlighting a bizarre clash between math and copyright law.",
+      "imageWikipediaTitle": "Illegal prime",
+      "sources": [
+        {
+          "title": "Illegal prime",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illegal_prime"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illegal_prime",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The dead code that cost $440 million in 45 minutes",
+      "body": "In 2012, financial giant Knight Capital Group deployed new trading software. However, they forgot to update one of their eight servers, leaving defunct, decade-old test code active. When the market opened, this dormant code ran in a loop, buying high and selling low at lightning speed. Before engineers could find and disable the old code, the company lost over $440 million, leading to its rapid collapse and acquisition.",
+      "imageWikipediaTitle": "Wall Street",
+      "sources": [
+        {
+          "title": "Knight Capital Group",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Knight_Capital_Group"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Knight_Capital_Group",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tiny zip file that expands to petabytes",
+      "body": "A zip bomb is a malicious archive file designed to crash systems. The most famous, named 42.zip, is incredibly tiny at just 42 kilobytes. However, it contains five layers of nested zip files. If fully extracted, the files expand to 4.5 petabytes of data—enough to completely overwhelm the hard drive and memory of almost any computer trying to scan or unpack it.",
+      "imageWikipediaTitle": "Data compression",
+      "sources": [
+        {
+          "title": "Zip bomb",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zip_bomb"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zip_bomb",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your software looks like your company",
+      "body": "In 1967, programmer Melvin Conway observed that the structure of any software system will inevitably mirror the communication channels of the organization that built it. If four separate teams are assigned to write a compiler, they will produce a four-pass compiler. This concept, known as Conway's Law, suggests that if you want to improve your code's architecture, you might need to reorganize your office first.",
+      "imageWikipediaTitle": "Software architecture",
+      "sources": [
+        {
+          "title": "Conway's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Conway%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Conway%27s_law",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ultimate limit of computer programming",
+      "body": "In 1936, mathematician Alan Turing proved that some programming tasks are fundamentally impossible. He established that no algorithm can ever exist that can perfectly predict, for every possible program and input, whether that program will eventually finish running or get stuck in an infinite loop forever. This fundamental barrier, known as the Halting Problem, proves that there are strict mathematical limits to what software can do.",
+      "imageWikipediaTitle": "Alan Turing",
+      "sources": [
+        {
+          "title": "Halting problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halting_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Halting_problem",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why modern code limits are ruled by a 1928 standard",
+      "body": "Many modern programmers still limit their code to 80 characters per line. This persistent design constraint traces back to IBM's 1928 punch cards. These cardboard cards, used to store data and software before digital screens existed, had exactly 80 columns punched with holes. Early computer monitors adopted this same 80-character width, cementing a physical paper limitation into a digital coding standard that survives nearly a century later.",
+      "imageWikipediaTitle": "Punched card",
+      "sources": [
+        {
+          "title": "Punched card",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Punched_card"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Punched_card",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The legendary hacker who refused to optimize",
+      "body": "The Story of Mel is a classic piece of hacker lore about Mel Kaye, an early programmer who wrote machine code for a drum memory computer. Mel eschewed compilers and assemblers, writing raw binary. He famously programmed instructions so they would physically align with the rotating drum's read head at the exact millisecond they were needed. When a coworker tried to fix Mel's seemingly erratic code, the program broke; Mel's hacks were perfectly timed masterpieces.",
+      "imageWikipediaTitle": "Magnetic drum memory",
+      "sources": [
+        {
+          "title": "The Story of Mel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Story_of_Mel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Story_of_Mel",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The search engine that predated the World Wide Web",
+      "body": "Years before Google or Yahoo, and even before the World Wide Web was popularized, there was Archie. Created in 1990 by Alan Emtage at McGill University, Archie was the world's first internet search engine. It solved a massive problem for early internet users by automatically downloading directory listings of anonymous FTP files and creating a searchable database, paving the way for the modern searchable web.",
+      "imageWikipediaTitle": "Archie search engine",
+      "sources": [
+        {
+          "title": "Archie search engine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Archie_search_engine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Archie_search_engine",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The letter that sparked a programming holy war",
+      "body": "In 1968, computer scientist Edsger Dijkstra published a highly controversial letter titled 'Go To Statement Considered Harmful.' At the time, programmers routinely used 'GOTO' statements to jump wildly between different lines of code, creating messy, unreadable 'spaghetti code.' Dijkstra argued that GOTO should be banned in favor of structured programming. His letter revolutionized how software is written, steering the industry toward clean, block-based code.",
+      "imageWikipediaTitle": "Edsger W. Dijkstra",
+      "sources": [
+        {
+          "title": "Go To Statement Considered Harmful",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Go_To_Statement_Considered_Harmful"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Go_To_Statement_Considered_Harmful",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The software that was too perfect to fail",
+      "body": "The software powering NASA's Space Shuttle was legendary for its near-zero defect rate. Developed by IBM, the Primary Avionics Software System (PASS) was written under extreme constraints where a single bug could kill astronauts. The team adhered to a grueling, ultra-detailed specification process. Out of hundreds of thousands of lines of code, the final production versions averaged fewer than one bug per flight, setting a gold standard for software engineering.",
+      "imageWikipediaTitle": "Space Shuttle",
+      "sources": [
+        {
+          "title": "Primary Avionics Software System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Primary_Avionics_Software_System"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Primary_Avionics_Software_System",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was a specific prime number declared illegal in 2001?",
+      "options": [
+        "It contained an executable program that bypassed DVD copy protection.",
+        "It could be used to factor any RSA encryption key instantly.",
+        "It was copyrighted by a major hardware manufacturer.",
+        "It caused early computer processors to overheat and crash."
+      ],
+      "correctIndex": 0,
+      "explanation": "The prime number represented a binary file containing DeCSS, software that could bypass DVD copy protection, violating the DMCA."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does Conway's Law suggest about software design?",
+      "options": [
+        "Software structure naturally mirrors the communication structure of its organization.",
+        "Software complexity doubles every eighteen months.",
+        "The cost of fixing a bug increases exponentially over time.",
+        "Every line of code is eventually rewritten or deprecated."
+      ],
+      "correctIndex": 0,
+      "explanation": "Conway's Law states that organizations design systems that copy their own communication structures."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the core premise of Alan Turing's Halting Problem?",
+      "options": [
+        "No algorithm can perfectly predict if any arbitrary program will run forever or finish.",
+        "Every computer program will eventually crash due to physical hardware wear.",
+        "No computer can process infinite loops without a secondary processor.",
+        "Any software bug can be automatically detected given enough computing power."
+      ],
+      "correctIndex": 0,
+      "explanation": "Turing proved it is mathematically impossible for an algorithm to decide if any arbitrary program will halt (finish) or run forever."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What made the 1990 program 'Archie' a major milestone?",
+      "options": [
+        "It was the world's first internet search engine.",
+        "It was the first operating system with a graphical interface.",
+        "It was the first virus to spread through email.",
+        "It was the first programming language designed for children."
+      ],
+      "correctIndex": 0,
+      "explanation": "Archie was created in 1990 to index FTP files, making it the world's first internet search engine."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why did Edsger Dijkstra argue that the 'GOTO' statement was harmful?",
+      "options": [
+        "It created messy, jumpy code that was extremely difficult to read and maintain.",
+        "It consumed too much physical memory on early computers.",
+        "It was owned by IBM and required expensive licensing.",
+        "It allowed hackers to bypass operating system security."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dijkstra argued that GOTO statements allowed programmers to jump wildly between lines, leading to unreadable 'spaghetti code' instead of structured logic."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many millions of dollars did Knight Capital Group lose in just 45 minutes due to a legacy software glitch?",
+      "answer": 440,
+      "min": 10,
+      "max": 1500,
+      "unit": "million USD",
+      "explanation": "A single un-updated server running active, decade-old test code executed millions of unintended trades in 45 minutes, costing the company $440 million."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What is the file size of the infamous '42.zip' zip bomb before it is extracted?",
+      "answer": 42,
+      "min": 1,
+      "max": 1000,
+      "unit": "KB",
+      "explanation": "The tiny 42 KB archive unpacks recursively to an overwhelming 4.5 petabytes of data, crashing systems that attempt to read it."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "How many columns did the standard 1928 IBM punch card have, which still influences modern code line-length limits?",
+      "answer": 80,
+      "min": 10,
+      "max": 250,
+      "unit": "columns",
+      "explanation": "The 80-column limit of IBM's physical punch cards was adopted by early computer monitors and remains a common guideline for code formatting today."
+    }
+  ]
+}

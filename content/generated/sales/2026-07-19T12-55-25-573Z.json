@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-19T12:55:25.573Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking for 37 cents works better than asking for a quarter",
+      "body": "When asking for spare change, researchers found that asking for an unusual, specific amount like \"17 cents\" or \"37 cents\" received nearly double the donations of generic requests like \"some change.\" This is the pique technique. An unusual request disrupts our mindless, automatic refusal script, forcing the brain to pay conscious attention to the proposal.",
+      "imageWikipediaTitle": "Coin",
+      "sources": [
+        {
+          "title": "Compliance (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_(psychology)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why selling cards for \"300 pennies\" boosts sales",
+      "body": "In a classic study, researchers selling holiday cards found that saying \"They are 300 pennies... that's three dollars, it's a bargain\" doubled sales compared to just saying \"They are three dollars.\" This is the Disrupt-Then-Reframe technique. The unusual phrasing briefly distracts the critical mind, creating a window of confusion where the subsequent recommendation is easily accepted.",
+      "imageWikipediaTitle": "Penny (United States coin)",
+      "sources": [
+        {
+          "title": "Compliance (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_(psychology)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The magic word that bypasses critical thinking",
+      "body": "In 1978, Harvard researcher Ellen Langer found that adding a reason to a request, even a completely redundant one, dramatically increased compliance. When asking to skip a photocopier line, saying \"because I have to make copies\" got a 93% success rate, compared to 60% for just asking. The word \"because\" triggers an automatic script in our brains, signaling that a valid reason is coming.",
+      "imageWikipediaTitle": "Photocopier",
+      "sources": [
+        {
+          "title": "Ellen Langer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ellen_Langer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ellen_Langer",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we buy brands that sound like our own names",
+      "body": "Humans possess a subconscious preference for things that resemble themselves—a phenomenon known as implicit egotism. The \"name-letter effect\" reveals that people are statistically more likely to choose brands, products, and even careers that share their initials. Salespeople can leverage this by subtly highlighting shared characteristics, initials, or background details to foster instant, subconscious comfort.",
+      "imageWikipediaTitle": "Signature",
+      "sources": [
+        {
+          "title": "Name–letter effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Name%E2%80%93letter_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Name%E2%80%93letter_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a light touch on the arm increases restaurant tips",
+      "body": "A brief, light touch on a customer's upper arm or hand can quietly boost your influence. In a well-known field study, waitresses who briefly touched patrons on the shoulder or hand for just one to two seconds received significantly higher tips than those who did not. This subtle tactile contact fosters subconscious warmth and rapport without crossing personal boundaries.",
+      "imageWikipediaTitle": "Waitress",
+      "sources": [
+        {
+          "title": "Haptic communication",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haptic_communication"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Haptic_communication",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask for advice to turn critics into advocates",
+      "body": "When pitching a new project or product, asking for \"feedback\" often triggers a critical, evaluative mindset in others. However, asking for \"advice\" shifts their brain into a collaborative, forward-looking state. Research shows that seeking advice makes people feel like they are your partner in success, rendering them much more likely to support your proposal and purchase your solution.",
+      "imageWikipediaTitle": "Communication",
+      "sources": [
+        {
+          "title": "Persuasion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Persuasion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Persuasion",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why exact prices like $4,912 stop negotiators in their tracks",
+      "body": "When selling high-value items, listing a precise price rather than a round number makes buyers negotiate much less aggressively. A study from Cornell University revealed that buyers assume a precise price (like $4,912) is the result of careful, objective calculations. Round numbers (like $5,000), by contrast, look like arbitrary markups, signaling that there is plenty of room to haggle.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Psychological pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_pricing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Psychological_pricing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why complex scents actually hurt retail sales",
+      "body": "While pleasant scents can entice shoppers, complex aromas like \"orange-basil with green tea\" actually decrease retail sales compared to simple scents like pure orange or lemon. Researchers discovered that complex scents demand too much subconscious processing power from the brain, distracting shoppers from their primary task: buying. Simple scents create a positive mood without draining cognitive energy.",
+      "imageWikipediaTitle": "Orange (fruit)",
+      "sources": [
+        {
+          "title": "Scent marketing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scent_marketing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Scent_marketing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How asking a question makes people buy",
+      "body": "Telling people to buy a product or vote in an election is often met with psychological resistance. Instead, simply asking them a question—\"Are you planning to buy a car this year?\"—triggers the question-behavior effect. Answering \"yes\" creates a psychological commitment. To avoid the discomfort of acting inconsistently with their own words, people are significantly more likely to follow through.",
+      "imageWikipediaTitle": "Question mark",
+      "sources": [
+        {
+          "title": "Question–behavior effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Question%E2%80%93behavior_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Question%E2%80%93behavior_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a sudden wave of relief makes people say \"yes\"",
+      "body": "When people experience a sudden scare followed by immediate relief, their cognitive defenses drop. In experiments, researchers placed realistic-looking fake parking tickets on car windshields. When drivers realized the \"ticket\" was actually just a promotional flyer, their relief made them far more compliant with subsequent requests. The sudden emotional transition leaves the brain temporarily exhausted and highly cooperative.",
+      "imageWikipediaTitle": "Traffic ticket",
+      "sources": [
+        {
+          "title": "Compliance (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_(psychology)",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What is the primary psychological mechanism behind the Disrupt-Then-Reframe technique?",
+      "options": [
+        "It temporarily distracts the critical mind with an unusual phrase",
+        "It makes the seller look highly unprofessional and sympathetic",
+        "It triggers the buyer's fear of missing out on a limited offer",
+        "It establishes the seller's absolute authority on the subject"
+      ],
+      "correctIndex": 0,
+      "explanation": "By saying '300 pennies,' the seller briefly disrupts the buyer's habitual 'no' response, leaving them open to the reframe: 'it's a bargain.'"
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which psychological phenomenon explains why we subconsciously prefer brands and products that share our initials?",
+      "options": [
+        "Implicit egotism",
+        "The scarcity heuristic",
+        "Cognitive dissonance",
+        "The contrast effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Implicit egotism is our unconscious tendency to associate positive feelings with things that resemble ourselves, including our names and initials."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why is asking for 'advice' more effective in sales pitches than asking for 'feedback'?",
+      "options": [
+        "It shifts the listener from an evaluative mindset to a collaborative partnership",
+        "It makes the listener feel superior and more likely to offer a discount",
+        "It forces the listener to sign a contract immediately",
+        "It confuses the listener so they cannot spot flaws in the product"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seeking advice invites the prospect to co-create the solution with you, transforming them from a critic into an ally."
+    },
+    {
+      "cardIndex": 7,
+      "question": "According to retail research, why do simple scents like orange increase sales more than complex scents like orange-basil?",
+      "options": [
+        "Simple scents do not drain the brain's processing power",
+        "Complex scents are highly unpleasant to most shoppers",
+        "Simple scents last longer in large retail spaces",
+        "Complex scents cause immediate allergic reactions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Complex scents require subconscious cognitive effort to process, which distracts shoppers from making purchasing decisions."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How does asking 'Are you going to buy this?' instead of telling someone to buy it increase conversion?",
+      "options": [
+        "It forces a psychological commitment that they try to align with their actions",
+        "It makes the customer feel sorry for the salesperson",
+        "It triggers immediate panic about product shortages",
+        "It distracts them from checking the price tag"
+      ],
+      "correctIndex": 0,
+      "explanation": "Answering 'yes' to a question about future behavior creates an internal commitment, which people naturally want to fulfill to remain consistent."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of strangers agreed to give money when asked for an exact '37 cents' compared to 23% for a quarter?",
+      "answer": 37,
+      "min": 10,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Asking for an unusual, precise amount like 37 cents almost doubled compliance compared to asking for a quarter."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of people allowed a stranger to skip the photocopier line when they gave a redundant reason ('because I have to make copies')?",
+      "answer": 93,
+      "min": 40,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Adding 'because' with even a completely meaningless reason boosted compliance from 60% to a staggering 93%."
+    }
+  ]
+}

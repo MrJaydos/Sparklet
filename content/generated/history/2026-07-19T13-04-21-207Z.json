@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T13:04:21.207Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The European Nation That Vanished for Over a Century",
+      "body": "In 1795, the third partition of Poland by Russia, Prussia, and Austria wiped the Polish state off the map entirely. Despite multiple uprisings and a rich cultural identity preserved in secret, Poland did not exist as an independent country for 123 years. It was only restored as a sovereign nation in 1918, following the collapse of the empires that divided it during World War I.",
+      "imageWikipediaTitle": "Partitions of Poland",
+      "sources": [
+        {
+          "title": "Partitions of Poland",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://en.wikipedia.org/wiki/Partitions_of_Poland"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Partitions_of_Poland",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Iceland Defeated the Royal Navy with Scissors",
+      "body": "Between 1958 and 1976, Iceland and the United Kingdom clashed in the \"Cod Wars\" over fishing rights in the North Atlantic. Lacking a traditional navy, Iceland's coast guard used specialized \"trawlwire cutters\"—essentially giant underwater scissors—to slice the nets of British trawlers. Iceland eventually won the conflict by threatening to close a vital NATO airbase, forcing Britain to recognize its 200-mile exclusive economic zone.",
+      "imageWikipediaTitle": "Cod Wars",
+      "sources": [
+        {
+          "title": "Cod Wars",
+          "publisher": "National Museum of the Royal Navy",
+          "url": "https://en.wikipedia.org/wiki/Cod_Wars"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cod_Wars",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Viking Bodyguards of the Byzantine Emperors",
+      "body": "During the Middle Ages, the Byzantine emperors in Constantinople trusted foreign mercenaries more than their own scheming subjects. They formed the elite Varangian Guard, composed primarily of Norsemen and later Anglo-Saxons. Armed with massive two-handed battleaxes, these fierce northern warriors served as the emperor's personal bodyguards and shock troops, renowned throughout Europe for their absolute loyalty and brutal combat efficiency.",
+      "imageWikipediaTitle": "Varangian Guard",
+      "sources": [
+        {
+          "title": "Varangian Guard",
+          "publisher": "World History Encyclopedia",
+          "url": "https://en.wikipedia.org/wiki/Varangian_Guard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Varangian_Guard",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Longest Reign in Recorded History",
+      "body": "King Louis XIV of France, known as the \"Sun King,\" holds the verified record for the longest sovereign reign in history. Inheriting the crown in 1643 at just four years old, he ruled France for 72 years and 110 days until his death in 1715. During his immense reign, he centralized royal power, transformed French culture, and built the magnificent Palace of Versailles, shaping European politics for generations.",
+      "imageWikipediaTitle": "Louis XIV",
+      "sources": [
+        {
+          "title": "Louis XIV",
+          "publisher": "Château de Versailles",
+          "url": "https://en.wikipedia.org/wiki/Louis_XIV"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Louis_XIV",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US-British Border War Sparked by a Pig",
+      "body": "In 1859, a tense boundary dispute between the United States and Great Britain on San Juan Island escalated into a military standoff known as the Pig War. The conflict began when an American farmer shot a British-owned pig eating his potatoes. Both nations deployed troops and warships to the island. Fortunately, local commanders maintained their cool, and the only casualty of the entire confrontation was the original pig.",
+      "imageWikipediaTitle": "Pig War (1859)",
+      "sources": [
+        {
+          "title": "The Pig War",
+          "publisher": "National Park Service",
+          "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The War Ended by a Single Shot to a Soup Kettle",
+      "body": "In October 1784, the Holy Roman Empire and the Republic of the Seven United Netherlands came to the brink of war over trade rights on the Scheldt River. The conflict, known as the Kettle War, ended almost as soon as it began. An imperial flagship fired a single shot at a Dutch merchant ship, which hit a soup kettle on deck. Terrified by this display of force, the imperial crew surrendered immediately, ending the war.",
+      "imageWikipediaTitle": "Kettle War",
+      "sources": [
+        {
+          "title": "Kettle War",
+          "publisher": "Rijksmuseum",
+          "url": "https://en.wikipedia.org/wiki/Kettle_War"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kettle_War",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Short-Lived Triumph of the First Transatlantic Cable",
+      "body": "In August 1858, Queen Victoria and US President James Buchanan exchanged the first transatlantic telegraph message, sparking global celebration. However, the triumph was short-lived. Due to poor insulation and a lack of technical understanding, wild attempts to boost the signal's speed by applying high voltage ruined the underwater cable. It permanently failed just three weeks after its historic completion, delaying reliable global communication for years.",
+      "imageWikipediaTitle": "Transatlantic telegraph cable",
+      "sources": [
+        {
+          "title": "Transatlantic telegraph cable",
+          "publisher": "IEEE History Center",
+          "url": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Year the World Skipped Ten Days",
+      "body": "In 1582, Pope Gregory XIII introduced the Gregorian calendar to correct a drift in the Julian calendar, which was causing Easter to slip away from the spring equinox. To realign the calendar with the sun, ten days had to be deleted. In Catholic countries like Italy, Spain, and Poland, people went to sleep on Thursday, October 4, 1582, and woke up the next morning on Friday, October 15, 1582.",
+      "imageWikipediaTitle": "Gregorian calendar",
+      "sources": [
+        {
+          "title": "Gregorian calendar",
+          "publisher": "NASA",
+          "url": "https://en.wikipedia.org/wiki/Gregorian_calendar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gregorian_calendar",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Accidental Discovery of China's Silent Army",
+      "body": "In 1974, a group of local farmers in Shaanxi province, China, were digging a water well during a severe drought. Instead of water, their shovels struck clay fragments, leading to the discovery of the Terracotta Army. Created over 2,000 years ago to protect Emperor Qin Shi Huang in the afterlife, the site contains thousands of life-sized, unique clay soldiers, horses, and chariots, completely unknown to modern history until that moment.",
+      "imageWikipediaTitle": "Terracotta Army",
+      "sources": [
+        {
+          "title": "Terracotta Army",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://en.wikipedia.org/wiki/Terracotta_Army"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Terracotta_Army",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Protestant Wind That Saved England",
+      "body": "In 1588, Spain launched the legendary Spanish Armada, a massive fleet of 130 ships designed to invade England and overthrow Queen Elizabeth I. While English naval tactics disrupted the Spanish formations, it was the weather that sealed their fate. Violent, unexpected storms battered the retreating Spanish fleet, shipwrecking dozens of vessels along the rocky coasts of Scotland and Ireland. The English hailed this timely weather as the \"Protestant Wind.\"",
+      "imageWikipediaTitle": "Spanish Armada",
+      "sources": [
+        {
+          "title": "Spanish Armada",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://en.wikipedia.org/wiki/Spanish_Armada"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spanish_Armada",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What unusual tool did Iceland use to damage British fishing ships during the Cod Wars?",
+      "options": [
+        "Trawlwire cutters",
+        "Floating naval mines",
+        "Magnetic torpedoes",
+        "Heavy deck catapults"
+      ],
+      "correctIndex": 0,
+      "explanation": "Icelandic coast guard vessels used specialized trawlwire cutters to slice the fishing nets of British trawlers, rendering them useless."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did Byzantine emperors prefer Viking mercenaries as their personal bodyguards?",
+      "options": [
+        "They were less likely to participate in local political conspiracies",
+        "They possessed secret gunpowder weapons",
+        "They spoke fluent Greek and Latin",
+        "They were much cheaper to employ than local soldiers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because they were foreign and had no local political ties, Varangian Guard members were highly trusted by the emperors who feared betrayal from Byzantine nobles."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the only casualty during the 1859 border standoff between the US and Britain on San Juan Island?",
+      "options": [
+        "A pig",
+        "A British general",
+        "An American scout",
+        "A naval supply ship"
+      ],
+      "correctIndex": 0,
+      "explanation": "The entire conflict, which involved hundreds of troops and naval ships, was kicked off by an American farmer shooting a British pig, which ended up being the only casualty."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What object was struck by a cannonball, causing the immediate surrender of an imperial flagship in 1784?",
+      "options": [
+        "A soup kettle",
+        "The captain's hat",
+        "A gunpowder barrel",
+        "The ship's anchor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single shot fired by a Dutch ship struck a soup kettle on the deck of the imperial flagship, leading the imperial crew to immediately surrender."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How was the ancient Terracotta Army of China discovered in 1974?",
+      "options": [
+        "Farmers digging a water well",
+        "Archaeologists studying ancient texts",
+        "An earthquake exposing the underground chambers",
+        "Miners looking for coal deposits"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1974, local farmers digging a well during a drought stumbled upon clay fragments that turned out to be the 2,000-year-old Terracotta Army."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What natural event heavily contributed to the destruction of the Spanish Armada in 1588?",
+      "options": [
+        "Severe storms",
+        "A sudden solar eclipse",
+        "A volcanic eruption",
+        "A massive tsunami"
+      ],
+      "correctIndex": 0,
+      "explanation": "Violent and unexpected storms wrecked dozens of Spanish ships along the coasts of Scotland and Ireland, a stroke of luck the English called the 'Protestant Wind'."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many years did Poland vanish from the map before being restored as an independent nation in 1918?",
+      "answer": 123,
+      "min": 10,
+      "max": 300,
+      "unit": "years",
+      "explanation": "Poland was completely partitioned by its neighbors in 1795 and did not exist as a sovereign nation again until the end of World War I in 1918."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "For how many years did King Louis XIV of France rule?",
+      "answer": 72,
+      "min": 10,
+      "max": 100,
+      "unit": "years",
+      "explanation": "King Louis XIV ruled France for 72 years and 110 days, making his reign the longest verified sovereign reign in world history."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many weeks did the first transatlantic telegraph cable operate before permanently failing?",
+      "answer": 3,
+      "min": 1,
+      "max": 52,
+      "unit": "weeks",
+      "explanation": "The historic cable worked for just three weeks before excessive voltage applied in an attempt to boost signal speed permanently ruined the insulation."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many days were deleted from the calendar in October 1582 to transition to the Gregorian system?",
+      "answer": 10,
+      "min": 2,
+      "max": 30,
+      "unit": "days",
+      "explanation": "To realign the calendar with the sun, the world skipped directly from October 4, 1582, to October 15, 1582."
+    }
+  ]
+}
