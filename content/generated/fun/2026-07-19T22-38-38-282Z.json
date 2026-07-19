@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T22:38:38.282Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the US Navy operates submarines with Xbox controllers",
+      "body": "High-tech Virginia-class submarines used to feature a heavy, $38,000 joystick to control their photonic masts, which are modern periscopes. Finding it clunky and hard to learn, the US Navy replaced it with a standard Xbox 360 controller. The commercial video game controller costs around $30, requires virtually no training for young sailors, and can be swapped out instantly if it breaks.",
+      "imageWikipediaTitle": "Virginia-class submarine",
+      "sources": [
+        {
+          "title": "Virginia-class submarine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Virginia-class_submarine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Virginia-class_submarine",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Alaskan town that elected a cat as its mayor",
+      "body": "For twenty years, the small historic town of Talkeetna, Alaska, was led by an honorary mayor named Stubbs. Stubbs was not a politician, but a tail-less ginger cat. Disgruntled voters write-in elected him in 1997 as a protest. He spent his long career hanging out at the local general store, drinking water spiked with catnip out of wine glasses, and drawing thousands of tourists.",
+      "imageWikipediaTitle": "Stubbs (cat)",
+      "sources": [
+        {
+          "title": "Stubbs (cat)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stubbs_(cat)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stubbs_(cat)",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The secret behind a hippo's pink sweat",
+      "body": "Hippopotamuses don't actually sweat. Instead, they secrete a thick, reddish-pink fluid from their skin. Often called blood sweat, this liquid is actually a natural skin medicine. It contains red and orange pigments that absorb ultraviolet light, acting as a powerful sunscreen. It also serves as a potent moisturizer and antibiotic, keeping the hippo's skin healthy in muddy, bacteria-filled waters.",
+      "imageWikipediaTitle": "Hippopotamus",
+      "sources": [
+        {
+          "title": "Hippopotamus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hippopotamus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hippopotamus",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Inside the quietest room on Earth",
+      "body": "At Microsoft's headquarters in Redmond, Washington, lies an anechoic chamber so quiet that it holds the Guinness World Record. The room's ambient noise level is measured at negative 20.35 decibels. In this absolute silence, the human ear adapts. Visitors can hear their own lungs inhaling, the rushing of their own blood, and even the eerie, high-pitched grinding of their own joints.",
+      "imageWikipediaTitle": "Anechoic chamber",
+      "sources": [
+        {
+          "title": "Anechoic chamber",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anechoic_chamber"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anechoic_chamber",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The complex three-vagina anatomy of kangaroos",
+      "body": "Female kangaroos have a highly unusual reproductive tract featuring three vaginas and two uteri. The two side vaginas channel sperm upward to the separate uteri, while the central third vagina acts exclusively as the birth canal through which the tiny joey slides down. This intricate setup allows female kangaroos to be perpetually pregnant, carrying developing embryos at different stages simultaneously.",
+      "imageWikipediaTitle": "Kangaroo",
+      "sources": [
+        {
+          "title": "Kangaroo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kangaroo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kangaroo",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Google's original name was surprisingly physical",
+      "body": "In 1996, Larry Page and Sergey Brin began collaborating on a search engine at Stanford University. Before settling on the mathematical term Google, they named their creation BackRub. This bizarre, slightly uncomfortable name was chosen because the search engine analyzed the web's back links to estimate the importance of individual pages. Thankfully, they rebranded the system a year later.",
+      "imageWikipediaTitle": "Google",
+      "sources": [
+        {
+          "title": "Google",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Google"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Google",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A lightning bolt is five times hotter than the Sun",
+      "body": "While the visible surface of the Sun burns at a blistering 5,778 Kelvin (about 9,900 degrees Fahrenheit), a single bolt of lightning is much hotter. As lightning strikes, the electrical discharge heats the surrounding air to roughly 30,000 Kelvin (53,540 degrees Fahrenheit) in a fraction of a second. This extreme heat causes the air to rapidly expand and explode, creating thunder.",
+      "imageWikipediaTitle": "Lightning",
+      "sources": [
+        {
+          "title": "Lightning",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightning"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lightning",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The massive basketball-sized eyes of the giant squid",
+      "body": "To navigate the pitch-black depths of the deep ocean, the giant squid has evolved the largest eyes of any living animal. Measuring up to 27 centimeters (about 11 inches) across, these massive organs are roughly the size of a standard basketball. Their huge pupils allow the squid to absorb even the faintest traces of light, helping them spot the bioluminescent glow of approaching predators.",
+      "imageWikipediaTitle": "Giant squid",
+      "sources": [
+        {
+          "title": "Giant squid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant_squid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Giant_squid",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The only part of your body that can't heal itself",
+      "body": "If you break a bone or cut your skin, your body immediately goes to work repairing the damage. But your teeth are a different story. Tooth enamel is the hardest tissue in the human body, yet it is completely incapable of self-repair. Because enamel is entirely inorganic and contains no living cells, once it is chipped, cracked, or decayed, it can never grow back.",
+      "imageWikipediaTitle": "Tooth enamel",
+      "sources": [
+        {
+          "title": "Tooth enamel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tooth_enamel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tooth_enamel",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The colossal weight of a blue whale's tongue",
+      "body": "The blue whale is the largest animal ever known to have lived, so its anatomy is naturally gargantuan. A blue whale's tongue alone is so massive that it can weigh up to 3 short tons (about 2.7 metric tons). This is roughly equivalent to the weight of an entire adult female Asian elephant. Despite its size, the tongue is mostly used to push massive amounts of water out of its mouth.",
+      "imageWikipediaTitle": "Blue whale",
+      "sources": [
+        {
+          "title": "Blue whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_whale"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blue_whale",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the US Navy start using Xbox 360 controllers on some of its submarines?",
+      "options": [
+        "To control the nuclear reactor safety valves",
+        "To steer the entire submarine through tight channels",
+        "To control the modern periscopic photonic masts",
+        "To keep sailors entertained during long deployments"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Navy swapped out custom, $38,000 joysticks for cheap, intuitive Xbox controllers to make operating the periscope masts easier and cheaper."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What kind of animal served as the honorary mayor of Talkeetna, Alaska, for twenty years?",
+      "options": [
+        "A golden retriever",
+        "A tail-less ginger cat",
+        "A bald eagle",
+        "A domestic goat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stubbs, a tail-less ginger cat, was elected as a write-in candidate by disgruntled voters in 1997 and served as honorary mayor until his death in 2017."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary function of the reddish-pink fluid secreted by hippos?",
+      "options": [
+        "It poisons rival animals in territorial fights",
+        "It helps attract potential mates in deep water",
+        "It acts as a natural sunscreen and antibiotic",
+        "It acts as a lubricant to slide through muddy banks"
+      ],
+      "correctIndex": 2,
+      "explanation": "The secretion contains red and orange pigments that absorb UV light to prevent sunburn and kill harmful bacteria."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many vaginas does a female kangaroo have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctIndex": 2,
+      "explanation": "Female kangaroos have three vaginas: two side ones for receiving sperm, and a central third one that functions as the birth canal."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What was the original name of the Google search engine when it was first created in 1996?",
+      "options": [
+        "WebCrawler",
+        "BackRub",
+        "PageRank",
+        "NetLink"
+      ],
+      "correctIndex": 1,
+      "explanation": "Larry Page and Sergey Brin originally named their search engine 'BackRub' because it analyzed back links to estimate page importance."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why is tooth enamel completely unable to heal or repair itself?",
+      "options": [
+        "Saliva destroys the body's repair cells",
+        "The mouth is kept too wet for scar tissue to form",
+        "It is entirely inorganic and contains no living cells",
+        "It does not receive enough oxygen from the air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because tooth enamel is inorganic and contains zero living cells, once it chips or decays, it cannot regenerate."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What is the ambient noise level of the world's quietest room at Microsoft, measured in decibels (dBA)?",
+      "answer": -20,
+      "min": -50,
+      "max": 10,
+      "unit": "dBA",
+      "explanation": "At -20.35 dBA, this anechoic chamber is so close to the physical limit of silence (-23 dBA) that you can hear your own heart, blood, and bones."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many times hotter than the surface of the Sun can a single bolt of lightning heat the surrounding air?",
+      "answer": 5,
+      "min": 2,
+      "max": 20,
+      "unit": "",
+      "explanation": "A lightning bolt can heat the air to 30,000 Kelvin, which is about five times hotter than the Sun's surface temperature of 5,778 Kelvin."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "What is the maximum diameter, in centimeters, of a giant squid's eye?",
+      "answer": 27,
+      "min": 10,
+      "max": 60,
+      "unit": "cm",
+      "explanation": "Measuring up to 27 cm (11 inches) across, giant squid eyes are the size of basketballs to capture tiny amounts of light in the deep ocean."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "Approximately how many tons (short tons) does the tongue of an adult blue whale weigh?",
+      "answer": 3,
+      "min": 1,
+      "max": 10,
+      "unit": "tons",
+      "explanation": "An adult blue whale's tongue weighs about 3 short tons (2.7 metric tons), which is roughly equivalent to the weight of an entire adult Asian elephant."
+    }
+  ]
+}

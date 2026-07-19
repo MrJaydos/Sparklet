@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T22:38:38.282Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you should limit your pitch to three key benefits",
+      "body": "When pitching a product or service, stick to exactly three claims. A study in the Journal of Marketing revealed that consumers are highly receptive to up to three claims. However, adding a fourth claim triggers skepticism, causing them to doubt the entire pitch. Three feels like a pattern of value, while four feels like an aggressive sales tactic.",
+      "imageWikipediaTitle": "Rule of three (writing)",
+      "sources": [
+        {
+          "title": "Three Charms but Four Alarms: The Effect of Number of Claims on Persuasion",
+          "publisher": "Journal of Marketing",
+          "url": "https://journals.sagepub.com/doi/10.1509/jm.11.0179"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rule_of_three_(writing)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tiny yellow square that doubles response rates",
+      "body": "Want to guarantee a client reads your proposal or completes your survey? Stick a hand-written sticky note on it. Research published in the Journal of Consumer Psychology found that adding a simple, personalized Post-it note to a document more than doubled the response rate from 36% to 75%. It signals a personal relationship and triggers a powerful urge to return the favor.",
+      "imageWikipediaTitle": "Post-it Note",
+      "sources": [
+        {
+          "title": "Post-It Note Persuasion",
+          "publisher": "Journal of Consumer Psychology",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S105774080800102X"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Post-it_Note",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Where your ad model looks changes what customers see",
+      "body": "In visual ads, never let your model look directly at the viewer. Eye-tracking research shows that when a model looks straight ahead, viewers focus on the model and ignore the product. But when the model looks directly at the product or headline, viewers' eyes naturally follow their gaze, instantly boosting attention and memory of your actual marketing message.",
+      "imageWikipediaTitle": "Eye tracking",
+      "sources": [
+        {
+          "title": "Gaze cueing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gaze_cueing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gaze_cueing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why three seconds of silence can save your next deal",
+      "body": "When a negotiation hits an impasse or an offer is made, resist the urge to fill the silence. A study in the Journal of Applied Psychology found that pausing for at least three seconds shifts the conversation from defensive posturing to cooperative problem-solving. This brief, intentional pause prompts both parties to think more deeply, leading to more creative, mutually beneficial deals.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Silence is golden: The effect of silence on negotiation outcomes.",
+          "publisher": "Journal of Applied Psychology",
+          "url": "https://psycnet.apa.org/record/2020-80228-001"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negotiation",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why buyers spend up to 74% more when using plastic",
+      "body": "Want to increase how much a customer is willing to pay? Steer them toward digital payments. MIT researchers found that when bidding on sports tickets, buyers using credit cards bid up to 74% more than those paying with cash. Handing over cash triggers an immediate, physical \"pain of paying\" in the brain, while credit cards separate the pleasure of buying from the pain of spending.",
+      "imageWikipediaTitle": "Credit card",
+      "sources": [
+        {
+          "title": "Always Leave Home Without It: A Further Investigation of the Credit-Card Effect on Willingness to Pay",
+          "publisher": "Marketing Letters",
+          "url": "https://link.springer.com/article/10.1023/A:1008196717017"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pain_of_paying",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The slow background rhythm that boosts retail sales by 38%",
+      "body": "Simply slowing down the tempo of your background music can dramatically increase your sales. A classic field study in a supermarket showed that when slow-tempo music was played, shoppers paced through the aisles more slowly and spent 38% more money than on days with fast-tempo music. The relaxed pace keeps customers in the store longer, sparking more impulse buys.",
+      "imageWikipediaTitle": "Supermarket",
+      "sources": [
+        {
+          "title": "Using Background Music to Affect the Behavior of Supermarket Shoppers",
+          "publisher": "Journal of Marketing",
+          "url": "https://journals.sagepub.com/doi/10.1177/002224298204600313"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Background_music",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you should stop apologizing to delayed clients",
+      "body": "When a delivery is late or a meeting is delayed, don't say \"Sorry for the delay.\" Instead, say \"Thank you for your patience.\" Research in the Journal of Marketing Research shows that praising a customer's patience boosts their self-esteem and increases overall satisfaction. While an apology highlights your failure, appreciation shifts the spotlight to their virtue, making them feel valued.",
+      "imageWikipediaTitle": "Customer service",
+      "sources": [
+        {
+          "title": "Saying Thank You Is Better Than Saying Sorry: Redressing Service Failures through Customer Appreciation",
+          "publisher": "Journal of Marketing Research",
+          "url": "https://journals.sagepub.com/doi/10.1177/0022243720907360"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Customer_service",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a shared birthday can double your sales success",
+      "body": "Pointing out a tiny, superficial coincidence can instantly build trust and double your sales compliance. In a study published in the Personality and Social Psychology Bulletin, researchers found that when a requester shared a birthday with a participant, the rate of compliance with a request jumped from 30% to 62%. We naturally trust and cooperate with people who feel like us.",
+      "imageWikipediaTitle": "Interpersonal relationship",
+      "sources": [
+        {
+          "title": "What a Coincidence! The Effects of Incidental Similarity on Compliance",
+          "publisher": "Personality and Social Psychology Bulletin",
+          "url": "https://journals.sagepub.com/doi/10.1177/0146167203262851"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/In-group_favoritism",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why customers quietly prefer the middle of the shelf",
+      "body": "If you want a specific product to fly off the shelves, place it in the exact center of the display. Eye-tracking research shows that buyers exhibit a strong \"center-stage effect.\" They focus heavily on the physical middle option, choosing it disproportionately over items on the left or right, even when the products are completely identical. Leverage this by placing your highest-margin product in the center.",
+      "imageWikipediaTitle": "Visual merchandising",
+      "sources": [
+        {
+          "title": "Shining in the Center: Central Gaze Cascade Effect on Product Choice",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://academic.oup.com/jcr/article/39/2/414/1816654"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Visual_merchandising",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The clever loyalty card trick that keeps buyers coming back",
+      "body": "Want to accelerate repeat purchases? Give your customers a head start. In a famous study, researchers compared two coffee loyalty cards: an 8-stamp card with no stamps, and a 10-stamp card with 2 pre-stamped slots. Although both required 8 purchases, customers with the pre-stamped cards bought coffee more frequently. The illusion of progress makes the goal feel closer, motivating faster action.",
+      "imageWikipediaTitle": "Loyalty program",
+      "sources": [
+        {
+          "title": "The Goal-Gradient Effect, Motivated Relation, and Information-Bias in Loyalty Programs",
+          "publisher": "Journal of Marketing Research",
+          "url": "https://journals.sagepub.com/doi/10.1509/jmkr.43.1.39"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goal-gradient_effect",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to consumer psychology research, what is the optimal number of claims to make in a pitch before triggering customer skepticism?",
+      "options": [
+        "One",
+        "Three",
+        "Five",
+        "Ten"
+      ],
+      "correctIndex": 1,
+      "explanation": "A study in the Journal of Marketing showed that while up to three claims are highly persuasive, a fourth claim triggers consumer skepticism."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did adding a handwritten Post-it note to a survey package affect the response rate in a famous study?",
+      "options": [
+        "It decreased it slightly",
+        "It had no measurable effect",
+        "It more than doubled it",
+        "It quadrupled it"
+      ],
+      "correctIndex": 2,
+      "explanation": "Adding a personalized, handwritten Post-it note more than doubled response rates from 36% to 75% by establishing a personal touch."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to negotiation research, how long should you intentionally pause to break a defensive deadlock and invite cooperation?",
+      "options": [
+        "At least 3 seconds",
+        "Exactly 1 minute",
+        "At least 15 seconds",
+        "A split second"
+      ],
+      "correctIndex": 0,
+      "explanation": "A brief pause of at least three seconds allows negotiators to process information more deeply, paving the way for creative solutions."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why is saying 'Thank you for your patience' more effective than 'Sorry for the delay' in customer service?",
+      "options": [
+        "It shifts focus to the customer's virtue and boosts self-esteem",
+        "It sounds more formal and detached",
+        "It shifts the blame entirely to external forces",
+        "It allows the company to avoid legal liability"
+      ],
+      "correctIndex": 0,
+      "explanation": "Appreciating the customer's patience highlights their positive traits, which boosts their self-esteem and increases overall satisfaction."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What is the 'center-stage effect' in retail psychology?",
+      "options": [
+        "Customers only buy items recommended by celebrities",
+        "Customers are disproportionately likely to choose products placed in the physical center of a display",
+        "Customers prefer products placed on the highest shelf",
+        "Customers avoid looking at the middle of visual displays"
+      ],
+      "correctIndex": 1,
+      "explanation": "Eye-tracking studies show that buyers naturally focus on and prefer the option placed in the physical center of a shelf or page."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "By what percentage does a buyer's willingness to pay increase when using a credit card instead of cash?",
+      "answer": 74,
+      "min": 10,
+      "max": 150,
+      "unit": "%",
+      "explanation": "MIT researchers found that credit card bidders bid up to 74% more than cash bidders because digital payments minimize the cognitive pain of paying."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "By what percentage do retail sales increase when a store plays slow-tempo background music instead of fast-tempo music?",
+      "answer": 38,
+      "min": 5,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Slow background music slows down the shoppers' walking pace, keeping them in the store longer and increasing sales by 38%."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "In a social psychology study, what percentage of people agreed to a request when they discovered they shared a birthday with the requester?",
+      "answer": 62,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Sharing a tiny, accidental similarity like a birthday more than doubled the compliance rate from 30% to 62%."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-07-19T22:38:38.283Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programmer who was paid for writing negative code",
+      "body": "In 1982, Apple programmer Bill Atkinson was tasked with optimizing the QuickDraw graphics engine for the Lisa computer. He rewrote the software, making it run six times faster while stripping out redundant code. When Apple management required employees to fill out a weekly progress card listing the number of 'lines of code generated,' Atkinson humorously wrote '-2000'. His managers quickly realized that fewer lines often meant cleaner, more efficient software.",
+      "imageWikipediaTitle": "Bill Atkinson",
+      "sources": [
+        {
+          "title": "Bill Atkinson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bill_Atkinson"
+        },
+        {
+          "title": "QuickDraw",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QuickDraw"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bill_Atkinson",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How processor lag accidentally created the difficulty curve",
+      "body": "In 1978, Tomohiro Nishikado created Space Invaders. The custom hardware he built struggled to render the massive grid of alien sprites, causing the game to run slowly. However, as the player destroyed the aliens, the processor had fewer graphics to render, allowing the remaining aliens to move faster. Rather than fixing this hardware lag, Nishikado kept it, accidentally inventing the concept of an escalating difficulty curve in video games.",
+      "imageWikipediaTitle": "Space Invaders",
+      "sources": [
+        {
+          "title": "Space Invaders",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Invaders"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Space_Invaders",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The virus that spun centrifuges to their death",
+      "body": "Discovered in 2010, the Stuxnet worm was the world's first known digital weapon designed to cause physical destruction. It specifically targeted programmable logic controllers made by Siemens, which ran uranium-enrichment centrifuges in Iran. Stuxnet covertly altered the motor speeds, causing the centrifuges to spin wildly and tear themselves apart, while simultaneously sending fake data to the control rooms showing that everything was running perfectly.",
+      "imageWikipediaTitle": "Stuxnet",
+      "sources": [
+        {
+          "title": "Stuxnet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stuxnet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stuxnet",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a masterpiece fit into less space than a modern email",
+      "body": "The original 1985 Super Mario Bros. game was a massive adventure, yet its entire code, graphics, and music fit into a mere 40 kilobytes of memory. To achieve this, Nintendo developers used extreme optimization tricks. For example, the iconic green bushes and white clouds use the exact same pixel sprite, just rendered with different color palettes. The music was composed of simple, repeating wave patterns to save every precious byte.",
+      "imageWikipediaTitle": "Super Mario Bros.",
+      "sources": [
+        {
+          "title": "Super Mario Bros.",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros."
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Super_Mario_Bros.",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The computer bug that terrified a chess grandmaster",
+      "body": "In 1997, IBM's Deep Blue defeated world chess champion Garry Kasparov. During the first game, a software bug occurred: unable to select a move due to a processing timeout, Deep Blue fell back to a safety routine and executed a completely random move. Kasparov, convinced the bizarre move was a sign of deep, superior strategy that he couldn't comprehend, became highly anxious. This psychological edge ultimately contributed to his historic defeat.",
+      "imageWikipediaTitle": "Deep Blue (chess computer)",
+      "sources": [
+        {
+          "title": "Deep Blue (chess computer)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why typing 'chucknorris' into web code turns the screen red",
+      "body": "In early web browsers, typing the word 'chucknorris' as a background color in HTML code resulted in a deep red. This is not an easter egg, but a quirk of how legacy browsers parsed hex colors. When a browser encountered non-hexadecimal characters, it replaced them with zeros. The word 'chucknorris' becomes 'c00c00000000' in this formula, which is then truncated to a standard red hex value.",
+      "imageWikipediaTitle": "HTML",
+      "sources": [
+        {
+          "title": "Web colors",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Web_colors"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Web_colors",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The manifesto on a seized computer that defined hacker culture",
+      "body": "On January 8, 1986, a computer hacker named Loyd Blankenship, known as 'The Mentor,' was arrested. Shortly after, he published a short essay titled 'The Conscience of a Hacker,' which became famous worldwide as 'The Hacker's Manifesto.' The text defended hacking not as a tool for crime, but as an act of intellectual curiosity, a rebellion against institutional control, and a pursuit of knowledge in an era where computers were locked away.",
+      "imageWikipediaTitle": "Hacker",
+      "sources": [
+        {
+          "title": "The Hacker's Manifesto",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Hacker%27s_Manifesto"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Hacker%27s_Manifesto",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The cosmic postcard coded as a mathematical grid",
+      "body": "In 1974, scientists transmitted the Arecibo message into deep space, containing a brief summary of humanity and Earth. To ensure intelligent extraterrestrials could decode it, the message was formatted as a stream of 1,679 binary digits. Because 1,679 is a semiprime number—the product of exactly two prime numbers, 23 and 73—an alien recipient would naturally realize the data should be arranged into a 23-by-73 grid, revealing the pixelated pictograms.",
+      "imageWikipediaTitle": "Arecibo message",
+      "sources": [
+        {
+          "title": "Arecibo message",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arecibo_message"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arecibo_message",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Microsoft executive who personally wrote the blue screen text",
+      "body": "In the early 1990s, Steve Ballmer, then head of Microsoft's Systems Division, visited the Windows development team. Unhappy with the default text shown when a program crashed, he complained that it sounded uninspired. The lead developer challenged him to write a better version. Ballmer did exactly that, drafting the precise text that appeared on the infamous blue Ctrl+Alt+Del screen in Windows 3.1, cementing his words in operating system history.",
+      "imageWikipediaTitle": "Steve Ballmer",
+      "sources": [
+        {
+          "title": "Blue Screen of Death",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_Screen_of_Death"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blue_Screen_of_Death",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The software so perfect it only had 17 errors in thirty years",
+      "body": "NASA's Space Shuttle Primary Avionics Software System is celebrated as one of the most reliable codebases ever written. Over its entire thirty-year history, the 420,000-line onboard software experienced only 17 bugs in flight. To achieve this near-perfection, IBM developers followed a legendary process of extreme code review, where writing the code took only a fraction of the time compared to the endless planning, testing, and mathematical verification.",
+      "imageWikipediaTitle": "Space Shuttle",
+      "sources": [
+        {
+          "title": "Space Shuttle Primary Avionics Software System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Primary_Avionics_Software_System"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Space_Shuttle_Primary_Avionics_Software_System",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Apple programmer Bill Atkinson report writing -2,000 lines of code in a weekly progress report?",
+      "options": [
+        "He accidentally deleted the primary graphics engine",
+        "He optimized the QuickDraw software, making it run six times faster while eliminating redundant code",
+        "He was protesting Apple's shift toward graphical user interfaces",
+        "His code was rejected by the project manager and wiped from the server"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atkinson optimized QuickDraw, making it faster and much shorter, showing that fewer lines of code often mean higher quality."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What caused the speed of the aliens in Space Invaders to increase as the player destroyed them?",
+      "options": [
+        "A deliberate design pattern mimicking alien rage",
+        "A hardware bug that the developer couldn't figure out how to patch",
+        "The processor having fewer sprites to render, which naturally sped up the game's performance",
+        "A random number generator that scaled up the speed multiplier"
+      ],
+      "correctIndex": 2,
+      "explanation": "Destroying aliens reduced the rendering load on the custom processor, which accidentally created the game's iconic escalating difficulty."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did the Stuxnet worm physically damage centrifuges while keeping operators unaware of the failure?",
+      "options": [
+        "It caused them to explode by overheating the power grid",
+        "It altered motor speeds to destroy them while sending fake 'normal' status reports to control rooms",
+        "It completely shut down the cooling systems and disabled the warning alarms",
+        "It physically locked the centrifuge doors, causing pressure build-up"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stuxnet played back recorded normal operating data to the operators' screens while spinning the centrifuges to their physical destruction."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did a software bug in Deep Blue help it defeat grandmaster Garry Kasparov?",
+      "options": [
+        "The bug caused it to play an illegal move that the referees missed",
+        "It shut down Kasparov's chess clock, giving the machine unlimited time",
+        "Failing to choose a calculated move, it played a random move that Kasparov mistook for a genius strategy",
+        "It accidentally duplicated its queen on the virtual board"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unable to resolve a move due to a timeout, Deep Blue made a random move that deeply unnerved Kasparov, who overanalyzed it."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why does typing 'chucknorris' as a background color in early HTML render as red?",
+      "options": [
+        "It was a hidden Easter egg added by Netscape developers",
+        "The browser's parser replaced non-hexadecimal characters with zeros, leaving a valid red hex value",
+        "The word 'chucknorris' is a reserved system keyword for crimson red",
+        "A security exploit redirected the color palette to a default safety color"
+      ],
+      "correctIndex": 1,
+      "explanation": "Legacy browsers parsed missing or invalid hex characters as 0, turning 'chucknorris' into a value that evaluates to red."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What core belief did Loyd Blankenship ('The Mentor') champion in 'The Hacker's Manifesto'?",
+      "options": [
+        "Hacking is a legitimate tool for corporate espionage",
+        "All software should be monetized to support independent developers",
+        "Hacking is driven by intellectual curiosity and a pursuit of knowledge rather than malice",
+        "Digital encryption should be banned to allow free access"
+      ],
+      "correctIndex": 2,
+      "explanation": "Written after his arrest in 1986, Blankenship's essay framed hacking as a form of non-violent intellectual exploration."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Which famous piece of Windows history did former Microsoft CEO Steve Ballmer personally write?",
+      "options": [
+        "The original start-up sound of Windows 95",
+        "The text for the Ctrl+Alt+Del blue screen error message in Windows 3.1",
+        "The entire kernel of MS-DOS",
+        "The user agreement for Microsoft Office"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dissatisfied with the original system message text, Ballmer personally drafted the warning shown during system crashes."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many kilobytes of memory did the entire code, graphics, and music of the original 1985 Super Mario Bros. game fit into?",
+      "answer": 40,
+      "min": 5,
+      "max": 1000,
+      "unit": "KB",
+      "explanation": "The entire game fit into just 40 kilobytes, which is less than the size of a blank modern email!"
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "To ensure aliens could decode it, the 1974 Arecibo message was designed with a length of how many binary digits (bits)?",
+      "answer": 1679,
+      "min": 100,
+      "max": 10000,
+      "unit": "",
+      "explanation": "1,679 is a semiprime number (23 * 73), which allows alien recipients to arrange the bits into a 23-by-73 visual grid."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "Over the Space Shuttle's entire 30-year flight history, how many software bugs were ever discovered in its primary flight code?",
+      "answer": 17,
+      "min": 0,
+      "max": 500,
+      "unit": "bugs",
+      "explanation": "Only 17 bugs were ever found in the flight software across 135 missions, thanks to IBM's legendary and rigorous testing processes."
+    }
+  ]
+}

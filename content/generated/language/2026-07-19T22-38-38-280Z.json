@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-07-19T22:38:38.280Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Swiss Army knife of Japanese politeness",
+      "body": "If you visit Japan, one phrase will get you through almost any social situation. The word すみません (sumimasen, pronounced \"soo-mee-mah-sen\") translates literally to \"it does not end.\" In practice, it acts as a polite \"excuse me\" to catch a waiter's attention, a sincere \"sorry\" for a minor bump, or even a humble \"thank you\" to acknowledge someone's helpful effort.",
+      "imageWikipediaTitle": "Japanese_etiquette",
+      "sources": [
+        {
+          "title": "Japanese etiquette",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_etiquette"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Japanese_etiquette",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asking for a favor with grace in Arabic",
+      "body": "To politely ask for something in Arabic, you can use the phrase من فضلك (min fadlik, pronounced \"min fad-lik\" when addressing a female, or \"min fadlak\" when addressing a male). Translating to \"from your grace\" or \"by your favor,\" it is a deeply respectful way to request assistance, order food, or ask for directions.",
+      "imageWikipediaTitle": "Arabic",
+      "sources": [
+        {
+          "title": "Arabic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arabic",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to show gratitude in Greek",
+      "body": "When visiting Greece, expressing appreciation is a breeze. The Greek word for thank you is Ευχαριστώ (efcharistó, pronounced \"ef-hah-rees-toh\"). Derived from the same ancient Greek roots that gave English the word \"Eucharist,\" it translates to being grateful or well-favored, making it a warm and polite way to thank your host.",
+      "imageWikipediaTitle": "Greece",
+      "sources": [
+        {
+          "title": "Greek language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greek_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Greek_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Checking in with a common Mandarin greeting",
+      "body": "To ask someone how they are doing in Mandarin Chinese, you can say 你好吗 (nǐ hǎo ma, pronounced \"nee how mah\"). This phrase is a combination of 你 (nǐ, \"you\"), 好 (hǎo, \"good\"), and the question particle 吗 (ma). It serves as a polite, friendly greeting to check on a friend's well-being.",
+      "imageWikipediaTitle": "Mandarin_Chinese",
+      "sources": [
+        {
+          "title": "Mandarin Chinese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mandarin_Chinese",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saying thank you politely in Korean",
+      "body": "In Korea, showing proper respect is central to everyday communication. To say thank you politely, use the phrase 감사합니다 (gamsahabnida, pronounced \"gahm-sah-hahm-nee-dah\"). Combining the noun for gratitude with a formal verb ending, this common expression is perfect for showing appreciation to shopkeepers, servers, or anyone you meet.",
+      "imageWikipediaTitle": "Korean_language",
+      "sources": [
+        {
+          "title": "Korean honorifics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Korean_honorifics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Korean_honorifics",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"school\" once meant having free time",
+      "body": "It may sound ironic to students today, but the word \"school\" originally had nothing to do with homework or exams. It traces back to the ancient Greek word σχολή (schole, pronounced \"skoh-lay\"), which meant \"leisure\" or \"spare time.\" To the ancient Greeks, leisure was the ultimate luxury, providing the free time needed to sit down, debate, and engage in philosophical discussion.",
+      "imageWikipediaTitle": "School_of_Athens",
+      "sources": [
+        {
+          "title": "School",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/School"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/School",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When nostalgia was treated as a deadly medical disease",
+      "body": "Today, nostalgia is a warm, bittersweet feeling. But when Swiss physician Johannes Hofer coined the term in 1688, he meant it as a serious medical diagnosis. Combining the Greek roots νόστος (nostos, meaning \"homecoming\") and άλγος (algos, meaning \"pain\"), he described a literal, debilitating physical illness of homesickness that plagued Swiss soldiers serving abroad.",
+      "imageWikipediaTitle": "Nostalgia",
+      "sources": [
+        {
+          "title": "Nostalgia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nostalgia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nostalgia",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The medieval sect behind the word \"assassin\"",
+      "body": "The word \"assassin\" traces back to a medieval Islamic sect active in the Middle East between the 11th and 13th centuries. Known as the Order of Assassins, their name likely stems from the Arabic حشاشين (hashashin, pronounced \"hash-ah-sheen\"), which was used by their rivals. The group became legendary for using targeted, stealthy political killings as an effective military strategy.",
+      "imageWikipediaTitle": "Alamut_Castle",
+      "sources": [
+        {
+          "title": "Order of Assassins",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Order_of_Assassins"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Order_of_Assassins",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The staggering number of active languages on Earth",
+      "body": "You might be able to name a few dozen world languages, but the actual global total is staggering. Linguists estimate that there are roughly 7,000 distinct living languages spoken today. Alarmingly, nearly half of these are endangered, with a language estimated to go extinct every two weeks as younger generations shift to more dominant regional tongues.",
+      "imageWikipediaTitle": "Language",
+      "sources": [
+        {
+          "title": "Language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Amazonian language with no words for numbers",
+      "body": "The Pirahã language, spoken by an indigenous hunter-gatherer tribe in the Amazon basin, challenges several fundamental assumptions of linguistics. It has no words for colors, instead using descriptive phrases like \"it looks like blood.\" More surprisingly, it has no precise numbers. Instead of \"one,\" \"two,\" or \"three,\" speakers use terms that roughly translate to \"few\" or \"many\" to estimate quantities.",
+      "imageWikipediaTitle": "Pirahã_people",
+      "sources": [
+        {
+          "title": "Pirahã language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pirah%C3%A3_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pirah%C3%A3_language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the literal meaning of the versatile Japanese phrase 'sumimasen'?",
+      "options": [
+        "It does not end",
+        "Welcome to my home",
+        "I am honored",
+        "Please guide me"
+      ],
+      "correctIndex": 0,
+      "explanation": "The phrase sumimasen literally translates to 'it does not end' or 'it is not finished,' expressing a debt of gratitude or apology that cannot be easily settled."
+    },
+    {
+      "cardIndex": 5,
+      "question": "The word 'school' originates from an ancient Greek word that meant what?",
+      "options": [
+        "Work",
+        "Leisure",
+        "Wisdom",
+        "Discipline"
+      ],
+      "correctIndex": 1,
+      "explanation": "The word school comes from the ancient Greek 'schole,' meaning leisure, since having free time was seen as a prerequisite for intellectual learning."
+    },
+    {
+      "cardIndex": 6,
+      "question": "When the term 'nostalgia' was coined in 1688, it was classified as which of the following?",
+      "options": [
+        "A standard literary device",
+        "A form of political protest",
+        "A medical disease",
+        "A religious ritual"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nostalgia was coined as a medical diagnosis for Swiss soldiers experiencing severe, debilitating homesickness while serving abroad."
+    },
+    {
+      "cardIndex": 7,
+      "question": "The English word 'assassin' is derived from a name given to which historical group?",
+      "options": [
+        "A Roman bodyguard unit",
+        "A medieval Islamic sect",
+        "A Viking raider division",
+        "A Spartan mercenary band"
+      ],
+      "correctIndex": 1,
+      "explanation": "The word traces back to the Order of Assassins, a medieval Islamic sect famous for using highly targeted political killings."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What is highly unusual about the grammar and vocabulary of the Amazonian Pirahã language?",
+      "options": [
+        "It has no words for numbers or colors",
+        "It can only be whispered",
+        "It contains no verbs",
+        "It uses over one hundred different click sounds"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Pirahã language lacks precise numbers and color terms, relying instead on relative estimates and descriptive phrases."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 8,
+      "prompt": "How many distinct living languages do linguists estimate are spoken across the world today?",
+      "answer": 7000,
+      "min": 1000,
+      "max": 20000,
+      "unit": "",
+      "explanation": "Linguists estimate there are about 7,000 active languages, though nearly half are endangered and face extinction in the coming decades."
+    }
+  ]
+}
