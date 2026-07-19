@@ -276,7 +276,12 @@ export async function deleteBatch(name: string): Promise<void> {
   await client.batches.delete({ name });
 }
 
-export type BatchResult = { key: string; text: string | null; error: string | null };
+export type BatchResult = {
+  key: string;
+  text: string | null;
+  error: string | null;
+  finishReason?: string;
+};
 
 /** Per-request results from a completed (SUCCEEDED/PARTIALLY_SUCCEEDED) inline batch job. */
 export function batchResults(job: BatchJob): BatchResult[] {
@@ -285,5 +290,6 @@ export function batchResults(job: BatchJob): BatchResult[] {
     key: r.metadata?.key ?? "",
     text: r.response?.text ?? null,
     error: r.error?.message ?? (r.response?.text ? null : "empty response"),
+    finishReason: r.response?.candidates?.[0]?.finishReason as string | undefined,
   }));
 }
