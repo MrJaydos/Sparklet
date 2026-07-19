@@ -58,14 +58,15 @@ export function CategorySheet({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col justify-end" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-50 flex flex-col justify-start" role="dialog" aria-modal="true">
       <button
         type="button"
         aria-label="Close"
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
       />
-      <div className="relative max-h-[80dvh] overflow-y-auto rounded-t-3xl border-t border-neutral-800 bg-neutral-950 p-6 pb-10">
+      {/* Drops down from the header that opened it, matching MenuSheet/NotificationsBell */}
+      <div className="sheet-drop relative max-h-[85dvh] overflow-y-auto rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)]">
         <h2 className="text-lg font-bold">Your feed</h2>
         <p className="mt-1 text-sm text-neutral-400">
           Pick topics, or select none for everything.
