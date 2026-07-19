@@ -37,6 +37,7 @@ export type FeedGuess = {
   min: number;
   max: number;
   unit: string;
+  integer: boolean; // whether the answer is a whole number, so the slider steps in integers
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
@@ -226,6 +227,7 @@ export async function getFeedCards(opts: {
       min: true,
       max: true,
       unit: true,
+      answer: true,
       card: {
         select: { category: { select: { slug: true, name: true, colorHex: true, icon: true } } },
       },
@@ -239,6 +241,9 @@ export async function getFeedCards(opts: {
       min: g.min,
       max: g.max,
       unit: g.unit,
+      // Not "answer" itself — just whether it happens to be a whole number,
+      // so the slider can step in integers instead of e.g. "5.62 patients".
+      integer: Number.isInteger(g.min) && Number.isInteger(g.max) && Number.isInteger(g.answer),
       category: g.card.category,
     }));
 

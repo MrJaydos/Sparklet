@@ -38,14 +38,17 @@ export function GuessView({
   onContinue: () => void;
   onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
 }) {
-  const mid = guess.min + (guess.max - guess.min) / 2;
+  const range = guess.max - guess.min;
+  // Whole-number answers (a count of patients, years, etc.) get whole-number
+  // steps — otherwise the slider lands on nonsense like "5.62 patients".
+  // Still capped at ~100 positions so a huge integer range isn't 1-at-a-time.
+  const step = guess.integer ? Math.max(1, Math.round(range / 100)) : range / 100;
+  const mid = guess.min + Math.round((range / 2) / step) * step;
   const [value, setValue] = useState(mid);
   const [moved, setMoved] = useState(false);
   const [locked, setLocked] = useState(false);
   const [result, setResult] = useState<GuessResult | null>(null);
 
-  const range = guess.max - guess.min;
-  const step = range / 100;
   const pct = ((value - guess.min) / range) * 100;
   const withUnit = (n: number) =>
     guess.unit === "%" ? `${fmt.format(n)}%` : `${fmt.format(n)}${guess.unit ? ` ${guess.unit}` : ""}`;
