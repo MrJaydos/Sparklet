@@ -6,6 +6,9 @@ import { useState } from "react";
  * Daily XP goal ring for the feed header: fills as today's XP approaches
  * the goal, turns gold when the goal is met. Tapping it explains what XP
  * is and how to earn it.
+ *
+ * On mobile (< sm): full-screen slide-down sheet.
+ * On desktop (≥ sm): compact pill dropdown anchored to the button.
  */
 export function XpRing({ today, goal }: { today: number; goal: number }) {
   const [open, setOpen] = useState(false);
@@ -15,7 +18,7 @@ export function XpRing({ today, goal }: { today: number; goal: number }) {
   const c = 2 * Math.PI * r;
 
   return (
-    <>
+    <div className="relative">
       <button
         type="button"
         onClick={() => setOpen(true)}
@@ -50,18 +53,18 @@ export function XpRing({ today, goal }: { today: number; goal: number }) {
 
       {open && (
         <div
-          className="fixed inset-0 z-50 flex flex-col justify-start"
+          className="fixed inset-0 z-50 flex flex-col justify-start sm:block"
           role="dialog"
           aria-modal="true"
         >
           <button
             type="button"
             aria-label="Close"
-            className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+            className="absolute inset-0 bg-black/60 backdrop-blur-sm sm:bg-transparent sm:backdrop-blur-none"
             onClick={() => setOpen(false)}
           />
-          <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-5 pt-[calc(env(safe-area-inset-top)+1.5rem)]">
-            <div className="mx-auto w-full max-w-lg">
+          <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-5 pt-[calc(env(safe-area-inset-top)+1.5rem)] sm:absolute sm:right-0 sm:top-full sm:mt-2 sm:w-80 sm:rounded-2xl sm:border sm:p-4 sm:pt-4 sm:shadow-2xl">
+            <div className="mx-auto w-full max-w-lg sm:mx-0 sm:max-w-none">
               <div className="flex items-baseline justify-between">
                 <h2 className="text-lg font-bold">⚡ XP — your daily learning goal</h2>
                 <button
@@ -114,6 +117,6 @@ export function XpRing({ today, goal }: { today: number; goal: number }) {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }
