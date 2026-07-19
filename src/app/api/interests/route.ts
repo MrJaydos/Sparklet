@@ -3,7 +3,10 @@ import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 
-const bodySchema = z.object({ categoryIds: z.array(z.string()).max(30) });
+const bodySchema = z.object({
+  categoryIds: z.array(z.string()).max(30).optional(),
+  categorySlugs: z.array(z.string()).max(30).optional(),
+});
 
 export async function POST(req: NextRequest) {
   const session = await auth();
@@ -13,12 +16,21 @@ export async function POST(req: NextRequest) {
   const parsed = bodySchema.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "invalid body" }, { status: 400 });
 
+  let categoryIds = parsed.data.categoryIds ?? [];
+  if (parsed.data.categorySlugs?.length) {
+    const rows = await prisma.category.findMany({
+      where: { slug: { in: parsed.data.categorySlugs } },
+      select: { id: true },
+    });
+    categoryIds = rows.map((r) => r.id);
+  }
+
   await prisma.$transaction([
     prisma.userInterest.deleteMany({ where: { userId } }),
-    ...(parsed.data.categoryIds.length
+    ...(categoryIds.length
       ? [
           prisma.userInterest.createMany({
-            data: parsed.data.categoryIds.map((categoryId) => ({ userId, categoryId })),
+            data: categoryIds.map((categoryId) => ({ userId, categoryId })),
             skipDuplicates: true,
           }),
         ]

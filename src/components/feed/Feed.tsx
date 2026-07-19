@@ -583,6 +583,15 @@ export function Feed({
     localStorage.setItem(STORAGE_KEY, JSON.stringify(slugs));
     setShowSheet(false);
     fetchCards(slugs, { reset: true });
+    // Keep persisted interests (nudge targeting, new-user boost) in sync with
+    // whatever the user actually filters the feed to, not just onboarding.
+    if (slugs.length) {
+      fetch("/api/interests", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ categorySlugs: slugs }),
+      }).catch(() => {});
+    }
   };
 
   const items = useMemo<FeedItem[]>(() => {
