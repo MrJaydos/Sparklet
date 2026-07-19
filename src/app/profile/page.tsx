@@ -7,6 +7,7 @@ import { isAdminEmail } from "@/lib/admin";
 import { displayName } from "@/lib/display";
 import { computeBadges } from "@/lib/badges";
 import { PushToggle } from "@/components/PushToggle";
+import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
 
 export const metadata = { title: "Profile — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -33,6 +34,7 @@ export default async function ProfilePage() {
     dueReviews,
     quizzesCorrect,
     guessesAnswered,
+    friendships,
   ] = await Promise.all([
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
@@ -99,7 +101,29 @@ export default async function ProfilePage() {
     }),
     prisma.userQuizAttempt.count({ where: { userId, correct: true } }),
     prisma.userGuessAttempt.count({ where: { userId } }),
+    prisma.friendship.findMany({
+      where: { OR: [{ requesterId: userId }, { addresseeId: userId }] },
+      select: {
+        id: true,
+        status: true,
+        requesterId: true,
+        requester: { select: { name: true, email: true } },
+        addressee: { select: { name: true, email: true } },
+      },
+    }),
   ]);
+
+  const friends: FriendRow[] = [];
+  const incoming: FriendRow[] = [];
+  const outgoing: FriendRow[] = [];
+  for (const f of friendships) {
+    const mine = f.requesterId === userId;
+    const other = mine ? f.addressee : f.requester;
+    const row: FriendRow = { friendshipId: f.id, name: displayName(other), email: other.email };
+    if (f.status === "ACCEPTED") friends.push(row);
+    else if (mine) outgoing.push(row);
+    else incoming.push(row);
+  }
 
   const badges = computeBadges({
     cards: totalViewed,
@@ -231,6 +255,9 @@ export default async function ProfilePage() {
           </div>
         ))}
       </div>
+
+      <h2 className="mt-8 text-lg font-bold">Friends</h2>
+      <FriendsPanel friends={friends} incoming={incoming} outgoing={outgoing} />
 
       <PushToggle />
 

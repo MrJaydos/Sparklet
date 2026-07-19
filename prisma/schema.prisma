@@ -43,6 +43,8 @@ model User {
   interests         UserInterest[]
   xpEvents          XpEvent[]
   pushSubscriptions PushSubscription[]
+  sentFriendRequests     Friendship[] @relation("FriendRequestsSent")
+  receivedFriendRequests Friendship[] @relation("FriendRequestsReceived")
 }
 
 // Web Push subscription (one per browser/device the user enabled reminders
@@ -324,6 +326,32 @@ model UserInterest {
   category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
 
   @@unique([userId, categoryId])
+}
+
+// ---------- Social: friends ----------
+
+enum FriendshipStatus {
+  PENDING
+  ACCEPTED
+}
+
+// One row per friend relationship, directional by who sent the request.
+// A mutual request (B requests A while A's request to B is still PENDING)
+// auto-accepts rather than creating a second row.
+model Friendship {
+  id          String           @id @default(cuid())
+  requesterId String
+  addresseeId String
+  status      FriendshipStatus @default(PENDING)
+  createdAt   DateTime         @default(now())
+  respondedAt DateTime?
+
+  requester User @relation("FriendRequestsSent", fields: [requesterId], references: [id], onDelete: Cascade)
+  addressee User @relation("FriendRequestsReceived", fields: [addresseeId], references: [id], onDelete: Cascade)
+
+  @@unique([requesterId, addresseeId])
+  @@index([addresseeId, status])
+  @@index([requesterId, status])
 }
 
 // ---------- Community: comments, reports, notifications ----------

@@ -13,6 +13,7 @@ const BOARDS = [
   { key: "today", label: "Today" },
   { key: "week", label: "7 days" },
   { key: "all", label: "All time" },
+  { key: "friends", label: "Friends" },
 ] as const;
 type BoardKey = (typeof BOARDS)[number]["key"];
 
@@ -100,6 +101,28 @@ export default async function LeaderboardPage({
       self.xp > 0
         ? { xp: self.xp, rank: (await prisma.user.count({ where: { xp: { gt: self.xp } } })) + 1 }
         : null;
+  } else if (board === "friends") {
+    const friendships = await prisma.friendship.findMany({
+      where: { status: "ACCEPTED", OR: [{ requesterId: userId }, { addresseeId: userId }] },
+      select: { requesterId: true, addresseeId: true },
+    });
+    const friendIds = friendships.map((f) => (f.requesterId === userId ? f.addresseeId : f.requesterId));
+    const candidateIds = [...friendIds, userId];
+    const users = await prisma.user.findMany({
+      where: { id: { in: candidateIds }, xp: { gt: 0 } },
+      orderBy: { xp: "desc" },
+      take: TOP_N,
+      select: { id: true, name: true, email: true, xp: true },
+    });
+    rows = users.map((u) => ({ userId: u.id, name: displayName(u), xp: u.xp }));
+    me =
+      self.xp > 0
+        ? {
+            xp: self.xp,
+            rank:
+              (await prisma.user.count({ where: { id: { in: candidateIds }, xp: { gt: self.xp } } })) + 1,
+          }
+        : null;
   } else {
     const since = board === "today" ? dayStart : weekStart;
     [rows, me] = await Promise.all([xpBoard(since), myWindowRank(userId, since)]);
@@ -139,8 +162,20 @@ export default async function LeaderboardPage({
 
       {rows.length === 0 ? (
         <p className="mt-8 text-sm text-neutral-500">
-          Nobody has earned XP{board === "today" ? " today" : board === "week" ? " this week" : ""}{" "}
-          yet — the first card you read puts you on the board.
+          {board === "friends" ? (
+            <>
+              No friends on the board yet — add some from your{" "}
+              <Link href="/profile" className="underline hover:text-neutral-300">
+                profile
+              </Link>
+              .
+            </>
+          ) : (
+            <>
+              Nobody has earned XP{board === "today" ? " today" : board === "week" ? " this week" : ""}{" "}
+              yet — the first card you read puts you on the board.
+            </>
+          )}
         </p>
       ) : (
         <ol className="mt-5 space-y-1.5">
