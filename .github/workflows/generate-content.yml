@@ -44,7 +44,12 @@ jobs:
 
       # Pushing to main triggers Coolify's webhook; the deploy's start command
       # runs the seed importer, which fact-checks URLs before publishing.
+      # if: always() — batch mode (see generate-content.ts) can exit non-zero
+      # on a genuine feature failure (e.g. broken metadata echo) after still
+      # collecting real content this run; that content must still get
+      # committed even though the step above is red.
       - name: Commit new content
+        if: always()
         run: |
           git config user.name "sparklet-content-bot"
           git config user.email "actions@github.com"

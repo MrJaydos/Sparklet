@@ -13,12 +13,31 @@
  *                               seen count + $TOPUP_HEADROOM) for categories
  *                               actually being read
  *
+ * --top-up runs on Gemini batch mode when GEMINI_API_KEY is set (half
+ * price, async — see runBatchTopUp): each scheduled run first collects
+ * whatever batch the *previous* run submitted, writing its cards, then
+ * submits one new batch covering tonight's low categories (skipped if a
+ * batch is still in flight, so there's never more than one outstanding).
+ * That means a category topped up tonight typically lands in the bank
+ * ~24h later, not immediately — fine for a background bank, not for
+ * anything latency-sensitive. --all/--category (a human waiting on
+ * output) and top-up without a Gemini key stay on the old synchronous
+ * per-category path.
+ *
  * No database access needed — safe to run from CI.
  */
 import "dotenv/config";
 import { mkdir, writeFile, readFile, readdir } from "fs/promises";
 import { join } from "path";
-import { generateJSON } from "../src/lib/ai-provider";
+import {
+  generateJSON,
+  batchingAvailable,
+  submitBatch,
+  listBatches,
+  deleteBatch,
+  batchResults,
+  GEMINI_MODEL,
+} from "../src/lib/ai-provider";
 import {
   cardSchema,
   quizSchema,
@@ -226,6 +245,27 @@ function parseCards(
   return { cards, quizzes, guesses };
 }
 
+async function writeGeneratedFile(
+  slug: string,
+  model: string,
+  cards: CardInput[],
+  quizzes: QuizInput[],
+  guesses: GuessInput[]
+) {
+  const dir = join(process.cwd(), "content", "generated", slug);
+  await mkdir(dir, { recursive: true });
+  const file = join(dir, `${new Date().toISOString().replace(/[:.]/g, "-")}.json`);
+  await writeFile(
+    file,
+    JSON.stringify(
+      { generatedAt: new Date().toISOString(), model, cards, quizzes, guesses },
+      null,
+      2
+    )
+  );
+  return file;
+}
+
 async function generateForCategory(target: {
   slug: string;
   name: string;
@@ -266,21 +306,131 @@ async function generateForCategory(target: {
     }
   }
 
-  const dir = join(process.cwd(), "content", "generated", target.slug);
-  await mkdir(dir, { recursive: true });
-  const file = join(dir, `${new Date().toISOString().replace(/[:.]/g, "-")}.json`);
-  await writeFile(
-    file,
-    JSON.stringify(
-      { generatedAt: new Date().toISOString(), model, cards, quizzes, guesses },
-      null,
-      2
-    )
-  );
+  const file = await writeGeneratedFile(target.slug, model, cards, quizzes, guesses);
   console.log(
     `  ✓ ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es) → ${file} (${model})`
   );
   return { slug: target.slug, written: cards.length };
+}
+
+const BATCH_PREFIX = "sparklet-topup-";
+const BATCH_DONE_STATES = new Set(["JOB_STATE_SUCCEEDED", "JOB_STATE_PARTIALLY_SUCCEEDED"]);
+// Only these are known-terminal-and-unrecoverable — safe to delete.
+// Anything else (PENDING/QUEUED/RUNNING/CANCELLING/UPDATING/PAUSED, or an
+// unrecognized future state) is treated as still-working: leave it alone
+// and skip submitting a new one tonight so we never have two in flight.
+const BATCH_TERMINAL_FAILURE_STATES = new Set(["JOB_STATE_FAILED", "JOB_STATE_CANCELLED", "JOB_STATE_EXPIRED"]);
+
+/**
+ * Nightly top-up via Gemini batch mode (~half price, async). Collects any
+ * batch submitted by a previous run, then — if nothing is still in
+ * flight — submits one new batch covering `targets` minus whatever this
+ * run just collected (those cards aren't imported yet, but they exist —
+ * resubmitting them too would double-generate and erase the cost saving;
+ * fetchInventory will still see a category as low next cycle if the
+ * collected batch alone wasn't enough). Whatever a batch doesn't finish
+ * (still running, or failed) is simply picked up again by tomorrow's run.
+ */
+async function runBatchTopUp(
+  targets: { slug: string; name: string; description: string; count: number; existingTitles: string[] }[]
+) {
+  const jobs = await listBatches(BATCH_PREFIX);
+  let inFlight = false;
+  let written = 0;
+  let hardFailure = false;
+  const failed: string[] = [];
+  const collectedSlugs = new Set<string>();
+
+  for (const job of jobs) {
+    const state = job.state as string | undefined;
+    if (state && BATCH_DONE_STATES.has(state)) {
+      console.log(`\n▶ Collecting batch ${job.displayName} (${state})…`);
+      const results = batchResults(job);
+      // metadata.key is how we attribute each result back to a category —
+      // if the API silently stopped echoing it, every key comes back empty
+      // and this batch's cards would vanish with no error. Fail loudly
+      // (and non-zero-exit) instead of folding into the ordinary
+      // "nothing to collect" case, so a broken echo can't bleed quota
+      // silently, cycle after cycle, with CI staying green throughout.
+      if (results.length > 0 && results.every((r) => !r.key)) {
+        console.error(
+          `\n✗✗ Batch ${job.displayName}: none of ${results.length} result(s) carried a metadata.key — cannot attribute cards to categories. Discarding this batch; investigate the batch API's metadata echo behavior.`
+        );
+        hardFailure = true;
+        if (job.name) await deleteBatch(job.name);
+        continue;
+      }
+      for (const { key: slug, text, error } of results) {
+        if (!slug) continue;
+        if (!text) {
+          console.warn(`  ✗ ${slug}: batch item failed (${error}) — will retry next run`);
+          failed.push(slug);
+          continue;
+        }
+        try {
+          const { cards, quizzes, guesses } = parseCards(text, slug);
+          if (cards.length === 0) throw new Error("no valid cards in response");
+          await writeGeneratedFile(slug, GEMINI_MODEL, cards, quizzes, guesses);
+          written += cards.length;
+          collectedSlugs.add(slug);
+          console.log(
+            `  ✓ ${slug}: ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es)`
+          );
+        } catch (e) {
+          const msg = e instanceof Error ? e.message.slice(0, 200) : String(e);
+          console.warn(`  ✗ ${slug}: bad batch output (${msg}) — will retry next run`);
+          failed.push(slug);
+        }
+      }
+      if (job.name) await deleteBatch(job.name);
+    } else if (state && BATCH_TERMINAL_FAILURE_STATES.has(state)) {
+      console.warn(`\n! Batch ${job.displayName} ended in ${state} — discarding, will retry next run`);
+      if (job.name) await deleteBatch(job.name);
+    } else {
+      console.log(`\n… Batch ${job.displayName} still ${state ?? "unknown"} — leaving it, skipping submission tonight`);
+      inFlight = true;
+    }
+  }
+
+  const toSubmit = targets.filter((t) => !collectedSlugs.has(t.slug));
+
+  if (!inFlight && toSubmit.length > 0) {
+    const displayName = `${BATCH_PREFIX}${new Date().toISOString().slice(0, 10)}`;
+    const requests = toSubmit.map((t) => ({
+      key: t.slug,
+      prompt: buildPrompt({
+        slug: t.slug,
+        categoryName: t.name,
+        categoryDescription: t.description,
+        count: t.count,
+        existingTitles: t.existingTitles,
+      }),
+    }));
+    try {
+      const batchName = await submitBatch(requests, displayName);
+      console.log(
+        `\n▶ Submitted batch ${batchName} (${displayName}) for ${toSubmit.length} categor${toSubmit.length === 1 ? "y" : "ies"}: ${toSubmit.map((t) => t.slug).join(", ")}`
+      );
+    } catch (e) {
+      console.error(`\n✗ Batch submit failed: ${e instanceof Error ? e.message.slice(0, 300) : e} — will retry next run`);
+      // Only a hard (non-zero-exit) failure when this run produced nothing
+      // at all — a submit failure right after a successful collection is
+      // still a net-positive run and shouldn't turn the workflow red.
+      if (written === 0) hardFailure = true;
+    }
+  } else if (!inFlight) {
+    console.log("\nNo categories under threshold (after excluding what this run just collected) — nothing new to submit.");
+  }
+
+  console.log(
+    written || failed.length
+      ? `\nCollected ${written} card(s) this run${failed.length ? `; ${failed.length} categor${failed.length === 1 ? "y" : "ies"} will retry next run: ${failed.join(", ")}` : ""}.`
+      : "\nNothing to collect this run."
+  );
+  // The commit step runs regardless (if: always()) so any content collected
+  // above is never lost — this only marks the Actions run itself as failed
+  // so a broken batch API contract shows up as a red X, not silent drift.
+  if (hardFailure) process.exit(1);
 }
 
 async function main() {
@@ -364,6 +514,13 @@ async function main() {
         existingTitles: inv?.titles ?? (await localTitles(slug)),
       });
     }
+  }
+
+  // Top-up is the only caller patient enough to wait on batch mode's async
+  // turnaround (--all/--category are run by a human waiting on output).
+  if (topUp && batchingAvailable()) {
+    await runBatchTopUp(targets);
+    return;
   }
 
   let total = 0;

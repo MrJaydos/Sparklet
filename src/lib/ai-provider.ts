@@ -12,12 +12,32 @@
  *    with backoff before falling back — daily quota recovers.
  *  - the depth-variant route (a user is waiting on a button): pass
  *    `interactive: true` to swap to Groq instantly on the first failure.
+ *
+ * submitBatch/listBatches/deleteBatch/batchResults wrap Gemini's batch mode
+ * (async, ~half price) via the @google/genai SDK — used only by the nightly
+ * --top-up run, which isn't waiting on anyone. Not used for the interactive
+ * depth route or cross-verification (those need an answer this deploy, not
+ * within 24h).
  */
 
 // "-latest" alias tracks the current stable Flash release — pinned versions
 // get retired for new users (gemini-2.5-flash 404s as of mid-2026).
-const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
+export const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
 const GROQ_MODEL = process.env.GROQ_MODEL || "llama-3.3-70b-versatile";
+
+// Batch mode (scripts/generate-content.ts --top-up only — see submitBatch
+// below) runs the same model at half the per-token price, in exchange for
+// async turnaround (target 24h, usually much faster). Not used for the
+// interactive depth route or cross-verification, which need an answer now.
+let batchClient: GoogleGenAI | null | undefined;
+function getBatchClient(): GoogleGenAI | null {
+  if (batchClient !== undefined) return batchClient;
+  const apiKey = process.env.GEMINI_API_KEY;
+  batchClient = apiKey ? new GoogleGenAI({ apiKey }) : null;
+  return batchClient;
+}
+
+import { GoogleGenAI, type BatchJob } from "@google/genai";
 
 export type GenerateResult = { text: string; model: string };
 
@@ -195,4 +215,63 @@ export async function generateJSON(
     );
   }
   return generateWithGroq(prompt, groqKey!);
+}
+
+export type BatchRequestItem = { key: string; prompt: string };
+
+/**
+ * Submit one batch job containing all given prompts as inline requests
+ * (one Gemini call each, run server-side as a group). Returns the batch's
+ * resource name (e.g. "batches/abc123") for later polling via listBatches.
+ * Throws if no Gemini key is configured — callers should check
+ * batchingAvailable() first and fall back to generateJSON per-item otherwise.
+ */
+export async function submitBatch(requests: BatchRequestItem[], displayName: string): Promise<string> {
+  const client = getBatchClient();
+  if (!client) throw new Error("Batch mode requires GEMINI_API_KEY");
+  const job = await client.batches.create({
+    model: GEMINI_MODEL,
+    src: requests.map((r) => ({
+      contents: [{ parts: [{ text: r.prompt }] }],
+      config: { temperature: 0.9, responseMimeType: "application/json" },
+      metadata: { key: r.key },
+    })),
+    config: { displayName },
+  });
+  if (!job.name) throw new Error(`Gemini batch create returned no job name: ${JSON.stringify(job)}`);
+  return job.name;
+}
+
+export function batchingAvailable(): boolean {
+  return getBatchClient() !== null;
+}
+
+/** All batch jobs whose displayName starts with `prefix`, most recent first isn't guaranteed — check createTime if order matters. */
+export async function listBatches(prefix: string): Promise<BatchJob[]> {
+  const client = getBatchClient();
+  if (!client) return [];
+  const jobs: BatchJob[] = [];
+  const pager = await client.batches.list({ config: { pageSize: 20 } });
+  for await (const job of pager) {
+    if (job.displayName?.startsWith(prefix)) jobs.push(job);
+  }
+  return jobs;
+}
+
+export async function deleteBatch(name: string): Promise<void> {
+  const client = getBatchClient();
+  if (!client) return;
+  await client.batches.delete({ name });
+}
+
+export type BatchResult = { key: string; text: string | null; error: string | null };
+
+/** Per-request results from a completed (SUCCEEDED/PARTIALLY_SUCCEEDED) inline batch job. */
+export function batchResults(job: BatchJob): BatchResult[] {
+  const responses = job.dest?.inlinedResponses ?? [];
+  return responses.map((r) => ({
+    key: r.metadata?.key ?? "",
+    text: r.response?.text ?? null,
+    error: r.error?.message ?? (r.response?.text ? null : "empty response"),
+  }));
 }
