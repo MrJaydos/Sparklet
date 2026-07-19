@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
-import { auth } from "@/auth";
+import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getFeedCards } from "@/lib/feed";
 import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
@@ -41,6 +41,11 @@ export default async function FeedPage() {
   // First session: offer interest onboarding (skippable, one-time).
   if (!user.onboardedAt && user._count.interactions === 0) redirect("/onboarding");
 
+  async function signOutAction() {
+    "use server";
+    await signOut({ redirectTo: "/" });
+  }
+
   return (
     <Feed
       initialCards={feed.cards}
@@ -54,6 +59,7 @@ export default async function FeedPage() {
       initialUnread={unread}
       initialXpToday={xpToday}
       dailyGoal={DAILY_GOAL_XP}
+      signOutAction={signOutAction}
     />
   );
 }

@@ -45,6 +45,7 @@ export function Feed({
   initialUnread,
   initialXpToday,
   dailyGoal,
+  signOutAction,
 }: {
   initialCards: FeedCard[];
   initialQuizzes: FeedQuiz[];
@@ -57,6 +58,7 @@ export function Feed({
   initialUnread: number;
   initialXpToday: number;
   dailyGoal: number;
+  signOutAction: () => Promise<void>;
 }) {
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
@@ -811,6 +813,7 @@ export function Feed({
       {showMenu && (
         <MenuSheet
           unread={unread}
+          signOutAction={signOutAction}
           onClose={() => setShowMenu(false)}
           onSearch={() => {
             setShowMenu(false);

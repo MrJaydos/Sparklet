@@ -6,10 +6,12 @@ export function MenuSheet({
   unread,
   onSearch,
   onClose,
+  signOutAction,
 }: {
   unread: number;
   onSearch: () => void;
   onClose: () => void;
+  signOutAction: () => Promise<void>;
 }) {
   const item =
     "flex w-full items-center gap-3 rounded-xl px-4 py-3 text-left text-sm font-medium text-neutral-200 transition hover:bg-neutral-900";
@@ -40,6 +42,11 @@ export function MenuSheet({
         <Link href="/profile" className={item}>
           👤 Profile
         </Link>
+        <form action={signOutAction} className="mt-2 border-t border-neutral-800 pt-2">
+          <button type="submit" className={item}>
+            🚪 Sign out
+          </button>
+        </form>
       </div>
     </div>
   );
