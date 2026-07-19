@@ -15,8 +15,7 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
-  const userId = session?.user?.id;
-  if (!userId) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  const userId = session?.user?.id ?? null;
   const { id } = await params;
 
   const parsed = bodySchema.safeParse(await req.json().catch(() => null));
@@ -30,6 +29,21 @@ export async function POST(
 
   const correct = parsed.data.index === quiz.correctIndex;
   const tz = parsed.data.tzOffsetMinutes ?? 0;
+
+  // Guests get the answer check and explanation — the actual learning
+  // moment — but nothing is saved or awarded (no account to save it to).
+  if (!userId) {
+    return NextResponse.json({
+      correct,
+      correctIndex: quiz.correctIndex,
+      explanation: quiz.explanation,
+      sourceCardId: quiz.cardId,
+      xp: { awarded: 0, today: 0, total: 0, goal: DAILY_GOAL_XP },
+      combo: 0,
+      multiplier: 1,
+      guest: true,
+    });
+  }
 
   const prior = await prisma.userQuizAttempt.findUnique({
     where: { userId_quizCardId: { userId, quizCardId: quiz.id } },

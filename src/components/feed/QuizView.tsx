@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import type { FeedQuiz } from "@/lib/feed";
 import { ConfettiBurst, XpReward, vibrate, type XpInfo } from "./Celebration";
@@ -17,14 +18,12 @@ type QuizResult = {
 export function QuizView({
   quiz,
   isGuest,
-  onRequireAuth,
   onContinue,
   onResult,
 }: {
   quiz: FeedQuiz;
-  /** Signed-out visitor — answering prompts sign-in instead of submitting. */
+  /** Signed-out visitor — still answers for real, just earns nothing. */
   isGuest?: boolean;
-  onRequireAuth?: () => void;
   onContinue: () => void;
   onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
 }) {
@@ -33,10 +32,6 @@ export function QuizView({
 
   const answer = async (index: number) => {
     if (picked !== null) return;
-    if (isGuest) {
-      onRequireAuth?.();
-      return;
-    }
     setPicked(index);
     try {
       const res = await fetch(`/api/quiz/${quiz.id}/answer`, {
@@ -109,6 +104,14 @@ export function QuizView({
             </div>
             <p className="mt-1 text-sm text-neutral-400">{result.explanation}</p>
             <XpReward xp={result.xp} combo={result.combo} multiplier={result.multiplier} />
+            {isGuest && (
+              <Link
+                href="/login?callbackUrl=%2Ffeed&reason=progress"
+                className="mt-2 flex items-center gap-1.5 text-sm text-violet-400 hover:text-violet-300"
+              >
+                ⚡ Sign in to track your progress and earn XP →
+              </Link>
+            )}
             <button
               type="button"
               onClick={onContinue}

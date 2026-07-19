@@ -21,8 +21,7 @@ export async function POST(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const session = await auth();
-  const userId = session?.user?.id;
-  if (!userId) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  const userId = session?.user?.id ?? null;
   const { id } = await params;
 
   const parsed = bodySchema.safeParse(await req.json().catch(() => null));
@@ -39,6 +38,22 @@ export async function POST(
   const range = Math.max(1e-9, guessCard.max - guessCard.min);
   const accuracy = Math.max(0, Math.min(1, 1 - Math.abs(guess - guessCard.answer) / range));
   const correct = accuracy >= GUESS_CORRECT_THRESHOLD;
+
+  // Guests get the reveal — the actual learning moment — but nothing is
+  // saved or awarded (no account to save it to).
+  if (!userId) {
+    return NextResponse.json({
+      answer: guessCard.answer,
+      accuracy,
+      correct,
+      explanation: guessCard.explanation,
+      sourceCardId: guessCard.cardId,
+      xp: { awarded: 0, today: 0, total: 0, goal: DAILY_GOAL_XP },
+      combo: 0,
+      multiplier: 1,
+      guest: true,
+    });
+  }
 
   const prior = await prisma.userGuessAttempt.findUnique({
     where: { userId_guessCardId: { userId, guessCardId: guessCard.id } },

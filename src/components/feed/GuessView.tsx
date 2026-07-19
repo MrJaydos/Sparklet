@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import type { FeedGuess } from "@/lib/feed";
 import { ConfettiBurst, XpReward, vibrate, type XpInfo } from "./Celebration";
@@ -32,14 +33,12 @@ function headline(accuracy: number) {
 export function GuessView({
   guess,
   isGuest,
-  onRequireAuth,
   onContinue,
   onResult,
 }: {
   guess: FeedGuess;
-  /** Signed-out visitor — locking in an answer prompts sign-in instead. */
+  /** Signed-out visitor — still locks in a real answer, just earns nothing. */
   isGuest?: boolean;
-  onRequireAuth?: () => void;
   onContinue: () => void;
   onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
 }) {
@@ -60,10 +59,6 @@ export function GuessView({
 
   const lockIn = async () => {
     if (locked) return;
-    if (isGuest) {
-      onRequireAuth?.();
-      return;
-    }
     setLocked(true);
     try {
       const res = await fetch(`/api/guess/${guess.id}/answer`, {
@@ -191,6 +186,14 @@ export function GuessView({
             <div className="relative mt-5 rounded-xl bg-neutral-900/90 p-4">
               <p className="text-sm text-neutral-300">{result.explanation}</p>
               <XpReward xp={result.xp} combo={result.combo} multiplier={result.multiplier} />
+              {isGuest && (
+                <Link
+                  href="/login?callbackUrl=%2Ffeed&reason=progress"
+                  className="mt-2 flex items-center gap-1.5 text-sm text-violet-400 hover:text-violet-300"
+                >
+                  ⚡ Sign in to track your progress and earn XP →
+                </Link>
+              )}
               <button
                 type="button"
                 onClick={onContinue}

@@ -83,11 +83,14 @@ export function Feed({
   signOutAction: () => Promise<void>;
 }) {
   const router = useRouter();
-  const requireAuth = useCallback(() => {
-    if (!isGuest) return false;
-    router.push("/login?callbackUrl=%2Ffeed");
-    return true;
-  }, [isGuest, router]);
+  const requireAuth = useCallback(
+    (reason: "comments" | "save" | "report") => {
+      if (!isGuest) return false;
+      router.push(`/login?callbackUrl=%2Ffeed&reason=${reason}`);
+      return true;
+    },
+    [isGuest, router]
+  );
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
   const [guesses, setGuesses] = useState<FeedGuess[]>(initialGuesses);
@@ -398,7 +401,7 @@ export function Feed({
   }, [isGuest]);
 
   const toggleSave = useCallback((cardId: string) => {
-    if (requireAuth()) return;
+    if (requireAuth("save")) return;
     setSaves((prev) => {
       const saved = !prev[cardId];
       fetch(`/api/cards/${cardId}/save`, {
@@ -730,11 +733,11 @@ export function Feed({
                 commentCount={commentCounts[item.card.id] ?? 0}
                 onToggleSave={() => toggleSave(item.card.id)}
                 onOpenComments={() => {
-                  if (requireAuth()) return;
+                  if (requireAuth("comments")) return;
                   setCommentsFor(item.card);
                 }}
                 onReport={() => {
-                  if (requireAuth()) return;
+                  if (requireAuth("report")) return;
                   setReportFor(item.card.id);
                 }}
                 onShare={() => shareCard(item.card)}
@@ -745,11 +748,10 @@ export function Feed({
               key={`quiz-${item.quiz.id}`}
               quiz={item.quiz}
               isGuest={isGuest}
-              onRequireAuth={requireAuth}
               onContinue={scrollNext}
               onResult={(r) => {
                 handleXp(r.xp);
-                markCardCompleted();
+                if (!isGuest) markCardCompleted();
                 addSessionCategory(item.quiz.category.name);
               }}
             />
@@ -758,11 +760,10 @@ export function Feed({
               key={`guess-${item.guess.id}`}
               guess={item.guess}
               isGuest={isGuest}
-              onRequireAuth={requireAuth}
               onContinue={scrollNext}
               onResult={(r) => {
                 handleXp(r.xp);
-                markCardCompleted();
+                if (!isGuest) markCardCompleted();
                 addSessionCategory(item.guess.category.name);
               }}
             />

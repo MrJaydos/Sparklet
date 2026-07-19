@@ -12,15 +12,26 @@ function safeRedirect(callbackUrl: string | undefined) {
   return "/feed";
 }
 
+// Shown when a guest gets bounced here from a gated action, so signing in
+// feels like the next step in what they were doing, not a random detour.
+const REASON_COPY: Record<string, string> = {
+  comments: "Sign in to join the conversation.",
+  save: "Sign in to save cards to your notebook.",
+  report: "Sign in to report a card.",
+  progress: "Sign in to save your progress and start earning XP.",
+};
+
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ callbackUrl?: string }>;
+  searchParams: Promise<{ callbackUrl?: string; reason?: string }>;
 }) {
   const session = await auth();
-  const { callbackUrl } = await searchParams;
+  const { callbackUrl, reason } = await searchParams;
   const redirectTo = safeRedirect(callbackUrl);
   if (session?.user) redirect(redirectTo);
+  const subtitle =
+    (reason && REASON_COPY[reason]) || "Learn something real, one swipe at a time.";
 
   const googleEnabled = !!(process.env.AUTH_GOOGLE_ID && process.env.AUTH_GOOGLE_SECRET);
   const appleEnabled = !!(process.env.AUTH_APPLE_ID && process.env.AUTH_APPLE_SECRET);
@@ -44,9 +55,7 @@ export default async function LoginPage({
     <main className="flex min-h-dvh flex-col items-center justify-center gap-8 px-6">
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight">✨ Sparklet</h1>
-        <p className="mt-2 text-neutral-400">
-          Learn something real, one swipe at a time.
-        </p>
+        <p className="mt-2 text-neutral-400">{subtitle}</p>
       </div>
       <div className="flex w-full max-w-sm flex-col gap-3">
         {googleEnabled && (
