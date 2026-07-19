@@ -16,10 +16,15 @@ type QuizResult = {
 /** Low-stakes recall quiz: instant answer + explanation, XP + combo reward. */
 export function QuizView({
   quiz,
+  isGuest,
+  onRequireAuth,
   onContinue,
   onResult,
 }: {
   quiz: FeedQuiz;
+  /** Signed-out visitor — answering prompts sign-in instead of submitting. */
+  isGuest?: boolean;
+  onRequireAuth?: () => void;
   onContinue: () => void;
   onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
 }) {
@@ -28,6 +33,10 @@ export function QuizView({
 
   const answer = async (index: number) => {
     if (picked !== null) return;
+    if (isGuest) {
+      onRequireAuth?.();
+      return;
+    }
     setPicked(index);
     try {
       const res = await fetch(`/api/quiz/${quiz.id}/answer`, {

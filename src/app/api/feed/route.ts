@@ -4,8 +4,7 @@ import { getFeedCards } from "@/lib/feed";
 
 export async function GET(req: NextRequest) {
   const session = await auth();
-  const userId = session?.user?.id;
-  if (!userId) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  const userId = session?.user?.id ?? null;
 
   const params = req.nextUrl.searchParams;
   const categorySlugs = params.get("categories")?.split(",").filter(Boolean) ?? [];

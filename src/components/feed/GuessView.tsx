@@ -31,10 +31,15 @@ function headline(accuracy: number) {
  */
 export function GuessView({
   guess,
+  isGuest,
+  onRequireAuth,
   onContinue,
   onResult,
 }: {
   guess: FeedGuess;
+  /** Signed-out visitor — locking in an answer prompts sign-in instead. */
+  isGuest?: boolean;
+  onRequireAuth?: () => void;
   onContinue: () => void;
   onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
 }) {
@@ -55,6 +60,10 @@ export function GuessView({
 
   const lockIn = async () => {
     if (locked) return;
+    if (isGuest) {
+      onRequireAuth?.();
+      return;
+    }
     setLocked(true);
     try {
       const res = await fetch(`/api/guess/${guess.id}/answer`, {

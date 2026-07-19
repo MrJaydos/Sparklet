@@ -13,9 +13,47 @@ export const dynamic = "force-dynamic";
 
 export default async function FeedPage() {
   const session = await auth();
-  if (!session?.user?.id) redirect("/login");
-  const userId = session.user.id;
-  const isAdmin = isAdminEmail(session.user.email);
+  const userId = session?.user?.id ?? null;
+
+  // Signed out: browse the same live feed, no personalization — reads,
+  // saves, comments, and quiz/guess answers all prompt sign-in on interact.
+  if (!userId) {
+    const [categories, feed] = await Promise.all([
+      prisma.category.findMany({
+        orderBy: { name: "asc" },
+        select: { slug: true, name: true, colorHex: true, icon: true },
+      }),
+      getFeedCards({ userId: null, take: 10 }),
+    ]);
+
+    async function signOutAction() {
+      "use server";
+      await signOut({ redirectTo: "/" });
+    }
+
+    return (
+      <Feed
+        initialCards={feed.cards}
+        initialQuizzes={feed.quizzes}
+        initialGuesses={feed.guesses}
+        initialExhausted={feed.exhausted}
+        categories={categories}
+        initialStreak={0}
+        initialLongestStreak={0}
+        initialFreezesAvailable={0}
+        initialUnread={0}
+        initialXpToday={0}
+        dailyGoal={DAILY_GOAL_XP}
+        initialCardsToday={0}
+        inviteUrl=""
+        isAdmin={false}
+        isGuest
+        signOutAction={signOutAction}
+      />
+    );
+  }
+
+  const isAdmin = isAdminEmail(session?.user?.email);
 
   const [categories, feed, user, unread] = await Promise.all([
     prisma.category.findMany({
@@ -69,6 +107,7 @@ export default async function FeedPage() {
       initialCardsToday={cardsToday}
       inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
       isAdmin={isAdmin}
+      isGuest={false}
       signOutAction={signOutAction}
     />
   );

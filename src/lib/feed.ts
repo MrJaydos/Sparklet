@@ -97,8 +97,13 @@ type CardRow = {
  * the pool is exhausted and `allowRepeats` is set, falls back to previously
  * seen cards (the UI surfaces this honestly rather than repeating silently).
  */
+// Never a real cuid, so every `where: { userId }` clause below naturally
+// resolves to "nothing seen/saved/reviewed" for a signed-out visitor —
+// no personalization branching needed anywhere in this function.
+const GUEST_SENTINEL = "__guest__";
+
 export async function getFeedCards(opts: {
-  userId: string;
+  userId: string | null;
   categorySlugs?: string[]; // empty/undefined = Random/Everything
   take?: number;
   allowRepeats?: boolean;
@@ -109,7 +114,8 @@ export async function getFeedCards(opts: {
   guesses: FeedGuess[];
   exhausted: boolean;
 }> {
-  const { userId, categorySlugs, allowRepeats, excludeIds } = opts;
+  const { categorySlugs, allowRepeats, excludeIds } = opts;
+  const userId = opts.userId ?? GUEST_SENTINEL;
   const take = opts.take ?? 10;
 
   const categoryFilter = categorySlugs?.length
@@ -181,6 +187,8 @@ export async function getFeedCards(opts: {
   // ~1 per 5 cards. Sample a wide pool and shuffle — a bare `take` always
   // returns the same head rows, which the client then dedupes into starvation
   // (quizzes stop appearing mid-session on the Everything feed).
+  // For guests this is always empty — "already seen" has no meaning without
+  // a tracked session, so there's nothing to recall-check yet.
   const quizRows = await prisma.quizCard.findMany({
     where: {
       card: {

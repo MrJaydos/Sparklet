@@ -21,12 +21,17 @@ export default async function Home() {
         <li>🔗 Real sources on every single card</li>
         <li>🔥 Streaks that reward learning, not just scrolling</li>
       </ul>
-      <Link
-        href="/login"
-        className="rounded-xl bg-violet-600 px-8 py-3 text-lg font-semibold text-white transition hover:bg-violet-500"
-      >
-        Start learning
-      </Link>
+      <div className="flex flex-col items-center gap-3">
+        <Link
+          href="/feed"
+          className="rounded-xl bg-violet-600 px-8 py-3 text-lg font-semibold text-white transition hover:bg-violet-500"
+        >
+          Start scrolling
+        </Link>
+        <Link href="/login" className="text-sm text-neutral-500 underline-offset-4 hover:underline">
+          Already have an account? Sign in
+        </Link>
+      </div>
     </main>
   );
 }

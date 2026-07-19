@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FeedCard, FeedQuiz, FeedGuess } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
@@ -60,6 +61,7 @@ export function Feed({
   initialCardsToday,
   inviteUrl,
   isAdmin,
+  isGuest,
   signOutAction,
 }: {
   initialCards: FeedCard[];
@@ -76,8 +78,16 @@ export function Feed({
   initialCardsToday: number;
   inviteUrl: string;
   isAdmin: boolean;
+  /** Signed-out visitor: browsing works, everything that writes prompts sign-in. */
+  isGuest: boolean;
   signOutAction: () => Promise<void>;
 }) {
+  const router = useRouter();
+  const requireAuth = useCallback(() => {
+    if (!isGuest) return false;
+    router.push("/login?callbackUrl=%2Ffeed");
+    return true;
+  }, [isGuest, router]);
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
   const [guesses, setGuesses] = useState<FeedGuess[]>(initialGuesses);
@@ -262,7 +272,9 @@ export function Feed({
   }, []);
 
   // In-feed invite prompt: only on every other session, not every one.
+  // Guests have no invite link of their own, so skip it entirely.
   useEffect(() => {
+    if (isGuest) return;
     try {
       const n = Number(localStorage.getItem(INVITE_SESSION_KEY) ?? "0") + 1;
       localStorage.setItem(INVITE_SESSION_KEY, String(n));
@@ -270,7 +282,7 @@ export function Feed({
     } catch {
       /* private mode — just skip the invite card this session */
     }
-  }, []);
+  }, [isGuest]);
 
   // One more "thing learned" today — read, review recall, quiz, or guess.
   // Crossing the user's daily goal shows a one-time completion screen,
@@ -298,6 +310,9 @@ export function Feed({
   }, [dailyCardGoal]);
 
   const postView = useCallback(async (cardId: string, dwellMs?: number) => {
+    // Guests aren't signed in — nothing to award or persist server-side,
+    // and the endpoint would just 401. Skip the round-trip entirely.
+    if (isGuest) return;
     try {
       const res = await fetch("/api/interactions", {
         method: "POST",
@@ -330,7 +345,7 @@ export function Feed({
     } catch {
       /* non-fatal */
     }
-  }, [handleXp, markCardCompleted]);
+  }, [handleXp, markCardCompleted, isGuest]);
 
   // Marks the card as seen (so the feed never repeats it) but earns nothing —
   // XP and streak wait for the read ping below.
@@ -369,7 +384,7 @@ export function Feed({
   // how long they lingered (enters spaced repetition when unusually long).
   const activeSinceRef = useRef<number>(0);
   const reportDwell = useCallback((cardId: string, dwellMs: number) => {
-    if (dwellMs < 12_000) return; // server threshold prefilter
+    if (isGuest || dwellMs < 12_000) return; // server threshold prefilter
     fetch("/api/interactions", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -380,9 +395,10 @@ export function Feed({
         tzOffsetMinutes: new Date().getTimezoneOffset(),
       }),
     }).catch(() => {});
-  }, []);
+  }, [isGuest]);
 
   const toggleSave = useCallback((cardId: string) => {
+    if (requireAuth()) return;
     setSaves((prev) => {
       const saved = !prev[cardId];
       fetch(`/api/cards/${cardId}/save`, {
@@ -395,7 +411,7 @@ export function Feed({
       saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 1800);
       return { ...prev, [cardId]: saved };
     });
-  }, []);
+  }, [requireAuth]);
 
   // Observe cards for view-tracking and infinite fetch.
   useEffect(() => {
@@ -504,7 +520,7 @@ export function Feed({
   // Soft-ask for push reminders after a few real swipes — never on first
   // paint, and not again for a fortnight after a "Not now".
   useEffect(() => {
-    if (sessionViews < 3 || pushPromptCheckedRef.current) return;
+    if (isGuest || sessionViews < 3 || pushPromptCheckedRef.current) return;
     pushPromptCheckedRef.current = true;
     (async () => {
       try {
@@ -516,7 +532,7 @@ export function Feed({
         /* private mode / unsupported */
       }
     })();
-  }, [sessionViews]);
+  }, [sessionViews, isGuest]);
   const closePushPrompt = useCallback((enabled: boolean) => {
     setShowPushPrompt(false);
     try {
@@ -557,7 +573,7 @@ export function Feed({
     fetchCards(slugs, { reset: true });
     // Keep persisted interests (nudge targeting, new-user boost) in sync with
     // whatever the user actually filters the feed to, not just onboarding.
-    if (slugs.length) {
+    if (slugs.length && !isGuest) {
       fetch("/api/interests", {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -619,12 +635,16 @@ export function Feed({
           >
             {topicLabel} ▾
           </button>
-          <StreakBadge
-            streak={streak}
-            longestStreak={longestStreak}
-            freezesAvailable={freezesAvailable}
-          />
-          <XpRing today={xpToday} goal={dailyGoal} />
+          {!isGuest && (
+            <>
+              <StreakBadge
+                streak={streak}
+                longestStreak={longestStreak}
+                freezesAvailable={freezesAvailable}
+              />
+              <XpRing today={xpToday} goal={dailyGoal} />
+            </>
+          )}
           <button
             ref={searchTriggerRef}
             type="button"
@@ -636,35 +656,46 @@ export function Feed({
           >
             🔍 Search
           </button>
-          <NotificationsBell unread={unread} onOpened={setUnread} />
-          <Link
-            href="/leaderboard"
-            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
-          >
-            🏆 Leaderboard
-          </Link>
-          <Link
-            href="/profile"
-            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
-          >
-            👤 Profile
-          </Link>
-          {isAdmin && (
+          {isGuest ? (
             <Link
-              href="/admin"
-              className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+              href="/login?callbackUrl=%2Ffeed"
+              className="whitespace-nowrap rounded-full bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white transition hover:bg-violet-500"
             >
-              🛠️ Admin
+              Sign in
             </Link>
+          ) : (
+            <>
+              <NotificationsBell unread={unread} onOpened={setUnread} />
+              <Link
+                href="/leaderboard"
+                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+              >
+                🏆 Leaderboard
+              </Link>
+              <Link
+                href="/profile"
+                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+              >
+                👤 Profile
+              </Link>
+              {isAdmin && (
+                <Link
+                  href="/admin"
+                  className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+                >
+                  🛠️ Admin
+                </Link>
+              )}
+              <form action={signOutAction} className="hidden sm:block">
+                <button
+                  type="submit"
+                  className="whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
+                >
+                  🚪 Sign out
+                </button>
+              </form>
+            </>
           )}
-          <form action={signOutAction} className="hidden sm:block">
-            <button
-              type="submit"
-              className="whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
-            >
-              🚪 Sign out
-            </button>
-          </form>
           <button
             type="button"
             onClick={() => setShowMenu(true)}
@@ -695,8 +726,14 @@ export function Feed({
                 saved={saves[item.card.id] ?? false}
                 commentCount={commentCounts[item.card.id] ?? 0}
                 onToggleSave={() => toggleSave(item.card.id)}
-                onOpenComments={() => setCommentsFor(item.card)}
-                onReport={() => setReportFor(item.card.id)}
+                onOpenComments={() => {
+                  if (requireAuth()) return;
+                  setCommentsFor(item.card);
+                }}
+                onReport={() => {
+                  if (requireAuth()) return;
+                  setReportFor(item.card.id);
+                }}
                 onShare={() => shareCard(item.card)}
               />
             </div>
@@ -704,6 +741,8 @@ export function Feed({
             <QuizView
               key={`quiz-${item.quiz.id}`}
               quiz={item.quiz}
+              isGuest={isGuest}
+              onRequireAuth={requireAuth}
               onContinue={scrollNext}
               onResult={(r) => {
                 handleXp(r.xp);
@@ -715,6 +754,8 @@ export function Feed({
             <GuessView
               key={`guess-${item.guess.id}`}
               guess={item.guess}
+              isGuest={isGuest}
+              onRequireAuth={requireAuth}
               onContinue={scrollNext}
               onResult={(r) => {
                 handleXp(r.xp);
@@ -917,6 +958,7 @@ export function Feed({
           unread={unread}
           inviteUrl={inviteUrl}
           isAdmin={isAdmin}
+          isGuest={isGuest}
           signOutAction={signOutAction}
           onClose={() => setShowMenu(false)}
           onSearch={() => {
