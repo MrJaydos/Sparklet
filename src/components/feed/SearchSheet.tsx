@@ -60,7 +60,7 @@ export function SearchSheet({
 
   return (
     <div
-      className={anchor ? "fixed inset-0 z-50" : "fixed inset-0 z-50 flex flex-col justify-end"}
+      className={anchor ? "fixed inset-0 z-50" : "fixed inset-0 z-50 flex flex-col justify-start"}
       role="dialog"
       aria-modal="true"
     >
@@ -75,9 +75,22 @@ export function SearchSheet({
         className={
           anchor
             ? "sheet-drop absolute flex max-h-[28rem] w-96 flex-col rounded-2xl border border-neutral-800 bg-neutral-950 p-4 shadow-2xl"
-            : "relative flex max-h-[85dvh] min-h-[60dvh] flex-col rounded-t-3xl border-t border-neutral-800 bg-neutral-950 p-6 pb-8"
+            : "sheet-drop relative flex h-dvh flex-col bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)] pb-[calc(env(safe-area-inset-bottom)+1.5rem)]"
         }
       >
+        {!anchor && (
+          <div className="mb-4 flex items-baseline justify-between gap-3">
+            <h2 className="text-lg font-bold">🔍 Search</h2>
+            <button
+              type="button"
+              onClick={onClose}
+              aria-label="Close"
+              className="rounded-full px-2 py-1 text-lg text-neutral-500 transition hover:text-neutral-200"
+            >
+              ✕
+            </button>
+          </div>
+        )}
         <input
           autoFocus
           type="search"

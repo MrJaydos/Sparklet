@@ -86,9 +86,20 @@ export function CategorySheet({
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
       />
-      {/* Drops down from the header that opened it, matching MenuSheet/NotificationsBell */}
-      <div className="sheet-drop relative max-h-[85dvh] overflow-y-auto rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)]">
-        <h2 className="text-lg font-bold">Your feed</h2>
+      {/* Full screen on mobile so nothing gets cut off; drops down capped at
+          85dvh on larger screens, matching MenuSheet/NotificationsBell. */}
+      <div className="sheet-drop relative h-dvh overflow-y-auto rounded-none bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)] pb-[calc(env(safe-area-inset-bottom)+1.5rem)] sm:h-auto sm:max-h-[85dvh] sm:rounded-b-3xl sm:border-b sm:border-neutral-800 sm:pb-6">
+        <div className="flex items-baseline justify-between gap-3">
+          <h2 className="text-lg font-bold">Your feed</h2>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="Close"
+            className="rounded-full px-2 py-1 text-lg text-neutral-500 transition hover:text-neutral-200"
+          >
+            ✕
+          </button>
+        </div>
         <p className="mt-1 text-sm text-neutral-400">
           Pick topics, or select none for everything.
         </p>
