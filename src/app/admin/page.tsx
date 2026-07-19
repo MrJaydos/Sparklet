@@ -85,7 +85,7 @@ export default async function AdminPage() {
   const [userCount, publishedCount, unpublished, openReports, commentCount] =
     await Promise.all([
       prisma.user.count(),
-      prisma.card.count({ where: { published: true } }),
+      prisma.card.count({ where: { published: true, depthLevel: "STANDARD" } }),
       prisma.card.findMany({
         where: { published: false },
         orderBy: { createdAt: "desc" },
@@ -161,7 +161,7 @@ export default async function AdminPage() {
           JOIN "Card" c2 ON c2.id = i."cardId"
           WHERE c2."categoryId" = cat.id AND i."viewedAt" >= now() - interval '7 days') AS "views7d",
         (SELECT coalesce(sum(c3.score), 0)::int FROM "Card" c3
-          WHERE c3."categoryId" = cat.id AND c3.published) AS score
+          WHERE c3."categoryId" = cat.id AND c3.published AND c3."depthLevel" = 'STANDARD') AS score
       FROM "Category" cat
       ORDER BY "views7d" DESC, published DESC
     `,
