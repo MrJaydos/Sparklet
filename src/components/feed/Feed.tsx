@@ -51,6 +51,7 @@ export function Feed({
   initialXpToday,
   dailyGoal,
   inviteUrl,
+  isAdmin,
   signOutAction,
 }: {
   initialCards: FeedCard[];
@@ -65,6 +66,7 @@ export function Feed({
   initialXpToday: number;
   dailyGoal: number;
   inviteUrl: string;
+  isAdmin: boolean;
   signOutAction: () => Promise<void>;
 }) {
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
@@ -686,7 +688,7 @@ export function Feed({
           >
             🔍 Search
           </button>
-          <NotificationsBell unread={unread} onOpened={() => setUnread(0)} />
+          <NotificationsBell unread={unread} onOpened={setUnread} />
           <Link
             href="/profile"
             className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
@@ -879,6 +881,7 @@ export function Feed({
         <MenuSheet
           unread={unread}
           inviteUrl={inviteUrl}
+          isAdmin={isAdmin}
           signOutAction={signOutAction}
           onClose={() => setShowMenu(false)}
           onSearch={() => {

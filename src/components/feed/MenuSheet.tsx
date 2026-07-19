@@ -7,13 +7,15 @@ import { shareOrCopy } from "@/lib/share";
 export function MenuSheet({
   unread,
   inviteUrl,
+  isAdmin,
   onSearch,
   onClose,
   signOutAction,
 }: {
   unread: number;
   inviteUrl: string;
-  onSearch: () => void;
+  isAdmin?: boolean;
+  onSearch?: () => void;
   onClose: () => void;
   signOutAction: () => Promise<void>;
 }) {
@@ -43,10 +45,15 @@ export function MenuSheet({
         onClick={onClose}
       />
       {/* Drops down from the header that opened it */}
-      <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-4 pt-[calc(env(safe-area-inset-top)+3.5rem)]">
-        <button type="button" onClick={onSearch} className={item}>
-          🔍 Search cards
-        </button>
+      <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-4 pt-[calc(env(safe-area-inset-top)+1.5rem)]">
+        <Link href="/feed" className={item}>
+          🏠 Home
+        </Link>
+        {onSearch && (
+          <button type="button" onClick={onSearch} className={item}>
+            🔍 Search cards
+          </button>
+        )}
         <Link href="/notifications" className={item}>
           🔔 Notifications
           {unread > 0 && (
@@ -61,6 +68,11 @@ export function MenuSheet({
         <Link href="/profile" className={item}>
           👤 Profile
         </Link>
+        {isAdmin && (
+          <Link href="/admin" className={item}>
+            🛠️ Admin
+          </Link>
+        )}
         <button type="button" onClick={invite} className={item}>
           🎁 Invite a friend
           <span className="ml-auto text-xs text-neutral-500">

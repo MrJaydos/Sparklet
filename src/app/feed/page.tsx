@@ -4,6 +4,8 @@ import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getFeedCards } from "@/lib/feed";
 import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
+import { isAdminEmail } from "@/lib/admin";
+import { getUnreadCount } from "@/lib/notifications";
 import { Feed } from "@/components/feed/Feed";
 
 export const metadata = { title: "Feed — Sparklet" };
@@ -13,6 +15,7 @@ export default async function FeedPage() {
   const session = await auth();
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
+  const isAdmin = isAdminEmail(session.user.email);
 
   const [categories, feed, user, unread] = await Promise.all([
     prisma.category.findMany({
@@ -30,7 +33,7 @@ export default async function FeedPage() {
         _count: { select: { interactions: true } },
       },
     }),
-    prisma.notification.count({ where: { userId, readAt: null } }),
+    getUnreadCount(userId, isAdmin),
   ]);
   // Client timezone comes from a cookie the feed sets on first visit;
   // without it (first ever load) UTC approximates and the first
@@ -60,6 +63,7 @@ export default async function FeedPage() {
       initialXpToday={xpToday}
       dailyGoal={DAILY_GOAL_XP}
       inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
+      isAdmin={isAdmin}
       signOutAction={signOutAction}
     />
   );

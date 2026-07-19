@@ -16,9 +16,12 @@ type Notification = {
   read: boolean;
 };
 
+type AdminAlert = { id: string; label: string; count: number };
+
 /**
  * Header notification bell. Tapping it opens a popup listing recent
- * comment-reply notifications and marks them read.
+ * comment-reply notifications (marking them read) plus, for admins, a
+ * pinned section of open reports / cards awaiting review.
  *
  * On mobile (< sm): full-screen slide-down sheet.
  * On desktop (≥ sm): compact pill dropdown anchored to the button.
@@ -28,11 +31,13 @@ export function NotificationsBell({
   onOpened,
 }: {
   unread: number;
-  /** Called once the popup's mark-all-read request succeeds. */
-  onOpened: () => void;
+  /** Called with the badge count that should remain after opening —
+   *  0 unless the viewer is an admin with outstanding alerts. */
+  onOpened: (remaining: number) => void;
 }) {
   const [open, setOpen] = useState(false);
   const [notifications, setNotifications] = useState<Notification[] | null>(null);
+  const [adminAlerts, setAdminAlerts] = useState<AdminAlert[]>([]);
   const { triggerRef, anchor, measure } = usePopoverAnchor<HTMLButtonElement>();
 
   const handleOpen = () => {
@@ -41,16 +46,24 @@ export function NotificationsBell({
     fetch("/api/notifications")
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
-        if (data) setNotifications(data.notifications);
+        if (!data) return;
+        setNotifications(data.notifications);
+        const alerts: AdminAlert[] = data.adminAlerts ?? [];
+        setAdminAlerts(alerts);
+        const adminTotal = alerts.reduce((sum: number, a: AdminAlert) => sum + a.count, 0);
+        // Admin alerts aren't real notifications — only mark-read if there
+        // are genuine unread ones, then the badge settles on the alert total.
+        if (data.unreadCount > adminTotal) {
+          fetch("/api/notifications", { method: "POST" })
+            .then((r) => {
+              if (r.ok) onOpened(adminTotal);
+            })
+            .catch(() => {});
+        } else {
+          onOpened(adminTotal);
+        }
       })
       .catch(() => setNotifications([]));
-    if (unread > 0) {
-      fetch("/api/notifications", { method: "POST" })
-        .then((r) => {
-          if (r.ok) onOpened();
-        })
-        .catch(() => {});
-    }
   };
 
   return (
@@ -98,6 +111,22 @@ export function NotificationsBell({
                   ✕
                 </button>
               </div>
+
+              {adminAlerts.length > 0 && (
+                <ul className="mt-3 space-y-2">
+                  {adminAlerts.map((a) => (
+                    <li key={a.id}>
+                      <Link
+                        href="/admin"
+                        onClick={() => setOpen(false)}
+                        className="block rounded-xl border border-amber-700/60 bg-amber-950/30 p-3 text-sm text-amber-200 transition hover:border-amber-500"
+                      >
+                        🛠️ {a.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
 
               <div className="mt-3 flex-1 overflow-y-auto">
                 {notifications === null ? (

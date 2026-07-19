@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { cookies } from "next/headers";
-import { auth } from "@/auth";
+import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
+import { isAdminEmail } from "@/lib/admin";
 import { displayName } from "@/lib/display";
-import { localDayStart } from "@/lib/xp";
+import { localDayStart, getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
+import { getUnreadCount } from "@/lib/notifications";
+import { AppHeader } from "@/components/AppHeader";
 
 export const metadata = { title: "Leaderboard — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -71,6 +74,7 @@ export default async function LeaderboardPage({
   const session = await auth();
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
+  const isAdmin = isAdminEmail(session.user.email);
 
   const { board: boardParam } = await searchParams;
   const board: BoardKey = BOARDS.some((b) => b.key === boardParam)
@@ -82,10 +86,21 @@ export default async function LeaderboardPage({
   const dayStart = localDayStart(tz);
   const weekStart = new Date(dayStart.getTime() - 6 * 86_400_000);
 
-  const self = await prisma.user.findUniqueOrThrow({
-    where: { id: userId },
-    select: { name: true, email: true, xp: true },
-  });
+  const [self, unread, xpToday] = await Promise.all([
+    prisma.user.findUniqueOrThrow({
+      where: { id: userId },
+      select: {
+        name: true,
+        email: true,
+        xp: true,
+        currentStreak: true,
+        longestStreak: true,
+        streakFreezesAvailable: true,
+      },
+    }),
+    getUnreadCount(userId, isAdmin),
+    getXpToday(userId, tz),
+  ]);
 
   let rows: Row[];
   let me: { xp: number; rank: number } | null;
@@ -131,14 +146,25 @@ export default async function LeaderboardPage({
   const medals = ["🥇", "🥈", "🥉"];
   const inTop = rows.some((r) => r.userId === userId);
 
-  return (
-    <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
-      <div className="flex items-center justify-between">
-        <Link href="/feed" className="text-sm text-neutral-400 hover:text-neutral-200">
-          ← Back to feed
-        </Link>
-      </div>
+  async function signOutAction() {
+    "use server";
+    await signOut({ redirectTo: "/" });
+  }
 
+  return (
+    <>
+      <AppHeader
+        streak={self.currentStreak}
+        longestStreak={self.longestStreak}
+        freezesAvailable={self.streakFreezesAvailable}
+        xpToday={xpToday}
+        dailyGoal={DAILY_GOAL_XP}
+        unread={unread}
+        inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
+        isAdmin={isAdmin}
+        signOutAction={signOutAction}
+      />
+      <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">
       <h1 className="mt-6 text-2xl font-bold">🏆 Leaderboard</h1>
       <p className="mt-1 text-sm text-neutral-500">
         XP from reading cards, quizzes, guesses and reviews.
@@ -217,6 +243,7 @@ export default async function LeaderboardPage({
           </span>
         </div>
       )}
-    </main>
+      </main>
+    </>
   );
 }

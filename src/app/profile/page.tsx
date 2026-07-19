@@ -1,11 +1,15 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
+import { cookies } from "next/headers";
 import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
 import { displayName } from "@/lib/display";
 import { computeBadges } from "@/lib/badges";
+import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
+import { getUnreadCount } from "@/lib/notifications";
+import { AppHeader } from "@/components/AppHeader";
 import { PushToggle } from "@/components/PushToggle";
 import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
 import { HistoryList, type HistoryRow } from "@/components/HistoryList";
@@ -25,9 +29,11 @@ export default async function ProfilePage() {
   const session = await auth();
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
+  const isAdmin = isAdminEmail(session.user.email);
 
   const [
     user,
+    unread,
     totalViewed,
     { top: topCategories, total: categoriesExplored },
     history,
@@ -48,6 +54,7 @@ export default async function ProfilePage() {
         xp: true,
       },
     }),
+    getUnreadCount(userId, isAdmin),
     prisma.userCardInteraction.count({ where: { userId, completed: true } }),
     prisma.userCardInteraction.groupBy({
       by: ["cardId"],
@@ -135,6 +142,9 @@ export default async function ProfilePage() {
     guess: guessesAnswered,
   });
 
+  const tzRaw = Number((await cookies()).get("sparklet.tz")?.value);
+  const xpToday = await getXpToday(userId, Number.isFinite(tzRaw) ? tzRaw : 0);
+
   async function signOutAction() {
     "use server";
     await signOut({ redirectTo: "/" });
@@ -153,27 +163,19 @@ export default async function ProfilePage() {
   }
 
   return (
-    <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
-      <div className="flex items-center justify-between">
-        <Link href="/feed" className="text-sm text-neutral-400 hover:text-neutral-200">
-          ← Back to feed
-        </Link>
-        <div className="flex items-center gap-4">
-          <Link href="/leaderboard" className="text-sm text-neutral-400 hover:text-neutral-200">
-            🏆 Leaderboard
-          </Link>
-          {isAdminEmail(user.email) && (
-            <Link href="/admin" className="text-sm text-neutral-400 hover:text-neutral-200">
-              🛠️ Admin
-            </Link>
-          )}
-          <form action={signOutAction}>
-            <button type="submit" className="text-sm text-neutral-400 hover:text-neutral-200">
-              Sign out
-            </button>
-          </form>
-        </div>
-      </div>
+    <>
+      <AppHeader
+        streak={user.currentStreak}
+        longestStreak={user.longestStreak}
+        freezesAvailable={user.streakFreezesAvailable}
+        xpToday={xpToday}
+        dailyGoal={DAILY_GOAL_XP}
+        unread={unread}
+        inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
+        isAdmin={isAdmin}
+        signOutAction={signOutAction}
+      />
+      <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">
 
       <h1 className="mt-6 text-2xl font-bold">{displayName(user)}</h1>
       <p className="mt-1 text-sm text-neutral-500">{user.email}</p>
@@ -332,6 +334,7 @@ export default async function ProfilePage() {
         />
       )}
 
-    </main>
+      </main>
+    </>
   );
 }

@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
-import { auth } from "@/auth";
+import { cookies } from "next/headers";
+import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
+import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
+import { getUnreadCount } from "@/lib/notifications";
+import { AppHeader } from "@/components/AppHeader";
 
 export const metadata = { title: "Admin — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -80,10 +84,21 @@ const btn =
 const daysAgo = (n: number) => new Date(Date.now() - n * 86_400_000);
 
 export default async function AdminPage() {
-  await requireAdmin();
+  const session = await requireAdmin();
+  if (!session.user?.id) redirect("/login");
+  const adminUserId = session.user.id;
 
-  const [userCount, publishedCount, unpublished, openReports, commentCount] =
+  const tzRaw = Number((await cookies()).get("sparklet.tz")?.value);
+  const tz = Number.isFinite(tzRaw) ? tzRaw : 0;
+
+  const [adminUser, unread, xpToday, userCount, publishedCount, unpublished, openReports, commentCount] =
     await Promise.all([
+      prisma.user.findUniqueOrThrow({
+        where: { id: adminUserId },
+        select: { currentStreak: true, longestStreak: true, streakFreezesAvailable: true },
+      }),
+      getUnreadCount(adminUserId, true),
+      getXpToday(adminUserId, tz),
       prisma.user.count(),
       prisma.card.count({ where: { published: true, depthLevel: "STANDARD" } }),
       prisma.card.findMany({
@@ -206,11 +221,25 @@ export default async function AdminPage() {
     }
   }
 
+  async function signOutAction() {
+    "use server";
+    await signOut({ redirectTo: "/" });
+  }
+
   return (
-    <main className="mx-auto min-h-dvh w-full max-w-2xl px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
-      <Link href="/feed" className="text-sm text-neutral-400 hover:text-neutral-200">
-        ← Back to feed
-      </Link>
+    <>
+      <AppHeader
+        streak={adminUser.currentStreak}
+        longestStreak={adminUser.longestStreak}
+        freezesAvailable={adminUser.streakFreezesAvailable}
+        xpToday={xpToday}
+        dailyGoal={DAILY_GOAL_XP}
+        unread={unread}
+        inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${adminUserId}`}
+        isAdmin
+        signOutAction={signOutAction}
+      />
+      <main className="mx-auto min-h-dvh w-full max-w-2xl px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">
       <h1 className="mt-6 text-2xl font-bold">🛠️ Admin</h1>
 
       <div className="mt-6 grid grid-cols-2 gap-3 text-center sm:grid-cols-4">
@@ -454,6 +483,7 @@ export default async function AdminPage() {
           ))}
         </ul>
       )}
-    </main>
+      </main>
+    </>
   );
 }
