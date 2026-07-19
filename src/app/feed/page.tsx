@@ -59,6 +59,7 @@ export default async function FeedPage() {
       initialUnread={unread}
       initialXpToday={xpToday}
       dailyGoal={DAILY_GOAL_XP}
+      inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
       signOutAction={signOutAction}
     />
   );

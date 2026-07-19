@@ -17,6 +17,7 @@ import { NotificationsBell } from "./NotificationsBell";
 import { usePopoverAnchor } from "./usePopoverAnchor";
 import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
 import { PushPrompt } from "./PushPrompt";
+import { shareOrCopy } from "@/lib/share";
 
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
@@ -26,11 +27,15 @@ const QUIZ_EVERY = 5; // roughly 1 recall quiz per 5 cards
 const GUESS_EVERY = 8;
 const GUESS_OFFSET = 3;
 
+const INVITE_AFTER_CARDS = 12; // show once per qualifying session, after this many cards
+const INVITE_SESSION_KEY = "sparklet.inviteSessionCount";
+
 type FeedItem =
   | { kind: "card"; card: FeedCard }
   | { kind: "quiz"; quiz: FeedQuiz }
   | { kind: "guess"; guess: FeedGuess }
   | { kind: "checkin"; afterCount: number }
+  | { kind: "invite" }
   | { kind: "end" };
 
 export function Feed({
@@ -45,6 +50,7 @@ export function Feed({
   initialUnread,
   initialXpToday,
   dailyGoal,
+  inviteUrl,
   signOutAction,
 }: {
   initialCards: FeedCard[];
@@ -58,6 +64,7 @@ export function Feed({
   initialUnread: number;
   initialXpToday: number;
   dailyGoal: number;
+  inviteUrl: string;
   signOutAction: () => Promise<void>;
 }) {
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
@@ -86,6 +93,7 @@ export function Feed({
   const { triggerRef: searchTriggerRef, anchor: searchAnchor, measure: measureSearchAnchor, clear: clearSearchAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const [showMenu, setShowMenu] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
+  const [showInviteCard, setShowInviteCard] = useState(false);
   const [showPushPrompt, setShowPushPrompt] = useState(false);
   const pushPromptCheckedRef = useRef(false);
   const [commentsFor, setCommentsFor] = useState<FeedCard | null>(null);
@@ -227,19 +235,27 @@ export function Feed({
   // Share a card: native sheet where available, clipboard everywhere else.
   const shareCard = useCallback((card: FeedCard) => {
     const url = `${window.location.origin}/card/${card.id}`;
-    if (navigator.share) {
-      navigator.share({ title: card.title, text: card.title, url }).catch(() => {});
-      return;
-    }
-    navigator.clipboard
-      ?.writeText(url)
-      .then(() => {
+    shareOrCopy({ title: card.title, text: card.title, url }, () => {
+      if (saveNoticeTimer.current) clearTimeout(saveNoticeTimer.current);
+      setSaveNotice("🔗 Link copied — send it to someone");
+      saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 1800);
+    });
+  }, []);
+
+  const inviteFromFeed = useCallback(() => {
+    shareOrCopy(
+      {
+        title: "Sparklet",
+        text: "Learn something real, one swipe at a time — join me on Sparklet:",
+        url: inviteUrl,
+      },
+      () => {
         if (saveNoticeTimer.current) clearTimeout(saveNoticeTimer.current);
         setSaveNotice("🔗 Link copied — send it to someone");
         saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 1800);
-      })
-      .catch(() => {});
-  }, []);
+      }
+    );
+  }, [inviteUrl]);
 
   const fetchCards = useCallback(
     async (slugs: string[], opts?: { reset?: boolean; allowRepeats?: boolean }) => {
@@ -314,6 +330,17 @@ export function Feed({
       /* ignore corrupt storage */
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // In-feed invite prompt: only on every other session, not every one.
+  useEffect(() => {
+    try {
+      const n = Number(localStorage.getItem(INVITE_SESSION_KEY) ?? "0") + 1;
+      localStorage.setItem(INVITE_SESSION_KEY, String(n));
+      queueMicrotask(() => setShowInviteCard(n % 2 === 0));
+    } catch {
+      /* private mode — just skip the invite card this session */
+    }
   }, []);
 
   const toggleAutoRead = () => {
@@ -607,10 +634,11 @@ export function Feed({
         out.push({ kind: "guess", guess: guesses[guessCursor++] });
       }
       if ((i + 1) % CHECKIN_EVERY === 0) out.push({ kind: "checkin", afterCount: i + 1 });
+      if (showInviteCard && i + 1 === INVITE_AFTER_CARDS) out.push({ kind: "invite" });
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, quizzes, guesses, exhausted]);
+  }, [cards, quizzes, guesses, exhausted, showInviteCard]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });
@@ -718,6 +746,34 @@ export function Feed({
               onContinue={scrollNext}
               onResult={(r) => handleXp(r.xp)}
             />
+          ) : item.kind === "invite" ? (
+            <section
+              key="invite"
+              className="flex h-dvh snap-start flex-col items-center justify-center gap-4 px-8 text-center"
+            >
+              <div className="text-5xl">🎁</div>
+              <h2 className="text-2xl font-bold">Know someone who&apos;d love this?</h2>
+              <p className="max-w-sm text-neutral-400">
+                Invite a friend to Sparklet — you&apos;ll earn a bonus 🧊 streak freeze when they
+                join.
+              </p>
+              <div className="mt-2 flex gap-3">
+                <button
+                  type="button"
+                  onClick={inviteFromFeed}
+                  className="rounded-xl bg-violet-600 px-6 py-3 font-semibold text-white transition hover:bg-violet-500"
+                >
+                  Invite a friend
+                </button>
+                <button
+                  type="button"
+                  onClick={scrollNext}
+                  className="rounded-xl border border-neutral-700 px-6 py-3 font-semibold text-neutral-300 transition hover:border-neutral-500"
+                >
+                  Maybe later
+                </button>
+              </div>
+            </section>
           ) : item.kind === "checkin" ? (
             <section
               key={`checkin-${i}`}
@@ -822,6 +878,7 @@ export function Feed({
       {showMenu && (
         <MenuSheet
           unread={unread}
+          inviteUrl={inviteUrl}
           signOutAction={signOutAction}
           onClose={() => setShowMenu(false)}
           onSearch={() => {

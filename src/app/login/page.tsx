@@ -3,26 +3,41 @@ import { auth, signIn } from "@/auth";
 
 export const metadata = { title: "Sign in — Sparklet" };
 
-export default async function LoginPage() {
+// Only ever redirect somewhere on this same site — a raw callbackUrl param
+// is untrusted input and an open redirect is a real vuln, not a hypothetical.
+function safeRedirect(callbackUrl: string | undefined) {
+  if (callbackUrl && callbackUrl.startsWith("/") && !callbackUrl.startsWith("//")) {
+    return callbackUrl;
+  }
+  return "/feed";
+}
+
+export default async function LoginPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ callbackUrl?: string }>;
+}) {
   const session = await auth();
-  if (session?.user) redirect("/feed");
+  const { callbackUrl } = await searchParams;
+  const redirectTo = safeRedirect(callbackUrl);
+  if (session?.user) redirect(redirectTo);
 
   const googleEnabled = !!(process.env.AUTH_GOOGLE_ID && process.env.AUTH_GOOGLE_SECRET);
   const appleEnabled = !!(process.env.AUTH_APPLE_ID && process.env.AUTH_APPLE_SECRET);
 
   async function loginAction(formData: FormData) {
     "use server";
-    await signIn("nodemailer", formData, { redirectTo: "/feed" });
+    await signIn("nodemailer", formData, { redirectTo });
   }
 
   async function googleAction() {
     "use server";
-    await signIn("google", { redirectTo: "/feed" });
+    await signIn("google", { redirectTo });
   }
 
   async function appleAction() {
     "use server";
-    await signIn("apple", { redirectTo: "/feed" });
+    await signIn("apple", { redirectTo });
   }
 
   return (
