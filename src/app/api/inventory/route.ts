@@ -27,7 +27,7 @@ export async function GET() {
         description: true,
         cards: {
           where: { depthLevel: "STANDARD" },
-          select: { title: true, published: true },
+          select: { title: true, published: true, modelUsed: true },
         },
       },
     }),
@@ -55,6 +55,13 @@ export async function GET() {
       name: c.name,
       description: c.description,
       publishedCount: c.cards.filter((k) => k.published).length,
+      // Published cards from the fallback provider (Groq/llama). The top-up
+      // job treats these as replaceable — they don't count toward a
+      // category's bank, so Gemini replacements get generated and the
+      // deploy-time importer retires them once the bank allows.
+      groqPublished: c.cards.filter(
+        (k) => k.published && k.modelUsed && !k.modelUsed.toLowerCase().includes("gemini")
+      ).length,
       totalCount: c.cards.length,
       maxSeen: maxSeenByCategory.get(c.id) ?? 0,
       titles: c.cards.map((k) => k.title),

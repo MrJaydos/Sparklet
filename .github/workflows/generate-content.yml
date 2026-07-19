@@ -27,8 +27,10 @@ jobs:
       - run: npm ci
 
       # Inventory-based, judged via the live app's /api/inventory endpoint.
-      # A category is topped up when its published STANDARD-card count falls
-      # under max(MIN_BANK, most-active-reader's seen count + TOPUP_HEADROOM),
+      # A category is topped up when its published STANDARD-card count —
+      # excluding fallback-provider (Groq) cards, which are placeholders the
+      # deploy-time importer retires as replacements arrive — falls under
+      # max(MIN_BANK, most-active-reader's seen count + TOPUP_HEADROOM),
       # so categories people actually read keep growing past the base floor.
       - name: Generate cards for low-inventory categories
         env:

@@ -505,6 +505,75 @@ async function main() {
   if (held.length) {
     console.log(`Held-card recheck: ${healed}/${held.length} republished (links verified alive).`);
   }
+
+  await retireGroqCards();
+}
+
+// Mirrors the top-up job's thresholds (scripts/generate-content.ts).
+const MIN_BANK = Number(process.env.MIN_BANK) || 40;
+const TOPUP_HEADROOM = Number(process.env.TOPUP_HEADROOM) || 15;
+const RETIRE_MAX_PER_RUN = 20; // gentle churn, spread across deploys
+
+/**
+ * Retire fallback-provider (Groq) cards as Gemini replacements arrive. The
+ * top-up job doesn't count Groq cards toward a category's bank, so it keeps
+ * generating until the non-Groq supply meets the minimum; this pass then
+ * unpublishes Groq cards — worst-scored first — as long as the TOTAL
+ * published count stays at/above the category's effective minimum, so the
+ * feed never thins out mid-transition. Saved cards are left alone.
+ */
+async function retireGroqCards() {
+  const categories = await prisma.category.findMany({ select: { id: true, slug: true } });
+  const demand = await prisma.$queryRaw<{ categoryId: string; maxSeen: number }[]>`
+    SELECT s."categoryId", max(s.seen)::int AS "maxSeen"
+    FROM (
+      SELECT c."categoryId", i."userId", count(*) AS seen
+      FROM "UserCardInteraction" i
+      JOIN "Card" c ON c.id = i."cardId"
+      JOIN "User" u ON u.id = i."userId"
+      WHERE i.completed
+        AND c.published
+        AND c."depthLevel" = 'STANDARD'
+        AND u."lastActiveDate" >= now() - interval '14 days'
+      GROUP BY c."categoryId", i."userId"
+    ) s
+    GROUP BY s."categoryId"
+  `;
+  const maxSeenByCategory = new Map(demand.map((d) => [d.categoryId, d.maxSeen]));
+
+  let retired = 0;
+  for (const cat of categories) {
+    if (retired >= RETIRE_MAX_PER_RUN) break;
+    const published = await prisma.card.count({
+      where: { categoryId: cat.id, published: true, depthLevel: "STANDARD" },
+    });
+    const need = Math.max(MIN_BANK, (maxSeenByCategory.get(cat.id) ?? 0) + TOPUP_HEADROOM);
+    const headroom = published - need;
+    if (headroom <= 0) continue;
+
+    const groqCards = await prisma.card.findMany({
+      where: {
+        categoryId: cat.id,
+        published: true,
+        depthLevel: "STANDARD",
+        modelUsed: { not: null },
+        NOT: { modelUsed: { contains: "gemini", mode: "insensitive" } },
+        savedBy: { none: {} },
+      },
+      orderBy: [{ score: "asc" }, { createdAt: "asc" }],
+      take: Math.min(headroom, RETIRE_MAX_PER_RUN - retired),
+      select: { id: true, title: true },
+    });
+    if (groqCards.length === 0) continue;
+
+    await prisma.card.updateMany({
+      where: { id: { in: groqCards.map((c) => c.id) } },
+      data: { published: false, reviewNote: "Retired: fallback-provider card replaced by newer generation" },
+    });
+    retired += groqCards.length;
+    console.log(`Groq retirement: ${cat.slug} — unpublished ${groqCards.length} card(s), bank ${published} → ${published - groqCards.length} (min ${need}).`);
+  }
+  if (retired) console.log(`Groq retirement: ${retired} card(s) retired this deploy.`);
 }
 
 main()

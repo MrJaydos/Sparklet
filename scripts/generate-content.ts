@@ -129,6 +129,7 @@ type InventoryCategory = {
   name: string;
   description: string;
   publishedCount: number;
+  groqPublished: number; // fallback-provider cards, treated as replaceable
   maxSeen: number; // most cards any recently-active user has completed here
   titles: string[];
 };
@@ -301,11 +302,18 @@ async function main() {
     }
     // Effective minimum per category: the global floor, raised for categories
     // being actively read so the fastest reader keeps TOPUP_HEADROOM unseen
-    // cards ahead of them. Most-starved categories go first.
+    // cards ahead of them. Fallback-provider (Groq) cards don't count toward
+    // the bank — they're placeholders awaiting Gemini replacements, which the
+    // deploy-time importer retires once the bank allows. Most-starved
+    // categories go first.
     const low = inventory
-      .map((c) => ({ ...c, need: Math.max(MIN_BANK, (c.maxSeen ?? 0) + TOPUP_HEADROOM) }))
-      .filter((c) => c.publishedCount < c.need)
-      .sort((a, b) => (b.need - b.publishedCount) - (a.need - a.publishedCount));
+      .map((c) => ({
+        ...c,
+        need: Math.max(MIN_BANK, (c.maxSeen ?? 0) + TOPUP_HEADROOM),
+        quality: c.publishedCount - (c.groqPublished ?? 0),
+      }))
+      .filter((c) => c.quality < c.need)
+      .sort((a, b) => (b.need - b.quality) - (a.need - a.quality));
     targets = low.slice(0, TOPUP_MAX_CATEGORIES).map((c) => ({
       slug: c.slug,
       name: c.name,
@@ -317,16 +325,18 @@ async function main() {
       low.length
         ? `Top-up: ${low
             .slice(0, TOPUP_MAX_CATEGORIES)
-            .map((c) =>
-              c.need > MIN_BANK
-                ? `${c.slug} (${c.publishedCount}/${c.need}, demand-raised: top reader at ${c.maxSeen})`
-                : `${c.slug} (${c.publishedCount}/${c.need})`
-            )
+            .map((c) => {
+              const notes = [
+                c.need > MIN_BANK ? `demand-raised: top reader at ${c.maxSeen}` : "",
+                c.groqPublished > 0 ? `${c.groqPublished} groq card(s) to replace` : "",
+              ].filter(Boolean);
+              return `${c.slug} (${c.quality}/${c.need}${notes.length ? `, ${notes.join(", ")}` : ""})`;
+            })
             .join(", ")}.` +
             (low.length > targets.length
               ? ` (${low.length - targets.length} more deferred to stay inside the Gemini daily quota.)`
               : "")
-        : `All categories meet their bank minimums (base ${MIN_BANK}, +${TOPUP_HEADROOM} headroom over the most active reader) — nothing to do.`
+        : `All categories meet their bank minimums with non-fallback cards (base ${MIN_BANK}, +${TOPUP_HEADROOM} headroom over the most active reader) — nothing to do.`
     );
   } else {
     const slugs = all
