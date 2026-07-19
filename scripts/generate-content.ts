@@ -36,10 +36,13 @@ const TOPUP_COUNT = Number(process.env.TOPUP_COUNT) || 10;
 const TOPUP_HEADROOM = Number(process.env.TOPUP_HEADROOM) || 15;
 // Cap categories per scheduled run so the day's Gemini usage (generation
 // here + one cross-verify call per imported card at deploy) stays inside
-// the free tier's ~250 req/day — otherwise the overflow lands on Groq,
-// whose cards we'd rather keep to a minimum. Emptiest categories go first;
-// the rest wait for tomorrow's run.
-const TOPUP_MAX_CATEGORIES = Number(process.env.TOPUP_MAX_CATEGORIES) || 6;
+// quota — otherwise the overflow lands on Groq, whose cards we'd rather
+// keep to a minimum. Emptiest categories go first; the rest wait for
+// tomorrow's run. Raised to cover every category (14, as of 2026-07-19)
+// in one night now that the Gemini key has paid credit behind it — still
+// capped, not unlimited, since generation + verification + live depth
+// requests all draw from the same daily budget.
+const TOPUP_MAX_CATEGORIES = Number(process.env.TOPUP_MAX_CATEGORIES) || 14;
 
 // Categories the generator knows about even without inventory access.
 // Kept in sync with prisma/seed.ts.

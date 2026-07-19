@@ -49,7 +49,7 @@ safety net either way.
 
 | Secret | Purpose |
 | --- | --- |
-| `GEMINI_API_KEY` | Primary generator (aistudio.google.com, free tier) |
+| `GEMINI_API_KEY` | Primary generator (aistudio.google.com; paid key recommended — the free tier's ~250 req/day is tight once content generation, fact-check verification, and live depth requests all share it) |
 | `GROQ_API_KEY` | Fallback provider (console.groq.com, free tier) |
 | `APP_URL` | Deployed app URL, e.g. `https://sparklet.example.com` |
 

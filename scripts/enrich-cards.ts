@@ -19,9 +19,11 @@ const prisma = new PrismaClient({
 });
 
 const BATCH_SIZE = 12; // cards per model call
-// Modest per-run ceiling (5 model calls): enrichment shares the Gemini
-// daily quota with generation, verification and live depth requests.
-const MAX_CARDS_PER_RUN = Number(process.env.ENRICH_MAX_PER_RUN) || 60;
+// Per-run ceiling: enrichment shares the Gemini daily quota with generation,
+// verification and live depth requests. Raised from 60 (5 model calls) now
+// that the key has paid credit — still capped so a big backlog of unenriched
+// cards can't eat the whole day's budget in one deploy.
+const MAX_CARDS_PER_RUN = Number(process.env.ENRICH_MAX_PER_RUN) || 120;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 function buildPrompt(cards: { title: string; body: string }[], needQuiz: boolean[]) {
