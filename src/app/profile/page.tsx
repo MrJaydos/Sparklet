@@ -178,12 +178,12 @@ export default async function ProfilePage() {
         isAdmin={isAdmin}
         signOutAction={signOutAction}
       />
-      <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">
+      <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-5xl">
 
-      <h1 className="mt-6 text-2xl font-bold">{displayName(user)}</h1>
+      <h1 className="mt-6 text-2xl font-bold lg:text-3xl">{displayName(user)}</h1>
       <p className="mt-1 text-sm text-neutral-500">{user.email}</p>
 
-      <form action={updateNameAction} className="mt-3 flex gap-2">
+      <form action={updateNameAction} className="mt-3 flex max-w-md gap-2">
         <input
           type="text"
           name="name"
@@ -201,31 +201,31 @@ export default async function ProfilePage() {
       </form>
 
       <div className="mt-6 grid grid-cols-2 gap-3 text-center sm:grid-cols-4">
-        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
-          <div className="text-3xl font-bold">{totalViewed}</div>
+        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4 lg:p-6">
+          <div className="text-3xl font-bold lg:text-4xl">{totalViewed}</div>
           <div className="mt-1 text-xs text-neutral-400">cards learned</div>
         </div>
-        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
-          <div className="whitespace-nowrap text-3xl font-bold text-amber-300">
+        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4 lg:p-6">
+          <div className="whitespace-nowrap text-3xl font-bold text-amber-300 lg:text-4xl">
             <span className="mr-0.5 align-middle text-xl">⚡</span>
             {user.xp.toLocaleString("en")}
           </div>
           <div className="mt-1 text-xs text-neutral-400">lifetime XP</div>
         </div>
-        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
-          <div className="whitespace-nowrap text-3xl font-bold">
+        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4 lg:p-6">
+          <div className="whitespace-nowrap text-3xl font-bold lg:text-4xl">
             <span className="mr-0.5 align-middle text-xl">🔥</span>
             {user.currentStreak}
           </div>
           <div className="mt-1 text-xs text-neutral-400">day streak</div>
         </div>
-        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
-          <div className="text-3xl font-bold">{user.longestStreak}</div>
+        <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4 lg:p-6">
+          <div className="text-3xl font-bold lg:text-4xl">{user.longestStreak}</div>
           <div className="mt-1 text-xs text-neutral-400">longest streak</div>
         </div>
       </div>
 
-      <p className="mt-3 text-center text-xs text-neutral-500">
+      <p className="mt-3 text-center text-xs text-neutral-500 lg:text-left">
         🧊 {user.streakFreezesAvailable} streak freeze{user.streakFreezesAvailable === 1 ? "" : "s"}{" "}
         available — a freeze automatically covers a missed day. Refills to 2 each month.
         {dueReviews > 0 && (
@@ -236,12 +236,18 @@ export default async function ProfilePage() {
         )}
       </p>
 
+      {/* Two columns on desktop: identity/social on the left, activity on
+          the right — a single narrow column stretched full-width looked
+          sparse and unintentional at desktop widths. */}
+      <div className="lg:mt-4 lg:grid lg:grid-cols-2 lg:items-start lg:gap-12">
+      <div>
+
       <h2 className="mt-8 text-lg font-bold">Badges</h2>
-      <div className="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-6">
+      <div className="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-6 lg:grid-cols-4">
         {badges.map((b) => (
           <div
             key={b.key}
-            className={`rounded-2xl border p-3 text-center ${
+            className={`rounded-2xl border p-3 text-center lg:p-4 ${
               b.earnedTier
                 ? "border-amber-500/40 bg-amber-500/10"
                 : "border-neutral-800 bg-neutral-900"
@@ -267,7 +273,10 @@ export default async function ProfilePage() {
 
       <PushToggle />
 
-      <div className="mt-8 flex items-center justify-between">
+      </div>
+      <div>
+
+      <div className="mt-8 flex items-center justify-between lg:mt-0">
         <h2 className="text-lg font-bold">Notebook</h2>
         {savedCards.length > 0 && (
           <a
@@ -336,6 +345,9 @@ export default async function ProfilePage() {
           )}
         />
       )}
+
+      </div>
+      </div>
 
       </main>
     </>
