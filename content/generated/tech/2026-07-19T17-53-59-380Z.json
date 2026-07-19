@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-07-19T17:53:59.380Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Pac-Man breaks at level 256",
+      "body": "In Pac-Man, reaching level 256 triggers a game-ending bug. The game stores the level number in an 8-bit integer, which can only hold values up to 255. When the level advances to 256, the counter overflows back to 0. This causes the game's fruit-drawing routine to loop 256 times, filling the right half of the screen with a chaotic mess of garbled symbols and rendering the level unplayable.",
+      "imageWikipediaTitle": "Pac-Man",
+      "sources": [
+        {
+          "title": "Split-screen (video games)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Split-screen_(video_games)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Split-screen_(video_games)",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The song used to shape the MP3 format",
+      "body": "When German engineers were developing the MP3 compression format in the late 1980s, they struggled to compress vocals without creating harsh distortions. Engineer Karlheinz Brandenburg heard Suzanne Vega's a cappella song \"Tom's Diner\" on the radio and realized its subtle, warm vocals were the perfect test. He listened to it thousands of times, fine-tuning the compression algorithm until Vega's voice sounded warm and natural.",
+      "imageWikipediaTitle": "Suzanne Vega",
+      "sources": [
+        {
+          "title": "Tom's Diner",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tom%27s_Diner"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tom%27s_Diner",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The very first .com domain name in history",
+      "body": "Years before the World Wide Web existed, the domain name system went live. On March 15, 1985, a Massachusetts computer manufacturer registered the first-ever .com domain name: symbolics.com. Symbolics built specialized \"Lisp machines\"—computers optimized to run the Lisp programming language. While the company eventually went bankrupt, the historic domain name remains active today, serving as an online museum of internet history.",
+      "imageWikipediaTitle": "Symbolics",
+      "sources": [
+        {
+          "title": "Symbolics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Symbolics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Symbolics",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Victorian engineer fried the first undersea cable",
+      "body": "In 1858, engineers successfully laid the first transatlantic telegraph cable, connecting Europe and North America. However, the connection was painfully slow, taking over sixteen hours to send a single message. In an attempt to boost the signal speed, chief engineer Wildman Whitehouse applied a massive electrical charge of 2,000 volts to the line. Instead of speeding up the data, the high voltage permanently fried the cable's delicate underwater insulation, ruining it after just three weeks.",
+      "imageWikipediaTitle": "Transatlantic telegraph cable",
+      "sources": [
+        {
+          "title": "Transatlantic telegraph cable",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"Ethernet\" is named after a debunked scientific theory",
+      "body": "In 1973, Xerox PARC engineer Robert Metcalfe invented a system to connect computers in a local network. He named it \"Ethernet\" as a nod to the \"luminiferous aether,\" a hypothetical, invisible medium that 19th-century physicists believed filled all of space to carry light waves. Metcalfe liked the metaphor: his cable network acted as a passive, omnipresent medium that quietly carried data packets to every connected machine, even though the physics concept had long been proven false.",
+      "imageWikipediaTitle": "Robert Metcalfe",
+      "sources": [
+        {
+          "title": "Ethernet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ethernet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ethernet",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The pre-Google search engine named Archie",
+      "body": "Before Google, Yahoo, or even the World Wide Web, there was Archie. Created in 1990 by Alan Emtage, a postgraduate student at McGill University, Archie was the world's first internet search engine. It solved a massive problem: finding files on public FTP servers. Archie regularly downloaded directory listings from these servers and indexed them, allowing users to search for files by name. Its name was a play on the word \"archives,\" dropping the letter \"v.\"",
+      "imageWikipediaTitle": "Alan Emtage",
+      "sources": [
+        {
+          "title": "Archie search engine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Archie_search_engine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Archie_search_engine",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The band featured in the web's first photo",
+      "body": "In 1992, Tim Berners-Lee, the inventor of the World Wide Web, wanted to test the web's ability to support color images. He asked Silvano de Gennaro, an IT developer at CERN, for a picture. Gennaro provided a scanned, heavily edited promotional photo of \"Les Horribles Cernettes,\" an all-female comedy pop band made up of CERN employees and partners. That colorful, whimsical picture of four women became the first photo ever uploaded to the World Wide Web.",
+      "imageWikipediaTitle": "Les Horribles Cernettes",
+      "sources": [
+        {
+          "title": "Les Horribles Cernettes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Les_Horribles_Cernettes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Les_Horribles_Cernettes",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The software bug that changed medical safety forever",
+      "body": "In the mid-1980s, a radiation therapy machine called the Therac-25 delivered massive, lethal overdoses of radiation to several cancer patients. Unlike its predecessors, which relied on physical hardware interlocks to prevent accidents, the Therac-25 relied solely on software. A subtle \"race condition\" bug in the code occurred when operators typed commands too quickly, bypassing safety checks and firing high-energy electron beams directly at patients without the necessary protective filters.",
+      "imageWikipediaTitle": "Therac-25",
+      "sources": [
+        {
+          "title": "Therac-25",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Therac-25"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Therac-25",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why graphic designers use Cicero's Latin",
+      "body": "The placeholder text \"Lorem ipsum dolor sit amet\" has been used by printers and designers since the 1500s. While it looks like gibberish, it is actually a scrambled passage from a 1st-century BC philosophical treatise by the Roman statesman Cicero, titled \"De finibus bonorum et malorum.\" The words were altered to remove meaning, ensuring that readers focus on the visual layout, typography, and spacing of a design rather than getting distracted by the actual reading content.",
+      "imageWikipediaTitle": "Lorem ipsum",
+      "sources": [
+        {
+          "title": "Lorem ipsum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lorem_ipsum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lorem_ipsum",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mythological weapon behind the USB icon",
+      "body": "Look closely at the icon printed on your USB cables and ports. The design is directly modeled after the trident of Neptune, the Roman god of the sea. The designers chose this three-pronged weapon to symbolize the immense power of a single, universal connection. To emphasize that the technology could connect many different types of devices, they replaced the three sharp points of the trident with three distinct geometric shapes: a circle, a square, and a triangle.",
+      "imageWikipediaTitle": "USB",
+      "sources": [
+        {
+          "title": "USB",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/USB"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/USB",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "Which artist's song was used as the primary reference track to refine the MP3 compression algorithm?",
+      "options": [
+        "Madonna",
+        "Suzanne Vega",
+        "Whitney Houston",
+        "Cher"
+      ],
+      "correctIndex": 1,
+      "explanation": "Karlheinz Brandenburg used Suzanne Vega's a cappella track 'Tom's Diner' to test and perfect the MP3 compression of human vocals."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the first-ever commercial .com domain name registered on the internet?",
+      "options": [
+        "apple.com",
+        "ibm.com",
+        "symbolics.com",
+        "microsoft.com"
+      ],
+      "correctIndex": 2,
+      "explanation": "Symbolics.com was registered on March 15, 1985, by a computer manufacturer, making it the first .com domain."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What 19th-century scientific concept inspired the name 'Ethernet'?",
+      "options": [
+        "The celestial spheres",
+        "Luminiferous aether",
+        "Phlogiston theory",
+        "Elixir of life"
+      ],
+      "correctIndex": 1,
+      "explanation": "Robert Metcalfe named Ethernet after the 'luminiferous aether,' a disproven medium once thought to propagate light waves through space."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What was the name of the world's first internet search engine, created in 1990 to index FTP files?",
+      "options": [
+        "Veronica",
+        "Archie",
+        "Altavista",
+        "WebCrawler"
+      ],
+      "correctIndex": 1,
+      "explanation": "Archie, created by Alan Emtage in 1990, was the first tool to index public computer files, preceding the World Wide Web."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Who was featured in the first-ever photograph uploaded to the World Wide Web in 1992?",
+      "options": [
+        "The inventors of the transistor",
+        "An all-female comedy pop band at CERN",
+        "Tim Berners-Lee's pet cat",
+        "A satellite view of Earth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les Horribles Cernettes, an amateur comedy band consisting of CERN staff and affiliates, starred in the web's first image."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What type of software bug in the Therac-25 medical machine caused it to bypass safety checks and deliver lethal radiation overdoses?",
+      "options": [
+        "A division-by-zero error",
+        "A race condition",
+        "A buffer overflow",
+        "A null pointer dereference"
+      ],
+      "correctIndex": 1,
+      "explanation": "A race condition occurred when operators entered commands too fast, causing the software to set up the radiation beam without inserting the physical protective shields."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What mythological object is the design of the standard USB symbol modeled after?",
+      "options": [
+        "Thor's hammer",
+        "Neptune's trident",
+        "Hermes' caduceus",
+        "The shield of Achilles"
+      ],
+      "correctIndex": 1,
+      "explanation": "The USB icon is based on Neptune's trident, with the prongs modified into a circle, square, and triangle to represent different devices."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "At what level does the original Pac-Man arcade game suffer an integer overflow, breaking the screen and ending the game?",
+      "answer": 256,
+      "min": 50,
+      "max": 1000,
+      "unit": "",
+      "explanation": "The game's 8-bit level counter overflows after 255, causing the fruit-drawing routine to glitch and corrupt half the screen."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "In 1858, how many days did the first transatlantic telegraph cable operate before being accidentally destroyed by excess voltage?",
+      "answer": 21,
+      "min": 1,
+      "max": 150,
+      "unit": "days",
+      "explanation": "The cable functioned for only 21 days before chief engineer Wildman Whitehouse fried its insulation with 2,000 volts."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "In what year BC did Cicero write the philosophical treatise that would later be scrambled into the 'Lorem Ipsum' placeholder text?",
+      "answer": 45,
+      "min": 10,
+      "max": 500,
+      "unit": "BC",
+      "explanation": "Cicero wrote 'De finibus bonorum et malorum' in 45 BC, which was scrambled centuries later to create the famous placeholder text."
+    }
+  ]
+}

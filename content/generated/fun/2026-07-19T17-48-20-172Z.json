@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-19T17:48:20.172Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The CIA's multi-million dollar bionic spy cat",
+      "body": "In the 1960s, the CIA launched \"Project Acoustic Kitty,\" a bizarre Cold War plan to turn a cat into a living surveillance device. Surgeons implanted a microphone in the cat's ear canal, a radio transmitter at the base of its skull, and an antenna in its tail. Unfortunately, during its first real-world test, the bionic feline wandered into the street and was immediately struck and killed by a taxi.",
+      "imageWikipediaTitle": "Cat",
+      "sources": [
+        {
+          "title": "Acoustic Kitty",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acoustic_Kitty"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Acoustic_Kitty",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The jockey who won a race after he died",
+      "body": "In June 1923, jockey Frank Hayes suffered a fatal heart attack mid-race while riding a horse named Sweet Kiss at Belmont Park. Amazingly, his body remained upright and firmly in the saddle. Sweet Kiss crossed the finish line first, making Hayes the first, and only, jockey to win a horse race after death. His condition was only discovered when the owner went to congratulate him.",
+      "imageWikipediaTitle": "Belmont Park",
+      "sources": [
+        {
+          "title": "Frank Hayes (jockey)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frank_Hayes_(jockey)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Frank_Hayes_(jockey)",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your tongue doesn't have a map",
+      "body": "Many of us grew up learning that the tongue is divided into distinct zones: sweet at the tip, sour on the sides, and bitter at the back. This \"tongue map\" is completely false. It originated from a 1901 German paper that was mistranslated and misinterpreted. In reality, all taste qualities can be detected on almost any part of the tongue that has taste receptors.",
+      "imageWikipediaTitle": "Tongue",
+      "sources": [
+        {
+          "title": "Tongue map",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tongue_map"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tongue_map",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Japan grows square watermelons",
+      "body": "In Japan, farmers grow square watermelons by placing the young fruit inside durable acrylic boxes. As the melon grows, it takes the shape of the container. While they are much easier to stack and store in compact Japanese refrigerators, there is a catch: they must be harvested before they are ripe. As a result, these pricey, cubic melons are purely ornamental and taste terrible.",
+      "imageWikipediaTitle": "Watermelon",
+      "sources": [
+        {
+          "title": "Square watermelon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Square_watermelon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Square_watermelon",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The turtles that breathe through their butts",
+      "body": "Australia's Fitzroy River turtle has a highly unusual survival hack: it can breathe through its rear end. Using a process called cloacal respiration, the turtle pumps water in and out of its cloaca—the multi-purpose opening used for waste and reproduction. Specialized chambers inside are lined with blood vessels that extract oxygen directly from the water, allowing the turtle to remain submerged for up to three weeks.",
+      "imageWikipediaTitle": "Fitzroy River turtle",
+      "sources": [
+        {
+          "title": "Fitzroy River turtle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fitzroy_River_turtle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fitzroy_River_turtle",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Did Romans swear oaths on their testicles?",
+      "body": "A popular playground myth claims that the word \"testify\" comes from ancient Roman men holding their testicles while swearing oaths in court. This is historically false. The word \"testify\" comes from the Latin word \"testis,\" which simply means \"witness.\" While the words \"testicle\" and \"witness\" share a distant linguistic root signifying a \"bystander\" or \"witness of virility,\" Romans swore oaths on their altars, stones, or heads—never their groins.",
+      "imageWikipediaTitle": "Ancient Rome",
+      "sources": [
+        {
+          "title": "Testimony",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/testimony"
+        }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/testimony",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The original Mr. Potato Head was a real potato",
+      "body": "When Hasbro launched Mr. Potato Head in 1952, the toy did not include a plastic potato body. Instead, parents received a box of 28 plastic facial features, limbs, and accessories with sharp pins. Children had to supply their own real, fresh potatoes or other vegetables from the kitchen to poke the pieces into. The plastic potato body we know today was only introduced in 1964 due to safety regulations.",
+      "imageWikipediaTitle": "Mr. Potato Head",
+      "sources": [
+        {
+          "title": "Mr. Potato Head",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mr._Potato_Head"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mr._Potato_Head",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The medieval state sport of Maryland",
+      "body": "You might expect Maryland's state sport to be lacrosse or baseball, but it is actually jousting. In 1962, Maryland became the first US state to name an official sport, choosing the medieval equestrian game. Instead of knocking opponents off horses, modern American jousting involves riders galloping down a track and trying to spear tiny, suspended rings with a long lance. It remains a popular, active tradition in the state today.",
+      "imageWikipediaTitle": "Jousting",
+      "sources": [
+        {
+          "title": "Jousting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jousting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Jousting",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why bananas are berries and strawberries aren't",
+      "body": "Culinary classifications often clash with science. Botanically, a true berry is a fleshy fruit produced from a single ovary with seeds embedded in the flesh. By this definition, bananas, watermelons, kiwis, and even tomatoes are genuine berries. Meanwhile, strawberries and raspberries are not berries at all; they are \"aggregate fruits\" formed from a flower with multiple ovaries, with their actual seeds (called achenes) sitting on the outside of the accessory tissue.",
+      "imageWikipediaTitle": "Berry (botany)",
+      "sources": [
+        {
+          "title": "Berry (botany)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Berry_(botany)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Berry_(botany)",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Yes, dead people can get goosebumps",
+      "body": "Goosebumps are caused by the contraction of tiny muscles called arrector pili, which pull our hair follicles upright when we are cold or scared. Strangely, this phenomenon can also happen after death. As rigor mortis sets in a few hours after a person passes away, calcium floods the muscle cells, causing them to contract. This contraction stiffens the arrector pili muscles, producing goosebumps on a corpse.",
+      "imageWikipediaTitle": "Goose bumps",
+      "sources": [
+        {
+          "title": "Goose bumps",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goose_bumps"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goose_bumps",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was the ultimate fate of the CIA's million-dollar \"Acoustic Kitty\" spy cat during its first test?",
+      "options": [
+        "It was run over by a taxi",
+        "It ran away to a nearby embassy",
+        "It refused to leave the carrier",
+        "It successfully recorded a target"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unfortunately for the CIA, the expensive bionic cat wandered into the street and was immediately run over by a taxi during its first outdoor test."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was the famous \"tongue map\" (which divides the tongue into taste zones) widely taught despite being wrong?",
+      "options": [
+        "It was based on a mistranslation of a 1901 paper",
+        "A candy company invented it as a marketing gimmick",
+        "Early scientists only tested their own tongues",
+        "It was a simplification taught to children"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tongue map originated from a mistranslation of a 1901 German study. In reality, all taste qualities can be felt across almost the entire tongue."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the Fitzroy River turtle absorb oxygen while remaining underwater for weeks?",
+      "options": [
+        "Through specialized chambers in its rear end",
+        "Through pores in its hard shell",
+        "By storing oxygen in its hollow bones",
+        "Through its highly absorbent webbed feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Through a process called cloacal respiration, the Fitzroy River turtle pumps water in and out of its cloaca to extract oxygen directly from the water."
+    },
+    {
+      "cardIndex": 7,
+      "question": "In 1962, what did Maryland become the first US state to do?",
+      "options": [
+        "Designate jousting as its official state sport",
+        "Ban horse racing on Sundays",
+        "Make lacrosse an Olympic sport",
+        "Legislate the rules of medieval combat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maryland became the first state to adopt an official state sport, choosing the historic medieval sport of jousting."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Which of the following fruits is botanically considered a true berry?",
+      "options": [
+        "Banana",
+        "Strawberry",
+        "Raspberry",
+        "Blackberry"
+      ],
+      "correctIndex": 0,
+      "explanation": "Botanically, a berry must develop from a single ovary and have seeds on the inside, making bananas true berries while strawberries and raspberries are not."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "For up to how many days can the Australian Fitzroy River turtle remain submerged underwater by extracting oxygen through its rear end?",
+      "answer": 21,
+      "min": 1,
+      "max": 60,
+      "unit": "days",
+      "explanation": "By pumping water in and out of its cloaca, this turtle can extract enough oxygen to stay submerged for up to 21 days (three weeks)!"
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many plastic accessory pieces (like eyes, noses, and hats) were included in the original 1952 Mr. Potato Head kit?",
+      "answer": 28,
+      "min": 5,
+      "max": 100,
+      "unit": "pieces",
+      "explanation": "The original kit came with 28 plastic pieces that kids had to prick into real potatoes!"
+    }
+  ]
+}

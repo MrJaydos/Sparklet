@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T17:55:23.675Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "These Australian birds are intentional arsonists",
+      "body": "In the Australian outback, birds of prey like the black kite and whistling kite have been observed intentionally spreading wildfires. They pick up burning sticks from active fires in their talons or beaks and drop them into unburned patches of grass up to a kilometer away. This forces hidden rodents and insects to flee right into the open, providing an easy feast for the waiting raptors.",
+      "imageWikipediaTitle": "Black kite",
+      "sources": [
+        {
+          "title": "Black kite",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Black_kite"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Black_kite",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This African tree bleeds real red blood when cut",
+      "body": "Cutting into the bark of Pterocarpus angolensis, a wild teak tree native to southern Africa, reveals a shocking sight: a dark, deep-red sap that looks exactly like human blood dripping from a wound. This sticky red resin is not just for show; it acts as a natural sealant, coagulating rapidly to seal wounds in the bark and protect the tree from wood-boring insects and fungal infections.",
+      "imageWikipediaTitle": "Pterocarpus angolensis",
+      "sources": [
+        {
+          "title": "Pterocarpus angolensis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pterocarpus_angolensis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pterocarpus_angolensis",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The bird that can fly for ten months without ever landing",
+      "body": "The common swift is a master of the skies, capable of staying airborne for an astonishing ten consecutive months. During their non-breeding periods, these small birds eat, drink, mate, and even sleep while gliding on warm air currents, all without their feet touching the ground once. They only land when it is time to nest and lay eggs.",
+      "imageWikipediaTitle": "Common swift",
+      "sources": [
+        {
+          "title": "Common swift",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_swift"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Common_swift",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This strange bird climbs trees using claws on its wings",
+      "body": "The hoatzin, a bizarre pheasant-sized bird native to the Amazon rainforest, is a living throwback. Hoatzin chicks are born with two prominent, functional claws on each wing, reminiscent of ancient theropod dinosaurs like Archaeopteryx. If a predator approaches, the chick leaps out of its nest into the water below, swims to safety, and then uses its wing claws to climb back up the tree.",
+      "imageWikipediaTitle": "Hoatzin",
+      "sources": [
+        {
+          "title": "Hoatzin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hoatzin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hoatzin",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The sea creature that shoots its own organs to defend itself",
+      "body": "When threatened, some species of sea cucumber deploy a bizarre defense mechanism known as self-evisceration. They violently contract their body muscles to expel their internal respiratory organs, called Cuvierian tubules, out of their anus. These sticky, toxic threads entangle and incapacitate predators like crabs or fish. Amazingly, the sea cucumber survives this self-mutilation and regenerates its lost organs within a few weeks.",
+      "imageWikipediaTitle": "Sea cucumber",
+      "sources": [
+        {
+          "title": "Cuvierian tubules",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cuvierian_tubules"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cuvierian_tubules",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The bizarre orchid that spends its entire life underground",
+      "body": "Australia is home to Rhizanthella gardneri, a critically endangered orchid that lives, grows, and blooms entirely underground. Because it completely lacks chlorophyll, it cannot convert sunlight into energy. Instead, it steals all of its water and nutrients from a parasitic relationship with a fungus connected to the roots of the broom honey-myrtle shrub. Even its flowers open below the soil, pollinated by underground termites and gnats.",
+      "imageWikipediaTitle": "Rhizanthella gardneri",
+      "sources": [
+        {
+          "title": "Rhizanthella gardneri",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rhizanthella_gardneri"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rhizanthella_gardneri",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This Australian lizard stays faithful to its partner for decades",
+      "body": "While most reptiles are solitary, the shingleback lizard—also known as the sleepy lizard—forms remarkably devoted partnerships. These lizards live alone for most of the year but reunite with the exact same partner every spring for breeding season. These monogamous relationships can last for over twenty years, with pairs walking close together and looking out for predators while the other feeds.",
+      "imageWikipediaTitle": "Tiliqua rugosa",
+      "sources": [
+        {
+          "title": "Tiliqua rugosa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tiliqua_rugosa"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tiliqua_rugosa",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ant that blows itself up to save the colony",
+      "body": "In the rainforests of Southeast Asia, certain worker ants of the species Colobopsis saundersi serve as suicidal defenders. When attacked by a rival insect, the ant violently contracts its abdominal muscles until its body wall ruptures. This self-destruction sprays a toxic, sticky yellow liquid from its enlarged glands directly onto the attacker, gluing the predator in place and killing both insects instantly.",
+      "imageWikipediaTitle": "Colobopsis saundersi",
+      "sources": [
+        {
+          "title": "Colobopsis saundersi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colobopsis_saundersi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Colobopsis_saundersi",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fish that can survive on land and walk using its gills",
+      "body": "The climbing perch is an extraordinary freshwater fish native to Asia that can breathe atmospheric oxygen using a specialized organ. When its water source dries up, it can crawl across dry land for days in search of a new home. It walks by flexing its body and using sharp, flared gill covers like makeshift crutches, even managing to climb up low tree trunks in wet conditions.",
+      "imageWikipediaTitle": "Climbing gourami",
+      "sources": [
+        {
+          "title": "Climbing gourami",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Climbing_gourami"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Climbing_gourami",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This master of disguise looks exactly like a broken branch",
+      "body": "The potoo is a nocturnal bird from Central and South America with a truly uncanny self-defense strategy. During the day, it sits completely upright on a tree stump or broken branch, closes its eyes to tiny slits, and freezes. Its mottled brown and grey feathers blend seamlessly with the bark, making it indistinguishable from the wood. It can maintain this rigid, branch-like pose for hours to avoid detection by predators.",
+      "imageWikipediaTitle": "Potoo",
+      "sources": [
+        {
+          "title": "Potoo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Potoo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Potoo",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do black kites and whistling kites intentionally spread wildfires in Australia?",
+      "options": [
+        "By carrying burning sticks to unburned grass",
+        "By beating their wings to fan sparks",
+        "By dragging dry, flammable bark behind them",
+        "By rubbing branches together to create friction"
+      ],
+      "correctIndex": 0,
+      "explanation": "These raptors intentionally transport burning sticks to start new fires, forcing rodents and insects out into the open to make them easy prey."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary biological purpose of the blood-red sap produced by the Pterocarpus angolensis tree?",
+      "options": [
+        "To seal bark wounds and ward off pests",
+        "To poison invasive plant species nearby",
+        "To attract specialized pollinating beetles",
+        "To warm the tree trunk by absorbing sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dramatic red sap coagulates rapidly when the bark is damaged, sealing wounds and protecting the tree from wood-boring insects and fungus."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do hoatzin chicks have functional claws on their wings?",
+      "options": [
+        "To climb back up trees after diving into water",
+        "To capture and pierce small insect prey",
+        "To fight off rival chicks in the nest",
+        "To dig nesting burrows in soft muddy riverbanks"
+      ],
+      "correctIndex": 0,
+      "explanation": "If threatened, a hoatzin chick will jump from its nest into the water below to swim to safety. It then uses its wing claws to climb back up into the tree canopy."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What extreme defense mechanism do some sea cucumbers use when threatened?",
+      "options": [
+        "Ejecting their internal organs out of their anus",
+        "Shedding their entire outer skin layer",
+        "Blowing up their body until they burst",
+        "Injecting venom through sharp external needles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea cucumbers can forcefully expel their toxic, sticky respiratory organs (Cuvierian tubules) to entangle predators, completely regenerating them later."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How does the exploding ant (Colobopsis saundersi) defend its colony?",
+      "options": [
+        "By rupturing its own body to spray a toxic glue",
+        "By generating small electrical shocks",
+        "By shooting acid from a specialized stinger",
+        "By rolling into a hard ball to block tunnels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Worker ants contract their abdominal muscles until they rupture, spraying a toxic, sticky yellow fluid that glues the attacker in place."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "For how many consecutive months can a common swift stay airborne without ever touching the ground?",
+      "answer": 10,
+      "min": 1,
+      "max": 24,
+      "unit": "months",
+      "explanation": "Common swifts can spend 10 months flying non-stop, eating, drinking, mating, and sleeping entirely in the air."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many years can a monogamous partnership between two shingleback lizards last?",
+      "answer": 20,
+      "min": 2,
+      "max": 50,
+      "unit": "years",
+      "explanation": "Shingleback lizards form remarkably devoted pairs, reuniting with the same partner every spring for up to 20 years."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "For up to how many days can a climbing perch survive completely out of water?",
+      "answer": 6,
+      "min": 1,
+      "max": 30,
+      "unit": "days",
+      "explanation": "Equipped with an accessory breathing organ, the climbing perch can survive up to 6 days on land as it crawls in search of a new water source."
+    }
+  ]
+}

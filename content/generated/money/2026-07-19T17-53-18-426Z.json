@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T17:53:18.426Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Your Quarters Have Ridged Edges",
+      "body": "If you look closely at a US quarter or dime, you will see ridges on the edge. Known as \"reeding,\" this feature was invented in the 18th century to stop criminals from \"clipping\"—shaving off precious gold or silver from the edges of coins to sell as bullion. While modern coins are made of cheap base metals, the ridges remain to help the visually impaired tell coins apart.",
+      "imageWikipediaTitle": "Quarter_(United_States_coin)",
+      "sources": [
+        {
+          "title": "Reeding",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reeding"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Reeding",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a King's Greed Turned His Nose Copper",
+      "body": "In 1544, King Henry VIII of England found himself deeply in debt from wars. To raise cash, he ordered the Royal Mint to secretly melt down the country's silver coins and mix them with cheap copper. As these debased coins circulated, the silver on the surface wore away first—starting at the highest point of the King's face on the coin: his nose. This earned him the mocking nickname \"Old Coppernose.\"",
+      "imageWikipediaTitle": "Henry_VIII",
+      "sources": [
+        {
+          "title": "Great Debasement",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Debasement"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Debasement",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Reliable Stocks Are Called \"Blue Chips\"",
+      "body": "In the stock market, the most stable, valuable, and household-name companies are known as \"blue-chip\" stocks. The term has nothing to do with high-tech silicon chips. Instead, it was coined in the 1920s by Oliver Gingold, an employee at the Wall Street Journal. He noticed several high-priced stocks trading at $200 or more and compared them to blue poker chips, which traditionally hold the highest monetary value in a game.",
+      "imageWikipediaTitle": "Poker_chip",
+      "sources": [
+        {
+          "title": "Blue chip (stock market)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_chip_(stock_market)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blue_chip_(stock_market)",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Oldest Bank Began as a Charity",
+      "body": "Founded in 1472 in the Republic of Siena, Italy, Banca Monte dei Paschi di Siena is the world's oldest surviving bank. It was not created to enrich wealthy merchants, but rather as a \"monte di pietà\"—a charitable pawnshop designed to offer low-interest loans to the poor so they could escape exploitative lenders. Today, it operates as a major commercial bank, spanning over five centuries of financial history.",
+      "imageWikipediaTitle": "Banca_Monte_dei_Paschi_di_Siena",
+      "sources": [
+        {
+          "title": "Banca Monte dei Paschi di Siena",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Banca_Monte_dei_Paschi_di_Siena"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Banca_Monte_dei_Paschi_di_Siena",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Island That Beat Debt with Its Own Money",
+      "body": "In 1815, the Channel Island of Guernsey faced high debt, ruined roads, and a decaying marketplace, but had no money to fix them. Instead of borrowing from London banks at high interest, the island's government issued its own paper notes, backed by future tax revenues. The notes paid for the new market, circulated as local currency, and were later paid back and destroyed. This debt-free project kept the island highly prosperous.",
+      "imageWikipediaTitle": "Guernsey",
+      "sources": [
+        {
+          "title": "Guernsey pound",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guernsey_pound"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Guernsey_pound",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Making a Nickel Costs More Than Five Cents",
+      "body": "You might think a five-cent coin costs less than five cents to make, but the economics of physical currency are surprising. Due to the rising costs of metals like copper and nickel, the US Mint regularly spends more to produce a nickel than its face value. In 2023, it cost about 11.5 cents to manufacture and distribute a single five-cent piece, resulting in a net loss for the government on every coin minted.",
+      "imageWikipediaTitle": "Jefferson_nickel",
+      "sources": [
+        {
+          "title": "Nickel (United States coin)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nickel_(United_States_coin)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nickel_(United_States_coin)",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Private Currency That Locked Workers in Debt",
+      "body": "During the 19th and early 20th centuries, many mining and logging companies in the US paid their workers not in cash, but in \"scrip\"—private tokens or paper notes created by the employer. This currency was only redeemable at the company-owned store, which charged highly inflated prices. Because workers could not save actual cash, they became trapped in a cycle of debt, unable to leave their jobs.",
+      "imageWikipediaTitle": "Company_scrip",
+      "sources": [
+        {
+          "title": "Company scrip",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Company_scrip"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Company_scrip",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Simple Signature That Replaced Gold for Tourists",
+      "body": "Before global ATMs and credit cards, traveling abroad with large amounts of cash was incredibly dangerous. In 1891, Marcellus Berry, an employee at American Express, solved this by patenting the traveler's cheque. It used a dual-signature system: the buyer signed the check once upon purchase, and again in front of the merchant to prove their identity. If stolen, the checks were easily replaced, transforming the economics of global tourism.",
+      "imageWikipediaTitle": "Traveler's cheque",
+      "sources": [
+        {
+          "title": "Traveler's cheque",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Traveler%27s_cheque"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Traveler%27s_cheque",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the Tooth Fairy Tracks the Stock Market",
+      "body": "For decades, insurance giant Delta Dental has run an annual poll tracking the average amount of money the \"Tooth Fairy\" leaves under children's pillows. Surprisingly, this \"Tooth Fairy Index\" has historically shown a strong correlation with the performance of the S&P 500 stock market index. When the economy is booming and stock prices rise, parents tend to leave significantly more money per tooth, making the fairy a reliable indicator of consumer confidence.",
+      "imageWikipediaTitle": "Tooth_fairy",
+      "sources": [
+        {
+          "title": "Tooth fairy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tooth_fairy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tooth_fairy",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Day Britain Had to Relearn How to Count Money",
+      "body": "For centuries, the British pound was divided into 20 shillings, and each shilling into 12 pence, meaning there were 240 pence in a pound. This complex, non-decimal system made simple arithmetic a nightmare. On February 15, 1971, known as \"Decimal Day,\" the UK officially converted to a decimal system where one pound equaled 100 pence. The government spent years running massive public education campaigns to teach citizens how to shop again.",
+      "imageWikipediaTitle": "Decimal_Day",
+      "sources": [
+        {
+          "title": "Decimal Day",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decimal_Day"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Decimal_Day",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why were ridged edges (reeding) originally added to precious metal coins?",
+      "options": [
+        "To make them easier for machines to count",
+        "To prevent people from shaving off and stealing metal",
+        "To help blind people identify different coins",
+        "To make the coins aerodynamic during flips"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reeding stopped criminals from scraping gold or silver off the edges of coins to sell as raw metal."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was Henry VIII nicknamed 'Old Coppernose' during his Great Debasement?",
+      "options": [
+        "He suffered from a copper-poisoning nose disease",
+        "The copper content wore through first on the nose of his coin profile",
+        "He wore a copper nose prosthetic after a jousting accident",
+        "He ordered all copper mines to be named after him"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the nose was the highest point on the coin's profile, the silver plating rubbed off there first, revealing the cheap copper underneath."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the original purpose of the world's oldest surviving bank, Monte dei Paschi di Siena?",
+      "options": [
+        "To fund the construction of the Vatican",
+        "To act as a charitable pawnshop offering cheap loans to the poor",
+        "To manage the private wealth of the Medici family",
+        "To print the first paper banknotes in Europe"
+      ],
+      "correctIndex": 1,
+      "explanation": "It was founded as a mount of piety to help low-income citizens avoid usurious interest rates from predatory lenders."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What security innovation made American Express's traveler's cheques safe from theft?",
+      "options": [
+        "A unique holographic strip",
+        "A dual-signature verification system",
+        "A metal wire embedded inside the paper",
+        "An invisible ink stamp readable only under UV light"
+      ],
+      "correctIndex": 1,
+      "explanation": "The buyer signed the cheque twice—once upon purchasing it, and once upon spending it to verify their identity."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What major change occurred on Decimal Day in the United Kingdom in 1971?",
+      "options": [
+        "The pound was pegged directly to the US dollar",
+        "The UK completely outlawed the use of physical paper cash",
+        "The pound was divided into 100 pence instead of 240 pence",
+        "The UK adopted the Euro as its primary currency"
+      ],
+      "correctIndex": 2,
+      "explanation": "Before Decimal Day, the pound used a complex base-12 and base-20 system containing shillings and pence."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In what year was the world's oldest surviving bank, Banca Monte dei Paschi di Siena, founded?",
+      "answer": 1472,
+      "min": 1000,
+      "max": 1800,
+      "unit": "",
+      "explanation": "Founded in 1472, the bank began as a charitable pawnshop in Italy."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "How many cents did it cost the US Mint to manufacture and distribute a single five-cent nickel in 2023?",
+      "answer": 11.5,
+      "min": 1,
+      "max": 25,
+      "unit": "cents",
+      "explanation": "Rising metal costs for copper and nickel drove the production cost of a five-cent coin to 11.5 cents."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "Before Britain switched to decimal currency in 1971, how many pence made up a single British pound?",
+      "answer": 240,
+      "min": 10,
+      "max": 500,
+      "unit": "pence",
+      "explanation": "The old British currency system divided a pound into 20 shillings, with 12 pence in each shilling, totaling 240 pence."
+    }
+  ]
+}

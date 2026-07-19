@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-19T17:50:24.432Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why telling prospects \"you are free to say no\" doubles sales",
+      "body": "When making a pitch, explicitly telling your prospect they are free to refuse dramatically increases your success. A meta-analysis of 42 studies involving over 22,000 people found that adding a simple phrase like \"but you are free to accept or refuse\" doubles the likelihood of compliance. This works by removing the feeling of pressure, preserving their sense of autonomy, and lowering their natural psychological defenses.",
+      "imageWikipediaTitle": "Choice",
+      "sources": [
+        {
+          "title": "But-you-are-free technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/But-you-are-free_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/But-you-are-free_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why whispering your pitch to a client's right ear works better",
+      "body": "If you are pitching in a noisy venue, try to position yourself on your prospect's right side. Research shows that humans are more receptive to requests made to their right ear. In a famous study in bustling nightclubs, researchers found that people complied with a request for a cigarette twice as often when spoken to on their right side than on their left, due to left-hemisphere brain dominance.",
+      "imageWikipediaTitle": "Ear",
+      "sources": [
+        {
+          "title": "Lateralization of brain function",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lateralization_of_brain_function"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lateralization_of_brain_function",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How simple fonts can make your product feel easier to use",
+      "body": "The font you use on your pricing page or user manual shapes how difficult your product feels. Psychologists found that when instructions are printed in an easy-to-read font like Arial, people estimate the task will take 8 minutes. When printed in a difficult, decorative font, they estimate it will take 15 minutes. High cognitive fluency translates directly into higher sales and fewer abandoned checkouts.",
+      "imageWikipediaTitle": "Typography",
+      "sources": [
+        {
+          "title": "Cognitive fluency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_fluency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cognitive_fluency",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why holding heavy objects makes your pitch carry more weight",
+      "body": "Our physical surroundings quietly shape our abstract thoughts. In a study on embodied cognition, participants holding a heavy clipboard rated job candidates as more serious, important, and qualified than those holding a light clipboard. When presenting a physical proposal, contract, or catalog, using heavier paper or a solid clipboard subtly primes your client to view your ideas as more substantial and trustworthy.",
+      "imageWikipediaTitle": "Clipboard",
+      "sources": [
+        {
+          "title": "Embodied cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Embodied_cognition"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Embodied_cognition",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The subtle angle trick that makes customers crave your product",
+      "body": "When advertising a physical product, the way you orient it can trigger an immediate urge to buy. Research shows that showing a mug with its handle turned to the right increases purchase intent for right-handed people. This visual cue facilitates mental simulation, as viewers automatically imagine themselves grabbing the item. If you sell food, utensils, or tools, always photograph them ready to be held.",
+      "imageWikipediaTitle": "Mug",
+      "sources": [
+        {
+          "title": "Mental imagery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_imagery"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mental_imagery",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why rhyming slogans are perceived as more honest and accurate",
+      "body": "If you want prospects to believe your claims, make them rhyme. In a psychological study, participants rated rhyming phrases like \"What sobriety conceals, alcohol reveals\" as significantly more accurate descriptions of human behavior than non-rhyming equivalents like \"What sobriety conceals, alcohol shows.\" Rhymes are processed faster by the brain, and we mistake this ease of processing, or cognitive fluency, for objective truth.",
+      "imageWikipediaTitle": "Poetry",
+      "sources": [
+        {
+          "title": "Rhyme-as-reason effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rhyme-as-reason_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rhyme-as-reason_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why serving warm coffee makes you seem more trustworthy",
+      "body": "The temperature of the beverage you hand a client can completely change how they perceive your personality. Researchers found that participants who briefly held a hot cup of coffee rated a stranger as significantly warmer, more generous, and more caring than those who held iced coffee. Warm sensations activate the insular cortex, the same brain region associated with social trust and interpersonal bonding.",
+      "imageWikipediaTitle": "Coffee",
+      "sources": [
+        {
+          "title": "Embodied cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Embodied_cognition"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Embodied_cognition",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why weak sales arguments can become more persuasive over time",
+      "body": "If a prospect initially rejects your pitch because they doubt your source, don't despair. Under the sleeper effect, highly persuasive messages from discounted sources gain power over time. While people initially reject the message because they do not trust the source, their memory of the source fades faster than their memory of the message itself. Weeks later, they remember the compelling claim but forget who told them.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Sleeper effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleeper_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sleeper_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How pre-selected options quietly guide customer decisions",
+      "body": "The easiest way to boost sales of an add-on is to make it the default choice. Under the default effect, customers are highly likely to stick with pre-selected options rather than changing them. Choosing requires cognitive effort, whereas accepting the default feels safer and easier. Businesses leverage this by pre-checking boxes for warranties, newsletters, or premium shipping, relying on customer inertia to drive conversions.",
+      "imageWikipediaTitle": "Decision-making",
+      "sources": [
+        {
+          "title": "Default effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Default_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Default_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pricing your service by the day beats pricing by the year",
+      "body": "To make an expensive product feel affordable, change your temporal framing. Research shows that reframing a $350 annual subscription as \"less than a dollar a day\" makes customers far more willing to buy. Even though the total math is identical, our brains process the small daily amount as a minor, trivial expense rather than a major, budget-altering commitment.",
+      "imageWikipediaTitle": "Piggy bank",
+      "sources": [
+        {
+          "title": "Framing effect (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the core psychological mechanism behind the 'But-You-Are-Free' sales technique?",
+      "options": [
+        "It triggers extreme loss aversion",
+        "It preserves the prospect's sense of autonomy",
+        "It leverages social proof and peer pressure",
+        "It creates artificial urgency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Explicitly stating that the prospect is free to decline removes pressure, preserves their autonomy, and dramatically lowers psychological resistance."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does using an easy-to-read font like Arial affect a customer's perception of a task?",
+      "options": [
+        "It makes the task seem faster to complete",
+        "It makes the product look more premium",
+        "It causes people to spend more time reading",
+        "It decreases their overall trust in the brand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Studies show people estimate tasks to take about half as much time when instructions are written in highly legible, simple fonts."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why do rhyming slogans make pitches more persuasive?",
+      "options": [
+        "They trigger emotional nostalgia",
+        "They make the brand sound wealthier",
+        "They are processed with higher cognitive fluency, which we mistake for truth",
+        "They distract the logical part of the brain"
+      ],
+      "correctIndex": 2,
+      "explanation": "The human brain processes rhyming statements more easily (cognitive fluency) and subconsciously mistakes this mental ease for truthfulness."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How does handing a client a warm cup of coffee instead of an iced drink affect their perception of you?",
+      "options": [
+        "They view you as more physically attractive",
+        "They view you as warmer, more generous, and caring",
+        "They perceive you as more authoritative and strict",
+        "It has no measurable psychological effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warm physical sensations activate the brain's insular cortex, which is linked to feelings of trust and social warmth."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What happens over time in the psychological phenomenon known as the 'sleeper effect'?",
+      "options": [
+        "People forget the message but remember the source",
+        "People forget both the source and the message entirely",
+        "The discount cue or source is forgotten, while the message remains persuasive",
+        "People grow tired of the argument and reject it"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sleeper effect occurs because the memory of a source fades faster than the memory of the message, making a previously doubted claim highly persuasive later on."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what factor does adding a phrase like 'but you are free to refuse' multiply the likelihood of a prospect saying yes?",
+      "answer": 2,
+      "min": 1,
+      "max": 10,
+      "unit": "x",
+      "explanation": "Simply reminding prospects of their freedom to choose doubles compliance rates across dozens of psychological studies!"
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In a study on cognitive fluency, how many minutes did people estimate a task would take when written in a clean font like Arial, compared to 15 minutes in a hard font?",
+      "answer": 8,
+      "min": 1,
+      "max": 20,
+      "unit": "minutes",
+      "explanation": "When instructions were easy to read, participants estimated the task would take nearly half the time (8 minutes instead of 15)."
+    }
+  ]
+}

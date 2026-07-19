@@ -1,0 +1,256 @@
+{
+  "generatedAt": "2026-07-19T17:54:43.080Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Man Who Survived Both Atomic Bombings",
+      "body": "On August 6, 1945, Tsutomu Yamaguchi was in Hiroshima on a business trip when the first atomic bomb detonated. Though injured, he returned to his hometown of Nagasaki. Three days later, while describing the blast to his boss, the second atomic bomb exploded. Yamaguchi survived both blasts and lived to the age of 93, becoming an official \"double hibakusha\" recognized by the Japanese government.",
+      "imageWikipediaTitle": "Tsutomu Yamaguchi",
+      "sources": [
+        {
+          "title": "Tsutomu Yamaguchi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tsutomu_Yamaguchi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tsutomu_Yamaguchi",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Most Chaotic Marathon in Olympic History",
+      "body": "The 1904 Olympic marathon in St. Louis was a comedy of disasters. Held on a dusty dirt road in 90-degree heat, it featured a runner who chased wild dogs, another who took a nap in an orchard after eating rotten apples, and a winner, Thomas Hicks, who was kept going by his trainers injecting him with strychnine and brandy. Another runner drove in a car for 11 miles of the race before claiming victory.",
+      "imageWikipediaTitle": "Thomas Hicks (athlete)",
+      "sources": [
+        {
+          "title": "Marathon at the 1904 Summer Olympics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marathon_at_the_1904_Summer_Olympics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Marathon_at_the_1904_Summer_Olympics",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Chariot Race That Burned Constantinople",
+      "body": "In 532 CE, the rivalry between two chariot racing factions in Constantinople—the Blues and the Greens—boiled over into a full-scale rebellion against Emperor Justinian. Demanding lower taxes and the release of prisoners, the rioters united under the cry \"Nika!\" (Victory!). Over the course of a week, they burned nearly half the city, including the Hagia Sophia. Justinian's generals eventually trapped and slaughtered over thirty thousand rioters in the Hippodrome.",
+      "imageWikipediaTitle": "Justinian I",
+      "sources": [
+        {
+          "title": "Nika riots",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nika_riots"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nika_riots",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Border War Sparked by a Stray Dog",
+      "body": "In October 1925, tensions between Greece and Bulgaria exploded after a Greek soldier's dog ran across the border. The soldier chased his pet over the boundary and was shot by Bulgarian border guards. This minor incident escalated rapidly, leading to a Greek invasion of Bulgaria. The short-lived conflict, known as the War of the Stray Dog, resulted in dozens of casualties before the League of Nations intervened to stop it.",
+      "imageWikipediaTitle": "Bulgaria",
+      "sources": [
+        {
+          "title": "Incident at Petrich",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Incident_at_Petrich"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Incident_at_Petrich",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sweden's Mightiest Warship Sank in Twenty Minutes",
+      "body": "In 1628, the Swedish warship Vasa was launched as the most technologically advanced and heavily armed vessel of its time. Built with two gun decks on the orders of King Gustavus Adolphus, the ship was dangerously top-heavy. Just twenty minutes into its maiden voyage, a light gust of wind tilted the ship, allowing water to rush into its open gun ports. It sank a mere 120 meters from shore.",
+      "imageWikipediaTitle": "Vasa (ship)",
+      "sources": [
+        {
+          "title": "Vasa (ship)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vasa_(ship)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vasa_(ship)",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Natural Disaster That Reshaped Western Philosophy",
+      "body": "On November 1, 1755, a catastrophic earthquake struck Lisbon, Portugal, followed by a devastating tsunami and fires. Because the disaster struck on All Saints' Day, destroying major churches while leaving the red-light district relatively unscathed, it sparked a profound crisis of faith across Europe. Thinkers like Voltaire used the tragedy to challenge the prevailing optimism of the Enlightenment, arguing against the idea of a benevolent, finely-tuned universe.",
+      "imageWikipediaTitle": "1755 Lisbon earthquake",
+      "sources": [
+        {
+          "title": "1755 Lisbon earthquake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The War Sparked by a Severed Ear",
+      "body": "In 1738, British merchant captain Robert Jenkins appeared before the House of Commons holding a pickled ear. He claimed that Spanish coast guards had boarded his ship seven years prior and sliced it off. The sensationalized incident whipped public opinion into a frenzy, pushing a reluctant British government to declare war against Spain in 1739. The resulting \"War of Jenkins' Ear\" eventually merged into the larger War of the Austrian Succession.",
+      "imageWikipediaTitle": "War of Jenkins' Ear",
+      "sources": [
+        {
+          "title": "War of Jenkins' Ear",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/War_of_Jenkins%27_Ear",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deadly Smog That Smothered London",
+      "body": "In December 1952, a combination of cold weather, windless conditions, and heavy coal burning trapped a thick layer of toxic air over London. For five days, the \"Great Smog\" reduced visibility to feet, halting public transit and even seeping indoors. Modern medical estimates suggest that up to twelve thousand people died from respiratory complications. This environmental disaster directly spurred the passage of the Clean Air Act 1956, reshaping environmental policy forever.",
+      "imageWikipediaTitle": "Great Smog of London",
+      "sources": [
+        {
+          "title": "Great Smog of London",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Smog_of_London"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Smog_of_London",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Allied Army Made of Rubber and Speakers",
+      "body": "During World War II, the United States fielded a secret tactical deception unit known as the Ghost Army. Composed of artists, actors, and sound engineers, this 1,100-man unit used inflatable rubber tanks, dummy airplanes, giant speakers blasting recorded engine noises, and fake radio transmissions to trick German forces. Operating near the front lines, they staged over twenty deceptive operations, successfully drawing enemy fire away from real troop movements.",
+      "imageWikipediaTitle": "Ghost Army",
+      "sources": [
+        {
+          "title": "Ghost Army",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ghost_Army"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ghost_Army",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Tulips Cost More Than Houses",
+      "body": "In 1630s Holland, the newly introduced tulip became the ultimate status symbol, sparking the world's first recorded speculative bubble. Prices skyrocketed so high that a single bulb of a rare variety, like the Semper Augustus, could purchase a grand mansion along a canal in Amsterdam. The market peaked in early 1637, when buyers suddenly refused to show up at an auction, causing the entire speculative market to instantly collapse.",
+      "imageWikipediaTitle": "Tulip mania",
+      "sources": [
+        {
+          "title": "Tulip mania",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tulip_mania"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tulip_mania",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What bizarre substance was injected into 1904 Olympic marathon winner Thomas Hicks during the race?",
+      "options": [
+        "Strychnine (rat poison)",
+        "Cocaine",
+        "Caffeine extract",
+        "Snake venom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hicks' handlers administered multiple doses of strychnine mixed with brandy to stimulate him during the brutal race, which nearly killed him."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which international organization stepped in to end the 1925 \"War of the Stray Dog\"?",
+      "options": [
+        "The League of Nations",
+        "The United Nations",
+        "The Red Cross",
+        "The North Atlantic Treaty Organization"
+      ],
+      "correctIndex": 0,
+      "explanation": "The League of Nations intervened, ordering a ceasefire and requiring Greece to pay reparations to Bulgaria."
+    },
+    {
+      "cardIndex": 5,
+      "question": "On which religious holiday did the devastating 1755 Lisbon earthquake occur?",
+      "options": [
+        "All Saints' Day",
+        "Christmas Day",
+        "Easter Sunday",
+        "Good Friday"
+      ],
+      "correctIndex": 0,
+      "explanation": "The earthquake struck on All Saints' Day, causing the heavy stone roofs of packed churches to collapse onto worshipers."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Which European powers fought each other in the War of Jenkins' Ear?",
+      "options": [
+        "Great Britain and Spain",
+        "France and Prussia",
+        "Great Britain and France",
+        "Spain and Portugal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The conflict was fought between Great Britain and Spain from 1739 to 1748 before merging into the War of the Austrian Succession."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What was the primary weapon used by the United States \"Ghost Army\" in World War II?",
+      "options": [
+        "Inflatable decoys and sound effects",
+        "Experimental chemical weapons",
+        "Long-range stealth bombers",
+        "High-frequency radio jamming"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Ghost Army used dummy inflatable tanks, massive speakers, and fake radio traffic to trick the German military into overestimating Allied strength."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many rioters are estimated to have been slaughtered in the Hippodrome to end the Constantinople Nika Riots of 532 CE?",
+      "answer": 30000,
+      "min": 1000,
+      "max": 100000,
+      "unit": "people",
+      "explanation": "To put an end to the week-long rebellion, Emperor Justinian's generals trapped the rioters inside the Hippodrome and executed approximately 30,000 citizens."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "For how many years did the Swedish warship Vasa rest at the bottom of Stockholm harbor before being salvaged?",
+      "answer": 333,
+      "min": 50,
+      "max": 1000,
+      "unit": "years",
+      "explanation": "The Vasa sank on its maiden voyage in 1628 and was successfully raised largely intact in 1961, precisely 333 years later."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many days did the \"Great Smog of London\" trap toxic coal emissions over the city in December 1952?",
+      "answer": 5,
+      "min": 1,
+      "max": 30,
+      "unit": "days",
+      "explanation": "The severe air-pollution event blanketed London for exactly 5 days, from December 5 to December 9, 1952, causing thousands of respiratory deaths."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "In what year did the Dutch tulip bulb market suddenly crash, ending the famous \"Tulip Mania\"?",
+      "answer": 1637,
+      "min": 1500,
+      "max": 1800,
+      "unit": "year",
+      "explanation": "The speculative bubble peaked in the winter of 1636–1637 and collapsed dramatically in February 1637, ruining many investors."
+    }
+  ]
+}

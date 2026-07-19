@@ -1,0 +1,266 @@
+{
+  "generatedAt": "2026-07-19T17:51:55.757Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The coldest place in the known universe is on the space station",
+      "body": "Deep space is incredibly cold, sitting at about 2.7 Kelvin. But the coldest known spot in the universe is actually aboard the International Space Station. NASA's Cold Atom Lab uses lasers and magnetic fields to cool atoms to just one ten-billionth of a degree above absolute zero. In this extreme state, matter behaves like one giant wave, allowing scientists to study quantum mechanics in microgravity without Earth's interference.",
+      "imageWikipediaTitle": "Cold Atom Laboratory",
+      "sources": [
+        {
+          "title": "Cold Atom Laboratory",
+          "publisher": "NASA",
+          "url": "https://coldatomlab.jpl.nasa.gov/"
+        },
+        {
+          "title": "Cold Atom Laboratory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cold_Atom_Laboratory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cold_Atom_Laboratory",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your gold jewelry was likely forged in colliding dead stars",
+      "body": "While normal stars fuse light elements into heavier ones, they cannot easily produce precious metals like gold and platinum. Instead, scientists believe most of Earth's gold was forged in \"kilonovae\"—violent collisions between two ultra-dense neutron stars. These cosmic smashups squeeze neutrons together so intensely that they form heavy elements in seconds, scattering precious metals across space to eventually form planets like ours.",
+      "imageWikipediaTitle": "Kilonova",
+      "sources": [
+        {
+          "title": "Kilonova",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kilonova"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kilonova",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This icy moon holds more liquid water than all of Earth's oceans",
+      "body": "Jupiter's moon Europa is roughly the size of our Moon, but it is hiding a massive secret under its icy crust. Scientists have gathered strong evidence that Europa harbors a global, subsurface liquid water ocean. Because this ocean is estimated to be dozens of miles deep, Europa contains more than twice the liquid water found on Earth, making it one of the solar system's top targets for finding alien life.",
+      "imageWikipediaTitle": "Europa (moon)",
+      "sources": [
+        {
+          "title": "Europa (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Europa_(moon)"
+        },
+        {
+          "title": "Europa: In Depth",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/europa/in-depth/"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/europa/in-depth/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first Earthlings in space were tiny fruit flies",
+      "body": "Before dogs, monkeys, or humans braved the cosmos, the very first Earth-born animals entered space in 1947. United States researchers launched a batch of fruit flies aboard a captured German V-2 rocket to an altitude of 68 miles, officially passing the boundary of space. The goal was to see how cosmic radiation would affect living tissue, and the resilient flies were successfully recovered alive via parachute.",
+      "imageWikipediaTitle": "Animals in space",
+      "sources": [
+        {
+          "title": "Animals in space",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Animals_in_space"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Animals_in_space",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Moon has a giant, invisible glowing tail",
+      "body": "Earth is not the only celestial body with a tail; the Moon has one too. Solar winds and meteor bombardment constantly blast sodium atoms off the lunar surface, creating a faint, glowing tail of sodium gas that stretches hundreds of thousands of miles into space. Once a month, when the Moon passes between the Sun and Earth, this tail wraps around Earth's atmosphere, though it is only visible with sensitive cameras.",
+      "imageWikipediaTitle": "Moon",
+      "sources": [
+        {
+          "title": "Sodium tail of the Moon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sodium_tail_of_the_Moon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sodium_tail_of_the_Moon",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single cosmic particle once packing the punch of a fast pitch",
+      "body": "In 1991, astrophysicists in Utah detected a single subatomic particle—likely a proton—traveling so close to the speed of light that its kinetic energy was staggering. Dubbed the \"Oh-My-God particle,\" it carried 320 exa-electronvolts of energy. That is tens of millions of times more energetic than anything humans can produce in our most powerful particle accelerators, equivalent to a 60 mph baseball packed into a single subatomic speck.",
+      "imageWikipediaTitle": "Cosmic ray",
+      "sources": [
+        {
+          "title": "Oh-My-God particle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oh-My-God_particle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Oh-My-God_particle",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When galaxies collide, stars almost never hit each other",
+      "body": "In about 4.5 billion years, our Milky Way will collide with the neighboring Andromeda galaxy in a titanic cosmic merger. While this sounds catastrophic, individual stars are highly unlikely to collide. The distance between stars is so immense that they will simply slide past one another like ghosts. Gravity will reshape both galaxies into a single elliptical giant, but the vast emptiness of space keeps the actual stars perfectly safe.",
+      "imageWikipediaTitle": "Andromeda–Milky Way collision",
+      "sources": [
+        {
+          "title": "Andromeda–Milky Way collision",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Andromeda%E2%80%93Milky_Way_collision",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The largest known structure in the universe is mind-bogglingly huge",
+      "body": "The largest known structure in the observable universe is the Hercules-Corona Borealis Great Wall. It is not a solid object, but a colossal supercluster of galaxies bound together by gravity. This cosmic wall spans roughly 10 billion light-years in length, making up about 10% of the diameter of the entire observable universe. Its sheer size challenges our standard models of how the universe evolved.",
+      "imageWikipediaTitle": "Observable universe",
+      "sources": [
+        {
+          "title": "Hercules–Corona Borealis Great Wall",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hercules%E2%80%93Corona_Borealis_Great_Wall",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A solar eclipse proved Einstein's theory of relativity",
+      "body": "In 1919, Albert Einstein was still a relatively obscure physicist. His radical theory of general relativity claimed that gravity could bend light, but he needed proof. British astronomer Arthur Eddington traveled to a remote island during a total solar eclipse to photograph stars near the blocked Sun. The stars' positions appeared slightly shifted because the Sun's mass bent their light, proving Einstein right and launching him into global fame.",
+      "imageWikipediaTitle": "Solar eclipse of May 29, 1919",
+      "sources": [
+        {
+          "title": "Eddington experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eddington_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eddington_experiment",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The painful delay of communicating with Mars",
+      "body": "Because radio signals travel at the speed of light, talking to robotic explorers on Mars is not a real-time conversation. Depending on where Earth and Mars are in their orbits, it takes between 4 and 22 minutes for a signal to travel one way. This lag means that when a rover lands on Mars, it must complete the entire landing sequence autonomously, as controllers on Earth cannot intervene.",
+      "imageWikipediaTitle": "Mars",
+      "sources": [
+        {
+          "title": "Communications with Mars",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Communications_with_Mars"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Communications_with_Mars",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What violent cosmic event is believed to produce most of the universe's gold?",
+      "options": [
+        "The collision of neutron stars",
+        "The quiet cooling of red dwarfs",
+        "The birth of a new galaxy",
+        "Asteroids colliding with the Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "The extreme pressure and neutron-rich environment of colliding neutron stars (a kilonova) is perfect for forging heavy elements like gold and platinum."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which moon of Jupiter contains a massive subsurface ocean with more liquid water than all of Earth's oceans combined?",
+      "options": [
+        "Io",
+        "Europa",
+        "Ganymede",
+        "Callisto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Europa's global subsurface ocean is estimated to hold about twice the liquid water of Earth."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What element makes up the faint, giant tail that stretches behind the Moon?",
+      "options": [
+        "Helium",
+        "Sodium",
+        "Iron",
+        "Oxygen"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Moon has a faint, glowing tail of sodium atoms blasted off its surface by meteorites and solar wind."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What event in 1919 allowed scientists to prove Einstein's theory of general relativity by observing bent starlight?",
+      "options": [
+        "A total solar eclipse",
+        "A passing comet",
+        "A lunar eclipse",
+        "A supernova explosion"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1919 solar eclipse allowed Arthur Eddington to measure how the Sun's gravity bent light coming from stars behind it."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What is the maximum one-way time delay for a radio signal traveling between Earth and Mars?",
+      "options": [
+        "22 minutes",
+        "3 seconds",
+        "5 hours",
+        "2 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to the speed of light and orbital distances, radio signals can take up to 22 minutes to travel between Earth and Mars."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many degrees above absolute zero (in Kelvin) is deep space naturally?",
+      "answer": 2.7,
+      "min": 0.1,
+      "max": 20,
+      "unit": "K",
+      "explanation": "Deep space is warmed slightly by the cosmic microwave background to about 2.7 Kelvin, but NASA's Cold Atom Lab gets much closer to absolute zero!"
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "In what year were the first animals (fruit flies) launched into space?",
+      "answer": 1947,
+      "min": 1930,
+      "max": 1970,
+      "unit": "",
+      "explanation": "Fruit flies were launched in 1947 on a V-2 rocket, paving the way for larger animals and eventually humans."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "In how many billions of years is the Milky Way expected to collide with the Andromeda galaxy?",
+      "answer": 4.5,
+      "min": 1,
+      "max": 15,
+      "unit": "billion years",
+      "explanation": "Astronomers estimate the collision will occur in about 4.5 billion years, though the massive distances between stars mean direct stellar collisions are extremely rare."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many billions of light-years long is the Hercules-Corona Borealis Great Wall?",
+      "answer": 10,
+      "min": 1,
+      "max": 50,
+      "unit": "billion light-years",
+      "explanation": "The Great Wall spans an incredible 10 billion light-years, representing roughly 10 percent of the size of the observable universe."
+    }
+  ]
+}

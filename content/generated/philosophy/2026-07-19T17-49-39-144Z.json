@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-07-19T17:49:39.144Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"true justified belief\" isn't always true knowledge",
+      "body": "Imagine looking at a clock that says 12:00. You believe it is noon, you have excellent reason to trust the clock, and by sheer coincidence, it actually is noon. But unbeknownst to you, the clock stopped exactly twelve hours ago. Philosopher Edmund Gettier used similar cases to prove that having a justified, true belief isn't enough to say you truly \"know\" something.",
+      "imageWikipediaTitle": "Clock",
+      "sources": [
+        {
+          "title": "Gettier problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gettier_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gettier_problem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The private \"beetle\" inside everyone's mind",
+      "body": "Imagine everyone has a box containing something they call a \"beetle.\" No one can look inside anyone else's box; they only know what a beetle is by looking at their own. Ludwig Wittgenstein argued that even if everyone has something completely different—or nothing at all—in their box, the word \"beetle\" still functions perfectly in language. Our inner sensations are understood through public rules, not private definitions.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Private language argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Private_language_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Private_language_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How long does \"right now\" actually last?",
+      "body": "We experience time as a continuous flow, but how long is the immediate \"now\" we perceive? Philosopher William James popularized the concept of the \"specious present\"—the short block of time we perceive all at once, rather than as a knife-edge instant. While it varies depending on our attention and state of mind, James estimated that this psychological present can last up to 12 seconds.",
+      "imageWikipediaTitle": "William James",
+      "sources": [
+        {
+          "title": "Specious present",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Specious_present"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Specious_present",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The simple pond experiment that challenges global charity",
+      "body": "If you walk past a shallow pond and see a child drowning, you would wade in and save them, even if it ruins your expensive shoes. Philosopher Peter Singer argues there is no moral difference between this scenario and saving a starving child far away through a small financial donation. If we are obligated to ruin our shoes for the drowning child, are we obligated to give up luxury purchases to save distant lives?",
+      "imageWikipediaTitle": "Peter Singer",
+      "sources": [
+        {
+          "title": "Famine, Affluence, and Morality",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Famine,_Affluence,_and_Morality",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can't force yourself to intend the impossible",
+      "body": "A billionaire offers you one million dollars. All you have to do is intend, at midnight tonight, to drink a painful but non-lethal toxin tomorrow afternoon. You don't actually have to drink it; the money is paid tomorrow morning based on a brain scan of your sincere intention tonight. Can you do it? Philosopher Gregory Kavka argued you cannot sincerely intend to do an action you know you will have no reason to perform.",
+      "imageWikipediaTitle": "Poison",
+      "sources": [
+        {
+          "title": "Toxin puzzle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toxin_puzzle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Toxin_puzzle",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a two-dimensional square explains the fourth dimension",
+      "body": "In Edwin Abbott’s satirical novella \"Flatland\", a two-dimensional Square is visited by a three-dimensional Sphere. The Square can only see the Sphere as a series of growing and shrinking circles as it passes through his 2D plane. This classic thought experiment helps us conceptualize the fourth dimension: if a 4D object passed through our 3D space, we would only perceive it as a changing 3D shape.",
+      "imageWikipediaTitle": "Flatland",
+      "sources": [
+        {
+          "title": "Flatland",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flatland"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flatland",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rebuilding your beliefs while floating in the open ocean",
+      "body": "How do we fix our beliefs if we cannot step outside of them to find an absolute truth? Philosopher Otto Neurath compared human knowledge to a boat that must be rebuilt plank by plank while remaining afloat at sea. We can never dismantle the entire ship to start from scratch on dry land; we must stand on some planks of our existing beliefs while replacing the damaged ones.",
+      "imageWikipediaTitle": "Otto Neurath",
+      "sources": [
+        {
+          "title": "Otto Neurath",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otto_Neurath"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Otto_Neurath",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why science can't tell us what it's like to be a bat",
+      "body": "A neuroscientist could map every single neuron and sonic echo in a bat's brain, yet still not understand what it actually feels like to navigate using sonar. Philosopher Thomas Nagel argued that subjective experience has a unique, first-person perspective that objective physical descriptions can never fully capture. Even if we knew everything about bat biology, we would still only imagine being a human behaving like a bat.",
+      "imageWikipediaTitle": "Bat",
+      "sources": [
+        {
+          "title": "What Is It Like to Be a Bat?",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/What_Is_It_Like_to_Be_a_Bat%3F",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The autobiography that takes forever to write",
+      "body": "Tristram Shandy is writing his autobiography, but he writes so slowly that it takes him a whole year to record the events of his very first day. If he were mortal, he would fall hopelessly behind. But what if he lived forever? Philosopher Bertrand Russell used this to illustrate a quirk of infinity: because the set of days and the set of years are both infinitely large, Shandy would eventually write down every single day of his life.",
+      "imageWikipediaTitle": "Bertrand Russell",
+      "sources": [
+        {
+          "title": "Tristram Shandy paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tristram_Shandy_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tristram_Shandy_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The wild horses dragging your soul in opposite directions",
+      "body": "In his dialogue \"Phaedrus\", Plato compared the human soul to a chariot pulled by two winged horses. One horse is white, noble, and strives toward the heavens of truth and virtue. The other horse is black, unruly, and plunges toward earthly desires and passions. The charioteer, representing human reason, must masterfully guide and balance both forces to steer the soul toward enlightenment and prevent a disastrous crash.",
+      "imageWikipediaTitle": "Charioteer",
+      "sources": [
+        {
+          "title": "Chariot Allegory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chariot_Allegory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chariot_Allegory",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What classical philosophical definition does the Gettier problem challenge?",
+      "options": [
+        "That knowledge is justified true belief",
+        "That truth is relative to the observer",
+        "That we can never truly know anything",
+        "That the mind and body are separate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gettier cases show that a person can have a belief that is both true and justified, yet still fail to count as genuine knowledge due to sheer luck."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was Ludwig Wittgenstein's primary point with the 'beetle in a box' thought experiment?",
+      "options": [
+        "Language relies on shared, public rules rather than private experiences",
+        "No two people can ever agree on the definition of a word",
+        "We must protect our private thoughts from outside observation",
+        "Language is entirely subjective and has no stable meaning"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wittgenstein argued that the meaning of words comes from their public use and shared rules, rather than private, inaccessible mental states."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Peter Singer's drowning child thought experiment, what is the 'ruined shoes' detail meant to represent?",
+      "options": [
+        "A minor financial or luxury sacrifice",
+        "The physical danger of helping others",
+        "The inevitability of bad luck",
+        "The insignificance of material wealth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Singer argues that sacrificing a small luxury (like expensive shoes or non-essential purchases) is a minor cost compared to the moral weight of saving a human life."
+    },
+    {
+      "cardIndex": 5,
+      "question": "In 'Flatland', how does the 2D Square perceive a 3D Sphere passing through his world?",
+      "options": [
+        "As a circle that grows and then shrinks",
+        "As a solid, static cube",
+        "He cannot perceive it at all",
+        "As a giant, flat square"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the Square can only perceive two dimensions, the 3D Sphere appears to him as a cross-sectional circle that expands and contracts as it passes through the plane."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What does Otto Neurath's boat metaphor suggest about how we should revise our beliefs?",
+      "options": [
+        "We must revise them gradually while relying on our existing beliefs",
+        "We must completely abandon all old beliefs to find the truth",
+        "Beliefs are temporary and will eventually sink",
+        "We should only trust beliefs that have stood the test of time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neurath's boat shows that we cannot start from an absolute blank slate; we must rebuild our system of beliefs piece-by-piece from within."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "According to philosopher William James, what is the maximum duration in seconds of the 'specious present'—the block of time we perceive as 'now'?",
+      "answer": 12,
+      "min": 1,
+      "max": 60,
+      "unit": "seconds",
+      "explanation": "James argued that our psychological experience of the immediate present is not a split second, but a short duration of up to 12 seconds."
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-07-19T17:51:13.877Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Shakespeare and \"Burn, Baby, Burn\" in Apollo 11's Code",
+      "body": "The source code for the Apollo 11 Guidance Computer, written in the late 1960s, contains surprising humor from its programmers. Deep in the assembly language, developers included a routine named BURN_BABY_BURN, a nod to a famous 1960s radio DJ catchphrase. Elsewhere, they quoted Shakespeare's Henry VI to describe a radar component. When the code was uploaded to GitHub decades later, users finally discovered these hidden Easter eggs.",
+      "imageWikipediaTitle": "Apollo Guidance Computer",
+      "sources": [
+        {
+          "title": "Apollo Guidance Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 24-Bit Mistake That Cost 28 Lives",
+      "body": "In 1991, during the Gulf War, a Patriot missile system failed to track and intercept an incoming Scud missile, leading to 28 deaths. The culprit was a tiny software round-off error. The system measured time in tenths of a second, but stored this value in a 24-bit register. Because 1/10 cannot be perfectly represented in binary, the system drifted by 0.34 seconds after 100 hours of continuous operation—enough to miss the target entirely.",
+      "imageWikipediaTitle": "MIM-104 Patriot",
+      "sources": [
+        {
+          "title": "MIM-104 Patriot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MIM-104_Patriot"
+        },
+        {
+          "title": "Round-off error",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Round-off_error"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/MIM-104_Patriot",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Loophole That Rewrote the Rules of C",
+      "body": "In 1983, Lucasfilm programmer Tom Duff was looking for a way to optimize real-time graphics rendering. He discovered a bizarre loophole in the C programming language. By combining a loop with a switch-case statement, he created a technique that could jump directly into the middle of a loop to speed up execution. Now known as \"Duff's Device,\" this syntactically legal but highly unusual construct surprised even Dennis Ritchie, the creator of C.",
+      "imageWikipediaTitle": "Tom Duff",
+      "sources": [
+        {
+          "title": "Duff's device",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duff%27s_device"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Duff%27s_device",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Speed Trick That Broke Modern Microprocessors",
+      "body": "For decades, computer chips used \"speculative execution\" to boost speeds. The processor guesses which path a program will take and executes instructions in advance. If it guesses wrong, it discards the results. However, in 2017, researchers discovered that this predictive guessing left traces in the CPU's cache memory. The vulnerabilities, named Meltdown and Spectre, allowed hackers to steal sensitive passwords and encryption keys directly from almost any modern computer.",
+      "imageWikipediaTitle": "Spectre (security_vulnerability)",
+      "sources": [
+        {
+          "title": "Meltdown (security vulnerability)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)"
+        },
+        {
+          "title": "Spectre (security vulnerability)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Yiddish Folk Tale of Inefficient Code",
+      "body": "In software engineering, \"Schlemiel the Painter's algorithm\" describes a common programming blunder. The term comes from a joke about a painter who paints a road's dividing line. Every day he paints less because the paint bucket stays at the start, forcing him to walk further each time. In code, this happens when a program repeatedly scans a text string from the very beginning to append new data, turning a simple task into a slow crawl.",
+      "imageWikipediaTitle": "Algorithm",
+      "sources": [
+        {
+          "title": "Schlemiel the Painter's algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Schlemiel_the_Painter%27s_algorithm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Schlemiel_the_Painter%27s_algorithm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 370-Million-Dollar Number Overflow",
+      "body": "In 1996, the European Space Agency's Ariane 5 rocket self-destructed just 37 seconds after liftoff. The disaster, which cost 370 million dollars, was caused by a software crash. The navigation computer tried to convert a 64-bit floating-point number representing horizontal velocity into a 16-bit signed integer. The velocity was too large for the smaller format, causing an \"integer overflow\" error. The computer shut down, the thrusters veered wildly, and the rocket tore itself apart.",
+      "imageWikipediaTitle": "Ariane 5",
+      "sources": [
+        {
+          "title": "Ariane 5",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ariane_5"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ariane_5",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How 1950s Vacuum-Tube Hardware Shaped Modern Lisp",
+      "body": "Programmers using the Lisp language manipulate lists using two basic functions: car to get the first item, and cdr to get the rest. These cryptic names have survived for over 60 years, despite having nothing to do with modern computer science. They refer to the physical architecture of the IBM 704 vacuum-tube computer, where they stood for \"Contents of the Address part of Register\" and \"Contents of the Decrement part of Register.\"",
+      "imageWikipediaTitle": "IBM 704",
+      "sources": [
+        {
+          "title": "CAR and CDR",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CAR_and_CDR"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/CAR_and_CDR",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Missing Bounds Check That Exposed the Web",
+      "body": "In 2014, researchers uncovered \"Heartbleed,\" one of the most severe security flaws in internet history. It existed in OpenSSL, the software securing millions of websites. The bug was a simple missing bounds check in the heartbeat protocol. When a client asked the server to echo back a word, it also specified the word's length. If the client lied and claimed a short word was actually 64 kilobytes long, the server complied, copying random secret data from its memory.",
+      "imageWikipediaTitle": "Heartbleed",
+      "sources": [
+        {
+          "title": "Heartbleed",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heartbleed"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Heartbleed",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1,024-Week Clock That Resets GPS Devices",
+      "body": "Every 19.7 years, global positioning systems face a silent temporal crisis. The GPS system tracks time by counting weeks, but stores this value as a 10-bit binary number. Because 10 bits can only hold numbers from 0 to 1,023, the week counter inevitably rolls back to zero on the 1,024th week. When this happened in 1999 and 2019, older navigation systems suddenly thought they were in the past, causing flight cancellations and software failures worldwide.",
+      "imageWikipediaTitle": "Global Positioning System",
+      "sources": [
+        {
+          "title": "GPS week number rollover",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GPS_week_number_rollover"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/GPS_week_number_rollover",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Five-Character Recipe for Computer Paralysis",
+      "body": "A computer can be completely frozen using a single line of code containing just five distinct characters: :(){ :|:& };:. This is a classic \"fork bomb\" written for the Bash command-line shell. It defines a function named \":\" that calls itself twice and pipes the output into another instance of itself, pushing the process to the background. By replicating exponentially, it quickly exhausts the operating system's process table, locking up the machine in seconds.",
+      "imageWikipediaTitle": "Fork bomb",
+      "sources": [
+        {
+          "title": "Fork bomb",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fork_bomb"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fork_bomb",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 2,
+      "question": "What does Duff's Device exploit to speed up C programs?",
+      "options": [
+        "Switch-case fall-through in a loop",
+        "The CPU's branch predictor",
+        "Multi-threaded parallel processing",
+        "Automatic memory garbage collection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Duff's Device uses C's switch-case syntax to jump directly into the middle of a loop, performing loop unrolling to optimize performance."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the core issue in a 'Schlemiel the Painter's' algorithm?",
+      "options": [
+        "It repeatedly scans data from the beginning",
+        "It runs out of memory due to infinite recursion",
+        "It tries to access protected system memory",
+        "It runs calculations in the wrong thread"
+      ],
+      "correctIndex": 0,
+      "explanation": "Like the painter who walks all the way back to the paint bucket each time, the algorithm inefficiently scans the entire string from the start for every append operation."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What did the cryptic Lisp functions 'car' and 'cdr' originally stand for?",
+      "options": [
+        "Hardware register parts of the IBM 704",
+        "The names of the creators' children",
+        "Acronyms for 'create array' and 'delete row'",
+        "Commands in early mechanical looms"
+      ],
+      "correctIndex": 0,
+      "explanation": "CAR and CDR stood for 'Contents of Address part of Register' and 'Contents of Decrement part of Register' on the IBM 704 vacuum-tube computer."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How did the Heartbleed security vulnerability allow hackers to steal data?",
+      "options": [
+        "By exploiting a missing bounds check on payload size",
+        "By guessing weak administrator passwords",
+        "By intercepting unencrypted radio signals",
+        "By overloading the server with traffic"
+      ],
+      "correctIndex": 0,
+      "explanation": "OpenSSL failed to check if the requested payload size matched the actual word length, allowing attackers to read adjacent server memory."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How does a fork bomb freeze a computer?",
+      "options": [
+        "By continuously duplicating processes to exhaust system resources",
+        "By deleting the operating system's root files",
+        "By heating up the processor through floating-point math",
+        "By locking the keyboard and mouse drivers"
+      ],
+      "correctIndex": 0,
+      "explanation": "A fork bomb creates child processes exponentially, quickly hitting the maximum limit of processes and locking up the system."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many hours of continuous operation did it take for the Patriot missile system's timing drift to become fatal?",
+      "answer": 100,
+      "min": 10,
+      "max": 500,
+      "unit": "hours",
+      "explanation": "After 100 hours of continuous operation, the tiny 24-bit rounding error drifted the clock by 0.34 seconds, causing it to miss an incoming Scud missile."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "How many seconds after liftoff did the Ariane 5 rocket self-destruct due to a software crash?",
+      "answer": 37,
+      "min": 5,
+      "max": 300,
+      "unit": "seconds",
+      "explanation": "Just 37 seconds into its flight, an integer overflow error caused the guidance computers to fail, triggering self-destruction."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "How many weeks can a standard GPS week counter track before rolling over to zero?",
+      "answer": 1024,
+      "min": 100,
+      "max": 5000,
+      "unit": "weeks",
+      "explanation": "Because GPS tracking systems historically represent weeks using a 10-bit binary number, the counter rolls over to zero every 1,024 weeks (about 19.7 years)."
+    }
+  ]
+}

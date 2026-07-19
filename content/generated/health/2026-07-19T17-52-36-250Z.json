@@ -1,0 +1,268 @@
+{
+  "generatedAt": "2026-07-19T17:52:36.250Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your jaw muscle can exert up to 200 pounds of force",
+      "body": "The masseter muscle, located in your cheek, is the strongest muscle in the human body relative to its size. When you bite down, it can exert a force of up to 200 pounds (90 kilograms) on your molars. This incredible strength is due to the muscle's thick fiber layout and its highly efficient leverage across the jawbone.",
+      "imageWikipediaTitle": "Masseter muscle",
+      "sources": [
+        {
+          "title": "Masseter muscle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Masseter_muscle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Masseter_muscle",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your left lung is smaller than your right for a crucial reason",
+      "body": "Your lungs are not identical twins. The left lung is about ten percent smaller and narrower than the right lung, and it has only two lobes compared to the right lung's three. This deliberate asymmetry leaves a carved-out space called the cardiac notch, which perfectly accommodates the position and tilt of your heart.",
+      "imageWikipediaTitle": "Lung",
+      "sources": [
+        {
+          "title": "Lung",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lung"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lung",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your teeth are the only body parts that cannot heal themselves",
+      "body": "Unlike bones, skin, or muscles, human teeth cannot regenerate or repair themselves after damage. This is because the outer layer of your teeth, called enamel, is not living tissue. It is made almost entirely of minerals—mostly hydroxyapatite—and contains no living cells to produce new material once a cavity or crack forms.",
+      "imageWikipediaTitle": "Tooth enamel",
+      "sources": [
+        {
+          "title": "Tooth enamel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tooth_enamel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tooth_enamel",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "That pink bump in your eye is a leftover third eyelid",
+      "body": "The small, pink nodule at the inner corner of your eye is called the plica semilunaris. It is a vestigial remnant of the nictitating membrane, or \"third eyelid,\" which still functions in birds, reptiles, and sharks. While humans no longer need a translucent membrane to sweep across the eye for protection, the structure remains behind as an evolutionary relic.",
+      "imageWikipediaTitle": "Plica semilunaris of conjunctiva",
+      "sources": [
+        {
+          "title": "Plica semilunaris of conjunctiva",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plica_semilunaris_of_conjunctiva"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Plica_semilunaris_of_conjunctiva",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your eyes have a permanent blind spot that your brain hides from you",
+      "body": "Each of your eyes has a physical blind spot where you are completely blind. This occurs at the optic disc, the point on the retina where the optic nerve exits the back of the eye. Because there are no light-detecting cells in this specific spot, no visual information is gathered. Your brain seamlessly fills in the blank space using data from the surrounding area.",
+      "imageWikipediaTitle": "Blind spot (vision)",
+      "sources": [
+        {
+          "title": "Blind spot (vision)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blind_spot_(vision)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blind_spot_(vision)",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your heart beats over 100,000 times every single day",
+      "body": "Without a single moment of rest, your heart works tirelessly to pump blood through your body. Beating at an average rate of 70 to 80 times per minute, it registers more than 100,000 beats in a single day. Over a typical 80-year lifetime, this translates to nearly three billion beats, pumping millions of gallons of oxygen-rich blood to sustain your organs.",
+      "imageWikipediaTitle": "Heart",
+      "sources": [
+        {
+          "title": "Heart",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heart"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Heart",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your thigh bone is stronger than solid concrete",
+      "body": "The femur, or thigh bone, is the longest, heaviest, and strongest bone in the human body. Because of its unique hollow cylinder structure and dense mineral composition, it can support up to 30 times your body weight. This incredible strength makes the femur highly resistant to crushing forces, requiring immense impact to break.",
+      "imageWikipediaTitle": "Femur",
+      "sources": [
+        {
+          "title": "Femur",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Femur"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Femur",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You carry enough carbon to fill thousands of pencils",
+      "body": "Carbon is the chemical basis for all known organic life, and it is highly abundant in your body. It makes up about 18.5 percent of your total body mass. For an average adult weighing 70 kilograms, this translates to nearly 13 kilograms of pure carbon. If converted into graphite, this is enough carbon to fill roughly 9,000 pencils.",
+      "imageWikipediaTitle": "Carbon",
+      "sources": [
+        {
+          "title": "Composition of the human body",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Composition_of_the_human_body"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Composition_of_the_human_body",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A fever is your body's intentional way of cooking invaders",
+      "body": "When you get sick, a fever is not a sign that your body is failing. Instead, it is a highly coordinated defense mechanism. Your brain's hypothalamus intentionally turns up your internal thermostat to make your body hostile to viruses and bacteria. Higher temperatures slow down pathogen replication while accelerating your immune system's cellular response to fight the infection.",
+      "imageWikipediaTitle": "Fever",
+      "sources": [
+        {
+          "title": "Fever",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fever"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fever",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your ears and nose seem to grow larger as you age",
+      "body": "It is not just your imagination: your ears and nose actually get larger over your lifetime. Unlike bones, which stop growing after puberty, ears and noses are made of cartilage. Over time, gravity pulls this cartilage downward, while the collagen and elastin fibers that support it begin to break down and stretch, making these features physically longer and wider.",
+      "imageWikipediaTitle": "Ear",
+      "sources": [
+        {
+          "title": "Ear",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ear"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ear",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "Why is your left lung smaller and narrower than your right lung?",
+      "options": [
+        "To leave room for the liver",
+        "To accommodate the position of the heart",
+        "Because it processes less oxygen",
+        "To allow more movement for the stomach"
+      ],
+      "correctIndex": 1,
+      "explanation": "The left lung features a recess called the cardiac notch, which perfectly accommodates the position and tilt of your heart."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why are human teeth unable to regenerate or heal themselves?",
+      "options": [
+        "They lack a supply of calcium",
+        "The outer enamel is not living tissue and contains no cells",
+        "Saliva prevents the bone cells from binding",
+        "They are not connected to the nervous system"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tooth enamel is composed of minerals and does not contain any living cells, which means it cannot regenerate once damaged."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the plica semilunaris, the small pink nodule in the corner of your eye?",
+      "options": [
+        "A specialized tear gland",
+        "A muscle that helps focus light",
+        "An evolutionary remnant of a third eyelid",
+        "A filter for blocking dust"
+      ],
+      "correctIndex": 2,
+      "explanation": "It is a vestigial remnant of the nictitating membrane, also known as a third eyelid, which is still functional in many animals."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does a natural blind spot exist in every human eye?",
+      "options": [
+        "The lens cannot focus light at extreme angles",
+        "The brain cannot process that much data",
+        "There are no photoreceptors where the optic nerve exits the retina",
+        "Frequent blinking wears down a tiny patch of cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "The optic disc lacks light-detecting photoreceptors because it is the point where the optic nerve exits the back of the eye."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What part of the body controls your temperature and intentionally triggers a fever?",
+      "options": [
+        "The thyroid gland",
+        "The hypothalamus in the brain",
+        "The white blood cells",
+        "The adrenal glands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hypothalamus acts as your body's thermostat and intentionally raises your core temperature to help fight infections."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Why do ears and noses continue to grow larger as we age?",
+      "options": [
+        "Bone cells in the face never stop dividing",
+        "Cartilage is stretched down by gravity as structural fibers break down",
+        "They absorb moisture from the air over time",
+        "Increased blood pressure causes permanent swelling"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ears and noses are made of cartilage. As collagen and elastin fibers break down with age, gravity stretches this tissue downward and outward."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many pounds of force can a human masseter (jaw muscle) exert on the molars when biting down?",
+      "answer": 200,
+      "min": 10,
+      "max": 500,
+      "unit": "lbs",
+      "explanation": "Relative to its size, the masseter is the strongest muscle in the human body, capable of crushing forces up to 200 pounds."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "Approximately how many times does an average human heart beat in a single 24-hour day?",
+      "answer": 100000,
+      "min": 10000,
+      "max": 500000,
+      "unit": "beats",
+      "explanation": "At a normal resting rate, your heart beats over 100,000 times a day, which adds up to nearly three billion beats in a lifetime."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many times its own body weight can the human femur (thigh bone) support before fracturing?",
+      "answer": 30,
+      "min": 2,
+      "max": 150,
+      "unit": "x",
+      "explanation": "The femur is incredibly strong and durable, capable of supporting up to 30 times an adult's entire body weight."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "What percentage of the average human body's mass is made up of the element carbon?",
+      "answer": 18.5,
+      "min": 1,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Carbon makes up about 18.5% of our body mass, which is enough to provide the graphite for thousands of pencils."
+    }
+  ]
+}
