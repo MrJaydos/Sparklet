@@ -11,6 +11,19 @@ type DepthVariant = { title: string; body: string; level: DepthLevel };
 
 const DEPTH_PREF_KEY = "sparklet.depth";
 
+const DEPTH_ICONS: Record<DepthLevel, string> = {
+  SIMPLE: "✨",
+  STANDARD: "📖",
+  DEEP: "🔬",
+  EXTRA_DEEP: "📚",
+};
+const DEPTH_LABELS: Record<DepthLevel, string> = {
+  SIMPLE: "Simpler",
+  STANDARD: "Standard",
+  DEEP: "Deeper",
+  EXTRA_DEEP: "Extra deep",
+};
+
 export function LearnCard({
   card,
   saved,
@@ -33,6 +46,7 @@ export function LearnCard({
   const [variant, setVariant] = useState<DepthVariant | null>(null);
   const [depthLoading, setDepthLoading] = useState<Exclude<DepthLevel, "STANDARD"> | null>(null);
   const [depthUnavailable, setDepthUnavailable] = useState(false);
+  const [openMenu, setOpenMenu] = useState<"depth" | "related" | null>(null);
   const variantCache = useState<Map<string, DepthVariant>>(() => new Map())[0];
 
   const level = variant?.level ?? "STANDARD";
@@ -285,33 +299,6 @@ export function LearnCard({
           </p>
         </div>
 
-        {/* Depth toggle — an enhancement; standard text never depends on it.
-            Choices persist as a preference for subsequent cards. */}
-        {!depthUnavailable && (
-          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-            {(
-              [
-                ["SIMPLE", "✨ Simpler"],
-                ["STANDARD", "↩ Standard"],
-                ["DEEP", "🔬 Go deeper"],
-                ["EXTRA_DEEP", "📚 Extra deep"],
-              ] as [DepthLevel, string][]
-            )
-              .filter(([l]) => l !== level)
-              .map(([l, label]) => (
-                <button
-                  key={l}
-                  type="button"
-                  onClick={() => chooseDepth(l)}
-                  disabled={depthLoading !== null && l !== "STANDARD"}
-                  className="rounded-full border border-neutral-800 px-3 py-1 text-neutral-400 transition hover:border-neutral-600 hover:text-neutral-200 disabled:opacity-50"
-                >
-                  {depthLoading === l ? "…" : label}
-                </button>
-              ))}
-          </div>
-        )}
-
         {/* Sources — deliberately visible, not tucked away */}
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {card.sources.map((s) => (
@@ -336,22 +323,17 @@ export function LearnCard({
           </a>
         </div>
 
-        {/* Related trail — somewhere for curiosity to go next */}
-        {card.related.length > 0 && (
-          <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-            <span className="text-neutral-500">Connects to</span>
-            {card.related.map((r) => (
-              <Link
-                key={r.id}
-                href={`/card/${r.id}`}
-                className="max-w-[15rem] truncate rounded-full border border-dashed border-neutral-700 px-3 py-1 text-neutral-300 transition hover:border-neutral-500 hover:text-white"
-              >
-                {r.icon} {r.title}
-              </Link>
-            ))}
-          </div>
-        )}
         </div>{/* /pr-16 */}
+
+      {/* Tap anywhere outside the rail's flyouts to close them */}
+      {openMenu && (
+        <button
+          type="button"
+          aria-label="Close menu"
+          onClick={() => setOpenMenu(null)}
+          className="fixed inset-0 z-10 cursor-default"
+        />
+      )}
 
       {/* Action rail — TikTok-style vertical stack, clear of the text column */}
       <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+2rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5">
@@ -386,6 +368,82 @@ export function LearnCard({
             ▼
           </button>
         </div>
+
+        {!depthUnavailable && (
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => setOpenMenu((m) => (m === "depth" ? null : "depth"))}
+              aria-label={`Reading depth: ${DEPTH_LABELS[level]} — tap to change`}
+              aria-expanded={openMenu === "depth"}
+              className={`flex h-11 w-11 items-center justify-center rounded-full text-lg backdrop-blur transition active:scale-110 ${
+                openMenu === "depth" ? "bg-neutral-800" : "bg-neutral-900/70"
+              }`}
+            >
+              {DEPTH_ICONS[level]}
+            </button>
+            {openMenu === "depth" && (
+              <div className="absolute right-full top-1/2 z-20 mr-2 flex -translate-y-1/2 flex-col items-end gap-1.5">
+                {(
+                  [
+                    ["SIMPLE", "✨ Simpler"],
+                    ["STANDARD", "↩ Standard"],
+                    ["DEEP", "🔬 Go deeper"],
+                    ["EXTRA_DEEP", "📚 Extra deep"],
+                  ] as [DepthLevel, string][]
+                )
+                  .filter(([l]) => l !== level)
+                  .map(([l, label]) => (
+                    <button
+                      key={l}
+                      type="button"
+                      onClick={() => {
+                        chooseDepth(l);
+                        setOpenMenu(null);
+                      }}
+                      disabled={depthLoading !== null && l !== "STANDARD"}
+                      className="whitespace-nowrap rounded-full border border-neutral-700 bg-neutral-900/95 px-3 py-1 text-xs text-neutral-300 shadow-lg backdrop-blur transition hover:border-neutral-500 hover:text-white disabled:opacity-50"
+                    >
+                      {depthLoading === l ? "…" : label}
+                    </button>
+                  ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {card.related.length > 0 && (
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => setOpenMenu((m) => (m === "related" ? null : "related"))}
+              aria-label="Connects to related cards"
+              aria-expanded={openMenu === "related"}
+              className={`flex h-11 w-11 items-center justify-center rounded-full text-lg backdrop-blur transition active:scale-110 ${
+                openMenu === "related" ? "bg-neutral-800" : "bg-neutral-900/70"
+              }`}
+            >
+              🧭
+            </button>
+            {openMenu === "related" && (
+              <div className="absolute right-full top-1/2 z-20 flex w-52 -translate-y-1/2 flex-col items-end gap-1.5 mr-2">
+                <span className="pr-1 text-[10px] font-semibold uppercase tracking-wide text-neutral-500">
+                  Connects to
+                </span>
+                {card.related.map((r) => (
+                  <Link
+                    key={r.id}
+                    href={`/card/${r.id}`}
+                    onClick={() => setOpenMenu(null)}
+                    className="max-w-full truncate rounded-full border border-dashed border-neutral-700 bg-neutral-900/95 px-3 py-1 text-xs text-neutral-300 shadow-lg backdrop-blur transition hover:border-neutral-500 hover:text-white"
+                  >
+                    {r.icon} {r.title}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         <button
           type="button"
