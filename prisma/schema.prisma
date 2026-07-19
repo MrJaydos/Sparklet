@@ -37,6 +37,10 @@ model User {
   referredBy   User?   @relation("Referrals", fields: [referredById], references: [id], onDelete: SetNull)
   referrals    User[]  @relation("Referrals")
 
+  // Short shareable code (lazily generated on first need) — a fallback to
+  // adding friends by email, which silently no-ops on a typo or mismatch.
+  friendCode String? @unique
+
   accounts          Account[]
   sessions          Session[]
   interactions      UserCardInteraction[]

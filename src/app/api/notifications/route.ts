@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
-import { getAdminAlerts } from "@/lib/notifications";
+import { getAdminAlerts, getFriendAlerts } from "@/lib/notifications";
 
 export async function GET() {
   const session = await auth();
@@ -10,7 +10,7 @@ export async function GET() {
   if (!userId) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   const isAdmin = isAdminEmail(session.user?.email);
 
-  const [notifications, notifCount, adminAlerts] = await Promise.all([
+  const [notifications, notifCount, adminAlerts, friendAlerts] = await Promise.all([
     prisma.notification.findMany({
       where: { userId },
       orderBy: { createdAt: "desc" },
@@ -22,11 +22,15 @@ export async function GET() {
     }),
     prisma.notification.count({ where: { userId, readAt: null } }),
     isAdmin ? getAdminAlerts() : Promise.resolve([]),
+    getFriendAlerts(userId),
   ]);
 
+  const alertTotal = [...adminAlerts, ...friendAlerts].reduce((sum, a) => sum + a.count, 0);
+
   return NextResponse.json({
-    unreadCount: notifCount + adminAlerts.reduce((sum, a) => sum + a.count, 0),
+    unreadCount: notifCount + alertTotal,
     adminAlerts,
+    friendAlerts,
     notifications: notifications.map((n) => ({
       id: n.id,
       actorName: n.actorName,

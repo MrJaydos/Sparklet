@@ -17,11 +17,13 @@ type Notification = {
 };
 
 type AdminAlert = { id: string; label: string; count: number };
+type FriendAlert = { id: string; label: string; count: number };
 
 /**
  * Header notification bell. Tapping it opens a popup listing recent
- * comment-reply notifications (marking them read) plus, for admins, a
- * pinned section of open reports / cards awaiting review.
+ * comment-reply notifications (marking them read) plus pinned sections for
+ * pending friend requests (everyone) and, for admins, open reports / cards
+ * awaiting review.
  *
  * On mobile (< sm): full-screen slide-down sheet.
  * On desktop (≥ sm): compact pill dropdown anchored to the button.
@@ -38,6 +40,7 @@ export function NotificationsBell({
   const [open, setOpen] = useState(false);
   const [notifications, setNotifications] = useState<Notification[] | null>(null);
   const [adminAlerts, setAdminAlerts] = useState<AdminAlert[]>([]);
+  const [friendAlerts, setFriendAlerts] = useState<FriendAlert[]>([]);
   const { triggerRef, anchor, measure } = usePopoverAnchor<HTMLButtonElement>();
 
   const handleOpen = () => {
@@ -49,18 +52,21 @@ export function NotificationsBell({
         if (!data) return;
         setNotifications(data.notifications);
         const alerts: AdminAlert[] = data.adminAlerts ?? [];
+        const friends: FriendAlert[] = data.friendAlerts ?? [];
         setAdminAlerts(alerts);
-        const adminTotal = alerts.reduce((sum: number, a: AdminAlert) => sum + a.count, 0);
-        // Admin alerts aren't real notifications — only mark-read if there
-        // are genuine unread ones, then the badge settles on the alert total.
-        if (data.unreadCount > adminTotal) {
+        setFriendAlerts(friends);
+        const alertTotal = [...alerts, ...friends].reduce((sum, a) => sum + a.count, 0);
+        // Live alerts (admin queue, friend requests) aren't real notification
+        // rows — only mark-read if there are genuine unread ones, then the
+        // badge settles on the alert total.
+        if (data.unreadCount > alertTotal) {
           fetch("/api/notifications", { method: "POST" })
             .then((r) => {
-              if (r.ok) onOpened(adminTotal);
+              if (r.ok) onOpened(alertTotal);
             })
             .catch(() => {});
         } else {
-          onOpened(adminTotal);
+          onOpened(alertTotal);
         }
       })
       .catch(() => setNotifications([]));
@@ -122,6 +128,22 @@ export function NotificationsBell({
                         className="block rounded-xl border border-amber-700/60 bg-amber-950/30 p-3 text-sm text-amber-200 transition hover:border-amber-500"
                       >
                         🛠️ {a.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+
+              {friendAlerts.length > 0 && (
+                <ul className="mt-3 space-y-2">
+                  {friendAlerts.map((a) => (
+                    <li key={a.id}>
+                      <Link
+                        href="/profile"
+                        onClick={() => setOpen(false)}
+                        className="block rounded-xl border border-violet-700/60 bg-violet-950/30 p-3 text-sm text-violet-200 transition hover:border-violet-500"
+                      >
+                        🧑‍🤝‍🧑 {a.label}
                       </Link>
                     </li>
                   ))}

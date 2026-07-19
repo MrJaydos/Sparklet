@@ -3,14 +3,17 @@ import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 
-const bodySchema = z.object({ email: z.string().email() });
+const bodySchema = z.union([
+  z.object({ email: z.string().email() }),
+  z.object({ code: z.string().min(4).max(16) }),
+]);
 
 // Identical response whether or not the email belongs to an account, so this
 // can't be used to enumerate registered users. A fresh NextResponse every
 // call — its body is a ReadableStream that can only be consumed once, so a
 // single shared instance would return empty bodies after the first request.
-function sentResponse() {
-  return NextResponse.json({ ok: true, message: "Request sent if they're on Sparklet." });
+function sentResponse(message = "Request sent if they're on Sparklet.") {
+  return NextResponse.json({ ok: true, message });
 }
 
 export async function POST(req: NextRequest) {
@@ -21,11 +24,28 @@ export async function POST(req: NextRequest) {
   const parsed = bodySchema.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "invalid body" }, { status: 400 });
 
-  const target = await prisma.user.findUnique({
-    where: { email: parsed.data.email.toLowerCase().trim() },
-    select: { id: true },
-  });
-  if (!target || target.id === userId) return sentResponse();
+  const byCode = "code" in parsed.data;
+  const target = "code" in parsed.data
+    ? await prisma.user.findUnique({
+        where: { friendCode: parsed.data.code.toUpperCase().trim() },
+        select: { id: true },
+      })
+    : await prisma.user.findUnique({
+        where: { email: parsed.data.email.toLowerCase().trim() },
+        select: { id: true },
+      });
+
+  // A friend code is deliberately shared by its owner to be found — unlike
+  // an email, revealing "no account with that code" doesn't turn this into
+  // an oracle for anything the caller doesn't already control. Give honest
+  // feedback there; keep the generic response for email lookups.
+  if (byCode) {
+    if (!target) return NextResponse.json({ error: "No account with that code." }, { status: 404 });
+    if (target.id === userId)
+      return NextResponse.json({ error: "That's your own code." }, { status: 400 });
+  } else if (!target || target.id === userId) {
+    return sentResponse();
+  }
 
   const [outgoing, incoming] = await Promise.all([
     prisma.friendship.findUnique({
@@ -36,7 +56,9 @@ export async function POST(req: NextRequest) {
     }),
   ]);
 
-  if (outgoing || incoming?.status === "ACCEPTED") return sentResponse();
+  const sent = byCode ? () => sentResponse("Friend request sent!") : sentResponse;
+
+  if (outgoing || incoming?.status === "ACCEPTED") return sent();
 
   if (incoming?.status === "PENDING") {
     // Mutual request — accept theirs instead of creating a second row.
@@ -49,5 +71,5 @@ export async function POST(req: NextRequest) {
       data: { requesterId: userId, addresseeId: target.id },
     });
   }
-  return sentResponse();
+  return sent();
 }

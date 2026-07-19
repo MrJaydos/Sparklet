@@ -9,28 +9,45 @@ export function FriendsPanel({
   friends,
   incoming,
   outgoing,
+  friendCode,
 }: {
   friends: FriendRow[];
   incoming: FriendRow[];
   outgoing: FriendRow[];
+  friendCode: string;
 }) {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [busyId, setBusyId] = useState<string | null>(null);
   const [sending, setSending] = useState(false);
   const [notice, setNotice] = useState<string | null>(null);
+  const [codeCopied, setCodeCopied] = useState(false);
+
+  const copyCode = async () => {
+    try {
+      await navigator.clipboard.writeText(friendCode);
+      setCodeCopied(true);
+      setTimeout(() => setCodeCopied(false), 1800);
+    } catch {
+      /* clipboard unavailable */
+    }
+  };
 
   const sendRequest = async () => {
-    if (!email.trim() || sending) return;
+    const value = email.trim();
+    if (!value || sending) return;
     setSending(true);
     try {
+      // A friend code (e.g. "K7M4QRT") has no @ — fall back to it when the
+      // input isn't a plausible email, so the same field handles both.
+      const isEmail = /\S+@\S+\.\S+/.test(value);
       const res = await fetch("/api/friends", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email: email.trim() }),
+        body: JSON.stringify(isEmail ? { email: value } : { code: value }),
       });
       const data = await res.json().catch(() => null);
-      setNotice(res.ok ? data?.message ?? "Request sent." : "Couldn't send that request.");
+      setNotice(res.ok ? data?.message ?? "Request sent." : data?.error ?? "Couldn't send that request.");
       setEmail("");
       router.refresh();
     } finally {
@@ -54,12 +71,25 @@ export function FriendsPanel({
 
   return (
     <div className="mt-3">
-      <div className="flex gap-2">
+      <div className="flex items-center justify-between gap-3 rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-2.5">
+        <span className="min-w-0 truncate text-sm text-neutral-400">
+          Your code: <span className="font-mono font-semibold tracking-wider text-neutral-100">{friendCode}</span>
+        </span>
+        <button
+          type="button"
+          onClick={copyCode}
+          className="shrink-0 rounded-full border border-neutral-700 px-3 py-1 text-xs font-medium text-neutral-300 transition hover:border-neutral-500 hover:text-white"
+        >
+          {codeCopied ? "Copied!" : "Copy"}
+        </button>
+      </div>
+
+      <div className="mt-2 flex gap-2">
         <input
-          type="email"
+          type="text"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Add a friend by email"
+          placeholder="Add a friend by email or code"
           className="min-w-0 flex-1 rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-2 text-sm text-neutral-100 placeholder:text-neutral-500 focus:border-violet-500 focus:outline-none"
         />
         <button
@@ -127,7 +157,7 @@ export function FriendsPanel({
 
       {friends.length === 0 ? (
         <p className="mt-3 text-sm text-neutral-500">
-          No friends yet — add one by email to compare progress on the leaderboard.
+          No friends yet — add one by email or code to compare progress on the leaderboard.
         </p>
       ) : (
         <ul className="mt-3 space-y-1.5">

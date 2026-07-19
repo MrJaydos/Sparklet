@@ -28,12 +28,31 @@ export async function getAdminAlerts(): Promise<AdminAlert[]> {
   return alerts;
 }
 
+/** Live-computed personal action items — pending incoming friend requests.
+ *  Not persisted rows; they clear themselves once accepted/declined. */
+export async function getFriendAlerts(userId: string): Promise<AdminAlert[]> {
+  const pending = await prisma.friendship.count({
+    where: { addresseeId: userId, status: "PENDING" },
+  });
+  if (pending === 0) return [];
+  return [
+    {
+      id: "friend-requests",
+      label: `${pending} friend request${pending === 1 ? "" : "s"}`,
+      count: pending,
+    },
+  ];
+}
+
 /** Notification-bell badge count — real unread notifications, plus admin
- *  action items when the viewer is an admin. */
+ *  action items when the viewer is an admin, plus pending friend requests
+ *  for everyone. */
 export async function getUnreadCount(userId: string, isAdmin: boolean): Promise<number> {
-  const [notifCount, alerts] = await Promise.all([
+  const [notifCount, adminAlerts, friendAlerts] = await Promise.all([
     prisma.notification.count({ where: { userId, readAt: null } }),
     isAdmin ? getAdminAlerts() : Promise.resolve([]),
+    getFriendAlerts(userId),
   ]);
-  return notifCount + alerts.reduce((sum, a) => sum + a.count, 0);
+  const alertTotal = [...adminAlerts, ...friendAlerts].reduce((sum, a) => sum + a.count, 0);
+  return notifCount + alertTotal;
 }

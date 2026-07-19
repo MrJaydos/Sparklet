@@ -9,6 +9,7 @@ import { displayName } from "@/lib/display";
 import { computeBadges } from "@/lib/badges";
 import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
+import { ensureFriendCode } from "@/lib/friends";
 import { AppHeader } from "@/components/AppHeader";
 import { PushToggle } from "@/components/PushToggle";
 import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
@@ -42,6 +43,7 @@ export default async function ProfilePage() {
     quizzesCorrect,
     guessesAnswered,
     friendships,
+    friendCode,
   ] = await Promise.all([
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
@@ -119,6 +121,7 @@ export default async function ProfilePage() {
         addressee: { select: { name: true, email: true } },
       },
     }),
+    ensureFriendCode(userId),
   ]);
 
   const friends: FriendRow[] = [];
@@ -260,7 +263,7 @@ export default async function ProfilePage() {
       </div>
 
       <h2 className="mt-8 text-lg font-bold">Friends</h2>
-      <FriendsPanel friends={friends} incoming={incoming} outgoing={outgoing} />
+      <FriendsPanel friends={friends} incoming={incoming} outgoing={outgoing} friendCode={friendCode} />
 
       <PushToggle />
 
