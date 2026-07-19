@@ -5,6 +5,7 @@ import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
 import { displayName } from "@/lib/display";
+import { computeBadges } from "@/lib/badges";
 import { PushToggle } from "@/components/PushToggle";
 
 export const metadata = { title: "Profile — Sparklet" };
@@ -23,7 +24,16 @@ export default async function ProfilePage() {
   if (!session?.user?.id) redirect("/login");
   const userId = session.user.id;
 
-  const [user, totalViewed, topCategories, history, savedCards, dueReviews] = await Promise.all([
+  const [
+    user,
+    totalViewed,
+    { top: topCategories, total: categoriesExplored },
+    history,
+    savedCards,
+    dueReviews,
+    quizzesCorrect,
+    guessesAnswered,
+  ] = await Promise.all([
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
       select: {
@@ -41,7 +51,7 @@ export default async function ProfilePage() {
       where: { userId, completed: true },
       _count: true,
     }).then(async (rows) => {
-      if (rows.length === 0) return [];
+      if (rows.length === 0) return { top: [], total: 0 };
       const cards = await prisma.card.findMany({
         where: { id: { in: rows.map((r) => r.cardId) } },
         select: { category: { select: { name: true, icon: true, colorHex: true } } },
@@ -52,7 +62,8 @@ export default async function ProfilePage() {
         cur.count++;
         counts.set(c.category.name, cur);
       }
-      return [...counts.values()].sort((a, b) => b.count - a.count).slice(0, 5);
+      const sorted = [...counts.values()].sort((a, b) => b.count - a.count);
+      return { top: sorted.slice(0, 5), total: sorted.length };
     }),
     prisma.userCardInteraction.findMany({
       where: { userId, completed: true },
@@ -86,7 +97,18 @@ export default async function ProfilePage() {
     prisma.spacedRepetitionState.count({
       where: { userId, nextReviewAt: { lte: new Date() } },
     }),
+    prisma.userQuizAttempt.count({ where: { userId, correct: true } }),
+    prisma.userGuessAttempt.count({ where: { userId } }),
   ]);
+
+  const badges = computeBadges({
+    cards: totalViewed,
+    streak: user.longestStreak,
+    quiz: quizzesCorrect,
+    categories: categoriesExplored,
+    notebook: savedCards.length,
+    guess: guessesAnswered,
+  });
 
   async function signOutAction() {
     "use server";
@@ -183,6 +205,32 @@ export default async function ProfilePage() {
           </>
         )}
       </p>
+
+      <h2 className="mt-8 text-lg font-bold">Badges</h2>
+      <div className="mt-3 grid grid-cols-3 gap-2 sm:grid-cols-6">
+        {badges.map((b) => (
+          <div
+            key={b.key}
+            className={`rounded-2xl border p-3 text-center ${
+              b.earnedTier
+                ? "border-amber-500/40 bg-amber-500/10"
+                : "border-neutral-800 bg-neutral-900"
+            }`}
+          >
+            <div className={`text-2xl ${b.earnedTier ? "" : "opacity-30 grayscale"}`}>{b.icon}</div>
+            <div
+              className={`mt-1 text-xs font-semibold ${
+                b.earnedTier ? "text-amber-300" : "text-neutral-500"
+              }`}
+            >
+              {b.earnedTier ? b.earnedTier.label : b.name}
+            </div>
+            <div className="mt-0.5 text-[11px] text-neutral-500">
+              {b.nextTier ? `${b.value}/${b.nextTier.threshold}` : "maxed"}
+            </div>
+          </div>
+        ))}
+      </div>
 
       <PushToggle />
 
