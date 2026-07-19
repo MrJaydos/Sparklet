@@ -245,7 +245,9 @@ export function LearnCard({
         }}
       >
         {card.imageUrl && (
-          <CardImage src={card.imageUrl} className="mb-4 max-h-[32dvh] rounded-2xl" />
+          <div className="mb-4 min-h-[15dvh] max-h-[55dvh] flex-1">
+            <CardImage src={card.imageUrl} className="h-full rounded-2xl" />
+          </div>
         )}
         <div className="pr-16">{/* keep text clear of the action rail */}
 
