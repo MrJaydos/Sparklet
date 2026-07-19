@@ -4,7 +4,12 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FeedCard, FeedQuiz, FeedGuess } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
-import { CategorySheet, type CategoryOption } from "./CategorySheet";
+import {
+  CategorySheet,
+  type CategoryOption,
+  DAILY_CARD_GOAL_KEY,
+  DEFAULT_DAILY_CARD_GOAL,
+} from "./CategorySheet";
 import { SearchSheet } from "./SearchSheet";
 import { MenuSheet } from "./MenuSheet";
 import { CommentsSheet } from "./CommentsSheet";
@@ -29,6 +34,7 @@ const GUESS_OFFSET = 3;
 
 const INVITE_AFTER_CARDS = 12; // show once per qualifying session, after this many cards
 const INVITE_SESSION_KEY = "sparklet.inviteSessionCount";
+const GOAL_HIT_KEY = "sparklet.goalHit"; // date string — one goal-complete screen per day
 
 type FeedItem =
   | { kind: "card"; card: FeedCard }
@@ -36,6 +42,7 @@ type FeedItem =
   | { kind: "guess"; guess: FeedGuess }
   | { kind: "checkin"; afterCount: number }
   | { kind: "invite" }
+  | { kind: "goalReached" }
   | { kind: "end" };
 
 export function Feed({
@@ -50,6 +57,7 @@ export function Feed({
   initialUnread,
   initialXpToday,
   dailyGoal,
+  initialCardsToday,
   inviteUrl,
   isAdmin,
   signOutAction,
@@ -65,6 +73,7 @@ export function Feed({
   initialUnread: number;
   initialXpToday: number;
   dailyGoal: number;
+  initialCardsToday: number;
   inviteUrl: string;
   isAdmin: boolean;
   signOutAction: () => Promise<void>;
@@ -76,6 +85,12 @@ export function Feed({
   const [xpToday, setXpToday] = useState(initialXpToday);
   const [goalCelebration, setGoalCelebration] = useState(false);
   const xpTodayRef = useRef(initialXpToday);
+  const [cardsToday, setCardsToday] = useState(initialCardsToday);
+  const cardsTodayRef = useRef(initialCardsToday);
+  const [dailyCardGoal, setDailyCardGoal] = useState(DEFAULT_DAILY_CARD_GOAL);
+  const [sessionCategories, setSessionCategories] = useState<Set<string>>(new Set());
+  const [goalReachedAfter, setGoalReachedAfter] = useState<number | null>(null);
+  const sessionViewsRef = useRef(0);
   const [selected, setSelected] = useState<string[]>([]);
   const [saves, setSaves] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.saved]))
@@ -118,6 +133,15 @@ export function Feed({
   // daily XP window in local time instead of guessing UTC.
   useEffect(() => {
     document.cookie = `sparklet.tz=${new Date().getTimezoneOffset()}; path=/; max-age=31536000; samesite=lax`;
+  }, []);
+
+  useEffect(() => {
+    try {
+      const v = Number(localStorage.getItem(DAILY_CARD_GOAL_KEY));
+      if (Number.isFinite(v) && v > 0) queueMicrotask(() => setDailyCardGoal(v));
+    } catch {
+      /* private mode — default goal stands */
+    }
   }, []);
 
   // XP flows back from every interaction/answer; crossing the daily goal
@@ -246,6 +270,26 @@ export function Feed({
     }
   }, []);
 
+  // One more "thing learned" today — read, review recall, quiz, or guess.
+  // Crossing the user's daily goal shows a one-time completion screen,
+  // gated by date so it doesn't refire every session once past the goal.
+  const markCardCompleted = useCallback(() => {
+    cardsTodayRef.current += 1;
+    const next = cardsTodayRef.current;
+    setCardsToday(next);
+    if (next - 1 < dailyCardGoal && next >= dailyCardGoal) {
+      const today = new Date().toDateString();
+      try {
+        if (localStorage.getItem(GOAL_HIT_KEY) !== today) {
+          localStorage.setItem(GOAL_HIT_KEY, today);
+          setGoalReachedAfter(sessionViewsRef.current);
+        }
+      } catch {
+        setGoalReachedAfter(sessionViewsRef.current);
+      }
+    }
+  }, [dailyCardGoal]);
+
   const postView = useCallback(async (cardId: string, dwellMs?: number) => {
     try {
       const res = await fetch("/api/interactions", {
@@ -261,6 +305,7 @@ export function Feed({
       if (res.ok) {
         const data = await res.json();
         handleXp(data.xp);
+        if (data.read) markCardCompleted();
         if (data.streak) {
           setStreak(data.streak.currentStreak);
           setLongestStreak(data.streak.longestStreak);
@@ -278,16 +323,23 @@ export function Feed({
     } catch {
       /* non-fatal */
     }
-  }, [handleXp]);
+  }, [handleXp, markCardCompleted]);
 
   // Marks the card as seen (so the feed never repeats it) but earns nothing —
   // XP and streak wait for the read ping below.
+  const addSessionCategory = useCallback((name: string | undefined) => {
+    if (!name) return;
+    setSessionCategories((prev) => (prev.has(name) ? prev : new Set(prev).add(name)));
+  }, []);
+
   const markViewed = useCallback((cardId: string) => {
     if (viewedRef.current.has(cardId)) return;
     viewedRef.current.add(cardId);
-    setSessionViews((n) => n + 1);
+    sessionViewsRef.current += 1;
+    setSessionViews(sessionViewsRef.current);
+    addSessionCategory(cardsRef.current.find((c) => c.id === cardId)?.category.name);
     postView(cardId);
-  }, [postView]);
+  }, [postView, addSessionCategory]);
 
   // Read ping: fires once a card has stayed active past the server's read
   // threshold, turning the view into a completed read (XP, streak, demand
@@ -521,10 +573,11 @@ export function Feed({
       }
       if ((i + 1) % CHECKIN_EVERY === 0) out.push({ kind: "checkin", afterCount: i + 1 });
       if (showInviteCard && i + 1 === INVITE_AFTER_CARDS) out.push({ kind: "invite" });
+      if (goalReachedAfter !== null && i + 1 === goalReachedAfter) out.push({ kind: "goalReached" });
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, quizzes, guesses, exhausted, showInviteCard]);
+  }, [cards, quizzes, guesses, exhausted, showInviteCard, goalReachedAfter]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });
@@ -619,14 +672,22 @@ export function Feed({
               key={`quiz-${item.quiz.id}`}
               quiz={item.quiz}
               onContinue={scrollNext}
-              onResult={(r) => handleXp(r.xp)}
+              onResult={(r) => {
+                handleXp(r.xp);
+                markCardCompleted();
+                addSessionCategory(item.quiz.category.name);
+              }}
             />
           ) : item.kind === "guess" ? (
             <GuessView
               key={`guess-${item.guess.id}`}
               guess={item.guess}
               onContinue={scrollNext}
-              onResult={(r) => handleXp(r.xp)}
+              onResult={(r) => {
+                handleXp(r.xp);
+                markCardCompleted();
+                addSessionCategory(item.guess.category.name);
+              }}
             />
           ) : item.kind === "invite" ? (
             <section
@@ -662,12 +723,14 @@ export function Feed({
               className="flex h-dvh snap-start flex-col items-center justify-center gap-4 px-8 text-center"
             >
               <div className="text-5xl">🌱</div>
-              <h2 className="text-2xl font-bold">Nice — {sessionViews} cards this session</h2>
+              <h2 className="text-2xl font-bold">
+                You&apos;ve learned {sessionViews} thing{sessionViews === 1 ? "" : "s"} across{" "}
+                {sessionCategories.size} topic{sessionCategories.size === 1 ? "" : "s"}
+              </h2>
               <p className="max-w-sm text-neutral-400">
-                That&apos;s roughly {Math.max(1, Math.round((sessionViews * 20) / 60))} minutes of
-                learning. Keep going, or come back later — your streak is safe for today.
+                Keep going, or come back later — your streak is safe for today.
               </p>
-              <div className="mt-2 flex gap-3">
+              <div className="mt-2 flex flex-wrap justify-center gap-3">
                 <button
                   type="button"
                   onClick={scrollNext}
@@ -675,11 +738,61 @@ export function Feed({
                 >
                   Keep going
                 </button>
+                <button
+                  type="button"
+                  onClick={() =>
+                    shareOrCopy(
+                      {
+                        title: "Sparklet",
+                        text: `I just learned ${sessionViews} thing${sessionViews === 1 ? "" : "s"} across ${sessionCategories.size} topic${sessionCategories.size === 1 ? "" : "s"} on Sparklet ✨`,
+                        url: inviteUrl,
+                      },
+                      () => {
+                        setSaveNotice("Recap copied!");
+                        if (saveNoticeTimer.current) clearTimeout(saveNoticeTimer.current);
+                        saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 1800);
+                      }
+                    )
+                  }
+                  className="rounded-xl border border-neutral-700 px-6 py-3 font-semibold text-neutral-300 transition hover:border-neutral-500"
+                >
+                  Share recap
+                </button>
                 <Link
                   href="/profile"
                   className="rounded-xl border border-neutral-700 px-6 py-3 font-semibold text-neutral-300 transition hover:border-neutral-500"
                 >
                   Take a break
+                </Link>
+              </div>
+            </section>
+          ) : item.kind === "goalReached" ? (
+            <section
+              key="goal-reached"
+              className="relative flex h-dvh snap-start flex-col items-center justify-center gap-4 px-8 text-center"
+            >
+              <ConfettiBurst big />
+              <div className="text-6xl">🏁</div>
+              <h2 className="text-3xl font-bold">Daily goal complete!</h2>
+              <p className="max-w-sm text-neutral-400">
+                {cardsToday} cards today — you hit your goal of {dailyCardGoal}. That&apos;s{" "}
+                {sessionViews} this session across {sessionCategories.size} topic
+                {sessionCategories.size === 1 ? "" : "s"}. Ending on purpose beats endless
+                scrolling.
+              </p>
+              <div className="mt-2 flex flex-wrap justify-center gap-3">
+                <button
+                  type="button"
+                  onClick={scrollNext}
+                  className="rounded-xl bg-violet-600 px-6 py-3 font-semibold text-white transition hover:bg-violet-500"
+                >
+                  Keep going anyway
+                </button>
+                <Link
+                  href="/profile"
+                  className="rounded-xl border border-neutral-700 px-6 py-3 font-semibold text-neutral-300 transition hover:border-neutral-500"
+                >
+                  Done for today
                 </Link>
               </div>
             </section>
@@ -782,6 +895,7 @@ export function Feed({
           selected={selected}
           onApply={applyCategories}
           onClose={() => setShowSheet(false)}
+          onGoalChange={setDailyCardGoal}
         />
       )}
 

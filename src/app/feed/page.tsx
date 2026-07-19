@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getFeedCards } from "@/lib/feed";
-import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
+import { getXpToday, getCardsToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { isAdminEmail } from "@/lib/admin";
 import { getUnreadCount } from "@/lib/notifications";
 import { Feed } from "@/components/feed/Feed";
@@ -39,7 +39,11 @@ export default async function FeedPage() {
   // without it (first ever load) UTC approximates and the first
   // interaction response corrects the ring.
   const tzRaw = Number((await cookies()).get("sparklet.tz")?.value);
-  const xpToday = await getXpToday(userId, Number.isFinite(tzRaw) ? tzRaw : 0);
+  const tz = Number.isFinite(tzRaw) ? tzRaw : 0;
+  const [xpToday, cardsToday] = await Promise.all([
+    getXpToday(userId, tz),
+    getCardsToday(userId, tz),
+  ]);
 
   // First session: offer interest onboarding (skippable, one-time).
   if (!user.onboardedAt && user._count.interactions === 0) redirect("/onboarding");
@@ -62,6 +66,7 @@ export default async function FeedPage() {
       initialUnread={unread}
       initialXpToday={xpToday}
       dailyGoal={DAILY_GOAL_XP}
+      initialCardsToday={cardsToday}
       inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
       isAdmin={isAdmin}
       signOutAction={signOutAction}

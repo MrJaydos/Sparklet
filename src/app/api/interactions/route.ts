@@ -94,5 +94,5 @@ export async function POST(req: NextRequest) {
   const streak = read
     ? await updateStreakOnActivity(userId, tz)
     : undefined;
-  return NextResponse.json({ ok: true, streak, xp });
+  return NextResponse.json({ ok: true, streak, xp, read });
 }

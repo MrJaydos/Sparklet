@@ -20,16 +20,23 @@ const DEPTH_OPTIONS: { level: DepthLevel; label: string; blurb: string }[] = [
   { level: "EXTRA_DEEP", label: "📚 Extra deep", blurb: "mini-articles" },
 ];
 
+// Same key Feed reads to decide when to show the "goal complete" screen.
+export const DAILY_CARD_GOAL_KEY = "sparklet.dailyGoal";
+export const DEFAULT_DAILY_CARD_GOAL = 10;
+const GOAL_OPTIONS = [5, 10, 15, 20, 30];
+
 export function CategorySheet({
   categories,
   selected,
   onApply,
   onClose,
+  onGoalChange,
 }: {
   categories: CategoryOption[];
   selected: string[];
   onApply: (slugs: string[]) => void;
   onClose: () => void;
+  onGoalChange: (goal: number) => void;
 }) {
   const [picked, setPicked] = useState<string[]>(selected);
   const [depth, setDepth] = useState<DepthLevel>(() => {
@@ -40,6 +47,24 @@ export function CategorySheet({
       return "STANDARD";
     }
   });
+  const [goal, setGoal] = useState<number>(() => {
+    try {
+      const v = Number(localStorage.getItem(DAILY_CARD_GOAL_KEY));
+      return Number.isFinite(v) && v > 0 ? v : DEFAULT_DAILY_CARD_GOAL;
+    } catch {
+      return DEFAULT_DAILY_CARD_GOAL;
+    }
+  });
+
+  const chooseGoal = (n: number) => {
+    setGoal(n);
+    onGoalChange(n);
+    try {
+      localStorage.setItem(DAILY_CARD_GOAL_KEY, String(n));
+    } catch {
+      /* private mode */
+    }
+  };
 
   const toggle = (slug: string) =>
     setPicked((p) => (p.includes(slug) ? p.filter((s) => s !== slug) : [...p, slug]));
@@ -126,6 +151,31 @@ export function CategorySheet({
                   {o.label}
                 </span>
                 <span className="block text-xs text-neutral-500">{o.blurb}</span>
+              </button>
+            );
+          })}
+        </div>
+
+        <h3 className="mt-5 text-sm font-semibold text-neutral-200">Daily goal</h3>
+        <p className="mt-0.5 text-xs text-neutral-500">
+          Cards to hit each day before the feed celebrates and offers a break.
+        </p>
+        <div className="mt-2 flex flex-wrap gap-2">
+          {GOAL_OPTIONS.map((n) => {
+            const active = goal === n;
+            return (
+              <button
+                key={n}
+                type="button"
+                onClick={() => chooseGoal(n)}
+                aria-pressed={active}
+                className={`rounded-xl border px-4 py-2 text-sm font-semibold transition ${
+                  active
+                    ? "border-violet-500 bg-violet-500/15 text-violet-300"
+                    : "border-neutral-800 bg-neutral-900 text-neutral-300 hover:border-neutral-600"
+                }`}
+              >
+                {n}
               </button>
             );
           })}

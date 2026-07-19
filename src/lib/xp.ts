@@ -48,6 +48,15 @@ export async function getXpToday(userId: string, tzOffsetMinutes: number): Promi
   return sum._sum.amount ?? 0;
 }
 
+// "Things learned today" for the card-count goal: one XpEvent row is
+// created per completed card (read, review recall, quiz, guess), so this
+// is a count over the same window getXpToday sums.
+export async function getCardsToday(userId: string, tzOffsetMinutes: number): Promise<number> {
+  return prisma.xpEvent.count({
+    where: { userId, createdAt: { gte: localDayStart(tzOffsetMinutes) } },
+  });
+}
+
 // Ceiling on read-XP awards per rolling minute. A real reader tops out
 // around 11/min (the client's read ping needs ~5s of dwell per card), so
 // legit users never touch this; parallel-request farming does.
