@@ -7,6 +7,11 @@ on:
     # today, so most calls are cheap no-ops.
     - cron: "0 */2 * * *"
   workflow_dispatch:
+    inputs:
+      test:
+        description: "Send an immediate test notification to all subscribers"
+        type: boolean
+        default: false
 
 jobs:
   nudge:
@@ -16,8 +21,11 @@ jobs:
         env:
           APP_URL: ${{ secrets.APP_URL }}
           REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
+          TEST: ${{ github.event.inputs.test }}
         run: |
-          status=$(curl -s -o resp.json -w "%{http_code}" -X POST "$APP_URL/api/admin/nudge" \
+          url="$APP_URL/api/admin/nudge"
+          if [ "$TEST" = "true" ]; then url="$url?test=1"; fi
+          status=$(curl -s -o resp.json -w "%{http_code}" -X POST "$url" \
             -H "Authorization: Bearer $REVALIDATE_TOKEN")
           cat resp.json; echo
           if [ "$status" != "200" ]; then

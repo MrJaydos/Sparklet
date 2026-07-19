@@ -97,6 +97,25 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ sent: 0, note: "push not configured (VAPID keys unset)" });
   }
 
+  // ?test=1: fire an immediate test notification to every subscription,
+  // bypassing the evening/active-today/cooldown filters — for verifying
+  // delivery end to end. Doesn't consume the daily nudge.
+  if (req.nextUrl.searchParams.get("test")) {
+    const subscribed = await prisma.user.findMany({
+      where: { pushSubscriptions: { some: {} } },
+      select: { id: true },
+    });
+    let sent = 0;
+    for (const u of subscribed) {
+      sent += await pushToUser(u.id, {
+        title: "🔔 Test from Sparklet",
+        body: "Push delivery works — reminders will arrive like this.",
+        url: "/feed",
+      });
+    }
+    return NextResponse.json({ test: true, subscribers: subscribed.length, sent });
+  }
+
   const users = await prisma.user.findMany({
     where: { pushSubscriptions: { some: {} } },
     select: {
