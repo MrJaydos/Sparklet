@@ -864,8 +864,15 @@ export function Feed({
         )}
 
         {cards.length === 0 && !exhausted && (
-          <div className="flex h-dvh items-center justify-center text-neutral-500">
-            {loading ? "Loading your feed…" : "No cards yet — check back soon."}
+          <div className="flex h-dvh flex-col items-center justify-center gap-3 text-neutral-500">
+            {loading ? (
+              <>
+                <div className="animate-bounce text-4xl">✨</div>
+                <span className="text-sm font-medium">Shuffling your feed…</span>
+              </>
+            ) : (
+              "No cards yet — check back soon."
+            )}
           </div>
         )}
       </div>

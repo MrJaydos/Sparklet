@@ -1,0 +1,33 @@
+import { SkeletonHeader } from "@/components/SkeletonHeader";
+
+export default function Loading() {
+  return (
+    <>
+      <SkeletonHeader />
+      <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">
+        <div className="h-7 w-32 animate-pulse rounded bg-neutral-800" />
+        <div className="mt-2 h-4 w-48 animate-pulse rounded bg-neutral-900" />
+
+        <div className="mt-6 grid grid-cols-4 gap-2">
+          {Array.from({ length: 4 }).map((_, i) => (
+            <div key={i} className="h-20 animate-pulse rounded-xl bg-neutral-900" />
+          ))}
+        </div>
+
+        <div className="mt-8 h-5 w-20 animate-pulse rounded bg-neutral-800" />
+        <div className="mt-3 grid grid-cols-3 gap-2">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div key={i} className="h-20 animate-pulse rounded-xl bg-neutral-900" />
+          ))}
+        </div>
+
+        <div className="mt-8 h-5 w-24 animate-pulse rounded bg-neutral-800" />
+        <div className="mt-3 space-y-2">
+          {Array.from({ length: 3 }).map((_, i) => (
+            <div key={i} className="h-12 animate-pulse rounded-xl bg-neutral-900" />
+          ))}
+        </div>
+      </main>
+    </>
+  );
+}
