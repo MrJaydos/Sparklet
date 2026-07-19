@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T12:46:48.804Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a green apple \"proves\" all ravens are black",
+      "body": "In the 1940s, logician Carl Gustav Hempel showed a strange quirk in how we confirm hypotheses. The statement \"all ravens are black\" is logically equivalent to \"all non-black things are non-ravens.\" Therefore, observing a green apple—which is non-black and not a raven—technically provides inductive evidence that all ravens are black. This logical puzzle forces philosophers to rethink how evidence actually works.",
+      "imageWikipediaTitle": "Common raven",
+      "sources": [
+        {
+          "title": "Raven paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raven_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Raven_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1,000-year-old experiment that proved your mind exists",
+      "body": "Long before Descartes wrote \"I think, therefore I am,\" the Persian philosopher Avicenna proposed a thought experiment in 1025. Imagine a person created fully formed, floating in a void, with their eyes covered and limbs splayed so they feel nothing. Avicenna argued that even without any sensory input, this floating person would still be absolutely certain of their own existence. This suggests the soul or mind is distinct from the physical body.",
+      "imageWikipediaTitle": "Avicenna",
+      "sources": [
+        {
+          "title": "Floating Man",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Floating_Man"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Floating_Man",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Plato’s ultimate test of human morality",
+      "body": "In Plato's Republic, the character Glaucon tells the story of Gyges, a shepherd who finds a ring that grants invisibility. Gyges uses it to seduce the queen, murder the king, and take over the kingdom. Glaucon argues that if two such rings existed—one given to a just person and one to an unjust person—both would eventually behave identically. It asks: do we only behave well because we fear getting caught?",
+      "imageWikipediaTitle": "Plato",
+      "sources": [
+        {
+          "title": "Ring of Gyges",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ring_of_Gyges"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ring_of_Gyges",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The unconscious violinist and bodily autonomy",
+      "body": "In 1971, philosopher Judith Jarvis Thomson proposed a famous thought experiment to defend the ethics of abortion. Imagine waking up connected to an unconscious, world-famous violinist. The Society of Music Lovers plugged him into your kidneys to keep him alive for nine months; unplugging him will kill him. Thomson argues that while the violinist has a right to life, that right does not automatically grant him the use of your body without your ongoing consent.",
+      "imageWikipediaTitle": "Violin",
+      "sources": [
+        {
+          "title": "A Defense of Abortion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Defense_of_Abortion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/A_Defense_of_Abortion",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The paradox where perfect prediction ruins free choice",
+      "body": "Imagine a supercomputer that predicts human choices with 100% accuracy. You are presented with two boxes: Box A contains $1,000, and Box B contains either $1 million or nothing. You can choose only Box B, or both boxes. If the computer predicted you would choose both, it left Box B empty. If it predicted you would choose only B, it put the million inside. What do you choose? Philosophers remain deeply divided on the rational choice.",
+      "imageWikipediaTitle": "Decision theory",
+      "sources": [
+        {
+          "title": "Newcomb's paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Newcomb%27s_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Newcomb%27s_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can never truly know what someone else feels",
+      "body": "Ludwig Wittgenstein asked us to imagine a group of people, each holding a box. Inside each box is something they call a \"beetle.\" No one can look inside anyone else's box; they only know what a beetle is by looking at their own. Wittgenstein argued that even if everyone’s box contained something completely different, or was entirely empty, the word \"beetle\" would still function in their language. It illustrates how our private experiences cannot be directly shared.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Private language argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Private_language_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Private_language_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient Greek spear that proved space is infinite",
+      "body": "Around 400 BCE, the Greek philosopher Archytas of Tarentum designed a simple thought experiment to prove the universe has no edge. If you traveled to the supposed edge of the universe, could you stretch your hand or thrust a spear outward? If you can, space extends further. If you cannot, there must be a barrier, which itself exists in space. Either way, the boundary shifts, demonstrating that space must be boundless.",
+      "imageWikipediaTitle": "Spear",
+      "sources": [
+        {
+          "title": "Archytas",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Archytas"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Archytas",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "If lightning recreated you atom-for-atom, is it still you?",
+      "body": "In 1987, philosopher Donald Davidson introduced the \"Swampman\" thought experiment. Imagine Davidson is standing next to a swamp when lightning strikes and vaporizes him. At the same instant, another lightning bolt strikes the swamp, spontaneously rearranging molecules to form an exact physical replica of him. This Swampman behaves exactly like Davidson, goes to work, and greets his friends. But does he actually have Davidson's memories, thoughts, or history, having never experienced them?",
+      "imageWikipediaTitle": "Donald Davidson (philosopher)",
+      "sources": [
+        {
+          "title": "Swampman",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Swampman"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Swampman",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How liberty disrupts perfect economic equality",
+      "body": "In 1974, libertarian philosopher Robert Nozick used basketball star Wilt Chamberlain to challenge wealth redistribution. Imagine a society with perfect wealth equality. Chamberlain signs a contract: fans voluntarily pay an extra 25 cents per ticket directly to him to watch him play. A million fans happily attend. Chamberlain is now extremely rich, disrupting the equal distribution. Nozick argued that to maintain any patterned distribution of wealth, a state must continuously interfere with people's free choices.",
+      "imageWikipediaTitle": "Wilt Chamberlain",
+      "sources": [
+        {
+          "title": "Anarchy, State, and Utopia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient paradox of why we can't learn anything new",
+      "body": "In Plato's Meno, the character Meno presents a frustrating puzzle about the nature of inquiry. If you already know what you are looking for, inquiry is unnecessary because you already have the answer. If you do not know what you are looking for, you cannot search for it, because you won't recognize it even if you stumble upon it. Socrates attempted to resolve this by arguing that learning is actually just \"recollecting\" knowledge from past lives.",
+      "imageWikipediaTitle": "Socrates",
+      "sources": [
+        {
+          "title": "Meno",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Meno"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Meno",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Hempel's Raven Paradox, which of these objects logically supports the claim that 'all ravens are black'?",
+      "options": [
+        "A black raven",
+        "A green apple",
+        "A white raven",
+        "A red herring"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because 'all ravens are black' is logically equivalent to 'all non-black things are non-ravens', observing a non-black, non-raven object like a green apple provides inductive support for the hypothesis."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What power does the mythical Ring of Gyges grant its wearer?",
+      "options": [
+        "Mind reading",
+        "Invisibility",
+        "Infinite wealth",
+        "Immortality"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ring of Gyges grants the wearer complete invisibility, which Plato uses to explore whether people would still act morally if they could never be caught."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What was Ludwig Wittgenstein illustrating with his 'Beetle in a Box' thought experiment?",
+      "options": [
+        "The necessity of entomology",
+        "The privacy of our inner subjective experiences",
+        "The physical limits of human memory",
+        "The evolutionary origin of language"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wittgenstein used the beetle analogy to show that our private experiences (like pain) cannot be directly shared, yet our language still functions to communicate them."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What did the ancient Greek philosopher Archytas of Tarentum use a thrown spear to argue for?",
+      "options": [
+        "The inevitability of war",
+        "The curvature of the Earth",
+        "The infinite nature of space",
+        "The speed of light"
+      ],
+      "correctIndex": 2,
+      "explanation": "Archytas argued that if you stood at the edge of the universe and threw a spear, it would either go further or hit a barrier (which itself occupies space), meaning space must be infinite."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What was Robert Nozick's Wilt Chamberlain argument designed to demonstrate?",
+      "options": [
+        "That professional athletes are overpaid",
+        "That voluntary transactions naturally disrupt wealth equality",
+        "That capitalism is inherently unstable",
+        "That basketball requires cooperative social contracts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nozick argued that even if you start with perfect wealth equality, voluntary transactions (like fans buying tickets) will inevitably create inequality, meaning redistribution requires constant interference."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In what year was Judith Jarvis Thomson's highly influential philosophical paper 'A Defense of Abortion' published?",
+      "answer": 1971,
+      "min": 1950,
+      "max": 2000,
+      "unit": "",
+      "explanation": "Published in 1971, Thomson's paper introduced the violinist thought experiment and remains one of the most widely read works in applied ethics."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "In approximately what year BCE did the Greek philosopher Archytas of Tarentum design his infinite-space thought experiment?",
+      "answer": 400,
+      "min": 100,
+      "max": 800,
+      "unit": "BCE",
+      "explanation": "Archytas proposed his thought experiment around 400 BCE, using a simple mechanical analogy to argue for the boundless nature of the cosmos."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "In what year did philosopher Robert Nozick publish 'Anarchy, State, and Utopia', which featured the Wilt Chamberlain thought experiment?",
+      "answer": 1974,
+      "min": 1950,
+      "max": 2010,
+      "unit": "",
+      "explanation": "Nozick published 'Anarchy, State, and Utopia' in 1974, presenting a powerful libertarian critique of patterned distributive justice."
+    }
+  ]
+}

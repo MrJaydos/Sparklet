@@ -1,0 +1,238 @@
+{
+  "generatedAt": "2026-07-19T12:44:43.265Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pineapples tingle on your tongue",
+      "body": "When you eat a pineapple, it is technically eating you back. Pineapples contain a powerful enzyme called bromelain, which breaks down proteins. When the fruit touches the inside of your mouth, the enzyme starts digesting the sensitive protective proteins on your tongue and cheeks, causing that familiar tingling or prickly sensation. Your body easily rebuilds these cells, but the pineapple definitely gets the first bite.",
+      "imageWikipediaTitle": "Pineapple",
+      "sources": [
+        {
+          "title": "Bromelain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bromelain"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bromelain",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Play-Doh's secret history as a cleaning product",
+      "body": "Before it became a staple of childhood creativity, Play-Doh was invented in the 1930s to clean wallpaper. Households heated with coal ended up with thick layers of black soot on their walls. This non-toxic, clay-like compound was rolled over the wallpaper to lift the dirt. When coal heating declined, the company faced ruin—until they realized teachers were using the pliable putty for school art projects.",
+      "imageWikipediaTitle": "Play-Doh",
+      "sources": [
+        {
+          "title": "Play-Doh",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Play-Doh"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Play-Doh",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tragic end of the world's most isolated tree",
+      "body": "For decades, the Tree of Ténéré was considered the most isolated tree on Earth—a solitary acacia standing completely alone in the vast Sahara Desert, with no other trees for 400 kilometers in any direction. It served as a vital landmark for desert travelers. Unbelievably, in 1973, a truck driver managed to crash directly into the solitary tree, knocking it down. A metal monument now stands in its place.",
+      "imageWikipediaTitle": "Tree of Ténéré",
+      "sources": [
+        {
+          "title": "Tree of Ténéré",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tree_of_T%C3%A9n%C3%A9r%C3%A9"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tree_of_T%C3%A9n%C3%A9r%C3%A9",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flamingos don't actually bend their knees backward",
+      "body": "It looks like flamingos have backward-bending knees, but that joint in the middle of their leg is actually their ankle. A flamingo's real knees are located much higher up, completely hidden beneath their feathers and close to their body. When they stand on one leg, they are actually balancing on one foot, with their ankle joint acting as the highly visible \"knee\" most people mistake for the real thing.",
+      "imageWikipediaTitle": "Flamingo",
+      "sources": [
+        {
+          "title": "Flamingo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flamingo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flamingo",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a woodpecker's tongue protects its brain",
+      "body": "Woodpeckers repeatedly smash their beaks into trees with incredible force, enough to cause severe brain damage to any other creature. To survive this, they have evolved a bizarre safety helmet: their tongue. A woodpecker's tongue is extremely long, wrapping completely around the back of its skull. This unique structure acts as a natural seatbelt and shock absorber, dampening the intense vibrations before they can damage the brain.",
+      "imageWikipediaTitle": "Woodpecker",
+      "sources": [
+        {
+          "title": "Woodpecker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodpecker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Woodpecker",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The myth of the 100-mph sneeze",
+      "body": "You have probably heard that human sneezes can travel at 100 miles per hour, but this is a classic exaggeration. High-speed camera studies have busted this myth. In reality, a typical sneeze expels droplets at a much gentler speed of about 10 to 30 miles per hour. While still fast enough to spread germs quickly across a room, it is nowhere near the highway speeds of legend.",
+      "imageWikipediaTitle": "Sneeze",
+      "sources": [
+        {
+          "title": "Sneeze",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sneeze"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sneeze",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Eiffel Tower grows and shrinks with the seasons",
+      "body": "The Eiffel Tower is not a constant height. Because it is built from puddle iron, the structure is highly sensitive to temperature changes. During the hot summer months, the metal absorbs heat and expands. This thermal expansion causes the entire tower to grow by up to 15 centimeters. Conversely, the freezing cold of winter causes the metal to contract, making the tower shrink slightly.",
+      "imageWikipediaTitle": "Eiffel Tower",
+      "sources": [
+        {
+          "title": "Eiffel Tower",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Turkeys can hatch fatherless chicks",
+      "body": "In a strange twist of biology, female turkeys can reproduce without ever mating with a male. This process, called parthenogenesis, allows unfertilized eggs to develop into healthy embryos. Curiously, all turkey chicks hatched through this process are male clones of their mother, though they only inherit her genetic material. While rare in the wild, it is a well-documented survival mechanism in domestic flocks.",
+      "imageWikipediaTitle": "Turkey (bird)",
+      "sources": [
+        {
+          "title": "Parthenogenesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parthenogenesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Parthenogenesis",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Crows recognize faces and hold lifelong grudges",
+      "body": "Crows are incredibly smart and possess excellent memories. Studies show that they can recognize individual human faces, particularly those they associate with danger or hostility. If you threaten a crow, it will remember you and alert its flock by making warning calls. Even worse, crows can pass this information down to their offspring, meaning multiple generations of crows could hold a grudge against you for years.",
+      "imageWikipediaTitle": "American crow",
+      "sources": [
+        {
+          "title": "Corvus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Corvus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Corvus",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the \"Spanish Flu\" did not start in Spain",
+      "body": "The devastating 1918 influenza pandemic did not originate in Spain. It got its name because of wartime censorship. During World War I, major nations like France, the US, and Germany censored their newspapers to maintain morale. Spain, remaining neutral, did not censor its press and openly reported the severe outbreak. This gave the world the false impression that Spain was the epicenter, forever linking the country to the disease.",
+      "imageWikipediaTitle": "Spanish flu",
+      "sources": [
+        {
+          "title": "Spanish flu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spanish_flu"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spanish_flu",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do pineapples make your tongue tingle when you eat them?",
+      "options": [
+        "The high acidity levels",
+        "An enzyme that breaks down proteins",
+        "Microscopic spines on the fruit",
+        "A chemical reaction with saliva"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pineapples contain bromelain, an enzyme that digests proteins, temporarily breaking down the protective lining of your mouth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was Play-Doh originally invented to clean?",
+      "options": [
+        "Carpet soot",
+        "Coal soot on wallpaper",
+        "Greasy kitchen stoves",
+        "Silverware tarnish"
+      ],
+      "correctIndex": 1,
+      "explanation": "Play-Doh was created in the 1930s as a pliable compound to roll over wallpaper and lift black coal soot."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which joint is actually visible in the middle of a flamingo's leg?",
+      "options": [
+        "The knee",
+        "The hip",
+        "The ankle",
+        "The wrist"
+      ],
+      "correctIndex": 2,
+      "explanation": "The backward-bending joint in the middle of a flamingo's leg is actually its ankle. Its actual knees are hidden up under its feathers."
+    },
+    {
+      "cardIndex": 7,
+      "question": "When female turkeys reproduce without a male, what is true of the offspring?",
+      "options": [
+        "They are always female",
+        "They are always male",
+        "They are always sterile",
+        "They cannot survive hatching"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turkey chicks hatched via parthenogenesis (without a father) are always genetically male."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Why did the 1918 flu pandemic become known as the \"Spanish Flu\"?",
+      "options": [
+        "It originated in Madrid",
+        "Spain's King was the first victim",
+        "Spain did not censor news of the outbreak",
+        "It only affected Spanish-speaking nations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Since Spain was neutral in WWI, its press didn't censor news of the epidemic, making it seem like the outbreak was worst there."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many kilometers away was the nearest tree to the Tree of Ténéré, the world's most isolated tree?",
+      "answer": 400,
+      "min": 10,
+      "max": 1000,
+      "unit": "km",
+      "explanation": "The Tree of Ténéré was completely alone in the Sahara, with no other trees for 400 kilometers (250 miles) until it was hit by a truck in 1973."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "By up to how many centimeters can the Eiffel Tower grow during a hot summer due to thermal expansion?",
+      "answer": 15,
+      "min": 1,
+      "max": 80,
+      "unit": "cm",
+      "explanation": "The iron structure expands in the summer heat, temporarily making the Eiffel Tower up to 15 cm taller."
+    }
+  ]
+}

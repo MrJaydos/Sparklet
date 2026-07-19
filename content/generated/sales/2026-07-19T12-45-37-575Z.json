@@ -1,0 +1,256 @@
+{
+  "generatedAt": "2026-07-19T12:45:37.575Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking for 37 cents beats asking for a quarter",
+      "body": "When seeking a favor or making a pitch, standard requests trigger automatic, habitual refusals. Researchers tested this by asking passersby for money. While asking for \"a quarter\" or \"some change\" got a low response, asking for an exact, unusual amount like \"37 cents\" nearly doubled compliance. This \"pique technique\" disrupts mindless refusal scripts, forcing the prospect's brain to engage consciously with your proposal.",
+      "imageWikipediaTitle": "Quarter_(United_States_coin)",
+      "sources": [
+        {
+          "title": "Compliance techniques",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_techniques"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_techniques",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The \"300 pennies\" trick to disrupt refusal",
+      "body": "To close a sale, sometimes you just need to briefly confuse the buyer's routine thinking. In a famous study, salespeople selling holiday cards changed their pitch from \"three dollars\" to \"300 pennies, which is three dollars, and it's a bargain!\" This simple disruption and immediate reframe caused sales to skyrocket from 35% to 70%. It temporarily distracts the critical mind, making it highly receptive to the closing argument.",
+      "imageWikipediaTitle": "Penny_(United_States_coin)",
+      "sources": [
+        {
+          "title": "Disrupt-then-reframe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Disrupt-then-reframe"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Disrupt-then-reframe",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The magic word that bypasses critical thinking",
+      "body": "Want to cut in line or get a quick favor? Just add the word \"because.\" In a famous Harvard study, researchers trying to skip a copy machine line asked, \"Can I use the copy machine because I have to make copies?\" Even though the reason was completely redundant and useless, compliance shot up to 93%, compared to just 60% when they simply asked to skip. The word \"because\" acts as an automatic trigger for compliance.",
+      "imageWikipediaTitle": "Photocopier",
+      "sources": [
+        {
+          "title": "Ellen Langer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ellen_Langer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ellen_Langer",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why dressing down can make you look more powerful",
+      "body": "We are often told to dress to impress, but deliberate, minor nonconformity can actually boost your perceived status. Researchers found that luxury boutique staff in Milan rated a shopper wearing gym clothes as more high-status and likely to buy than one wearing elegant fur coats. Dubbed the \"Red Sneakers Effect,\" breaking a minor dress code signals that you are successful enough to make your own rules.",
+      "imageWikipediaTitle": "Sneakers",
+      "sources": [
+        {
+          "title": "Conformity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Conformity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Conformity",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How removing commas makes prices look smaller",
+      "body": "When displaying prices, visual simplicity translates directly to perceived affordability. Researchers found that removing commas and cents from a price tag—writing \"$1300\" instead of \"$1,300.00\"—makes the price feel significantly smaller to buyers. This happens because our brains silently pronounce the digits when reading. Removing commas reduces the phonetic syllable length, lowering the cognitive effort required to process the number and making it feel cheaper.",
+      "imageWikipediaTitle": "Price_tag",
+      "sources": [
+        {
+          "title": "Psychological pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_pricing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Psychological_pricing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a two-second touch doubles sales success",
+      "body": "A subtle, physical connection can dramatically shift a negotiation in your favor. Behavioral studies show that a light, brief touch on the upper arm—lasting no more than two seconds—significantly increases compliance. In retail and dining settings, this \"Midas Touch\" technique boosted customer satisfaction and tipping. It works because a polite, non-threatening touch unconsciously triggers feelings of warmth, safety, and mutual trust, making the recipient more agreeable to your suggestions.",
+      "imageWikipediaTitle": "Handshake",
+      "sources": [
+        {
+          "title": "Haptic communication",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haptic_communication"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Haptic_communication",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking prospects to \"imagine\" drives sales",
+      "body": "Before you pitch the features of your product, ask your customer to mentally simulate using it. In a classic marketing study, researchers pitched a cable TV subscription to homeowners. When they simply described the service, only 20% signed up. But when they asked residents to \"imagine how cable TV will provide you with entertainment,\" signup rates surged to 47%. Mental simulation creates a sense of ownership before the purchase even happens.",
+      "imageWikipediaTitle": "Television",
+      "sources": [
+        {
+          "title": "Robert Cialdini",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robert_Cialdini"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robert_Cialdini",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden power of asking \"How are you?\"",
+      "body": "Simply asking prospects how they are doing before making a pitch can double your success rate. In a consumer experiment, researchers called residents asking for charity donations. Asking \"How are you feeling today?\" and waiting for a response before pitching raised compliance from 18% to 33%. Once people publicly commit to saying they feel \"good,\" they feel a psychological pressure to act consistently with that state by being generous and helpful.",
+      "imageWikipediaTitle": "Telephone",
+      "sources": [
+        {
+          "title": "Compliance (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_(psychology)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a sudden relief makes people say \"yes\"",
+      "body": "When someone experiences a sudden scare followed by immediate relief, their cognitive defenses drop, leaving them highly compliant. Psychologists demonstrated this by placing fake parking tickets (which were actually advertising flyers) on cars. Drivers who first panicked, then realized it wasn't a ticket, were twice as likely to agree to a subsequent charitable request. This \"fear-then-relief\" state temporarily disorganizes the brain's critical processing, making people highly suggestible.",
+      "imageWikipediaTitle": "Traffic_ticket",
+      "sources": [
+        {
+          "title": "Compliance techniques",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_techniques"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_techniques",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you should sell \"being\" rather than \"doing\"",
+      "body": "To motivate prospects to act, frame the action as an identity rather than a task. Stanford researchers found that asking people \"How important is it to you to be a voter?\" increased voter turnout by 11% compared to asking \"How important is it to you to vote?\" Reframing verbs (\"to buy,\" \"to support\") into nouns (\"to be a member,\" \"to be a supporter\") appeals directly to how people perceive themselves, making them eager to align their actions with that identity.",
+      "imageWikipediaTitle": "Voting",
+      "sources": [
+        {
+          "title": "Identity (social science)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Identity_(social_science)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Identity_(social_science)",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary mechanism behind the 'pique technique' (e.g., asking for 37 cents instead of a quarter)?",
+      "options": [
+        "It triggers immediate feelings of intense guilt",
+        "It disrupts mindless refusal habits and engages conscious thought",
+        "It makes the solicitor seem poorer and more desperate",
+        "It exploits the pricing left-digit effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "Asking for an unusual amount breaks the automatic, subconscious 'no' script we use to deflect standard requests."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to research on the 'Red Sneakers Effect,' why does deliberate nonconformity sometimes increase perceived status?",
+      "options": [
+        "It signals that you cannot afford standard clothing",
+        "It shows you are unaware of local social rules",
+        "It signals you are successful and autonomous enough to ignore social norms",
+        "It makes you look highly relatable and humble"
+      ],
+      "correctIndex": 2,
+      "explanation": "Breaking minor dress codes or norms signals that you have the power, resources, and independence to make your own rules."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does writing a price as '$1300' instead of '$1,300.00' make it feel cheaper to buyers?",
+      "options": [
+        "The comma is subconsciously associated with division",
+        "It reduces phonetic length, making the price feel smaller to read",
+        "It makes the font size look physically smaller on the page",
+        "Commas are statistically associated with sales taxes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Commas and decimals increase the number of syllables we silently speak when reading, which increases the perceived cost."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why does a 'fear-then-relief' sequence make people highly compliant?",
+      "options": [
+        "They want to reward the person who scared them",
+        "The relief state temporarily disorganizes critical thinking, making them highly suggestible",
+        "Scared people are naturally more generous",
+        "It triggers a subconscious desire to escape the physical area"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sudden drop in anxiety leaves the brain's critical defenses temporarily offline, boosting compliance with requests."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How does framing an action as a noun (e.g., 'being a supporter') rather than a verb ('to support') affect compliance?",
+      "options": [
+        "It reduces the action's perceived financial cost",
+        "It appeals directly to the prospect's identity, increasing compliance",
+        "It sounds less formal and more friendly to readers",
+        "It makes the request feel less urgent and more thoughtful"
+      ],
+      "correctIndex": 1,
+      "explanation": "Noun framing links the requested action to the prospect's self-identity, motivating them to align their actions with who they want to be."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In the famous '300 pennies' sales experiment, disrupting the customer's routine mind and immediately reframing the price boosted sales from 35% to what percentage?",
+      "answer": 70,
+      "min": 40,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The 'Disrupt-then-Reframe' technique doubled sales from 35% to 70% by temporarily distracting the critical mind."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "When researchers asked to skip a copy line using the redundant reason 'because I have to make copies,' what percentage of people agreed?",
+      "answer": 93,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Simply adding a redundant 'because' triggered compliance in 93% of people, nearly matching a real, valid reason!"
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "When researchers asked residents to imagine using cable TV instead of just describing it, what percentage of residents signed up?",
+      "answer": 47,
+      "min": 10,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Asking prospects to mentally simulate using the product more than doubled sign-up rates from 20% to 47%."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "In a consumer experiment, asking 'How are you feeling today?' before making a charitable pitch raised compliance from 18% to what percentage?",
+      "answer": 33,
+      "min": 15,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Waiting for a positive response to a common greeting nearly doubled the success rate to 33% by leveraging consistency."
+    }
+  ]
+}

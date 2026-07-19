@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-07-19T12:48:12.889Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your fingers prune in water",
+      "body": "For decades, scientists believed wrinkled fingers in the bath were caused by water soaking into the outer skin layer. It turns out this is an active response controlled by your autonomic nervous system. When wet, your blood vessels constrict, pulling the skin down to create channels. This works exactly like tire treads, helping our ancestors grip wet surfaces and gather food.",
+      "imageWikipediaTitle": "Water-induced wrinkling of skin",
+      "sources": [
+        {
+          "title": "Water-induced wrinkling of skin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Water-induced_wrinkling_of_skin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Water-induced_wrinkling_of_skin",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body physically glows in the dark",
+      "body": "The human body literally emits visible light, making you a glowing bioluminescent creature. This light is a natural byproduct of cellular respiration, where free radicals react with lipids and proteins. However, you cannot see it with the naked eye because this glow is about one thousand times fainter than the sensitivity limits of human vision.",
+      "imageWikipediaTitle": "Biophoton",
+      "sources": [
+        {
+          "title": "Biophoton",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Biophoton"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Biophoton",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You are taller in the morning than at night",
+      "body": "If you measure your height right after waking up, you will be noticeably taller than when you go to bed. Throughout the day, gravity pulls down on your upright body, compressing the soft, fluid-filled cartilage discs between your spinal vertebrae. While you sleep horizontally, the pressure releases, allowing these discs to expand and rehydrate to their full size.",
+      "imageWikipediaTitle": "Human height",
+      "sources": [
+        {
+          "title": "Human height",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_height"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Human_height",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real cause of \"pins and needles\"",
+      "body": "When your foot falls asleep, you might think blood has stopped flowing to the limb. In reality, the tingling sensation—known as paresthesia—is caused by temporary nerve compression. When you sit awkwardly, you pinch the nerves that send signals to your brain. Once the pressure is released, the nerves suddenly start firing signals all at once as they recover.",
+      "imageWikipediaTitle": "Paresthesia",
+      "sources": [
+        {
+          "title": "Paresthesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paresthesia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paresthesia",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The metal nail hidden inside your body",
+      "body": "Your body is packed with minerals, including enough iron to forge a small, functional metal nail. An average adult carries about three to four grams of iron, with the vast majority locked inside hemoglobin, the protein in red blood cells that transports oxygen. The rest is stored in your liver, spleen, and bone marrow to keep your cells energized.",
+      "imageWikipediaTitle": "Iron metabolism",
+      "sources": [
+        {
+          "title": "Human iron metabolism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_iron_metabolism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Human_iron_metabolism",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your stomach acid is strong enough to melt metal",
+      "body": "The hydrochloric acid produced by your stomach is incredibly potent, typically registering a pH between 1.5 and 3.5. This extreme acidity is not just for digesting food; it is strong enough to dissolve common metals like zinc and steel. To protect itself from self-digesting, your stomach must constantly secrete a thick layer of alkaline mucus to line its walls.",
+      "imageWikipediaTitle": "Stomach",
+      "sources": [
+        {
+          "title": "Gastric acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastric_acid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gastric_acid",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your eyes can detect a single photon of light",
+      "body": "Under pitch-black conditions, your eyes reach the absolute limit of physical sensitivity. The specialized photoreceptor cells in your retina, called rod cells, are so incredibly sensitive that they can detect a single photon—the smallest possible unit of light. While your brain filters out these single-photon signals to prevent visual static, a handful of photons is all it takes to register a flash.",
+      "imageWikipediaTitle": "Rod cell",
+      "sources": [
+        {
+          "title": "Rod cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rod_cell"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rod_cell",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ounce for ounce, your bones are stronger than steel",
+      "body": "Healthy bone is an engineering marvel. Under compression, a block of human bone is about four times stronger than concrete and can support weight better than a solid steel bar of the same weight. This incredible strength comes from a composite structure: flexible collagen fibers provide elasticity, while rigid calcium phosphate minerals prevent the bone from snapping under heavy loads.",
+      "imageWikipediaTitle": "Bone",
+      "sources": [
+        {
+          "title": "Bone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bone",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The brief, intense lifespan of a red blood cell",
+      "body": "Red blood cells are the tireless delivery trucks of your circulatory system. Lacking a nucleus to make repairs, they wear out quickly from squeezing through tiny capillaries. Each cell lives for only about 120 days before it is broken down by your spleen and liver. Your body must constantly manufacture millions of new red cells every second in your bone marrow to replace them.",
+      "imageWikipediaTitle": "Red blood cell",
+      "sources": [
+        {
+          "title": "Red blood cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Red_blood_cell"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Red_blood_cell",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The lightning speed of your nerve impulses",
+      "body": "When you stub your toe, the pain signal doesn't dawdle. Nerve impulses in your fastest motor and sensory fibers can travel at speeds up to 120 meters per second. That is about 268 miles per hour, faster than a Formula 1 race car at top speed. This extreme speed is made possible by myelination, a fatty insulation that allows electrical signals to jump down the nerve.",
+      "imageWikipediaTitle": "Neuron",
+      "sources": [
+        {
+          "title": "Nerve conduction velocity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nerve_conduction_velocity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nerve_conduction_velocity",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What triggers the wrinkling of skin on wet fingers?",
+      "options": [
+        "Absorption of water by skin",
+        "The autonomic nervous system",
+        "A sudden drop in skin temperature",
+        "Loss of natural skin oils"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wrinkled skin is an active autonomic nervous system response that constricts blood vessels to improve grip in wet environments."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the direct physiological cause of the \"pins and needles\" sensation?",
+      "options": [
+        "Lack of oxygen in the muscle tissue",
+        "Complete blockage of arterial blood flow",
+        "Temporary compression of nerves",
+        "Accumulation of excess lactic acid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Paresthesia is caused by compressing nerves, which prevents them from sending signals. Once freed, they fire rapidly as they recover."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What is the typical pH range of healthy human stomach acid?",
+      "options": [
+        "1.5 to 3.5",
+        "5.0 to 6.5",
+        "7.0 to 8.5",
+        "9.0 to 11.5"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stomach acid is extremely acidic (pH 1.5 to 3.5), capable of dissolving metals like zinc, but is kept in check by a protective alkaline mucus lining."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Which cells in the human eye are sensitive enough to detect a single photon of light?",
+      "options": [
+        "Cone cells",
+        "Rod cells",
+        "Ganglion cells",
+        "Glial cells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rod cells are highly sensitive photoreceptors that can detect a single photon, allowing us to see in near-total darkness."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Which component provides human bones with their flexible, snap-resistant strength?",
+      "options": [
+        "Calcium phosphate",
+        "Collagen",
+        "Keratin",
+        "Myelin"
+      ],
+      "correctIndex": 1,
+      "explanation": "While calcium phosphate makes bones hard and rigid, collagen fibers provide the flexibility needed to prevent bones from snapping under heavy loads."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many times fainter is the human body's natural bioluminescence than the limit of our eyes?",
+      "answer": 1000,
+      "min": 10,
+      "max": 50000,
+      "unit": "",
+      "explanation": "Although we glow due to chemical reactions, the light is about 1,000 times weaker than our eyes can naturally detect!"
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many millimeters of height does the average adult lose throughout the day due to spinal compression?",
+      "answer": 19,
+      "min": 1,
+      "max": 100,
+      "unit": "mm",
+      "explanation": "Gravity compresses your spinal discs during the day, causing you to lose about 19 mm in height, which you regain overnight!"
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many grams of iron does the average adult human body contain?",
+      "answer": 4,
+      "min": 1,
+      "max": 50,
+      "unit": "g",
+      "explanation": "The human body contains about 3 to 4 grams of iron, mostly in your blood, which is enough to make a small metal nail!"
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "How many days does a single human red blood cell circulate in the body before being recycled?",
+      "answer": 120,
+      "min": 10,
+      "max": 1000,
+      "unit": "days",
+      "explanation": "Lacking a nucleus to perform repairs, red blood cells wear out and are recycled by the spleen after about 120 days."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "What is the maximum speed of a nerve impulse in the human body in meters per second?",
+      "answer": 120,
+      "min": 5,
+      "max": 1000,
+      "unit": "m/s",
+      "explanation": "Nerve impulses can travel up to 120 meters per second (about 268 mph), allowing your brain to communicate with your body instantly."
+    }
+  ]
+}

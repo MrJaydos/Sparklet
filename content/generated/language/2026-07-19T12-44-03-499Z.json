@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-07-19T12:44:03.500Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The respectful bow behind Hindi's most famous greeting",
+      "body": "When meeting someone in India, you will often hear the warm greeting नमस्ते (namaste, pronounced \"nuh-muh-stay\"). Rooted in ancient Sanskrit, it combines \"namas\" (bow) and \"te\" (to you), literally meaning \"I bow to you.\" It is typically spoken with a slight bow and hands pressed together at the chest, a gesture called the \"anjali mudra,\" representing deep spiritual respect for the person you are greeting.",
+      "imageWikipediaTitle": "Namaste",
+      "sources": [
+        {
+          "title": "Namaste",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Namaste"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Namaste",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the Italian word \"ciao\" was once a promise of servitude",
+      "body": "The cheerful Italian greeting ciao (ciao, pronounced \"chow\") is used worldwide for both hello and goodbye. However, its origins are surprisingly humble. It comes from the Venetian phrase \"sćiào vostro,\" which literally translates to \"I am your slave.\" Over centuries, this formal expression of loyalty and polite service was shortened to \"sćiào,\" and eventually became the casual, friendly \"ciao\" we use today.",
+      "imageWikipediaTitle": "Ciao",
+      "sources": [
+        {
+          "title": "Ciao",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ciao"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ciao",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Christian sacrament shares its name with Greek gratitude",
+      "body": "To say thank you in Greece, you use the vibrant word ευχαριστώ (efcharistó, pronounced \"ef-hah-rees-TOH\"). This term has deep ancient roots, coming from \"eucharistia,\" which means gratitude or favor. If this sounds familiar, it is because the same root gives us the Christian sacrament of the \"Eucharist,\" or Holy Communion, which literally translates from Greek as an act of thanksgiving.",
+      "imageWikipediaTitle": "Eucharist",
+      "sources": [
+        {
+          "title": "Eucharist",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eucharist"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eucharist",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The versatile German word that means please, thank you, and more",
+      "body": "In Germany, a single word does immense heavy lifting. The word bitte (bitte, pronounced \"BIT-teh\") primarily means \"please,\" but it also serves as \"you're welcome,\" \"pardon?\", \"here you go\" when handing someone an object, and even \"may I help you?\" when spoken with rising intonation. Mastering this one simple word is the ultimate key to polite daily survival in any German-speaking country.",
+      "imageWikipediaTitle": "German language",
+      "sources": [
+        {
+          "title": "German language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/German_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The double-spoken gratitude of Mandarin",
+      "body": "To express gratitude in Mandarin Chinese, you say 谢谢 (xièxie, pronounced \"shyeh-shyeh\"). This polite phrase is a reduplicated verb, a common feature in Chinese where repeating a word softens its tone and makes it sound friendlier. When writing it in native characters, the first character carries a falling tone, while the second character is spoken in a neutral, lighter tone, creating a rhythmic bounce of appreciation.",
+      "imageWikipediaTitle": "Chinese characters",
+      "sources": [
+        {
+          "title": "Chinese honorifics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_honorifics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chinese_honorifics",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fishy Chinese origin of the word \"ketchup\"",
+      "body": "Long before it was a tomato-based condiment on American burgers, ketchup was a dark, salty fish sauce from southern China. In the 17th century, British traders in Southeast Asia encountered a fermented fish sauce known in the Hokkien Chinese dialect as 鮭汁 (kôe-chiap, pronounced \"kway-chyap\"). They loved it, brought the recipe home, and spent centuries adapting it with walnuts, oysters, and eventually tomatoes.",
+      "imageWikipediaTitle": "Ketchup",
+      "sources": [
+        {
+          "title": "Ketchup",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ketchup"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ketchup",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your biceps are named after tiny mice",
+      "body": "The next time you flex your biceps, you are technically mimicking a scurrying mouse. The English word \"muscle\" comes from the Latin word \"musculus\", which literally means \"little mouse.\" Ancient Roman anatomists thought that the movement of a flexing muscle beneath the skin resembled a tiny mouse darting around under a blanket. The same root gives us \"mussel,\" the mouse-shaped bivalve shell.",
+      "imageWikipediaTitle": "Muscle",
+      "sources": [
+        {
+          "title": "Muscle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Muscle",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the word \"vaccine\" honors the humble cow",
+      "body": "Every time you receive a vaccine, you are paying tribute to the cow. The word \"vaccine\" comes from the Latin word \"vacca\", meaning \"cow.\" In 1796, English physician Edward Jenner discovered that immunizing patients with the mild cowpox virus protected them from the deadly smallpox virus. To honor this bovine origin, Jenner coined the term \"vaccination\" to describe his revolutionary medical procedure.",
+      "imageWikipediaTitle": "Edward Jenner",
+      "sources": [
+        {
+          "title": "Vaccine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vaccine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vaccine",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Spanish island where residents speak entirely in whistles",
+      "body": "On La Gomera in the Canary Islands, locals can communicate across deep valleys without using a single spoken word. Instead, they use Silbo Gomero, a fully functional whistled language. This ancient language reduces Spanish to just two whistled vowels and four consonants. Whistling allows messages to travel up to five kilometers, and the language is so vital to the island's culture that it is a mandatory school subject.",
+      "imageWikipediaTitle": "Silbo Gomero",
+      "sources": [
+        {
+          "title": "Silbo Gomero",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Silbo_Gomero"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Silbo_Gomero",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The royal Persian defeat behind the word \"checkmate\"",
+      "body": "When you corner an opponent's king in chess, you declare \"checkmate.\" This universal term comes from the Persian phrase \"shāh māt\" (شاه مات, pronounced \"shah maht\"), which translates to \"the king is helpless\" or \"the king is dead.\" Chess originated in ancient India and Persia, and as the game traveled to Europe, the Persian declaration of royal defeat was adapted into French and eventually English.",
+      "imageWikipediaTitle": "Checkmate",
+      "sources": [
+        {
+          "title": "Checkmate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Checkmate"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Checkmate",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the literal Sanskrit translation of the Hindi greeting 'Namaste'?",
+      "options": [
+        "I bow to you",
+        "Peace be with you",
+        "Welcome home",
+        "Wishing you health"
+      ],
+      "correctIndex": 0,
+      "explanation": "Namaste combines the Sanskrit words 'namas' (bow) and 'te' (to you), meaning 'I bow to you.'"
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which phrase did the Italian greeting 'ciao' originally derive from?",
+      "options": [
+        "Peace to you",
+        "I am your slave",
+        "To your health",
+        "Until tomorrow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ciao evolved from the Venetian phrase 'sćiào vostro,' which means 'I am your slave' or 'at your service.'"
+    },
+    {
+      "cardIndex": 5,
+      "question": "What kind of sauce was the original Chinese ancestor of tomato ketchup?",
+      "options": [
+        "Fermented fish sauce",
+        "Spicy chili paste",
+        "Sweet plum sauce",
+        "Salted soybean paste"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original Hokkien Chinese word 'kôe-chiap' referred to a fermented fish sauce, which British traders later adapted with tomatoes."
+    },
+    {
+      "cardIndex": 6,
+      "question": "The English word 'muscle' comes from a Latin word meaning what?",
+      "options": [
+        "Little mouse",
+        "Strong tree",
+        "Iron rope",
+        "Stone wall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Muscle comes from 'musculus,' meaning 'little mouse,' because flexing muscles looked like mice running under the skin."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Which animal's Latin name gives us the word 'vaccine'?",
+      "options": [
+        "Cow",
+        "Horse",
+        "Sheep",
+        "Dog"
+      ],
+      "correctIndex": 0,
+      "explanation": "The word vaccine comes from 'vacca,' the Latin word for cow, celebrating Edward Jenner's use of cowpox to immunize against smallpox."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 8,
+      "prompt": "How many vowels does the whistled language of Silbo Gomero use to represent the entire Spanish language?",
+      "answer": 2,
+      "min": 1,
+      "max": 10,
+      "unit": "",
+      "explanation": "Silbo Gomero simplifies the Spanish language into just 2 whistled vowels and 4 consonants, allowing speakers to communicate across deep mountain valleys."
+    }
+  ]
+}

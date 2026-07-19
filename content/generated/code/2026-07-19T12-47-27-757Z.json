@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-19T12:47:27.757Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The software woven by hand like textiles",
+      "body": "The software that guided Apollo astronauts to the Moon wasn't stored on modern hard drives or flash memory. Instead, engineers used \"core rope memory.\" Programs were literally woven by hand into physical cables using magnetic rings. Threading a wire through a ring represented a \"1\", while bypassing it was a \"0\". Software development was so labor-intensive that the skilled women who wove the wires were nicknamed \"Little Old Ladies.\"",
+      "imageWikipediaTitle": "Core rope memory",
+      "sources": [
+        {
+          "title": "Core rope memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Core_rope_memory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Core_rope_memory",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programming language that demands politeness",
+      "body": "Created in 1972 as a parody, INTERCAL is a programming language designed to baffle users. It rejects code that is too direct, requiring programmers to use the keyword \"PLEASE\" to execute commands. However, the compiler is highly sensitive: if you do not say \"PLEASE\" enough, it rejects the code as rude. If you say it too many times, it rejects the program for being overly polite and sycophantic.",
+      "imageWikipediaTitle": "INTERCAL",
+      "sources": [
+        {
+          "title": "INTERCAL",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/INTERCAL"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/INTERCAL",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The backdoor you can never find in the source code",
+      "body": "In 1984, Unix co-creator Ken Thompson revealed a terrifying hacking concept called \"Reflecting on Trusting Trust.\" He demonstrated that a programmer could modify a compiler to secretly insert a backdoor into any program it compiles. Crucially, the compiler can also be programmed to inject this backdoor-builder into future versions of itself. This means the malicious code never appears in any human-readable source code, making it completely invisible to standard audits.",
+      "imageWikipediaTitle": "Ken Thompson",
+      "sources": [
+        {
+          "title": "Backdoor (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Backdoor_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Backdoor_(computing)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The billion-dollar mistake of computer science",
+      "body": "In 1965, British computer scientist Tony Hoare introduced the \"null reference\" while designing the type system for the language ALGOL W. He did it simply because it was easy to implement. Decades later, Hoare publicly apologized for his creation, calling it his \"billion-dollar mistake.\" The invention of \"null\" led to countless system crashes, security vulnerabilities, and debugging headaches for generations of programmers worldwide.",
+      "imageWikipediaTitle": "Tony Hoare",
+      "sources": [
+        {
+          "title": "Null pointer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Null_pointer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Null_pointer",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ordinary kitchen item that shaped 3D graphics",
+      "body": "In 1975, researcher Martin Newell needed an everyday, recognizable object to test 3D rendering algorithms. His wife suggested their Melitta porcelain teapot. Newell sketched its coordinates on graph paper and digitized them. Because of its perfect mix of curves, shadows, and hollow spaces, the \"Utah Teapot\" became the universal benchmark for computer graphics. It still appears as an easter egg in software like Pixar films and Windows screensavers today.",
+      "imageWikipediaTitle": "Utah teapot",
+      "sources": [
+        {
+          "title": "Utah teapot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utah_teapot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Utah_teapot",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programming language named after British comedy",
+      "body": "Many assume Python, one of the world's most popular programming languages, was named after the deadly snake. In reality, its creator, Guido van Rossum, named it in 1989 after the British surreal comedy show Monty Python’s Flying Circus. Van Rossum wanted a name that was short, unique, and slightly mysterious. To this day, Python's official documentation and tutorials frequently use jokes and references to Monty Python sketches instead of dry technical examples.",
+      "imageWikipediaTitle": "Guido van Rossum",
+      "sources": [
+        {
+          "title": "Python (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The next digital doomsday is set for 2038",
+      "body": "While the Y2K bug passed without major disaster, a similar time-overflow issue looms in the year 2038. Many Unix-based systems measure time as the number of seconds elapsed since January 1, 1970, storing this value as a signed 32-bit integer. On January 19, 2038, at precisely 03:14:07 UTC, this integer will reach its maximum limit and wrap around to a negative number, resetting the date to 1901 and threatening global infrastructure.",
+      "imageWikipediaTitle": "Year 2038 problem",
+      "sources": [
+        {
+          "title": "Year 2038 problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2038_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Year_2038_problem",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The experiment that accidentally broke the early internet",
+      "body": "In November 1988, Cornell graduate student Robert Tappan Morris released a program to measure the size of the internet. However, a critical design flaw caused the program to infect computers multiple times, rapidly consuming processing power. The \"Morris Worm\" ended up disabling about ten percent of the 60,000 computers connected to the internet at the time. It became the first high-profile computer virus conviction in US history.",
+      "imageWikipediaTitle": "Morris worm",
+      "sources": [
+        {
+          "title": "Morris worm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Morris_worm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Morris_worm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Hawaiian airport shuttle named the wiki",
+      "body": "Before Wikipedia, there was the WikiWikiWeb, the world's first user-editable website created by Ward Cunningham in 1995. Cunningham wanted a quick way for programmers to collaborate on code. He remembered his trips to Hawaii, where he took the \"Wiki Wiki\" shuttle buses between airport terminals. Realizing \"wiki\" was the Hawaiian word for quick, he named his fast, collaborative software \"WikiWikiWeb,\" paving the way for the collaborative web we use today.",
+      "imageWikipediaTitle": "Ward Cunningham",
+      "sources": [
+        {
+          "title": "WikiWikiWeb",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/WikiWikiWeb"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/WikiWikiWeb",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's most famous game had no graphics",
+      "body": "When Soviet software engineer Alexey Pajitnov created Tetris in 1984, he was working on an Electronika 60, a computer with no graphical capabilities whatsoever. To design the iconic falling blocks, Pajitnov had to use text characters. He formed the tetromino shapes using pairs of square brackets like \"[]\" to represent individual blocks. Despite having only green text on a black screen, the game was so addictive that it quickly spread throughout the Soviet scientific community.",
+      "imageWikipediaTitle": "Alexey Pajitnov",
+      "sources": [
+        {
+          "title": "Tetris",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tetris"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tetris",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "What happens if you use the \"PLEASE\" keyword too many times in the INTERCAL programming language?",
+      "options": [
+        "The program executes faster",
+        "The compiler rejects it for being overly polite",
+        "It triggers an infinite loop",
+        "It unlocks hidden developer easter eggs"
+      ],
+      "correctIndex": 1,
+      "explanation": "If you do not say PLEASE enough, the compiler considers the program rude; if you say it too often, the compiler rejects it for being overly polite."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Who referred to his own invention of the null reference as a \"billion-dollar mistake\"?",
+      "options": [
+        "Bjarne Stroustrup",
+        "Tony Hoare",
+        "Dennis Ritchie",
+        "Guido van Rossum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tony Hoare introduced the null reference in 1965 because it was easy to implement, later apologizing for the massive security and stability issues it caused."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was a simple household teapot chosen as the first major benchmark for 3D computer graphics?",
+      "options": [
+        "It was patented by the university",
+        "Its curves, shadows, and hollow interior provided an ideal test of rendering",
+        "It was the only object small enough to fit in early digital scanners",
+        "The inventor's wife was a porcelain manufacturer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Utah Teapot features complex curves, self-shadowing, and a hollow interior, making it a perfect, challenging benchmark for early 3D rendering algorithms."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What inspired the name of the popular programming language Python?",
+      "options": [
+        "A pet snake owned by the creator",
+        "The British comedy group Monty Python",
+        "An acronym for Practical Youth Technology",
+        "The Greek mythological monster Python"
+      ],
+      "correctIndex": 1,
+      "explanation": "Guido van Rossum named the language in 1989 after Monty Python's Flying Circus because he wanted a name that was short, unique, and slightly mysterious."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How did Alexey Pajitnov represent the blocks of Tetris when he first programmed the game on a text-only computer?",
+      "options": [
+        "Using pairs of square brackets",
+        "Using capital letters 'X' and 'O'",
+        "Using numbers from 1 to 7",
+        "Using asterisks and hashes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Working with no graphical interface, Pajitnov used pairs of square brackets (like \"[]\") to create the square blocks of the falling tetrominoes."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "The Apollo Guidance Computer relied on core rope memory. How many kilobytes of read-only memory did it have?",
+      "answer": 72,
+      "min": 5,
+      "max": 1000,
+      "unit": "KB",
+      "explanation": "The Apollo Guidance Computer's operating system was hardcoded into 72 kilobytes of physical rope memory woven by hand."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "In what year will 32-bit Unix systems overflow their time counters and potentially crash, in a modern equivalent of the Y2K bug?",
+      "answer": 2038,
+      "min": 2025,
+      "max": 2100,
+      "unit": "",
+      "explanation": "On January 19, 2038, 32-bit Unix systems will overflow their signed 32-bit integer time counters and wrap back to the year 1901."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "What percentage of all computers connected to the early Internet were disabled by the Morris Worm in 1988?",
+      "answer": 10,
+      "min": 1,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The Morris Worm infected and ground to a halt roughly 10% of the estimated 60,000 computers on the early Internet."
+    }
+  ]
+}
