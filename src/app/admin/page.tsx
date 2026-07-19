@@ -453,7 +453,7 @@ export default async function AdminPage() {
       )}
 
       {/* Cards awaiting review (failed URL validation or auto-hidden) */}
-      <h2 className="mt-10 text-lg font-bold">Cards awaiting review</h2>
+      <h2 id="awaiting-review" className="mt-10 scroll-mt-20 text-lg font-bold">Cards awaiting review</h2>
       {unpublished.length === 0 ? (
         <p className="mt-2 text-sm text-neutral-500">No cards held back.</p>
       ) : (

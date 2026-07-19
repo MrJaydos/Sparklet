@@ -1,13 +1,47 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
+import { revalidatePath } from "next/cache";
 import type { Metadata } from "next";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
+import { isAdminEmail } from "@/lib/admin";
 import { getRelatedCards } from "@/lib/related";
 import { timeAgo } from "@/lib/time";
 import { CommentsPanel } from "@/components/feed/CommentsSheet";
 import { CardActions } from "@/components/CardActions";
 import { CardImage } from "@/components/CardImage";
+
+const modBtn =
+  "rounded-lg px-3 py-1.5 text-xs font-semibold transition disabled:opacity-40";
+
+// Publish/delete this card, then jump straight to the next card still
+// awaiting review (same createdAt-desc order as the admin queue) so
+// moderating doesn't mean bouncing back to /admin between every decision.
+async function moderateCard(formData: FormData) {
+  "use server";
+  const session = await auth();
+  if (!session?.user?.email || !isAdminEmail(session.user.email)) redirect("/feed");
+
+  const cardId = String(formData.get("cardId"));
+  const action = String(formData.get("action")); // publish | delete
+  const current = await prisma.card.findUnique({ where: { id: cardId }, select: { createdAt: true } });
+
+  if (action === "publish") {
+    await prisma.card.update({ where: { id: cardId }, data: { published: true, reviewNote: null } });
+  } else if (action === "delete") {
+    await prisma.card.delete({ where: { id: cardId } });
+  }
+  revalidatePath("/admin");
+
+  const next = current
+    ? await prisma.card.findFirst({
+        where: { published: false, createdAt: { lt: current.createdAt } },
+        orderBy: { createdAt: "desc" },
+        select: { id: true },
+      })
+    : null;
+  redirect(next ? `/card/${next.id}` : "/admin#awaiting-review");
+}
 
 export const dynamic = "force-dynamic";
 
@@ -48,6 +82,7 @@ export default async function CardPage({
 }) {
   const session = await auth();
   const userId = session?.user?.id ?? null;
+  const isAdmin = isAdminEmail(session?.user?.email);
   const { id } = await params;
 
   const card = await prisma.card.findUnique({
@@ -60,14 +95,39 @@ export default async function CardPage({
   });
   if (!card || (!card.published && !userId)) notFound();
 
+  // Only reachable this way if an admin is looking at a card the review
+  // queue held back — that's always a moderation visit, not a normal read.
+  const moderating = isAdmin && !card.published;
+
   const sources = card.sources as { title: string; publisher: string; url: string }[];
   const related = (await getRelatedCards([card.id], 3)).get(card.id) ?? [];
 
   return (
     <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
-      <Link href="/feed" className="text-sm text-neutral-400 hover:text-neutral-200">
-        ← Back to feed
+      <Link href={moderating ? "/admin#awaiting-review" : "/feed"} className="text-sm text-neutral-400 hover:text-neutral-200">
+        {moderating ? "← Back to review queue" : "← Back to feed"}
       </Link>
+
+      {moderating && (
+        <div className="mt-4 rounded-xl border border-amber-800/60 bg-amber-950/30 p-4">
+          <div className="text-xs text-neutral-400">
+            {card.category.icon} {card.category.name}
+            {card.modelUsed && ` · ${card.modelUsed}`}
+          </div>
+          {card.reviewNote && (
+            <p className="mt-1 break-all text-xs text-amber-400/80">{card.reviewNote}</p>
+          )}
+          <form action={moderateCard} className="mt-3 flex gap-2">
+            <input type="hidden" name="cardId" value={card.id} />
+            <button name="action" value="publish" className={`${modBtn} bg-emerald-600 text-white hover:bg-emerald-500`}>
+              Publish anyway
+            </button>
+            <button name="action" value="delete" className={`${modBtn} bg-red-600 text-white hover:bg-red-500`}>
+              Delete card
+            </button>
+          </form>
+        </div>
+      )}
 
       <article className="mt-6">
         {card.imageUrl && (
