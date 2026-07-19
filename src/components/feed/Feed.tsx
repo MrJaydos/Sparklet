@@ -658,7 +658,7 @@ export function Feed({
               measureSearchAnchor();
               setShowSearch(true);
             }}
-            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
           >
             🔍 Search
           </button>
@@ -674,25 +674,25 @@ export function Feed({
               <NotificationsBell unread={unread} onOpened={setUnread} />
               <Link
                 href="/leaderboard"
-                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
               >
                 🏆 Leaderboard
               </Link>
               <Link
                 href="/profile"
-                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
               >
                 👤 Profile
               </Link>
               {isAdmin && (
                 <Link
                   href="/admin"
-                  className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+                  className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
                 >
                   🛠️ Admin
                 </Link>
               )}
-              <form action={signOutAction} className="hidden sm:block">
+              <form action={signOutAction} className="hidden min-[1000px]:block">
                 <button
                   type="submit"
                   className="whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
@@ -706,7 +706,7 @@ export function Feed({
             type="button"
             onClick={() => setShowMenu(true)}
             aria-label="Menu"
-            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 sm:hidden"
+            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 min-[1000px]:hidden"
           >
             ☰
             {unread > 0 && (

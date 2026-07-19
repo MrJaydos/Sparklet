@@ -41,7 +41,7 @@ export function AppHeader({
   const navLink = (href: string, label: string) => (
     <Link
       href={href}
-      className={`hidden whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-semibold backdrop-blur transition sm:block ${
+      className={`hidden whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-semibold backdrop-blur transition min-[1000px]:block ${
         pathname === href
           ? "bg-violet-600/20 text-violet-300"
           : "bg-neutral-900/80 hover:bg-neutral-800"
@@ -76,7 +76,7 @@ export function AppHeader({
             type="button"
             onClick={() => setShowMenu(true)}
             aria-label="Menu"
-            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 sm:hidden"
+            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 min-[1000px]:hidden"
           >
             ☰
             {unread > 0 && (

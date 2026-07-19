@@ -79,7 +79,7 @@ export function NotificationsBell({
         type="button"
         onClick={handleOpen}
         aria-label="Notifications"
-        className="pointer-events-auto relative hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+        className="pointer-events-auto relative hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
       >
         🔔 Notifications
         {unread > 0 && (
