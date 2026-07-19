@@ -5,6 +5,7 @@ import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
 import { displayName } from "@/lib/display";
+import { PushToggle } from "@/components/PushToggle";
 
 export const metadata = { title: "Profile — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -182,6 +183,8 @@ export default async function ProfilePage() {
           </>
         )}
       </p>
+
+      <PushToggle />
 
       <div className="mt-8 flex items-center justify-between">
         <h2 className="text-lg font-bold">Notebook</h2>

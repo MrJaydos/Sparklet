@@ -93,6 +93,44 @@ async function pageNetworkFirst(request) {
   }
 }
 
+// ---- Web Push ----
+
+self.addEventListener("push", (event) => {
+  let data = { title: "Sparklet", body: "Something new is waiting.", url: "/feed" };
+  try {
+    data = { ...data, ...event.data.json() };
+  } catch {
+    /* malformed payload — show the default */
+  }
+  event.waitUntil(
+    self.registration.showNotification(data.title, {
+      body: data.body,
+      icon: "/icon-192.png",
+      badge: "/icon-192.png",
+      data: { url: data.url },
+    })
+  );
+});
+
+self.addEventListener("notificationclick", (event) => {
+  event.notification.close();
+  const url = event.notification.data?.url || "/feed";
+  event.waitUntil(
+    (async () => {
+      const wins = await clients.matchAll({ type: "window", includeUncontrolled: true });
+      // Focus an existing tab if one is open; otherwise open a new one.
+      for (const win of wins) {
+        if (new URL(win.url).origin === location.origin) {
+          await win.focus();
+          if ("navigate" in win) await win.navigate(url);
+          return;
+        }
+      }
+      await clients.openWindow(url);
+    })()
+  );
+});
+
 self.addEventListener("fetch", (event) => {
   const { request } = event;
   if (request.method !== "GET") return;

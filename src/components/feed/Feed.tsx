@@ -13,6 +13,7 @@ import { QuizView } from "./QuizView";
 import { GuessView } from "./GuessView";
 import { XpRing } from "./XpRing";
 import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
+import { PushPrompt } from "./PushPrompt";
 
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
@@ -72,6 +73,8 @@ export function Feed({
   const [showSearch, setShowSearch] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
+  const [showPushPrompt, setShowPushPrompt] = useState(false);
+  const pushPromptCheckedRef = useRef(false);
   const [commentsFor, setCommentsFor] = useState<FeedCard | null>(null);
   const [reportFor, setReportFor] = useState<string | null>(null);
   const [sessionViews, setSessionViews] = useState(0);
@@ -511,6 +514,38 @@ export function Feed({
       /* private mode */
     }
   }, []);
+  // Soft-ask for push reminders after a few real swipes — never on first
+  // paint, and not again for a fortnight after a "Not now".
+  useEffect(() => {
+    if (sessionViews < 3 || pushPromptCheckedRef.current) return;
+    pushPromptCheckedRef.current = true;
+    (async () => {
+      try {
+        const dismissedAt = Number(localStorage.getItem("sparklet.pushAskedAt") ?? 0);
+        if (Date.now() - dismissedAt < 14 * 86_400_000) return;
+        const { getPushState } = await import("@/lib/push-client");
+        if ((await getPushState()) === "ready") setShowPushPrompt(true);
+      } catch {
+        /* private mode / unsupported */
+      }
+    })();
+  }, [sessionViews]);
+  const closePushPrompt = useCallback((enabled: boolean) => {
+    setShowPushPrompt(false);
+    try {
+      // Remember the ask either way; an enabled subscription hides future
+      // prompts via getPushState() anyway.
+      localStorage.setItem("sparklet.pushAskedAt", String(Date.now()));
+    } catch {
+      /* private mode */
+    }
+    if (enabled) {
+      if (saveNoticeTimer.current) clearTimeout(saveNoticeTimer.current);
+      setSaveNotice("🔔 Reminders on — we'll nudge you when it matters.");
+      saveNoticeTimer.current = setTimeout(() => setSaveNotice(null), 5000);
+    }
+  }, []);
+
   const dismissSwipeHint = useCallback(() => {
     setShowSwipeHint(false);
     try {
@@ -826,6 +861,8 @@ export function Feed({
           </div>
         </div>
       )}
+
+      {showPushPrompt && <PushPrompt onDone={closePushPrompt} />}
 
       {saveNotice && (
         <div className="pointer-events-none fixed inset-x-0 bottom-[calc(env(safe-area-inset-bottom)+5rem)] z-50 flex justify-center px-4">

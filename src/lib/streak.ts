@@ -95,6 +95,9 @@ export async function updateStreakOnActivity(
       lastActiveDate: today,
       streakFreezesAvailable: freezesAvailable,
       freezesRefilledAt,
+      // Remembered so the nudge cron can reason about this user's local
+      // time (evening reminders, "active today" checks).
+      tzOffsetMinutes: offset,
     },
   });
   return { currentStreak, longestStreak, freezesUsed, freezesAvailable };

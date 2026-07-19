@@ -27,18 +27,38 @@ model User {
 
   xp Int @default(0) // lifetime XP (denormalized sum of XpEvent)
 
-  accounts      Account[]
-  sessions      Session[]
-  interactions  UserCardInteraction[]
-  comments      Comment[]
-  reports       Report[]
-  notifications Notification[]
-  reviewStates  SpacedRepetitionState[]
-  quizAttempts  UserQuizAttempt[]
-  guessAttempts UserGuessAttempt[]
-  savedCards    SavedCard[]
-  interests     UserInterest[]
-  xpEvents      XpEvent[]
+  tzOffsetMinutes Int? // last-seen client timezone offset, for local-time nudges
+  lastNudgedAt    DateTime? // last push nudge, so cron reruns can't double-send
+
+  accounts          Account[]
+  sessions          Session[]
+  interactions      UserCardInteraction[]
+  comments          Comment[]
+  reports           Report[]
+  notifications     Notification[]
+  reviewStates      SpacedRepetitionState[]
+  quizAttempts      UserQuizAttempt[]
+  guessAttempts     UserGuessAttempt[]
+  savedCards        SavedCard[]
+  interests         UserInterest[]
+  xpEvents          XpEvent[]
+  pushSubscriptions PushSubscription[]
+}
+
+// Web Push subscription (one per browser/device the user enabled reminders
+// on). Endpoint URLs are unique per subscription; dead ones (404/410 on
+// send) are pruned automatically.
+model PushSubscription {
+  id        String   @id @default(cuid())
+  userId    String
+  endpoint  String   @unique
+  p256dh    String
+  auth      String
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
 }
 
 model Account {

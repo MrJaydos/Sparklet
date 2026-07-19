@@ -1,0 +1,22 @@
+name: Push nudges
+
+on:
+  schedule:
+    # Every 2 hours; the endpoint itself decides per user whether it's
+    # their local evening and whether they've already been nudged/active
+    # today, so most calls are cheap no-ops.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  nudge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send due nudges
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
+        run: |
+          resp=$(curl -sf -X POST "$APP_URL/api/admin/nudge" \
+            -H "Authorization: Bearer $REVALIDATE_TOKEN") || { echo "Request failed"; exit 1; }
+          echo "$resp"
