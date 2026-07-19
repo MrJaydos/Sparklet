@@ -24,6 +24,8 @@ export default async function FeedPage() {
       where: { id: userId },
       select: {
         currentStreak: true,
+        longestStreak: true,
+        streakFreezesAvailable: true,
         onboardedAt: true,
         _count: { select: { interactions: true } },
       },
@@ -47,6 +49,8 @@ export default async function FeedPage() {
       initialExhausted={feed.exhausted}
       categories={categories}
       initialStreak={user.currentStreak}
+      initialLongestStreak={user.longestStreak}
+      initialFreezesAvailable={user.streakFreezesAvailable}
       initialUnread={unread}
       initialXpToday={xpToday}
       dailyGoal={DAILY_GOAL_XP}
