@@ -150,11 +150,17 @@ export default async function ProfilePage() {
           <div className="mt-1 text-xs text-neutral-400">cards learned</div>
         </div>
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
-          <div className="text-3xl font-bold text-amber-300">⚡ {user.xp.toLocaleString("en")}</div>
+          <div className="whitespace-nowrap text-3xl font-bold text-amber-300">
+            <span className="mr-0.5 align-middle text-xl">⚡</span>
+            {user.xp.toLocaleString("en")}
+          </div>
           <div className="mt-1 text-xs text-neutral-400">lifetime XP</div>
         </div>
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
-          <div className="text-3xl font-bold">🔥 {user.currentStreak}</div>
+          <div className="whitespace-nowrap text-3xl font-bold">
+            <span className="mr-0.5 align-middle text-xl">🔥</span>
+            {user.currentStreak}
+          </div>
           <div className="mt-1 text-xs text-neutral-400">day streak</div>
         </div>
         <div className="rounded-2xl border border-neutral-800 bg-neutral-900 p-4">
