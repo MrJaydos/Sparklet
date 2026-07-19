@@ -148,11 +148,15 @@ export default async function AdminPage() {
       GROUP BY 1 ORDER BY 1
     `,
     prisma.$queryRaw<
-      { name: string; icon: string; published: number; views7d: number; score: number }[]
+      { name: string; icon: string; published: number; seen: number; views7d: number; score: number }[]
     >`
       SELECT cat.name, cat.icon,
         (SELECT count(*)::int FROM "Card" c
           WHERE c."categoryId" = cat.id AND c.published AND c."depthLevel" = 'STANDARD') AS published,
+        (SELECT count(*)::int FROM "Card" c4
+          WHERE c4."categoryId" = cat.id AND c4.published AND c4."depthLevel" = 'STANDARD'
+            AND EXISTS (SELECT 1 FROM "UserCardInteraction" i2
+              WHERE i2."cardId" = c4.id AND i2.completed)) AS seen,
         (SELECT count(*)::int FROM "UserCardInteraction" i
           JOIN "Card" c2 ON c2.id = i."cardId"
           WHERE c2."categoryId" = cat.id AND i."viewedAt" >= now() - interval '7 days') AS "views7d",
@@ -263,6 +267,7 @@ export default async function AdminPage() {
             <tr className="border-b border-neutral-800 text-left text-xs text-neutral-500">
               <th className="px-4 py-2 font-medium">Category</th>
               <th className="px-4 py-2 text-right font-medium">Published</th>
+              <th className="px-4 py-2 text-right font-medium">Seen</th>
               <th className="px-4 py-2 text-right font-medium">Views (7d)</th>
               <th className="px-4 py-2 text-right font-medium">Net score</th>
             </tr>
@@ -275,6 +280,13 @@ export default async function AdminPage() {
                 </td>
                 <td className={`px-4 py-2 text-right tabular-nums ${c.published < 40 ? "text-amber-400" : ""}`}>
                   {c.published}
+                </td>
+                <td className="px-4 py-2 text-right tabular-nums text-neutral-400">
+                  {c.seen}
+                  <span className="text-neutral-600">
+                    {" "}
+                    ({c.published > 0 ? Math.round((c.seen / c.published) * 100) : 0}%)
+                  </span>
                 </td>
                 <td className="px-4 py-2 text-right tabular-nums">{c.views7d}</td>
                 <td
