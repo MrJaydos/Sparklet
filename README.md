@@ -2,7 +2,8 @@
 
 A TikTok-style vertical feed where every card is a short, fact-checked piece of
 learning — real sources on every card, streaks that reward learning instead of
-time-on-app, and honest session check-ins instead of infinite-scroll traps.
+time-on-app, and a user-set daily goal the feed actually ends on, instead of
+infinite-scroll traps.
 
 **Stack:** Next.js (App Router, TS) · Tailwind · PostgreSQL + Prisma ·
 Auth.js (magic-link email) · Gemini/Groq content generation · Docker + Coolify.

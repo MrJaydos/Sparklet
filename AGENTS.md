@@ -44,11 +44,21 @@ Client claims are verified server-side; keep it that way:
 - A card view counts as "read" (`UserCardInteraction.completed` → XP, streak, review recall, the `maxSeen` demand signal) only when a second POST to `/api/interactions` arrives ≥4.5s after the first one *by the server's clock* — the client's `dwellMs` alone is never trusted. Fast swipes still upsert the row (card won't repeat in the feed) but earn nothing.
 - Read XP is additionally capped per rolling minute (`isReadXpRateLimited` in `src/lib/xp.ts`).
 - All XP flows through `awardXp` → one `XpEvent` row per award; the leaderboard, daily ring, and `getXpToday` are all sums over that log. Never mutate `User.xp` directly.
+- `getCardsToday` (also `xp.ts`) counts "things learned today" (the card-count daily goal) by counting `XpEvent` rows over the same window `getXpToday` sums — one row per completed read/review/quiz/guess. Any new XP-awarding action implicitly becomes one more "card" toward that goal; keep it that way (don't add an XpEvent kind that doesn't represent one completed thing).
 - Timezones: clients send `tzOffsetMinutes` with interactions; SSR reads the `sparklet.tz` cookie. Local calendar days are stored as UTC midnight (`localDayStart` in xp.ts, same convention in streak.ts) — reuse those helpers, don't reinvent day math.
+
+## Architecture — feed preferences and session state
+
+- Per-user feed tuning (topic filter, reading depth, daily card-count goal) lives in `localStorage`, not the DB — `sparklet.categories`, `sparklet.depth`, `sparklet.dailyGoal`, all read/written from `CategorySheet.tsx`. Keep future feed-preference knobs in this same client-only pattern rather than adding a migration.
+- The daily card goal is distinct from the fixed `DAILY_GOAL_XP` ring (`src/lib/xp.ts`): crossing the card goal shows a one-time-per-day full-screen "goal reached" interstitial in the feed (gated via `sparklet.goalHit`, a date string), separate from the XP ring's own small celebration. Don't merge the two — they answer different questions ("did I hit my count today" vs "did I hit my XP today").
+- Session-only state (cards/topics seen this session, for the check-in recap) lives in refs/state inside `Feed.tsx` and resets on reload — it is not persisted or synced with the daily (server-backed) counters.
 
 ## Layout notes
 
 - Feed composition (unseen pool, due spaced-repetition reviews slotted first, score-weighted shuffle, quiz/guess interleaving) lives in `src/lib/feed.ts` + `src/components/feed/Feed.tsx`; the Feed component also owns view/dwell reporting and the push-reminder soft-ask.
+- `src/components/AppHeader.tsx` is the shared header (logo, streak, XP ring, notifications, hamburger menu) for every page except the feed itself — profile/leaderboard/admin/notifications all render it with `position: fixed` since those pages scroll at the document level. The feed has its own inline header using `position: absolute` because it overlays an inner scrolling container that itself doesn't move. Extend `AppHeader` for new header-wide controls rather than duplicating chrome per page.
+- Friends and referrals: `Friendship` (PENDING/ACCEPTED) between users, plus `User.referredById` (self-relation) for invite attribution. Invite links are `/invite/[refId]`; a genuinely new signup (checked before any write) grants the referrer a streak freeze, applied only after the DB transaction resolves.
 - Scripts under `scripts/` run via tsx and construct their own `PrismaClient` with the pg adapter; app code imports the shared `prisma` from `@/lib/db`.
 - Web push is self-hosted (`web-push` + VAPID keys in env; absent keys no-op everywhere). Subscriptions in `PushSubscription`; sender logic in `src/lib/push.ts` + `/api/admin/nudge`.
 - `public/sw.js` (offline caching + push handlers) only registers in production builds.
+- No text-to-speech: it was removed (along with the Piper server and MinIO/S3, which only existed to support it) as unused. Card images are served live from their original external URLs — never uploaded or proxied — so there is no object storage in this stack.
