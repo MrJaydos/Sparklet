@@ -81,6 +81,8 @@ export function Feed({
 
   const containerRef = useRef<HTMLDivElement>(null);
   const viewedRef = useRef<Set<string>>(new Set());
+  const readRef = useRef<Set<string>>(new Set()); // cards that hit the read-dwell threshold
+  const readTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const loadingRef = useRef(false);
   const autoReadRef = useRef(false);
   const activeIdRef = useRef<string | null>(null);
@@ -311,10 +313,7 @@ export function Feed({
     }
   };
 
-  const markViewed = useCallback(async (cardId: string) => {
-    if (viewedRef.current.has(cardId)) return;
-    viewedRef.current.add(cardId);
-    setSessionViews((n) => n + 1);
+  const postView = useCallback(async (cardId: string, dwellMs?: number) => {
     try {
       const res = await fetch("/api/interactions", {
         method: "POST",
@@ -322,6 +321,7 @@ export function Feed({
         body: JSON.stringify({
           cardId,
           action: "view",
+          ...(dwellMs !== undefined ? { dwellMs } : {}),
           tzOffsetMinutes: new Date().getTimezoneOffset(),
         }),
       });
@@ -344,6 +344,32 @@ export function Feed({
       /* non-fatal */
     }
   }, [handleXp]);
+
+  // Marks the card as seen (so the feed never repeats it) but earns nothing —
+  // XP and streak wait for the read ping below.
+  const markViewed = useCallback((cardId: string) => {
+    if (viewedRef.current.has(cardId)) return;
+    viewedRef.current.add(cardId);
+    setSessionViews((n) => n + 1);
+    postView(cardId);
+  }, [postView]);
+
+  // Read ping: fires once a card has stayed active past the server's read
+  // threshold, turning the view into a completed read (XP, streak, demand
+  // signal). Swiping away earlier cancels it, so skips stay free.
+  const READ_DWELL_MS = 5_200; // slightly over the server's 5s minimum
+  const scheduleReadPing = useCallback((cardId: string, activeSince: number) => {
+    if (readTimerRef.current) clearTimeout(readTimerRef.current);
+    if (readRef.current.has(cardId)) return;
+    // Delay counts from when the card became active, so re-arming after an
+    // effect re-run (new batch loaded mid-dwell) doesn't restart the clock.
+    const delay = Math.max(0, READ_DWELL_MS - (Date.now() - activeSince));
+    readTimerRef.current = setTimeout(() => {
+      if (activeIdRef.current !== cardId || readRef.current.has(cardId)) return;
+      readRef.current.add(cardId);
+      postView(cardId, Date.now() - activeSince);
+    }, delay);
+  }, [postView]);
 
   // Long-dwell reporting: when the user moves off a card, tell the server
   // how long they lingered (enters spaced repetition when unusually long).
@@ -395,6 +421,7 @@ export function Feed({
               }
               activeIdRef.current = id;
               activeSinceRef.current = Date.now();
+              scheduleReadPing(id, activeSinceRef.current);
               if (autoReadRef.current) {
                 const card = cardsRef.current.find((c) => c.id === id);
                 if (card) speakCard(card);
@@ -410,8 +437,16 @@ export function Feed({
       { root: container, threshold: 0.6 }
     );
     container.querySelectorAll("[data-index]").forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
-  }, [cards, selected, exhausted, markViewed, fetchCards, speakCard, reportDwell]);
+    // Re-arm the active card's read ping: the cleanup below cancels it when
+    // this effect re-runs (e.g. a new batch arrives mid-dwell).
+    if (activeIdRef.current && !readRef.current.has(activeIdRef.current)) {
+      scheduleReadPing(activeIdRef.current, activeSinceRef.current);
+    }
+    return () => {
+      observer.disconnect();
+      if (readTimerRef.current) clearTimeout(readTimerRef.current);
+    };
+  }, [cards, selected, exhausted, markViewed, fetchCards, speakCard, reportDwell, scheduleReadPing]);
 
   // Wheel navigation for desktop: with mandatory snap, a single wheel tick
   // scrolls a few pixels and snaps straight back — feels dead. Treat each
