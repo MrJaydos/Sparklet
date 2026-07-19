@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import { usePopoverAnchor } from "./usePopoverAnchor";
 
 /**
  * Daily streak badge for the feed header. Tapping it opens a popup
@@ -21,12 +22,17 @@ export function StreakBadge({
   freezesAvailable: number;
 }) {
   const [open, setOpen] = useState(false);
+  const { triggerRef, anchor, measure } = usePopoverAnchor<HTMLButtonElement>();
 
   return (
     <>
       <button
+        ref={triggerRef}
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          measure();
+          setOpen(true);
+        }}
         className="pointer-events-auto whitespace-nowrap rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
         title="What is a streak?"
         aria-label="What is a streak?"
@@ -44,10 +50,13 @@ export function StreakBadge({
             <button
               type="button"
               aria-label="Close"
-              className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+              className="absolute inset-0 bg-black/60 backdrop-blur-sm sm:bg-transparent sm:backdrop-blur-none"
               onClick={() => setOpen(false)}
             />
-            <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-5 pt-[calc(env(safe-area-inset-top)+1.5rem)] sm:absolute sm:right-4 sm:top-[calc(env(safe-area-inset-top)+3rem)] sm:w-80 sm:rounded-2xl sm:border sm:p-4 sm:pt-4 sm:shadow-2xl">
+            <div
+              style={anchor ?? undefined}
+              className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-5 pt-[calc(env(safe-area-inset-top)+1.5rem)] sm:absolute sm:w-80 sm:rounded-2xl sm:border sm:p-4 sm:pt-4 sm:shadow-2xl"
+            >
               <div className="mx-auto w-full max-w-lg sm:mx-0 sm:max-w-none">
                 <div className="flex items-baseline justify-between">
                   <h2 className="text-lg font-bold">🔥 Streaks — stay consistent</h2>

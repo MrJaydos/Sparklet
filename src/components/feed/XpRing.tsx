@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import { usePopoverAnchor } from "./usePopoverAnchor";
 
 /**
  * Daily XP goal ring for the feed header: fills as today's XP approaches
@@ -14,6 +15,7 @@ import { createPortal } from "react-dom";
  */
 export function XpRing({ today, goal }: { today: number; goal: number }) {
   const [open, setOpen] = useState(false);
+  const { triggerRef, anchor, measure } = usePopoverAnchor<HTMLButtonElement>();
   const progress = Math.min(1, today / goal);
   const done = today >= goal;
   const r = 8;
@@ -22,8 +24,12 @@ export function XpRing({ today, goal }: { today: number; goal: number }) {
   return (
     <>
       <button
+        ref={triggerRef}
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={() => {
+          measure();
+          setOpen(true);
+        }}
         className="pointer-events-auto relative flex items-center gap-1.5 whitespace-nowrap rounded-full bg-neutral-900/80 py-1.5 pl-2 pr-2.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
         title={done ? `Daily goal reached — ${today} XP today` : `${today}/${goal} XP today`}
         aria-label="What is XP?"
@@ -63,10 +69,13 @@ export function XpRing({ today, goal }: { today: number; goal: number }) {
             <button
               type="button"
               aria-label="Close"
-              className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+              className="absolute inset-0 bg-black/60 backdrop-blur-sm sm:bg-transparent sm:backdrop-blur-none"
               onClick={() => setOpen(false)}
             />
-            <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-5 pt-[calc(env(safe-area-inset-top)+1.5rem)] sm:absolute sm:right-4 sm:top-[calc(env(safe-area-inset-top)+3rem)] sm:w-80 sm:rounded-2xl sm:border sm:p-4 sm:pt-4 sm:shadow-2xl">
+            <div
+              style={anchor ?? undefined}
+              className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-5 pt-[calc(env(safe-area-inset-top)+1.5rem)] sm:absolute sm:w-80 sm:rounded-2xl sm:border sm:p-4 sm:pt-4 sm:shadow-2xl"
+            >
               <div className="mx-auto w-full max-w-lg sm:mx-0 sm:max-w-none">
                 <div className="flex items-baseline justify-between">
                   <h2 className="text-lg font-bold">⚡ XP — your daily learning goal</h2>

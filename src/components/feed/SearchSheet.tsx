@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { timeAgo } from "@/lib/time";
+import type { PopoverAnchor } from "./usePopoverAnchor";
 
 type SearchResult = {
   id: string;
@@ -11,7 +12,14 @@ type SearchResult = {
   category: { name: string; icon: string; colorHex: string };
 };
 
-export function SearchSheet({ onClose }: { onClose: () => void }) {
+export function SearchSheet({
+  onClose,
+  anchor,
+}: {
+  onClose: () => void;
+  /** Button position to drop down from (desktop). Omitted → full mobile sheet. */
+  anchor?: PopoverAnchor | null;
+}) {
   const [q, setQ] = useState("");
   const [results, setResults] = useState<SearchResult[]>([]);
   const [searching, setSearching] = useState(false);
@@ -51,14 +59,25 @@ export function SearchSheet({ onClose }: { onClose: () => void }) {
   }, [q]);
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col justify-end" role="dialog" aria-modal="true">
+    <div
+      className={anchor ? "fixed inset-0 z-50" : "fixed inset-0 z-50 flex flex-col justify-end"}
+      role="dialog"
+      aria-modal="true"
+    >
       <button
         type="button"
         aria-label="Close"
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+        className={anchor ? "absolute inset-0" : "absolute inset-0 bg-black/60 backdrop-blur-sm"}
         onClick={onClose}
       />
-      <div className="relative flex max-h-[85dvh] min-h-[60dvh] flex-col rounded-t-3xl border-t border-neutral-800 bg-neutral-950 p-6 pb-8">
+      <div
+        style={anchor ?? undefined}
+        className={
+          anchor
+            ? "sheet-drop absolute flex max-h-[28rem] w-96 flex-col rounded-2xl border border-neutral-800 bg-neutral-950 p-4 shadow-2xl"
+            : "relative flex max-h-[85dvh] min-h-[60dvh] flex-col rounded-t-3xl border-t border-neutral-800 bg-neutral-950 p-6 pb-8"
+        }
+      >
         <input
           autoFocus
           type="search"

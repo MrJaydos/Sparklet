@@ -13,6 +13,7 @@ import { QuizView } from "./QuizView";
 import { GuessView } from "./GuessView";
 import { XpRing } from "./XpRing";
 import { StreakBadge } from "./StreakBadge";
+import { usePopoverAnchor } from "./usePopoverAnchor";
 import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
 import { PushPrompt } from "./PushPrompt";
 
@@ -78,6 +79,7 @@ export function Feed({
   const [freezesAvailable, setFreezesAvailable] = useState(initialFreezesAvailable);
   const [showSheet, setShowSheet] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
+  const { triggerRef: searchTriggerRef, anchor: searchAnchor, measure: measureSearchAnchor, clear: clearSearchAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const [showMenu, setShowMenu] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
   const [showPushPrompt, setShowPushPrompt] = useState(false);
@@ -633,8 +635,12 @@ export function Feed({
           />
           <XpRing today={xpToday} goal={dailyGoal} />
           <button
+            ref={searchTriggerRef}
             type="button"
-            onClick={() => setShowSearch(true)}
+            onClick={() => {
+              measureSearchAnchor();
+              setShowSearch(true);
+            }}
             className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
           >
             🔍 Search
@@ -816,12 +822,15 @@ export function Feed({
           onClose={() => setShowMenu(false)}
           onSearch={() => {
             setShowMenu(false);
+            clearSearchAnchor();
             setShowSearch(true);
           }}
         />
       )}
 
-      {showSearch && <SearchSheet onClose={() => setShowSearch(false)} />}
+      {showSearch && (
+        <SearchSheet onClose={() => setShowSearch(false)} anchor={searchAnchor} />
+      )}
 
       {showSheet && (
         <CategorySheet
