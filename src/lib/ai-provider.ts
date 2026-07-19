@@ -258,6 +258,18 @@ export async function listBatches(prefix: string): Promise<BatchJob[]> {
   return jobs;
 }
 
+/**
+ * Fetch the full batch job by name. Required before reading results:
+ * batches.list() returns summaries only (state, displayName — no
+ * dest.inlinedResponses), even for a job in a terminal state. Only
+ * batches.get() on a specific job returns the actual output.
+ */
+export async function getBatch(name: string): Promise<BatchJob | null> {
+  const client = getBatchClient();
+  if (!client) return null;
+  return client.batches.get({ name });
+}
+
 export async function deleteBatch(name: string): Promise<void> {
   const client = getBatchClient();
   if (!client) return;

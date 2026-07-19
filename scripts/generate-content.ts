@@ -34,6 +34,7 @@ import {
   batchingAvailable,
   submitBatch,
   listBatches,
+  getBatch,
   deleteBatch,
   batchResults,
   GEMINI_MODEL,
@@ -345,17 +346,26 @@ async function runBatchTopUp(
     const state = job.state as string | undefined;
     if (state && BATCH_DONE_STATES.has(state)) {
       console.log(`\n▶ Collecting batch ${job.displayName} (${state})…`);
-      const results = batchResults(job);
-      // metadata.key is how we attribute each result back to a category —
-      // if the API silently stopped echoing it, every key comes back empty
-      // and this batch's cards would vanish with no error. Fail loudly
-      // (and non-zero-exit) instead of folding into the ordinary
-      // "nothing to collect" case, so a broken echo can't bleed quota
-      // silently, cycle after cycle, with CI staying green throughout.
-      if (results.length > 0 && results.every((r) => !r.key)) {
+      // batches.list() only returns summaries (state, displayName) — the
+      // actual dest.inlinedResponses only comes back from batches.get() on
+      // this specific job. Re-fetch before reading results; skipping this
+      // silently "collects" zero cards from a job that actually succeeded.
+      const full = job.name ? await getBatch(job.name) : null;
+      const results = full ? batchResults(full) : [];
+      // Either the get() failed to return real output, or metadata.key
+      // (how we attribute a result back to a category) isn't being echoed.
+      // Both mean this batch's cards can't be salvaged. Fail loudly (and
+      // non-zero-exit) instead of folding into the ordinary "nothing to
+      // collect" case, so this can't bleed quota silently, cycle after
+      // cycle, with CI staying green throughout.
+      if (results.length === 0 || results.every((r) => !r.key)) {
         console.error(
-          `\n✗✗ Batch ${job.displayName}: none of ${results.length} result(s) carried a metadata.key — cannot attribute cards to categories. Discarding this batch; investigate the batch API's metadata echo behavior.`
+          `\n✗✗ Batch ${job.displayName}: ${results.length === 0 ? "batches.get() returned no results for a job in a done state" : `none of ${results.length} result(s) carried a metadata.key`} — cannot recover this batch's cards. Discarding it; investigate the batch API integration.`
         );
+        // Diagnostic dump before the delete, in case this canary is itself
+        // wrong about what get() returned — a deleted job leaves no other
+        // way to see what actually came back.
+        console.error(`  full job dump: ${JSON.stringify(full)}`);
         hardFailure = true;
         if (job.name) await deleteBatch(job.name);
         continue;
