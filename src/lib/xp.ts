@@ -48,6 +48,18 @@ export async function getXpToday(userId: string, tzOffsetMinutes: number): Promi
   return sum._sum.amount ?? 0;
 }
 
+// Ceiling on read-XP awards per rolling minute. A real reader tops out
+// around 11/min (the client's read ping needs ~5s of dwell per card), so
+// legit users never touch this; parallel-request farming does.
+export const READ_XP_PER_MINUTE = 15;
+
+export async function isReadXpRateLimited(userId: string): Promise<boolean> {
+  const recent = await prisma.xpEvent.count({
+    where: { userId, kind: "read", createdAt: { gte: new Date(Date.now() - 60_000) } },
+  });
+  return recent >= READ_XP_PER_MINUTE;
+}
+
 export async function awardXp(
   userId: string,
   amount: number,
