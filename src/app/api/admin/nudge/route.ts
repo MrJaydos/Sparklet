@@ -15,13 +15,77 @@ export const dynamic = "force-dynamic";
  *  - never for users who've already been active today — nudges are for
  *    bringing people back, not interrupting them.
  *
- * Message priority: streak about to break → reviews due → a random unseen
- * card as a discovery teaser.
+ * Message priority: streak genuinely about to break (active yesterday, not
+ * yet today — a stale currentStreak from days ago doesn't nag) → reviews
+ * due → an unseen-card teaser matched to the user's interests: categories
+ * they read and like most, falling back to onboarding picks, then anything.
  */
 
 const EVENING_START = 17;
 const EVENING_END = 23; // exclusive
 const NUDGE_COOLDOWN_MS = 20 * 3600_000;
+
+/**
+ * A random unseen published card from the categories this user engages with
+ * most — reads in the last 60 days, with likes weighted extra — falling back
+ * to their onboarding interest picks, then to any category.
+ */
+async function pickTeaser(
+  userId: string
+): Promise<{ id: string; title: string; categoryName: string; icon: string } | null> {
+  const behavioral = await prisma.$queryRaw<{ categoryId: string }[]>`
+    SELECT c."categoryId"
+    FROM "UserCardInteraction" i
+    JOIN "Card" c ON c.id = i."cardId"
+    WHERE i."userId" = ${userId}
+      AND i.completed
+      AND (i."viewedAt" >= now() - interval '60 days' OR i.liked)
+    GROUP BY c."categoryId"
+    ORDER BY count(*) + 2 * count(*) FILTER (WHERE i.liked) DESC
+    LIMIT 3
+  `;
+  let categoryIds = behavioral.map((r) => r.categoryId);
+  if (categoryIds.length === 0) {
+    const interests = await prisma.userInterest.findMany({
+      where: { userId },
+      select: { categoryId: true },
+    });
+    categoryIds = interests.map((i) => i.categoryId);
+  }
+
+  // Preferred categories first; anything unseen as the last resort.
+  for (const where of [
+    ...(categoryIds.length ? [{ categoryId: { in: categoryIds } }] : []),
+    {},
+  ]) {
+    const filter = {
+      ...where,
+      published: true,
+      depthLevel: "STANDARD" as const,
+      interactions: { none: { userId } },
+    };
+    const count = await prisma.card.count({ where: filter });
+    if (count === 0) continue;
+    const card = await prisma.card.findFirst({
+      where: filter,
+      skip: Math.floor(Math.random() * count),
+      select: {
+        id: true,
+        title: true,
+        category: { select: { name: true, icon: true } },
+      },
+    });
+    if (card) {
+      return {
+        id: card.id,
+        title: card.title,
+        categoryName: card.category.name,
+        icon: card.category.icon,
+      };
+    }
+  }
+  return null;
+}
 
 export async function POST(req: NextRequest) {
   const token = process.env.REVALIDATE_TOKEN;
@@ -61,13 +125,18 @@ export async function POST(req: NextRequest) {
       localNow.getUTCDate()
     );
     if (user.lastActiveDate?.getTime() === today) continue; // already learned today
+    // Only warn about the streak while it can still be saved tonight: they
+    // were active yesterday and haven't been in today. A currentStreak left
+    // over from days ago is stale — nagging about it reads as a lie.
+    const streakAtRisk =
+      user.currentStreak > 0 && user.lastActiveDate?.getTime() === today - 86_400_000;
 
     const dueReviews = await prisma.spacedRepetitionState.count({
       where: { userId: user.id, nextReviewAt: { lte: new Date() }, card: { published: true } },
     });
 
     let payload: PushPayload;
-    if (user.currentStreak > 0) {
+    if (streakAtRisk) {
       payload = {
         title: `🔥 Your ${user.currentStreak}-day streak is on the line`,
         body:
@@ -83,29 +152,12 @@ export async function POST(req: NextRequest) {
         url: "/feed",
       };
     } else {
-      // Discovery teaser: a random published card this user hasn't seen.
-      const unseenCount = await prisma.card.count({
-        where: {
-          published: true,
-          depthLevel: "STANDARD",
-          interactions: { none: { userId: user.id } },
-        },
-      });
-      if (unseenCount === 0) continue;
-      const teaser = await prisma.card.findFirst({
-        where: {
-          published: true,
-          depthLevel: "STANDARD",
-          interactions: { none: { userId: user.id } },
-        },
-        skip: Math.floor(Math.random() * unseenCount),
-        select: { title: true },
-      });
+      const teaser = await pickTeaser(user.id);
       if (!teaser) continue;
       payload = {
-        title: "🔮 Did you know?",
+        title: `${teaser.icon} ${teaser.categoryName}: did you know?`,
         body: teaser.title,
-        url: "/feed",
+        url: `/card/${teaser.id}`,
       };
     }
 
