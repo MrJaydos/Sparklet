@@ -13,7 +13,7 @@ export async function shareOrCopy(
     }
   }
   try {
-    await navigator.clipboard.writeText(data.url);
+    await navigator.clipboard.writeText(`${data.text} ${data.url}`);
     onCopied?.();
   } catch {
     /* clipboard unavailable */

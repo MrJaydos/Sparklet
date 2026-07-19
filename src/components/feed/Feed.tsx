@@ -88,6 +88,7 @@ export function Feed({
   const [cardsToday, setCardsToday] = useState(initialCardsToday);
   const cardsTodayRef = useRef(initialCardsToday);
   const [dailyCardGoal, setDailyCardGoal] = useState(DEFAULT_DAILY_CARD_GOAL);
+  const [cardGoalCelebration, setCardGoalCelebration] = useState(false);
   const [sessionCategories, setSessionCategories] = useState<Set<string>>(new Set());
   const [goalReachedAfter, setGoalReachedAfter] = useState<number | null>(null);
   const sessionViewsRef = useRef(0);
@@ -283,9 +284,14 @@ export function Feed({
         if (localStorage.getItem(GOAL_HIT_KEY) !== today) {
           localStorage.setItem(GOAL_HIT_KEY, today);
           setGoalReachedAfter(sessionViewsRef.current);
+          setCardGoalCelebration(true);
+          vibrate([40, 60, 40, 60, 80]);
+          setTimeout(() => setCardGoalCelebration(false), 4000);
         }
       } catch {
         setGoalReachedAfter(sessionViewsRef.current);
+        setCardGoalCelebration(true);
+        setTimeout(() => setCardGoalCelebration(false), 4000);
       }
     }
   }, [dailyCardGoal]);
@@ -769,9 +775,8 @@ export function Feed({
           ) : item.kind === "goalReached" ? (
             <section
               key="goal-reached"
-              className="relative flex h-dvh snap-start flex-col items-center justify-center gap-4 px-8 text-center"
+              className="flex h-dvh snap-start flex-col items-center justify-center gap-4 px-8 text-center"
             >
-              <ConfettiBurst big />
               <div className="text-6xl">🏁</div>
               <h2 className="text-3xl font-bold">Daily goal complete!</h2>
               <p className="max-w-sm text-neutral-400">
@@ -924,6 +929,12 @@ export function Feed({
               {dailyGoal} XP today — everything from here is a bonus.
             </div>
           </div>
+        </div>
+      )}
+
+      {cardGoalCelebration && (
+        <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center">
+          <ConfettiBurst big />
         </div>
       )}
 
