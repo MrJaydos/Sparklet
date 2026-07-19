@@ -18,7 +18,7 @@ export function XpRing({ today, goal }: { today: number; goal: number }) {
   const c = 2 * Math.PI * r;
 
   return (
-    <div className="relative">
+    <div className="pointer-events-auto relative">
       <button
         type="button"
         onClick={() => setOpen(true)}

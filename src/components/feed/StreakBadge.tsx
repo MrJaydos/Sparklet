@@ -21,7 +21,7 @@ export function StreakBadge({
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="pointer-events-auto relative">
       <button
         type="button"
         onClick={() => setOpen(true)}
