@@ -109,6 +109,7 @@ export function Feed({
   const [showSheet, setShowSheet] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const { triggerRef: searchTriggerRef, anchor: searchAnchor, measure: measureSearchAnchor, clear: clearSearchAnchor } = usePopoverAnchor<HTMLButtonElement>();
+  const { triggerRef: topicTriggerRef, anchor: topicAnchor, measure: measureTopicAnchor, clear: clearTopicAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const [showMenu, setShowMenu] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
   const [showInviteCard, setShowInviteCard] = useState(false);
@@ -608,8 +609,12 @@ export function Feed({
         </Link>
         <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
           <button
+            ref={topicTriggerRef}
             type="button"
-            onClick={() => setShowSheet(true)}
+            onClick={() => {
+              measureTopicAnchor();
+              setShowSheet(true);
+            }}
             className="min-w-0 max-w-28 truncate rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:max-w-40"
           >
             {topicLabel} ▾
@@ -633,11 +638,33 @@ export function Feed({
           </button>
           <NotificationsBell unread={unread} onOpened={setUnread} />
           <Link
+            href="/leaderboard"
+            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+          >
+            🏆 Leaderboard
+          </Link>
+          <Link
             href="/profile"
             className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
           >
             👤 Profile
           </Link>
+          {isAdmin && (
+            <Link
+              href="/admin"
+              className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 sm:block"
+            >
+              🛠️ Admin
+            </Link>
+          )}
+          <form action={signOutAction} className="hidden sm:block">
+            <button
+              type="submit"
+              className="whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
+            >
+              🚪 Sign out
+            </button>
+          </form>
           <button
             type="button"
             onClick={() => setShowMenu(true)}
@@ -816,7 +843,10 @@ export function Feed({
               <div className="mt-2 flex flex-wrap justify-center gap-3">
                 <button
                   type="button"
-                  onClick={() => setShowSheet(true)}
+                  onClick={() => {
+                    measureTopicAnchor();
+                    setShowSheet(true);
+                  }}
                   className="rounded-xl bg-violet-600 px-6 py-3 font-semibold text-white transition hover:bg-violet-500"
                 >
                   Switch topics
@@ -899,8 +929,12 @@ export function Feed({
           categories={categories}
           selected={selected}
           onApply={applyCategories}
-          onClose={() => setShowSheet(false)}
+          onClose={() => {
+            setShowSheet(false);
+            clearTopicAnchor();
+          }}
           onGoalChange={setDailyCardGoal}
+          anchor={topicAnchor}
         />
       )}
 

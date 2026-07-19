@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import type { PopoverAnchor } from "./usePopoverAnchor";
 
 export type CategoryOption = {
   slug: string;
@@ -31,12 +32,15 @@ export function CategorySheet({
   onApply,
   onClose,
   onGoalChange,
+  anchor,
 }: {
   categories: CategoryOption[];
   selected: string[];
   onApply: (slugs: string[]) => void;
   onClose: () => void;
   onGoalChange: (goal: number) => void;
+  /** Button position to drop down from (desktop). Omitted/null → full mobile sheet. */
+  anchor?: PopoverAnchor | null;
 }) {
   const [picked, setPicked] = useState<string[]>(selected);
   const [depth, setDepth] = useState<DepthLevel>(() => {
@@ -83,12 +87,15 @@ export function CategorySheet({
       <button
         type="button"
         aria-label="Close"
-        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
+        className="absolute inset-0 bg-black/60 backdrop-blur-sm sm:bg-transparent sm:backdrop-blur-none"
         onClick={onClose}
       />
-      {/* Full screen on mobile so nothing gets cut off; drops down capped at
-          85dvh on larger screens, matching MenuSheet/NotificationsBell. */}
-      <div className="sheet-drop relative h-dvh overflow-y-auto rounded-none bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)] pb-[calc(env(safe-area-inset-bottom)+1.5rem)] sm:h-auto sm:max-h-[85dvh] sm:rounded-b-3xl sm:border-b sm:border-neutral-800 sm:pb-6">
+      {/* Full screen on mobile so nothing gets cut off; a compact anchored
+          dropdown on desktop, matching NotificationsBell/SearchSheet. */}
+      <div
+        style={anchor ?? undefined}
+        className="sheet-drop relative h-dvh overflow-y-auto rounded-none bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)] pb-[calc(env(safe-area-inset-bottom)+1.5rem)] sm:absolute sm:h-auto sm:max-h-[32rem] sm:w-96 sm:rounded-2xl sm:border sm:border-neutral-800 sm:p-4 sm:pb-4 sm:pt-4 sm:shadow-2xl"
+      >
         <div className="flex items-baseline justify-between gap-3">
           <h2 className="text-lg font-bold">Your feed</h2>
           <button

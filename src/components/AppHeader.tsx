@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { StreakBadge } from "./feed/StreakBadge";
 import { XpRing } from "./feed/XpRing";
@@ -35,6 +36,20 @@ export function AppHeader({
 }) {
   const [unread, setUnread] = useState(initialUnread);
   const [showMenu, setShowMenu] = useState(false);
+  const pathname = usePathname();
+
+  const navLink = (href: string, label: string) => (
+    <Link
+      href={href}
+      className={`hidden whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-semibold backdrop-blur transition sm:block ${
+        pathname === href
+          ? "bg-violet-600/20 text-violet-300"
+          : "bg-neutral-900/80 hover:bg-neutral-800"
+      }`}
+    >
+      {label}
+    </Link>
+  );
 
   return (
     <>
@@ -46,6 +61,10 @@ export function AppHeader({
           ✨ Sparklet
         </Link>
         <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
+          {navLink("/feed", "🏠 Home")}
+          {navLink("/leaderboard", "🏆 Leaderboard")}
+          {navLink("/profile", "👤 Profile")}
+          {isAdmin && navLink("/admin", "🛠️ Admin")}
           <StreakBadge
             streak={streak}
             longestStreak={longestStreak}
@@ -57,7 +76,7 @@ export function AppHeader({
             type="button"
             onClick={() => setShowMenu(true)}
             aria-label="Menu"
-            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800"
+            className="relative rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs backdrop-blur transition hover:bg-neutral-800 sm:hidden"
           >
             ☰
             {unread > 0 && (
