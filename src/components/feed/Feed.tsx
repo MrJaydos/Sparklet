@@ -12,6 +12,7 @@ import { ReportSheet } from "./ReportSheet";
 import { QuizView } from "./QuizView";
 import { GuessView } from "./GuessView";
 import { XpRing } from "./XpRing";
+import { StreakBadge } from "./StreakBadge";
 import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
 import { PushPrompt } from "./PushPrompt";
 
@@ -37,6 +38,8 @@ export function Feed({
   initialExhausted,
   categories,
   initialStreak,
+  initialLongestStreak,
+  initialFreezesAvailable,
   initialUnread,
   initialXpToday,
   dailyGoal,
@@ -47,6 +50,8 @@ export function Feed({
   initialExhausted: boolean;
   categories: CategoryOption[];
   initialStreak: number;
+  initialLongestStreak: number;
+  initialFreezesAvailable: number;
   initialUnread: number;
   initialXpToday: number;
   dailyGoal: number;
@@ -69,6 +74,8 @@ export function Feed({
     Object.fromEntries(initialCards.map((c) => [c.id, c.commentCount]))
   );
   const [streak, setStreak] = useState(initialStreak);
+  const [longestStreak, setLongestStreak] = useState(initialLongestStreak);
+  const [freezesAvailable, setFreezesAvailable] = useState(initialFreezesAvailable);
   const [showSheet, setShowSheet] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
@@ -333,6 +340,8 @@ export function Feed({
         handleXp(data.xp);
         if (data.streak) {
           setStreak(data.streak.currentStreak);
+          setLongestStreak(data.streak.longestStreak);
+          setFreezesAvailable(data.streak.freezesAvailable);
           if (data.streak.freezesUsed > 0) {
             setFreezeNotice(
               `🧊 A streak freeze covered ${
@@ -617,12 +626,11 @@ export function Feed({
           >
             {topicLabel} ▾
           </button>
-          <span
-            className="whitespace-nowrap rounded-full bg-neutral-900/80 px-2.5 py-1.5 text-xs font-semibold backdrop-blur"
-            title="Daily streak"
-          >
-            🔥 {streak}
-          </span>
+          <StreakBadge
+            streak={streak}
+            longestStreak={longestStreak}
+            freezesAvailable={freezesAvailable}
+          />
           <XpRing today={xpToday} goal={dailyGoal} />
           <button
             type="button"
