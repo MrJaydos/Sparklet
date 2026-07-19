@@ -594,13 +594,16 @@ export function Feed({
       if ((i + 1) % GUESS_EVERY === GUESS_OFFSET && guessCursor < guesses.length) {
         out.push({ kind: "guess", guess: guesses[guessCursor++] });
       }
-      if ((i + 1) % CHECKIN_EVERY === 0) out.push({ kind: "checkin", afterCount: i + 1 });
-      if (showInviteCard && i + 1 === INVITE_AFTER_CARDS) out.push({ kind: "invite" });
+      // Check-in's recap CTAs (share via inviteUrl, "take a break" → /profile)
+      // and the invite card both assume a signed-in account — skip for guests
+      // rather than dead-ending them at a login wall mid-scroll.
+      if (!isGuest && (i + 1) % CHECKIN_EVERY === 0) out.push({ kind: "checkin", afterCount: i + 1 });
+      if (!isGuest && showInviteCard && i + 1 === INVITE_AFTER_CARDS) out.push({ kind: "invite" });
       if (goalReachedAfter !== null && i + 1 === goalReachedAfter) out.push({ kind: "goalReached" });
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, quizzes, guesses, exhausted, showInviteCard, goalReachedAfter]);
+  }, [cards, quizzes, guesses, exhausted, showInviteCard, goalReachedAfter, isGuest]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });

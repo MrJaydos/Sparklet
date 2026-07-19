@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 
 type Row = {
@@ -11,10 +10,8 @@ type Row = {
   colorHex: string;
 };
 
+// Content lookup only — no personalization, so it's public like /card/[id].
 export async function GET(req: NextRequest) {
-  const session = await auth();
-  if (!session?.user?.id) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-
   const q = req.nextUrl.searchParams.get("q")?.trim().slice(0, 100) ?? "";
   if (!q) return NextResponse.json({ results: [] });
 
