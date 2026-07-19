@@ -8,6 +8,7 @@ import { displayName } from "@/lib/display";
 import { computeBadges } from "@/lib/badges";
 import { PushToggle } from "@/components/PushToggle";
 import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
+import { HistoryList, type HistoryRow } from "@/components/HistoryList";
 
 export const metadata = { title: "Profile — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -318,26 +319,17 @@ export default async function ProfilePage() {
           or a refresh.
         </p>
       ) : (
-        <ul className="mt-3 space-y-1.5">
-          {history.map(({ card, viewedAt }) => (
-            <li key={card.id}>
-              <Link
-                href={`/card/${card.id}`}
-                className="flex items-baseline justify-between gap-3 rounded-lg border border-transparent px-3 py-2 transition hover:border-neutral-700 hover:bg-neutral-900"
-              >
-                <span className="min-w-0">
-                  <span className="text-xs" style={{ color: card.category.colorHex }}>
-                    {card.category.icon}
-                  </span>{" "}
-                  <span className="text-sm text-neutral-200">{card.title}</span>
-                </span>
-                <span className="shrink-0 text-xs text-neutral-600">
-                  {formatWhen(viewedAt)}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <HistoryList
+          rows={history.map(
+            ({ card, viewedAt }): HistoryRow => ({
+              cardId: card.id,
+              title: card.title,
+              icon: card.category.icon,
+              colorHex: card.category.colorHex,
+              when: formatWhen(viewedAt),
+            })
+          )}
+        />
       )}
 
     </main>
