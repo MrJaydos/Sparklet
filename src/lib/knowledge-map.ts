@@ -11,13 +11,16 @@ export type MapEdge = { source: string; target: string };
 
 // Bounded to the user's most recent history rather than their entire
 // completed set — matches the profile page's existing HistoryList query, and
-// keeps getRelatedCards' per-request GIN-index probes to a small, cheap
-// batch rather than hundreds of lookups on an occasional page view.
-const NODE_LIMIT = 50;
+// keeps getRelatedCards' per-request GIN-index probes and the force layout's
+// O(n^2)-per-iteration cost to a batch that's still cheap on an occasional
+// page view. 200 was picked as a size that stays fast (well under 50k node
+// comparisons per layout iteration) and still reads as a graph rather than
+// an unreadable cluster of dots on a phone screen.
+const NODE_LIMIT = 200;
 const EDGES_PER_NODE = 3;
 
 /**
- * Nodes = cards the user has completed (bounded to their most recent 50).
+ * Nodes = cards the user has completed (bounded to their most recent 200).
  * Edges = related.ts's title-similarity links, filtered to only connect
  * facts the user has actually learned — related.ts's target pool is any
  * published card, so without this filter edges would point at things the
