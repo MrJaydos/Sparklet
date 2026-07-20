@@ -271,6 +271,19 @@ export default async function ProfilePage() {
         </div>
       )}
 
+      <Link
+        href="/map"
+        className="mt-4 flex items-center justify-between gap-3 rounded-2xl border border-neutral-800 bg-neutral-900 p-4 transition hover:border-neutral-600 lg:p-6"
+      >
+        <div>
+          <div className="text-sm font-semibold">🗺️ Your knowledge map</div>
+          <p className="mt-1 text-xs text-neutral-400">
+            See {totalViewed} learned facts as a growing constellation
+          </p>
+        </div>
+        <span className="text-neutral-500">→</span>
+      </Link>
+
       {/* Two columns on desktop: identity/social on the left, activity on
           the right — a single narrow column stretched full-width looked
           sparse and unintentional at desktop widths. */}

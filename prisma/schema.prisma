@@ -59,6 +59,8 @@ model User {
   reviewStates      SpacedRepetitionState[]
   quizAttempts      UserQuizAttempt[]
   guessAttempts     UserGuessAttempt[]
+  misconceptionAttempts UserMisconceptionAttempt[]
+  explanationAttempts   UserExplanationAttempt[]
   savedCards        SavedCard[]
   interests         UserInterest[]
   xpEvents          XpEvent[]
@@ -179,6 +181,8 @@ model Card {
   reviewStates  SpacedRepetitionState[]
   quizCards     QuizCard[]
   guessCards    GuessCard[]
+  misconceptionCards   MisconceptionCard[]
+  explanationAttempts  UserExplanationAttempt[]
   savedBy       SavedCard[]
 
   @@index([categoryId, published])
@@ -307,6 +311,59 @@ model UserGuessAttempt {
   guessCard GuessCard @relation(fields: [guessCardId], references: [id], onDelete: Cascade)
 
   @@unique([userId, guessCardId])
+  @@index([userId, answeredAt])
+}
+
+// Predict-before-reveal: a widely-believed claim the user judges true/false
+// before the correction is shown. Mostly false (the myth this card corrects)
+// with an occasional true calibration item, so the mechanic doesn't degenerate
+// into "always tap false". Fires before the source card is seen, same timing
+// as GuessCard — never gates on prior exposure like QuizCard does.
+model MisconceptionCard {
+  id          String   @id @default(cuid())
+  cardId      String // the card whose fact corrects/supports this claim
+  claim       String // the stated belief, phrased as a flat assertion
+  answer      Boolean // true = the claim is actually TRUE, false = it's the myth
+  explanation String
+  createdAt   DateTime @default(now())
+
+  card     Card                       @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  attempts UserMisconceptionAttempt[]
+
+  @@index([cardId])
+}
+
+model UserMisconceptionAttempt {
+  id                  String   @id @default(cuid())
+  userId              String
+  misconceptionCardId String
+  guess               Boolean
+  correct             Boolean
+  answeredAt          DateTime @default(now())
+
+  user              User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  misconceptionCard MisconceptionCard @relation(fields: [misconceptionCardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, misconceptionCardId])
+  @@index([userId, answeredAt])
+}
+
+// Free-recall: the user explains a card's fact back in their own words after
+// having read it (unlike Guess/Misconception, this fires AFTER exposure,
+// same timing as a recall quiz), graded by an LLM against the card body.
+model UserExplanationAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  cardId      String
+  explanation String // the user's free-text answer
+  score       Float // 0..1 LLM-graded closeness to the card's core fact
+  feedback    String // one-line grader note, shown to the user
+  answeredAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, cardId])
   @@index([userId, answeredAt])
 }
 

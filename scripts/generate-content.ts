@@ -43,9 +43,11 @@ import {
   cardSchema,
   quizSchema,
   guessSchema,
+  misconceptionSchema,
   type CardInput,
   type QuizInput,
   type GuessInput,
+  type MisconceptionInput,
 } from "../src/lib/content-schema";
 
 const MIN_BANK = Number(process.env.MIN_BANK) || 40; // base top-up threshold
@@ -144,7 +146,14 @@ Also produce "guesses": for each card whose core fact is a striking NUMBER, a gu
 - "explanation": one line of payoff context (under 300 chars)
 Only create a guess when the number itself is the surprise — skip cards without one.
 
-Respond with JSON only, shaped exactly as: {"cards": [ ... ], "quizzes": [ ... ], "guesses": [ ... ]}`;
+Also produce "misconceptions": for cards whose fact corrects a widely-believed claim, a predict-then-reveal challenge. Roughly 3 in 4 should have "answer": false (the claim is the common myth this card corrects); the rest should have "answer": true (a claim that SOUNDS like a myth but is actually correct, per this card) — the mix must vary, never make every claim false.
+- "cardIndex": the 0-based index of the card that supports/corrects this claim
+- "claim": the stated belief, phrased as a flat assertion someone might actually say (under 200 chars) — no hedging words like "some believe"
+- "answer": true if the claim is actually correct, false if it's the myth
+- "explanation": one line (under 300 chars) revealing why, tying back to the card's fact
+Only create one when the card's core fact is genuinely a correction of common belief (or a genuine "this myth is actually true" surprise) — skip cards without one.
+
+Respond with JSON only, shaped exactly as: {"cards": [ ... ], "quizzes": [ ... ], "guesses": [ ... ], "misconceptions": [ ... ]}`;
 }
 
 type InventoryCategory = {
@@ -205,12 +214,22 @@ async function localTitles(slug: string): Promise<string[]> {
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-/** Parse model output, salvaging valid cards/quizzes/guesses instead of all-or-nothing. */
+/** Parse model output, salvaging valid cards/quizzes/guesses/misconceptions instead of all-or-nothing. */
 function parseCards(
   text: string,
   slug: string
-): { cards: CardInput[]; quizzes: QuizInput[]; guesses: GuessInput[] } {
-  const raw = JSON.parse(text) as { cards?: unknown[]; quizzes?: unknown[]; guesses?: unknown[] };
+): {
+  cards: CardInput[];
+  quizzes: QuizInput[];
+  guesses: GuessInput[];
+  misconceptions: MisconceptionInput[];
+} {
+  const raw = JSON.parse(text) as {
+    cards?: unknown[];
+    quizzes?: unknown[];
+    guesses?: unknown[];
+    misconceptions?: unknown[];
+  };
   if (!Array.isArray(raw.cards)) throw new Error('missing "cards" array');
   const cards: CardInput[] = [];
   // Map original card index -> index in the salvaged array, so quiz links
@@ -243,7 +262,16 @@ function parseCards(
     if (mapped === undefined) continue;
     guesses.push({ ...result.data, cardIndex: mapped });
   }
-  return { cards, quizzes, guesses };
+
+  const misconceptions: MisconceptionInput[] = [];
+  for (const item of raw.misconceptions ?? []) {
+    const result = misconceptionSchema.safeParse(item);
+    if (!result.success) continue;
+    const mapped = indexMap.get(result.data.cardIndex);
+    if (mapped === undefined) continue;
+    misconceptions.push({ ...result.data, cardIndex: mapped });
+  }
+  return { cards, quizzes, guesses, misconceptions };
 }
 
 async function writeGeneratedFile(
@@ -251,7 +279,8 @@ async function writeGeneratedFile(
   model: string,
   cards: CardInput[],
   quizzes: QuizInput[],
-  guesses: GuessInput[]
+  guesses: GuessInput[],
+  misconceptions: MisconceptionInput[]
 ) {
   const dir = join(process.cwd(), "content", "generated", slug);
   await mkdir(dir, { recursive: true });
@@ -259,7 +288,7 @@ async function writeGeneratedFile(
   await writeFile(
     file,
     JSON.stringify(
-      { generatedAt: new Date().toISOString(), model, cards, quizzes, guesses },
+      { generatedAt: new Date().toISOString(), model, cards, quizzes, guesses, misconceptions },
       null,
       2
     )
@@ -287,12 +316,13 @@ async function generateForCategory(target: {
   let cards: CardInput[] = [];
   let quizzes: QuizInput[] = [];
   let guesses: GuessInput[] = [];
+  let misconceptions: MisconceptionInput[] = [];
   let model = "";
   for (let attempt = 1; attempt <= 2; attempt++) {
     const result = await generateJSON(prompt);
     model = result.model;
     try {
-      ({ cards, quizzes, guesses } = parseCards(result.text, target.slug));
+      ({ cards, quizzes, guesses, misconceptions } = parseCards(result.text, target.slug));
       if (cards.length > 0) break;
       throw new Error("no valid cards in response");
     } catch (e) {
@@ -307,9 +337,9 @@ async function generateForCategory(target: {
     }
   }
 
-  const file = await writeGeneratedFile(target.slug, model, cards, quizzes, guesses);
+  const file = await writeGeneratedFile(target.slug, model, cards, quizzes, guesses, misconceptions);
   console.log(
-    `  ✓ ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es) → ${file} (${model})`
+    `  ✓ ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es) + ${misconceptions.length} misconception(s) → ${file} (${model})`
   );
   return { slug: target.slug, written: cards.length };
 }
@@ -380,13 +410,13 @@ async function runBatchTopUp(
           continue;
         }
         try {
-          const { cards, quizzes, guesses } = parseCards(text, slug);
+          const { cards, quizzes, guesses, misconceptions } = parseCards(text, slug);
           if (cards.length === 0) throw new Error("no valid cards in response");
-          await writeGeneratedFile(slug, GEMINI_MODEL, cards, quizzes, guesses);
+          await writeGeneratedFile(slug, GEMINI_MODEL, cards, quizzes, guesses, misconceptions);
           written += cards.length;
           collectedSlugs.add(slug);
           console.log(
-            `  ✓ ${slug}: ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es)`
+            `  ✓ ${slug}: ${cards.length} card(s) + ${quizzes.length} quiz(zes) + ${guesses.length} guess(es) + ${misconceptions.length} misconception(s)`
           );
         } catch (e) {
           const msg = e instanceof Error ? e.message.slice(0, 200) : String(e);

@@ -41,6 +41,26 @@ export type FeedGuess = {
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
+// Predict-then-reveal challenge; the true/false answer stays server-side
+// until the user commits to a guess — same unseen-required timing as guesses.
+export type FeedMisconception = {
+  id: string;
+  claim: string;
+  category: { slug: string; name: string; colorHex: string; icon: string };
+};
+
+// Free-recall prompt: explain an already-read card back in your own words.
+// `id` is the source Card's id (there's no separate authored content —
+// unlike quiz/guess/misconception, this is graded live by an LLM against the
+// card body, not pre-generated).
+export type FeedExplainPrompt = {
+  id: string;
+  title: string;
+  category: { slug: string; name: string; colorHex: string; icon: string };
+};
+
+const EXPLAIN_MIN_BODY_WORDS = 30; // trivial one-liners aren't worth explaining back
+
 const REVIEWS_PER_BATCH = 3;
 const NEW_USER_VIEW_LIMIT = 50; // interest weighting only shapes early sessions
 
@@ -112,6 +132,8 @@ export async function getFeedCards(opts: {
   cards: FeedCard[];
   quizzes: FeedQuiz[];
   guesses: FeedGuess[];
+  misconceptions: FeedMisconception[];
+  explainPrompts: FeedExplainPrompt[];
   exhausted: boolean;
 }> {
   const { categorySlugs, allowRepeats, excludeIds } = opts;
@@ -255,6 +277,55 @@ export async function getFeedCards(opts: {
       category: g.card.category,
     }));
 
+  // Predict-then-reveal: same unseen-required timing as guesses (committing
+  // to true/false only makes sense before the correction is shown).
+  const misconceptionRows = await prisma.misconceptionCard.findMany({
+    where: {
+      card: {
+        published: true,
+        ...categoryFilter,
+        interactions: { none: { userId } },
+      },
+      attempts: { none: { userId } },
+    },
+    take: 30,
+    select: {
+      id: true,
+      claim: true,
+      card: {
+        select: { category: { select: { slug: true, name: true, colorHex: true, icon: true } } },
+      },
+    },
+  });
+  const misconceptions: FeedMisconception[] = shuffle(misconceptionRows)
+    .slice(0, Math.max(1, Math.ceil(take / 10)) + 1)
+    .map((m) => ({ id: m.id, claim: m.claim, category: m.card.category }));
+
+  // Explain-it-back: free recall of a fact already seen — same timing as
+  // quiz (completed, not yet attempted), not guess/misconception's
+  // unseen-required timing, since there's nothing to recall before reading.
+  const explainRows = await prisma.card.findMany({
+    where: {
+      published: true,
+      depthLevel: "STANDARD" as const,
+      ...categoryFilter,
+      interactions: { some: { userId, completed: true } },
+      explanationAttempts: { none: { userId } },
+    },
+    take: 40,
+    select: {
+      id: true,
+      title: true,
+      body: true,
+      category: { select: { slug: true, name: true, colorHex: true, icon: true } },
+    },
+  });
+  const explainPrompts: FeedExplainPrompt[] = shuffle(
+    explainRows.filter((c) => c.body.split(/\s+/).length >= EXPLAIN_MIN_BODY_WORDS)
+  )
+    .slice(0, Math.max(1, Math.ceil(take / 8)) + 1)
+    .map((c) => ({ id: c.id, title: c.title, category: c.category }));
+
   // Interest boost, only while the user is new and only in Everything mode.
   let boostSlugs: Set<string> | undefined;
   if (!categorySlugs?.length) {
@@ -306,12 +377,21 @@ export async function getFeedCards(opts: {
       ]),
       quizzes,
       guesses,
+      misconceptions,
+      explainPrompts,
       exhausted: unseen.length <= newTake,
     };
   }
 
   if (!allowRepeats) {
-    return { cards: await withRelated(reviewCards), quizzes, guesses, exhausted: true };
+    return {
+      cards: await withRelated(reviewCards),
+      quizzes,
+      guesses,
+      misconceptions,
+      explainPrompts,
+      exhausted: true,
+    };
   }
 
   const seen = (await prisma.card.findMany({
@@ -328,6 +408,8 @@ export async function getFeedCards(opts: {
     ]),
     quizzes,
     guesses,
+    misconceptions,
+    explainPrompts,
     exhausted: true,
   };
 }

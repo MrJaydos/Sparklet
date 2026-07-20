@@ -37,6 +37,8 @@ export default async function FeedPage() {
         initialCards={feed.cards}
         initialQuizzes={feed.quizzes}
         initialGuesses={feed.guesses}
+        initialMisconceptions={feed.misconceptions}
+        initialExplainPrompts={feed.explainPrompts}
         initialExhausted={feed.exhausted}
         categories={categories}
         initialStreak={0}
@@ -99,6 +101,8 @@ export default async function FeedPage() {
       initialCards={feed.cards}
       initialQuizzes={feed.quizzes}
       initialGuesses={feed.guesses}
+      initialMisconceptions={feed.misconceptions}
+      initialExplainPrompts={feed.explainPrompts}
       initialExhausted={feed.exhausted}
       categories={categories}
       initialStreak={user.currentStreak}

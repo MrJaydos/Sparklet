@@ -3,7 +3,13 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { FeedCard, FeedQuiz, FeedGuess } from "@/lib/feed";
+import type {
+  FeedCard,
+  FeedQuiz,
+  FeedGuess,
+  FeedMisconception,
+  FeedExplainPrompt,
+} from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
 import { AdSlide } from "./AdSlide";
 import {
@@ -18,6 +24,8 @@ import { CommentsSheet } from "./CommentsSheet";
 import { ReportSheet } from "./ReportSheet";
 import { QuizView } from "./QuizView";
 import { GuessView } from "./GuessView";
+import { MisconceptionView } from "./MisconceptionView";
+import { ExplainView } from "./ExplainView";
 import { XpRing } from "./XpRing";
 import { StreakBadge } from "./StreakBadge";
 import { NotificationsBell } from "./NotificationsBell";
@@ -33,6 +41,15 @@ const QUIZ_EVERY = 5; // roughly 1 recall quiz per 5 cards
 // Guess challenges land between quiz slots (offset so they never stack).
 const GUESS_EVERY = 8;
 const GUESS_OFFSET = 3;
+// Misconception slots offset so they don't stack with quiz (5,10,15,20…) —
+// only coincides with guess at position 19, same as guess/quiz already do at 35.
+const MISCONCEPTION_EVERY = 6;
+const MISCONCEPTION_OFFSET = 1;
+// Free recall of an already-seen card. Offset chosen to mostly avoid quiz
+// (multiples of 5), guess (i%8===3), and misconception (i%6===1) — only
+// coincides with quiz at position 30.
+const EXPLAIN_EVERY = 8;
+const EXPLAIN_OFFSET = 6;
 const AD_EVERY = 6; // free-tier only — never pushed at all for premium users
 
 const INVITE_AFTER_CARDS = 12; // show once per qualifying session, after this many cards
@@ -43,6 +60,8 @@ type FeedItem =
   | { kind: "card"; card: FeedCard }
   | { kind: "quiz"; quiz: FeedQuiz }
   | { kind: "guess"; guess: FeedGuess }
+  | { kind: "misconception"; misconception: FeedMisconception }
+  | { kind: "explain"; explainPrompt: FeedExplainPrompt }
   | { kind: "ad"; adKey: number }
   | { kind: "checkin"; afterCount: number }
   | { kind: "invite" }
@@ -53,6 +72,8 @@ export function Feed({
   initialCards,
   initialQuizzes,
   initialGuesses,
+  initialMisconceptions,
+  initialExplainPrompts,
   initialExhausted,
   categories,
   initialStreak,
@@ -72,6 +93,8 @@ export function Feed({
   initialCards: FeedCard[];
   initialQuizzes: FeedQuiz[];
   initialGuesses: FeedGuess[];
+  initialMisconceptions: FeedMisconception[];
+  initialExplainPrompts: FeedExplainPrompt[];
   initialExhausted: boolean;
   categories: CategoryOption[];
   initialStreak: number;
@@ -104,6 +127,8 @@ export function Feed({
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
   const [guesses, setGuesses] = useState<FeedGuess[]>(initialGuesses);
+  const [misconceptions, setMisconceptions] = useState<FeedMisconception[]>(initialMisconceptions);
+  const [explainPrompts, setExplainPrompts] = useState<FeedExplainPrompt[]>(initialExplainPrompts);
   const [exhausted, setExhausted] = useState(initialExhausted);
   const [xpToday, setXpToday] = useState(initialXpToday);
   const [goalCelebration, setGoalCelebration] = useState(false);
@@ -233,6 +258,8 @@ export function Feed({
           cards: FeedCard[];
           quizzes: FeedQuiz[];
           guesses: FeedGuess[];
+          misconceptions: FeedMisconception[];
+          explainPrompts: FeedExplainPrompt[];
           exhausted: boolean;
         } = await res.json();
         setSaves((prev) => ({
@@ -253,6 +280,16 @@ export function Feed({
           const base = opts?.reset ? [] : prev;
           const known = new Set(base.map((g) => g.id));
           return [...base, ...data.guesses.filter((g) => !known.has(g.id))];
+        });
+        setMisconceptions((prev) => {
+          const base = opts?.reset ? [] : prev;
+          const known = new Set(base.map((m) => m.id));
+          return [...base, ...data.misconceptions.filter((m) => !known.has(m.id))];
+        });
+        setExplainPrompts((prev) => {
+          const base = opts?.reset ? [] : prev;
+          const known = new Set(base.map((e) => e.id));
+          return [...base, ...data.explainPrompts.filter((e) => !known.has(e.id))];
         });
         setExhausted(data.exhausted && data.cards.length === 0 ? true : data.exhausted);
         if (opts?.reset) {
@@ -599,6 +636,8 @@ export function Feed({
     const out: FeedItem[] = [];
     let quizCursor = 0;
     let guessCursor = 0;
+    let misconceptionCursor = 0;
+    let explainCursor = 0;
     cards.forEach((card, i) => {
       out.push({ kind: "card", card });
       if ((i + 1) % QUIZ_EVERY === 0 && quizCursor < quizzes.length) {
@@ -606,6 +645,15 @@ export function Feed({
       }
       if ((i + 1) % GUESS_EVERY === GUESS_OFFSET && guessCursor < guesses.length) {
         out.push({ kind: "guess", guess: guesses[guessCursor++] });
+      }
+      if (
+        (i + 1) % MISCONCEPTION_EVERY === MISCONCEPTION_OFFSET &&
+        misconceptionCursor < misconceptions.length
+      ) {
+        out.push({ kind: "misconception", misconception: misconceptions[misconceptionCursor++] });
+      }
+      if ((i + 1) % EXPLAIN_EVERY === EXPLAIN_OFFSET && explainCursor < explainPrompts.length) {
+        out.push({ kind: "explain", explainPrompt: explainPrompts[explainCursor++] });
       }
       // Free tier only — never pushed at all for premium users, not just
       // hidden, so there's no dead ad slide in a paying user's scroll.
@@ -619,7 +667,18 @@ export function Feed({
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, quizzes, guesses, exhausted, showInviteCard, goalReachedAfter, isGuest, premium]);
+  }, [
+    cards,
+    quizzes,
+    guesses,
+    misconceptions,
+    explainPrompts,
+    exhausted,
+    showInviteCard,
+    goalReachedAfter,
+    isGuest,
+    premium,
+  ]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });
@@ -788,6 +847,29 @@ export function Feed({
                 handleXp(r.xp);
                 if (!isGuest) markCardCompleted();
                 addSessionCategory(item.guess.category.name);
+              }}
+            />
+          ) : item.kind === "misconception" ? (
+            <MisconceptionView
+              key={`misconception-${item.misconception.id}`}
+              misconception={item.misconception}
+              isGuest={isGuest}
+              onContinue={scrollNext}
+              onResult={(r) => {
+                handleXp(r.xp);
+                if (!isGuest) markCardCompleted();
+                addSessionCategory(item.misconception.category.name);
+              }}
+            />
+          ) : item.kind === "explain" ? (
+            <ExplainView
+              key={`explain-${item.explainPrompt.id}`}
+              prompt={item.explainPrompt}
+              onContinue={scrollNext}
+              onResult={(r) => {
+                handleXp(r.xp);
+                if (!isGuest) markCardCompleted();
+                addSessionCategory(item.explainPrompt.category.name);
               }}
             />
           ) : item.kind === "ad" ? (

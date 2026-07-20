@@ -45,16 +45,29 @@ export const guessSchema = z
     message: "answer must lie within [min, max] and min < max",
   });
 
+// Predict-before-reveal: a claim the reader judges true/false before the
+// card's fact confirms or corrects it. Mostly false (the myth the card
+// corrects) with an occasional true calibration item — see the generation
+// prompt for the target ratio.
+export const misconceptionSchema = z.object({
+  cardIndex: z.number().int().min(0), // index into the same file's cards[]
+  claim: z.string().min(10).max(200),
+  answer: z.boolean(),
+  explanation: z.string().min(10).max(300),
+});
+
 export const contentFileSchema = z.object({
   generatedAt: z.string(),
   model: z.string().optional(),
   cards: z.array(cardSchema),
   quizzes: z.array(quizSchema).optional(),
   guesses: z.array(guessSchema).optional(),
+  misconceptions: z.array(misconceptionSchema).optional(),
 });
 
 export type QuizInput = z.infer<typeof quizSchema>;
 export type GuessInput = z.infer<typeof guessSchema>;
+export type MisconceptionInput = z.infer<typeof misconceptionSchema>;
 
 export type CardInput = z.infer<typeof cardSchema>;
 export type ContentFile = z.infer<typeof contentFileSchema>;

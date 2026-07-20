@@ -20,6 +20,7 @@ import {
   type CardInput,
   type QuizInput,
   type GuessInput,
+  type MisconceptionInput,
 } from "../src/lib/content-schema";
 import { embedText, cosineSimilarity, verifierFor, generateJSONWith } from "../src/lib/ai-provider";
 import { isPaywalledUrl } from "../src/lib/paywalled-sources";
@@ -423,6 +424,26 @@ async function importGuesses(
   }
 }
 
+async function importMisconceptions(
+  items: MisconceptionInput[],
+  cardIds: (string | null)[],
+  stats: Record<string, number>
+) {
+  for (const m of items) {
+    const cardId = cardIds[m.cardIndex];
+    if (!cardId) continue;
+    const existing = await prisma.misconceptionCard.findFirst({
+      where: { cardId, claim: m.claim },
+      select: { id: true },
+    });
+    if (existing) continue;
+    await prisma.misconceptionCard.create({
+      data: { cardId, claim: m.claim, answer: m.answer, explanation: m.explanation },
+    });
+    stats.misconceptions++;
+  }
+}
+
 async function main() {
   const files = await listJsonFiles(CONTENT_DIR);
   console.log(`Found ${files.length} content file(s).`);
@@ -436,6 +457,7 @@ async function main() {
     paywalled: 0,
     quizzes: 0,
     guesses: 0,
+    misconceptions: 0,
   };
 
   for (const file of files) {
@@ -458,10 +480,13 @@ async function main() {
     if (parsed.guesses?.length) {
       await importGuesses(parsed.guesses, cardIds, stats);
     }
+    if (parsed.misconceptions?.length) {
+      await importMisconceptions(parsed.misconceptions, cardIds, stats);
+    }
   }
 
   console.log(
-    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} paywalled=${stats.paywalled} quizzes=${stats.quizzes} guesses=${stats.guesses} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
+    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} paywalled=${stats.paywalled} quizzes=${stats.quizzes} guesses=${stats.guesses} misconceptions=${stats.misconceptions} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
   );
 
   // Backfill: cards imported before the source-URL image fallback existed

@@ -62,17 +62,29 @@ export async function getCardsToday(userId: string, tzOffsetMinutes: number): Pr
 // legit users never touch this; parallel-request farming does.
 export const READ_XP_PER_MINUTE = 15;
 
-export async function isReadXpRateLimited(userId: string): Promise<boolean> {
+/** Generic per-kind rolling-window rate limiter. `isReadXpRateLimited` is the
+ * original bespoke case; other kinds (e.g. "explain", which costs a paid LLM
+ * call) reuse this directly as a real cost control, not just anti-farming. */
+export async function isXpRateLimited(
+  userId: string,
+  kind: string,
+  limit: number,
+  windowMs: number
+): Promise<boolean> {
   const recent = await prisma.xpEvent.count({
-    where: { userId, kind: "read", createdAt: { gte: new Date(Date.now() - 60_000) } },
+    where: { userId, kind, createdAt: { gte: new Date(Date.now() - windowMs) } },
   });
-  return recent >= READ_XP_PER_MINUTE;
+  return recent >= limit;
+}
+
+export function isReadXpRateLimited(userId: string): Promise<boolean> {
+  return isXpRateLimited(userId, "read", READ_XP_PER_MINUTE, 60_000);
 }
 
 export async function awardXp(
   userId: string,
   amount: number,
-  kind: "read" | "review" | "quiz" | "guess",
+  kind: "read" | "review" | "quiz" | "guess" | "misconception" | "explain",
   tzOffsetMinutes: number
 ): Promise<XpSummary> {
   const rounded = Math.max(0, Math.round(amount));
@@ -91,13 +103,13 @@ export async function awardXp(
 }
 
 /**
- * Current answer combo: consecutive correct quiz/guess answers today, most
- * recent first — computed after the current attempt is recorded, so the
- * attempt that extends the streak sees its own contribution.
+ * Current answer combo: consecutive correct quiz/guess/misconception answers
+ * today, most recent first — computed after the current attempt is
+ * recorded, so the attempt that extends the streak sees its own contribution.
  */
 export async function getAnswerCombo(userId: string, tzOffsetMinutes: number): Promise<number> {
   const since = localDayStart(tzOffsetMinutes);
-  const [quiz, guess] = await Promise.all([
+  const [quiz, guess, misconception] = await Promise.all([
     prisma.userQuizAttempt.findMany({
       where: { userId, answeredAt: { gte: since } },
       orderBy: { answeredAt: "desc" },
@@ -110,6 +122,12 @@ export async function getAnswerCombo(userId: string, tzOffsetMinutes: number): P
       take: 30,
       select: { accuracy: true, answeredAt: true },
     }),
+    prisma.userMisconceptionAttempt.findMany({
+      where: { userId, answeredAt: { gte: since } },
+      orderBy: { answeredAt: "desc" },
+      take: 30,
+      select: { correct: true, answeredAt: true },
+    }),
   ]);
   const merged = [
     ...quiz.map((a) => ({ at: a.answeredAt.getTime(), correct: a.correct })),
@@ -117,6 +135,7 @@ export async function getAnswerCombo(userId: string, tzOffsetMinutes: number): P
       at: a.answeredAt.getTime(),
       correct: a.accuracy >= GUESS_CORRECT_THRESHOLD,
     })),
+    ...misconception.map((a) => ({ at: a.answeredAt.getTime(), correct: a.correct })),
   ].sort((a, b) => b.at - a.at);
 
   let combo = 0;
