@@ -1,0 +1,230 @@
+{
+  "generatedAt": "2026-07-20T18:47:58.157Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we love things that terrify us from a distance",
+      "body": "In 1757, philosopher Edmund Burke explained why we are drawn to raging storms, towering mountains, and bottomless chasms. He called this feeling \"the sublime.\" Unlike mere beauty, the sublime is rooted in terror. When we witness something vast and destructive but know we are completely safe, our fear transforms into a thrilling, majestic awe that expands the mind.",
+      "imageWikipediaTitle": "Wanderer above the Sea of Fog",
+      "sources": [
+        {
+          "title": "Sublime (philosophy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sublime_(philosophy)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sublime_(philosophy)",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The terrifying lottery that saves lives through math",
+      "body": "Imagine two people dying of organ failure. If we sacrifice one healthy person, we can harvest their organs and save both. Philosopher John Harris proposed a thought experiment: a computer randomly selects a healthy citizen to be sacrificed whenever patients need organs. While mathematically saving more lives, this \"Survival Lottery\" exposes a deep conflict between pure utilitarianism and our basic human rights.",
+      "imageWikipediaTitle": "Lottery",
+      "sources": [
+        {
+          "title": "Survival Lottery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Survival_Lottery"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Survival_Lottery",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The \"beetle\" in your mind that no one else can see",
+      "body": "Ludwig Wittgenstein asked us to imagine everyone has a box containing a \"beetle.\" No one can look inside anyone else's box. Yet, everyone uses the word \"beetle\" to describe what they have. Even if the boxes contained completely different things, the word would still work. Wittgenstein argued that our inner feelings, like pain, are like these beetles: language is a social game, not a private window.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Private language argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Private_language_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Private_language_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Aristotle's secret to a perfectly balanced life",
+      "body": "Aristotle believed that moral virtue is always a middle ground between two extremes. For example, courage is the perfect midpoint between cowardice and rashness, while generosity sits between stinginess and extravagance. To help people navigate life, Aristotle identified a specific number of these core moral virtues, urging us to practice them until they become effortless habits.",
+      "imageWikipediaTitle": "Aristotle",
+      "sources": [
+        {
+          "title": "Nicomachean Ethics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicomachean_Ethics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nicomachean_Ethics",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why chasing happiness directly is a losing battle",
+      "body": "If your primary goal in life is to be happy, you are highly likely to fail. This is the paradox of hedonism. Philosophers observe that pleasure is almost always a byproduct of other activities, rather than something we can target directly. If you focus on writing a book, helping a friend, or mastering an instrument, happiness sneaks in through the side door when you aren't looking.",
+      "imageWikipediaTitle": "Happiness",
+      "sources": [
+        {
+          "title": "Paradox of hedonism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_hedonism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paradox_of_hedonism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rock that breaks the rules of unlimited power",
+      "body": "Can an all-powerful being create a rock so heavy that even they cannot lift it? If they cannot create the rock, their power has limits. If they create it but cannot lift it, their power is also limited. This classic paradox challenges our definition of omnipotence, forcing philosophers to ask whether \"unlimited power\" includes the ability to perform logically impossible feats.",
+      "imageWikipediaTitle": "Omnipotence paradox",
+      "sources": [
+        {
+          "title": "Omnipotence paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Omnipotence_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Omnipotence_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The difference between a happy life and a meaningful one",
+      "body": "Philosopher Susan Wolf argues that a meaningful life requires active engagement in projects of objective worth. She contrasts this with two extremes: the \"Blob,\" who spends life passive and disengaged (like watching endless TV), and the \"Useless,\" who works incredibly hard on dominant but ultimately pointless tasks. Meaning, she argues, happens when subjective passion meets objective value.",
+      "imageWikipediaTitle": "Meaning of life",
+      "sources": [
+        {
+          "title": "Susan Wolf",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Susan_Wolf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Susan_Wolf",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Can a newly sighted person recognize shapes?",
+      "body": "In 1688, William Molyneux asked a famous question: if a person born blind can distinguish a sphere from a cube by touch, and is suddenly made to see, could they tell which is which by sight alone before touching them? Early empiricists argued no, because the brain must first learn to link visual data with tactile experience. Modern medical cases suggest they were right.",
+      "imageWikipediaTitle": "Molyneux's problem",
+      "sources": [
+        {
+          "title": "Molyneux's problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Molyneux%27s_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Molyneux%27s_problem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How infinite time turns pure chaos into Shakespeare",
+      "body": "If a monkey hits keys at random on a typewriter for an infinite amount of time, it will eventually type the complete works of William Shakespeare. This thought experiment illustrates the mind-bending nature of infinity. Even though the probability of typing a specific long sequence of letters is incredibly small, given infinite time and trials, any possible sequence is virtually guaranteed to occur.",
+      "imageWikipediaTitle": "Infinite monkey theorem",
+      "sources": [
+        {
+          "title": "Infinite monkey theorem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Infinite_monkey_theorem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Infinite_monkey_theorem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Did the teleporter travel you, or kill you?",
+      "body": "Imagine a teleporter that scans your body down to the atom, destroys it, and beams the data to Mars, where a replica is built. The Martian you has all your memories and feelings. But are they actually you, or did you die in the scanner while a perfect clone was born? Philosopher Derek Parfit used this thought experiment to argue that personal identity is not about physical survival.",
+      "imageWikipediaTitle": "Teleportation",
+      "sources": [
+        {
+          "title": "Teletransportation paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Teletransportation_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Teletransportation_paradox",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Edmund Burke, what distinguishes the \"sublime\" from mere \"beauty\"?",
+      "options": [
+        "The sublime is experienced in complete safety but is rooted in terror.",
+        "The sublime is always man-made, while beauty is always natural.",
+        "The sublime can only be experienced in total silence.",
+        "The sublime is purely intellectual and lacks any physical emotion."
+      ],
+      "correctIndex": 0,
+      "explanation": "Burke argued that the sublime is a feeling of awe triggered by vast, potentially dangerous things, which we enjoy because we are at a safe distance."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was Ludwig Wittgenstein trying to demonstrate with his \"beetle in a box\" thought experiment?",
+      "options": [
+        "Language is a social tool rather than a private, internal code.",
+        "Human minds are completely identical.",
+        "Insects have a basic form of consciousness.",
+        "Science will eventually map all human thoughts."
+      ],
+      "correctIndex": 0,
+      "explanation": "Wittgenstein argued that because our internal experiences cannot be directly shared, language relies on public rules rather than private definitions."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What fundamental concept is challenged by the \"unliftable rock\" paradox?",
+      "options": [
+        "Omnipotence (unlimited power)",
+        "Omnipresence (being everywhere)",
+        "Omniscience (all-knowingness)",
+        "Moral perfection"
+      ],
+      "correctIndex": 0,
+      "explanation": "The paradox asks if an all-powerful being can create something that limits their own power, highlighting logical contradictions in the concept of omnipotence."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What was the core question behind Molyneux's Problem?",
+      "options": [
+        "Whether a newly sighted person can immediately recognize shapes by sight alone.",
+        "Whether blind people can hear better than sighted people.",
+        "Whether dreams are purely visual or tactile.",
+        "Whether color is an illusion created by the brain."
+      ],
+      "correctIndex": 0,
+      "explanation": "Molyneux asked if a person born blind who knows a sphere and a cube by touch could immediately identify them visually upon gaining sight."
+    },
+    {
+      "cardIndex": 9,
+      "question": "In Derek Parfit's teletransportation thought experiment, what is the core philosophical issue?",
+      "options": [
+        "The nature of personal identity over time.",
+        "The speed of light and physical limits of data transmission.",
+        "The moral ethics of traveling to other planets.",
+        "The economic cost of futuristic technology."
+      ],
+      "correctIndex": 0,
+      "explanation": "The paradox asks if a perfect replica of you is truly \"you,\" challenging our ideas about what constitutes personal identity."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many moral virtues did Aristotle identify in his Nicomachean Ethics as representing the \"golden mean\"?",
+      "answer": 12,
+      "min": 3,
+      "max": 30,
+      "unit": "",
+      "explanation": "Aristotle mapped out exactly 12 moral virtues, including courage, temperance, and truthfulness, each representing a balance between excess and deficiency."
+    }
+  ],
+  "misconceptions": []
+}
