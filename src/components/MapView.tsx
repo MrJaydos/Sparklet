@@ -55,7 +55,10 @@ export function MapView({
     <div>
       <div className="text-center">
         <div className="text-4xl font-bold">{totalLearned}</div>
-        <div className="mt-1 text-sm text-neutral-400">connected facts learned</div>
+        <div className="mt-1 text-sm text-neutral-400">facts learned overall</div>
+        <div className="mt-3 text-xs text-neutral-500">
+          Your most recent {nodes.length}, connected below
+        </div>
       </div>
 
       <svg
