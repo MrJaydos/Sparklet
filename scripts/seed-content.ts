@@ -22,6 +22,7 @@ import {
   type GuessInput,
 } from "../src/lib/content-schema";
 import { embedText, cosineSimilarity, verifierFor, generateJSONWith } from "../src/lib/ai-provider";
+import { isPaywalledUrl } from "../src/lib/paywalled-sources";
 
 const DUPLICATE_THRESHOLD = 0.85; // cosine similarity above this = near-duplicate
 
@@ -292,6 +293,17 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
 
   // Fact-check gate: every cited URL must be alive.
   const urlsToCheck = [...card.sources.map((s) => s.url), card.readMoreUrl];
+
+  // Paywalled sources can't be independently verified — not by our
+  // cross-model fact-check (which only sees a login/teaser page), and not by
+  // a reader tapping through. Exclude outright rather than holding for
+  // manual review.
+  const paywalled = urlsToCheck.filter(isPaywalledUrl);
+  if (paywalled.length > 0) {
+    console.warn(`  ! "${card.title}" skipped — paywalled source(s): ${paywalled.join(", ")}`);
+    stats.paywalled++;
+    return null;
+  }
   const deadUrls: string[] = [];
   for (const url of urlsToCheck) {
     if (!(await urlIsAlive(url))) deadUrls.push(url);
@@ -421,6 +433,7 @@ async function main() {
     badCategory: 0,
     invalidFile: 0,
     duplicates: 0,
+    paywalled: 0,
     quizzes: 0,
     guesses: 0,
   };
@@ -448,7 +461,7 @@ async function main() {
   }
 
   console.log(
-    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} quizzes=${stats.quizzes} guesses=${stats.guesses} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
+    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} paywalled=${stats.paywalled} quizzes=${stats.quizzes} guesses=${stats.guesses} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
   );
 
   // Backfill: cards imported before the source-URL image fallback existed
@@ -503,6 +516,23 @@ async function main() {
   }
   if (held.length) {
     console.log(`Held-card recheck: ${healed}/${held.length} republished (links verified alive).`);
+  }
+
+  // Cards from before this gate existed — whether already published or
+  // sitting in the review queue — predate the check above. A subscription
+  // requirement won't heal on retry like a transient dead link might, so
+  // delete rather than leave them for a manual look (or live, unverifiable,
+  // in the feed) every deploy. Cascades take any saves/comments/interactions
+  // on that card with it.
+  const allCards = await prisma.card.findMany({
+    select: { id: true, title: true, readMoreUrl: true, sources: true },
+  });
+  const paywalledIds = allCards
+    .filter((c) => [...(c.sources as { url: string }[]).map((s) => s.url), c.readMoreUrl].some(isPaywalledUrl))
+    .map((c) => c.id);
+  if (paywalledIds.length > 0) {
+    await prisma.card.deleteMany({ where: { id: { in: paywalledIds } } });
+    console.log(`Paywalled cleanup: deleted ${paywalledIds.length} pre-existing card(s) citing a paywalled source.`);
   }
 
   await retireGroqCards();
