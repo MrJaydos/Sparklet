@@ -1,13 +1,8 @@
 import type { MapNode, MapEdge } from "@/lib/knowledge-map";
+import { forceLayout } from "@/lib/force-layout";
 
-// Deterministic radial layout, not a force simulation: stable positions
-// across reloads (good for screenshotting), no physics loop to run on a
-// mobile battery budget. Same "hand-rolled inline SVG" pattern as XpRing.
-const SIZE = 340;
-const CENTER = SIZE / 2;
-const INNER_RADIUS = 42;
-const RING_GAP = 32;
-const NODES_PER_RING = 6;
+const LAYOUT_SIZE = 600; // working coordinate space the simulation runs in
+const PADDING = 24; // margin around the settled graph inside the viewBox
 
 export function MapView({
   nodes,
@@ -28,28 +23,44 @@ export function MapView({
     byCategory.get(n.category.slug)!.push(n);
   }
 
-  const angleStep = (2 * Math.PI) / Math.max(1, categoryOrder.length);
-  const positions = new Map<string, { x: number; y: number; color: string }>();
+  const degree = new Map<string, number>();
+  for (const n of nodes) degree.set(n.id, 0);
+  for (const e of edges) {
+    degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
+    degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
+  }
 
-  categoryOrder.forEach((slug, ci) => {
-    const group = byCategory.get(slug)!;
-    const baseAngle = ci * angleStep - Math.PI / 2; // 0th category starts at the top
-    const spread = angleStep * 0.8; // leaves a gap between category slices
-    group.forEach((node, i) => {
-      const ring = Math.floor(i / NODES_PER_RING);
-      const ringStart = ring * NODES_PER_RING;
-      const posInRing = i - ringStart;
-      const ringCount = Math.min(NODES_PER_RING, group.length - ringStart);
-      const angle =
-        baseAngle + (ringCount > 1 ? (posInRing / (ringCount - 1) - 0.5) * spread : 0);
-      const radius = INNER_RADIUS + ring * RING_GAP;
-      positions.set(node.id, {
-        x: CENTER + radius * Math.cos(angle),
-        y: CENTER + radius * Math.sin(angle),
-        color: node.category.colorHex,
-      });
-    });
-  });
+  const positions = forceLayout(
+    nodes.map((n) => n.id),
+    edges,
+    { width: LAYOUT_SIZE, height: LAYOUT_SIZE, iterations: 220 }
+  );
+
+  // Fit the viewBox to however the graph actually settled — an organic,
+  // asymmetric shape, not a fixed square — rather than cropping or wasting
+  // space around a layout whose extent isn't known ahead of time.
+  let minX = Infinity;
+  let minY = Infinity;
+  let maxX = -Infinity;
+  let maxY = -Infinity;
+  for (const p of positions.values()) {
+    minX = Math.min(minX, p.x);
+    minY = Math.min(minY, p.y);
+    maxX = Math.max(maxX, p.x);
+    maxY = Math.max(maxY, p.y);
+  }
+  if (!Number.isFinite(minX)) {
+    minX = 0;
+    minY = 0;
+    maxX = LAYOUT_SIZE;
+    maxY = LAYOUT_SIZE;
+  }
+  const viewX = minX - PADDING;
+  const viewY = minY - PADDING;
+  const viewW = maxX - minX + PADDING * 2;
+  const viewH = maxY - minY + PADDING * 2;
+
+  const radiusFor = (id: string) => Math.min(14, 4 + (degree.get(id) ?? 0) * 1.8);
 
   return (
     <div>
@@ -62,8 +73,8 @@ export function MapView({
       </div>
 
       <svg
-        viewBox={`0 0 ${SIZE} ${SIZE}`}
-        className="mx-auto mt-4 block w-full max-w-sm"
+        viewBox={`${viewX} ${viewY} ${viewW} ${viewH}`}
+        className="mx-auto mt-4 block w-full"
         role="img"
         aria-label="Your knowledge map"
       >
@@ -80,7 +91,14 @@ export function MapView({
           if (!p) return null;
           return (
             <a key={n.id} href={`/card/${n.id}`}>
-              <circle cx={p.x} cy={p.y} r={5} fill={p.color} stroke="#0a0a0a" strokeWidth={1.5} />
+              <circle
+                cx={p.x}
+                cy={p.y}
+                r={radiusFor(n.id)}
+                fill={n.category.colorHex}
+                stroke="#0a0a0a"
+                strokeWidth={1.5}
+              />
               <title>{n.title}</title>
             </a>
           );
