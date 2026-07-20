@@ -7,6 +7,7 @@ import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
 import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
+import { isBillingEnabled } from "@/lib/billing";
 import { AppHeader } from "@/components/AppHeader";
 
 export const metadata = { title: "Admin — Sparklet" };
@@ -237,6 +238,8 @@ export default async function AdminPage() {
         unread={unread}
         inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${adminUserId}`}
         isAdmin
+        premium={session.user.premium}
+        billingEnabled={isBillingEnabled()}
         signOutAction={signOutAction}
       />
       <main className="mx-auto min-h-dvh w-full max-w-2xl px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">

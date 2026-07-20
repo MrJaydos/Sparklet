@@ -7,6 +7,7 @@ import { isAdminEmail } from "@/lib/admin";
 import { displayName } from "@/lib/display";
 import { localDayStart, getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
+import { isBillingEnabled } from "@/lib/billing";
 import { AppHeader } from "@/components/AppHeader";
 
 export const metadata = { title: "Leaderboard — Sparklet" };
@@ -162,6 +163,8 @@ export default async function LeaderboardPage({
         unread={unread}
         inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
         isAdmin={isAdmin}
+        premium={session.user.premium}
+        billingEnabled={isBillingEnabled()}
         signOutAction={signOutAction}
       />
       <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">

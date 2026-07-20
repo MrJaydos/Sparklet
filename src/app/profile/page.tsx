@@ -11,6 +11,8 @@ import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
 import { ensureFriendCode } from "@/lib/friends";
 import { AppHeader } from "@/components/AppHeader";
+import { BillingButton } from "@/components/BillingButton";
+import { isBillingEnabled } from "@/lib/billing";
 import { PushToggle } from "@/components/PushToggle";
 import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
 import { HistoryList, type HistoryRow } from "@/components/HistoryList";
@@ -176,6 +178,8 @@ export default async function ProfilePage() {
         unread={unread}
         inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
         isAdmin={isAdmin}
+        premium={session.user.premium}
+        billingEnabled={isBillingEnabled()}
         signOutAction={signOutAction}
       />
       <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-5xl">
@@ -235,6 +239,37 @@ export default async function ProfilePage() {
           </>
         )}
       </p>
+
+      {isBillingEnabled() && (
+        <div className="mt-4 rounded-2xl border border-neutral-800 bg-neutral-900 p-4 lg:p-6">
+          {session.user.premium ? (
+            <>
+              <div className="text-sm font-semibold text-violet-300">✨ Sparklet Premium</div>
+              <p className="mt-1 text-xs text-neutral-400">
+                Ad-free, with unlimited Deeper and Extra-deep reading.
+              </p>
+              <BillingButton
+                kind="portal"
+                label="Manage subscription"
+                className="mt-3 rounded-xl border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-300 transition hover:border-neutral-500 hover:text-white"
+              />
+            </>
+          ) : (
+            <>
+              <div className="text-sm font-semibold">Go Premium</div>
+              <p className="mt-1 text-xs text-neutral-400">
+                Remove ads and unlock unlimited Deeper / Extra-deep reading.
+              </p>
+              <Link
+                href="/upgrade"
+                className="mt-3 inline-block rounded-xl bg-violet-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-500"
+              >
+                ✨ Upgrade
+              </Link>
+            </>
+          )}
+        </div>
+      )}
 
       {/* Two columns on desktop: identity/social on the left, activity on
           the right — a single narrow column stretched full-width looked

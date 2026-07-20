@@ -4,6 +4,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { generateJSON } from "@/lib/ai-provider";
 import { contentHash } from "@/lib/content-schema";
+import { isBillingEnabled } from "@/lib/billing";
 
 /**
  * Depth variants of a card (SIMPLE | DEEP). Returns a pre-generated variant
@@ -32,6 +33,21 @@ export async function POST(
   const parsed = bodySchema.safeParse(await req.json().catch(() => null));
   if (!parsed.success) return NextResponse.json({ error: "invalid body" }, { status: 400 });
   const level = parsed.data.level;
+
+  // SIMPLE stays free for everyone; DEEP/EXTRA_DEEP are the premium perk —
+  // but only once billing is actually set up. Until then isPremium() is
+  // false for everyone, so gating on that alone would lock this out for
+  // every user the moment this code deploys, before there's a working
+  // checkout to unlock it again. Gated here, before the pre-generated-variant
+  // lookup below — that lookup has no check of its own, so it's the actual
+  // bypass a free user would hit.
+  if (
+    (level === "DEEP" || level === "EXTRA_DEEP") &&
+    isBillingEnabled() &&
+    !session?.user?.premium
+  ) {
+    return NextResponse.json({ error: "premium required", level }, { status: 402 });
+  }
 
   const card = await prisma.card.findUnique({
     where: { id },

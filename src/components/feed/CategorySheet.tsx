@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import type { PopoverAnchor } from "./usePopoverAnchor";
 
 export type CategoryOption = {
@@ -29,6 +30,8 @@ const GOAL_OPTIONS = [5, 10, 15, 20, 30];
 export function CategorySheet({
   categories,
   selected,
+  premium,
+  billingEnabled,
   onApply,
   onClose,
   onGoalChange,
@@ -36,6 +39,10 @@ export function CategorySheet({
 }: {
   categories: CategoryOption[];
   selected: string[];
+  /** Unlocks DEEP/EXTRA_DEEP as a persistent reading-depth preference. */
+  premium: boolean;
+  /** False pre-launch (before Stripe is configured) — everyone gets full access. */
+  billingEnabled: boolean;
   onApply: (slugs: string[]) => void;
   onClose: () => void;
   onGoalChange: (goal: number) => void;
@@ -151,6 +158,19 @@ export function CategorySheet({
         <div className="mt-2 grid grid-cols-2 gap-2">
           {DEPTH_OPTIONS.map((o) => {
             const active = depth === o.level;
+            const locked = (o.level === "DEEP" || o.level === "EXTRA_DEEP") && billingEnabled && !premium;
+            if (locked) {
+              return (
+                <Link
+                  key={o.level}
+                  href="/upgrade"
+                  className="rounded-xl border border-neutral-800 bg-neutral-900 px-3 py-2.5 text-left opacity-60 transition hover:border-violet-500 hover:opacity-100"
+                >
+                  <span className="block text-sm font-medium text-neutral-300">🔒 {o.label}</span>
+                  <span className="block text-xs text-neutral-500">Premium — {o.blurb}</span>
+                </Link>
+              );
+            }
             return (
               <button
                 key={o.level}

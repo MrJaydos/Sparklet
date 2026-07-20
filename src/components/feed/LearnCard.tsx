@@ -28,6 +28,8 @@ export function LearnCard({
   card,
   saved,
   commentCount,
+  premium,
+  billingEnabled,
   onToggleSave,
   onOpenComments,
   onReport,
@@ -36,6 +38,12 @@ export function LearnCard({
   card: FeedCard;
   saved: boolean;
   commentCount: number;
+  /** Unlocks DEEP/EXTRA_DEEP reading depth; SIMPLE is free regardless. */
+  premium: boolean;
+  /** Whether DEEP/EXTRA_DEEP are gated at all — false pre-launch (before
+   * Stripe is configured) means everyone gets full access, same as before
+   * this feature existed. */
+  billingEnabled: boolean;
   onToggleSave: () => void;
   onOpenComments: () => void;
   onReport: () => void;
@@ -114,6 +122,10 @@ export function LearnCard({
       return;
     }
     if (pref !== "SIMPLE" && pref !== "DEEP" && pref !== "EXTRA_DEEP") return;
+    // A lapsed subscriber's saved DEEP/EXTRA_DEEP preference must not
+    // silently 402 on every card in their feed — this is the auto-apply
+    // path, separate from (and easy to miss alongside) the flyout's own gate.
+    if ((pref === "DEEP" || pref === "EXTRA_DEEP") && billingEnabled && !premium) return;
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries.some((e) => e.isIntersecting)) {
@@ -125,7 +137,7 @@ export function LearnCard({
     );
     observer.observe(el);
     return () => observer.disconnect();
-  }, []);
+  }, [premium, billingEnabled]);
 
   // Swipe left/right to vote (touch): horizontal drags grow a ▲/▼ overlay
   // and commit past the threshold; vertical swipes stay the feed's scroll.
@@ -393,20 +405,35 @@ export function LearnCard({
                   ] as [DepthLevel, string][]
                 )
                   .filter(([l]) => l !== level)
-                  .map(([l, label]) => (
-                    <button
-                      key={l}
-                      type="button"
-                      onClick={() => {
-                        chooseDepth(l);
-                        setOpenMenu(null);
-                      }}
-                      disabled={depthLoading !== null && l !== "STANDARD"}
-                      className="whitespace-nowrap rounded-full border border-neutral-700 bg-neutral-900/95 px-3 py-1 text-xs text-neutral-300 shadow-lg backdrop-blur transition hover:border-neutral-500 hover:text-white disabled:opacity-50"
-                    >
-                      {depthLoading === l ? "…" : label}
-                    </button>
-                  ))}
+                  .map(([l, label]) => {
+                    const locked = (l === "DEEP" || l === "EXTRA_DEEP") && billingEnabled && !premium;
+                    if (locked) {
+                      return (
+                        <Link
+                          key={l}
+                          href="/upgrade"
+                          onClick={() => setOpenMenu(null)}
+                          className="whitespace-nowrap rounded-full border border-neutral-700 bg-neutral-900/95 px-3 py-1 text-xs text-neutral-500 shadow-lg backdrop-blur transition hover:border-violet-500 hover:text-violet-300"
+                        >
+                          🔒 {label}
+                        </Link>
+                      );
+                    }
+                    return (
+                      <button
+                        key={l}
+                        type="button"
+                        onClick={() => {
+                          chooseDepth(l);
+                          setOpenMenu(null);
+                        }}
+                        disabled={depthLoading !== null && l !== "STANDARD"}
+                        className="whitespace-nowrap rounded-full border border-neutral-700 bg-neutral-900/95 px-3 py-1 text-xs text-neutral-300 shadow-lg backdrop-blur transition hover:border-neutral-500 hover:text-white disabled:opacity-50"
+                      >
+                        {depthLoading === l ? "…" : label}
+                      </button>
+                    );
+                  })}
               </div>
             )}
           </div>

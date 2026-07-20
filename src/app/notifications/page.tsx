@@ -6,6 +6,7 @@ import { prisma } from "@/lib/db";
 import { isAdminEmail } from "@/lib/admin";
 import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getAdminAlerts } from "@/lib/notifications";
+import { isBillingEnabled } from "@/lib/billing";
 import { AppHeader } from "@/components/AppHeader";
 
 export const metadata = { title: "Notifications — Sparklet" };
@@ -61,6 +62,8 @@ export default async function NotificationsPage() {
         unread={adminAlerts.reduce((sum, a) => sum + a.count, 0)}
         inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
         isAdmin={isAdmin}
+        premium={session.user.premium}
+        billingEnabled={isBillingEnabled()}
         signOutAction={signOutAction}
       />
       <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+4rem)]">

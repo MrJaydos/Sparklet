@@ -22,6 +22,8 @@ export function AppHeader({
   unread: initialUnread,
   inviteUrl,
   isAdmin,
+  premium,
+  billingEnabled,
   signOutAction,
 }: {
   streak: number;
@@ -32,6 +34,10 @@ export function AppHeader({
   unread: number;
   inviteUrl: string;
   isAdmin: boolean;
+  /** Hides the Upgrade CTA when already subscribed. */
+  premium: boolean;
+  /** False pre-launch (before Stripe is configured) — hides the CTA entirely. */
+  billingEnabled: boolean;
   signOutAction: () => Promise<void>;
 }) {
   const [unread, setUnread] = useState(initialUnread);
@@ -65,6 +71,14 @@ export function AppHeader({
           {navLink("/leaderboard", "🏆 Leaderboard")}
           {navLink("/profile", "👤 Profile")}
           {isAdmin && navLink("/admin", "🛠️ Admin")}
+          {billingEnabled && !premium && (
+            <Link
+              href="/upgrade"
+              className="hidden whitespace-nowrap rounded-full bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur transition hover:bg-violet-500 min-[1000px]:block"
+            >
+              ✨ Upgrade
+            </Link>
+          )}
           <StreakBadge
             streak={streak}
             longestStreak={longestStreak}
@@ -93,6 +107,8 @@ export function AppHeader({
           unread={unread}
           inviteUrl={inviteUrl}
           isAdmin={isAdmin}
+          premium={premium}
+          billingEnabled={billingEnabled}
           onClose={() => setShowMenu(false)}
           signOutAction={signOutAction}
         />

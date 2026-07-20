@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FeedCard, FeedQuiz, FeedGuess } from "@/lib/feed";
 import { LearnCard } from "./LearnCard";
+import { AdSlide } from "./AdSlide";
 import {
   CategorySheet,
   type CategoryOption,
@@ -32,6 +33,7 @@ const QUIZ_EVERY = 5; // roughly 1 recall quiz per 5 cards
 // Guess challenges land between quiz slots (offset so they never stack).
 const GUESS_EVERY = 8;
 const GUESS_OFFSET = 3;
+const AD_EVERY = 6; // free-tier only — never pushed at all for premium users
 
 const INVITE_AFTER_CARDS = 12; // show once per qualifying session, after this many cards
 const INVITE_SESSION_KEY = "sparklet.inviteSessionCount";
@@ -41,6 +43,7 @@ type FeedItem =
   | { kind: "card"; card: FeedCard }
   | { kind: "quiz"; quiz: FeedQuiz }
   | { kind: "guess"; guess: FeedGuess }
+  | { kind: "ad"; adKey: number }
   | { kind: "checkin"; afterCount: number }
   | { kind: "invite" }
   | { kind: "goalReached" }
@@ -62,6 +65,8 @@ export function Feed({
   inviteUrl,
   isAdmin,
   isGuest,
+  premium,
+  billingEnabled,
   signOutAction,
 }: {
   initialCards: FeedCard[];
@@ -80,6 +85,11 @@ export function Feed({
   isAdmin: boolean;
   /** Signed-out visitor: browsing works, everything that writes prompts sign-in. */
   isGuest: boolean;
+  /** Ad-free, unlocked DEEP/EXTRA_DEEP reading depth. Always false for guests. */
+  premium: boolean;
+  /** Whether Stripe is set up at all — hides Upgrade CTAs and depth locks
+   * until it is, rather than showing a subscription nobody can buy yet. */
+  billingEnabled: boolean;
   signOutAction: () => Promise<void>;
 }) {
   const router = useRouter();
@@ -597,6 +607,9 @@ export function Feed({
       if ((i + 1) % GUESS_EVERY === GUESS_OFFSET && guessCursor < guesses.length) {
         out.push({ kind: "guess", guess: guesses[guessCursor++] });
       }
+      // Free tier only — never pushed at all for premium users, not just
+      // hidden, so there's no dead ad slide in a paying user's scroll.
+      if (!premium && (i + 1) % AD_EVERY === 0) out.push({ kind: "ad", adKey: i + 1 });
       // Check-in's recap CTAs (share via inviteUrl, "take a break" → /profile)
       // and the invite card both assume a signed-in account — skip for guests
       // rather than dead-ending them at a login wall mid-scroll.
@@ -606,7 +619,7 @@ export function Feed({
     });
     if (exhausted) out.push({ kind: "end" });
     return out;
-  }, [cards, quizzes, guesses, exhausted, showInviteCard, goalReachedAfter, isGuest]);
+  }, [cards, quizzes, guesses, exhausted, showInviteCard, goalReachedAfter, isGuest, premium]);
 
   const scrollNext = () =>
     containerRef.current?.scrollBy({ top: window.innerHeight, behavior: "smooth" });
@@ -692,6 +705,14 @@ export function Feed({
                   🛠️ Admin
                 </Link>
               )}
+              {billingEnabled && !premium && (
+                <Link
+                  href="/upgrade"
+                  className="hidden whitespace-nowrap rounded-full bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur transition hover:bg-violet-500 min-[1000px]:block"
+                >
+                  ✨ Upgrade
+                </Link>
+              )}
               <form action={signOutAction} className="hidden min-[1000px]:block">
                 <button
                   type="submit"
@@ -731,6 +752,8 @@ export function Feed({
                 card={item.card}
                 saved={saves[item.card.id] ?? false}
                 commentCount={commentCounts[item.card.id] ?? 0}
+                premium={premium}
+                billingEnabled={billingEnabled}
                 onToggleSave={() => toggleSave(item.card.id)}
                 onOpenComments={() => {
                   if (requireAuth("comments")) return;
@@ -767,6 +790,8 @@ export function Feed({
                 addSessionCategory(item.guess.category.name);
               }}
             />
+          ) : item.kind === "ad" ? (
+            <AdSlide key={`ad-${item.adKey}`} />
           ) : item.kind === "invite" ? (
             <section
               key="invite"
@@ -963,6 +988,8 @@ export function Feed({
           inviteUrl={inviteUrl}
           isAdmin={isAdmin}
           isGuest={isGuest}
+          premium={premium}
+          billingEnabled={billingEnabled}
           signOutAction={signOutAction}
           onClose={() => setShowMenu(false)}
           onSearch={() => {
@@ -981,6 +1008,8 @@ export function Feed({
         <CategorySheet
           categories={categories}
           selected={selected}
+          premium={premium}
+          billingEnabled={billingEnabled}
           onApply={applyCategories}
           onClose={() => {
             setShowSheet(false);

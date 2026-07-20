@@ -41,6 +41,15 @@ model User {
   // adding friends by email, which silently no-ops on a typo or mismatch.
   friendCode String? @unique
 
+  // ---- Billing (Stripe) ----
+  // Premium is DERIVED from status+period at read time (see isPremium() in
+  // src/lib/billing.ts), never stored as a bare boolean — a missed webhook
+  // then expires access safely instead of granting it forever.
+  stripeCustomerId         String?   @unique
+  stripeSubscriptionId     String?
+  stripeSubscriptionStatus String? // Stripe's raw status: active, trialing, past_due, canceled, ...
+  stripeCurrentPeriodEnd   DateTime?
+
   accounts          Account[]
   sessions          Session[]
   interactions      UserCardInteraction[]

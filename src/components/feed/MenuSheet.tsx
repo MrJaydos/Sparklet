@@ -10,6 +10,8 @@ export function MenuSheet({
   inviteUrl,
   isAdmin,
   isGuest,
+  premium,
+  billingEnabled,
   onSearch,
   onClose,
   signOutAction,
@@ -18,6 +20,10 @@ export function MenuSheet({
   inviteUrl: string;
   isAdmin?: boolean;
   isGuest?: boolean;
+  /** Hides the Upgrade CTA when already subscribed. Irrelevant for guests. */
+  premium?: boolean;
+  /** False pre-launch (before Stripe is configured) — hides the CTA entirely. */
+  billingEnabled?: boolean;
   onSearch?: () => void;
   onClose: () => void;
   signOutAction: () => Promise<void>;
@@ -76,6 +82,14 @@ export function MenuSheet({
           </>
         ) : (
           <>
+            {billingEnabled && !premium && (
+              <Link
+                href="/upgrade"
+                className="mt-2 flex w-full items-center justify-center rounded-xl bg-violet-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-500"
+              >
+                ✨ Go Premium
+              </Link>
+            )}
             <Link href="/notifications" className={item(pathname === "/notifications")}>
               🔔 Notifications
               {unread > 0 && (

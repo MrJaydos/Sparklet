@@ -5,6 +5,7 @@ import Nodemailer from "next-auth/providers/nodemailer";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { createTransport } from "nodemailer";
 import { prisma } from "@/lib/db";
+import { isPremium } from "@/lib/billing";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
@@ -12,6 +13,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   callbacks: {
     session({ session, user }) {
       session.user.id = user.id;
+      // `user` here is the full Prisma row from the adapter — no extra query.
+      session.user.premium = isPremium(user);
       return session;
     },
   },

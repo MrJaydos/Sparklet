@@ -6,6 +6,7 @@ import { getFeedCards } from "@/lib/feed";
 import { getXpToday, getCardsToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { isAdminEmail } from "@/lib/admin";
 import { getUnreadCount } from "@/lib/notifications";
+import { isBillingEnabled } from "@/lib/billing";
 import { Feed } from "@/components/feed/Feed";
 
 export const metadata = { title: "Feed — Sparklet" };
@@ -48,6 +49,8 @@ export default async function FeedPage() {
         inviteUrl=""
         isAdmin={false}
         isGuest
+        premium={false}
+        billingEnabled={isBillingEnabled()}
         signOutAction={signOutAction}
       />
     );
@@ -108,6 +111,8 @@ export default async function FeedPage() {
       inviteUrl={`${process.env.NEXTAUTH_URL || "http://localhost:3000"}/invite/${userId}`}
       isAdmin={isAdmin}
       isGuest={false}
+      premium={session?.user?.premium ?? false}
+      billingEnabled={isBillingEnabled()}
       signOutAction={signOutAction}
     />
   );
