@@ -7,8 +7,11 @@ import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
 import { isBillingEnabled } from "@/lib/billing";
 import { getKnowledgeMap } from "@/lib/knowledge-map";
+import { forceLayout } from "@/lib/force-layout";
 import { AppHeader } from "@/components/AppHeader";
 import { MapView } from "@/components/MapView";
+
+const LAYOUT_SIZE = 600; // working coordinate space the simulation runs in
 
 export const metadata = { title: "Your knowledge map — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -63,7 +66,19 @@ export default async function MapPage() {
           </p>
         ) : (
           <div className="mt-6">
-            <MapView nodes={map.nodes} edges={map.edges} totalLearned={map.totalLearned} />
+            <MapView
+              nodes={map.nodes}
+              edges={map.edges}
+              totalLearned={map.totalLearned}
+              // Layout is O(n^2) per iteration — computed once here, server-side,
+              // rather than as a live client simulation, so panning/zooming a
+              // settled graph stays cheap on a mobile CPU/battery budget.
+              positions={[...forceLayout(
+                map.nodes.map((n) => n.id),
+                map.edges,
+                { width: LAYOUT_SIZE, height: LAYOUT_SIZE, iterations: 220 }
+              ).entries()].map(([id, p]) => ({ id, x: p.x, y: p.y }))}
+            />
           </div>
         )}
       </main>

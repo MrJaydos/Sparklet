@@ -4,6 +4,7 @@ import { getRelatedCards } from "@/lib/related";
 export type MapNode = {
   id: string;
   title: string;
+  body: string; // shown as a snippet in the tap-to-preview card
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
@@ -41,6 +42,7 @@ export async function getKnowledgeMap(userId: string): Promise<{
           select: {
             id: true,
             title: true,
+            body: true,
             category: { select: { slug: true, name: true, colorHex: true, icon: true } },
           },
         },
