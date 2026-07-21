@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-07-21T18:08:06.209Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden room that birthed the modern Easter egg",
+      "body": "In 1980, Atari refused to credit game programmers on packaging to prevent competitors from poaching them. Frustrated, developer Warren Robinett secretly coded a hidden gray pixel into the game Adventure. If a player brought this pixel to a specific wall, it unlocked a room displaying: \"Created by Warren Robinett.\" This became the first widely known video game Easter egg.",
+      "imageWikipediaTitle": "Adventure (1980 video game)",
+      "sources": [
+        {
+          "title": "Adventure (1980 video game)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adventure_(1980_video_game)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Adventure_(1980_video_game)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why computer background tasks are named after physics monsters",
+      "body": "In Unix operating systems, background processes that run without user intervention are called \"daemons.\" Although the word sounds sinister, it is not a religious reference. MIT programmers coined the term in 1963, inspired by \"Maxwell's demon\"—a hypothetical, tireless helper from a famous physics thought experiment that constantly works behind the scenes to sort molecules.",
+      "imageWikipediaTitle": "Daemon (computing)",
+      "sources": [
+        {
+          "title": "Daemon (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daemon_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Daemon_(computing)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's most popular code tool is named after an insult",
+      "body": "In 2005, Linux creator Linus Torvalds needed a new version control system to manage his operating system's code. He wrote one in just a few weeks and named it \"Git.\" In British slang, a \"git\" is an unpleasant or stupid person. Torvalds dryly explained his naming choice: \"I'm an egotistical bastard, and I name all my projects after myself. First Linux, now Git.\"",
+      "imageWikipediaTitle": "Linus Torvalds",
+      "sources": [
+        {
+          "title": "Git",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Git"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Git",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How 1980s hackers coded an alphabet to beat text filters",
+      "body": "Before modern internet forums, hackers communicated on Bulletin Board Systems (BBS). To discuss forbidden topics like software cracking and phone phreaking without being flagged by automated system filters, users developed \"leetspeak.\" By substituting numbers and symbols for letters—such as writing \"3\" for \"E\" or \"1\" for \"L\"—they successfully tricked the keyword-scanning software of the era.",
+      "imageWikipediaTitle": "Leet",
+      "sources": [
+        {
+          "title": "Leet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Leet",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The cheat code invented because a game was too hard to test",
+      "body": "Up, Up, Down, Down, Left, Right, Left, Right, B, A. This legendary button sequence was created in 1986 by developer Kazuhisa Hashimoto. While porting the difficult arcade shooter Gradius to the Nintendo Entertainment System, Hashimoto found himself dying too often to efficiently test the game. He programmed the shortcut to instantly grant his ship all power-ups, then accidentally forgot to remove it.",
+      "imageWikipediaTitle": "Konami Code",
+      "sources": [
+        {
+          "title": "Konami Code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Konami_Code"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Konami_Code",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The deliberate omission that kept JSON simple",
+      "body": "When Douglas Crockford standardized the JSON data format in the early 2000s, he made the controversial decision to completely forbid comments. Crockford noticed that programmers were beginning to insert parsing directives inside comments, which threatened to destroy the format's platform-independent simplicity. By banishing comments entirely, he forced JSON to remain a pure, predictable data-interchange standard that looks identical on every machine.",
+      "imageWikipediaTitle": "Douglas Crockford",
+      "sources": [
+        {
+          "title": "JSON",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/JSON"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/JSON",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The sonar-inspired command that spawned a fake acronym",
+      "body": "In 1983, network engineer Mike Muuss wrote a tiny program to test whether a remote computer was reachable. He named it \"ping\" after the sound of active sonar pulses used by submarines to detect objects. Years later, tech manuals began claiming that PING stood for \"Packet InterNet Groper.\" Muuss confirmed this was a backronym—a retrofitted explanation for a name originally chosen purely for its acoustic physics analogy.",
+      "imageWikipediaTitle": "Ping (networking utility)",
+      "sources": [
+        {
+          "title": "Ping (networking utility)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ping_(networking_utility)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ping_(networking_utility)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The foundational map algorithm designed over coffee in 20 minutes",
+      "body": "In 1956, computer scientist Edsger Dijkstra wanted to demonstrate the capabilities of a new computer called the ARMAC. While sitting on a cafe terrace with his fiancée, he designed a method to find the shortest path between cities. He designed the entire algorithm in just 20 minutes without using any paper or pencil. Today, Dijkstra's algorithm powers everything from Google Maps to internet routing protocols.",
+      "imageWikipediaTitle": "Edsger W. Dijkstra",
+      "sources": [
+        {
+          "title": "Dijkstra's algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The academic math trick that made Doom possible",
+      "body": "In 1993, home computers were too slow to render true 3D game worlds in real-time. To make Doom run smoothly, John Carmack implemented \"binary space partitioning\" (BSP), a technique from a 1969 academic paper. By splitting the game's map into a tree-like hierarchy of spaces, the engine instantly knew which walls were behind others, allowing it to render only what the player could actually see.",
+      "imageWikipediaTitle": "Doom engine",
+      "sources": [
+        {
+          "title": "Doom engine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doom_engine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Doom_engine",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programming language that uses only invisible characters",
+      "body": "Released on April Fools' Day in 2003, Whitespace is an esoteric programming language that ignores all printable characters. It only recognizes spaces, tabs, and line feeds as valid code. This unique design means a fully functional Whitespace program can be hidden entirely within the unused spaces of a standard Python or C++ file, remaining completely invisible to anyone reading the host file's visible text.",
+      "imageWikipediaTitle": "Whitespace (programming language)",
+      "sources": [
+        {
+          "title": "Whitespace (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whitespace_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Whitespace_(programming_language)",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Warren Robinett hide his name inside the Atari game Adventure?",
+      "options": [
+        "To avoid paying taxes on his development salary",
+        "Because Atari refused to credit game developers",
+        "To trigger a secret cheat mode during tournaments",
+        "As a hidden message to his fiancée"
+      ],
+      "correctIndex": 1,
+      "explanation": "Atari did not credit developers publicly at the time, prompting Robinett to hide his name inside the game code as the first famous Easter egg."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the word 'Git' mean in the British slang that Linus Torvalds referenced?",
+      "options": [
+        "A highly efficient engine",
+        "A foolish or unpleasant person",
+        "An interconnected web",
+        "A fast runner"
+      ],
+      "correctIndex": 1,
+      "explanation": "Linus Torvalds jokingly named the version control tool after himself, using the British slang 'git' which means an unpleasant or stupid person."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did Kazuhisa Hashimoto originally program the Konami Code into Gradius?",
+      "options": [
+        "To make the arcade cabinet cheaper to produce",
+        "Because he found the game too hard to playtest without dying",
+        "As a secret marketing stunt for a toy release",
+        "To bypass a strict Nintendo licensing check"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hashimoto found Gradius too difficult to play through for testing, so he added the cheat code to grant his ship all power-ups instantly."
+    },
+    {
+      "cardIndex": 7,
+      "question": "In what setting did Edsger Dijkstra design his famous shortest-path algorithm in 1956?",
+      "options": [
+        "During a military strategy briefing",
+        "Over coffee at a cafe terrace in just 20 minutes",
+        "While working on a mainframe at IBM headquarters",
+        "During a trans-Atlantic flight"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dijkstra designed the entire foundational algorithm in 20 minutes while sitting at a cafe with his fiancée, without using paper or pencil."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Which characters are considered valid code in the Whitespace programming language?",
+      "options": [
+        "Only brackets, parentheses, and braces",
+        "Only letters and numbers, with no punctuation",
+        "Only spaces, tabs, and line feeds",
+        "Only binary zeros and ones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Whitespace ignores all printable characters, reading only spaces, tabs, and line feeds as functional code."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In what year did MIT programmers coin the term 'daemon' for background processes?",
+      "answer": 1963,
+      "min": 1950,
+      "max": 1980,
+      "unit": "year",
+      "explanation": "The term was coined in 1963, inspired by Maxwell's demon, a thought experiment in physics."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many minutes did it take Edsger Dijkstra to design his famous shortest-path algorithm in 1956?",
+      "answer": 20,
+      "min": 5,
+      "max": 120,
+      "unit": "minutes",
+      "explanation": "Dijkstra designed the foundational routing algorithm in just 20 minutes without paper or pencil while having coffee on a cafe terrace."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The term 'daemon' in computer operating systems was chosen as a deliberate reference to Satanic demons.",
+      "answer": false,
+      "explanation": "It was actually inspired by Maxwell's demon, a helpful sorting entity from a physics thought experiment."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Leetspeak was originally invented by 1980s hackers to bypass automated text filters on bulletin board systems.",
+      "answer": true,
+      "explanation": "Hackers substituted numbers and symbols for letters to bypass filters searching for keywords related to software cracking and hacking."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "The networking utility 'ping' is an acronym that stands for Packet InterNet Groper.",
+      "answer": false,
+      "explanation": "Its creator named it after submarine sonar pulses; the acronym was a 'backronym' invented years later."
+    }
+  ]
+}

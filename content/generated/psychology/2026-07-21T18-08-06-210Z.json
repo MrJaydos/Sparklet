@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-07-21T18:08:06.210Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you immediately forget what the person before you said",
+      "body": "When you are sitting in a circle waiting to introduce yourself or speak, you will almost certainly forget whatever the person right before you said. This is the next-in-line effect. Because your brain is so preoccupied with preparing its own performance and managing anxiety, it temporarily blocks out external speech, failing to store it in long-term memory.",
+      "imageWikipediaTitle": "Social anxiety",
+      "sources": [
+        {
+          "title": "Next-in-line effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Next-in-line_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Next-in-line_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Mondays make us feel like different people",
+      "body": "Your brain uses \"temporal landmarks\" to separate your past self from your current self. Dates like Mondays, the first of the month, or New Year’s Day act as psychological resets. By creating a clean slate, these landmarks diminish the relevance of past failures and significantly boost motivation to start new goals, a phenomenon researchers call the fresh start effect.",
+      "imageWikipediaTitle": "Calendar",
+      "sources": [
+        {
+          "title": "Fresh start effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fresh_start_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fresh_start_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we think other groups are \"all the same\"",
+      "body": "When we look at members of our own social group, we easily recognize their diverse personalities and unique traits. But when we look at an outside group, our brains default to the out-group homogeneity effect. We perceive them as a uniform, monolithic mass where everyone thinks and behaves exactly alike, a cognitive shortcut that fuels stereotypes.",
+      "imageWikipediaTitle": "Stereotype",
+      "sources": [
+        {
+          "title": "Out-group homogeneity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Out-group_homogeneity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Out-group_homogeneity",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can remember a person's job but not their name",
+      "body": "If you are told a man’s name is Mr. Baker, you are likely to forget it. But if you are told he is a baker, you will easily remember it. This is the Baker-Baker paradox. Names are arbitrary labels with no mental hooks. A profession, however, immediately summons a rich web of associations in your brain—aprons, fresh bread, ovens—making the memory stick.",
+      "imageWikipediaTitle": "Baker",
+      "sources": [
+        {
+          "title": "Baker-Baker paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Baker%E2%80%93Baker_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Baker%E2%80%93Baker_paradox",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The psychology of why \"sore thumbs\" stick out",
+      "body": "If you look at a list of words containing \"desk, chair, table, ELEPHANT, bed,\" your brain will instantly lock onto the elephant. Named after psychiatrist Hedwig von Restorff, this effect proves that when multiple similar items are presented, the one that differs most from the rest is disproportionately likely to be remembered. Distinctiveness grabs our limited attention and boosts memory encoding.",
+      "imageWikipediaTitle": "Attention",
+      "sources": [
+        {
+          "title": "Von Restorff effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Von_Restorff_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Von_Restorff_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How you can miss a gorilla walking right past you",
+      "body": "In a famous psychology experiment, participants watched a video of people passing basketballs and were asked to count the passes. During the game, a person in a gorilla suit walked into the frame, thumped their chest, and walked away. Over half of the participants completely missed it. This is inattentional blindness: when your focus is locked on one task, your brain actively filters out unexpected visual stimuli.",
+      "imageWikipediaTitle": "Attention",
+      "sources": [
+        {
+          "title": "Inattentional blindness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inattentional_blindness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Inattentional_blindness",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why some people think everyone is out to get them",
+      "body": "If someone bumps into you on a crowded street, do you assume it was an accident or a deliberate provocation? People with a hostile attribution bias automatically interpret ambiguous, neutral actions as intentionally hostile. This cognitive distortion makes ordinary social mishaps feel like personal attacks, frequently triggering defensive anger or aggressive retaliation over minor misunderstandings.",
+      "imageWikipediaTitle": "Anger",
+      "sources": [
+        {
+          "title": "Hostile attribution bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hostile_attribution_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hostile_attribution_bias",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a pre-checked box quietly controls our decisions",
+      "body": "Making decisions takes mental energy. To save fuel, our brains default to the path of least resistance. In European countries where organ donation is \"opt-out\" (you are a donor by default), consent rates soar above 90%. In \"opt-in\" countries, where citizens must check a box to join, consent rates drop below 20%. The default effect proves we rarely change pre-set options.",
+      "imageWikipediaTitle": "Decision-making",
+      "sources": [
+        {
+          "title": "Default effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Default_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Default_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your old junk feels incredibly valuable to you",
+      "body": "Once you own an object, your brain immediately overvalues it. In a classic experiment, participants given a coffee mug refused to sell it for less than $7.12 on average, even though buyers were only willing to pay $2.87 to buy it. This endowment effect occurs because losing something we own triggers a greater emotional sting than the pleasure of gaining it.",
+      "imageWikipediaTitle": "Coffee cup",
+      "sources": [
+        {
+          "title": "Endowment effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endowment_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Endowment_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain always chooses instant gratification",
+      "body": "If offered $100 today or $110 tomorrow, most people choose the immediate $100. But if offered $100 in a year or $110 in a year and a day, people easily wait the extra day. This is hyperbolic discounting. Our brains drastically devalue rewards as they move further into the future, making us choose short-term pleasure over long-term benefits, fueling procrastination and bad habits.",
+      "imageWikipediaTitle": "Procrastination",
+      "sources": [
+        {
+          "title": "Hyperbolic discounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyperbolic_discounting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hyperbolic_discounting",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does the \"next-in-line effect\" cause us to forget what the person speaking right before us said?",
+      "options": [
+        "We are too busy mentally rehearsing our own upcoming turn",
+        "Our hearing temporarily shuts down due to stage fright",
+        "The brain naturally suppresses the sound of nearby voices",
+        "We suffer from short-term memory fatigue after listening to others"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cognitive load of preparing your own words and managing performance anxiety prevents your brain from encoding the previous speaker's words."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the out-group homogeneity effect?",
+      "options": [
+        "The tendency to view members of outside groups as highly similar to one another",
+        "The belief that your own group is superior to all other groups",
+        "A desire to blend in and conform with people who look different from you",
+        "The biological drive to seek out diverse social circles"
+      ],
+      "correctIndex": 0,
+      "explanation": "This bias causes us to view out-group members as uniform, while seeing our own group as diverse."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is it easier to remember that someone works as a baker than that their last name is Baker?",
+      "options": [
+        "Occupations trigger rich, sensory mental associations, whereas names are arbitrary",
+        "Surnames are stored in a weaker, temporary region of the temporal lobe",
+        "The human brain is evolutionarily hardwired to prioritize social status over identity",
+        "Words representing jobs are shorter and easier for the voice box to sub-vocalize"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jobs hook into pre-existing mental networks of images and associations, whereas arbitrary names have no conceptual meaning to cling to."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What does someone with a \"hostile attribution bias\" do when experiencing an ambiguous social situation?",
+      "options": [
+        "They assume other people's neutral actions are intentionally hostile",
+        "They blame themselves entirely for other people's negative behavior",
+        "They forget the incident immediately to avoid social confrontation",
+        "They over-analyze the situation to find a peaceful, logical compromise"
+      ],
+      "correctIndex": 0,
+      "explanation": "This bias causes individuals to interpret benign or accidental actions as malicious and deliberate."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What is the primary driving force behind the \"endowment effect\"?",
+      "options": [
+        "We feel a strong aversion to losing things we already possess",
+        "We assume older products are manufactured with higher quality",
+        "We struggle to calculate the fair market value of physical goods",
+        "We want to impress others by inflating the value of our belongings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The endowment effect is heavily driven by loss aversion; losing an item we own feels worse than the joy of acquiring it."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 5,
+      "prompt": "In the famous \"invisible gorilla\" experiment, what percentage of participants completely failed to notice the person in a gorilla suit?",
+      "answer": 50,
+      "min": 10,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Roughly 50% of people missed the gorilla because their attention was completely consumed by counting basketball passes."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "In Germany, an \"opt-in\" organ donation country, what percentage of citizens actively consented to donate?",
+      "answer": 12,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Despite broad support for organ donation, Germany's opt-in system resulted in only around 12% consent, showing how strongly defaults control our choices."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "We are equally motivated to start new goals on any random day of the week.",
+      "answer": false,
+      "explanation": "The fresh start effect shows we are far more motivated to pursue goals on \"temporal landmarks\" like Mondays or the start of a month."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Making an item blend in with its surroundings makes it more memorable.",
+      "answer": false,
+      "explanation": "The Von Restorff effect shows that distinctiveness, or standing out from the crowd, dramatically improves how well an item is remembered."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Humans value a delay of one day equally regardless of whether it happens tomorrow or a year from now.",
+      "answer": false,
+      "explanation": "Hyperbolic discounting shows we are highly impatient for immediate rewards but highly patient when both choices lie in the distant future."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Our brains remember a stranger's profession much more reliably than their name.",
+      "answer": true,
+      "explanation": "This is the Baker-Baker paradox: arbitrary names have no mental hooks, whereas a profession immediately links to a rich web of visual and conceptual memories."
+    }
+  ]
+}

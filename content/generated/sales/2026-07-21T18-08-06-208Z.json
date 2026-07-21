@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-07-21T18:08:06.208Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Put your target product in the middle to sell more",
+      "body": "When faced with three choices of different price points, buyers overwhelmingly choose the middle option. This is known as the compromise effect. It happens because we instinctively want to avoid extremes—the cheapest option feels low-quality, while the most expensive feels like an overspend. By flanking your target product with a basic budget option and a premium luxury option, you can quietly guide customers to buy the middle one.",
+      "imageWikipediaTitle": "Compromise effect",
+      "sources": [
+        {
+          "title": "Compromise effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compromise_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compromise_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why hard-to-pronounce names kill sales",
+      "body": "If customers can’t easily pronounce your brand or product name, they are far less likely to buy it. This is due to cognitive fluency: our brains mistake ease of processing for safety and familiarity. In one study, researchers found that fictional food additives with simple names like \"Magnalox\" were perceived as far safer than those with complex names like \"Heneoraxene.\" Keep it simple to build instant trust.",
+      "imageWikipediaTitle": "Cognitive fluency",
+      "sources": [
+        {
+          "title": "Cognitive fluency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_fluency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cognitive_fluency",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "To win over a tough client, ask them for a small favor",
+      "body": "It sounds backward, but asking a prospect for a small favor—like borrowing a book or asking for a quick recommendation—makes them like you more. Known as the Ben Franklin effect, this happens because of cognitive dissonance. Their brain reasons: \"I did a favor for this person, so I must like them.\" Once they help you, they are far more receptive to your sales pitch.",
+      "imageWikipediaTitle": "Ben Franklin effect",
+      "sources": [
+        {
+          "title": "Ben Franklin effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ben_Franklin_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ben_Franklin_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The simple math trick that makes your discounts look bigger",
+      "body": "How you frame a discount depends entirely on the number 100. If an item costs under $100, present the discount as a percentage (e.g., \"20% off\" a $20 shirt looks bigger than \"$4 off\"). If it costs over $100, present it as a flat dollar amount (e.g., \"$50 off\" a $250 jacket looks bigger than \"20% off\"). It is the exact same value, but the larger number triggers a stronger urge to buy.",
+      "imageWikipediaTitle": "Psychological pricing",
+      "sources": [
+        {
+          "title": "Psychological pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_pricing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Psychological_pricing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why offering only one product makes customers walk away",
+      "body": "When you pitch a single, perfect product, customers often hesitate and buy nothing. This is single-option aversion. Given only one option, the brain asks, \"Should I buy this or not?\" and chooses to search for alternatives to avoid a bad deal. But add a second, slightly different option, and the question changes to, \"Which of these is better?\" This simple shift can increase purchase rates dramatically.",
+      "imageWikipediaTitle": "Overchoice",
+      "sources": [
+        {
+          "title": "Overchoice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Overchoice"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Overchoice",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Give your loyalty program a two-stamp head start",
+      "body": "If you want customers to complete a loyalty card, don't give them a blank eight-stamp card. Instead, give them a ten-stamp card with two stamps pre-completed. Both require eight purchases to earn a reward, but customers with the pre-stamped card complete it significantly faster and in greater numbers. This \"endowed progress effect\" works because people are far more motivated to finish a task they have already started.",
+      "imageWikipediaTitle": "Endowed progress effect",
+      "sources": [
+        {
+          "title": "Endowed progress effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endowed_progress_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Endowed_progress_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The psychological trick behind the $2.99 price tag",
+      "body": "Why does pricing something at $2.99 instead of $3.00 feel so much cheaper? It is not just about the pennies. Because we read from left to right, our brains process the left-most digit first and encode it before we even finish reading the rest of the price. The brain anchors on the \"2\" rather than the \"3,\" making the price feel significantly lower. Interestingly, this effect vanishes if the left digit remains the same, like comparing $2.59 to $2.60.",
+      "imageWikipediaTitle": "Left-digit effect",
+      "sources": [
+        {
+          "title": "Left-digit effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Left-digit_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Left-digit_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pausing for three seconds leads to better negotiation deals",
+      "body": "When negotiating, resisting the urge to speak immediately after your counterpart makes an offer can yield massive benefits. Research shows that initiating a silent pause of at least three seconds shifts the conversation from competitive posturing to creative problem-solving. This \"golden silence\" prompts both sides to reconsider their positions, often leading to win-win solutions that otherwise would have been missed.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negotiation",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the vowels in your price tag make it sound smaller",
+      "body": "The physical sound of a price affects how cheap it feels. Prices containing \"front vowels\"—sounds produced with the tongue forward, like the \"ee\" in green or the \"i\" in six—are mentally associated with smallness. Conversely, \"back vowels\" like the \"o\" in low or \"u\" in two sound large. Pronouncing \"$10.11\" (ten eleven) actually feels smaller to a buyer than \"$10.02\" (ten oh two), simply because of the phonetic sounds.",
+      "imageWikipediaTitle": "Sound symbolism",
+      "sources": [
+        {
+          "title": "Sound symbolism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sound_symbolism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sound_symbolism",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Use open-palm gestures to boost agreement",
+      "body": "The way you move your hands can make or break your pitch. Studies on body language reveal that when speakers present with their palms facing upward, they achieve much higher compliance rates—often over 80%. When the same request is made with palms facing down, compliance drops significantly, and it drops even further when pointing a finger. Open palms signal warmth, honesty, and cooperation, disarming your prospect.",
+      "imageWikipediaTitle": "Gesture",
+      "sources": [
+        {
+          "title": "Gesture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gesture"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gesture",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to the compromise effect, which option in a three-tier product lineup are customers most likely to purchase?",
+      "options": [
+        "The cheapest option",
+        "The middle option",
+        "The most expensive option",
+        "They avoid choosing altogether"
+      ],
+      "correctIndex": 1,
+      "explanation": "Customers naturally avoid extremes, viewing the cheapest option as low quality and the most expensive as overpriced, making the middle option the most attractive."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the core mechanism behind the Ben Franklin effect?",
+      "options": [
+        "People like you more after you do them a favor",
+        "People like you more after they do you a favor",
+        "People buy more when you give them free gifts",
+        "People trust you more when you agree with them"
+      ],
+      "correctIndex": 1,
+      "explanation": "When someone does you a favor, their brain resolves the cognitive dissonance by concluding that they must like you."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does presenting only one option to a customer often result in no sale?",
+      "options": [
+        "It triggers analysis paralysis",
+        "It forces a yes-or-no decision on buying",
+        "It makes the product seem cheap",
+        "It causes price anchoring"
+      ],
+      "correctIndex": 1,
+      "explanation": "A single option forces the customer to decide whether to buy or not buy. Adding a second option shifts the decision to choosing which one to buy."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How does a pause of at least three seconds impact a negotiation?",
+      "options": [
+        "It makes the other party angry and defensive",
+        "It shifts the conversation toward creative problem-solving",
+        "It forces the other party to lower their price immediately",
+        "It signals that you are unprepared and weak"
+      ],
+      "correctIndex": 1,
+      "explanation": "A brief silence of three seconds or more encourages both sides to reconsider competitive stances and explore creative, win-win options."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Which hand gesture has been shown to achieve the highest compliance rates when making requests?",
+      "options": [
+        "Pointing with an index finger",
+        "Keeping hands flat in pockets",
+        "Presenting with palms facing down",
+        "Presenting with palms facing up"
+      ],
+      "correctIndex": 3,
+      "explanation": "Palms facing up signal openness, warmth, and honesty, leading to compliance rates often exceeding 80%."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 5,
+      "prompt": "In a classic loyalty card study, what percentage of customers finished a 10-stamp card with 2 pre-completed stamps, compared to just 19% with an 8-stamp blank card?",
+      "answer": 34,
+      "min": 5,
+      "max": 85,
+      "unit": "%",
+      "explanation": "The 'endowed progress effect' nearly doubled completion rates (from 19% to 34%) simply by giving customers a head start, even though both cards required 8 purchases."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "According to negotiation research, pauses of at least how many seconds can shift negotiators away from competitive posturing and toward creative deals?",
+      "answer": 3,
+      "min": 1,
+      "max": 15,
+      "unit": "seconds",
+      "explanation": "Just three seconds of silence can prompt both parties to reconsider their positions and seek win-win solutions."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "In body language studies, what percentage of people complied with a request when the speaker used an open, palm-up hand gesture?",
+      "answer": 84,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Open-palm gestures signal trust and cooperation, leading to a massive 84% compliance rate compared to 52% for palm-down and 28% for finger-pointing."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Complex, scientific-sounding product names always make a brand seem more trustworthy and reliable.",
+      "answer": false,
+      "explanation": "Cognitive fluency research shows that easy-to-pronounce names are actually perceived as safer and more trustworthy than complex ones."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Doing a favor for a potential client is a more reliable way to win them over than asking them to do a favor for you.",
+      "answer": false,
+      "explanation": "The Ben Franklin effect reveals that asking someone for a favor resolves cognitive dissonance in your favor, making them like you more."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A discount on an expensive item can look much less appealing to buyers if framed as a percentage instead of a flat cash discount.",
+      "answer": true,
+      "explanation": "The Rule of 100 dictates that for items over $100, flat dollar amounts look larger and more appealing than equivalent percentages."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "Reducing a price by one cent (like $3.00 to $2.99) makes the price feel significantly lower because consumers are fooled by the math.",
+      "answer": false,
+      "explanation": "It's not about math; it's about the left-digit effect. Because we read left-to-right, we encode the first digit ('2') before finishing the number."
+    }
+  ]
+}
