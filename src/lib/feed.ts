@@ -68,10 +68,10 @@ export type FeedExplainPrompt = {
 
 const EXPLAIN_MIN_BODY_WORDS = 30; // trivial one-liners aren't worth explaining back
 
-// Reviews are capped at roughly 1 in 4 cards (never more than 1 review per 3
+// Reviews are capped at roughly 1 in 5 cards (never more than 1 review per 4
 // new ones) so a short session doesn't read as "all review cards" — a flat
 // per-batch cap used to dominate small batches regardless of `take`.
-const REVIEW_RATIO = 0.25;
+const REVIEW_RATIO = 0.2;
 
 const NEW_USER_VIEW_LIMIT = 50; // interest weighting only shapes early sessions
 
