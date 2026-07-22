@@ -14,16 +14,21 @@ type QuizResult = {
   multiplier: number;
 };
 
-/** Low-stakes recall quiz: instant answer + explanation, XP + combo reward. */
+/** Low-stakes recall quiz: instant answer + explanation, XP + combo reward.
+ * `variant="review"` renders the same question in place of a due spaced-
+ * repetition review card — a wrong answer re-queues the source card instead
+ * of just failing a checkpoint quiz, so it posts to a different endpoint. */
 export function QuizView({
   quiz,
   isGuest,
+  variant = "checkpoint",
   onContinue,
   onResult,
 }: {
   quiz: FeedQuiz;
   /** Signed-out visitor — still answers for real, just earns nothing. */
   isGuest?: boolean;
+  variant?: "checkpoint" | "review";
   onContinue: () => void;
   onResult: (r: { xp: XpInfo; correct: boolean; combo: number }) => void;
 }) {
@@ -34,7 +39,9 @@ export function QuizView({
     if (picked !== null) return;
     setPicked(index);
     try {
-      const res = await fetch(`/api/quiz/${quiz.id}/answer`, {
+      const endpoint =
+        variant === "review" ? `/api/reviews/${quiz.id}/answer` : `/api/quiz/${quiz.id}/answer`;
+      const res = await fetch(endpoint, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ index, tzOffsetMinutes: new Date().getTimezoneOffset() }),
@@ -61,12 +68,18 @@ export function QuizView({
       {result?.correct && <ConfettiBurst big={result.combo >= 5} />}
 
       <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-center px-5 pb-24 pt-16">
-        <span
-          className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
-          style={{ backgroundColor: `${quiz.category.colorHex}33`, color: quiz.category.colorHex }}
-        >
-          🧠 Quick recall · {quiz.category.name}
-        </span>
+        {variant === "review" ? (
+          <span className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full bg-violet-500/20 px-3 py-1 text-xs font-semibold text-violet-300">
+            🔁 Review — do you remember?
+          </span>
+        ) : (
+          <span
+            className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
+            style={{ backgroundColor: `${quiz.category.colorHex}33`, color: quiz.category.colorHex }}
+          >
+            🧠 Quick recall · {quiz.category.name}
+          </span>
+        )}
 
         <h2 className="text-2xl font-bold leading-snug">{quiz.question}</h2>
 

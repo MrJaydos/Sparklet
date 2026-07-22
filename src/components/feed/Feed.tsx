@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type {
   FeedCard,
   FeedQuiz,
+  FeedReviewQuiz,
   FeedGuess,
   FeedMisconception,
   FeedExplainPrompt,
@@ -59,6 +60,7 @@ const GOAL_HIT_KEY = "sparklet.goalHit"; // date string — one goal-complete sc
 type FeedItem =
   | { kind: "card"; card: FeedCard }
   | { kind: "quiz"; quiz: FeedQuiz }
+  | { kind: "reviewQuiz"; quiz: FeedReviewQuiz }
   | { kind: "guess"; guess: FeedGuess }
   | { kind: "misconception"; misconception: FeedMisconception }
   | { kind: "explain"; explainPrompt: FeedExplainPrompt }
@@ -71,6 +73,7 @@ type FeedItem =
 export function Feed({
   initialCards,
   initialQuizzes,
+  initialReviewQuizzes,
   initialGuesses,
   initialMisconceptions,
   initialExplainPrompts,
@@ -92,6 +95,7 @@ export function Feed({
 }: {
   initialCards: FeedCard[];
   initialQuizzes: FeedQuiz[];
+  initialReviewQuizzes: FeedReviewQuiz[];
   initialGuesses: FeedGuess[];
   initialMisconceptions: FeedMisconception[];
   initialExplainPrompts: FeedExplainPrompt[];
@@ -126,6 +130,13 @@ export function Feed({
   );
   const [cards, setCards] = useState<FeedCard[]>(initialCards);
   const [quizzes, setQuizzes] = useState<FeedQuiz[]>(initialQuizzes);
+  // Due reviews rendered as a question — front-loaded per fetched batch, same
+  // as plain review cards are. `atIndex` is the position in `cards` where
+  // that batch started, so each batch's reviews surface right as it arrives
+  // rather than jumping to the very top of an already-scrolled feed.
+  const [reviewQuizzes, setReviewQuizzes] = useState<{ atIndex: number; quiz: FeedReviewQuiz }[]>(
+    () => initialReviewQuizzes.map((quiz) => ({ atIndex: 0, quiz }))
+  );
   const [guesses, setGuesses] = useState<FeedGuess[]>(initialGuesses);
   const [misconceptions, setMisconceptions] = useState<FeedMisconception[]>(initialMisconceptions);
   const [explainPrompts, setExplainPrompts] = useState<FeedExplainPrompt[]>(initialExplainPrompts);
@@ -257,11 +268,15 @@ export function Feed({
         const data: {
           cards: FeedCard[];
           quizzes: FeedQuiz[];
+          reviewQuizzes: FeedReviewQuiz[];
           guesses: FeedGuess[];
           misconceptions: FeedMisconception[];
           explainPrompts: FeedExplainPrompt[];
           exhausted: boolean;
         } = await res.json();
+        // This batch's due reviews front-load at the position this batch
+        // starts, i.e. where `cards` currently ends (before appending below).
+        const atIndex = opts?.reset ? 0 : cardsRef.current.length;
         setSaves((prev) => ({
           ...Object.fromEntries(data.cards.map((c) => [c.id, c.saved])),
           ...(opts?.reset ? {} : prev),
@@ -275,6 +290,14 @@ export function Feed({
           const base = opts?.reset ? [] : prev;
           const known = new Set(base.map((q) => q.id));
           return [...base, ...data.quizzes.filter((q) => !known.has(q.id))];
+        });
+        setReviewQuizzes((prev) => {
+          const base = opts?.reset ? [] : prev;
+          const known = new Set(base.map((r) => r.quiz.id));
+          const additions = data.reviewQuizzes
+            .filter((q) => !known.has(q.id))
+            .map((quiz) => ({ atIndex, quiz }));
+          return [...base, ...additions];
         });
         setGuesses((prev) => {
           const base = opts?.reset ? [] : prev;
@@ -638,7 +661,19 @@ export function Feed({
     let guessCursor = 0;
     let misconceptionCursor = 0;
     let explainCursor = 0;
+    const sortedReviewQuizzes = [...reviewQuizzes].sort((a, b) => a.atIndex - b.atIndex);
+    let reviewQuizCursor = 0;
+    const flushReviewQuizzesUpTo = (index: number) => {
+      while (
+        reviewQuizCursor < sortedReviewQuizzes.length &&
+        sortedReviewQuizzes[reviewQuizCursor].atIndex <= index
+      ) {
+        out.push({ kind: "reviewQuiz", quiz: sortedReviewQuizzes[reviewQuizCursor].quiz });
+        reviewQuizCursor++;
+      }
+    };
     cards.forEach((card, i) => {
+      flushReviewQuizzesUpTo(i);
       out.push({ kind: "card", card });
       if ((i + 1) % QUIZ_EVERY === 0 && quizCursor < quizzes.length) {
         out.push({ kind: "quiz", quiz: quizzes[quizCursor++] });
@@ -665,11 +700,13 @@ export function Feed({
       if (!isGuest && showInviteCard && i + 1 === INVITE_AFTER_CARDS) out.push({ kind: "invite" });
       if (goalReachedAfter !== null && i + 1 === goalReachedAfter) out.push({ kind: "goalReached" });
     });
+    flushReviewQuizzesUpTo(cards.length);
     if (exhausted) out.push({ kind: "end" });
     return out;
   }, [
     cards,
     quizzes,
+    reviewQuizzes,
     guesses,
     misconceptions,
     explainPrompts,
@@ -829,6 +866,19 @@ export function Feed({
             <QuizView
               key={`quiz-${item.quiz.id}`}
               quiz={item.quiz}
+              isGuest={isGuest}
+              onContinue={scrollNext}
+              onResult={(r) => {
+                handleXp(r.xp);
+                if (!isGuest) markCardCompleted();
+                addSessionCategory(item.quiz.category.name);
+              }}
+            />
+          ) : item.kind === "reviewQuiz" ? (
+            <QuizView
+              key={`review-${item.quiz.id}`}
+              quiz={item.quiz}
+              variant="review"
               isGuest={isGuest}
               onContinue={scrollNext}
               onResult={(r) => {

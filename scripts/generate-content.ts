@@ -130,7 +130,7 @@ Each card:
 Accuracy rules: no urban legends presented as fact, no disputed claims stated flatly, numbers must match the cited source. If a fun "fact" is actually a myth, either skip it or make the card about the myth being false.
 ${extras}${avoid}
 
-Also produce "quizzes": for roughly half of your cards, a low-stakes multiple-choice question testing that card's core fact:
+Also produce "quizzes": for EVERY card, exactly one low-stakes multiple-choice question testing that card's core fact (this doubles as the question shown when the card comes back around for spaced-repetition review, so every card needs one):
 - "cardIndex": the 0-based index of the card it tests
 - "question": one clear question under 200 characters
 - "options": exactly 4 plausible answers (one correct)

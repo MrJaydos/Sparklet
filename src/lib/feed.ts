@@ -29,6 +29,11 @@ export type FeedQuiz = {
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
+// A due spaced-repetition review, rendered as a question instead of the
+// repeated card — same shape as FeedQuiz; answering it (right or wrong)
+// grades the review via /api/reviews/[id]/answer instead of /api/quiz.
+export type FeedReviewQuiz = FeedQuiz;
+
 // Guess-before-reveal challenge; the answer stays server-side until the
 // user locks in a guess.
 export type FeedGuess = {
@@ -131,6 +136,7 @@ export async function getFeedCards(opts: {
 }): Promise<{
   cards: FeedCard[];
   quizzes: FeedQuiz[];
+  reviewQuizzes: FeedReviewQuiz[];
   guesses: FeedGuess[];
   misconceptions: FeedMisconception[];
   explainPrompts: FeedExplainPrompt[];
@@ -187,6 +193,9 @@ export async function getFeedCards(opts: {
   };
 
   // Due reviews — the retention mechanism. Slotted at the front of the batch.
+  // A card with a quiz is served as a question instead of the repeated card;
+  // cards without one (pre-dates every-card quiz generation) fall back to
+  // the plain repeated-card review.
   const dueStates = await prisma.spacedRepetitionState.findMany({
     where: {
       userId,
@@ -200,10 +209,39 @@ export async function getFeedCards(opts: {
     },
     orderBy: { nextReviewAt: "asc" },
     take: REVIEWS_PER_BATCH,
-    select: { card: { include } },
+    select: {
+      card: {
+        include: {
+          ...include,
+          quizCards: {
+            take: 1,
+            orderBy: { createdAt: "asc" },
+            select: { id: true, question: true, options: true },
+          },
+        },
+      },
+    },
   });
-  const reviewCards = dueStates.map((s) => toFeedCard(s.card as CardRow, true, true));
+  const reviewCards: FeedCard[] = [];
+  const reviewQuizzes: FeedReviewQuiz[] = [];
+  for (const s of dueStates) {
+    const card = s.card as CardRow & {
+      quizCards: { id: string; question: string; options: unknown }[];
+    };
+    const quiz = card.quizCards[0];
+    if (quiz) {
+      reviewQuizzes.push({
+        id: quiz.id,
+        question: quiz.question,
+        options: quiz.options as string[],
+        category: card.category,
+      });
+    } else {
+      reviewCards.push(toFeedCard(card, true, true));
+    }
+  }
   const reviewIds = new Set(reviewCards.map((c) => c.id));
+  const reviewQuizIds = new Set(reviewQuizzes.map((q) => q.id));
 
   // Recall quizzes: fact already seen, quiz not yet attempted. Client mixes
   // ~1 per 5 cards. Sample a wide pool and shuffle — a bare `take` always
@@ -219,6 +257,10 @@ export async function getFeedCards(opts: {
         interactions: { some: { userId, completed: true } },
       },
       attempts: { none: { userId } },
+      // A card can enter the review schedule via a long dwell without its
+      // checkpoint quiz ever being attempted — exclude quizzes already
+      // being served as a due review this batch so they don't double-appear.
+      ...(reviewQuizIds.size ? { id: { notIn: [...reviewQuizIds] } } : {}),
     },
     take: 40,
     select: {
@@ -346,7 +388,7 @@ export async function getFeedCards(opts: {
   const order = (rows: CardRow[]) =>
     categorySlugs?.length ? shuffle(rows) : weightedShuffle(rows, boostSlugs);
 
-  const newTake = Math.max(0, take - reviewCards.length);
+  const newTake = Math.max(0, take - reviewCards.length - reviewQuizzes.length);
 
   // New users should recognize their onboarding picks immediately: front-load
   // ~70% of the batch from chosen topics, then blend in everything else.
@@ -376,6 +418,7 @@ export async function getFeedCards(opts: {
           .map((c) => toFeedCard(c, false)),
       ]),
       quizzes,
+      reviewQuizzes,
       guesses,
       misconceptions,
       explainPrompts,
@@ -387,6 +430,7 @@ export async function getFeedCards(opts: {
     return {
       cards: await withRelated(reviewCards),
       quizzes,
+      reviewQuizzes,
       guesses,
       misconceptions,
       explainPrompts,
@@ -407,6 +451,7 @@ export async function getFeedCards(opts: {
         .map((c) => toFeedCard(c, true)),
     ]),
     quizzes,
+    reviewQuizzes,
     guesses,
     misconceptions,
     explainPrompts,

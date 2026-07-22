@@ -36,6 +36,7 @@ export default async function FeedPage() {
       <Feed
         initialCards={feed.cards}
         initialQuizzes={feed.quizzes}
+        initialReviewQuizzes={feed.reviewQuizzes}
         initialGuesses={feed.guesses}
         initialMisconceptions={feed.misconceptions}
         initialExplainPrompts={feed.explainPrompts}
@@ -100,6 +101,7 @@ export default async function FeedPage() {
     <Feed
       initialCards={feed.cards}
       initialQuizzes={feed.quizzes}
+      initialReviewQuizzes={feed.reviewQuizzes}
       initialGuesses={feed.guesses}
       initialMisconceptions={feed.misconceptions}
       initialExplainPrompts={feed.explainPrompts}
