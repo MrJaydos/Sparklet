@@ -32,7 +32,9 @@ export type FeedQuiz = {
 // A due spaced-repetition review, rendered as a question instead of the
 // repeated card — same shape as FeedQuiz; answering it (right or wrong)
 // grades the review via /api/reviews/[id]/answer instead of /api/quiz.
-export type FeedReviewQuiz = FeedQuiz;
+// `sourceCardId` lets the client exclude it from future fetches once shown,
+// same as a plain review card already does by virtue of sitting in `cards`.
+export type FeedReviewQuiz = FeedQuiz & { sourceCardId: string };
 
 // Guess-before-reveal challenge; the answer stays server-side until the
 // user locks in a guess.
@@ -66,7 +68,11 @@ export type FeedExplainPrompt = {
 
 const EXPLAIN_MIN_BODY_WORDS = 30; // trivial one-liners aren't worth explaining back
 
-const REVIEWS_PER_BATCH = 3;
+// Reviews are capped at roughly 1 in 4 cards (never more than 1 review per 3
+// new ones) so a short session doesn't read as "all review cards" — a flat
+// per-batch cap used to dominate small batches regardless of `take`.
+const REVIEW_RATIO = 0.25;
+
 const NEW_USER_VIEW_LIMIT = 50; // interest weighting only shapes early sessions
 
 function shuffle<T>(arr: T[]): T[] {
@@ -76,6 +82,28 @@ function shuffle<T>(arr: T[]): T[] {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+/**
+ * Spreads `items` evenly through `rest` instead of bunching them at the
+ * front — e.g. 2 reviews across 8 new cards land around positions 3 and 6,
+ * not both before the first new card.
+ */
+function interleave<T>(items: T[], rest: T[]): T[] {
+  if (items.length === 0) return rest;
+  const out: T[] = [];
+  const stride = (rest.length + 1) / (items.length + 1);
+  let itemIdx = 0;
+  let nextInsertAt = stride;
+  for (const r of rest) {
+    out.push(r);
+    if (itemIdx < items.length && out.length >= nextInsertAt) {
+      out.push(items[itemIdx++]);
+      nextInsertAt += stride;
+    }
+  }
+  while (itemIdx < items.length) out.push(items[itemIdx++]);
+  return out;
 }
 
 /**
@@ -118,7 +146,8 @@ type CardRow = {
 
 /**
  * Unseen, published cards for a user, shuffled — with due spaced-repetition
- * reviews slotted at the front and recall quizzes returned alongside. When
+ * reviews spread through the batch (capped at roughly 1 in 4 cards, never
+ * bunched at the front) and recall quizzes returned alongside. When
  * the pool is exhausted and `allowRepeats` is set, falls back to previously
  * seen cards (the UI surfaces this honestly rather than repeating silently).
  */
@@ -145,6 +174,7 @@ export async function getFeedCards(opts: {
   const { categorySlugs, allowRepeats, excludeIds } = opts;
   const userId = opts.userId ?? GUEST_SENTINEL;
   const take = opts.take ?? 10;
+  const reviewCap = Math.max(1, Math.floor(take * REVIEW_RATIO));
 
   const categoryFilter = categorySlugs?.length
     ? { category: { slug: { in: categorySlugs } } }
@@ -192,8 +222,10 @@ export async function getFeedCards(opts: {
     _count: { select: { comments: { where: { hiddenAt: null } } } },
   };
 
-  // Due reviews — the retention mechanism. Slotted at the front of the batch.
-  // A card with a quiz is served as a question instead of the repeated card;
+  // Due reviews — the retention mechanism, capped at ~1 in 4 cards (see
+  // REVIEW_RATIO) and spread through the batch rather than front-loaded, so
+  // a short session doesn't read as "all review cards". A card with a quiz
+  // is served as a question instead of the repeated card;
   // cards without one (pre-dates every-card quiz generation) fall back to
   // the plain repeated-card review.
   const dueStates = await prisma.spacedRepetitionState.findMany({
@@ -208,7 +240,7 @@ export async function getFeedCards(opts: {
       },
     },
     orderBy: { nextReviewAt: "asc" },
-    take: REVIEWS_PER_BATCH,
+    take: reviewCap,
     select: {
       card: {
         include: {
@@ -235,13 +267,20 @@ export async function getFeedCards(opts: {
         question: quiz.question,
         options: quiz.options as string[],
         category: card.category,
+        sourceCardId: card.id,
       });
     } else {
       reviewCards.push(toFeedCard(card, true, true));
     }
   }
-  const reviewIds = new Set(reviewCards.map((c) => c.id));
   const reviewQuizIds = new Set(reviewQuizzes.map((q) => q.id));
+  // Cards already spoken for as a review this batch — either the plain
+  // fallback card itself, or the source card behind a review-quiz — must not
+  // also show up in the regular unseen/seen pool below as if unrelated.
+  const dueCardIds = new Set([
+    ...reviewCards.map((c) => c.id),
+    ...reviewQuizzes.map((q) => q.sourceCardId),
+  ]);
 
   // Recall quizzes: fact already seen, quiz not yet attempted. Client mixes
   // ~1 per 5 cards. Sample a wide pool and shuffle — a bare `take` always
@@ -410,13 +449,15 @@ export async function getFeedCards(opts: {
 
   if (unseen.length > 0) {
     return {
-      cards: await withRelated([
-        ...reviewCards,
-        ...compose(unseen)
-          .filter((c) => !reviewIds.has(c.id))
-          .slice(0, newTake)
-          .map((c) => toFeedCard(c, false)),
-      ]),
+      cards: await withRelated(
+        interleave(
+          reviewCards,
+          compose(unseen)
+            .filter((c) => !dueCardIds.has(c.id))
+            .slice(0, newTake)
+            .map((c) => toFeedCard(c, false))
+        )
+      ),
       quizzes,
       reviewQuizzes,
       guesses,
@@ -443,13 +484,15 @@ export async function getFeedCards(opts: {
     include,
   })) as CardRow[];
   return {
-    cards: await withRelated([
-      ...reviewCards,
-      ...compose(seen)
-        .filter((c) => !reviewIds.has(c.id))
-        .slice(0, newTake)
-        .map((c) => toFeedCard(c, true)),
-    ]),
+    cards: await withRelated(
+      interleave(
+        reviewCards,
+        compose(seen)
+          .filter((c) => !dueCardIds.has(c.id))
+          .slice(0, newTake)
+          .map((c) => toFeedCard(c, true))
+      )
+    ),
     quizzes,
     reviewQuizzes,
     guesses,

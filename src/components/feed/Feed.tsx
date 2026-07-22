@@ -189,6 +189,10 @@ export function Feed({
   useEffect(() => {
     cardsRef.current = cards;
   }, [cards]);
+  const reviewQuizzesRef = useRef(reviewQuizzes);
+  useEffect(() => {
+    reviewQuizzesRef.current = reviewQuizzes;
+  }, [reviewQuizzes]);
 
   // Timezone hint for the server: lets the next server render compute the
   // daily XP window in local time instead of guessing UTC.
@@ -260,8 +264,16 @@ export function Feed({
         const params = new URLSearchParams();
         if (slugs.length) params.set("categories", slugs.join(","));
         if (opts?.allowRepeats) params.set("allowRepeats", "1");
-        if (!opts?.reset && cardsRef.current.length) {
-          params.set("exclude", cardsRef.current.map((c) => c.id).join(","));
+        if (!opts?.reset && (cardsRef.current.length || reviewQuizzesRef.current.length)) {
+          // A review-quiz's underlying card lives outside `cards` (it's a
+          // separate FeedItem kind), so it needs its own exclude entry —
+          // otherwise a skipped, unanswered review-quiz can reappear on the
+          // very next batch since its due state never changed.
+          const ids = [
+            ...cardsRef.current.map((c) => c.id),
+            ...reviewQuizzesRef.current.map((r) => r.quiz.sourceCardId),
+          ];
+          params.set("exclude", ids.join(","));
         }
         const res = await fetch(`/api/feed?${params}`);
         if (!res.ok) return;
@@ -274,9 +286,13 @@ export function Feed({
           explainPrompts: FeedExplainPrompt[];
           exhausted: boolean;
         } = await res.json();
-        // This batch's due reviews front-load at the position this batch
-        // starts, i.e. where `cards` currently ends (before appending below).
-        const atIndex = opts?.reset ? 0 : cardsRef.current.length;
+        // This batch's due-review questions spread through the batch rather
+        // than bunching at its start — mirrors the server-side interleave
+        // for plain review cards (src/lib/feed.ts's `interleave`).
+        const batchStart = opts?.reset ? 0 : cardsRef.current.length;
+        const reviewQuizAtIndex = (i: number) =>
+          batchStart +
+          Math.round(((i + 1) * data.cards.length) / (data.reviewQuizzes.length + 1));
         setSaves((prev) => ({
           ...Object.fromEntries(data.cards.map((c) => [c.id, c.saved])),
           ...(opts?.reset ? {} : prev),
@@ -296,7 +312,7 @@ export function Feed({
           const known = new Set(base.map((r) => r.quiz.id));
           const additions = data.reviewQuizzes
             .filter((q) => !known.has(q.id))
-            .map((quiz) => ({ atIndex, quiz }));
+            .map((quiz, i) => ({ atIndex: reviewQuizAtIndex(i), quiz }));
           return [...base, ...additions];
         });
         setGuesses((prev) => {
