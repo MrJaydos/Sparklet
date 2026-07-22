@@ -55,9 +55,10 @@ Respond with JSON only: {"quizzes": [ ... ], "guesses": [ ... ]}`;
 }
 
 async function enrichBatch(
-  cards: { id: string; title: string; body: string; quizCount: number }[]
+  cards: { id: string; title: string; body: string; quizCount: number; guessCount: number }[]
 ): Promise<{ quizzes: number; guesses: number }> {
   const needQuiz = cards.map((c) => c.quizCount === 0);
+  const needGuess = cards.map((c) => c.guessCount === 0);
   const { text } = await generateJSON(buildPrompt(cards, needQuiz));
   const raw = JSON.parse(text) as { quizzes?: unknown[]; guesses?: unknown[] };
 
@@ -85,7 +86,10 @@ async function enrichBatch(
     const parsed = guessSchema.safeParse(item);
     if (!parsed.success) continue;
     const card = cards[parsed.data.cardIndex];
-    if (!card) continue;
+    // A card revisited solely for a missing quiz (see the widened selection
+    // in main()) may already have a guess from its first enrichment pass —
+    // don't duplicate it.
+    if (!card || !needGuess[parsed.data.cardIndex]) continue;
     await prisma.guessCard.create({
       data: {
         cardId: card.id,
@@ -109,10 +113,23 @@ async function main() {
   }
 
   const cards = await prisma.card.findMany({
-    where: { published: true, enrichedAt: null, depthLevel: "STANDARD" },
+    where: {
+      published: true,
+      depthLevel: "STANDARD",
+      // Never-examined cards, PLUS a backfill for cards examined before every
+      // card required a quiz (due spaced-repetition reviews now render as a
+      // question — see src/lib/feed.ts's reviewQuizzes) but came up empty —
+      // e.g. an older generation run, or a model pass that just skipped one.
+      OR: [{ enrichedAt: null }, { quizCards: { none: {} } }],
+    },
     orderBy: { createdAt: "desc" },
     take: MAX_CARDS_PER_RUN,
-    select: { id: true, title: true, body: true, _count: { select: { quizCards: true } } },
+    select: {
+      id: true,
+      title: true,
+      body: true,
+      _count: { select: { quizCards: true, guessCards: true } },
+    },
   });
   if (cards.length === 0) {
     console.log("Card enrichment: nothing to do.");
@@ -124,9 +141,13 @@ async function main() {
   let guesses = 0;
   let failures = 0;
   for (let i = 0; i < cards.length; i += BATCH_SIZE) {
-    const batch = cards
-      .slice(i, i + BATCH_SIZE)
-      .map((c) => ({ id: c.id, title: c.title, body: c.body, quizCount: c._count.quizCards }));
+    const batch = cards.slice(i, i + BATCH_SIZE).map((c) => ({
+      id: c.id,
+      title: c.title,
+      body: c.body,
+      quizCount: c._count.quizCards,
+      guessCount: c._count.guessCards,
+    }));
     try {
       const result = await enrichBatch(batch);
       quizzes += result.quizzes;
