@@ -72,8 +72,8 @@ export function StreakBadge({
 
                 <p className="mt-1 text-sm text-neutral-400">
                   {streak > 0
-                    ? `You're on a ${streak}-day streak. Read at least one card a day to keep it going.`
-                    : "Read at least one card today to start a streak."}
+                    ? `You're on a ${streak}-day streak. Complete 10 cards/quizzes a day to keep it going.`
+                    : "Complete 10 cards/quizzes today to start a streak."}
                 </p>
 
                 <ul className="mt-4 space-y-2 text-sm text-neutral-300">

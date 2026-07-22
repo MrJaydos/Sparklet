@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
-import { updateStreakOnActivity } from "@/lib/streak";
 import { enterReviewSchedule, recordReview, isLongDwell } from "@/lib/sm2";
 import { awardXp, getXpToday, isReadXpRateLimited, DAILY_GOAL_XP } from "@/lib/xp";
 
@@ -83,16 +82,15 @@ export async function POST(req: NextRequest) {
   // XP: first real read of a card earns 1, recalling a due review earns 5.
   // Instant swipe-pasts, follow-up posts on an already-read card, and reads
   // beyond the per-minute rate cap award nothing (the card still counts as
-  // learned — only the XP is withheld).
+  // learned — only the XP is withheld). Only a real award can advance the
+  // streak (see STREAK_MIN_CARDS in xp.ts) — awardXp reports it via xp.streak
+  // once today's completions cross the threshold.
   const xp = reviewRecalled
     ? await awardXp(userId, 5, "review", tz)
     : read && !existing?.completed && !(await isReadXpRateLimited(userId))
       ? await awardXp(userId, 1, "read", tz)
       : { awarded: 0, today: await getXpToday(userId, tz), total: 0, goal: DAILY_GOAL_XP };
 
-  // Streaks follow the same rule: flipping past cards isn't activity.
-  const streak = read
-    ? await updateStreakOnActivity(userId, tz)
-    : undefined;
+  const streak = xp.streak;
   return NextResponse.json({ ok: true, streak, xp, read });
 }

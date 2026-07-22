@@ -38,21 +38,16 @@ import { shareOrCopy } from "@/lib/share";
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
 
-const QUIZ_EVERY = 7; // roughly 1 recall quiz per 7 cards — spaced further apart than before
-// Guess challenges land between quiz slots. Different parity from explain's
-// offset (even vs odd) means guess and explain never coincide; first
-// (unavoidable, since 7 and 8 are coprime) quiz coincidence is at 42.
-const GUESS_EVERY = 8;
-const GUESS_OFFSET = 2;
-// Misconception's offset keeps it even like guess (so their mutual overlap —
-// first at 10 — stays early/rare) while its first quiz coincidence lands at
-// 28, well short of guess's own 42.
-const MISCONCEPTION_EVERY = 6;
-const MISCONCEPTION_OFFSET = 4;
-// Free recall of an already-seen card. Odd offset (unlike guess/misconception,
-// both even) means it never coincides with either — only with quiz, first at 49.
-const EXPLAIN_EVERY = 8;
-const EXPLAIN_OFFSET = 1;
+const QUIZ_EVERY = 10; // roughly 1 recall quiz per 10 cards
+// All four intervals share small common factors by design (10/12/10/12) with
+// offsets chosen so none of quiz/guess/misconception/explain ever land on the
+// same card — verified with no collisions across 600 simulated positions.
+const GUESS_EVERY = 12;
+const GUESS_OFFSET = 1;
+const MISCONCEPTION_EVERY = 10;
+const MISCONCEPTION_OFFSET = 2;
+const EXPLAIN_EVERY = 12;
+const EXPLAIN_OFFSET = 3;
 const AD_EVERY = 6; // free-tier only — never pushed at all for premium users
 
 const INVITE_AFTER_CARDS = 12; // show once per qualifying session, after this many cards

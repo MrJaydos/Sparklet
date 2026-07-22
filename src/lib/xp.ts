@@ -1,4 +1,5 @@
 import { prisma } from "@/lib/db";
+import { updateStreakOnActivity } from "@/lib/streak";
 
 /**
  * XP: small, immediate rewards for learning actions, summed into a daily
@@ -26,6 +27,9 @@ export type XpSummary = {
   today: number; // total XP earned in the user's local day
   total: number; // lifetime XP
   goal: number;
+  // Present only on the action that pushes the day's completions past
+  // STREAK_MIN_CARDS — the streak actually (idempotently) advanced.
+  streak?: { currentStreak: number; longestStreak: number; freezesUsed: number; freezesAvailable: number };
 };
 
 /** UTC instant where the user's local calendar day started (streak.ts convention). */
@@ -55,6 +59,21 @@ export async function getCardsToday(userId: string, tzOffsetMinutes: number): Pr
   return prisma.xpEvent.count({
     where: { userId, createdAt: { gte: localDayStart(tzOffsetMinutes) } },
   });
+}
+
+// A day only "counts" toward the streak once this many things are done —
+// a single card used to be enough, which made the streak trivial to keep.
+// Fixed on purpose: not tied to the user's own (down-to-1) daily card goal.
+export const STREAK_MIN_CARDS = 10;
+
+/** Called after every XP award: advances the streak once today's completions
+ * cross STREAK_MIN_CARDS. No-ops below the threshold, and — via
+ * updateStreakOnActivity's own per-day idempotency — for the rest of the day
+ * after it's crossed, so it's cheap and safe to call unconditionally. */
+async function maybeAdvanceStreak(userId: string, tzOffsetMinutes: number) {
+  const cardsToday = await getCardsToday(userId, tzOffsetMinutes);
+  if (cardsToday < STREAK_MIN_CARDS) return undefined;
+  return updateStreakOnActivity(userId, tzOffsetMinutes);
 }
 
 // Ceiling on read-XP awards per rolling minute. A real reader tops out
@@ -99,7 +118,10 @@ export async function awardXp(
       : Promise.resolve(null),
   ]);
   const today = await getXpToday(userId, tzOffsetMinutes);
-  return { awarded: rounded, today, total: user.xp, goal: DAILY_GOAL_XP };
+  // Only a real completion (an XpEvent was actually written) can push the
+  // day's count past the threshold.
+  const streak = rounded > 0 ? await maybeAdvanceStreak(userId, tzOffsetMinutes) : undefined;
+  return { awarded: rounded, today, total: user.xp, goal: DAILY_GOAL_XP, streak };
 }
 
 /**

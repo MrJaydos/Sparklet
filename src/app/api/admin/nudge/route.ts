@@ -108,8 +108,8 @@ export async function POST(req: NextRequest) {
     let sent = 0;
     for (const u of subscribed) {
       sent += await pushToUser(u.id, {
-        title: "🔔 Test from Sparklet",
-        body: "Push delivery works — reminders will arrive like this.",
+        title: "🔔 Test push",
+        body: "If you see this, delivery works.",
         url: "/feed",
       });
     }
@@ -157,17 +157,17 @@ export async function POST(req: NextRequest) {
     let payload: PushPayload;
     if (streakAtRisk) {
       payload = {
-        title: `🔥 Your ${user.currentStreak}-day streak is on the line`,
+        title: `🔥 ${user.currentStreak}-day streak on the line`,
         body:
           dueReviews > 0
-            ? `One card keeps it alive — and ${dueReviews} review${dueReviews === 1 ? " is" : "s are"} ready.`
-            : "One card before midnight keeps it alive.",
+            ? `${dueReviews} review${dueReviews === 1 ? "" : "s"} due — fastest way to save it.`
+            : "10 cards before midnight, or it's toast.",
         url: "/feed",
       };
     } else if (dueReviews > 0) {
       payload = {
         title: `🔁 ${dueReviews} card${dueReviews === 1 ? "" : "s"} ready for review`,
-        body: "A quick recall now locks them into memory.",
+        body: "A quick recall locks them in.",
         url: "/feed",
       };
     } else {
