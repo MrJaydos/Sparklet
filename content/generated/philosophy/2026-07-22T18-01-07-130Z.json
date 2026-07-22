@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-07-22T18:01:07.130Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the meaning of words isn't just inside your head",
+      "body": "Imagine a planet called Twin Earth, identical to ours in every way, except its clear liquid in rivers is chemical XYZ rather than H2O. When an Earthling says 'water,' they mean H2O. When a Twin-Earthling says 'water,' they mean XYZ, even if both people have identical brain states. Philosopher Hilary Putnam used this thought experiment to prove that word meanings depend on external reality, not just mental ideas.",
+      "imageWikipediaTitle": "Hilary Putnam",
+      "sources": [
+        {
+          "title": "Twin Earth thought experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Twin_Earth_thought_experiment",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a mathematically perfect democratic voting system is impossible",
+      "body": "When a group chooses between three or more ranked options, no voting system can translate individual choices into a single fair outcome without violating basic rules of fairness. Economist Kenneth Arrow mathematically proved in 1951 that every ranked voting method must either allow a dictator to decide, yield circular stalemates, or distort voter preferences. Perfect democracy is a mathematical impossibility when picking among three or more candidates.",
+      "imageWikipediaTitle": "Kenneth Arrow",
+      "sources": [
+        {
+          "title": "Arrow's impossibility theorem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The legal surprise that logically shouldn't be a surprise",
+      "body": "A judge tells a prisoner he will be executed on a weekday next week, but the exact day will be a surprise. The prisoner reasons he cannot be hanged on Friday, because if he reaches Thursday evening, it wouldn't be a surprise. Eliminating Friday, he applies the same logic to Thursday, Wednesday, Tuesday, and Monday. Convinced execution is impossible, he is utterly shocked when the executioner knocks on Wednesday morning.",
+      "imageWikipediaTitle": "Unexpected hanging paradox",
+      "sources": [
+        {
+          "title": "Unexpected hanging paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unexpected_hanging_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Unexpected_hanging_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The coin flip experiment that splits probability experts in two",
+      "body": "Sleeping Beauty is put to sleep on Sunday. A fair coin is flipped. If heads, she is woken on Monday. If tails, she is woken on Monday and Tuesday, with her memory wiped between awakenings. When she wakes up, what should her belief be that the coin landed heads? Half of probability experts argue it is 1/2, while the other half insist it is 1/3, revealing a deep clash in self-locating belief.",
+      "imageWikipediaTitle": "Sleeping Beauty problem",
+      "sources": [
+        {
+          "title": "Sleeping Beauty problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleeping_Beauty_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sleeping_Beauty_problem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The two-second gesture that challenged radical skepticism",
+      "body": "How do you prove the physical world actually exists and isn't a dream? Philosopher G.E. Moore offered a famous answer in 1939. He raised his right hand and said, 'Here is one hand,' then raised his left and said, 'and here is another.' Moore argued that our everyday perception of physical objects is vastly more reliable and certain than any abstract philosophical premise claiming the external world is an illusion.",
+      "imageWikipediaTitle": "G. E. Moore",
+      "sources": [
+        {
+          "title": "Here is one hand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Here_is_one_hand"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Here_is_one_hand",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your private feelings cannot be named by language alone",
+      "body": "Imagine everyone has a box containing a 'beetle,' but nobody can ever look inside anyone else's box. People only know what a beetle is by looking at their own. Ludwig Wittgenstein argued that if the word 'beetle' is used in conversation, it cannot refer to the private contents of the boxes, because those contents might differ or not exist. Language works through public, shared rules, not private internal experiences.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Private language argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Private_language_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Private_language_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How simple probability predicts humanity's remaining lifespan",
+      "body": "Demographers estimate that roughly 117 billion humans have lived throughout history. Assuming you are a typical human placed at a random position in human history, standard statistical sampling suggests that total human history will likely cap out around 200 billion people. If population growth continues, the Doomsday Argument warns that humanity has a surprisingly high probability of facing extinction or catastrophe within the next few centuries.",
+      "imageWikipediaTitle": "Doomsday argument",
+      "sources": [
+        {
+          "title": "Doomsday argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doomsday_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Doomsday_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why every absolute truth proof eventually breaks down",
+      "body": "Whenever you attempt to prove a truth claim, you must justify your premise. But that justification requires its own premise, creating a fundamental problem known as the Münchhausen Trilemma. Philosophers show that every proof ends in one of three traps: an infinite loop of explanations, a circular argument that assumes what it tries to prove, or stopping arbitrarily at an unproven assumption. Pure absolute proof is impossible.",
+      "imageWikipediaTitle": "Münchhausen trilemma",
+      "sources": [
+        {
+          "title": "Münchhausen trilemma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/M%C3%BCnchhausen_trilemma",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient lawsuit that neither side could logically win",
+      "body": "In ancient Greece, Protagoras taught law to Euathlus on credit, agreeing payment was due after Euathlus won his first court case. Upon graduating, Euathlus never took a case, so Protagoras sued him for tuition. Protagoras argued: if he won, Euathlus paid by court order; if Euathlus won, he paid by contract. Euathlus countered: if he won, he owed nothing by court order; if he lost, he owed nothing by contract.",
+      "imageWikipediaTitle": "Protagoras",
+      "sources": [
+        {
+          "title": "Paradox of the Court",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_the_Court"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paradox_of_the_Court",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why rewatching your favorite thriller still makes your heart race",
+      "body": "You have seen Titanic three times and know the ship sinks, yet you still feel genuine anxiety as it nears the iceberg. Philosophers call this the Paradox of Suspense. Suspense typically requires uncertainty about an outcome, yet repeated viewings retain emotional power. Scholars argue that human emotions respond to fictional narratives in real time, briefly overriding intellectual knowledge during immersive storytelling.",
+      "imageWikipediaTitle": "Paradox of suspense",
+      "sources": [
+        {
+          "title": "Paradox of suspense",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_suspense"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paradox_of_suspense",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Hilary Putnam's Twin Earth thought experiment, why do 'water' on Earth and 'water' on Twin Earth have different meanings?",
+      "options": [
+        "Because the physical environment on Twin Earth contains chemical XYZ instead of H2O",
+        "Because language rules are voted on by citizens every decade",
+        "Because Twin Earthlings have completely different brain structures from Earthlings",
+        "Because words lose all meaning when traveling between solar systems"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meaning depends on external physical reality, so 'water' refers to H2O on Earth but chemical XYZ on Twin Earth."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In the Sleeping Beauty problem, what causes philosophers to debate her probability assessment upon waking?",
+      "options": [
+        "Her memory is wiped between awakenings on a tails outcome",
+        "She is asked to guess the weather on Sunday",
+        "The coin is intentionally biased toward heads",
+        "She is kept awake for three days straight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because her memory is erased after a tails awakening, she cannot tell which day or awakening she is experiencing."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What is Ludwig Wittgenstein's main point with the 'Beetle in a Box' analogy?",
+      "options": [
+        "Language gets its meaning from public, shared rules rather than private inner experiences",
+        "Insects are necessary for understanding human consciousness",
+        "Everyone's internal experiences are proven to be identical",
+        "Private thoughts can be directly read by observing physical gestures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since nobody can see into another's box, language must rely on public rules rather than inaccessible private states."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Which of the following is ONE of the three flawed options in the Münchhausen Trilemma?",
+      "options": [
+        "An infinite regress where every premise requires another premise",
+        "A mathematical equation that yields zero",
+        "A consensus vote among accredited scientists",
+        "A translation error between different languages"
+      ],
+      "correctIndex": 0,
+      "explanation": "The trilemma states all proofs fail via infinite regress, circular logic, or arbitrary unproven assumptions."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Why is feeling suspense during a movie you've already seen considered a philosophical paradox?",
+      "options": [
+        "Suspense normally requires uncertainty about the outcome, which you already know",
+        "Movies are recorded on physical film that cannot change",
+        "Actors are performing scripts rather than improvising",
+        "Audience members are not allowed to speak during a film"
+      ],
+      "correctIndex": 0,
+      "explanation": "Suspense usually relies on not knowing what happens next, yet viewers feel suspense even when the ending is known."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What is the minimum number of candidates or options in an election needed for Arrow's Theorem to prove a perfect voting system is impossible?",
+      "answer": 3,
+      "min": 1,
+      "max": 10,
+      "unit": "",
+      "explanation": "With 2 options, majority rule works simply. But with 3 or more options, no ranked voting system can satisfy all basic fairness rules."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "According to demographic estimates used in the Doomsday Argument, roughly how many billion humans have lived so far in history?",
+      "answer": 117,
+      "min": 10,
+      "max": 500,
+      "unit": "billion",
+      "explanation": "Roughly 117 billion humans have lived so far, placing us at a statistical midpoint if humanity's total lifetime count reaches ~200 billion."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The meaning of a word is determined entirely by what exists inside a speaker's mental thoughts.",
+      "answer": false,
+      "explanation": "Putnam's Twin Earth experiment showed that word meanings depend on external environment and physical facts, not just mental states."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A mathematically flawless democratic voting system exists for elections with three or more candidates.",
+      "answer": false,
+      "explanation": "Arrow's Impossibility Theorem proved mathematically that no ranked voting system can satisfy all standard fairness criteria for 3+ choices."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Philosopher G.E. Moore attempted to refute radical skepticism simply by raising his hands.",
+      "answer": true,
+      "explanation": "In his famous 1939 paper, Moore held up his hands to argue that direct physical perception is more reliable than abstract skeptical doubts."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Every logical statement can be definitively proven true without relying on any unproven assumptions.",
+      "answer": false,
+      "explanation": "The Münchhausen Trilemma proves that all attempts at ultimate justification end in infinite regress, circular logic, or unproven assumptions."
+    }
+  ]
+}

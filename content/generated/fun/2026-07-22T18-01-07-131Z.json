@@ -1,0 +1,270 @@
+{
+  "generatedAt": "2026-07-22T18:01:07.131Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This Alaskan frog freezes solid every winter and wakes up in spring",
+      "body": "During the harsh winter, the Alaskan wood frog does something that would kill almost any other land vertebrate: it freezes solid. Up to two-thirds of its body water turns to ice, its heart stops beating, and its breathing completely ceases. High concentrations of glucose and urea act as a natural antifreeze inside its cells, protecting them from damage until spring thaws the frog back to life.",
+      "imageWikipediaTitle": "Lithobates sylvaticus",
+      "sources": [
+        {
+          "title": "Lithobates sylvaticus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lithobates_sylvaticus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lithobates_sylvaticus",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horn sharks lay spiral corkscrew eggs that screw into rock crevices",
+      "body": "Unlike many sea creatures that spawn thousands of floating eggs, female horn sharks lay leather-like, dark brown egg cases shaped like spirals. To keep predators like snails and sea urchins from eating her unborn pup, the mother shark picks up the freshly laid egg in her mouth and wedges it firmly into a rocky crevice. The corkscrew ridges anchor the egg securely against rough ocean currents.",
+      "imageWikipediaTitle": "Horn shark",
+      "sources": [
+        {
+          "title": "Horn shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horn_shark"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Horn_shark",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ostriches don't actually bury their heads in the sand",
+      "body": "The famous myth that ostriches bury their heads in the sand to hide from danger is completely false. When threatened, ostriches actually flop to the ground and lay their long necks flat against the dirt to blend into the landscape. From a distance, their light-colored heads blend into the sand, creating an optical illusion. Ostriches also dig shallow pits with their beaks to turn their buried eggs, further fueling the myth.",
+      "imageWikipediaTitle": "Common ostrich",
+      "sources": [
+        {
+          "title": "Common ostrich",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_ostrich"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Common_ostrich",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frogs throw up their entire stomach to clean off bad food",
+      "body": "When a frog swallows something toxic, sharp, or unpalatable, it cannot simply throw up like a human. Instead, it performs a process called stomach eversion: it regurgitates its entire stomach out of its mouth. Hanging outside its body, the frog uses its right front foot to wipe away any leftover bad food or debris. Once clean, the frog swallows its own stomach back into place, undamaged.",
+      "imageWikipediaTitle": "Frog",
+      "sources": [
+        {
+          "title": "Frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frog"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Frog",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horned lizards squirt blood from their eyes to scare predators",
+      "body": "When cornered by canine predators like coyotes or foxes, the short-horned lizard deploys a bizarre defense mechanism: autohemorrhaging. By restricting blood flow leaving its head, the lizard dramatically increases blood pressure in its eye sockets until tiny blood vessels burst. It can squirt a foul-tasting stream of blood from the corners of its eyes up to four feet away, thoroughly repelling predators without causing permanent damage to itself.",
+      "imageWikipediaTitle": "Horned lizard",
+      "sources": [
+        {
+          "title": "Horned lizard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horned_lizard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Horned_lizard",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Both male and female flamingos produce bright red milk for their chicks",
+      "body": "Mammals are not the only animals that feed their young milk. Flamingos—along with pigeons and emperor penguins—produce a nutrient-rich substance called crop milk in their digestive tracts. Because flamingos consume high amounts of carotenoid pigments in their diet, their milk is bright pink or red. Both male and female adult flamingos secrete this liquid to feed their newly hatched chicks before the chicks can filter-feed on their own.",
+      "imageWikipediaTitle": "Crop milk",
+      "sources": [
+        {
+          "title": "Crop milk",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crop_milk"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Crop_milk",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Honeybees can learn to do basic addition and subtraction",
+      "body": "Despite possessing a brain with fewer than one million neurons, honeybees can learn basic arithmetic. In lab experiments, researchers trained bees using color-coded mazes: blue shapes signaled that bees needed to add one item, while yellow shapes meant subtract one item. By choosing the correct visual option, bees consistently solved basic math problems to receive a sweet reward, proving that complex numerical reasoning does not require a large vertebrate brain.",
+      "imageWikipediaTitle": "Honey bee",
+      "sources": [
+        {
+          "title": "Bee learning and communication",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bee_learning_and_communication"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bee_learning_and_communication",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This parasitic barnacle turns male crabs into attentive mothers",
+      "body": "The parasitic barnacle Sacculina carcini invades a host crab and spreads root-like tentacles throughout its body. It chemically castrates the host and halts its growth. If the victim is a male crab, Sacculina alters his hormonal balance, causing his abdomen to widen into a female shape. The parasite then attaches its own egg sac where the crab's brood would normally sit, driving the male crab to care for and protect the parasite's eggs.",
+      "imageWikipediaTitle": "Sacculina",
+      "sources": [
+        {
+          "title": "Sacculina",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sacculina"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sacculina",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Manatees regulate their ocean depth using intestinal gas",
+      "body": "Manatees rely on a uniquely buoyant dietary side effect to navigate underwater: flatulence. Because these gentle sea giants consume large quantities of high-fiber seagrass, their digestive tracts generate immense volumes of methane gas. Manatees store or release this gas through specialized muscular valves to control their buoyancy. When constipated, manatees struggle to submerge properly, floating awkwardly near the surface until their digestion clears.",
+      "imageWikipediaTitle": "Manatee",
+      "sources": [
+        {
+          "title": "Manatee",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manatee"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Manatee",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cows have best friends and get stressed when separated",
+      "body": "Dairy cows are surprisingly social animals with distinct emotional lives. Research from the University of Northampton revealed that cattle form close friendships within their herds, consistently choosing to graze and rest alongside a preferred companion. When separated from their best friend, cows exhibit clear signs of stress, including elevated heart rates and increased cortisol levels. When reunited, their heart rates drop rapidly back to normal levels.",
+      "imageWikipediaTitle": "Cattle",
+      "sources": [
+        {
+          "title": "Cattle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cattle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cattle",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 1,
+      "question": "Why do female horn sharks lay spiral corkscrew-shaped eggs?",
+      "options": [
+        "To help the egg drift faster in ocean currents",
+        "To let the mother screw them into rocky crevices for protection",
+        "To store extra nutrients for the growing shark pup",
+        "To blend in with spiral sea snail shells"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horn shark mothers pick up freshly laid eggs in their mouths and wedge them into rocks so predators cannot easily reach them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What are ostriches actually doing when they appear to have their heads in the ground?",
+      "options": [
+        "Burying their heads to hide from predators",
+        "Laying their necks flat on the ground or turning buried eggs",
+        "Sleeping while keeping their ears alert for danger",
+        "Searching for underground water sources in the dry soil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ostriches drop flat to blend into the terrain or dip their heads into shallow pits to turn their eggs."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does a frog clean its stomach during stomach eversion?",
+      "options": [
+        "By scraping it against underwater rocks",
+        "By using its right front paw to wipe it clean",
+        "By rinsing it with gulped ocean water",
+        "By letting sunlight destroy the toxins"
+      ],
+      "correctIndex": 1,
+      "explanation": "After throwing up its entire stomach, a frog wipes away toxic food using its right front leg before swallowing its stomach back down."
+    },
+    {
+      "cardIndex": 6,
+      "question": "In visual maze experiments, how did researchers signal to honeybees whether to add or subtract?",
+      "options": [
+        "By varying the pitch of buzzing background sounds",
+        "By using different colors for addition and subtraction shapes",
+        "By changing the physical size of the maze doors",
+        "By altering the scent of the sweet liquid reward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Honeybees were trained to add when seeing blue shapes and subtract when seeing yellow shapes, successfully solving math puzzles."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What happens to a manatee when it becomes constipated?",
+      "options": [
+        "It sinks uncontrollably to the ocean floor",
+        "It struggles to submerge and floats near the surface",
+        "Its skin turns a bright greyish-blue",
+        "It stops swimming and enters hibernation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manatees use digestive gas to control their buoyancy, so trapped intestinal gas leaves them floating awkwardly at the surface."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of an Alaskan wood frog's body water can freeze solid during winter without killing it?",
+      "answer": 65,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Up to two-thirds (~65%) of a wood frog's body water turns to solid ice while its heart and breathing stop completely."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How far (in feet) can a short-horned lizard shoot a defensive stream of blood from its eyes?",
+      "answer": 4,
+      "min": 1,
+      "max": 15,
+      "unit": "feet",
+      "explanation": "Horned lizards deliberately rupture blood vessels in their eye sockets to squirt blood up to 4 feet away at predators."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A vertebrate animal's heart will permanently stop if its body freezes solid.",
+      "answer": false,
+      "explanation": "Alaskan wood frogs survive with completely stopped hearts and frozen bodies for months, thawing safely in spring."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Ostriches bury their heads in the sand when they feel threatened by predators.",
+      "answer": false,
+      "explanation": "Ostriches lay their necks flat on the ground to camouflage or dip down to turn eggs, creating an optical illusion from afar."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "Only female animals are capable of producing milk to feed their young.",
+      "answer": false,
+      "explanation": "Both male and female flamingos, pigeons, and emperor penguins produce nutrient-dense crop milk for their hatchlings."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "A male crab infected by Sacculina will attack and destroy the parasite's eggs.",
+      "answer": false,
+      "explanation": "Sacculina alters the male crab's hormones, prompting him to protect and care for the parasite's egg sac like a mother crab."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Cows form preferred individual friendships and experience measurable stress when separated from them.",
+      "answer": true,
+      "explanation": "Research shows cattle have preferred companions, experiencing higher heart rates and cortisol levels when isolated from their best friends."
+    }
+  ]
+}
