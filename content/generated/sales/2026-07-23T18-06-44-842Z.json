@@ -1,0 +1,315 @@
+{
+  "generatedAt": "2026-07-23T18:06:44.842Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask your prospect for a small favor to win their trust",
+      "body": "If you want a potential client to like and trust you, don't start by doing something nice for them. Instead, ask them for a small, effortless favor, like offering feedback on a single slide. Known as the Ben Franklin effect, human brains resolve the cognitive dissonance of helping a stranger by concluding, \"I helped them, so I must like them.\"",
+      "imageWikipediaTitle": "Benjamin Franklin",
+      "sources": [
+        {
+          "title": "Ben Franklin effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ben_Franklin_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ben_Franklin_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Let clients customize a product to boost perceived value",
+      "body": "When customers invest effort into building or customizing a product, they value it significantly more than an identical off-the-shelf item. Research shows buyers are willing to pay up to 63% more for items they helped assemble or design. In sales pitches, invite prospects to co-create solution features rather than presenting a pre-packaged plan.",
+      "imageWikipediaTitle": "IKEA",
+      "sources": [
+        {
+          "title": "IKEA effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IKEA_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/IKEA_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Put your strongest selling points first and last",
+      "body": "During a sales pitch, people recall information at the beginning and the end of a presentation far better than details in the middle. The primacy effect keeps early statements top-of-mind, while the recency effect ensures the closing arguments linger. Structure your pitch so your strongest value propositions frame the conversation, while routine details stay in the center.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Serial-position effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Serial-position_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Serial-position_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gentle visibility builds trust faster than aggressive pitching",
+      "body": "The mere-exposure effect shows that people develop a natural preference for things simply because they are familiar with them. In sales, consistent, non-intrusive contact—such as sharing useful articles or commenting on updates—builds familiarity over time. When buyers are ready to purchase, they naturally prefer the rep whose name and brand feel safest and most familiar.",
+      "imageWikipediaTitle": "Psychology",
+      "sources": [
+        {
+          "title": "Mere-exposure effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mere-exposure_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mere-exposure_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Getting prospects to touch a product sparks instant ownership",
+      "body": "Before a prospect buys, physical or interactive contact can create a psychological feeling of ownership. Holding a physical item, test-driving a car, or using an interactive prototype triggers psychological ownership within 30 seconds. Once buyers feel an item is already theirs, refusing the purchase feels like losing a personal possession, making them far more likely to buy.",
+      "imageWikipediaTitle": "Touch",
+      "sources": [
+        {
+          "title": "Psychological ownership",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_ownership"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Psychological_ownership",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cash rewards can accidentally kill your best brand advocates",
+      "body": "Offering cash bonuses to loyal customers for referring friends can backfire. The overjustification effect occurs when an external reward replaces a person's intrinsic motivation. When loyal fans are paid for referrals, they begin viewing the act as work rather than genuine advocacy, leading to fewer authentic recommendations overall. Non-monetary perks or public recognition often work far better.",
+      "imageWikipediaTitle": "Motivation",
+      "sources": [
+        {
+          "title": "Overjustification effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Overjustification_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Overjustification_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Separating base price and shipping reduces initial friction",
+      "body": "Partitioned pricing divides a product's total cost into a base price and separate mandatory components, like shipping or service fees. When buyers initially browse, they evaluate the base price first, lowering psychological resistance. While hidden fees cause cart abandonment, clearly displaying partitioned costs early makes the overall purchase feel lower than a single, lump-sum figure.",
+      "imageWikipediaTitle": "Pricing",
+      "sources": [
+        {
+          "title": "Partitioned pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Partitioned_pricing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Partitioned_pricing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Adding mediocre extras to a pitch can lower perceived value",
+      "body": "Adding minor bonus items to a premium sales package can actually reduce its perceived overall value. Known as the less-is-better effect, people average the quality of a bundle rather than adding it up. A luxury watch offered alone is often rated higher than the exact same watch bundled with a cheap keychain. Keep sales offers focused on high-value items.",
+      "imageWikipediaTitle": "Luxury good",
+      "sources": [
+        {
+          "title": "Less-is-better effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Less-is-better_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Less-is-better_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single polished feature can elevate your whole pitch",
+      "body": "The halo effect occurs when a positive impression in one domain biases judgment in other unrelated areas. In sales, having an exceptionally sleek user interface or flawless presentation slide deck leads prospects to assume your backend code, customer support, and reliability are equally high quality. Lead with your strongest, cleanest asset to cast a favorable glow across your entire offering.",
+      "imageWikipediaTitle": "Halo effect",
+      "sources": [
+        {
+          "title": "Halo effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halo_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Halo_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frame immediate benefits to close deals faster",
+      "body": "Humans consistently value immediate rewards far more than larger benefits promised in the distant future—a tendency known as hyperbolic discounting. When closing a sale, highlighting what the buyer gains today (such as instant software access or immediate setup) triggers a much stronger buying urge than promising long-term cost savings three years down the line.",
+      "imageWikipediaTitle": "Time preference",
+      "sources": [
+        {
+          "title": "Hyperbolic discounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyperbolic_discounting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hyperbolic_discounting",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to the Ben Franklin effect, how can you increase a prospect's liking toward you?",
+      "options": [
+        "Do a large financial favor for them",
+        "Ask them to do a small, easy favor for you",
+        "Offer them an aggressive initial price discount",
+        "Praise their achievements repeatedly in conversation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ben Franklin effect shows that when someone does a small favor for you, their brain rationalizes the action by concluding they must like you."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the core principle behind the IKEA effect in consumer behavior?",
+      "options": [
+        "Buyers prefer items shipped flat-pack to save costs",
+        "Customers value products significantly more when they invest effort into building or customizing them",
+        "Lower base prices always result in higher total sales volume",
+        "Clear instruction manuals eliminate customer returns"
+      ],
+      "correctIndex": 1,
+      "explanation": "The IKEA effect describes how consumers place disproportionately higher value on products they helped assemble or create."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where should you position your strongest arguments during a presentation according to the serial-position effect?",
+      "options": [
+        "In the exact middle of the deck",
+        "Spread evenly across every single slide",
+        "At the very beginning and the very end",
+        "Exclusively in the appendix"
+      ],
+      "correctIndex": 2,
+      "explanation": "The serial-position effect shows that human memory retains the first (primacy) and last (recency) items in a presentation best."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the mere-exposure effect influence prospective buyers?",
+      "options": [
+        "People develop a preference for brands simply because they are familiar with them",
+        "High-pressure selling forces faster closing rates",
+        "Unfamiliar brand names are automatically perceived as higher quality",
+        "Discounting prices triggers immediate buying reflexes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repeated, non-intrusive exposure creates familiarity, which the brain interprets as safety, comfort, and trust."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does inviting a prospect to handle a product or demo increase sales compliance?",
+      "options": [
+        "It distracts them from asking about price points",
+        "It sparks rapid psychological ownership, making walking away feel like losing a possession",
+        "It forces them to evaluate the product's physical weight",
+        "It shortens the overall duration of the meeting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Physical or interactive handling generates psychological ownership in seconds, framing non-purchase as giving up something already owned."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What risk does the overjustification effect reveal when offering cash bonuses for referrals?",
+      "options": [
+        "It increases transaction fees for payment processing",
+        "It can replace intrinsic brand enthusiasm with a transactional mindset, reducing authentic advocacy",
+        "It forces competitors to double their referral payouts",
+        "It lowers the manufacturing quality of the core product"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paying cash for natural advocacy shifts the customer's internal motivation from genuine enthusiasm to a commercial transaction."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why is partitioned pricing effective during customer evaluation?",
+      "options": [
+        "It conceals overall taxes from final receipts",
+        "Buyers anchor on the lower base price initially, reducing upfront evaluation friction",
+        "It prevents competitors from seeing your real price",
+        "It automatically lowers shipping overhead costs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Partitioned pricing works because consumers initially focus on the lower base cost during initial product scanning."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How does the less-is-better effect impact product bundles?",
+      "options": [
+        "Adding more items always increases total perceived value",
+        "Adding low-value extras lowers the average perceived quality of the entire offer",
+        "Customers prefer paying for every item individually",
+        "Smaller packages are always priced higher than larger ones"
+      ],
+      "correctIndex": 1,
+      "explanation": "People mentally average the quality of items in a bundle, so cheap extras drag down the perceived worth of a premium core item."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How does the halo effect manifest in a sales pitch?",
+      "options": [
+        "Buyers evaluate every product feature completely independently",
+        "A single outstanding impression leads prospects to view unrelated product attributes positively",
+        "Discounting one tier lowers prices across all tiers",
+        "Bright presentation rooms increase customer purchase intent"
+      ],
+      "correctIndex": 1,
+      "explanation": "The halo effect causes people to generalize a single positive trait (like polished visual design) to unrelated qualities like software reliability."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What does hyperbolic discounting indicate about buyer decision-making?",
+      "options": [
+        "Buyers favor delayed, long-term savings over immediate rewards",
+        "Buyers heavily overvalue immediate gratification compared to future long-term perks",
+        "Buyers calculate compound growth before making decisions",
+        "Buyers ignore short-term setup fees completely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hyperbolic discounting shows that human decision-making heavily prioritizes immediate perks over mathematically superior future benefits."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "By what percentage more are consumers willing to pay for products they helped assemble or customize compared to pre-built ones?",
+      "answer": 63,
+      "min": 10,
+      "max": 150,
+      "unit": "%",
+      "explanation": "Research on the IKEA effect found that participants were willing to pay 63% more for self-assembled items than identical pre-assembled equivalents."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Doing a favor for a prospective buyer is always more effective at building rapport than asking them for one.",
+      "answer": false,
+      "explanation": "The Ben Franklin effect shows that asking a prospect for a small favor forces their brain to justify helping you, making them like you more."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "Offering cash incentives to existing loyal customers always increases their referral activity.",
+      "answer": false,
+      "explanation": "The overjustification effect demonstrates that financial rewards can extinguish natural intrinsic motivation, making fans feel like paid promoters."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Adding small, low-cost bonus items to a premium sales offer always increases its overall attractiveness.",
+      "answer": false,
+      "explanation": "Because of the less-is-better effect, buyers average the value of bundle components, so cheap extras lower the perceived worth of the core product."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Buyers consistently value an immediate, smaller perk over a significantly larger benefit delivered years later.",
+      "answer": true,
+      "explanation": "Hyperbolic discounting causes human brains to heavily discount future rewards in favor of immediate gratification."
+    }
+  ]
+}
