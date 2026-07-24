@@ -583,6 +583,11 @@ export function Feed({
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== " ") return;
       if (showSheet || showSearch || showMenu || commentsFor || reportFor) return;
       if (document.querySelector("[data-lightbox]")) return;
+      const target = e.target as HTMLElement | null;
+      const tag = target?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || target?.isContentEditable) {
+        return;
+      }
       e.preventDefault();
       containerRef.current?.scrollBy({
         top: (e.key === "ArrowUp" ? -1 : 1) * window.innerHeight,

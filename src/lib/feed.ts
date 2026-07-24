@@ -63,6 +63,7 @@ export type FeedMisconception = {
 export type FeedExplainPrompt = {
   id: string;
   title: string;
+  body: string;
   category: { slug: string; name: string; colorHex: string; icon: string };
 };
 
@@ -405,7 +406,7 @@ export async function getFeedCards(opts: {
     explainRows.filter((c) => c.body.split(/\s+/).length >= EXPLAIN_MIN_BODY_WORDS)
   )
     .slice(0, Math.max(1, Math.ceil(take / 8)) + 1)
-    .map((c) => ({ id: c.id, title: c.title, category: c.category }));
+    .map((c) => ({ id: c.id, title: c.title, body: c.body, category: c.category }));
 
   // Interest boost, only while the user is new and only in Everything mode.
   let boostSlugs: Set<string> | undefined;

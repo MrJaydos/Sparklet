@@ -33,7 +33,7 @@ export function ExplainView({
   onResult: (r: { xp: XpInfo }) => void;
 }) {
   const [text, setText] = useState("");
-  const [state, setState] = useState<"idle" | "sending" | "graded">("idle");
+  const [state, setState] = useState<"idle" | "sending" | "graded" | "revealed">("idle");
   const [error, setError] = useState<string | null>(null);
   const [result, setResult] = useState<ExplainResult | null>(null);
 
@@ -67,6 +67,19 @@ export function ExplainView({
     }
   };
 
+  // Reveal the card immediately (no need to wait on the network) and log the
+  // "don't know" in the background so this prompt re-enters spaced
+  // repetition instead of resurfacing forever.
+  const dontKnow = () => {
+    if (state === "sending") return;
+    setState("revealed");
+    fetch(`/api/explain/${prompt.id}/answer`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ skip: true, tzOffsetMinutes: new Date().getTimezoneOffset() }),
+    }).catch(() => {});
+  };
+
   return (
     <section className="relative flex h-dvh w-full snap-start flex-col overflow-hidden">
       <div
@@ -91,7 +104,7 @@ export function ExplainView({
           In your own words: {prompt.title}
         </h2>
 
-        {!result && (
+        {state !== "revealed" && !result && (
           <>
             <textarea
               value={text}
@@ -103,15 +116,41 @@ export function ExplainView({
               className="mt-6 w-full resize-none rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm outline-none focus:border-neutral-600"
             />
             {error && <p className="mt-2 text-xs text-red-400">{error}</p>}
-            <button
-              type="button"
-              onClick={submit}
-              disabled={state === "sending" || text.trim().length < 10}
-              className="mt-4 rounded-xl bg-violet-600 px-6 py-3 font-semibold text-white transition enabled:hover:bg-violet-500 disabled:opacity-60"
-            >
-              {state === "sending" ? "Grading…" : "Submit"}
-            </button>
+            <div className="mt-4 flex items-center gap-3">
+              <button
+                type="button"
+                onClick={submit}
+                disabled={state === "sending" || text.trim().length < 10}
+                className="rounded-xl bg-violet-600 px-6 py-3 font-semibold text-white transition enabled:hover:bg-violet-500 disabled:opacity-60"
+              >
+                {state === "sending" ? "Grading…" : "Submit"}
+              </button>
+              <button
+                type="button"
+                onClick={dontKnow}
+                disabled={state === "sending"}
+                className="rounded-xl px-4 py-3 text-sm font-semibold text-neutral-400 transition hover:text-neutral-200 disabled:opacity-60"
+              >
+                I don&apos;t know
+              </button>
+            </div>
           </>
+        )}
+
+        {state === "revealed" && (
+          <div className="mt-6">
+            <div className="text-sm font-semibold text-neutral-300">📖 Here&apos;s a reminder</div>
+            <div className="mt-5 rounded-xl bg-neutral-900/90 p-4">
+              <p className="text-sm leading-relaxed text-neutral-300">{prompt.body}</p>
+              <button
+                type="button"
+                onClick={onContinue}
+                className="mt-4 rounded-xl bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-500"
+              >
+                Keep scrolling
+              </button>
+            </div>
+          </div>
         )}
 
         {result && (
