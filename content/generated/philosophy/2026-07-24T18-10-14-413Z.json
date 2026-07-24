@@ -1,0 +1,315 @@
+{
+  "generatedAt": "2026-07-24T18:10:14.413Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why seeing a million white swans can't guarantee the next one isn't black",
+      "body": "For centuries, Europeans assumed all swans were white because every swan ever observed was white. Then, in 1697, Dutch explorers discovered black swans in Australia. Philosopher David Hume highlighted this problem of induction: no number of past observations can logically guarantee that a rule holds true for the future. Science relies on assuming nature is uniform, but that assumption itself cannot be proven with pure logic.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "Problem of induction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Problem_of_induction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Problem_of_induction",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your inner feelings can't have a private definition",
+      "body": "Imagine everyone has a box containing something called a 'beetle.' No one can look inside anyone else's box, yet everyone talks about their beetle. Philosopher Ludwig Wittgenstein used this thought experiment to show that language relies on shared public standards. If a word only referred to a private experience that others could never verify, the word wouldn't have a meaningful, shared definition in public language.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Private language argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Private_language_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Private_language_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why facts alone can never tell you how you ought to behave",
+      "body": "Philosopher David Hume noticed a logical gap in moral arguments: writers often describe how the world is and then abruptly claim how things ought to be. Known as Hume's Guillotine, this principle states that you cannot derive a moral duty ('ought') purely from objective factual descriptions ('is'). To reach an ethical conclusion, you must always include at least one moral premise alongside your factual observations.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "Is–ought problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 11th-century logic trick that tried to prove God by definition",
+      "body": "In 1078, Saint Anselm proposed that God is 'that than which nothing greater can be conceived.' He argued that if God existed only in our minds, a greater entity could be imagined—one that also exists in reality. Therefore, to truly be the greatest conceivable being, God must exist in reality. Critics later noted that this logic tries to define things into existence without empirical evidence.",
+      "imageWikipediaTitle": "Anselm of Canterbury",
+      "sources": [
+        {
+          "title": "Ontological argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ontological_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ontological_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can never step into the exact same river twice",
+      "body": "Ancient Greek philosopher Heraclitus famously remarked that you cannot step into the same river twice. By the time you step in again, fresh waters have flowed in, and you yourself have changed. Heraclitus argued that change is the fundamental essence of the universe, rather than static stability. Everything is in a state of continuous flux, making identity a dynamic process rather than a fixed state.",
+      "imageWikipediaTitle": "Heraclitus",
+      "sources": [
+        {
+          "title": "Heraclitus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heraclitus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Heraclitus",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The prison design where the mere belief of being watched creates total order",
+      "body": "In 1791, philosopher Jeremy Bentham designed the Panopticon, a circular prison with a central inspection tower. Guards inside could see into every cell, but prisoners could never see inside the tower. Because inmates never knew if they were actively being watched, they were forced to assume they were at all times. Bentham argued that this psychological uncertainty would compel prisoners to monitor and regulate their own behavior.",
+      "imageWikipediaTitle": "Panopticon",
+      "sources": [
+        {
+          "title": "Panopticon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Panopticon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Panopticon",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why harming someone by foresight is ethically different from doing it on purpose",
+      "body": "Formulated by Thomas Aquinas, the Doctrine of Double Effect explains when it is permissible to cause harm while pursuing a good goal. It distinguishes between intended consequences and foreseen side effects. For example, giving a terminally ill patient high doses of morphine to relieve pain is ethically acceptable even if it foreseeably shortens their life, provided the death itself is not used as the means to achieve pain relief.",
+      "imageWikipediaTitle": "Thomas Aquinas",
+      "sources": [
+        {
+          "title": "Doctrine of double effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doctrine_of_double_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Doctrine_of_double_effect",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How delaying a pregnancy by a month creates an entirely different person",
+      "body": "Philosopher Derek Parfit posed a puzzle about future generations: if a person delays conceiving a child by even a few months, a completely different sperm and egg meet, resulting in a distinct human being. This means policies that alter the timing of future births do not make existing people better or worse off—they determine who gets born. It makes defining harm to future individuals surprisingly complex.",
+      "imageWikipediaTitle": "Derek Parfit",
+      "sources": [
+        {
+          "title": "Nonidentity problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nonidentity_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nonidentity_problem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mugging scenario that exposes a fatal flaw in expected value math",
+      "body": "Imagine a mugger who has no cash to take from you, but offers a deal: give him $10 now, and in exchange, he will pay you $10 quadrillion tomorrow using supernatural powers. Even if you think there is only a 1-in-a-trillion chance he is telling the truth, expected value math says you should pay, because the potential reward ($10,000) outweighs $10. Philosopher Nick Bostrom created this thought experiment to show how extreme, low-probability claims can hijack rational decision formulas.",
+      "imageWikipediaTitle": "Nick Bostrom",
+      "sources": [
+        {
+          "title": "Pascal's mugging",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pascal%27s_mugging"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pascal%27s_mugging",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The moral theory that prioritizes personal bonds over rigid universal rules",
+      "body": "Traditional ethical theories, like utilitarianism or Kantian deontology, focus on abstract rules and universal principles applied impartially to everyone. Developed by feminist thinkers like Carol Gilligan in the 1980s, the Ethics of Care proposes that morality should center on interpersonal relationships, empathy, and responsiveness to specific needs. Rather than treating everyone as strangers in an equation, it emphasizes the context of human connection and personal care.",
+      "imageWikipediaTitle": "Carol Gilligan",
+      "sources": [
+        {
+          "title": "Ethics of care",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ethics_of_care"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ethics_of_care",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did David Hume's problem of induction demonstrate about past observations?",
+      "options": [
+        "Past observations can never logically prove a future certainty.",
+        "Scientific experiments are completely useless for gaining knowledge.",
+        "Induction is the only valid mathematical method of proof.",
+        "Nature is strictly predictable in every circumstance."
+      ],
+      "correctIndex": 0,
+      "explanation": "Hume argued that no amount of past evidence logically guarantees future consistency."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was Wittgenstein trying to illustrate with his 'beetle in a box' thought experiment?",
+      "options": [
+        "Language requires shared public standards to have objective meaning.",
+        "Insects possess an innate understanding of human vocabulary.",
+        "Human thoughts can be directly read using advanced technology.",
+        "Everyone experiences physical sensations in the exact same way."
+      ],
+      "correctIndex": 0,
+      "explanation": "Wittgenstein argued that words get their meaning from public social use, not private unobservable sensations."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Hume's Guillotine, what is required to reach a moral 'ought' conclusion?",
+      "options": [
+        "At least one ethical or moral premise in addition to facts.",
+        "Purely scientific data with no human values attached.",
+        "A consensus among at least two-thirds of experts.",
+        "A physical law that dictates human social behavior."
+      ],
+      "correctIndex": 0,
+      "explanation": "Hume stated that descriptive facts alone cannot produce a prescriptive moral command without a moral starting point."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the core premise of Anselm's ontological argument?",
+      "options": [
+        "God is defined as the greatest conceivable being, so existence is required.",
+        "The complexity of nature proves an intelligent designer exists.",
+        "Miracles recorded in history offer proof of divine intervention.",
+        "Human moral instincts require a divine lawgiver."
+      ],
+      "correctIndex": 0,
+      "explanation": "Anselm argued that existing in reality is greater than existing only in thought, so the supreme entity must exist."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What central philosophy did Heraclitus illustrate with his river statement?",
+      "options": [
+        "The universe is defined by constant change and flux.",
+        "Physical objects possess permanent, unalterable identities.",
+        "Water is the fundamental element of all matter.",
+        "Time is an illusion created by human perception."
+      ],
+      "correctIndex": 0,
+      "explanation": "Heraclitus taught that reality is dynamic and in perpetual flux, meaning nothing stays identical over time."
+    },
+    {
+      "cardIndex": 5,
+      "question": "How did Bentham's Panopticon force prisoners to control their own behavior?",
+      "options": [
+        "By leaving them uncertain of whether they were being watched at any given moment.",
+        "By physically preventing any movement inside individual cells.",
+        "By rewarding good behavior with early release passes.",
+        "By broadcasting constant instructions through acoustic speaker pipes."
+      ],
+      "correctIndex": 0,
+      "explanation": "Because prisoners could never see inside the tower, the constant possibility of surveillance forced self-discipline."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Under the Doctrine of Double Effect, when can an action with a harmful outcome be permissible?",
+      "options": [
+        "When the harm is a foreseen side effect, not the intended goal or means.",
+        "Whenever the ultimate outcome produces slightly more pleasure than pain.",
+        "Only if the actor accepts full legal liability for the damage.",
+        "Whenever the harmful outcome affects fewer than five people."
+      ],
+      "correctIndex": 0,
+      "explanation": "The doctrine allows an action with a bad side effect if the harm was not intended as either an end or a means."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What key insight does Derek Parfit's Non-Identity Problem reveal?",
+      "options": [
+        "Timing choices determine which specific individuals will exist in the future.",
+        "Children born to older parents inherit distinct genetic advantages.",
+        "Human populations automatically stabilize over multi-generational spans.",
+        "Future generations have no moral right to natural resources."
+      ],
+      "correctIndex": 0,
+      "explanation": "Changing the timing of conception changes the specific genetic identity of the person born."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What flaw in standard expected value theory does 'Pascal's Mugging' demonstrate?",
+      "options": [
+        "Tiny probabilities multiplied by massive numbers can force irrational decisions.",
+        "People always overestimate probabilities when money is involved.",
+        "Muggers are mathematically proven to be dishonest negotiators.",
+        "Expected value formulas only work for values under one million dollars."
+      ],
+      "correctIndex": 0,
+      "explanation": "It shows that multiplying tiny probabilities by absurdly huge payoffs breaks intuitive decision-making."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What does the Ethics of Care emphasize over abstract universal rules?",
+      "options": [
+        "Interpersonal relationships, empathy, and contextual needs.",
+        "Strict mathematical calculation of net physical pleasure.",
+        "Complete obedience to written societal legislation.",
+        "Maximizing individual economic productivity above all else."
+      ],
+      "correctIndex": 0,
+      "explanation": "Ethics of Care prioritizes concrete personal relationships and empathy rather than detached, universal principles."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 8,
+      "prompt": "If a mugger promises $10 quadrillion with a 1-in-a-trillion chance for $10, what is the expected payout value in dollars?",
+      "answer": 10000,
+      "min": 100,
+      "max": 100000,
+      "unit": "$",
+      "explanation": "Multiplying $10 quadrillion ($10^15) by a 1-in-a-trillion (10^-12) chance yields an expected payout of $10,000."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "If a natural pattern occurs millions of times, it is logically proven to happen again.",
+      "answer": false,
+      "explanation": "David Hume showed that inductive reasoning relies on the assumption of nature's uniformity, which cannot be logically proven."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "You can derive a moral obligation entirely from objective, scientific facts.",
+      "answer": false,
+      "explanation": "Hume's Guillotine shows that descriptive facts ('is') cannot logically produce a moral duty ('ought') without a moral premise."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "The Panopticon prison design relied on guards actively watching every prisoner at all times.",
+      "answer": false,
+      "explanation": "The design relied on prisoners never knowing whether they were being watched, forcing them to assume they were."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Delaying conception by a few months results in a genetically different child being born.",
+      "answer": true,
+      "explanation": "Derek Parfit's non-identity problem points out that different sperm and egg cells unite, creating a completely distinct individual."
+    }
+  ]
+}

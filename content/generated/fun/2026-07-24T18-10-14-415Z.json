@@ -1,0 +1,327 @@
+{
+  "generatedAt": "2026-07-24T18:10:14.415Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Koalas Have Fingerprints Almost Identical to Humans",
+      "body": "Koalas are among the few non-human animals with individualized friction ridges on their hands and feet. Their fingerprint patterns—loops, whorls, and arches—are so similar to human fingerprints that even electron microscope analysis is needed to easily tell them apart. Australian police have even noted that koala prints could theoretically contaminate crime scene evidence.",
+      "imageWikipediaTitle": "Koala",
+      "sources": [
+        {
+          "title": "Koala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Koala"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Koala",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 25-Foot Wave of Molasses Once Devastated Boston",
+      "body": "On January 15, 1919, a massive storage tank burst in Boston's North End, releasing over two million gallons of fermented molasses. The resulting wave reached heights of 25 feet and traveled at roughly 35 miles per hour through the streets. It knocked down buildings, trapped horses, killed 21 people, and left the neighborhood smelling sweet for years.",
+      "imageWikipediaTitle": "Great Molasses Flood",
+      "sources": [
+        {
+          "title": "Great Molasses Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Stray Dog Once Sparked a War Between Two Nations",
+      "body": "In October 1925, tensions between Greece and Bulgaria escalated into a brief military conflict known as the Incident of Petrich. Historical accounts record that a Greek soldier accidentally ran across the border while chasing his runaway dog. Bulgarian sentries shot the soldier, prompting Greece to invade and occupy the border region until international diplomats negotiated peace.",
+      "imageWikipediaTitle": "Incident of Petrich",
+      "sources": [
+        {
+          "title": "Incident of Petrich",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Incident_of_Petrich"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Incident_of_Petrich",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male Pufferfish Sculpt Underwater Geometric Artwork",
+      "body": "Male white-spotted pufferfish spend over a week swimming along the seabed, meticulously carving intricate, circular patterns into the sand using their fins. These geometric designs can reach over six feet in diameter. Females inspect the sand circles, and if impressed by the symmetry and fine sand in the center, lay their eggs in the middle of the design.",
+      "imageWikipediaTitle": "Torquigener albomaculosus",
+      "sources": [
+        {
+          "title": "White-spotted pufferfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Torquigener_albomaculosus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Torquigener_albomaculosus",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lemmings Do Not Mass-Suicide Off Sea Cliffs",
+      "body": "Contrary to popular belief, lemmings do not deliberately march off cliffs to end their lives. The enduring myth was heavily popularized by the 1958 Disney nature documentary White Wilderness, where filmmakers staged a fake lemming mass suicide by driving imported animals off a cliff into a river. In reality, lemmings periodically migrate in large groups and occasionally drown crossing water.",
+      "imageWikipediaTitle": "Lemming",
+      "sources": [
+        {
+          "title": "Lemming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lemming"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lemming",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This Beetle Uses Infrared Sensors to Hunt Forest Fires",
+      "body": "While most creatures flee from forest fires, the black fire beetle flies directly toward them. These insects possess specialized pit organs beneath their middle legs equipped with infrared sensory receptors. They can detect the thermal radiation of a forest fire from dozens of miles away, flocking to freshly burned trees to mate and lay eggs without competition.",
+      "imageWikipediaTitle": "Melanophila acuminata",
+      "sources": [
+        {
+          "title": "Melanophila acuminata",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Melanophila_acuminata"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Melanophila_acuminata",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Snails Have Thousands of Microscopic Teeth",
+      "body": "A garden snail might look completely toothless, but its mouth contains thousands of microscopic teeth. Snails eat using a specialized ribbon-like organ called a radula, which functions like a biological rasp. Depending on the species, a snail can have anywhere from 1,000 to over 20,000 teeth lined up in backward-pointing rows to scrape plant matter or drill through shells.",
+      "imageWikipediaTitle": "Radula",
+      "sources": [
+        {
+          "title": "Radula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Radula"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Radula",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Pacific Island of Niue Issues Pokemon and Disney Coins",
+      "body": "The island nation of Niue produces official legal tender collector coins featuring characters like Pikachu, Darth Vader, and Mickey Mouse. Minted in partnership with international mints, these silver and gold coins carry face values in Niue dollars. However, because their precious metal content far exceeds their face value, virtually none are ever spent in local stores.",
+      "imageWikipediaTitle": "Niue",
+      "sources": [
+        {
+          "title": "Niue dollar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Niue_dollar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Niue_dollar",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Lyrebird Can Flawlessly Mimic Chainsaws and Car Alarms",
+      "body": "Australia's superb lyrebird possesses one of the most complex vocal organs in the bird world. To attract mates and mark territory, lyrebirds mimic not only the calls of dozens of other bird species, but also artificial sounds from human surroundings. Recorded wild and captive lyrebirds have effortlessly reproduced camera shutters, car alarms, fire sirens, and chainsaw engines.",
+      "imageWikipediaTitle": "Superb lyrebird",
+      "sources": [
+        {
+          "title": "Superb lyrebird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Superb_lyrebird"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Superb_lyrebird",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tardigrades Can Survive the Open Vacuum of Space",
+      "body": "Microscopically tiny tardigrades, often called water bears, can endure extreme conditions that would kill almost any other organism. In 2007, thousands of tardigrades were launched into orbit aboard the FOTON-M3 mission and exposed directly to the vacuum and ionizing solar radiation of open space for 10 days. Upon returning to Earth, many resumed normal life and reproduced.",
+      "imageWikipediaTitle": "Tardigrade",
+      "sources": [
+        {
+          "title": "Tardigrade",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tardigrade"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tardigrade",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which anatomical feature makes koalas unique among most non-primate animals?",
+      "options": [
+        "Individualized fingerprints",
+        "Opposable toes",
+        "Dual voice boxes",
+        "Trichromatic color vision"
+      ],
+      "correctIndex": 0,
+      "explanation": "Koalas have friction ridge patterns on their hands that closely resemble human fingerprints."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How fast did the wave of molasses travel during the 1919 Boston Molasses Flood?",
+      "options": [
+        "About 5 miles per hour",
+        "About 35 miles per hour",
+        "About 70 miles per hour",
+        "About 100 miles per hour"
+      ],
+      "correctIndex": 1,
+      "explanation": "The burst tank unleashed a 25-foot wave of molasses that rushed through streets at roughly 35 mph."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What incident sparked the 1925 border conflict between Greece and Bulgaria?",
+      "options": [
+        "A stolen military flag",
+        "A soldier chasing a runaway dog across the border",
+        "A dispute over offshore fishing rights",
+        "A stray cow grazing in a neighboring field"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Incident of Petrich began when a Greek soldier was shot after crossing the border while chasing his dog."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do male white-spotted pufferfish carve geometric sand circles on the seabed?",
+      "options": [
+        "To trap small fish for food",
+        "To mark hunting territory",
+        "To attract female mates",
+        "To protect themselves from strong currents"
+      ],
+      "correctIndex": 2,
+      "explanation": "Male pufferfish build elaborate circular sand structures to attract females, who inspect the artwork before laying eggs."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did the myth that lemmings commit mass suicide originate?",
+      "options": [
+        "An ancient Scandinavian folklore belief",
+        "Staged footage in a 1958 Disney documentary",
+        "A sensationalized 19th-century newspaper report",
+        "A translation error in an early biology textbook"
+      ],
+      "correctIndex": 1,
+      "explanation": "Filmmakers for Disney's 1958 documentary White Wilderness staged a fake lemming mass suicide by pushing them off a cliff."
+    },
+    {
+      "cardIndex": 5,
+      "question": "How do black fire beetles locate distant forest fires?",
+      "options": [
+        "By smelling smoke with long antennae",
+        "Using infrared sensors located beneath their legs",
+        "By listening for crackling wood sounds",
+        "Using compound eyes sensitive to UV light"
+      ],
+      "correctIndex": 1,
+      "explanation": "Black fire beetles possess specialized pit organs beneath their legs with infrared sensors that detect heat miles away."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What is the specialized ribbon-like organ lined with teeth in snails called?",
+      "options": [
+        "Radula",
+        "Proboscis",
+        "Mandible",
+        "Gizzard"
+      ],
+      "correctIndex": 0,
+      "explanation": "Snails rasp food using a specialized ribbon-like organ covered in microscopic teeth called a radula."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why are Niue's pop-culture collector coins rarely spent in retail stores?",
+      "options": [
+        "They are illegal to spend in stores",
+        "Their precious metal content far exceeds their face value",
+        "Local stores are prohibited from taking coins",
+        "They are valid currency only at international airports"
+      ],
+      "correctIndex": 1,
+      "explanation": "The silver and gold metal value in the coins is worth much more than their official face value in Niue dollars."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What anatomical structure allows the superb lyrebird to mimic complex artificial sounds?",
+      "options": [
+        "A double-hinged beak",
+        "A highly complex syrinx (vocal organ)",
+        "Resonant air sacs in its neck",
+        "An unusually large auditory cortex"
+      ],
+      "correctIndex": 1,
+      "explanation": "The superb lyrebird has an exceptionally complex syrinx that enables it to imitate complex natural and artificial sounds."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How long did tardigrades survive direct exposure to open space during the 2007 orbital mission?",
+      "options": [
+        "10 minutes",
+        "10 hours",
+        "10 days",
+        "10 months"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tardigrades survived 10 full days of direct exposure to the vacuum and solar radiation of space aboard FOTON-M3."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How fast (in miles per hour) did the wave of molasses travel through the streets of Boston during the 1919 flood?",
+      "answer": 35,
+      "min": 5,
+      "max": 100,
+      "unit": "mph",
+      "explanation": "The 2.3-million-gallon tank burst unleashed a 25-foot wave of molasses that rushed through Boston streets at 35 miles per hour."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "Up to how many microscopic teeth can certain species of snails have on their tongue-like radula?",
+      "answer": 20000,
+      "min": 100,
+      "max": 100000,
+      "unit": "",
+      "explanation": "Depending on the species, snails can have thousands or even over 20,000 microscopic teeth arranged in rows along their radula."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "How many days did tardigrades survive exposed directly to the vacuum and radiation of open space during a 2007 orbital mission?",
+      "answer": 10,
+      "min": 1,
+      "max": 60,
+      "unit": "days",
+      "explanation": "Tardigrades spent 10 days exposed directly to the vacuum and solar radiation of space and survived to reproduce back on Earth."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Koala fingerprints are so similar to human prints that they could potentially confuse forensic investigators.",
+      "answer": true,
+      "explanation": "Koalas have friction ridges that closely mimic human loops and whorls, making them difficult to distinguish without detailed analysis."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Lemmings deliberately jump off sea cliffs in mass suicidal migrations.",
+      "answer": false,
+      "explanation": "Lemmings do not commit mass suicide; the famous myth was largely created by staged footage in a 1958 Disney documentary."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Lyrebirds can only imitate the calls of other bird species, not human machinery.",
+      "answer": false,
+      "explanation": "Lyrebirds frequently mimic man-made sounds in their environment, including car alarms, camera shutters, and chainsaws."
+    }
+  ]
+}
