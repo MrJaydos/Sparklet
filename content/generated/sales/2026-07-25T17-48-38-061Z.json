@@ -1,0 +1,315 @@
+{
+  "generatedAt": "2026-07-25T17:48:38.061Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stealing thunder: why revealing your own flaw first wins deals",
+      "body": "Unveiling a major weakness in your product before a prospect discovers it on their own isn't just honest—it strips the objection of its power. Known as \"stealing thunder,\" voluntary self-disclosure lowers perceived bias and boosts credibility. When buyers hear bad news directly from you, they rate the flaw as significantly less severe than if a competitor brought it to light.",
+      "imageWikipediaTitle": "Lightning",
+      "sources": [
+        {
+          "title": "Stealing thunder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stealing_thunder"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stealing_thunder",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The paradox that turns unhappy customers into your top buyers",
+      "body": "A customer who experiences a severe service failure that is resolved quickly and generously often ends up with higher overall satisfaction than if no failure had occurred at all. Known as the service recovery paradox, this phenomenon occurs because outstanding problem recovery demonstrates genuine care, converting a moment of friction into deep customer loyalty.",
+      "imageWikipediaTitle": "Customer service",
+      "sources": [
+        {
+          "title": "Service recovery paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Service_recovery_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Service_recovery_paradox",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The labor illusion: why showing work effort increases perceived value",
+      "body": "When websites or software show an active progress bar detailing effort—such as \"searching 200 databases\"—customers perceive the end result as far more valuable than if the identical result appeared instantly. This \"labor illusion\" taps into our deep intuition that effort signals quality, making buyers willing to pay higher prices when transparent effort is displayed.",
+      "imageWikipediaTitle": "Hourglass",
+      "sources": [
+        {
+          "title": "Labor illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Labor_illusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Labor_illusion",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Choice blindness: why buyers justify decisions they never made",
+      "body": "In psychological experiments where researchers secretly swapped a participant's chosen photo for the rejected option, over 70% of participants failed to notice the swap. Even more striking, they immediately provided detailed, confident reasons explaining why they chose the item they had actually rejected. Once people believe a decision is made, their mind rationalizes it seamlessly.",
+      "imageWikipediaTitle": "Sleight of hand",
+      "sources": [
+        {
+          "title": "Choice blindness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Choice_blindness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Choice_blindness",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Match your pitch to your prospect's regulatory focus",
+      "body": "Buyers approach decisions with two distinct mindsets: promotion-focused (seeking growth and gains) or prevention-focused (seeking security and risk avoidance). Tailoring your sales pitch to match their mindset dramatically increases persuasion. Frame benefits as \"maximizing growth\" for promotion-focused buyers, but frame the exact same features as \"preventing costly errors\" for risk-averse buyers.",
+      "imageWikipediaTitle": "Psychology",
+      "sources": [
+        {
+          "title": "Regulatory focus theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Regulatory_focus_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Regulatory_focus_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask prospects \"when and where\" to double follow-through",
+      "body": "Getting a prospect to agree to take action is rarely enough to guarantee follow-through. By asking them to specify a precise \"if-then\" plan—such as \"When I return to my desk at 2 PM, I will review the proposal\"—you establish an implementation intention. Defining exact environmental triggers bridges the gap between goal intentions and actual execution.",
+      "imageWikipediaTitle": "Calendar",
+      "sources": [
+        {
+          "title": "Implementation intention",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Implementation_intention"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Implementation_intention",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The compromise effect: why buyers flock to middle options",
+      "body": "When customers choose among three product options, they naturally avoid the extreme ends of the spectrum. Adding a high-end premium tier doesn't just attract big spenders—it makes the middle option look like the safest, most reasonable pick. Known as extremeness aversion or the compromise effect, this shift consistently pulls buyers toward your target product.",
+      "imageWikipediaTitle": "Wine tasting",
+      "sources": [
+        {
+          "title": "Compromise effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compromise_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compromise_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Psychological reactance: why hard selling pushes buyers away",
+      "body": "When a pitch feels overly aggressive or coercive, prospects experience psychological reactance—a defensive state triggered by a perceived threat to their freedom. Rather than judging the offer on its actual value, the buyer feels compelled to reject the deal simply to reclaim their autonomy. Effective persuasion always preserves the prospect's sense of self-determination.",
+      "imageWikipediaTitle": "Protest",
+      "sources": [
+        {
+          "title": "Psychological reactance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_reactance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Psychological_reactance",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asking \"how\" exposes hidden problems without triggering defense",
+      "body": "Most people believe they understand complex processes much better than they actually do. This cognitive bias is called the illusion of explanatory depth. In sales, asking a prospect to explain step-by-step how their current workflow operates leads them to discover their own hidden inefficiencies. Self-discovering these flaws makes them far more receptive to your solution.",
+      "imageWikipediaTitle": "Cognitive bias",
+      "sources": [
+        {
+          "title": "Illusion of explanatory depth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why obvious compliments still work in sales conversations",
+      "body": "Logic suggests that obvious flattery should fail when a target knows you have something to sell. Yet studies in consumer behavior show that even when people consciously recognize a compliment as an insincere sales tactic, a positive implicit impression persists. While the conscious mind flags the motive, the subconscious retains a favorable emotional reaction toward the flatterer.",
+      "imageWikipediaTitle": "Handshake",
+      "sources": [
+        {
+          "title": "Ingratiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ingratiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ingratiation",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary benefit of \"stealing thunder\" in a pitch?",
+      "options": [
+        "It forces competitors to offer discounts.",
+        "It reduces the perceived severity of bad news by revealing it yourself.",
+        "It makes the customer feel guilty for asking questions.",
+        "It distracts buyers from core pricing terms."
+      ],
+      "correctIndex": 1,
+      "explanation": "Disclosing negative information about your own product before others do strips the objection of its power and boosts your perceived honesty."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the service recovery paradox describe?",
+      "options": [
+        "Customers prefer automated support over human agents.",
+        "Fixing a severe issue effectively can build higher customer loyalty than having no issues at all.",
+        "Discounting products after a failure always bankrupts a company.",
+        "Loyal customers complain more frequently than new customers."
+      ],
+      "correctIndex": 1,
+      "explanation": "Resolving a major service failure generously proves genuine care and creates stronger trust than a flawless transaction."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the \"labor illusion\" affect customer perception?",
+      "options": [
+        "Seeing effort or progress bars increases the perceived value of the outcome.",
+        "Customers dislike waiting even if progress is clearly displayed.",
+        "Showing effort makes users suspect the system is slow and inefficient.",
+        "Manual labor is always rated lower than automated software."
+      ],
+      "correctIndex": 0,
+      "explanation": "Displaying active effort (like a progress bar) leads people to value the final result more because effort signals quality."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens in experiments on choice blindness?",
+      "options": [
+        "People refuse to choose if given more than two options.",
+        "People fail to notice when their choice is swapped and rationalise the non-chosen option.",
+        "People instantly spot when their choice is swapped and demand a refund.",
+        "People forget what they bought within 24 hours."
+      ],
+      "correctIndex": 1,
+      "explanation": "Over 70% of participants do not notice when secretly given their rejected option, and they readily explain why they \"chose\" it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to regulatory focus theory, how should you pitch to a prevention-focused prospect?",
+      "options": [
+        "Highlight rapid career advancement and huge upside.",
+        "Emphasize risk reduction and avoiding costly mistakes.",
+        "Focus exclusively on luxury aesthetics and status.",
+        "Offer limited-time flash sales and countdown timers."
+      ],
+      "correctIndex": 1,
+      "explanation": "Prevention-focused individuals are motivated by safety, security, and avoiding negative outcomes."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why do \"if-then\" plans (implementation intentions) boost follow-through?",
+      "options": [
+        "They legally bind the prospect to a contract.",
+        "They link planned actions to specific environmental cues like time or place.",
+        "They reduce the total price of the deal.",
+        "They force the prospect to pay an upfront deposit."
+      ],
+      "correctIndex": 1,
+      "explanation": "Specifying when and where an action will occur creates a mental trigger that prompts execution when the context arises."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What is the compromise effect in product pricing?",
+      "options": [
+        "Buyers always select the cheapest available option.",
+        "Buyers avoid extreme choices and tend to select the middle tier.",
+        "Buyers prefer custom pricing over fixed tiers.",
+        "Negotiation always ends at the exact average of two offers."
+      ],
+      "correctIndex": 1,
+      "explanation": "Extremeness aversion causes consumers to gravitate toward middle options, perceiving them as a safe balance between cost and quality."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What triggers psychological reactance in a sales context?",
+      "options": [
+        "Offering too many payment methods.",
+        "Aggressive pressure that threatens a prospect's autonomy.",
+        "Providing detailed documentation and source links.",
+        "Pausing for three seconds before speaking."
+      ],
+      "correctIndex": 1,
+      "explanation": "When prospects feel coerced or pressured, psychological reactance motivates them to assert control by rejecting the pitch."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How does asking \"how\" help uncover a prospect's needs without causing offense?",
+      "options": [
+        "It forces the prospect to buy an immediate upgrade.",
+        "It exposes gaps in their understanding through the illusion of explanatory depth.",
+        "It distracts them from reading the price tag.",
+        "It proves that the sales rep knows more about their job than they do."
+      ],
+      "correctIndex": 1,
+      "explanation": "Asking prospects to explain complex workflows step-by-step gently reveals knowledge gaps and flaws to themselves without confrontational criticism."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Why is flattery still effective in sales even when perceived as insincere?",
+      "options": [
+        "It tricks the brain into forgetting the price.",
+        "The subconscious mind retains a warm, positive impression despite conscious skepticism.",
+        "It activates legal obligations of reciprocity.",
+        "Buyers are unaware that sales reps want to make money."
+      ],
+      "correctIndex": 1,
+      "explanation": "Even when the conscious mind recognizes ulterior motives, subtle positive feelings generated by flattery still color implicit attitudes."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In choice blindness studies where researchers secretly swapped a participant's chosen item for the rejected option, what percentage failed to notice?",
+      "answer": 70,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Over 70% of people failed to spot that they were given the item they just rejected, and proceeded to explain why they preferred it."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Revealing a flaw in your own product before a prospect notices it damages your credibility.",
+      "answer": false,
+      "explanation": "Voluntarily revealing a weakness (\"stealing thunder\") actually increases your credibility and makes the flaw seem less severe."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A customer who experiences a major service failure can end up more loyal than one who never had a problem at all.",
+      "answer": true,
+      "explanation": "Under the service recovery paradox, resolving a severe failure exceptionally well demonstrates genuine care and builds superior long-term loyalty."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Pushing prospects aggressively with high-pressure tactics is the most effective way to secure a deal.",
+      "answer": false,
+      "explanation": "High-pressure tactics trigger psychological reactance, causing prospects to reject the offer to defend their autonomy."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Flattery only improves sales relationships if the recipient believes the compliment is completely sincere.",
+      "answer": false,
+      "explanation": "Research shows insincere flattery leaves a positive implicit impression even when the recipient consciously detects the ulterior motive."
+    }
+  ]
+}
