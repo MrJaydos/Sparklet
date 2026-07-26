@@ -43,6 +43,19 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     Apple({
       allowDangerousEmailAccountLinking: true,
       authorization: { params: { scope: "email" } },
+      // The default profile() assumes profile.user.name is always present
+      // whenever profile.user exists. That only holds when the "name" scope
+      // is requested — with scope=email-only, Apple still sends a `user`
+      // object (just `{ email }`, no `name`), so the default callback throws
+      // reading `.name.firstName` off undefined (OAuthProfileParseError).
+      profile(profile) {
+        return {
+          id: profile.sub,
+          name: profile.email,
+          email: profile.email,
+          image: null,
+        };
+      },
     }),
     Nodemailer({
       // The dummy dev value is never used — sendVerificationRequest logs the
