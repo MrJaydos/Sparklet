@@ -10,6 +10,7 @@ import { isPremium } from "@/lib/billing";
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
   trustHost: true,
+  debug: true,
   callbacks: {
     session({ session, user }) {
       session.user.id = user.id;
