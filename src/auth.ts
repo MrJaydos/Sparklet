@@ -10,9 +10,6 @@ import { isPremium } from "@/lib/billing";
 export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
   trustHost: true,
-  // TEMP: diagnosing Apple sign-in failing silently after the sparkletapp.com
-  // migration — remove once the real callback error is identified.
-  debug: true,
   callbacks: {
     session({ session, user }) {
       session.user.id = user.id;
@@ -33,7 +30,19 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     // that shares the same email rather than erroring the user into a
     // second, disconnected account.
     Google({ allowDangerousEmailAccountLinking: true }),
-    Apple({ allowDangerousEmailAccountLinking: true }),
+    // scope is "email" only, not the default "name email": Auth.js builds the
+    // authorize URL with URLSearchParams, which always encodes a space as "+".
+    // Apple's authorize endpoint doesn't decode "+" back to a space (unlike
+    // most OAuth servers), so the default two-scope request comes out as the
+    // literal invalid scope "name+email" and Apple rejects the whole sign-in
+    // ("Sign Up Not Complete" / invalid_request) before it ever reaches us.
+    // There's no Auth.js hook to fix the encoding, so we drop to a single
+    // scope with no space to encode. Apple's name never reaches us this way —
+    // profile() falls back to email for the name, which is fine.
+    Apple({
+      allowDangerousEmailAccountLinking: true,
+      authorization: { params: { scope: "email" } },
+    }),
     Nodemailer({
       // The dummy dev value is never used — sendVerificationRequest logs the
       // link instead of sending when EMAIL_SERVER is unset.
