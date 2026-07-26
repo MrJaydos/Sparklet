@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { auth, signIn } from "@/auth";
+import { SubmitButton } from "@/components/SubmitButton";
 
 export const metadata = { title: "Sign in — Sparklet" };
 
@@ -66,10 +67,7 @@ export default async function LoginPage({
       <div className="flex w-full max-w-sm flex-col gap-3">
         {googleEnabled && (
           <form action={googleAction}>
-            <button
-              type="submit"
-              className="flex w-full items-center justify-center gap-2 rounded-xl border border-neutral-700 bg-neutral-900 px-4 py-3 font-semibold text-neutral-100 transition hover:bg-neutral-800"
-            >
+            <SubmitButton className="flex w-full items-center justify-center gap-2 rounded-xl border border-neutral-700 bg-neutral-900 px-4 py-3 font-semibold text-neutral-100 transition hover:bg-neutral-800">
               <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden>
                 <path
                   fill="#4285F4"
@@ -89,20 +87,17 @@ export default async function LoginPage({
                 />
               </svg>
               Continue with Google
-            </button>
+            </SubmitButton>
           </form>
         )}
         {appleEnabled && (
           <form action={appleAction}>
-            <button
-              type="submit"
-              className="flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 font-semibold text-black transition hover:bg-neutral-200"
-            >
+            <SubmitButton className="flex w-full items-center justify-center gap-2 rounded-xl bg-white px-4 py-3 font-semibold text-black transition hover:bg-neutral-200">
               <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden fill="currentColor">
                 <path d="M16.365 1.43c0 1.14-.462 2.24-1.212 3.05-.83.9-2.18 1.6-3.29 1.51-.15-1.1.44-2.26 1.2-3.03.83-.86 2.28-1.5 3.3-1.53zM20.5 17.34c-.55 1.27-.81 1.84-1.52 2.96-.99 1.56-2.38 3.5-4.11 3.51-1.53.02-1.93-1-4.01-.99-2.08.01-2.52.99-4.05 1-1.73.01-3.05-1.76-4.04-3.31C.4 17.4-.55 12.75 1.06 9.65c.87-1.68 2.42-2.74 4.11-2.76 1.52-.02 2.96 1.03 3.9 1.03.93 0 2.68-1.27 4.52-1.09.77.03 2.93.31 4.32 2.34-.11.07-2.58 1.51-2.55 4.5.03 3.58 3.14 4.77 3.19 4.79-.03.09-.5 1.7-1.65 3.36l1.6-.08z" />
               </svg>
               Continue with Apple
-            </button>
+            </SubmitButton>
           </form>
         )}
         {(googleEnabled || appleEnabled) && (
@@ -125,12 +120,9 @@ export default async function LoginPage({
             placeholder="you@example.com"
             className="rounded-xl border border-neutral-700 bg-neutral-900 px-4 py-3 text-base outline-none focus:border-violet-500"
           />
-          <button
-            type="submit"
-            className="rounded-xl bg-violet-600 px-4 py-3 font-semibold text-white transition hover:bg-violet-500"
-          >
+          <SubmitButton className="rounded-xl bg-violet-600 px-4 py-3 font-semibold text-white transition hover:bg-violet-500">
             Send magic link
-          </button>
+          </SubmitButton>
         </form>
       </div>
     </main>
