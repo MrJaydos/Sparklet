@@ -31,27 +31,30 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     // that shares the same email rather than erroring the user into a
     // second, disconnected account.
     Google({ allowDangerousEmailAccountLinking: true }),
-    // scope is "email" only, not the default "name email": Auth.js builds the
-    // authorize URL with URLSearchParams, which always encodes a space as "+".
-    // Apple's authorize endpoint doesn't decode "+" back to a space (unlike
-    // most OAuth servers), so the default two-scope request comes out as the
-    // literal invalid scope "name+email" and Apple rejects the whole sign-in
-    // ("Sign Up Not Complete" / invalid_request) before it ever reaches us.
-    // There's no Auth.js hook to fix the encoding, so we drop to a single
-    // scope with no space to encode. Apple's name never reaches us this way —
-    // profile() falls back to email for the name, which is fine.
+    // Apple's authorize endpoint requires scopes space-separated as "%20",
+    // but Auth.js builds this URL with URLSearchParams, which always encodes
+    // a space as "+" — Apple doesn't decode "+" back to a space (unlike most
+    // OAuth servers), so the default "name email" scope arrives as one
+    // invalid token and Apple rejects the whole sign-in before it reaches us.
+    // There's no Auth.js config hook to fix that encoding, so the login
+    // page's appleAction calls signIn with `redirect: false`, fixes up the
+    // returned URL's scope encoding itself, and redirects manually — see
+    // src/app/login/page.tsx.
     Apple({
       allowDangerousEmailAccountLinking: true,
-      authorization: { params: { scope: "email" } },
       // The default profile() assumes profile.user.name is always present
-      // whenever profile.user exists. That only holds when the "name" scope
-      // is requested — with scope=email-only, Apple still sends a `user`
-      // object (just `{ email }`, no `name`), so the default callback throws
-      // reading `.name.firstName` off undefined (OAuthProfileParseError).
+      // whenever profile.user exists. That only holds on a user's very first
+      // authorization ever for this app — every sign-in after that, Apple
+      // sends no `user` object at all regardless of scope, so the default
+      // callback's `.name.firstName` read is never reached in practice, but
+      // guard it anyway rather than depend on that.
       profile(profile) {
+        const name = profile.user?.name
+          ? `${profile.user.name.firstName} ${profile.user.name.lastName}`
+          : profile.email;
         return {
           id: profile.sub,
-          name: profile.email,
+          name,
           email: profile.email,
           image: null,
         };

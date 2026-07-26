@@ -48,7 +48,13 @@ export default async function LoginPage({
 
   async function appleAction() {
     "use server";
-    await signIn("apple", { redirectTo });
+    // signIn() would otherwise redirect straight to the authorize URL Auth.js
+    // built with URLSearchParams — which encodes the "name email" scope's
+    // space as "+", a token Apple's authorize endpoint rejects outright (see
+    // src/auth.ts). Get the URL back instead of redirecting, fix just that
+    // encoding, and redirect to the corrected URL ourselves.
+    const url: string = await signIn("apple", { redirectTo, redirect: false });
+    redirect(url.replace(/\+/g, "%20"));
   }
 
   return (
