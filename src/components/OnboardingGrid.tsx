@@ -9,6 +9,7 @@ export function OnboardingGrid({
   categories: { id: string; slug: string; name: string; colorHex: string; icon: string }[];
 }) {
   const router = useRouter();
+  const [step, setStep] = useState<"name" | "interests">("name");
   const [picked, setPicked] = useState<string[]>([]);
   const [name, setName] = useState("");
   const [busy, setBusy] = useState(false);
@@ -44,16 +45,42 @@ export function OnboardingGrid({
     }
   };
 
+  if (step === "name") {
+    return (
+      <>
+        <h1 className="text-3xl font-bold">What should we call you?</h1>
+        <p className="mt-2 text-neutral-400">
+          So the next screen can say hi properly. Totally optional.
+        </p>
+        <input
+          type="text"
+          autoFocus
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          maxLength={40}
+          placeholder="Your name"
+          className="mt-6 w-full rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm text-neutral-100 placeholder:text-neutral-500 focus:border-violet-500 focus:outline-none"
+        />
+        <button
+          type="button"
+          onClick={() => setStep("interests")}
+          className="mt-6 w-full rounded-xl bg-violet-600 px-4 py-3 font-semibold text-white transition hover:bg-violet-500"
+        >
+          {name.trim() ? "Continue" : "Skip"}
+        </button>
+      </>
+    );
+  }
+
   return (
     <>
-      <input
-        type="text"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-        maxLength={40}
-        placeholder="What should we call you? (optional)"
-        className="mt-6 w-full rounded-xl border border-neutral-800 bg-neutral-900 px-4 py-3 text-sm text-neutral-100 placeholder:text-neutral-500 focus:border-violet-500 focus:outline-none"
-      />
+      <h1 className="text-3xl font-bold">
+        {name.trim() ? `Okay, ${name.trim()}, what interests you?` : "What sparks your curiosity?"}
+      </h1>
+      <p className="mt-2 text-neutral-400">
+        Pick at least 3 topics — your feed will show just these. You can widen
+        or switch topics anytime from the feed.
+      </p>
 
       <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3">
         {categories.map((c) => {
