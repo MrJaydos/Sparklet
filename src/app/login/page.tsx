@@ -1,6 +1,8 @@
+import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 import { auth, signIn } from "@/auth";
 import { SubmitButton } from "@/components/SubmitButton";
+import { prisma } from "@/lib/db";
 
 export const metadata = { title: "Sign in — Sparklet" };
 
@@ -55,7 +57,33 @@ export default async function LoginPage({
     // src/auth.ts). Get the URL back instead of redirecting, fix just that
     // encoding, and redirect to the corrected URL ourselves.
     const url: string = await signIn("apple", { redirectTo, redirect: false });
-    redirect(url.replace(/\+/g, "%20"));
+    const fixedUrl = url.replace(/\+/g, "%20");
+
+    // Safari intermittently drops the state/nonce cookies just set above on
+    // Apple's POST callback (a known, unresolved Apple/WebKit quirk — Chrome
+    // doesn't hit it). Apple always echoes the `state` form field back
+    // reliably regardless of cookies, so stash a server-side copy of those
+    // cookies keyed by that value; the callback route
+    // (src/app/api/auth/callback/apple/route.ts) recovers them if needed.
+    const state = new URL(fixedUrl).searchParams.get("state");
+    const authCookies = (await cookies())
+      .getAll()
+      .filter((c) => c.name.endsWith("authjs.state") || c.name.endsWith("authjs.nonce"));
+    if (state && authCookies.length === 2) {
+      // Piggyback a sweep of abandoned attempts' rows here rather than
+      // running a separate cron — low volume, so "next attempt cleans up
+      // after past ones" is enough.
+      await prisma.oAuthStateBackup.deleteMany({ where: { expiresAt: { lt: new Date() } } });
+      await prisma.oAuthStateBackup.create({
+        data: {
+          state,
+          cookies: authCookies.map((c) => ({ name: c.name, value: c.value })),
+          expiresAt: new Date(Date.now() + 15 * 60 * 1000),
+        },
+      });
+    }
+
+    redirect(fixedUrl);
   }
 
   return (

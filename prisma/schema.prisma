@@ -120,6 +120,22 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
+// Safari intermittently drops the state/nonce cookies Auth.js sets before
+// redirecting to Apple's authorize endpoint, so they never make it back on
+// Apple's POST callback (a known, unresolved Apple/WebKit quirk — Chrome
+// doesn't hit it). Apple always echoes the `state` form field back reliably
+// regardless of cookies, so appleAction() (src/app/login/page.tsx) stashes a
+// copy of those cookies here keyed by that value; the callback route
+// (src/app/api/auth/callback/apple/route.ts) restores them from here when
+// the real cookie didn't survive the round trip. Single-use, ~15min TTL.
+model OAuthStateBackup {
+  state     String   @id
+  cookies   Json // { name: string; value: string }[]
+  expiresAt DateTime
+
+  @@index([expiresAt])
+}
+
 // ---------- Sparklet domain models ----------
 
 model Category {
