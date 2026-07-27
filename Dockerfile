@@ -11,6 +11,16 @@ RUN npm ci
 
 COPY . .
 
+# NEXT_PUBLIC_* vars are inlined into the client bundle at build time, not
+# read at container runtime — unlike every other env var here, Coolify's
+# usual runtime injection doesn't reach them. They must come in as Docker
+# build args (Coolify: mark them "available at buildtime" so it passes
+# --build-arg for these). Empty default preserves "unset = feature off".
+ARG NEXT_PUBLIC_ADSENSE_CLIENT_ID=""
+ARG NEXT_PUBLIC_ADSENSE_SLOT_ID=""
+ENV NEXT_PUBLIC_ADSENSE_CLIENT_ID=$NEXT_PUBLIC_ADSENSE_CLIENT_ID
+ENV NEXT_PUBLIC_ADSENSE_SLOT_ID=$NEXT_PUBLIC_ADSENSE_SLOT_ID
+
 # Build-only dummy values: nothing connects to a DB during `next build`, and
 # real values are injected by Coolify at runtime.
 RUN npx prisma generate && \
