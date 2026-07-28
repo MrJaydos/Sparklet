@@ -83,10 +83,7 @@ export function MenuSheet({
         ) : (
           <>
             {billingEnabled && !premium && (
-              <Link
-                href="/upgrade"
-                className="mt-2 flex w-full items-center justify-center rounded-xl bg-violet-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-500"
-              >
+              <Link href="/upgrade" className={item(true)}>
                 ✨ Go Premium
               </Link>
             )}
