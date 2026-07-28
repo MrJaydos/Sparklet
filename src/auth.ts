@@ -1,13 +1,14 @@
-import NextAuth from "next-auth";
+import NextAuth, { type Session } from "next-auth";
 import Google from "next-auth/providers/google";
 import Apple from "next-auth/providers/apple";
 import Nodemailer from "next-auth/providers/nodemailer";
 import { PrismaAdapter } from "@auth/prisma-adapter";
 import { createTransport } from "nodemailer";
+import { headers } from "next/headers";
 import { prisma } from "@/lib/db";
 import { isPremium } from "@/lib/billing";
 
-export const { handlers, auth, signIn, signOut } = NextAuth({
+const { handlers, auth: cookieAuth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
   trustHost: true,
   debug: true,
@@ -91,3 +92,52 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     }),
   ],
 });
+
+// Bearer-token fallback for native clients (iOS/Android) that can't carry
+// the session cookie — see src/lib/mobile-auth.ts and the /api/auth/mobile-*
+// routes for how a token is issued. headers()/cookies() are both
+// request-scoped via AsyncLocalStorage, so this resolves correctly in Server
+// Components, Server Actions, and Route Handlers exactly like cookieAuth()
+// does; it would NOT work inside middleware (this repo has no middleware.ts,
+// so that's moot today — but don't add one that imports this without
+// re-checking). An invalid or expired Bearer token returns null outright
+// rather than falling through to cookie auth: a bad Bearer must never
+// silently become "check the browser cookie instead".
+export async function auth(): Promise<Session | null> {
+  const authHeader = (await headers()).get("authorization");
+  const bearer = authHeader?.match(/^Bearer\s+(.+)$/i)?.[1];
+  if (!bearer) return cookieAuth();
+
+  const now = new Date();
+  const session = await prisma.session.findUnique({
+    where: { sessionToken: bearer },
+    include: { user: true },
+  });
+  if (!session || session.expires < now) return null;
+
+  // Sliding expiry: the Bearer path bypasses Auth.js's own session-refresh
+  // (that only runs on cookie requests), so extend on use once within a week
+  // of expiring rather than hard-logging-out every mobile user exactly 30
+  // days after their last sign-in.
+  if (session.expires.getTime() - now.getTime() < 7 * 24 * 60 * 60 * 1000) {
+    await prisma.session
+      .update({
+        where: { sessionToken: bearer },
+        data: { expires: new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000) },
+      })
+      .catch(() => {});
+  }
+
+  return {
+    user: {
+      id: session.user.id,
+      email: session.user.email,
+      name: session.user.name,
+      image: session.user.image,
+      premium: isPremium(session.user),
+    },
+    expires: session.expires.toISOString(),
+  };
+}
+
+export { handlers, signIn, signOut };

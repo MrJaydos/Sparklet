@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { auth, signIn } from "@/auth";
 import { SubmitButton } from "@/components/SubmitButton";
 import { prisma } from "@/lib/db";
+import { ALLOWED_MOBILE_SCHEMES } from "@/lib/mobile-auth";
 
 export const metadata = { title: "Sign in — Sparklet" };
 
@@ -27,11 +28,17 @@ const REASON_COPY: Record<string, string> = {
 export default async function LoginPage({
   searchParams,
 }: {
-  searchParams: Promise<{ callbackUrl?: string; reason?: string }>;
+  searchParams: Promise<{ callbackUrl?: string; reason?: string; mobileScheme?: string }>;
 }) {
   const session = await auth();
-  const { callbackUrl, reason } = await searchParams;
-  const redirectTo = safeRedirect(callbackUrl);
+  const { callbackUrl, reason, mobileScheme } = await searchParams;
+  // A native client (see src/lib/mobile-auth.ts) asking to complete login
+  // takes over the redirect target entirely — it doesn't make sense combined
+  // with a callbackUrl, which is for gated-action bounces back into the web app.
+  const redirectTo =
+    mobileScheme && ALLOWED_MOBILE_SCHEMES.has(mobileScheme)
+      ? `/api/auth/mobile-complete?scheme=${mobileScheme}`
+      : safeRedirect(callbackUrl);
   if (session?.user) redirect(redirectTo);
   const subtitle =
     (reason && REASON_COPY[reason]) || "Learn something real, one swipe at a time.";
