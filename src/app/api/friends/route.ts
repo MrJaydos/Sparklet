@@ -2,6 +2,46 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
+import { displayName } from "@/lib/display";
+import { ensureFriendCode } from "@/lib/friends";
+
+// Mirrors the friends/incoming/outgoing/friendCode data the web profile
+// page (src/app/profile/page.tsx) queries server-side for FriendsPanel —
+// native clients have no equivalent server-rendered page to get this from,
+// so this is the JSON source for it.
+export async function GET() {
+  const session = await auth();
+  const userId = session?.user?.id;
+  if (!userId) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+
+  const [friendships, friendCode] = await Promise.all([
+    prisma.friendship.findMany({
+      where: { OR: [{ requesterId: userId }, { addresseeId: userId }] },
+      select: {
+        id: true,
+        status: true,
+        requesterId: true,
+        requester: { select: { name: true, email: true } },
+        addressee: { select: { name: true, email: true } },
+      },
+    }),
+    ensureFriendCode(userId),
+  ]);
+
+  const friends: { friendshipId: string; name: string; email: string }[] = [];
+  const incoming: { friendshipId: string; name: string; email: string }[] = [];
+  const outgoing: { friendshipId: string; name: string; email: string }[] = [];
+  for (const f of friendships) {
+    const mine = f.requesterId === userId;
+    const other = mine ? f.addressee : f.requester;
+    const row = { friendshipId: f.id, name: displayName(other), email: other.email };
+    if (f.status === "ACCEPTED") friends.push(row);
+    else if (mine) outgoing.push(row);
+    else incoming.push(row);
+  }
+
+  return NextResponse.json({ friendCode, friends, incoming, outgoing });
+}
 
 const bodySchema = z.union([
   z.object({ email: z.string().email() }),
