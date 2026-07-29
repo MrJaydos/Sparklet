@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
-import { getStripe, STRIPE_PRICE_IDS } from "@/lib/billing";
+import { getStripe, isPremiumViaAppStore, STRIPE_PRICE_IDS } from "@/lib/billing";
 
 const bodySchema = z.object({ plan: z.enum(["monthly", "annual"]) });
 
@@ -23,8 +23,24 @@ export async function POST(req: NextRequest) {
 
   const user = await prisma.user.findUniqueOrThrow({
     where: { id: userId },
-    select: { id: true, email: true, stripeCustomerId: true },
+    select: {
+      id: true,
+      email: true,
+      stripeCustomerId: true,
+      appleExpiresAt: true,
+      appleRevoked: true,
+    },
   });
+
+  // Already subscribed via the App Store — that subscription can only be
+  // changed/cancelled in the App Store, so don't let them start a second,
+  // separately-billed one here.
+  if (isPremiumViaAppStore(user)) {
+    return NextResponse.json(
+      { error: "already subscribed via the App Store" },
+      { status: 409 }
+    );
+  }
 
   let customerId = user.stripeCustomerId;
   if (!customerId) {

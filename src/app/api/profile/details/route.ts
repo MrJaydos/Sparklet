@@ -3,7 +3,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { displayName } from "@/lib/display";
 import { computeBadges } from "@/lib/badges";
-import { isPremium } from "@/lib/billing";
+import { isPremium, premiumSource } from "@/lib/billing";
 
 // Everything on the web profile page (src/app/profile/page.tsx) beyond the
 // lightweight xp/streak numbers already served by GET /api/profile — badges,
@@ -122,6 +122,11 @@ export async function GET() {
     name: displayName(user),
     email: user.email,
     premium: isPremium(user),
+    // "app_store" | "stripe" | null — a client that already sees "stripe"
+    // here must not offer its own StoreKit purchase UI (that would start a
+    // second, separately-billed subscription; see POST /api/billing/
+    // checkout, which rejects the reverse case).
+    premiumSource: premiumSource(user),
     xp: user.xp,
     currentStreak: user.currentStreak,
     longestStreak: user.longestStreak,

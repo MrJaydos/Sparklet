@@ -15,7 +15,7 @@ export default async function UpgradePage({
   const session = await auth();
   if (!session?.user?.id) redirect("/login?callbackUrl=%2Fupgrade");
 
-  if (!getStripe()) {
+  if (!getStripe() && !session.user.premium) {
     return (
       <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-24 text-center">
         <p className="text-neutral-400">Premium isn&apos;t available yet — check back soon.</p>
@@ -43,7 +43,11 @@ export default async function UpgradePage({
         </p>
       )}
       <div className="mt-6">
-        <UpgradeClient premium={session.user.premium} activating={status === "success"} />
+        <UpgradeClient
+          premium={session.user.premium}
+          premiumSource={session.user.premiumSource}
+          activating={status === "success"}
+        />
       </div>
     </main>
   );

@@ -8,9 +8,11 @@ const cardClass = "rounded-2xl border border-neutral-800 bg-neutral-900 p-5 text
 
 export function UpgradeClient({
   premium,
+  premiumSource,
   activating,
 }: {
   premium: boolean;
+  premiumSource: "app_store" | "stripe" | null;
   /** true when we just got redirected back from a successful Checkout —
    * the webhook may not have landed yet even though the browser already has. */
   activating: boolean;
@@ -30,6 +32,19 @@ export function UpgradeClient({
     }, 1500);
     return () => clearInterval(id);
   }, [activating, premium, router]);
+
+  if (premium && premiumSource === "app_store") {
+    return (
+      <div className={cardClass}>
+        <div className="text-lg font-semibold text-violet-300">✨ You&apos;re Premium</div>
+        <p className="mt-1 text-sm text-neutral-400">
+          Ads are off and Deeper / Extra-deep reading is unlocked on every card. This
+          subscription was purchased through the iOS app — manage or cancel it on your device
+          under Settings → [your name] → Subscriptions, not here.
+        </p>
+      </div>
+    );
+  }
 
   if (premium) {
     return (

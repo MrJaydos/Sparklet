@@ -12,7 +12,7 @@ import { getUnreadCount } from "@/lib/notifications";
 import { ensureFriendCode } from "@/lib/friends";
 import { AppHeader } from "@/components/AppHeader";
 import { BillingButton } from "@/components/BillingButton";
-import { isBillingEnabled } from "@/lib/billing";
+import { isBillingEnabled, isPremiumViaStripe } from "@/lib/billing";
 import { PushToggle } from "@/components/PushToggle";
 import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
 import { HistoryList, type HistoryRow } from "@/components/HistoryList";
@@ -56,6 +56,8 @@ export default async function ProfilePage() {
         longestStreak: true,
         streakFreezesAvailable: true,
         xp: true,
+        stripeSubscriptionStatus: true,
+        stripeCurrentPeriodEnd: true,
       },
     }),
     getUnreadCount(userId, isAdmin),
@@ -240,7 +242,7 @@ export default async function ProfilePage() {
         )}
       </p>
 
-      {isBillingEnabled() && (
+      {(isBillingEnabled() || session.user.premium) && (
         <div className="mt-4 rounded-2xl border border-neutral-800 bg-neutral-900 p-4 lg:p-6">
           {session.user.premium ? (
             <>
@@ -248,11 +250,29 @@ export default async function ProfilePage() {
               <p className="mt-1 text-xs text-neutral-400">
                 Ad-free, with unlimited Deeper and Extra-deep reading.
               </p>
-              <BillingButton
-                kind="portal"
-                label="Manage subscription"
-                className="mt-3 rounded-xl border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-300 transition hover:border-neutral-500 hover:text-white"
-              />
+              {session.user.premiumSource === "app_store" && (
+                <>
+                  <p className="mt-2 flex items-center gap-1.5 text-xs font-medium text-neutral-300">
+                    📱 Purchased through the iOS app
+                  </p>
+                  <p className="mt-1 text-xs text-neutral-500">
+                    This subscription is billed by Apple, not Sparklet — manage or cancel it on
+                    your device under Settings → [your name] → Subscriptions.
+                  </p>
+                </>
+              )}
+              {/* Independent of premiumSource above: a user could (rarely) have a live
+                  subscription on both platforms, e.g. they subscribed on the web first and
+                  separately bought in the app — the App Store one can't be managed here, but
+                  don't hide their ability to stop the Stripe one just because App Store is
+                  the one driving the "you're premium" badge. */}
+              {isPremiumViaStripe(user) && (
+                <BillingButton
+                  kind="portal"
+                  label="Manage subscription"
+                  className="mt-3 rounded-xl border border-neutral-700 px-4 py-2 text-sm font-medium text-neutral-300 transition hover:border-neutral-500 hover:text-white"
+                />
+              )}
             </>
           ) : (
             <>

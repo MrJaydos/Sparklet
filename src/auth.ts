@@ -6,7 +6,7 @@ import { PrismaAdapter } from "@auth/prisma-adapter";
 import { createTransport } from "nodemailer";
 import { headers } from "next/headers";
 import { prisma } from "@/lib/db";
-import { isPremium } from "@/lib/billing";
+import { isPremium, premiumSource } from "@/lib/billing";
 
 const { handlers, auth: cookieAuth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
@@ -17,6 +17,7 @@ const { handlers, auth: cookieAuth, signIn, signOut } = NextAuth({
       session.user.id = user.id;
       // `user` here is the full Prisma row from the adapter — no extra query.
       session.user.premium = isPremium(user);
+      session.user.premiumSource = premiumSource(user);
       return session;
     },
   },
@@ -135,6 +136,7 @@ export async function auth(): Promise<Session | null> {
       name: session.user.name,
       image: session.user.image,
       premium: isPremium(session.user),
+      premiumSource: premiumSource(session.user),
     },
     expires: session.expires.toISOString(),
   };
