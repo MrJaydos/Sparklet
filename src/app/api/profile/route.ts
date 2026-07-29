@@ -26,7 +26,14 @@ export async function GET(req: NextRequest) {
 
   const user = await prisma.user.findUniqueOrThrow({
     where: { id: userId },
-    select: { xp: true, currentStreak: true, longestStreak: true, streakFreezesAvailable: true },
+    select: {
+      xp: true,
+      currentStreak: true,
+      longestStreak: true,
+      streakFreezesAvailable: true,
+      onboardedAt: true,
+      _count: { select: { interactions: true } },
+    },
   });
   const [xpToday, cardsToday] = await Promise.all([
     getXpToday(userId, tzOffsetMinutes),
@@ -41,6 +48,10 @@ export async function GET(req: NextRequest) {
     currentStreak: user.currentStreak,
     longestStreak: user.longestStreak,
     freezesAvailable: user.streakFreezesAvailable,
+    // Same one-time condition as the web's feed page redirect
+    // (src/app/feed/page.tsx) — computed server-side so the client doesn't
+    // need to know the rule, just whether to show the picker.
+    needsOnboarding: !user.onboardedAt && user._count.interactions === 0,
   });
 }
 
