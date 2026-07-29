@@ -113,6 +113,7 @@ export async function GET() {
   });
 
   return NextResponse.json({
+    id: userId,
     name: displayName(user),
     email: user.email,
     xp: user.xp,
