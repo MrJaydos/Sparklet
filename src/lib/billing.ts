@@ -30,16 +30,25 @@ export const STRIPE_PRICE_IDS = {
 type BillingUser = {
   stripeSubscriptionStatus: string | null;
   stripeCurrentPeriodEnd: Date | null;
+  appleExpiresAt: Date | null;
+  appleRevoked: boolean;
 };
 
-// Derived, not stored: a missed cancellation webhook expires access safely
-// at period end rather than granting it forever. No trial-length or
-// past_due grace period for v1 — only a currently-paid-for period counts.
+// Derived, not stored: a missed cancellation webhook (or Apple server
+// notification) expires access safely at period end rather than granting it
+// forever. No trial-length or past_due grace period for v1 — only a
+// currently-paid-for period counts, on either rail.
 export function isPremium(user: BillingUser): boolean {
-  if (!process.env.STRIPE_SECRET_KEY) return false;
-  const activeStatus =
-    user.stripeSubscriptionStatus === "active" || user.stripeSubscriptionStatus === "trialing";
-  const withinPeriod =
-    !!user.stripeCurrentPeriodEnd && user.stripeCurrentPeriodEnd.getTime() > Date.now();
-  return activeStatus && withinPeriod;
+  const stripeActive =
+    !!process.env.STRIPE_SECRET_KEY &&
+    (user.stripeSubscriptionStatus === "active" || user.stripeSubscriptionStatus === "trialing") &&
+    !!user.stripeCurrentPeriodEnd &&
+    user.stripeCurrentPeriodEnd.getTime() > Date.now();
+
+  // Apple has no separate "trialing" status the way Stripe does — a trial
+  // period just carries a normal expiresDate, so this check alone covers it.
+  const appleActive =
+    !user.appleRevoked && !!user.appleExpiresAt && user.appleExpiresAt.getTime() > Date.now();
+
+  return stripeActive || appleActive;
 }

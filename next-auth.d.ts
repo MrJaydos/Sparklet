@@ -8,10 +8,12 @@ declare module "next-auth" {
 
 // The Prisma adapter's `user` param in callbacks is the full DB row at
 // runtime, but its TS type is the narrower built-in AdapterUser — extend it
-// so isPremium() (which reads these two columns) type-checks in src/auth.ts.
+// so isPremium() (which reads these columns) type-checks in src/auth.ts.
 declare module "@auth/core/adapters" {
   interface AdapterUser {
     stripeSubscriptionStatus: string | null;
     stripeCurrentPeriodEnd: Date | null;
+    appleExpiresAt: Date | null;
+    appleRevoked: boolean;
   }
 }

@@ -50,6 +50,14 @@ model User {
   stripeSubscriptionStatus String? // Stripe's raw status: active, trialing, past_due, canceled, ...
   stripeCurrentPeriodEnd   DateTime?
 
+  // ---- Billing (Apple IAP) ----
+  // Same derived-at-read-time philosophy as the Stripe fields above — see
+  // src/lib/apple-iap.ts. Apple has no single "status" string like Stripe;
+  // premium is just "not revoked and not yet expired".
+  appleOriginalTransactionId String?   @unique
+  appleExpiresAt             DateTime?
+  appleRevoked               Boolean   @default(false) // refund/chargeback
+
   accounts          Account[]
   sessions          Session[]
   interactions      UserCardInteraction[]

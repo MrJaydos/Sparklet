@@ -3,6 +3,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { displayName } from "@/lib/display";
 import { computeBadges } from "@/lib/badges";
+import { isPremium } from "@/lib/billing";
 
 // Everything on the web profile page (src/app/profile/page.tsx) beyond the
 // lightweight xp/streak numbers already served by GET /api/profile — badges,
@@ -45,6 +46,10 @@ export async function GET() {
         longestStreak: true,
         streakFreezesAvailable: true,
         xp: true,
+        stripeSubscriptionStatus: true,
+        stripeCurrentPeriodEnd: true,
+        appleExpiresAt: true,
+        appleRevoked: true,
       },
     }),
     prisma.userCardInteraction.count({ where: { userId, completed: true } }),
@@ -116,6 +121,7 @@ export async function GET() {
     id: userId,
     name: displayName(user),
     email: user.email,
+    premium: isPremium(user),
     xp: user.xp,
     currentStreak: user.currentStreak,
     longestStreak: user.longestStreak,
