@@ -41,6 +41,7 @@ export async function GET(req: NextRequest) {
   ]);
 
   return NextResponse.json({
+    id: userId,
     xp: user.xp,
     xpToday,
     xpGoal: DAILY_GOAL_XP,
