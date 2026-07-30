@@ -1,0 +1,333 @@
+{
+  "generatedAt": "2026-07-30T18:09:12.503Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Diamonds are not made from compressed dead plants",
+      "body": "Popular belief holds that diamonds form when ancient coal is squished under extreme pressure. In reality, most natural diamonds formed deep within Earth's mantle billions of years ago—long before land plants even existed to create coal. Instead, mantle carbon was compressed under intense heat and pressure over a hundred miles underground.",
+      "imageWikipediaTitle": "Diamond",
+      "sources": [
+        {
+          "title": "Diamond",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diamond"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Diamond",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sharks are not immune to cancer",
+      "body": "A widespread myth claims sharks never get cancer, a belief that led to the overharvesting of sharks for ineffective health supplements. In truth, scientists have documented cancer in more than twenty species of sharks, including tumors found directly in their cartilage. Sharks do get cancer—they just rarely suffer from some specific human diseases.",
+      "imageWikipediaTitle": "Shark",
+      "sources": [
+        {
+          "title": "Shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shark"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Shark",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wombats produce cube-shaped poop to keep it in place",
+      "body": "Bare-nosed wombats are the only known animals that produce cube-shaped feces. As food digests over two weeks, stiff and flexible regions in their intestines contract rhythmically, shaping the waste into distinct flat sides. These square droppings allow wombats to stack scent markers on elevated rocks without their territory boundaries rolling away.",
+      "imageWikipediaTitle": "Bare-nosed wombat",
+      "sources": [
+        {
+          "title": "Bare-nosed wombat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bare-nosed_wombat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bare-nosed_wombat",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gravity doesn't pull instantly—it travels at the speed of light",
+      "body": "If the Sun suddenly disappeared, Earth wouldn't immediately fly off into dark space. Einstein's general theory of relativity predicted that gravitational fields propagate as waves moving at light speed. Precise measurements from colliding neutron stars confirmed that gravity travels at roughly 300,000 kilometers per second, taking the exact same time as light to reach us.",
+      "imageWikipediaTitle": "Speed of gravity",
+      "sources": [
+        {
+          "title": "Speed of gravity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Speed_of_gravity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Speed_of_gravity",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Venus flytraps can count electrical signals before snapping shut",
+      "body": "Venus flytraps do not waste energy on falling raindrops or blown debris. When a trigger hair inside the trap is touched, it generates an electrical impulse. If a second hair is touched within twenty seconds, the trap snaps shut. Three more touches trigger the release of digestive enzymes, allowing the plant to literally count insect movements.",
+      "imageWikipediaTitle": "Venus flytrap",
+      "sources": [
+        {
+          "title": "Venus flytrap",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus_flytrap"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Venus_flytrap",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An average fluffy cloud weighs over one million pounds",
+      "body": "Fluffy cumulus clouds look weightless, but a typical fair-weather cloud contains roughly 500,000 kilograms—about 1.1 million pounds—of water. It stays afloat because that immense mass is spread across a cubic kilometer as tiny droplets, supported by warm, rising air currents beneath it that push against the denser surrounding atmosphere.",
+      "imageWikipediaTitle": "Cumulus cloud",
+      "sources": [
+        {
+          "title": "Cumulus cloud",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cumulus_cloud"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cumulus_cloud",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun is actually white, not yellow",
+      "body": "Photos taken from outer space reveal that the Sun is crisp white. The Sun emits light across all visible wavelengths almost equally. On Earth, our atmosphere scatters shorter blue light waves in every direction, leaving longer yellow and red wavelengths to dominate our line of sight and making the noon sun appear bright yellow.",
+      "imageWikipediaTitle": "Sun",
+      "sources": [
+        {
+          "title": "Sun",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sun"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sun",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your stomach acid is strong enough to dissolve metal",
+      "body": "Human stomach juice consists mostly of hydrochloric acid, maintaining a highly acidic pH between 1.5 and 2.0. Laboratory studies demonstrate that human gastric fluid can dissolve pure zinc and significantly corrode steel razor blades over twenty-four hours. A thick layer of protective mucus continuously prevents your stomach from digesting itself.",
+      "imageWikipediaTitle": "Gastric acid",
+      "sources": [
+        {
+          "title": "Gastric acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastric_acid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gastric_acid",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You can hear the difference between hot and cold water being poured",
+      "body": "Pouring hot water sounds noticeably different from pouring cold water because temperature changes liquid viscosity. Cold water is denser and more viscous, creating higher-frequency splashing sounds. Hot water flows more freely, generating lower-pitched bubble resonances. Most humans can correctly distinguish hot from cold liquid pours purely by listening to the sound.",
+      "imageWikipediaTitle": "Viscosity",
+      "sources": [
+        {
+          "title": "Viscosity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Viscosity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Viscosity",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sloths take up to a month to digest a single leaf",
+      "body": "Sloths have the slowest metabolic rate of any non-hibernating mammal. Their multi-chambered stomachs use specialized bacteria to break down tough, toxic foliage. Because their body temperature fluctuates with the weather and digestion requires significant metabolic heat, it can take up to thirty days for a sloth to digest a single leaf's worth of meals.",
+      "imageWikipediaTitle": "Sloth",
+      "sources": [
+        {
+          "title": "Sloth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sloth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sloth",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where did most natural diamonds originate?",
+      "options": [
+        "In ancient coal beds",
+        "Deep in Earth's mantle",
+        "Inside volcanic ash clouds",
+        "On shallow ocean beds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Most diamonds formed deep in Earth's mantle billions of years ago, long before coal-producing land plants existed."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In which body tissue have tumors been documented in sharks?",
+      "options": [
+        "Cartilage",
+        "Gills",
+        "Fin spines",
+        "Dermal denticles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scientists have documented tumors directly in shark cartilage, disproving the myth that sharks never get cancer."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do wombats produce cube-shaped droppings?",
+      "options": [
+        "To speed up digestion",
+        "To stop scent markers from rolling off rocks",
+        "To maximize water retention",
+        "To line underground nests"
+      ],
+      "correctIndex": 1,
+      "explanation": "Flat sides prevent wombat droppings from rolling off rocks and elevated surfaces used to mark territory."
+    },
+    {
+      "cardIndex": 3,
+      "question": "At what speed does gravitational force travel through the universe?",
+      "options": [
+        "Instantaneously",
+        "At the speed of light",
+        "At the speed of sound",
+        "At a variable speed based on mass"
+      ],
+      "correctIndex": 1,
+      "explanation": "General relativity and observational physics prove gravitational waves travel at light speed."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many hair touches trigger a Venus flytrap to close its trap?",
+      "options": [
+        "1 touch",
+        "2 touches",
+        "5 touches",
+        "10 touches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two hair touches within 20 seconds generate the necessary electrical signals to snap the trap shut."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why do heavy cumulus clouds remain suspended in the air?",
+      "options": [
+        "They are made of anti-gravity gas",
+        "Immense water mass is dispersed as tiny droplets buoyed by warm air",
+        "Clouds are less dense than vacuum",
+        "High winds crush them upward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cloud mass is spread across vast areas as microscopic droplets kept aloft by rising warm air currents."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What is the true color of the Sun when viewed from space?",
+      "options": [
+        "Yellow",
+        "Orange",
+        "White",
+        "Green"
+      ],
+      "correctIndex": 2,
+      "explanation": "Without atmospheric blue-light scattering, all visible light emitted by the Sun combines into pure white."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Which main acid gives stomach juice its high acidity?",
+      "options": [
+        "Sulfuric acid",
+        "Hydrochloric acid",
+        "Nitric acid",
+        "Acetic acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hydrochloric acid keeps stomach pH around 1.5 to 2.0, strong enough to corrode metals like zinc."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why do hot and cold water sound different when poured?",
+      "options": [
+        "Cold water expands in air",
+        "Temperature changes fluid viscosity and bubble frequency",
+        "Hot water contains more dissolved oxygen",
+        "Steam muffles impact sounds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Temperature alters viscosity, changing acoustic resonances and pitch when liquid splashes."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Up to how long can it take for a sloth to fully digest a meal?",
+      "options": [
+        "24 hours",
+        "7 days",
+        "30 days",
+        "6 months"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sloths have extremely low metabolic rates, taking up to a month to digest tough foliage."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many cube-shaped droppings can a single wombat produce in one night?",
+      "answer": 100,
+      "min": 10,
+      "max": 300,
+      "unit": "cubes",
+      "explanation": "A wombat can produce around 80 to 100 square droppings every night to mark its territory."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "How many kilograms of water does an average fair-weather cumulus cloud hold?",
+      "answer": 500000,
+      "min": 10000,
+      "max": 2000000,
+      "unit": "kg",
+      "explanation": "An average cloud holds about 500,000 kg (1.1 million pounds) of water suspended in the sky."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "Up to how many days can a sloth take to digest a single leaf's worth of food?",
+      "answer": 30,
+      "min": 1,
+      "max": 90,
+      "unit": "days",
+      "explanation": "Sloth digestion is so slow that a single meal can take up to 30 days to work through its system."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Diamonds are created when ancient coal is compressed under high pressure.",
+      "answer": false,
+      "explanation": "Most diamonds formed deep in Earth's mantle billions of years ago, long before coal-forming land plants existed."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Sharks are biologically immune to developing cancer.",
+      "answer": false,
+      "explanation": "Scientists have documented cancerous tumors across more than twenty species of sharks."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "The Sun appears pure white when viewed from outer space.",
+      "answer": true,
+      "explanation": "Without atmospheric scattering, all wavelengths emitted by the Sun blend together into white light."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Hot water and cold water produce distinctly different sounds when poured.",
+      "answer": true,
+      "explanation": "Temperature changes fluid viscosity, altering the pitch and splashing sounds so distinctly that human ears can tell them apart."
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "generatedAt": "2026-07-30T18:09:12.506Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Rational People Will Pay $5 to Win a Single Dollar Bill",
+      "body": "In 1971, economist Martin Shubik created the dollar auction to expose a flaw in rational decision-making. An auctioneer bids off a $1 bill, but both the highest and second-highest bidders must pay their final bids. Once bidding starts, the second-place bidder faces a dilemma: lose their money for nothing or bid higher to minimize losses. This trap causes participants to escalate bids far past the bill's face value.",
+      "imageWikipediaTitle": "Dollar auction",
+      "sources": [
+        {
+          "title": "Dollar auction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dollar_auction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dollar_auction",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History's Worst Hyperinflation Doubled Prices Every 15 Hours",
+      "body": "After World War II, Hungary experienced the most extreme hyperinflation ever recorded. Between August 1945 and July 1946, prices doubled roughly every 15 hours. At its peak in July 1946, the monthly inflation rate reached 41.9 quadrillion percent. People spent their wages immediately upon receiving them because money lost value during a single meal break. The crisis ended when Hungary introduced the forint.",
+      "imageWikipediaTitle": "Hungarian pengő",
+      "sources": [
+        {
+          "title": "Hungarian pengő",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hungarian_peng%C5%91",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Measuring Economic Performance Always Ruin the Metric",
+      "body": "Formulated by British economist Charles Goodhart in 1975, Goodhart's Law states that when a measure becomes a target, it ceases to be a good measure. When central banks or governments target a specific economic metric, people alter their behavior to optimize for that metric rather than the underlying goal. This distorts data, encouraging gaming of the system instead of genuine economic progress.",
+      "imageWikipediaTitle": "Charles Goodhart",
+      "sources": [
+        {
+          "title": "Goodhart's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goodhart%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goodhart%27s_law",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Melting Down US Pennies for Metal Can Land You in Prison",
+      "body": "Because copper and nickel prices fluctuate, the raw metal inside US pennies and nickels can sometimes be worth more than their face value. To prevent people from melting coins down for scrap profit, the United States Mint implemented strict regulations in 2006. Melting or exporting 1-cent and 5-cent coins for profit carries penalties of up to five years in prison and a fine of up to $10,000.",
+      "imageWikipediaTitle": "Penny (United States coin)",
+      "sources": [
+        {
+          "title": "Penny debate in the United States",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Penny_debate_in_the_United_States",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Economic Case Against Buying Holiday Gifts",
+      "body": "In 1993, economist Joel Waldfogel published a landmark study titled The Deadweight Loss of Christmas. He calculated that holiday gift-giving creates economic inefficiency because givers rarely select items receivers would purchase themselves at full price. Waldfogel estimated that holiday gifts lose between 10% and 33% of their value compared to direct cash transfers, as recipients value physical presents lower than what givers paid.",
+      "imageWikipediaTitle": "Gift",
+      "sources": [
+        {
+          "title": "The Deadweight Loss of Christmas",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Deadweight_Loss_of_Christmas"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Deadweight_Loss_of_Christmas",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Wooden Sticks Served as Europe's Receipts and Currency",
+      "body": "For hundreds of years, medieval England used notched wooden sticks called tally sticks to record financial debts and tax obligations. A stick was marked with notches representing money, then split lengthwise down the middle. The debtor kept one half and the creditor kept the other. Because the natural wood grain matching was impossible to forge, tally sticks became a trusted negotiable currency across Europe.",
+      "imageWikipediaTitle": "Tally stick",
+      "sources": [
+        {
+          "title": "Tally stick",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tally_stick"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tally_stick",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Rare Goods People Buy More of When Prices Rise",
+      "body": "Standard economic theory dictates that demand drops when prices rise. However, a Giffen good violates this fundamental rule. When the price of an essential staple food—like potatoes during the Irish Famine—increases, poor households can no longer afford higher-quality foods like meat. To compensate, they spend even more of their budget buying the staple food, causing demand to rise alongside its price.",
+      "imageWikipediaTitle": "Giffen good",
+      "sources": [
+        {
+          "title": "Giffen good",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giffen_good"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Giffen_good",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Saving Money During a Faltering Economy Can Make Everyone Poorer",
+      "body": "Popularized by economist John Maynard Keynes, the paradox of thrift describes how individual prudence can harm collective wealth. When households anticipate bad economic times, they cut spending and save more. However, because one person's spending is another person's income, widespread saving reduces overall demand. This leads to business layoffs, lower overall national income, and ultimately leaves the population with less capacity to save.",
+      "imageWikipediaTitle": "John Maynard Keynes",
+      "sources": [
+        {
+          "title": "Paradox of thrift",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_thrift"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Paradox_of_thrift",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How an Irrelevant Third Option Tricks You into Spending More",
+      "body": "The decoy effect is a cognitive bias widely exploited in pricing strategies. When choosing between a small coffee for $3 and a large for $7, consumers often pick small. But when a medium coffee is introduced at $6.50, the large suddenly looks like a great bargain. The medium option exists purely as an asymmetric decoy to drive buyers toward the more expensive item.",
+      "imageWikipediaTitle": "Decoy effect",
+      "sources": [
+        {
+          "title": "Decoy effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decoy_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Decoy_effect",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Financial Scarcity Reduces Effective IQ by Up to 13 Points",
+      "body": "A 2013 study led by behavioral scientists Sendhil Mullainathan and Eldar Shafir demonstrated that severe financial worry consumes mental bandwidth. When low-income individuals face urgent money problems, their cognitive capacity for unrelated tasks declines significantly. The mental burden of managing financial scarcity is equivalent to losing roughly 13 IQ points, matching the cognitive impact of missing a full night of sleep.",
+      "imageWikipediaTitle": "Scarcity (social psychology)",
+      "sources": [
+        {
+          "title": "Scarcity (social psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scarcity_(social_psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Scarcity_(social_psychology)",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In a classic dollar auction, what unique rule applies to the second-highest bidder?",
+      "options": [
+        "They pay nothing and win nothing",
+        "They must pay their final losing bid to the auctioneer",
+        "They receive the dollar bill at a 50% discount",
+        "They get a full refund from the winning bidder"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a dollar auction, both the highest bidder and the second-highest bidder must pay their final bids to the auctioneer."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How quickly did prices double during the peak of Hungary's 1946 hyperinflation?",
+      "options": [
+        "Every 15 hours",
+        "Every 15 days",
+        "Every 15 weeks",
+        "Every 15 months"
+      ],
+      "correctIndex": 0,
+      "explanation": "At its peak in July 1946, Hungary's hyperinflation caused prices to double roughly every 15 hours."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Goodhart's Law, what happens when an economic measure becomes a target?",
+      "options": [
+        "It becomes more accurate over time",
+        "It ceases to be a good measure",
+        "It automatically reduces national inflation",
+        "It guarantees steady economic growth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Goodhart's Law states that when a measure becomes a target, people optimize for the metric itself, ruining its reliability."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did the US government make it illegal to melt down pennies and nickels in 2006?",
+      "options": [
+        "To prevent metal pollution in landfills",
+        "To prevent people from melting them down for profit when metal values rise",
+        "To conserve copper for military hardware",
+        "To preserve historical coinage"
+      ],
+      "correctIndex": 1,
+      "explanation": "The US Mint prohibited melting pennies and nickels to prevent people from profiting from raw metal values exceeding face value."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did economist Joel Waldfogel argue that traditional holiday gift-giving creates economic inefficiency?",
+      "options": [
+        "Gifts are usually purchased with high-interest credit cards",
+        "Recipients often value gifts less than the money spent to purchase them",
+        "Retailers mark up prices excessively during the holidays",
+        "Gift wrapping creates excessive environmental waste"
+      ],
+      "correctIndex": 1,
+      "explanation": "Waldfogel found that recipients value gifts 10% to 33% lower than what givers paid, creating an economic deadweight loss."
+    },
+    {
+      "cardIndex": 5,
+      "question": "How did medieval English tally sticks protect against financial forgery?",
+      "options": [
+        "They were stamped with a unique royal wax seal",
+        "They were split lengthwise so the natural wood grain matched across both halves",
+        "They were written in invisible ink",
+        "They were locked inside the Royal Mint"
+      ],
+      "correctIndex": 1,
+      "explanation": "Splitting a wooden stick lengthwise created an impossible-to-forge wood grain match between the debtor's and creditor's halves."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What unusual property defines a Giffen good in economics?",
+      "options": [
+        "Demand increases as its price rises",
+        "Demand drops to zero when its price rises slightly",
+        "It is only purchased by high-income consumers",
+        "Its price never changes regardless of market demand"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Giffen good violates standard economic laws because demand actually increases as its price goes up."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What is the core paradox described by the 'paradox of thrift'?",
+      "options": [
+        "Saving money causes immediate hyperinflation",
+        "Individual attempts to save more during a downturn can lower aggregate spending and national income",
+        "Banks pay higher interest rates during severe recessions",
+        "High savings rates always eliminate unemployment"
+      ],
+      "correctIndex": 1,
+      "explanation": "When everyone cuts spending to save during a recession, aggregate demand falls, lowering total national income and saving capacity."
+    },
+    {
+      "cardIndex": 8,
+      "question": "How does the 'decoy effect' work in pricing strategy?",
+      "options": [
+        "It offers a secret discount to repeat buyers",
+        "An asymmetric third option makes a pricier item look like a much better value",
+        "It hides taxes until the final payment step",
+        "It forces buyers to choose within a strict timer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Introducing an inferior 'decoy' option makes a more expensive alternative seem significantly more attractive by comparison."
+    },
+    {
+      "cardIndex": 9,
+      "question": "According to psychological research, how does severe financial scarcity affect cognitive function?",
+      "options": [
+        "It improves focus and raises logical reasoning test scores",
+        "It reduces effective cognitive capacity by an equivalent of up to 13 IQ points",
+        "It has no measurable effect on mental bandwidth",
+        "It permanently damages long-term memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mental burden of managing acute money problems consumes cognitive bandwidth, reducing effective IQ by up to 13 points."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "During the peak of Hungary's 1946 hyperinflation, how many hours did it take for prices to double?",
+      "answer": 15,
+      "min": 1,
+      "max": 100,
+      "unit": "hours",
+      "explanation": "At the peak of Hungary's 1946 hyperinflation, prices doubled every 15 hours, making it the most severe hyperinflation in history."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What is the maximum fine in US dollars for illegally melting down US pennies or nickels for metal profit?",
+      "answer": 10000,
+      "min": 500,
+      "max": 100000,
+      "unit": "$",
+      "explanation": "Melting or exporting US 1-cent and 5-cent coins for scrap metal profit carries a penalty of up to 5 years in prison and a fine of up to $10,000."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "According to a 2013 study, how many IQ points worth of cognitive capacity can acute financial stress temporarily consume?",
+      "answer": 13,
+      "min": 2,
+      "max": 40,
+      "unit": "points",
+      "explanation": "Managing acute financial scarcity imposes a heavy mental burden, reducing cognitive capacity by up to 13 IQ points."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In a dollar auction game, only the highest bidder pays money to the auctioneer.",
+      "answer": false,
+      "explanation": "In a dollar auction, both the highest bidder and the second-highest bidder must pay their final bids."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "It is a federal crime in the United States to melt down nickels and sell the metal for profit.",
+      "answer": true,
+      "explanation": "Under 31 CFR Part 82, melting down US pennies or nickels for metal profit is illegal and punishable by fine or imprisonment."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Giving cash produces a larger economic deadweight loss than buying physical holiday gifts.",
+      "answer": false,
+      "explanation": "Cash avoids economic deadweight loss because recipients spend it on what they value most, unlike physical gifts which recipients often value below purchase cost."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "Demand for every consumer product decreases when its price goes up.",
+      "answer": false,
+      "explanation": "Giffen goods are rare exceptions where price increases cause demand to rise because low-income buyers are forced to substitute away from luxury foods."
+    }
+  ]
+}

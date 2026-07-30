@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-07-30T18:09:12.505Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Carl Friedrich Gauss invented the Fast Fourier Transform in 1805",
+      "body": "Modern digital signal processing, Wi-Fi, audio compression, and medical imaging rely on the Fast Fourier Transform algorithm published by James Cooley and John Tukey in 1965. However, mathematician Carl Friedrich Gauss actually invented the exact same algorithm in 1805 to calculate the orbits of asteroids like Pallas and Ceres—160 years before the digital computer age.",
+      "imageWikipediaTitle": "Fast Fourier transform",
+      "sources": [
+        {
+          "title": "Fast Fourier transform",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_Fourier_transform"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_Fourier_transform",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The QR code was created to track car parts and inspired by a board game",
+      "body": "In 1994, engineer Masahiro Hara and his team at the Japanese company Denso Wave developed the QR code to track automotive components during manufacturing. Traditional barcodes could only hold about 20 alphanumeric characters, forcing workers to scan multiple tags. Inspired by the grid strategy of the ancient board game Go, Hara designed a two-dimensional matrix that held over 7,000 characters.",
+      "imageWikipediaTitle": "QR code",
+      "sources": [
+        {
+          "title": "QR code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QR_code"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/QR_code",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Explaining code to a rubber duck is a recognized software engineering technique",
+      "body": "Software developers frequently debug complex code using a method known as rubber duck debugging. First described in the 1999 book The Pragmatic Programmer, the technique requires an engineer to explain every line of code out loud to a rubber duck on their desk. Forcing thoughts into clear spoken words bypasses mental shortcuts, helping developers instantly spot logical flaws they overlooked while typing.",
+      "imageWikipediaTitle": "Rubber duck debugging",
+      "sources": [
+        {
+          "title": "Rubber duck debugging",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rubber_duck_debugging",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Subatomic particles from deep space can flip bits inside your computer memory",
+      "body": "Cosmic rays originating from outside the Solar System constantly strike Earth's atmosphere, shower down subatomic particles, and occasionally hit microchips. When an energetic neutron strikes a transistor inside RAM, it can alter an electrical charge and turn a zero into a one. Known as a single-event upset, this cosmic bit flip can cause unexplained computer crashes, corrupt data, or manipulate electronics.",
+      "imageWikipediaTitle": "Single-event upset",
+      "sources": [
+        {
+          "title": "Single-event upset",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Single-event_upset"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Single-event_upset",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Alan Turing mathematically proved computers can never be completely error-free",
+      "body": "In 1936, years before the first electronic computer was built, British mathematician Alan Turing proved a fundamental limit of computing known as the Halting Problem. He proved that no master algorithm can ever exist that determines whether any arbitrary computer program will finish running or get stuck in an infinite loop forever. This mathematical wall proves that perfect, bug-detecting software is impossible.",
+      "imageWikipediaTitle": "Halting problem",
+      "sources": [
+        {
+          "title": "Halting problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Halting_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Halting_problem",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The classic beginner coding phrase 'Hello, World!' began in 1972",
+      "body": "Almost every programmer writes 'Hello, World!' as their very first code tutorial. The standard phrase was introduced in 1972 by computer scientist Brian Kernighan in an internal Bell Laboratories memorandum on the B programming language. It gained world fame in 1978 when Kernighan featured it in The C Programming Language, the influential textbook that shaped modern software development.",
+      "imageWikipediaTitle": "Hello World program",
+      "sources": [
+        {
+          "title": "Hello, World! program",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/%22Hello,_World!%22_program",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The network utility 'Ping' was named after submarine sonar pulses",
+      "body": "Computer scientist Mike Muuss created the ping utility in December 1983 to diagnose network connection problems. He named the program after the audible pulse sent out by submarine sonar systems, which bounces off underwater targets to measure distance. The command sends a tiny data packet called an ICMP echo request to a remote server and listens for an echo response, calculating network latency in milliseconds.",
+      "imageWikipediaTitle": "Ping (networking utility)",
+      "sources": [
+        {
+          "title": "Ping (networking utility)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ping_(networking_utility)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ping_(networking_utility)",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The universal PDF document format was created under codename 'Project Camelot'",
+      "body": "In 1991, Adobe co-founder John Warnock envisioned a world where documents could be viewed and printed identically on any computer or operating system without losing fonts or layouts. Codenamed 'Project Camelot,' his vision led to the launch of Portable Document Format (PDF) in 1993. Originally a proprietary format, Adobe released PDF as an open standard in 2008, solidifying its place across modern digital paperwork.",
+      "imageWikipediaTitle": "PDF",
+      "sources": [
+        {
+          "title": "PDF",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PDF"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/PDF",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "One of the earliest computer games was a 1952 tic-tac-toe simulation",
+      "body": "Long before arcade games or home consoles existed, British computer scientist Alexander S. Douglas developed OXO in 1952 as part of his PhD thesis on human-computer interaction at the University of Cambridge. Running on the room-sized EDSAC computer, OXO allowed a human player to play tic-tac-toe against an artificial opponent, outputting graphics on a 35-by-16 dot cathode-ray tube screen.",
+      "imageWikipediaTitle": "OXO (video game)",
+      "sources": [
+        {
+          "title": "OXO (video game)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/OXO_(video_game)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/OXO_(video_game)",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Former Microsoft CEO Steve Ballmer wrote the Ctrl+Alt+Del dialog text",
+      "body": "When running early Microsoft operating systems, pressing Ctrl+Alt+Del triggered a blue warning screen asking users if they wanted to close a frozen program. While working as head of the Systems Division in the early 1990s, Steve Ballmer visited the Windows development team and disliked their placeholder text for the dialog. Ballmer wrote a replacement on the spot, which shipped verbatim in Windows 3.1.",
+      "imageWikipediaTitle": "Blue screen of death",
+      "sources": [
+        {
+          "title": "Blue screen of death",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_screen_of_death"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blue_screen_of_death",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Who invented the mathematical algorithm behind the Fast Fourier Transform in 1805?",
+      "options": [
+        "Carl Friedrich Gauss",
+        "James Cooley",
+        "John Tukey",
+        "Alan Turing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carl Friedrich Gauss devised the Fast Fourier Transform algorithm in 1805 to calculate asteroid orbits long before electronic computing."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What traditional board game inspired the matrix layout of the QR code?",
+      "options": [
+        "Chess",
+        "Go",
+        "Backgammon",
+        "Checkers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Masahiro Hara based the two-dimensional matrix layout of QR codes on the grid patterns of the ancient game Go."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What desk object do programmers explain code out loud to during 'rubber duck debugging'?",
+      "options": [
+        "A rubber duck",
+        "A desk lamp",
+        "A coffee mug",
+        "A houseplant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rubber duck debugging requires developers to explain code line-by-line out loud to a rubber duck to discover hidden logical flaws."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What external source can strike computer RAM and flip a zero into a one?",
+      "options": [
+        "Cosmic rays",
+        "Static electricity from carpets",
+        "Sunlight exposure",
+        "Wi-Fi signals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Energetic neutrons originating from cosmic rays can alter electrical charges inside RAM chips, causing bit flips known as single-event upsets."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What limit did Alan Turing mathematically prove about computer algorithms in 1936?",
+      "options": [
+        "No master algorithm can determine if an arbitrary program will ever halt",
+        "Binary systems cannot compute values beyond 64 bits",
+        "Software execution speed is strictly bounded by hardware clock speed",
+        "Electronic circuits will always leak electrical charge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turing proved the Halting Problem, establishing that no single program can predict whether any given code will finish or loop forever."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Where was the phrase 'Hello, World!' first published in a programming context?",
+      "options": [
+        "A 1972 Bell Labs memorandum",
+        "An IBM mainframes user manual",
+        "A Microsoft press announcement",
+        "An early ARPANET technical specification"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brian Kernighan introduced 'Hello, World!' in a 1972 Bell Labs internal memo describing the B programming language."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What inspired creator Mike Muuss to name his network utility 'Ping'?",
+      "options": [
+        "Submarine sonar pulses",
+        "Table tennis paddle strikes",
+        "Microwave oven chimes",
+        "Telegraph key clicks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mike Muuss named ping after the sound of submarine sonar echoing off underwater objects, mirroring network echo requests."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What was Adobe's original internal codename for the PDF project in 1991?",
+      "options": [
+        "Project Camelot",
+        "Project Pegasus",
+        "Project Gutenberg",
+        "Project Excalibur"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Warnock outlined his vision for a universal document format under the internal codename 'Project Camelot.'"
+    },
+    {
+      "cardIndex": 8,
+      "question": "What game was featured in Alexander S. Douglas's 1952 computer simulation OXO?",
+      "options": [
+        "Tic-tac-toe",
+        "Chess",
+        "Pong",
+        "Checkers"
+      ],
+      "correctIndex": 0,
+      "explanation": "OXO was a 1952 tic-tac-toe game created on Cambridge's EDSAC computer to study human-computer interaction."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Who authored the Ctrl+Alt+Del warning screen text used in Windows 3.1?",
+      "options": [
+        "Steve Ballmer",
+        "Bill Gates",
+        "Paul Allen",
+        "Steve Jobs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steve Ballmer wrote the dialog text for the Ctrl+Alt+Del option screen himself while managing Microsoft's Systems Division."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many years before its 1965 publication by Cooley and Tukey did Carl Friedrich Gauss invent the Fast Fourier Transform?",
+      "answer": 160,
+      "min": 10,
+      "max": 400,
+      "unit": "years",
+      "explanation": "Gauss invented the Fast Fourier Transform algorithm in 1805 to calculate asteroid orbits, 160 years before Cooley and Tukey published it."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "At maximum capacity, how many numeric characters can a single QR code hold?",
+      "answer": 7089,
+      "min": 100,
+      "max": 20000,
+      "unit": "characters",
+      "explanation": "QR codes were designed to store up to 7,089 numeric characters, vastly exceeding traditional 20-character barcodes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Fast Fourier Transform was invented specifically for 20th-century digital computers.",
+      "answer": false,
+      "explanation": "Carl Friedrich Gauss actually invented the Fast Fourier Transform by hand in 1805 to calculate asteroid orbits."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Subatomic particles from deep space can cause silent data corruption inside consumer computer memory.",
+      "answer": true,
+      "explanation": "Cosmic rays hitting Earth's atmosphere generate neutrons that can strike RAM transistors and flip binary bits."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Computer scientists will eventually write a master program capable of automatically detecting every software bug.",
+      "answer": false,
+      "explanation": "Alan Turing mathematically proved in 1936 that no algorithm can ever determine whether all arbitrary software programs will halt or run forever."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "The network ping tool was originally named as an acronym for Packet InterNet Groper.",
+      "answer": false,
+      "explanation": "Creator Mike Muuss named ping after submarine sonar sound pulses; the acronym 'Packet InterNet Groper' was created later."
+    }
+  ]
+}

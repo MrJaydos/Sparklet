@@ -1,0 +1,315 @@
+{
+  "generatedAt": "2026-07-30T18:09:12.507Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When your brain convinces you your family has been replaced by impostors",
+      "body": "People with Capgras delusion recognize a familiar face, like a spouse or parent, but feel no emotional connection upon seeing them. Unable to bridge this gap, the brain invents a logical explanation: the person must be a physical clone or an impostor. It stems from a structural disconnect between visual recognition pathways and the amygdala.",
+      "sources": [
+        {
+          "title": "Capgras delusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Capgras_delusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Capgras_delusion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain has a strict hard limit on how many friends you can actually keep",
+      "body": "British anthropologist Robin Dunbar calculated that humans can maintain a maximum of roughly 150 stable social relationships. This limit is governed by the size of our neocortex, which restricts processing power for complex social dynamics. Beyond 150, keeping track of trust, history, and mutual obligations requires restrictive rules and formal hierarchies rather than personal bonds.",
+      "imageWikipediaTitle": "Robin Dunbar",
+      "sources": [
+        {
+          "title": "Dunbar's number",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunbar%27s_number"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dunbar%27s_number",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Some people cannot visualize anything in their mind's eye at all",
+      "body": "When asked to imagine an apple, most people see a vague image in their head. However, individuals with aphantasia experience complete mental blindness. They cannot voluntarily generate visual mental imagery, despite having normal memory, dreaming capability, and sight. First described in 1880 by Francis Galton, the condition was officially named in 2015 and affects around two to three percent of the population.",
+      "sources": [
+        {
+          "title": "Aphantasia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aphantasia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Aphantasia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you keep watching terrible movies just because you paid for the ticket",
+      "body": "The sunk cost fallacy drives humans to continue an endeavor once an investment in money, effort, or time has been made. Economically, past costs cannot be recovered and should be ignored when making future choices. Yet, human psychology pushes us to waste additional time and money to avoid feeling like our initial investment was wasted.",
+      "sources": [
+        {
+          "title": "Sunk cost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunk_cost"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "For some minds, the sound of a violin tastes like salty butter",
+      "body": "People with synesthesia experience a blending of senses: hearing a pitch might trigger a vivid color, while reading a number might evoke a specific taste. This neurological phenomenon occurs when cross-wiring between brain regions allows sensory pathways to activate one another automatically. About 2 to 4 percent of people experience synesthesia, which is involuntary and remains consistent throughout their lives.",
+      "sources": [
+        {
+          "title": "Synesthesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Synesthesia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Synesthesia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Imagine looking in the mirror and not recognizing your own face",
+      "body": "Prosopagnosia, or face blindness, is a cognitive disorder where a person cannot recognize human faces, including those of close relatives or even themselves. Affected individuals rely instead on non-facial cues like voice, posture, or clothing. The condition is caused by damage or developmental differences in the fusiform gyrus, a specialized brain region dedicated specifically to facial perception.",
+      "sources": [
+        {
+          "title": "Prosopagnosia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prosopagnosia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Prosopagnosia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most people fail this simple four-card logic test",
+      "body": "In 1966, Peter Wason created a simple four-card logic puzzle testing conditional reasoning. When framed with abstract letters and numbers, fewer than 10 percent of people solve it correctly. However, when the exact same logical rule is framed as a social scenario—like detecting underage drinkers—accuracy jumps drastically. Our evolutionary psychology excels at catching social rule-breakers, not abstract formal logic.",
+      "sources": [
+        {
+          "title": "Wason selection task",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wason_selection_task"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wason_selection_task",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ancient Greek orators memorized hours of speeches using invisible rooms",
+      "body": "The Method of Loci, or memory palace technique, relies on human spatial memory to recall vast amounts of information. By mentally placing items to remember along a familiar physical path—like rooms in your home—you can retrieve them later simply by walking through that space in your mind. Brain scans show this technique heavily engages the hippocampus, turning abstract words into concrete spatial landmarks.",
+      "sources": [
+        {
+          "title": "Method of loci",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Method_of_loci"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Method_of_loci",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the sound of someone chewing can trigger instant rage",
+      "body": "Misophonia is a psychological condition where specific, repetitive human sounds—such as chewing, breathing, or pen-clicking—trigger immediate, overwhelming feelings of anger or panic. Neurological research reveals that for people with misophonia, trigger sounds hyperactivate the anterior insular cortex, causing the brain to register these harmless noises as genuine emotional or physical threats, triggering an involuntary fight-or-flight response.",
+      "sources": [
+        {
+          "title": "Misophonia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Misophonia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Misophonia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Blind people can sometimes avoid obstacles without ever 'seeing' them",
+      "body": "Individuals with cortical blindness due to damage in the primary visual cortex report total blindness. Yet, when asked to reach for objects or navigate a crowded hallway, they successfully dodge obstacles at rates far above chance. Known as blindsight, this phenomenon reveals that primitive subcortical visual pathways process spatial information subconsciously, even when conscious visual experience is entirely destroyed.",
+      "sources": [
+        {
+          "title": "Blindsight",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blindsight"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blindsight",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What primary neurological disconnect causes Capgras delusion?",
+      "options": [
+        "A disconnect between visual recognition and emotional response",
+        "Complete destruction of long-term memory storage",
+        "A localized loss of auditory perception",
+        "Inability to perceive color or depth accurately"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capgras delusion occurs when visual recognition is intact but fails to trigger emotional response pathways in the amygdala, leading the brain to assume the person is an impostor."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does Dunbar's number measure?",
+      "options": [
+        "The maximum number of words a human can memorize in a single day",
+        "The upper limit of stable social relationships a person can maintain",
+        "The ideal number of hours needed for deep sleep cycles",
+        "The threshold of choices before decision fatigue sets in"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dunbar's number posits that humans can comfortably maintain around 150 stable social relationships due to cognitive limits in our neocortex."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What defines the condition known as aphantasia?",
+      "options": [
+        "Inability to distinguish between distinct smells",
+        "Inability to voluntarily generate visual images in one's mind",
+        "Loss of the ability to form long-term declarative memories",
+        "Hypersensitivity to loud environmental noises"
+      ],
+      "correctIndex": 1,
+      "explanation": "People with aphantasia cannot visualize mental images voluntarily, living without a mind's eye."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do people succumb to the sunk cost fallacy?",
+      "options": [
+        "They rely purely on formal economic logic",
+        "They try to avoid feeling that past non-recoverable investments were wasted",
+        "They assume future financial outcomes will always match past results",
+        "They overestimate the current market value of personal belongings"
+      ],
+      "correctIndex": 1,
+      "explanation": "The sunk cost fallacy causes people to spend extra time or money on a failing effort just to avoid acknowledging past unrecoverable losses."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What happens during the experience of synesthesia?",
+      "options": [
+        "Sensory stimuli in one pathway automatically trigger a response in another",
+        "Visual stimuli are completely blocked by surrounding noise",
+        "Memories are automatically altered based on external suggestions",
+        "People lose the ability to recognize familiar human faces"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synesthesia causes cross-sensory experiences, such as seeing colors when hearing sounds or tasting flavors when reading words."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which brain region is primarily associated with facial recognition and face blindness?",
+      "options": [
+        "Prefrontal cortex",
+        "Fusiform gyrus",
+        "Cerebellum",
+        "Primary auditory cortex"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fusiform gyrus contains specialized neural pathways dedicated specifically to processing and recognizing human faces."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why do people perform dramatically better on the Wason selection task when it is framed socially?",
+      "options": [
+        "Human evolution optimized our brains to catch social rule-breakers rather than solve formal logic",
+        "Abstract math is mathematically impossible for the human brain to compute",
+        "Social scenarios eliminate the need for short-term memory recall",
+        "Visual cues are absent in abstract formal logic problems"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human cognition evolved strong mechanisms for detecting social cheats, making conditional logic vastly easier when framed around social rules."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What memory mechanism does the Method of Loci primarily exploit?",
+      "options": [
+        "Rhythmic auditory repetition",
+        "Spatial memory navigation",
+        "Emotional suppression techniques",
+        "Subconscious dream processing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Method of Loci attaches memories to mental spatial pathways, leveraging our highly evolved hippocampal spatial memory."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What reaction do trigger sounds cause in individuals with misophonia?",
+      "options": [
+        "Extreme drowsiness and sudden fatigue",
+        "An intense, involuntary fight-or-flight emotional response",
+        "A temporary reduction in overall hearing ability",
+        "Enhanced focus on visual tasks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Misophonia causes trigger sounds to overactivate threat detection centers in the brain, inducing immediate rage or alarm."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How can individuals with blindsight navigate obstacles despite conscious blindness?",
+      "options": [
+        "They rely on echolocation like bats",
+        "Subconscious subcortical visual pathways still process spatial data",
+        "They use tactile signals through subtle air pressure on skin",
+        "Their auditory system translates images directly into sounds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Even when the primary visual cortex is damaged, older evolutionary subcortical brain pathways process visual layout without conscious awareness."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many stable social relationships can a human brain realistically maintain, according to Robin Dunbar?",
+      "answer": 150,
+      "min": 20,
+      "max": 500,
+      "unit": "",
+      "explanation": "Neocortex processing limits restrict stable human social networks to roughly 150 individuals."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "What percentage of people solve the abstract version of the Wason four-card logic puzzle correctly on their first attempt?",
+      "answer": 10,
+      "min": 1,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Fewer than 10% of participants solve the abstract logic puzzle, compared to over 70% when it is framed as a social rule."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Everyone has an inner mind's eye that can picture images when closing their eyes.",
+      "answer": false,
+      "explanation": "About 2 to 3 percent of people have aphantasia, a condition where they cannot voluntarily generate mental imagery at all."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "People with face blindness cannot see individual human facial features like eyes or noses.",
+      "answer": false,
+      "explanation": "People with prosopagnosia can see facial features clearly; their brains simply fail to synthesize those features into a recognizable facial identity."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Mentally walking through imaginary spatial locations can significantly boost memory recall.",
+      "answer": true,
+      "explanation": "The Method of Loci uses spatial memory in the hippocampus to link abstract facts with familiar locations, hugely boosting memory performance."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Damage to the primary visual cortex completely prevents any functional spatial detection of objects.",
+      "answer": false,
+      "explanation": "People with blindsight can navigate around objects because primitive subcortical visual pathways bypass the damaged visual cortex."
+    }
+  ]
+}

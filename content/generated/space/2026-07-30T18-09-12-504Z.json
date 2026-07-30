@@ -1,0 +1,336 @@
+{
+  "generatedAt": "2026-07-30T18:09:12.504Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sunlight can push a spacecraft through space without fuel",
+      "body": "Light carries no mass, but it carries momentum. When photons bounce off a reflective mirror in space, they exert a tiny physical force called radiation pressure. Missions like LightSail 2 demonstrate that giant, ultra-thin reflective sails can propel spacecraft across the solar system using continuous sunlight alone, eliminating the need for heavy onboard chemical propellant.",
+      "imageWikipediaTitle": "LightSail 2",
+      "sources": [
+        {
+          "title": "Solar sail",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_sail"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/LightSail_2",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's atmosphere extends past the Moon",
+      "body": "Earth does not simply end where space begins. Its outermost layer of hydrogen gas, known as the geocorona, glows under ultraviolet light and extends about 630,000 kilometers into space. That is nearly twice the distance to the Moon. In a literal sense, the Moon orbits right inside Earth's diffuse atmospheric envelope.",
+      "imageWikipediaTitle": "Geocorona",
+      "sources": [
+        {
+          "title": "Geocorona",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Geocorona"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Geocorona",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun is constantly ringing like a giant acoustic bell",
+      "body": "Convection inside the Sun causes hot plasma to boil violently, driving massive pressure waves through its interior. These giant sound waves cause the solar surface to ripple in millions of distinct acoustic patterns. Scientists use helioseismology to record these sound vibrations, mapping the inner structures and magnetic fields of our star much like geologists study earthquakes.",
+      "imageWikipediaTitle": "Helioseismology",
+      "sources": [
+        {
+          "title": "Helioseismology",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helioseismology"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Helioseismology",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Humans once traveled at nearly 40,000 kilometers per hour",
+      "body": "During their return to Earth in May 1969, the crew of Apollo 10 reached a top speed of 39,897 kilometers per hour relative to Earth. This remains the official Guinness World Record for the highest speed ever attained by a crewed vehicle. Traveling at nearly 11 kilometers per second, the astronauts crossed from deep space into Earth's atmosphere in mere minutes.",
+      "imageWikipediaTitle": "Apollo 10",
+      "sources": [
+        {
+          "title": "Apollo 10",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_10"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Apollo_10",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "On Venus, the Sun rises in the west and sets in the east",
+      "body": "Almost all major planets spin in a counterclockwise direction on their axes. Venus is a rare exception: it rotates clockwise in a motion called retrograde rotation. Because of this reverse spin, a hypothetical observer on the cloud-shrouded surface of Venus would watch the Sun rise in the west each morning and set in the east every evening.",
+      "imageWikipediaTitle": "Venus",
+      "sources": [
+        {
+          "title": "Venus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Venus",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Milky Way galaxy is actually bent and warped",
+      "body": "Textbooks traditionally depict the Milky Way as a flat, pristine spiral disk. However, precise mapping of millions of stars reveals that our galaxy's outer edges are significantly warped and twisted. The disk curves upward on one side and downward on the other, largely distorted by gravitational tugs from dwarf satellite galaxies like the Magellanic Clouds.",
+      "imageWikipediaTitle": "Milky Way",
+      "sources": [
+        {
+          "title": "Milky Way",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milky_Way"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Milky_Way",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Extended time in space can permanently distort human vision",
+      "body": "Without gravity pulling bodily fluids toward the feet, fluid accumulates inside an astronaut's head. Over long missions, elevated intracranial pressure flattens the back of the eye, shifts the focal point, and swells the optic nerve. Known as Spaceflight-Associated Neuro-ocular Syndrome, this condition causes long-term or permanent vision changes in more than half of long-duration space travelers.",
+      "imageWikipediaTitle": "Spaceflight-associated neuro-ocular syndrome",
+      "sources": [
+        {
+          "title": "Spaceflight-associated neuro-ocular syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spaceflight-associated_neuro-ocular_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spaceflight-associated_neuro-ocular_syndrome",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The solar system's tallest cliff would take 12 minutes to fall down",
+      "body": "On Uranus's small moon Miranda sits Verona Rupes, an enormous cliff estimated to be around 20 kilometers deep—roughly ten times deeper than the Grand Canyon. Because Miranda has very weak gravity, an astronaut stepping off the top of this precipice would fall freely for over 12 minutes before reaching the bottom.",
+      "imageWikipediaTitle": "Verona Rupes",
+      "sources": [
+        {
+          "title": "Verona Rupes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Verona_Rupes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Verona_Rupes",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Some stars gain a second youth by feeding on their neighbors",
+      "body": "Old star clusters should contain only ancient, cool stars. Yet astronomers regularly discover bright, blue, youthful-looking stars scattered among them. Known as blue stragglers, these celestial tricksters are old stars that siphon hydrogen gas from a binary companion star or collide with another star directly. The newly gained mass re-ignites their nuclear core, effectively resetting their age.",
+      "imageWikipediaTitle": "Blue straggler",
+      "sources": [
+        {
+          "title": "Blue straggler",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_straggler"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blue_straggler",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn's iconic rings are rapidly draining into the planet",
+      "body": "Saturn's majestic rings are far from permanent. Ultraviolet light and micrometeorites strip water ice particles of their electron charge, allowing Saturn's magnetic field to pull the icy material inward. Observations show this ring rain drains an Olympic-sized pool of water ice into the atmosphere every half hour, meaning the entire ring system could vanish in under 300 million years.",
+      "imageWikipediaTitle": "Rings of Saturn",
+      "sources": [
+        {
+          "title": "Rings of Saturn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rings_of_Saturn",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does a solar sail propel a spacecraft through space?",
+      "options": [
+        "By absorbing solar heat to boil water propellant",
+        "By catching radiation pressure from bouncing photons",
+        "By collecting solar wind ions in an electric field",
+        "By reflecting magnetic fields generated by the Sun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Photons carry momentum; bouncing off a reflective sail creates radiation pressure that pushes the spacecraft."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the geocorona?",
+      "options": [
+        "A layer of plasma surrounding Earth's liquid metal core",
+        "The outermost hydrogen layer of Earth's atmosphere extending past the Moon",
+        "The magnetic field boundary separating Earth from the solar wind",
+        "A ring of debris orbiting Earth high above the atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "The geocorona is the glowing, ultra-thin outer hydrogen cloud of Earth's atmosphere, reaching 630,000 km into space."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do astronomers study the internal structure of the Sun?",
+      "options": [
+        "By sending probe drills into the solar mantle",
+        "By analyzing acoustic sound waves bouncing inside the Sun",
+        "By taking X-ray photos of solar flares",
+        "By measuring neutrino temperatures from the surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "Helioseismology analyzes acoustic pressure waves rippling across the Sun's surface to map its internal layers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which spacecraft mission holds the record for the fastest crewed flight in history?",
+      "options": [
+        "Apollo 11",
+        "Apollo 10",
+        "Gemini 7",
+        "STS-31"
+      ],
+      "correctIndex": 1,
+      "explanation": "Apollo 10 reached 39,897 km/h relative to Earth during its return flight in May 1969."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does the Sun rise in the west on Venus?",
+      "options": [
+        "Venus orbits the Sun clockwise relative to other planets",
+        "Venus rotates clockwise on its axis (retrograde rotation)",
+        "Venus has a tilted axis flipped completely upside down",
+        "Venus has atmospheric refraction that mirrors light backwards"
+      ],
+      "correctIndex": 1,
+      "explanation": "Venus spins clockwise (retrograde rotation), reversing the direction of sunrise and sunset compared to Earth."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What causes the outer edges of the Milky Way galaxy to warp?",
+      "options": [
+        "Gravitational pulls from neighboring satellite galaxies",
+        "Extreme centrifugal forces from the supermassive black hole",
+        "Pressure from interstellar gas clouds entering the galaxy",
+        "Magnetic forces generated by spinning neutron stars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tidal forces from satellite galaxies like the Magellanic Clouds pull on the Milky Way's outer disk, warping it."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What causes Spaceflight-Associated Neuro-ocular Syndrome (SANS) in astronauts?",
+      "options": [
+        "Exposure to cosmic radiation in deep space",
+        "Shift of bodily fluids to the head, elevating pressure on the eyes",
+        "Straining eyes under harsh artificial space station lighting",
+        "Rapid changes in cabin atmospheric pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "In microgravity, fluid shifts upward toward the head, raising intracranial pressure and altering eyeball shape."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Where in the solar system is the 20-kilometer-deep cliff Verona Rupes located?",
+      "options": [
+        "Mars",
+        "Uranus's moon Miranda",
+        "Jupiter's moon Europa",
+        "The asteroid Ceres"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verona Rupes is located on Uranus's icy moon Miranda."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What makes 'blue straggler' stars appear deceptively young?",
+      "options": [
+        "They formed much later than surrounding stars in the cluster",
+        "They siphon hydrogen from a companion star or merge with another star",
+        "They burn heavy metals instead of hydrogen fuel",
+        "They trap gas from passing comets to cool down"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blue stragglers acquire fresh fuel by stripping hydrogen from binary companions or colliding with other stars."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What phenomenon is causing Saturn's rings to lose material?",
+      "options": [
+        "Solar flares blowing ring particles out into interstellar space",
+        "Magnetic fields pulling charged ice particles down into Saturn",
+        "Gravitational ejection of ring material by Titan",
+        "Sublimation of water ice directly into vacuum gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Ring rain' occurs as charged ice particles follow Saturn's magnetic field lines and drain into its upper atmosphere."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How far out into space (in kilometers) does Earth's hydrogen atmosphere extend?",
+      "answer": 630000,
+      "min": 50000,
+      "max": 2000000,
+      "unit": "km",
+      "explanation": "Earth's geocorona reaches about 630,000 km—nearly double the distance between Earth and the Moon."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What was the record top speed achieved by human space travelers on Apollo 10?",
+      "answer": 39897,
+      "min": 10000,
+      "max": 100000,
+      "unit": "km/h",
+      "explanation": "Apollo 10 reached 39,897 km/h relative to Earth during its return flight in 1969."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many minutes would it take an astronaut to fall down Verona Rupes on Miranda?",
+      "answer": 12,
+      "min": 1,
+      "max": 60,
+      "unit": "minutes",
+      "explanation": "Because of Miranda's low gravity, falling down the 20-km cliff would take over 12 minutes."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "In how many millions of years could Saturn's ring system completely disappear?",
+      "answer": 300,
+      "min": 10,
+      "max": 2000,
+      "unit": "million years",
+      "explanation": "Ring rain drains an Olympic pool of ice every half hour, threatening to erase Saturn's rings within 300 million years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The Moon orbits in pure outer space, well beyond Earth's atmosphere.",
+      "answer": false,
+      "explanation": "Earth's geocorona atmosphere extends 630,000 km out, encompassing the Moon's entire orbit."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "On Venus, the Sun rises in the west and sets in the east.",
+      "answer": true,
+      "explanation": "Because Venus rotates clockwise (retrograde rotation), the Sun rises in the west and sets in the east."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "The Milky Way galaxy is a perfectly flat, disk-shaped star system.",
+      "answer": false,
+      "explanation": "Precise 3D star mapping shows the outer disk of the Milky Way is warped and twisted upward and downward."
+    }
+  ]
+}
