@@ -1,0 +1,318 @@
+{
+  "generatedAt": "2026-07-31T18:14:34.914Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Olympic Games Used to Award Medals for Painting and Poetry",
+      "body": "Between 1912 and 1948, the Olympic Games were not just for high-performing athletes. Pierre de Coubertin, founder of the modern Olympics, insisted that real champions cultivate both mind and body. Artists competed in five categories: architecture, literature, music, painting, and sculpture. Every entry had to be an original work inspired by sport, and winners received official Olympic gold, silver, and bronze medals.",
+      "imageWikipediaTitle": "Art competitions at the Summer Olympics",
+      "sources": [
+        {
+          "title": "Art competitions at the Summer Olympics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "18th-Century Europeans Rented Pineapples as Status Symbols",
+      "body": "In 18th-century Europe, a single pineapple could cost equivalent to thousands of dollars today due to extreme growing requirements. Because purchasing one was out of reach for most hostesses, rental shops emerged. Partygoers could hire a pineapple for the evening simply to carry under their arm or display on a dinner table to signal extreme wealth, returning it intact before it spoiled.",
+      "imageWikipediaTitle": "Pineapple",
+      "sources": [
+        {
+          "title": "Pineapple",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pineapple"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pineapple",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Unique Hawaiian Quilts Inspired by Shadow Patterns",
+      "body": "When Christian missionaries introduced sewing to Hawaii in the 1820s, native women rejected traditional patchwork scraps in favor of something uniquely their own. Legend and tradition hold that early quilters were inspired by the distinct shadow of breadfruit leaves cast onto cloth laying in the sun. Hawaiian quilts feature large, single-piece symmetrical designs folded and cut like paper snowflakes, traditionally depicting local flora.",
+      "imageWikipediaTitle": "Hawaiian quilt",
+      "sources": [
+        {
+          "title": "Hawaiian quilt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hawaiian_quilt"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hawaiian_quilt",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Rare Sardinian Pasta Made of 256 Hand-Pulled Strands",
+      "body": "On the Italian island of Sardinia, a pasta called Su Filindeu (\"The Threads of God\") is regarded as one of the hardest culinary crafts to master. A maker repeatedly folds and stretches semolina dough until it yields exactly 256 uniform, hair-thin strands. These threads are laid diagonally across a circular tray in three intricate layers to dry in the sun, forming a delicate edible mesh.",
+      "imageWikipediaTitle": "Sardinian cuisine",
+      "sources": [
+        {
+          "title": "Sardinian cuisine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sardinian_cuisine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sardinian_cuisine",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Written Language Created Exclusively by Women",
+      "body": "In Jiangyong County, Hunan Province, Chinese women created Nüshu, a unique script used exclusively by women for centuries. Denied access to formal schooling in feudal China, women designed this phonetic system to write letters, poems, and songs to one another. Written in vertical columns on cloth, fans, and paper, Nüshu allowed women to share their struggles, personal thoughts, and sisterhood without men understanding it.",
+      "imageWikipediaTitle": "Nüshu",
+      "sources": [
+        {
+          "title": "Nüshu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/N%C3%BCshu"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/N%C3%BCshu",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Epic Poems Were Sung into Survival in Finland",
+      "body": "Before Finland had a written tradition for its folklore, centuries of mythology and history were preserved through runosong (runolaulu). Paired singers held hands and rocked rhythmically while reciting thousands of verses from memory, accompanied by the kantele, a traditional wooden zither. Collector Elias Lönnrot traveled the countryside in the 19th century recording these oral songs, compiling them into the national epic poem, the Kalevala.",
+      "imageWikipediaTitle": "Kantele",
+      "sources": [
+        {
+          "title": "Kantele",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kantele"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kantele",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Color Forbidden to Everyone Except the Chinese Emperor",
+      "body": "For centuries during the Ming and Qing dynasties, yellow was considered the most prestigious color in China, symbolizing imperial authority. Imperial decree strictly banned anyone outside the emperor and his immediate family from wearing imperial yellow garments or using yellow glazed roof tiles on homes. Unauthorized use of the color was treated as treason, a crime that carried the death penalty.",
+      "imageWikipediaTitle": "Yellow in Chinese culture",
+      "sources": [
+        {
+          "title": "Yellow in Chinese culture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yellow_in_Chinese_culture"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Yellow_in_Chinese_culture",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Spanish Town That Shuts Down for a Massive Tomato Fight",
+      "body": "Every year on the last Wednesday of August, the town of Buñol in Eastern Spain hosts La Tomatina, the world's largest food fight. Trucks haul over 100 metric tons of overripe tomatoes into the town center, where tens of thousands of participants pelt each other with squished tomatoes for one hour. The tradition started casually in 1945 after a street brawl near a vegetable stand turned into an impromptu tomato throw-down.",
+      "imageWikipediaTitle": "La Tomatina",
+      "sources": [
+        {
+          "title": "La Tomatina",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/La_Tomatina"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/La_Tomatina",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Intricate Masterpieces Swept Away Moments After Completion",
+      "body": "Tibetan Buddhist monks spend weeks painstakingly placing millions of individual grains of colored sand through thin metal funnels to form intricate geometric mandalas. Each design represents a spiritual realm or cosmic diagram. Yet, almost immediately after completing the artwork, the monks recite prayers and intentionally sweep the sand into a pile, pouring it into a nearby river to demonstrate the core Buddhist teaching of impermanence.",
+      "imageWikipediaTitle": "Sand mandala",
+      "sources": [
+        {
+          "title": "Sand mandala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sand_mandala"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sand_mandala",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Intricately Carved Wooden Spoons Used to Court Lovers",
+      "body": "In Wales, dating back to the 17th century, young men carved elaborate wooden lovespoons to present to women they courted. Far from functional utensils, these spoons featured complex carved symbols that communicated non-verbal intentions. A chain represented a desire to be together, a keyhole meant security or a home, and horseshoe shapes wished good luck. Receiving a lovespoon signified that formal courtship could officially begin.",
+      "imageWikipediaTitle": "Lovespoon",
+      "sources": [
+        {
+          "title": "Lovespoon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lovespoon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lovespoon",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In which era were art competitions officially included in the Olympic Games?",
+      "options": [
+        "1912 to 1948",
+        "1896 to 1910",
+        "1952 to 1980",
+        "1984 to 2000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Official Olympic medals were awarded for literature, architecture, sculpture, painting, and music from 1912 to 1948."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did people rent pineapples in 18th-century Europe?",
+      "options": [
+        "To serve as temporary table centerpieces and status symbols",
+        "To test if they were sweet enough before purchasing",
+        "To extract juice for medicinal remedies",
+        "To preserve them in ice cellars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pineapples were so costly that people rented them for parties to display wealth without having to buy them outright."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What naturally occurring phenomenon is said to have inspired traditional Hawaiian quilt designs?",
+      "options": [
+        "The shadows of leaves cast onto fabric",
+        "Volcanic lava flow patterns",
+        "Ocean wave crests at sunset",
+        "The web patterns of endemic spiders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Traditional Hawaiian quilting draws inspiration from leaf shadows cast onto white cloth lying under the sun."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How is the Sardinian pasta Su Filindeu constructed?",
+      "options": [
+        "By repeatedly folding dough into 256 hair-thin strands",
+        "By pressing dough through a brass extruder die",
+        "By slicing rolled sheets with a razor-sharp blade",
+        "By spinning dough on a miniature potter's wheel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Su Filindeu is made by hand-stretching semolina dough eight times to yield exactly 256 fine threads."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was unique about the Chinese written script known as Nüshu?",
+      "options": [
+        "It was created and used exclusively by women",
+        "It was written entirely using numerical symbols",
+        "It was carved only on bamboo shoots",
+        "It was reserved solely for royal court scribes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nüshu was developed by women in Hunan province as a secret script to communicate when denied formal education."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which musical instrument traditionally accompanied the oral recitation of the Finnish epic Kalevala?",
+      "options": [
+        "Kantele",
+        "Accordion",
+        "Hardanger violin",
+        "Bagpipe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Runosong recitations of the Kalevala were traditionally accompanied by the kantele, a wooden plucked zither."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What penalty could common citizens face for wearing imperial yellow in Ming and Qing dynasty China?",
+      "options": [
+        "Execution",
+        "A minor financial fine",
+        "Mandatory military service",
+        "Exile to another village"
+      ],
+      "correctIndex": 0,
+      "explanation": "Imperial yellow was strictly reserved for the emperor; unauthorized use was treated as treason and carried the death penalty."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How did the annual Spanish festival La Tomatina originally begin in 1945?",
+      "options": [
+        "A street brawl near a vegetable stand turned into a food fight",
+        "A mayor declared a surplus tomato giveaway",
+        "Local farmers staged a protest against low produce prices",
+        "A religious procession ended with a feast"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Tomatina started spontaneously in 1945 when a scuffle near a vegetable stall led crowd members to pelt each other with tomatoes."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why do Tibetan Buddhist monks sweep away sand mandalas immediately after finishing them?",
+      "options": [
+        "To symbolize the Buddhist concept of impermanence",
+        "To prevent other monasteries from copying their design",
+        "To reuse the colored sand for future artwork",
+        "To clear space for daily meditation practices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sweeping the intricate sand artwork into a river reminds observers that all conditioned things are temporary."
+    },
+    {
+      "cardIndex": 9,
+      "question": "In Welsh tradition, what did receiving a carved wooden lovespoon signify?",
+      "options": [
+        "That formal courtship between the couple could begin",
+        "That a wedding ceremony was happening that day",
+        "That a boy had completed his woodworking apprenticeship",
+        "That a family was welcoming a newborn child"
+      ],
+      "correctIndex": 0,
+      "explanation": "Presenting an intricately carved lovespoon was a courtship ritual; accepting it signaled agreement to court."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many hair-thin strands of dough are hand-pulled to create one sheet of traditional Sardinian Su Filindeu pasta?",
+      "answer": 256,
+      "min": 10,
+      "max": 1000,
+      "unit": "",
+      "explanation": "Pasta makers repeatedly fold and double dough until exactly 256 ultra-fine strands are formed."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many metric tons of tomatoes are pelted during Spain's annual La Tomatina food fight?",
+      "answer": 100,
+      "min": 10,
+      "max": 500,
+      "unit": "metric tons",
+      "explanation": "Over 100 metric tons of overripe tomatoes are brought in by trucks for the one-hour street battle."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The modern Olympic Games have only ever awarded medals for physical sports events.",
+      "answer": false,
+      "explanation": "From 1912 to 1948, the Olympics awarded official gold, silver, and bronze medals for fine arts like painting, sculpture, and literature."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "In 18th-century Europe, pineapples were a cheap snack eaten daily by ordinary workers.",
+      "answer": false,
+      "explanation": "Pineapples were exceptionally rare and expensive in 18th-century Europe, leading wealthy aristocrats to rent them as luxury party accessories."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Tibetan monks intentionally destroy intricate sand art mandalas immediately after completing them.",
+      "answer": true,
+      "explanation": "Monks deliberately sweep away weeks of painstaking sand art right after finishing it to embody the Buddhist concept of impermanence."
+    }
+  ]
+}

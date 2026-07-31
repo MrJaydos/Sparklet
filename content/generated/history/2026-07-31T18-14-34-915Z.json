@@ -1,0 +1,348 @@
+{
+  "generatedAt": "2026-07-31T18:14:34.915Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "WWII's \"Night Witches\" Glided Silently to Drop Bombs Unheard",
+      "body": "During World War II, the Soviet Union formed the 588th Night Bomber Regiment, an all-female unit flying outdated wooden biplanes. To attack German positions undetected, the pilots idled their engines near the target and glided silently through the dark. German soldiers likened the swooshing sound to broomsticks and nicknamed them the Night Witches.",
+      "imageWikipediaTitle": "Night Witches",
+      "sources": [
+        {
+          "title": "Night Witches",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Night_Witches"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Night_Witches",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Horrific Smell Forced Parliament to Rebuild London's Sewers",
+      "body": "In the scorching summer of 1858, human waste overwhelming the River Thames produced an unbearable stench across London known as the Great Stink. The smell became so intense inside the Houses of Parliament that lawmakers soaked curtains in chemicals to block it. Unable to work, Parliament quickly passed legislation funding a massive modern sewer system designed by Joseph Bazalgette.",
+      "imageWikipediaTitle": "Great Stink",
+      "sources": [
+        {
+          "title": "Great Stink",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Stink"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Stink",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Concept of Quarantine Was Born in 14th-Century Dubrovnik",
+      "body": "To protect itself from the Black Death, the seaport city-state of Ragusa (now Dubrovnik, Croatia) issued a law in 1377 requiring arriving ships and traders to spend 30 days in isolation on nearby islands before entering. This period, known as a trentino, was later extended to 40 days (quarantino), giving rise to the modern word quarantine.",
+      "imageWikipediaTitle": "Dubrovnik",
+      "sources": [
+        {
+          "title": "Quarantine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quarantine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Quarantine",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Iconic Pony Express Lasted for Less Than Two Years",
+      "body": "The Pony Express is famous as a symbol of the American Old West, known for young riders delivering mail across rugged terrain. Despite its legendary status in pop culture, the service operated for only 18 months, from April 1860 to October 1861. It became financially unsustainable and obsolete overnight when the transcontinental telegraph was completed.",
+      "imageWikipediaTitle": "Pony Express",
+      "sources": [
+        {
+          "title": "Pony Express",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pony_Express"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pony_Express",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The WWII Military Code That Was Never Broken",
+      "body": "During World War II, the United States Marine Corps recruited Navajo speakers to transmit top-secret military messages across the Pacific Theatre. The Marines developed a code based on the unwritten, complex Navajo language. Because the language was unwritten and known to very few non-Navajo people, enemy cryptanalysts were completely unable to decipher a single message throughout the war.",
+      "imageWikipediaTitle": "Code talker",
+      "sources": [
+        {
+          "title": "Code talker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Code_talker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Code_talker",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "China's 3,000-Year Imperial History Had Only One Female Emperor",
+      "body": "Over more than three millennia of imperial rule, dozens of dynasties governed China, but only one woman ruled in her own right as Emperor. Wu Zetian began as a low-ranking concubine in the Tang dynasty before rising through political skill and intelligence. In 690 AD, she established her own Zhou dynasty, ruling China for 15 years with economic stability and administrative expansion.",
+      "imageWikipediaTitle": "Wu Zetian",
+      "sources": [
+        {
+          "title": "Wu Zetian",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wu_Zetian"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wu_Zetian",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An Austrian Army Fought Itself in a Friendly-Fire Catastrophe",
+      "body": "In September 1788, the Austrian army set up camp near Karánsebes during the Austro-Turkish War. A group of hussars bought schnapps from locals and refused to share with infantrymen, leading to a brawl. A shot was fired, someone shouted Turks, and mass panic ensued in the dark. The multi-lingual army, misinterpreting shouts in different languages, opened fire on their own comrades, causing thousands of casualties.",
+      "imageWikipediaTitle": "Battle of Karánsebes",
+      "sources": [
+        {
+          "title": "Battle of Karánsebes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Battle_of_Kar%C3%A1nsebes",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "WWI Enemies Laid Down Arms for an Unofficial Christmas Truce",
+      "body": "On Christmas Eve 1914, along parts of the Western Front, British and German soldiers stepped out of their trenches into No Man's Land. Opposing troops sang carols, exchanged gifts like cigarettes and pudding, and played impromptu football matches. Though high commanders strictly forbade future ceasefires, this spontaneous truce remains one of history's most striking moments of human connection amid war.",
+      "imageWikipediaTitle": "Christmas truce",
+      "sources": [
+        {
+          "title": "Christmas truce",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Christmas_truce"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Christmas_truce",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tensions Between Two Nations Sparked the 100-Hour \"Football War\"",
+      "body": "In July 1969, existing political and economic tensions between El Salvador and Honduras boiled over after three contentious 1970 World Cup qualifying soccer matches. Following riots surrounding the games, El Salvador launched a military offensive against Honduras. Known as the Football War, the conflict lasted just 100 hours before the Organization of American States negotiated a cease-fire.",
+      "imageWikipediaTitle": "Football War",
+      "sources": [
+        {
+          "title": "Football War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Football_War"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Football_War",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How British Intelligence Used a Corpse to Trick Hitler",
+      "body": "In 1943, British intelligence devised Operation Mincemeat to disguise the Allied invasion of Sicily. They dressed a dead body as a Royal Marines officer, attached fake military plans indicating invasions of Greece and Sardinia, and released it off the coast of Spain. German intelligence intercepted the documents and persuaded Hitler to divert troops away from Sicily, securing Allied victory with minimal casualties.",
+      "imageWikipediaTitle": "Operation Mincemeat",
+      "sources": [
+        {
+          "title": "Operation Mincemeat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Mincemeat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Operation_Mincemeat",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which military unit glided silently in wooden biplanes with engines idling to conduct stealth night raids in WWII?",
+      "options": [
+        "The Flying Tigers",
+        "The Red Barons",
+        "The 588th Night Bomber Regiment ('Night Witches')",
+        "The Desert Rats"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 588th Night Bomber Regiment was an all-female Soviet unit whose silent gliding tactics earned them the nickname 'Night Witches' from German soldiers."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What forced the British Parliament to pass landmark legislation funding London's modern sewer system in 1858?",
+      "options": [
+        "An outbreak of bubonic plague",
+        "An unbearable stench of sewage from the River Thames ('The Great Stink')",
+        "A devastating citywide flood",
+        "A strike by private sanitation workers"
+      ],
+      "correctIndex": 1,
+      "explanation": "The extreme stench of Thames sewage during the summer of 1858 made Parliament unusable, driving swift legislation to fund Joseph Bazalgette's modern sewer network."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where was the world's first formal law mandating isolation for incoming ships to prevent disease established in 1377?",
+      "options": [
+        "Venice, Italy",
+        "Ragusa (modern Dubrovnik)",
+        "Marseille, France",
+        "Constantinople"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1377, the city-state of Ragusa passed a law requiring a 30-day isolation period (trentino) for arrivals, which laid the foundation for modern quarantine."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What technological breakthrough rendered the Pony Express obsolete after only 18 months of operation?",
+      "options": [
+        "The transcontinental railroad",
+        "The transcontinental telegraph",
+        "The steam-powered mailboat",
+        "The motorized automobile"
+      ],
+      "correctIndex": 1,
+      "explanation": "The completion of the transcontinental telegraph in October 1861 instantly allowed near-instantaneous messaging across North America, ending the Pony Express."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why were enemy cryptanalysts unable to crack the US military code used by Navajo Code Talkers in WWII?",
+      "options": [
+        "It was generated by an early mechanical supercomputer",
+        "It was based on an unwritten language known by very few non-Navajo people",
+        "It changed cipher keys automatically every five minutes",
+        "It used an obscure mathematical algorithm invented in 1941"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because Navajo was an unwritten, highly complex language spoken almost exclusively by native speakers, Japanese intelligence was never able to decipher it."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Who was the only woman in over 3,000 years of Chinese history to reign officially as Emperor in her own right?",
+      "options": [
+        "Empress Dowager Cixi",
+        "Wu Zetian",
+        "Hua Mulan",
+        "Empress Lu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wu Zetian declared her own Zhou dynasty in 690 AD, making her the sole female monarch to reign as Emperor in Chinese history."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What triggered the catastrophic self-inflicted battle of Karánsebes in 1788?",
+      "options": [
+        "A rogue commander issuing false orders",
+        "A brawl over schnapps and panic fueled by miscommunication in the dark",
+        "A flood that swept away tactical maps",
+        "An enemy spy impersonating an Austrian officer"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dispute over alcohol escalated into gunfire and shouts of 'Turks!', causing thousands of multi-lingual Austrian troops to fire on each other in the dark."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What famous event occurred along parts of the Western Front on Christmas Eve in 1914?",
+      "options": [
+        "The signing of the Treaty of Versailles",
+        "An unofficial truce where enemy soldiers sang carols and exchanged gifts",
+        "The first recorded use of tank warfare",
+        "A coordinated retreat ordered by both commanders"
+      ],
+      "correctIndex": 1,
+      "explanation": "During the Christmas Truce of 1914, British and German soldiers spontaneously laid down their weapons, crossed into No Man's Land, and celebrated together."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Which two nations fought the brief 100-hour 'Football War' in 1969 following soccer match riots?",
+      "options": [
+        "Brazil and Argentina",
+        "El Salvador and Honduras",
+        "England and Scotland",
+        "Spain and Portugal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Simmering border tensions between El Salvador and Honduras erupted into a 100-hour military war following three contentious World Cup qualifying matches."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How did British intelligence deceive German high command about the target of the 1943 Allied invasion of Sicily?",
+      "options": [
+        "By planting fake invasion plans on a dead body washed ashore in Spain",
+        "By creating inflatable tanks on the coast of England",
+        "By hacking German teleprinter networks",
+        "By leaking false information through bribed diplomats in Berlin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operation Mincemeat used a corpse carrying fabricated secret documents to trick Hitler into moving German defensive forces away from Sicily."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "Following the Great Stink of 1858, how many miles of main underground intercepting sewers were constructed for London's new sanitation network?",
+      "answer": 82,
+      "min": 10,
+      "max": 500,
+      "unit": "miles",
+      "explanation": "Joseph Bazalgette designed and oversaw the construction of 82 miles of main intercepting sewers to channel London's waste away from the Thames."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In 1377, the seaport city of Ragusa passed the world's first formal isolation law against disease. How many days was this original isolation period?",
+      "answer": 30,
+      "min": 5,
+      "max": 100,
+      "unit": "days",
+      "explanation": "Ragusa's original law mandated 30 days (trentino), which was later extended to 40 days (quarantino), creating the word quarantine."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Despite its legendary status in American history, how many months did the Pony Express actually operate before shutting down?",
+      "answer": 18,
+      "min": 1,
+      "max": 120,
+      "unit": "months",
+      "explanation": "The Pony Express operated for only 18 months (April 1860 to October 1861) before the completion of the transcontinental telegraph made it obsolete."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "How many hours did the 1969 'Football War' between El Salvador and Honduras last before a cease-fire was reached?",
+      "answer": 100,
+      "min": 10,
+      "max": 1000,
+      "unit": "hours",
+      "explanation": "The military conflict lasted approximately 100 hours (about four days) before the Organization of American States successfully brokered a ceasefire."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Soviet women were prohibited from flying combat missions during World War II.",
+      "answer": false,
+      "explanation": "The Soviet Union formed three all-female air regiments, including the 588th Night Bomber Regiment, whose pilots flew thousands of combat missions."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The Pony Express served as the main mail transport system across the US West for over a decade.",
+      "answer": false,
+      "explanation": "The Pony Express operated for only 18 months before closing down immediately after the transcontinental telegraph was completed."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "China had several reigning female emperors across its long imperial history.",
+      "answer": false,
+      "explanation": "Wu Zetian was the only woman in over 3,000 years of Chinese history to rule in her own right as Emperor."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "British and German soldiers spontaneously stopped fighting on Christmas Eve 1914 despite orders forbidding ceasefires.",
+      "answer": true,
+      "explanation": "Despite strict commands from high leadership, troops along parts of the Western Front stepped into No Man's Land to sing carols and exchange gifts."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Operation Mincemeat relied on high-tech radio encryption to deceive German military intelligence.",
+      "answer": false,
+      "explanation": "Operation Mincemeat relied on a low-tech deception using a corpse dressed as an officer carrying fabricated documents floating off Spain's coast."
+    }
+  ]
+}
