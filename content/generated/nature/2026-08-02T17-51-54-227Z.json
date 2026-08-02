@@ -1,0 +1,349 @@
+{
+  "generatedAt": "2026-08-02T17:51:54.227Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Reindeer eyes change color from gold to blue as winter arrives",
+      "body": "During the bright Arctic summer, the backs of reindeer eyes reflect golden light. But during the pitch-black polar winter, a layer behind their retinas compresses, changing their eye reflection to deep blue. This winter shift increases their visual sensitivity, allowing reindeer to detect predators and forage for lichen under extreme, low-light UV conditions.",
+      "imageWikipediaTitle": "Reindeer",
+      "sources": [
+        {
+          "title": "Reindeer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reindeer"
+        },
+        {
+          "title": "Shining light on the Arctic reindeer tapetum lucidum",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3871326/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Reindeer",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sperm whales sleep standing straight up in the water",
+      "body": "Sperm whales engage in one of the ocean's most unusual sleeping behaviors. They drift vertically in the water column near the surface, suspended completely motionless in small groups. These sleeping sessions last only 10 to 15 minutes at a time, during which the whales hold their breath and remain entirely unresponsive to passing boats until they awaken.",
+      "imageWikipediaTitle": "Sperm whale",
+      "sources": [
+        {
+          "title": "Sperm whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sperm_whale"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sperm_whale",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hagfish can clog a shark's gills in seconds with expanding slime",
+      "body": "When threatened, the hagfish releases microfibers and mucus that react instantly with seawater, expanding into gallons of sticky slime within milliseconds. This sudden burst of gelatinous slime clogs the mouth and gills of predatory fish and sharks, choking them into releasing the hagfish. The hagfish then ties itself into a knot to scrape off the slime and slide away free.",
+      "imageWikipediaTitle": "Hagfish",
+      "sources": [
+        {
+          "title": "Hagfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hagfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hagfish",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Giant squids possess the largest eyes in the animal kingdom",
+      "body": "A giant squid's eye can reach up to 27 centimeters across—roughly the size of a dinner plate. Living hundreds of meters below the surface in pitch darkness, these massive visual organs do not exist to see in dim daylight. Instead, they evolved specifically to detect the faint bioluminescent flashes sparked in deep ocean water when huge sperm whales glide toward them.",
+      "imageWikipediaTitle": "Giant squid",
+      "sources": [
+        {
+          "title": "Giant squid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant_squid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Giant_squid",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea cucumbers pump water through their anus to breathe",
+      "body": "Sea cucumbers lack lungs or traditional gills. Instead, they draw seawater inside their bodies through their anus using a muscular pump. Inside the cloaca, branch-like structures called respiratory trees extract dissolved oxygen from the water before pumping it back out. This unique anatomy also makes their lower end a cozy, oxygen-rich shelter for small parasitic pearlfish.",
+      "imageWikipediaTitle": "Sea cucumber",
+      "sources": [
+        {
+          "title": "Sea cucumber",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_cucumber"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_cucumber",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male platypuses deploy painful venom through spurs on their hind legs",
+      "body": "The platypus is one of the world's few venomous mammals. Male platypuses possess sharp spurs on the inside of their hind ankles connected to venom glands in their thighs. The venom secretion spikes during the spring breeding season, used primarily to fend off competing males. While not fatal to humans, the sting causes severe, agonizing pain that resists typical painkiller medications.",
+      "imageWikipediaTitle": "Platypus",
+      "sources": [
+        {
+          "title": "Platypus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Platypus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Platypus",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flamingos feed their chicks a bright red crop milk produced in their throat",
+      "body": "Flamingos do not feed their young regurgitated bugs or seed paste. Instead, both male and female parents produce a nutrient-dense liquid called crop milk from lining cells in their digestive tract. Rich in fats, proteins, and red blood cells, this milky substance is bright red. Parent flamingos lose their own pink feathers temporarily as they pump their reddish reserves into their hungry chicks.",
+      "imageWikipediaTitle": "Flamingo",
+      "sources": [
+        {
+          "title": "Crop milk",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crop_milk"
+        },
+        {
+          "title": "Flamingo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flamingo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Crop_milk",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sloths can starve to death on a full stomach if they get too cold",
+      "body": "Sloths rely entirely on symbiotic gut bacteria to ferment and break down the tough leaves they eat. Because sloths are poor at regulating their internal body temperature, cold weather drops their core temperature significantly. When they get too cold, these crucial gut microbes stop working. A sloth can die of starvation even with a stomach completely crammed full of undigested leaf matter.",
+      "imageWikipediaTitle": "Sloth",
+      "sources": [
+        {
+          "title": "Sloth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sloth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sloth",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pangolins are protected by heavy armor made of human nail material",
+      "body": "Pangolins are the only mammals covered in large, overlapping protective scales. These tough armor plates make up as much as 20 percent of the animal's total body weight. Despite looking like reptile skin or pinecone scales, pangolin armor is made entirely of keratin—the exact same protein that forms human fingernails, rhino horns, and hair. When threatened, they roll into an impenetrable ball.",
+      "imageWikipediaTitle": "Pangolin",
+      "sources": [
+        {
+          "title": "Pangolin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pangolin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pangolin",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Honeyguide birds lead humans directly to wild beehives in a mutual hunt",
+      "body": "In sub-Saharan Africa, wild honeyguide birds call out to human honey hunters and fly from tree to tree to guide them directly to wild beehives. Humans smoke out the bees and harvest the honeycombs, leaving behind beeswax and larvae for the bird to feast on. It is one of the rare documented cases of cooperative, two-way communication between wild animals and humans.",
+      "imageWikipediaTitle": "Honeyguide",
+      "sources": [
+        {
+          "title": "Honeyguide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honeyguide"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Honeyguide",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do reindeer eyes turn deep blue during the Arctic winter?",
+      "options": [
+        "To attract potential mates in darkness",
+        "To increase visual sensitivity in dim UV light",
+        "To protect their eyes from freezing temperatures",
+        "To store extra water in their retinas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reindeer eye reflection turns blue in winter to compress retinal tissue and boost visual sensitivity in extreme low light."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do sperm whales sleep in the open ocean?",
+      "options": [
+        "Lying flat on the ocean floor",
+        "Floating horizontally while swimming continuously",
+        "Drifting vertically near the ocean surface",
+        "Burrowing into deep ocean trenches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sperm whales sleep in short, motionless bursts while floating vertically near the surface."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does hagfish slime help the animal escape predators?",
+      "options": [
+        "It dissolves the skin of predators on contact",
+        "It instantly expands in seawater to clog a predator's gills",
+        "It creates a dark cloud that hides the hagfish",
+        "It glues the predator's jaws shut permanently"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hagfish slime expands instantly in seawater, choking the mouth and gills of attackers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the main evolutionary advantage of the giant squid's massive eyes?",
+      "options": [
+        "To see fine details on the ocean floor",
+        "To hunt small crustaceans in the mud",
+        "To detect bioluminescent flashes from approaching whales",
+        "To focus sunlight reaching deep water"
+      ],
+      "correctIndex": 2,
+      "explanation": "Their huge eyes spot the faint bioluminescent trail disturbed by large predatory sperm whales in pitch darkness."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do sea cucumbers draw oxygen into their bodies?",
+      "options": [
+        "By absorbing oxygen through their outer skin",
+        "By pumping seawater through their anus",
+        "By surfacing to fill an internal air bladder",
+        "By filtering water through specialized mouth tentacles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sea cucumbers use muscular contractions to pump seawater in and out of their anus into internal respiratory trees."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which platypuses possess venomous spurs and when are they most active?",
+      "options": [
+        "Females, during egg nesting season",
+        "Males, during the spring breeding season",
+        "Both sexes, continuously throughout life",
+        "Only juveniles, before reaching adulthood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Male platypuses have venom spurs on their hind legs that spike in venom production during the spring mating season."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What do parent flamingos produce to feed their young chicks?",
+      "options": [
+        "Fermented seed pulp from their gizzard",
+        "A bright red crop milk from their digestive tract",
+        "Stored insect protein gathered from mud",
+        "A clear waxy substance secreted from their wings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both male and female flamingos produce nutrient-rich, red crop milk in their digestive tracts to nourish chicks."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why can a sloth starve to death with a full stomach in cold weather?",
+      "options": [
+        "Its gut bacteria stop functioning when cold",
+        "The food freezes solid inside its stomach",
+        "Its body consumes all stomach contents instantly",
+        "Its stomach contracts and crushes the food"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cold temperatures slow down or halt the symbiotic microbes sloths rely on to ferment and digest leaf matter."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What protein forms the protective armor scales of a pangolin?",
+      "options": [
+        "Calcium carbonate",
+        "Keratin",
+        "Chitin",
+        "Collagen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pangolin scales are made of keratin, the same tough protein found in human fingernails and hair."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What reward do wild honeyguide birds seek when guiding humans to beehives?",
+      "options": [
+        "Fresh tree sap",
+        "Beeswax and bee larvae",
+        "Protection from predators",
+        "Water collected in honeycombs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humans open the hive for honey, leaving behind beeswax and nutrient-rich larvae for the honeyguide bird."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many minutes at a time does a sperm whale sleep during its vertical drifting naps?",
+      "answer": 15,
+      "min": 2,
+      "max": 90,
+      "unit": "min",
+      "explanation": "Sperm whales sleep in brief vertical bursts lasting only 10 to 15 minutes before resurfacing or awakening."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many centimeters across can a giant squid's eye grow?",
+      "answer": 27,
+      "min": 5,
+      "max": 60,
+      "unit": "cm",
+      "explanation": "A giant squid's eye can reach up to 27 cm (nearly 11 inches) in diameter, making it the largest eye in the animal kingdom."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "What percentage of a pangolin's total body weight comes from its protective scales?",
+      "answer": 20,
+      "min": 2,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Heavy keratin scales account for up to 20% of a pangolin's overall body weight."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Reindeer eyes maintain a constant color throughout all seasons.",
+      "answer": false,
+      "explanation": "Reindeer eyes shift from gold in the summer to deep blue during the dark polar winter to enhance light sensitivity."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "Female platypuses use venomous spurs to protect their nests.",
+      "answer": false,
+      "explanation": "Only male platypuses possess venomous spurs, using them primarily to battle rival males during breeding season."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "Both male and female flamingos can produce milk to feed their young.",
+      "answer": true,
+      "explanation": "Both parents produce nutrient-rich crop milk from their digestive tracts to feed their chicks."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Sloths can starve to death with a full stomach if environmental temperatures drop too low.",
+      "answer": true,
+      "explanation": "Cold temperatures cause a sloth's gut bacteria to stall, preventing digestion even when the stomach is full."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Pangolin scales are made of calcium, similar to turtle shells.",
+      "answer": false,
+      "explanation": "Pangolin scales are made of keratin, the exact same protein found in human hair and fingernails."
+    }
+  ]
+}
