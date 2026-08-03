@@ -8,6 +8,18 @@ const bodySchema = z.object({
   categorySlugs: z.array(z.string()).max(30).optional(),
 });
 
+export async function GET() {
+  const session = await auth();
+  const userId = session?.user?.id;
+  if (!userId) return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+
+  const interests = await prisma.userInterest.findMany({
+    where: { userId },
+    select: { category: { select: { slug: true } } },
+  });
+  return NextResponse.json({ categorySlugs: interests.map((i) => i.category.slug) });
+}
+
 export async function POST(req: NextRequest) {
   const session = await auth();
   const userId = session?.user?.id;

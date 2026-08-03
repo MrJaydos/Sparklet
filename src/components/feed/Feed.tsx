@@ -341,19 +341,39 @@ export function Feed({
   );
 
   // Restore saved topic selection (may differ from the server-rendered feed).
+  // Local storage paints instantly (and is all guests get); for signed-in
+  // users the server (UserInterest, kept in sync by applyCategories) is the
+  // durable cross-device source of truth and wins once it lands.
   useEffect(() => {
+    let localSaved: string[] = [];
     try {
-      const saved: string[] = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
-      // Deferred so the restore doesn't force a cascading render mid-hydration.
-      queueMicrotask(() => {
-        if (saved.length) {
-          setSelected(saved);
-          fetchCards(saved, { reset: true });
-        }
-      });
+      localSaved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "[]");
     } catch {
       /* ignore corrupt storage */
     }
+    // Deferred so the restore doesn't force a cascading render mid-hydration.
+    queueMicrotask(() => {
+      if (localSaved.length) {
+        setSelected(localSaved);
+        fetchCards(localSaved, { reset: true });
+      }
+    });
+
+    if (isGuest) return;
+    fetch("/api/interests")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: { categorySlugs?: string[] } | null) => {
+        if (!data) return;
+        const serverSaved = data.categorySlugs ?? [];
+        const same =
+          serverSaved.length === localSaved.length &&
+          serverSaved.every((s) => localSaved.includes(s));
+        if (same) return;
+        setSelected(serverSaved);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(serverSaved));
+        fetchCards(serverSaved, { reset: true });
+      })
+      .catch(() => {});
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -662,9 +682,10 @@ export function Feed({
     localStorage.setItem(STORAGE_KEY, JSON.stringify(slugs));
     setShowSheet(false);
     fetchCards(slugs, { reset: true });
-    // Keep persisted interests (nudge targeting, new-user boost) in sync with
-    // whatever the user actually filters the feed to, not just onboarding.
-    if (slugs.length && !isGuest) {
+    // Keep persisted interests (nudge targeting, new-user boost, cross-device
+    // sync) in sync with whatever the user filters the feed to — including
+    // clearing back to "Everything", not just picking topics.
+    if (!isGuest) {
       fetch("/api/interests", {
         method: "POST",
         headers: { "content-type": "application/json" },
