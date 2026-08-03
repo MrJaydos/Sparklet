@@ -1020,11 +1020,14 @@ export function Feed({
           ) : item.kind === "goalReached" ? (
             <section
               key="goal-reached"
-              className="flex h-dvh snap-start flex-col items-center justify-center gap-4 px-8 text-center"
+              className="relative flex h-dvh snap-start flex-col items-center justify-center gap-4 overflow-hidden px-8 text-center"
             >
-              <div className="text-6xl">🏁</div>
-              <h2 className="text-3xl font-bold">Daily goal complete!</h2>
-              <p className="max-w-sm text-neutral-400">
+              <div className="goal-glow pointer-events-none absolute -z-10 h-64 w-64 rounded-full bg-gradient-to-br from-violet-500 via-fuchsia-500 to-amber-400 blur-3xl" />
+              <div className="goal-pop text-7xl">🏆</div>
+              <h2 className="goal-text-in bg-gradient-to-r from-violet-300 via-fuchsia-300 to-amber-300 bg-clip-text text-4xl font-extrabold text-transparent">
+                Daily goal complete!
+              </h2>
+              <p className="goal-text-in max-w-sm text-neutral-400">
                 {cardsToday} cards today — you hit your goal of {dailyCardGoal}. That&apos;s{" "}
                 {sessionViews} this session across {sessionCategories.size} topic
                 {sessionCategories.size === 1 ? "" : "s"}. Ending on purpose beats endless
@@ -1198,7 +1201,18 @@ export function Feed({
 
       {cardGoalCelebration && (
         <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 animate-pulse bg-gradient-to-br from-violet-600/20 via-fuchsia-500/10 to-transparent" />
           <ConfettiBurst big />
+          <ConfettiBurst big />
+          <div className="relative rounded-2xl border border-violet-700 bg-neutral-950/95 px-8 py-6 text-center shadow-2xl backdrop-blur">
+            <div className="goal-pop text-5xl">🎉</div>
+            <div className="goal-text-in mt-2 bg-gradient-to-r from-violet-300 via-fuchsia-300 to-amber-300 bg-clip-text text-2xl font-extrabold text-transparent">
+              Goal crushed!
+            </div>
+            <div className="goal-text-in mt-1 text-sm text-neutral-400">
+              {dailyCardGoal} cards today — you&apos;re on fire.
+            </div>
+          </div>
         </div>
       )}
 
