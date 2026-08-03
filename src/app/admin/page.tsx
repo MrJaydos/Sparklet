@@ -9,6 +9,7 @@ import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
 import { isBillingEnabled } from "@/lib/billing";
 import { AppHeader } from "@/components/AppHeader";
+import { ModerationSwiperLauncher } from "@/components/admin/ModerationSwiper";
 
 export const metadata = { title: "Admin — Sparklet" };
 export const dynamic = "force-dynamic";
@@ -139,9 +140,12 @@ export default async function AdminPage({
         select: {
           id: true,
           title: true,
+          body: true,
+          imageUrl: true,
+          sources: true,
           reviewNote: true,
           modelUsed: true,
-          category: { select: { name: true, icon: true } },
+          category: { select: { name: true, icon: true, colorHex: true } },
         },
       }),
       prisma.report.findMany({
@@ -617,7 +621,10 @@ export default async function AdminPage({
           )}
 
           {/* Cards awaiting review (failed URL validation or auto-hidden) */}
-          <h2 id="awaiting-review" className="mt-10 scroll-mt-20 text-lg font-bold">Cards awaiting review</h2>
+          <div className="mt-10 flex items-center justify-between gap-3">
+            <h2 id="awaiting-review" className="scroll-mt-20 text-lg font-bold">Cards awaiting review</h2>
+            <ModerationSwiperLauncher cards={unpublished} />
+          </div>
           {unpublished.length === 0 ? (
             <p className="mt-2 text-sm text-neutral-500">No cards held back.</p>
           ) : (
