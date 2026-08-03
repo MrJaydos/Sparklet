@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
-import { isAdminEmail } from "@/lib/admin";
+import { isAdminEmail, rejectCard } from "@/lib/admin";
 import { prisma } from "@/lib/db";
 
 const bodySchema = z.object({ action: z.union([z.literal("publish"), z.literal("delete")]) });
@@ -28,7 +28,7 @@ export async function POST(
       data: { published: true, reviewNote: null },
     });
   } else {
-    await prisma.card.delete({ where: { id: cardId } });
+    await rejectCard(cardId);
   }
 
   return NextResponse.json({ ok: true });

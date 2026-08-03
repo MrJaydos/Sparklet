@@ -221,6 +221,17 @@ enum DepthLevel {
   EXTRA_DEEP // multi-paragraph mini-article
 }
 
+// A permanent record of a card's contentHash after an admin deletes it from
+// the review queue. seed-content.ts checks this before importing so the same
+// generated JSON (still committed under content/generated/, reprocessed
+// every deploy) can't resurrect a card admins already rejected — deleting
+// the Card row alone would free its contentHash for reimport.
+model RejectedContentHash {
+  contentHash String   @id
+  reason      String?
+  rejectedAt  DateTime @default(now())
+}
+
 model UserCardInteraction {
   id        String    @id @default(cuid())
   userId    String

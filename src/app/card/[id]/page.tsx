@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import type { Metadata } from "next";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
-import { isAdminEmail } from "@/lib/admin";
+import { isAdminEmail, rejectCard } from "@/lib/admin";
 import { getRelatedCards } from "@/lib/related";
 import { timeAgo } from "@/lib/time";
 import { CommentsPanel } from "@/components/feed/CommentsSheet";
@@ -29,7 +29,7 @@ async function moderateCard(formData: FormData) {
   if (action === "publish") {
     await prisma.card.update({ where: { id: cardId }, data: { published: true, reviewNote: null } });
   } else if (action === "delete") {
-    await prisma.card.delete({ where: { id: cardId } });
+    await rejectCard(cardId);
   }
   revalidatePath("/admin");
 

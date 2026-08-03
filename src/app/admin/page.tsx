@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { auth, signOut } from "@/auth";
 import { prisma } from "@/lib/db";
-import { isAdminEmail } from "@/lib/admin";
+import { isAdminEmail, rejectCard } from "@/lib/admin";
 import { getXpToday, DAILY_GOAL_XP } from "@/lib/xp";
 import { getUnreadCount } from "@/lib/notifications";
 import { isBillingEnabled } from "@/lib/billing";
@@ -73,7 +73,7 @@ async function reviewCard(formData: FormData) {
       data: { published: true, reviewNote: null },
     });
   } else if (action === "delete") {
-    await prisma.card.delete({ where: { id: cardId } });
+    await rejectCard(cardId);
   }
   revalidatePath("/admin");
 }

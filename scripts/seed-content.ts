@@ -284,6 +284,11 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
     stats.skipped++;
     return existing.id;
   }
+  const rejected = await prisma.rejectedContentHash.findUnique({ where: { contentHash: hash } });
+  if (rejected) {
+    stats.rejected++;
+    return null;
+  }
 
   const category = await prisma.category.findUnique({ where: { slug: card.category } });
   if (!category) {
@@ -455,6 +460,7 @@ async function main() {
     invalidFile: 0,
     duplicates: 0,
     paywalled: 0,
+    rejected: 0,
     quizzes: 0,
     guesses: 0,
     misconceptions: 0,
@@ -486,7 +492,7 @@ async function main() {
   }
 
   console.log(
-    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} nearDuplicates=${stats.duplicates} paywalled=${stats.paywalled} quizzes=${stats.quizzes} guesses=${stats.guesses} misconceptions=${stats.misconceptions} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
+    `Done. published=${stats.published} heldForReview=${stats.review} alreadyPresent=${stats.skipped} rejectedByAdmin=${stats.rejected} nearDuplicates=${stats.duplicates} paywalled=${stats.paywalled} quizzes=${stats.quizzes} guesses=${stats.guesses} misconceptions=${stats.misconceptions} badCategory=${stats.badCategory} invalidFiles=${stats.invalidFile}`
   );
 
   // Backfill: cards imported before the source-URL image fallback existed
