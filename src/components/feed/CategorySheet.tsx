@@ -219,12 +219,15 @@ export function CategorySheet({
           })}
         </div>
 
+        <p className="mt-4 text-center text-xs text-neutral-500">
+          Applying: {picked.length === 0 ? "Everything" : `${picked.length} topic${picked.length > 1 ? "s" : ""}`}
+        </p>
         <button
           type="button"
           onClick={() => onApply(picked)}
-          className="mt-4 w-full rounded-xl bg-violet-600 px-4 py-3 font-semibold text-white transition hover:bg-violet-500"
+          className="mt-2 w-full rounded-xl bg-violet-600 px-4 py-3 font-semibold text-white transition hover:bg-violet-500"
         >
-          {picked.length === 0 ? "Show me everything" : `Show ${picked.length} topic${picked.length > 1 ? "s" : ""}`}
+          Apply
         </button>
       </div>
     </div>
