@@ -768,16 +768,6 @@ export function Feed({
           >
             {topicLabel} ▾
           </button>
-          {!isGuest && (
-            <>
-              <StreakBadge
-                streak={streak}
-                longestStreak={longestStreak}
-                freezesAvailable={freezesAvailable}
-              />
-              <XpRing today={xpToday} goal={dailyGoal} />
-            </>
-          )}
           <button
             ref={searchTriggerRef}
             type="button"
@@ -798,7 +788,8 @@ export function Feed({
             </Link>
           ) : (
             <>
-              <NotificationsBell unread={unread} onOpened={setUnread} />
+              {/* Same relative order as AppHeader: nav links, then Upgrade,
+                  then the streak/XP/notifications status cluster. */}
               <Link
                 href="/leaderboard"
                 className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
@@ -827,6 +818,13 @@ export function Feed({
                   ✨ Upgrade
                 </Link>
               )}
+              <StreakBadge
+                streak={streak}
+                longestStreak={longestStreak}
+                freezesAvailable={freezesAvailable}
+              />
+              <XpRing today={xpToday} goal={dailyGoal} />
+              <NotificationsBell unread={unread} onOpened={setUnread} />
               <form action={signOutAction} className="hidden min-[1000px]:block">
                 <button
                   type="submit"

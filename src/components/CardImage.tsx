@@ -56,7 +56,7 @@ export function CardImage({ src, className }: { src: string; className?: string 
             className="fixed inset-0 z-[60] flex touch-none cursor-zoom-out items-center justify-center overscroll-contain bg-black/90 p-4 backdrop-blur-sm sm:p-10"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={src} alt="" className="max-h-full max-w-full rounded-xl object-contain" />
+            <img src={src} alt="" className="h-full w-full rounded-xl object-contain" />
           </div>,
           document.body
         )}

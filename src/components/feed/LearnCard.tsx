@@ -264,14 +264,14 @@ export function LearnCard({
       )}
 
       <div
-        className={`relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-2xl ${card.imageUrl ? "xl:max-w-5xl xl:flex-row xl:items-center xl:gap-10 xl:px-8" : ""}`}
+        className={`relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-2xl ${card.imageUrl ? "xl:max-w-5xl xl:flex-row xl:items-center xl:gap-10 xl:px-8 2xl:max-w-7xl" : ""}`}
         style={{
           transform: `translateX(${dragX * 0.35}px)`,
           transition: dragX === 0 ? "transform 150ms ease-out" : "none",
         }}
       >
         {card.imageUrl && (
-          <div className="mb-4 min-h-[15dvh] max-h-[55dvh] flex-1 xl:mb-0 xl:h-[70dvh] xl:max-h-[70dvh] xl:min-h-0 xl:w-[45%] xl:flex-none">
+          <div className="mb-4 min-h-[15dvh] max-h-[55dvh] flex-1 xl:mb-0 xl:h-[65dvh] xl:max-h-[65dvh] xl:min-h-0 xl:w-1/2 xl:flex-none">
             <CardImage src={card.imageUrl} className="h-full rounded-2xl" />
           </div>
         )}
@@ -348,7 +348,9 @@ export function LearnCard({
       )}
 
       {/* Action rail — TikTok-style vertical stack, clear of the text column */}
-      <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+2rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5">
+      <div
+        className={`absolute bottom-[calc(env(safe-area-inset-bottom)+2rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5 ${card.imageUrl ? "xl:bottom-auto xl:top-1/2 xl:-translate-y-1/2" : ""}`}
+      >
         <div className="flex flex-col items-center rounded-full bg-neutral-900/70 py-1 backdrop-blur">
           <button
             type="button"
