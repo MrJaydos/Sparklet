@@ -167,6 +167,9 @@ export function Feed({
   const [showSearch, setShowSearch] = useState(false);
   const { triggerRef: searchTriggerRef, anchor: searchAnchor, measure: measureSearchAnchor, clear: clearSearchAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const { triggerRef: topicTriggerRef, anchor: topicAnchor, measure: measureTopicAnchor, clear: clearTopicAnchor } = usePopoverAnchor<HTMLButtonElement>();
+  // Desktop's "More" overflow trigger — the hamburger itself is mobile-only
+  // (min-[1000px]:hidden), so this is the only way desktop reaches MenuSheet.
+  const { triggerRef: moreTriggerRef, anchor: moreAnchor, measure: measureMoreAnchor, clear: clearMoreAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const [showMenu, setShowMenu] = useState(false);
   const [showSuggest, setShowSuggest] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
@@ -811,28 +814,6 @@ export function Feed({
             </Link>
           ) : (
             <>
-              {/* Same relative order as AppHeader: nav links, then Upgrade,
-                  then the streak/XP/notifications status cluster. */}
-              <Link
-                href="/leaderboard"
-                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
-              >
-                🏆 Leaderboard
-              </Link>
-              <Link
-                href="/profile"
-                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
-              >
-                👤 Profile
-              </Link>
-              {isAdmin && (
-                <Link
-                  href="/admin"
-                  className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
-                >
-                  🛠️ Admin
-                </Link>
-              )}
               {billingEnabled && !premium && (
                 <Link
                   href="/upgrade"
@@ -848,14 +829,21 @@ export function Feed({
               />
               <XpRing today={xpToday} goal={dailyGoal} />
               <NotificationsBell unread={unread} onOpened={setUnread} />
-              <form action={signOutAction} className="hidden min-[1000px]:block">
-                <button
-                  type="submit"
-                  className="whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800"
-                >
-                  🚪 Sign out
-                </button>
-              </form>
+              {/* Desktop: Leaderboard/Profile/Admin/Suggest/Sign-out live behind
+                  this one anchored dropdown instead of a pill each — the
+                  hamburger below is mobile-only, so without this trigger
+                  desktop has no way to reach MenuSheet at all. */}
+              <button
+                ref={moreTriggerRef}
+                type="button"
+                onClick={() => {
+                  measureMoreAnchor();
+                  setShowMenu(true);
+                }}
+                className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
+              >
+                ⋯ More
+              </button>
             </>
           )}
           <button
@@ -1165,9 +1153,14 @@ export function Feed({
           premium={premium}
           billingEnabled={billingEnabled}
           signOutAction={signOutAction}
-          onClose={() => setShowMenu(false)}
+          anchor={moreAnchor}
+          onClose={() => {
+            setShowMenu(false);
+            clearMoreAnchor();
+          }}
           onSearch={() => {
             setShowMenu(false);
+            clearMoreAnchor();
             clearSearchAnchor();
             setShowSearch(true);
           }}
@@ -1176,6 +1169,7 @@ export function Feed({
               ? undefined
               : () => {
                   setShowMenu(false);
+                  clearMoreAnchor();
                   setShowSuggest(true);
                 }
           }

@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { StreakBadge } from "./feed/StreakBadge";
 import { XpRing } from "./feed/XpRing";
 import { NotificationsBell } from "./feed/NotificationsBell";
 import { MenuSheet } from "./feed/MenuSheet";
+import { usePopoverAnchor } from "./feed/usePopoverAnchor";
 
 /**
  * The same floating header/hamburger-menu chrome as the feed, minus the
@@ -42,20 +42,9 @@ export function AppHeader({
 }) {
   const [unread, setUnread] = useState(initialUnread);
   const [showMenu, setShowMenu] = useState(false);
-  const pathname = usePathname();
-
-  const navLink = (href: string, label: string) => (
-    <Link
-      href={href}
-      className={`hidden whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-semibold backdrop-blur transition min-[1000px]:block ${
-        pathname === href
-          ? "bg-violet-600/20 text-violet-300"
-          : "bg-neutral-900/80 hover:bg-neutral-800"
-      }`}
-    >
-      {label}
-    </Link>
-  );
+  // Desktop's "More" overflow trigger — the hamburger is mobile-only
+  // (min-[1000px]:hidden), so this is the only way desktop reaches MenuSheet.
+  const { triggerRef: moreTriggerRef, anchor: moreAnchor, measure: measureMoreAnchor, clear: clearMoreAnchor } = usePopoverAnchor<HTMLButtonElement>();
 
   return (
     <>
@@ -67,10 +56,6 @@ export function AppHeader({
           ✨ Sparklet
         </Link>
         <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
-          {navLink("/feed", "🏠 Home")}
-          {navLink("/leaderboard", "🏆 Leaderboard")}
-          {navLink("/profile", "👤 Profile")}
-          {isAdmin && navLink("/admin", "🛠️ Admin")}
           {billingEnabled && !premium && (
             <Link
               href="/upgrade"
@@ -86,6 +71,19 @@ export function AppHeader({
           />
           <XpRing today={xpToday} goal={dailyGoal} />
           <NotificationsBell unread={unread} onOpened={setUnread} />
+          {/* Desktop: Home/Leaderboard/Profile/Admin live behind this one
+              anchored dropdown instead of a pill each. */}
+          <button
+            ref={moreTriggerRef}
+            type="button"
+            onClick={() => {
+              measureMoreAnchor();
+              setShowMenu(true);
+            }}
+            className="hidden whitespace-nowrap rounded-full bg-neutral-900/80 px-3 py-1.5 text-xs font-semibold backdrop-blur transition hover:bg-neutral-800 min-[1000px]:block"
+          >
+            ⋯ More
+          </button>
           <button
             type="button"
             onClick={() => setShowMenu(true)}
@@ -109,7 +107,11 @@ export function AppHeader({
           isAdmin={isAdmin}
           premium={premium}
           billingEnabled={billingEnabled}
-          onClose={() => setShowMenu(false)}
+          anchor={moreAnchor}
+          onClose={() => {
+            setShowMenu(false);
+            clearMoreAnchor();
+          }}
           signOutAction={signOutAction}
         />
       )}

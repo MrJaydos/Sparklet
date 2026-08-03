@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { shareOrCopy } from "@/lib/share";
+import type { PopoverAnchor } from "./usePopoverAnchor";
 
 export function MenuSheet({
   unread,
@@ -16,6 +17,7 @@ export function MenuSheet({
   onSuggest,
   onClose,
   signOutAction,
+  anchor,
 }: {
   unread: number;
   inviteUrl: string;
@@ -29,6 +31,9 @@ export function MenuSheet({
   onSuggest?: () => void;
   onClose: () => void;
   signOutAction: () => Promise<void>;
+  /** Desktop's "More" button position — a compact anchored dropdown instead
+   * of the full-width mobile sheet. Omitted (the mobile hamburger) → full sheet. */
+  anchor?: PopoverAnchor | null;
 }) {
   const [copied, setCopied] = useState(false);
   const pathname = usePathname();
@@ -53,15 +58,27 @@ export function MenuSheet({
     );
 
   return (
-    <div className="fixed inset-0 z-50 flex flex-col justify-start" role="dialog" aria-modal="true">
+    <div
+      className={anchor ? "fixed inset-0 z-50" : "fixed inset-0 z-50 flex flex-col justify-start"}
+      role="dialog"
+      aria-modal="true"
+    >
       <button
         type="button"
         aria-label="Close"
         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
         onClick={onClose}
       />
-      {/* Drops down from the header that opened it */}
-      <div className="sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-4 pt-[calc(env(safe-area-inset-top)+1.5rem)]">
+      {/* Anchored dropdown from the desktop "More" button, or a full-width
+          sheet dropping from the header when opened via the mobile hamburger. */}
+      <div
+        style={anchor ?? undefined}
+        className={
+          anchor
+            ? "sheet-drop absolute max-h-[28rem] w-72 overflow-y-auto rounded-2xl border border-neutral-800 bg-neutral-950 p-4 shadow-2xl"
+            : "sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-4 pt-[calc(env(safe-area-inset-top)+1.5rem)]"
+        }
+      >
         <Link href="/feed" className={item(pathname === "/feed")}>
           🏠 Home
         </Link>
