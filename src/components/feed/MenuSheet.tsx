@@ -13,6 +13,7 @@ export function MenuSheet({
   premium,
   billingEnabled,
   onSearch,
+  onSuggest,
   onClose,
   signOutAction,
 }: {
@@ -25,6 +26,7 @@ export function MenuSheet({
   /** False pre-launch (before Stripe is configured) — hides the CTA entirely. */
   billingEnabled?: boolean;
   onSearch?: () => void;
+  onSuggest?: () => void;
   onClose: () => void;
   signOutAction: () => Promise<void>;
 }) {
@@ -96,6 +98,11 @@ export function MenuSheet({
             <Link href="/profile" className={item(pathname === "/profile")}>
               👤 Profile
             </Link>
+            {onSuggest && (
+              <button type="button" onClick={onSuggest} className={item()}>
+                💡 Suggest a card
+              </button>
+            )}
             {isAdmin && (
               <Link href="/admin" className={item(pathname === "/admin")}>
                 🛠️ Admin

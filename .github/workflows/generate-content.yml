@@ -37,6 +37,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           APP_URL: ${{ secrets.APP_URL }}
+          REVALIDATE_TOKEN: ${{ secrets.REVALIDATE_TOKEN }}
           MIN_BANK: ${{ vars.MIN_BANK || '40' }}
           TOPUP_COUNT: ${{ github.event.inputs.count || vars.TOPUP_COUNT || '10' }}
           TOPUP_HEADROOM: ${{ vars.TOPUP_HEADROOM || '15' }}

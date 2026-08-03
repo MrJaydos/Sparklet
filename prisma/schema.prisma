@@ -71,6 +71,7 @@ model User {
   explanationAttempts   UserExplanationAttempt[]
   savedCards        SavedCard[]
   interests         UserInterest[]
+  suggestions       CardSuggestion[]
   xpEvents          XpEvent[]
   pushSubscriptions PushSubscription[]
   sentFriendRequests     Friendship[] @relation("FriendRequestsSent")
@@ -154,9 +155,10 @@ model Category {
   colorHex    String
   icon        String // emoji
 
-  cards     Card[]
-  batches   GenerationBatch[]
-  interests UserInterest[]
+  cards       Card[]
+  batches     GenerationBatch[]
+  interests   UserInterest[]
+  suggestions CardSuggestion[]
 }
 
 enum CardType {
@@ -438,6 +440,34 @@ model UserInterest {
   category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
 
   @@unique([userId, categoryId])
+}
+
+enum SuggestionStatus {
+  PENDING // not yet handed to the generator
+  INCLUDED // fed into a generation prompt for its category (best-effort — an
+  // LLM prompt hint, not a guarantee a matching card gets published)
+  DISMISSED
+}
+
+// A reader's request for a topic, scoped to one of the existing categories
+// (generation is category-scoped — see scripts/generate-content.ts). The
+// scheduled top-up job reads PENDING suggestions via /api/inventory (CI has
+// no DB access) and weaves them into that category's next prompt, then
+// flips them to INCLUDED via the token-authed /api/admin/suggestions route.
+model CardSuggestion {
+  id         String           @id @default(cuid())
+  userId     String
+  categoryId String
+  topic      String
+  status     SuggestionStatus @default(PENDING)
+  createdAt  DateTime         @default(now())
+  includedAt DateTime?
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@index([status, categoryId, createdAt])
+  @@index([userId, createdAt])
 }
 
 // ---------- Social: friends ----------

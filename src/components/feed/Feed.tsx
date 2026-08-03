@@ -21,6 +21,7 @@ import {
 } from "./CategorySheet";
 import { SearchSheet } from "./SearchSheet";
 import { MenuSheet } from "./MenuSheet";
+import { SuggestSheet } from "./SuggestSheet";
 import { CommentsSheet } from "./CommentsSheet";
 import { ReportSheet } from "./ReportSheet";
 import { QuizView } from "./QuizView";
@@ -167,6 +168,7 @@ export function Feed({
   const { triggerRef: searchTriggerRef, anchor: searchAnchor, measure: measureSearchAnchor, clear: clearSearchAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const { triggerRef: topicTriggerRef, anchor: topicAnchor, measure: measureTopicAnchor, clear: clearTopicAnchor } = usePopoverAnchor<HTMLButtonElement>();
   const [showMenu, setShowMenu] = useState(false);
+  const [showSuggest, setShowSuggest] = useState(false);
   const [showSwipeHint, setShowSwipeHint] = useState(false);
   const [showInviteCard, setShowInviteCard] = useState(false);
   const [showPushPrompt, setShowPushPrompt] = useState(false);
@@ -601,7 +603,7 @@ export function Feed({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== " ") return;
-      if (showSheet || showSearch || showMenu || commentsFor || reportFor) return;
+      if (showSheet || showSearch || showMenu || showSuggest || commentsFor || reportFor) return;
       if (document.querySelector("[data-lightbox]")) return;
       const target = e.target as HTMLElement | null;
       const tag = target?.tagName;
@@ -616,7 +618,7 @@ export function Feed({
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [showSheet, showSearch, showMenu, commentsFor, reportFor]);
+  }, [showSheet, showSearch, showMenu, showSuggest, commentsFor, reportFor]);
 
   // One-time swipe hint for brand-new visitors; dismissed by the first scroll.
   useEffect(() => {
@@ -1169,7 +1171,19 @@ export function Feed({
             clearSearchAnchor();
             setShowSearch(true);
           }}
+          onSuggest={
+            isGuest
+              ? undefined
+              : () => {
+                  setShowMenu(false);
+                  setShowSuggest(true);
+                }
+          }
         />
+      )}
+
+      {showSuggest && (
+        <SuggestSheet categories={categories} onClose={() => setShowSuggest(false)} />
       )}
 
       {showSearch && (

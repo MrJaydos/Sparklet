@@ -3,10 +3,15 @@ import { prisma } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
+// Most recent pending reader suggestions woven into a category's prompt —
+// capped so one prolific requester can't crowd out a whole batch.
+const SUGGESTED_TOPICS_PER_CATEGORY = 8;
+
 /**
  * Public aggregate inventory, consumed by the scheduled content top-up job
- * (which runs in CI without database access). Exposes only card counts and
- * titles — nothing user-related.
+ * (which runs in CI without database access). Exposes card counts, titles,
+ * and pending reader-suggested topics (id + text only) — nothing tied to
+ * who suggested it.
  *
  * Counts cover STANDARD cards only: depth variants (SIMPLE/DEEP) are never
  * served as feed items, so including them would overstate the bank.
@@ -28,6 +33,12 @@ export async function GET() {
         cards: {
           where: { depthLevel: "STANDARD" },
           select: { title: true, published: true, modelUsed: true },
+        },
+        suggestions: {
+          where: { status: "PENDING" },
+          orderBy: { createdAt: "asc" },
+          take: SUGGESTED_TOPICS_PER_CATEGORY,
+          select: { id: true, topic: true },
         },
       },
     }),
@@ -65,6 +76,7 @@ export async function GET() {
       totalCount: c.cards.length,
       maxSeen: maxSeenByCategory.get(c.id) ?? 0,
       titles: c.cards.map((k) => k.title),
+      suggestedTopics: c.suggestions,
     })),
   });
 }
