@@ -103,7 +103,7 @@ export default async function CardPage({
   const related = (await getRelatedCards([card.id], 3)).get(card.id) ?? [];
 
   return (
-    <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)]">
+    <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)] lg:max-w-2xl">
       <Link href={moderating ? "/admin#awaiting-review" : "/feed"} className="text-sm text-neutral-400 hover:text-neutral-200">
         {moderating ? "← Back to review queue" : "← Back to feed"}
       </Link>

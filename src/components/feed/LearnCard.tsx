@@ -264,18 +264,18 @@ export function LearnCard({
       )}
 
       <div
-        className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)]"
+        className={`relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-2xl ${card.imageUrl ? "xl:max-w-5xl xl:flex-row xl:items-center xl:gap-10 xl:px-8" : ""}`}
         style={{
           transform: `translateX(${dragX * 0.35}px)`,
           transition: dragX === 0 ? "transform 150ms ease-out" : "none",
         }}
       >
         {card.imageUrl && (
-          <div className="mb-4 min-h-[15dvh] max-h-[55dvh] flex-1">
+          <div className="mb-4 min-h-[15dvh] max-h-[55dvh] flex-1 xl:mb-0 xl:h-[70dvh] xl:max-h-[70dvh] xl:min-h-0 xl:w-[45%] xl:flex-none">
             <CardImage src={card.imageUrl} className="h-full rounded-2xl" />
           </div>
         )}
-        <div className="pr-16">{/* keep text clear of the action rail */}
+        <div className={`pr-16 ${card.imageUrl ? "xl:max-w-2xl xl:flex-1 xl:pr-20" : ""}`}>{/* keep text clear of the action rail */}
 
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <span

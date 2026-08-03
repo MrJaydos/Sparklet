@@ -91,7 +91,7 @@ export function GuessView({
       />
       {result?.correct && <ConfettiBurst big={result.combo >= 5} />}
 
-      <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-center px-5 pb-24 pt-16">
+      <div className="relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-center px-5 pb-24 pt-16 lg:max-w-2xl">
         <span
           className="mb-3 inline-flex w-fit items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold"
           style={{
