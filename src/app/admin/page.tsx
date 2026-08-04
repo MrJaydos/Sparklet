@@ -183,7 +183,15 @@ export default async function AdminPage({
       GROUP BY 1 ORDER BY 1
     `,
       prisma.$queryRaw<
-        { name: string; icon: string; published: number; seen: number; views7d: number; score: number }[]
+        {
+          name: string;
+          icon: string;
+          published: number;
+          seen: number;
+          views7d: number;
+          score: number;
+          interactedByYou: number;
+        }[]
       >`
       SELECT cat.name, cat.icon,
         (SELECT count(*)::int FROM "Card" c
@@ -196,7 +204,18 @@ export default async function AdminPage({
           JOIN "Card" c2 ON c2.id = i."cardId"
           WHERE c2."categoryId" = cat.id AND i."viewedAt" >= now() - interval '7 days') AS "views7d",
         (SELECT coalesce(sum(c3.score), 0)::int FROM "Card" c3
-          WHERE c3."categoryId" = cat.id AND c3.published AND c3."depthLevel" = 'STANDARD') AS score
+          WHERE c3."categoryId" = cat.id AND c3.published AND c3."depthLevel" = 'STANDARD') AS score,
+        -- Mirrors the feed's exhaustion check exactly: getFeedCards()
+        -- excludes a card from the "unseen" pool on ANY interaction row for
+        -- you (interactions: { none: { userId } }), not just a completed
+        -- read — a fast swipe still upserts one (AGENTS.md: "the card won't
+        -- repeat in the feed" even though it earned nothing). This is why
+        -- "You're all caught up" can show well before you feel like you've
+        -- actually read everything in a topic.
+        (SELECT count(*)::int FROM "Card" c5
+          WHERE c5."categoryId" = cat.id AND c5.published AND c5."depthLevel" = 'STANDARD'
+            AND EXISTS (SELECT 1 FROM "UserCardInteraction" i3
+              WHERE i3."cardId" = c5.id AND i3."userId" = ${adminUserId})) AS "interactedByYou"
       FROM "Category" cat
       ORDER BY "views7d" DESC, published DESC
     `,
@@ -399,6 +418,9 @@ export default async function AdminPage({
                   <th className="px-4 py-2 font-medium">Category</th>
                   <th className="px-4 py-2 text-right font-medium">Published</th>
                   <th className="px-4 py-2 text-right font-medium">Seen</th>
+                  <th className="px-4 py-2 text-right font-medium" title="Cards you have any interaction row for — including fast skips, which never repeat even though they didn't count as read.">
+                    Your unseen
+                  </th>
                   <th className="px-4 py-2 text-right font-medium">Views (7d)</th>
                   <th className="px-4 py-2 text-right font-medium">Net score</th>
                 </tr>
@@ -418,6 +440,13 @@ export default async function AdminPage({
                         {" "}
                         ({c.published > 0 ? Math.round((c.seen / c.published) * 100) : 0}%)
                       </span>
+                    </td>
+                    <td
+                      className={`px-4 py-2 text-right tabular-nums ${
+                        c.published - c.interactedByYou <= 0 ? "text-amber-400" : "text-neutral-400"
+                      }`}
+                    >
+                      {Math.max(0, c.published - c.interactedByYou)}
                     </td>
                     <td className="px-4 py-2 text-right tabular-nums">{c.views7d}</td>
                     <td
