@@ -17,9 +17,14 @@ const SUGGESTED_TOPICS_PER_CATEGORY = 8;
  * served as feed items, so including them would overstate the bank.
  *
  * `maxSeen` is the demand signal: the highest number of this category's
- * feed cards any single recently-active user has completed. The top-up job
- * raises a category's minimum bank above it, so heavy readers don't run out
- * of unseen cards while the global count still looks healthy.
+ * feed cards any single recently-active user has been exposed to — any
+ * interaction row, not just a completed read. A fast skip earns nothing but
+ * still permanently excludes the card from that user's feed (see
+ * getFeedCards's `unseen` query), so it depletes their pool exactly like a
+ * real read does; counting only completed reads here undercounted true
+ * exhaustion for anyone who skims quickly. The top-up job raises a
+ * category's minimum bank above this, so heavy readers/skimmers don't run
+ * out of unseen cards while the global count still looks healthy.
  */
 export async function GET() {
   const [categories, demand] = await Promise.all([
@@ -49,8 +54,7 @@ export async function GET() {
         FROM "UserCardInteraction" i
         JOIN "Card" c ON c.id = i."cardId"
         JOIN "User" u ON u.id = i."userId"
-        WHERE i.completed
-          AND c.published
+        WHERE c.published
           AND c."depthLevel" = 'STANDARD'
           AND u."lastActiveDate" >= now() - interval '14 days'
         GROUP BY c."categoryId", i."userId"

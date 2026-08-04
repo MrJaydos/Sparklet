@@ -168,7 +168,7 @@ type InventoryCategory = {
   description: string;
   publishedCount: number;
   groqPublished: number; // fallback-provider cards, treated as replaceable
-  maxSeen: number; // most cards any recently-active user has completed here
+  maxSeen: number; // most cards any recently-active user has been exposed to here (any interaction, including a skip — not just a completed read)
   titles: string[];
   suggestedTopics: { id: string; topic: string }[]; // pending reader requests
 };
