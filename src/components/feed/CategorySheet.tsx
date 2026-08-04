@@ -98,10 +98,15 @@ export function CategorySheet({
         onClick={onClose}
       />
       {/* Full screen on mobile so nothing gets cut off; a compact anchored
-          dropdown on desktop, matching NotificationsBell/SearchSheet. */}
+          dropdown on desktop, matching NotificationsBell/SearchSheet. The
+          content (14 categories + depth + goal pickers) is tall enough to
+          clip off-screen on shorter laptop windows, so the desktop box
+          sizes itself to whatever room is actually left below the trigger
+          (maxHeight below) and only turns on scroll if that's not enough —
+          it isn't capped to some fixed height regardless of viewport. */}
       <div
-        style={anchor ?? undefined}
-        className="sheet-drop relative h-dvh overflow-y-auto rounded-none bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)] pb-[calc(env(safe-area-inset-bottom)+1.5rem)] sm:absolute sm:h-auto sm:max-h-[32rem] sm:w-96 sm:rounded-2xl sm:border sm:border-neutral-800 sm:p-4 sm:pb-4 sm:pt-4 sm:shadow-2xl"
+        style={anchor ? { ...anchor, maxHeight: `calc(100vh - ${anchor.top}px - 1rem)` } : undefined}
+        className="sheet-drop relative h-dvh overflow-y-auto rounded-none bg-neutral-950 p-6 pt-[calc(env(safe-area-inset-top)+1.5rem)] pb-[calc(env(safe-area-inset-bottom)+1.5rem)] sm:absolute sm:h-auto sm:w-96 sm:rounded-2xl sm:border sm:border-neutral-800 sm:p-4 sm:pb-4 sm:pt-4 sm:shadow-2xl"
       >
         <div className="flex items-baseline justify-between gap-3">
           <h2 className="text-lg font-bold">Your feed</h2>

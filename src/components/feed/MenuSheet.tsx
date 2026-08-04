@@ -70,12 +70,16 @@ export function MenuSheet({
         onClick={onClose}
       />
       {/* Anchored dropdown from the desktop "More" button, or a full-width
-          sheet dropping from the header when opened via the mobile hamburger. */}
+          sheet dropping from the header when opened via the mobile hamburger.
+          The dropdown sizes itself to whatever room is left below the
+          trigger (maxHeight) and only scrolls if the item list (which grows
+          with isAdmin/onSuggest/billing state) doesn't fit — not capped to
+          some fixed height regardless of how much space is actually there. */}
       <div
-        style={anchor ?? undefined}
+        style={anchor ? { ...anchor, maxHeight: `calc(100vh - ${anchor.top}px - 1rem)` } : undefined}
         className={
           anchor
-            ? "sheet-drop absolute max-h-[28rem] w-72 overflow-y-auto rounded-2xl border border-neutral-800 bg-neutral-950 p-4 shadow-2xl"
+            ? "sheet-drop absolute w-72 overflow-y-auto rounded-2xl border border-neutral-800 bg-neutral-950 p-4 shadow-2xl"
             : "sheet-drop relative rounded-b-3xl border-b border-neutral-800 bg-neutral-950 p-4 pt-[calc(env(safe-area-inset-top)+1.5rem)]"
         }
       >
