@@ -1,0 +1,323 @@
+{
+  "generatedAt": "2026-08-04T18:21:52.901Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Most Famous Tapestry Isn't Actually a Tapestry",
+      "body": "Spanning nearly 70 meters in length, the Bayeux Tapestry vividly depicts the Norman Conquest of England in 1066. However, textile historians point out that it is technically an embroidery, not a tapestry. Instead of being woven on a loom, its dramatic scenes were hand-stitched using wool yarn onto plain linen cloth, likely crafted by Anglo-Saxon embroiderers shortly after the Battle of Hastings.",
+      "imageWikipediaTitle": "Bayeux Tapestry",
+      "sources": [
+        {
+          "title": "Bayeux Tapestry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Surreal Mexican Sculptures Born from a Fever Dream",
+      "body": "Brightly painted Mexican folk art sculptures called alebrijes were created in the 1930s by Mexico City artisan Pedro Linares. While suffering from a life-threatening illness, Linares experienced hallucinatory dreams of a strange forest where rocks, trees, and animals transformed into fantastical horned roosters and winged donkeys shouting \"Alebrijes!\" Upon recovering, he brought these surreal creatures to life using papier-mâché and wood.",
+      "imageWikipediaTitle": "Alebrije",
+      "sources": [
+        {
+          "title": "Alebrije",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alebrije"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Alebrije",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Alphabet Designed to Be Learned in a Single Morning",
+      "body": "Most writing systems evolve slowly over centuries, but Korea's Hangul script was engineered in 1443 by King Sejong the Great. Created to boost literacy among commoners who struggled with complex Chinese characters, the 24-letter alphabet was designed with logical precision. Its consonant symbols deliberately mimic the physical shapes of the tongue, mouth, and throat when pronouncing each sound, allowing beginners to master it in hours.",
+      "imageWikipediaTitle": "Hangul",
+      "sources": [
+        {
+          "title": "Hangul",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hangul"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hangul",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Daily Art That Feeds Local Wildlife",
+      "body": "Every morning at sunrise, millions of women across southern India create intricate geometric patterns called Kolam on the stone thresholds of their homes. Hand-drawn using fine rice flour, these decorative threshold artworks double as a daily act of generous eco-hospitality. Because the temporary designs are made of edible grains, they provide an intentional morning meal for ants, birds, and small insects before fading away by afternoon.",
+      "imageWikipediaTitle": "Kolam",
+      "sources": [
+        {
+          "title": "Kolam",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kolam"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kolam",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Expert Violinists Can't Identify a Stradivarius by Ear",
+      "body": "Millions of dollars are spent acquiring 18th-century Stradivarius violins, which are famed for alleged musical perfection. Yet double-blind scientific studies repeatedly reveal that world-class soloists cannot reliably distinguish a multi-million-dollar Stradivarius from a high-quality modern instrument. In blind tests conducted in concert halls, expert players frequently rated modern violins as having superior sound quality and playability over the historic Italian masterworks.",
+      "imageWikipediaTitle": "Stradivarius",
+      "sources": [
+        {
+          "title": "Stradivarius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stradivarius"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stradivarius",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Folk Song Launched into Deep Space",
+      "body": "In 1977, NASA launched the Voyager Golden Record to represent human culture to potential extraterrestrial life. Among classical masterworks by Bach and Beethoven was \"Chakrulo,\" a dramatic polyphonic folk song from the nation of Georgia. Georgian polyphonic singing features three or four independent melodic lines interlocking without instruments, an ancient musical tradition that developed independently of Western European harmony and predates Christianity in the region.",
+      "imageWikipediaTitle": "Chakrulo",
+      "sources": [
+        {
+          "title": "Chakrulo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chakrulo"
+        },
+        {
+          "title": "Voyager Golden Record",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voyager_Golden_Record"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chakrulo",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Murals That Secretly Resisted Oppression",
+      "body": "Across South Africa, Ndebele women transform their homes into massive canvases featuring sharp-edged geometric murals. Developed during the late 19th century amidst conflict with Boer settlers, these eye-catching exterior paintings were far more than decoration. They functioned as a coded visual language of cultural pride, grief, and covert resistance against colonial subjugation, with artistic techniques handed down entirely through generations of women without written sketches.",
+      "imageWikipediaTitle": "Ndebele house painting",
+      "sources": [
+        {
+          "title": "Ndebele house painting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ndebele_house_painting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ndebele_house_painting",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 3,700-Year-Old Clay Tablets That Contain Human History's First Recipes",
+      "body": "The world's oldest written culinary recipes survive on three Babylonian clay tablets dating to around 1730 BCE. Housed in the Yale Babylonian Collection, these cuneiform artifacts contain 25 recipes for complex stews and broths. Far from primitive porridge, the ancient Mesopotamian dishes called for searing meat, reducing aromatics, and seasoning dishes with leeks, garlic, coriander, and juniper berries, displaying sophisticated culinary techniques long before antiquity.",
+      "imageWikipediaTitle": "Yale Babylonian Collection",
+      "sources": [
+        {
+          "title": "Ancient Mesopotamian cuisine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ancient_Mesopotamian_cuisine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ancient_Mesopotamian_cuisine",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Giant Paper Kites Built to Talk to Ancestors",
+      "body": "Every November in the Guatemalan town of Sumpango, townspeople fly massive kites measuring up to 20 meters wide over local cemeteries. Crafted from tissue paper, cloth, and bamboo over several months, these vibrant artworks honor All Saints' Day. According to local Mayan tradition, the soaring kites act as spiritual conduits, sending messages to deceased loved ones while sweeping away evil spirits with the rush of wind.",
+      "imageWikipediaTitle": "Sumpango",
+      "sources": [
+        {
+          "title": "Sumpango",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sumpango"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sumpango",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Multi-Hour Ritual That Turns Coffee into Community",
+      "body": "In Ethiopia, where wild Arabica coffee originated, drinking coffee is an elaborate social art form called Buna. Conducted three times daily, the ritual takes hours to perform. Fresh green coffee beans are roasted over live coals in front of guests, ground by hand with a mortar and pestle, and simmered in an earthenware pot called a jebena. Serving three rounds fosters deep communal bonds and resolves neighborhood disputes.",
+      "imageWikipediaTitle": "Jebena",
+      "sources": [
+        {
+          "title": "Coffee ceremony of Ethiopia and Eritrea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Coffee_ceremony_of_Ethiopia_and_Eritrea",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How was the Bayeux Tapestry actually constructed?",
+      "options": [
+        "Woven on a tapestry loom",
+        "Hand-stitched wool embroidery on linen",
+        "Painted on silk cloth",
+        "Printed using woodblocks"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bayeux Tapestry is an embroidery made of wool yarn hand-stitched onto linen, not a woven tapestry."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What originally inspired the creation of Mexican alebrijes?",
+      "options": [
+        "Ancient Aztec murals",
+        "A fever dream during illness",
+        "A royal competition",
+        "Children's bedtime fables"
+      ],
+      "correctIndex": 1,
+      "explanation": "Artisan Pedro Linares created alebrijes after seeing surreal animal mashups in a hallucinatory dream while sick."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why were the consonant letter shapes in Korea's Hangul alphabet designed the way they are?",
+      "options": [
+        "To resemble Chinese characters",
+        "To mimic vocal organs during speech",
+        "To copy royal seal symbols",
+        "To follow astrological charts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hangul's consonants were intentionally shaped to represent the mouth, tongue, and throat positions used to make each sound."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Beyond aesthetic tradition, what functional role does daily rice flour Kolam art serve?",
+      "options": [
+        "It feeds local ants and birds",
+        "It seals doorway stone cracks",
+        "It repels rainwater",
+        "It marks property boundaries"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kolam designs are drawn with edible rice flour to act as a daily offering of food to insects and birds."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What have double-blind acoustic tests repeatedly revealed about Stradivarius violins?",
+      "options": [
+        "They are louder than modern instruments",
+        "Expert players cannot reliably identify them by sound",
+        "Their wood emits a distinct perfume",
+        "They only sound good in stone halls"
+      ],
+      "correctIndex": 1,
+      "explanation": "In double-blind studies, elite violinists failed to reliably distinguish Stradivarius violins from modern high-end violins."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which nation's polyphonic folk song was chosen for NASA's Voyager Golden Record?",
+      "options": [
+        "Georgia",
+        "Norway",
+        "Greece",
+        "Japan"
+      ],
+      "correctIndex": 0,
+      "explanation": "The traditional Georgian polyphonic song \"Chakrulo\" was included on the 1977 Voyager Golden Record."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How were Ndebele house painting designs historically handed down across generations?",
+      "options": [
+        "Through printed pattern books",
+        "Exclusively from mother to daughter without sketches",
+        "By male guild masters",
+        "Via religious parchment scrolls"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ndebele women passed down geometric painting traditions orally and visually across female generations without written sketches."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Approximately how old are the oldest known written culinary recipes recorded on clay tablets?",
+      "options": [
+        "1,000 years old",
+        "3,700 years old",
+        "7,500 years old",
+        "10,000 years old"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Yale Babylonian Collection clay tablets containing 25 stew recipes date to roughly 1730 BCE (about 3,700 years old)."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What materials are primarily used to construct the giant kites flown during All Saints' Day in Sumpango?",
+      "options": [
+        "Silk and titanium",
+        "Tissue paper, cloth, and bamboo",
+        "Cardboard and plastic wrap",
+        "Palm leaves and vine twine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sumpango's giant decorative kites are meticulously hand-crafted from tissue paper, cloth, and bamboo scaffolding."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What is the traditional clay pot used to simmer coffee during an Ethiopian coffee ceremony called?",
+      "options": [
+        "Jebena",
+        "Tetsubin",
+        "Cezve",
+        "Maté"
+      ],
+      "correctIndex": 0,
+      "explanation": "The jebena is a traditional earthenware pot with a spherical base and spout used in the Ethiopian Buna ceremony."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 7,
+      "prompt": "How many years ago were the world's oldest surviving written cooking recipes carved into clay tablets?",
+      "answer": 3700,
+      "min": 500,
+      "max": 10000,
+      "unit": "years",
+      "explanation": "Carved into Mesopotamian clay tablets around 1730 BCE, these 3,700-year-old recipes document 25 complex meat and vegetable stews."
+    },
+    {
+      "cardIndex": 8,
+      "prompt": "What is the maximum width, in meters, of the giant hand-crafted kites flown during All Saints' Day in Sumpango, Guatemala?",
+      "answer": 20,
+      "min": 2,
+      "max": 80,
+      "unit": "m",
+      "explanation": "Local Guatemalan artisans build giant tissue paper and bamboo kites up to 20 meters wide to communicate with ancestral spirits."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The famous 11th-century Bayeux Tapestry was woven on a loom.",
+      "answer": false,
+      "explanation": "The Bayeux Tapestry is actually an embroidery created by hand-stitching wool thread onto linen cloth, not a woven tapestry."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Korea's Hangul alphabet letter shapes were designed to match the physical positions of speech organs.",
+      "answer": true,
+      "explanation": "Hangul's consonants were scientifically engineered in 1443 to visually mirror the shape of the mouth and tongue during speech."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Expert violinists can easily spot the superior sound of a historic Stradivarius in blind listening tests.",
+      "answer": false,
+      "explanation": "Scientific double-blind tests show even elite soloists cannot reliably distinguish Stradivarius violins from top modern instruments."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "generatedAt": "2026-08-04T18:21:52.622Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1-in-67 Timing Bug Delayed the First Space Shuttle Launch",
+      "body": "On April 10, 1981, NASA aborted the debut launch of Space Shuttle Columbia just 20 minutes before liftoff. The shuttle relied on five onboard computers, but a subtle synchronization error occurred during initialization. The backup computer refused to talk to the four primary flight computers because of a one-in-67 chance timing delay built into the software. Programmers fixed the timing window, allowing Columbia to launch safely two days later.",
+      "imageWikipediaTitle": "STS-1",
+      "sources": [
+        {
+          "title": "STS-1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/STS-1"
+        },
+        {
+          "title": "Space Shuttle Primary Avionics Software System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Shuttle_Primary_Avionics_Software_System"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/STS-1",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's First Mass Spam Email Was Sent in 1978",
+      "body": "On May 3, 1978, Digital Equipment Corporation marketer Gary Thuerk sent a single message to 393 users on ARPANET, promoting new computer models. Because ARPANET lacked address limits, he manually pasted every recipient into the destination field. The reaction was swift and furious, with defense officials chastising him for violating network rules. Despite the backlash, the blast generated millions of dollars in sales.",
+      "imageWikipediaTitle": "Email spam",
+      "sources": [
+        {
+          "title": "Email spam",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Email_spam"
+        },
+        {
+          "title": "Gary Thuerk",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gary_Thuerk"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gary_Thuerk",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Term \"Software Engineering\" Was Born Out of Crisis",
+      "body": "In October 1968, 50 computer scientists gathered in Garmisch, Germany, for a conference sponsored by NATO. As hardware grew vastly more powerful, software projects consistently ran over budget, missed deadlines, and proved dangerously unreliable. The attendees coined the term \"software engineering\" to argue that writing software should be treated with the same mathematical rigor and discipline as civil or electrical engineering, launching a new academic and industrial discipline.",
+      "imageWikipediaTitle": "Software engineering",
+      "sources": [
+        {
+          "title": "Software engineering",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Software_engineering"
+        },
+        {
+          "title": "Software crisis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Software_crisis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Software_engineering",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "One 1968 Demo Predicted the Next 30 Years of Computing",
+      "body": "On December 9, 1968, researcher Douglas Engelbart took the stage in San Francisco for a 90-minute live presentation known today as \"The Mother of All Demos.\" Using custom hardware and software, Engelbart publicly demonstrated the computer mouse, hypertext links, real-time collaborative text editing, video conferencing, and windowed user interfaces. Virtually every core concept of modern personal computing was shown live on stage in a single morning.",
+      "imageWikipediaTitle": "The Mother of All Demos",
+      "sources": [
+        {
+          "title": "The Mother of All Demos",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
+        },
+        {
+          "title": "Douglas Engelbart",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Apache Web Server Started as a \"Patchy\" Project",
+      "body": "In 1995, webmasters relied on an open-source web server from NCSA, but its lead developer left, leaving bug fixes uncoordinated. A group of webmasters began sharing their own software fixes via email. They called their collective creation \"Apache\" as a double meaning: a respectful nod to the Native American Apache nation for their strength, and a humorous pun on its origin as \"a patchy web server\" built from software patches.",
+      "imageWikipediaTitle": "Apache HTTP Server",
+      "sources": [
+        {
+          "title": "Apache HTTP Server",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apache_HTTP_Server"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Apache_HTTP_Server",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Animated GIFs Were Never Supposed to Loop Infinitely",
+      "body": "When CompuServe created the GIF image format in 1987, it was designed strictly for static, compressed color images. In 1995, Netscape extended the format by adding a custom data block called the \"Netscape Application Block\" to Netscape Navigator 2.0. This code allowed series of images to loop continuously. Without this single proprietary addition, the looping animations that define web culture and meme format today would never have existed.",
+      "imageWikipediaTitle": "GIF",
+      "sources": [
+        {
+          "title": "GIF",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GIF"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/GIF",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "SQL Was Renamed Because of an Aircraft Trademark",
+      "body": "In the early 1970s, IBM researchers Donald Chamberlin and Raymond Boyce designed a language to query databases using English-like syntax. They named it SEQUEL, for Structured English Query Language. However, when IBM attempted to register the name, they discovered that \"SEQUEL\" was already a registered trademark of the British Hawker Siddeley aircraft company. IBM shortened the name to SQL, though developers still pronounce it \"sequel\" to this day.",
+      "imageWikipediaTitle": "SQL",
+      "sources": [
+        {
+          "title": "SQL",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SQL"
+        },
+        {
+          "title": "Donald D. Chamberlin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Donald_D._Chamberlin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/SQL",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Internet's Favorite Code Archive Was Built for Tapes",
+      "body": "Developers regularly compress code into \".tar.gz\" files, but the \"tar\" command was never designed for internet downloads. Created in 1979 for Version 7 Unix, \"tar\" stands for \"tape archive.\" It was written specifically to stream files sequentially onto physical magnetic tape cartridges for backup. Decades after tape drives vanished from most desks, programmers still use the exact same Unix utility to bundle code repositories across the web.",
+      "imageWikipediaTitle": "Tar (computing)",
+      "sources": [
+        {
+          "title": "tar (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tar_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tar_(computing)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Myth of CERN's Missing Room 404",
+      "body": "Popular internet legend claims the \"404 Not Found\" web error was named after room 404 at CERN, where Tim Berners-Lee housed the original web server and database. Former CERN programmers confirmed this is completely false: CERN's fourth building had no room 404. Status code numbers were simply standardized ranges: 400s indicated client errors, and 04 was chosen as the specific designation for a missing resource.",
+      "imageWikipediaTitle": "HTTP 404",
+      "sources": [
+        {
+          "title": "HTTP 404",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTTP_404"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HTTP_404",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "BASIC Was Created to Democratize Computer Programming",
+      "body": "In 1964, Dartmouth professors John Kemeny and Thomas Kurtz created BASIC (Beginner's All-purpose Symbolic Instruction Code). At the time, programming required punch cards and complex languages like Fortran, restricting computers to scientists and mathematicians. BASIC was designed so any undergraduate student could write code on a shared terminal. It sparked a revolution, eventually bringing programming into millions of home computers like the Apple II and Commodore 64.",
+      "imageWikipediaTitle": "BASIC",
+      "sources": [
+        {
+          "title": "BASIC",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/BASIC"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/BASIC",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was the first Space Shuttle launch delayed 20 minutes before liftoff in 1981?",
+      "options": [
+        "A hardware engine valve failed",
+        "A timing bug prevented the backup computer from syncing with primary computers",
+        "The main computer lost power",
+        "An operator entered incorrect orbit coordinates"
+      ],
+      "correctIndex": 1,
+      "explanation": "A 1-in-67 chance timing delay during initialization prevented the backup computer from synchronizing with the primary flight computers."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How many ARPANET users received the world's first mass spam email in 1978?",
+      "options": [
+        "393",
+        "10,000",
+        "50",
+        "2,500"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gary Thuerk manually pasted 393 ARPANET addresses into a single message to promote DEC computers."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What organization sponsored the 1968 conference that popularized the term 'software engineering'?",
+      "options": [
+        "NATO",
+        "The United Nations",
+        "UNESCO",
+        "The European Union"
+      ],
+      "correctIndex": 0,
+      "explanation": "NATO sponsored the October 1968 conference in Garmisch, Germany, to address widespread software delays and failures."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which landmark hardware input device debuted during 'The Mother of All Demos' in 1968?",
+      "options": [
+        "The computer mouse",
+        "The floppy disk drive",
+        "The web browser",
+        "The optical touch panel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Douglas Engelbart publicly demonstrated the computer mouse for the first time during his famous 1968 presentation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Besides honoring the Native American nation, what wordplay inspired the name 'Apache' for the web server?",
+      "options": [
+        "It was 'a patchy server' assembled from software patches",
+        "It was designed for 'a path' on the network",
+        "It ran on 'a packet' switching network",
+        "It was written in 'a patched' version of C"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early developers joked that it was 'a patchy server' because it was built from an informal collection of code patches."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which company added the extension that enabled infinite looping for GIF images in 1995?",
+      "options": [
+        "Netscape",
+        "CompuServe",
+        "Microsoft",
+        "AOL"
+      ],
+      "correctIndex": 0,
+      "explanation": "Netscape added the Netscape Application Block extension to Navigator 2.0, introducing looping to the 1987 GIF format."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why was the database query language SEQUEL shortened to SQL by IBM?",
+      "options": [
+        "SEQUEL was trademarked by an aviation company",
+        "SQL was easier to type on keypunch cards",
+        "IBM executives thought SEQUEL sounded unprofessional",
+        "The original acronym was too long for system documentation"
+      ],
+      "correctIndex": 0,
+      "explanation": "IBM shortened SEQUEL to SQL because British aircraft manufacturer Hawker Siddeley owned the trademark for SEQUEL."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What does the 'tar' in .tar archive stand for?",
+      "options": [
+        "Tape archive",
+        "Text format archive",
+        "Target file repository",
+        "Transfer application record"
+      ],
+      "correctIndex": 0,
+      "explanation": "'tar' stands for 'tape archive' because the tool was created in 1979 to read and write files on magnetic tape drives."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What is the true origin of the HTTP status code number 404?",
+      "options": [
+        "It is part of a standardized numeric range for client-side errors",
+        "It was named after room 404 at CERN",
+        "It was the office extension of Tim Berners-Lee",
+        "It was line 404 of the original web server source code"
+      ],
+      "correctIndex": 0,
+      "explanation": "In HTTP standards, 400-level numbers indicate client errors, with 04 designated specifically for missing resources."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Why did Dartmouth professors create the BASIC programming language in 1964?",
+      "options": [
+        "To allow non-science students to learn programming on shared terminals",
+        "To control military radar defense systems",
+        "To speed up financial calculations for corporate mainframes",
+        "To write space navigation code for NASA probes"
+      ],
+      "correctIndex": 0,
+      "explanation": "BASIC was designed to democratize computing by making code accessible to general liberal arts undergraduates."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "The timing bug that aborted the first Space Shuttle launch had a 1-in-X chance of triggering during computer setup. What was X?",
+      "answer": 67,
+      "min": 5,
+      "max": 500,
+      "unit": "",
+      "explanation": "The subtle software bug only occurred if computer initialization hit a precise 1-in-67 timing window."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many ARPANET users received the world's first unsolicited mass email in 1978?",
+      "answer": 393,
+      "min": 50,
+      "max": 5000,
+      "unit": "recipients",
+      "explanation": "Gary Thuerk sent the marketing email to 393 individual ARPANET addresses."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "In what year was the BASIC programming language created at Dartmouth College?",
+      "answer": 1964,
+      "min": 1940,
+      "max": 2000,
+      "unit": "",
+      "explanation": "BASIC was created in 1964 to give non-science undergraduates easy access to computers."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 5,
+      "claim": "The original 1987 GIF specification included built-in support for infinite looping animations.",
+      "answer": false,
+      "explanation": "The original GIF format was for static images; Netscape added looping capabilities eight years later in 1995."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "SQL was originally called SEQUEL until trademark issues forced a name change.",
+      "answer": true,
+      "explanation": "IBM designed the language as SEQUEL, but shortened it to SQL because an aircraft company owned the trademark."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "The HTTP error code 404 was named after room 404 at CERN, where the first web server was kept.",
+      "answer": false,
+      "explanation": "This is an urban myth. CERN's fourth building had no room 404; the code was simply part of HTTP's standardized error range."
+    }
+  ]
+}

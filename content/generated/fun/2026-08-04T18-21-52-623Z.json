@@ -1,0 +1,336 @@
+{
+  "generatedAt": "2026-08-04T18:21:52.623Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Sloth Can Take a Whole Month to Digest Just One Leaf",
+      "body": "Sloths have the slowest metabolic rate of any non-hibernating mammal. Because their leaf-based diet contains few nutrients and tough cellulose, their multi-chambered stomach relies on specialized bacteria to slowly break down plant material. A single meal can take up to thirty days to make its way through a sloth's gut, meaning their stomachs are almost always full.",
+      "imageWikipediaTitle": "Sloth",
+      "sources": [
+        {
+          "title": "Sloth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sloth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sloth",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea Otters Have a Built-In Pocket to Store Their Favorite Rocks",
+      "body": "Sea otters are famous for using stone tools to crack open stubborn shellfish, but they do not just pick up any random rock on the seafloor. They often keep a favored stone for years, storing it in a loose fold of skin located under their forearms. This natural pocket lets them swim freely while carrying both their favorite tool and harvested food to the surface.",
+      "imageWikipediaTitle": "Sea otter",
+      "sources": [
+        {
+          "title": "Sea otter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_otter",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lobsters Grind Their Food With Teeth Located Inside Their Stomachs",
+      "body": "Lobsters do not have teeth in their mouths. Instead, they swallow food whole or in large chunks, which then enters a specialized stomach chamber called the gastric mill. This area contains three hard, calcified structures that function as teeth, mashing and grinding the food internally. When lobsters shed their exoskeleton as they grow, they even shed the lining of these stomach teeth.",
+      "imageWikipediaTitle": "Homarus americanus",
+      "sources": [
+        {
+          "title": "Gastric mill",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastric_mill"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gastric_mill",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bananas Are Naturally Radioactive",
+      "body": "Bananas are rich in potassium, a mineral essential for human health. A small fraction of all natural potassium is the radioactive isotope potassium-40. As a result, every banana emits a microscopic amount of radiation. You would need to eat roughly ten million bananas at once to suffer lethal radiation exposure, making the everyday fruit entirely safe to enjoy.",
+      "imageWikipediaTitle": "Banana",
+      "sources": [
+        {
+          "title": "Banana equivalent dose",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Banana_equivalent_dose"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Banana_equivalent_dose",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Napoleon Bonaparte Was Once Swarmed and Chased by Thousands of Rabbits",
+      "body": "In 1807, French Emperor Napoleon Bonaparte organized a rabbit hunt to celebrate a military treaty. His chief of staff gathered thousands of rabbits for the event, but sourced tame, farm-raised rabbits instead of wild ones. When released, the hungry bunnies did not run away. Instead, they saw Napoleon as a source of food and charged at him in a massive swarm, forcing the emperor to retreat to his carriage.",
+      "imageWikipediaTitle": "Napoleon",
+      "sources": [
+        {
+          "title": "Napoleon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Napoleon",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chainsaws Were Originally Invented to Help Deliver Babies",
+      "body": "Long before power tools were used in lumberyards, two Scottish surgeons in the late 18th century designed a flexible, hand-cranked saw with small teeth to perform symphysiotomies. This surgical procedure involved cutting through bone and cartilage to widen the pelvis during difficult childbirths. The device made bone removal faster and less painful for patients before the widespread use of anesthesia.",
+      "imageWikipediaTitle": "Chainsaw",
+      "sources": [
+        {
+          "title": "Chainsaw",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chainsaw"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chainsaw",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pigeons Can Spot Breast Cancer on Mammograms as Well as Humans",
+      "body": "Researchers trained pigeons using food rewards to distinguish between benign and malignant tissue in medical images. Pigeons possess visual processing systems capable of memorizing hundreds of unique images. After brief training, the birds correctly identified breast cancer tumors in mammograms and biopsy slides with roughly 85% accuracy—and over 99% accuracy when a flock's votes were combined.",
+      "imageWikipediaTitle": "Columbidae",
+      "sources": [
+        {
+          "title": "Columbidae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Columbidae"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Columbidae",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You Can See a Glass Frog's Beating Heart Through Its Skin",
+      "body": "Glass frogs have translucent skin on their undersides, making their stomach, liver, and beating red heart visible from below without dissection. To avoid predators while sleeping on leaves during the day, these tree frogs can also route up to 89% of their red blood cells into their liver. This trick turns their muscles and skin almost completely see-through, providing remarkable camouflage.",
+      "imageWikipediaTitle": "Glass frog",
+      "sources": [
+        {
+          "title": "Glass frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glass_frog"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Glass_frog",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moths Don't Fly Into Lights Because They Are Attracted to Flame",
+      "body": "For centuries, people assumed moths were drawn to bright lights out of suicidal attraction. However, high-speed camera footage reveals that insects actually use natural light sources, like the Moon, to orient their tops toward the sky. Artificial bulbs disorient this flight response, causing insects to tilt their backs toward the light source and loop endlessly in trapped orbits around it.",
+      "imageWikipediaTitle": "Moth",
+      "sources": [
+        {
+          "title": "Moth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moth",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Etruscan Shrews Shrink Their Own Skulls to Survive Winter",
+      "body": "To endure winter cold when food is scarce, the tiny Etruscan shrew reduces its head size by shrinking its skull and brain tissue by up to 20%. Known as Dehnel's phenomenon, this dramatic bone resorption lowers the mammal's metabolic energy needs. When spring arrives and food becomes plentiful, the shrew regenerates its skull bones and brain volume back to normal.",
+      "imageWikipediaTitle": "Etruscan shrew",
+      "sources": [
+        {
+          "title": "Dehnel's phenomenon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dehnel%27s_phenomenon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dehnel%27s_phenomenon",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How long can a sloth take to digest a single meal?",
+      "options": [
+        "Up to 30 days",
+        "About 24 hours",
+        "Around 2 to 3 days",
+        "Less than 6 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sloths have an extremely slow metabolism, taking up to a full month to process a single meal."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where do sea otters store their favorite rocks?",
+      "options": [
+        "In a fold of skin under their forearms",
+        "Inside their cheek pouches",
+        "Under their tail",
+        "In a pocket near their hind feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea otters carry rocks and harvested food in loose pockets of skin located under their forearms."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where are a lobster's grinding teeth located?",
+      "options": [
+        "Inside its stomach",
+        "Along its antennae",
+        "On the outer tips of its claws",
+        "On the underside of its tail"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lobsters grind food using three calcified, tooth-like structures in a stomach chamber called the gastric mill."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which radioactive isotope makes bananas naturally radioactive?",
+      "options": [
+        "Potassium-40",
+        "Uranium-235",
+        "Carbon-14",
+        "Radon-222"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bananas contain potassium, a small portion of which consists of the naturally radioactive isotope potassium-40."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did thousands of rabbits attack Napoleon Bonaparte in 1807?",
+      "options": [
+        "They were tame farm rabbits expecting to be fed",
+        "They were infected with rabies",
+        "They were startled by gunpowder explosions",
+        "They were trained military animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because tame, farm-raised rabbits were used instead of wild ones, they associated humans with food and rushed toward Napoleon."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why was the chainsaw originally invented in the late 18th century?",
+      "options": [
+        "To cut through bone during difficult childbirths",
+        "To fell oak trees for naval warships",
+        "To slice frozen meat in slaughterhouses",
+        "To sculpt ice blocks for refrigeration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two Scottish surgeons invented the hand-cranked saw to assist in symphysiotomies during pelvic surgery in childbirth."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What accuracy did a flock of pigeons achieve when detecting breast cancer tumors?",
+      "options": [
+        "Over 99%",
+        "Around 50%",
+        "About 70%",
+        "Exactly 100%"
+      ],
+      "correctIndex": 0,
+      "explanation": "When votes from multiple pigeons were combined, their collective accuracy reached over 99%."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How do glass frogs increase their transparency while sleeping during the day?",
+      "options": [
+        "By storing up to 89% of their red blood cells in their liver",
+        "By shedding their skin every morning",
+        "By changing color like a chameleon",
+        "By burying themselves in mud"
+      ],
+      "correctIndex": 0,
+      "explanation": "Glass frogs hide red blood cells in their liver, making their muscles and skin clear and highly translucent."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why do moths actually orbit artificial light bulbs?",
+      "options": [
+        "Artificial light disorients their flight navigation system",
+        "They feed on heat emitted by the bulb",
+        "They use artificial light to signal mates",
+        "They mistake light bulbs for rival insects"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moths turn their backs to light to navigate; artificial bulbs confuse this response, trapping them in flight loops."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What seasonal physical change occurs in an Etruscan shrew during winter?",
+      "options": [
+        "It shrinks its skull and brain tissue by up to 20%",
+        "Its skull becomes completely hollow",
+        "Its backbone splits into two flexible halves",
+        "Its bones double in density"
+      ],
+      "correctIndex": 0,
+      "explanation": "Through Dehnel's phenomenon, shrews shrink their skull and brain size in winter to conserve energy."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many days can a sloth take to digest a single meal?",
+      "answer": 30,
+      "min": 1,
+      "max": 90,
+      "unit": "days",
+      "explanation": "Due to a very slow metabolism, a sloth can take up to 30 days to process just one meal."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Roughly how many bananas would you need to eat all at once to suffer a lethal dose of radiation?",
+      "answer": 10000000,
+      "min": 100000,
+      "max": 100000000,
+      "unit": "bananas",
+      "explanation": "Because the radiation level in a single banana is microscopic, you would need to eat 10 million at once for lethal exposure."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "When votes from a trained flock of pigeons were combined, what percentage accuracy did they reach in diagnosing breast cancer on medical slides?",
+      "answer": 99,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Trained pigeons reached over 99% accuracy when evaluated as a group, rivaling professional radiologists."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "By what percentage can an Etruscan shrew shrink its skull and brain volume during winter?",
+      "answer": 20,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Etruscan shrews reduce their skull and brain mass by up to 20% to save energy during harsh winter months."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "Napoleon Bonaparte was once forced to retreat from a massive swarm of aggressive rabbits.",
+      "answer": true,
+      "explanation": "In 1807, thousands of tame rabbits swarmed Napoleon looking for food, forcing him to flee to his carriage."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "Chainsaws were originally invented for cutting down large trees in the lumber industry.",
+      "answer": false,
+      "explanation": "Chainsaws were first created by two Scottish surgeons in the late 18th century to cut bone during difficult childbirths."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Moths fly toward artificial lights because they are attracted to heat and flame.",
+      "answer": false,
+      "explanation": "Moths turn their backs to light to navigate; artificial lights mess up their natural orientation, trapping them in endless loops."
+    }
+  ]
+}

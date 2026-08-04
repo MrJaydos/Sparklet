@@ -1,0 +1,357 @@
+{
+  "generatedAt": "2026-08-04T18:21:52.902Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your joint cartilage relies on physical movement to eat",
+      "body": "Unlike most tissues in your body, articular cartilage in your joints contains no blood vessels. Instead, it gets nutrients from synovial fluid through mechanical pumping. When you walk or move, compression squeezes metabolic waste out of the cartilage, and when pressure is released, fresh fluid rich in nutrients is sucked back in like a sponge.",
+      "imageWikipediaTitle": "Articular cartilage",
+      "sources": [
+        {
+          "title": "Articular cartilage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Articular_cartilage"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Articular_cartilage",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most animals make their own vitamin C—humans lost the ability",
+      "body": "Almost all mammals produce their own vitamin C in their liver or kidneys, making scurvy an impossibility for them. However, roughly 61 million years ago, an ancestor of humans suffered a genetic mutation that disabled the gene responsible for synthesizing the enzyme GULO. As a result, humans, apes, and a few other species must get all their vitamin C from food.",
+      "imageWikipediaTitle": "Vitamin C",
+      "sources": [
+        {
+          "title": "Vitamin C",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vitamin_C"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vitamin_C",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of your body's capillaries are closed off at any given second",
+      "body": "Your body contains billions of microscopic capillaries, but at rest, only 5 to 10 percent of them carry flowing blood. Tiny rings of smooth muscle called precapillary sphincters act as traffic controllers, opening and closing pathways based on local tissue demands. This dynamic routing ensures oxygen and nutrients go strictly where needed without dropping your overall blood pressure.",
+      "imageWikipediaTitle": "Capillary",
+      "sources": [
+        {
+          "title": "Capillary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Capillary"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Capillary",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tiny calcium crystals inside your inner ear tell your brain which way is down",
+      "body": "Hidden deep within your inner ear are microscopic stones made of calcium carbonate, known as otoconia. These heavy crystals sit atop a gel layer embedded with sensory hair cells. When you tilt your head or accelerate in a car, gravity pulls on the heavy otoconia, bending the hairs underneath and sending instantaneous directional signals straight to your brain.",
+      "imageWikipediaTitle": "Otoconium",
+      "sources": [
+        {
+          "title": "Otoconium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Otoconium"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Otoconium",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body recycles its own weight in energy currency every single day",
+      "body": "Adenosine triphosphate, or ATP, is the chemical unit of energy that powers every muscle contraction and cellular process in your body. Because cells store only a tiny amount at once, your body constantly recycles it. Over 24 hours, a typical adult generates and breaks down a mass of ATP roughly equivalent to their entire body weight.",
+      "imageWikipediaTitle": "Adenosine triphosphate",
+      "sources": [
+        {
+          "title": "Adenosine triphosphate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adenosine_triphosphate"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Adenosine_triphosphate",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Digesting protein burns up to 30 percent of its own calories",
+      "body": "Digesting food takes energy, a phenomenon known as the thermic effect of food. While your body expends only 0 to 3 percent of fat calories and 5 to 10 percent of carbohydrate calories to process them, breaking down protein requires significant metabolic effort. Up to 30 percent of the calories in protein are burned off as heat during digestion alone.",
+      "imageWikipediaTitle": "Specific dynamic action",
+      "sources": [
+        {
+          "title": "Specific dynamic action",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Specific_dynamic_action"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Specific_dynamic_action",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The muscles that move your eyes are the fastest in your entire body",
+      "body": "The extraocular muscles control every micro-movement of your eyes with astonishing speed, reaching full contraction in as little as 5 milliseconds. That is up to ten times faster than the muscles in your legs or arms. This hyper-rapid performance allows your eyes to perform instant jump movements, called saccades, keeping visual images crisp and steady while your head moves.",
+      "imageWikipediaTitle": "Extraocular muscles",
+      "sources": [
+        {
+          "title": "Extraocular muscles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Extraocular_muscles"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Extraocular_muscles",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You exhale roughly half a liter of water every single day",
+      "body": "Every time you breathe out, you exhale warm air completely saturated with water vapor. This invisible exhalation, known as insensible water loss, causes you to shed between 300 and 500 milliliters of water daily under normal conditions. In cold or dry environments, breathing faster or deeper can cause your lungs to expel even more hydration into the atmosphere.",
+      "imageWikipediaTitle": "Breathing",
+      "sources": [
+        {
+          "title": "Fluid balance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fluid_balance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fluid_balance",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Aerobic exercise expands your total blood volume in just a few days",
+      "body": "Within just three to four days of starting regular endurance training, your body expands its plasma volume—the liquid component of your blood—by 10 to 20 percent. This rapid expansion occurs well before your body manufactures extra red blood cells. The added liquid increases stroke volume, allowing your heart to pump more blood per beat with far less effort.",
+      "imageWikipediaTitle": "Blood plasma",
+      "sources": [
+        {
+          "title": "Blood volume",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blood_volume"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Blood_volume",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your liver holds a 24-hour backup fuel supply for your brain",
+      "body": "Your brain relies on glucose for fuel, but you do not stop thinking when you fast or sleep. To keep glucose steady, your liver stores around 100 to 120 grams of glycogen, a dense chain of glucose molecules. During periods without food, the liver continuously breaks down glycogen into glucose, providing a personal emergency fuel supply that powers your brain for up to 24 hours.",
+      "imageWikipediaTitle": "Glycogen",
+      "sources": [
+        {
+          "title": "Glycogen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glycogen"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Glycogen",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does joint cartilage receive essential nutrients despite having no blood vessels?",
+      "options": [
+        "Through microscopic capillaries from nearby bone",
+        "By absorbing nutrients directly from surrounding skin",
+        "Through fluid movement created when joints are compressed and unloaded",
+        "By producing its own nutrients internally through specialized glands"
+      ],
+      "correctIndex": 2,
+      "explanation": "Articular cartilage lacks blood vessels and relies on joint movement to pump fluid and nutrients in and out."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why must humans obtain vitamin C from their diet while most other mammals do not?",
+      "options": [
+        "Humans consume too much oxygen to synthesize vitamin C",
+        "A genetic mutation disabled the key enzyme gene GULO millions of years ago",
+        "Human livers convert all vitamin C into blood sugar",
+        "Human digestive tracts break down vitamin C before it can be stored"
+      ],
+      "correctIndex": 1,
+      "explanation": "Millions of years ago, a mutation rendered the GULO gene inactive in our ancestors, stopping internal vitamin C production."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What percentage of your body's capillary beds carry active blood flow while you are resting?",
+      "options": [
+        "Around 5% to 10%",
+        "Exactly 50%",
+        "Over 80%",
+        "100% at all times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Precapillary sphincters keep 90% or more of capillary beds closed at rest to conserve blood pressure and redirect flow where needed."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What are otoconia, and what vital job do they perform in the human body?",
+      "options": [
+        "Microscopic bones in the jaw that detect sound frequencies",
+        "Calcium carbonate crystals in the inner ear that sense gravity and motion",
+        "Nerve endings in the eye that process low-light conditions",
+        "Fluid-filled sacks in joints that reduce cartilage friction"
+      ],
+      "correctIndex": 1,
+      "explanation": "Otoconia are microscopic calcium carbonate crystals in the inner ear that pull on hair cells under gravity, sensing motion and position."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How much ATP does a typical human body produce and break down in a single day?",
+      "options": [
+        "A few milligrams",
+        "About 50 grams",
+        "Roughly equivalent to the person's entire body weight",
+        "Over 1,000 kilograms"
+      ],
+      "correctIndex": 2,
+      "explanation": "ATP is recycled so rapidly that its daily turnover mass equals approximately your total body weight."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Which macronutrient requires the most energy for your body to digest and absorb?",
+      "options": [
+        "Dietary fat",
+        "Carbohydrates",
+        "Protein",
+        "Water"
+      ],
+      "correctIndex": 2,
+      "explanation": "Protein has the highest thermic effect of food, expending up to 30% of its caloric intake during digestion."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What distinguishes extraocular muscles from other skeletal muscles in the human body?",
+      "options": [
+        "They do not require oxygen to function",
+        "They contract faster than any other muscles, in as little as 5 milliseconds",
+        "They are the only muscles attached directly to bone without tendons",
+        "They generate more raw lifting force than the jaw muscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extraocular muscles reach full contraction in 5 to 10 milliseconds, making them the fastest-contracting muscles in humans."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How does breathing contribute to daily fluid loss in the human body?",
+      "options": [
+        "Lungs humidify air and evaporate 300–500 mL daily in exhaled breath",
+        "Exhaled air carries away liquid saliva droplets from the mouth",
+        "Breathing causes throat glands to release excess fluid into the esophagus",
+        "Air in the lungs transforms water directly into atmospheric nitrogen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exhaled air is fully humidified by body tissues, expelling roughly 300 to 500 mL of water daily as invisible vapor."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What is the primary cause of the initial blood volume increase during the first few days of endurance training?",
+      "options": [
+        "A sudden surge in new red blood cells",
+        "An expansion of blood plasma volume",
+        "Increased bone marrow density",
+        "Contraction of the spleen releasing trapped blood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aerobic exercise triggers a 10-20% expansion in plasma volume within days, long before red blood cell counts rise."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What organ stores glycogen specifically to release glucose into the bloodstream to feed the brain during fasting?",
+      "options": [
+        "Skeletal muscle",
+        "Pancreas",
+        "Liver",
+        "Spleen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike muscle glycogen, which stays in muscles, liver glycogen is broken down into glucose and released into the bloodstream to feed organs like the brain."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "At any moment while resting, what percentage of your body's capillaries actually have blood flowing through them?",
+      "answer": 10,
+      "min": 1,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Only 5% to 10% of capillary beds are open at rest; precapillary sphincters redirect flow as needed."
+    },
+    {
+      "cardIndex": 5,
+      "prompt": "What percentage of the calories in dietary protein is burned off just by the body digesting and processing it?",
+      "answer": 30,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Up to 30% of protein calories are expended during metabolic breakdown, compared to just 0-3% for dietary fat."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many milliseconds does it take for the extraocular muscles controlling your eyes to reach full contraction?",
+      "answer": 5,
+      "min": 1,
+      "max": 100,
+      "unit": "ms",
+      "explanation": "Eye muscles contract in as fast as 5 milliseconds, making them the fastest muscles in the human body."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many milliliters of water does a person lose each day simply by exhaling breath?",
+      "answer": 400,
+      "min": 50,
+      "max": 2000,
+      "unit": "mL",
+      "explanation": "Human exhalation accounts for roughly 300 to 500 mL of fluid loss every day under standard conditions."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "How many grams of glycogen reserve does an adult liver store to keep blood sugar stable during fasting?",
+      "answer": 110,
+      "min": 10,
+      "max": 500,
+      "unit": "g",
+      "explanation": "The human liver stores roughly 100 to 120 grams of glycogen, enough to maintain blood glucose for up to 24 hours."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Joint cartilage receives nutrients directly through dedicated blood vessels.",
+      "answer": false,
+      "explanation": "Cartilage is completely avascular and gets nutrients strictly through the mechanical squishing of synovial fluid during movement."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "All mammals must eat foods rich in vitamin C to survive.",
+      "answer": false,
+      "explanation": "Most mammals manufacture their own vitamin C; humans and a few other primates are rare exceptions due to a gene mutation."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Your inner ear contains actual solid stones made of calcium carbonate.",
+      "answer": true,
+      "explanation": "Otoconia are true calcium carbonate microscopic crystals in the inner ear that act as heavy masses for sensing gravity."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The body stores enough ATP to fuel an entire day of physical activity without needing to regenerate it.",
+      "answer": false,
+      "explanation": "The body holds only a few seconds' worth of ATP at any time, recycling its total body weight in ATP constantly throughout the day."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Early cardio fitness improvements are caused immediately by producing millions of new red blood cells.",
+      "answer": false,
+      "explanation": "The immediate increase in blood volume from early aerobic training comes from plasma fluid expansion, not new red blood cells."
+    }
+  ]
+}
