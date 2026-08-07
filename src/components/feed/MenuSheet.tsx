@@ -86,6 +86,9 @@ export function MenuSheet({
         <Link href="/feed" className={item(pathname === "/feed")}>
           🏠 Home
         </Link>
+        <Link href="/explore" className={item(pathname?.startsWith("/explore") ?? false)}>
+          🧭 Explore
+        </Link>
         {onSearch && (
           <button type="button" onClick={onSearch} className={item()}>
             🔍 Search cards

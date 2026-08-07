@@ -70,10 +70,13 @@ export async function generateMetadata({
   return {
     title: `${card.title} — Sparklet`,
     description: card.body.slice(0, 160),
+    alternates: { canonical: `/card/${id}` },
     openGraph: { title: card.title, description: card.body.slice(0, 160) },
     twitter: { card: "summary_large_image", title: card.title },
   };
 }
+
+const SITE_URL = process.env.NEXTAUTH_URL || "http://localhost:3000";
 
 export default async function CardPage({
   params,
@@ -102,8 +105,31 @@ export default async function CardPage({
   const sources = card.sources as { title: string; publisher: string; url: string }[];
   const related = (await getRelatedCards([card.id], 3)).get(card.id) ?? [];
 
+  // Tells search engines this is a real, sourced article (not scraped/thin
+  // content) — citation links back to the same source URLs shown on the page.
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: card.title,
+    description: card.body,
+    image: card.imageUrl ?? undefined,
+    datePublished: card.createdAt.toISOString(),
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/card/${card.id}` },
+    author: { "@type": "Organization", name: "Sparklet", url: SITE_URL },
+    publisher: {
+      "@type": "Organization",
+      name: "Sparklet",
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/icon-512.png` },
+    },
+    citation: sources.map((s) => s.url),
+  };
+
   return (
     <main className="mx-auto min-h-dvh w-full max-w-lg px-5 pb-8 pt-[calc(env(safe-area-inset-top)+2rem)] lg:max-w-2xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <Link href={moderating ? "/admin#awaiting-review" : "/feed"} className="text-sm text-neutral-400 hover:text-neutral-200">
         {moderating ? "← Back to review queue" : "← Back to feed"}
       </Link>
@@ -140,7 +166,7 @@ export default async function CardPage({
           >
             {card.category.icon} {card.category.name}
           </span>
-          <span className="text-xs text-neutral-500" title="When this card was published">
+          <span className="text-xs text-neutral-400" title="When this card was published">
             published {timeAgo(card.createdAt)}
           </span>
         </div>
