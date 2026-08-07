@@ -57,7 +57,7 @@ export async function generateMetadata({
   const { id } = await params;
   const card = await prisma.card.findUnique({
     where: { id },
-    select: { title: true, body: true, published: true },
+    select: { title: true, body: true, published: true, depthLevel: true, depthGroupId: true },
   });
   // 404 must be decided here: by the time the page body runs, streaming has
   // begun and a notFound() there renders the 404 UI with a 200 status.
@@ -67,10 +67,26 @@ export async function generateMetadata({
     if (!session?.user?.id) notFound();
     return { title: `${card.title} — Sparklet`, robots: { index: false } };
   }
+
+  // SIMPLE/DEEP/EXTRA_DEEP variants are separate published rows sharing a
+  // depthGroupId with the STANDARD card — near-duplicate content of it, not
+  // distinct pages. They're excluded from the sitemap and unlinked in the
+  // UI, but canonicalize to the STANDARD sibling anyway in case one is ever
+  // discovered directly (a shared link, a stray backlink), so it doesn't
+  // get indexed as its own thin/duplicate page.
+  let canonicalId = id;
+  if (card.depthLevel !== "STANDARD" && card.depthGroupId) {
+    const standard = await prisma.card.findFirst({
+      where: { depthGroupId: card.depthGroupId, depthLevel: "STANDARD", published: true },
+      select: { id: true },
+    });
+    if (standard) canonicalId = standard.id;
+  }
+
   return {
     title: `${card.title} — Sparklet`,
     description: card.body.slice(0, 160),
-    alternates: { canonical: `/card/${id}` },
+    alternates: { canonical: `/card/${canonicalId}` },
     openGraph: { title: card.title, description: card.body.slice(0, 160) },
     twitter: { card: "summary_large_image", title: card.title },
   };
