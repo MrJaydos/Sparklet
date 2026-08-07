@@ -28,13 +28,18 @@ export async function GET(req: NextRequest) {
 
   if (rows.length === 0) {
     // Partial words ("quant") don't stem-match; fall back to substring on title.
+    // Escape LIKE's own wildcards first — the value is parameterized, so this
+    // was never injectable, but an unescaped "%" or "_" is a wildcard the
+    // caller didn't ask for: a lone "%" matches every published card and
+    // makes Postgres scan the whole table on an endpoint anyone can hit.
+    const literal = q.replace(/[\\%_]/g, (ch) => `\\${ch}`);
     rows = await prisma.$queryRaw<Row[]>`
       SELECT c.id, c.title, c."createdAt", cat.name, cat.icon, cat."colorHex"
       FROM "Card" c
       JOIN "Category" cat ON cat.id = c."categoryId"
       WHERE c.published
         AND c."depthLevel" = 'STANDARD'
-        AND c.title ILIKE ${"%" + q + "%"}
+        AND c.title ILIKE ${"%" + literal + "%"}
       ORDER BY c.score DESC
       LIMIT 20
     `;

@@ -39,6 +39,11 @@ import { shareOrCopy } from "@/lib/share";
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
 
+/** Order-insensitive set comparison of two topic selections. */
+function sameSelection(a: string[], b: string[]): boolean {
+  return a.length === b.length && a.every((s) => b.includes(s));
+}
+
 const QUIZ_EVERY = 10; // roughly 1 recall quiz per 10 cards
 // All four intervals share small common factors by design (10/12/10/12) with
 // offsets chosen so none of quiz/guess/misconception/explain ever land on the
@@ -77,6 +82,7 @@ export function Feed({
   initialExplainPrompts,
   initialExhausted,
   categories,
+  initialCategories,
   initialStreak,
   initialLongestStreak,
   initialFreezesAvailable,
@@ -99,6 +105,12 @@ export function Feed({
   initialExplainPrompts: FeedExplainPrompt[];
   initialExhausted: boolean;
   categories: CategoryOption[];
+  /** Topic slugs `initialCards` was actually built from — the signed-in
+   * user's saved UserInterest selection, or [] for "Everything"/guests.
+   * Lets the mount effect below tell "the server already rendered what I
+   * want" from "the server rendered something else", instead of always
+   * assuming the latter and refetching. */
+  initialCategories: string[];
   initialStreak: number;
   initialLongestStreak: number;
   initialFreezesAvailable: number;
@@ -149,7 +161,7 @@ export function Feed({
   const [sessionCategories, setSessionCategories] = useState<Set<string>>(new Set());
   const [goalReachedAfter, setGoalReachedAfter] = useState<number | null>(null);
   const sessionViewsRef = useRef(0);
-  const [selected, setSelected] = useState<string[]>([]);
+  const [selected, setSelected] = useState<string[]>(initialCategories);
   const [saves, setSaves] = useState<Record<string, boolean>>(() =>
     Object.fromEntries(initialCards.map((c) => [c.id, c.saved]))
   );
@@ -349,6 +361,13 @@ export function Feed({
   // Local storage paints instantly (and is all guests get); for signed-in
   // users the server (UserInterest, kept in sync by applyCategories) is the
   // durable cross-device source of truth and wins once it lands.
+  //
+  // Every refetch here throws away cards the server already rendered and
+  // visibly repaints the feed, so each one is gated on the selection
+  // actually differing from what `initialCards` was built with. This used
+  // to refetch unconditionally whenever localStorage held any selection,
+  // which — since the page rendered an unfiltered feed regardless — meant
+  // every single load flashed the wrong cards before correcting itself.
   useEffect(() => {
     let localSaved: string[] = [];
     try {
@@ -358,7 +377,7 @@ export function Feed({
     }
     // Deferred so the restore doesn't force a cascading render mid-hydration.
     queueMicrotask(() => {
-      if (localSaved.length) {
+      if (localSaved.length && !sameSelection(localSaved, initialCategories)) {
         setSelected(localSaved);
         fetchCards(localSaved, { reset: true });
       }
@@ -370,12 +389,17 @@ export function Feed({
       .then((data: { categorySlugs?: string[] } | null) => {
         if (!data) return;
         const serverSaved = data.categorySlugs ?? [];
-        const same =
-          serverSaved.length === localSaved.length &&
-          serverSaved.every((s) => localSaved.includes(s));
-        if (same) return;
+        // What's on screen right now: localStorage won above if it differed
+        // from the server render, otherwise it's still initialCategories.
+        const onScreen =
+          localSaved.length && !sameSelection(localSaved, initialCategories)
+            ? localSaved
+            : initialCategories;
+        if (!sameSelection(serverSaved, localSaved)) {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(serverSaved));
+        }
+        if (sameSelection(serverSaved, onScreen)) return;
         setSelected(serverSaved);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(serverSaved));
         fetchCards(serverSaved, { reset: true });
       })
       .catch(() => {});

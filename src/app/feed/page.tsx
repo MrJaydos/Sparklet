@@ -42,6 +42,7 @@ export default async function FeedPage() {
         initialExplainPrompts={feed.explainPrompts}
         initialExhausted={feed.exhausted}
         categories={categories}
+        initialCategories={[]}
         initialStreak={0}
         initialLongestStreak={0}
         initialFreezesAvailable={0}
@@ -61,12 +62,23 @@ export default async function FeedPage() {
 
   const isAdmin = isAdminEmail(session?.user?.email);
 
+  // Render the feed the user actually asked for. UserInterest is the durable
+  // server-side mirror of the topic filter (see AGENTS.md), so it's known
+  // here — and rendering without it meant every load painted an unfiltered
+  // feed that the client then threw away and refetched from localStorage,
+  // which is exactly the flash-then-replace on load.
+  const interests = await prisma.userInterest.findMany({
+    where: { userId },
+    select: { category: { select: { slug: true } } },
+  });
+  const initialCategories = interests.map((i) => i.category.slug);
+
   const [categories, feed, user, unread] = await Promise.all([
     prisma.category.findMany({
       orderBy: { name: "asc" },
       select: { slug: true, name: true, colorHex: true, icon: true },
     }),
-    getFeedCards({ userId, take: 10 }),
+    getFeedCards({ userId, take: 10, categorySlugs: initialCategories }),
     prisma.user.findUniqueOrThrow({
       where: { id: userId },
       select: {
@@ -107,6 +119,7 @@ export default async function FeedPage() {
       initialExplainPrompts={feed.explainPrompts}
       initialExhausted={feed.exhausted}
       categories={categories}
+      initialCategories={initialCategories}
       initialStreak={user.currentStreak}
       initialLongestStreak={user.longestStreak}
       initialFreezesAvailable={user.streakFreezesAvailable}
