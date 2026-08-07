@@ -1,5 +1,6 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { isValidCronToken } from "@/lib/cron-auth";
 
 export const dynamic = "force-dynamic";
 
@@ -8,10 +9,17 @@ export const dynamic = "force-dynamic";
 const SUGGESTED_TOPICS_PER_CATEGORY = 8;
 
 /**
- * Public aggregate inventory, consumed by the scheduled content top-up job
- * (which runs in CI without database access). Exposes card counts, titles,
- * and pending reader-suggested topics (id + text only) — nothing tied to
- * who suggested it.
+ * Aggregate inventory, consumed by the scheduled content top-up job (which
+ * runs in CI without database access). Exposes card counts, titles, and
+ * pending reader-suggested topics (id + text only) — nothing tied to who
+ * suggested it.
+ *
+ * Token-authed (Authorization: Bearer $REVALIDATE_TOKEN), same shared cron
+ * secret as the /api/admin/* routes. This was public — it only ever needed
+ * to be reachable by CI, and open it hands anyone the full title list of
+ * every card in the bank (including *unpublished* ones, i.e. exactly the
+ * cards that failed fact-check), the reader-suggestion queue, and maxSeen,
+ * which is a live engagement metric.
  *
  * Counts cover STANDARD cards only: depth variants (SIMPLE/DEEP) are never
  * served as feed items, so including them would overstate the bank.
@@ -26,7 +34,11 @@ const SUGGESTED_TOPICS_PER_CATEGORY = 8;
  * category's minimum bank above this, so heavy readers/skimmers don't run
  * out of unseen cards while the global count still looks healthy.
  */
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!isValidCronToken(req)) {
+    return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+  }
+
   const [categories, demand] = await Promise.all([
     prisma.category.findMany({
       orderBy: { slug: "asc" },

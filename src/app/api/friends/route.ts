@@ -34,10 +34,18 @@ export async function GET() {
   for (const f of friendships) {
     const mine = f.requesterId === userId;
     const other = mine ? f.addressee : f.requester;
-    const row = { friendshipId: f.id, name: displayName(other), email: other.email };
-    if (f.status === "ACCEPTED") friends.push(row);
-    else if (mine) outgoing.push(row);
-    else incoming.push(row);
+    const name = displayName(other);
+    if (f.status === "ACCEPTED") {
+      friends.push({ friendshipId: f.id, name, email: other.email });
+    } else {
+      // Email only once the friendship is mutual. A pending request is
+      // one-sided by definition: sending one shouldn't hand your address to
+      // someone who hasn't accepted (nor should a friend-code request
+      // reveal theirs to you). The key stays present, blank, so existing
+      // native clients decoding a non-optional field don't break — nothing
+      // in the web UI reads it at all.
+      (mine ? outgoing : incoming).push({ friendshipId: f.id, name, email: "" });
+    }
   }
 
   return NextResponse.json({ friendCode, friends, incoming, outgoing });

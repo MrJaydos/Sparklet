@@ -63,8 +63,12 @@ export async function generateMetadata({
   // begun and a notFound() there renders the 404 UI with a 200 status.
   if (!card) notFound();
   if (!card.published) {
+    // Admins only. Unpublished means failed fact-check, rotted sources, or
+    // auto-hidden after reports — the exact content that must not be served,
+    // and card ids are guessable enough that "any signed-in user" was not a
+    // gate. Mirrors the same check in the page body below.
     const session = await auth();
-    if (!session?.user?.id) notFound();
+    if (!isAdminEmail(session?.user?.email)) notFound();
     return { title: `${card.title} — Sparklet`, robots: { index: false } };
   }
 
@@ -112,7 +116,7 @@ export default async function CardPage({
       savedBy: userId ? { where: { userId }, select: { id: true } } : false,
     },
   });
-  if (!card || (!card.published && !userId)) notFound();
+  if (!card || (!card.published && !isAdmin)) notFound();
 
   // Only reachable this way if an admin is looking at a card the review
   // queue held back — that's always a moderation visit, not a normal read.

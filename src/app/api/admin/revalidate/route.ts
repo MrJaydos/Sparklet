@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { isValidCronToken } from "@/lib/cron-auth";
 
 /**
  * Re-checks source URLs of already-published cards — links rot after launch,
@@ -40,9 +41,7 @@ async function urlIsAlive(url: string): Promise<boolean> {
 }
 
 export async function POST(req: NextRequest) {
-  const token = process.env.REVALIDATE_TOKEN;
-  const provided = req.headers.get("authorization")?.replace(/^Bearer\s+/i, "");
-  if (!token || provided !== token) {
+  if (!isValidCronToken(req)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 

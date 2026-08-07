@@ -134,10 +134,14 @@ export default async function ProfilePage() {
   for (const f of friendships) {
     const mine = f.requesterId === userId;
     const other = mine ? f.addressee : f.requester;
-    const row: FriendRow = { friendshipId: f.id, name: displayName(other), email: other.email };
-    if (f.status === "ACCEPTED") friends.push(row);
-    else if (mine) outgoing.push(row);
-    else incoming.push(row);
+    const name = displayName(other);
+    // Email only once the friendship is mutual — same rule as
+    // GET /api/friends, which serves this shape to native clients.
+    if (f.status === "ACCEPTED") {
+      friends.push({ friendshipId: f.id, name, email: other.email });
+    } else {
+      (mine ? outgoing : incoming).push({ friendshipId: f.id, name, email: "" });
+    }
   }
 
   const badges = computeBadges({

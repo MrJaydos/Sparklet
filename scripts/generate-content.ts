@@ -188,11 +188,19 @@ type InventoryCategory = {
 async function fetchInventory(): Promise<InventoryCategory[] | null> {
   const base = process.env.APP_URL;
   if (!base) return null;
+  // /api/inventory is token-authed (same REVALIDATE_TOKEN cron secret as
+  // the /api/admin/* routes) — without it every attempt below 401s.
+  const token = process.env.REVALIDATE_TOKEN;
+  if (!token) {
+    console.warn("REVALIDATE_TOKEN unset — cannot read /api/inventory, skipping top-up.");
+    return null;
+  }
   // Retry across a few minutes: the app 404s briefly mid-deploy, and a
   // scheduled run colliding with a deploy shouldn't kill the day's top-up.
   for (let attempt = 1; attempt <= 5; attempt++) {
     try {
       const res = await fetch(`${base.replace(/\/$/, "")}/api/inventory`, {
+        headers: { authorization: `Bearer ${token}` },
         signal: AbortSignal.timeout(15_000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);

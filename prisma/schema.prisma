@@ -221,6 +221,14 @@ model Card {
   @@index([categoryId, published])
   @@index([depthGroupId])
   @@index([requestedById, createdAt])
+  // One row per depth level per group. POST /api/cards/[id]/depth checks
+  // "does this variant exist yet" and creates it in two separate steps with
+  // a slow LLM call in between, so two concurrent requests for the same
+  // (card, level) both used to miss and both insert — duplicate rows, paid
+  // for twice. Nothing else in the app assigns depthGroupId (imports take
+  // the @default(cuid()), giving every STANDARD card its own group), so
+  // this can only ever reject that race.
+  @@unique([depthGroupId, depthLevel])
   @@index([search], type: Gin)
 }
 

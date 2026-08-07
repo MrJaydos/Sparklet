@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { prisma } from "@/lib/db";
+import { isValidCronToken } from "@/lib/cron-auth";
 
 /**
  * Flips reader suggestions from PENDING to INCLUDED once the content
@@ -15,9 +16,7 @@ import { prisma } from "@/lib/db";
 const bodySchema = z.object({ ids: z.array(z.string()).min(1).max(50) });
 
 export async function POST(req: NextRequest) {
-  const token = process.env.REVALIDATE_TOKEN;
-  const provided = req.headers.get("authorization")?.replace(/^Bearer\s+/i, "");
-  if (!token || provided !== token) {
+  if (!isValidCronToken(req)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 

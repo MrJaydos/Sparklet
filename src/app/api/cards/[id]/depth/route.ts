@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
+import { Prisma } from "@/generated/prisma/client";
 import { generateJSON } from "@/lib/ai-provider";
 import { contentHash } from "@/lib/content-schema";
 import { isBillingEnabled } from "@/lib/billing";
@@ -127,26 +128,50 @@ Respond with JSON only: {"title": "...", "body": "..."}`;
     return NextResponse.json({ error: "generation failed" }, { status: 502 });
   }
 
-  const created = await prisma.card.create({
-    data: {
-      categoryId: card.categoryId,
-      type: card.type,
-      title: variant.title,
-      body: variant.body,
-      imageUrl: card.imageUrl,
-      sources: card.sources as object[],
-      readMoreUrl: card.readMoreUrl,
-      // Same sources as the validated standard card, so it inherits publish.
-      published: true,
-      contentHash: contentHash({ category: card.categoryId, title: variant.title, body: variant.body }),
-      depthGroupId: card.depthGroupId,
-      depthLevel: level,
-      modelUsed: model,
-      // What the rate-limit count above reads. Only ever set here — cards
-      // from the content pipeline leave it null.
-      requestedById: userId,
-    },
-  });
+  let created;
+  try {
+    created = await prisma.card.create({
+      data: {
+        categoryId: card.categoryId,
+        type: card.type,
+        title: variant.title,
+        body: variant.body,
+        imageUrl: card.imageUrl,
+        sources: card.sources as object[],
+        readMoreUrl: card.readMoreUrl,
+        // Same sources as the validated standard card, so it inherits publish.
+        published: true,
+        contentHash: contentHash({ category: card.categoryId, title: variant.title, body: variant.body }),
+        depthGroupId: card.depthGroupId,
+        depthLevel: level,
+        modelUsed: model,
+        // What the rate-limit count above reads. Only ever set here — cards
+        // from the content pipeline leave it null.
+        requestedById: userId,
+      },
+    });
+  } catch (err) {
+    // Lost the race: another request for this same (group, level) finished
+    // generating while this one was still waiting on the model, and the
+    // @@unique([depthGroupId, depthLevel]) rejected the second insert. Their
+    // variant is just as valid as ours — serve it rather than 500.
+    if (
+      err instanceof Prisma.PrismaClientKnownRequestError &&
+      err.code === "P2002" &&
+      card.depthGroupId
+    ) {
+      const winner = await prisma.card.findFirst({
+        where: { depthGroupId: card.depthGroupId, depthLevel: level },
+      });
+      if (winner) {
+        return NextResponse.json({
+          card: { id: winner.id, title: winner.title, body: winner.body, depthLevel: level },
+          generated: false,
+        });
+      }
+    }
+    throw err;
+  }
 
   return NextResponse.json({
     card: { id: created.id, title: created.title, body: created.body, depthLevel: level },

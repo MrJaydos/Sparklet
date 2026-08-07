@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
+import { isValidCronToken } from "@/lib/cron-auth";
 import { pushToUser, pushConfigured, type PushPayload } from "@/lib/push";
 
 export const dynamic = "force-dynamic";
@@ -88,23 +89,33 @@ async function pickTeaser(
 }
 
 export async function POST(req: NextRequest) {
-  const token = process.env.REVALIDATE_TOKEN;
-  const provided = req.headers.get("authorization")?.replace(/^Bearer\s+/i, "");
-  if (!token || provided !== token) {
+  if (!isValidCronToken(req)) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
   if (!pushConfigured) {
     return NextResponse.json({ sent: 0, note: "push not configured (VAPID keys unset)" });
   }
 
-  // ?test=1: fire an immediate test notification to every subscription,
-  // bypassing the evening/active-today/cooldown filters — for verifying
-  // delivery end to end. Doesn't consume the daily nudge.
+  // ?test=1: fire an immediate test notification, bypassing the evening/
+  // active-today/cooldown filters — for verifying delivery end to end.
+  // Doesn't consume the daily nudge.
+  //
+  // Scoped to ADMIN_EMAILS. It used to hit every subscription on the
+  // platform, so a single mistyped verification curl spammed the whole user
+  // base with "🔔 Test push" — and anyone who got hold of REVALIDATE_TOKEN
+  // had a one-request megaphone. Testing delivery only ever needed to reach
+  // the person running the test.
   if (req.nextUrl.searchParams.get("test")) {
-    const subscribed = await prisma.user.findMany({
-      where: { pushSubscriptions: { some: {} } },
-      select: { id: true },
-    });
+    const adminEmails = (process.env.ADMIN_EMAILS ?? "")
+      .split(",")
+      .map((e) => e.trim().toLowerCase())
+      .filter(Boolean);
+    const subscribed = adminEmails.length
+      ? await prisma.user.findMany({
+          where: { pushSubscriptions: { some: {} }, email: { in: adminEmails } },
+          select: { id: true },
+        })
+      : [];
     let sent = 0;
     for (const u of subscribed) {
       sent += await pushToUser(u.id, {
