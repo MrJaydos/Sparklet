@@ -1,0 +1,39 @@
+import type { MetadataRoute } from "next";
+import { prisma } from "@/lib/db";
+
+const base = process.env.NEXTAUTH_URL || "http://localhost:3000";
+
+// Google's per-sitemap cap is 50,000 URLs; the content bank is nowhere near
+// that yet (see AGENTS.md top-up thresholds), so a single file is enough —
+// revisit with generateSitemaps() if the card count ever approaches it.
+const MAX_CARDS = 50_000;
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const [categories, cards] = await Promise.all([
+    prisma.category.findMany({ select: { slug: true } }),
+    prisma.card.findMany({
+      where: { published: true, depthLevel: "STANDARD" },
+      select: { id: true, createdAt: true },
+      orderBy: { createdAt: "desc" },
+      take: MAX_CARDS,
+    }),
+  ]);
+
+  return [
+    { url: base, changeFrequency: "daily", priority: 1 },
+    { url: `${base}/explore`, changeFrequency: "daily", priority: 0.8 },
+    { url: `${base}/privacy`, changeFrequency: "yearly", priority: 0.2 },
+    { url: `${base}/terms`, changeFrequency: "yearly", priority: 0.2 },
+    ...categories.map((c) => ({
+      url: `${base}/explore/${c.slug}`,
+      changeFrequency: "daily" as const,
+      priority: 0.7,
+    })),
+    ...cards.map((c) => ({
+      url: `${base}/card/${c.id}`,
+      lastModified: c.createdAt,
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
+  ];
+}

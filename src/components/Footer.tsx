@@ -13,6 +13,10 @@ export function Footer() {
   return (
     <footer className="mt-auto px-6 py-6 text-center text-xs text-neutral-500">
       © {new Date().getFullYear()} Sparklet ·{" "}
+      <Link href="/explore" className="underline hover:text-neutral-300">
+        Explore
+      </Link>{" "}
+      ·{" "}
       <Link href="/privacy" className="underline hover:text-neutral-300">
         Privacy Policy
       </Link>{" "}

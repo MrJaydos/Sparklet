@@ -31,6 +31,9 @@ export default async function Home() {
         <Link href="/login" className="text-sm text-neutral-500 underline-offset-4 hover:underline">
           Already have an account? Sign in
         </Link>
+        <Link href="/explore" className="text-sm text-neutral-500 underline-offset-4 hover:underline">
+          Browse cards by topic
+        </Link>
       </div>
     </main>
   );
