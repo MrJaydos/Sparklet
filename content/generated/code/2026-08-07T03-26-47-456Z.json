@@ -1,0 +1,348 @@
+{
+  "generatedAt": "2026-08-07T03:26:47.456Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A metric mix-up sent a $125 million Mars orbiter into a fatal dive",
+      "body": "In 1999, NASA lost the Mars Climate Orbiter because two engineering teams used different units in code. Software written by Lockheed Martin output thruster values in imperial pound-force seconds, while NASA’s navigation software expected metric newton-seconds. The undetected mismatch caused the spacecraft to descend too deep into the Martian atmosphere, where friction destroyed it.",
+      "imageWikipediaTitle": "Mars Climate Orbiter",
+      "sources": [
+        {
+          "title": "Mars Climate Orbiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single 1968 presentation demonstrated the future of personal computing",
+      "body": "On December 9, 1968, Douglas Engelbart gave a 90-minute presentation now called \"The Mother of All Demos.\" In front of 1,000 computer professionals, his team demonstrated the computer mouse, video conferencing, hypertext, word processing, dynamic file linking, and real-time screen sharing. Almost every core concept of modern personal computing was unveiled simultaneously during this single event.",
+      "imageWikipediaTitle": "Douglas Engelbart",
+      "sources": [
+        {
+          "title": "The Mother of All Demos",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Java was originally named after an oak tree outside the creator's office",
+      "body": "When James Gosling designed a new programming language at Sun Microsystems in 1991, he named it Oak after an oak tree outside his office window. However, the team was forced to rename it after discovering that \"Oak\" was already trademarked by another computer company. After brainstorming sessions over coffee, they settled on the name Java in 1995.",
+      "imageWikipediaTitle": "Java (programming language)",
+      "sources": [
+        {
+          "title": "Java (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Java_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Students wrote one of the earliest interactive video games on a PDP-1 computer",
+      "body": "In 1962, Steve Russell and fellow students at MIT programmed Spacewar! on a DEC PDP-1 computer. The game featured two spaceships maneuvering in the gravitational field of a central star. Because the PDP-1 lacked built-in graphics routines, the team wrote original subroutines to draw realistic starfields and calculate gravitational mechanics, establishing key foundations for game software.",
+      "imageWikipediaTitle": "Spacewar!",
+      "sources": [
+        {
+          "title": "Spacewar!",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spacewar!"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spacewar!",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ubiquitous command 'grep' came from a four-character text editor routine",
+      "body": "The standard Unix search command grep was written by Ken Thompson in 1973. Its name originates from a command sequence in ed, an early Unix text editor: g/re/p. This string stood for \"Global Regular Expression Print,\" instructing the editor to search an entire file globally for lines matching a specified regular expression and print them to the terminal.",
+      "imageWikipediaTitle": "Grep",
+      "sources": [
+        {
+          "title": "Grep",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grep"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Grep",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Programming placeholders 'foo' and 'bar' originated from WWII military acronyms",
+      "body": "Software developers frequently use \"foo\" and \"bar\" as placeholder names for temporary variables or functions. These terms trace back to World War II military slang, specifically the acronym FUBAR (\"Fouled Up Beyond All Recognition\"). Early computer hackers at MIT’s Tech Model Railroad Club adopted \"foo\" and \"bar\" into computer code during the 1950s, creating a universal programming convention.",
+      "imageWikipediaTitle": "Foobar",
+      "sources": [
+        {
+          "title": "Foobar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Foobar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Foobar",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "JavaScript was designed and prototyped in just ten days",
+      "body": "In May 1995, programmer Brendan Eich created the prototype for JavaScript in only ten days while working at Netscape. Intended as a simple scripting language for non-programmers to manipulate web pages, it was originally codenamed Mocha before being renamed JavaScript for marketing purposes. Despite its rushed creation, JavaScript became the primary programming language powering web interactivity worldwide.",
+      "imageWikipediaTitle": "JavaScript",
+      "sources": [
+        {
+          "title": "JavaScript",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/JavaScript"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/JavaScript",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Grace Hopper used 11.8-inch pieces of wire to visualize signal speed limits",
+      "body": "Computer pioneer Grace Hopper distributed 11.8-inch wire segments to students and military leaders to illustrate processing limits. She calculated that 11.8 inches represents the exact distance light travels through a vacuum in one nanosecond. By holding up the wires, Hopper visually demonstrated why microprocessors needed to be small, as electric signals traveling through circuits are fundamentally constrained by the speed of light.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        {
+          "title": "Grace Hopper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Grace_Hopper",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Web cookies were named after an old Unix trick called 'magic cookies'",
+      "body": "Web programmer Lou Montulli invented HTTP cookies in 1994 while working at Netscape to solve the problem of persistent user state on web pages. He named them after \"magic cookies,\" an established Unix term for data packets passed between programs without being modified. Cookies allowed early e-commerce sites to track items in user shopping carts across separate page requests.",
+      "imageWikipediaTitle": "HTTP cookie",
+      "sources": [
+        {
+          "title": "HTTP cookie",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTTP_cookie"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HTTP_cookie",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A chip flaw missing five table entries cost Intel $475 million",
+      "body": "In 1994, mathematician Thomas Nicely discovered a subtle flaw in Intel’s Pentium floating-point division unit. The processor was missing five entries out of 1,066 in an internal lookup table baked into the silicon. Although the error affected only extremely rare math operations, public outcry forced Intel to offer free processor replacements, costing the company $475 million.",
+      "imageWikipediaTitle": "Pentium FDIV bug",
+      "sources": [
+        {
+          "title": "Pentium FDIV bug",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pentium_FDIV_bug"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pentium_FDIV_bug",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the Mars Climate Orbiter mission fail in 1999?",
+      "options": [
+        "A solar flare burned out the primary flight computer",
+        "Code mismatch between imperial and metric calculation units",
+        "A hardware memory overflow in the main thruster controller",
+        "A satellite tracking array lost radio contact during entry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lockheed Martin software produced thruster force outputs in imperial units, but NASA navigation software expected metric units."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which major input hardware was demonstrated during the 1968 'Mother of All Demos'?",
+      "options": [
+        "The computer mouse",
+        "The trackball",
+        "The capacitive touchscreen",
+        "The optical barcode reader"
+      ],
+      "correctIndex": 0,
+      "explanation": "Douglas Engelbart publicly debuted the computer mouse along with hypertext, video calls, and screen sharing during the landmark 1968 demo."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the Java programming language originally named when first created in 1991?",
+      "options": [
+        "Pine",
+        "Oak",
+        "Mocha",
+        "C++"
+      ],
+      "correctIndex": 1,
+      "explanation": "James Gosling named the language Oak after a tree outside his office window before trademark issues forced a rename to Java."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which computer was used to program the early video game Spacewar! in 1962?",
+      "options": [
+        "ENIAC",
+        "IBM 7090",
+        "DEC PDP-1",
+        "Apple I"
+      ],
+      "correctIndex": 2,
+      "explanation": "MIT students programmed Spacewar! on the DEC PDP-1 computer, creating custom graphics subroutines for display output."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the name of the Unix command 'grep' stand for?",
+      "options": [
+        "Global Regular Expression Print",
+        "General Retrieval Engine Program",
+        "Grouped Reading Exception Path",
+        "Generated Record Parse"
+      ],
+      "correctIndex": 0,
+      "explanation": "The name comes from the ed text editor command 'g/re/p', meaning Global Regular Expression Print."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Where did the common programming placeholder terms 'foo' and 'bar' come from?",
+      "options": [
+        "Early telegraph operator codes",
+        "World War II military slang (FUBAR)",
+        "Radio call signs from commercial aviation",
+        "Names of early IBM mainframes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The terms trace back to WWII slang FUBAR, adopted into hacker culture by MIT's Tech Model Railroad Club in the 1950s."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How long did Brendan Eich take to create the initial prototype of JavaScript?",
+      "options": [
+        "10 days",
+        "6 months",
+        "1 year",
+        "3 weeks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brendan Eich designed and implemented the prototype version of JavaScript in just ten days while working at Netscape in 1995."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why did Grace Hopper distribute 11.8-inch pieces of wire to her audiences?",
+      "options": [
+        "It was the standard length of a 1950s computer fuse",
+        "It represented the distance light travels in one nanosecond",
+        "It showed the exact thickness of core magnetic memory cables",
+        "It was the maximum length allowable for early bus lines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light travels 11.8 inches in a vacuum in one nanosecond, demonstrating physical signal transmission limits in computing."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What inspired the term 'HTTP cookie' when Lou Montulli introduced them in 1994?",
+      "options": [
+        "Fortune cookies given out at Netscape headquarters",
+        "The Unix programming term 'magic cookie'",
+        "A nickname for early web server log files",
+        "An acronym for Centralized Object Output Keying"
+      ],
+      "correctIndex": 1,
+      "explanation": "Montulli derived the name from 'magic cookie,' a Unix term for a data packet that a program receives and returns unchanged."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What caused the 1994 Intel Pentium FDIV flaw that cost $475 million?",
+      "options": [
+        "Five missing entries in a division lookup table in silicon",
+        "A corrupt microcode update pushed via modem",
+        "Overheating floating-point execution units",
+        "A floating-point overflow error in MS-DOS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intel omitted five table entries out of 1,066 in the processor's floating-point division hardware, producing rare calculation errors."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many millions of dollars did NASA lose when a software unit mix-up destroyed the Mars Climate Orbiter?",
+      "answer": 125,
+      "min": 10,
+      "max": 500,
+      "unit": "million USD",
+      "explanation": "The Mars Climate Orbiter mission cost $125 million, which was completely lost due to an unhandled imperial-to-metric unit mismatch."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many days did Brendan Eich take to design and create the initial prototype of JavaScript?",
+      "answer": 10,
+      "min": 1,
+      "max": 180,
+      "unit": "days",
+      "explanation": "JavaScript was famously prototyped in just ten days in May 1995 before being integrated into Netscape Navigator."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "How many inches long was the piece of wire Grace Hopper used to represent one nanosecond?",
+      "answer": 11.8,
+      "min": 1,
+      "max": 50,
+      "unit": "inches",
+      "explanation": "Light travels 11.8 inches in one nanosecond, giving a tangible physical demonstration of computer timing constraints."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "How many millions of dollars did it cost Intel to offer replacement chips after the 1994 Pentium FDIV bug?",
+      "answer": 475,
+      "min": 20,
+      "max": 2000,
+      "unit": "million USD",
+      "explanation": "Replacing flawed Pentium chips cost Intel $475 million after public demand forced a full recall program."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Mars Climate Orbiter crashed because of a physical engine mechanical breakdown.",
+      "answer": false,
+      "explanation": "The hardware functioned properly; the failure was caused entirely by a software unit mismatch between imperial and metric calculation outputs."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Java was named after Java, Indonesia because the core team traveled there on retreat.",
+      "answer": false,
+      "explanation": "The language was originally named Oak after a tree outside Gosling's window, and was renamed Java after coffee brainstorming sessions."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "JavaScript was created as a stripped-down browser version of the Java language.",
+      "answer": false,
+      "explanation": "JavaScript is a distinct language created by Brendan Eich in 10 days; the name was chosen mainly for marketing leverage."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "An 11.8-inch piece of wire represents the physical distance light travels in one nanosecond.",
+      "answer": true,
+      "explanation": "Grace Hopper used 11.8-inch wires precisely because light travels about 11.8 inches in a vacuum during one nanosecond."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "The 1994 Pentium FDIV bug was caused by a software virus that modified OS division routines.",
+      "answer": false,
+      "explanation": "The bug was a hardware flaw baked directly into the chip's silicon, caused by five missing entries in a division lookup table."
+    }
+  ]
+}

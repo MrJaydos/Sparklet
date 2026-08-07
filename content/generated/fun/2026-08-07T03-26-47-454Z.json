@@ -1,0 +1,333 @@
+{
+  "generatedAt": "2026-08-07T03:26:47.454Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Herring communicate by expelling gas from their rears",
+      "body": "To stay together in pitch-black ocean depths, Pacific and Atlantic herring communicate using high-frequency sounds produced by expelling gas from their anal ducts. Scientists dubbed these acoustic bursts Fast Repetitive Tick signals. Unlike human flatulence driven by digestion, herring force stored air from their swim bladders through their rear ends, alerting schoolmates to assemble safely without attracting night-hunting predators.",
+      "imageWikipediaTitle": "Herring",
+      "sources": [
+        {
+          "title": "Herring",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Herring"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Herring",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The King of Sweden who ate himself to death on dessert",
+      "body": "King Adolf Frederick of Sweden died in 1771 after consuming an astonishingly massive royal feast. His dinner included lobster, caviar, sauerkraut, kippers, and champagne. However, the fatal blow came from dessert: he consumed 14 individual servings of semla, a rich Swedish pastry filled with almond paste and milk. The extreme overeating caused fatal digestive complications, earning him a place in history as the king who ate himself to death.",
+      "imageWikipediaTitle": "Adolf Frederick, King of Sweden",
+      "sources": [
+        {
+          "title": "Adolf Frederick, King of Sweden",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adolf_Frederick,_King_of_Sweden"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Adolf_Frederick,_King_of_Sweden",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Amazonian butterflies drink the tears of live turtles",
+      "body": "In the Amazon rainforest, butterflies are frequently seen swarming the eyes of sunbathing river turtles to drink their tears. This unusual behavior, known as lachryphagy, provides the insects with vital sodium and minerals that are extraordinarily scarce in their inland herbivorous diets. The turtles tolerate the fluttery visitors calmly, as the tears flow continuously and the gentle sipping causes them no physical harm.",
+      "imageWikipediaTitle": "Lachryphagy",
+      "sources": [
+        {
+          "title": "Lachryphagy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lachryphagy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lachryphagy",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ketchup was once sold in pharmacies as a cure-all pill",
+      "body": "In the 1830s, an American physician named John Cook Bennett claimed that tomatoes could cure ailments like indigestion, diarrhea, and jaundice. He published recipes for tomato ketchup and eventually concentrated the condiment into pill form, which was sold nationwide as a patent medicine. The ketchup pill craze thrived for a decade before collapsing when competing sellers were caught marketing ordinary pill substitutes containing zero tomatoes.",
+      "imageWikipediaTitle": "Ketchup",
+      "sources": [
+        {
+          "title": "Ketchup",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ketchup"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ketchup",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hagfish defend themselves by turning seawater into thick slime",
+      "body": "When threatened by a predator, the eel-like hagfish releases specialized proteins from glands along its body. Upon touching seawater, these proteins expand by over 10,000 times in volume within a fraction of a second, producing liters of sticky gel. This sudden slime explosion instantly clogs the gills of attacking fish, forcing them to choke and release the hagfish before it swims away completely unharmed.",
+      "imageWikipediaTitle": "Hagfish",
+      "sources": [
+        {
+          "title": "Hagfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hagfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hagfish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mysterious dancing plague swept through Strasbourg in 1518",
+      "body": "In July 1518, a woman named Frau Troffea stepped into a street in Strasbourg and began dancing fervently. Within weeks, over 500 people had joined her, dancing uncontrollably day and night without music. Local authorities tragically encouraged more dancing by constructing stages and hiring musicians, believing victims needed to dance it out. Dozens of participants eventually collapsed and died from extreme exhaustion, stroke, or heart attack.",
+      "imageWikipediaTitle": "Dancing plague of 1518",
+      "sources": [
+        {
+          "title": "Dancing plague of 1518",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dancing_plague_of_1518",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "One man hiccuped continuously for 68 years straight",
+      "body": "In 1922, an American farmer named Charles Osborne started hiccuping while attempting to weigh a hog. The hiccups did not stop until 1990, spanning an astonishing 68 years. Doctors estimated he hiccuped approximately 430 million times during his lifetime. Despite a rate of up to 40 hiccups per minute, Osborne led a full life, married twice, and fathered eight children before the mysterious condition suddenly vanished.",
+      "imageWikipediaTitle": "Hiccup",
+      "sources": [
+        {
+          "title": "Charles Osborne (hiccups)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_Osborne_(hiccups)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Charles_Osborne_(hiccups)",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Vatican City has the world's highest per-capita crime rate",
+      "body": "Statistical records consistently rank Vatican City as having the highest crime rate per person of any nation on Earth. However, this is a mathematical quirk caused by its tiny resident population of roughly 500 citizens compared to the tens of millions of tourists visiting St. Peter's Square each year. The vast majority of crimes recorded are minor pickpocketing incidents committed by visiting thieves against foreign tourists.",
+      "imageWikipediaTitle": "Vatican City",
+      "sources": [
+        {
+          "title": "Crime in Vatican City",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crime_in_Vatican_City"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Crime_in_Vatican_City",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Two Italian cities once fought a war over a stolen bucket",
+      "body": "In 1325, tensions between the rival Italian city-states of Modena and Bologna erupted into full-scale military conflict after Modenese soldiers raided Bologna and stole an oak bucket from a city well. The resulting Battle of Zappolino involved over 30,000 soldiers and resulted in more than 2,000 casualties. Modena won the battle and retained the wooden bucket, which remains proudly displayed in Modena's town hall to this day.",
+      "imageWikipediaTitle": "War of the Oaken Bucket",
+      "sources": [
+        {
+          "title": "War of the Oaken Bucket",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/War_of_the_Oaken_Bucket"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/War_of_the_Oaken_Bucket",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Woodlice can absorb drinking water through their rears",
+      "body": "Woodlice, commonly known as pill bugs or roly-polies, are terrestrial crustaceans that face a constant risk of drying out. To stay hydrated, they do not rely solely on drinking through their mouths. Instead, woodlice can press specialized tube-like appendages called uropods, located at their rear end, against moist surfaces to draw up liquid water directly into their bodies through capillary action.",
+      "imageWikipediaTitle": "Woodlouse",
+      "sources": [
+        {
+          "title": "Woodlouse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodlouse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Woodlouse",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do herring fish communicate with each other in dark waters?",
+      "options": [
+        "By flashing bioluminescent scales",
+        "By expelling air from their anal ducts",
+        "By clicking their teeth together",
+        "By changing skin coloration"
+      ],
+      "correctIndex": 1,
+      "explanation": "Herring release stored air from their swim bladders through their anal duct to produce high-frequency tick sounds."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which dessert contributed to the death of King Adolf Frederick of Sweden in 1771?",
+      "options": [
+        "Apple strudel",
+        "Semla pastries",
+        "Chocolate soufflé",
+        "Fruitcake"
+      ],
+      "correctIndex": 1,
+      "explanation": "King Adolf Frederick died after eating 14 servings of semla, a rich Swedish almond paste pastry."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do Amazonian butterflies flock to drink the tears of river turtles?",
+      "options": [
+        "To cool down in hot weather",
+        "To extract necessary sodium and minerals",
+        "To clean the turtle's eyes",
+        "To hide from bird predators"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sodium is scarce in the Amazon rainforest, so butterflies drink turtle tears to obtain necessary minerals."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What medical claim was made about tomato ketchup in the 1830s?",
+      "options": [
+        "It cured hair loss",
+        "It treated indigestion and diarrhea",
+        "It relieved arthritis pain",
+        "It prevented scurvy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dr. John Cook Bennett marketed tomato ketchup pills as a medicine for digestive ailments like indigestion."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does a hagfish defend itself when attacked by predators?",
+      "options": [
+        "By delivering a powerful electric shock",
+        "By releasing slime that expands massively in seawater",
+        "By shooting poisonous spines",
+        "By changing color to match the sea floor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hagfish release proteins that expand over 10,000 times in volume in seawater, clogging predator gills."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What did local authorities do during the Dancing Plague of 1518 in Strasbourg?",
+      "options": [
+        "Quarantined all dancing citizens",
+        "Constructed stages and hired musicians",
+        "Banned public dancing entirely",
+        "Administered herbal sedatives"
+      ],
+      "correctIndex": 1,
+      "explanation": "Believing victims needed to dance it out, authorities built stages and hired musicians, worsening the crisis."
+    },
+    {
+      "cardIndex": 6,
+      "question": "How long did Charles Osborne's continuous hiccuping episode last?",
+      "options": [
+        "68 days",
+        "68 months",
+        "68 years",
+        "His whole life since birth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Charles Osborne hiccuped continuously from 1922 to 1990, spanning 68 years."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why does Vatican City have the highest per-capita crime rate in the world?",
+      "options": [
+        "It has no law enforcement",
+        "High violent crime among residents",
+        "Tiny resident population compared to millions of pickpocketed tourists",
+        "Systemic corruption in the government"
+      ],
+      "correctIndex": 2,
+      "explanation": "The crime rate is calculated per resident (~500 people), but includes pickpocketing cases against millions of annual tourists."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What object was taken during the raid that ignited the 1325 War of the Bucket?",
+      "options": [
+        "A wooden well bucket",
+        "A golden crown",
+        "A cathedral bell",
+        "A sacred altar cloth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modenese soldiers raided Bologna and stole an oak bucket, which was kept as a victory trophy in Modena."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How can woodlice (pill bugs) absorb drinking water besides using their mouth?",
+      "options": [
+        "Through their antennae",
+        "Through rear appendages called uropods",
+        "Through specialized skin pores on their back",
+        "Through their feet joints"
+      ],
+      "correctIndex": 1,
+      "explanation": "Woodlice can draw water up from damp surfaces using tube-like rear appendages called uropods."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many semla pastries did King Adolf Frederick eat right before he died in 1771?",
+      "answer": 14,
+      "min": 1,
+      "max": 50,
+      "unit": "",
+      "explanation": "King Adolf Frederick consumed 14 rich semla pastries served in warm milk, triggering fatal digestive distress."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "By how many times does hagfish slime expand in volume upon contact with ocean water?",
+      "answer": 10000,
+      "min": 100,
+      "max": 50000,
+      "unit": "x",
+      "explanation": "Hagfish slime proteins expand over 10,000 times in volume within milliseconds to choke attacking predators."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "For how many years did Charles Osborne suffer from unbroken hiccups?",
+      "answer": 68,
+      "min": 5,
+      "max": 100,
+      "unit": "years",
+      "explanation": "Charles Osborne hiccuped continuously from 1922 to 1990—an incredible 68 years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Herring use digestion-related flatulence to communicate with each other.",
+      "answer": false,
+      "explanation": "Herring expel air stored in their swim bladders through their anal duct for communication, not digestive gas."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Ketchup was originally commercialized in the United States as a stomach medicine.",
+      "answer": true,
+      "explanation": "In the 1830s, tomato ketchup was concentrated into pills and sold by doctors as a cure for indigestion."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Vatican City is statistically the most dangerous country on Earth due to high violent crime rates.",
+      "answer": false,
+      "explanation": "Vatican City's high per-capita crime rate is driven almost entirely by tourist pickpocketing relative to its tiny resident population of ~500 people."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "The 1325 War of the Bucket was fought solely because soldiers stole a wooden bucket.",
+      "answer": false,
+      "explanation": "While the stolen bucket became the symbolic cause and famous trophy, the war was triggered by decades of underlying political rivalry between Modena and Bologna."
+    }
+  ]
+}

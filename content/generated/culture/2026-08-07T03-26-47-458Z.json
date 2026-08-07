@@ -1,0 +1,333 @@
+{
+  "generatedAt": "2026-08-07T03:26:47.458Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Clan Tartans Are Mostly a Victorian Invention",
+      "body": "While woven checked cloth in Scotland dates back centuries, assigning specific tartans to specific clans was largely popularized in the 19th century. King George IV's 1822 visit to Edinburgh, organized by Sir Walter Scott, sparked a romanticized tartan craze, leading textile makers to design and assign specific plaid patterns to Highland families.",
+      "imageWikipediaTitle": "Tartan",
+      "sources": [
+        {
+          "title": "Tartan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tartan"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tartan",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 50,000-Word Novel Written Without the Letter E",
+      "body": "In 1939, American author Ernest Vincent Wright published Gadsby, a 50,000-word novel written entirely without using the letter E, the most common letter in English. To prevent accidental keystrokes while typing the manuscript over several months, Wright reportedly tied down the letter E key on his typewriter.",
+      "imageWikipediaTitle": "Gadsby (novel)",
+      "sources": [
+        {
+          "title": "Gadsby (novel)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gadsby_(novel)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gadsby_(novel)",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Desert Sand Dunes That Hum and Boom Like Instruments",
+      "body": "In about 35 deserts and beaches worldwide, moving sand can generate loud, low-frequency hums and booming sounds lasting several minutes. Known as singing sand, this acoustic phenomenon happens when millions of uniform sand grains slide down a dune simultaneously, vibrating together to produce sound levels reaching up to 105 decibels.",
+      "imageWikipediaTitle": "Singing sand",
+      "sources": [
+        {
+          "title": "Singing sand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Singing_sand"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Singing_sand",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Spray Paint Is Banned on the Eiffel Tower",
+      "body": "To preserve its iron frame from rust, painters recoat the Eiffel Tower by hand roughly every seven years. Spray guns are strictly forbidden because high winds could carry paint mist across Paris. Instead, specialized acrobatic painters manually apply around 60 tons of paint using custom paintbrushes and small rollers.",
+      "imageWikipediaTitle": "Eiffel Tower",
+      "sources": [
+        {
+          "title": "Eiffel Tower",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "South America's Only Native Language Spoken by the Non-Indigenous Majority",
+      "body": "Guaraní is an official language of Paraguay and is spoken by roughly 90% of the population. This makes Paraguay the only nation in the Americas where an indigenous language is used by the non-indigenous majority. Unlike standard colonial patterns, Guaraní thrives across urban, rural, professional, and governmental settings alongside Spanish.",
+      "imageWikipediaTitle": "Guarani language",
+      "sources": [
+        {
+          "title": "Guarani language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guarani_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Guarani_language",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Sign Language That United Dozens of Native Nations",
+      "body": "Long before European contact, indigenous peoples across the North American Great Plains developed Plains Indian Sign Language (Hand Talk). Serving as a common trade and diplomatic lingua franca, it enabled speaker groups with mutually unintelligible spoken languages to communicate complex ideas effortlessly across vast geographic distances.",
+      "imageWikipediaTitle": "Plains Indian Sign Language",
+      "sources": [
+        {
+          "title": "Plains Indian Sign Language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plains_Indian_Sign_Language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Plains_Indian_Sign_Language",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Airlines Banned a Fermented Swedish Fish",
+      "body": "In 2006, major international airlines officially banned surströmming—a traditional Swedish dish of fermented Baltic herring—from passenger aircraft. The ban was not prompted by its notorious smell, but by safety concerns: pressurization changes during flight could cause the pressurized, fermenting cans to explode, classifying them as explosive hazards.",
+      "imageWikipediaTitle": "Surströmming",
+      "sources": [
+        {
+          "title": "Surströmming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Surstr%C3%B6mming"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Surstr%C3%B6mming",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 2,400-Year-Old Carpet Preserved in Ice",
+      "body": "Discovered in 1949 inside a Scythian burial mound in the Altai Mountains, the Pazyryk Carpet is the world's oldest surviving pile carpet. Dating to around the 5th century BCE, its intricate double-knotting, vibrant red dyes, and figures of horseback riders were preserved for over two millennia because ice flooded and sealed the tomb chamber.",
+      "imageWikipediaTitle": "Pazyryk Carpet",
+      "sources": [
+        {
+          "title": "Pazyryk Carpet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pazyryk_Carpet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pazyryk_Carpet",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Cathedral Dome That Carries Whispers Across 100 Feet",
+      "body": "Inside the dome of St. Paul's Cathedral in London, a person whispering against the circular wall can be heard clearly by someone standing on the exact opposite side, over 100 feet away. Known as a whispering gallery, this acoustic effect occurs because sound waves travel along the smooth circular wall without dissipating into the cavernous central air space.",
+      "imageWikipediaTitle": "St Paul's Cathedral",
+      "sources": [
+        {
+          "title": "Whispering gallery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whispering_gallery"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Whispering_gallery",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Venetian Foundry That Gave Us the Word Ghetto",
+      "body": "The word \"ghetto\" originated in Venice in 1516, when Jewish residents were required to live on an island that previously contained a slag-casting foundry. In the Venetian dialect, ghèto meant foundry (derived from ghetar, meaning to cast metal). Over centuries, this specific urban area name evolved into a global term for segregated living areas.",
+      "imageWikipediaTitle": "Venetian Ghetto",
+      "sources": [
+        {
+          "title": "Venetian Ghetto",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venetian_Ghetto"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Venetian_Ghetto",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What event majorly popularized clan-specific tartans in Scotland?",
+      "options": [
+        "A medieval royal decree in 1314",
+        "King George IV's 1822 visit to Edinburgh",
+        "The Jacobite Rising of 1745",
+        "The founding of Glasgow in 1175"
+      ],
+      "correctIndex": 1,
+      "explanation": "King George IV's 1822 visit, organized by Sir Walter Scott, created a widespread craze that led clans to adopt unique tartans."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which letter did Ernest Vincent Wright avoid completely in his novel Gadsby?",
+      "options": [
+        "A",
+        "E",
+        "S",
+        "T"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wright wrote the entire 50,000-word novel Gadsby without using the letter E once."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What causes the loud sound produced by singing sand dunes?",
+      "options": [
+        "Trapped underground air pockets escaping",
+        "Uniform sand grains sliding together and vibrating",
+        "Wind blowing through hollow desert rocks",
+        "Electrostatic discharge between dry sand particles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sliding grains of uniform sand vibrate together in acoustic resonance to create loud hums."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why are paint spray guns prohibited when repainting the Eiffel Tower?",
+      "options": [
+        "They damage the original wrought iron",
+        "Paint mist could blow across Paris in the wind",
+        "Spray paint dries too quickly to form a thick coat",
+        "The noise disrupts nearby neighborhood residents"
+      ],
+      "correctIndex": 1,
+      "explanation": "High-altitude winds could drift spray paint mist over nearby Paris neighborhoods, so it is applied by hand."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What makes the status of Guaraní in Paraguay unique in the Americas?",
+      "options": [
+        "It is the only indigenous language with its own written script",
+        "It is spoken by the majority non-indigenous population",
+        "It replaced Spanish as the sole official language",
+        "It is taught exclusively through oral traditions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Around 90% of Paraguayans speak Guaraní, making it the only indigenous language spoken by a country's non-indigenous majority."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What was the primary historical function of Plains Indian Sign Language?",
+      "options": [
+        "A secret code reserved for warfare",
+        "A trade and diplomatic language across distinct nations",
+        "A silent gesture system used only during religious rites",
+        "A method for communicating across long distances using mirrors"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hand Talk functioned as a universal lingua franca across diverse indigenous groups with different spoken languages."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why did airlines ban pressurized cans of surströmming from flights?",
+      "options": [
+        "Its smell triggered onboard carbon dioxide alarms",
+        "The pressurized cans pose a burst risk under flight conditions",
+        "It contained forbidden chemical preservatives",
+        "The fish was classified as an endangered species"
+      ],
+      "correctIndex": 1,
+      "explanation": "Airlines classified fermenting, pressurized cans of surströmming as explosive risks due to potential bursting during cabin pressure changes."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How was the 2,400-year-old Pazyryk Carpet preserved so remarkably well?",
+      "options": [
+        "It was sealed in airtight oil jars",
+        "Water flooded the tomb and froze solid into ice",
+        "It was treated with toxic natural preservatives",
+        "It was buried in ultra-dry desert sand"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water seeped into the underground tomb and froze, encasing the carpet in solid ice for over two thousand years."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why can a whisper travel across St. Paul's Whispering Gallery dome to the opposite side?",
+      "options": [
+        "Sound waves reflect directly off a central crystal pillar",
+        "Sound waves cling to and follow the smooth circular wall",
+        "Microscopic acoustic amplifiers were built into the plaster",
+        "The circular dome creates an echo that doubles the volume"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sound waves travel efficiently along the smooth, curved interior perimeter without dispersing into the central open space."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What was the original meaning of the word \"ghèto\" in Venetian dialect?",
+      "options": [
+        "Walled garden",
+        "Foundry",
+        "Marketplace",
+        "Island bridge"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 16th-century Venetian dialect, ghèto meant metal foundry, referring to the former foundry site where Jewish residents were segregated."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many words long is the novel Gadsby, written entirely without using the letter E?",
+      "answer": 50000,
+      "min": 5000,
+      "max": 200000,
+      "unit": "words",
+      "explanation": "Author Ernest Vincent Wright achieved a 50,000-word novel without using English's most common letter."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Up to how many decibels can the booming sound of singing sand dunes reach?",
+      "answer": 105,
+      "min": 40,
+      "max": 160,
+      "unit": "dB",
+      "explanation": "Singing sand can produce sounds up to 105 decibels, as loud as a chainsaw or passing motorcycle."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many tons of paint are required to repaint the entire Eiffel Tower by hand?",
+      "answer": 60,
+      "min": 5,
+      "max": 300,
+      "unit": "tons",
+      "explanation": "Painters use approximately 60 tons of paint during each complete repaint of the Eiffel Tower."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Clan-specific tartans have been worn by ancient Scottish clans for over two thousand years.",
+      "answer": false,
+      "explanation": "Clan-specific tartans were largely created and standardized in the 19th century during the Victorian era."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "European colonial languages replaced indigenous languages across the non-indigenous populations of every South American nation.",
+      "answer": false,
+      "explanation": "In Paraguay, roughly 90% of the population—including the non-indigenous majority—speaks Guaraní."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "Airlines banned surströmming onboard strictly because of its foul odor.",
+      "answer": false,
+      "explanation": "While famous for its odor, airlines specifically banned cans of surströmming over fears that pressurized fermenting cans could explode."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "The word \"ghetto\" originally referred to a metal foundry in 16th-century Venice.",
+      "answer": true,
+      "explanation": "The term comes from the Venetian dialect word ghèto (foundry), as the segregated neighborhood was built at a former copper slag site."
+    }
+  ]
+}

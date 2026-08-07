@@ -1,0 +1,373 @@
+{
+  "generatedAt": "2026-08-07T03:26:47.457Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your immune system doesn't actually know your eyes exist",
+      "body": "Your eyes possess a rare feature called immune privilege. Because normal inflammatory responses would cloud vision, your eyes are largely hidden from the body's white blood cells. If physical trauma breaches this barrier and exposes eye tissue to the bloodstream, your immune system may treat it as a foreign threat. In rare cases, it produces antibodies that attack both the injured eye and the healthy untouched eye.",
+      "imageWikipediaTitle": "Human eye",
+      "sources": [
+        {
+          "title": "Ocular immune privilege",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ocular_immune_privilege"
+        },
+        {
+          "title": "Sympathetic ophthalmia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sympathetic_ophthalmia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ocular_immune_privilege",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When you lose weight, most of the fat leaves through your lungs",
+      "body": "When your body metabolizes stored fat for fuel, the fat molecules break down into carbon dioxide and water. Research shows that roughly 84 percent of lost fat weight is converted into carbon dioxide, which you simply breathe out through your lungs. The remaining 16 percent becomes water, excreted through sweat, urine, and other bodily fluids. You literally exhale your burned calories.",
+      "imageWikipediaTitle": "Respiration (physiology)",
+      "sources": [
+        {
+          "title": "When somebody loses weight, where does the fat go?",
+          "publisher": "BMJ",
+          "url": "https://www.bmj.com/content/349/bmj.g7254"
+        },
+        {
+          "title": "Fat metabolism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fat_metabolism"
+        }
+      ],
+      "readMoreUrl": "https://www.bmj.com/content/349/bmj.g7254",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your Achilles tendon acts like a high-powered mechanical spring",
+      "body": "Walking and running require immense kinetic energy, but your body uses a clever engineering trick to save stamina. Every time your foot strikes the ground, your Achilles tendon stretches like a heavy-duty rubber band. As you push off, it recoils, returning up to 90 percent of that stored elastic energy. This spring mechanism drastically reduces the muscular effort needed for every single stride.",
+      "imageWikipediaTitle": "Achilles tendon",
+      "sources": [
+        {
+          "title": "Achilles tendon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Achilles_tendon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Achilles_tendon",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blood inside your veins is never actually blue",
+      "body": "Diagrams often show oxygen-depleted venous blood in bright blue, leading many to believe deoxygenated blood is blue inside the body. In reality, human blood is always red. Arterial blood rich in oxygen is bright red, while venous blood carrying less oxygen is dark red. Veins only look blue through your skin because high-energy blue light scatters back to your eyes, while red light penetrates deeper into tissue.",
+      "imageWikipediaTitle": "Venous blood",
+      "sources": [
+        {
+          "title": "Venous blood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venous_blood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Venous_blood",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your heart runs primarily on fat, not sugar",
+      "body": "While your brain depends on glucose for quick energy, your heart relies on a completely different primary fuel. Under normal resting conditions, your cardiac muscle gets 60 to 90 percent of its continuous energy by burning fatty acids. Fatty acids yield significantly more energy per molecule than carbohydrates, providing the relentless, long-term power generation needed to keep your heart pumping non-stop for a lifetime.",
+      "imageWikipediaTitle": "Heart",
+      "sources": [
+        {
+          "title": "Cardiac metabolism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiac_metabolism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cardiac_metabolism",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Drinking too much pure water during exercise can be lethal",
+      "body": "We are often told to hydrate continuously during workouts, but drinking excessive amounts of plain water without electrolytes can lead to exercise-associated hyponatremia. When you drink far more water than your kidneys can excrete, your blood sodium concentrations plummet. Water rushes into body tissues to balance sodium levels, causing dangerous swelling in cells—including brain cells—which can lead to confusion, seizures, or death.",
+      "imageWikipediaTitle": "Hyponatremia",
+      "sources": [
+        {
+          "title": "Exercise-associated hyponatremia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Exercise-associated_hyponatremia"
+        },
+        {
+          "title": "Hyponatremia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyponatremia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Exercise-associated_hyponatremia",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body needs a special stomach protein to absorb Vitamin B12",
+      "body": "Eating foods rich in Vitamin B12 is not enough to keep your nervous system healthy; your stomach must active create a helper molecule first. Parietal cells in your stomach lining produce a protein called intrinsic factor. Intrinsic factor binds to Vitamin B12 in the small intestine, forming a complex that receptors in the lower gut can finally absorb. Without this single stomach protein, B12 passes right through untouched.",
+      "imageWikipediaTitle": "Vitamin B12",
+      "sources": [
+        {
+          "title": "Intrinsic factor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intrinsic_factor"
+        },
+        {
+          "title": "Vitamin B12 deficiency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vitamin_B12_deficiency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Intrinsic_factor",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of the cholesterol in your blood isn't from food",
+      "body": "Dietary cholesterol in eggs and seafood was long blamed for clogging arteries, but your diet is only a minor contributor to blood cholesterol levels. Your liver and other tissues synthesize about 75 to 80 percent of the cholesterol in your body every single day. Cholesterol is so vital for cell membranes and hormone production that your body produces its own massive supply regardless of how much you eat.",
+      "imageWikipediaTitle": "Cholesterol",
+      "sources": [
+        {
+          "title": "Cholesterol",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cholesterol"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cholesterol",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Shine light in one eye and both of your pupils shrink together",
+      "body": "If you shine a narrow beam of light into your left eye, your left pupil immediately constricts to limit light entry. Surprisingly, your right pupil constricts at the exact same moment by the exact same amount, even if it remains in total darkness. Known as the consensual pupillary light reflex, this occurs because sensory nerve signals from one eye branch across both sides of the brainstem to control both iris muscles simultaneously.",
+      "imageWikipediaTitle": "Pupillary light reflex",
+      "sources": [
+        {
+          "title": "Pupillary light reflex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pupillary_light_reflex"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pupillary_light_reflex",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A human heart can keep beating even completely removed from the body",
+      "body": "Muscle contractions across your body rely on commands from the central nervous system, but your heart generates its own timing signals. A group of specialized cells called the sinoatrial node acts as an internal electrical pacemaker, firing spontaneous action potentials. If a heart is removed during surgery and supplied with oxygen and nutrients, it will continue beating entirely on its own without any connection to the brain or spinal cord.",
+      "imageWikipediaTitle": "Sinoatrial node",
+      "sources": [
+        {
+          "title": "Sinoatrial node",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sinoatrial_node"
+        },
+        {
+          "title": "Cardiac pacemaker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiac_pacemaker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sinoatrial_node",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is ocular immune privilege?",
+      "options": [
+        "The eyes receive special blood flow during times of high stress",
+        "The eyes are isolated from standard immune responses to prevent vision-damaging inflammation",
+        "The immune system produces extra white blood cells specifically to protect the cornea",
+        "The eyes are incapable of contracting bacterial or viral infections"
+      ],
+      "correctIndex": 1,
+      "explanation": "Immune privilege isolates the eyes from typical immune reactions because inflammation inside the eye could easily destroy delicate light-sensing structures."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where does the majority of burned body fat actually go when you lose weight?",
+      "options": [
+        "It is converted directly into thermal heat energy",
+        "It is exhaled as carbon dioxide gas through the lungs",
+        "It is excreted as liquid waste through sweat and urine",
+        "It is converted into muscle tissue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Biochemical calculations show that 84% of fat breakdown products leave the body as exhaled carbon dioxide."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the Achilles tendon reduce the energy cost of running?",
+      "options": [
+        "It generates electrical impulses that contract calf muscles automatically",
+        "It stores elastic energy on impact and releases it as recoil during push-off",
+        "It absorbs 100% of shock so muscles do not need to stabilize joints",
+        "It lengthens permanently to increase stride length over time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Like a mechanical spring, the Achilles tendon stretches on foot strike and releases up to 90% of stored elastic energy upon push-off."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What color is oxygen-depleted blood while inside your veins?",
+      "options": [
+        "Bright blue",
+        "Dark red",
+        "Clear translucent",
+        "Purple"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blood is always red. High oxygen creates bright red blood, while lower oxygen produces dark red or maroon blood."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary fuel source for a resting human heart muscle?",
+      "options": [
+        "Glucose",
+        "Fatty acids",
+        "Amino acids",
+        "Lactic acid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heart muscle relies on fatty acids for 60% to 90% of its energy production because fatty acids yield a high, sustainable supply of fuel."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What causes exercise-associated hyponatremia during long workouts?",
+      "options": [
+        "Overheating caused by insufficient sweating",
+        "Critically low blood sodium levels from drinking excessive plain water",
+        "Toxic buildup of lactic acid in overworked leg muscles",
+        "Rapid loss of potassium through high breathing rates"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consuming excessive plain water dilutes sodium in the bloodstream, forcing water into tissue cells and causing cellular swelling."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What role does intrinsic factor play in human nutrition?",
+      "options": [
+        "It breaks down plant fiber into short-chain fatty acids",
+        "It binds to Vitamin B12 so the lower intestine can absorb it",
+        "It neutralizes stomach acid before food enters the gut",
+        "It signals the pancreas to release digestive enzymes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Produced by stomach lining cells, intrinsic factor attaches to Vitamin B12, allowing it to be recognized and absorbed in the ileum."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Where does the majority of cholesterol in the human body originate?",
+      "options": [
+        "From fatty dairy products and meats in the diet",
+        "Produced internally by the liver and other cells",
+        "Synthesized by beneficial gut bacteria",
+        "Converted from excess dietary protein in the kidneys"
+      ],
+      "correctIndex": 1,
+      "explanation": "The body produces 75% to 80% of its cholesterol internally because it is an essential structural component for cell membranes and hormones."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What happens to your left pupil when light is shone only into your right eye?",
+      "options": [
+        "It dilates to compensate for the light in the right eye",
+        "It constricts simultaneously alongside the right pupil",
+        "It remains completely unchanged",
+        "It pulses rhythmically until the light is removed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Due to shared neural wiring in the brainstem, shining light into one eye triggers constriction in both pupils equally (consensual reflex)."
+    },
+    {
+      "cardIndex": 9,
+      "question": "Why can a detached human heart continue to beat outside the body if supplied with oxygen?",
+      "options": [
+        "It stores compressed air inside the atrium chambers",
+        "Its sinoatrial node generates its own electrical impulses independently",
+        "Residual nerve endings fire automatically when exposed to room air",
+        "Blood pressure inside cardiac veins forces physical contractions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Heart tissue is myogenic; pacemaker cells in the sinoatrial node produce rhythmic electrical signals without requiring brain input."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of burned body fat is exhaled out of the body as carbon dioxide?",
+      "answer": 84,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Around 84% of metabolized fat turns into carbon dioxide and exits through the lungs, while only 16% becomes water."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of stored elastic energy does the Achilles tendon return during running?",
+      "answer": 90,
+      "min": 20,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The Achilles tendon acts like a spring, recycling up to 90% of stored elastic strain energy with each footfall."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What maximum percentage of the resting heart's energy comes from burning fatty acids?",
+      "answer": 90,
+      "min": 20,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Between 60% and 90% of the energy consumed by a healthy heart comes from fatty acids rather than glucose."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "What percentage of the cholesterol in your body is manufactured internally by your liver and cells?",
+      "answer": 80,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The liver and internal cells generate roughly 75% to 80% of your body's total cholesterol supply."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Your immune system actively patrols and protects every single organ in your body equally.",
+      "answer": false,
+      "explanation": "The eyes, brain, and testes have immune privilege, meaning immune cells are largely restricted from entering them to prevent tissue-damaging inflammation."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Deoxygenated blood flowing through your veins is blue until it comes into contact with air.",
+      "answer": false,
+      "explanation": "Human blood is always red; oxygen-starved venous blood is dark maroon, and veins only appear blue due to how optical wavelengths scatter through skin."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "During endurance events, you should drink as much plain water as possible to prevent any loss of body weight.",
+      "answer": false,
+      "explanation": "Over-hydrating with plain water dilutes blood sodium levels, leading to exercise-associated hyponatremia, which can cause severe brain swelling."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Eating dietary cholesterol is the main driver of cholesterol levels in your blood.",
+      "answer": false,
+      "explanation": "Your body synthesizes roughly 75% to 80% of its own cholesterol; for most people, dietary cholesterol intake has a minimal impact on blood cholesterol levels."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "The human heart cannot beat without continuous electrical impulses sent from the brain.",
+      "answer": false,
+      "explanation": "The heart's sinoatrial node is myogenic, meaning it generates its own electrical impulses independently of the nervous system."
+    }
+  ]
+}
