@@ -11,7 +11,15 @@
  *                               categories under their effective minimum —
  *                               $MIN_BANK, raised to (most active reader's
  *                               seen count + $TOPUP_HEADROOM) for categories
- *                               actually being read
+ *                               actually being read. Any nightly capacity
+ *                               left over after those (up to
+ *                               $TOPUP_MAX_CATEGORIES total) goes to
+ *                               categories that already meet their minimum,
+ *                               smallest bank first, at $TOPUP_BONUS_COUNT
+ *                               cards each — so the bank keeps growing past
+ *                               the floor on quiet nights instead of idling,
+ *                               without competing with genuinely low
+ *                               categories for the night's quota.
  *
  * --top-up runs on Gemini batch mode when GEMINI_API_KEY is set (half
  * price, async — see runBatchTopUp): each scheduled run first collects
@@ -52,6 +60,10 @@ import {
 
 const MIN_BANK = Number(process.env.MIN_BANK) || 40; // base top-up threshold
 const TOPUP_COUNT = Number(process.env.TOPUP_COUNT) || 10;
+// Cards generated per run for categories that already meet their minimum —
+// deliberately smaller than TOPUP_COUNT so background growth stays "slow"
+// and never outcompetes genuinely low categories for the night's quota.
+const TOPUP_BONUS_COUNT = Number(process.env.TOPUP_BONUS_COUNT) || 5;
 // Demand-aware floor: a category's effective minimum is raised to its most
 // engaged recent reader's seen-count plus this buffer, so active readers
 // always have unseen cards waiting even when the global bank looks full.
@@ -550,40 +562,68 @@ async function main() {
     // being actively read so the fastest reader keeps TOPUP_HEADROOM unseen
     // cards ahead of them. Fallback-provider (Groq) cards don't count toward
     // the bank — they're placeholders awaiting Gemini replacements, which the
-    // deploy-time importer retires once the bank allows. Most-starved
-    // categories go first.
-    const low = inventory
-      .map((c) => ({
-        ...c,
-        need: Math.max(MIN_BANK, (c.maxSeen ?? 0) + TOPUP_HEADROOM),
-        quality: c.publishedCount - (c.groqPublished ?? 0),
-      }))
+    // deploy-time importer retires once the bank allows.
+    const withStats = inventory.map((c) => ({
+      ...c,
+      need: Math.max(MIN_BANK, (c.maxSeen ?? 0) + TOPUP_HEADROOM),
+      quality: c.publishedCount - (c.groqPublished ?? 0),
+    }));
+    // Most-starved categories go first and always win a slot.
+    const low = withStats
       .filter((c) => c.quality < c.need)
       .sort((a, b) => (b.need - b.quality) - (a.need - a.quality));
-    targets = low.slice(0, TOPUP_MAX_CATEGORIES).map((c) => ({
-      slug: c.slug,
-      name: c.name,
-      description: c.description,
-      count,
-      existingTitles: c.titles,
-      suggestedTopics: c.suggestedTopics ?? [],
-    }));
+    const toppedUp = low.slice(0, TOPUP_MAX_CATEGORIES);
+
+    // Nightly capacity left over (common now that TOPUP_MAX_CATEGORIES
+    // covers every category) goes to categories already past their minimum,
+    // smallest bank first, at TOPUP_BONUS_COUNT — a slow background build-up
+    // that never competes with genuinely low categories for the slot.
+    const lowSlugs = new Set(toppedUp.map((c) => c.slug));
+    const bonus = withStats
+      .filter((c) => !lowSlugs.has(c.slug))
+      .sort((a, b) => a.quality - b.quality)
+      .slice(0, TOPUP_MAX_CATEGORIES - toppedUp.length);
+
+    targets = [
+      ...toppedUp.map((c) => ({
+        slug: c.slug,
+        name: c.name,
+        description: c.description,
+        count,
+        existingTitles: c.titles,
+        suggestedTopics: c.suggestedTopics ?? [],
+      })),
+      ...bonus.map((c) => ({
+        slug: c.slug,
+        name: c.name,
+        description: c.description,
+        count: TOPUP_BONUS_COUNT,
+        existingTitles: c.titles,
+        suggestedTopics: c.suggestedTopics ?? [],
+      })),
+    ];
     console.log(
-      low.length
-        ? `Top-up: ${low
-            .slice(0, TOPUP_MAX_CATEGORIES)
-            .map((c) => {
-              const notes = [
-                c.need > MIN_BANK ? `demand-raised: top reader at ${c.maxSeen}` : "",
-                c.groqPublished > 0 ? `${c.groqPublished} groq card(s) to replace` : "",
-              ].filter(Boolean);
-              return `${c.slug} (${c.quality}/${c.need}${notes.length ? `, ${notes.join(", ")}` : ""})`;
-            })
-            .join(", ")}.` +
-            (low.length > targets.length
-              ? ` (${low.length - targets.length} more deferred to stay inside the Gemini daily quota.)`
-              : "")
-        : `All categories meet their bank minimums with non-fallback cards (base ${MIN_BANK}, +${TOPUP_HEADROOM} headroom over the most active reader) — nothing to do.`
+      [
+        low.length
+          ? `Top-up: ${toppedUp
+              .map((c) => {
+                const notes = [
+                  c.need > MIN_BANK ? `demand-raised: top reader at ${c.maxSeen}` : "",
+                  c.groqPublished > 0 ? `${c.groqPublished} groq card(s) to replace` : "",
+                ].filter(Boolean);
+                return `${c.slug} (${c.quality}/${c.need}${notes.length ? `, ${notes.join(", ")}` : ""})`;
+              })
+              .join(", ")}.` +
+              (low.length > toppedUp.length
+                ? ` (${low.length - toppedUp.length} more deferred to stay inside the Gemini daily quota.)`
+                : "")
+          : `All categories meet their bank minimums with non-fallback cards (base ${MIN_BANK}, +${TOPUP_HEADROOM} headroom over the most active reader).`,
+        bonus.length
+          ? `Building up ${bonus.length} more categor${bonus.length === 1 ? "y" : "ies"} already past minimum (smallest bank first, ${TOPUP_BONUS_COUNT} each): ${bonus.map((c) => `${c.slug} (${c.quality})`).join(", ")}.`
+          : "",
+      ]
+        .filter(Boolean)
+        .join(" ")
     );
   } else {
     const slugs = all
