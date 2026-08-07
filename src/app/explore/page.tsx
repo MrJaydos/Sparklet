@@ -22,7 +22,7 @@ export default async function ExplorePage() {
   });
 
   return (
-    <main className="mx-auto flex min-h-dvh max-w-2xl flex-col gap-8 px-6 py-12 text-neutral-100">
+    <main className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col gap-8 px-6 py-12 text-neutral-100">
       <div>
         <Link href="/" className="text-sm text-neutral-400 hover:text-neutral-200">
           ← Back to Sparklet
