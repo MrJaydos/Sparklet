@@ -11,7 +11,14 @@ import { isPremium, premiumSource } from "@/lib/billing";
 const { handlers, auth: cookieAuth, signIn, signOut } = NextAuth({
   adapter: PrismaAdapter(prisma),
   trustHost: true,
-  debug: true,
+  // Dev only, never in prod: Auth.js's debug logger prints every adapter
+  // call's raw arguments (@auth/core init.js: `logger.debug("adapter_" +
+  // name, { args })`). That means createSession's `sessionToken` and
+  // createVerificationToken's magic-link `token` land in plaintext in the
+  // container logs — both are complete account-takeover credentials, and
+  // the magic-link one arrives already paired with its owner's email. It
+  // also logs whole requests, cookie header included.
+  debug: process.env.NODE_ENV !== "production",
   callbacks: {
     session({ session, user }) {
       session.user.id = user.id;

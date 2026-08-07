@@ -21,6 +21,11 @@ const variantSchema = z.object({
   body: z.string().min(30).max(4000),
 });
 
+// Ceiling on *newly generated* variants per user per rolling hour. A real
+// reader switching depth on cards as they go nowhere near this; scripted
+// enumeration of the card bank hits it immediately.
+const DEPTH_GENERATIONS_PER_HOUR = 20;
+
 export async function POST(
   req: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -76,6 +81,26 @@ export async function POST(
     return NextResponse.json({ error: "depth variants unavailable" }, { status: 503 });
   }
 
+  // Everything past this point spends money. Deliberately below the
+  // pre-generated lookup above: re-reading a variant someone already paid
+  // for is free and must never be throttled — only genuinely new
+  // generations count against the cap.
+  //
+  // Same "count real rows in a window" shape as isXpRateLimited, over the
+  // Card rows this endpoint itself stamps with requestedById. Without it a
+  // signed-in user can walk the whole card bank × 3 levels and bill an LLM
+  // call per miss (EXTRA_DEEP is a 300-450 word completion), while filling
+  // the table with variants nobody asked to read.
+  const recentGenerations = await prisma.card.count({
+    where: { requestedById: userId, createdAt: { gte: new Date(Date.now() - 3600_000) } },
+  });
+  if (recentGenerations >= DEPTH_GENERATIONS_PER_HOUR) {
+    return NextResponse.json(
+      { error: "You've opened a lot of new depth variants — try again shortly." },
+      { status: 429 }
+    );
+  }
+
   const specs = {
     SIMPLE:
       "a SIMPLER version: 30-45 words, plainer vocabulary a 12-year-old follows easily, keep the single most interesting point",
@@ -117,6 +142,9 @@ Respond with JSON only: {"title": "...", "body": "..."}`;
       depthGroupId: card.depthGroupId,
       depthLevel: level,
       modelUsed: model,
+      // What the rate-limit count above reads. Only ever set here — cards
+      // from the content pipeline leave it null.
+      requestedById: userId,
     },
   });
 

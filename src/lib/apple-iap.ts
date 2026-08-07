@@ -7,6 +7,7 @@ import {
   type ResponseBodyV2DecodedPayload,
 } from "@apple/app-store-server-library";
 import { prisma } from "@/lib/db";
+import { Prisma } from "@/generated/prisma/client";
 
 const BUNDLE_ID = "com.sparklet.ios";
 
@@ -30,9 +31,20 @@ const rootCertificates = [readFileSync(join(process.cwd(), "certs/AppleRootCA-G3
 // One verifier per environment, tried in order. A signed transaction embeds
 // which environment it came from (Production / Sandbox / local Xcode
 // testing) — the verifier throws on a mismatch rather than telling you
-// which one to use, so this tries all three rather than guessing. Real
-// purchases submit Production; TestFlight/App Review submit Sandbox; the
-// simulator's local StoreKit Testing config submits Xcode.
+// which one to use, so this tries each rather than guessing. Real purchases
+// submit Production; TestFlight/App Review submit Sandbox; the simulator's
+// local StoreKit Testing config submits Xcode.
+//
+// Environment.XCODE is DEV-ONLY and must never be in this list on a
+// deployed server. Apple's library skips signature verification entirely
+// for it (jws_verification.js: "Data is not signed by the App Store, and
+// verification should be skipped") because Xcode's local StoreKit config
+// signs with a throwaway local cert, not Apple's chain. Everything that
+// survives is `bundleId` and `environment` — both attacker-controlled
+// fields *inside* the unsigned payload. With XCODE reachable in prod,
+// anyone who can hit POST /api/billing/apple/verify can hand-roll a JWS
+// with a garbage signature, a far-future expiresDate and
+// `environment: "Xcode"`, and grant themselves permanent premium.
 //
 // Production is skipped entirely while APP_APPLE_ID is unset: the library's
 // constructor throws immediately for Environment.PRODUCTION without one
@@ -40,9 +52,11 @@ const rootCertificates = [readFileSync(join(process.cwd(), "certs/AppleRootCA-G3
 // sparklet-ios repo), which would otherwise crash module load, not just
 // reject production receipts. Same "unset = feature quietly narrower"
 // convention as STRIPE_SECRET_KEY/getStripe().
-const environments = APP_APPLE_ID
-  ? [Environment.PRODUCTION, Environment.SANDBOX, Environment.XCODE]
-  : [Environment.SANDBOX, Environment.XCODE];
+const environments = [
+  ...(APP_APPLE_ID ? [Environment.PRODUCTION] : []),
+  Environment.SANDBOX,
+  ...(process.env.NODE_ENV === "production" ? [] : [Environment.XCODE]),
+];
 const verifiers = environments.map(
   (environment) => new SignedDataVerifier(rootCertificates, true, environment, BUNDLE_ID, APP_APPLE_ID)
 );
@@ -73,17 +87,42 @@ export function verifyAppleNotification(signedPayload: string): Promise<Response
  * whatever Apple says onto the row rather than incrementing/toggling,
  * since a signed transaction can be resubmitted or a notification
  * redelivered.
+ *
+ * One subscription, one account: User.appleOriginalTransactionId is
+ * @unique, so a receipt already claimed by someone else can't be re-used to
+ * light up a second account — first claim wins and the rest bounce off the
+ * DB. That constraint is the actual enforcement; this returns "claimed"
+ * rather than letting the raw P2002 surface as a 500, so the caller can say
+ * something true to the user. A user re-submitting their *own* receipt
+ * (restore purchases, Transaction.updates replay) is the normal path and
+ * still just updates their row.
  */
-export async function applyAppleTransaction(userId: string, transaction: JWSTransactionDecodedPayload) {
-  if (!transaction.originalTransactionId) return;
-  await prisma.user.update({
-    where: { id: userId },
-    data: {
-      appleOriginalTransactionId: transaction.originalTransactionId,
-      appleExpiresAt: transaction.expiresDate ? new Date(transaction.expiresDate) : null,
-      appleRevoked: transaction.revocationDate != null,
-    },
-  });
+export type ApplyResult = "ok" | "claimed";
+
+export async function applyAppleTransaction(
+  userId: string,
+  transaction: JWSTransactionDecodedPayload
+): Promise<ApplyResult> {
+  if (!transaction.originalTransactionId) return "ok";
+  try {
+    await prisma.user.update({
+      where: { id: userId },
+      data: {
+        appleOriginalTransactionId: transaction.originalTransactionId,
+        appleExpiresAt: transaction.expiresDate ? new Date(transaction.expiresDate) : null,
+        appleRevoked: transaction.revocationDate != null,
+      },
+    });
+    return "ok";
+  } catch (err) {
+    if (
+      err instanceof Prisma.PrismaClientKnownRequestError &&
+      err.code === "P2002" // unique violation on appleOriginalTransactionId
+    ) {
+      return "claimed";
+    }
+    throw err;
+  }
 }
 
 /**

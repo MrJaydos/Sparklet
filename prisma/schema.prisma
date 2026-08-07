@@ -191,6 +191,13 @@ model Card {
   generationBatchId String?
   modelUsed         String?
   enrichedAt        DateTime? // deploy-time quiz/guess backfill has examined this card
+  // Set only on depth variants generated lazily on demand (POST
+  // /api/cards/[id]/depth): the user whose request paid for that LLM call.
+  // Deliberately a bare denormalized string with no relation (same shape as
+  // Notification.actorName) — it exists so that route can rate-limit by
+  // counting a user's recent generations, the same "count real rows in a
+  // window" trick isXpRateLimited uses, not to be traversed.
+  requestedById     String?
 
   createdAt DateTime @default(now())
 
@@ -213,6 +220,7 @@ model Card {
 
   @@index([categoryId, published])
   @@index([depthGroupId])
+  @@index([requestedById, createdAt])
   @@index([search], type: Gin)
 }
 

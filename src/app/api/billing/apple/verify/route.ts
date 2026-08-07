@@ -30,7 +30,16 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "could not verify transaction" }, { status: 400 });
   }
 
-  await applyAppleTransaction(userId, transaction);
+  // Already linked to a different account — one App Store subscription
+  // unlocks one Sparklet account (see applyAppleTransaction). Without this
+  // the unique violation escaped as an unhandled 500, which read to the
+  // client as "our server is broken" rather than "that receipt isn't yours".
+  if ((await applyAppleTransaction(userId, transaction)) === "claimed") {
+    return NextResponse.json(
+      { error: "That purchase is already linked to another Sparklet account." },
+      { status: 409 }
+    );
+  }
 
   const user = await prisma.user.findUniqueOrThrow({
     where: { id: userId },
