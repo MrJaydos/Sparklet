@@ -264,7 +264,16 @@ export function LearnCard({
       )}
 
       <div
-        className={`relative z-10 mx-auto flex h-full w-full max-w-lg flex-col justify-end px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-2xl ${card.imageUrl ? "xl:max-w-5xl xl:flex-row xl:items-center xl:gap-10 xl:px-8 2xl:max-w-7xl" : ""}`}
+        className={`relative z-10 mx-auto flex h-full w-full max-w-lg flex-col px-5 pb-[calc(env(safe-area-inset-bottom)+2rem)] pt-[calc(env(safe-area-inset-top)+4rem)] lg:max-w-2xl ${
+          card.imageUrl
+            ? "justify-end xl:max-w-5xl xl:flex-row xl:items-center xl:gap-10 xl:px-8 2xl:max-w-7xl"
+            : // No image means nothing grows to fill the space above the text
+              // (the image div below carries flex-1 and does exactly that), so
+              // justify-end stranded text-only cards against the bottom edge of
+              // a tall viewport while image cards — which fill it, and center
+              // outright at xl — looked deliberate. Centre them instead.
+              "justify-center"
+        }`}
         style={{
           transform: `translateX(${dragX * 0.35}px)`,
           transition: dragX === 0 ? "transform 150ms ease-out" : "none",
@@ -349,7 +358,14 @@ export function LearnCard({
 
       {/* Action rail — TikTok-style vertical stack, clear of the text column */}
       <div
-        className={`absolute bottom-[calc(env(safe-area-inset-bottom)+2rem)] right-2 z-20 flex w-14 flex-col items-center gap-2.5 ${card.imageUrl ? "xl:bottom-auto xl:top-1/2 xl:-translate-y-1/2" : ""}`}
+        className={`absolute right-2 z-20 flex w-14 flex-col items-center gap-2.5 ${
+          card.imageUrl
+            ? "bottom-[calc(env(safe-area-inset-bottom)+2rem)] xl:bottom-auto xl:top-1/2 xl:-translate-y-1/2"
+            : // Follows the text column, which is now centred for image-less
+              // cards — a rail pinned to the bottom edge would float away from
+              // the content it acts on.
+              "top-1/2 -translate-y-1/2"
+        }`}
       >
         <div className="flex flex-col items-center rounded-full bg-neutral-900/70 py-1 backdrop-blur">
           <button
