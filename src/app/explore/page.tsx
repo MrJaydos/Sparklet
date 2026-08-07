@@ -2,9 +2,11 @@ import Link from "next/link";
 import { prisma } from "@/lib/db";
 
 export const metadata = { title: "Explore — Sparklet" };
-// Not personalized — safe to statically cache and revalidate hourly rather
-// than hitting the DB on every crawl.
-export const revalidate = 3600;
+// force-dynamic (not ISR/revalidate): the Docker build runs against a fake
+// placeholder DB with no real data (see AGENTS.md — DB is only written at
+// deploy time), so build-time static generation would fail here the same
+// way every other Prisma-backed page in this app avoids it.
+export const dynamic = "force-dynamic";
 
 export default async function ExplorePage() {
   const categories = await prisma.category.findMany({
