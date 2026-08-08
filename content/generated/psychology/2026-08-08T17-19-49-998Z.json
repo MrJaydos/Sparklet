@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.998Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain judges an entire experience by just two moments",
+      "body": "When evaluating past events, like a vacation or a medical procedure, your brain does not sum up the total duration or average every minute. Instead, psychologist Daniel Kahneman showed that people judge experiences almost entirely by their peak intensity and how they ended. Adding a few extra minutes of mild discomfort to a painful procedure actually makes patients remember the overall experience as far less unpleasant.",
+      "imageWikipediaTitle": "Peak–end rule",
+      "sources": [
+        {
+          "title": "Peak–end rule",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stroke a rubber hand while touching your own, and your brain adopts it",
+      "body": "In a classic body-perception test, researchers hide a participant's real hand and place a rubber hand directly in front of them. When both hands are brushed in sync for just a couple of minutes, the brain merges visual and tactile cues. Most people quickly begin feeling the touch on the fake hand, and show genuine physical stress responses if someone threatens the rubber hand with a hammer.",
+      "imageWikipediaTitle": "Rubber hand illusion",
+      "sources": [
+        {
+          "title": "Rubber hand illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_hand_illusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rubber_hand_illusion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "95% of people assign the exact same name to a spiky shape",
+      "body": "When shown a spiky shape and a rounded shape and asked which is \"Kiki\" and which is \"Bouba,\" almost everyone agrees. Across diverse languages and cultures, roughly 95% of people label the spiky shape Kiki and the smooth shape Bouba. This phenomenon, known as sound symbolism, reveals that human brains naturally map visual sharpness and roundness directly to specific speech sounds and physical tongue movements.",
+      "imageWikipediaTitle": "Bouba/kiki effect",
+      "sources": [
+        {
+          "title": "Bouba/kiki effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bouba/kiki_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bouba/kiki_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Vivid 'flashbulb' memories feel perfect, but decay like ordinary ones",
+      "body": "After dramatic global events, people feel their personal memories of the exact moment are frozen in perfect detail. However, psychological research tracking participants over years revealed that these \"flashbulb\" memories lose factual accuracy at the same rate as mundane everyday memories. The key difference is confidence: people remain fiercely convinced their vivid memories are accurate, even when documented evidence proves their recollections altered over time.",
+      "imageWikipediaTitle": "Flashbulb memory",
+      "sources": [
+        {
+          "title": "Flashbulb memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flashbulb_memory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flashbulb_memory",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Simply repeating a statement makes your brain think it is true",
+      "body": "The illusory truth effect describes our tendency to believe information is true simply because we have heard it repeatedly. When processing familiar statements, the brain interprets cognitive ease—how effortlessly a sentence is processed—as a signal of factual truth. Experiments show that even when people initially know a claim is false, repeated exposure significantly increases the likelihood that they will later judge it as accurate.",
+      "imageWikipediaTitle": "Illusory truth effect",
+      "sources": [
+        {
+          "title": "Illusory truth effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusory_truth_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusory_truth_effect",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to the peak-end rule, how do people judge a past experience?",
+      "options": [
+        "By averaging the emotional peak and the final moments",
+        "By calculating the average intensity of every single minute",
+        "By focusing entirely on how long the experience lasted overall",
+        "By remembering only the initial first impression"
+      ],
+      "correctIndex": 0,
+      "explanation": "Research shows people evaluate experiences based on the peak emotional intensity and how the event ended, largely ignoring total duration."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What triggers the rubber hand illusion in experiment participants?",
+      "options": [
+        "Hypnotizing the subject before showing them a fake hand",
+        "Simultaneously brushing the hidden real hand and visible fake hand",
+        "Applying electric shocks to both hands at random intervals",
+        "Staring at a fake hand without any physical touch for ten minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Synchronous visual and tactile stimulation causes the brain to combine sensory signals and adopt the artificial hand into its body schema."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In the Bouba/Kiki effect, which made-up word do roughly 95% of people assign to a spiky shape?",
+      "options": [
+        "Kiki",
+        "Bouba",
+        "Maluma",
+        "Oona"
+      ],
+      "correctIndex": 0,
+      "explanation": "Across different cultures, people consistently map the sharp acoustic frequency and oral movement of 'Kiki' to visual jaggedness."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do vivid 'flashbulb' memories differ from ordinary memories over time?",
+      "options": [
+        "They maintain flawless factual accuracy decades later",
+        "They decay in accuracy at the same rate, but feel far more certain",
+        "They decay twice as fast as mundane everyday memories",
+        "They can only be formed during early childhood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Studies tracking memory over years show flashbulb memories lose factual accuracy like any other memory, even though personal confidence stays high."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What primary cognitive mechanism drives the illusory truth effect?",
+      "options": [
+        "Cognitive ease when processing familiar statements",
+        "A deliberate desire to agree with authority figures",
+        "Logical deduction based on supporting evidence",
+        "The brain's inability to form long-term memories"
+      ],
+      "correctIndex": 0,
+      "explanation": "Repeated exposure makes claims easier for the brain to process, and the mind misinterprets this fluency as evidence of truth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of people across different cultures assign the name 'Kiki' to a spiky shape rather than a rounded one?",
+      "answer": 95,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Roughly 95% of people pair 'Kiki' with spiky shapes and 'Bouba' with rounded ones, showing a universal cross-sensory mapping in human minds."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Adding mild pain to the end of a painful medical procedure makes patients remember it as less unpleasant overall.",
+      "answer": true,
+      "explanation": "Under the peak-end rule, ending a procedure with lower discomfort reduces the overall remembered pain, even though the total duration of pain was longer."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Extremely vivid memories of major historical events remain accurate over time.",
+      "answer": false,
+      "explanation": "Tracking studies prove flashbulb memories decay in factual accuracy just like everyday memories; only the subject's confidence remains abnormally high."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Knowing a statement is false completely protects you from believing it when repeated later.",
+      "answer": false,
+      "explanation": "The illusory truth effect works via cognitive fluency—repeated exposure increases perceived truthfulness even for claims previously known to be false."
+    }
+  ]
+}

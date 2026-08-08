@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-08-08T17:19:50.000Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In honest financial records, the number 1 appears as the leading digit 30% of the time.",
+      "body": "Benford’s law reveals that in naturally occurring financial datasets, numbers starting with 1 appear about 30.1% of the time, while those starting with 9 occur only 4.6% of the time. Forensic accountants use this logarithmic distribution to detect fraud and tax evasion. When humans fabricate financial numbers, they instinctively distribute digits evenly, breaking the natural pattern and triggering audits.",
+      "imageWikipediaTitle": "Benford's law",
+      "sources": [
+        {
+          "title": "Benford's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Benford%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Benford%27s_law",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ancient Aztec counterfeiters forged currency by filling hollowed cocoa husks with dirt.",
+      "body": "In pre-Columbian Mesoamerica, cacao beans were a recognized currency used to buy everyday goods like food and clothing. Because individual beans held real exchange value, counterfeiters targeted the market. Fraudsters carefully scraped open cacao pods, removed the valuable beans, stuffed the empty husks with dirt, wax, or clay, and sealed them back up to spend in crowded markets.",
+      "imageWikipediaTitle": "Chocolate",
+      "sources": [
+        {
+          "title": "History of chocolate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_chocolate"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/History_of_chocolate",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Winning an auction often means you paid more for an item than anyone else thought it was worth.",
+      "body": "In economics, the \"winner's curse\" occurs during common-value auctions, such as bidding for offshore oil leases. Since the true value of the asset is unknown but identical for all bidders, each participant submits an estimate. The highest bidder wins, but because their bid was the most optimistic, they likely overestimated the true value and overpaid for the asset.",
+      "imageWikipediaTitle": "Auction",
+      "sources": [
+        {
+          "title": "Winner's curse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Winner%27s_curse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Winner%27s_curse",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "McDonald’s makes a major portion of its profits from real estate rather than fast food.",
+      "body": "While famous for selling hamburgers, McDonald’s operates primarily as a real estate company. The corporate entity buys prime physical land and store buildings, then leases them to franchisees at a significant markup. Rent payments—often linked to store sales—provide McDonald's with a predictable, highly lucrative revenue stream that shelters corporate profits from fluctuations in food costs and consumer dining trends.",
+      "imageWikipediaTitle": "McDonald's",
+      "sources": [
+        {
+          "title": "McDonald's",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/McDonald%27s"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/McDonald%27s",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain treats a $100 bonus very differently than $100 earned from a regular paycheck.",
+      "body": "Formulated by Nobel laureate Richard Thaler, mental accounting explains how human brains violate strict economic logic. While all money is legally equal and interchangeable, people mentally place funds into different categories based on origin or intent. As a result, people are far more willing to splurge a \"found\" $100 tax refund on luxury purchases while strictly saving $100 from standard wages.",
+      "imageWikipediaTitle": "Richard Thaler",
+      "sources": [
+        {
+          "title": "Mental accounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_accounting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mental_accounting",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Benford's Law, roughly what percentage of naturally occurring financial numbers start with the digit 1?",
+      "options": [
+        "11%",
+        "30%",
+        "50%",
+        "70%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Benford's Law states that the leading digit is 1 in approximately 30.1% of naturally occurring datasets."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did ancient Aztec counterfeiters produce fake cacao bean currency?",
+      "options": [
+        "By carving wooden replicas",
+        "By painting stone pebbles brown",
+        "By stuffing empty husks with dirt or wax",
+        "By casting lead molds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Counterfeiters extracted real beans from cacao pods and re-filled the outer husks with wax, dirt, or clay."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the \"winner's curse\" in common-value auctions?",
+      "options": [
+        "The winner is disqualified due to a technical error",
+        "The winning bidder likely overestimated the asset's true value",
+        "The winner must pay double their final bid in tax",
+        "The seller is forced to accept lower than market price"
+      ],
+      "correctIndex": 1,
+      "explanation": "In common-value auctions, the winning bidder usually holds the most optimistic estimate, leading to overpayment."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the primary source of high-margin corporate profit for McDonald's?",
+      "options": [
+        "Leasing real estate to franchisees",
+        "Selling proprietary cooking equipment",
+        "National television advertising fees",
+        "Bulk soft drink sales"
+      ],
+      "correctIndex": 0,
+      "explanation": "McDonald's corporate entity acts primarily as a landlord, collecting rent on store locations owned by the company."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What economic concept explains why people treat a cash gift differently than earned income?",
+      "options": [
+        "Gresham's Law",
+        "Mental Accounting",
+        "The Cobra Effect",
+        "Pareto Efficiency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mental accounting describes how individuals categorize money by its origin or intent rather than treating all cash equally."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In genuine financial records, what percentage of numbers begin with the digit 1?",
+      "answer": 30.1,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Under Benford's Law, the digit 1 appears as the leading number approximately 30.1% of the time."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In authentic financial record books, every digit from 1 to 9 appears as the leading number with equal frequency.",
+      "answer": false,
+      "explanation": "Under Benford's Law, 1 appears as the first digit about 30.1% of the time, while 9 appears first only 4.6% of the time."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Because money is fungible, people naturally spend a $100 tax refund with the exact same caution as $100 from regular wages.",
+      "answer": false,
+      "explanation": "Mental accounting shows that people tend to treat unexpected windfall money far more casually than hard-earned salary."
+    }
+  ]
+}

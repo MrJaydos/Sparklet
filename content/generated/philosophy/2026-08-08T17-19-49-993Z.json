@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.993Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Larger groups make better collective decisions—if voters meet one key condition",
+      "body": "In 1785, the Marquis de Condorcet mathematically proved that if each individual voter has a greater than 50% chance of choosing correctly, majority voting approaches a 100% chance of being right as group size grows. However, if individual accuracy drops below 50%, adding more voters guarantees a wrong decision.",
+      "imageWikipediaTitle": "Marquis de Condorcet",
+      "sources": [
+        {
+          "title": "Condorcet's jury theorem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Condorcet%27s_jury_theorem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Condorcet%27s_jury_theorem",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why economic destruction doesn't actually stimulate the economy",
+      "body": "In 1850, philosopher Frédéric Bastiat introduced the Parable of the Broken Window to expose a common fallacy. When a window breaks, onlookers claim repairing it stimulates the economy by paying the glazier. Bastiat emphasized the unseen: the shopkeeper now cannot spend that money on new shoes, leaving society with one less pair of shoes.",
+      "imageWikipediaTitle": "Frédéric Bastiat",
+      "sources": [
+        {
+          "title": "Parable of the broken window",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parable_of_the_broken_window"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Parable_of_the_broken_window",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A theory isn't scientific unless it can potentially be proven wrong",
+      "body": "Philosopher Karl Popper argued that scientific theories can never be conclusively proven true, only falsified. No number of confirming observations can guarantee a rule holds universally, but a single clear counterexample can disprove it. For Popper, claims that cannot be tested or risked being disproven fall outside empirical science.",
+      "imageWikipediaTitle": "Karl Popper",
+      "sources": [
+        {
+          "title": "Falsifiability",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Falsifiability"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Falsifiability",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Paper money and national borders exist purely because we agree they do",
+      "body": "Philosopher John Searle distinguished brute facts from social facts. Brute facts, like the height of Mount Everest, exist independently of human belief. Social facts, like currency, property deeds, and national borders, rely entirely on collective human agreement. If humanity vanished tomorrow, physical paper bills would remain, but money itself would instantly cease to exist.",
+      "imageWikipediaTitle": "Banknote",
+      "sources": [
+        {
+          "title": "Social fact",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Social_fact"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Social_fact",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Good debate requires addressing the strongest version of an argument",
+      "body": "In philosophy and rhetoric, the Principle of Charity requires interpreting an opponent's argument in its most rational and strongest possible form. Rather than attacking minor errors or weak phrasing, a critical thinker must engage with the opponent's best point. Attacking a weakened caricature, known as a straw man, fails to refute the real claim.",
+      "imageWikipediaTitle": "Debate",
+      "sources": [
+        {
+          "title": "Principle of charity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Principle_of_charity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Principle_of_charity",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Condorcet's Jury Theorem, what happens if individual voters are slightly more likely to be wrong than right?",
+      "options": [
+        "Larger groups become almost guaranteed to make the wrong decision",
+        "The group still reaches the right answer given enough time",
+        "The outcome becomes entirely random regardless of group size",
+        "Individual errors automatically cancel each other out"
+      ],
+      "correctIndex": 0,
+      "explanation": "If individual voters are worse than random chance, scaling up the group mathematically increases the probability of a majority error."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What hidden economic loss does Bastiat's Parable of the Broken Window highlight?",
+      "options": [
+        "The missed purchase the shopkeeper would have made if the window were intact",
+        "The environmental impact of glass manufacturing",
+        "The hidden tax imposed by government glazier licensing",
+        "The breakdown of trust between shopkeepers and local youth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bastiat showed that paying to repair damage consumes funds that would otherwise have created new wealth elsewhere, such as buying shoes."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did Karl Popper identify as the defining criterion of a scientific hypothesis?",
+      "options": [
+        "It must be capable of being disproven by empirical evidence",
+        "It must be supported by unanimous consensus among experts",
+        "It must be expressed purely through mathematical formulas",
+        "It must be verified by at least ten independent trials"
+      ],
+      "correctIndex": 0,
+      "explanation": "Popper's falsifiability rule states that for a statement to be scientific, there must be a possible observation that could prove it false."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which of the following is an example of a 'social fact' in philosophy?",
+      "options": [
+        "Paper currency having economic value",
+        "The gravitational pull of the Moon",
+        "The molecular structure of water",
+        "The freezing point of ocean water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Social facts rely entirely on collective human agreement and institutions, whereas brute facts like gravity exist independently of human belief."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the Principle of Charity ask thinkers to do during an argument?",
+      "options": [
+        "Interpret an opponent's claim in its strongest, most rational form",
+        "Concede every point to avoid social confrontation",
+        "Donate money to educational non-profits before debating",
+        "Assume an opponent has hidden malicious motives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Principle of Charity requires reconstructing an opponent's argument in its strongest possible form before evaluating or critiquing it."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What minimum individual voter accuracy percentage is required for majority rule to approach 100% accuracy as group size grows?",
+      "answer": 50,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Condorcet proved that majority voting only increases overall accuracy if individual voters are better than random guessing (>50%)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Disaster cleanup and rebuilding infrastructure stimulate the overall economy.",
+      "answer": false,
+      "explanation": "Bastiat's Parable of the Broken Window shows that repairing damage consumes capital that would have created new wealth elsewhere."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A hypothesis must be proven true beyond all doubt to be considered scientific.",
+      "answer": false,
+      "explanation": "Karl Popper demonstrated that science relies on falsifiability: theories must be open to disproof, but can never be permanently proven true."
+    }
+  ]
+}

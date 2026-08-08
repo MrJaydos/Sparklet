@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.997Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Woodpeckers Protect Their Brains From High-Speed Impacts",
+      "body": "Woodpeckers hammer into trees at forces reaching 1,200 g—enough to leave a human severely brain-damaged. They avoid injury thanks in part to an extraordinary tongue structure. The hyoid bone splits into two thin bands that loop all the way up, over, and around the back of the skull. This elongated structure acts like a biological seatbelt, absorbing shocks and anchoring the brain during impact.",
+      "imageWikipediaTitle": "Woodpecker",
+      "sources": [
+        {
+          "title": "Woodpecker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodpecker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Woodpecker",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Tiny Jellyfish That Can Reset Its Lifecycle Indefinitely",
+      "body": "When faced with physical stress, starvation, or old age, the tiny jellyfish Turritopsis dohrnii does something almost unique in the animal kingdom. Instead of dying, it retracts its tentacles, shrinks into a blob, and reverts its cells back into an immature polyp colony through transdifferentiation. This process essentially resets its biological clock, allowing a single individual to potentially live forever barring predation or disease.",
+      "imageWikipediaTitle": "Turritopsis dohrnii",
+      "sources": [
+        {
+          "title": "Turritopsis dohrnii",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horned Lizards Can Shoot Blood From Their Eyes to Deter Predators",
+      "body": "When threatened by predators like coyotes or foxes, certain species of horned lizards employ a bizarre defense mechanism. They restrict blood flow from their heads, raising blood pressure until tiny vessels in the corners of their eyes rupture. The lizard can accurately squirt a stream of foul-tasting blood up to five feet away, confusing predators and giving the lizard enough time to escape safely.",
+      "imageWikipediaTitle": "Horned lizard",
+      "sources": [
+        {
+          "title": "Horned lizard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horned_lizard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Horned_lizard",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flying Snakes Flatten Their Bodies to Glide Through the Air",
+      "body": "Without wings or limbs, Chrysopelea snakes can leap off tall branches and glide through the rainforest canopy for dozens of meters. In midair, the snake flattens its body to twice its normal width, creating a concave C-shape that traps air beneath it like a parachute. By undulating from side to side as it falls, it controls its trajectory and lands safely on far-off trees.",
+      "imageWikipediaTitle": "Chrysopelea",
+      "sources": [
+        {
+          "title": "Chrysopelea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chrysopelea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chrysopelea",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Brainless Slime Molds Can Navigate Mazes to Find Food",
+      "body": "Physarum polycephalum is a single-celled organism without a brain, nervous system, or organs, yet it exhibits remarkable problem-solving skills. When placed in a maze with food sources at two ends, the slime mold stretches across all open pathways before retracting from dead ends. It leaves behind a thick network along the absolute shortest route, transferring nutrients with pulsing cellular fluids.",
+      "imageWikipediaTitle": "Physarum polycephalum",
+      "sources": [
+        {
+          "title": "Physarum polycephalum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Physarum_polycephalum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Physarum_polycephalum",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which unusual anatomical structure helps cushion a woodpecker's brain during high-impact hammering?",
+      "options": [
+        "A flexible cartilage beak shield",
+        "An elongated hyoid bone that wraps around the skull",
+        "A fluid-filled air sac inside the forehead",
+        "A heavily reinforced double-layered spine"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hyoid bone splits into two bands that loop all the way around the back of the skull, acting as a shock-absorbing sling during hammering."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does the immortal jellyfish (Turritopsis dohrnii) avoid death from old age or stress?",
+      "options": [
+        "By shedding its outer skin and cloning itself",
+        "By entering a dormant state underwater for centuries",
+        "By reverting its mature cells back into an immature polyp state",
+        "By absorbing nutrients from neighboring jellyfish"
+      ],
+      "correctIndex": 2,
+      "explanation": "Turritopsis dohrnii can transform its mature cells back into polyp cells, resetting its lifecycle completely."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do certain species of horned lizards defend themselves against canine predators?",
+      "options": [
+        "By firing sharp spines from their tails",
+        "By squirting blood from the corners of their eyes",
+        "By changing color to match toxic berries",
+        "By playing dead and emitting foul gases"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horned lizards increase head blood pressure until ocular eye vessels rupture, squirting foul blood up to five feet."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do flying snakes (Chrysopelea) generate lift while gliding through the air?",
+      "options": [
+        "By inflating small air sacs along their bellies",
+        "By rapidly flapping their wide tail fins",
+        "By flattening their bodies into a concave parachute shape",
+        "By catching upward thermal wind currents with their scales"
+      ],
+      "correctIndex": 2,
+      "explanation": "By flattening its body into a concave C-shape, the snake increases surface area and traps air to glide between trees."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the single-celled slime mold Physarum polycephalum find the shortest route through a maze?",
+      "options": [
+        "It leaves a chemical scent trail that guides its head",
+        "It uses light sensors to detect open exits",
+        "It explores all paths and then retracts from dead ends",
+        "It relies on micro-vibrations from nearby food"
+      ],
+      "correctIndex": 2,
+      "explanation": "Physarum polycephalum spreads throughout the maze and then retracts from non-optimal paths, leaving fluid tubes along the shortest route."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "When a woodpecker hammers into a tree trunk, roughly how many g-forces of deceleration does its head experience?",
+      "answer": 1200,
+      "min": 100,
+      "max": 5000,
+      "unit": "g",
+      "explanation": "Woodpeckers absorb deceleration forces up to 1,200 g—far exceeding the threshold that causes severe brain injury in humans."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Some jellyfish species are capable of reversing their aging process to restart their lifecycle.",
+      "answer": true,
+      "explanation": "Turritopsis dohrnii can revert its adult cells back into polyp cells when threatened or injured, effectively resetting its lifespan."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Horned lizards squirt venom out of their eyes when attacked.",
+      "answer": false,
+      "explanation": "Horned lizards squirt foul-tasting blood, not venom, from ruptured blood vessels in the corners of their eyes."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Organisms require a brain or nervous system to solve maze problems.",
+      "answer": false,
+      "explanation": "The single-celled slime mold Physarum polycephalum solves mazes by exploring pathways and retracting from dead ends without any nervous system."
+    }
+  ]
+}

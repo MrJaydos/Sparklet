@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.992Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The floating bone in your neck that touches no other skeleton piece",
+      "body": "Every bone in your body meets another at a joint, except for one: the hyoid bone. Suspended in your neck by a network of muscles and ligaments, this horseshoe-shaped structure sits just above the voice box. Because it floats freely, the hyoid plays a critical role in anchoring your tongue and supporting the complex mechanical movements required for speaking and swallowing.",
+      "imageWikipediaTitle": "Hyoid_bone",
+      "sources": [
+        {
+          "title": "Hyoid bone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyoid_bone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hyoid_bone",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your fingernails grow more than twice as fast as your toenails",
+      "body": "Human fingernails grow at an average rate of about 3.5 millimeters per month, whereas toenails crawl along at roughly 1.6 millimeters per month. Blood circulation, localized mechanical stress, and minor physical contact all stimulate nail growth. Because your hands receive significantly greater blood flow and experience far more physical interaction with the environment, the nail matrix in your fingers produces keratin cells much faster than your toes.",
+      "imageWikipediaTitle": "Nail_(anatomy)",
+      "sources": [
+        {
+          "title": "Nail (anatomy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nail_(anatomy)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nail_(anatomy)",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your red blood cells shed their own nuclei to carry more oxygen",
+      "body": "Most cells in your body carry a nucleus containing DNA and mitochondria to generate fuel. Mature human red blood cells purposefully eject both organ systems during their development in the bone marrow. By stripping away these internal components, the cell frees up maximum interior space for hemoglobin molecules. This trade-off allows a single red blood cell to hold over 250 million hemoglobin proteins, drastically boosting its oxygen capacity.",
+      "imageWikipediaTitle": "Red_blood_cell",
+      "sources": [
+        {
+          "title": "Red blood cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Red_blood_cell"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Red_blood_cell",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your entire skeleton completely replaces its tissue every ten years",
+      "body": "Bone tissue is constantly alive, actively breaking down and rebuilding through a process called bone remodeling. Specialized cells called osteoclasts break down older, micro-damaged bone tissue, while osteoblasts lay down fresh mineralized collagen in its place. This continuous repair cycle fixes microscopic structural cracks caused by daily wear and tear. Over the course of roughly ten years, this ongoing cellular turnover replaces virtually your entire structural frame.",
+      "imageWikipediaTitle": "Bone_remodeling",
+      "sources": [
+        {
+          "title": "Bone remodeling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone_remodeling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bone_remodeling",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Muscle growth happens by expanding existing cells, not adding new ones",
+      "body": "When you build larger muscles through resistance training, your body rarely creates brand-new muscle fibers. Instead, existing muscle cells grow larger through a process known as hypertrophy. In response to heavy exercise, individual muscle fibers repair micro-tears by incorporating extra protein filaments into their existing architecture. This expands the thickness of each individual cell without increasing the total number of muscle fibers in your body.",
+      "imageWikipediaTitle": "Muscle_hypertrophy",
+      "sources": [
+        {
+          "title": "Muscle hypertrophy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Muscle_hypertrophy",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your ear canal cleans itself using a natural skin conveyor belt",
+      "body": "Earwax, or cerumen, protects your ear canal from dust, bacteria, and moisture. Rather than accumulating endlessly, earwax naturally travels outward toward the ear opening. Epithelial skin cells lining the ear canal grow laterally from the inside out, acting like a slow biological conveyor belt. Normal jaw movements from chewing and speaking help migrate dried earwax out of the canal, ensuring your ears remain self-cleaning under normal conditions.",
+      "imageWikipediaTitle": "Earwax",
+      "sources": [
+        {
+          "title": "Earwax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Earwax"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Earwax",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The crucial immune organ that shrinks and turns to fat as you age",
+      "body": "Located behind your breastbone, the thymus gland is essential during childhood for training T-cells, the core agents of your adaptive immune system. However, starting around puberty, the thymus undergoes a process called involution. It progressively shrinks and is mostly replaced by adipose fat tissue in adulthood. Because your body establishes a diverse memory bank of T-cells during youth, it no longer requires a large, fully active training center later in life.",
+      "imageWikipediaTitle": "Thymus",
+      "sources": [
+        {
+          "title": "Thymus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thymus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thymus",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single human muscle cell can contain thousands of distinct nuclei",
+      "body": "Most human cells possess just a single nucleus, but skeletal muscle fibers are a dramatic exception. A single muscle fiber can stretch several centimeters long and contain hundreds or even thousands of nuclei distributed along its outer edge. This multinucleated structure formed during embryonic development when individual precursor cells fused together. Having many nuclei allows the cell to synthesize proteins locally across its massive length to quickly repair damaged muscle tissue.",
+      "imageWikipediaTitle": "Myocyte",
+      "sources": [
+        {
+          "title": "Myocyte",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myocyte"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Myocyte",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Two opposing hormones control your daily hunger and fullness signals",
+      "body": "Your appetite is regulated by a balanced chemical tug-of-war between two main hormones: ghrelin and leptin. Ghrelin is produced primarily by an empty stomach, signaling your brain that it is time to eat by triggering hunger pangs before meals. Conversely, leptin is secreted by body fat cells to communicate long-term energy abundance, prompting the brain to reduce appetite. Together, these chemical signals coordinate your immediate fuel needs with stored energy reserves.",
+      "imageWikipediaTitle": "Ghrelin",
+      "sources": [
+        {
+          "title": "Ghrelin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ghrelin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ghrelin",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "80 percent of your main body-brain nerve sends signals upward, not down",
+      "body": "The vagus nerve is the longest cranial nerve in your body, running from your brainstem down to your heart, lungs, and digestive organs. While famous for delivering brain commands that slow your heart rate and stimulate digestion, its traffic flows mostly in reverse. Approximately 80 percent of the vagus nerve's fibers are sensory, constantly transmitting real-time updates from your internal organs up to your brain to maintain metabolic balance.",
+      "imageWikipediaTitle": "Vagus_nerve",
+      "sources": [
+        {
+          "title": "Vagus nerve",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vagus_nerve"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vagus_nerve",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which bone in the human body is unique because it does not articulate with any other bone?",
+      "options": [
+        "Hyoid bone",
+        "Clavicle",
+        "Patella",
+        "Scapula"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hyoid bone sits suspended in the neck by muscles and ligaments without forming a joint with any other bone."
+    },
+    {
+      "cardIndex": 1,
+      "question": "About how fast do human fingernails grow on average per month?",
+      "options": [
+        "0.5 millimeters",
+        "3.5 millimeters",
+        "12.0 millimeters",
+        "25.0 millimeters"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fingernails grow at approximately 3.5 millimeters per month, which is more than twice as fast as toenails."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What distinct cellular feature do mature human red blood cells lack in order to maximize space for oxygen delivery?",
+      "options": [
+        "A cell membrane",
+        "Cytoplasm",
+        "A cell nucleus",
+        "Ribosomes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mature red blood cells eject their cell nucleus and mitochondria during development to fit roughly 250 million hemoglobin molecules inside."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Approximately how long does it take for human bone remodeling to replace virtually the entire skeleton?",
+      "options": [
+        "6 months",
+        "2 years",
+        "10 years",
+        "30 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Through continuous cellular turnover by osteoclasts and osteoblasts, your skeleton fully replaces its tissue roughly every 10 years."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do adult human skeletal muscles primarily increase in size during weight training?",
+      "options": [
+        "By multiplying into billions of new muscle cells",
+        "By enlarging existing muscle cells through hypertrophy",
+        "By replacing muscle tissue with dense fat deposits",
+        "By converting nerve tissue directly into muscle fibers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Muscle growth in adults occurs through hypertrophy—enlarging the thickness of existing muscle cells—rather than creating brand-new fibers."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What natural process propels earwax outward from inside the ear canal?",
+      "options": [
+        "Cilia beating rapidly inside the middle ear",
+        "Lateral growth of epithelial skin cells acting like a conveyor belt",
+        "High air pressure generated by coughing and sneezing",
+        "Continuous fluid circulation from inner ear glands"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ear canal skin cells grow outward horizontally, moving earwax out of the ear like a natural conveyor belt."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What happens to the human thymus gland following puberty?",
+      "options": [
+        "It triples in size to produce hormones",
+        "It undergoes involution, shrinking and turning into fat",
+        "It dissolves completely without leaving any trace",
+        "It detaches and migrates down into the stomach cavity"
+      ],
+      "correctIndex": 1,
+      "explanation": "The thymus gradually shrinks and fills with fat tissue after puberty because most immune T-cell training occurs during childhood."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why do individual skeletal muscle cells contain hundreds or thousands of nuclei?",
+      "options": [
+        "They formed from the fusion of multiple individual cell precursors",
+        "Muscle cells clone their nuclei continuously to store extra fat",
+        "The nuclei capture oxygen directly from ambient air",
+        "Each nucleus controls a different muscle group in the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "Muscle fibers develop when multiple precursor cells (myoblasts) fuse together, resulting in a single long cell with many nuclei."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Which hormone is primarily secreted by an empty stomach to signal hunger to the brain?",
+      "options": [
+        "Leptin",
+        "Insulin",
+        "Ghrelin",
+        "Cortisol"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ghrelin is known as the hunger hormone because an empty stomach releases it to stimulate appetite in the brain."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What proportion of nerve fibers in the vagus nerve carry sensory information from body organs UP to the brain?",
+      "options": [
+        "About 10 percent",
+        "About 30 percent",
+        "About 50 percent",
+        "About 80 percent"
+      ],
+      "correctIndex": 3,
+      "explanation": "Around 80% of vagus nerve fibers are sensory, sending status updates from body organs back up into the brain."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "On average, how many millimeters do human fingernails grow in a single month?",
+      "answer": 3.5,
+      "min": 0.5,
+      "max": 15,
+      "unit": "mm",
+      "explanation": "Fingernails grow about 3.5 mm per month, compared to just 1.6 mm per month for toenails."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many years does it take for continuous bone remodeling to replace virtually your entire skeleton?",
+      "answer": 10,
+      "min": 1,
+      "max": 40,
+      "unit": "years",
+      "explanation": "Specialized bone cells constantly tear down and rebuild bone tissue, fully replacing your skeleton roughly every decade."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "What percentage of vagus nerve fibers send sensory signals upward from your organs to your brain?",
+      "answer": 80,
+      "min": 10,
+      "max": 99,
+      "unit": "%",
+      "explanation": "Roughly 80% of vagus nerve traffic flows upward, keeping the brain constantly informed about organ status."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Mature human red blood cells carry their own DNA inside a central nucleus.",
+      "answer": false,
+      "explanation": "Red blood cells eject their nucleus during development to maximize space for oxygen-binding hemoglobin."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Lifting weights builds bigger muscles primarily by triggering the body to create new muscle cells.",
+      "answer": false,
+      "explanation": "Strength training enlarges existing muscle fibers (hypertrophy) rather than multiplying the total number of cells."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "Your primary immune T-cell training organ naturally shrinks and fills with fat after puberty.",
+      "answer": true,
+      "explanation": "The thymus undergoes natural involution after puberty, gradually shrinking as fat tissue replaces its active immune cells."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Leptin is the hormone released by an empty stomach to make you feel hungry before meals.",
+      "answer": false,
+      "explanation": "Ghrelin triggers hunger signals from an empty stomach, while leptin is released by fat cells to signal fullness."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "The vagus nerve primarily functions as a one-way path sending brain commands down to internal organs.",
+      "answer": false,
+      "explanation": "Around 80% of vagus nerve fibers actually travel upward, carrying sensory data from organs back to the brain."
+    }
+  ]
+}

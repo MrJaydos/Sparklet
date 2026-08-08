@@ -1,0 +1,327 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.989Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gauss Secretly Invented Coding's Most Important Algorithm in 1805",
+      "body": "In 1965, James Cooley and John Tukey published the Fast Fourier Transform (FFT) algorithm, revolutionary for digital signal processing. However, mathematician Carl Friedrich Gauss had actually invented the exact same algorithm around 1805 to calculate asteroid orbits—predating Joseph Fourier's work on harmonic analysis—though his notes remained unpublished until after his death.",
+      "imageWikipediaTitle": "Carl Friedrich Gauss",
+      "sources": [
+        {
+          "title": "Fast Fourier transform",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_Fourier_transform"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_Fourier_transform",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Room 404 Never Existed at CERN",
+      "body": "A persistent internet legend claims that the '404 Not Found' error was named after Room 404 at CERN, where Tim Berners-Lee and his team supposedly housed the web's first database server. In reality, CERN's Fourth Floor had no Room 404, and the numeric status code was simply picked systematically from standard HTTP error ranges.",
+      "imageWikipediaTitle": "CERN",
+      "sources": [
+        {
+          "title": "HTTP 404",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTTP_404"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HTTP_404",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Inventor of Copy and Paste Saved Programmers Millions of Keystrokes",
+      "body": "Computer scientist Larry Tesler introduced the cut, copy, and paste commands while working on the Gypsy word processor at Xerox PARC between 1973 and 1976. Prior to Tesler's work, editing digital text required entering dedicated modal states, forcing users to type tedious commands just to move a single character or sentence around.",
+      "imageWikipediaTitle": "Larry Tesler",
+      "sources": [
+        {
+          "title": "Cut, copy, and paste",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cut,_copy,_and_paste"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cut,_copy,_and_paste",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's First Chatbot Fooled People into Thinking It Was Human in 1966",
+      "body": "In 1966, computer scientist Joseph Weizenbaum created ELIZA at MIT to demonstrate how easily people could be deceived by computers. Using simple rules to rephrase user statements into questions like a Rogerian therapist, ELIZA convinced many users—including Weizenbaum's secretary—that it possessed real empathy, giving birth to the phenomenon known as the ELIZA effect.",
+      "imageWikipediaTitle": "ELIZA",
+      "sources": [
+        {
+          "title": "ELIZA",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ELIZA"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/ELIZA",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tetris Was Coded on a Soviet Computer Without Graphics",
+      "body": "In 1984, Soviet researcher Alexey Pajitnov programmed the first version of Tetris on an Electronika 60 at the Moscow Academy of Sciences. Because the computer lacked graphics hardware and could display only text, Pajitnov built the falling block shapes out of text brackets [] printed across character cells on screen.",
+      "imageWikipediaTitle": "Alexey Pajitnov",
+      "sources": [
+        {
+          "title": "Tetris",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tetris"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tetris",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Encryption Tool That Triggered a U.S. Munitions Investigation",
+      "body": "In 1991, Phil Zimmermann published Pretty Good Privacy (PGP) for free to protect human rights advocates. Because PGP used RSA keys stronger than 40 bits, the U.S. government viewed it as military-grade hardware under export control laws and launched a three-year criminal investigation against Zimmermann for exporting munitions without a license before dropping charges in 1996.",
+      "imageWikipediaTitle": "Pretty Good Privacy",
+      "sources": [
+        {
+          "title": "Pretty Good Privacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pretty_Good_Privacy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pretty_Good_Privacy",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Core Standards of the Internet Are Named as Humble \"Requests for Comments\"",
+      "body": "In April 1969, researcher Steve Crocker authored 'RFC 1' to document host software for the early ARPANET. Fearing that formal official language might offend senior colleagues or sound imperious, Crocker titled the memo 'Request for Comments.' The humble phrase caught on, becoming the permanent naming scheme for every official technical protocol governing the modern internet.",
+      "imageWikipediaTitle": "Request for Comments",
+      "sources": [
+        {
+          "title": "Request for Comments",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Request_for_Comments"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Request_for_Comments",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Netscape Offered Cash Rewards for Bugs to Fix Browser Flaws",
+      "body": "In October 1995, Jarrett Ridlinghafer, an executive at Netscape Communications, launched the tech industry's first official bug bounty program. Realizing that external security enthusiasts were finding security vulnerabilities in Netscape Navigator 2.0 faster than internal teams, Netscape offered cash prizes and merchandise to anyone reporting unknown bugs, setting a template now used worldwide.",
+      "imageWikipediaTitle": "Netscape Navigator",
+      "sources": [
+        {
+          "title": "Bug bounty program",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bug_bounty_program"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bug_bounty_program",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Soviet Union Built Computers That Processed Math in Threes, Not Twos",
+      "body": "In 1958, computer scientists at Moscow State University built Setun, a mainframe computer that operated on ternary logic instead of binary logic. Using values of -1, 0, and 1, Setun processed numbers using 'trits' rather than bits. The three-state logic required fewer electrical components and calculated arithmetic faster and more naturally than binary hardware of the era.",
+      "imageWikipediaTitle": "Setun",
+      "sources": [
+        {
+          "title": "Setun",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Setun"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Setun",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Single Byte Overflow Caused Pac-Man's Unbeatable 256th Level",
+      "body": "Designed in 1980, Pac-Man was intended to run indefinitely. However, when a player reaches level 256, an 8-bit integer overflow occurs during the subroutine that populates the bottom of the screen with fruit symbols. The code attempts to draw 256 fruit items into a buffer sized for far fewer, corrupting half the display into garbled tiles and rendering the level unplayable.",
+      "imageWikipediaTitle": "Pac-Man",
+      "sources": [
+        {
+          "title": "Pac-Man",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pac-Man"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pac-Man",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which mathematician originally devised the Fast Fourier Transform algorithm in 1805?",
+      "options": [
+        "Carl Friedrich Gauss",
+        "Joseph Fourier",
+        "John Tukey",
+        "Alan Turing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gauss mapped out the Fast Fourier Transform algorithm in 1805 to calculate asteroid orbits, though it remained unpublished until after his death."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is the web status code for a missing page designated as '404'?",
+      "options": [
+        "It was assigned systematically within standard HTTP protocol error ranges",
+        "It was named after Room 404 at CERN",
+        "It represents the 404th error defined in HTML",
+        "It was the server port number at CERN"
+      ],
+      "correctIndex": 0,
+      "explanation": "The room 404 origin story at CERN is a myth; the code was simply chosen as part of a standard range of 3-digit HTTP status codes."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Who introduced the modern concepts of Cut, Copy, and Paste for computer text editing?",
+      "options": [
+        "Larry Tesler",
+        "Steve Jobs",
+        "Dennis Ritchie",
+        "Tim Berners-Lee"
+      ],
+      "correctIndex": 0,
+      "explanation": "Larry Tesler created the Cut, Copy, and Paste commands while working at Xerox PARC on the Gypsy word processor in the 1970s."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did the 1966 chatbot ELIZA simulate conversation with humans?",
+      "options": [
+        "By rephrasing user input using simple pattern matching",
+        "By training on millions of recorded speech transcripts",
+        "By querying an early online encyclopedic database",
+        "By running neural network predictive language models"
+      ],
+      "correctIndex": 0,
+      "explanation": "ELIZA simulated a Rogerian psychotherapist by reflecting back user sentences using simple pattern-matching rules."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How were the blocks drawn in the original 1984 text-mode version of Tetris?",
+      "options": [
+        "Using bracket characters like [] on a text screen",
+        "Using 8-bit color bitmap graphics",
+        "Using pixelated numbers from 1 to 7",
+        "Using monochrome vector shapes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alexey Pajitnov used text brackets [] on an Electronika 60 terminal because the machine lacked graphical displays."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why did the U.S. government investigate Phil Zimmermann after he released PGP encryption?",
+      "options": [
+        "Strong encryption software was legally regulated as a military munition",
+        "He stole government encryption algorithms from the NSA",
+        "He sold foreign governments secret military satellite code",
+        "He ran an unlicensed offshore web server"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under U.S. export laws at the time, encryption software stronger than 40 bits was legally classified as a military weapon."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why are standard internet specification documents called 'RFCs' (Requests for Comments)?",
+      "options": [
+        "The author picked a modest title to avoid sounding overly authoritative",
+        "They required public votes from internet users before approval",
+        "They originated as legal commentary for U.S. government panels",
+        "They were informal bug report comments on early newsgroups"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steve Crocker chose the name 'Request for Comments' for RFC 1 in 1969 to remain humble and encourage open collaboration among peers."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Which company created the tech industry's first official public bug bounty program in 1995?",
+      "options": [
+        "Netscape",
+        "Microsoft",
+        "IBM",
+        "Apple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Netscape executive Jarrett Ridlinghafer launched the first public bug bounty program in 1995 to find flaws in Netscape Navigator 2.0."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What made the Soviet Setun mainframe unique compared to standard binary computers?",
+      "options": [
+        "It operated on three-state ternary logic (-1, 0, 1)",
+        "It ran entirely without electrical power using hydraulics",
+        "It processed calculation logic in base 10 decimal floating point",
+        "It lacked a central processing unit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Setun used ternary logic with trits (-1, 0, 1) rather than binary bits, making arithmetic hardware surprisingly efficient."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What technical error breaks Pac-Man at Level 256?",
+      "options": [
+        "An 8-bit integer overflow corrupts the screen display buffer",
+        "A stack overflow crashes the hardware microprocessor",
+        "A floating-point divide-by-zero error halts game execution",
+        "An out-of-memory error resets the player score to zero"
+      ],
+      "correctIndex": 0,
+      "explanation": "An 8-bit integer overflow causes the screen-drawing subroutine to draw 256 fruits, corrupting the right side of the screen."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did Carl Friedrich Gauss invent the algorithm now known as the Fast Fourier Transform?",
+      "answer": 1805,
+      "min": 1600,
+      "max": 2000,
+      "unit": "",
+      "explanation": "Gauss devised the FFT in 1805 to calculate the orbit of the asteroid Pallas, predating modern signal processing by over 150 years."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "In what year was the tech industry's first official public bug bounty program launched by Netscape?",
+      "answer": 1995,
+      "min": 1970,
+      "max": 2020,
+      "unit": "",
+      "explanation": "Netscape launched the first public bug bounty in 1995, offering cash rewards for flaws found in Netscape Navigator 2.0."
+    },
+    {
+      "cardIndex": 9,
+      "prompt": "At what level number does Pac-Man experience an 8-bit integer overflow that corrupts the screen?",
+      "answer": 256,
+      "min": 50,
+      "max": 1000,
+      "unit": "",
+      "explanation": "Level 256 causes an 8-bit integer overflow because 8 bits can only store non-negative values up to 255 (0 to 255)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The HTTP 404 'Not Found' error was named after Room 404 at CERN where the world's first web server was located.",
+      "answer": false,
+      "explanation": "Room 404 at CERN never existed; HTTP error codes were simply assigned systematically within numbered protocol ranges."
+    },
+    {
+      "cardIndex": 5,
+      "claim": "The U.S. government once legally regulated computer encryption software as military munitions.",
+      "answer": true,
+      "explanation": "Under U.S. export control laws in the early 1990s, strong encryption like PGP was legally classified alongside weapons, triggering a criminal investigation against creator Phil Zimmermann."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "All digital electronic computers are fundamentally built on binary logic.",
+      "answer": false,
+      "explanation": "In 1958, Soviet researchers built Setun, a successful mainframe computer operating on three-state ternary logic (-1, 0, 1)."
+    }
+  ]
+}

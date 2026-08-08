@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.993Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tiny tardigrades can survive the harsh vacuum of open space",
+      "body": "Microscopic animals called tardigrades, or water bears, can survive conditions that would kill almost any other organism. In 2007, thousands of tardigrades were launched into low Earth orbit on the Foton-M3 mission. Exposed directly to the vacuum of space and intense ultraviolet radiation for ten days, many survived. When returned to Earth and rehydrated, they revived, laid eggs, and produced healthy offspring.",
+      "imageWikipediaTitle": "Tardigrade",
+      "sources": [
+        {
+          "title": "Tardigrade",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tardigrade"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tardigrade",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mantis shrimp's punch creates underwater flash-boiling bubbles",
+      "body": "The peacock mantis shrimp snaps its club-like dactyl appendages at speeds up to 50 miles per hour, accelerating faster than a bullet. The movement is so rapid that it vaporizes surrounding water, forming cavitation bubbles. When these bubbles collapse, they produce shockwaves, flashes of light, and brief temperatures reaching thousands of degrees Celsius, stunning prey even if the physical punch misses.",
+      "imageWikipediaTitle": "Mantis shrimp",
+      "sources": [
+        {
+          "title": "Mantis shrimp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mantis_shrimp"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wombats are the only known animals that produce cubic poop",
+      "body": "Bare-nosed wombats produce roughly 80 to 100 cube-shaped droppings every night. Scientists long wondered how a round intestinal tract could create flat edges. In 2018, researchers discovered that the final portion of the wombat intestine has alternating stiff and flexible regions. As rhythmic contractions squeeze out moisture, this varying wall elasticity shapes the digestate into distinct cubes that resist rolling off rocks and logs.",
+      "imageWikipediaTitle": "Wombat",
+      "sources": [
+        {
+          "title": "Wombat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wombat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wombat",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Antimatter falls down under gravity, not up",
+      "body": "For decades, physicists wondered whether antimatter might experience gravitational repulsion and float upward. In 2023, researchers at CERN's ALPHA experiment answered the question using trapped antihydrogen atoms. When the magnetic fields holding the antihydrogen were turned off, the anti-atoms fell downward toward Earth at the exact same rate as ordinary matter, confirming that gravity affects antimatter precisely as predicted by Einstein's general relativity.",
+      "imageWikipediaTitle": "Antihydrogen",
+      "sources": [
+        {
+          "title": "Gravitational interaction of antimatter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gravitational_interaction_of_antimatter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gravitational_interaction_of_antimatter",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tomato plant has thousands more genes than a human",
+      "body": "It seems logical that complex organisms would require the largest genetic blueprints. However, full genome sequencing revealed that humans have roughly 20,000 to 25,000 protein-coding genes, whereas a common tomato plant possesses about 31,700 genes. Gene count does not equal biological complexity. Plants frequently duplicate entire genomes to create flexible chemical defenses and adapt to stationary environments without being able to run away.",
+      "imageWikipediaTitle": "Tomato",
+      "sources": [
+        {
+          "title": "Genome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Genome"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Genome",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happened when tardigrades were exposed to the vacuum of space for 10 days in 2007?",
+      "options": [
+        "Many survived, revived upon rehydration, and produced healthy offspring",
+        "They instantly disintegrated due to lack of atmospheric pressure",
+        "They survived only because they were kept inside sealed glass containers",
+        "They grew significantly larger due to microgravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tardigrades entered a dormant cryptobiotic state, survived 10 days of open-space vacuum and radiation, and successfully reproduced after returning to Earth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What phenomenon occurs when a mantis shrimp strikes underwater?",
+      "options": [
+        "Cavitation bubbles collapse, producing localized heat and shockwaves",
+        "The water around the shrimp freezes into ice shards",
+        "Electric shocks radiate through the water to paralyze prey",
+        "Magnetic fields build up to repel surrounding predators"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ultra-fast punch vaporizes water to form cavitation bubbles, whose collapse creates shockwaves and extreme localized temperatures."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do wombat intestines produce cube-shaped feces?",
+      "options": [
+        "Alternating stiff and flexible regions in intestinal walls shape the digestate",
+        "Square bones in the pelvic canal compress waste right before excretion",
+        "Wombats compress their waste manually using their paws",
+        "A specialized diet of dense tree bark hardens waste into rectangular blocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Varying elasticity along the walls of the final intestinal section molds the drying digestate into cubes during rhythmic contractions."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did CERN's ALPHA experiment prove about antimatter in 2023?",
+      "options": [
+        "Antimatter falls downward under Earth's gravity just like ordinary matter",
+        "Antimatter experiences antigravity and accelerates upward away from Earth",
+        "Antimatter is completely immune to gravitational forces",
+        "Antimatter converts into pure dark matter when exposed to gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ALPHA experiment confirmed antihydrogen atoms fall downward under gravity at the exact same rate as normal matter."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the number of protein-coding genes in a tomato plant compare to a human's?",
+      "options": [
+        "Tomatoes have about 31,700 genes, thousands more than humans",
+        "Humans have ten times more genes than tomatoes",
+        "Tomatoes and humans have the exact same number of genes",
+        "Tomatoes have no protein-coding genes, relying entirely on RNA"
+      ],
+      "correctIndex": 0,
+      "explanation": "Humans have roughly 20,000 to 25,000 protein-coding genes, while tomatoes possess around 31,700."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many cube-shaped feces can a single wombat produce in a single night?",
+      "answer": 90,
+      "min": 10,
+      "max": 300,
+      "unit": "",
+      "explanation": "Wombats produce roughly 80 to 100 distinct cubic droppings each night to mark territory on elevated rocks and logs."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many protein-coding genes does a common tomato plant possess?",
+      "answer": 31700,
+      "min": 1000,
+      "max": 100000,
+      "unit": "genes",
+      "explanation": "Tomatoes have around 31,700 genes—significantly more than the human genome, which contains roughly 20,000 to 25,000."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "No animal can survive direct exposure to the vacuum of space without protective gear.",
+      "answer": false,
+      "explanation": "Tardigrades survived 10 days in low Earth orbit exposed directly to the vacuum and solar radiation of open space."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A mantis shrimp's punch generates brief localized temperatures as hot as the surface of the Sun inside collapsing bubbles.",
+      "answer": true,
+      "explanation": "The sudden collapse of cavitation bubbles caused by the punch creates localized temperatures reaching thousands of degrees Celsius."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Antimatter floats upward because it is repelled by Earth's gravity.",
+      "answer": false,
+      "explanation": "In 2023, CERN scientists directly measured antihydrogen and proved it falls downward under gravity just like normal matter."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Organisms with more complex bodies always have more genes than simpler organisms.",
+      "answer": false,
+      "explanation": "Genome size does not equal complexity; a tomato plant has about 31,700 genes compared to roughly 20,000 to 25,000 in humans."
+    }
+  ]
+}

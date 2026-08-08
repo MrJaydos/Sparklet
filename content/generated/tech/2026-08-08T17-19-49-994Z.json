@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.994Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first computer virus didn't steal data or lock screens",
+      "body": "In 1971, engineer Bob Thomas created Creeper, an experimental self-duplicating program on the ARPANET. It was not malicious; it simply printed the message \"I'M THE CREEPER: CATCH ME IF YOU CAN!\" on DEC PDP-10 screens before moving to the next system. Creeper inspired Reaper, created soon after to track down and delete Creeper, effectively becoming the world's first antivirus software.",
+      "imageWikipediaTitle": "PDP-10",
+      "sources": [
+        {
+          "title": "Creeper (program)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Creeper_(program)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Creeper_(program)",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Six women programmed the world's first general-purpose electronic computer",
+      "body": "In 1945, six women—Kay McNulty, Betty Jennings, Betty Snyder, Marlyn Wescoff, Fran Bilas, and Ruth Lichterman—were hired to program ENIAC. With no programming languages or manuals in existence, they mapped out programs using physical switches, patch cables, and logic diagrams. Despite their groundbreaking work, they were initially omitted from public press coverage and forgotten for decades.",
+      "imageWikipediaTitle": "ENIAC",
+      "sources": [
+        {
+          "title": "ENIAC women programmers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ENIAC_women_programmers"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/ENIAC_women_programmers",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mysterious magic number accelerated 3D gaming graphics in 1999",
+      "body": "Computing 3D lighting requires calculating the inverse square root of numbers millions of times per second. In 1999, the source code for Quake III Arena revealed a bizarre technique using the hexadecimal constant 0x5f3759df. By treating 32-bit floating-point numbers as integers, this code calculated accurate approximations up to four times faster than standard mathematical division, revolutionizing real-time 3D graphics rendering.",
+      "imageWikipediaTitle": "Fast inverse square root",
+      "sources": [
+        {
+          "title": "Fast inverse square root",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_inverse_square_root"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_inverse_square_root",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 64-bit software error destroyed a $370 million rocket in 37 seconds",
+      "body": "On June 4, 1996, the maiden flight of the Ariane 5 rocket ended in self-destruction 37 seconds after launch. The cause was an unhandled software exception: code reused from the older Ariane 4 tried to squeeze a 64-bit floating-point number into a 16-bit signed integer. The value exceeded 32,767, causing an arithmetic overflow that disoriented the guidance computers and triggered the rocket's breakup.",
+      "imageWikipediaTitle": "Ariane 5",
+      "sources": [
+        {
+          "title": "Ariane 5 flight 501",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ariane_5_flight_501"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ariane_5_flight_501",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The word 'robot' was coined in a 1920 play and means forced labor",
+      "body": "Before 1920, artificial humanoids in literature were called automatons or androids. Czech writer Karel Čapek introduced \"robot\" in his hit sci-fi play R.U.R. (Rossum's Universal Robots). The term was suggested by his brother, artist Josef Čapek, derived from the Old Church Slavonic word \"robota,\" which means forced labor or serfdom. The play featured mass-produced synthetic workers who eventually rebel against humanity.",
+      "imageWikipediaTitle": "Robot",
+      "sources": [
+        {
+          "title": "Robot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Robot",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was the primary behavior of the Creeper program created in 1971?",
+      "options": [
+        "Encrypted hard drives and demanded payment",
+        "Displayed a message and copied itself across ARPANET",
+        "Crashed high-voltage network hardware",
+        "Permanently deleted memory files on mainframes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Creeper was an experimental program that printed a message on screens and duplicated itself across ARPANET without causing intentional damage."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did the original ENIAC programmers configure calculations in 1945?",
+      "options": [
+        "By typing commands into modern text editors",
+        "By physically rewiring switches and patch cables",
+        "By feeding voice recordings into a microphone",
+        "By using high-level assembly language compilers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without software or programming languages, six women set up ENIAC programs by manually manipulating physical switches and patch cords."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was the fast inverse square root code notable in 1999 3D gaming?",
+      "options": [
+        "It estimated square roots fast enough to speed up 3D lighting",
+        "It encrypted multiplayer connections to prevent cheating",
+        "It compressed full-motion video files to fit on floppy disks",
+        "It allowed 2D sprites to simulate ray tracing automatically"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using floating-point bit manipulation with constant 0x5f3759df, it calculated accurate vector lighting approximations up to four times faster."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What software bug caused the destruction of Ariane 5 Flight 501?",
+      "options": [
+        "A computer virus injected during radio transmission",
+        "An integer overflow when converting 64-bit to 16-bit data",
+        "A missing end-of-file marker in launch software",
+        "An unexpected division by zero error in telemetry"
+      ],
+      "correctIndex": 1,
+      "explanation": "Converting a 64-bit float into a 16-bit integer exceeded the maximum limit, causing an overflow exception that crippled the navigation system."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the original linguistic root meaning of the word 'robot'?",
+      "options": [
+        "Metal servant",
+        "Thinking machine",
+        "Forced labor or serfdom",
+        "Artificial human"
+      ],
+      "correctIndex": 2,
+      "explanation": "Derived from the word 'robota', the term originally described compulsory servitude or forced labor."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many seconds into its flight did the Ariane 5 rocket crash due to a software glitch?",
+      "answer": 37,
+      "min": 5,
+      "max": 300,
+      "unit": "seconds",
+      "explanation": "Just 37 seconds after launch, an integer overflow error in guidance software led to the destruction of the $370 million rocket."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The first ENIAC computer programs were written by the male engineers who built the hardware.",
+      "answer": false,
+      "explanation": "Six women—Kay McNulty, Betty Jennings, Betty Snyder, Marlyn Wescoff, Fran Bilas, and Ruth Lichterman—were hired to program ENIAC and developed its operational procedures."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word 'robot' was originally created by a science fiction novelist.",
+      "answer": false,
+      "explanation": "The term was introduced by Czech playwright Karel Čapek in his 1920 play R.U.R., having been suggested by his artist brother Josef Čapek."
+    }
+  ]
+}

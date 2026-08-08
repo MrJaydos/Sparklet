@@ -1,0 +1,333 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.988Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea Otters Keep a Favorite Rock in Their Armpit Pouch",
+      "body": "Sea otters love eating hard-shelled sea urchins and clams, but they do not crack them open with their teeth. Instead, they store a favorite anvil stone in a loose pocket of skin under their forelegs. They carry this preferred rock on multiple diving trips, resting it on their chests while floating on their backs to hammer open their catch.",
+      "imageWikipediaTitle": "Sea otter",
+      "sources": [
+        {
+          "title": "Sea otter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_otter",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Female Dragonflies Fake Their Own Death to Avoid Males",
+      "body": "Courting can be exhausting for female moorland hawker dragonflies. When pursued by overeager males after mating, a female will suddenly freeze in mid-air, crash to the ground, and lie completely motionless. Believing she is dead, the aggressive pursuer flies away. Once the coast is clear, the female simply gets up and flies off to lay her eggs in peace.",
+      "imageWikipediaTitle": "Moorland hawker",
+      "sources": [
+        {
+          "title": "Moorland hawker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moorland_hawker"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moorland_hawker",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hagfish Slime Expands 10,000 Times in Volume in Milliseconds",
+      "body": "When a predator bites a hagfish, the creature releases a cloud of mucus proteins from its skin glands. Within a fraction of a second, this protein reacts with seawater to expand over 10,000 times in volume. The sudden surge of thick, sticky slime clogs the attacker's mouth and gills, forcing the predator to choke and release the hagfish unharmed.",
+      "imageWikipediaTitle": "Hagfish",
+      "sources": [
+        {
+          "title": "Hagfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hagfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hagfish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male Nursery Web Spiders Give Fake Presents to Mates",
+      "body": "Male nursery web spiders secure mating opportunities by presenting females with a gift of food wrapped neatly in silk. However, lazy or hungry males frequently cheat. They wrap up empty seed husks, plant twigs, or already-eaten insect exoskeletons instead. By the time the female uncovers the trick, the male has already mated and fled to safety.",
+      "imageWikipediaTitle": "Pisaura mirabilis",
+      "sources": [
+        {
+          "title": "Pisaura mirabilis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pisaura_mirabilis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pisaura_mirabilis",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Swiss Factory Malfunction Once Made It Rain Chocolate",
+      "body": "In August 2020, residents of Olten, Switzerland, noticed a mysterious brown dust falling from the sky. A minor ventilation malfunction at a local Lindt & Sprüngli factory had blown finely crushed cocoa nibs into the air. Strong summer winds carried the cocoa particles across town, dusting cars and streets in a thin, fragrant layer of real chocolate snow.",
+      "imageWikipediaTitle": "Lindt",
+      "sources": [
+        {
+          "title": "Lindt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lindt"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lindt",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sarcastic Fringehead Fish Fight by Mouth-Wrestling",
+      "body": "The sarcastic fringehead is a ferocious ocean fish known for extreme territoriality. When two rivals compete for a shelter like an empty clam shell, they engage in dramatic open-mouth duels. Unfurling massive, brightly colored membranes around their jaws, they press their mouths directly together like a strange kiss to determine which fish has the larger, more intimidating gape.",
+      "imageWikipediaTitle": "Sarcastic fringehead",
+      "sources": [
+        {
+          "title": "Sarcastic fringehead",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sarcastic_fringehead"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sarcastic_fringehead",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pistol Shrimp Snap Bubbles That Reach 4,000 Kelvin",
+      "body": "The tiny pistol shrimp hunts by snapping its specialized claw at extreme speeds. This movement shoots out a jet of water that generates a collapsing cavitation bubble. When the bubble implodes, temperatures inside briefly exceed 4,000 kelvin—nearly as hot as the surface of the Sun—and produce a loud acoustic shockwave that instantly stuns prey.",
+      "imageWikipediaTitle": "Alpheidae",
+      "sources": [
+        {
+          "title": "Alpheidae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alpheidae"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Alpheidae",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sloths Lose Up to 30 Percent of Their Weight in One Poop",
+      "body": "Sloths have an incredibly sluggish metabolism, taking up to a month to digest a single meal. Because of this, they only defecate about once a week. When they finally descend to the forest floor, they eliminate so much built-up waste at once that they can lose up to 30 percent of their total body weight in a single bowel movement.",
+      "imageWikipediaTitle": "Sloth",
+      "sources": [
+        {
+          "title": "Sloth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sloth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sloth",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Binturong Smells Exactly Like Hot Buttered Popcorn",
+      "body": "The binturong, a mammal native to Southeast Asian forests, carries an unmistakable movie-theater scent. Its urine contains 2-acetyl-1-pyrroline, the exact chemical compound formed during the Maillard reaction when corn kernels pop. As the binturong drags its tail and scent glands across tree branches to mark territory, it leaves behind a rich aroma of fresh popcorn.",
+      "imageWikipediaTitle": "Binturong",
+      "sources": [
+        {
+          "title": "Binturong",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Binturong"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Binturong",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Goldfish Do Not Have a Three-Second Memory Span",
+      "body": "Contrary to popular belief, goldfish do not forget everything every three seconds. Scientific experiments show that goldfish retain memories for months. They can be trained to respond to light cues, navigate complex underwater mazes, recognize individual human faces, and remember feeding schedules. Their long-term memory capabilities match those of many birds and mammals.",
+      "imageWikipediaTitle": "Goldfish",
+      "sources": [
+        {
+          "title": "Goldfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goldfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goldfish",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where do sea otters store their favorite anvil rocks when diving?",
+      "options": [
+        "In a skin pouch under their forelegs",
+        "Inside their mouth pouches",
+        "Tucked into their tail fur",
+        "In seaweed nests on the surface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea otters have a loose pocket of skin under their forelegs where they store their favorite cracking stone."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do female moorland hawker dragonflies crash to the ground and lie motionless?",
+      "options": [
+        "To regulate their body temperature",
+        "To avoid unwanted courtship from males",
+        "To trick underwater fish into surfacing",
+        "To molt their exoskeleton safely"
+      ],
+      "correctIndex": 1,
+      "explanation": "Female moorland hawker dragonflies fake their own death to discourage persistent male suitors after mating."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does hagfish slime defend against attacking predators?",
+      "options": [
+        "It burns the predator's skin with acid",
+        "It expands rapidly to clog the attacker's gills",
+        "It numbs the predator's jaw muscles",
+        "It creates a dark cloud that hides the hagfish"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hagfish slime expands over 10,000 times in seawater, clogging the attacker's mouth and gills with gel."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What do some male nursery web spiders do to avoid catching real food for females?",
+      "options": [
+        "They offer shiny pebbles instead",
+        "They wrap up empty seed husks or twigs in silk",
+        "They steal prey directly from web nets",
+        "They sing ultrasonic vibrations instead of giving gifts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lazy male nursery web spiders wrap up worthless twigs or empty seed husks in silk to trick females into mating."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What caused a town in Switzerland to be dusted in real cocoa powder in 2020?",
+      "options": [
+        "A controlled agricultural aerosol test",
+        "A local bakery explosion",
+        "A ventilation malfunction at a Lindt factory",
+        "A rare weather phenomenon carrying dust from West Africa"
+      ],
+      "correctIndex": 2,
+      "explanation": "A ventilation failure at a Lindt chocolate factory in Olten blew fine cocoa nib dust across the town."
+    },
+    {
+      "cardIndex": 5,
+      "question": "How do sarcastic fringeheads resolve territorial disputes over shelters?",
+      "options": [
+        "They perform complex side-to-side dances",
+        "They press their massive, fully opened mouths together",
+        "They change skin colors to match the substrate",
+        "They slap each other using their pectoral fins"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sarcastic fringeheads engage in mouth-wrestling matches, pressing open jaws together to compare mouth size."
+    },
+    {
+      "cardIndex": 6,
+      "question": "What creates the extreme heat generated by a pistol shrimp's claw snap?",
+      "options": [
+        "Friction from specialized scales",
+        "A collapsing cavitation bubble",
+        "An electrical discharge between claws",
+        "A chemical reaction from internal glands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The high-speed jet of water forms a cavitation bubble whose rapid collapse generates extreme heat and sound."
+    },
+    {
+      "cardIndex": 7,
+      "question": "How often do sloths typically descend to the forest floor to defecate?",
+      "options": [
+        "Multiple times per day",
+        "Once every day at dusk",
+        "About once a week",
+        "Only once per season"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sloths have very slow digestion and usually only descend to the ground to poop about once a week."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Which chemical compound gives binturong urine its buttered popcorn scent?",
+      "options": [
+        "2-acetyl-1-pyrroline",
+        "Sodium bicarbonate",
+        "Isoamyl acetate",
+        "Capsaicin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Binturong urine contains 2-acetyl-1-pyrroline, the exact chemical created when corn kernels pop."
+    },
+    {
+      "cardIndex": 9,
+      "question": "What have scientific studies revealed about goldfish memory?",
+      "options": [
+        "It resets every three seconds",
+        "It lasts for months and supports complex learning",
+        "It is only active while feeding",
+        "It only functions in salt water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Experiments show goldfish retain memories for months, learn mazes, and recognize human faces."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By how many times its initial volume can hagfish slime expand in seawater within a fraction of a second?",
+      "answer": 10000,
+      "min": 100,
+      "max": 50000,
+      "unit": "x",
+      "explanation": "Hagfish slime proteins react with seawater instantly, expanding over 10,000 times to suffocate predators."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "What temperature (in Kelvin) can the collapsing bubble produced by a pistol shrimp reach?",
+      "answer": 4000,
+      "min": 500,
+      "max": 20000,
+      "unit": "K",
+      "explanation": "When the pistol shrimp's cavitation bubble implodes, heat inside briefly exceeds 4,000 K—almost as hot as the Sun's surface."
+    },
+    {
+      "cardIndex": 7,
+      "prompt": "What percentage of its total body weight can a sloth lose in a single bowel movement?",
+      "answer": 30,
+      "min": 5,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Because sloths only defecate once a week, they can shed up to 30% of their total body mass in one sitting."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 9,
+      "claim": "Goldfish have a memory span of only three seconds.",
+      "answer": false,
+      "explanation": "Goldfish retain memories for months, remember feeding routines, and can navigate complex mazes."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Male nursery web spiders only present genuine edible insects as courtship gifts.",
+      "answer": false,
+      "explanation": "Lazy males frequently wrap worthless twigs or empty seed husks in silk to trick females into mating."
+    },
+    {
+      "cardIndex": 0,
+      "claim": "Sea otters must find a new rock every time they dive because they cannot carry tools while swimming.",
+      "answer": false,
+      "explanation": "Sea otters store their preferred cracking rock in a skin pouch under their forelegs across multiple dives."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Female moorland hawker dragonflies will crash to the ground and play dead to avoid persistent males.",
+      "answer": true,
+      "explanation": "Female moorland hawker dragonflies intentionally freeze and drop out of the air to escape male harassment."
+    }
+  ]
+}

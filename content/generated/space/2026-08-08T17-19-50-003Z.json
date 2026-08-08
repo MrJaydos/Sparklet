@@ -1,0 +1,191 @@
+{
+  "generatedAt": "2026-08-08T17:19:50.003Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jupiter’s moon Ganymede generates its very own magnetic field",
+      "body": "While dozens of moons dot our solar system, Ganymede stands completely alone in one remarkable way: it generates its own intrinsic magnetic field. Deep beneath its icy crust, a molten iron-rich core churns, creating a magnetosphere complete with its own auroras. Every other moon in the solar system only experiences magnetic fields induced by its parent planet or solar wind.",
+      "imageWikipediaTitle": "Ganymede (moon)",
+      "sources": [
+        {
+          "title": "Ganymede (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+        },
+        {
+          "title": "Ganymede Overview",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/jupiter/ganymede/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ganymede_(moon)",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This dead star spins 716 times every single second",
+      "body": "Deep inside a dense star cluster lies PSR J1748-2446AD, a neutron star spinning faster than a household blender. At 716 rotations per second, its surface moves at roughly 24 percent the speed of light. Packed into a sphere barely the size of a city, the star’s extreme density and magnetic forces prevent it from tearing itself apart under these unimaginable centrifugal forces.",
+      "imageWikipediaTitle": "Pulsar",
+      "sources": [
+        {
+          "title": "PSR J1748-2446AD",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PSR_J1748-2446AD"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/PSR_J1748-2446AD",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mars will eventually gain a ring system when its inner moon disintegrates",
+      "body": "Mars’s largest moon, Phobos, is caught in a gravitational death spiral. Orbiting just 6,000 kilometers above the Martian surface, it creeps two meters closer every century. In about 30 to 50 million years, Mars’s gravitational tidal forces will pull Phobos apart, shattering the rocky moon into a shimmering ring of debris that will encircle the red planet.",
+      "imageWikipediaTitle": "Phobos (moon)",
+      "sources": [
+        {
+          "title": "Phobos (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phobos_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Phobos_(moon)",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A giant mountain on an asteroid stands nearly three times higher than Mount Everest",
+      "body": "At the center of a massive crater on the asteroid Vesta sits Rheasilvia, a mountain rising 22 kilometers high. That makes it almost three times higher than Mount Everest and nearly equal to Olympus Mons on Mars. Despite Vesta measuring only 500 kilometers across, low gravity and a violent ancient collision allowed this colossal central peak to form without collapsing.",
+      "imageWikipediaTitle": "Rheasilvia",
+      "sources": [
+        {
+          "title": "Rheasilvia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rheasilvia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rheasilvia",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Trillions of invisible ghost particles from the Sun pass through you every second",
+      "body": "Deep within the Sun's core, nuclear fusion produces vast quantities of subatomic particles called neutrinos. Because neutrinos barely interact with normal matter, roughly 65 billion of them zip through every single square centimeter of your skin facing the Sun every second. Day and night, they stream straight through the entire Earth as if our solid planet were completely transparent.",
+      "imageWikipediaTitle": "Solar neutrino",
+      "sources": [
+        {
+          "title": "Solar neutrino",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_neutrino"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Solar_neutrino",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What unique feature distinguishes Ganymede from all other moons in the solar system?",
+      "options": [
+        "It is larger than the planet Mercury",
+        "It generates its own intrinsic magnetic field",
+        "It has active surface volcanoes",
+        "It possesses a liquid methane ocean"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ganymede is the only moon in the solar system known to generate its own intrinsic magnetic field."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How fast does the pulsar PSR J1748-2446AD rotate on its axis?",
+      "options": [
+        "716 times per second",
+        "12 times per minute",
+        "716 times per hour",
+        "10,000 times per second"
+      ],
+      "correctIndex": 0,
+      "explanation": "PSR J1748-2446AD rotates 716 times per second, carrying its equator at nearly 24% the speed of light."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is predicted to happen to Mars's moon Phobos in 30 to 50 million years?",
+      "options": [
+        "It will escape Mars's gravity into deep space",
+        "It will collide with another asteroid",
+        "Tidal forces will rip it apart into a ring system",
+        "It will freeze completely solid and stall in orbit"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gravitational tidal forces will break Phobos apart into a dust and debris ring surrounding Mars."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How tall is the Rheasilvia peak on the asteroid Vesta?",
+      "options": [
+        "2.2 kilometers",
+        "22 kilometers",
+        "88 kilometers",
+        "220 kilometers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rheasilvia rises 22 kilometers high, which is nearly three times the height of Mount Everest."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do trillions of solar neutrinos pass through Earth and our bodies completely harmlessly every second?",
+      "options": [
+        "They travel faster than the speed of light",
+        "They are made of antimatter",
+        "They interact extremely weakly with normal matter",
+        "They turn into photons when entering solids"
+      ],
+      "correctIndex": 2,
+      "explanation": "Neutrinos interact extremely weakly with matter, passing through Earth effortlessly."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many complete rotations per second does the fastest-spinning known pulsar make?",
+      "answer": 716,
+      "min": 10,
+      "max": 3000,
+      "unit": "rotations/sec",
+      "explanation": "PSR J1748-2446AD spins 716 times per second, carrying its equator at nearly a quarter of the speed of light."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How tall, in kilometers, is the central mountain peak inside Vesta's Rheasilvia crater?",
+      "answer": 22,
+      "min": 1,
+      "max": 100,
+      "unit": "km",
+      "explanation": "Rheasilvia's peak rises 22 kilometers high, making it nearly three times taller than Mount Everest."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many billions of solar neutrinos pass through every square centimeter of Earth facing the Sun each second?",
+      "answer": 65,
+      "min": 1,
+      "max": 500,
+      "unit": "billion",
+      "explanation": "Around 65 billion solar neutrinos pass through every square centimeter of Earth facing the Sun every single second."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "No moon in our solar system can generate its own internal magnetic field.",
+      "answer": false,
+      "explanation": "Ganymede has a liquid metal core that produces its own intrinsic magnetic field."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Saturn and the giant planets are the only worlds that will ever feature rings in our solar system.",
+      "answer": false,
+      "explanation": "In 30 to 50 million years, Mars will gain a ring system as its moon Phobos is torn apart by tidal forces."
+    }
+  ]
+}

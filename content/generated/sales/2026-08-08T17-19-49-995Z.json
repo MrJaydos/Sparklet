@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.995Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pitching one specific person raises more money than statistical facts",
+      "body": "When pitching for donations or social impact, presenting a single named individual generates far higher contributions than showing statistics about thousands in need. In a landmark study, participants gave $2.38 to help a single seven-year-old girl, compared to just $1.14 when shown statistical data about millions facing hunger. Personal stories trigger immediate empathy, whereas broad numbers trigger abstract thinking that dampens emotional response.",
+      "imageWikipediaTitle": "Identifiable victim effect",
+      "sources": [
+        {
+          "title": "Identifiable victim effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Identifiable_victim_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Identifiable_victim_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pitching key proposal options late in a meeting increases acceptance",
+      "body": "Evaluating multiple choices depletes mental resources, causing a state known as decision fatigue. As prospects grow mentally weary during a negotiation or sales presentation, they stop carefully weighing pros and cons. Instead, they default to recommended options or accept add-on items with less resistance. Car buyers, for example, consistently accept more expensive optional upgrades when those decisions are presented at the end of a long configuration process.",
+      "imageWikipediaTitle": "Decision fatigue",
+      "sources": [
+        {
+          "title": "Decision fatigue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decision_fatigue"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Decision_fatigue",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why scare tactics fail in sales unless paired with an easy solution",
+      "body": "Pointing out severe risks to a prospect—such as security flaws or financial loss—only motivates action if paired with a clear, doable solution. Protection motivation theory shows that when a pitch highlights high threat without an easy fix, prospects cope by going into denial or dismissing the risk entirely. Highlighting danger builds urgency only when the buyer feels capable of taking the recommended step to prevent it.",
+      "imageWikipediaTitle": "Protection motivation theory",
+      "sources": [
+        {
+          "title": "Protection motivation theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Protection_motivation_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Protection_motivation_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why raising your price can actually increase demand for luxury items",
+      "body": "Classical economics states that higher prices reduce demand, but prestige goods often defy this rule. Named after economist Thorstein Veblen, Veblen goods become more desirable specifically as their price rises. A high price tag serves as a visible signal of exclusivity, social status, and superior quality. For luxury buyers, the high cost is not a barrier—it is the exact feature that creates value and drives sales.",
+      "imageWikipediaTitle": "Veblen good",
+      "sources": [
+        {
+          "title": "Veblen good",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Veblen_good"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Veblen_good",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a lighthearted joke at the end of a pitch improves deal outcomes",
+      "body": "Injecting appropriate humor into a high-stakes negotiation reduces tension and builds social rapport. In classic bargaining experiments, sellers who concluded a tough negotiation with a humorous comment—such as offering to throw in a pet frog—received significantly larger concessions from buyers than those who kept a serious tone. Humor signals warmth and flexibility, encouraging the other party to compromise without feeling pressured or defensive.",
+      "imageWikipediaTitle": "Humor effect",
+      "sources": [
+        {
+          "title": "Humor effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Humor_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Humor_effect",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does pitching a single named individual generate higher contributions than presenting broad statistics?",
+      "options": [
+        "Broad statistics confuse buyers with complicated math",
+        "Personal stories trigger empathy while statistics trigger abstract dampening",
+        "Single individuals are easier to track for tax deduction purposes",
+        "Statistics make prospects feel that their competitors are winning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Individual stories evoke direct emotional empathy, whereas large numbers encourage analytical thinking that reduces emotional giving."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does decision fatigue alter a buyer's behavior at the end of a long sales process?",
+      "options": [
+        "They scrutinize every single detail much more aggressively",
+        "They default to recommended choices and accept add-ons more easily",
+        "They demand steep discounts on all baseline features",
+        "They immediately walk away and postpone decision-making for weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Decision fatigue drains cognitive energy, leading buyers to take the path of least resistance by accepting default recommendations."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to protection motivation theory, what happens when a sales pitch presents a high threat without an easy fix?",
+      "options": [
+        "Buyers immediately sign contract extensions out of panic",
+        "Buyers cope by entering denial and ignoring the threat",
+        "Buyers demand to speak to technical support engineers",
+        "Buyers increase their budget to hire external consultants"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without a manageable action step, high threat triggers defensive denial rather than productive action."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What defines a Veblen good in pricing psychology?",
+      "options": [
+        "Demand decreases sharply whenever the price is raised slightly",
+        "Demand increases as price increases due to perceived status and exclusivity",
+        "The product can only be purchased using cash or bartering",
+        "Sales remain completely unaffected by any change in market conditions"
+      ],
+      "correctIndex": 1,
+      "explanation": "For Veblen goods, a higher price acts as a status symbol, making the product more appealing to consumers seeking prestige."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What effect does introducing a light joke have near the end of a price negotiation?",
+      "options": [
+        "It causes the buyer to doubt the salesperson's technical competence",
+        "It reduces tension and leads to larger concessions from the buyer",
+        "It triggers immediate rejection of the entire proposal",
+        "It forces the negotiation to restart from the beginning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humor lowers anxiety and signals goodwill, making the opposing party more willing to offer concessions."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In a charity pitch study, participants donated $1.14 when shown statistics about millions in need. How much did they donate when pitched the story of a single child?",
+      "answer": 2.38,
+      "min": 0.5,
+      "max": 5,
+      "unit": "$",
+      "explanation": "Participants donated $2.38—more than double—when pitched a single child's story instead of broad statistical data."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Buyers make more careful, deliberate decisions on options presented at the end of a long meeting.",
+      "answer": false,
+      "explanation": "Decision fatigue exhausts mental energy, causing buyers to default to recommended choices with far less scrutiny."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Highlighting severe risks to a prospect only drives action if paired with a simple, doable solution.",
+      "answer": true,
+      "explanation": "When threat is high but efficacy is low, buyers defensively deny the risk instead of taking action."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Raising the price of a product always reduces the number of people willing to buy it.",
+      "answer": false,
+      "explanation": "For Veblen goods, higher prices increase perceived social status and exclusivity, which actually drives higher demand."
+    }
+  ]
+}

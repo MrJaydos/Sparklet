@@ -1,0 +1,186 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.996Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A wave of molasses rushed through Boston at 35 miles per hour",
+      "body": "In January 1919, a massive storage tank ruptured in Boston, releasing over two million gallons of fermented molasses. The sticky wave rushed through the streets at 35 miles per hour, crushing buildings, flipping streetcars, and killing 21 people. The disaster led to major reforms in industrial engineering accountability and building codes across the United States.",
+      "imageWikipediaTitle": "Great Molasses Flood",
+      "sources": [
+        {
+          "title": "Great Molasses Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Australia's military fought a war against 20,000 birds and lost",
+      "body": "In late 1932, Australia's military deployed soldiers armed with machine guns to cull a horde of 20,000 crop-destroying emus in Western Australia. The birds scattered quickly, making target practice nearly impossible and jamming heavy weapons. After firing thousands of rounds with minimal effect on the bird population, the military withdrew, leaving farmers to build better fences instead.",
+      "imageWikipediaTitle": "Emu War",
+      "sources": [
+        {
+          "title": "Emu War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emu_War"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Emu_War",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tidal wave of beer flooded London streets in 1814",
+      "body": "In October 1814, a massive wooden vat holding over 135,000 imperial gallons of fermenting beer ruptured at the Horse Shoe Brewery in London. The force destroyed neighboring vats, sending a wave of more than 320,000 gallons into the surrounding streets. The deluge destroyed homes and killed eight people in one of history's strangest industrial accidents.",
+      "imageWikipediaTitle": "London Beer Flood",
+      "sources": [
+        {
+          "title": "London Beer Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/London_Beer_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/London_Beer_Flood",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Volcanic ash blocked the sun in 536 AD, starting a decade of darkness",
+      "body": "In 536 AD, a colossal volcanic eruption plunged Europe, the Middle East, and parts of Asia into mysterious darkness for 18 months. Daytime temperatures dropped sharply, causing crop failures, summer snowfall, and worldwide famine. Historians now consider 536 the beginning of one of the worst periods to be alive in human history.",
+      "imageWikipediaTitle": "Extreme weather events of 535–536",
+      "sources": [
+        {
+          "title": "Extreme weather events of 535–536",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Extreme_weather_events_of_535%E2%80%93536"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Extreme_weather_events_of_535%E2%80%93536",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An intercepted German telegram pulled the United States into World War I",
+      "body": "In January 1917, British intelligence intercepted a secret telegram from German Foreign Minister Arthur Zimmermann to Mexico. Germany offered to help Mexico reclaim Texas, New Mexico, and Arizona if it declared war on the United States. Publication of the decoded telegram outraged the American public, destroying anti-war sentiment and prompting Congress to declare war.",
+      "imageWikipediaTitle": "Zimmermann Telegram",
+      "sources": [
+        {
+          "title": "Zimmermann Telegram",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zimmermann_Telegram"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zimmermann_Telegram",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How fast did the wave of molasses move during the 1919 Boston Molasses Flood?",
+      "options": [
+        "5 mph",
+        "15 mph",
+        "35 mph",
+        "70 mph"
+      ],
+      "correctIndex": 2,
+      "explanation": "The storage tank failure unleashed a surge of fermented molasses that traveled through Boston streets at 35 mph."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What military weapon did Australian troops deploy during the 1932 Emu War?",
+      "options": [
+        "Lewis machine guns",
+        "Field artillery mortars",
+        "Flamethrowers",
+        "Long-range sniper rifles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Australian troops brought Lewis machine guns, but the emus moved too fast and scattered, rendering the weapons ineffective."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What triggered the 1814 London Beer Flood?",
+      "options": [
+        "A transport barge capsized in the Thames",
+        "A huge brewery vat ruptured, causing adjacent tanks to burst",
+        "Saboteurs detonated dynamite in a warehouse",
+        "An earthquake cracked underground storage cellars"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wooden vat holding over 135,000 gallons burst, starting a domino effect that spilled over 320,000 gallons of beer."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What caused the worldwide period of darkness and severe cooling in 536 AD?",
+      "options": [
+        "A massive volcanic eruption",
+        "An asteroid collision in the Atlantic Ocean",
+        "A rare sequence of solar eclipses",
+        "A tilt in Earth's orbital alignment"
+      ],
+      "correctIndex": 0,
+      "explanation": "A massive volcanic eruption threw enough ash into the atmosphere to obscure sunlight across large parts of the globe for 18 months."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did Germany promise Mexico in the Zimmermann Telegram if Mexico joined World War I?",
+      "options": [
+        "Naval fleets and submarine technology",
+        "Control over modern-day Canada",
+        "Support to reclaim lost territory in Texas, New Mexico, and Arizona",
+        "Ownership of British colonies in the Caribbean"
+      ],
+      "correctIndex": 2,
+      "explanation": "Germany promised financial aid and military support for Mexico to recover lost lands in Texas, New Mexico, and Arizona if it fought the U.S."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How fast in miles per hour did the deadly wave of molasses rush through Boston in 1919?",
+      "answer": 35,
+      "min": 5,
+      "max": 80,
+      "unit": "mph",
+      "explanation": "The rush of over two million gallons of molasses reached speeds of 35 mph, destroying buildings and killing 21 people."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many emus were Australian soldiers sent to cull during the 1932 Emu War?",
+      "answer": 20000,
+      "min": 1000,
+      "max": 100000,
+      "unit": "emus",
+      "explanation": "An estimated 20,000 emus had migrated into Western Australian farming districts, causing extensive crop destruction."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many thousands of gallons of beer flooded London streets during the 1814 disaster?",
+      "answer": 320,
+      "min": 50,
+      "max": 1000,
+      "unit": "thousand gal",
+      "explanation": "A chain-reaction tank failure released more than 320,000 gallons of beer into the surrounding neighborhood."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The Australian military successfully eradicated the crop-destroying emu population in 1932.",
+      "answer": false,
+      "explanation": "The emus scattered quickly and avoided heavy fire, leading the military to abandon the operation after weeks of failure."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Zimmermann Telegram was a British fake created to pull the United States into World War I.",
+      "answer": false,
+      "explanation": "German Foreign Minister Arthur Zimmermann explicitly acknowledged in March 1917 that the telegram was genuine."
+    }
+  ]
+}

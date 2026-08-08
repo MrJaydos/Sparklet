@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.997Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Georgia’s Everyday Greeting Wishes You Victory",
+      "body": "When you greet someone in Georgia, you do not just say hello—you wish them triumph. The standard Georgian greeting is გამარჯობა (gamarjoba), pronounced \"gah-mahr-JOH-bah\". Derived from the Georgian word for victory (*gamarjveba*), it reflects a history marked by fighting off invading empires. In response, locals reply with გაგიმარჯოს (gagimarjos), wishing victory back to you.",
+      "imageWikipediaTitle": "Tbilisi",
+      "sources": [
+        {
+          "title": "Georgian language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georgian_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Georgian_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asking \"Are You at Peace?\" in Korean",
+      "body": "To say hello in Korean, you ask about someone's peace. The most common polite greeting is 안녕하세요 (annyeonghaseyo), pronounced \"ahn-nyung-hah-say-yo\". Built from the word *annyeong*, meaning peace or well-being, the phrase literally asks \"Are you in peace?\" or \"Is your peace secure?\" It offers a gentle, respectful warm-up before any conversation begins across South Korea.",
+      "imageWikipediaTitle": "Seoul",
+      "sources": [
+        {
+          "title": "Korean honorifics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Korean_honorifics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Korean_honorifics",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Printing Press Noise Gave Us the Word \"Cliché\"",
+      "body": "Long before \"cliché\" described an overused phrase, it was an audio sound in 19th-century printing shops. French printers created metal plates for frequently used text blocks to avoid setting type letter by letter. As molten metal struck the matrix mold, it made a distinctive clicking sound. Printers called this cast plate a *cliché*, mimicking the noise—a term that eventually migrated from printing equipment to repetitive ideas.",
+      "imageWikipediaTitle": "Printing press",
+      "sources": [
+        {
+          "title": "Cliche",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cliche"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cliche",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"Quarantine\" Literally Means Forty Days",
+      "body": "The word \"quarantine\" originated during the 14th-century Black Death as a maritime isolation protocol. To protect coastal cities from plague, Venice made incoming ships anchor offshore before crew and cargo could land. The mandated waiting period lasted forty days, called *quarantena* in Venetian Italian, derived from *quaranta*, the number forty. Though isolation periods vary today, the word still preserves its medieval numerical root.",
+      "imageWikipediaTitle": "Venice",
+      "sources": [
+        {
+          "title": "Quarantine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quarantine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Quarantine",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The More Than 1,700 Words Coined by William Shakespeare",
+      "body": "English speakers owe thousands of everyday terms to William Shakespeare. Language historians estimate that the playwright coined or recorded over 1,700 words by combining existing roots, turning nouns into verbs, and adopting foreign phrases. Words like *lonely*, *bandit*, *dwindle*, *elbow* (as a verb), and *uncomfortable* first appeared in his plays and sonnets, shaping the modern English lexicon forever.",
+      "imageWikipediaTitle": "William Shakespeare",
+      "sources": [
+        {
+          "title": "Words coined by Shakespeare",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Words_coined_by_Shakespeare"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Words_coined_by_Shakespeare",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the standard Georgian greeting \"gamarjoba\" literally mean?",
+      "options": [
+        "Good day",
+        "Victory",
+        "Peace be with you",
+        "Welcome friend"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Gamarjoba\" comes from the Georgian word for victory, reflecting a history of defending against invaders."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the Korean greeting \"annyeonghaseyo\" literally ask?",
+      "options": [
+        "Have you eaten?",
+        "Are you at peace?",
+        "Where are you going?",
+        "Is it a good day?"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Annyeonghaseyo\" comes from \"annyeong\" (peace or well-being) and literally asks if you are in peace."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the original meaning of \"cliché\" in 19th-century France?",
+      "options": [
+        "A bad theater play",
+        "The sound of a printing plate being cast",
+        "A traditional hat",
+        "A repeating clock mechanism"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Cliché\" was printer jargon mimicking the clicking sound made when casting metal printing plates."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How long was the Venetian isolation period that gave us the word \"quarantine\"?",
+      "options": [
+        "14 days",
+        "30 days",
+        "40 days",
+        "60 days"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"Quarantine\" comes from the Venetian Italian \"quarantena\", which derives from \"quaranta\", meaning forty."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Roughly how many words is William Shakespeare credited with coining or first recording in English?",
+      "options": [
+        "Around 100",
+        "Around 500",
+        "Over 1,700",
+        "Over 10,000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Linguists estimate Shakespeare introduced or recorded more than 1,700 words in written English."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many days were ships required to anchor offshore in medieval Venice, giving us the word \"quarantine\"?",
+      "answer": 40,
+      "min": 5,
+      "max": 100,
+      "unit": "days",
+      "explanation": "The Venetian word \"quarantena\" comes from \"quaranta,\" meaning 40 days."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many words is William Shakespeare credited with coining or first recording in written English?",
+      "answer": 1700,
+      "min": 200,
+      "max": 5000,
+      "unit": "words",
+      "explanation": "Shakespeare introduced over 1,700 words to written English, including everyday terms like \"lonely\" and \"bandit.\""
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The word \"cliché\" originally referred to a stereotyped stock character in French theater.",
+      "answer": false,
+      "explanation": "\"Cliché\" originated in printing shops as an onomatopoeic word for the clicking sound of molten metal plates."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The word \"quarantine\" historically originates from a number meaning forty.",
+      "answer": true,
+      "explanation": "It derives from the Venetian Italian \"quarantena\", based on \"quaranta\", meaning forty days."
+    }
+  ]
+}

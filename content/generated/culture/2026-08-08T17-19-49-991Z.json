@@ -1,0 +1,345 @@
+{
+  "generatedAt": "2026-08-08T17:19:49.991Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Luminous Yellow Pigment Once Made from Cow Urine",
+      "body": "In 19th-century art, painters prized Indian yellow for its luminous warmth. However, the secret behind this vivid pigment was unusual: it was produced in Bengal from the urine of cows fed exclusively on mango leaves and water. The strict diet left the animals malnourished, leading to the practice being banned in the early 20th century.",
+      "imageWikipediaTitle": "Indian yellow",
+      "sources": [
+        {
+          "title": "Indian yellow",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indian_yellow"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Indian_yellow",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Fermented Sauce That Powered the Roman Empire",
+      "body": "Long before ketchup or soy sauce, garum was the ultimate imperial condiment. Ancient Romans produced this pungent, amber-colored liquid by fermenting fish intestines in saltwater for months under the sun. Used in both savory and sweet dishes, garum was manufactured on an industrial scale across the Mediterranean, serving as both a staple food and a lucrative export.",
+      "imageWikipediaTitle": "Garum",
+      "sources": [
+        {
+          "title": "Garum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Garum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Garum",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Giant Swedish Straw Goat Targeted by Arsonists Every Year",
+      "body": "Every December since 1966, the Swedish town of Gävle constructs a 42-foot-tall straw goat to mark the holiday season. Despite strict security measures, CCTV cameras, and flame retardants, the goat has become famous for a bizarre tradition: vandals have successfully burned down or destroyed the structure in more than half of its annual appearances.",
+      "imageWikipediaTitle": "Gävle goat",
+      "sources": [
+        {
+          "title": "Gävle goat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/G%C3%A4vle_goat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/G%C3%A4vle_goat",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Oldest Known Melody Inscribed on Clay Tablets",
+      "body": "Etched into cuneiform clay tablets nearly 3,400 years ago, the Hurrian Hymn to Nikkal is humanity's oldest surviving substantially complete musical composition. Discovered in the ancient Syrian city of Ugarit, the tablets contain not only lyrics praising the goddess of orchards, but also specific tuning and performance instructions for a nine-stringed lyre.",
+      "imageWikipediaTitle": "Hurrian hymns",
+      "sources": [
+        {
+          "title": "Hurrian hymns",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hurrian_hymns"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hurrian_hymns",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Polish Cathedral Hand-Carved Entirely from Salt",
+      "body": "Deep inside Poland's Wieliczka Salt Mine sits the Chapel of St. Kinga, a grand underground cathedral carved over decades by devout miners. Resting hundreds of feet below the surface, every architectural detail—including intricate wall reliefs, detailed religious statues, and delicate chandeliers hanging from the ceiling—was sculpted directly out of solid rock salt.",
+      "imageWikipediaTitle": "Wieliczka Salt Mine",
+      "sources": [
+        {
+          "title": "Wieliczka Salt Mine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Korean Patchwork Art Born from Reused Fabric Scraps",
+      "body": "In traditional Korea, waste was minimized through jogakbo, the art of piecing together small remnants of leftover silk, cotton, and hemp into colorful wrapping cloths called bojagi. Meticulously hand-stitched by domestic women, these geometric fabrics were used to store valuables or wrap gifts, embodying the folk belief that stitching scraps together gathered good fortune.",
+      "imageWikipediaTitle": "Bojagi",
+      "sources": [
+        {
+          "title": "Bojagi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bojagi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bojagi",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Country Where the Calendar Is Seven Years Behind",
+      "body": "If you travel to Ethiopia, you might feel like you stepped back in time. The traditional Ethiopian calendar features 12 months of 30 days plus a 13th month of five or six days. Because of a different historical calculation regarding the birth of Jesus, Ethiopia's calendar runs roughly seven to eight years behind the standard Gregorian calendar used worldwide.",
+      "imageWikipediaTitle": "Ethiopian calendar",
+      "sources": [
+        {
+          "title": "Ethiopian calendar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ethiopian_calendar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ethiopian_calendar",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Iceland's Christmas Tradition of Gifting Books and Reading All Night",
+      "body": "On Christmas Eve, households across Iceland partake in Jólabókaflóð, or the 'Christmas Book Flood.' Family members exchange books and spend the night reading in bed while sipping hot chocolate or alcohol. The cultural tradition originated during World War II when strict import restrictions made luxury goods scarce, but paper remained widely accessible, turning books into the ultimate festive gift.",
+      "imageWikipediaTitle": "Jólabókaflóð",
+      "sources": [
+        {
+          "title": "Jólabókaflóð",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/J%C3%B3lab%C3%B3kafl%C3%B3d"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/J%C3%B3lab%C3%B3kafl%C3%B3d",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Japanese Art of Polishing Plain Mud into Shiny Orbs",
+      "body": "Hikaru dorodango is the Japanese art of taking humble mud and turning it into a gleaming, reflective sphere. Crafters begin by molding a ball of wet earth, then layer fine dirt particles over the surface as it slowly dries. By patiently buffing the sphere with a soft cloth for hours, the coarse dirt compacts into a glossy shell that resembles polished stone.",
+      "imageWikipediaTitle": "Dorodango",
+      "sources": [
+        {
+          "title": "Dorodango",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dorodango"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dorodango",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ancient Persian Desert Towers That Kept Ice Frozen in Summer",
+      "body": "Centuries before electric power, Persians stored ice throughout scorching desert summers using massive mud-brick structures called yakhchāls. Shaped like tall cones, these buildings featured thick, heat-insulated walls and deep underground chambers. Coupled with windcatchers that trapped cool breezes, evaporative cooling chilled water overnight into ice, allowing royal courts and commoners alike to enjoy frozen treats in July.",
+      "imageWikipediaTitle": "Yakhchāl",
+      "sources": [
+        {
+          "title": "Yakhchāl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yakhch%C4%81l"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Yakhch%C4%81l",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What primary diet was given to cows in Bengal to produce the original Indian yellow pigment?",
+      "options": [
+        "Turmeric root",
+        "Mango leaves",
+        "Marigold flowers",
+        "Saffron stems"
+      ],
+      "correctIndex": 1,
+      "explanation": "Indian yellow was produced in India from cows fed a restricted diet of mango leaves."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How was the ancient Roman condiment garum prepared?",
+      "options": [
+        "Boiling red wine with spiced herbs",
+        "Fermenting fish intestines in saltwater",
+        "Pressing salted olives into oil",
+        "Crushing whole garlic cloves with vinegar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Garum was made by fermenting fish viscera in brine under the Mediterranean sun."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What material forms the main body of the famous annual Gävle Goat?",
+      "options": [
+        "Pine timber",
+        "Woven straw",
+        "Recycled paper",
+        "Dried birch bark"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Gävle Goat is a giant Swedish Yule goat constructed primarily out of straw."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where was the world's oldest surviving written musical hymn discovered?",
+      "options": [
+        "The ruins of Ugarit in modern Syria",
+        "The Great Library of Alexandria in Egypt",
+        "The cave of Chauvet in France",
+        "The royal palace of Nineveh in Iraq"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Hurrian Hymns were excavated during the 1950s at the ancient Ugarit site in modern Syria."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What material was used to craft the chandeliers in the underground Chapel of St. Kinga?",
+      "options": [
+        "Bohemian crystal",
+        "Dissolved and re-crystallized salt",
+        "Polished brass",
+        "Blown glass"
+      ],
+      "correctIndex": 1,
+      "explanation": "The chandeliers inside the Chapel of St. Kinga are crafted from rock salt dissolved and cleared of impurities."
+    },
+    {
+      "cardIndex": 5,
+      "question": "What primary material were traditional Korean jogakbo textiles created from?",
+      "options": [
+        "Single intact bolts of silk",
+        "Discarded leftover fabric scraps",
+        "Interwoven strips of bamboo",
+        "Hand-dyed wool felt"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jogakbo are Korean patchwork wrapping cloths made from tiny scraps of leftover fabric."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why does the traditional Ethiopian calendar lag behind the Gregorian calendar by 7 to 8 years?",
+      "options": [
+        "They calculate the year of Christ's birth differently",
+        "They operate on a lunar cycle without leap years",
+        "They skipped eight years during colonial occupation",
+        "Their leap years occur every ten years instead of four"
+      ],
+      "correctIndex": 0,
+      "explanation": "The difference stems from alternate calculations of the Annunciation of Jesus Christ."
+    },
+    {
+      "cardIndex": 7,
+      "question": "What historical factor sparked Iceland's Jólabókaflóð Christmas book tradition during WWII?",
+      "options": [
+        "Severe paper rationing favored books",
+        "Import restrictions made paper goods widely available relative to other items",
+        "The government gifted free literature to citizens",
+        "Foreign publishers dumped surplus books on the island"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strict wartime limits on imported goods made paper one of the few unrationed commodities available."
+    },
+    {
+      "cardIndex": 8,
+      "question": "What gives a finished Japanese dorodango its glossy, reflective sheen?",
+      "options": [
+        "A clear lacquer coating",
+        "Repeated hand-buffing of compacted dirt particles",
+        "High-temperature kiln firing",
+        "A glaze made from melted tree resin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dorodango achieve a high shine purely through patient hand-polishing of fine clay and dirt layers."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How did an ancient Persian yakhchāl keep ice solid during summer in the desert?",
+      "options": [
+        "By storing imported ice packed in mountain snow",
+        "Through evaporative cooling, thick insulation, and subterranean design",
+        "By utilizing chemical reactions between salt and ammonia",
+        "Through subterranean water pumps powered by windmills"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yakhchāls used subterranean storage, heat-resistant walls, and evaporative cooling to store ice in summer."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In how many of its first 50 years (1966–2015) was the Gävle Goat destroyed or burned down by arsonists?",
+      "answer": 35,
+      "min": 5,
+      "max": 48,
+      "unit": "times",
+      "explanation": "Between 1966 and 2015, the Gävle Goat was destroyed 35 times by arsonists and vandals."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Roughly how many years ago was humanity's oldest complete musical composition written down on clay tablets?",
+      "answer": 3400,
+      "min": 1000,
+      "max": 8000,
+      "unit": "years",
+      "explanation": "The Hurrian Hymn to Nikkal was written in cuneiform around 1400 BCE, roughly 3,400 years ago."
+    },
+    {
+      "cardIndex": 6,
+      "prompt": "How many months make up a complete year in the traditional Ethiopian calendar?",
+      "answer": 13,
+      "min": 8,
+      "max": 20,
+      "unit": "months",
+      "explanation": "The Ethiopian calendar consists of 12 months of 30 days each, plus a 13th month containing 5 or 6 days."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Indian yellow pigment was originally derived from crushed saffron threads.",
+      "answer": false,
+      "explanation": "Indian yellow was produced from the urine of cows fed exclusively on mango leaves, not from saffron."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Ancient Roman cuisine relied heavily on garlic rather than fish sauce for daily seasoning.",
+      "answer": false,
+      "explanation": "Garum, a fermented fish sauce, was the primary umami condiment throughout the Roman Empire."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Wieliczka Salt Mine chapel's statues and chandeliers are made of carved limestone.",
+      "answer": false,
+      "explanation": "Everything inside the Chapel of St. Kinga, including the statues and chandeliers, is carved from rock salt."
+    },
+    {
+      "cardIndex": 7,
+      "claim": "Jólabókaflóð is an ancient Viking tradition dating back over a thousand years.",
+      "answer": false,
+      "explanation": "Jólabókaflóð began during World War II due to wartime import restrictions on goods other than paper."
+    },
+    {
+      "cardIndex": 8,
+      "claim": "Dorodango spheres obtain their glass-like shine because they are fired in high-heat ceramic kilns.",
+      "answer": false,
+      "explanation": "Dorodango are unfired spheres made purely of soil and water, rendered shiny entirely through hand polishing."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Ancient Persians were able to manufacture and preserve ice in hot deserts long before modern refrigeration.",
+      "answer": true,
+      "explanation": "Persian engineers used yakhchāls to produce and preserve ice in desert regions using evaporative cooling and smart design."
+    }
+  ]
+}
