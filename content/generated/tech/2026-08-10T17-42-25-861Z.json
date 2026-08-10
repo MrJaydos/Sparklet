@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.861Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The computer trackball was invented 17 years before the computer mouse",
+      "body": "In 1946, British engineer Ralph Benjamin invented the trackball for a radar plotting system called DATAR. Using a rubber-coated ball resting against internal rollers, it allowed operators to position a cursor on a radar screen. Douglas Engelbart would not invent the computer mouse until 1963, making the trackball its direct historical predecessor.",
+      "imageWikipediaTitle": "Trackball",
+      "sources": [
+        {
+          "title": "Trackball",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trackball"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Trackball",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first web server had a hand-written label begging people not to turn it off",
+      "body": "When Tim Berners-Lee invented the World Wide Web at CERN in 1989, he hosted the first website on his personal NeXT workstation. Because shutting down the machine would take the web offline for everyone, Berners-Lee stuck a red label onto the casing reading: \"This machine is a server. DO NOT POWER IT DOWN!!\"",
+      "imageWikipediaTitle": "NeXT Computer",
+      "sources": [
+        {
+          "title": "NeXT Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/NeXT_Computer"
+        },
+        {
+          "title": "World Wide Web",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/NeXT_Computer",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first digital camera weighed 8 pounds and recorded photos onto an audio cassette",
+      "body": "In 1975, Kodak engineer Steven Sasson assembled the world's first digital camera using a movie camera lens, a CCD sensor, and a portable tape deck. The camera captured black-and-white images at just 0.01 megapixels. It took 23 seconds to write each image onto a standard audio cassette tape.",
+      "imageWikipediaTitle": "Steven Sasson",
+      "sources": [
+        {
+          "title": "Steven Sasson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Steven_Sasson"
+        },
+        {
+          "title": "Digital camera",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_camera"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Steven_Sasson",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Seven physical metal keys help protect the security of the global internet",
+      "body": "To secure the Domain Name System that translates web addresses into numerical IP addresses, internet organization ICANN created the Key Signing Key holder program. Seven primary keyholders located across the globe hold physical keys to cryptographic smart cards. Together during secret quarterly ceremonies, keyholders verify and refresh the top-level security signature of the internet.",
+      "imageWikipediaTitle": "Domain Name System Security Extensions",
+      "sources": [
+        {
+          "title": "Domain Name System Security Extensions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Modern smartphones use electrical conductivity, not physical force, to sense your touch",
+      "body": "Early touchscreens were resistive, relying on flexible layers pressed together by physical force. Modern smartphones use capacitive touchscreens coated with a transparent conductor. Touching the glass alters the screen's electrostatic field by absorbing a minute electrical charge from your finger. Because skin conducts electricity while fabric acts as an insulator, standard gloves fail to register.",
+      "imageWikipediaTitle": "Capacitive sensing",
+      "sources": [
+        {
+          "title": "Capacitive sensing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Capacitive_sensing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Capacitive_sensing",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What primary device preceded the computer mouse as an interactive cursor controller in 1946?",
+      "options": [
+        "The trackball",
+        "The light pen",
+        "The joystick",
+        "The touchpad"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ralph Benjamin invented the trackball in 1946 for military radar display positioning, long before the mouse was introduced in 1963."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What physical warning was placed on the world's first web server at CERN?",
+      "options": [
+        "\"DO NOT POWER IT DOWN!!\"",
+        "\"HIGH VOLTAGE - DO NOT TOUCH\"",
+        "\"RESTRICTED ACCESS - CERN PROPERTY\"",
+        "\"EXPERIMENTAL SYSTEM - BACKUP DAILY\""
+      ],
+      "correctIndex": 0,
+      "explanation": "Tim Berners-Lee stuck a red label warning people not to turn off the NeXT workstation because doing so would take the whole web offline."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What storage medium did Steven Sasson's 1975 prototype digital camera use to store photos?",
+      "options": [
+        "An audio cassette tape",
+        "A 5.25-inch floppy disk",
+        "A magnetic drum",
+        "A punch card stack"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1975 prototype digital camera recorded black-and-white digital images directly onto standard audio cassette tapes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What are the physical keys held by ICANN guardians around the world used for?",
+      "options": [
+        "Unlocking smart cards used to sign the DNS root key",
+        "Opening the doors to primary internet datacenters",
+        "Manually overriding undersea fiber optic routers",
+        "Authenticating satellite ground station transmissions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The physical keys unlock hardware security modules containing cryptographic key-signing materials for DNS security extensions."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do standard fabric gloves fail to operate a modern smartphone display?",
+      "options": [
+        "Fabric insulates electric charge instead of conducting it",
+        "Fabric is too soft to register mechanical force",
+        "Gloves block the infrared sensors behind the display glass",
+        "Gloves disrupt the ultrasonic sound waves used by touch sensors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capacitive touchscreens require an electrically conductive object like human skin; insulating fabrics prevent charge transfer."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many seconds did the world's first digital camera take to write a single image onto its tape in 1975?",
+      "answer": 23,
+      "min": 1,
+      "max": 120,
+      "unit": "seconds",
+      "explanation": "Kodak's 1975 prototype required 23 seconds to record a single 0.01-megapixel black-and-white frame onto an audio cassette."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many primary physical keyholders exist globally to unlock the root security system of the DNS internet directory?",
+      "answer": 7,
+      "min": 2,
+      "max": 50,
+      "unit": "keyholders",
+      "explanation": "ICANN entrusts 7 primary physical keyholders worldwide with physical keys to secure root DNS infrastructure."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The computer mouse was invented before the trackball.",
+      "answer": false,
+      "explanation": "The trackball was invented in 1946 for military radar display tracking, 17 years before Douglas Engelbart created the mouse."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The entire original World Wide Web could be taken offline by turning off a single desktop computer.",
+      "answer": true,
+      "explanation": "Because Tim Berners-Lee ran the original web server off his individual NeXT workstation at CERN, powering it down took down the whole web."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Modern smartphone touchscreens detect your input by sensing physical pressure against the glass.",
+      "answer": false,
+      "explanation": "Modern capacitive touchscreens measure tiny shifts in electrical charge transferred into conductive human skin, not mechanical pressure."
+    }
+  ]
+}

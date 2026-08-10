@@ -1,0 +1,167 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.860Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Adam Smith mentioned the \"invisible hand\" only three times in his writings",
+      "body": "Modern economics often treats the \"invisible hand\" as philosopher Adam Smith's central concept, but he used the phrase only three times across all his published works. In The Wealth of Nations (1776), Smith mentioned it just once to describe how domestic trade unintentionally benefits society. Smith was actually deeply concerned with moral sympathy and warned against unbridled monopolies.",
+      "imageWikipediaTitle": "Invisible hand",
+      "sources": [
+        {
+          "title": "Invisible hand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Invisible_hand"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Invisible_hand",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Human conversation relies on four unspoken rules of cooperation",
+      "body": "In 1975, philosopher Paul Grice showed that successful communication relies on four unspoken rules called the Maxims of Conversation. We expect speakers to offer the right amount of info, tell the truth, remain relevant, and speak clearly. When someone intentionally breaks a rule—like responding with extreme sarcasm—they create an \"implicature,\" letting listeners deduce hidden meaning without stating it directly.",
+      "imageWikipediaTitle": "Paul Grice",
+      "sources": [
+        {
+          "title": "Cooperative principle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cooperative_principle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cooperative_principle",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Controlling a new technology is easiest when we understand it least",
+      "body": "Formulated by philosopher David Collingridge in 1980, the Collingridge Dilemma describes a frustrating paradox in technological governance. When a technology is brand new, predicting its long-term social harms is nearly impossible, yet guiding its development is easy. By the time its real impacts become glaringly obvious, the technology is so deeply embedded in society that changing or regulating it is immensely difficult.",
+      "sources": [
+        {
+          "title": "Collingridge dilemma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Collingridge_dilemma"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Collingridge_dilemma",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Karl Popper argued scientific theories can never be proven true",
+      "body": "Philosopher Karl Popper argued that no number of successful observations can ever definitively prove a scientific theory correct. Instead, true scientific theories must be \"falsifiable\"—they must make specific predictions that could potentially be proven false by observation. If an idea cannot be put to a test that risks refuting it, Popper considered it pseudoscience, no matter how many supporting examples its proponents gather.",
+      "imageWikipediaTitle": "Karl Popper",
+      "sources": [
+        {
+          "title": "Falsifiability",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Falsifiability"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Falsifiability",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Panpsychism suggests mind is a fundamental building block of matter",
+      "body": "To solve the puzzle of how conscious experience emerges from mindless matter, panpsychism proposes that consciousness was never created by biology at all. Instead, it argues that subjective awareness is an intrinsic, fundamental property of all physical matter, existing even in subatomic particles. Modern philosophers advocate this view because it avoids explaining how non-conscious physical stuff magically gives rise to conscious experience.",
+      "imageWikipediaTitle": "Panpsychism",
+      "sources": [
+        {
+          "title": "Panpsychism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Panpsychism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Panpsychism",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How many times did philosopher Adam Smith write the phrase \"invisible hand\" in his published books?",
+      "options": [
+        "Three times",
+        "Over 100 times",
+        "Once per chapter",
+        "Zero times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adam Smith used the exact phrase \"invisible hand\" only three times in all his published writings."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to Paul Grice, what happens when a speaker deliberately violates a conversational maxim?",
+      "options": [
+        "It generates a hidden meaning called an implicature",
+        "The conversation completely breaks down",
+        "They commit a formal logical fallacy",
+        "The listener is unable to process the sentence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Violating a maxim on purpose allows listeners to infer a subtle, unstated meaning beyond literal words."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What core problem is described by the Collingridge Dilemma?",
+      "options": [
+        "Technology is easy to change early on, but its harms are hard to predict until it's too late to easily alter",
+        "New technology always causes more unemployment than expected",
+        "Scientists refuse to regulate technology until governments force them to",
+        "Older technologies are always morally superior to modern inventions"
+      ],
+      "correctIndex": 0,
+      "explanation": "The dilemma states that early in a technology's life, prediction is hard; when impacts are clear, control is hard."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to philosopher Karl Popper, what quality distinguishes scientific theories from pseudoscience?",
+      "options": [
+        "Falsifiability",
+        "Absolute certainty",
+        "Mathematical complexity",
+        "Unanimous consensus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Popper argued that scientific theories must make risky predictions that could conceivably be proven wrong by evidence."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the core claim of panpsychism?",
+      "options": [
+        "Consciousness is a fundamental property present in all physical matter",
+        "Consciousness only exists in biological human brains",
+        "Physical matter does not exist outside human imagination",
+        "Plants possess human-like language and rational thought"
+      ],
+      "correctIndex": 0,
+      "explanation": "Panpsychism holds that mental experience is an intrinsic aspect of all physical matter, down to subatomic particles."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many times did philosopher Adam Smith write the exact phrase \"invisible hand\" across all his published books?",
+      "answer": 3,
+      "min": 0,
+      "max": 50,
+      "unit": "times",
+      "explanation": "Despite its fame in modern economics, Smith used the exact phrase only three times across his entire published body of work."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Adam Smith built his entire economic theory around the concept of the \"invisible hand.\"",
+      "answer": false,
+      "explanation": "Smith used the phrase only three times in his books, focusing far more on moral sympathy and preventing monopolies."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Accumulating thousands of supporting observations can definitively prove a scientific theory true.",
+      "answer": false,
+      "explanation": "Karl Popper showed that no amount of positive evidence proves a theory true, because a single contradictory finding can falsify it."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.867Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pluto has blue skies, despite floating on the fringe of the solar system",
+      "body": "When NASA's New Horizons spacecraft zoomed past Pluto in 2015, it captured an astonishing sight: a high-altitude haze surrounding the dwarf planet that scatters sunlight into a vibrant blue tint. Much like on Earth, tiny atmospheric particles scatter blue light more efficiently than other colors. However, Pluto’s haze particles are actually complex organic molecules called tholins, which are soot-like red particles that scatter blue light when suspended in air.",
+      "imageWikipediaTitle": "Atmosphere of Pluto",
+      "sources": [
+        {
+          "title": "Atmosphere of Pluto",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Pluto"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Atmosphere_of_Pluto",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An astronaut left a framed family photo sitting on the surface of the Moon",
+      "body": "In 1972, Apollo 16 astronaut Charles Duke stepped onto the Moon and placed a small, clear plastic-wrapped photo of his family on the lunar soil. On the back, he signed a message for anyone who might find it. Without wind, rain, or liquid water, the photo remains sitting on the lunar dust where he dropped it, though solar ultraviolet radiation has likely bleached the image completely white over time.",
+      "imageWikipediaTitle": "Charles Duke",
+      "sources": [
+        {
+          "title": "Charles Duke",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_Duke"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Charles_Duke",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pluto has not completed a single orbit around the Sun since its discovery",
+      "body": "Astronomer Clyde Tombaugh discovered Pluto in 1930, but the distant dwarf planet takes nearly 248 Earth years to complete a single trip around the Sun. Because of this sluggish trek, Pluto will not reach the same spot in its orbit where it was discovered until March 2178. Since humans first spotted Pluto, it has traveled through only about a third of its entire cosmic orbit.",
+      "imageWikipediaTitle": "Pluto",
+      "sources": [
+        {
+          "title": "Pluto",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pluto"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pluto",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Neptune was discovered using pencil and paper before anyone ever saw it",
+      "body": "In the early 19th century, astronomers noticed that Uranus was mysteriously veering off its predicted path. French mathematician Urbain Le Verrier spent months calculating the gravitational pull of an unknown planet that could cause the disturbance. In September 1846, he sent his mathematical predictions to the Berlin Observatory. Astronomers pointed their telescope at the exact coordinates Le Verrier provided and spotted Neptune within an hour, less than one degree off.",
+      "imageWikipediaTitle": "Discovery of Neptune",
+      "sources": [
+        {
+          "title": "Discovery of Neptune",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Discovery_of_Neptune"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Discovery_of_Neptune",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Astronomers found a dead star with a core made of solid diamond",
+      "body": "Fifty light-years away sits BPM 37093, a dying white dwarf star nicknamed Lucy after the Beatles song 'Lucy in the Sky with Diamonds.' As the star burned through its nuclear fuel, it cooled and compressed its vast core of carbon and oxygen. Over billions of years, the carbon crystallized into a massive cosmic diamond estimated at 10 billion trillion trillion carats, dwarfing any gemstone ever found on Earth.",
+      "imageWikipediaTitle": "BPM 37093",
+      "sources": [
+        {
+          "title": "BPM 37093",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/BPM_37093"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/BPM_37093",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What gives Pluto's atmospheric haze its blue appearance when scattering sunlight?",
+      "options": [
+        "Suspended water droplets",
+        "Complex organic particles called tholins",
+        "Frozen methane crystals",
+        "Volcanic ash from ice volcanoes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pluto's haze is made of organic particles called tholins that scatter blue light, giving its atmosphere a blue tint."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What personal item did astronaut Charles Duke leave behind on the lunar surface during Apollo 16?",
+      "options": [
+        "A golden wedding ring",
+        "A framed family photo",
+        "A pocket watch",
+        "A set of brass keys"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charles Duke left a clear plastic-wrapped photo of his family on the surface of the Moon in 1972."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How long does it take Pluto to complete one full orbit around the Sun?",
+      "options": [
+        "84 Earth years",
+        "165 Earth years",
+        "248 Earth years",
+        "410 Earth years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pluto takes roughly 248 Earth years to orbit the Sun once."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How was the planet Neptune first located by astronomers in 1846?",
+      "options": [
+        "Through a lucky scanning survey of the night sky",
+        "Using mathematical calculations predicting its position",
+        "By following a comet that passed near it",
+        "Through historical ancient star charts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urbain Le Verrier mathematically predicted Neptune's location based on wobbles in Uranus's orbit before it was seen."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the core of the white dwarf star BPM 37093 ('Lucy') made of?",
+      "options": [
+        "Liquid iron",
+        "Solid gold",
+        "Crystallized carbon",
+        "Dense ice"
+      ],
+      "correctIndex": 2,
+      "explanation": "BPM 37093 cooled over billions of years, causing its massive carbon core to crystallize into diamond."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many Earth years does it take Pluto to complete a single orbit around the Sun?",
+      "answer": 248,
+      "min": 50,
+      "max": 1000,
+      "unit": "years",
+      "explanation": "Pluto takes nearly 248 Earth years to orbit the Sun, meaning it has completed less than half an orbit since its 1930 discovery."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Pluto's atmosphere scatters blue light, giving it a blue sky similar in color to Earth's.",
+      "answer": true,
+      "explanation": "Despite being at the cold edge of the solar system, Pluto actually has a blue sky caused by sunlight scattering off atmospheric haze particles."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Neptune was discovered entirely by accident during a routine telescope scan.",
+      "answer": false,
+      "explanation": "Neptune was predicted through mathematical calculations of orbital disturbances in Uranus before astronomers ever looked for it with a telescope."
+    }
+  ]
+}

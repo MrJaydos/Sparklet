@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.860Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mantis shrimp's punch is so fast it turns surrounding water into plasma",
+      "body": "When a peacock mantis shrimp strikes its prey, its club-like appendages accelerate faster than a bullet fired from a gun. The movement is so blindingly fast that it vaporizes the surrounding water, creating tiny cavitation bubbles. As these bubbles collapse, they emit a flash of light and generate temperatures nearly as hot as the surface of the Sun, delivering a devastating second blow.",
+      "imageWikipediaTitle": "Mantis shrimp",
+      "sources": [
+        {
+          "title": "Mantis shrimp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mantis_shrimp"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Thunderstorms routinely launch streams of antimatter into space",
+      "body": "High above thunderstorm clouds, powerful electrical discharges can create terrestrial gamma-ray flashes. When these intense bursts of radiation collide with atomic nuclei in the atmosphere, energy converts directly into matter and antimatter pairs. Space telescopes have detected positrons—the antimatter counterparts of electrons—streaming outward into space during severe terrestrial thunderstorms, proving Earth naturally produces antimatter high in the atmosphere.",
+      "imageWikipediaTitle": "Terrestrial gamma-ray flash",
+      "sources": [
+        {
+          "title": "Terrestrial gamma-ray flash",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Terrestrial_gamma-ray_flash"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Terrestrial_gamma-ray_flash",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gallium is a shiny metal that melts in the warmth of your hand",
+      "body": "Gallium looks like a solid block of shiny metal, but its melting point is just 29.76 degrees Celsius (85.5 degrees Fahrenheit). Held in a human hand, heat transfers directly into the element, melting it into a silvery pool of liquid. Unlike liquid mercury, pure gallium is non-toxic to handle, and like water, it surprisingly expands when transitioning back into a solid.",
+      "imageWikipediaTitle": "Gallium",
+      "sources": [
+        {
+          "title": "Gallium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gallium"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gallium",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain consumes twenty percent of your body's total energy",
+      "body": "Although the human brain accounts for only about two percent of an adult's total body weight, it consumes roughly twenty percent of the body's energy and oxygen. Most of this power fuels microscopic pumps that maintain electrical gradients across billions of neurons. Even while you sleep or rest quietly, your brain remains continuously active, burning metabolic fuel at an amazingly constant rate.",
+      "imageWikipediaTitle": "Brain",
+      "sources": [
+        {
+          "title": "Brain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brain"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brain",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The speed of light was first measured using the moons of Jupiter",
+      "body": "In 1676, Danish astronomer Ole Rømer noticed that eclipses of Jupiter's moon Io occurred later than calculated when Earth was farther from Jupiter. He deduced that light does not travel instantaneously; it takes measurable time to cross planetary distances. By tracking these orbital delays across Earth's path around the Sun, Rømer provided humanity's first concrete measurement of the finite speed of light.",
+      "imageWikipediaTitle": "Rømer's determination of the speed of light",
+      "sources": [
+        {
+          "title": "Rømer's determination of the speed of light",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/R%C3%B8mer%27s_determination_of_the_speed_of_light",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What causes the high-temperature second shockwave during a mantis shrimp strike?",
+      "options": [
+        "The collapse of vaporized cavitation bubbles",
+        "An electric discharge from its claws",
+        "Chemical combustion of specialized enzymes",
+        "Friction between its hardened appendages"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mantis shrimp strikes so fast that it vaporizes water, creating cavitation bubbles that release heat and light when they collapse."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do thunderstorms produce positrons in Earth's upper atmosphere?",
+      "options": [
+        "Gamma-ray flashes collide with atomic nuclei",
+        "Lightning directly splits hydrogen atoms",
+        "Solar wind strikes cloud tops",
+        "Friction between ice crystals creates positrons"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-energy gamma rays from thunderstorms collide with atomic nuclei in the atmosphere, producing matter-antimatter pairs."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does solid gallium melt when held in a human hand?",
+      "options": [
+        "Its melting point is below normal body temperature",
+        "Human skin releases chemicals that dissolve it",
+        "Pressure from squeezing lowers its melting point",
+        "It reacts with humidity in the air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gallium melts at 29.76 °C (85.5 °F), which is below normal human body temperature of about 37 °C."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Roughly what proportion of an adult human's energy budget is consumed by the brain?",
+      "options": [
+        "20 percent",
+        "5 percent",
+        "50 percent",
+        "2 percent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The brain accounts for about 2% of body mass but burns roughly 20% of its total metabolic energy."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What astronomical observations led Ole Rømer to measure the speed of light in 1676?",
+      "options": [
+        "Timing variations in Io's eclipses behind Jupiter",
+        "The brightness changes of distant pulsating stars",
+        "The shift in shadows during solar eclipses",
+        "The curvature of comet tails near the Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rømer noticed Io's eclipses occurred later when Earth was farther from Jupiter, revealing that light takes time to travel."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "At what temperature in degrees Celsius does the metallic element gallium melt into a liquid?",
+      "answer": 30,
+      "min": 0,
+      "max": 100,
+      "unit": "°C",
+      "explanation": "Gallium melts at 29.76 °C (85.5 °F), low enough to melt right in your palm."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of a human's total metabolic energy is consumed by the brain?",
+      "answer": 20,
+      "min": 0,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Despite making up only about 2% of adult body mass, the brain consumes roughly 20% of your total energy."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Antimatter can only be created artificially in high-energy particle accelerators like CERN.",
+      "answer": false,
+      "explanation": "Natural phenomena like severe thunderstorms produce high-energy gamma rays that generate real positron antimatter high in Earth's atmosphere."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Mercury is the only metallic element that can exist as a liquid near room temperature.",
+      "answer": false,
+      "explanation": "Gallium, caesium, rubidium, and francium can also melt into liquids at or near normal room temperature."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "17th-century astronomers proved that the speed of light is finite rather than instantaneous.",
+      "answer": true,
+      "explanation": "In 1676, Ole Rømer demonstrated that light travels at a finite speed by measuring orbital delays in Jupiter's moon Io."
+    }
+  ]
+}

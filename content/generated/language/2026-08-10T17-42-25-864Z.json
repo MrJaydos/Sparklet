@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.864Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Greeting someone with peace in Persian",
+      "body": "In Persian, the standard everyday greeting is سلام (salām), pronounced \"sah-LAHM\". Directly derived from the Arabic word for peace, it is used at any time of day across Iran, Afghanistan, and Tajikistan. When entering a room or meeting a friend, saying سلام (salām) serves as a warm, respectful hello. For a slightly more formal variation, speakers add \"alaykum\" to wish \"peace be upon you.\"",
+      "imageWikipediaTitle": "Persian language",
+      "sources": [
+        {
+          "title": "As-salamu alaykum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/As-salamu_alaykum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/As-salamu_alaykum",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your companions are literally the people you share bread with",
+      "body": "The word \"companion\" has a surprisingly culinary heritage. It traces back to the Vulgar Latin companio, composed of com- (meaning \"with\") and panis (meaning \"bread\"). Literally translated, a companion is someone with whom you share bread. Over centuries, the term evolved through Old French into Middle English, moving from the literal act of breaking bread together at a table to describing anyone who shares a close bond, journey, or partnership.",
+      "imageWikipediaTitle": "Bread",
+      "sources": [
+        {
+          "title": "Companion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Companion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Companion",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saying hello with respect in Bengali",
+      "body": "To greet someone respectfully in Bengali, spoken by over 230 million people in Bangladesh and India, you say নমস্কার (nomoshkār), pronounced \"no-mosh-KAAR\". Rooted in Sanskrit, the word literally translates to \"salutation to you\" and is usually accompanied by placing your palms together in front of your chest. In daily informal settings among Muslim speakers, standard greetings like سلام (salām) are also widely used alongside local expressions.",
+      "imageWikipediaTitle": "Bengali language",
+      "sources": [
+        {
+          "title": "Bengali language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bengali_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bengali_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 19th-century printing sound became our word for overused ideas",
+      "body": "In 19th-century French printing presses, stereotyping involved pouring molten metal over a page layout to create a single rigid plate for quick printing. The mechanical noise made as this plate hit the type block was expressed as \"cliché\". French printers began using cliché to refer to these pre-formed cast phrases. Because these phrases were repeated endlessly without modification, the word eventually crossed into English to describe any tired, overused expression.",
+      "imageWikipediaTitle": "Cliche",
+      "sources": [
+        {
+          "title": "Cliche",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cliche"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cliche",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's largest alphabet consists of 74 letters",
+      "body": "Spoken in Cambodia, Khmer is written in the world's largest alphabet, containing 74 letters. To greet someone politely in Khmer script, you say ជំរាបសួរ (choum reap sour), pronounced \"choom reep SOOR\". Derived from ancient Brahmic scripts around the 7th century, the Khmer writing system uses stacked consonants and complex vowels without spaces between words, making it one of the most intricate scripts still in active daily use.",
+      "imageWikipediaTitle": "Khmer script",
+      "sources": [
+        {
+          "title": "Khmer script",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khmer_script"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Khmer_script",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the standard Persian greeting \"salām\" literally mean?",
+      "options": [
+        "Peace",
+        "Health",
+        "Victory",
+        "Wisdom"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Salām\" comes directly from the Arabic word for \"peace.\""
+    },
+    {
+      "cardIndex": 1,
+      "question": "What do the Latin roots of the word \"companion\" literally translate to?",
+      "options": [
+        "One with whom you share bread",
+        "One who walks beside you",
+        "A fellow soldier",
+        "A partner in business"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Companion\" comes from Latin com- (with) and panis (bread), meaning someone you share bread with."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the origin of the formal Bengali greeting \"nomoshkār\"?",
+      "options": [
+        "Sanskrit",
+        "Persian",
+        "Arabic",
+        "Portuguese"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Nomoshkār\" is rooted in Sanskrit and literally means \"salutation to you.\""
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where did the word \"cliché\" originally come from?",
+      "options": [
+        "The sound of a printing plate hitting a type block",
+        "A French theatrical term for bad acting",
+        "An ancient Greek word for repetition",
+        "A legal phrase used in French courts"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Cliché\" was an onomatopoeia for the mechanical click of a metal printing plate made in 19th-century French print shops."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many total letters make up the Khmer alphabet?",
+      "options": [
+        "74",
+        "26",
+        "52",
+        "108"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Khmer alphabet holds the record for the world's largest alphabet, boasting 74 letters."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many total letters, including consonants and vowels, make up the Khmer alphabet?",
+      "answer": 74,
+      "min": 20,
+      "max": 150,
+      "unit": "",
+      "explanation": "The Khmer alphabet consists of 74 letters, making it the largest alphabet in active use today."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The word 'companion' originally referred to a fellow warrior on the battlefield.",
+      "answer": false,
+      "explanation": "'Companion' derives from Latin roots meaning 'with bread', referring to sharing meals together."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The term 'cliché' was invented by literary critics to mock unoriginal novels.",
+      "answer": false,
+      "explanation": "'Cliché' originated as print shop jargon representing the physical noise of molten metal printing plates."
+    }
+  ]
+}

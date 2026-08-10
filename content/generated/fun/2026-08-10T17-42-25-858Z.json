@@ -1,0 +1,315 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.858Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Microscopic mites are likely mating on your face right now",
+      "body": "Almost all adult humans host microscopic eight-legged mites called Demodex in their hair follicles and facial pores. These tiny arachnids spend their entire lives on human skin, feeding on facial oils. At night, while you sleep, they crawl onto the surface of your face to mate before returning inside your pores to lay eggs.",
+      "imageWikipediaTitle": "Demodex folliculorum",
+      "sources": [
+        {
+          "title": "Demodex folliculorum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Demodex_folliculorum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Demodex_folliculorum",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Old cathedral windows aren't melting—glass is not a slow liquid",
+      "body": "A common urban myth claims that antique stained-glass windows are thicker at the bottom because glass is an extremely slow-moving liquid that flows downward over centuries. In reality, glass is an amorphous solid. Historical craftspeople made glass sheets using spinning methods that resulted in uneven thickness, and glaziers simply installed the heavier edge at the bottom for stability.",
+      "imageWikipediaTitle": "Glass",
+      "sources": [
+        {
+          "title": "Glass",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glass"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Glass",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A dropped penny from a skyscraper won't kill anyone below",
+      "body": "Pop culture suggests that dropping a penny from the Empire State Building can turn it into a deadly projectile. However, due to aerodynamics and air resistance, a falling penny reaches a terminal velocity of only about 25 to 60 miles per hour. While getting struck by one might sting, it lacks the mass and speed needed to penetrate human skin or fracture a skull.",
+      "imageWikipediaTitle": "Empire State Building",
+      "sources": [
+        {
+          "title": "Empire State Building",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Empire_State_Building"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Empire_State_Building",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The slow loris is the only venomous primate on Earth",
+      "body": "Beneath its cute appearance with big, wide eyes, the slow loris possesses a dangerous biological defense. It secretes a toxin from a brachial gland on the inside of its elbow. When threatened, the slow loris licks its elbow, mixing the secretion with saliva to create a toxic bite. This unique adaptation makes it the only venomous primate currently known to science.",
+      "imageWikipediaTitle": "Slow loris",
+      "sources": [
+        {
+          "title": "Slow loris",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Slow_loris"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Slow_loris",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This deep-sea fish chokes predators with instant slime",
+      "body": "When attacked, the hagfish releases specialized mucus and protein threads that expand instantly upon contact with seawater. In less than a second, a single hagfish can turn liters of ocean water into a thick, sticky gelatinous slime. This explosive reaction clogs the gills of predatory fish, forcing them to choke and spit the hagfish out before suffocating.",
+      "imageWikipediaTitle": "Hagfish",
+      "sources": [
+        {
+          "title": "Hagfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hagfish"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hagfish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Alaska is both the westernmost and easternmost state in the US",
+      "body": "Geographically, Alaska holds the title for being the northernmost and westernmost state in the United States. Surprisingly, it is also technically the easternmost state. The Aleutian Islands chain extends so far west across the Pacific Ocean that it crosses the 180th meridian line of longitude into the Eastern Hemisphere, placing Semisopochnoi Island in eastern longitudes.",
+      "imageWikipediaTitle": "Alaska",
+      "sources": [
+        {
+          "title": "Alaska",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alaska"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Alaska",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horses are physically incapable of vomiting",
+      "body": "Unlike humans and many other mammals, horses cannot throw up. The muscular valve at the entrance of a horse's stomach, known as the lower esophageal sphincter, acts as a strict one-way road. The muscles in this ring are far stronger than in other animals, preventing food from traveling back up the esophagus even under extreme gastrointestinal pressure.",
+      "imageWikipediaTitle": "Horse",
+      "sources": [
+        {
+          "title": "Horse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Horse",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A New Mexico town renamed itself after a popular radio game show",
+      "body": "In 1950, the desert town of Hot Springs, New Mexico, voted to permanently change its name to 'Truth or Consequences.' The drastic move was inspired by radio host Ralph Edwards, who promised to broadcast his popular NBC show's tenth anniversary live from the first town that renamed itself after the program. The name stuck, and the city still bears it today.",
+      "imageWikipediaTitle": "Truth or Consequences, New Mexico",
+      "sources": [
+        {
+          "title": "Truth or Consequences, New Mexico",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Truth_or_Consequences,_New_Mexico"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Truth_or_Consequences,_New_Mexico",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea otters hold hands while floating to avoid drifting apart",
+      "body": "Sea otters frequently sleep on their backs in the open ocean. To prevent water currents from sweeping them out to sea or separating them from their group, otters will wrap themselves in ocean kelp or hold hands with one another. These communal sleeping groups, known as rafts, can range from just two otters holding hands to massive groups containing hundreds of individuals.",
+      "imageWikipediaTitle": "Sea otter",
+      "sources": [
+        {
+          "title": "Sea otter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_otter",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Avocados should be extinct, but humans saved them",
+      "body": "Millions of years ago, giant prehistoric mammals like giant ground sloths and gomphotheres ate whole avocados, digesting the flesh and pooping out the giant seeds miles away. When these megafauna went extinct around 10,000 years ago, avocados lost their primary seed dispersers and faced extinction. Early human farmers began cultivating the fruit, inadvertently saving avocados from disappearing forever.",
+      "imageWikipediaTitle": "Avocado",
+      "sources": [
+        {
+          "title": "Avocado",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Avocado"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Avocado",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What do the microscopic Demodex mites living on human faces eat?",
+      "options": [
+        "Facial oils",
+        "Red blood cells",
+        "Keratin from hair roots",
+        "Dead fingernail cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Demodex mites live inside pores and hair follicles, feeding primarily on natural facial sebum and oils."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are antique stained-glass windows often thicker at the bottom?",
+      "options": [
+        "Glaziers installed the naturally thicker edge at the bottom for stability",
+        "Glass flows slowly downward over centuries due to gravity",
+        "Sunlight melts the top of the glass pane over time",
+        "Moisture causes the bottom of the glass to swell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Historic glass manufacturing produced uneven sheets, and glaziers mounted the heavier, thicker edge at the bottom for structural balance."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What stops a penny dropped from a skyscraper from becoming a fatal projectile?",
+      "options": [
+        "Air resistance",
+        "Earth's magnetic pull",
+        "Upward thermal currents",
+        "The coin's metallic composition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Air resistance limits a penny's terminal velocity to around 25–60 mph, far too slow to cause lethal injury."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the slow loris produce its venomous bite?",
+      "options": [
+        "It licks a toxin-secreting gland on its elbow before biting",
+        "It stores venom produced by venom sacs under its tongue",
+        "It absorbs plant toxins directly into its fangs",
+        "It secretes venom through specialized claws"
+      ],
+      "correctIndex": 0,
+      "explanation": "The slow loris secretes a toxin from a gland on its arm, which turns into venom when mixed with its saliva."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does hagfish slime defend against predatory fish?",
+      "options": [
+        "It clogs the gills of predators, causing them to choke",
+        "It burns the predator's skin with acid",
+        "It numbs the predator's jaw muscles",
+        "It dissolves the predator's scales on contact"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hagfish's slime expands rapidly in seawater, filling and clogging a predator's gills so it must release the hagfish to breathe."
+    },
+    {
+      "cardIndex": 5,
+      "question": "Why is Alaska technically the easternmost state in the US?",
+      "options": [
+        "Its Aleutian Islands cross the 180th meridian into the Eastern Hemisphere",
+        "It was mapped relative to the Greenwich Prime Meridian",
+        "It spans across two different continent plates",
+        "Its coastline touches the International Date Line"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because Semisopochnoi Island crosses the 180th meridian into eastern longitudes, Alaska is technically the easternmost state."
+    },
+    {
+      "cardIndex": 6,
+      "question": "Why is it physically impossible for horses to vomit?",
+      "options": [
+        "Their lower esophageal sphincter is a powerful one-way valve",
+        "They lack a gallbladder to break down toxic food",
+        "Their esophagus is too long for regurgitation",
+        "Their stomach muscles cannot contract backward"
+      ],
+      "correctIndex": 0,
+      "explanation": "The muscular sphincter muscle where the esophagus meets the stomach in horses is extremely strong, preventing food from moving back up."
+    },
+    {
+      "cardIndex": 7,
+      "question": "Why did the town of Hot Springs, New Mexico, change its name to Truth or Consequences?",
+      "options": [
+        "To win a contest hosted by a popular NBC radio show",
+        "To satisfy a land grant agreement with a game show creator",
+        "To settle a legal dispute with nearby mineral spring resorts",
+        "To boost tourism following a vote by state congress"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radio host Ralph Edwards promised to air his 10th-anniversary show live from the first town that renamed itself after his program."
+    },
+    {
+      "cardIndex": 8,
+      "question": "Why do sea otters hold hands while floating on their backs?",
+      "options": [
+        "To avoid drifting apart in water currents while sleeping",
+        "To share body heat in freezing cold ocean waters",
+        "To transfer gathered food between group members",
+        "To disguise themselves as larger creatures from predators"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea otters hold hands or anchor to kelp bed rafts so ocean currents do not float them away from each other while asleep."
+    },
+    {
+      "cardIndex": 9,
+      "question": "How were avocado seeds dispersed before humans started farming them?",
+      "options": [
+        "Eaten whole and pooped out by giant prehistoric mammals",
+        "Float-dispersed along major river networks",
+        "Carried away and buried by prehistoric rodents",
+        "Spread by giant flightless prehistoric birds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Extinct megafauna like giant ground sloths swallowed whole avocados and dispersed the seeds in their dung across large distances."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 5,
+      "prompt": "How many US states extend territory into the Eastern Hemisphere?",
+      "answer": 1,
+      "min": 0,
+      "max": 10,
+      "unit": "states",
+      "explanation": "Alaska is the only US state that crosses the 180th meridian line into eastern longitudes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Stained glass windows in medieval cathedrals are thicker at the bottom because glass flows downward over time like a slow liquid.",
+      "answer": false,
+      "explanation": "Glass is an amorphous solid that does not flow at room temperature; old windows are thicker at the bottom due to historical manufacturing techniques."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A penny dropped from the observation deck of the Empire State Building can kill a person on the sidewalk below.",
+      "answer": false,
+      "explanation": "Air resistance caps a falling penny's terminal velocity around 25 to 60 mph, making it incapable of killing anyone."
+    },
+    {
+      "cardIndex": 6,
+      "claim": "Horses can throw up to purge toxic food from their stomach.",
+      "answer": false,
+      "explanation": "Horses possess a tight one-way muscular valve at the top of their stomach that prevents regurgitation entirely."
+    },
+    {
+      "cardIndex": 9,
+      "claim": "Avocado trees originally relied on giant prehistoric sloths to spread their seeds.",
+      "answer": true,
+      "explanation": "Extinct megafauna like giant ground sloths swallowed avocado pits whole, dispersing the seeds until human farmers took over."
+    }
+  ]
+}

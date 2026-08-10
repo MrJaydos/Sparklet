@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.865Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Carl Friedrich Gauss invented modern signal processing code in 1805",
+      "body": "In 1965, James Cooley and John Tukey published an algorithm that drastically sped up computer calculations for signal processing, revolutionizing digital communications. Only later did historians realize Carl Friedrich Gauss had developed the exact same mathematical shortcut in 1805 to track the orbits of asteroids. Gauss never formally published his technique, leaving it buried in his Latin notes for over 160 years.",
+      "imageWikipediaTitle": "Carl Friedrich Gauss",
+      "sources": [
+        {
+          "title": "Cooley–Tukey FFT algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm"
+        },
+        {
+          "title": "Fast Fourier transform",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_Fourier_transform"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1972 magazine centerfold became the standard test image for image processing",
+      "body": "In 1973, researchers at the University of Southern California needed a high-quality photo to test image compression software. They cropped a 512-by-512 pixel square from the November 1972 issue of Playboy featuring model Lena Forsén. Known as \"Lenna,\" the image became the industry standard test picture across computer vision research for over four decades due to its mix of detail, shading, and texture.",
+      "imageWikipediaTitle": "Lenna",
+      "sources": [
+        {
+          "title": "Lenna",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lenna"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lenna",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Microsoft PowerPoint animations can execute any computable program",
+      "body": "In 2017, computer scientist Tom Wildenhain proved that Microsoft PowerPoint is Turing complete. By cleverly linking slide transitions and auto-triggering animations, PowerPoint slides can simulate logic gates, memory registers, and branching decisions. This means PowerPoint animations alone can compute any mathematical algorithm that a supercomputer can run, albeit extremely slowly, without using any external scripts, macros, or code plugins.",
+      "imageWikipediaTitle": "Microsoft PowerPoint",
+      "sources": [
+        {
+          "title": "Turing completeness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turing_completeness"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turing_completeness",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first stored computer program took 52 minutes to run",
+      "body": "On June 21, 1948, the Manchester Small-Scale Experimental Machine, nicknamed \"Baby,\" executed the world's first program stored in electronic memory. Written by Tom Kilburn, the 17-instruction program calculated the highest proper factor of 262,144 through brute-force division. The primitive computer processed roughly 3.5 million operations, successfully displaying the correct answer of 131,072 on its cathode-ray tube display after running for 52 minutes.",
+      "imageWikipediaTitle": "Manchester Small-Scale Experimental Machine",
+      "sources": [
+        {
+          "title": "Manchester Small-Scale Experimental Machine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Manchester_Small-Scale_Experimental_Machine",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The internet's official error code for brewing coffee in a teapot",
+      "body": "On April Fools' Day in 1998, the Internet Engineering Task Force published RFC 2324, defining the Hyper Text Coffee Pot Control Protocol. The spoof standard included HTTP status code 418: \"I'm a teapot.\" The spec dictated that any server requested to brew coffee using a teapot must refuse with code 418. Although created as a joke, status code 418 remains widely implemented in modern web software and developer toolkits.",
+      "imageWikipediaTitle": "Teapot",
+      "sources": [
+        {
+          "title": "Hyper Text Coffee Pot Control Protocol",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which famous mathematician invented the fast Fourier transform algorithm 160 years before its modern 1965 publication?",
+      "options": [
+        "Carl Friedrich Gauss",
+        "Isaac Newton",
+        "Gottfried Wilhelm Leibniz",
+        "Blaise Pascal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gauss devised the fast Fourier transform in 1805 to calculate asteroid orbits, though it remained unpublished until long after his death."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where did the famous 'Lenna' test image used in computer vision research originally come from?",
+      "options": [
+        "A 1972 issue of Playboy magazine",
+        "A NASA satellite image of Earth",
+        "A National Geographic cover photo",
+        "A Kodak film calibration standard"
+      ],
+      "correctIndex": 0,
+      "explanation": "USC researchers scanned a cropped 512x512 picture from the November 1972 Playboy centerfold of model Lena Forsén."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which popular presentation software was proven in 2017 to be Turing complete using only its built-in animation triggers?",
+      "options": [
+        "Microsoft PowerPoint",
+        "Apple Keynote",
+        "Google Slides",
+        "Prezi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tom Wildenhain demonstrated that PowerPoint slide transitions and animations can construct logic gates, making the software Turing complete."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What task did the world's first electronic stored-program computer execute in 1948?",
+      "options": [
+        "Calculating the highest proper factor of a number",
+        "Simulating a game of tic-tac-toe",
+        "Encrypting a military telegraph message",
+        "Plotting an artillery trajectory table"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tom Kilburn's 17-instruction program calculated the highest proper factor of 2^18 (262,144) using trial division."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the HTTP status code 418 mean according to its 1998 IETF specification?",
+      "options": [
+        "I'm a teapot",
+        "Coffee pot offline",
+        "Service overloaded",
+        "System memory full"
+      ],
+      "correctIndex": 0,
+      "explanation": "RFC 2324 specified HTTP 418 'I'm a teapot' as a joke response when a server is asked to brew coffee in a teapot."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many years before its 1965 publication did Carl Friedrich Gauss invent the Fast Fourier Transform algorithm?",
+      "answer": 160,
+      "min": 10,
+      "max": 500,
+      "unit": "years",
+      "explanation": "Gauss devised the algorithm in 1805 to track asteroid orbits, 160 years before Cooley and Tukey rediscovered it in 1965."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What was the width and height, in pixels, of the cropped square 'Lenna' test image scanned in 1973?",
+      "answer": 512,
+      "min": 64,
+      "max": 2048,
+      "unit": "pixels",
+      "explanation": "Researchers at USC scanned a 512-by-512 pixel crop from Playboy magazine, creating digital imaging's classic benchmark photo."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many minutes did the world's first stored computer program take to run in June 1948?",
+      "answer": 52,
+      "min": 1,
+      "max": 300,
+      "unit": "minutes",
+      "explanation": "The Manchester Baby computer spent 52 minutes performing 3.5 million operations before finding the highest proper factor of 262,144."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The fast Fourier transform algorithm was invented in the 1960s specifically for electronic computers.",
+      "answer": false,
+      "explanation": "Carl Friedrich Gauss developed the fast Fourier transform algorithm by hand in 1805, 160 years before it was published for computers."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A photograph from Playboy magazine served as the standard benchmark image in computer vision research for over 40 years.",
+      "answer": true,
+      "explanation": "In 1973, researchers cropped Lena Forsén's November 1972 Playboy centerfold into 'Lenna', which became computer science's most ubiquitous test photo."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Microsoft PowerPoint requires external programming macros or scripts to perform arbitrary computation.",
+      "answer": false,
+      "explanation": "PowerPoint slide transitions and animations alone are Turing complete, capable of executing any program without macros or plugins."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "HTTP status code 418 was created as an official production standard for smart kitchen appliances.",
+      "answer": false,
+      "explanation": "HTTP 418 ('I'm a teapot') was created as an April Fools' Day spoof in 1998, though it was later widely adopted by real web frameworks."
+    }
+  ]
+}

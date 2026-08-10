@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.866Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Ancient Incans Invented Freeze-Dried Potatoes",
+      "body": "Long before modern processing, the Inca civilization created chuño, a freeze-dried potato that stays edible for years. In the high Andes, farmers leave potatoes exposed to freezing night temperatures, then trample them barefoot during warm afternoons to squeeze out moisture. Repeating this cycle over several days removes water completely, allowing communities to store nutrient-dense food supplies for up to ten years without refrigeration.",
+      "imageWikipediaTitle": "Chuño",
+      "sources": [
+        {
+          "title": "Chuño",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chu%C3%B1o"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chu%C3%B1o",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Shadow Puppets Cut from Buffalo Hide",
+      "body": "Wayang kulit is an ancient Indonesian shadow puppet theater where performers tell epics behind a backlit linen screen. Master artists meticulously hand-chisel every puppet from water buffalo hide and paint fine details that audience members sitting behind the screen never actually see. The puppeteer, or dalang, controls all figures, voices every character, and leads the musical gamelan ensemble during all-night performances lasting up to nine hours.",
+      "imageWikipediaTitle": "Wayang kulit",
+      "sources": [
+        {
+          "title": "Wayang kulit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayang_kulit"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wayang_kulit",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancestral Ritual That Inspired Bungee Jumping",
+      "body": "On the South Pacific island of Pentecost in Vanuatu, men practice naghol, or land diving, by jumping from wooden towers up to thirty meters tall with only forest vines tied to their ankles. Constructed without metal fasteners, the flexible wooden scaffold sways under pressure. Jumpers aim to graze the soil with their shoulders at the bottom of the leap, a ritual meant to bless the annual yam harvest and demonstrate courage.",
+      "imageWikipediaTitle": "Land diving",
+      "sources": [
+        {
+          "title": "Land diving",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Land_diving"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Land_diving",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Oldest Surviving Orchestral Tradition",
+      "body": "Gagaku, the classical music of the Japanese Imperial Court, has been continuously performed for over a thousand years. Emerging in the 7th century through the fusion of Asian mainland traditions and native Japanese ceremonial arts, it features unique instruments like the sho, a reed mouth organ designed to mimic the call of a phoenix. The slow, solemn compositions preserve unchanged melodies and courtly dances passed down through hereditary musician families.",
+      "imageWikipediaTitle": "Gagaku",
+      "sources": [
+        {
+          "title": "Gagaku",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gagaku"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gagaku",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Blue and White Tiles Transformed Portuguese Architecture",
+      "body": "Portugal's signature azulejo ceramic tiles originated from Moorish geometric mosaic traditions brought to the Iberian Peninsula in the 8th century. By the 17th century, Portuguese artisans adopted Dutch tin-glazing techniques, producing large scale blue-and-white hand-painted panels. These ceramic scenes covered entire church walls, palaces, and public buildings, protecting stone structures against humid coastal air while telling historical, religious, and mythological stories in vivid public art.",
+      "imageWikipediaTitle": "Azulejo",
+      "sources": [
+        {
+          "title": "Azulejo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azulejo"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Azulejo",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did ancient Andean farmers freeze-dry potatoes to create chuño?",
+      "options": [
+        "By boiling them in concentrated saltwater",
+        "By exposing them to freezing nights and trampling out moisture by day",
+        "By burying them in volcanic ash for months",
+        "By smoking them over low-heat alpine fires"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nights frozen in the high mountains freeze the potatoes, and trampling them during warm days removes the remaining liquid."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What material is traditionally used to craft Indonesian Wayang kulit puppets?",
+      "options": [
+        "Water buffalo hide",
+        "Carved teak wood",
+        "Woven palm leaves",
+        "Pressed parchment paper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wayang kulit puppets are intricately chiseled and painted from water buffalo leather."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary agricultural purpose of traditional land diving (naghol) in Vanuatu?",
+      "options": [
+        "To settle territorial disputes between villages",
+        "To bless the annual yam harvest",
+        "To select the village chief",
+        "To commemorate a historic sea battle"
+      ],
+      "correctIndex": 1,
+      "explanation": "The jump is a traditional ritual performed to ensure a bountiful yam crop and display bravery."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What distinguishes Gagaku from other global orchestral music traditions?",
+      "options": [
+        "It uses only stringed instruments built from bamboo",
+        "It has been continuously performed in court settings for over 1,000 years",
+        "It relies entirely on spontaneous vocal improvisation",
+        "It was invented in secret by medieval monk guilds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gagaku has maintained an unbroken performance lineage in the Japanese Imperial Court for over a millennium."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What functional benefit did azulejo tile murals provide to Portuguese buildings alongside decoration?",
+      "options": [
+        "They insulated walls against severe winter frosts",
+        "They protected stone structures from humid coastal decay",
+        "They reduced echo inside massive cathedral halls",
+        "They reflected sunlight to cool indoor summer spaces"
+      ],
+      "correctIndex": 1,
+      "explanation": "The glazed ceramic surface acted as a durable barrier protecting building walls against moisture in damp coastal climates."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many years can traditional Incan freeze-dried potatoes (chuño) remain edible without spoilage?",
+      "answer": 10,
+      "min": 1,
+      "max": 50,
+      "unit": "years",
+      "explanation": "By removing almost all moisture through natural freeze-drying, chuño can be stored safely for up to ten years."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How tall are the hand-built wooden towers used in traditional Vanuatu land diving?",
+      "answer": 30,
+      "min": 5,
+      "max": 100,
+      "unit": "meters",
+      "explanation": "Vanuatu land divers leap from hand-built timber towers reaching heights up to 30 meters (nearly 100 feet)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Indonesian Wayang kulit shadow puppets are plain unpainted cutouts because only their silhouettes are seen.",
+      "answer": false,
+      "explanation": "Wayang kulit puppets are intricately carved and fully painted in vibrant detail, even though back-row audience members see only shadows."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "European symphonic music represents humanity's oldest continuously surviving orchestral tradition.",
+      "answer": false,
+      "explanation": "Japan's imperial Gagaku orchestral tradition has been continuously performed for over 1,000 years, pre-dating Western orchestras."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The iconic blue-and-white color scheme of Portuguese azulejo tiles was heavily influenced by Dutch ceramics and Chinese porcelain.",
+      "answer": true,
+      "explanation": "In the late 17th century, Portuguese tile makers adopted the blue-and-white palette popularized by Dutch Delftware, which mirrored Chinese blue-and-white porcelain."
+    }
+  ]
+}

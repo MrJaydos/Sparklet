@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.863Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Woodpecker's Tongue Wraps Entirely Around Its Skull",
+      "body": "When a woodpecker pecks wood at speeds up to twenty miles per hour, its head experiences acceleration forces over one thousand times the force of gravity. To keep its brain from rattling, the bird relies on an extraordinary anatomical feature: a long, flexible hyoid bone that anchors its tongue, loops all the way around the back of its skull, and re-attaches near its nostrils to act as a living safety belt.",
+      "imageWikipediaTitle": "Woodpecker",
+      "sources": [
+        {
+          "title": "Woodpecker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodpecker"
+        },
+        {
+          "title": "Hyoid bone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyoid_bone"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Woodpecker",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Glass Frogs Hide Their Blood Inside Their Livers to Become Invisible",
+      "body": "Glass frogs are famous for their translucent bellies, but transparent tissue alone does not make an animal invisible if bright red blood is flowing through it. While sleeping on leaves during the day, these tiny tree frogs suck up to eighty-nine percent of their red blood cells out of circulation and pack them inside their liver. This trick doubles their transparency, leaving them practically clear to passing predators.",
+      "imageWikipediaTitle": "Glass frog",
+      "sources": [
+        {
+          "title": "Glass frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glass_frog"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Glass_frog",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horned Lizards Shoot Foul-Tasting Blood Out of Their Eyes",
+      "body": "When threatened by predators like coyotes or foxes, the Texas horned lizard has a grotesque last resort. By restricting blood flow out of its head, the lizard dramatically increases blood pressure inside tiny vessels around its eyes until they burst. It can squirt a stream of foul-tasting blood up to four feet away, aiming directly at the mouth of an attacker to disgust and confuse it.",
+      "imageWikipediaTitle": "Texas horned lizard",
+      "sources": [
+        {
+          "title": "Texas horned lizard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Texas_horned_lizard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Texas_horned_lizard",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wandering Albatross Can Fly for Miles Without Flapping",
+      "body": "With a wingspan reaching over eleven feet, the wandering albatross is built for long-distance travel across ocean winds. Using a technique called dynamic soaring, the bird repeatedly glides up into strong high-altitude winds and dives down into calm troughs near waves, extracting energy from the gradient. This allows it to cover hundreds of miles a day while its heart rate stays nearly as low as when it is sleeping.",
+      "imageWikipediaTitle": "Wandering albatross",
+      "sources": [
+        {
+          "title": "Wandering albatross",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wandering_albatross"
+        },
+        {
+          "title": "Dynamic soaring",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dynamic_soaring"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wandering_albatross",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This Tiny Jellyfish Can Reset Its Life Cycle and Live Forever",
+      "body": "When faced with starvation, physical damage, or environmental stress, the jellyfish Turritopsis dohrnii does not simply die. Instead, it reabsorbs its tentacles, sinks to the ocean floor, and transforms its specialized adult cells back into stem-like cells. Through a process called transdifferentiation, it reverts into a juvenile polyp colony and begins its entire life cycle anew, making it biologically immortal.",
+      "imageWikipediaTitle": "Turritopsis dohrnii",
+      "sources": [
+        {
+          "title": "Turritopsis dohrnii",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turritopsis_dohrnii",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where does a woodpecker's long hyoid bone travel to protect its brain during high-impact pecking?",
+      "options": [
+        "It loops all the way around the back of its skull.",
+        "It anchors into its shoulder blades.",
+        "It coils tightly inside its beak.",
+        "It extends down into its thoracic cavity."
+      ],
+      "correctIndex": 0,
+      "explanation": "The hyoid apparatus loops around the back of the skull, serving as an anatomical shock absorber for the brain."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do glass frogs increase their transparency while sleeping to hide from predators?",
+      "options": [
+        "By stashing up to 89% of their red blood cells in their liver",
+        "By shedding their outer layer of pigmented skin",
+        "By converting their blood into a clear saline fluid",
+        "By absorbing moisture from surrounding leaves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Glass frogs hide up to 89% of their red blood cells inside their liver while resting, making their bodies dramatically clearer."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does a Texas horned lizard squirt blood from its eyes to deter predators?",
+      "options": [
+        "By restricting blood flow out of its head to burst eye vessels",
+        "By using specialized cheek venom glands",
+        "By regurgitating blood stored in its stomach",
+        "By squeezing fluid out of modified tear ducts"
+      ],
+      "correctIndex": 0,
+      "explanation": "The lizard restricts cranial blood return, spiking ocular pressure until tiny vessels burst and spray blood."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is a wandering albatross able to cover long distances with a resting-level heart rate?",
+      "options": [
+        "It uses dynamic soaring to extract energy from ocean wind gradients.",
+        "It rides warm air thermals created over landmasses.",
+        "It flaps its wings in a low-frequency pulse mode.",
+        "It floats on surface water currents while sleeping."
+      ],
+      "correctIndex": 0,
+      "explanation": "Dynamic soaring leverages wind speed gradients over ocean waves, allowing the albatross to travel effortlessly without constant wing-flapping."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What process allows the jellyfish Turritopsis dohrnii to achieve biological immortality?",
+      "options": [
+        "Reverting its adult cells back into a polyp state via transdifferentiation",
+        "Continuously cloning identical daughter medusae from its bell",
+        "Replacing damaged organs using symbiotic algal nutrients",
+        "Entering a permanently frozen metabolic stasis at low ocean depths"
+      ],
+      "correctIndex": 0,
+      "explanation": "Turritopsis dohrnii transforms adult cells back into stem cells to revert to a juvenile polyp stage, restarting its life cycle."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many g-forces of acceleration can a woodpecker's head experience when hammering into a tree?",
+      "answer": 1200,
+      "min": 100,
+      "max": 5000,
+      "unit": "g",
+      "explanation": "A woodpecker's head endures acceleration forces up to 1,200 g during pecking—over 100 times what human fighter pilots experience."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "When a sleeping glass frog becomes transparent, what percentage of its red blood cells does it stash inside its liver?",
+      "answer": 89,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Glass frogs pack up to 89% of their circulating red blood cells into their liver while resting to hide from predators."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A woodpecker's long tongue is stored inside its beak when not in use.",
+      "answer": false,
+      "explanation": "Instead of sitting inside its beak, a woodpecker's hyoid bone and tongue wrap entirely around the back of its skull."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Albatrosses must constantly flap their wings to maintain high-speed flight across open oceans.",
+      "answer": false,
+      "explanation": "Albatrosses rely on dynamic soaring, riding wind gradients above ocean waves to travel hundreds of miles without flapping."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Some species of jellyfish can reverse their aging process and start their life cycle over.",
+      "answer": true,
+      "explanation": "Turritopsis dohrnii can revert from an adult medusa back into a juvenile polyp stage when stressed or injured."
+    }
+  ]
+}

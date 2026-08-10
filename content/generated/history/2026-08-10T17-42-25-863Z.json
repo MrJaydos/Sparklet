@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.863Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 25-foot wave of molasses once devastated a Boston neighborhood",
+      "body": "On January 15, 1919, a massive industrial storage tank containing 2.3 million gallons of molasses suddenly ruptured in Boston's North End. A lethal 25-foot wave rushed through the streets at 35 miles per hour, destroying buildings and crushing streetcars. The disaster killed 21 people and injured 150, permanently altering industrial safety standards and structural regulations in the United States.",
+      "imageWikipediaTitle": "Great Molasses Flood",
+      "sources": [
+        {
+          "title": "Great Molasses Flood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Molasses_Flood"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Molasses_Flood",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Napoleon Bonaparte wasn't short—he was average height for his era",
+      "body": "History remembers Napoleon Bonaparte as a diminutive tyrant, but contemporary records show he stood about 5 feet 6 inches tall, typical for an 18th-century French man. The myth of his extreme shortness arose partly from British wartime propaganda and partly from differences between French and English measurement units. His nickname \"Le Petit Caporal\" was an affectionate title used by his soldiers, not a literal description.",
+      "imageWikipediaTitle": "Napoleon",
+      "sources": [
+        {
+          "title": "Napoleon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Napoleon",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Just 6,000 years ago, the Sahara was a green paradise of lakes and forests",
+      "body": "Between 11,000 and 5,000 years ago, periodic shifts in Earth's orbit transformed the Sahara into a vibrant grassland. Known as the African Humid Period, monsoons flooded the region, feeding massive lakes and supporting hippos, elephants, and thriving human settlements. When subtle orbital shifts altered rain patterns around 3000 BCE, the green Sahara rapidly dried back into the vast desert we recognize today.",
+      "imageWikipediaTitle": "African humid period",
+      "sources": [
+        {
+          "title": "African humid period",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/African_humid_period"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/African_humid_period",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Marie Antoinette never said \"Let them eat cake\"",
+      "body": "The infamous phrase \"Let them eat cake\" is widely cited as proof of Marie Antoinette's insensitivity toward starving French peasants. However, there is no historical record of her ever saying it. The quote first appeared in philosopher Jean-Jacques Rousseau's autobiographical writings around 1765, when Marie Antoinette was only nine years old and still living in Austria. It was later falsely attributed to her by French revolutionaries.",
+      "imageWikipediaTitle": "Marie Antoinette",
+      "sources": [
+        {
+          "title": "Let them eat cake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Let_them_eat_cake"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Let_them_eat_cake",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single battle in 9 CE halted the expansion of the Roman Empire forever",
+      "body": "In 9 CE, Germanic tribes led by the chieftain Arminius ambushed three Roman legions in the dense canopy of the Teutoburg Forest. Over three days of brutal rain and hit-and-run tactics, up to 20,000 Roman soldiers were annihilated. The devastating loss shattered Emperor Augustus's plans to conquer Germania, establishing the Rhine River as the permanent northeastern boundary of the Roman Empire.",
+      "imageWikipediaTitle": "Battle of the Teutoburg Forest",
+      "sources": [
+        {
+          "title": "Battle of the Teutoburg Forest",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Battle_of_the_Teutoburg_Forest",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What caused the Great Molasses Flood of 1919 in Boston?",
+      "options": [
+        "A burst industrial storage tank containing millions of gallons of molasses",
+        "A collision between two cargo ships carrying sugar in Boston Harbor",
+        "An explosion at an alcohol distillery during Prohibition enforcement",
+        "A severe storm that breached the city's waterfront import docks"
+      ],
+      "correctIndex": 0,
+      "explanation": "A storage tank containing 2.3 million gallons of molasses burst, sending a deadly 25-foot wave through Boston's streets."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was Napoleon Bonaparte widely believed to be extremely short?",
+      "options": [
+        "British propaganda and differences between French and English units of measurement",
+        "A childhood illness that permanently stunted his physical growth",
+        "Official French royal records that deliberately underreported his height",
+        "He surrounded himself exclusively with unusually tall bodyguards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon was 5'6\", an average height for French men at the time, but British propaganda and unit conversion mismatches skewed public perception."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What primary driver turned the ancient Green Sahara into a desert?",
+      "options": [
+        "Shifts in Earth's orbit that altered monsoon rain patterns",
+        "Widespread deforestation and overgrazing by early pastoralists",
+        "A volcanic winter caused by major atmospheric eruptions",
+        "A sudden diversion of major African river systems"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subtle shifts in Earth's orbit changed sunlight distribution, weakening monsoons and causing the green Sahara to dry up around 3000 BCE."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where did the phrase \"Let them eat cake\" actually first appear?",
+      "options": [
+        "In the autobiographical writings of Jean-Jacques Rousseau",
+        "In a transcript from Marie Antoinette's revolutionary trial",
+        "In an anonymous French political cartoon published in 1789",
+        "In a personal letter written by Marie Antoinette to her mother"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rousseau recorded the phrase around 1765 when Marie Antoinette was a nine-year-old child living in Austria."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the strategic impact of the Battle of the Teutoburg Forest in 9 CE?",
+      "options": [
+        "It permanently halted Roman territorial expansion east of the Rhine River",
+        "It led to the immediate collapse of the Western Roman Empire",
+        "It forced Rome to withdraw completely from the British Isles",
+        "It triggered a civil war that ended the reign of Emperor Augustus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The destruction of three Roman legions convinced Emperor Augustus to abandon plans to conquer Germania beyond the Rhine."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How fast, in miles per hour, did the wave of molasses travel through Boston during the 1919 disaster?",
+      "answer": 35,
+      "min": 5,
+      "max": 100,
+      "unit": "mph",
+      "explanation": "The dense wave moved at 35 mph, destroying buildings and killing 21 people."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly how many years ago did the green, vegetated Sahara finish drying into a desert?",
+      "answer": 5000,
+      "min": 1000,
+      "max": 20000,
+      "unit": "years ago",
+      "explanation": "The African Humid Period ended around 5,000 years ago (3000 BCE) as orbital shifts weakened regional monsoons."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many Roman legions were completely destroyed in the Battle of the Teutoburg Forest?",
+      "answer": 3,
+      "min": 1,
+      "max": 12,
+      "unit": "",
+      "explanation": "Three full legions—around 20,000 men—were wiped out in the ambush."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Napoleon Bonaparte was unusually short compared to the average European man of his time.",
+      "answer": false,
+      "explanation": "Napoleon was 5 feet 6 inches tall, which was average for an 18th-century French male; his short reputation was largely British propaganda."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Marie Antoinette famously responded to peasant bread shortages by saying 'Let them eat cake.'",
+      "answer": false,
+      "explanation": "There is no record of Marie Antoinette ever saying this; the quote was written by Rousseau when she was still a child in Austria."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Roman Empire failed to permanently conquer Germania beyond the Rhine River.",
+      "answer": true,
+      "explanation": "Despite Rome's military superiority across the Mediterranean, the disastrous loss at Teutoburg Forest in 9 CE permanently set the empire's boundary at the Rhine."
+    }
+  ]
+}

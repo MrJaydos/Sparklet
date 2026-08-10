@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.868Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your bone marrow manufactures millions of blood cells every second",
+      "body": "Inside the spongy center of your bones lies red marrow, the body's primary blood cell factory. Through a process called hematopoiesis, red marrow creates roughly two to three million new red blood cells every single second. This intense production rate is necessary to continuously replace old, worn-out cells that are filtered out and recycled by your body.",
+      "imageWikipediaTitle": "Bone marrow",
+      "sources": [
+        {
+          "title": "Bone marrow",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone_marrow"
+        },
+        {
+          "title": "Hematopoiesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hematopoiesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bone_marrow",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your corneal surface can heal minor scratches in under 48 hours",
+      "body": "The cornea, the transparent front layer of your eye, possesses an extraordinary capacity for rapid cellular repair. Because its surface epithelial cells migrate and divide swiftly to restore a protective barrier, minor abrasions often heal completely within 24 to 48 hours. This rapid recovery seals the eye, preventing dangerous infections and protecting your vision from long-term damage.",
+      "imageWikipediaTitle": "Cornea",
+      "sources": [
+        {
+          "title": "Corneal epithelium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Corneal_epithelium"
+        },
+        {
+          "title": "Cornea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cornea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Corneal_epithelium",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tooth enamel is harder than steel, but it cannot repair itself",
+      "body": "Tooth enamel is the hardest tissue in the human body, composed almost entirely of tightly packed hydroxyapatite mineral crystals. While it withstands immense biting pressure and is harder than steel, enamel contains no living cells. Once destroyed by decay or wear, your body cannot naturally produce new enamel, making this outer shield uniquely tough yet permanently irreplaceable.",
+      "imageWikipediaTitle": "Tooth enamel",
+      "sources": [
+        {
+          "title": "Tooth enamel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tooth_enamel"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tooth_enamel",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of what you taste actually comes from your sense of smell",
+      "body": "Your tongue can only perceive five basic taste dimensions: sweet, salty, sour, bitter, and umami. The rich, complex flavors of foods like coffee, vanilla, or strawberries depend on retronasal olfaction. As you chew, aromatic molecules travel up the back of your throat to scent receptors in your nasal cavity, where your brain integrates them with basic tastes to synthesize flavor.",
+      "imageWikipediaTitle": "Flavor",
+      "sources": [
+        {
+          "title": "Flavor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flavor"
+        },
+        {
+          "title": "Olfaction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olfaction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flavor",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You completely shed your outer layer of skin roughly once a month",
+      "body": "The outermost layer of your skin, the epidermis, is constantly renewing itself. Deep within this layer, stem cells continuously divide to create new skin cells that migrate toward the surface. As they travel upward, they harden and eventually die. Over roughly 28 to 30 days, these dead cells flake off into the environment, fully replacing your body's outer protective shell.",
+      "imageWikipediaTitle": "Epidermis",
+      "sources": [
+        {
+          "title": "Epidermis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epidermis"
+        },
+        {
+          "title": "Human skin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_skin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Epidermis",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where are the majority of human red blood cells produced?",
+      "options": [
+        "Bone marrow",
+        "Spleen",
+        "Liver",
+        "Kidneys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red bone marrow produces millions of new red blood cells every second through hematopoiesis."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How quickly can minor surface scratches on the human cornea heal?",
+      "options": [
+        "Within 24 to 48 hours",
+        "Within 2 to 3 weeks",
+        "Within 6 to 8 months",
+        "The cornea cannot heal naturally"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rapid cell division and migration allow the corneal epithelium to repair minor abrasions within 24 to 48 hours."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is tooth enamel unable to naturally regenerate after severe decay?",
+      "options": [
+        "It contains no living cells",
+        "It lacks mineral crystals",
+        "It receives no nerve signals",
+        "It is composed entirely of cartilage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dental enamel is non-living mineralized tissue without cells, meaning the body cannot replace it once lost."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What primary mechanism allows you to perceive complex flavors like coffee or strawberry?",
+      "options": [
+        "Retronasal olfaction through the nasal cavity",
+        "Direct nerve stimulation in teeth",
+        "Enzymatic breakdown in cheek tissues",
+        "Temperature sensors on the roof of the mouth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aroma molecules travel up from the throat to nasal receptors during chewing, which your brain combines with tongue taste cues to form complex flavors."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Roughly how long does it take for the human epidermis to completely replace its cells?",
+      "options": [
+        "About 28 to 30 days",
+        "About 24 to 48 hours",
+        "About 6 to 8 months",
+        "About 7 to 10 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skin cells continuously migrate to the surface and slough off on a cycle that completes roughly every four weeks."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many red blood cells does human bone marrow produce every single second?",
+      "answer": 2000000,
+      "min": 100000,
+      "max": 20000000,
+      "unit": "",
+      "explanation": "Red bone marrow produces roughly 2 to 3 million red blood cells per second to keep up with daily cell replacement."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "In hours, how quickly can minor surface scratches on the cornea completely heal?",
+      "answer": 48,
+      "min": 6,
+      "max": 168,
+      "unit": "hours",
+      "explanation": "Thanks to extremely rapid epithelial cell migration, surface corneal abrasions often heal completely within 24 to 48 hours."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many days does it take for your outer layer of skin to completely renew itself?",
+      "answer": 28,
+      "min": 5,
+      "max": 120,
+      "unit": "days",
+      "explanation": "Your epidermis completely turns over roughly every 28 to 30 days as new cells migrate upwards and dead cells shed."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Your body can naturally regrow damaged tooth enamel over time.",
+      "answer": false,
+      "explanation": "Tooth enamel contains no living cells, so once it is worn down or destroyed by decay, the body cannot regenerate it."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Your tongue alone is responsible for detecting complex food flavors like vanilla or coffee.",
+      "answer": false,
+      "explanation": "The tongue only senses five basic tastes; complex flavors rely on scent molecules reaching olfactory receptors through the back of your throat."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Your body sheds its entire outer skin layer roughly once a month.",
+      "answer": true,
+      "explanation": "Epidermal cells constantly divide, migrate to the surface, and shed, completely replacing your outer skin layer roughly every 28 to 30 days."
+    }
+  ]
+}

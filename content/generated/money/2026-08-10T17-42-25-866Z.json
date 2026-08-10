@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.866Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Currency That Kept Moving Without a Government",
+      "body": "When the central government and central bank of Somalia collapsed in 1991, the nation's paper currency did not become worthless. Instead, existing Somali shilling notes continued to circulate as a medium of exchange for over two decades. With no official authority printing new legal tender, the fixed supply kept money scarce and functioning purely through social trust.",
+      "imageWikipediaTitle": "Somali shilling",
+      "sources": [
+        {
+          "title": "Somali shilling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Somali_shilling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Somali_shilling",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Black Friday Was Named for Traffic Jams, Not Profit",
+      "body": "Popular belief holds that Black Friday was named because holiday shopping moves retailers from financial losses written in red ink to profits written in black ink. In reality, Philadelphia police officers coined the term in the 1960s to describe the chaotic traffic, massive crowds, and smog caused by suburban shoppers flooding the city the day after Thanksgiving.",
+      "imageWikipediaTitle": "Black Friday (shopping)",
+      "sources": [
+        {
+          "title": "Black Friday (shopping)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Black_Friday_(shopping)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Black_Friday_(shopping)",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "World War II Nickels Contained Zero Percent Nickel",
+      "body": "During World War II, nickel was a critical metal needed for military armor, weapons, and tanks. To preserve supply for the war effort, the United States Mint removed nickel entirely from five-cent coins produced between 1942 and 1945. Instead, wartime nickels were minted from an alloy of 35 percent silver, 56 percent copper, and 9 percent manganese.",
+      "imageWikipediaTitle": "Nickel (United States coin)",
+      "sources": [
+        {
+          "title": "Nickel (United States coin)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nickel_(United_States_coin)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nickel_(United_States_coin)",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Price Tags Were Invented as a Moral Stand Against Haggling",
+      "body": "Before the 19th century, nearly all retail items lacked fixed prices, requiring buyers and sellers to bargain over every purchase. Quaker store owners changed this by introducing fixed price tags in their shops. Believing that charging different prices to different people for the same item was dishonest and unchristian, they set a single published price for all customers.",
+      "imageWikipediaTitle": "Price tag",
+      "sources": [
+        {
+          "title": "Price tag",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Price_tag"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Price_tag",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Julius Caesar Was the First Roman to Put His Living Face on Coins",
+      "body": "For centuries, the Roman Republic strictly prohibited placing portraits of living people on coins, reserving currency images solely for gods or deceased ancestors. In 44 BC, Julius Caesar broke this ancient taboo by having the Roman Senate issue coins bearing his live portrait. The bold move signaled his monarchical ambitions shortly before his assassination.",
+      "imageWikipediaTitle": "Denarius",
+      "sources": [
+        {
+          "title": "Denarius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Denarius"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Denarius",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happened to Somalia's original paper currency after the central bank collapsed in 1991?",
+      "options": [
+        "It continued to circulate and function as currency for decades",
+        "It was instantly replaced by foreign digital currency",
+        "Citizens burned all notes because they lost all value overnight",
+        "It was outlawed by neighboring countries under international law"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without a central bank to issue new notes, existing Somali shillings remained in circulation and continued to function as money based on social consensus."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Who originally coined the phrase 'Black Friday' in the 1960s?",
+      "options": [
+        "Philadelphia police officers describing chaotic traffic and crowds",
+        "Retail accountants tracking post-holiday profits in black ink",
+        "Wall Street traders reacting to a sudden stock market decline",
+        "Department store executives advertising major holiday sales"
+      ],
+      "correctIndex": 0,
+      "explanation": "Philadelphia police used 'Black Friday' to describe the terrible traffic jams and dense crowds downtown after Thanksgiving."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did U.S. nickels minted between 1942 and 1945 contain silver?",
+      "options": [
+        "Nickel was diverted to military equipment for World War II",
+        "Silver had become cheaper to mine than industrial nickel",
+        "Congress wanted to double the intrinsic value of pocket change",
+        "Trade blockades prevented importing pure copper and nickel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nickel was essential for military armor and weaponry, so the U.S. Mint substituted silver, copper, and manganese in five-cent coins."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did Quaker shopkeepers introduce fixed price tags in the 1800s?",
+      "options": [
+        "They believed charging different prices to different customers was unethical",
+        "Local tax laws mandated standardized pricing across all retail goods",
+        "Fixed price tags were newly mandated by regional merchant guilds",
+        "Paper tags were newly invented and cheap to print"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quakers considered haggling dishonest and argued that charging variable prices based on a customer's status or negotiation skills was unchristian."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What tradition did Julius Caesar break when he put his portrait on coins in 44 BC?",
+      "options": [
+        "Roman Republic coins previously featured only gods or deceased individuals",
+        "Roman currency had never contained any engraved artwork before",
+        "Only foreign kings were allowed to issue silver currency in Rome",
+        "Roman money was forbidden from featuring human body parts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before Caesar, Roman custom strictly forbade depicting living individuals on coins, reserving portraits for deities or dead ancestors."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of silver was contained in US five-cent 'nickels' minted during World War II (1942–1945)?",
+      "answer": 35,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "U.S. wartime nickels contained 35% silver because pure nickel was urgently needed for war supplies like military armor."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Black Friday got its name because retail accounting shifted from red ink losses to black ink profits.",
+      "answer": false,
+      "explanation": "The term was coined by Philadelphia police officers in the 1960s to describe massive traffic jams and suburban crowds after Thanksgiving."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Julius Caesar was the first living person depicted on official Roman coins.",
+      "answer": true,
+      "explanation": "In 44 BC, Caesar broke centuries of Roman Republic tradition by placing his own living portrait on official currency."
+    }
+  ]
+}

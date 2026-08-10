@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.862Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why customers spend up to 83% more when paying by card",
+      "body": "Paying with physical cash triggers an immediate psychological discomfort known as the pain of paying. Credit cards and digital payments separate the joy of purchasing from the friction of handing over physical money. Studies show shoppers bid up to 83% more for items when paying with credit cards rather than cash, making frictionless checkout a powerful lever to increase basket size.",
+      "imageWikipediaTitle": "Credit card",
+      "sources": [
+        {
+          "title": "Pain of paying",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pain_of_paying"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pain_of_paying",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pitching buyers late in the day often leads to a 'no'",
+      "body": "Making continuous decisions drains mental energy, leading to decision fatigue. When prospects are mentally exhausted, they default to the safest, lowest-effort choice: rejecting the pitch and maintaining the status quo. Famous research on judicial rulings showed favorable decisions dropped from 65% at the start of a session down to near 0% as mental fatigue accumulated before breaks.",
+      "imageWikipediaTitle": "Judge",
+      "sources": [
+        {
+          "title": "Decision fatigue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decision_fatigue"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Decision_fatigue",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why experts drastically overestimate how clear their pitches are",
+      "body": "Once you understand a product deeply, it becomes almost impossible to remember what it was like not to know it. This bias, called the curse of knowledge, causes sales reps to rely on heavy jargon and overestimate prospect comprehension. In landmark tests, tappers assumed listeners would guess 50% of tapped song melodies, but listeners identified only 2.5%.",
+      "imageWikipediaTitle": "Communication",
+      "sources": [
+        {
+          "title": "Curse of knowledge",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curse_of_knowledge"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Curse_of_knowledge",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How warning buyers about competitor claims neutralizes their pitch",
+      "body": "Exposing a prospect to a weak, easily countered version of a competitor's argument before they hear the full pitch creates psychological resistance. Known as inoculation theory, this pre-exposure works like a vaccine: it prompts the buyer to generate counterarguments in advance, rendering future rival sales claims ineffective when the competitor eventually presents them.",
+      "imageWikipediaTitle": "Vaccine",
+      "sources": [
+        {
+          "title": "Inoculation theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inoculation_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Inoculation_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why raising prices can actually increase demand for luxury products",
+      "body": "Standard economic theory dictates that demand drops as prices rise. However, luxury items known as Veblen goods flip this rule: increasing the price tag actually boosts sales. High prices act as a direct signal of prestige, exclusivity, and social status, making the product more desirable precisely because it is expensive and hard to obtain.",
+      "imageWikipediaTitle": "Luxury goods",
+      "sources": [
+        {
+          "title": "Veblen good",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Veblen_good"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Veblen_good",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do consumers tend to spend significantly more when paying with a credit card instead of physical cash?",
+      "options": [
+        "Credit cards lower the psychological pain of paying by separating payment from physical money",
+        "Credit card receipts look more official to shoppers",
+        "Cash registers automatically apply discounts to cash purchases",
+        "Shoppers assume credit card purchases are fully refundable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Credit cards decouple immediate physical cash loss from consumption, reducing the psychological 'pain of paying.'"
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happens to decision-makers when they experience severe decision fatigue?",
+      "options": [
+        "They default to the safest, lowest-effort option, usually saying 'no'",
+        "They become much more willing to take high-risk opportunities",
+        "They speed up evaluations and buy more products",
+        "They demand detailed technical specifications before choosing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Decision fatigue causes buyers to conserve mental energy by picking the default, status-quo option."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the 'curse of knowledge' cognitive bias cause sales professionals to do?",
+      "options": [
+        "Overestimate how easily prospects understand complex features and jargon",
+        "Forget key product details during high-pressure negotiations",
+        "Assume prospects know less about their own business than they do",
+        "Underprice services because they underestimate their own expertise"
+      ],
+      "correctIndex": 0,
+      "explanation": "The curse of knowledge makes it hard for experts to imagine not knowing what they know, leading to overly technical pitches."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to inoculation theory, how can you protect a deal from a competitor's pitch?",
+      "options": [
+        "Pre-expose the buyer to a mild version of the competitor's claim and counter it",
+        "Offer a discount that expires right before the competitor meets the buyer",
+        "Ask the buyer to sign a non-disclosure agreement before pitching",
+        "Avoid mentioning the competitor or rival products entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inoculation theory shows that exposing buyers to weak rival arguments lets them build resistance against future pitches."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What distinguishes a Veblen good from standard consumer products?",
+      "options": [
+        "Demand increases as the price tag rises due to perceived prestige",
+        "Demand drops dramatically whenever the price increases slightly",
+        "It can only be purchased using physical cash transactions",
+        "It is produced exclusively by non-profit organizations"
+      ],
+      "correctIndex": 0,
+      "explanation": "Veblen goods defy standard demand curves because a high price confers social status and exclusivity."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In bidding studies, by what percentage did shoppers raise their offers when paying with credit cards instead of cash?",
+      "answer": 83,
+      "min": 10,
+      "max": 200,
+      "unit": "%",
+      "explanation": "Credit cards remove the physical pain of spending cash, leading participants to bid 83% more on average."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "When subjects tapped out well-known song melodies, what percentage did listeners actually guess correctly?",
+      "answer": 3,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Tappers estimated a 50% success rate, but listeners only guessed 3% because tappers could hear the melody in their heads."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Tired buyers are more easily persuaded to agree to new pitches because their resistance is lower.",
+      "answer": false,
+      "explanation": "When mentally fatigued, decision-makers default to the status quo and reject change, making them far more likely to say no."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Briefly presenting a competitor's weak argument to a buyer actually makes them harder for that competitor to convert later.",
+      "answer": true,
+      "explanation": "Inoculation theory shows pre-exposing buyers to weak rival arguments triggers them to build defense counterarguments."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Raising the price of a product always leads to a decrease in customer demand.",
+      "answer": false,
+      "explanation": "For luxury 'Veblen goods,' raising the price increases demand because the higher cost enhances prestige and status."
+    }
+  ]
+}

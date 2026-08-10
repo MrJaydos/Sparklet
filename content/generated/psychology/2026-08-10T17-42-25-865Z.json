@@ -1,0 +1,174 @@
+{
+  "generatedAt": "2026-08-10T17:42:25.865Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you judge an entire vacation by its final day",
+      "body": "When evaluating past experiences, your brain does not average out every moment or sum up the total enjoyment. Instead, it relies heavily on two specific points: the emotional peak and the final moment. Known as the peak-end rule, this phenomenon means a painful medical procedure or a long trip is remembered as significantly better if the ending is pleasant, while duration is largely ignored.",
+      "imageWikipediaTitle": "Daniel Kahneman",
+      "sources": [
+        {
+          "title": "Peak–end rule",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Walking through a door really can make you forget why you entered",
+      "body": "Have you ever walked into a room and instantly forgotten what you came for? Psychologists call this the doorway effect. Passing through a physical threshold signals to your brain that one event has ended and another has begun. The brain creates an event boundary, archiving thoughts from the previous room to free up mental space for the new environment, causing temporary forgetfulness.",
+      "imageWikipediaTitle": "Door",
+      "sources": [
+        {
+          "title": "Doorway effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Doorway_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Doorway_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why almost everyone agrees which curved shape is named 'Bouba'",
+      "body": "Show people a jagged shape and a rounded shape, and ask which one is 'Bouba' and which is 'Kiki.' Over 95 percent of humans—across vastly different languages and cultures—assign 'Bouba' to the rounded shape and 'Kiki' to the spiky one. This Bouba/Kiki effect reveals that human brains map abstract visual shapes to specific speech sounds in a non-arbitrary, cross-sensory way.",
+      "imageWikipediaTitle": "Bouba/kiki effect",
+      "sources": [
+        {
+          "title": "Bouba/kiki effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bouba/kiki_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bouba/kiki_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Testing yourself works better than re-reading notes",
+      "body": "When preparing for an exam or presentation, repeatedly reading over your notes feels productive, but actively testing your recall is far more effective. Known as the testing effect, retrieving information from memory strengthens neural pathways far more than passive review. Practicing retrieval makes memories significantly more resistant to forgetting over long periods compared to simply re-reading the exact same material.",
+      "imageWikipediaTitle": "Active recall",
+      "sources": [
+        {
+          "title": "Testing effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Testing_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Testing_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why crime witnesses remember the gun but forget the suspect's face",
+      "body": "When a crime involves a visual weapon, eyewitnesses often give accurate descriptions of the gun or knife but struggle to recall the perpetrator's face or clothing. Known as the weapon focus effect, high anxiety draws visual attention almost entirely toward the source of threat. Because human attention is a limited resource, the brain prioritizes threat detection over encoding contextual details like facial features.",
+      "imageWikipediaTitle": "Eyewitness testimony",
+      "sources": [
+        {
+          "title": "Weapon focus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weapon_focus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Weapon_focus",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to the peak-end rule, how do people evaluate past experiences?",
+      "options": [
+        "By calculating the exact average of all moments",
+        "By focusing on the most intense moment and how it ended",
+        "By measuring the total duration of the experience",
+        "By placing equal weight on every single minute"
+      ],
+      "correctIndex": 1,
+      "explanation": "The peak-end rule states that memories are dominated by the emotional peak and the final moments, rather than the overall duration or total sum."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What triggers the temporary memory loss known as the doorway effect?",
+      "options": [
+        "Passing through a physical threshold into a new environment",
+        "Looking at bright ambient light when turning a corner",
+        "Listening to background white noise while walking",
+        "Experiencing a sudden drop in ambient room temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Passing through a door acts as an event boundary, prompting the brain to archive previous thoughts to prepare for the new space."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the Bouba/Kiki effect demonstrate about human perception?",
+      "options": [
+        "Spoken sound sounds are linked to visual shapes in non-arbitrary ways",
+        "Language acquisition depends entirely on written symbols",
+        "Spoken sounds are interpreted identically across all animal species",
+        "Visual perception is completely independent of hearing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Bouba/Kiki effect shows that humans naturally map soft, curved forms to rounded speech sounds ('Bouba') and sharp forms to harsh sounds ('Kiki')."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is active self-testing superior to passive re-reading for long-term memory?",
+      "options": [
+        "It prevents mental fatigue during study sessions",
+        "Actively retrieving information strengthens neural memory pathways",
+        "It allows the brain to process information without conscious effort",
+        "Re-reading causes instant memory interference"
+      ],
+      "correctIndex": 1,
+      "explanation": "Active retrieval practice forces the brain to rebuild memory pathways, making information far more durable than passive re-reading."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the presence of a visual weapon affect eyewitness memory during a crime?",
+      "options": [
+        "It sharpens memory for facial details due to high adrenaline",
+        "Attention is drawn to the weapon, reducing recall of the culprit's face",
+        "It causes witnesses to hallucinate non-existent details",
+        "It makes witnesses completely forget that a crime occurred"
+      ],
+      "correctIndex": 1,
+      "explanation": "High anxiety and danger draw visual focus directly toward the weapon, leaving fewer cognitive resources to encode the suspect's face."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "Across diverse cultures and languages, what percentage of people assign the name 'Bouba' to a rounded shape and 'Kiki' to a spiky one?",
+      "answer": 95,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Over 95% of humans naturally make the exact same cross-modal associations between speech sounds and visual shapes, regardless of native language."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Doubling the length of a painful medical procedure often does not make patients remember it as significantly worse.",
+      "answer": true,
+      "explanation": "Due to 'duration neglect' in the peak-end rule, people judge experiences based almost entirely on the peak intensity and the ending, largely ignoring total duration."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Forgetting why you walked into a room is usually an early warning sign of cognitive impairment.",
+      "answer": false,
+      "explanation": "The doorway effect occurs in healthy brains of all ages because physical boundaries act as 'event boundaries' that signal the brain to archive previous information."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Re-reading your study notes multiple times is the most effective way to retain information long-term.",
+      "answer": false,
+      "explanation": "Research on the testing effect shows that active retrieval practice (testing yourself) creates far stronger and more durable memories than passive re-reading."
+    }
+  ]
+}
