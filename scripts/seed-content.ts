@@ -24,6 +24,7 @@ import {
 } from "../src/lib/content-schema";
 import { embedText, cosineSimilarity, verifierFor, generateJSONWith } from "../src/lib/ai-provider";
 import { isPaywalledUrl } from "../src/lib/paywalled-sources";
+import { normalizeSources } from "../src/lib/source-attribution";
 
 const DUPLICATE_THRESHOLD = 0.85; // cosine similarity above this = near-duplicate
 
@@ -353,7 +354,11 @@ async function importCard(card: CardInput, modelUsed: string | undefined, stats:
       title: card.title,
       body: card.body,
       imageUrl,
-      sources: card.sources,
+      // The model's `publisher` strings are hallucinated often enough to be
+      // unusable ("NASA", "Rijksmuseum" on en.wikipedia.org URLs), and that
+      // field is what the source chip shows a reader. Store the label derived
+      // from the URL host instead — see src/lib/source-attribution.ts.
+      sources: normalizeSources(card.sources),
       readMoreUrl: card.readMoreUrl,
       published,
       reviewNote,

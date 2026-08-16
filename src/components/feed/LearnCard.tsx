@@ -334,14 +334,27 @@ export function LearnCard({
               🔗 {s.publisher}
             </a>
           ))}
-          <a
-            href={card.readMoreUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex whitespace-nowrap rounded-full bg-neutral-100 px-3.5 py-1 text-xs font-semibold text-neutral-900 transition hover:bg-white"
-          >
-            Read more ↗
-          </a>
+          {/* Reads on-site when the card has its long-form article, which is
+              the point of having one — the full piece lives at /card/[id],
+              and only cards without one still hand the reader off to the
+              external source. */}
+          {card.hasArticle ? (
+            <Link
+              href={`/card/${card.id}`}
+              className="inline-flex whitespace-nowrap rounded-full bg-neutral-100 px-3.5 py-1 text-xs font-semibold text-neutral-900 transition hover:bg-white"
+            >
+              Read full article →
+            </Link>
+          ) : (
+            <a
+              href={card.readMoreUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex whitespace-nowrap rounded-full bg-neutral-100 px-3.5 py-1 text-xs font-semibold text-neutral-900 transition hover:bg-white"
+            >
+              Read more ↗
+            </a>
+          )}
         </div>
 
         </div>{/* /pr-16 */}

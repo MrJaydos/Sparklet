@@ -1,5 +1,7 @@
 import { prisma } from "@/lib/db";
 import { getRelatedCards, type RelatedLink } from "@/lib/related";
+import { ARTICLE_MIN_WORDS } from "@/lib/article";
+import { normalizeSources } from "@/lib/source-attribution";
 
 export type FeedCard = {
   id: string;
@@ -10,6 +12,9 @@ export type FeedCard = {
   videoUrl: string | null;
   sources: { title: string; publisher: string; url: string }[];
   readMoreUrl: string;
+  // Whether /card/[id] carries a full article worth tapping through to, so
+  // the feed only offers "Read full article" when there is one.
+  hasArticle: boolean;
   saved: boolean;
   seen: boolean;
   review: boolean; // due spaced-repetition review, surfaced near the top
@@ -136,6 +141,7 @@ type CardRow = {
   videoUrl: string | null;
   sources: unknown;
   readMoreUrl: string;
+  articleWords: number | null;
   score: number;
   depthLevel: "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
   createdAt: Date;
@@ -196,8 +202,11 @@ export async function getFeedCards(opts: {
     body: c.body,
     imageUrl: c.imageUrl,
     videoUrl: c.videoUrl,
-    sources: c.sources as FeedCard["sources"],
+    // Publisher labels are re-derived from the URL host — the generator
+    // hallucinated them (see src/lib/source-attribution.ts).
+    sources: normalizeSources((c.sources as FeedCard["sources"]) ?? []),
     readMoreUrl: c.readMoreUrl,
+    hasArticle: (c.articleWords ?? 0) >= ARTICLE_MIN_WORDS,
     saved: c.savedBy.length > 0,
     seen,
     review,

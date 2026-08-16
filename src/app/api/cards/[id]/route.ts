@@ -3,6 +3,8 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/db";
 import { getRelatedCards } from "@/lib/related";
 import type { FeedCard } from "@/lib/feed";
+import { ARTICLE_MIN_WORDS } from "@/lib/article";
+import { normalizeSources } from "@/lib/source-attribution";
 
 // Single-card lookup for the iOS client's card-detail screen — the web's
 // equivalent (/card/[id]/page.tsx) queries Prisma directly server-side
@@ -42,8 +44,11 @@ export async function GET(
     body: card.body,
     imageUrl: card.imageUrl,
     videoUrl: card.videoUrl,
-    sources: card.sources as FeedCard["sources"],
+    // Publisher labels re-derived from the URL host, same as the feed —
+    // see src/lib/source-attribution.ts.
+    sources: normalizeSources((card.sources as FeedCard["sources"]) ?? []),
     readMoreUrl: card.readMoreUrl,
+    hasArticle: (card.articleWords ?? 0) >= ARTICLE_MIN_WORDS,
     saved: card.savedBy.length > 0,
     seen: card.interactions[0]?.completed ?? false,
     review: false, // "due for review" is a feed-composition concept, not a property of the card itself

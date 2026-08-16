@@ -16,6 +16,12 @@ export const cardSchema = z.object({
   // Alternative to imageUrl: the importer resolves this Wikipedia article's
   // lead image at import time (verifiable, free, no fabricated URLs).
   imageWikipediaTitle: z.string().optional(),
+  // Deliberately still min(1) even though the generation prompt now demands
+  // 2-3 with at least one non-Wikipedia source. Every file under
+  // content/generated/ is re-validated on every deploy and a single failing
+  // card invalidates its whole file (seed-content.ts), so raising this floor
+  // would silently drop ~1,300 already-imported single-source cards from the
+  // import. Tighten only alongside a backfill of the existing files.
   sources: z.array(sourceSchema).min(1).max(3),
   readMoreUrl: z.string().url(),
 });

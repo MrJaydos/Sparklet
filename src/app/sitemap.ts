@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { prisma } from "@/lib/db";
+import { ARTICLE_MIN_WORDS } from "@/lib/article";
 
 const base = process.env.NEXTAUTH_URL || "http://localhost:3000";
 
@@ -17,8 +18,16 @@ export const dynamic = "force-dynamic";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [categories, cards] = await Promise.all([
     prisma.category.findMany({ select: { slug: true } }),
+    // Only cards carrying a full article. A ~60-word card page is thin
+    // content, and submitting ~1,300 of them is what got the site flagged;
+    // /card/[id] serves noindex under the same condition (ARTICLE_MIN_WORDS),
+    // so a URL can never be advertised here and refused there.
     prisma.card.findMany({
-      where: { published: true, depthLevel: "STANDARD" },
+      where: {
+        published: true,
+        depthLevel: "STANDARD",
+        articleWords: { gte: ARTICLE_MIN_WORDS },
+      },
       select: { id: true, createdAt: true },
       orderBy: { createdAt: "desc" },
       take: MAX_CARDS,
@@ -28,6 +37,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     { url: base, changeFrequency: "daily", priority: 1 },
     { url: `${base}/explore`, changeFrequency: "daily", priority: 0.8 },
+    { url: `${base}/about`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/contact`, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/privacy`, changeFrequency: "yearly", priority: 0.2 },
     { url: `${base}/terms`, changeFrequency: "yearly", priority: 0.2 },
     ...categories.map((c) => ({

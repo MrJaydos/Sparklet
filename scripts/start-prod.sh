@@ -20,6 +20,15 @@ tsx prisma/seed.ts
   # Quizzes + guess challenges for cards that predate them.
   tsx scripts/enrich-cards.ts \
     || echo "[startup] card enrichment failed — retries next deploy."
+  # Repair hallucinated source publishers on rows imported before source
+  # normalization. Idempotent and cheap (no model calls) — a no-op once clean.
+  tsx scripts/repair-source-attribution.ts \
+    || echo "[startup] source attribution repair failed — retries next deploy."
+  # Long-form articles for cards that don't have one yet. /card/[id] is
+  # noindex and absent from the sitemap until this lands, so this is what
+  # grows the indexable surface — capped per run, drains over deploys.
+  tsx scripts/generate-articles.ts \
+    || echo "[startup] article generation failed — retries next deploy."
 ) &
 
 exec next start

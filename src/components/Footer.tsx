@@ -17,6 +17,14 @@ export function Footer() {
         Explore
       </Link>{" "}
       ·{" "}
+      <Link href="/about" className="underline hover:text-neutral-300">
+        About
+      </Link>{" "}
+      ·{" "}
+      <Link href="/contact" className="underline hover:text-neutral-300">
+        Contact
+      </Link>{" "}
+      ·{" "}
       <Link href="/privacy" className="underline hover:text-neutral-300">
         Privacy Policy
       </Link>{" "}

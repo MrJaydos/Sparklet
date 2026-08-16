@@ -172,9 +172,21 @@ model Card {
   type       CardType @default(TEXT_IMAGE)
 
   title    String
-  body     String // short markdown, ~40-80 words
+  body     String // short markdown, ~40-80 words — the swipeable feed unit
   imageUrl String?
   videoUrl String?
+
+  // Long-form companion article shown on /card/[id]. The feed still swipes
+  // the ~60-word body; this is what makes the *page* worth indexing, and
+  // /card/[id] is noindex + absent from the sitemap until it exists (see
+  // ARTICLE_MIN_WORDS in src/lib/article.ts). Stored as structured JSON
+  // (sections of heading + paragraphs), not markdown, so it renders through
+  // real elements instead of dangerouslySetInnerHTML on model output.
+  article      Json? // { sections: [{ heading, paragraphs[] }], keyTakeaways[] }
+  articleWords Int? // denormalized word count — the indexability gate reads this
+  // Examined marker, same role as enrichedAt: set whether or not generation
+  // produced a usable article, so each deploy only works the backlog.
+  articleAt    DateTime?
 
   sources     Json // [{ title, publisher, url }]
   readMoreUrl String
@@ -219,6 +231,8 @@ model Card {
   savedBy       SavedCard[]
 
   @@index([categoryId, published])
+  // Drives the deploy-time article backfill's "what's left to do" scan.
+  @@index([articleAt])
   @@index([depthGroupId])
   @@index([requestedById, createdAt])
   // One row per depth level per group. POST /api/cards/[id]/depth checks

@@ -7,8 +7,11 @@ import { prisma } from "@/lib/db";
 import { isAdminEmail, rejectCard } from "@/lib/admin";
 import { getRelatedCards } from "@/lib/related";
 import { timeAgo } from "@/lib/time";
+import { parseArticle, ARTICLE_MIN_WORDS } from "@/lib/article";
+import { normalizeSources, type StoredSource } from "@/lib/source-attribution";
 import { CommentsPanel } from "@/components/feed/CommentsSheet";
 import { CardActions } from "@/components/CardActions";
+import { CardArticle } from "@/components/CardArticle";
 import { CardImage } from "@/components/CardImage";
 
 const modBtn =
@@ -57,7 +60,14 @@ export async function generateMetadata({
   const { id } = await params;
   const card = await prisma.card.findUnique({
     where: { id },
-    select: { title: true, body: true, published: true, depthLevel: true, depthGroupId: true },
+    select: {
+      title: true,
+      body: true,
+      published: true,
+      depthLevel: true,
+      depthGroupId: true,
+      articleWords: true,
+    },
   });
   // 404 must be decided here: by the time the page body runs, streaming has
   // begun and a notFound() there renders the 404 UI with a 200 status.
@@ -87,10 +97,19 @@ export async function generateMetadata({
     if (standard) canonicalId = standard.id;
   }
 
+  // Thin-content gate. Without its long-form article this page is an h1, a
+  // ~60-word paragraph and a couple of links — and ~1,300 pages of exactly
+  // that is what got the site flagged as low value content. The page stays
+  // public and shareable (the growth loop depends on that); it just doesn't
+  // ask to be indexed until it carries a real article. The sitemap applies
+  // the same test via isIndexable(), so the two can't disagree.
+  const thin = (card.articleWords ?? 0) < ARTICLE_MIN_WORDS;
+
   return {
     title: `${card.title} — Sparklet`,
     description: card.body.slice(0, 160),
     alternates: { canonical: `/card/${canonicalId}` },
+    ...(thin ? { robots: { index: false, follow: true } } : {}),
     openGraph: { title: card.title, description: card.body.slice(0, 160) },
     twitter: { card: "summary_large_image", title: card.title },
   };
@@ -122,7 +141,12 @@ export default async function CardPage({
   // queue held back — that's always a moderation visit, not a normal read.
   const moderating = isAdmin && !card.published;
 
-  const sources = card.sources as { title: string; publisher: string; url: string }[];
+  // Publisher labels are re-derived from each URL rather than trusted from
+  // the stored row: the generator hallucinated them (see
+  // src/lib/source-attribution.ts). Normalising at render time as well as at
+  // import means rows written before the repair script still display honestly.
+  const sources = normalizeSources((card.sources as StoredSource[]) ?? []);
+  const article = parseArticle(card.article);
   const related = (await getRelatedCards([card.id], 3)).get(card.id) ?? [];
 
   // Tells search engines this is a real, sourced article (not scraped/thin
@@ -134,6 +158,16 @@ export default async function CardPage({
     description: card.body,
     image: card.imageUrl ?? undefined,
     datePublished: card.createdAt.toISOString(),
+    ...(article
+      ? {
+          // The indexable body of the page, so the structured data reflects
+          // the full article rather than just the card hook.
+          articleBody: article.sections
+            .flatMap((s) => [s.heading, ...s.paragraphs])
+            .join("\n\n"),
+          wordCount: card.articleWords ?? undefined,
+        }
+      : {}),
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/card/${card.id}` },
     author: { "@type": "Organization", name: "Sparklet", url: SITE_URL },
     publisher: {
@@ -191,29 +225,32 @@ export default async function CardPage({
           </span>
         </div>
         <h1 className="mt-3 text-2xl font-bold leading-snug">{card.title}</h1>
-        <p className="mt-3 leading-relaxed text-neutral-300">{card.body}</p>
-        <div className="mt-4 flex flex-wrap items-center gap-2">
+        {/* The card body is the lede — the feed's swipe unit, set larger here
+            to read as a standfirst above the full article. */}
+        <p className="mt-3 text-lg leading-relaxed text-neutral-200">{card.body}</p>
+
+        {article && <CardArticle article={article} />}
+
+        <h2 className="mt-8 border-t border-neutral-800 pt-6 text-lg font-bold">Sources</h2>
+        <ul className="mt-3 space-y-2">
           {sources.map((s) => (
-            <a
-              key={s.url}
-              href={s.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-neutral-700 bg-neutral-900/80 px-3 py-1 text-xs text-neutral-400 transition hover:border-neutral-500 hover:text-neutral-200"
-              title={s.title}
-            >
-              🔗 {s.publisher}
-            </a>
+            <li key={s.url}>
+              <a
+                href={s.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col gap-0.5 rounded-lg border border-neutral-800 bg-neutral-900/60 px-4 py-3 transition hover:border-neutral-700"
+              >
+                <span className="text-sm text-neutral-200 group-hover:text-white">
+                  {s.title}
+                </span>
+                {/* Publisher is derived from the URL host, so the label and
+                    the destination can never disagree. */}
+                <span className="text-xs text-neutral-500">{s.publisher} ↗</span>
+              </a>
+            </li>
           ))}
-          <a
-            href={card.readMoreUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full bg-neutral-100 px-3 py-1 text-xs font-semibold text-neutral-900 transition hover:bg-white"
-          >
-            Read more ↗
-          </a>
-        </div>
+        </ul>
 
         {userId ? (
           <CardActions
