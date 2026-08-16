@@ -15,7 +15,7 @@
 import "dotenv/config";
 import { PrismaClient, Prisma } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { generateJSONWith } from "../src/lib/ai-provider";
+import { generateJSON } from "../src/lib/ai-provider";
 import { articleSchema, countArticleWords, ARTICLE_MIN_WORDS } from "../src/lib/article";
 import { publisherForUrl, type StoredSource } from "../src/lib/source-attribution";
 
@@ -89,14 +89,18 @@ Use 5-7 sections of 2-3 substantial paragraphs each — aim for roughly 100-150 
  * backlog untouched, instead of walking the whole queue stamping good cards
  * as examined and permanently skipping them.
  *
- * Covers both failure modes seen in practice: 429 RESOURCE_EXHAUSTED
+ * Covers every failure mode seen in practice: 429 RESOURCE_EXHAUSTED
  * ("prepayment credits are depleted", which killed the nightly top-up for
- * five runs) and 403 PERMISSION_DENIED ("your project has been denied
- * access"), which survives a credit top-up and needs Google support.
+ * five runs); 403 PERMISSION_DENIED ("your project has been denied access"),
+ * which survives a credit top-up and needs Google support; and 5xx overload
+ * ("this model is currently experiencing high demand"), which Flash returns
+ * in bursts. generateJSON already retries the transient ones with backoff, so
+ * reaching here means they didn't clear — treat that as an outage and stop,
+ * rather than walking the rest of the backlog stamping cards as examined.
  */
 function isProviderUnavailable(e: unknown): boolean {
   const msg = e instanceof Error ? e.message : String(e);
-  return /RESOURCE_EXHAUSTED|PERMISSION_DENIED|UNAUTHENTICATED|prepayment credits|denied access|quota|API key not valid|\b(401|403|429)\b/i.test(
+  return /RESOURCE_EXHAUSTED|PERMISSION_DENIED|UNAUTHENTICATED|UNAVAILABLE|prepayment credits|denied access|high demand|overloaded|quota|API key not valid|\b(401|403|429|500|502|503|504)\b/i.test(
     msg
   );
 }
@@ -112,11 +116,12 @@ async function generateFor(card: {
 }): Promise<{ ok: boolean; words: number; reason?: string }> {
   let raw: string;
   try {
-    // Gemini explicitly rather than generateJSON's Gemini→Groq fallback.
-    // Articles are the whole anti-thin-content play; a weaker model's
-    // 800 words would be written once, marked examined, and never revisited.
-    // Better to wait for Gemini than to permanently fill the slot.
-    raw = (await generateJSONWith("gemini", buildPrompt(card))).text;
+    // generateJSON, not generateJSONWith("gemini", ...): both are Gemini-only
+    // now that the Groq fallback is gone, but only generateJSON retries 5xx
+    // and 429 with backoff. Going direct meant a single transient 503 —
+    // "this model is currently experiencing high demand", which Flash returns
+    // in bursts — burned the card as a per-card failure and skipped it for good.
+    raw = (await generateJSON(buildPrompt(card))).text;
   } catch (e) {
     if (isProviderUnavailable(e))
       throw new ProviderUnavailable(e instanceof Error ? e.message : String(e));
