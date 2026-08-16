@@ -1,17 +1,23 @@
 /**
- * Provider-agnostic LLM wrapper. Tries Gemini first (paid key as of
- * 2026-07-19 — prior default was the free tier's ~10 req/min, ~250 req/day
- * for Flash); falls back to Groq (Llama 3.3 70B) on 429/5xx or when no
- * Gemini key is configured. Scheduled scripts still cap their own volume
- * (TOPUP_MAX_CATEGORIES, ENRICH_MAX_PER_RUN) so a day's scripted calls leave
- * quota for interactive depth requests — raised, not removed, since paid
- * quota is large but not infinite.
+ * LLM wrapper. **Gemini is the only provider that may author anything the
+ * site serves** — cards, articles, depth variants, quiz/guess enrichment.
+ * Groq (Llama 3.3 70B) remains configured for exactly one job: acting as the
+ * independent second opinion in the cross-model fact-check (see verifierFor
+ * below), where the point is that it is a *different* model, not a better one.
  *
- * Two callers with different latency needs:
- *  - content scripts (scripts/generate-content.ts): patient, retry Gemini
- *    with backoff before falling back — daily quota recovers.
- *  - the depth-variant route (a user is waiting on a button): pass
- *    `interactive: true` to swap to Groq instantly on the first failure.
+ * It used to be a generation fallback on 429/5xx. That was removed: a
+ * fallback-authored card or article is written once and then lives on the
+ * site indefinitely, and shipping visibly weaker content is a worse outcome
+ * than generating nothing that night. Gemini failing now means the run fails,
+ * loudly, and retries next time.
+ *
+ * Scheduled scripts cap their own volume (TOPUP_MAX_CATEGORIES,
+ * ENRICH_MAX_PER_RUN, ARTICLE_MAX_PER_RUN) so a day's scripted calls leave
+ * quota for interactive depth requests — paid quota is large but not
+ * infinite, and it has run out in practice.
+ *
+ * `interactive: true` (the depth route, where a user is waiting on a button)
+ * takes one short-timeout attempt instead of retrying with backoff.
  *
  * submitBatch/listBatches/deleteBatch/batchResults wrap Gemini's batch mode
  * (async, ~half price) via the @google/genai SDK — used only by the nightly
@@ -155,6 +161,13 @@ export function cosineSimilarity(a: number[], b: number[]): number {
 /**
  * Which provider should independently verify a card: the one that did NOT
  * generate it. Returns null when that provider's key isn't configured.
+ *
+ * This is the *only* remaining use of Groq, and the reason GROQ_API_KEY is
+ * still worth setting. Since essentially every card is Gemini-authored,
+ * dropping that key makes this return null, which makes crossVerify report
+ * "skipped" — the cross-model fact-check then silently stops running and
+ * cards publish unverified. seed-content.ts warns loudly when that happens
+ * rather than letting it pass unnoticed.
  */
 export function verifierFor(modelUsed: string | null | undefined): "gemini" | "groq" | null {
   const generatedByGemini = (modelUsed ?? "").toLowerCase().includes("gemini");
@@ -162,19 +175,25 @@ export function verifierFor(modelUsed: string | null | undefined): "gemini" | "g
   return process.env.GEMINI_API_KEY ? "gemini" : null;
 }
 
-/** Run a JSON prompt against one specific provider (for cross-verification). */
+/**
+ * Run a JSON prompt against one specific provider. The "groq" branch exists
+ * only for cross-verification — never call it to author content.
+ */
 export async function generateJSONWith(provider: "gemini" | "groq", prompt: string): Promise<GenerateResult> {
   if (provider === "gemini") return generateWithGemini(prompt, process.env.GEMINI_API_KEY!);
   return generateWithGroq(prompt, process.env.GROQ_API_KEY!);
 }
 
 /**
- * Generate a JSON response. Retries Gemini with backoff on rate limits
- * (free tier is easy to trip when generating many categories in a row),
- * then falls back to Groq if configured.
+ * Generate a JSON response with Gemini, retrying with backoff on rate limits.
  *
- * `interactive: true` (someone is waiting on the response): one Gemini
- * attempt with a short timeout, then straight to Groq — no backoff sleeps.
+ * Gemini-only by design — there is no fallback generator (see the module
+ * comment). If Gemini can't answer, this throws and the caller decides:
+ * content scripts leave the work queued for the next run rather than
+ * publishing something weaker.
+ *
+ * `interactive: true` (someone is waiting on the response): one attempt with
+ * a short timeout instead of backoff sleeps.
  */
 export async function generateJSON(
   prompt: string,
@@ -182,39 +201,30 @@ export async function generateJSON(
 ): Promise<GenerateResult> {
   const interactive = opts?.interactive ?? false;
   const geminiKey = process.env.GEMINI_API_KEY;
-  const groqKey = process.env.GROQ_API_KEY;
-  if (!geminiKey && !groqKey) {
-    throw new Error("No AI provider configured: set GEMINI_API_KEY and/or GROQ_API_KEY");
+  if (!geminiKey) {
+    throw new Error("No content generator configured: set GEMINI_API_KEY");
   }
 
   let lastError: unknown;
-  if (geminiKey) {
-    const attempts = interactive ? 1 : 3;
-    for (let attempt = 1; attempt <= attempts; attempt++) {
-      try {
-        return await generateWithGemini(prompt, geminiKey, interactive ? 20_000 : 120_000);
-      } catch (e) {
-        lastError = e;
-        const status = e instanceof ProviderError ? e.status : 0;
-        // 404 = model retired/renamed — retrying won't help, go to fallback.
-        if (status === 404) break;
-        const retryable = status === 429 || status >= 500 || status === 0;
-        if (!retryable) throw e;
-        if (attempt < attempts) {
-          const wait = attempt * 30_000;
-          console.warn(`  Gemini ${status} — retrying in ${wait / 1000}s (attempt ${attempt + 1}/${attempts})`);
-          await sleep(wait);
-        }
+  const attempts = interactive ? 1 : 3;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      return await generateWithGemini(prompt, geminiKey, interactive ? 20_000 : 120_000);
+    } catch (e) {
+      lastError = e;
+      const status = e instanceof ProviderError ? e.status : 0;
+      // 404 = model retired/renamed — retrying won't help.
+      if (status === 404) throw e;
+      const retryable = status === 429 || status >= 500 || status === 0;
+      if (!retryable) throw e;
+      if (attempt < attempts) {
+        const wait = attempt * 30_000;
+        console.warn(`  Gemini ${status} — retrying in ${wait / 1000}s (attempt ${attempt + 1}/${attempts})`);
+        await sleep(wait);
       }
     }
-    if (!groqKey) throw lastError;
-    console.warn(
-      interactive
-        ? `  Gemini unavailable — switching to Groq immediately`
-        : `  Gemini exhausted retries — falling back to Groq`
-    );
   }
-  return generateWithGroq(prompt, groqKey!);
+  throw lastError;
 }
 
 export type BatchRequestItem = { key: string; prompt: string };

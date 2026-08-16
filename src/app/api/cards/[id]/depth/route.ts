@@ -78,7 +78,9 @@ export async function POST(
     });
   }
 
-  if (!process.env.GEMINI_API_KEY && !process.env.GROQ_API_KEY) {
+  // Gemini-only: Groq no longer authors anything the site serves, and a depth
+  // variant is a real Card row that persists (ai-provider.ts).
+  if (!process.env.GEMINI_API_KEY) {
     return NextResponse.json({ error: "depth variants unavailable" }, { status: 503 });
   }
 

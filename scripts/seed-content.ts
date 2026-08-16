@@ -455,6 +455,18 @@ async function importMisconceptions(
 }
 
 async function main() {
+  // Groq is no longer a generator — its one remaining job is being the
+  // independent verifier for Gemini-authored cards (see verifierFor). Without
+  // it crossVerify degrades to "skipped" for every card, so the fact-check
+  // stops running while the import still reports success. Too quiet a failure
+  // for a gate the /about page tells readers about, so say it out loud.
+  if (!process.env.GROQ_API_KEY) {
+    console.warn(
+      "  ! GROQ_API_KEY not set — the cross-model fact-check cannot run. " +
+        "Cards will publish with URL-liveness and duplicate checks only."
+    );
+  }
+
   const files = await listJsonFiles(CONTENT_DIR);
   console.log(`Found ${files.length} content file(s).`);
   const stats = {

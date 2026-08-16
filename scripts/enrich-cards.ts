@@ -107,8 +107,9 @@ async function enrichBatch(
 }
 
 async function main() {
-  if (!process.env.GEMINI_API_KEY && !process.env.GROQ_API_KEY) {
-    console.log("Card enrichment skipped (no AI keys configured).");
+  // Gemini-only: Groq no longer authors anything the site serves (ai-provider.ts).
+  if (!process.env.GEMINI_API_KEY) {
+    console.log("Card enrichment skipped (no GEMINI_API_KEY configured).");
     return;
   }
 

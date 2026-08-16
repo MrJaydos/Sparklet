@@ -50,7 +50,7 @@ safety net either way.
 | Secret | Purpose |
 | --- | --- |
 | `GEMINI_API_KEY` | Primary generator (aistudio.google.com; paid key recommended — the free tier's ~250 req/day is tight once content generation, fact-check verification, and live depth requests all share it) |
-| `GROQ_API_KEY` | Fallback provider (console.groq.com, free tier) |
+| `GROQ_API_KEY` | Cross-model fact-check verifier only (console.groq.com, free tier). Not a generation fallback — Gemini authors everything the site serves. Without this key the fact-check silently stops running, so cards publish with only URL-liveness and duplicate checks |
 | `APP_URL` | Deployed app URL, e.g. `https://sparklet.example.com` |
 
 Optional repo **variables**: `MIN_BANK` (default 40), `TOPUP_COUNT` (default 10).

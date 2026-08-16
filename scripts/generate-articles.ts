@@ -13,7 +13,7 @@
  * token ceiling.
  */
 import "dotenv/config";
-import { PrismaClient } from "../src/generated/prisma/client";
+import { PrismaClient, Prisma } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { generateJSONWith } from "../src/lib/ai-provider";
 import { articleSchema, countArticleWords, ARTICLE_MIN_WORDS } from "../src/lib/article";
@@ -30,9 +30,12 @@ const prisma = new PrismaClient({
 const MAX_PER_RUN = Number(process.env.ARTICLE_MAX_PER_RUN) || 40;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-// Target comfortably above ARTICLE_MIN_WORDS so ordinary variance in model
-// output doesn't land under the indexability floor and waste the call.
-const TARGET_WORDS = "800-1100";
+// Target well above ARTICLE_MIN_WORDS. Asking for 800-1100 produced ~660
+// words in practice — models systematically under-deliver on length, and at
+// that setting most articles landed under the 600-word floor and weren't
+// indexable (6 of 40 cleared it on the first production run). Overshooting
+// the ask is the correction; the floor stays where it is.
+const TARGET_WORDS = "1100-1500";
 
 function buildPrompt(card: {
   title: string;
@@ -77,7 +80,7 @@ Respond with JSON only:
   ],
   "keyTakeaways": ["<one specific, substantive takeaway>", "..."]
 }
-Use 3-6 sections of 1-3 paragraphs each, and 2-4 key takeaways. Every paragraph must be at least 40 characters.`;
+Use 5-7 sections of 2-3 substantial paragraphs each — aim for roughly 100-150 words per paragraph, not one-liners — and 3-4 key takeaways. Every paragraph must be at least 40 characters.`;
 }
 
 /**
@@ -158,11 +161,31 @@ async function main() {
     return;
   }
 
-  const remaining = await prisma.card.count({
-    where: { published: true, depthLevel: "STANDARD", articleAt: null },
-  });
+  // ARTICLE_RETRY_SHORT=1 re-attempts cards that were already examined but
+  // aren't indexable — ones whose article came in under the floor, or whose
+  // generation failed. Opt-in rather than automatic: without the flag a
+  // topic that genuinely can't support 600 grounded words would be retried
+  // on every deploy forever. Use it after changing the prompt or the target
+  // length, which is exactly when the earlier verdicts stop being valid.
+  const retryShort = process.env.ARTICLE_RETRY_SHORT === "1";
+  const where: Prisma.CardWhereInput = {
+    published: true,
+    depthLevel: "STANDARD",
+    ...(retryShort
+      ? {
+          OR: [
+            { articleAt: null },
+            { articleWords: null },
+            { articleWords: { lt: ARTICLE_MIN_WORDS } },
+          ],
+        }
+      : { articleAt: null }),
+  };
+  if (retryShort) console.log("[articles] ARTICLE_RETRY_SHORT=1 — re-attempting non-indexable articles.");
+
+  const remaining = await prisma.card.count({ where });
   const cards = await prisma.card.findMany({
-    where: { published: true, depthLevel: "STANDARD", articleAt: null },
+    where,
     // Highest-scoring first: if the run is capped, the cards most likely to
     // be read (and linked) get their article first.
     orderBy: [{ score: "desc" }, { createdAt: "desc" }],
