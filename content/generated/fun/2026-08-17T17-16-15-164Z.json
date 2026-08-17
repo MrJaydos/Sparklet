@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.164Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Australian beetles once nearly mated themselves to extinction with beer bottles",
+      "body": "In Western Australia, male jewel beetles developed a dangerous passion for discarded brown beer bottles known as stubbies. The bottles featured glossy golden-brown glass and textured dimples that male beetles mistook for gigantic, super-attractive females. Entranced males ignored real mates and mounted the hot glass under the scorching sun until they died of heat exhaustion. The crisis was so severe that brewing companies eventually changed their bottle designs to save the species.",
+      "imageWikipediaTitle": "Julodimorpha",
+      "sources": [
+        {
+          "title": "The Love That Dare Not Speak Its Name Of A Beetle For A Beer Bottle",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/sections/krulwich/2013/06/19/193493225/the-love-that-dare-not-speak-its-name-of-a-beetle-for-a-beer-bottle"
+        },
+        {
+          "title": "Julodimorpha",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Julodimorpha"
+        }
+      ],
+      "readMoreUrl": "https://www.npr.org/sections/krulwich/2013/06/19/193493225/the-love-that-dare-not-speak-its-name-of-a-beetle-for-a-beer-bottle",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The African crested rat turns itself poisonous by chewing toxic tree bark",
+      "body": "The African crested rat is the only known mammal that arms itself with plant poison to ward off predators. It chews the bark of the poison arrow tree, which contains lethal ouabain, and carefully slathers the toxic saliva across specialized, sponge-like hairs on its flanks. When a predator like a dog or leopard bites the rat, it gets a mouth full of cardiac toxin strong enough to induce heart failure and kill the attacker.",
+      "imageWikipediaTitle": "African crested rat",
+      "sources": [
+        {
+          "title": "These Fluffy Rats Chew Toxic Plants to Poison Their Predators",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/smart-news/these-fluffy-rats-chew-toxic-plants-poison-their-predators-180976378/"
+        },
+        {
+          "title": "African crested rat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/African_crested_rat"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/smart-news/these-fluffy-rats-chew-toxic-plants-poison-their-predators-180976378/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The smell of freshly cut grass is actually a botanical scream for help",
+      "body": "That crisp, nostalgic aroma of a freshly mowed lawn is not a perfume made to delight humans. It is an airborne chemical distress flare. When grass blades are sliced open, the plant immediately synthesizes compounds called green leaf volatiles. These chemicals help disinfect and seal the plant's wounds while sending urgent airborne alarms that can prompt neighboring plants to bolster their chemical defenses or summon predatory insects to hunt whatever is munching the grass.",
+      "imageWikipediaTitle": "Lawn",
+      "sources": [
+        {
+          "title": "That Smell Of Freshly Cut Grass Is Actually A Plant Distress Call",
+          "publisher": "Texas A&M University",
+          "url": "https://today.tamu.edu/2014/09/23/that-smell-of-freshly-cut-grass-is-actually-a-plant-distress-call/"
+        },
+        {
+          "title": "Green leaf volatiles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Green_leaf_volatiles"
+        }
+      ],
+      "readMoreUrl": "https://today.tamu.edu/2014/09/23/that-smell-of-freshly-cut-grass-is-actually-a-plant-distress-call/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Medieval nobles genuinely believed their bodies were made of fragile glass",
+      "body": "Between the fourteenth and seventeenth centuries, a strange psychiatric epidemic known as the glass delusion gripped wealthy Europeans. Sufferers genuinely believed their bones or entire bodies were made of fragile glass and lived in constant terror of shattering. King Charles VI of France had iron rods sewn into his clothing to keep from breaking, while Princess Alexandra of Bavaria walked sideways through doorways because she was convinced she had swallowed a glass grand piano as a child.",
+      "imageWikipediaTitle": "Charles VI of France",
+      "sources": [
+        {
+          "title": "The people who thought they were made of glass",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/magazine-32742534"
+        },
+        {
+          "title": "Glass delusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glass_delusion"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/magazine-32742534",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Shaving does not make hair grow back thicker, darker, or faster",
+      "body": "It is one of the most widely repeated grooming myths, but shaving has zero impact on hair thickness or growth rate. Natural hair tapers to a soft, thin point at the tip. When a razor slices through a strand, it creates a blunt, flat edge right at the skin surface. As this short stubble emerges, it feels stiffer to the touch and looks darker against the skin, creating an optical illusion of coarse new growth.",
+      "imageWikipediaTitle": "Shaving",
+      "sources": [
+        {
+          "title": "Does shaving hair make it grow back thicker and faster?",
+          "publisher": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427"
+        },
+        {
+          "title": "Shaving",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shaving"
+        }
+      ],
+      "readMoreUrl": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/expert-answers/hair-removal/faq-20058427",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What caused Australian jewel beetles to repeatedly attempt mating with discarded beer bottles?",
+      "options": [
+        "The brown glass and dimpled texture resembled giant female beetles",
+        "The bottles radiated pheromones absorbed from spilled beer",
+        "The curved glass amplified acoustic mating vibrations",
+        "The moisture inside the bottles attracted female beetles in swarms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dimpled brown beer bottles closely mimicked the shiny elytra and color of unusually large female jewel beetles."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does the African crested rat make its coat lethally poisonous to predators?",
+      "options": [
+        "It chews toxic tree bark and smears the saliva onto its flank fur",
+        "It secretes venom directly from modified sweat glands on its back",
+        "It eats poisonous toads and stores the toxins in skin bladders",
+        "It rolls in natural mineral deposits of arsenic and sulfur"
+      ],
+      "correctIndex": 0,
+      "explanation": "The crested rat chews bark from the poison arrow tree and slathers the ouabain-rich saliva into specialized absorbent fur."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What actually produces the characteristic scent of freshly mown grass?",
+      "options": [
+        "Airborne distress chemicals synthesized to seal wounds and deter threats",
+        "Caramelized plant sugars heated by rapid mower blade friction",
+        "Microscopic fungal spores launched into the air by severed blades",
+        "Chlorophyll evaporating under direct exposure to sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Injured grass blades release green leaf volatiles as an immediate chemical response to physical trauma."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the central fear of people afflicted with the historical 'glass delusion'?",
+      "options": [
+        "They believed their bodies were made of glass and would shatter",
+        "They feared looking into glass mirrors would destroy their reflections",
+        "They believed eating from glass dishware turned internal organs clear",
+        "They thought glass windows allowed demons to enter their minds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Those experiencing the glass delusion genuinely believed their fragile bodies could break into shards upon contact."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does shaved hair feel coarser when it starts growing back?",
+      "options": [
+        "The razor leaves a blunt, flat end instead of a naturally tapered tip",
+        "Shaving activates dormant follicles that produce wider keratin shafts",
+        "Air exposure hardens the protein sheath of exposed hair roots",
+        "Follicles produce extra pigment to protect freshly shaved skin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shaving slices the hair shaft horizontally, creating a flat, blunt tip that feels rougher than a soft tapered point."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The scent of freshly cut grass is an airborne distress signal released by injured plants.",
+      "answer": true,
+      "explanation": "The distinct aroma comes from green leaf volatiles, which grass produces as an emergency wound sealant and alarm call."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Shaving your hair causes it to grow back thicker, darker, and faster.",
+      "answer": false,
+      "explanation": "Shaving only creates a blunt edge on the hair shaft; it does not change the follicle's rate of growth, color, or thickness."
+    }
+  ]
+}

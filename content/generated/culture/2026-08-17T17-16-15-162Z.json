@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.162Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Theater That Uses Flooded Rice Fields as a Stage",
+      "body": "Born in the flooded rice paddies of Vietnam's Red River Delta around the 11th century, water puppetry turns ponds into stages. Puppeteers stand waist-deep in water behind a screen, maneuvering heavy lacquered wood puppets using submerged bamboo rods and string pulleys. The water hides the operating mechanisms, amplifies percussion beats, and creates shimmering reflections that make legendary dragons and farmers seem to glide across the surface.",
+      "imageWikipediaTitle": "Water puppetry",
+      "sources": [
+        {
+          "title": "Water puppetry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Water_puppetry"
+        },
+        {
+          "title": "The art of water puppetry",
+          "publisher": "Vietnam National Authority of Tourism",
+          "url": "https://vietnamtourism.gov.vn/en/post/13876"
+        }
+      ],
+      "readMoreUrl": "https://vietnamtourism.gov.vn/en/post/13876",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Real Balsamic Vinegar Contains Only a Single Ingredient",
+      "body": "Authentic Traditional Balsamic Vinegar of Modena contains just one ingredient: cooked grape must. Unlike common supermarket balsamic, which blends cheap wine vinegar with caramel coloring and thickeners, the traditional condiment undergoes slow fermentation across a decreasing sequence of wooden barrels—such as oak, chestnut, mulberry, and juniper. Over a minimum aging period of 12 to 25 years, evaporation concentrates it into a glossy, complex syrup.",
+      "imageWikipediaTitle": "Balsamic vinegar",
+      "sources": [
+        {
+          "title": "Balsamic vinegar",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/balsamic-vinegar"
+        },
+        {
+          "title": "Traditional balsamic vinegar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Traditional_balsamic_vinegar"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/balsamic-vinegar",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 4,600-Year-Old Board Game Resurrected by a Clay Tablet",
+      "body": "Excavated from Mesopotamian tombs in the 1920s, the Royal Game of Ur was played across the ancient Middle East before vanishing from history. Its rules remained a mystery until the 1980s, when British Museum curator Irving Finkel translated an overlooked Babylonian clay tablet from 177 BCE. Inscribed in cuneiform by an astronomer named Itti-Marduk-balāṭu, the text detailed betting tokens, dice rolls, and strategic paths, bringing a dead game back to life.",
+      "imageWikipediaTitle": "Royal Game of Ur",
+      "sources": [
+        {
+          "title": "The Royal Game of Ur",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/W_1928-1009-378"
+        },
+        {
+          "title": "Royal Game of Ur",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Royal_Game_of_Ur"
+        }
+      ],
+      "readMoreUrl": "https://www.britishmuseum.org/collection/object/W_1928-1009-378",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Revolutionary Lace Woven Out of Thin Air",
+      "body": "In 16th-century Venice, textile artisans invented *punto in aria*—literally 'stitch in the air.' Earlier lace techniques required a woven linen base from which artisans carefully pulled or cut away threads. Venetian lacemakers eliminated the fabric foundation entirely, using only fine needle and thread to form self-supporting geometric and floral loops anchored to temporary parchment, creating the world's first true needle lace.",
+      "imageWikipediaTitle": "Needle lace",
+      "sources": [
+        {
+          "title": "Punto in aria",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/art/punto-in-aria"
+        },
+        {
+          "title": "Needle lace",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Needle_lace"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/punto-in-aria",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Crimson Dye Made from Crushed Insects",
+      "body": "For over two centuries, Spain fiercely guarded the origin of cochineal, a brilliant scarlet dye obtained from scale insects living on Mexican prickly pear cacti. Far more vibrant and colorfast than European plant dyes, dried cochineal became the Spanish Empire's most valuable New World export after silver. It colored the robes of Catholic cardinals, European royalty, and the iconic British military 'Redcoats.'",
+      "imageWikipediaTitle": "Cochineal",
+      "sources": [
+        {
+          "title": "Cochineal",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/technology/cochineal"
+        },
+        {
+          "title": "Cochineal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cochineal"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/cochineal",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where did traditional Vietnamese water puppetry originate?",
+      "options": [
+        "In the flooded rice paddies of the Red River Delta",
+        "In the floating fishing villages along the Mekong River",
+        "In royal fountains inside the Imperial City of Hue",
+        "In coastal sea caves along Ha Long Bay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Farmers in the Red River Delta invented water puppetry in the 11th century, using flooded fields and ponds as theatrical stages."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the only ingredient used in authentic Traditional Balsamic Vinegar of Modena?",
+      "options": [
+        "Cooked grape must",
+        "Fermented red wine vinegar",
+        "Distilled cider vinegar",
+        "Caramelized cane sugar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Traditional balsamic vinegar of Modena contains 100% cooked grape must, which concentrates through years of wood-barrel aging."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How were the lost rules of the Royal Game of Ur rediscovered?",
+      "options": [
+        "A curator translated a 177 BCE Babylonian cuneiform tablet",
+        "An intact papyrus rulebook was discovered in an Egyptian tomb",
+        "Archaeologists deduced them from medieval Persian chess manuals",
+        "A royal stone stele with engraved instructions was unearthed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Irving Finkel translated a cuneiform clay tablet inscribed by a Babylonian astronomer, which preserved the board game's precise rules."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What made the 16th-century Venetian lace technique 'punto in aria' unique?",
+      "options": [
+        "It was stitched without any woven fabric backing",
+        "It incorporated spun gold wire into silk mesh",
+        "It was woven on automated hydraulic looms",
+        "It was dyed with secret snail secretions"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Punto in aria' means 'stitch in the air' because artisans stitched intricate designs directly with needle and thread without a linen base."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the biological source of the vibrant red dye cochineal?",
+      "options": [
+        "Scale insects that feed on prickly pear cacti",
+        "Crushed roots of wild desert madder plants",
+        "Secretions from Mediterranean sea snails",
+        "Resin extracted from dragon blood trees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cochineal dye is extracted from the dried bodies of scale insects (*Dactylopius coccus*) native to tropical and subtropical America."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What is the minimum number of years authentic Traditional Balsamic Vinegar of Modena must age before bottling?",
+      "answer": 12,
+      "min": 1,
+      "max": 40,
+      "unit": "years",
+      "explanation": "Traditional balsamic vinegar must age for at least 12 years in a series of wooden barrels, while 'extra vecchio' ages for at least 25 years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Commercial supermarket balsamic vinegar is made the same way as traditional Modena balsamic.",
+      "answer": false,
+      "explanation": "Mass-market balsamic vinegar is typically ordinary wine vinegar blended with caramel coloring and thickeners, unlike true barrel-aged grape must."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The historic red dye cochineal comes from crushed insects rather than a plant or mineral.",
+      "answer": true,
+      "explanation": "Cochineal is made from the harvested, dried, and crushed bodies of tiny scale insects that parasitize prickly pear cacti."
+    }
+  ]
+}

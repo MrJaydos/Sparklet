@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.156Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why sharing a birthday with your client doubles deal success",
+      "body": "Pointing out a trivial coincidence, like sharing a birthday, hometown, or favorite sports team, can dramatically boost persuasion. In psychology experiments led by Jerry Burger, uncovering an incidental similarity doubled compliance with a request from 34% to 62%. Unconscious affinity leads people to perceive common ground, triggering warmth and trust that make sales conversations far smoother.",
+      "imageWikipediaTitle": "Birthday",
+      "sources": [
+        {
+          "title": "What makes us click with others? The effect of incidental similarity on compliance",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15641973/"
+        },
+        {
+          "title": "Similarity (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Similarity_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/15641973/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why badmouthing competitors boomerangs back onto you",
+      "body": "Criticizing a rival's poor service or dishonesty during a pitch feels like an easy win, but it often backfires through spontaneous trait transference. When you describe someone else's flaws, listeners unconsciously associate those exact negative traits with you. Even when buyers know rationally you are describing a competitor, their subconscious memory links the negative adjectives to the person speaking.",
+      "imageWikipediaTitle": "Gossip",
+      "sources": [
+        {
+          "title": "Spontaneous trait transference: Communicators take on the qualities they describe in others",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9555106/"
+        },
+        {
+          "title": "Spontaneous trait transference",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spontaneous_trait_transference"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spontaneous_trait_transference",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why locking eye contact can backfire during a tough pitch",
+      "body": "Sales advice often demands unbroken eye contact to project confidence, but research shows it can actually derail persuasion. A study in Psychological Science found that when listeners disagree with a speaker's position, prolonged direct eye contact increases resistance rather than agreement. Skeptical prospects perceive sustained staring as dominant or confrontational, driving them further into their defensive positions.",
+      "imageWikipediaTitle": "Eye contact",
+      "sources": [
+        {
+          "title": "In the eye of the beholder: eye contact increases resistance to persuasion",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24089920/"
+        },
+        {
+          "title": "Eye contact",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eye_contact"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/24089920/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a single metaphor quietly steers your buyer's decision",
+      "body": "The metaphors you choose to describe a business problem can quietly determine which solution a client buys. In cognitive experiments at Stanford, participants presented with identical crime statistics recommended radically different solutions depending on whether crime was framed as a \"beast\" (favoring enforcement) or a \"virus\" (favoring social reform). Choosing the right metaphor guides how prospects categorize problems and evaluate your product.",
+      "imageWikipediaTitle": "Metaphor",
+      "sources": [
+        {
+          "title": "Metaphors We Think With: The Role of Metaphor in Reasoning",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plosone.org/plosone/article?id=10.1371/journal.pone.0016782"
+        },
+        {
+          "title": "Framing (social sciences)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Framing_(social_sciences)"
+        }
+      ],
+      "readMoreUrl": "https://journals.plosone.org/plosone/article?id=10.1371/journal.pone.0016782",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why speaking slightly faster makes you sound more credible",
+      "body": "Speaking at a brisk pace can make your sales pitch significantly more persuasive. Classic research by Norman Miller found that speakers delivering arguments at 210 words per minute were rated as more knowledgeable, objective, and convincing than those speaking at a leisurely 140 words per minute. Faster speech conveys confidence and mastery while giving the listener less time to generate counterarguments.",
+      "imageWikipediaTitle": "Public speaking",
+      "sources": [
+        {
+          "title": "Speed of speech and persuasion",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/993976/"
+        },
+        {
+          "title": "Speech tempo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Speech_tempo"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/993976/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happens when a prospect discovers an incidental similarity like a shared birthday with a salesperson?",
+      "options": [
+        "Compliance rates nearly double",
+        "The prospect becomes more skeptical",
+        "Price negotiations stall completely",
+        "Persuasion only works on written offers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Research showed discovering an incidental similarity raised compliance from 34% to 62%."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is 'spontaneous trait transference' in sales conversations?",
+      "options": [
+        "Buyers unconsciously attribute the negative qualities you describe in rivals to you",
+        "Competitors adopt your pricing strategy after hearing your pitch",
+        "Prospects transfer their budget to new departments",
+        "Sales reps unconsciously mimic their clients' speech patterns"
+      ],
+      "correctIndex": 0,
+      "explanation": "Listeners unconsciously connect the negative adjectives you use against others to you."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to research, how does direct eye contact affect listeners who already disagree with a speaker?",
+      "options": [
+        "It increases their resistance to persuasion",
+        "It immediately wins their trust and agreement",
+        "It makes them forget their counterarguments",
+        "It forces them to concede the debate"
+      ],
+      "correctIndex": 0,
+      "explanation": "When listeners are skeptical or unpersuaded, intense eye contact feels dominant and stiffens resistance."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Stanford framing research, what happened when a problem was described using different metaphors?",
+      "options": [
+        "Audiences favored completely different solutions despite identical data",
+        "Audiences rejected the underlying statistics",
+        "Audiences ignored the metaphor entirely",
+        "Audiences demanded lower product prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metaphors like 'virus' vs. 'beast' steered people toward reform vs. enforcement without changing any facts."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does a brisk rate of speech often increase a speaker's persuasiveness?",
+      "options": [
+        "It signals confidence and leaves less time for counterarguments",
+        "It forces the listener to agree out of confusion",
+        "It raises the emotional pitch of the message",
+        "It makes the pitch sound like a legally binding contract"
+      ],
+      "correctIndex": 0,
+      "explanation": "Faster delivery projects mastery and reduces the cognitive window for listeners to formulate rebuttals."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In a study on persuasion, what percentage of people agreed to a request after discovering a shared birthday with the asker (up from 34%)?",
+      "answer": 62,
+      "min": 20,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Incidental similarities like a shared birthday nearly doubled compliance from 34% to 62%."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In classic research on speech rate, how many words per minute did the most persuasive speakers deliver (compared to 140 WPM)?",
+      "answer": 210,
+      "min": 100,
+      "max": 350,
+      "unit": "words",
+      "explanation": "Speakers delivering arguments at 210 words per minute were judged significantly more credible and persuasive than at 140 WPM."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Describing a competitor's flaws makes a salesperson seem more competent and trustworthy by comparison.",
+      "answer": false,
+      "explanation": "Through spontaneous trait transference, listeners unconsciously associate the negative traits you describe with you, not just your rival."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Holding intense eye contact always makes your pitch more persuasive, even to skeptical buyers.",
+      "answer": false,
+      "explanation": "When prospects disagree with your stance, prolonged eye contact feels confrontational and increases their resistance."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.164Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You only breathe primarily through one nostril at a time",
+      "body": "Throughout the day, your autonomic nervous system quietly alternates airflow between your nostrils every few hours. Swelling erectile tissue in one nostril gently restricts air while opening the other, switching sides back and forth. This natural cycle prevents nasal passages from drying out and enhances your sense of smell, since some odor molecules need fast-moving air to be detected while others require slower transit.",
+      "imageWikipediaTitle": "Nose",
+      "sources": [
+        {
+          "title": "Physiology, Nasal Airflow",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK549841/"
+        },
+        {
+          "title": "Nasal cycle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nasal_cycle"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK549841/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your lungs produce a massive share of your blood platelets",
+      "body": "For decades, biology textbooks taught that blood cells, including clotting platelets, are made almost entirely in bone marrow. However, researchers discovered that megakaryocytes—large precursor cells—mature and release up to half of the body's platelets inside the microvasculature of the lungs. The mechanical blood flow in pulmonary capillary beds helps shred these cells into circulating platelets vital for wound healing.",
+      "imageWikipediaTitle": "Platelet",
+      "sources": [
+        {
+          "title": "The lung is a site of platelet biogenesis and a reservoir for haematopoietic progenitors",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5568800/"
+        },
+        {
+          "title": "Megakaryocyte",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Megakaryocyte"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5568800/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The smallest bone in your body is smaller than a grain of rice",
+      "body": "Tucked deep within your middle ear, the stapes—often called the stirrup—measures just 3 millimeters long and weighs only a few milligrams. Despite its tiny size, this miniature bone plays a vital acoustic role: it acts as a mechanical piston, converting air vibrations captured by the eardrum into hydraulic waves in the fluid of your inner ear, allowing sound to reach your brain.",
+      "imageWikipediaTitle": "Stapes",
+      "sources": [
+        {
+          "title": "Anatomy, Head and Neck, Ear Ossicles",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545262/"
+        },
+        {
+          "title": "Stapes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stapes"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK545262/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why bright sunlight makes millions of people suddenly sneeze",
+      "body": "Step out into blinding midday sun, and there is about a one-in-four chance you will instantly sneeze. Known scientifically as the photic sneeze reflex, this genetic trait happens because of crossed signals between cranial nerves. When the optic nerve detects intense light, electrical activity inadvertently stimulates the nearby trigeminal nerve, which controls facial sensations, tricking the brain into sensing an irritation inside the nose.",
+      "imageWikipediaTitle": "Sneezing",
+      "sources": [
+        {
+          "title": "Photic sneeze reflex",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/genetics/condition/photic-sneeze-reflex/"
+        },
+        {
+          "title": "Photic sneeze reflex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Photic_sneeze_reflex"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/genetics/condition/photic-sneeze-reflex/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Aerobic exercise physically prompts your brain to grow new neurons",
+      "body": "Sustained cardiovascular workouts do not just strengthen heart and muscle tissue—they trigger neurogenesis in the adult hippocampus, the brain center responsible for learning and memory. When muscles contract during exercise, they release metabolic factors that cross the blood-brain barrier and elevate brain-derived neurotrophic factor, a protein that acts like fertilizer by stimulating the growth, survival, and synaptic connections of newly formed brain cells.",
+      "imageWikipediaTitle": "Hippocampus",
+      "sources": [
+        {
+          "title": "The Effects of Acute and Chronic Exercise on Cognitive Function",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915811/"
+        },
+        {
+          "title": "Neurobiological effects of physical exercise",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neurobiological_effects_of_physical_exercise"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915811/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary purpose of the body's alternating nasal cycle?",
+      "options": [
+        "To prevent nasal dryness and improve smell detection",
+        "To regulate core body temperature",
+        "To filter out ambient toxic gases",
+        "To equalize middle ear pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The nasal cycle alternates airflow between nostrils to maintain tissue moisture and allow detection of both fast- and slow-absorbing odor molecules."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Besides bone marrow, which organ has been found to produce a substantial portion of your blood platelets?",
+      "options": [
+        "The kidneys",
+        "The lungs",
+        "The spleen",
+        "The liver"
+      ],
+      "correctIndex": 1,
+      "explanation": "Megakaryocytes travel to the lungs, where mechanical blood flow helps release a large share of the body's circulating platelets."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the smallest bone in the human body?",
+      "options": [
+        "Malleus",
+        "Incus",
+        "Hyoid",
+        "Stapes"
+      ],
+      "correctIndex": 3,
+      "explanation": "The stapes, located in the middle ear, measures only about 3 millimeters in length."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What neural mechanism triggers the photic sneeze reflex in bright sunlight?",
+      "options": [
+        "Optic nerve activity crossing over to stimulate the trigeminal nerve",
+        "Sudden thermal expansion of blood vessels in the nose",
+        "Direct UV stimulation of mucosal light receptors",
+        "Rapid histamine release caused by bright light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intense optic nerve stimulation inadvertently activates the nearby trigeminal nerve, causing the brain to misinterpret the light as a nasal tickle."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which protein is elevated during aerobic exercise to stimulate the growth of new brain neurons?",
+      "options": [
+        "Brain-derived neurotrophic factor (BDNF)",
+        "Erythropoietin (EPO)",
+        "Myostatin",
+        "Cortisol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aerobic workouts stimulate the production of BDNF, which supports neurogenesis and synaptic plasticity in the hippocampus."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How long is the stapes, the smallest bone in the human body?",
+      "answer": 3,
+      "min": 1,
+      "max": 25,
+      "unit": "mm",
+      "explanation": "The stapes bone in your middle ear is only about 3 millimeters long, smaller than a single grain of rice."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Roughly what percentage of people sneeze when suddenly exposed to bright sunlight?",
+      "answer": 25,
+      "min": 2,
+      "max": 80,
+      "unit": "%",
+      "explanation": "About 25% of the human population carries the genetic trait responsible for the photic sneeze reflex."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "When you breathe through your nose, equal amounts of air pass through both nostrils at all times.",
+      "answer": false,
+      "explanation": "Your autonomic nervous system regularly restricts airflow in one nostril and opens the other in a natural alternating cycle."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Bone marrow is the only place in the human body where blood platelets are produced.",
+      "answer": false,
+      "explanation": "Researchers found that megakaryocytes in the lungs also produce up to half of circulating blood platelets."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The adult human brain cannot generate new neurons once it finishes developing in adolescence.",
+      "answer": false,
+      "explanation": "Aerobic exercise triggers the release of BDNF, which actively stimulates the birth of new neurons in the adult hippocampus."
+    }
+  ]
+}

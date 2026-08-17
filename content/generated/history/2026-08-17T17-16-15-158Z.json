@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.158Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Olympic Games Once Awarded Medals for Fine Arts",
+      "body": "Between 1912 and 1948, the Olympic Games awarded official medals in fine arts alongside athletic events. Inspired by Pierre de Coubertin's vision of uniting mind and body, contestants submitted original works in architecture, literature, music, painting, and sculpture, all themed around sport. The competitions were discontinued after 1948 because the vast majority of participating artists were professionals, violating the era's strict amateurism rules.",
+      "imageWikipediaTitle": "Art competitions at the Summer Olympics",
+      "sources": [
+        {
+          "title": "When the Olympics Gave Out Medals for Art",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/when-the-olympics-gave-out-medals-for-art-6878965/"
+        },
+        {
+          "title": "Art competitions at the Summer Olympics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Art_competitions_at_the_Summer_Olympics"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/arts-culture/when-the-olympics-gave-out-medals-for-art-6878965/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fire Preserved the World's Oldest Royal Library",
+      "body": "In the 7th century BCE, Neo-Assyrian king Ashurbanipal assembled an immense systematic library at Nineveh in modern-day Iraq. His scribes gathered over 30,000 cuneiform clay tablets covering medicine, astronomy, state treaties, and the Epic of Gilgamesh. When invaders torched the royal palace in 612 BCE, the catastrophic fire did not destroy the collection—it baked and hardened the clay tablets, preserving them for modern archaeologists.",
+      "imageWikipediaTitle": "Library of Ashurbanipal",
+      "sources": [
+        {
+          "title": "Ashurbanipal Library",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/galleries/ashurbanipal-library"
+        },
+        {
+          "title": "Library of Ashurbanipal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal"
+        }
+      ],
+      "readMoreUrl": "https://www.britishmuseum.org/collection/galleries/ashurbanipal-library",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pirate Ships Ran on Radical Workplace Democracy",
+      "body": "During the Golden Age of Piracy, crews operated under written constitutions known as Articles of Agreement. Crew members elected their captains and quartermasters by popular vote, could depose tyrannical leaders, and divided captured plunder through strict share systems. Decades before modern welfare states, pirate agreements even established formal workers' compensation schemes that paid fixed indemnities for lost eyes, fingers, and limbs.",
+      "imageWikipediaTitle": "Pirate code",
+      "sources": [
+        {
+          "title": "What was the Pirate Code?",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/what-was-pirate-code"
+        },
+        {
+          "title": "Pirate code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pirate_code"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/what-was-pirate-code",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Loudest Sound in History Circled Earth Four Times",
+      "body": "When the volcanic island of Krakatoa exploded in August 1883, the blast produced the loudest sound recorded in human history. The detonation ruptured the eardrums of sailors 40 miles away and was heard clearly on Rodrigues Island in the Indian Ocean, nearly 3,000 miles away. The resulting atmospheric shock wave rippled across the globe four times before fading.",
+      "imageWikipediaTitle": "1883 eruption of Krakatoa",
+      "sources": [
+        {
+          "title": "The 1883 Eruption of Krakatau",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/observatories/hvo/news/1883-eruption-krakatau"
+        },
+        {
+          "title": "1883 eruption of Krakatoa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/observatories/hvo/news/1883-eruption-krakatau",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "America's Largest Armed Labor Uprising Was Fought in 1921",
+      "body": "The largest armed insurrection in the United States since the Civil War occurred at Blair Mountain, West Virginia, in late summer 1921. Approximately 10,000 striking coal miners fought against 3,000 armed deputies, state police, and coal company guards. The week-long battle involved machine guns, fortified ridges, and private planes dropping surplus World War I bombs until federal troops stepped in.",
+      "imageWikipediaTitle": "Battle of Blair Mountain",
+      "sources": [
+        {
+          "title": "The Battle of Blair Mountain",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/000/the-battle-of-blair-mountain.htm"
+        },
+        {
+          "title": "Battle of Blair Mountain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Blair_Mountain"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/000/the-battle-of-blair-mountain.htm",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the International Olympic Committee drop art competitions after 1948?",
+      "options": [
+        "Most artists were professionals, conflicting with amateurism rules",
+        "Public attendance at art exhibits fell to zero",
+        "Too many sculptures were damaged during overseas shipment",
+        "No artist met the entry deadlines for the 1952 Games"
+      ],
+      "correctIndex": 0,
+      "explanation": "Olympic rules at the time strictly required competitors to be amateurs, but nearly all participating artists made their living from art."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did the Library of Ashurbanipal survive the sack of Nineveh in 612 BCE?",
+      "options": [
+        "The palace fire baked and hardened the clay tablets",
+        "Scribes hid the scrolls in waterproof copper canisters",
+        "The collection was buried under deep desert permafrost",
+        "Invaders spared the tablets to sell them as currency"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the texts were inscribed on moist clay tablets, the raging palace fire effectively fired and preserved them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How were captains typically selected on 18th-century pirate ships?",
+      "options": [
+        "Elected by a democratic vote of the entire crew",
+        "Appointed by wealthy private merchant investors",
+        "Inherited through royal letters of marque",
+        "Determined by single-combat sword duels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pirate crews governed themselves democratically, electing their officers and reserving the right to vote them out of office."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How far away was the sound of the 1883 Krakatoa eruption heard?",
+      "options": [
+        "Nearly 3,000 miles (4,800 km) away",
+        "Roughly 250 miles (400 km) away",
+        "Only within 50 miles (80 km) of the island",
+        "Across every continent on Earth simultaneously"
+      ],
+      "correctIndex": 0,
+      "explanation": "The explosion was loud enough to be heard clearly 2,968 miles away on Rodrigues Island in the western Indian Ocean."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What triggered the 1921 Battle of Blair Mountain?",
+      "options": [
+        "Striking coal miners fighting armed deputies for union recognition",
+        "A border dispute between Virginia and West Virginia militias",
+        "Rival railroad barons battling over right-of-way tracks",
+        "Farmers protesting federal grain taxation policies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roughly 10,000 union miners marched to liberate jailed colleagues and unionize southern West Virginia coalfields."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many clay tablets and fragments were preserved in the Library of Ashurbanipal?",
+      "answer": 30000,
+      "min": 1000,
+      "max": 150000,
+      "unit": "tablets",
+      "explanation": "Over 30,000 cuneiform tablets and fragments survived in the ruins of Nineveh, forming our richest window into ancient Mesopotamia."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many miles away was the sound of Krakatoa's 1883 explosion heard by human ears?",
+      "answer": 3000,
+      "min": 100,
+      "max": 10000,
+      "unit": "miles",
+      "explanation": "The blast traveled nearly 3,000 miles across the Indian Ocean to Rodrigues Island, covering roughly 8% of Earth's surface."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Olympic Games have only ever awarded medals for athletic physical contests.",
+      "answer": false,
+      "explanation": "From 1912 to 1948, the Olympic Games awarded 151 official medals for fine arts like painting, sculpture, and music."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Golden Age pirate ships were lawless dictatorships ruled by the strongest fighter.",
+      "answer": false,
+      "explanation": "Most pirate crews operated under written democratic constitutions that mandated equal voting rights and workplace injury pay."
+    }
+  ]
+}

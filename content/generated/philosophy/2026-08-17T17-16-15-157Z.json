@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.157Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why every green emerald also proves emeralds are \"grue\"",
+      "body": "Imagine the predicate \"grue\": an object is grue if observed before a future date and green, or unobserved and blue. Every green emerald ever unearthed perfectly confirms that emeralds are grue. Yet no one expects an unmined emerald to suddenly turn out blue. Philosopher Nelson Goodman introduced this riddle in 1955 to demonstrate that pure logic alone cannot tell us which patterns are valid to project into the future.",
+      "imageWikipediaTitle": "Emerald",
+      "sources": [
+        {
+          "title": "Nelson Goodman",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/goodman/"
+        },
+        {
+          "title": "New riddle of induction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/New_riddle_of_induction"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/goodman/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You can be morally responsible even with no way out",
+      "body": "For centuries, philosophers assumed moral responsibility requires alternative options: you cannot be blamed if you could not do otherwise. In 1969, Harry Frankfurt challenged this view. Imagine Black secretly implants a brain chip in Jones, ready to force him to cast a specific vote if he hesitates. Jones enters the booth and casts that vote entirely on his own. Jones had no alternative, yet we still hold him fully responsible.",
+      "imageWikipediaTitle": "Voting booth",
+      "sources": [
+        {
+          "title": "Compatibilism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/compatibilism/"
+        },
+        {
+          "title": "Frankfurt cases",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frankfurt_cases"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/compatibilism/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How many clouds are actually floating in the sky?",
+      "body": "Look up at a fluffy cumulus cloud. Its outer edge is a diffuse mist of water droplets. If you subtract a single droplet from its boundary, it still forms a cloud. Because there are millions of slightly different droplet boundaries that qualify as a cloud, there is no single cloud above you—there are millions of distinct clouds occupying almost the exact same space. Philosopher Peter Unger named this the Problem of the Many.",
+      "imageWikipediaTitle": "Cumulus cloud",
+      "sources": [
+        {
+          "title": "The Problem of the Many",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/problem-of-many/"
+        },
+        {
+          "title": "Problem of the many",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Problem_of_the_many"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/problem-of-many/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why stating a possible truth can still sound completely absurd",
+      "body": "Consider the statement: \"It is raining outside, but I do not believe it is.\" This sentence is not logically impossible; it frequently rains without someone knowing. Yet declaring it out loud immediately sounds nonsensical. Philosopher G. E. Moore pointed out this paradox: while the sentence describes a possible reality, the act of asserting any statement implicitly signals that you believe it, creating an unavoidable clash between what you say and the act of saying it.",
+      "imageWikipediaTitle": "Rain",
+      "sources": [
+        {
+          "title": "Epistemic Paradoxes",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/epistemic-paradoxes/"
+        },
+        {
+          "title": "Moore's paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moore%27s_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/epistemic-paradoxes/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The giant lookup table that mimics a mind without thinking",
+      "body": "In 1981, philosopher Ned Block challenged the Turing Test with a simple thought experiment: a computer programmed with an enormous lookup table containing every sensible conversational reply. Given enough storage, the machine could converse smoothly for an hour and pass the Turing test. Yet the machine understands nothing; it merely matches strings of symbols. Block argued that true intelligence depends on internal mental processing, not just observable behavior.",
+      "imageWikipediaTitle": "Turing test",
+      "sources": [
+        {
+          "title": "The Turing Test",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/turing-test/"
+        },
+        {
+          "title": "Blockhead (philosophy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blockhead_(philosophy)"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/turing-test/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the central point of Nelson Goodman's \"grue\" thought experiment?",
+      "options": [
+        "Emeralds change color when exposed to deep underground pressure",
+        "Pure logic cannot explain why some observed patterns project into the future while others do not",
+        "Colors do not exist outside human conscious perception",
+        "Inductive reasoning can mathematically prove absolute universal truths"
+      ],
+      "correctIndex": 1,
+      "explanation": "Goodman's new riddle of induction shows that past observations equally support bizarre hypotheses like 'grue', meaning logic alone cannot pick valid generalizations."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What traditional philosophical principle do Frankfurt cases aim to disprove?",
+      "options": [
+        "The Principle of Alternate Possibilities",
+        "The Law of Non-Contradiction",
+        "The Categorical Imperative",
+        "The Principle of Sufficient Reason"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frankfurt showed that a person can be morally responsible for an action even if they had no alternative options available to them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does Peter Unger's 'Problem of the Many' suggest there are millions of clouds overhead?",
+      "options": [
+        "Clouds constantly split and merge every millisecond",
+        "Fuzzy boundary droplets mean millions of slightly different droplet sets all qualify as a cloud",
+        "Atmospheric layers refract single clouds into optical duplicates",
+        "Quantum mechanics requires particles to exist in superposition"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because there is no sharp boundary defining which exact water droplets belong to the cloud, millions of overlapping collections equally qualify."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the sentence 'It is raining, but I do not believe it is' sound paradoxical?",
+      "options": [
+        "It violates basic grammatical rules of English syntax",
+        "Asserting a claim implies belief in it, clashing with the sentence's second half",
+        "It is impossible for rain to fall without human awareness",
+        "Beliefs alter the physical state of the weather"
+      ],
+      "correctIndex": 1,
+      "explanation": "While the world could easily be in that state, the speech act of asserting a fact carries the pragmatic implication that you believe what you are saying."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does Ned Block's 'Blockhead' thought experiment demonstrate about the Turing Test?",
+      "options": [
+        "A machine passing the Turing Test could be using pure lookup tables without real understanding",
+        "No computer will ever be able to store enough conversational responses",
+        "Human language contains too many words for digital memory to process",
+        "Computers will inevitably develop human-like consciousness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blockhead proves that superficial conversational behavior can be achieved through brute-force memory retrieval without genuine intelligence or comprehension."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "A person can only be held morally responsible for an action if they could have chosen otherwise.",
+      "answer": false,
+      "explanation": "Frankfurt cases demonstrate that if someone willingly chooses an act, they remain morally responsible even if an unseen mechanism would have forced them anyway."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Passing the Turing Test is definitive proof that a machine possesses genuine intelligence.",
+      "answer": false,
+      "explanation": "Block's thought experiment shows that an unintelligent machine with an extensive lookup table could pass the test simply by string-matching predetermined replies."
+    }
+  ]
+}

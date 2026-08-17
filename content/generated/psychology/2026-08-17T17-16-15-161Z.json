@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.161Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Placebo pills can work even when you know they are fake",
+      "body": "Conventional wisdom says placebos only work through deception, but studies show open-label placebos still produce measurable healing. When researchers gave patients inert sugar pills while honestly explaining they contained no active drug, patients with conditions like chronic back pain and irritable bowel syndrome still experienced significant symptom relief. The human body automatically engages conditioned physiological healing responses simply from the familiar ritual of taking medicine.",
+      "imageWikipediaTitle": "Placebo",
+      "sources": [
+        {
+          "title": "Placebos without Deception: A Randomized Controlled Trial in Irritable Bowel Syndrome",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3008733/"
+        },
+        {
+          "title": "Placebo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Placebo"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3008733/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rare condition lets people remember almost every day of their lives",
+      "body": "People with hyperthymesia, or Highly Superior Autobiographical Memory, can recall virtually any calendar date from their past with startling precision. Given a random date from twenty years ago, they can instantly name the day of the week, what the weather was like, and what they had for breakfast. Only a few dozen individuals worldwide have been diagnosed, offering neuroscientists rare insights into how human memory consolidates.",
+      "imageWikipediaTitle": "Hyperthymesia",
+      "sources": [
+        {
+          "title": "Behavioral and neuroanatomical investigation of Highly Superior Autobiographical Memory (HSAM)",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3432421/"
+        },
+        {
+          "title": "Hyperthymesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyperthymesia"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3432421/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You can easily be convinced to remember events that never happened",
+      "body": "In landmark memory experiments led by psychologist Elizabeth Loftus, researchers asked participants to recall childhood events described by their parents. Tucked among true stories was a fabricated tale about getting lost in a shopping mall as a young child. About 25% of participants came to believe the event actually happened, often inventing rich, sensory details and emotional reactions to describe an incident that was completely fictional.",
+      "imageWikipediaTitle": "Elizabeth Loftus",
+      "sources": [
+        {
+          "title": "Rich False Memories: The Malleability of Memory",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3708453/"
+        },
+        {
+          "title": "Lost in the mall technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lost_in_the_mall_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Lost_in_the_mall_technique",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you have zero memories from your earliest toddler years",
+      "body": "Almost no adults can recall episodic memories before roughly age three and a half, a phenomenon known as childhood amnesia. While toddlers do form memories, infant brains undergo an intense burst of neurogenesis in the hippocampus. As thousands of new neurons rapidly integrate into existing neural circuits, they disrupt and overwrite the delicate synaptic connections that held early autobiographical memories, wiping the slate clean before long-term storage stabilizes.",
+      "imageWikipediaTitle": "Hippocampus",
+      "sources": [
+        {
+          "title": "Infantile amnesia: A neurodevelopmental perspective",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4220743/"
+        },
+        {
+          "title": "Childhood amnesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Childhood_amnesia"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Childhood_amnesia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How your brain tracks a single voice in a crowded room",
+      "body": "In a room crowded with overlapping conversations, your brain can selectively tune into a single voice while filtering out background chatter. First identified by British scientist Colin Cherry in 1953, the cocktail party effect demonstrates how auditory attention uses cues like pitch and spatial location to isolate sound streams. Remarkably, unattended background audio is still quietly monitored: if someone across the room speaks your name, your attention snaps immediately.",
+      "imageWikipediaTitle": "Hearing",
+      "sources": [
+        {
+          "title": "Cocktail party effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cocktail_party_effect"
+        },
+        {
+          "title": "Attention and Performance",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK10924/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cocktail_party_effect",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is an 'open-label placebo'?",
+      "options": [
+        "A placebo administered without the patient knowing it is inactive",
+        "A placebo given with full transparency that it contains no active medication",
+        "A placebo tested in animal models before human trials",
+        "A pill that contains an experimental herbal remedy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Open-label placebos are given to patients who are explicitly told the pill is inert, yet they still often trigger measurable therapeutic benefits."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What ability characterizes people with hyperthymesia (HSAM)?",
+      "options": [
+        "Photographic memory of written text and numbers only",
+        "Instant recall of autobiographical events for virtually every calendar day of their life",
+        "Ability to speak fluent foreign languages after hearing them once",
+        "Total immunity to all cognitive biases and optical illusions"
+      ],
+      "correctIndex": 1,
+      "explanation": "People with hyperthymesia can recall specific personal events, days of the week, and details for almost any calendar date from their past."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did Elizabeth Loftus's 'lost in the mall' experiment demonstrate?",
+      "options": [
+        "Childhood memories are permanent and cannot be modified",
+        "Suggestive questioning can implant entirely false autobiographical memories",
+        "Visual memory is significantly stronger than auditory memory",
+        "Children under five have superior spatial orientation skills"
+      ],
+      "correctIndex": 1,
+      "explanation": "Loftus showed that suggestive prompts can lead about a quarter of adults to develop vivid, detailed false memories of events that never happened."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do adults typically lack memories from before age three and a half?",
+      "options": [
+        "Language skills are not yet developed enough to store facts",
+        "Rapid growth of new hippocampal neurons disrupts early memory connections",
+        "The brain suppresses early memories to prevent emotional overload",
+        "Early sensory organs cannot transmit signals to long-term storage"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rapid neurogenesis in the infant hippocampus continually reorganizes neural wiring, which overwrites early episodic memory traces."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the 'cocktail party effect' in cognitive psychology?",
+      "options": [
+        "The tendency to drink more alcohol in group social settings",
+        "The ability to focus on a single speaker amid noise while still detecting salient words like your name",
+        "The phenomenon where groups make riskier decisions than individuals",
+        "A sudden boost in vocal volume when background noise increases"
+      ],
+      "correctIndex": 1,
+      "explanation": "The cocktail party effect refers to selective auditory attention, allowing listeners to focus on one voice while pre-attentively monitoring background audio."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In Elizabeth Loftus's famous experiment, what percentage of participants came to believe a completely fake childhood memory?",
+      "answer": 25,
+      "min": 1,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Approximately 25% of participants developed vivid, false autobiographical memories of being lost in a mall as a child."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Placebos only work if the patient is tricked into believing they are taking real medication.",
+      "answer": false,
+      "explanation": "Open-label placebos produce real, measurable symptom relief even when patients are honestly told the pill contains no active ingredients."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "If an adult vividly remembers a detailed, emotional childhood event, it must have actually happened.",
+      "answer": false,
+      "explanation": "Memory is reconstructive; suggestive prompts can implant rich, emotional memories of events that were entirely fabricated."
+    }
+  ]
+}

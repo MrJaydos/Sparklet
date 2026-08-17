@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.160Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eleven lines of code broke thousands of websites in 2016",
+      "body": "In March 2016, programmer Azer Koçulu unpublished a tiny package named left-pad from npm, the central JavaScript registry. Consisting of just eleven lines of basic code to pad strings with whitespace, left-pad was an unseen dependency in foundational software like React and Babel. When it vanished, builds worldwide instantly crashed, halting deployments for thousands of companies until npm took the unprecedented step of un-unpublishing it.",
+      "imageWikipediaTitle": "Npm",
+      "sources": [
+        {
+          "title": "How one developer just broke Node, Babel and thousands of projects in 11 lines of JavaScript",
+          "publisher": "The Register",
+          "url": "https://www.theregister.com/2016/03/23/npm_left_pad_chaos/"
+        },
+        {
+          "title": "npm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Npm"
+        }
+      ],
+      "readMoreUrl": "https://www.theregister.com/2016/03/23/npm_left_pad_chaos/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why computers struggle to add 0.1 and 0.2",
+      "body": "Ask almost any programming language to calculate 0.1 + 0.2, and it will return 0.30000000000000004. This is not a software bug, but a mathematical consequence of the IEEE 754 floating-point standard. Because computers store fractional numbers in binary base-2, fractions like 1/10 produce infinitely repeating sequences—much like 1/3 in decimal. Rounding these infinite binary decimals creates slight precision errors in everyday arithmetic.",
+      "imageWikipediaTitle": "Floating-point arithmetic",
+      "sources": [
+        {
+          "title": "Floating Point Arithmetic: Issues and Limitations",
+          "publisher": "Python Software Foundation",
+          "url": "https://docs.python.org/3/tutorial/floatingpoint.html"
+        },
+        {
+          "title": "IEEE 754",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IEEE_754"
+        }
+      ],
+      "readMoreUrl": "https://docs.python.org/3/tutorial/floatingpoint.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The email system that couldn't send messages past 500 miles",
+      "body": "In 2002, a university sysadmin investigated an impossible complaint: campus emails failed whenever recipients were located over 500 miles away. Testing confirmed that emails sent under 500 miles succeeded, while those beyond failed. During an OS upgrade, the email server's timeout had been inadvertently set to zero. Because electrical signals through optical fiber travel at roughly 60% the speed of light, round-trip network latency exceeded zero seconds beyond roughly 500 miles.",
+      "imageWikipediaTitle": "Optical fiber",
+      "sources": [
+        {
+          "title": "The case of the 500-mile email",
+          "publisher": "ibiblio",
+          "url": "https://www.ibiblio.org/harris/500milemail.html"
+        },
+        {
+          "title": "Round-trip time",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Round-trip_time"
+        }
+      ],
+      "readMoreUrl": "https://www.ibiblio.org/harris/500milemail.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The famous 'Nuclear Gandhi' coding bug never actually happened",
+      "body": "Gaming lore long claimed that in the original 1991 game Civilization, an integer underflow bug caused peaceful Mahatma Gandhi to become ultra-aggressive. According to the legend, adopting democracy lowered his aggression by two, dropping an unsigned 8-bit integer from 1 below zero to 255. In his 2020 memoir, series creator Sid Meier revealed this bug never existed; the code was written in C, Gandhi had no special aggression glitch, and the story was entirely internet folklore.",
+      "imageWikipediaTitle": "Civilization (video game)",
+      "sources": [
+        {
+          "title": "Sid Meier dispels Nuclear Gandhi urban legend in new memoir",
+          "publisher": "Ars Technica",
+          "url": "https://arstechnica.com/gaming/2020/09/sid-meier-dispels-nuclear-gandhi-urban-legend-in-new-memoir/"
+        },
+        {
+          "title": "Nuclear Gandhi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nuclear_Gandhi"
+        }
+      ],
+      "readMoreUrl": "https://arstechnica.com/gaming/2020/09/sid-meier-dispels-nuclear-gandhi-urban-legend-in-new-memoir/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A zero-player game with four rules can compute anything",
+      "body": "In 1970, mathematician John Conway invented the Game of Life, an evolving grid of cells governed by just four simple rules of birth, survival, and death. Despite requiring zero human players after initial configuration, computer scientists proved the system is Turing complete. By arranging 'glider guns' to simulate logic gates and memory registers, programmers have built working digital clocks, basic microprocessors, and even a simulation of the Game of Life running inside itself.",
+      "imageWikipediaTitle": "Conway's Game of Life",
+      "sources": [
+        {
+          "title": "Cellular Automata",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/cellular-automata/"
+        },
+        {
+          "title": "Conway's Game of Life",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/cellular-automata/",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What caused widespread build failures across major software projects in March 2016?",
+      "options": [
+        "The sudden deletion of an 11-line package called left-pad",
+        "A leap second bug in Git's internal timestamp parser",
+        "A typo in the core C library distributed by Linux",
+        "An expired SSL certificate on root DNS servers"
+      ],
+      "correctIndex": 0,
+      "explanation": "When developer Azer Koçulu unpublished left-pad, an 11-line string helper, dependent tools like Babel and React broke globally."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does '0.1 + 0.2' not evaluate to exactly 0.3 in standard floating-point arithmetic?",
+      "options": [
+        "Base-10 fractions like 1/10 create repeating infinite fractions in binary base-2",
+        "Floating-point hardware units lack registers for odd numbers",
+        "Programming languages deliberately truncate decimals to avoid buffer overflows",
+        "Processors treat decimal tenths as integer approximations by default"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because binary cannot cleanly represent 1/10, slight rounding errors accumulate in floating-point operations."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was an email server in 2002 unable to deliver messages farther than 500 miles away?",
+      "options": [
+        "A misconfigured zero-second timeout was exceeded by the speed of light over fiber",
+        "An optical cable experienced hardware signal attenuation at 500 miles",
+        "The server's routing table refused to resolve IP addresses outside the state",
+        "The mail protocol blocked unencrypted packets crossing international boundaries"
+      ],
+      "correctIndex": 0,
+      "explanation": "With a timeout inadvertently set to 0 seconds, light-speed round-trip latency through fiber caused failure beyond 500 miles."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to Civilization creator Sid Meier, what was the real cause of the 'Nuclear Gandhi' bug?",
+      "options": [
+        "It was entirely an internet myth and never existed in the game's code",
+        "An unsigned 8-bit integer underflowed from 1 to 255",
+        "A typo in an assembly array swapped Gandhi with Genghis Khan",
+        "A memory leak caused AI leader traits to invert randomly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sid Meier revealed in 2020 that the famous integer underflow glitch was completely made up by internet communities."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What mathematical property makes Conway's Game of Life capable of simulating any computer program?",
+      "options": [
+        "Turing completeness",
+        "Heisenberg indeterminacy",
+        "Deterministic chaos",
+        "Shannon entropy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Conway's Game of Life is Turing complete because cell patterns can construct logic gates, registers, and processors."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many lines of code were in 'left-pad', the deleted library that broke software builds worldwide in 2016?",
+      "answer": 11,
+      "min": 1,
+      "max": 100,
+      "unit": "lines",
+      "explanation": "The entire left-pad package contained just 11 lines of simple string-padding code."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "At what maximum distance did a famous 2002 misconfigured university email server fail to deliver messages?",
+      "answer": 500,
+      "min": 50,
+      "max": 2500,
+      "unit": "miles",
+      "explanation": "With the timeout set to zero, light-speed latency over optical fiber caused connections beyond roughly 500 miles to drop."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Mahatma Gandhi turned aggressive in the original Civilization due to an unsigned integer underflow glitch.",
+      "answer": false,
+      "explanation": "Game creator Sid Meier confirmed the integer overflow bug never existed; it was an internet urban legend."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Calculations like 0.1 + 0.2 resulting in 0.30000000000000004 are bugs caused by poor programming language design.",
+      "answer": false,
+      "explanation": "It is an unavoidable mathematical byproduct of representing decimal fractions in the binary IEEE 754 floating-point format."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.158Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Helium was discovered on the Sun before it was found on Earth",
+      "body": "In 1868, French astronomer Pierre Janssen noticed an unfamiliar yellow spectral line in sunlight during a total eclipse. English astronomer Norman Lockyer realized it came from an unknown element and named it helium, after the Greek sun god Helios. For decades, scientists believed helium existed only in the heavens until 1895, when Scottish chemist William Ramsay finally isolated the gas on Earth from uranium ore.",
+      "imageWikipediaTitle": "Helium",
+      "sources": [
+        {
+          "title": "Helium - Element information, properties and uses",
+          "publisher": "Royal Society of Chemistry",
+          "url": "https://www.rsc.org/periodic-table/element/2/helium"
+        },
+        {
+          "title": "Helium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helium"
+        }
+      ],
+      "readMoreUrl": "https://www.rsc.org/periodic-table/element/2/helium",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Whales evolved from four-legged land mammals",
+      "body": "Whales are mammals that returned to the sea roughly 50 million years ago. Fossils like Pakicetus, a four-legged hoofed mammal found in ancient shoreline deposits, reveal early stages of this dramatic shift. Over millions of years, nostrils migrated upward to become blowholes, front legs adapted into flippers, and pelvises detached from spines. Today, DNA and fossils confirm their closest living land relatives are hippopotamuses.",
+      "imageWikipediaTitle": "Pakicetus",
+      "sources": [
+        {
+          "title": "The evolution of whales",
+          "publisher": "Understanding Evolution (UC Berkeley)",
+          "url": "https://evolution.berkeley.edu/what-are-evograms/the-evolution-of-whales/"
+        },
+        {
+          "title": "Evolution of cetaceans",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Evolution_of_cetaceans"
+        }
+      ],
+      "readMoreUrl": "https://evolution.berkeley.edu/what-are-evograms/the-evolution-of-whales/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lightning strikes can instantly fuse sand into hollow glass tubes",
+      "body": "When a cloud-to-ground lightning bolt hits quartz-rich sand, it channels immense electrical energy into the ground, driving temperatures past 1,800 degrees Celsius (3,270 degrees Fahrenheit). This instantly melts sand along the discharge path. As the surrounding cool earth rapidly quenches the molten silica, it solidifies into a fragile, hollow glass tube known as a fulgurite, freezing the shape of the lightning bolt beneath the surface.",
+      "imageWikipediaTitle": "Fulgurite",
+      "sources": [
+        {
+          "title": "What are fulgurites and where can they be found?",
+          "publisher": "Utah Geological Survey",
+          "url": "https://geology.utah.gov/map-pub/survey-notes/glad-you-asked/what-are-fulgurites-and-where-can-they-be-found/"
+        },
+        {
+          "title": "Fulgurite",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fulgurite"
+        }
+      ],
+      "readMoreUrl": "https://geology.utah.gov/map-pub/survey-notes/glad-you-asked/what-are-fulgurites-and-where-can-they-be-found/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your blood is never blue, no matter how low its oxygen gets",
+      "body": "Veins viewed through skin often appear blue, prompting the common myth that deoxygenated blood turns blue until exposed to air. In reality, human blood is always red. Oxygen-rich blood leaving the lungs is bright scarlet, while oxygen-depleted blood heading back to the heart is dark crimson. Veins look blue entirely because skin tissue scatters short blue wavelengths back to our eyes while absorbing longer red light.",
+      "imageWikipediaTitle": "Venous blood",
+      "sources": [
+        {
+          "title": "Is blood colored blue in the body?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/biology-and-human-anatomy/item/is-blood-colored-blue-in-the-body/"
+        },
+        {
+          "title": "Venous blood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venous_blood"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/biology-and-human-anatomy/item/is-blood-colored-blue-in-the-body/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Axolotls can regrow entire limbs, spinal cords, and heart tissue",
+      "body": "While mammals heal major injuries with scar tissue, the Mexican axolotl can regrow fully functional body parts. Following an amputation, cells at the wound site revert into stem-like progenitor cells, forming a specialized bud called a blastema. Within weeks, this structure coordinates the regrowth of bone, muscle, nerves, and skin with perfect anatomical fidelity. Axolotls can even regenerate damaged retinas, spinal cords, and portions of their brain.",
+      "imageWikipediaTitle": "Axolotl",
+      "sources": [
+        {
+          "title": "How Axolotls Regenerate Limbs",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/how-axolotls-regenerate-limbs"
+        },
+        {
+          "title": "Axolotl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axolotl"
+        }
+      ],
+      "readMoreUrl": "https://www.nih.gov/news-events/nih-research-matters/how-axolotls-regenerate-limbs",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where did scientists first detect the element helium?",
+      "options": [
+        "In the Sun's light spectrum",
+        "Inside volcanic gas vents",
+        "In Earth's upper atmosphere",
+        "Trapped in deep Antarctic ice"
+      ],
+      "correctIndex": 0,
+      "explanation": "Helium was first identified in 1868 by analyzing solar spectral lines during an eclipse, 27 years before it was isolated on Earth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which modern land mammals are the closest living relatives of whales?",
+      "options": [
+        "Hippopotamuses",
+        "Elephants",
+        "Sea lions",
+        "Tapirs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both fossil discoveries and genomic data show that cetaceans share a common ancestor with even-toed ungulates, closest to hippos."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is a fulgurite?",
+      "options": [
+        "A hollow glass tube created when lightning melts sand",
+        "A crystal formed inside rapidly cooling volcanic magma",
+        "A mineral deposit left behind by undersea hydrothermal vents",
+        "A fossilized shell preserved in petrified sandstone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fulgurites form when the extreme heat of a lightning strike melts silica sand along its underground discharge path."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What color is deoxygenated human blood inside the body?",
+      "options": [
+        "Dark crimson red",
+        "Navy blue",
+        "Purple",
+        "Clear amber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human blood is always red; deoxygenated blood is dark crimson, and veins look blue only due to optical scattering in skin."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the cell cluster called that coordinates limb regrowth in axolotls?",
+      "options": [
+        "A blastema",
+        "A granuloma",
+        "A fibroblast",
+        "A keloid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Axolotl cells dedifferentiate into a progenitor cell mass called a blastema, which guides the reconstruction of lost limbs."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many millions of years ago did the four-legged ancestors of whales begin transitioning into the ocean?",
+      "answer": 50,
+      "min": 10,
+      "max": 150,
+      "unit": "million years",
+      "explanation": "Fossils show that early amphibious cetacean ancestors like Pakicetus began adapting to marine life around 50 million years ago."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "At what minimum temperature (in degrees Celsius) does a lightning strike fuse sand into natural glass tubes?",
+      "answer": 1800,
+      "min": 500,
+      "max": 4000,
+      "unit": "°C",
+      "explanation": "Lightning easily exceeds 1,800°C (3,270°F), the melting point required to fuse silica sand into glass fulgurites."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Helium was first discovered in an Earth laboratory and later found in the Sun.",
+      "answer": false,
+      "explanation": "Astronomers detected helium's spectral signature on the Sun in 1868, nearly three decades before it was isolated on Earth in 1895."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Whales are more closely related to hippopotamuses than to fish or sharks.",
+      "answer": true,
+      "explanation": "Whales evolved from four-legged land mammals, making hippopotamuses their closest living terrestrial relatives."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Deoxygenated blood flowing through human veins is blue until exposed to oxygen in the air.",
+      "answer": false,
+      "explanation": "Human blood is never blue; deoxygenated blood is dark red, and veins appear blue only because of optical light penetration in skin."
+    }
+  ]
+}

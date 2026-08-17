@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.163Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pluto's escaping atmosphere is painting its largest moon red",
+      "body": "Charon, Pluto's largest moon, has a prominent reddish-brown north polar cap nicknamed Mordor Macula. When Pluto's thin atmosphere leaks methane into deep space, some drifts over to Charon and freezes onto its frigid polar terrain during the brutal 100-year polar winter. Solar ultraviolet radiation then chemically converts this frozen methane into reddish organic compounds called tholins, staining the moon's pole for eons.",
+      "imageWikipediaTitle": "Mordor Macula",
+      "sources": [
+        {
+          "title": "Pluto Paints Charon Red",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/news-release/pluto-paints-charon-red-new-horizons-data-reveals/"
+        },
+        {
+          "title": "Mordor Macula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mordor_Macula"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/news-release/pluto-paints-charon-red-new-horizons-data-reveals/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asteroid Bennu is so loosely packed that a spacecraft sank into it like plastic balls",
+      "body": "When NASA's OSIRIS-REx spacecraft touched down on the asteroid Bennu in 2020 to collect a sample, it encountered virtually zero resistance. Bennu is not a solid rock but a porous \"rubble pile\" held together by faint gravity. The probe's sampling arm plunged nearly half a meter into the surface, behaving as if the asteroid were a children's ball pit, and kicking up a giant plume of debris.",
+      "imageWikipediaTitle": "101955 Bennu",
+      "sources": [
+        {
+          "title": "OSIRIS-REx Mission Overview",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/mission/osiris-rex/"
+        },
+        {
+          "title": "101955 Bennu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/101955_Bennu"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/osiris-rex/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A robotic explorer flew directly inside the Sun's superheated outer atmosphere",
+      "body": "In 2021, NASA's Parker Solar Probe became the first human-made object to \"touch\" the Sun. It crossed the Alfvén critical surface, plunging into the corona where temperatures exceed one million degrees Celsius. Traveling at hundreds of thousands of kilometers per hour, the probe relied on an 11-centimeter-thick carbon-composite heat shield to survive radiation 500 times stronger than what hits Earth, measuring solar magnetic structures from the inside.",
+      "imageWikipediaTitle": "Parker Solar Probe",
+      "sources": [
+        {
+          "title": "Parker Solar Probe",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/mission/parker-solar-probe/"
+        },
+        {
+          "title": "Parker Solar Probe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parker_Solar_Probe"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/parker-solar-probe/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The edge of our solar system extends nearly halfway to the nearest star",
+      "body": "While Neptune marks the boundary of the major planets, the solar system does not end there. Far beyond the Kuiper Belt lies the Oort Cloud, a colossal spherical shell of trillions of icy bodies. Its outer boundary stretches up to 100,000 astronomical units away—nearly 1.6 light-years from the Sun. That reaches nearly halfway to Proxima Centauri, making our solar system far larger than commonly imagined.",
+      "imageWikipediaTitle": "Oort cloud",
+      "sources": [
+        {
+          "title": "Oort Cloud In Depth",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/solar-system/oort-cloud/"
+        },
+        {
+          "title": "Oort cloud",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oort_cloud"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/solar-system/oort-cloud/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn's two-faced moon is bright white on one side and pitch black on the other",
+      "body": "Saturn's moon Iapetus presents one of the strangest sights in astronomy: a stark, two-tone surface where one hemisphere is as dark as coal while the other gleams like fresh snow. Dark debris swept up from outer moons absorbs extra sunlight, warming the dark side just enough to evaporate water ice. The vapor then migrates and refreezes onto the colder bright side, locking the moon in an extreme runaway contrast.",
+      "imageWikipediaTitle": "Iapetus (moon)",
+      "sources": [
+        {
+          "title": "Iapetus In Depth",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/saturn/moons/iapetus/"
+        },
+        {
+          "title": "Iapetus (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iapetus_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/moons/iapetus/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What gas escaping from Pluto causes Charon's north pole to turn reddish-brown?",
+      "options": [
+        "Methane",
+        "Liquid water",
+        "Carbon dioxide",
+        "Ammonia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Methane escaping from Pluto freezes at Charon's pole, where ultraviolet light converts it into reddish organic tholins."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did asteroid Bennu respond when NASA's OSIRIS-REx touched its surface?",
+      "options": [
+        "The spacecraft sank easily into loose, fluid-like rubble",
+        "The probe bounced off solid, impenetrable bedrock",
+        "The spacecraft melted from intense subsurface heat",
+        "The probe was deflected by a powerful magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bennu is a loosely bound rubble pile with almost no cohesion, allowing the probe to plunge nearly half a meter into it."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What allows the Parker Solar Probe to survive inside the million-degree solar corona?",
+      "options": [
+        "A thick carbon-composite heat shield",
+        "A continuous liquid nitrogen cooling spray",
+        "An active magnetic force field",
+        "A layer of reflective liquid water"
+      ],
+      "correctIndex": 0,
+      "explanation": "An 11-centimeter-thick carbon-composite heat shield protects the probe from intense solar radiation and high temperatures."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How far out does the outer edge of the Oort Cloud extend?",
+      "options": [
+        "Nearly 1.6 light-years (up to 100,000 AU)",
+        "Exactly 30 astronomical units",
+        "About 1.5 astronomical units",
+        "Over 20 light-years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Oort Cloud stretches up to 100,000 AU (about 1.6 light-years), nearly halfway to the nearest star system."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does Saturn's moon Iapetus have one pitch-black and one bright white hemisphere?",
+      "options": [
+        "Dark dust absorbs heat, evaporating ice that refreezes on the brighter side",
+        "A volcanic eruption covered only one half in dark basalt lava",
+        "Saturn's shadow permanently blocks sunlight from one half",
+        "One side collided with a dark iron asteroid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dark debris absorbs heat, causing ice to sublimate and migrate to the colder, brighter hemisphere in a runaway process."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many light-years away from the Sun does the outer boundary of our solar system's Oort Cloud reach?",
+      "answer": 1.6,
+      "min": 0.1,
+      "max": 5,
+      "unit": "light-years",
+      "explanation": "The Oort Cloud stretches up to 100,000 AU (nearly 1.6 light-years) from the Sun, reaching almost halfway to Proxima Centauri."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Asteroids are solid, dense boulders of impenetrable rock.",
+      "answer": false,
+      "explanation": "Many asteroids like Bennu are porous rubble piles held together by faint gravity, acting more like giant ball pits than solid rock."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The solar system ends just beyond the orbit of Neptune and Pluto.",
+      "answer": false,
+      "explanation": "The solar system's gravitational boundary extends out to the Oort Cloud, reaching nearly 1.6 light-years away."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Saturn's moon Iapetus naturally has one hemisphere dark as coal and the other bright as snow.",
+      "answer": true,
+      "explanation": "Thermal runaway migration of water ice keeps Iapetus permanently divided into two contrasting, two-toned hemispheres."
+    }
+  ]
+}

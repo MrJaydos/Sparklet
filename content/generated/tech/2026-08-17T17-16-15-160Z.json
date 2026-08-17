@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.160Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A pack of chewing gum was the first item ever scanned by a barcode",
+      "body": "On June 26, 1974, a cashier at a supermarket in Troy, Ohio, scanned a 10-pack of Wrigley's Juicy Fruit chewing gum across a new optical scanner. That single beep marked the commercial debut of the Universal Product Code. Today, billions of barcodes are scanned every day, and a replica of that historic pack sits in the Smithsonian National Museum of American History.",
+      "imageWikipediaTitle": "Universal Product Code",
+      "sources": [
+        {
+          "title": "UPC Scanner and Gum",
+          "publisher": "Smithsonian National Museum of American History",
+          "url": "https://americanhistory.si.edu/collections/search/object/nmah_1079361"
+        },
+        {
+          "title": "Universal Product Code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Universal_Product_Code"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/search/object/nmah_1079361",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 32-bit time overflow will strike older computers in 2038",
+      "body": "Many operating systems measure time as the number of seconds elapsed since January 1, 1970. On 32-bit systems, this counter is stored as a signed integer with a maximum value of 2,147,483,647. On January 19, 2038, the counter will overflow into negative numbers, resetting system clocks back to 1901. Upgrading systems to 64-bit timestamps solves the problem for roughly 292 billion years.",
+      "imageWikipediaTitle": "Year 2038 problem",
+      "sources": [
+        {
+          "title": "The Time Zone Information Format (TZif)",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc8536"
+        },
+        {
+          "title": "Year 2038 problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2038_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Year_2038_problem",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The digital smiley face was invented in 1982 to prevent online flame wars",
+      "body": "Early online message boards frequently suffered from misunderstandings when sarcastic jokes were mistaken for serious insults. On September 19, 1982, computer scientist Scott Fahlman posted a message on Carnegie Mellon University's bulletin board proposing a three-character marker: :-) for humorous posts and :-( for serious ones. The idea spread across computer networks, giving birth to modern emoticons and emojis.",
+      "imageWikipediaTitle": "Emoticon",
+      "sources": [
+        {
+          "title": "Smiley Lore :-) The Original Smiley",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Emoticon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emoticon"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Noise-canceling headphones erase sound by playing an exact inverted copy of it",
+      "body": "Active noise-canceling headphones do not merely block sound physically; they destroy it mathematically. Microphones on the outside of the earcups capture incoming ambient noise in real time. Internal electronics then generate an identical sound wave shifted 180 degrees out of phase. When the peaks of the synthetic wave meet the troughs of the incoming noise, the two waves cancel each other out through destructive interference.",
+      "imageWikipediaTitle": "Active noise control",
+      "sources": [
+        {
+          "title": "Active noise control: A tutorial review",
+          "publisher": "NASA Technical Reports Server",
+          "url": "https://ntrs.nasa.gov/citations/19930085449"
+        },
+        {
+          "title": "Active noise control",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Active_noise_control"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Active_noise_control",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The digital camera sensor was born from a one-hour brainstorming session",
+      "body": "In 1969, Bell Labs physicists Willard Boyle and George Smith spent an hour sketching ideas on a blackboard to create a new type of computer memory. Instead, they invented the charge-coupled device (CCD), a silicon chip that converts incoming light photons into electrical charges. Their invention replaced chemical film with digital photography, powered space telescopes like Hubble, and earned the pair the 2009 Nobel Prize in Physics.",
+      "imageWikipediaTitle": "Charge-coupled device",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physics 2009",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/physics/2009/summary/"
+        },
+        {
+          "title": "Charge-coupled device",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charge-coupled_device"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/physics/2009/summary/",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was the first commercial product ever scanned with a UPC barcode scanner in 1974?",
+      "options": [
+        "A pack of Wrigley's Juicy Fruit chewing gum",
+        "A bottle of Coca-Cola",
+        "A box of Kellogg's Corn Flakes",
+        "A paperback dictionary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cashier Sharon Buchanan scanned a 10-pack of Wrigley's Juicy Fruit chewing gum on June 26, 1974, in Troy, Ohio."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are older 32-bit computer systems predicted to experience a time glitch on January 19, 2038?",
+      "options": [
+        "Leap seconds will accumulate to exceed one full hour",
+        "Their signed 32-bit second counters will overflow into negative numbers",
+        "GPS atomic clocks will reset their 1024-week cycle",
+        "The Unix operating system's software license expires"
+      ],
+      "correctIndex": 1,
+      "explanation": "A signed 32-bit integer maxes out at 2,147,483,647 seconds from the 1970 epoch before overflowing to negative numbers, resetting clocks to 1901."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In what year did computer scientist Scott Fahlman propose the :-) emoticon on a university bulletin board?",
+      "options": [
+        "1982",
+        "1971",
+        "1993",
+        "1969"
+      ],
+      "correctIndex": 0,
+      "explanation": "Scott Fahlman suggested :-) and :-( on a Carnegie Mellon University bulletin board on September 19, 1982, to mark humorous comments."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What acoustic principle allows active noise-canceling headphones to eliminate background sound?",
+      "options": [
+        "Constructive wave amplification",
+        "Destructive wave interference from an inverted sound wave",
+        "Doppler frequency shifting",
+        "Ultrasonic acoustic absorption"
+      ],
+      "correctIndex": 1,
+      "explanation": "Active noise cancellation plays an anti-phase sound wave (180 degrees out of phase), causing destructive interference that cancels incoming noise."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What digital imaging device, conceived in 1969 as a computer memory design, won the 2009 Nobel Prize in Physics?",
+      "options": [
+        "The Charge-Coupled Device (CCD)",
+        "The Cathode-Ray Tube (CRT)",
+        "The Liquid Crystal Display (LCD)",
+        "The Complementary Metal-Oxide-Semiconductor (CMOS)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Willard Boyle and George Smith invented the CCD at Bell Labs in 1969, converting photons into digital electrical signals."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year was the first retail item scanned using a modern UPC barcode scanner?",
+      "answer": 1974,
+      "min": 1950,
+      "max": 2000,
+      "unit": "year",
+      "explanation": "The first scan occurred on June 26, 1974, at a Marsh Supermarket in Troy, Ohio."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "In what year will 32-bit signed Unix timestamp counters overflow and reset to 1901?",
+      "answer": 2038,
+      "min": 2025,
+      "max": 2090,
+      "unit": "year",
+      "explanation": "The Year 2038 problem occurs on January 19, 2038, when the 32-bit counter exceeds 2,147,483,647 seconds."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In what year was the three-character digital smiley emoticon :-) invented at Carnegie Mellon?",
+      "answer": 1982,
+      "min": 1970,
+      "max": 2000,
+      "unit": "year",
+      "explanation": "Scott Fahlman posted the idea on September 19, 1982, to clarify joke posts on early computer message boards."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The world's first retail barcode scan took place on a pack of chewing gum.",
+      "answer": true,
+      "explanation": "A 10-pack of Wrigley's Juicy Fruit gum was scanned on June 26, 1974, in Troy, Ohio, making it the first UPC-scanned product."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Active noise-canceling headphones silence noise solely through thick physical foam padding.",
+      "answer": false,
+      "explanation": "While padding provides passive isolation, active noise cancellation works electronically by generating an inverted, 180-degree out-of-phase sound wave."
+    }
+  ]
+}

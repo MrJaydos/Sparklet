@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.161Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Antarctic icefish survive with completely transparent, hemoglobin-free blood",
+      "body": "In the sub-zero waters of the Southern Ocean, crocodile icefish thrive without a single drop of hemoglobin. They are the only known adult vertebrates whose blood lacks this red, oxygen-carrying protein entirely. Instead, their blood is creamy white and watery, carrying dissolved oxygen directly in the plasma. In freezing, oxygen-dense Antarctic waters, this extreme adaptation works because cold fluid naturally holds more oxygen and thin blood pumps easily without freezing.",
+      "imageWikipediaTitle": "Channichthyidae",
+      "sources": [
+        {
+          "title": "White-blooded Icefishes Not Bound to Cold",
+          "publisher": "National Science Foundation",
+          "url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=106786"
+        },
+        {
+          "title": "Channichthyidae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Channichthyidae"
+        }
+      ],
+      "readMoreUrl": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=106786",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Naked mole-rats survive without oxygen by burning fructose like plants",
+      "body": "When oxygen runs out underground, most mammals suffer irreversible brain damage within minutes. Naked mole-rats, however, can survive up to eighteen minutes in zero-oxygen environments with no lasting harm. When suffocating, their bodies switch metabolic pathways, using fructose instead of glucose to generate energy—a biochemical trick previously seen only in plants. Their heart rate drops from 200 beats per minute to roughly 50, allowing them to wait out toxic air conditions safely.",
+      "imageWikipediaTitle": "Naked mole-rat",
+      "sources": [
+        {
+          "title": "Fructose-driven glycolysis supports anoxia resistance in the naked mole-rat",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513727/"
+        },
+        {
+          "title": "Naked mole-rat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Naked_mole-rat"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5513727/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Kangaroo rats can live their entire lives without drinking a single drop of water",
+      "body": "In the arid deserts of North America, the banner-tailed kangaroo rat never drinks liquid water. Instead, it gets every drop of moisture it needs from the dry seeds it eats. Through a process called metabolic water production, its body extracts water molecules as a byproduct of breaking down carbohydrates and fats. Combined with hyper-efficient kidneys that produce ultra-concentrated urine, these rodents thrive without water sources for their entire lives.",
+      "imageWikipediaTitle": "Kangaroo rat",
+      "sources": [
+        {
+          "title": "Kangaroo Rat",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/cave/learn/nature/kangaroo_rat.htm"
+        },
+        {
+          "title": "Kangaroo rat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kangaroo_rat"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/cave/learn/nature/kangaroo_rat.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tuatara has a functioning third eye on top of its head",
+      "body": "Endemic to New Zealand, the tuatara looks like a lizard but belongs to an ancient reptile order that thrived alongside early dinosaurs. Hatchlings possess a prominent parietal eye on the crown of their head, complete with its own lens, cornea, and retina. While skin covers it as the reptile matures, nerve fibers still connect this third eye to the brain, where it helps regulate circadian rhythms, hormonal cycles, and thermoregulation.",
+      "imageWikipediaTitle": "Tuatara",
+      "sources": [
+        {
+          "title": "Tuatara: New Zealand reptiles",
+          "publisher": "Department of Conservation",
+          "url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/"
+        },
+        {
+          "title": "Parietal eye",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parietal_eye"
+        }
+      ],
+      "readMoreUrl": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A shorebird flies over 13,000 kilometers non-stop across the open Pacific",
+      "body": "Every autumn, bar-tailed godwits embark on the longest recorded non-stop migratory flight in the animal kingdom. Tagged birds take off from breeding grounds in Alaska and fly directly over the open ocean to New Zealand, covering over 13,000 kilometers in eleven continuous days without landing to eat, drink, or rest. To prepare, godwits double their body weight in fat and shrink their non-essential digestive organs before setting off.",
+      "imageWikipediaTitle": "Bar-tailed godwit",
+      "sources": [
+        {
+          "title": "Bar-tailed Godwit",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/media/images/bar-tailed-godwit"
+        },
+        {
+          "title": "Bar-tailed godwit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bar-tailed_godwit"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bar-tailed_godwit",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What oxygen-carrying molecule is completely absent from the blood of Antarctic crocodile icefish?",
+      "options": [
+        "Hemoglobin",
+        "Myoglobin",
+        "Collagen",
+        "Albumin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Crocodile icefish are the only adult vertebrates that lack hemoglobin, giving them transparent, watery blood."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What alternative fuel source do naked mole-rats burn to survive when completely deprived of oxygen?",
+      "options": [
+        "Fructose",
+        "Lactic acid",
+        "Ethanol",
+        "Cellulose"
+      ],
+      "correctIndex": 0,
+      "explanation": "Naked mole-rats switch from glucose to fructose glycolysis during anoxia, a metabolic shortcut typical of plants."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do kangaroo rats obtain nearly all the water required to survive in the desert?",
+      "options": [
+        "By metabolizing dry seeds",
+        "By licking morning condensation",
+        "By absorbing moisture through skin",
+        "By eating succulent desert cacti"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kangaroo rats produce metabolic water by chemically breaking down carbohydrates and fats in the dry seeds they eat."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What specialized sensory structure sits on the crown of a young tuatara's head?",
+      "options": [
+        "A parietal third eye",
+        "An infrared heat pit",
+        "An electric field receptor",
+        "A venom-secreting pore"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tuatara hatchlings have a visible third eye complete with a lens and retina, helping regulate circadian cycles."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What physiological adjustment do bar-tailed godwits make before their 13,000 km ocean flight?",
+      "options": [
+        "They shrink their digestive organs",
+        "They double their bone density",
+        "They drop their core body temperature by 15°C",
+        "They molt all their flight feathers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Godwits double their fat reserves and shrink internal organs like the digestive tract to reduce weight for migration."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many minutes can a naked mole-rat survive in completely oxygen-free air without suffering brain damage?",
+      "answer": 18,
+      "min": 1,
+      "max": 60,
+      "unit": "min",
+      "explanation": "Naked mole-rats can endure up to 18 minutes of zero oxygen by switching to plant-like fructose metabolism."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many kilometers can a bar-tailed godwit fly non-stop across the ocean without landing once?",
+      "answer": 13000,
+      "min": 1000,
+      "max": 30000,
+      "unit": "km",
+      "explanation": "Tagged bar-tailed godwits fly over 13,000 kilometers non-stop from Alaska to New Zealand in 11 continuous days."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All vertebrate animals require red blood cells containing hemoglobin to survive.",
+      "answer": false,
+      "explanation": "Antarctic crocodile icefish have completely transparent, hemoglobin-free blood and absorb oxygen directly into plasma."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "All mammals must drink liquid water regularly to stay alive.",
+      "answer": false,
+      "explanation": "Kangaroo rats survive their entire lives without drinking water, producing it internally through seed metabolism."
+    }
+  ]
+}

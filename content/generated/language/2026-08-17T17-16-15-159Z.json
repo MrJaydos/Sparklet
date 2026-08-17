@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.159Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Korean has two completely different ways to say goodbye",
+      "body": "In Korean, how you say goodbye depends entirely on who is moving. If you leave while the other person stays, you say 안녕히 계세요 (annyeonghi gyeseyo, pronounced ahn-nyong-hee geh-seh-yoh), meaning \"stay peacefully.\" If the other person leaves—or if both of you part ways—you say 안녕히 가세요 (annyeonghi gaseyo, pronounced ahn-nyong-hee gah-seh-yoh), meaning \"go peacefully.\" Both expressions share the root annyeong, meaning peace and health.",
+      "imageWikipediaTitle": "Korean language",
+      "sources": [
+        {
+          "title": "Korean language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Korean-language"
+        },
+        {
+          "title": "Korean speech levels",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Korean_speech_levels"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Korean-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The nomadic hospitality behind Arabic's warmest welcome",
+      "body": "When welcoming guests in Arabic, the standard greeting is أهلاً وسهلاً (ahlan wa sahlan, pronounced AH-lahn wah SAH-lahn). Rather than a simple \"welcome,\" it carries desert hospitality. Ahlan comes from ahl (family), and sahlan from sahl (plain, easy ground). The phrase is a poetic promise: \"May you find yourself among family, and may you tread upon smooth, effortless plains rather than rough terrain.\"",
+      "imageWikipediaTitle": "Arabic",
+      "sources": [
+        {
+          "title": "Arabic language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Arabic-language"
+        },
+        {
+          "title": "Arabic greetings",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Arabic-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a medieval saint's name became a word for cheap and tacky",
+      "body": "The word \"tawdry,\" meaning cheap and gaudy, traces back to Saint Etheldreda, a 7th-century Anglo-Saxon queen known colloquially as Saint Audrey. In medieval England, an annual fair held in Ely sold bright, inexpensive lace neckbands called \"Saint Audrey's laces.\" Over centuries of rapid speech, \"St. Audrey\" slurred into \"tawdry.\" As the quality of the festival trinkets declined, the term shifted into an insult for showy, shoddy goods.",
+      "imageWikipediaTitle": "Æthelthryth",
+      "sources": [
+        {
+          "title": "The History of 'Tawdry'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/the-history-of-tawdry"
+        },
+        {
+          "title": "Saint Audrey's lace",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Saint-Audreys-lace"
+        },
+        {
+          "title": "Æthelthryth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%C3%86thelthryth"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/the-history-of-tawdry",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to count to ten using just one hand in Mandarin",
+      "body": "In Mandarin Chinese, numbers from one to ten can all be signaled on a single hand. While 一 (yī, yee), 二 (èr, uhr), and 三 (sān, sahn) use one, two, and three fingers, higher numbers mimic character shapes. Six (六, liù, lyoh) extends the thumb and pinky; eight (八, bā, bah) forms a finger gun; and ten (十, shí, shur) is shown as a clenched fist or crossed index fingers.",
+      "imageWikipediaTitle": "Chinese number gestures",
+      "sources": [
+        {
+          "title": "Chinese languages",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Chinese-languages"
+        },
+        {
+          "title": "Chinese number gestures",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_number_gestures"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Chinese_number_gestures",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The stingy French minister behind the word \"silhouette\"",
+      "body": "In 1759, Étienne de Silhouette served as France's Minister of Finance during a severe budget crisis. To curb debt, he imposed harsh austerity taxes on the wealthy, earning a reputation for extreme penny-pinching. Soon, doing anything cheaply was dubbed à la Silhouette. Around the same time, cut-paper shadow profiles became popular as cheap alternatives to expensive oil portraits, permanently sticking the minister's name to shadowy outlines.",
+      "imageWikipediaTitle": "Étienne de Silhouette",
+      "sources": [
+        {
+          "title": "Why is a Silhouette Called a 'Silhouette'?",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-silhouette"
+        },
+        {
+          "title": "Silhouette",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/silhouette"
+        },
+        {
+          "title": "Étienne de Silhouette",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%C3%89tienne_de_Silhouette"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/word-history-silhouette",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "When leaving a friend's home in Korea while they stay behind, which goodbye should you use?",
+      "options": [
+        "안녕히 계세요 (annyeonghi gyeseyo)",
+        "안녕히 가세요 (annyeonghi gaseyo)",
+        "감사합니다 (gamsahamnida)",
+        "실례합니다 (sillyehamnida)"
+      ],
+      "correctIndex": 0,
+      "explanation": "안녕히 계세요 literally means \"stay peacefully,\" used specifically when addressing someone who is remaining behind."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What do the root words of the Arabic greeting \"Ahlan wa sahlan\" literally signify?",
+      "options": [
+        "Family and easy, smooth plains",
+        "Victory and long life",
+        "Morning light and fresh water",
+        "Peaceful travels and prosperous trade"
+      ],
+      "correctIndex": 0,
+      "explanation": "The phrase combines ahl (family) and sahl (smooth plain), welcoming a traveler as kin onto easy ground."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which historical figure gave their name to the word \"tawdry\"?",
+      "options": [
+        "Saint Audrey",
+        "King Arthur",
+        "Queen Eleanor",
+        "Thomas Becket"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cheap lace neckbands sold at fairs honoring Saint Audrey slurred into \"tawdry,\" eventually meaning cheap and showy."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In traditional Chinese one-handed number gestures, how is the number 8 (bā) displayed?",
+      "options": [
+        "Extending the thumb and index finger like a gun",
+        "Extending the thumb and pinky finger",
+        "Clenching a tight fist",
+        "Crossing the index and middle fingers"
+      ],
+      "correctIndex": 0,
+      "explanation": "An extended thumb and index finger resemble the Chinese character for eight (八)."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why were cut-paper shadow portraits named after Étienne de Silhouette?",
+      "options": [
+        "He was an austerity finance minister known for extreme cheapness",
+        "He invented the precision cutting tool used by shadow artists",
+        "He was a famous Parisian silhouette artist himself",
+        "He banned full-color oil paintings across France"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because silhouette portraits were an inexpensive alternative to oil paintings, they were mockingly named after the penny-pinching finance minister."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In Chinese one-handed number gestures, extending only your thumb and pinky (like a \"hang loose\" sign) represents what number?",
+      "answer": 6,
+      "min": 1,
+      "max": 10,
+      "unit": "",
+      "explanation": "Extending the thumb and pinky represents six (六) because the hand shape resembles the written character."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Korean has a single standard phrase for \"goodbye\" regardless of who is leaving.",
+      "answer": false,
+      "explanation": "Korean distinguishes between \"stay peacefully\" (annyeonghi gyeseyo) for those staying and \"go peacefully\" (annyeonghi gaseyo) for those leaving."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The English word \"tawdry\" originated from the name of a Christian saint.",
+      "answer": true,
+      "explanation": "It derives from cheap lace collars sold at fairs celebrating Saint Audrey (Etheldreda), which over time slurred into \"tawdry.\""
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Étienne de Silhouette was an 18th-century French artist who invented shadow-profile portraits.",
+      "answer": false,
+      "explanation": "He was France's penny-pinching finance minister; cheap outline portraits were mockingly dubbed \"à la Silhouette\" after his austerity measures."
+    }
+  ]
+}

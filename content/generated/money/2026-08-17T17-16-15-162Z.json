@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-17T17:16:15.162Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When the US government made owning gold illegal",
+      "body": "In April 1933, President Franklin D. Roosevelt signed Executive Order 6102, forbidding the private hoarding of gold coins, bullion, and certificates within the continental United States. Citizens were required to deliver their gold to the Federal Reserve in exchange for $20.67 per ounce in paper currency. Violators faced fines up to $10,000 or ten years in prison, allowing the government to devalue the dollar and expand the money supply during the Great Depression.",
+      "imageWikipediaTitle": "Executive Order 6102",
+      "sources": [
+        {
+          "title": "Gold Reserve Act of 1934",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/gold-reserve-act-of-1934"
+        },
+        {
+          "title": "Executive Order 6102",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Executive_Order_6102"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/gold-reserve-act-of-1934",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The £100 million banknote locked in a British vault",
+      "body": "The Bank of England issues banknotes with face values of £1 million (\"Giants\") and £100 million (\"Titans\"), but you will never find one in a cash register. These massive non-circulating notes are held securely in bank vaults to back the value of everyday banknotes issued by commercial banks in Scotland and Northern Ireland, ensuring that every Scottish or Northern Irish pound note is backed by equivalent Bank of England funds.",
+      "imageWikipediaTitle": "Bank of England £100,000,000 note",
+      "sources": [
+        {
+          "title": "Scottish and Northern Ireland banknotes",
+          "publisher": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/banknotes/scottish-and-northern-ireland-banknotes"
+        },
+        {
+          "title": "Bank of England £100,000,000 note",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bank_of_England_%C2%A3100,000,000_note"
+        }
+      ],
+      "readMoreUrl": "https://www.bankofengland.co.uk/banknotes/scottish-and-northern-ireland-banknotes",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why discovering vast riches can ruin a nation's economy",
+      "body": "In 1959, the Netherlands struck a massive natural gas field in Groningen. Instead of enriching the whole country, the resulting export boom flooded the nation with foreign currency, driving up the value of the Dutch guilder. This currency surge made other Dutch manufactured exports far more expensive and uncompetitive overseas, shedding factory jobs. Economists termed this paradox the \"Dutch disease\"—where sudden resource wealth suffocates the broader industrial economy.",
+      "imageWikipediaTitle": "Dutch disease",
+      "sources": [
+        {
+          "title": "Dutch Disease: Too much wealth managed unwisely",
+          "publisher": "International Monetary Fund",
+          "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Dutch-Disease"
+        },
+        {
+          "title": "Dutch disease",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dutch_disease"
+        }
+      ],
+      "readMoreUrl": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Dutch-Disease",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The wartime plot to crash Britain's economy with fake cash",
+      "body": "During World War II, Nazi Germany launched Operation Bernhard, the largest counterfeiting scheme in history. Using skilled prisoners at the Sachsenhausen concentration camp, the SS successfully forged over £130 million in British banknotes—worth billions today. The plot aimed to drop millions of fake bills over Britain to trigger runaway inflation and collapse the financial system, forcing the Bank of England to redesign all £5 notes after the war.",
+      "imageWikipediaTitle": "Operation Bernhard",
+      "sources": [
+        {
+          "title": "Operation Bernhard: Nazi Counterfeit",
+          "publisher": "The National WWII Museum",
+          "url": "https://www.nationalww2museum.org/war/articles/operation-bernhard-nazi-counterfeit"
+        },
+        {
+          "title": "Operation Bernhard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Bernhard"
+        }
+      ],
+      "readMoreUrl": "https://www.nationalww2museum.org/war/articles/operation-bernhard-nazi-counterfeit",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why nearly all US paper currency carries traces of cocaine",
+      "body": "Chemical analyses show that up to 90% of US paper banknotes in circulation carry detectable microscopic traces of cocaine. Banknotes pick up drug residues during direct illicit transactions, but the contamination spreads across the entire money supply inside automated sorting machines, counting equipment, and ATMs. Because US currency consists of fibrous cotton and linen rather than slick wood pulp, it readily absorbs and traps tiny drug particles.",
+      "imageWikipediaTitle": "Contaminated currency",
+      "sources": [
+        {
+          "title": "Cocaine contaminates up to 90 percent of paper money in US cities",
+          "publisher": "American Chemical Society",
+          "url": "https://www.acs.org/pressroom/newsreleases/2009/august/cocaine-contaminates-up-to-90-percent-of-paper-money-in-us-cities.html"
+        },
+        {
+          "title": "Contaminated currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Contaminated_currency"
+        }
+      ],
+      "readMoreUrl": "https://www.acs.org/pressroom/newsreleases/2009/august/cocaine-contaminates-up-to-90-percent-of-paper-money-in-us-cities.html",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did Executive Order 6102 require US citizens to do in 1933?",
+      "options": [
+        "Pay an additional 50% income tax on luxury assets",
+        "Turn in privately held gold coins and bullion to the Federal Reserve",
+        "Exchange all foreign currencies for US dollars",
+        "Deposit all physical cash into commercial checking accounts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Executive Order 6102 prohibited the private hoarding of gold and required citizens to deliver gold coins, bullion, and certificates to the Federal Reserve."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the purpose of the Bank of England's £100 million \"Titan\" banknotes?",
+      "options": [
+        "To finance emergency foreign government bailouts",
+        "To back the value of banknotes issued in Scotland and Northern Ireland",
+        "To settle daily debts between international central banks",
+        "To store physical gold reserves in private vaults"
+      ],
+      "correctIndex": 1,
+      "explanation": "Titans and Giants are held in vaults to legally back commercial banknotes issued by authorized banks in Scotland and Northern Ireland."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What primary economic mechanism causes the paradox known as \"Dutch disease\"?",
+      "options": [
+        "A sudden collapse in agricultural export demand",
+        "Resource exports strengthen the local currency, making manufacturing uncompetitive",
+        "Government debt defaults cause hyperinflation in domestic markets",
+        "Foreign trade tariffs entirely block access to neighboring ports"
+      ],
+      "correctIndex": 1,
+      "explanation": "Large natural resource exports drive up the value of the national currency, which makes other export sectors like manufacturing too expensive for foreign buyers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the primary economic objective of Nazi Germany's Operation Bernhard?",
+      "options": [
+        "To flood Britain with counterfeit banknotes to trigger runaway inflation",
+        "To buy back German gold reserves held across Europe",
+        "To bribe Allied naval officers into opening shipping lanes",
+        "To fund the secret development of jet propulsion aircraft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operation Bernhard aimed to destabilize the British economy by dropping vast quantities of forged banknotes over the UK to destroy confidence in the pound."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is US paper currency particularly prone to holding drug residue across circulation?",
+      "options": [
+        "The ink used in US currency chemically binds with cocaine",
+        "Banknotes are made of cotton and linen fibers that absorb and trap particles",
+        "The plastic security strips emit an electrostatic charge that attracts dust",
+        "The paper is coated with an adhesive sealant during manufacturing"
+      ],
+      "correctIndex": 1,
+      "explanation": "US banknotes are woven from 75% cotton and 25% linen fibers, which trap microscopic drug particles transferred directly or through sorting machines."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of US paper banknotes in circulation carry detectable traces of cocaine?",
+      "answer": 90,
+      "min": 5,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Up to 90% of circulating US bills carry trace cocaine, largely spread when notes mingle inside high-speed sorting machines and ATMs."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "US citizens have always had an unbroken legal right to own and trade physical gold bullion.",
+      "answer": false,
+      "explanation": "Between 1933 and 1974, Executive Order 6102 and subsequent legislation made private gold coin and bullion ownership illegal for Americans."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Discovering a massive natural resource deposit always strengthens a country's entire export economy.",
+      "answer": false,
+      "explanation": "Through 'Dutch disease,' the sudden resource boom drives up currency value, often rendering manufacturing and agriculture uncompetitive."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Only a tiny fraction of paper bills directly handled by drug dealers ever carry cocaine traces.",
+      "answer": false,
+      "explanation": "Automated sorting machines and cash counters cross-contaminate currency, leaving detectable traces on up to 90% of circulating US bills."
+    }
+  ]
+}
