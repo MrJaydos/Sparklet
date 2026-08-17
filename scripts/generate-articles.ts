@@ -15,7 +15,15 @@
 import "dotenv/config";
 import { PrismaClient, Prisma } from "../src/generated/prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
-import { generateJSON } from "../src/lib/ai-provider";
+import {
+  generateJSON,
+  submitBatch,
+  listBatches,
+  getBatch,
+  batchResults,
+  deleteBatch,
+  batchingAvailable,
+} from "../src/lib/ai-provider";
 import { articleSchema, countArticleWords, ARTICLE_MIN_WORDS } from "../src/lib/article";
 import { publisherForUrl, type StoredSource } from "../src/lib/source-attribution";
 
@@ -36,6 +44,34 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 // indexable (6 of 40 cleared it on the first production run). Overshooting
 // the ask is the correction; the floor stays where it is.
 const TARGET_WORDS = "1100-1500";
+
+type ArticleCard = {
+  id: string;
+  title: string;
+  body: string;
+  categoryName: string;
+  sources: StoredSource[];
+};
+
+// Batch mode (--batch): one job in flight at a time, collected by a later
+// run. Same submit-then-collect-next-time rhythm as the nightly content
+// top-up, and the same reason — batch is ~half price and nothing is waiting
+// on the result. Prefix is distinct from "sparklet-topup-" so the two
+// features never see each other's jobs.
+const BATCH_PREFIX = "sparklet-articles-";
+const BATCH_DONE_STATES = new Set(["JOB_STATE_SUCCEEDED", "JOB_STATE_PARTIALLY_SUCCEEDED"]);
+const BATCH_TERMINAL_FAILURE_STATES = new Set([
+  "JOB_STATE_FAILED",
+  "JOB_STATE_CANCELLED",
+  "JOB_STATE_EXPIRED",
+]);
+
+// Cards per submitted batch. Sized for ongoing volume (~70 new cards a night)
+// with headroom, deliberately well short of the whole bank: requests go up as
+// inline payload, so a batch of ~1,000 prompts would be several MB and is
+// untested against the inline-request limit. Draining a large backlog is what
+// the synchronous mode is for.
+const BATCH_MAX = Number(process.env.ARTICLE_BATCH_MAX) || 200;
 
 function buildPrompt(card: {
   title: string;
@@ -107,27 +143,16 @@ function isProviderUnavailable(e: unknown): boolean {
 
 class ProviderUnavailable extends Error {}
 
-async function generateFor(card: {
-  id: string;
-  title: string;
-  body: string;
-  categoryName: string;
-  sources: StoredSource[];
-}): Promise<{ ok: boolean; words: number; reason?: string }> {
-  let raw: string;
-  try {
-    // generateJSON, not generateJSONWith("gemini", ...): both are Gemini-only
-    // now that the Groq fallback is gone, but only generateJSON retries 5xx
-    // and 429 with backoff. Going direct meant a single transient 503 —
-    // "this model is currently experiencing high demand", which Flash returns
-    // in bursts — burned the card as a per-card failure and skipped it for good.
-    raw = (await generateJSON(buildPrompt(card))).text;
-  } catch (e) {
-    if (isProviderUnavailable(e))
-      throw new ProviderUnavailable(e instanceof Error ? e.message : String(e));
-    return { ok: false, words: 0, reason: `model error: ${e instanceof Error ? e.message.slice(0, 120) : e}` };
-  }
-
+/**
+ * Validate one model response and store it against a card. Shared by both
+ * modes so a batch-produced article goes through exactly the same floor and
+ * schema checks as a synchronous one — the only difference between the modes
+ * should be how the text was obtained.
+ */
+async function applyArticle(
+  cardId: string,
+  raw: string
+): Promise<{ ok: boolean; words: number; reason?: string }> {
   let json: unknown;
   try {
     json = JSON.parse(raw);
@@ -141,37 +166,47 @@ async function generateFor(card: {
   }
 
   const words = countArticleWords(parsed.data);
-  if (words < ARTICLE_MIN_WORDS) {
-    // Keep it anyway — a 500-word article still beats a bare card body for a
-    // reader who tapped through. It just doesn't clear the indexability
-    // floor, and articleWords is what enforces that.
-    await prisma.card.update({
-      where: { id: card.id },
-      data: { article: parsed.data, articleWords: words, articleAt: new Date() },
-    });
-    return { ok: false, words, reason: `under ${ARTICLE_MIN_WORDS} words (kept, not indexable)` };
-  }
-
+  // Stored either way — a 500-word article still beats a bare card body for a
+  // reader who tapped through. It just doesn't clear the indexability floor,
+  // and articleWords is what enforces that.
   await prisma.card.update({
-    where: { id: card.id },
+    where: { id: cardId },
     data: { article: parsed.data, articleWords: words, articleAt: new Date() },
   });
-  return { ok: true, words };
+
+  return words >= ARTICLE_MIN_WORDS
+    ? { ok: true, words }
+    : { ok: false, words, reason: `under ${ARTICLE_MIN_WORDS} words (kept, not indexable)` };
 }
 
-async function main() {
-  if (!process.env.GEMINI_API_KEY) {
-    // Gemini-only by design (see generateFor) — no Groq fallback here.
-    console.log("[articles] no GEMINI_API_KEY — skipping.");
-    return;
+async function generateFor(card: ArticleCard): Promise<{ ok: boolean; words: number; reason?: string }> {
+  let raw: string;
+  try {
+    // generateJSON, not generateJSONWith("gemini", ...): both are Gemini-only
+    // now that the Groq fallback is gone, but only generateJSON retries 5xx
+    // and 429 with backoff. Going direct meant a single transient 503 —
+    // "this model is currently experiencing high demand", which Flash returns
+    // in bursts — burned the card as a per-card failure and skipped it for good.
+    raw = (await generateJSON(buildPrompt(card))).text;
+  } catch (e) {
+    if (isProviderUnavailable(e))
+      throw new ProviderUnavailable(e instanceof Error ? e.message : String(e));
+    return { ok: false, words: 0, reason: `model error: ${e instanceof Error ? e.message.slice(0, 120) : e}` };
   }
+  return applyArticle(card.id, raw);
+}
 
-  // ARTICLE_RETRY_SHORT=1 re-attempts cards that were already examined but
-  // aren't indexable — ones whose article came in under the floor, or whose
-  // generation failed. Opt-in rather than automatic: without the flag a
-  // topic that genuinely can't support 600 grounded words would be retried
-  // on every deploy forever. Use it after changing the prompt or the target
-  // length, which is exactly when the earlier verdicts stop being valid.
+/**
+ * Cards still needing an article, best-first.
+ *
+ * ARTICLE_RETRY_SHORT=1 re-attempts cards that were already examined but
+ * aren't indexable — ones whose article came in under the floor, or whose
+ * generation failed. Opt-in rather than automatic: without the flag a topic
+ * that genuinely can't support 600 grounded words would be retried on every
+ * deploy forever. Use it after changing the prompt or the target length,
+ * which is exactly when the earlier verdicts stop being valid.
+ */
+async function selectCards(take: number): Promise<{ cards: ArticleCard[]; remaining: number }> {
   const retryShort = process.env.ARTICLE_RETRY_SHORT === "1";
   const where: Prisma.CardWhereInput = {
     published: true,
@@ -189,12 +224,12 @@ async function main() {
   if (retryShort) console.log("[articles] ARTICLE_RETRY_SHORT=1 — re-attempting non-indexable articles.");
 
   const remaining = await prisma.card.count({ where });
-  const cards = await prisma.card.findMany({
+  const rows = await prisma.card.findMany({
     where,
     // Highest-scoring first: if the run is capped, the cards most likely to
     // be read (and linked) get their article first.
     orderBy: [{ score: "desc" }, { createdAt: "desc" }],
-    take: MAX_PER_RUN,
+    take,
     select: {
       id: true,
       title: true,
@@ -204,6 +239,151 @@ async function main() {
     },
   });
 
+  return {
+    remaining,
+    cards: rows.map((c) => ({
+      id: c.id,
+      title: c.title,
+      body: c.body,
+      categoryName: c.category.name,
+      sources: (c.sources as StoredSource[]) ?? [],
+    })),
+  };
+}
+
+/**
+ * Batch mode: collect whatever a previous run submitted, then submit a new
+ * job if nothing is still in flight. Half price, ~24h turnaround, and immune
+ * to the 503 bursts that stall the synchronous path — nothing is waiting on
+ * these, so latency is free. Meant for the ongoing trickle of new cards;
+ * draining a big backlog is what the synchronous mode is for.
+ */
+async function runBatch() {
+  if (!batchingAvailable()) {
+    console.log("[articles] batch mode unavailable (no GEMINI_API_KEY) — skipping.");
+    return;
+  }
+
+  const jobs = await listBatches(BATCH_PREFIX);
+  let inFlight = false;
+  let written = 0;
+  let short = 0;
+  let failed = 0;
+
+  for (const job of jobs) {
+    const state = job.state as string | undefined;
+
+    if (state && BATCH_DONE_STATES.has(state)) {
+      console.log(`[articles] collecting batch ${job.displayName} (${state})…`);
+      // batches.list() returns summaries only — the actual inlined responses
+      // come back from batches.get() on this specific job. Same trap the
+      // top-up documents: skipping this silently collects zero articles from
+      // a job that actually succeeded.
+      const full = job.name ? await getBatch(job.name) : null;
+      const results = full ? batchResults(full) : [];
+
+      if (results.length === 0 || results.every((r) => !r.key)) {
+        console.error(
+          `[articles] ✗✗ batch ${job.displayName}: ${
+            results.length === 0
+              ? "batches.get() returned no results for a job in a done state"
+              : `none of ${results.length} result(s) carried a metadata.key`
+          } — cannot attribute these articles to cards. Discarding.`
+        );
+        if (job.name) await deleteBatch(job.name);
+        continue;
+      }
+
+      for (const { key: cardId, text, error, finishReason } of results) {
+        if (!cardId) continue;
+        if (!text) {
+          // Left unmarked so the next submission picks the card up again.
+          failed++;
+          console.warn(
+            `  ✗ ${cardId}: batch item failed (${error}${finishReason ? `, ${finishReason}` : ""}) — retries next run`
+          );
+          continue;
+        }
+        const result = await applyArticle(cardId, text);
+        if (result.ok) {
+          written++;
+        } else if (result.words > 0) {
+          short++;
+        } else {
+          failed++;
+          console.warn(`  ✗ ${cardId}: ${result.reason}`);
+          // Same reasoning as the synchronous path: mark examined so a card
+          // the model can't produce valid JSON for doesn't head the queue on
+          // every future run.
+          await prisma.card.update({ where: { id: cardId }, data: { articleAt: new Date() } });
+        }
+      }
+      if (job.name) await deleteBatch(job.name);
+    } else if (state && BATCH_TERMINAL_FAILURE_STATES.has(state)) {
+      console.warn(`[articles] batch ${job.displayName} ended in ${state} — discarding, cards retry next run`);
+      if (job.name) await deleteBatch(job.name);
+    } else {
+      console.log(`[articles] batch ${job.displayName} still ${state ?? "unknown"} — skipping submission this run`);
+      inFlight = true;
+    }
+  }
+
+  if (written || short || failed) {
+    console.log(`[articles] collected — ${written} indexable, ${short} kept but short, ${failed} to retry.`);
+  }
+
+  if (inFlight) return;
+
+  // Selected after collection, so cards just written aren't resubmitted.
+  const { cards, remaining } = await selectCards(BATCH_MAX);
+  if (cards.length === 0) {
+    console.log("[articles] nothing to submit — every card has an article.");
+    return;
+  }
+
+  try {
+    const displayName = `${BATCH_PREFIX}${new Date().toISOString().slice(0, 10)}`;
+    const name = await submitBatch(
+      cards.map((c) => ({ key: c.id, prompt: buildPrompt(c) })),
+      displayName
+    );
+    console.log(
+      `[articles] submitted batch ${name} (${displayName}) for ${cards.length} card(s); ` +
+        `${Math.max(0, remaining - cards.length)} more queued for later runs.`
+    );
+  } catch (e) {
+    // Nothing is marked, so a failed submit costs only this run.
+    console.error(
+      `[articles] batch submit failed: ${e instanceof Error ? e.message.slice(0, 300) : e} — retries next run`
+    );
+  }
+}
+
+/** Synchronous mode: generate now, one card per call. */
+async function runSequential() {
+  // A submitted batch holds cards that still have articleAt null, so this
+  // mode would happily regenerate every one of them — paying twice and
+  // racing the collection. There's no record of which cards a job contains,
+  // so this can't be filtered out; warn instead and let the operator decide,
+  // since a deliberate backlog drain is still a reasonable thing to do while
+  // a small batch is pending.
+  if (batchingAvailable()) {
+    const pending = (await listBatches(BATCH_PREFIX)).filter((j) => {
+      const s = j.state as string | undefined;
+      return !s || (!BATCH_DONE_STATES.has(s) && !BATCH_TERMINAL_FAILURE_STATES.has(s));
+    });
+    if (pending.length > 0) {
+      console.warn(
+        `[articles] ! ${pending.length} article batch(es) still in flight (${pending
+          .map((j) => j.displayName)
+          .join(", ")}).\n` +
+          "[articles] ! Those cards are also unmarked, so this run may regenerate them and pay twice.\n" +
+          "[articles] ! Collect first with `tsx scripts/generate-articles.ts --batch`, or let this run proceed knowingly."
+      );
+    }
+  }
+
+  const { cards, remaining } = await selectCards(MAX_PER_RUN);
   console.log(`[articles] ${remaining} card(s) without an article; processing ${cards.length} this run.`);
 
   let written = 0;
@@ -213,13 +393,7 @@ async function main() {
   for (const [i, c] of cards.entries()) {
     let result;
     try {
-      result = await generateFor({
-        id: c.id,
-        title: c.title,
-        body: c.body,
-        categoryName: c.category.name,
-        sources: (c.sources as StoredSource[]) ?? [],
-      });
+      result = await generateFor(c);
     } catch (e) {
       if (e instanceof ProviderUnavailable) {
         console.warn(
@@ -255,6 +429,21 @@ async function main() {
     `[articles] done — ${written} indexable, ${short} kept but short, ${failed} failed. ` +
       `${Math.max(0, remaining - cards.length)} still queued for the next deploy.`
   );
+}
+
+async function main() {
+  if (!process.env.GEMINI_API_KEY) {
+    // Gemini-only by design (see generateFor) — no Groq fallback here.
+    console.log("[articles] no GEMINI_API_KEY — skipping.");
+    return;
+  }
+
+  // --batch is the deploy/ongoing path: half price, nothing waiting on it.
+  // Bare invocation stays synchronous for backlog drains and manual runs
+  // where someone wants articles now — same split as the content generator's
+  // --top-up vs --category.
+  if (process.argv.includes("--batch")) return runBatch();
+  return runSequential();
 }
 
 main()

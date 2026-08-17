@@ -26,8 +26,11 @@ tsx prisma/seed.ts
     || echo "[startup] source attribution repair failed — retries next deploy."
   # Long-form articles for cards that don't have one yet. /card/[id] is
   # noindex and absent from the sitemap until this lands, so this is what
-  # grows the indexable surface — capped per run, drains over deploys.
-  tsx scripts/generate-articles.ts \
+  # grows the indexable surface. --batch collects the previous run's job and
+  # submits the next one: half price, and nothing here is waiting on the
+  # result. Drop the flag to generate synchronously instead (what a manual
+  # backlog drain uses).
+  tsx scripts/generate-articles.ts --batch \
     || echo "[startup] article generation failed — retries next deploy."
 ) &
 
