@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.273Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the best choice depends on whether others are rational",
+      "body": "Imagine guessing a number between 0 and 100, where the winner is whoever picks closest to two-thirds of the group's average. If everyone guesses randomly, the average is 50, so you should pick 33. But if everyone calculates that, the average becomes 33, so you should pick 22. Taken infinitely, the only rational answer is 0. Yet in real experiments, players usually pick around 21, because true rationality requires anticipating human imperfection.",
+      "imageWikipediaTitle": "Game theory",
+      "sources": [
+        {
+          "title": "Guess 2/3 of the average",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guess_2/3_of_the_average"
+        },
+        {
+          "title": "Unraveling in Guessing Games: An Experimental Study",
+          "publisher": "American Economic Association",
+          "url": "https://www.aeaweb.org/aer/top20/85.5.1337-1354.pdf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Guess_2/3_of_the_average",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient paradox of an arrow frozen in midair",
+      "body": "Zeno of Elea argued that motion itself is an illusion. Consider an arrow in flight: at any single, indivisible instant of time, the arrow occupies a space equal to its exact dimensions. Because an instant has no duration, the arrow cannot move during it; it is entirely stationary. If time is simply a series of instants, and the arrow is motionless at every instant, it can never actually move.",
+      "imageWikipediaTitle": "Zeno of Elea",
+      "sources": [
+        {
+          "title": "Zeno's Paradoxes",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/paradox-zeno/"
+        },
+        {
+          "title": "Zeno's paradoxes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/paradox-zeno/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you shouldn't assume malice when incompetence explains it",
+      "body": "Hanlon's Razor advises: 'Never attribute to malice that which is adequately explained by stupidity.' In philosophical logic, this principle acts as a heuristic rule of thumb, urging us to seek the simplest and least malevolent explanation for harmful human errors before assuming a hostile conspiracy or bad intentions.",
+      "imageWikipediaTitle": "Hanlon's razor",
+      "sources": [
+        {
+          "title": "Hanlon's razor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hanlon%27s_razor"
+        },
+        {
+          "title": "Occam's Razor",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/simplici/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hanlon%27s_razor",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ethical trap of evaluating lives only in hindsight",
+      "body": "Bernard Williams introduced 'moral luck' to expose how outcomes outside our control distort our moral judgments. Suppose a negligent driver runs a red light and hits nobody; society issues a minor fine. A second driver acts identically, but a child steps off the curb and dies. Although their intent and recklessness are identical, we judge the second driver far more harshly purely because of chance.",
+      "imageWikipediaTitle": "Ethics",
+      "sources": [
+        {
+          "title": "Moral Luck",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/moral-luck/"
+        },
+        {
+          "title": "Moral luck",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moral_luck"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/moral-luck/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The machine that splits continuous brains into digital parts",
+      "body": "Philosopher Arnold Zuboff proposed a thought experiment: suppose a brain experiencing awareness is gradually separated. Its neurons are split apart and connected by radio signals, then spread across galaxies, and finally stimulated with timed delays. If consciousness survives each step, does an experience of time and feeling depend on physical proximity, or can a conscious mind be scattered across the universe?",
+      "imageWikipediaTitle": "Philosophy of mind",
+      "sources": [
+        {
+          "title": "China brain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China_brain"
+        },
+        {
+          "title": "Computational Theory of Mind",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/computational-mind/"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/computational-mind/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In the game 'Guess 2/3 of the average', what is the purely mathematical Nash equilibrium if all players are perfectly rational?",
+      "options": [
+        "50",
+        "33",
+        "22",
+        "0"
+      ],
+      "correctIndex": 3,
+      "explanation": "If every participant is infinitely rational and knows everyone else is too, iterated reasoning leads to 0 as the only stable equilibrium."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to Zeno's Arrow paradox, why is an arrow in flight motionless at any given instant?",
+      "options": [
+        "Air resistance cancels out forward momentum",
+        "At any instant with zero duration, the arrow occupies a space equal to its size and cannot change position",
+        "Human visual perception cannot process continuous time",
+        "The target is moving away at an identical speed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because an instant has no duration, motion cannot take place within it, meaning the arrow occupies a static position at every snapshot of time."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does Hanlon's Razor suggest when interpreting others' harmful mistakes?",
+      "options": [
+        "Assume they acted out of hidden, malicious intent",
+        "Look for the most complex psychological explanation",
+        "Attribute the action to incompetence or ignorance before assuming malice",
+        "Assume all errors are strictly accidental without personal fault"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hanlon's Razor states: 'Never attribute to malice that which is adequately explained by stupidity.'"
+    },
+    {
+      "cardIndex": 3,
+      "question": "What central problem does the concept of 'moral luck' demonstrate in ethics?",
+      "options": [
+        "Morality is determined by majority vote",
+        "People judge actions differently based on consequences driven by chance rather than intent alone",
+        "Virtuous people always experience better outcomes",
+        "Ethical decisions cannot be made under uncertainty"
+      ],
+      "correctIndex": 1,
+      "explanation": "Moral luck highlights that our ethical judgments often depend on random real-world outcomes that the agent could not control."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What central philosophical question do distributed-brain thought experiments address?",
+      "options": [
+        "Whether consciousness requires physical proximity and continuous structure or just functional processing",
+        "Whether artificial intelligence can feel physical pain",
+        "Whether time dilation stops neuronal firing",
+        "Whether the speed of light limits human IQ"
+      ],
+      "correctIndex": 0,
+      "explanation": "These thought experiments test whether mental states depend on continuous physical brain matter or merely the right pattern of information transfer."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In experimental trials of 'Guess 2/3 of the Average' with human players, what is the typical winning guess value?",
+      "answer": 21.6,
+      "min": 0,
+      "max": 100,
+      "unit": "",
+      "explanation": "While pure game theory dictates 0, human players usually perform only 1 to 3 steps of strategic reasoning, yielding guesses around 21 to 22."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Hanlon's Razor claims that human malice does not actually exist.",
+      "answer": false,
+      "explanation": "Hanlon's Razor is a rule of thumb for prioritization: it advises against assuming malice as the primary cause when incompetence is a simpler explanation, not that malice never occurs."
+    }
+  ]
+}

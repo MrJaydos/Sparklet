@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.279Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Italian Banks That Accept Giant Cheese Wheels as Collateral",
+      "body": "Since the 1950s, the regional Italian bank Credito Emiliano has accepted aging wheels of Parmigiano-Reggiano as collateral for agricultural loans. Because authentic Parmesan takes up to three years to mature, producers face cash flow shortages. The bank stores tens of thousands of cheese wheels in climate-controlled, secure vaults, valuing each 80-pound wheel at hundreds of euros. If a producer defaults, the bank simply sells the aged cheese.",
+      "imageWikipediaTitle": "Parmigiano Reggiano",
+      "sources": [
+        {
+          "title": "The Italian bank that accepts cheese as collateral",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/news/business-34673892"
+        },
+        {
+          "title": "Credito Emiliano",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Credito_Emiliano"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/business-34673892",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Lipstick Sales Surge During Severe Economic Recessions",
+      "body": "During economic recessions, cash-strapped consumers do not stop spending entirely—they swap big-ticket luxuries for affordable treats. Dubbed the \"Lipstick Effect,\" this phenomenon describes how sales of cosmetics, premium chocolates, and small indulgences often rise during downturns. When people cannot afford vacations, designer handbags, or new cars, buying a premium $25 lipstick delivers a mood boost without derailing an already strained household budget.",
+      "imageWikipediaTitle": "Lipstick",
+      "sources": [
+        {
+          "title": "Lipstick Index",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/l/lipstick-index.asp"
+        },
+        {
+          "title": "Lipstick index",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lipstick_index"
+        }
+      ],
+      "readMoreUrl": "https://www.investopedia.com/terms/l/lipstick-index.asp",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Migrant Remittances Send More Money Home Than Global Foreign Aid",
+      "body": "Every year, international migrant workers send hundreds of billions of dollars directly back to their families in developing nations. According to the World Bank, these personal transfers—known as remittances—consistently surpass all official global foreign aid and foreign direct investment combined for many low- and middle-income nations. Because remittances flow directly into household pockets rather than government bureaucracies, they immediately fund essential food, healthcare, and education.",
+      "imageWikipediaTitle": "Remittance",
+      "sources": [
+        {
+          "title": "Remittances Remain Critical Source of Finance",
+          "publisher": "World Bank",
+          "url": "https://www.worldbank.org/en/news/press-release/2023/12/18/remittance-growth-slowed-in-2023-remittances-remain-critical-source-of-finance"
+        },
+        {
+          "title": "Remittance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Remittance"
+        }
+      ],
+      "readMoreUrl": "https://www.worldbank.org/en/news/press-release/2023/12/18/remittance-growth-slowed-in-2023-remittances-remain-critical-source-of-finance",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Crucial Water Costs Pennies While Useless Diamonds Cost Fortunes",
+      "body": "Without water, human life cannot survive for more than a few days, yet it flows cheaply from taps. Diamonds have little practical survival value, yet command astronomical prices. Known as the Diamond-Water Paradox, this puzzle stumped early thinkers like Adam Smith until economists formulated marginal utility theory. Value is not set by a good's total usefulness to humanity, but by the satisfaction derived from obtaining one additional unit of it.",
+      "imageWikipediaTitle": "Diamond",
+      "sources": [
+        {
+          "title": "Paradox of Value",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/p/paradox-of-value.asp"
+        },
+        {
+          "title": "Paradox of value",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_value"
+        }
+      ],
+      "readMoreUrl": "https://www.investopedia.com/terms/p/paradox-of-value.asp",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Owning an Object Instantly Makes You Value It Far More",
+      "body": "In landmark behavioral economics experiments, students given a university coffee mug refused to sell it for less than roughly $7, while students without a mug were only willing to pay around $3 to buy one. This gap illustrates the \"endowment effect\": merely possessing an item makes people value it substantially more than when they did not own it. Psychologists link this bias to loss aversion—the pain of parting with property outweighs the pleasure of acquiring it.",
+      "imageWikipediaTitle": "Endowment effect",
+      "sources": [
+        {
+          "title": "Endowment Effect",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/e/endowment-effect.asp"
+        },
+        {
+          "title": "Endowment effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endowment_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.investopedia.com/terms/e/endowment-effect.asp",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What unusual physical asset does the Italian bank Credito Emiliano accept as loan collateral?",
+      "options": [
+        "Vintage sports cars",
+        "Aging wheels of Parmigiano-Reggiano cheese",
+        "Oak barrels of balsamic vinegar",
+        "Fine silk fabrics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Credito Emiliano accepts wheels of Parmigiano-Reggiano cheese, storing them in specialized vaults while they age over several years."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the \"Lipstick Effect\" describe in consumer economics?",
+      "options": [
+        "A sudden increase in advertising spending during market booms",
+        "The rise in sales of small, affordable luxuries during recessions",
+        "A trend where commodity prices mimic cosmetic prices",
+        "A surge in counterfeit makeup when currencies inflate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Lipstick Effect occurs when consumers facing financial stress forgo large luxury purchases in favor of minor indulgences like cosmetics."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do international remittances from migrant workers compare to official foreign development aid?",
+      "options": [
+        "Remittances are far larger than official foreign aid",
+        "Foreign aid is roughly ten times larger than remittances",
+        "Remittances only account for a tiny fraction of global cash flows",
+        "Remittances are strictly restricted to government accounts"
+      ],
+      "correctIndex": 0,
+      "explanation": "World Bank data shows personal remittances sent home by migrants surpass official global development aid and foreign direct investment in many developing countries."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does economic theory resolve the Diamond-Water Paradox?",
+      "options": [
+        "Government price caps artificially lower the cost of water",
+        "Prices reflect the marginal utility of the next unit, not total usefulness",
+        "Water has no production cost, so it cannot have economic value",
+        "Diamonds are universally backed by central bank reserves"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marginal utility explains that because water is abundant, the value of one extra cup is low, whereas scarce diamonds offer high marginal satisfaction."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary psychological driver behind the endowment effect?",
+      "options": [
+        "Loss aversion",
+        "Hyperbolic discounting",
+        "Herd mentality",
+        "The gambler's fallacy"
+      ],
+      "correctIndex": 0,
+      "explanation": "The endowment effect is driven by loss aversion, where the pain of giving up an owned item feels greater than the joy of acquiring it."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In 2023, approximately how many billions of USD did migrant workers send to low- and middle-income nations in remittances?",
+      "answer": 656,
+      "min": 100,
+      "max": 1500,
+      "unit": "billion USD",
+      "explanation": "According to the World Bank, remittances to low- and middle-income countries reached an estimated $656 billion in 2023."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Banks only accept traditional financial assets or real estate as collateral for business loans.",
+      "answer": false,
+      "explanation": "Certain banks accept physical goods tied to local industries; for example, Italian banks accept valuable aging cheese wheels as collateral."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Consumer spending across all luxury and discretionary goods falls to zero during economic downturns.",
+      "answer": false,
+      "explanation": "The Lipstick Effect demonstrates that consumers often increase spending on minor, affordable luxuries even during recessions."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "People evaluate the monetary value of an item identically whether they own it or not.",
+      "answer": false,
+      "explanation": "Due to the endowment effect, people consistently demand a higher price to sell an item they own than they would be willing to pay to buy it."
+    }
+  ]
+}

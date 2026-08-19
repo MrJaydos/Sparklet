@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.279Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 8,000-Year-Old Tradition of Fermenting Wine Underground in Clay",
+      "body": "In Georgia, winemakers have used large egg-shaped terracotta vessels called qvevri for roughly 8,000 years. Buried entirely underground to maintain stable temperatures, these clay jars hold crushed grapes, skins, and stems through fermentation and aging without temperature-control machinery. The resulting amber-colored wine is recognized by UNESCO as one of humanity's oldest continuous winemaking traditions.",
+      "imageWikipediaTitle": "Qvevri",
+      "sources": [
+        {
+          "title": "Ancient Georgian traditional Qvevri wine-making method",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/ancient-georgian-traditional-qvevri-wine-making-method-00870"
+        },
+        {
+          "title": "Qvevri",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Qvevri"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/ancient-georgian-traditional-qvevri-wine-making-method-00870",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Congolese Dandies Who Turn Fashion into an Art of Peaceful Defiance",
+      "body": "In the working-class neighborhoods of Brazzaville and Kinshasa, members of La Sape step onto unpaved streets dressed in immaculate haute couture, silk ties, and polished leather brogues. Emerging during the early 20th century under colonial rule, sapeurs adopted and subverted European dress codes, transforming high fashion into a performance of dignity, elegance, and joyful nonviolent resistance.",
+      "imageWikipediaTitle": "La Sape",
+      "sources": [
+        {
+          "title": "The elegant 'sapeurs' of the Republic of Congo",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/in-pictures-50478147"
+        },
+        {
+          "title": "La Sape",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/La_Sape"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/in-pictures-50478147",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Monks Who Replaced Chanting with a Bamboo Flute",
+      "body": "During Japan's Edo period, mendicant Zen Buddhist monks known as komusō traveled the country wearing woven reed baskets over their heads to detach from worldly identity. Instead of reciting sutras, they practiced suizen, or 'blowing Zen,' playing the end-blown bamboo flute (shakuhachi) as a tool for breath control and enlightenment, turning flute music into a sacred monastic discipline.",
+      "imageWikipediaTitle": "Komusō",
+      "sources": [
+        {
+          "title": "Shakuhachi",
+          "publisher": "Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/501755"
+        },
+        {
+          "title": "Komusō",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Komus%C5%8D"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/art/collection/search/501755",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Andean Acrobatic Dance Performed with Two Loose Metal Blades",
+      "body": "In the south-central Andes of Peru, dancers perform the Danza de las Tijeras (Scissors Dance), engaging in grueling competitive duels that can last for hours. Clad in embroidered costumes, performers strike two separate iron blades together like scissors in one hand, keeping exact rhythm with violin and harp music while executing backflips and leaps.",
+      "imageWikipediaTitle": "Scissors dance",
+      "sources": [
+        {
+          "title": "Scissors dance",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/scissors-dance-00438"
+        },
+        {
+          "title": "Scissors dance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scissors_dance"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/scissors-dance-00438",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Kazakh Tradition of Hunting on Horseback with Golden Eagles",
+      "body": "In the rugged Altai Mountains of western Mongolia, Kazakh nomadic hunters known as berkutchi forge lifelong bonds with golden eagles. Hunters capture young female eagles from wild cliff nests, training the massive raptors to hunt foxes and hares across snow-covered steppe alongside their horses. After years of hunting partnership, the eagle is ceremonially released back into the wild.",
+      "imageWikipediaTitle": "Hunting with eagles",
+      "sources": [
+        {
+          "title": "Falconry, a living human heritage",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708"
+        },
+        {
+          "title": "Hunting with eagles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hunting_with_eagles"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/falconry-a-living-human-heritage-01708",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is a qvevri in traditional Georgian winemaking?",
+      "options": [
+        "A large egg-shaped clay vessel buried underground",
+        "A wooden aging barrel made of native oak",
+        "A shallow stone press used for crushing grapes by foot",
+        "A woven reed basket used during harvest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Qvevri are large egg-shaped terracotta jars buried underground to naturally regulate fermentation temperatures."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary cultural expression of Congolese sapeurs?",
+      "options": [
+        "Wearing tailored haute couture as an art of dignity and resistance",
+        "Carving wooden face masks for harvest ceremonies",
+        "Composing call-and-response percussion suites",
+        "Painting public murals protesting colonial laws"
+      ],
+      "correctIndex": 0,
+      "explanation": "Members of La Sape dress in immaculate high fashion to assert dignity, elegance, and peaceful defiance."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did Japanese Komusō monks wear woven reed baskets over their heads?",
+      "options": [
+        "To detach from ego and worldly personal identity",
+        "To amplify the sound of their flutes during travel",
+        "To protect against sunlight during mountain ascents",
+        "To indicate their rank in the shogun's administration"
+      ],
+      "correctIndex": 0,
+      "explanation": "Komusō monks wore the woven baskets (tengai) over their entire heads to symbolize self-effacement and detachment from the world."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do performers produce rhythmic metallic sounds in the Andean Scissors Dance?",
+      "options": [
+        "By striking two loose iron blades together in one hand",
+        "By wearing iron studs on the heels of their boots",
+        "By clicking brass castanets tied to their fingers",
+        "By beating small gongs attached to their belts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dancers hold two separate iron blades in one hand, clashing them together to sound like scissors while executing acrobatic moves."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What eventually happens to a hunting eagle raised by a traditional Kazakh hunter?",
+      "options": [
+        "It is ceremonially released back into the wild",
+        "It is gifted to the hunter's eldest child",
+        "It lives out its full natural life in captivity",
+        "It is traded to another nomad family"
+      ],
+      "correctIndex": 0,
+      "explanation": "After several years of successful hunting partnership, Kazakh falconers release their eagles so they can reproduce in the wild."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "For roughly how many years have Georgian winemakers been fermenting wine in buried clay vessels?",
+      "answer": 8000,
+      "min": 500,
+      "max": 15000,
+      "unit": "years",
+      "explanation": "Archaeological findings in Georgia date qvevri-style winemaking back roughly 8,000 years to around 6000 BCE."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Komusō Zen monks played the shakuhachi bamboo flute for public entertainment.",
+      "answer": false,
+      "explanation": "Komusō monks played the shakuhachi strictly as a meditative breath practice known as suizen ('blowing Zen'), not as musical entertainment."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Kazakh eagle hunters keep their golden eagles in captivity for their entire natural lives.",
+      "answer": false,
+      "explanation": "Hunters maintain a temporary partnership of roughly 5 to 10 years before returning the eagle to the wild to live freely and breed."
+    }
+  ]
+}

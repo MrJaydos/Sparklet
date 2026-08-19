@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.281Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why some people can smell asparagus in their urine while others cannot",
+      "body": "Eating asparagus breaks down asparagusic acid into volatile sulfur metabolites like methanethiol. However, whether you notice the resulting pungent smell depends on your DNA. While nearly everyone produces these compounds during digestion, mutations in olfactory receptor genes—particularly OR2M7—prevent a large portion of the population from smelling them at all. This harmless genetic divide is known as asparagus anosmia.",
+      "imageWikipediaTitle": "Asparagus",
+      "sources": [
+        {
+          "title": "Sniffing out significant \"Pee-values\": genome wide association study of asparagus anosmia",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5155106/"
+        },
+        {
+          "title": "Asparagusic acid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asparagusic_acid"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5155106/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain's protective fluid completely replaces itself several times a day",
+      "body": "Cerebrospinal fluid constantly cushions your brain and spinal cord, clearing metabolic waste and maintaining intracranial pressure. Your body maintains only about 125 to 150 milliliters of this clear liquid at any moment. Yet specialized cells in the brain produce roughly 500 milliliters of fresh fluid every single day. As old fluid drains into the bloodstream, your entire cerebrospinal supply completely turns over three to four times in twenty-four hours.",
+      "imageWikipediaTitle": "Cerebrospinal fluid",
+      "sources": [
+        {
+          "title": "Physiology, Cerebrospinal Fluid",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK459248/"
+        },
+        {
+          "title": "Cerebrospinal fluid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cerebrospinal_fluid"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459248/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Working muscles can absorb blood sugar without needing insulin",
+      "body": "Normally, your cells depend on insulin to unlock their doors and absorb glucose from the bloodstream. But during physical exercise, contracting skeletal muscles bypass this requirement entirely. Muscle contractions activate intracellular signaling pathways that push GLUT4 glucose transporter proteins directly to the cell membrane. This exercise-induced mechanism allows active muscles to pull sugar from the blood independently of insulin, making regular movement a powerful tool for blood sugar regulation.",
+      "imageWikipediaTitle": "GLUT4",
+      "sources": [
+        {
+          "title": "Regulation of Muscle Glucose Uptake by Exercise",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4322947/"
+        },
+        {
+          "title": "GLUT4",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GLUT4"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4322947/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your inner ear sorts sounds by pitch using a physical spiral ramp",
+      "body": "Inside your inner ear, the snail-shaped cochlea processes sound using the basilar membrane, which functions like a biological frequency analyzer. The base of this membrane is narrow and stiff, vibrating specifically in response to high-frequency sounds up to 20,000 Hertz. Toward the wider, flexible apex, it resonates only with low-pitched bass notes down to 20 Hertz. This anatomical layout, called tonotopy, maps different pitches directly onto different physical locations.",
+      "imageWikipediaTitle": "Cochlea",
+      "sources": [
+        {
+          "title": "The Basilar Membrane",
+          "publisher": "Sinauer Associates",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK10904/"
+        },
+        {
+          "title": "Basilar membrane",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Basilar_membrane"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK10904/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why eating a meal often triggers an immediate urge to use the restroom",
+      "body": "If you feel a sudden urge for a bowel movement shortly after eating, your gastrocolic reflex is at work. When food stretches your stomach and enters the small intestine, it triggers nerve signals and hormone releases, including gastrin and cholecystokinin. These signals cause the colon to increase its muscular contractions, pushing existing digestive waste toward the rectum. It is your digestive tract's way of clearing room for new incoming food.",
+      "imageWikipediaTitle": "Human digestive system",
+      "sources": [
+        {
+          "title": "Physiology, Gastrocolic Reflex",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK549888/"
+        },
+        {
+          "title": "Gastrocolic reflex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastrocolic_reflex"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK549888/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why can some people not smell any distinct odor in their urine after eating asparagus?",
+      "options": [
+        "Genetic variations in olfactory receptor genes make them unable to smell it",
+        "Their digestive enzymes completely prevent the breakdown of asparagusic acid",
+        "Their liver filters out the sulfur compounds before they reach the bladder",
+        "Their kidneys convert the sulfur compounds into odorless liquid urea"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nearly everyone produces the sulfur metabolites, but genetic mutations in olfactory receptor genes prevent some people from smelling them."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How many times per day does the human body replace its entire supply of cerebrospinal fluid?",
+      "options": [
+        "3 to 4 times",
+        "Once every 7 days",
+        "About 20 to 25 times",
+        "It is never replaced after birth"
+      ],
+      "correctIndex": 0,
+      "explanation": "The brain produces roughly 500 mL of cerebrospinal fluid daily to maintain a volume of 125 to 150 mL, turning it over 3 to 4 times every 24 hours."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do skeletal muscles absorb blood sugar during exercise without relying on insulin?",
+      "options": [
+        "Muscle contractions directly prompt GLUT4 transporter proteins to move to the cell surface",
+        "Glucagon opens specialized glucose channels in muscle fibers",
+        "Adrenaline dissolves sugar crystals directly through cell membranes",
+        "Red blood cells inject glucose straight into working muscle mitochondria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mechanical contraction of muscles activates alternative signaling pathways that translocate GLUT4 transporters independently of insulin."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the basilar membrane in the inner ear distinguish between different sound pitches?",
+      "options": [
+        "High pitches vibrate the stiff base while low pitches vibrate the flexible apex",
+        "Pitch is sorted solely by changing air pressure in the outer ear canal",
+        "High pitches vibrate the entire membrane while low pitches vibrate none of it",
+        "Pitch is detected by fluid temperature variations within the cochlea"
+      ],
+      "correctIndex": 0,
+      "explanation": "The basilar membrane varies in width and stiffness along its length, creating a frequency map where different pitches resonate at different points."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary physiological trigger for the gastrocolic reflex after eating?",
+      "options": [
+        "Stretching of the stomach and hormonal signals prompting colon contractions",
+        "Sudden drops in core body temperature caused by swallowing food",
+        "Lactic acid accumulation in the small intestine",
+        "Dehydration of the colon lining during active chewing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stomach distension and digestive hormones stimulate the large intestine to contract, clearing out older waste to make room for incoming food."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "About how many milliliters of fresh cerebrospinal fluid does your body produce every day?",
+      "answer": 500,
+      "min": 50,
+      "max": 2000,
+      "unit": "mL",
+      "explanation": "Your brain makes roughly 500 mL of cerebrospinal fluid daily, constantly refreshing a standing reservoir of just 125 to 150 mL."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "People whose urine doesn't smell after eating asparagus simply do not produce the smelly sulfur compounds.",
+      "answer": false,
+      "explanation": "Most people produce the smelly sulfur metabolites; those who notice nothing generally carry genetic variants that make them unable to detect the odor."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Muscle cells can only absorb glucose from the bloodstream when insulin is present.",
+      "answer": false,
+      "explanation": "Muscle contractions during exercise mobilize GLUT4 glucose transporters to the cell surface completely independently of insulin."
+    }
+  ]
+}

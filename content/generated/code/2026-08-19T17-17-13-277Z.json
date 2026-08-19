@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.277Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Ray Tomlinson picked the @ symbol for email",
+      "body": "In 1971, computer engineer Ray Tomlinson created network email for the early ARPANET. He needed a character to separate a user's name from their computer without colliding with characters in people's names or commands. Scanning his Model 33 Teletype keyboard, Tomlinson chose @ because it was rarely used in programming and naturally meant \"at\"—indicating the user resided at a specific host machine.",
+      "imageWikipediaTitle": "Ray Tomlinson",
+      "sources": [
+        {
+          "title": "Ray Tomlinson",
+          "publisher": "Internet Hall of Fame",
+          "url": "https://www.internethalloffame.org/inductees/ray-tomlinson/"
+        },
+        {
+          "title": "Ray Tomlinson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+        }
+      ],
+      "readMoreUrl": "https://www.internethalloffame.org/inductees/ray-tomlinson/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1982 message board debate gave birth to the digital smiley",
+      "body": "On September 19, 1982, computer scientist Scott Fahlman posted a note to the Carnegie Mellon University bulletin board. Online debate was thriving, but readers frequently misread sarcastic remarks as angry outbursts. To prevent flaming, Fahlman suggested tagging jokes with the character sequence :-) and serious notes with :-(. Within months, the character sequence spread across the ARPANET, giving software culture its first universal emotion marker.",
+      "imageWikipediaTitle": "Emoticon",
+      "sources": [
+        {
+          "title": "Smiley Lore",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Emoticon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emoticon"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1963 MIT thesis invented computer graphics and object-oriented design",
+      "body": "In 1963, MIT graduate student Ivan Sutherland introduced Sketchpad, running on the experimental Lincoln TX-2 mainframe. Using a revolutionary light pen, Sutherland could draw lines, scale shapes, and constrain geometric angles directly on a cathode-ray screen in real time. Sketchpad introduced master-and-instance drawings—a direct precursor to object-oriented programming—and laid the technical foundations for modern graphical user interfaces, computer-aided design, and digital simulation decades ahead of personal computers.",
+      "imageWikipediaTitle": "Ivan Sutherland",
+      "sources": [
+        {
+          "title": "Ivan Sutherland",
+          "publisher": "Association for Computing Machinery",
+          "url": "https://amturing.acm.org/award_winners/sutherland_8686445.cfm"
+        },
+        {
+          "title": "Sketchpad",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sketchpad"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sketchpad",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1987 software stack that prefigured the World Wide Web and Myst",
+      "body": "In 1987, Apple engineer Bill Atkinson created HyperCard, bundling it free with Macintosh computers. HyperCard let anyone build interactive \"stacks\" of digital index cards connected by clickable buttons and simple scripts written in HyperTalk. It empowered non-programmers to create databases and interactive multimedia without writing complex code. The system inspired game studio Cyan to build the landmark video game Myst, and gave Tim Berners-Lee inspiration when architecting the World Wide Web.",
+      "imageWikipediaTitle": "HyperCard",
+      "sources": [
+        {
+          "title": "A Little History of the World Wide Web",
+          "publisher": "World Wide Web Consortium",
+          "url": "https://www.w3.org/History.html"
+        },
+        {
+          "title": "HyperCard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HyperCard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/HyperCard",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hidden poem embedded inside Python's source code",
+      "body": "In 1999, software engineer Tim Peters penned nineteen design aphorisms for the Python community, including \"Readability counts\" and \"Simple is better than complex.\" Known as the Zen of Python, the text was secretly embedded into the language interpreter itself. Any programmer typing `import this` triggers an Easter egg that decodes and prints the poem. Peters left a theoretical twentieth rule unwritten, leaving it for language creator Guido van Rossum to fill in.",
+      "imageWikipediaTitle": "Python (programming language)",
+      "sources": [
+        {
+          "title": "PEP 20 – The Zen of Python",
+          "publisher": "Python Software Foundation",
+          "url": "https://peps.python.org/pep-0020/"
+        },
+        {
+          "title": "Zen of Python",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zen_of_Python"
+        }
+      ],
+      "readMoreUrl": "https://peps.python.org/pep-0020/",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Ray Tomlinson choose the \"@\" symbol when creating the first network email system in 1971?",
+      "options": [
+        "It indicated the user's location without appearing in any human names",
+        "It was the only non-alphanumeric key available on the Teletype keyboard",
+        "It stood for 'Automated Transmission' in ARPANET protocols",
+        "It was chosen by a random alphanumeric generator"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tomlinson chose '@' because it logically meant 'at' (user at host) and was an obscure symbol that didn't appear in people's names."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What problem was Scott Fahlman trying to solve when he proposed the :-) emoticon in 1982?",
+      "options": [
+        "Readers frequently mistook sarcastic jokes on message boards for serious anger",
+        "Teletype machines required shorthand codes to save transmission bandwidth",
+        "Software compilers kept crashing on text without punctuation markers",
+        "Database searches could not distinguish between happy and sad reviews"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman introduced ':-)' on a CMU message board so readers wouldn't mistake sarcastic humor for serious anger."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which groundbreaking software pioneer created Sketchpad on the Lincoln TX-2 in 1963?",
+      "options": [
+        "Ivan Sutherland",
+        "Alan Kay",
+        "Vannevar Bush",
+        "Douglas Engelbart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ivan Sutherland developed Sketchpad for his 1963 MIT doctoral thesis, launching modern computer graphics."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which landmark 1993 video game was originally built using Apple's HyperCard software?",
+      "options": [
+        "Myst",
+        "Doom",
+        "SimCity",
+        "Oregon Trail"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brothers Rand and Robyn Miller created the bestselling adventure game Myst using HyperCard stacks on the Macintosh."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What command do programmers type into a Python console to reveal the 'Zen of Python' poem?",
+      "options": [
+        "import this",
+        "python --zen",
+        "help(guidelines)",
+        "import philosophy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Typing 'import this' in Python decodes an obfuscated Easter egg that prints Tim Peters's nineteen design aphorisms."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did Ray Tomlinson send the first network email and introduce the '@' symbol?",
+      "answer": 1971,
+      "min": 1950,
+      "max": 2000,
+      "unit": "",
+      "explanation": "Tomlinson implemented the first ARPANET email program and chose the '@' symbol in 1971."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many design aphorisms make up the printed 'Zen of Python'?",
+      "answer": 19,
+      "min": 5,
+      "max": 50,
+      "unit": "",
+      "explanation": "Tim Peters penned 19 aphorisms, leaving an intentional 20th rule unwritten."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "The Zen of Python contains twenty fully written guiding rules.",
+      "answer": false,
+      "explanation": "While Tim Peters intended 20 aphorisms, he left the 20th unwritten for Python creator Guido van Rossum to fill in."
+    }
+  ]
+}

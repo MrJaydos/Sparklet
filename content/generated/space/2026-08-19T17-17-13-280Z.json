@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.280Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mercury is essentially a giant ball of iron wrapped in a thin crust",
+      "body": "Mercury is the smallest planet in our solar system, but its iron core is extraordinarily massive. Measuring about 4,000 kilometers across, this metallic core accounts for roughly 85% of the planet's radius and over half its volume. Scientists suspect a massive collision during the early solar system stripped away most of Mercury's original rocky mantle, leaving behind an enormous metallic sphere.",
+      "imageWikipediaTitle": "Mercury (planet)",
+      "sources": [
+        {
+          "title": "Mercury Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mercury/facts/"
+        },
+        {
+          "title": "Mercury (planet)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mercury/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The solar system's fastest winds howl across frigid Neptune",
+      "body": "Despite receiving less than 1% of the sunlight Earth enjoys, Neptune hosts the most violent winds in the solar system. Gusts in its upper atmosphere can reach speeds exceeding 2,100 kilometers per hour—nearly twice the speed of sound. Because the icy planet lacks a solid surface and has very little internal friction to slow moving gases down, high-altitude jet streams accelerate almost unchecked.",
+      "imageWikipediaTitle": "Neptune",
+      "sources": [
+        {
+          "title": "Neptune Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/neptune/facts/"
+        },
+        {
+          "title": "Neptune",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neptune"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/neptune/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Colliding black holes briefly outshone all the stars in the universe",
+      "body": "When two black holes merged 1.3 billion light-years away—detected by LIGO in 2015—they converted roughly three solar masses of matter entirely into gravitational energy in a fraction of a second. At peak intensity, the gravitational radiation emitted by this single merger unleashed more energy per second than all the starlight in the entire observable universe combined.",
+      "imageWikipediaTitle": "First observation of gravitational waves",
+      "sources": [
+        {
+          "title": "LIGO's First Detection of Gravitational Waves",
+          "publisher": "LIGO Lab | Caltech",
+          "url": "https://www.ligo.caltech.edu/news/ligo20160211"
+        },
+        {
+          "title": "GW150914",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GW150914"
+        }
+      ],
+      "readMoreUrl": "https://www.ligo.caltech.edu/news/ligo20160211",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "If you cry in space, tears form a clinging bubble on your face",
+      "body": "In weightlessness, tears cannot roll down your cheeks. Because microgravity removes downward pull while surface tension remains intact, tears accumulate at the tear duct and spread across the eyeball. If you keep crying, the liquid swells into a growing dome of water clinging to your skin that eventually stings, blurs vision, and must be physically wiped away with a towel.",
+      "imageWikipediaTitle": "Effect of spaceflight on the human body",
+      "sources": [
+        {
+          "title": "Personal hygiene in space",
+          "publisher": "Canadian Space Agency",
+          "url": "https://www.asc-csa.gc.ca/eng/astronauts/living-in-space/personal-hygiene-in-space.asp"
+        },
+        {
+          "title": "Effect of spaceflight on the human body",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body"
+        }
+      ],
+      "readMoreUrl": "https://www.asc-csa.gc.ca/eng/astronauts/living-in-space/personal-hygiene-in-space.asp",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ceres is home to a 4,000-meter volcano that spews ice, not lava",
+      "body": "On the dwarf planet Ceres, the largest object in the asteroid belt, stands a solitary mountain named Ahuna Mons. Rising 4,000 meters high, it is not formed by molten rock, but by cryovolcanism. The volcano erupted a slushy mixture of water ice, carbonate salts, and mud from beneath the crust, building a steep, reflective dome in the vacuum of deep space.",
+      "imageWikipediaTitle": "Ahuna Mons",
+      "sources": [
+        {
+          "title": "Dawn Reveals Recent Geological Activity on Ceres",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/dawn-reveals-recent-geological-activity-on-ceres"
+        },
+        {
+          "title": "Ahuna Mons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ahuna_Mons"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/dawn-reveals-recent-geological-activity-on-ceres",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What proportion of Mercury's radius is occupied by its metallic iron core?",
+      "options": [
+        "Roughly 85%",
+        "About 25%",
+        "Around 50%",
+        "Nearly 99%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mercury's core spans about 4,000 km across, taking up roughly 85% of the entire planet's radius."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How fast can wind gusts travel in the upper atmosphere of Neptune?",
+      "options": [
+        "Over 2,100 km/h (1,300 mph)",
+        "About 300 km/h (185 mph)",
+        "Roughly 800 km/h (500 mph)",
+        "Over 10,000 km/h (6,200 mph)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neptune's upper atmospheric winds reach over 2,100 km/h, making them the fastest in the solar system."
+    },
+    {
+      "cardIndex": 2,
+      "question": "During the peak of the 2015 black hole merger detected by LIGO, what did its power output exceed?",
+      "options": [
+        "The light from all stars in the observable universe combined",
+        "The total energy output of the Sun across its entire lifetime",
+        "The combined gravitational pull of the entire Milky Way",
+        "The mass-energy equivalent of all planets in the solar system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Converting 3 solar masses into gravitational radiation in a fraction of a second briefly outshone all visible universe starlight combined."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why don't tears roll down an astronaut's face when they cry in space?",
+      "options": [
+        "Surface tension holds the liquid into a clinging bubble",
+        "Tears immediately freeze upon contact with cabin air",
+        "Human tear ducts cannot secrete moisture in microgravity",
+        "Cabin ventilation evaporates moisture instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without gravity to pull liquid down, surface tension causes tears to pool into a bubble clinging to the eye and skin."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did the cryovolcano Ahuna Mons on Ceres erupt to build its dome?",
+      "options": [
+        "A slushy mixture of water ice, salts, and mud",
+        "Molten basaltic lava",
+        "Pure liquid methane and ethane",
+        "Superheated sulfur compounds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ahuna Mons is a cryovolcano that erupted salty water ice and mud from inside the dwarf planet Ceres."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of Mercury's radius is occupied by its dense metallic core?",
+      "answer": 85,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Mercury's iron core accounts for about 85% of the planet's radius, leaving only a thin rocky outer shell."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What is the peak wind speed recorded in Neptune's atmosphere, in kilometers per hour?",
+      "answer": 2100,
+      "min": 200,
+      "max": 4000,
+      "unit": "km/h",
+      "explanation": "Neptune's supersonic high-altitude jet streams reach top speeds exceeding 2,100 km/h (1,300 mph)."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How tall is Ahuna Mons, the ice volcano on the dwarf planet Ceres, in meters?",
+      "answer": 4000,
+      "min": 500,
+      "max": 10000,
+      "unit": "m",
+      "explanation": "Ahuna Mons stands roughly 4,000 meters (13,000 feet) tall above Ceres's cratered surface."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Planets furthest from the Sun have the gentlest winds because they receive the least solar heat.",
+      "answer": false,
+      "explanation": "Neptune receives very little solar energy, but its low internal friction allows atmospheric winds to surpass 2,100 km/h."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Human tear ducts are unable to produce tears in the microgravity of space.",
+      "answer": false,
+      "explanation": "Tear ducts work normally in space, but without gravity, tears form a clinging bubble of liquid rather than streaming downward."
+    }
+  ]
+}

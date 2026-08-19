@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.278Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Vampire bats share life-saving blood meals with hungry roostmates",
+      "body": "Vampire bats face starvation if they go without blood for just two to three days. To survive, bats that enjoyed a successful night of foraging will regurgitate warm blood to feed roostmates who came up empty-handed. This generosity is not limited to immediate family. Bats maintain reciprocal partnerships, remembering who shared in the past and selectively aiding generous companions to build a collective safety net against lean nights.",
+      "imageWikipediaTitle": "Common vampire bat",
+      "sources": [
+        {
+          "title": "Desmodus rotundus (vampire bat)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Desmodus_rotundus/"
+        },
+        {
+          "title": "Common vampire bat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_vampire_bat"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Desmodus_rotundus/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bolas spiders hunt moths by mimicking female mating pheromones",
+      "body": "Instead of building large webs, bolas spiders produce a single strand of silk tipped with a sticky, scented droplet. The spider emits chemical compounds that perfectly match the sex pheromones of specific female moth species. When male moths fly in looking for a mate, the spider swings the weighted silk line like a lasso, snagging the prey out of the air before reeling it in for a meal.",
+      "imageWikipediaTitle": "Bolas spider",
+      "sources": [
+        {
+          "title": "Bolas Spiders",
+          "publisher": "Featured Creatures, University of Florida",
+          "url": "https://entnemdept.ufl.edu/creatures/beneficial/mastophora_bisaccata.htm"
+        },
+        {
+          "title": "Bolas spider",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolas_spider"
+        }
+      ],
+      "readMoreUrl": "https://entnemdept.ufl.edu/creatures/beneficial/mastophora_bisaccata.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The hairy frog breaks its own bones to produce retractable claws",
+      "body": "When threatened by predators, the Central African hairy frog unleashes a startling defense. It deliberately snaps the tiny bones inside its toe pads, forcing the sharp, broken bone fragments to puncture through the skin of its toes like miniature cat claws. Once the danger passes and the muscles relax, the retracted bone fragments pull back inside, and the damaged tissue regenerates quickly through the frog's potent wound-healing abilities.",
+      "imageWikipediaTitle": "Hairy frog",
+      "sources": [
+        {
+          "title": "Trichobatrachus robustus (hairy frog)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Trichobatrachus_robustus/"
+        },
+        {
+          "title": "Hairy frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hairy_frog"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Trichobatrachus_robustus/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Skunk cabbage generates its own heat to melt through winter snow",
+      "body": "Skunk cabbage is one of the rare plants capable of thermogenesis, producing internal metabolic heat through modified cellular respiration. In late winter, its flower stalk can maintain a temperature 15 to 35 degrees Celsius higher than the freezing air around it. This internal furnace melts surrounding snowdrifts and frozen soil, allowing the plant to bloom before deciduous trees grow leaves and attracting early pollinating flies with foul, rotting-meat odors.",
+      "imageWikipediaTitle": "Symplocarpus foetidus",
+      "sources": [
+        {
+          "title": "Eastern Skunk Cabbage (Symplocarpus foetidus)",
+          "publisher": "U.S. Forest Service",
+          "url": "https://www.fs.usda.gov/wildflowers/plant-of-the-week/symplocarpus_foetidus.shtml"
+        },
+        {
+          "title": "Symplocarpus foetidus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Symplocarpus_foetidus"
+        }
+      ],
+      "readMoreUrl": "https://www.fs.usda.gov/wildflowers/plant-of-the-week/symplocarpus_foetidus.shtml",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "African lungfish can survive out of water for years inside a slime cocoon",
+      "body": "When seasonal African waterways dry up, the West African lungfish burrows into the mud and excretes a mucus sheath that hardens into an airtight cocoon. By drastically slowing its metabolic rate and breathing air through a primitive lung, the fish can estivate without food or water for several years. When heavy seasonal rains finally dissolve the hardened mud capsule, the lungfish rehydrates and swims away unaffected.",
+      "imageWikipediaTitle": "West African lungfish",
+      "sources": [
+        {
+          "title": "Protopterus annectens (West African lungfish)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Protopterus_annectens/"
+        },
+        {
+          "title": "West African lungfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/West_African_lungfish"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Protopterus_annectens/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do common vampire bats help roostmates who fail to find prey at night?",
+      "options": [
+        "They lead them back to prey they previously marked",
+        "They regurgitate blood meals to share nourishment",
+        "They hunt twice as much food on the following night",
+        "They adopt their offspring until food is found"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vampire bats regurgitate warm blood for roostmates facing starvation, forming cooperative reciprocal sharing partnerships."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does a bolas spider attract its prey without building a typical web?",
+      "options": [
+        "By creating bioluminescent light pulses",
+        "By emitting female moth sex pheromones",
+        "By mimicking the sound of buzzing bees",
+        "By coating nearby twigs with sugary nectar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bolas spiders synthesize chemical mimics of female moth sex pheromones to lure male moths close enough to strike with a sticky silk ball."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the hairy frog deploy its defensive claws?",
+      "options": [
+        "By breaking its own toe bones to push them through the skin",
+        "By shedding its outer skin layer to expose sharp cartilage",
+        "By flexing hydraulic fluid sacs located in its hind ankles",
+        "By grinding its toenails against abrasive river rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hairy frog deliberately fractures its toe bones, forcing the sharp bony tips through its toe pads to use as makeshift claws."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does skunk cabbage melt through thick snow in late winter?",
+      "options": [
+        "By generating metabolic heat via thermogenesis",
+        "By storing concentrated salt in its outer leaves",
+        "By concentrating reflected sunlight onto the snow",
+        "By hosting colonies of heat-emitting bacteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skunk cabbage uses cellular thermogenesis to generate internal heat, keeping its flower warm and melting through ice and snow."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the West African lungfish survive long droughts when water dries up?",
+      "options": [
+        "By burrowing into mud and forming a protective mucus cocoon",
+        "By laying eggs that hatch only when submerged in fresh water",
+        "By migrating overland across damp grass to new rivers",
+        "By freezing solid until temperatures cool down"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lungfish burrow into riverbeds and secrete a mucus cocoon, estivating for years while breathing air directly with their lungs."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Roughly how many hours can a vampire bat go without feeding on blood before it starves to death?",
+      "answer": 60,
+      "min": 12,
+      "max": 240,
+      "unit": "hours",
+      "explanation": "Vampire bats have extremely fast metabolisms and can starve to death if they miss meals for as little as 60 hours."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "No amphibian can produce retractable claws made of real bone.",
+      "answer": false,
+      "explanation": "The hairy frog produces functional claws by snapping its own toe bones and forcing the sharp fragments through its skin."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Plants cannot generate their own internal body heat to stay warmer than the surrounding air.",
+      "answer": false,
+      "explanation": "Skunk cabbage performs thermogenesis, burning metabolic energy to keep its flower up to 35°C warmer than the freezing air."
+    }
+  ]
+}

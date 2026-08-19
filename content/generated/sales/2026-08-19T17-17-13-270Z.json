@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.271Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask \"Why not a lower number?\" to spark self-persuasion",
+      "body": "When gauging client readiness, ask them to rate their interest on a scale from 1 to 10. If they answer \"6\", resist asking why they did not choose a 10. Instead, ask: \"Why didn't you pick a lower number, like 4?\" Rooted in Motivational Interviewing, this prompt forces prospects to explain why they need your solution, generating internal arguments that are far more persuasive than anything you could pitch.",
+      "imageWikipediaTitle": "Motivational interviewing",
+      "sources": [
+        {
+          "title": "Motivational interviewing in health care",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16406983/"
+        },
+        {
+          "title": "Motivational interviewing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Motivational_interviewing"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/16406983/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Name your counterpart's negative feelings to disarm resistance",
+      "body": "When facing an anxious or skeptical client, resist the urge to dismiss their worries. Brain imaging research shows that \"affect labeling\"—putting negative emotions into words by saying phrases like \"It sounds like you feel uncertain about implementation\"—substantially dampens activity in the brain's amygdala. Naming an objection aloud de-escalates emotional tension, allowing buyers to shift out of defensive threat mode and engage in rational problem-solving.",
+      "imageWikipediaTitle": "Amygdala",
+      "sources": [
+        {
+          "title": "Putting feelings into words: Affect labeling disrupts amygdala activity to negative stimuli",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723864/"
+        },
+        {
+          "title": "Affect labeling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Affect_labeling"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723864/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Raise your competitor's objection before refuting it",
+      "body": "Presenting only glowing benefits can trigger buyer skepticism. Communication research shows that two-sided refutational messages—where you directly state a potential drawback or rival claim and immediately explain why it is invalid—are significantly more persuasive than purely one-sided pitches. Acknowledging a counter-argument establishes credibility, while refuting it inoculates the buyer against competitor sales pitches they will hear later.",
+      "imageWikipediaTitle": "Persuasion",
+      "sources": [
+        {
+          "title": "Comparing the Persuasiveness of One-Sided and Two-Sided Messages",
+          "publisher": "ERIC",
+          "url": "https://eric.ed.gov/?id=ED321308"
+        },
+        {
+          "title": "Two-sided message",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Two-sided_message"
+        }
+      ],
+      "readMoreUrl": "https://eric.ed.gov/?id=ED321308",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pitch the time spent with your product instead of money saved",
+      "body": "While many sales pitches emphasize price cuts, marketing research reveals that framing offers around \"time\" often drives greater engagement. In field experiments, prompting customers to consider the time they would spend enjoying a product doubled sales compared to emphasizing money saved. Time evokes personal memories, experiences, and emotional connection, whereas money primes transactional thinking and hyper-focus on costs.",
+      "imageWikipediaTitle": "Consumer behaviour",
+      "sources": [
+        {
+          "title": "The Time vs. Money Effect: Shifting Consideration Toward Either Time or Money",
+          "publisher": "Stanford Graduate School of Business",
+          "url": "https://www.gsb.stanford.edu/faculty-research/publications/time-money-effect-shifting-consideration-toward-either-time-or-money"
+        },
+        {
+          "title": "Jennifer Aaker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jennifer_Aaker"
+        }
+      ],
+      "readMoreUrl": "https://www.gsb.stanford.edu/faculty-research/publications/time-money-effect-shifting-consideration-toward-either-time-or-money",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Subtle vertical head nods validate your pitch in a buyer's mind",
+      "body": "Body language does not just communicate emotion; it actively shapes cognitive confidence. Research on self-validation demonstrates that subtle, natural vertical head nodding increases a listener's confidence in their own positive thoughts about an argument. When sales presenters nod gently while emphasizing key benefits, counterparts often unconsciously mirror the motion, reinforcing their own internal agreement and making them feel more confident in saying yes.",
+      "imageWikipediaTitle": "Body language",
+      "sources": [
+        {
+          "title": "Overt head movements and persuasion: a self-validation analysis",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12831107/"
+        },
+        {
+          "title": "Richard E. Petty",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_E._Petty"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/12831107/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Motivational Interviewing, why should you ask a prospect why they did not choose a lower readiness score?",
+      "options": [
+        "It forces them to voice their own arguments in favor of your solution",
+        "It tricks them into admitting they cannot afford the product",
+        "It lowers their expectations before price negotiations begin",
+        "It prevents them from comparing prices with competitors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asking why a prospect did not pick a lower score forces them to defend the value of your solution, generating powerful self-persuasion."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does affect labeling—explicitly naming a prospect's negative emotions—help during a tough sales pitch?",
+      "options": [
+        "It reduces amygdala activity, de-escalating emotional resistance",
+        "It makes the counterpart feel embarrassed and concede faster",
+        "It shifts legal liability onto the buyer",
+        "It triggers an immediate dopamine rush that leads to impulse buying"
+      ],
+      "correctIndex": 0,
+      "explanation": "Putting negative emotions into words decreases amygdala activation, shifting the buyer out of a defensive state into rational thinking."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to communication research, which messaging structure is most persuasive?",
+      "options": [
+        "A two-sided message that introduces and refutes counter-arguments",
+        "A purely one-sided message highlighting only positive benefits",
+        "A two-sided message that lists counter-arguments without refuting them",
+        "A neutral message that avoids both benefits and criticisms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Meta-analyses demonstrate that two-sided refutational messages beat one-sided messages by establishing credibility and disarming counter-claims."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does framing a product pitch around \"time\" often outperform framing it around \"money\"?",
+      "options": [
+        "Time evokes personal experiences rather than transactional cost calculations",
+        "Customers are unable to calculate the real value of their time",
+        "Time-based messaging creates an artificial urgency deadline",
+        "Money-based offers carry strict consumer protection restrictions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Priming time activates emotional connection and personal experience, while priming money triggers cold cost-benefit calculations."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does subtle vertical head nodding affect decision-making during a pitch?",
+      "options": [
+        "It increases the listener's confidence in their own positive thoughts",
+        "It distracts the listener from noticing flaws in the proposal",
+        "It signals dominance, forcing the other party to submit",
+        "It triggers an immediate release of adrenaline"
+      ],
+      "correctIndex": 0,
+      "explanation": "Research on self-validation shows vertical head movements enhance subjective confidence in one's favorable thoughts about an argument."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Presenting only the benefits of your product is always more persuasive than mentioning competitor counter-arguments.",
+      "answer": false,
+      "explanation": "Meta-analyses show two-sided refutational messages—stating a counter-argument and disproving it—are significantly more persuasive than one-sided pitches."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Emphasizing financial savings is the most effective way to drive customer purchase intent.",
+      "answer": false,
+      "explanation": "Research shows framing purchases around time spent enjoying a product builds stronger emotional connection and drives higher sales than money saved."
+    }
+  ]
+}

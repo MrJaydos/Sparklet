@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.281Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bombardier beetles blast boiling chemicals at attackers",
+      "body": "When threatened, the bombardier beetle initiates a rapid internal chemical reaction. It mixes hydroquinones and hydrogen peroxide with catalytic enzymes in an abdominal reaction chamber. The resulting explosive reaction heats the toxic liquid to roughly 100 degrees Celsius and shoots it out in rapid, pulsing jets. The beetle can swivel its rear nozzle with pinpoint accuracy to spray attacking ants, birds, or frogs.",
+      "imageWikipediaTitle": "Bombardier beetle",
+      "sources": [
+        {
+          "title": "Bombardier beetle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bombardier_beetle"
+        },
+        {
+          "title": "Mechanistic origins of rapid and pulsed discharge in bombardier beetles",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4418854/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bombardier_beetle",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Vampire bats share regurgitated blood with starving friends",
+      "body": "Vampire bats will die if they go without a blood meal for more than about 60 hours. Because hunting can be unpredictable, well-fed bats regularly vomit up warm blood to share with roost-mates who failed to find food. This mutual aid is not random: bats track who has shared with them in the past and preferentially feed friends who return the favor.",
+      "imageWikipediaTitle": "Common vampire bat",
+      "sources": [
+        {
+          "title": "Common vampire bat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_vampire_bat"
+        },
+        {
+          "title": "Social foraging in vampire bats is linked to reciprocal cooperation",
+          "publisher": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000216"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000216",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Playing possum is an uncontrollable fainting spell",
+      "body": "When a Virginia opossum faces extreme danger, 'playing dead' is not a conscious trick. It is an involuntary catatonic state triggered by overwhelming terror. The animal stiffens, bares its teeth, rolls onto its side, and secretes a foul green mucus from its anal glands that smells like decaying flesh. The trance can last from several minutes to several hours, completely beyond the opossum's control.",
+      "imageWikipediaTitle": "Virginia opossum",
+      "sources": [
+        {
+          "title": "Virginia opossum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Virginia_opossum"
+        },
+        {
+          "title": "Virginia Opossum",
+          "publisher": "Missouri Department of Conservation",
+          "url": "https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum"
+        }
+      ],
+      "readMoreUrl": "https://mdc.mo.gov/discover-nature/field-guide/virginia-opossum",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Archerfish calculate light refraction to snipe aerial bugs",
+      "body": "Archerfish hunt terrestrial insects resting on branches several feet above the water by shooting high-pressure jets from their mouths. Because light bends as it passes from air into water, the insect appears displaced from below. Archerfish intuitively correct for this optical refraction, dynamically adjusting their body angle and droplet speed so the water blast strikes with enough force to knock the prey into the water.",
+      "imageWikipediaTitle": "Toxotes jaculatrix",
+      "sources": [
+        {
+          "title": "Archerfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Archerfish"
+        },
+        {
+          "title": "Archer fish use advanced tool-like properties of water jets in hunting",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479739/"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3479739/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Barn owls hunt in total darkness using crooked ears",
+      "body": "Barn owls can strike prey in pitch darkness guided entirely by sound. Their secret is asymmetrical ear placement: the left ear opening is higher than the right ear opening. When a mouse scurries, sound waves hit one ear slightly earlier and louder than the other. This allows the owl's brain to triangulate both horizontal direction and vertical elevation simultaneously.",
+      "imageWikipediaTitle": "Barn owl",
+      "sources": [
+        {
+          "title": "Barn owl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barn_owl"
+        },
+        {
+          "title": "Barn Owl Overview",
+          "publisher": "The Cornell Lab of Ornithology",
+          "url": "https://www.allaboutbirds.org/guide/Barn_Owl/overview"
+        }
+      ],
+      "readMoreUrl": "https://www.allaboutbirds.org/guide/Barn_Owl/overview",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the bombardier beetle defend itself against predators?",
+      "options": [
+        "By spraying boiling, pulsing jets of noxious chemicals from its abdomen",
+        "By detaching its legs to confuse attackers",
+        "By inflating its body with toxic gas until it pops",
+        "By emitting high-frequency clicks that stun insect ears"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bombardier beetles mix enzymes and peroxide internally, creating a boiling 100 °C chemical spray aimed precisely at threats."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do vampire bats help starving roost-mates survive?",
+      "options": [
+        "By leading them directly to sleeping cattle herds",
+        "By regurgitating stored blood for bats that shared previously",
+        "By keeping them warm during hibernation",
+        "By bringing back severed insect parts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vampire bats regurgitate blood to nourish starving roost-mates, practicing reciprocal altruism based on past sharing."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What actually happens when an opossum 'plays possum'?",
+      "options": [
+        "It undergoes an involuntary, catatonic fainting state triggered by fear",
+        "It executes a learned, conscious hunting bluff",
+        "It enters rapid hibernation to slow its heartbeat",
+        "It temporarily blinds itself with eye secretions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Playing dead in opossums is an involuntary physiological trance accompanied by foul scents, not a deliberate trick."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do archerfish accurately hit insects sitting above the water surface?",
+      "options": [
+        "They shoot water droplets while accounting for optical light refraction",
+        "They leap entirely out of the water before firing",
+        "They use bioluminescent flashes to stun bugs into falling",
+        "They blow air bubbles to destabilize nearby tree branches"
+      ],
+      "correctIndex": 0,
+      "explanation": "Archerfish intuitively correct for the bending of light at the air-water interface to hit targets with water jets."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What anatomical feature allows barn owls to pinpoint sounds in three dimensions?",
+      "options": [
+        "Ears placed at different heights on their skull",
+        "A tongue that vibrates in response to sound waves",
+        "Feathers that amplify ultrasonic echolocation",
+        "Retractable ear flaps that act like satellite dishes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asymmetrical ear placement lets barn owls determine both vertical elevation and horizontal direction of sounds."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "To roughly what temperature (in °C) does the chemical spray of a bombardier beetle heat up?",
+      "answer": 100,
+      "min": 20,
+      "max": 200,
+      "unit": "°C",
+      "explanation": "The rapid exothermic chemical reaction inside the beetle boils the liquid to roughly 100 °C (212 °F)."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "Roughly how many consecutive hours can a common vampire bat survive without a blood meal before starving?",
+      "answer": 60,
+      "min": 10,
+      "max": 200,
+      "unit": "hours",
+      "explanation": "Vampire bats have extremely fast metabolisms and risk starvation if they go without blood for roughly 60 to 70 hours."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Opossums consciously decide to play dead when confronted by predators.",
+      "answer": false,
+      "explanation": "Playing possum is an involuntary catatonic state caused by extreme stress, completely beyond the animal's conscious control."
+    }
+  ]
+}

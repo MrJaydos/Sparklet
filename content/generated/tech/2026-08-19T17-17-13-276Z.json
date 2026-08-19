@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.276Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why early computer punch cards were shaped like dollar bills",
+      "body": "In 1890, inventor Herman Hollerith designed punch cards to process the United States Census. To save money on manufacturing equipment and office furniture, Hollerith made the cards the exact dimensions of US currency notes of that era: 7.375 by 3.25 inches. This allowed census clerks to reuse existing money boxes, sorting trays, and cash drawers to store and organize millions of punch cards.",
+      "imageWikipediaTitle": "Punched card",
+      "sources": [
+        {
+          "title": "The Hollerith Tabulator",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html"
+        },
+        {
+          "title": "Hollerith 1890 Census Tabulator",
+          "publisher": "Columbia University",
+          "url": "http://www.columbia.edu/cu/computinghistory/hollerith.html"
+        },
+        {
+          "title": "Punched card",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Punched_card"
+        }
+      ],
+      "readMoreUrl": "https://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a single transistor replaced six to revolutionize computer memory",
+      "body": "In the 1960s, computer memory chips required six complex transistors to store just one bit of data. In 1966, IBM engineer Robert Dennard realized that a single transistor connected to a tiny capacitor could store a bit as an electrical charge. Because that charge steadily leaks away, the capacitor must be electronically refreshed thousands of times per second—giving birth to Dynamic Random-Access Memory, or DRAM.",
+      "imageWikipediaTitle": "Dynamic random-access memory",
+      "sources": [
+        {
+          "title": "Robert H. Dennard: Single-Transistor Dynamic Memory Cell",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/robert-h-dennard"
+        },
+        {
+          "title": "Dynamic random-access memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dynamic_random-access_memory"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/robert-h-dennard",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The airport shuttle that gave \"Wikipedia\" its name",
+      "body": "In 1995, programmer Ward Cunningham built the world's first open, user-editable website. Looking for a name that meant quick, he remembered a 1982 trip to Honolulu International Airport, where an attendant directed him to the \"Wiki Wiki Shuttle\" between terminals. Cunningham learned that wiki is the Hawaiian word for fast, doubled it to create \"WikiWikiWeb,\" and accidentally named the entire genre of collaborative knowledge tools.",
+      "imageWikipediaTitle": "Wiki",
+      "sources": [
+        {
+          "title": "The First Wiki",
+          "publisher": "Library of Congress",
+          "url": "https://blogs.loc.gov/thesignal/2012/03/the-first-wiki/"
+        },
+        {
+          "title": "Wiki",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wiki"
+        }
+      ],
+      "readMoreUrl": "https://blogs.loc.gov/thesignal/2012/03/the-first-wiki/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why modern computers think the universe began on January 1, 1970",
+      "body": "Most operating systems track time by counting the number of seconds elapsed since midnight UTC on January 1, 1970—a milestone known as the Unix epoch. When Unix engineers at Bell Labs designed the system in the early 1970s, they needed a convenient, recent reference point. Storing time as a single 32-bit counter of seconds simplified calculations, though it creates a future glitch: on January 19, 2038, the counter will overflow.",
+      "imageWikipediaTitle": "Unix time",
+      "sources": [
+        {
+          "title": "General Concepts: Epoch",
+          "publisher": "The Open Group",
+          "url": "https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap04.html"
+        },
+        {
+          "title": "Unix time",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unix_time"
+        }
+      ],
+      "readMoreUrl": "https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap04.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first computer password was invented to give researchers separate files",
+      "body": "In 1961, computer scientist Fernando Corbató and his team at MIT created the Compatible Time-Sharing System (CTSS), allowing multiple people to use a single mainframe simultaneously. To keep researchers' files private from one another, CTSS required each user to type a unique secret word to log in. This practical administrative fix became the world's first digital password system, foundational to all modern computer security.",
+      "imageWikipediaTitle": "Fernando J. Corbató",
+      "sources": [
+        {
+          "title": "Fernando Corbató, a father of modern operating systems and password inventor, dies at 93",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/2019/fernando-corbato-computing-pioneer-dies-0712"
+        },
+        {
+          "title": "Password",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Password"
+        }
+      ],
+      "readMoreUrl": "https://news.mit.edu/2019/fernando-corbato-computing-pioneer-dies-0712",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Herman Hollerith sized his 1890 census punch cards to match which everyday item?",
+      "options": [
+        "United States banknotes",
+        "Standard railroad tickets",
+        "Playing cards",
+        "Index cards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hollerith matched the dimensions of US currency notes so census workers could reuse existing money storage boxes and cash trays."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Robert Dennard's DRAM invention reduced the number of transistors needed to store one bit of data down to how many?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dennard paired a single transistor with a tiny capacitor, replacing earlier designs that required six transistors per bit."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the Hawaiian word \"wiki,\" which inspired the term for collaborative websites, mean?",
+      "options": [
+        "Quick or fast",
+        "Shared",
+        "Open library",
+        "Connected net"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ward Cunningham borrowed the Hawaiian word 'wiki' (meaning quick) after riding the Wiki Wiki Shuttle at Honolulu airport."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What starting date and time is defined as the Unix epoch for computer timekeeping?",
+      "options": [
+        "January 1, 1970, 00:00:00 UTC",
+        "January 1, 1980, 00:00:00 UTC",
+        "December 31, 1969, 23:59:59 UTC",
+        "January 1, 2000, 00:00:00 UTC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unix-based operating systems measure time by counting elapsed seconds from midnight UTC on January 1, 1970."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was the first digital password system developed at MIT in 1961?",
+      "options": [
+        "To allow multiple users on one mainframe to keep their files private",
+        "To prevent physical access to the mainframe laboratory",
+        "To protect classified Cold War military simulations",
+        "To charge different departments based on mainframe usage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fernando Corbató created passwords so individual researchers sharing MIT's CTSS mainframe couldn't view each other's files."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "Before the invention of DRAM in 1966, how many transistors were required to store a single bit of computer memory?",
+      "answer": 6,
+      "min": 1,
+      "max": 24,
+      "unit": "",
+      "explanation": "Robert Dennard replaced bulky 6-transistor memory cells with a single transistor paired with a capacitor."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "In what year will classic 32-bit Unix time counters exceed their maximum value and overflow?",
+      "answer": 2038,
+      "min": 2025,
+      "max": 2100,
+      "unit": "",
+      "explanation": "On January 19, 2038, signed 32-bit integer counters will reach 2,147,483,647 seconds and roll over to a negative number."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Computer punch cards were custom-engineered to maximize data density on filing-cabinet paper.",
+      "answer": false,
+      "explanation": "Punch cards were sized to match 1890 US currency notes so existing bank drawers and cash-sorting boxes could be reused."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The word 'wiki' in Wikipedia was coined as an acronym by 1990s computer scientists.",
+      "answer": false,
+      "explanation": "The term comes from the Hawaiian word 'wiki', meaning fast, which Ward Cunningham saw on airport shuttle buses in Honolulu."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Computer passwords were first developed by intelligence agencies to safeguard military supercomputers.",
+      "answer": false,
+      "explanation": "Passwords were invented at MIT in 1961 simply to let university researchers share a single mainframe without seeing each other's files."
+    }
+  ]
+}

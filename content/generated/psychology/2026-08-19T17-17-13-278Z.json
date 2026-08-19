@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.278Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Venting your anger actually makes you angrier",
+      "body": "Hitting a punching bag or screaming into a pillow to blow off steam sounds intuitive, but psychology research shows it backfires. Expressing anger aggressively keeps physiological arousal high and reinforces hostile thoughts, acting as practice for rage rather than release. Controlled studies found people who hit punching bags to vent became significantly more aggressive afterward than those who sat quietly and let their emotions cool down.",
+      "imageWikipediaTitle": "Anger",
+      "sources": [
+        {
+          "title": "Control anger before it controls you",
+          "publisher": "American Psychological Association",
+          "url": "https://www.apa.org/topics/anger/control"
+        },
+        {
+          "title": "Catharsis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Catharsis"
+        }
+      ],
+      "readMoreUrl": "https://www.apa.org/topics/anger/control",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why major life events rarely change your happiness long-term",
+      "body": "Whether you win the lottery or experience a major setback, your level of happiness will likely return to its baseline within months. This phenomenon, known as hedonic adaptation or the hedonic treadmill, occurs because the human brain quickly adapts to new life circumstances. Initial emotional spikes fade as extraordinary events become the new normal, resetting expectations and returning daily emotional well-being back toward a steady personal set point.",
+      "imageWikipediaTitle": "Happiness",
+      "sources": [
+        {
+          "title": "Hedonic Adaptation to Positive and Negative Experiences",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4933999/"
+        },
+        {
+          "title": "Hedonic treadmill",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hedonic_treadmill"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4933999/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You overestimate how easily people can read your mind",
+      "body": "When you feel nervous during a speech or try to conceal an embarrassing secret, you likely assume everyone in the room can tell. This cognitive bias is called the illusion of transparency. Because we are intensely aware of our own racing pulse, dry mouth, or swirling thoughts, we mistakenly assume our internal state is clearly broadcast to outside observers, who typically notice almost none of it.",
+      "imageWikipediaTitle": "Stage fright",
+      "sources": [
+        {
+          "title": "Feeling 'seen': How the illusion of transparency affects performance",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7219688/"
+        },
+        {
+          "title": "Illusion of transparency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusion_of_transparency"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusion_of_transparency",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a glass table proved babies can see depth",
+      "body": "In 1960, psychologists Eleanor Gibson and Richard Walk placed infants aged 6 to 14 months on an apparatus called the visual cliff—a glass table covering a shallow pattern on one side and a deep drop-off on the other. Even when their mothers stood on the deep side and coaxed them across, nearly all infants refused to crawl over the clear glass, demonstrating that depth perception emerges early in human development.",
+      "imageWikipediaTitle": "Visual cliff",
+      "sources": [
+        {
+          "title": "Visual Cliff Experiment",
+          "publisher": "Arizona State University",
+          "url": "https://embryo.asu.edu/pages/visual-cliff-experiment"
+        },
+        {
+          "title": "Visual cliff",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Visual_cliff"
+        }
+      ],
+      "readMoreUrl": "https://embryo.asu.edu/pages/visual-cliff-experiment",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How negative stereotypes can sabotage test scores",
+      "body": "Reminding students of a negative stereotype about their group right before an exam can significantly depress their performance. Known as stereotype threat, this phenomenon occurs because the fear of confirming a negative belief consumes valuable working memory and increases physiological anxiety. Research shows that simply reframing a test as a non-evaluative challenge or acknowledging this bias can neutralize the effect and restore natural performance levels.",
+      "imageWikipediaTitle": "Stereotype threat",
+      "sources": [
+        {
+          "title": "Stereotype Threat Widens Achievement Gap",
+          "publisher": "American Psychological Association",
+          "url": "https://www.apa.org/research/action/stereotype"
+        },
+        {
+          "title": "Stereotype threat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stereotype_threat"
+        }
+      ],
+      "readMoreUrl": "https://www.apa.org/research/action/stereotype",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What effect does aggressively venting anger (like punching a pillow) have on emotions?",
+      "options": [
+        "It tends to increase aggression and maintain anger",
+        "It reliably resets emotional arousal to baseline",
+        "It cures chronic irritability permanently",
+        "It eliminates all physiological stress responses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venting anger aggressively keeps physiological arousal high and reinforces hostile thoughts, making people more aggressive rather than calmer."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the concept of the 'hedonic treadmill' describe?",
+      "options": [
+        "The tendency to return to a baseline level of happiness despite major life changes",
+        "The process of becoming increasingly sensitive to physical pain",
+        "A psychological drive to maximize immediate pleasure at all costs",
+        "The gradual loss of memory caused by severe emotional trauma"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hedonic adaptation describes how people adjust to positive or negative life events and naturally return to a stable baseline happiness level."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the psychological 'illusion of transparency'?",
+      "options": [
+        "Overestimating how easily other people can discern your internal feelings",
+        "Believing you can read other people's thoughts with high accuracy",
+        "Assuming that glass surfaces are wider than they actually are",
+        "Failing to notice large physical objects in plain sight"
+      ],
+      "correctIndex": 0,
+      "explanation": "The illusion of transparency is the cognitive bias where people overestimate how much their internal mental states are visible to outside observers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the classic visual cliff experiment demonstrate about infants?",
+      "options": [
+        "Infants perceive depth and avoid apparent drop-offs at a very early age",
+        "Infants cannot distinguish between flat ground and steep drops",
+        "Infants only learn depth perception after learning to run",
+        "Infants rely entirely on tactile feedback rather than vision to navigate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The visual cliff experiment showed that crawling infants perceive depth and naturally avoid drop-offs even when encouraged by a parent."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does stereotype threat lead to lower performance on difficult cognitive tasks?",
+      "options": [
+        "Anxiety over confirming a negative stereotype consumes working memory capacity",
+        "Stereotypes physically disrupt the structure of the optic nerve",
+        "Participants consciously refuse to try hard on the test",
+        "The brain completely loses access to long-term memories"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stereotype threat increases anxiety and self-monitoring, which depletes the working memory resources needed for complex problem-solving."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In the classic 1960 Visual Cliff experiment, what percentage of tested infants refused to cross the perceived deep drop-off?",
+      "answer": 92,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "In Gibson and Walk's experiment, 92% of infants (27 out of 29) crawled across the shallow side, but refused to venture onto the deep glass side."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Venting your anger by punching a pillow or yelling helps release built-up tension.",
+      "answer": false,
+      "explanation": "Psychological studies show aggressive venting reinforces hostile thought patterns and keeps arousal high, making you angrier."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "When you feel nervous during a public presentation, the audience can easily tell.",
+      "answer": false,
+      "explanation": "Due to the illusion of transparency, speakers assume their internal panic is obvious, but observers usually notice very little."
+    }
+  ]
+}

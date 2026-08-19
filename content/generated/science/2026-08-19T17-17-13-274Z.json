@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.274Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth once built its own natural nuclear reactor",
+      "body": "Two billion years ago in Oklo, Gabon, natural conditions spontaneously ignited a sustained nuclear fission reaction. High concentrations of uranium-235 combined with percolating groundwater, which acted as a neutron moderator to slow down particles and sustain fission. The natural reactor cycled on and off for hundreds of thousands of years, generating steady nuclear energy long before humans existed.",
+      "imageWikipediaTitle": "Natural nuclear fission reactor",
+      "sources": [
+        {
+          "title": "Meet Oklo, the Earth's Two-billion-year-old only Known Natural Nuclear Reactor",
+          "publisher": "International Atomic Energy Agency",
+          "url": "https://www.iaea.org/newscenter/news/meet-oklo-the-earths-two-billion-year-old-only-known-natural-nuclear-reactor"
+        },
+        {
+          "title": "Natural nuclear fission reactor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Natural_nuclear_fission_reactor"
+        }
+      ],
+      "readMoreUrl": "https://www.iaea.org/newscenter/news/meet-oklo-the-earths-two-billion-year-old-only-known-natural-nuclear-reactor",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Less than five percent of the universe is normal matter",
+      "body": "Everything we can observe directly—every star, planet, gas cloud, and living organism—makes up less than five percent of the cosmos. The remaining ninety-five percent consists of dark energy (about 68%) and dark matter (about 27%). These invisible components govern how galaxies rotate and how space expands, yet they do not emit, reflect, or absorb light.",
+      "imageWikipediaTitle": "Dark matter",
+      "sources": [
+        {
+          "title": "Dark Matter and Dark Energy",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/universe/overview/dark-matter-dark-energy/"
+        },
+        {
+          "title": "Dark matter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/universe/overview/dark-matter-dark-energy/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You have roughly as many bacterial cells as human cells",
+      "body": "A popular scientific myth claimed that bacterial cells outnumber human cells ten to one in our bodies. Modern revised estimates show the true ratio is much closer to one to one. An average adult male has roughly 30 trillion human cells and about 38 trillion bacterial cells, mostly residing in the colon. By cell count, you are just over half microbial.",
+      "imageWikipediaTitle": "Human microbiome",
+      "sources": [
+        {
+          "title": "Revised Estimates for the Number of Human and Bacteria Cells in the Body",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991899/"
+        },
+        {
+          "title": "Human microbiome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_microbiome"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991899/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Geckos stick to smooth glass using atomic attraction",
+      "body": "Geckos can walk up polished glass and across ceilings without using suction cups or wet glue. Their toe pads are covered in millions of microscopic hairs called setae, which branch into billions of tiny split ends. When these tips make close contact with a surface, weak intermolecular electromagnetic forces—known as van der Waals forces—combine to create an extraordinarily strong grip.",
+      "imageWikipediaTitle": "Gecko feet",
+      "sources": [
+        {
+          "title": "Evidence for van der Waals adhesion in gecko setae",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC122849/"
+        },
+        {
+          "title": "Gecko feet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gecko_feet"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC122849/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Plants can detect the sound of caterpillars chewing on them",
+      "body": "Plants lack ears, but they can detect mechanical vibrations caused by feeding herbivores. Researchers discovered that playing audio recordings of caterpillar chewing sounds prompted Arabidopsis plants to increase chemical defenses in their leaves, such as bitter mustard oils. When exposed to wind vibrations or different insect sounds instead, the plants did not react, showing they specifically distinguish predator acoustic cues.",
+      "imageWikipediaTitle": "Arabidopsis thaliana",
+      "sources": [
+        {
+          "title": "Plants respond to leaf vibrations caused by insect herbivore chewing",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24990289/"
+        },
+        {
+          "title": "Plant perception (physiology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plant_perception_(physiology)"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/24990289/",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What naturally occurring substance acted as the moderator that allowed Oklo's ancient nuclear reactor to operate?",
+      "options": [
+        "Groundwater",
+        "Liquid magma",
+        "Pure graphite",
+        "Liquid petroleum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Groundwater filtered through the uranium deposits, slowing neutrons down enough to sustain a controlled nuclear fission chain reaction."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What percentage of the universe's total mass-energy content is regular, observable matter?",
+      "options": [
+        "Less than 5%",
+        "Around 25%",
+        "Exactly 50%",
+        "Over 85%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal matter makes up under 5% of the cosmos, while dark energy and dark matter account for the remaining 95%."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the approximate ratio of bacterial cells to human cells in an average adult?",
+      "options": [
+        "Roughly 1:1",
+        "Roughly 10:1",
+        "Roughly 100:1",
+        "Roughly 1:10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Modern estimates show an adult body contains about 38 trillion bacterial cells and 30 trillion human cells, a ratio near 1:1."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which microscopic physical mechanism allows geckos to climb smooth vertical walls?",
+      "options": [
+        "Van der Waals forces",
+        "Microscopic suction cups",
+        "Capillary fluid adhesion",
+        "Static electrical charges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gecko toe hairs exploit van der Waals forces, weak intermolecular attractions created when billions of tiny setae touch a surface."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do plants like Arabidopsis detect that a caterpillar is eating their leaves?",
+      "options": [
+        "By sensing the acoustic vibrations of chewing",
+        "By detecting caterpillar pheromones in the air",
+        "Through rudimentary visual photoreceptors",
+        "By tracking carbon dioxide changes near leaves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plants can detect the distinct physical vibrations created by caterpillars chewing and produce defensive chemicals in response."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many billion years ago did Earth's natural nuclear reactor in Oklo, Gabon, begin operating?",
+      "answer": 2,
+      "min": 0.5,
+      "max": 4.5,
+      "unit": "billion years",
+      "explanation": "Around 2 billion years ago, natural uranium-235 concentrations were high enough to sustain spontaneous fission reactions."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of the universe consists of invisible dark matter and dark energy combined?",
+      "answer": 95,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Dark energy (68%) and dark matter (27%) make up roughly 95% of the universe, leaving less than 5% as ordinary matter."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Most of the universe consists of visible stars, planets, and cosmic dust.",
+      "answer": false,
+      "explanation": "All visible stars, planets, and gas clouds account for less than 5% of the universe; the rest is invisible dark matter and dark energy."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Bacterial cells in your body outnumber your human cells by ten to one.",
+      "answer": false,
+      "explanation": "Updated cell counts demonstrate the ratio is actually close to 1:1—about 38 trillion bacterial cells to 30 trillion human cells."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Geckos stick to smooth surfaces using sticky fluid secretions or suction.",
+      "answer": false,
+      "explanation": "Geckos rely entirely on dry intermolecular attraction (van der Waals forces) between their microscopic toe hairs and the surface."
+    }
+  ]
+}

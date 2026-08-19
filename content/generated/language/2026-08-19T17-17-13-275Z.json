@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.275Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wishing Good Health with the Irish Toast \"Sláinte\"",
+      "body": "When clinking glasses in Ireland or Scotland, the traditional toast is Sláinte (pronounced SLAWN-chuh). Derived from the Old Irish word slán, meaning \"whole\" or \"healthy,\" it literally translates to \"health.\" Instead of simply saying \"cheers,\" speakers are offering a heartfelt wish for physical vitality and wholeness. It remains one of the most widely recognized Gaelic phrases spoken across the world today.",
+      "imageWikipediaTitle": "Sláinte",
+      "sources": [
+        {
+          "title": "Sláinte Definition & Meaning",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/slainte"
+        },
+        {
+          "title": "Sláinte",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sl%C3%A1inte"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sl%C3%A1inte",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to Three in Swahili",
+      "body": "To count to three in Swahili, spoken by over 100 million people across East Africa, you say moja (MOH-jah), mbili (m-BEE-lee), and tatu (TAH-too). These fundamental numbers share ancient roots across the wider Niger-Congo language family. In Swahili grammar, number words adjust with prefixes depending on the noun class of the object you are counting, but moja, mbili, and tatu form the invariable foundation for simple counting.",
+      "imageWikipediaTitle": "Swahili language",
+      "sources": [
+        {
+          "title": "Numbers in Swahili",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/swahili.htm"
+        },
+        {
+          "title": "Swahili grammar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Swahili_grammar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Swahili_grammar",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sino-Vietnamese Roots of Saying \"Thank You\"",
+      "body": "In Vietnamese, the everyday way to express gratitude is Cảm ơn (pronounced \"gahm uhn\"). The phrase comes from the Sino-Vietnamese characters 感恩, combining cảm (\"to feel\") and ơn (\"favor\" or \"grace\"). Saying it literally means acknowledging that you feel someone's kindness. To sound polite in daily conversation, speakers typically add personal pronouns, such as Cảm ơn bạn (thank you, friend) or Cảm ơn anh (thank you, older brother).",
+      "imageWikipediaTitle": "Vietnamese language",
+      "sources": [
+        {
+          "title": "cảm ơn",
+          "publisher": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/c%E1%BA%A3m_%C6%A1n"
+        },
+        {
+          "title": "Sino-Vietnamese vocabulary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sino-Vietnamese_vocabulary"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sino-Vietnamese_vocabulary",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"Ostracism\" Began with Broken Pottery",
+      "body": "Today, ostracism means social exclusion, but in ancient Athens, it was an official democratic procedure. Once a year, citizens gathered in the agora to vote on whether to banish an overly powerful individual. Instead of paper ballots, they scratched names onto broken pottery fragments known as an ὄστρακον (ostrakon, pronounced OSS-trah-kon). If an individual received enough votes, they were expelled from the city for ten years.",
+      "imageWikipediaTitle": "Ostracon",
+      "sources": [
+        {
+          "title": "Ostracize Definition & Meaning",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/ostracize"
+        },
+        {
+          "title": "Ostracism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ostracism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ostracism",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Persian Fairy Tale Gave Us \"Serendipity\"",
+      "body": "The word serendipity was invented in 1754 by English writer Horace Walpole in a personal letter. Walpole based it on the Persian fairy tale The Three Princes of Serendip, whose heroes were \"always making discoveries, by accidents and sagacity, of things which they were not in quest of.\" \"Serendip\" was the ancient Persian name for the island of Sri Lanka, derived from the Sanskrit name Siṃhaladvīpa, meaning \"island of lions.\"",
+      "imageWikipediaTitle": "The Three Princes of Serendip",
+      "sources": [
+        {
+          "title": "The Origin of 'Serendipity'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/serendipity-word-history-meaning"
+        },
+        {
+          "title": "Serendipity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Serendipity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Serendipity",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the traditional Irish toast \"Sláinte\" literally translate to?",
+      "options": [
+        "Health",
+        "Victory",
+        "Friendship",
+        "Prosperity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sláinte comes from the Old Irish word slán, meaning \"healthy\" or \"whole.\""
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the Swahili word for the number two?",
+      "options": [
+        "Mbili",
+        "Moja",
+        "Tatu",
+        "Nne"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Swahili, counting from one to three is moja (one), mbili (two), and tatu (three)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the literal meaning of the Sino-Vietnamese roots in \"Cảm ơn\" (thank you)?",
+      "options": [
+        "Feeling favor or grace",
+        "Returning a debt",
+        "Bowing with humility",
+        "Wishing peace"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cảm ơn combines the Sino-Vietnamese roots cảm (to feel) and ơn (favor or grace)."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What objects did ancient Athenians scratch names onto when voting to ostracize someone?",
+      "options": [
+        "Broken pottery shards",
+        "Lead tablets",
+        "Papyrus sheets",
+        "Wax boards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Athenians used broken pottery pieces called ostraka as voting tokens to exile prominent citizens."
+    },
+    {
+      "cardIndex": 4,
+      "question": "The word \"serendipity\" traces back to an ancient Persian name for which modern island nation?",
+      "options": [
+        "Sri Lanka",
+        "Cyprus",
+        "Madagascar",
+        "Malta"
+      ],
+      "correctIndex": 0,
+      "explanation": "Serendip was the historical Persian name for Sri Lanka, derived from Sanskrit Siṃhaladvīpa."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "For how many years was a citizen banished from Athens if condemned in an ostracism vote?",
+      "answer": 10,
+      "min": 1,
+      "max": 30,
+      "unit": "years",
+      "explanation": "Athenian ostracism expelled an individual from the city-state for ten years without stripping their property."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Ancient Athenian ostracism was a criminal trial that permanently confiscated the victim's land.",
+      "answer": false,
+      "explanation": "Ostracism was a political exile lasting ten years; victims did not lose their property or citizenship."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word \"serendipity\" is derived from a historical Persian name for Sri Lanka.",
+      "answer": true,
+      "explanation": "Horace Walpole coined the word from the Persian tale 'The Three Princes of Serendip', an old name for Sri Lanka."
+    }
+  ]
+}

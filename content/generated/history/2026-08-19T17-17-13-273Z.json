@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-08-19T17:17:13.273Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Polish doctor saved 8,000 people from the Nazis by faking a typhus epidemic",
+      "body": "During World War II, Polish physician Eugene Lazowski discovered that injecting dead bacteria produced a positive test for epidemic typhus without causing illness. Working in Rozwadow, he and colleague Stanislaw Matulewicz secretly vaccinated thousands of non-Jewish villagers to create the illusion of a massive outbreak. Fearing infection, Nazi authorities quarantined the entire area and refused to enter, sparing around 8,000 residents from deportation to concentration camps and forced labor.",
+      "imageWikipediaTitle": "Eugene Lazowski",
+      "sources": [
+        {
+          "title": "Eugene Lazowski",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eugene_Lazowski"
+        },
+        {
+          "title": "The Polish doctor who saved thousands during the Holocaust by faking an outbreak",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/polish-doctor-saved-thousands-holocaust-by-faking-outbreak-180979606/"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/history/polish-doctor-saved-thousands-holocaust-by-faking-outbreak-180979606/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In 1504, Christopher Columbus saved his crew by weaponizing a lunar eclipse",
+      "body": "Stranded in Jamaica with starving sailors and hostile locals refusing food, Christopher Columbus consulted a German astronomical almanac by Regiomontanus. It predicted a total lunar eclipse on the night of February 29, 1504. Columbus told local leaders that his God was furious with them and would inflame the moon in anger. When the moon turned blood red on schedule, terrified Indigenous inhabitants rushed supplies to the ships, begging Columbus to intercede.",
+      "imageWikipediaTitle": "March 1504 lunar eclipse",
+      "sources": [
+        {
+          "title": "March 1504 lunar eclipse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/March_1504_lunar_eclipse"
+        },
+        {
+          "title": "How a Lunar Eclipse Saved Columbus",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/vision/universe/watchtheskies/08feb_lunareclipse.html"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/vision/universe/watchtheskies/08feb_lunareclipse.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The War of 1812 was ended by a hurricane and tornado hitting Washington, D.C.",
+      "body": "On August 24, 1814, British troops captured Washington, D.C., burning the White House and Capitol. Less than twenty-four hours later, a severe hurricane slammed into the city, spawning a tornado that tore through central Washington. The torrential rain extinguished the burning government buildings, while high winds collapsed structures and hurled cannons, killing more British soldiers than American resistance had. Shaken and disorganized, British forces evacuated the ruined city.",
+      "imageWikipediaTitle": "Burning of Washington",
+      "sources": [
+        {
+          "title": "Burning of Washington",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burning_of_Washington"
+        },
+        {
+          "title": "The Storm That Saved Washington",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://www.weather.gov/lwx/washington_storm_1814"
+        }
+      ],
+      "readMoreUrl": "https://www.weather.gov/lwx/washington_storm_1814",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ancient Romans used urine to wash clothes, brush teeth, and tan leather",
+      "body": "Urine was such a valuable commodity in ancient Rome that public urinals collected it for commercial use. When stale urine decomposes, it breaks down into ammonia, an alkaline compound that serves as a powerful bleaching and degreasing agent. Fullers used vats of urine to wash toga fabric, tanners used it to soften hides, and citizens even used it as a mouthwash to whiten teeth. Emperor Vespasian famously placed a tax on its collection.",
+      "imageWikipediaTitle": "Fulling (cloth)",
+      "sources": [
+        {
+          "title": "Vectigal urinae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vectigal_urinae"
+        },
+        {
+          "title": "The Peculiar Roman Tax on Urine",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/peculiar-roman-tax-urine-180981989/"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/history/peculiar-roman-tax-urine-180981989/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's oldest customer complaint letter was written in cuneiform 3,800 years ago",
+      "body": "In 1750 BCE, a merchant named Nanni in the Mesopotamian city of Ur inscribed a clay tablet in cuneiform complaining about a delivery of sub-grade copper ingots from a dealer named Ea-nasir. Nanni wrote that his messengers were treated with contempt and sent back through enemy territory empty-handed. Excavations at Ur revealed that Ea-nasir stored dozens of clay tablets containing furious letters from dissatisfied clients inside a dedicated room of his home.",
+      "imageWikipediaTitle": "Complaint tablet to Ea-nāṣir",
+      "sources": [
+        {
+          "title": "Complaint tablet to Ea-nasir",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Complaint_tablet_to_Ea-n%C4%81%E1%B9%A3ir"
+        },
+        {
+          "title": "Clay tablet; letter from Nanni to Ea-nasir",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/W_1953-0411-71"
+        }
+      ],
+      "readMoreUrl": "https://www.britishmuseum.org/collection/object/W_1953-0411-71",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did Dr. Eugene Lazowski protect thousands of Polish villagers from Nazi deportation?",
+      "options": [
+        "He forged identity passports for entire towns",
+        "He smuggled them across the border into Sweden",
+        "He faked a typhus epidemic using dead bacteria",
+        "He concealed them inside an underground mine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lazowski injected dead bacteria into villagers to trigger false-positive typhus tests, frightening the Nazis into quarantining the area."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What celestial event did Christopher Columbus predict to convince Jamaican leaders to supply his crew?",
+      "options": [
+        "A total solar eclipse",
+        "A total lunar eclipse",
+        "A passing comet",
+        "A meteor shower"
+      ],
+      "correctIndex": 1,
+      "explanation": "Using an astronomical almanac, Columbus timed the February 29, 1504 lunar eclipse to convince locals that God was punishing them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unexpected event drove British forces out of Washington, D.C. in August 1814?",
+      "options": [
+        "An earthquake that cracked the city streets",
+        "A hurricane and tornado that extinguished fires and damaged forces",
+        "An unexpected smallpox outbreak among the troops",
+        "A surprise counterattack by the French navy"
+      ],
+      "correctIndex": 1,
+      "explanation": "A severe hurricane and tornado hit Washington less than 24 hours after British troops burned the city, damaging the occupiers and putting out the blazes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did ancient Romans collect urine for industrial uses like laundry and tanning?",
+      "options": [
+        "It was believed to repel evil spirits",
+        "It was the only liquid allowed for industrial washing",
+        "It decomposes into ammonia, a potent cleaning and bleaching agent",
+        "It was mixed with vinegar to preserve leather"
+      ],
+      "correctIndex": 2,
+      "explanation": "Decomposed urine yields ammonia, which served as a powerful natural solvent and bleaching agent in ancient Rome."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the subject of the world's oldest recorded customer complaint letter?",
+      "options": [
+        "Substandard copper ingots and rude service",
+        "Spoiled grain delivered after a harvest delay",
+        "A broken chariot axle that caused a crash",
+        "Missing cattle promised in a trade pact"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1750 BCE clay tablet from Nanni to Ea-nasir complained about inferior copper ingots and mistreatment of messengers."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many people were saved from Nazi deportation by Polish doctors who faked a typhus epidemic?",
+      "answer": 8000,
+      "min": 500,
+      "max": 30000,
+      "unit": "people",
+      "explanation": "Dr. Eugene Lazowski and Dr. Stanislaw Matulewicz spared around 8,000 residents across Rozwadow and surrounding villages."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many years ago was the world's oldest surviving customer complaint letter written?",
+      "answer": 3800,
+      "min": 1000,
+      "max": 6000,
+      "unit": "years",
+      "explanation": "Written in cuneiform around 1750 BCE, Nanni's clay tablet complaint to Ea-nasir is roughly 3,800 years old."
+    }
+  ],
+  "misconceptions": []
+}
