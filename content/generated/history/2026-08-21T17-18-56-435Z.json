@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.435Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Doctor Discovered Handwashing Saved Lives—and Was Mocked for It",
+      "body": "In 1847, Hungarian physician Ignaz Semmelweis noticed a chilling pattern: mothers in a Vienna maternity clinic died of puerperal fever at five times the rate of a nearby midwife-led ward. He realized doctors were carrying cadaver particles directly from autopsies to delivery rooms. After mandating chlorinated lime handwashes, maternal mortality plummeted from over 18% to under 2%. Tragically, the medical establishment rejected his findings, mocking him for decades until germ theory emerged.",
+      "imageWikipediaTitle": "Ignaz Semmelweis",
+      "sources": [
+        {
+          "title": "Ignaz Semmelweis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+        },
+        {
+          "title": "Ignaz Semmelweis: Father of infection control",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3959952/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 17th-Century Gunpowder Depot Shattered the Parthenon",
+      "body": "The Parthenon survived largely intact for over two thousand years as a Greek temple, Christian church, and Ottoman mosque. That ended on September 26, 1687, during the Morean War. Believing the ancient landmark was too sacred to target, Ottoman forces used it to store gunpowder. But a Venetian mortar shell struck the roof directly, igniting the magazine. The resulting explosion obliterated the building's interior and collapsed 28 towering marble columns.",
+      "imageWikipediaTitle": "Parthenon",
+      "sources": [
+        {
+          "title": "Parthenon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parthenon"
+        },
+        {
+          "title": "Acropolis, Athens",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/404/"
+        }
+      ],
+      "readMoreUrl": "https://whc.unesco.org/en/list/404/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Underground Railroad Conductor Who Led a Civil War Assault",
+      "body": "Harriet Tubman is best known for guiding enslaved people to freedom, but in June 1863 she made military history. Working as a Union scout and spy, Tubman planned and guided the Combahee Ferry Raid in South Carolina. Leading three gunboats upriver past Confederate torpedoes, she became the first woman to lead an armed assault in U.S. history. The raid crippled local plantations and freed more than 700 enslaved people in a single night.",
+      "imageWikipediaTitle": "Harriet Tubman",
+      "sources": [
+        {
+          "title": "Harriet Tubman",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/people/harriet-tubman.htm"
+        },
+        {
+          "title": "Raid on Combahee Ferry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raid_on_Combahee_Ferry"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/people/harriet-tubman.htm",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Only Two Diseases Have Ever Been Fully Eradicated by Humanity",
+      "body": "Smallpox was declared eradicated in 1980, marking a monumental victory for global medicine. But 31 years later, humanity achieved the feat a second time. In 2011, the United Nations confirmed the total worldwide eradication of rinderpest, or cattle plague. For millennia, this viral pathogen wiped out hundreds of millions of cattle, sparking catastrophic famines across Africa, Asia, and Europe. Today, it exists only in heavily secure laboratory freezers.",
+      "imageWikipediaTitle": "Rinderpest",
+      "sources": [
+        {
+          "title": "Rinderpest",
+          "publisher": "World Organisation for Animal Health",
+          "url": "https://www.woah.org/en/disease/rinderpest/"
+        },
+        {
+          "title": "Rinderpest",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rinderpest"
+        }
+      ],
+      "readMoreUrl": "https://www.woah.org/en/disease/rinderpest/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Iconic \"Earthrise\" Photo Was an Unplanned Miracle",
+      "body": "In December 1968, Apollo 8 became the first crewed mission to orbit the Moon. The astronauts' official flight plan focused strictly on lunar topography. But during their fourth orbit, as the spacecraft rotated, astronaut William Anders looked out the window and saw a vibrant blue-and-white marble rising above the stark lunar horizon. Scrambling to load color film into his Hasselblad camera, Anders captured \"Earthrise\"—an image that transformed humanity's view of our home planet.",
+      "imageWikipediaTitle": "Earthrise",
+      "sources": [
+        {
+          "title": "Apollo 8 'Earthrise'",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/image-article/apollo-8-earthrise/"
+        },
+        {
+          "title": "Earthrise",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Earthrise"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/image-article/apollo-8-earthrise/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What simple intervention did Ignaz Semmelweis introduce in 1847 to drastically lower maternal mortality?",
+      "options": [
+        "Boiling surgical instruments",
+        "Washing hands with a chlorinated lime solution",
+        "Administering penicillin before childbirth",
+        "Isolating sick patients in quarantined rooms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semmelweis required medical staff to wash their hands in chlorinated lime after autopsies, causing maternal death rates to drop from over 18% to under 2%."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did the Parthenon explode in 1687 during the Morean War?",
+      "options": [
+        "A lightning strike ignited a storage of fireworks",
+        "Ottoman forces used it as a gunpowder depot, which a Venetian shell hit",
+        "A planned demolition went wrong during a renovation",
+        "Earthquake activity triggered a collapse of internal oil lamps"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ottoman forces stored ammunition inside the Parthenon believing it would be spared, but a Venetian mortar hit the magazine directly."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which historic distinction did Harriet Tubman achieve during the 1863 Combahee Ferry Raid?",
+      "options": [
+        "She became the first woman to lead an armed military assault in U.S. history",
+        "She was commissioned as the Union Army's first female general",
+        "She negotiated the first official prisoner exchange of the Civil War",
+        "She commanded the first ironclad warship in combat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tubman planned and guided the Combahee Ferry Raid in South Carolina, making her the first woman to lead an armed assault in U.S. history."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Besides smallpox, which is the only other infectious disease officially declared eradicated worldwide?",
+      "options": [
+        "Polio",
+        "Rinderpest",
+        "Measles",
+        "Rabies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rinderpest, a deadly viral disease affecting cattle and wild ungulates, was declared globally eradicated by the UN in 2011."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did astronaut William Anders manage to capture the famous 1968 'Earthrise' photograph?",
+      "options": [
+        "It was pre-calculated and scheduled by mission control computers",
+        "He spotted Earth by chance while rotating and scrambled to load color film",
+        "An automated exterior camera took timed exposures automatically",
+        "He set up a dedicated panorama telescope requested by National Geographic"
+      ],
+      "correctIndex": 1,
+      "explanation": "The photo was unplanned; Anders saw the Earth emerging over the lunar horizon and hastily asked for a color film canister to snap the shot."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many enslaved people were liberated in a single night during Harriet Tubman's 1863 Combahee Ferry Raid?",
+      "answer": 700,
+      "min": 50,
+      "max": 3000,
+      "unit": "people",
+      "explanation": "Harriet Tubman guided Union gunboats through Confederate waters, freeing over 700 enslaved people in just one operation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Doctors quickly embraced handwashing as soon as data showed it prevented hospital infections.",
+      "answer": false,
+      "explanation": "Ignaz Semmelweis was ridiculed and ostracized by fellow doctors for suggesting their hands carried lethal disease agents."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The famous Apollo 8 'Earthrise' photograph was planned in advance as a key mission objective.",
+      "answer": false,
+      "explanation": "The Apollo 8 crew's flight plan focused entirely on the lunar surface; photographing Earth was an unplanned moment of opportunity."
+    }
+  ]
+}

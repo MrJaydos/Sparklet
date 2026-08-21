@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.438Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A university message board joke gave birth to the emoticon",
+      "body": "On September 19, 1982, computer scientist Scott Fahlman posted a suggestion on a Carnegie Mellon University bulletin board: use `:-)` to mark jokes and `:-(` for serious issues. CMU researchers had struggled with digital sarcasm, mistaking ironic warnings for genuine lab emergencies. Fahlman's three-character convention rapidly propagated across ARPANET, establishing digital emotional shorthand decades before smartphones introduced graphic emojis.",
+      "imageWikipediaTitle": "Emoticon",
+      "sources": [
+        {
+          "title": "Smiley Lore :-)",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Emoticon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emoticon"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A statistician coined the word 'bit' as a memo shorthand",
+      "body": "In 1946, statistician John Tukey wrote a Bell Labs memo suggesting \"bit\" as a contraction for \"binary digit.\" He considered awkward alternatives like \"bigit\" and \"binit\" before deciding on the crisper three-letter term. Information theorist Claude Shannon formally adopted Tukey's coinage in his landmark 1948 paper, transforming what began as casual lab shorthand into the fundamental unit of all digital computing and communication.",
+      "imageWikipediaTitle": "John Tukey",
+      "sources": [
+        {
+          "title": "John Wilder Tukey",
+          "publisher": "MacTutor History of Mathematics Archive",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tukey/"
+        },
+        {
+          "title": "Bit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bit"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bit",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "British intelligence secretly invented public-key crypto in 1973",
+      "body": "In 1973, mathematician Clifford Cocks developed an algorithm for asymmetric encryption while working at Britain's signals intelligence agency, GCHQ. Four years later, Ron Rivest, Adi Shamir, and Leonard Adleman independently discovered and published the identical mathematical scheme at MIT, which became known as RSA encryption. Because Cocks' research was classified Top Secret, his prior discovery remained hidden from the world until GCHQ declassified it in 1997.",
+      "imageWikipediaTitle": "Public-key cryptography",
+      "sources": [
+        {
+          "title": "The History of Public-Key Cryptography",
+          "publisher": "Stanford University",
+          "url": "https://cs.stanford.edu/people/eroberts/courses/soco/projects/public-key-cryptography/history.html"
+        },
+        {
+          "title": "Clifford Cocks",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clifford_Cocks"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Clifford_Cocks",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Magic: The Gathering can mathematically compute anything",
+      "body": "In 2019, researchers proved that the collectible card game Magic: The Gathering is Turing complete. By constructing a custom board state of creatures, enchantments, and triggered abilities, game actions can simulate a universal computer executing arbitrary code. Because the game is Turing complete, determining whether a player has a winning strategy from an arbitrary board state is non-computable, making it the most computationally complex real-world game ever analyzed.",
+      "imageWikipediaTitle": "Magic: The Gathering",
+      "sources": [
+        {
+          "title": "Magic: The Gathering is Turing Complete",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/1904.09828"
+        },
+        {
+          "title": "Turing completeness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turing_completeness"
+        }
+      ],
+      "readMoreUrl": "https://arxiv.org/abs/1904.09828",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Hollywood movie convinced the White House to pass cybercrime laws",
+      "body": "After watching the 1983 thriller WarGames at Camp David, President Ronald Reagan asked his military advisers whether a high school hacker could truly break into nuclear command systems. General John Vessey investigated and confirmed the threat was real. Reagan immediately ordered sweeping reviews that resulted in National Security Decision Directive 145, spurring Congress to pass the Computer Fraud and Abuse Act of 1986, America's foundational federal anti-hacking legislation.",
+      "imageWikipediaTitle": "WarGames (film)",
+      "sources": [
+        {
+          "title": "\"War Games\" and the US Government: Cyber Threat Perceptions in the 1980s",
+          "publisher": "National Security Archive",
+          "url": "https://nsarchive2.gwu.edu/NSAEBB/NSAEBB561-War-Games-and-the-US-Government-Cyber-Threat-Perceptions-in-the-1980s/"
+        },
+        {
+          "title": "Computer Fraud and Abuse Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Computer_Fraud_and_Abuse_Act",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Scott Fahlman propose using :-) on a university message board in 1982?",
+      "options": [
+        "To distinguish sarcastic posts from serious warnings",
+        "To compress email headers over low-bandwidth connections",
+        "To test non-standard ASCII rendering on mainframe terminals",
+        "To send encrypted acknowledgment signals between networked servers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman suggested :-) so bulletin board readers would not mistake sarcastic or humorous posts for genuine campus emergencies."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Who coined the word \"bit\" as a contraction for \"binary digit\" in 1946?",
+      "options": [
+        "John Tukey",
+        "Alan Turing",
+        "Claude Shannon",
+        "John von Neumann"
+      ],
+      "correctIndex": 0,
+      "explanation": "Statistician John Tukey coined \"bit\" in a 1946 Bell Labs memo; Claude Shannon later popularized it in his foundational 1948 paper."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was Clifford Cocks' 1973 invention of asymmetric cryptography unknown to the public for decades?",
+      "options": [
+        "He invented it at Britain's intelligence agency GCHQ, which classified it",
+        "He sold exclusive rights to a defense contractor that shelved the project",
+        "He lost his research notes before he could submit them to a journal",
+        "Academic reviewers rejected his mathematical proof as flawed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cocks worked for British intelligence agency GCHQ, which kept public-key cryptography classified as Top Secret until 1997."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What surprising property did computer scientists prove about Magic: The Gathering in 2019?",
+      "options": [
+        "It is Turing complete and can simulate any computer algorithm",
+        "Its possible board states can always be resolved in linear time",
+        "It is mathematically impossible to enter an infinite game loop",
+        "Its card shuffle mechanics violate Shannon entropy limits"
+      ],
+      "correctIndex": 0,
+      "explanation": "Researchers showed that Magic's complex rules can be configured to simulate a universal Turing machine, making game outcomes non-computable."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which 1983 movie directly prompted President Ronald Reagan to push for federal anti-hacking laws?",
+      "options": [
+        "WarGames",
+        "Tron",
+        "Blade Runner",
+        "Sneakers"
+      ],
+      "correctIndex": 0,
+      "explanation": "After watching WarGames, Reagan asked military advisers if teenagers could hack defense mainframes, sparking the 1986 Computer Fraud and Abuse Act."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In what year did British intelligence finally declassify Clifford Cocks' 1973 discovery of public-key cryptography?",
+      "answer": 1997,
+      "min": 1975,
+      "max": 2020,
+      "unit": "year",
+      "explanation": "GCHQ kept Cocks' 1973 discovery of public-key encryption classified as Top Secret for 24 years until 1997."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Text-based emoticons and graphical emojis were invented by the same Japanese research team.",
+      "answer": false,
+      "explanation": "Text emoticons like :-) were invented by Scott Fahlman at Carnegie Mellon in 1982, whereas graphical emojis were designed in Japan in 1999."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A computer algorithm can always determine whether a player has a winning move in Magic: The Gathering.",
+      "answer": false,
+      "explanation": "Because Magic: The Gathering is Turing complete, determining if a player can force a win from an arbitrary board state is mathematically undecidable."
+    }
+  ]
+}

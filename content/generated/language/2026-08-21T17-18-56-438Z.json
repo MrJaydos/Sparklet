@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.438Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Raising a Glass in Japan Means \"Drying the Cup\"",
+      "body": "When toasting in Japan, people raise their glasses and exclaim 乾杯 (*kanpai*, pronounced \"kahn-pie\"). Composed of the kanji characters 乾 (dry) and 杯 (drinking cup), the phrase literally translates to \"empty the cup\" or \"drain the glass dry.\" Borrowed from the Classical Chinese phrase 干杯 (*gānbēi*), it was originally an encouragement to drink your entire serving in one go, though modern Japanese etiquette treats it as a standard toast.",
+      "imageWikipediaTitle": "Kanpai",
+      "sources": [
+        {
+          "title": "Kanpai - Definition",
+          "publisher": "Cambridge Dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english/kanpai"
+        },
+        {
+          "title": "Kanpai",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kanpai"
+        },
+        {
+          "title": "Drinking Etiquette in Japan",
+          "publisher": "Japan National Tourism Organization",
+          "url": "https://www.japan.travel/en/guide/drinking-etiquette/"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.cambridge.org/dictionary/english/kanpai",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Portuguese Gratitude Changes Depending on Who Speaks",
+      "body": "In Portuguese, saying \"thank you\" requires matching the speaker's own gender. Men say *obrigado* (oh-bree-GAH-doo), while women say *obrigada* (oh-bree-GAH-dah). The word is a past participle meaning \"obliged\" or \"bound by duty.\" When expressing gratitude, speakers are literally stating \"I am obligated to you for your kindness.\" Because it functions grammatically as an adjective describing the speaker, its ending changes to reflect whether the person expressing thanks is male or female.",
+      "imageWikipediaTitle": "Portuguese vocabulary",
+      "sources": [
+        {
+          "title": "Obrigado",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/obrigado"
+        },
+        {
+          "title": "Portuguese vocabulary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_vocabulary"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/obrigado",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Medical Belief Behind the Word \"Melancholy\"",
+      "body": "The English word \"melancholy\" preserves a 2,400-year-old medical theory. It comes from the ancient Greek μελαγχολία (*melankholia*), formed from μέλας (*melas*, black) and χολή (*kholē*, bile). Ancient Greek physicians like Hippocrates believed human health and temperament depended on four bodily fluids, or humors. An excess of cold, dry \"black bile\" was thought to cause deep sadness, gloom, and irritability—a condition they directly named after the supposed offending fluid.",
+      "imageWikipediaTitle": "Humorism",
+      "sources": [
+        {
+          "title": "Melancholy",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/melancholy"
+        },
+        {
+          "title": "Humour: Ancient Physiology",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/science/humor-ancient-physiology"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/humor-ancient-physiology",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Backwards Slang Gave Sweden Its Daily Ritual",
+      "body": "In Sweden, the cherished ritual of pausing for coffee and a pastry is called *fika* (pronounced FEE-kah). The word originated in the 19th century as a playful form of back-slang called *fikaspråk*, where syllables were swapped. Swedes inverted the older word for coffee, *kaffi*, into *fika*. Today, *fika* serves as both a noun and a verb, representing an essential social custom practiced daily in Swedish workplaces and homes.",
+      "imageWikipediaTitle": "Fika (culture)",
+      "sources": [
+        {
+          "title": "Fika - More Than Just Coffee",
+          "publisher": "Sweden.se",
+          "url": "https://sweden.se/culture/food/fika"
+        },
+        {
+          "title": "Fika (culture)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fika_(culture)"
+        }
+      ],
+      "readMoreUrl": "https://sweden.se/culture/food/fika",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Castle Defense Built into Stone Walls Became \"Loopholes\"",
+      "body": "Today, a \"loophole\" is an ambiguity in a law that lets people bypass rules. In the Middle Ages, however, a loophole was a literal architectural feature. European castles and fortifications were built with narrow vertical slits in stone walls called loops or loopholes. Archers could stand safely behind the thick masonry while firing arrows outward through the narrow slit, exploiting a tiny structural opening to gain an enormous advantage over attackers outside.",
+      "imageWikipediaTitle": "Arrowslit",
+      "sources": [
+        {
+          "title": "Loophole",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/loophole"
+        },
+        {
+          "title": "Arrowslit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arrowslit"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/loophole",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the Japanese toast \"kanpai\" literally translate to?",
+      "options": [
+        "Empty the cup",
+        "To your health",
+        "Long live the emperor",
+        "Peace and prosperity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kanpai combines the characters 乾 (dry) and 杯 (drinking cup), literally meaning \"empty the cup\" or \"dry the glass.\""
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do speakers switch between \"obrigado\" and \"obrigada\" in Portuguese?",
+      "options": [
+        "To match the gender of the speaker",
+        "To match the gender of the listener",
+        "To distinguish between formal and informal speech",
+        "To indicate whether speaking in the morning or evening"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because \"obrigado\" is an adjective meaning \"obliged,\" it grammatically agrees with the person saying it (men say obrigado, women say obrigada)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which bodily fluid from ancient medicine gave its name to the word \"melancholy\"?",
+      "options": [
+        "Black bile",
+        "Yellow bile",
+        "Blood",
+        "Phlegm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Melancholy comes from the Greek roots melas (black) and khole (bile), reflecting the ancient belief that sadness stemmed from excess black bile."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did the Swedish word \"fika\" originate in the 19th century?",
+      "options": [
+        "By inverting the syllables of an older word for coffee",
+        "By borrowing a French word for cinnamon roll",
+        "From the Latin word for conversation",
+        "From the brand name of Sweden's first coffee roaster"
+      ],
+      "correctIndex": 0,
+      "explanation": "Swedes used 19th-century back-slang to invert the syllables of \"kaffi\" (coffee), producing the modern word \"fika.\""
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was a \"loophole\" originally in medieval European architecture?",
+      "options": [
+        "A narrow vertical slit in castle walls for archers",
+        "A trapdoor built over a castle moat",
+        "A knot used to anchor drawbridge ropes",
+        "A secret escape tunnel beneath the castle keep"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loopholes were narrow openings in fortification walls allowing archers to shoot at invaders while remaining protected."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "In Portuguese, you choose between \"obrigado\" and \"obrigada\" based on the gender of the person you are thanking.",
+      "answer": false,
+      "explanation": "The word functions as an adjective meaning \"obliged,\" so it describes the speaker: men say \"obrigado\" and women say \"obrigada\" regardless of who they address."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word \"loophole\" originally referred to a physical opening in castle walls rather than a legal ambiguity.",
+      "answer": true,
+      "explanation": "Medieval loopholes were narrow slits in stone fortifications where archers could safely shoot arrows at attackers."
+    }
+  ]
+}

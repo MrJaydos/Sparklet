@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.435Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "If a prince and a cobbler swapped memories, who would you hold responsible?",
+      "body": "In 1694, philosopher John Locke proposed a radical thought experiment on personal identity. Imagine a prince's consciousness and memories entered the body of a cobbler whose mind had departed. To outsiders, he looks like the cobbler, but Locke argued he is truly the prince. Locke concluded that identity does not depend on a physical body or an immaterial soul, but on continuous psychological awareness and memory over time.",
+      "imageWikipediaTitle": "John Locke",
+      "sources": [
+        {
+          "title": "Locke on Personal Identity",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/locke-personal-identity/"
+        },
+        {
+          "title": "Personal Identity",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/identity-personal/"
+        },
+        {
+          "title": "John Locke",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Locke"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/locke-personal-identity/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an author can rationally believe every line in their book is true—and false",
+      "body": "In 1965, philosopher D. C. Makinson outlined the Preface Paradox. An author painstakingly verifies every statement in their book, having rational justification for each claim. Yet, recognizing human fallibility, they write in the preface: 'Any remaining errors are entirely my own.' Logically, the author rationally believes every individual claim is true, while simultaneously believing the book as a whole contains at least one false statement.",
+      "imageWikipediaTitle": "Book",
+      "sources": [
+        {
+          "title": "Epistemic Paradoxes",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/epistemic-paradoxes/"
+        },
+        {
+          "title": "Preface paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Preface_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/epistemic-paradoxes/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When an invisible gardener leaves no trace, is there really a gardener at all?",
+      "body": "In a thought experiment popularized by Antony Flew, two explorers find an isolated clearing with neat flowers among weeds. One claims an invisible gardener tends it. They set up electric fences, bloodhounds, and patrols, finding nothing. The believer modifies their claim: the gardener is invisible, intangible, and silent. Flew argued that when a claim cannot be disproven by any conceivable test, it ceases to assert anything real at all.",
+      "imageWikipediaTitle": "Garden",
+      "sources": [
+        {
+          "title": "Religious Language",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/rel-lang/"
+        },
+        {
+          "title": "Parable of the Invisible Gardener",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parable_of_the_Invisible_Gardener"
+        }
+      ],
+      "readMoreUrl": "https://iep.utm.edu/rel-lang/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How high probability leads to the absurd conclusion that no lottery ticket wins",
+      "body": "In a fair lottery with one million tickets and one winner, you have a 99.9999% rational justification to believe ticket #1 will lose. The exact same logic applies to ticket #2, ticket #3, and every other ticket. By accepting each individually justified belief, you logically arrive at believing that no ticket will win—even though you know with absolute certainty that one ticket must win.",
+      "imageWikipediaTitle": "Lottery",
+      "sources": [
+        {
+          "title": "Epistemic Paradoxes",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/epistemic-paradoxes/"
+        },
+        {
+          "title": "Lottery paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lottery_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/epistemic-paradoxes/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You have never actually seen one billiard ball cause another to move",
+      "body": "Eighteenth-century philosopher David Hume argued that we never directly observe causation itself. When one billiard ball strikes another, our senses perceive only a sequence: ball A moves, makes contact, and ball B moves. We observe constant correlation over time, but not the invisible 'necessary connection' linking them. Hume concluded our belief in cause and effect is a psychological habit formed by repetition, not a logically provable certainty.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "Hume on Causation",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hume-causation/"
+        },
+        {
+          "title": "David Hume",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        },
+        {
+          "title": "David Hume",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_Hume"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/hume-causation/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to John Locke, what defines a person's identity over time?",
+      "options": [
+        "Their physical body and biological continuous structure",
+        "Their conscious awareness and unbroken chain of memory",
+        "The social roles and legal titles granted to them",
+        "An unchanging, immaterial religious soul"
+      ],
+      "correctIndex": 1,
+      "explanation": "Locke argued that personal identity is founded on psychological continuity and consciousness, rather than physical substance or an immaterial soul."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What central contradiction does the Preface Paradox highlight?",
+      "options": [
+        "Believing each claim in a book is true while believing the whole book contains an error",
+        "Writing an autobiography while being unable to remember one's earliest childhood",
+        "Believing a fictional story while knowing the characters are entirely fabricated",
+        "Claiming credit for a book while acknowledging assistance from editors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The paradox shows it is rational to believe every individual claim you verified is true, yet also rational to believe your entire collection contains at least one mistake."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What point did Antony Flew illustrate with the Parable of the Invisible Gardener?",
+      "options": [
+        "Unseen forces are usually responsible for natural beauty",
+        "Gardening requires strict moral obligations to avoid weeds",
+        "A claim that cannot be disproven by any evidence asserts nothing meaningful",
+        "Complex ecosystems cannot arise without intelligent design"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flew used the parable to show that claims endlessly qualified to avoid disproof end up asserting nothing of empirical significance."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does Henry Kyburg Jr.'s Lottery Paradox demonstrate about rational belief?",
+      "options": [
+        "Buying lottery tickets is always mathematically irrational",
+        "Aggregating individually justified high-probability beliefs can create a contradiction",
+        "People overestimate their chances of winning large random drawings",
+        "Probability cannot be measured accurately in games of chance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because each ticket is overwhelmingly likely to lose, believing each ticket loses leads to the contradictory belief that no ticket will win."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did David Hume conclude about our perception of cause and effect?",
+      "options": [
+        "We directly observe the invisible physical force binding two colliding objects",
+        "Causation is an illusion that does not exist in the natural universe",
+        "We observe events occurring in regular succession, but not the causal link itself",
+        "Cause and effect can be proved purely through mathematical logic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hume noted that we only witness regular succession ('constant conjunction') between events, deriving our belief in causation from mental habit rather than direct observation."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "Human senses directly observe physical causes producing effects in the world.",
+      "answer": false,
+      "explanation": "David Hume showed that we only observe one event following another in time, inferring the causal link through psychological habit rather than direct sensory perception."
+    },
+    {
+      "cardIndex": 0,
+      "claim": "John Locke believed personal identity is tied to the physical human body.",
+      "answer": false,
+      "explanation": "Locke argued that personal identity is defined by continuous consciousness and memory, meaning a person would remain the same individual even if moved to a different body."
+    }
+  ]
+}

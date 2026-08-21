@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.439Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tuatara has a third eye with its own lens and retina",
+      "body": "New Zealand's tuatara possesses a fully formed parietal third eye on the top of its skull. Complete with a cornea, lens, and retina, this photoreceptive organ connects directly to the brain. While scales cover it as the animal matures, the eye senses light intensity and helps regulate circadian rhythms and body temperature.",
+      "imageWikipediaTitle": "Tuatara",
+      "sources": [
+        {
+          "title": "Tuatara",
+          "publisher": "Department of Conservation",
+          "url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/"
+        },
+        {
+          "title": "Tuatara",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tuatara"
+        }
+      ],
+      "readMoreUrl": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frigatebirds can sleep with half their brain while flying over the ocean",
+      "body": "Great frigatebirds spend weeks soaring over open water without touching down. Brain recordings reveal they nap in ten-second bursts, often engaging unihemispheric slow-wave sleep to keep one eye open while the other half of the brain rests. During continuous oceanic flights, they survive on an average of just 42 minutes of sleep per day.",
+      "imageWikipediaTitle": "Great frigatebird",
+      "sources": [
+        {
+          "title": "Evidence that birds sleep in mid-flight",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974640/"
+        },
+        {
+          "title": "Great frigatebird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_frigatebird"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4974640/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Velvet worms trap prey with passively oscillating slime cannons",
+      "body": "Velvet worms hunt by firing twin jets of proteinaceous slime from specialized nozzles on their heads. The nozzles whip back and forth up to thirty times per second, not through rapid muscle contractions, but through fluid dynamics. The elastic papillae passively oscillate as pressurized slime rushes through, casting a broad, sticky net in milliseconds.",
+      "imageWikipediaTitle": "Onychophora",
+      "sources": [
+        {
+          "title": "Microfluidic spraying in velvet worms",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4366488/"
+        },
+        {
+          "title": "Onychophora",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Onychophora"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4366488/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Glasswing butterflies use natural nanostructures to become invisible",
+      "body": "The wings of the glasswing butterfly are virtually transparent, reflecting less than two percent of incoming light. Instead of standard overlapping pigment scales, their clear wing membranes are covered in irregularly shaped, microscopic pillars. This uneven nano-texture creates a gradual transition in refractive index between air and wing tissue, eliminating glare from almost any angle.",
+      "imageWikipediaTitle": "Greta oto",
+      "sources": [
+        {
+          "title": "Transparency and low reflectance in the glasswing butterfly Greta oto",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410631/"
+        },
+        {
+          "title": "Greta oto",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greta_oto"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4410631/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cuckoo catfish trick mouthbrooding cichlids into raising cannibalistic young",
+      "body": "In Lake Tanganyika, the cuckoo catfish practices an underwater version of brood parasitism. When mouthbrooding cichlids spawn, the catfish darts in and deposits its own fertilized eggs alongside theirs. The mother cichlid scoops up the entire clutch for safety in her mouth. The catfish hatchlings emerge first and devour the host's developing young from within.",
+      "imageWikipediaTitle": "Cuckoo catfish",
+      "sources": [
+        {
+          "title": "Co-evolutionary arms race between African cuckoo catfish and mouthbrooding cichlid hosts",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030612/"
+        },
+        {
+          "title": "Cuckoo catfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cuckoo_catfish"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6030612/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What specialized feature sits on top of a tuatara's head?",
+      "options": [
+        "A venom-injecting horn",
+        "A parietal third eye complete with a lens and retina",
+        "A sound-amplifying acoustic membrane",
+        "An electric organ that stuns insects"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tuataras have a well-developed parietal third eye with its own cornea, lens, and retina that helps regulate circadian rhythms."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do great frigatebirds manage sleep during long non-stop flights over the ocean?",
+      "options": [
+        "They glide in short bursts while resting half their brain at a time",
+        "They drop into a comatose state while floating on sea foam",
+        "They absorb oxygen through their feathers to avoid needing sleep",
+        "They rely entirely on involuntary muscle twitches without sleeping"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frigatebirds use unihemispheric slow-wave sleep in short 10-second bursts, resting one hemisphere of their brain while airborne."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do velvet worms make their slime nozzles oscillate so rapidly without fast muscle contractions?",
+      "options": [
+        "By tapping magnetic fields in their environment",
+        "Through passive fluid dynamic oscillation of elastic nozzles",
+        "By snapping hinged skeletal bones together",
+        "By releasing explosive methane gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "The high-speed waving of the velvet worm's slime jets is driven passively by fluid dynamics and tissue elasticity, not muscular speed."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do glasswing butterfly wings reflect almost no light?",
+      "options": [
+        "They are coated in a layer of light-absorbing liquid oil",
+        "They have irregularly sized nanopillars that eliminate glare",
+        "They absorb all light through dense black melanin pigments",
+        "Their wings are made entirely of pure quartz crystals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Randomly arranged nanopillars create a smooth transition in refractive index between the air and the wing, preventing reflection."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where does the cuckoo catfish trick cichlids into incubating its offspring?",
+      "options": [
+        "Inside the cichlid mother's mouth",
+        "Under the cichlid's protective dorsal fin",
+        "Inside burrowed tunnels dug into mud banks",
+        "Under discarded freshwater snail shells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mouthbrooding cichlids hold their eggs in their mouths for protection, where parasitic catfish eggs hatch and eat the cichlid young."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many minutes per day do great frigatebirds sleep on average while on continuous flights over the open ocean?",
+      "answer": 42,
+      "min": 5,
+      "max": 480,
+      "unit": "min",
+      "explanation": "While frigatebirds sleep over 12 hours a day on land, they survive on an average of just 42 minutes per day in mid-flight."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The tuatara is a type of lizard native to New Zealand.",
+      "answer": false,
+      "explanation": "Tuataras look like lizards, but they are the sole surviving members of Rhynchocephalia, an entirely separate reptile order that diverged over 200 million years ago."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Birds must land or perch in order to fall asleep.",
+      "answer": false,
+      "explanation": "Great frigatebirds can sleep mid-flight using unihemispheric slow-wave sleep, resting one half of their brain while soaring."
+    }
+  ]
+}

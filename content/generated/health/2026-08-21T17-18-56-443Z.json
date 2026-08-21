@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.443Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real chemical behind the famous runner's high",
+      "body": "For decades, people credited endorphins for the euphoria of a long run. But endorphin molecules are too large to cross the protective blood-brain barrier. Instead, sustained endurance exercise floods your bloodstream with endocannabinoids—lipid compounds chemically similar to THC. These lipid molecules readily cross into your central nervous system, binding to cannabinoid receptors in your brain to blunt pain, calm anxiety, and create a calm, elevated mood.",
+      "imageWikipediaTitle": "Endocannabinoid system",
+      "sources": [
+        {
+          "title": "A runner's high depends on cannabinoid receptors in mice",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26438875/"
+        },
+        {
+          "title": "Neurobiological effects of physical exercise",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neurobiological_effects_of_physical_exercise"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/26438875/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You do not need gravity to swallow your food",
+      "body": "Swallowing does not rely on gravity to pull food into your stomach. Instead, the esophagus uses peristalsis—a coordinated wave of involuntary muscular contractions. Rings of smooth muscle contract sequentially behind a swallowed bolus while relaxing ahead of it, propelling food and liquids downward with steady mechanical force. This robust reflex is why astronauts can eat effortlessly in zero gravity, and why you could swallow even while hanging completely upside down.",
+      "imageWikipediaTitle": "Peristalsis",
+      "sources": [
+        {
+          "title": "Digestive System & How It Works",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works"
+        },
+        {
+          "title": "Peristalsis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peristalsis"
+        }
+      ],
+      "readMoreUrl": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How leafy greens turn into blood vessel dilators",
+      "body": "Eating leafy greens or beetroot boosts your stamina thanks to a multi-stage biochemical conversion. These vegetables are rich in inorganic nitrate. When chewed, beneficial bacteria on your tongue convert nitrate into nitrite. After swallowing, your body converts this nitrite into nitric oxide, a gas that signals smooth muscles in blood vessels to relax. This widens arteries, lowers resting blood pressure, and reduces the amount of oxygen your working muscles consume during exercise.",
+      "imageWikipediaTitle": "Beetroot",
+      "sources": [
+        {
+          "title": "The nitrate-nitrite-nitric oxide pathway in physiology and therapeutics",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23596162/"
+        },
+        {
+          "title": "Nitric oxide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nitric_oxide"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/23596162/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of your daily growth hormone is released during deep sleep",
+      "body": "Your body does the majority of its tissue repair and muscle building during stage 3 non-REM sleep, also known as slow-wave sleep. During this deep slumber, the pituitary gland releases massive pulses of human growth hormone, accounting for roughly 60 to 70 percent of your total daily output. Growth hormone stimulates amino acid uptake, repairs microscopic tissue damage from daily wear, and mobilizes fat stores for fuel while your metabolic rate drops.",
+      "imageWikipediaTitle": "Slow-wave sleep",
+      "sources": [
+        {
+          "title": "Growth hormone secretion during sleep",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11110885/"
+        },
+        {
+          "title": "Growth hormone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Growth_hormone"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/11110885/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Microscopic eight-legged mites live in your facial pores",
+      "body": "Virtually every adult human hosts thousands of microscopic, eight-legged arachnids called Demodex mites inside their hair follicles and sebaceous glands. Measuring less than half a millimeter long, these invisible creatures feed on excess sebum and dead skin cells, particularly around the nose, forehead, and eyelashes. They lack an anus, storing waste internally until they die. For the vast majority of people, they are completely harmless commensal organisms coexisting with our immune system.",
+      "imageWikipediaTitle": "Demodex folliculorum",
+      "sources": [
+        {
+          "title": "Demodex species in human skin",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25264875/"
+        },
+        {
+          "title": "Demodex folliculorum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Demodex_folliculorum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Demodex_folliculorum",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which compounds are primarily responsible for the post-exercise 'runner's high' in the brain?",
+      "options": [
+        "Endocannabinoids",
+        "Beta-endorphins",
+        "Lactic acid",
+        "Adrenaline"
+      ],
+      "correctIndex": 0,
+      "explanation": "Endocannabinoids are small lipid molecules that readily cross the blood-brain barrier, unlike endorphins which are too large to enter the brain from the bloodstream."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are humans able to swallow food while hanging upside down or in zero gravity?",
+      "options": [
+        "Peristaltic muscle contractions push food toward the stomach",
+        "Negative pressure in the stomach creates a vacuum",
+        "Salivary enzymes dissolve food so it flows upward",
+        "The tongue pushes food all the way into the stomach"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peristalsis consists of coordinated waves of smooth muscle contractions in the esophagus that actively propel food into the stomach regardless of gravity."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do dietary nitrates from foods like beetroot help lower blood pressure?",
+      "options": [
+        "Oral bacteria and body tissues convert them into nitric oxide",
+        "They bind directly to adrenaline to suppress stress",
+        "They permanently increase the thickness of arterial walls",
+        "They reduce blood volume by expelling extra water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oral bacteria reduce nitrate to nitrite, which is converted to nitric oxide in the body, signaling blood vessels to relax and dilate."
+    },
+    {
+      "cardIndex": 3,
+      "question": "During which sleep stage does the pituitary gland release the majority of daily human growth hormone?",
+      "options": [
+        "Slow-wave (deep non-REM) sleep",
+        "REM (dreaming) sleep",
+        "Stage 1 light sleep",
+        "During pre-sleep wakefulness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roughly 60 to 70 percent of daily growth hormone secretion occurs during deep slow-wave sleep to support tissue repair and recovery."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where do Demodex mites naturally live on the human body?",
+      "options": [
+        "Inside hair follicles and oil glands",
+        "Deep within the inner ear canal",
+        "Inside the bloodstream",
+        "Underneath the fingernails"
+      ],
+      "correctIndex": 0,
+      "explanation": "Demodex mites live harmlessly inside hair follicles and sebaceous glands, particularly around the nose, cheeks, and eyelashes."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of your body's total daily human growth hormone is secreted during deep slow-wave sleep?",
+      "answer": 65,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Around 60 to 70% of daily human growth hormone is released in pulses during deep slow-wave sleep to repair tissues and build muscle."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Endorphins passing into the brain cause the euphoric sensation known as a runner's high.",
+      "answer": false,
+      "explanation": "Endorphins are too large to pass through the blood-brain barrier; the runner's high is driven primarily by endocannabinoids crossing into the brain."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Gravity is required to move food from your throat down into your stomach.",
+      "answer": false,
+      "explanation": "The muscular wave action of peristalsis actively moves food through your esophagus, allowing you to swallow even when completely upside down."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Microscopic face mites only inhabit the skin of people with poor hygiene.",
+      "answer": false,
+      "explanation": "Demodex mites are harmless, normal commensal organisms present in the hair follicles of virtually all healthy adult humans."
+    }
+  ]
+}

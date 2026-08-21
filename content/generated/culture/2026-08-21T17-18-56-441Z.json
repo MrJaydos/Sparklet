@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.441Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Korean Grandmothers Who Dive Deep Without Oxygen Tanks",
+      "body": "On South Korea's Jeju Island, the haenyeo are a community of free-diving women who harvest abalone, octopuses, and sea urchins from the ocean floor. Descending up to ten meters without oxygen tanks or modern breathing gear, they hold their breath for minutes using a distinct whistling exhale technique called sumbisori. Remarkably, the majority of active haenyeo today are in their sixties, seventies, and even eighties.",
+      "imageWikipediaTitle": "Haenyeo",
+      "sources": [
+        {
+          "title": "Culture of Jeju Haenyeo (women divers)",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/culture-of-jeju-haenyeo-women-divers-01068"
+        },
+        {
+          "title": "Haenyeo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haenyeo"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/culture-of-jeju-haenyeo-women-divers-01068",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wax-Resist Fabric Art That Encoded Social Status",
+      "body": "Indonesian batik is a master craft where artisans draw intricate patterns using molten wax applied through a tiny copper spout called a canting. When dipped into cold dye, the waxed areas resist color, allowing complex multi-layered patterns to form through repeated waxings and boilings. Historically, specific geometric motifs were strictly reserved for Javanese royalty, and distinct patterns were created to mark births, weddings, and funeral rites.",
+      "imageWikipediaTitle": "Batik",
+      "sources": [
+        {
+          "title": "Indonesian Batik",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/indonesian-batik-00170"
+        },
+        {
+          "title": "Batik",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Batik"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/indonesian-batik-00170",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 500-Year-Old Mud Skyscrapers of the Yemeni Desert",
+      "body": "Rising dramatically from the desert floodplain of Yemen, the walled city of Shibam is often dubbed the \"Manhattan of the Desert.\" Built in the 16th century, its dense cluster of roughly 500 fortified tower houses rise up to seven stories high, constructed entirely from sun-dried mud bricks. To prevent water erosion and collapse, residents routinely resurface the exterior walls with fresh layers of lime and clay plaster.",
+      "imageWikipediaTitle": "Shibam",
+      "sources": [
+        {
+          "title": "Old Walled City of Shibam",
+          "publisher": "UNESCO",
+          "url": "https://whc.unesco.org/en/list/192"
+        },
+        {
+          "title": "Shibam",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shibam"
+        }
+      ],
+      "readMoreUrl": "https://whc.unesco.org/en/list/192",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sacred Japanese Shrine Rebuilt from Scratch Every 20 Years",
+      "body": "Every twenty years, Japan's most sacred Shinto site, the Ise Grand Shrine, is completely dismantled and rebuilt on an adjacent plot. Known as Shikinen Sengu, this tradition has been practiced for over 1,300 years since 690 CE. Using unpainted Japanese cypress joined without a single nail, the cyclical rebuilding ensures that ancient woodworking techniques and ritual purity are transmitted uninterrupted across generations.",
+      "imageWikipediaTitle": "Ise Grand Shrine",
+      "sources": [
+        {
+          "title": "Ise Shrine",
+          "publisher": "Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/toah/hd/jise/hd_jise.htm"
+        },
+        {
+          "title": "Ise Grand Shrine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ise_Grand_Shrine"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/toah/hd/jise/hd_jise.htm",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Oldest Restaurant Whose Oven Has Never Gone Out",
+      "body": "Founded in Madrid in 1725, Sobrino de Botín is recognized by Guinness World Records as the world's oldest continuously operating restaurant. Its original wood-fired cast-iron oven has remained continuously lit for three centuries, maintaining constant embers so morning roasting can begin immediately. Long before painting Spanish masterpieces, an 18th-century teenage Francisco de Goya worked there as a dishwasher while awaiting entrance into art school.",
+      "imageWikipediaTitle": "Sobrino de Botín",
+      "sources": [
+        {
+          "title": "Oldest restaurant",
+          "publisher": "Guinness World Records",
+          "url": "https://www.guinnessworldrecords.com/world-records/oldest-restaurant"
+        },
+        {
+          "title": "Sobrino de Botín",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sobrino_de_Bot%C3%ADn"
+        }
+      ],
+      "readMoreUrl": "https://www.guinnessworldrecords.com/world-records/oldest-restaurant",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do the traditional haenyeo divers of Jeju Island harvest seafood from the ocean floor?",
+      "options": [
+        "Free-diving without oxygen tanks",
+        "Using scuba equipment and motorized submersibles",
+        "Dredging the seafloor with large weighted nets",
+        "Trapping seafood exclusively during low tide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jeju haenyeo free-dive up to ten meters on a single breath, using no scuba gear or oxygen tanks."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How are intricate patterns traditionally created in Indonesian batik fabric?",
+      "options": [
+        "Applying hot wax that resists cold dye baths",
+        "Bleaching pre-dyed cloth with citrus juices",
+        "Weaving thousands of individually dyed silk threads",
+        "Stenciling pigment onto linen using mineral clay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Artisans apply melted wax to fabric using a tool called a canting; the wax blocks dye from coloring those areas."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What primary building material was used to construct the historic high-rise towers of Shibam, Yemen?",
+      "options": [
+        "Sun-dried mud bricks",
+        "Chiseled granite blocks",
+        "Fired terracotta tiles",
+        "Volcanic basalt and mortar"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fortified towers of Shibam, reaching up to seven stories, are built entirely from sun-dried mud bricks."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How often is Japan's sacred Ise Grand Shrine completely rebuilt from scratch?",
+      "options": [
+        "Every 20 years",
+        "Every 50 years",
+        "Every 100 years",
+        "Every 7 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Shikinen Sengu ritual rebuilds the Ise Grand Shrine every 20 years to preserve joinery techniques and ritual purity."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What notable Spanish painter worked as a dishwasher at Sobrino de Botín before his artistic career took off?",
+      "options": [
+        "Francisco de Goya",
+        "Pablo Picasso",
+        "Diego Velázquez",
+        "Salvador Dalí"
+      ],
+      "correctIndex": 0,
+      "explanation": "A teenage Francisco de Goya washed dishes at Botín in the 18th century while waiting to gain entry into art school."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "Every how many years is Japan's most sacred Shinto shrine, the Ise Grand Shrine, completely dismantled and rebuilt from scratch?",
+      "answer": 20,
+      "min": 5,
+      "max": 100,
+      "unit": "years",
+      "explanation": "Since 690 CE, the Shikinen Sengu ritual has completely rebuilt the shrine every 20 years to pass down master woodworking skills."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In what year was Sobrino de Botín in Madrid founded, making it the world's oldest continuously running restaurant?",
+      "answer": 1725,
+      "min": 1400,
+      "max": 1900,
+      "unit": "CE",
+      "explanation": "Founded in 1725, Sobrino de Botín has continuously served patrons and kept its wood-fired oven lit for nearly 300 years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Jeju's traditional haenyeo seafood divers are primarily young men in peak athletic condition.",
+      "answer": false,
+      "explanation": "Jeju's haenyeo are an all-female community of free-divers, and the majority of active divers today are over sixty years old."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Japan's ancient Ise Grand Shrine is preserved by never altering or replacing its original wooden structures.",
+      "answer": false,
+      "explanation": "Rather than preserving centuries-old timber, the entire shrine complex is intentionally dismantled and rebuilt every 20 years."
+    }
+  ]
+}

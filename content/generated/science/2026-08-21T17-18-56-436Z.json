@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.436Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The human eye can detect a single photon of light",
+      "body": "Under complete darkness, human vision reaches the absolute physical limit of light detection. In a landmark 2016 experiment, researchers fired individual photons into the dark-adapted eyes of volunteers. The subjects successfully reported flashes with statistically significant accuracy. A single specialized photoreceptor cell in the retina, called a rod cell, can register an individual packet of light energy.",
+      "imageWikipediaTitle": "Rod cell",
+      "sources": [
+        {
+          "title": "Direct test shows human eye can detect single photons",
+          "publisher": "The Rockefeller University",
+          "url": "https://www.rockefeller.edu/news/19128-direct-test-shows-human-eye-can-detect-single-photons/"
+        },
+        {
+          "title": "Direct detection of a single photon by humans",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4960275/"
+        },
+        {
+          "title": "Rod cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rod_cell"
+        }
+      ],
+      "readMoreUrl": "https://www.rockefeller.edu/news/19128-direct-test-shows-human-eye-can-detect-single-photons/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Venus is hotter than Mercury despite being farther from the Sun",
+      "body": "Mercury orbits closest to the Sun, but Venus is the hottest planet in the Solar System. Venus is wrapped in a crushing atmosphere over ninety times denser than Earth's, composed almost entirely of carbon dioxide with clouds of sulfuric acid. This extreme greenhouse effect traps solar energy relentlessly, raising Venus's surface temperature to a scorching 465 degrees Celsius (870 degrees Fahrenheit).",
+      "imageWikipediaTitle": "Venus",
+      "sources": [
+        {
+          "title": "Venus: In Depth",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/venus/in-depth/"
+        },
+        {
+          "title": "Venus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/venus/in-depth/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe crabs have blue blood that saves human lives",
+      "body": "Horseshoe crabs don't use iron-based hemoglobin to carry oxygen; they use hemocyanin, a copper-based protein that turns their blood bright blue. Their blood also contains a unique clotting agent called Limulus Amebocyte Lysate. This substance coagulates instantly around microscopic amounts of bacterial endotoxins, making it indispensable worldwide for testing the safety of vaccines, intravenous drugs, and medical implants.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Why is horseshoe crab blood blue?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/factoids/horseshoe-crab-blood.html"
+        },
+        {
+          "title": "Horseshoe crab",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_crab"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/factoids/horseshoe-crab-blood.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "GPS satellites must account for Einstein's relativity to work",
+      "body": "If satellite engineers ignored Einstein's theories, GPS navigation would fail within miles every day. Special relativity dictates that fast-moving satellite clocks run 7 microseconds slower per day than ground clocks. However, general relativity dictates that weaker gravity in high orbit makes them run 45 microseconds faster. Combined, satellite clocks gain about 38 microseconds daily, which engineers must actively correct.",
+      "imageWikipediaTitle": "Global Positioning System",
+      "sources": [
+        {
+          "title": "Real-World Relativity: The GPS Navigation System",
+          "publisher": "The Ohio State University",
+          "url": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html"
+        },
+        {
+          "title": "Error analysis for the Global Positioning System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Error_analysis_for_the_Global_Positioning_System"
+        }
+      ],
+      "readMoreUrl": "https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spiders fly across oceans using Earth's electric field",
+      "body": "For centuries, scientists believed spiders ballooned through the sky solely on gentle breezes. However, experiments show spiders can take flight even in completely still air by tapping into Earth's atmospheric electric field. Using sensory hairs on their legs to detect electrical gradients, spiders unleash negatively charged silk strands, creating electrostatic repulsion that lifts them miles into the atmosphere.",
+      "imageWikipediaTitle": "Ballooning (spider)",
+      "sources": [
+        {
+          "title": "Spiders fly on electric fields",
+          "publisher": "University of Bristol",
+          "url": "https://www.bristol.ac.uk/news/2018/july/spiders-electric-fields.html"
+        },
+        {
+          "title": "Electric Fields Elicit Ballooning in Spiders",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6082404/"
+        },
+        {
+          "title": "Ballooning (spider)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ballooning_(spider)"
+        }
+      ],
+      "readMoreUrl": "https://www.bristol.ac.uk/news/2018/july/spiders-electric-fields.html",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which photoreceptor cells in the human retina can register a single photon of light?",
+      "options": [
+        "Rod cells",
+        "Cone cells",
+        "Ganglion cells",
+        "Bipolar cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rod cells are extremely sensitive photoreceptors that can respond to individual photons under dark-adapted conditions."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is Venus hotter than Mercury despite orbiting farther from the Sun?",
+      "options": [
+        "A runaway greenhouse effect from its thick CO2 atmosphere",
+        "Frequent radioactive decay eruptions on its surface",
+        "Heat generated by rapid planetary rotation",
+        "Direct friction from solar wind particles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venus's dense carbon dioxide atmosphere creates a powerful greenhouse effect that traps heat, reaching 465°C."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What metal is responsible for giving horseshoe crab blood its blue color?",
+      "options": [
+        "Copper",
+        "Iron",
+        "Cobalt",
+        "Magnesium"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horseshoe crabs use copper-based hemocyanin to transport oxygen, which appears blue when oxygenated."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How much net time do GPS satellite clocks gain each day relative to clocks on Earth due to relativity?",
+      "options": [
+        "About 38 microseconds",
+        "About 2 seconds",
+        "About 15 milliseconds",
+        "About 4 nanoseconds"
+      ],
+      "correctIndex": 0,
+      "explanation": "General relativity speeds satellite clocks up by 45 microseconds while special relativity slows them by 7, netting +38 microseconds daily."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What physical force allows spiders to balloon into the air even without any wind?",
+      "options": [
+        "Earth's atmospheric electric field",
+        "Geomagnetic field lines",
+        "Thermal updrafts from friction",
+        "Sonic vibration of silk fibers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spiders release negatively charged silk threads that repel Earth's atmospheric electric field, generating electrostatic lift."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What is the average surface temperature on Venus, the hottest planet in our solar system?",
+      "answer": 465,
+      "min": 100,
+      "max": 900,
+      "unit": "°C",
+      "explanation": "Venus maintains a scorching surface temperature of roughly 465°C due to its runaway greenhouse effect."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many microseconds per day do GPS satellite clocks drift ahead of Earth clocks due to relativity?",
+      "answer": 38,
+      "min": 1,
+      "max": 200,
+      "unit": "microseconds",
+      "explanation": "The combined effects of general and special relativity cause GPS clocks to tick roughly 38 microseconds faster per day."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A dark-adapted human eye can detect a single photon of light.",
+      "answer": true,
+      "explanation": "Direct physical tests confirmed that individual rod cells in the human retina can register a single photon."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Mercury is the hottest planet in the Solar System because it is closest to the Sun.",
+      "answer": false,
+      "explanation": "Venus is the hottest planet due to its ultra-dense carbon dioxide atmosphere, which traps far more heat than Mercury receives."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Einstein's theory of relativity is purely theoretical and has no impact on consumer electronics.",
+      "answer": false,
+      "explanation": "GPS navigation in cars and smartphones relies on daily relativistic corrections of 38 microseconds to remain accurate."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Spiders can only take flight through ballooning when carried by strong breezes.",
+      "answer": false,
+      "explanation": "Spiders can launch into the air in completely still wind by using electrostatic lift from Earth's atmospheric electric field."
+    }
+  ]
+}

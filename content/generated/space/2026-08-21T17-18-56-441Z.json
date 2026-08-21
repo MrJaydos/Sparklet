@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.441Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rogue star was flung from our galaxy's core at six million kilometers per hour",
+      "body": "In 2019, astronomers discovered S5-HVS1, a star traveling at a staggering 1,755 kilometers per second—over six million kilometers per hour. Located about 29,000 light-years away, it was ejected roughly 100 million years ago following a close gravitational encounter with Sagittarius A*, the supermassive black hole at the center of the Milky Way. It is moving so fast that it will completely escape our galaxy.",
+      "imageWikipediaTitle": "Milky Way",
+      "sources": [
+        {
+          "title": "Star shot out of Milky Way's black hole at breakneck speed",
+          "publisher": "University of Oxford",
+          "url": "https://www.ox.ac.uk/news/2019-11-13-star-shot-out-milky-ways-black-hole-breakneck-speed"
+        },
+        {
+          "title": "S5-HVS1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/S5-HVS1"
+        }
+      ],
+      "readMoreUrl": "https://www.ox.ac.uk/news/2019-11-13-star-shot-out-milky-ways-black-hole-breakneck-speed",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The loneliest place on Earth is where dead spacecraft go to rest",
+      "body": "Point Nemo, the oceanic pole of inaccessibility in the South Pacific, is the furthest point on Earth from any landmass—over 2,680 kilometers from shore. Because it is surrounded by thousands of miles of uninhabited ocean, space agencies use it as a target for controlled deorbits. More than 260 spacecraft, including the Russian Mir space station and spent cargo ships, lie submerged in this aquatic graveyard.",
+      "imageWikipediaTitle": "Point Nemo",
+      "sources": [
+        {
+          "title": "Where is Point Nemo?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/nemo.html"
+        },
+        {
+          "title": "Point Nemo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Point_Nemo"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/nemo.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Venusian winds circle the entire planet sixty times faster than the planet spins",
+      "body": "While Venus takes 243 Earth days to complete a single sluggish rotation on its axis, its upper atmosphere whips around the planet in just four Earth days. This phenomenon, known as super-rotation, drives cloud-top winds reaching over 360 kilometers per hour. First confirmed in the 1960s, the exact physical mechanisms transferring momentum from the slowly rotating surface to the high-speed atmosphere remain an active puzzle in planetary meteorology.",
+      "imageWikipediaTitle": "Atmosphere of Venus",
+      "sources": [
+        {
+          "title": "Super-rotation on Venus",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Venus_Express/Super-rotation_on_Venus"
+        },
+        {
+          "title": "Atmosphere of Venus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Venus"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/Science_Exploration/Space_Science/Venus_Express/Super-rotation_on_Venus",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Staring into an 'empty' keyhole of sky revealed thousands of ancient galaxies",
+      "body": "In December 1995, astronomers pointed the Hubble Space Telescope at a tiny, seemingly dark patch of sky near Ursa Major for ten consecutive days. The target covered an area no larger than a grain of rice held at arm's length. Instead of empty space, the resulting image revealed nearly 3,000 previously unseen galaxies stretching back across billions of years of cosmic history, revolutionizing observational cosmology.",
+      "imageWikipediaTitle": "Hubble Deep Field",
+      "sources": [
+        {
+          "title": "Hubble's Deepest View Ever of the Universe Unveils Earliest Galaxies",
+          "publisher": "ESA/Hubble",
+          "url": "https://esahubble.org/images/heic0611b/"
+        },
+        {
+          "title": "Hubble Deep Field",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hubble_Deep_Field"
+        }
+      ],
+      "readMoreUrl": "https://esahubble.org/images/heic0611b/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Capturing the first image of a black hole required a telescope the size of Earth",
+      "body": "In April 2019, the Event Horizon Telescope collaboration unveiled the first direct visual evidence of a supermassive black hole, located at the core of galaxy Messier 87. Because the black hole sits 55 million light-years away, resolving its glowing ring of gas required linking eight radio observatories worldwide via very-long-baseline interferometry. This synchronization effectively created a planet-sized virtual radio dish with unprecedented angular resolution.",
+      "imageWikipediaTitle": "Messier 87",
+      "sources": [
+        {
+          "title": "Astronomers Capture First Image of a Black Hole",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso1907/"
+        },
+        {
+          "title": "Event Horizon Telescope",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Event_Horizon_Telescope"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso1907/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What propelled the hypervelocity star S5-HVS1 to its record speed?",
+      "options": [
+        "A supernova explosion in a binary system",
+        "A gravitational encounter with Sagittarius A*",
+        "Collision with a dark matter clump",
+        "A merger between two dwarf galaxies"
+      ],
+      "correctIndex": 1,
+      "explanation": "S5-HVS1 was flung outward roughly 100 million years ago after interacting with the supermassive black hole at the center of our galaxy."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do space agencies intentionally deorbit defunct spacecraft over Point Nemo?",
+      "options": [
+        "It features the shallowest ocean depths for easy salvage",
+        "It is the furthest oceanic point from any human landmass",
+        "Strong ocean currents destroy remaining toxic fuel",
+        "It sits directly under every orbital inclination path"
+      ],
+      "correctIndex": 1,
+      "explanation": "Located over 2,680 km from the nearest land, Point Nemo is the most remote open ocean spot on Earth, minimizing risk during spacecraft reentry."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How long does it take Venus's upper atmosphere to complete one full rotation around the planet?",
+      "options": [
+        "4 Earth days",
+        "24 Earth hours",
+        "243 Earth days",
+        "1 Earth year"
+      ],
+      "correctIndex": 0,
+      "explanation": "Through super-rotation, high-altitude winds circle Venus in just 4 Earth days, whereas the solid planet takes 243 days to rotate once."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the Hubble Deep Field reveal in a patch of sky the size of a grain of rice?",
+      "options": [
+        "A dense cluster of nearby rogue planets",
+        "A single massive intervening nebula",
+        "Nearly 3,000 previously unseen distant galaxies",
+        "A complete void with zero detectable photons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Targeting a seemingly empty, dark spot in the sky for ten days exposed thousands of ancient, distant galaxies."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did the Event Horizon Telescope create an image of the M87 black hole?",
+      "options": [
+        "By launching a massive radio satellite beyond the Moon",
+        "By linking radio dishes worldwide to form an Earth-sized virtual dish",
+        "By using gravitational lensing from the Andromeda Galaxy",
+        "By capturing ultraviolet emissions with a single optical observatory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Very-long-baseline interferometry linked eight observatories across the globe to achieve the resolving power of a planet-sized telescope."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How fast is the hypervelocity star S5-HVS1 traveling across space?",
+      "answer": 1755,
+      "min": 100,
+      "max": 5000,
+      "unit": "km/s",
+      "explanation": "S5-HVS1 races through the galaxy at 1,755 km/s (over 6 million km/h), fast enough to escape the Milky Way entirely."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How far is Point Nemo from the nearest coastline or island?",
+      "answer": 2688,
+      "min": 500,
+      "max": 6000,
+      "unit": "km",
+      "explanation": "Point Nemo is 2,688 kilometers from the nearest land, making it Earth's oceanic pole of inaccessibility."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many distant galaxies were detected in the original Hubble Deep Field image?",
+      "answer": 3000,
+      "min": 50,
+      "max": 20000,
+      "unit": "",
+      "explanation": "A tiny, apparently empty patch of sky revealed nearly 3,000 distinct galaxies stretching billions of light-years away."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "A planet's atmospheric winds can never circle faster than the planet's own rotation.",
+      "answer": false,
+      "explanation": "Venus exhibits atmospheric super-rotation, where cloud-top winds circle the planet in 4 days despite the planet taking 243 days to rotate."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The first image of a black hole was captured by a single giant optical telescope.",
+      "answer": false,
+      "explanation": "It required the Event Horizon Telescope—a global network of synchronized radio observatories acting as an Earth-sized virtual dish."
+    }
+  ]
+}

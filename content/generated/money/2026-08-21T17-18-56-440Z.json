@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.440Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a Speeding Ticket in Finland Can Cost Over $100,000",
+      "body": "In Finland, traffic fines aren't flat fees. Instead, they use a day-fine system calculated directly from an offender's daily disposable income. A driver caught speeding pays a set fraction of what they earn in a day. For wealthy executives and athletes, this has produced speeding tickets topping €50,000 to €100,000. The economic rationale is fairness: a flat $100 fine severely penalizes low earners while failing to deter multimillionaires.",
+      "imageWikipediaTitle": "Day-fine",
+      "sources": [
+        {
+          "title": "Finland: Speeding millionaire gets 54,000-euro fine",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/blogs-news-from-elsewhere-31709454"
+        },
+        {
+          "title": "Day-fine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Day-fine"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/blogs-news-from-elsewhere-31709454",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a $100 Bill Outlives a $1 Bill by Decades",
+      "body": "Not all paper money wears out at the same rate. According to the Federal Reserve, a humble $1 bill lasts an estimated 6.6 years before tearing, fraying, or becoming too dirty to circulate. By contrast, a $100 bill survives for nearly 23 years. Because hundred-dollar notes are predominantly held as stores of value rather than passed hand-to-hand in daily purchases, they endure far less physical friction.",
+      "imageWikipediaTitle": "United States one-hundred-dollar bill",
+      "sources": [
+        {
+          "title": "How long is the life span of U.S. paper money?",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/faqs/how-long-is-the-life-span-of-us-paper-money.htm"
+        },
+        {
+          "title": "United States dollar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States_dollar"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/faqs/how-long-is-the-life-span-of-us-paper-money.htm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The High-Stakes Investment Scheme That Rewarded Outliving Your Peers",
+      "body": "Invented in the 17th century by Italian financier Lorenzo de Tonti, a tontine was an investment pool where participants bought shares. As subscribers died, their dividend shares were redistributed among the survivors, meaning payouts grew larger with each death. The last surviving member inherited the remaining capital. Tontines funded major European wars and public works, but governments eventually banned them after they created perverse incentives to hasten fellow investors' deaths.",
+      "imageWikipediaTitle": "Tontine",
+      "sources": [
+        {
+          "title": "Tontine",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/money/tontine"
+        },
+        {
+          "title": "Tontine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tontine"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/money/tontine",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why You Overvalue Things the Moment You Own Them",
+      "body": "In a classic behavioral economics experiment, participants given a $5 university mug refused to sell it for less than roughly $7, while people without one wouldn't pay more than $3 to buy it. Coined by Nobel laureate Richard Thaler, this endowment effect shows that people irrationally place higher value on an object simply because they own it. Loss aversion makes giving something up feel significantly more painful than acquiring it feels rewarding.",
+      "imageWikipediaTitle": "Endowment effect",
+      "sources": [
+        {
+          "title": "The Prize in Economic Sciences 2017 - Popular Science Background",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/"
+        },
+        {
+          "title": "Endowment effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endowment_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 17th-Century Coffeehouse Built Global Maritime Insurance",
+      "body": "In late-17th-century London, merchants and ship captains gathered at Edward Lloyd's coffeehouse to hear shipping gossip and trade intelligence. Lloyd began publishing reliable notices of vessel arrivals and shipwrecks. Wealthy patrons soon began underwriting voyage risks right at the tables, pledging their personal wealth to cover losses in exchange for premium fees. That modest coffee shop evolved into Lloyd's of London, the world's most famous specialist insurance market.",
+      "imageWikipediaTitle": "Lloyd's of London",
+      "sources": [
+        {
+          "title": "History of Lloyd's",
+          "publisher": "Lloyd's",
+          "url": "https://www.lloyds.com/about-lloyds/history"
+        },
+        {
+          "title": "Lloyd's of London",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lloyd%27s_of_London"
+        }
+      ],
+      "readMoreUrl": "https://www.lloyds.com/about-lloyds/history",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How are traffic fines for major speeding violations calculated in Finland's day-fine system?",
+      "options": [
+        "As a fixed statutory fee based solely on speed",
+        "As a percentage of the offender's daily disposable income",
+        "Based on the blue-book value of the vehicle driven",
+        "As a flat rate multiplied by the driver's age"
+      ],
+      "correctIndex": 1,
+      "explanation": "Finland calculates day-fines as a fraction of the offender's daily income to ensure the financial penalty stings equally across income levels."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to the Federal Reserve, why does a $100 bill last over three times longer than a $1 bill?",
+      "options": [
+        "It is manufactured with higher cotton content",
+        "It is treated with a specialized protective polymer coating",
+        "It is primarily held as a store of value rather than spent daily",
+        "Banks are required to clean and iron larger denominations"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because $100 bills are largely held in savings or reserves rather than circulating in frequent daily transactions, they experience much less physical wear."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What core mechanism defined historic tontine investment schemes?",
+      "options": [
+        "Profits were split evenly with the government upon maturity",
+        "Deceased members' dividend shares were redistributed to survivors",
+        "Investors received interest paid entirely in precious commodities",
+        "Share values halved each time a new investor joined"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a tontine, surviving investors absorbed the shares of deceased members, creating growing payouts that culminated with the last survivor."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does Richard Thaler's 'endowment effect' describe?",
+      "options": [
+        "The urge to spend windfall cash faster than earned wages",
+        "The tendency to value an item more merely because you own it",
+        "The preference for immediate smaller rewards over delayed larger ones",
+        "The belief that past expenses justify continuing an investment"
+      ],
+      "correctIndex": 1,
+      "explanation": "The endowment effect shows that ownership increases subjective valuation because loss aversion makes giving an item up hurt more than gaining it pleases."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What venue served as the original birthplace of Lloyd's of London insurance market?",
+      "options": [
+        "A 17th-century London coffeehouse",
+        "The Royal Navy's administrative docks",
+        "A medieval merchant guild hall",
+        "The Bank of England's exchange floor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Edward Lloyd operated a coffeehouse where merchants and sailors shared maritime news and began underwriting voyages at the tables."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "According to the Federal Reserve, what is the estimated lifespan of a U.S. $100 bill in circulation?",
+      "answer": 23,
+      "min": 1,
+      "max": 50,
+      "unit": "years",
+      "explanation": "A $100 bill lasts an estimated 22.9 years in circulation, compared to just 6.6 years for a high-turnover $1 bill."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Speeding tickets in developed nations are always fixed flat fees that cost the same regardless of a driver's wealth.",
+      "answer": false,
+      "explanation": "Countries like Finland and Switzerland use income-proportional 'day-fines,' leading to speeding tickets exceeding $100,000 for high earners."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "People generally place the exact same monetary value on an item whether they are selling it or buying it.",
+      "answer": false,
+      "explanation": "The endowment effect demonstrates that people demand a substantially higher price to sell an item they own than they are willing to pay to acquire it."
+    }
+  ]
+}

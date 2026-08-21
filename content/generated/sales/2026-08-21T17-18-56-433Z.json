@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.433Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why repeating your prospect's exact words closes more sales",
+      "body": "Paraphrasing might show you understand, but verbal mimicry builds deeper subconscious rapport. When retail salespeople repeat the exact words and phrases customers use to describe their needs rather than summarizing in their own words, purchase rates increase significantly. Research led by Rick van Baaren demonstrated that waitstaff who repeated orders word-for-word doubled their tips compared to those who merely confirmed with phrases like 'understood.'",
+      "imageWikipediaTitle": "Customer service",
+      "sources": [
+        {
+          "title": "Mimicry for gain: The impact of verbal mimicry on purchase behavior and tipping",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8900407/"
+        },
+        {
+          "title": "Mimicry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mimicry"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8900407/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a handwritten sticky note can boost response rates",
+      "body": "In a digital world, a small touch of personalized effort stands out dramatically. When behavioral scientist Randy Garner tested survey completion rates, requests sent with a handwritten sticky note attached to the cover letter yielded a 75% response rate. In comparison, sending the same request without the sticky note produced only a 36% response rate, showing that visible personal effort triggers reciprocal compliance.",
+      "imageWikipediaTitle": "Post-it Note",
+      "sources": [
+        {
+          "title": "Post-it note",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Post-it_note"
+        },
+        {
+          "title": "Reciprocity (social psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Post-it_note",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Offer a range to make your price negotiation more successful",
+      "body": "Negotiators traditionally advise opening with a single firm figure, but research from Columbia Business School shows that offering a 'bolstering range' achieves better outcomes. Proposing a price range whose bottom end matches your target (such as $10,000 to $12,000 instead of a flat $10,000) makes you seem flexible and polite without compromising your desired minimum price.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        },
+        {
+          "title": "Anchoring (cognitive bias)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negotiation",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you should present costs in round numbers and features in exact ones",
+      "body": "How you format numbers changes how prospects evaluate them. Studies show consumers perceive rounded numbers (like $100) as driven by feelings, making them effective for hedonic or emotionally driven purchases. In contrast, non-rounded numbers (like $98.40) trigger analytical, cognitive evaluation. Matching exact figures to technical feature performance and rounded numbers to intuitive benefits optimizes buyer confidence.",
+      "imageWikipediaTitle": "Psychological pricing",
+      "sources": [
+        {
+          "title": "Psychological pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_pricing"
+        },
+        {
+          "title": "Cognitive bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Psychological_pricing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How counterfactual thinking makes prospects appreciate your solution",
+      "body": "Instead of asking clients to imagine the benefits of adopting your product, ask them to imagine what would have happened if they hadn't resolved a past problem. Research in organizational psychology demonstrates that 'counterfactual reflection'—visualizing an alternative reality where a positive event never occurred—generates stronger feelings of gratitude, trust, and commitment than directly focusing on positive features.",
+      "imageWikipediaTitle": "Counterfactual thinking",
+      "sources": [
+        {
+          "title": "Counterfactual thinking",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Counterfactual_thinking"
+        },
+        {
+          "title": "Affective forecasting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Affective_forecasting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Counterfactual_thinking",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happens when salespeople repeat a customer's exact words rather than paraphrasing them?",
+      "options": [
+        "Customers become annoyed by the lack of original phrasing",
+        "It builds subconscious rapport and increases compliance",
+        "It slows down negotiations without changing outcomes",
+        "It makes the salesperson sound unknowledgeable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verbal mimicry—repeating exact phrasing—subconsciously enhances rapport and significantly boosts purchase and tipping rates."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Randy Garner's experiment, what effect did adding a handwritten sticky note have on response rates?",
+      "options": [
+        "It doubled the response rate from 36% to 75%",
+        "It had no measurable effect",
+        "It decreased responses due to looking unprofessional",
+        "It increased response time but lowered total completions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Adding a handwritten sticky note more than doubled response rates from 36% to 75% due to perceived personal effort triggering reciprocity."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is a 'bolstering range' offer in price negotiations?",
+      "options": [
+        "A range whose upper limit is lower than your target",
+        "A range where your target price sits at the bottom end",
+        "A single round number with no flexibility",
+        "A discount offered only if the buyer buys multiple units"
+      ],
+      "correctIndex": 1,
+      "explanation": "A bolstering range sets your desired target at the lower end (e.g., $10k–$12k when aiming for $10k), conveying politeness while preserving your price floor."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do exact, non-rounded numbers perform well when describing technical specs?",
+      "options": [
+        "They trigger emotional, intuitive thinking",
+        "They encourage buyers to skip reading details",
+        "They prompt analytical, cognitive evaluation",
+        "They make products appear cheaper than they are"
+      ],
+      "correctIndex": 2,
+      "explanation": "Non-rounded numbers prompt rational, analytical processing, making them ideal for technical performance metrics."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is 'counterfactual reflection' in persuasion?",
+      "options": [
+        "Debating competitors using factual comparison sheets",
+        "Visualizing an alternative reality where a positive event never happened",
+        "Overstating benefits to create high expectations",
+        "Offering multiple contradictory claims to test client reactions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Counterfactual reflection involves imagining what would have occurred without a key solution, generating deeper gratitude and commitment."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of people responded to a survey request when a handwritten sticky note was attached?",
+      "answer": 75,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "A handwritten sticky note drove a 75% response rate, compared to just 36% without one."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Paraphrasing a client's words in your own summary is always more persuasive than repeating their exact phrasing.",
+      "answer": false,
+      "explanation": "Verbal mimicry—repeating the prospect's exact words—actually triggers stronger subconscious rapport and increases closing rates compared to paraphrasing."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Opening a negotiation with a price range makes you seem weak and invariably results in getting the lowest possible amount.",
+      "answer": false,
+      "explanation": "A 'bolstering range' where your target is at the bottom end preserves your floor while making you appear more flexible and cooperative."
+    }
+  ]
+}

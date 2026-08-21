@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.442Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Platypuses glow cyan-green under ultraviolet light",
+      "body": "Under ordinary sunlight, the duck-billed platypus looks like a standard brown furball. But shine an ultraviolet blacklight on one, and its dense waterproof coat absorbs the rays and re-emits an eerie cyan-green glow. Platypuses are among only a handful of mammals exhibiting biofluorescence. Scientists suspect this trait helps nocturnal platypuses recognize each other or navigate murky freshwater streams in the dark.",
+      "imageWikipediaTitle": "Platypus",
+      "sources": [
+        {
+          "title": "Platypuses glow under blacklight",
+          "publisher": "Field Museum",
+          "url": "https://www.fieldmuseum.org/about/press/platypuses-glow-under-blacklight"
+        },
+        {
+          "title": "Platypus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Platypus"
+        }
+      ],
+      "readMoreUrl": "https://www.fieldmuseum.org/about/press/platypuses-glow-under-blacklight",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bombardier beetles blast predators with boiling chemical explosions",
+      "body": "When threatened by hungry frogs or ants, the bombardier beetle unleashes an explosive defense from its rear end. It stores hydroquinones and hydrogen peroxide in separate abdominal chambers. Squeezing them into a reaction chamber lined with catalytic enzymes triggers a violent exothermic reaction, spraying a noxious liquid heated to 100 degrees Celsius (212 degrees Fahrenheit) in rapid micro-pulses directly at the attacker.",
+      "imageWikipediaTitle": "Bombardier beetle",
+      "sources": [
+        {
+          "title": "How some beetles spray boiling-hot liquid",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/2015/bombardier-beetle-toxic-spray-0430"
+        },
+        {
+          "title": "Bombardier beetle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bombardier_beetle"
+        }
+      ],
+      "readMoreUrl": "https://news.mit.edu/2015/bombardier-beetle-toxic-spray-0430",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chinese softshell turtles excrete most of their urine through their mouths",
+      "body": "When the Chinese softshell turtle needs to eliminate nitrogenous waste, it does not rely heavily on its kidneys. Instead, it submerges its head into puddles and rinses waste through specialized, gill-like tissues lining its mouth. Researchers discovered this bizarre adaptation allows the turtle to excrete up to 94 percent of its body's urea orally, conserving vital freshwater while living in salty, brackish swamps.",
+      "imageWikipediaTitle": "Chinese softshell turtle",
+      "sources": [
+        {
+          "title": "The Turtle That Urinates Out of Its Mouth",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/the-turtle-that-urinates-out-of-its-mouth-162744883/"
+        },
+        {
+          "title": "Chinese softshell turtle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_softshell_turtle"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/science-nature/the-turtle-that-urinates-out-of-its-mouth-162744883/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moths remember what they learned as caterpillars",
+      "body": "During metamorphosis, a caterpillar's body dissolves almost completely into cellular soup inside its cocoon, but its memories survive intact. Georgetown University researchers trained tobacco hornworm caterpillars to avoid a specific scent using mild electrical shocks. Even after their bodies were completely reorganized into adult moths, the winged insects consistently avoided the same scent, proving key neural circuits endure the radical transformation.",
+      "imageWikipediaTitle": "Manduca sexta",
+      "sources": [
+        {
+          "title": "Butterflies Remember What They Learned as Caterpillars",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/templates/story/story.php?storyId=88031220"
+        },
+        {
+          "title": "Retention of Memory Through Metamorphosis in Manduca sexta",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001736"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001736",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bubble wrap was originally invented to be textured wallpaper",
+      "body": "In 1957, engineer Al Fielding and inventor Marc Chavannes attempted to launch an ultra-modern interior design trend: 3D textured wallpaper. They sealed two shower curtains together, trapping millions of tiny air bubbles between them. The bubbly wallpaper was a commercial disaster. After failing to sell it as greenhouse insulation, the inventors struck gold in 1960 when IBM began using it to safely cushion fragile mainframe computers.",
+      "imageWikipediaTitle": "Bubble wrap",
+      "sources": [
+        {
+          "title": "The Accidental Invention of Bubble Wrap",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/innovation/accidental-invention-bubble-wrap-180971325/"
+        },
+        {
+          "title": "Bubble wrap",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bubble_wrap"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/innovation/accidental-invention-bubble-wrap-180971325/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What visual surprise occurs when you shine an ultraviolet blacklight on a platypus?",
+      "options": [
+        "Its fur glows cyan-green",
+        "Its bill turns crimson red",
+        "Its eyes emit bright yellow flashes",
+        "Its claws turn neon purple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Platypus fur biofluoresces under UV blacklight, absorbing ultraviolet rays and emitting a cyan-green glow."
+    },
+    {
+      "cardIndex": 1,
+      "question": "To what temperature does a bombardier beetle heat its defensive chemical spray?",
+      "options": [
+        "100 °C (212 °F)",
+        "37 °C (98.6 °F)",
+        "250 °C (482 °F)",
+        "60 °C (140 °F)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Catalytic enzymes trigger an explosive chemical reaction heating the spray to 100 °C (212 °F)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the Chinese softshell turtle excrete roughly 94% of its urea waste?",
+      "options": [
+        "Through specialized tissues in its mouth",
+        "Through microscopic pores in its shell",
+        "Through its nostril passages",
+        "Directly through its webbed feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Chinese softshell turtle dunks its head in puddles to rinse out urea through mouth tissues."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did researchers discover about tobacco hornworm moths after pupation?",
+      "options": [
+        "They retained odor aversions learned as caterpillars",
+        "They lost their sense of taste completely",
+        "They forgot their larval feeding habits entirely",
+        "They could only see in ultraviolet light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Georgetown researchers showed adult moths remembered conditioned scent aversions learned as caterpillars."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was bubble wrap originally created to serve as in 1957?",
+      "options": [
+        "Textured wallpaper",
+        "Insulated ski jackets",
+        "Floating swimming pool covers",
+        "Padded shoe soles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Its inventors sealed shower curtains together aiming to market it as trendy 3D textured wallpaper."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "To what temperature (in °C) does a bombardier beetle heat its defensive chemical spray?",
+      "answer": 100,
+      "min": 20,
+      "max": 200,
+      "unit": "°C",
+      "explanation": "The chemical reaction reaches 100 °C (212 °F), boiling the noxious liquid before blasting predators."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of its urea waste does a Chinese softshell turtle excrete through its mouth?",
+      "answer": 94,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Chinese softshell turtles excrete up to 94% of their urea orally to conserve precious water in brackish habitats."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Mammals cannot naturally glow under ultraviolet light.",
+      "answer": false,
+      "explanation": "Platypuses, flying squirrels, and springhares biofluoresce, glowing vividly under UV blacklight."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A caterpillar completely loses all memories when its body liquefies into a moth.",
+      "answer": false,
+      "explanation": "Experiments show adult moths retain conditioned memories and odor aversions learned during their caterpillar stage."
+    }
+  ]
+}

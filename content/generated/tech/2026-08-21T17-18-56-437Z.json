@@ -1,0 +1,219 @@
+{
+  "generatedAt": "2026-08-21T17:18:56.437Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Hollywood film star helped lay the groundwork for Wi-Fi",
+      "body": "In 1942, Hollywood actress Hedy Lamarr and composer George Antheil received a US patent for a radio-controlled torpedo guidance system. To prevent enemy forces from jamming radio signals, their invention rapidly switched between 88 frequencies—synchronised using mechanisms modeled after player piano rolls. While the US Navy initially shelved the design, their frequency-hopping concept later became a foundational principle behind modern spread-spectrum technologies like Bluetooth and Wi-Fi.",
+      "imageWikipediaTitle": "Hedy Lamarr",
+      "sources": [
+        {
+          "title": "Hedy Lamarr - Secret Communication System",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/hedy-lamarr"
+        },
+        {
+          "title": "Hedy Lamarr",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/hedy-lamarr",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first text message wished its recipient a Merry Christmas",
+      "body": "On December 3, 1992, a 22-year-old British test engineer named Neil Papworth sent the world's first Short Message Service (SMS) text message. Working for Sema Group to develop messaging systems for Vodafone, Papworth typed \"Merry Christmas\" on a desktop computer and transmitted it over the cellular network to Vodafone director Richard Jarvis's 2.1-kilogram Orbitel 901 handset. Mobile phones lacked alphanumeric keyboards at the time, so Jarvis could only read the greeting, not reply.",
+      "imageWikipediaTitle": "SMS",
+      "sources": [
+        {
+          "title": "30th anniversary of the first SMS",
+          "publisher": "Vodafone",
+          "url": "https://www.vodafone.com/news/technology/30th-anniversary-first-sms"
+        },
+        {
+          "title": "SMS",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SMS"
+        }
+      ],
+      "readMoreUrl": "https://www.vodafone.com/news/technology/30th-anniversary-first-sms",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The C programming language got its name from the simplest source possible",
+      "body": "In the early 1970s at Bell Labs, Dennis Ritchie developed a new programming language to rebuild the Unix operating system. Its concise name was not an intricate acronym or secret code: Ritchie named it \"C\" simply because it built upon and succeeded an earlier language called \"B\". Created by Ken Thompson in 1969, B itself derived its name from BCPL (Basic Combined Programming Language), leaving C as a literal step down the alphabet.",
+      "imageWikipediaTitle": "Dennis Ritchie",
+      "sources": [
+        {
+          "title": "C Programming Language",
+          "publisher": "Nokia Bell Labs",
+          "url": "https://www.bell-labs.com/about/history/innovation-stories/c-programming-language/"
+        },
+        {
+          "title": "Dennis Ritchie",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/fellowawards/hall/dennis-ritchie/"
+        },
+        {
+          "title": "C (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://www.bell-labs.com/about/history/innovation-stories/c-programming-language/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first smartphone launched more than a decade before the iPhone",
+      "body": "In 1994, IBM and BellSouth released the IBM Simon Personal Communicator, the world's first commercially available smartphone. Long before modern app stores, the 510-gram device combined a cellular telephone and personal digital assistant. It featured a monochrome backlit LCD touchscreen with a stylus, allowing users to send emails, faxes, and pages, as well as use built-in applications like an interactive calendar, calculator, world clock, and sketchpad.",
+      "imageWikipediaTitle": "IBM Simon",
+      "sources": [
+        {
+          "title": "IBM Simon Cellular Phone",
+          "publisher": "Smithsonian Institution",
+          "url": "https://www.si.edu/object/ibm-simon-cellular-phone%3Anmah_1439243"
+        },
+        {
+          "title": "IBM Simon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IBM_Simon"
+        }
+      ],
+      "readMoreUrl": "https://www.si.edu/object/ibm-simon-cellular-phone%3Anmah_1439243",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why network cables are made of tightly twisted pairs of wires",
+      "body": "If you strip an Ethernet cable, you will find eight copper wires twisted together in four distinct pairs. Patented by Alexander Graham Bell in 1881, twisting wire pairs is an elegant engineering solution to electrical noise. As electromagnetic interference hits both wires equally, a technique called differential signaling allows the receiver to subtract one wire's signal from the other. This cancels out the noise while preserving the pure digital data travelling through your network.",
+      "imageWikipediaTitle": "Twisted pair",
+      "sources": [
+        {
+          "title": "Twisted Pair",
+          "publisher": "Engineering and Technology History Wiki",
+          "url": "https://ethw.org/Twisted_Pair"
+        },
+        {
+          "title": "Twisted pair",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Twisted_pair"
+        }
+      ],
+      "readMoreUrl": "https://ethw.org/Twisted_Pair",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What musical mechanism inspired Hedy Lamarr and George Antheil's frequency-hopping design?",
+      "options": [
+        "Player piano rolls",
+        "Rotary telephone bells",
+        "Mechanical clock chimes",
+        "Music box cylinders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lamarr and Antheil synchronized frequency shifts across 88 channels using mechanisms modeled on perforated player piano rolls."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the message sent in the world's first SMS text in December 1992?",
+      "options": [
+        "Hello World",
+        "Merry Christmas",
+        "Can you hear me?",
+        "Testing 123"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neil Papworth sent 'Merry Christmas' from a desktop PC to Richard Jarvis's mobile phone on December 3, 1992."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did Dennis Ritchie name his famous programming language 'C'?",
+      "options": [
+        "It was named after Bell Labs' Computing division",
+        "It was an acronym for 'Common Control'",
+        "It was the direct successor to an earlier language named 'B'",
+        "It stood for 'Compiled'"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ritchie named the language 'C' simply because it succeeded and expanded Ken Thompson's earlier language called 'B'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which device is recognized as the world's first commercially available smartphone, launched in 1994?",
+      "options": [
+        "BlackBerry 850",
+        "Nokia 9000 Communicator",
+        "IBM Simon",
+        "PalmPilot 1000"
+      ],
+      "correctIndex": 2,
+      "explanation": "The IBM Simon debuted in 1994 with a touchscreen, email, calendar, and built-in apps well before the modern smartphone era."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Who patented the twisted-pair cable design to eliminate electrical interference in 1881?",
+      "options": [
+        "Thomas Edison",
+        "Alexander Graham Bell",
+        "Nikola Tesla",
+        "Michael Faraday"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alexander Graham Bell patented twisted-pair cabling in 1881 to cancel noise and crosstalk on telephone lines."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many radio frequencies did Hedy Lamarr's 1942 torpedo guidance patent switch between to evade jamming?",
+      "answer": 88,
+      "min": 10,
+      "max": 200,
+      "unit": "",
+      "explanation": "Lamarr and Antheil chose 88 frequencies, directly matching the 88 keys on a standard piano."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "In what year was the IBM Simon, the world's first commercially available touchscreen smartphone, released?",
+      "answer": 1994,
+      "min": 1980,
+      "max": 2010,
+      "unit": "",
+      "explanation": "The IBM Simon launched in 1994, featuring touchscreen apps and email 13 years before the original iPhone."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Hollywood film star Hedy Lamarr was a co-inventor of frequency-hopping spread-spectrum technology.",
+      "answer": true,
+      "explanation": "Lamarr and composer George Antheil were granted US Patent 2,292,387 in 1942 for their secret communication system."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The world's first SMS text message was typed and sent from a mobile phone.",
+      "answer": false,
+      "explanation": "The first SMS was sent from a desktop computer because mobile phones at the time lacked alphanumeric keyboards."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The C programming language was named as an abbreviation for 'Computer' or 'Compiled'.",
+      "answer": false,
+      "explanation": "Dennis Ritchie named it 'C' simply because it succeeded an earlier programming language created by Ken Thompson named 'B'."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Apple invented the world's first smartphone with a touchscreen and built-in apps.",
+      "answer": false,
+      "explanation": "IBM released the touchscreen Simon Personal Communicator in 1994, over a decade before the iPhone debuted."
+    }
+  ]
+}
