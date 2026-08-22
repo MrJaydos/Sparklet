@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-22T17:11:16.604Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When your own hand acts against your conscious will",
+      "body": "People with alien hand syndrome experience one of their hands moving autonomously, performing goal-directed tasks without their intent. A patient might button a shirt with their right hand while the left hand immediately unbuttons it. Arising from damage to the corpus callosum or frontal lobe, the condition reveals how complex motor plans can execute in the brain even when conscious awareness is severed from the action.",
+      "imageWikipediaTitle": "Alien hand syndrome",
+      "sources": [
+        {
+          "title": "Alien Hand Syndrome",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK567740/"
+        },
+        {
+          "title": "Alien hand syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alien_hand_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK567740/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you spend 'found money' faster than your salary",
+      "body": "Economics assumes money is fungible—a dollar is a dollar regardless of where it came from. Yet psychological research led by Richard Thaler showed human minds organize money into separate \"mental accounts.\" People treat hard-earned paychecks with caution but spend tax refunds, casino winnings, or gift cards much more recklessly. This cognitive shortcut blinds us to the fact that every dollar has the exact same purchasing power.",
+      "imageWikipediaTitle": "Piggy bank",
+      "sources": [
+        {
+          "title": "Richard H. Thaler – Facts",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2017/thaler/facts/"
+        },
+        {
+          "title": "Mental accounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_accounting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mental_accounting",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Putting your feelings into words physically calms the brain",
+      "body": "When you experience intense fear or anger, the amygdala fires rapidly to drive the emotional response. Brain imaging reveals that simply naming the emotion—a practice called affect labeling—shifts neural activity toward the right ventrolateral prefrontal cortex. This prefrontal activation directly dials down the amygdala's reactivity. Verbally acknowledging \"I feel anxious\" is not just venting; it mechanically recruits the brain's regulatory circuits to reduce distress.",
+      "imageWikipediaTitle": "Amygdala",
+      "sources": [
+        {
+          "title": "Putting Feelings Into Words: Affect Labeling as Implicit Emotion Regulation",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2827459/"
+        },
+        {
+          "title": "Affect labeling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Affect_labeling"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2827459/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mental practice activates the exact same brain circuits as physical action",
+      "body": "Simply imagining a physical action recruits nearly the same neural machinery as actually doing it. Neuroimaging shows that mentally rehearsing a piano melody or basketball free throw activates the primary motor cortex, supplementary motor area, and cerebellum. While your muscles stay still because inhibitory signals block actual execution, mental practice strengthens synaptic pathways, measurably improving physical speed, coordination, and muscle force during real performance.",
+      "imageWikipediaTitle": "Motor cortex",
+      "sources": [
+        {
+          "title": "Mental Practice in Sports and Rehabilitation",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3715876/"
+        },
+        {
+          "title": "Motor imagery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Motor_imagery"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3715876/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rare condition that convinces people they are dead",
+      "body": "First documented in 1880 by neurologist Jules Cotard, Cotard's syndrome is a neuropsychiatric delusion where patients believe they have died, lost their internal organs, or no longer exist. Some stop eating entirely because they believe a dead body requires no nourishment. Neuroimaging indicates the delusion stems from a severe breakdown between sensory processing areas and the limbic system, completely stripping emotional familiarity from self-perception.",
+      "imageWikipediaTitle": "Jules Cotard",
+      "sources": [
+        {
+          "title": "Cotard's syndrome: a review",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2695277/"
+        },
+        {
+          "title": "Cotard's syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cotard%27s_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2695277/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is a defining symptom of alien hand syndrome?",
+      "options": [
+        "Complete loss of sensation across an entire limb",
+        "A hand executing purposeful actions outside conscious control",
+        "Chronic phantom burning sensations in a missing hand",
+        "Involuntary tremors that prevent any grasping movement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alien hand syndrome causes purposeful, goal-directed movements in a limb without the person's conscious intention."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What cognitive bias is described by the term 'mental accounting'?",
+      "options": [
+        "Treating money differently depending on its origin or intended use",
+        "Accurately calculating compound interest without writing it down",
+        "Underestimating total living expenses when budgeting monthly",
+        "Forgetting past debts due to financial stress"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mental accounting describes the tendency to assign money to separate subjective categories rather than treating all dollars as interchangeable."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does affect labeling (naming your emotions) influence the brain?",
+      "options": [
+        "It amplifies amygdala reactivity while slowing prefrontal activity",
+        "It activates the prefrontal cortex, which dampens amygdala arousal",
+        "It shuts down the hippocampus to erase emotional memory traces",
+        "It floods the brain with cortisol to trigger immediate action"
+      ],
+      "correctIndex": 1,
+      "explanation": "Verbally labeling feelings activates the prefrontal cortex, which exerts an inhibitory, calming effect on the amygdala."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens in the brain when someone mentally rehearses a physical movement?",
+      "options": [
+        "Motor circuits shut down completely to conserve glucose",
+        "Only the visual cortex fires, leaving motor areas silent",
+        "Brain regions used for real motion activate in nearly the same way",
+        "Motor memory traces are temporarily cleared from the cortex"
+      ],
+      "correctIndex": 2,
+      "explanation": "Motor imagery activates the motor cortex, supplementary motor areas, and cerebellum in a pattern nearly identical to physical execution."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary belief held by a person suffering from Cotard's syndrome?",
+      "options": [
+        "That they have died, do not exist, or have lost internal organs",
+        "That their close relatives have been replaced by identical impostors",
+        "That inanimate objects in their home are watching them",
+        "That they possess superhuman strength and immortality"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cotard's syndrome is a neuropsychiatric delusion where patients genuinely believe they are dead or lacking internal organs."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Human minds treat all money as interchangeable regardless of how it was acquired.",
+      "answer": false,
+      "explanation": "Due to mental accounting, people treat windfall or gift money far more casually and spend it faster than earned income."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Mentally visualizing a physical movement activates none of the brain circuits used during actual motion.",
+      "answer": false,
+      "explanation": "Neuroimaging shows motor imagery engages nearly the exact same neural networks in the motor cortex as physical execution."
+    }
+  ]
+}
