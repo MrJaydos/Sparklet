@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.847Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chameleons change color by tuning microscopic crystals",
+      "body": "Chameleons do not change color by shifting pigments around inside their cells. Instead, they reorganize a nanoscale lattice of guanine crystals nestled inside specialized skin cells called iridophores. When relaxed, the crystals sit close together and reflect short blue wavelengths, mixing with yellow pigment to look green. When excited, the chameleon stretches its skin cells, widening the crystal spacing to reflect longer wavelengths like yellow, orange, and red.",
+      "imageWikipediaTitle": "Chameleon",
+      "sources": [
+        {
+          "title": "Photonic crystals cause active colour change in chameleons",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4366478/"
+        },
+        {
+          "title": "Chameleon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chameleon"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4366478/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of a giant tree's physical mass comes from thin air",
+      "body": "When a massive redwood grows from a tiny seed, almost none of its dry mass comes from the soil. Instead, trees are built primarily from captured air. During photosynthesis, leaves absorb carbon dioxide molecules from the atmosphere and split them using sunlight. The plant releases oxygen and chains the leftover carbon atoms together to build cellulose and lignin—the structural framework of wood. Soil provides essential nutrients, but air builds the wood.",
+      "imageWikipediaTitle": "Photosynthesis",
+      "sources": [
+        {
+          "title": "The Carbon Cycle",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://earthobservatory.nasa.gov/features/CarbonCycle"
+        },
+        {
+          "title": "Photosynthesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Photosynthesis"
+        }
+      ],
+      "readMoreUrl": "https://earthobservatory.nasa.gov/features/CarbonCycle",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Platypus fur glows bright cyan-green under ultraviolet light",
+      "body": "Mammalian fur rarely glows, but the duck-billed platypus is a surprising exception. When exposed to ultraviolet light, platypus fur absorbs invisible UV wavelengths and fluoresces a vivid greenish-cyan. Scientists discovered this trait in museum specimens and confirmed it in living wild animals. While biofluorescence is common in marine animals and insects, this finding showed that mammals have produced fluorescent compounds in their fur for millions of years, likely assisting in nocturnal communication.",
+      "imageWikipediaTitle": "Platypus",
+      "sources": [
+        {
+          "title": "Biofluorescence in the platypus (Ornithorhynchus anatinus)",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7598375/"
+        },
+        {
+          "title": "Platypus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Platypus"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7598375/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's gravity is still ninety percent strong where astronauts float",
+      "body": "Astronauts aboard the International Space Station do not float because there is no gravity in space. At an orbital altitude of 400 kilometers, Earth's gravitational pull is still roughly 90 percent of what it is on the surface. The crew feels weightless because the station travels sideways at 28,000 kilometers per hour. They are in continuous free fall toward Earth, but moving so fast horizontally that the planet curves away beneath them at the exact same rate.",
+      "imageWikipediaTitle": "International Space Station",
+      "sources": [
+        {
+          "title": "What Is Microgravity?",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-microgravity-58.html"
+        },
+        {
+          "title": "Weightlessness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weightlessness"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/audience/forstudents/5-8/features/nasa-knows/what-is-microgravity-58.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Coriolis effect doesn't decide which way your sink drains",
+      "body": "Earth's rotation does not dictate whether water swirls clockwise or counterclockwise down your bathroom drain. The planetary Coriolis force is minuscule over distances of a few inches. Instead, the swirl direction in a sink or toilet is determined by the shape of the basin, the angle of the incoming water jets, and preexisting currents. Only in enormous, vibration-isolated laboratory tanks left undisturbed for days can Earth's rotation subtly steer draining water.",
+      "imageWikipediaTitle": "Coriolis force",
+      "sources": [
+        {
+          "title": "Does water go down the drain counterclockwise in the northern hemisphere and clockwise in the southern hemisphere?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/physics/item/does-water-go-down-the-drain-counterclockwise-in-the-northern-hemisphere-and-clockwise-in-the-southern-hemisphere/"
+        },
+        {
+          "title": "Coriolis force",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coriolis_force"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/physics/item/does-water-go-down-the-drain-counterclockwise-in-the-northern-hemisphere-and-clockwise-in-the-southern-hemisphere/",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do chameleons primarily change their visible skin color?",
+      "options": [
+        "By pumping colored liquid dyes between skin layers",
+        "By adjusting the spacing between microscopic guanine crystals",
+        "By altering their body temperature to activate heat-sensitive pigments",
+        "By absorbing different wavelengths of light through external scales"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chameleons tune the nanoscale lattice spacing of guanine crystals in specialized cells called iridophores, changing which light wavelengths are reflected."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where does the vast majority of a growing tree's dry physical mass come from?",
+      "options": [
+        "Minerals absorbed from the surrounding soil",
+        "Water molecules drawn upward through root xylem",
+        "Carbon dioxide captured from atmospheric air",
+        "Organic compost broken down by soil microbes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Photosynthesis takes carbon dioxide from the air and chains carbon atoms into cellulose and lignin, forming the bulk of wood."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What happens when ultraviolet light is shone onto the fur of a duck-billed platypus?",
+      "options": [
+        "It glows a vibrant cyan-green color",
+        "It turns completely pitch black by absorbing all light",
+        "It temporarily sheds its outer protective water coat",
+        "It heats up rapidly and emits infrared radiation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Platypus fur exhibits biofluorescence, absorbing ultraviolet light and re-emitting it as visible greenish-cyan light."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do astronauts aboard the International Space Station feel weightless?",
+      "options": [
+        "They are far enough into space that Earth's gravity drops to zero",
+        "The spacecraft's hull shields them from planetary gravitational waves",
+        "They and the station are in continuous free fall around Earth",
+        "The station travels beyond the reach of Earth's atmosphere"
+      ],
+      "correctIndex": 2,
+      "explanation": "Earth's gravity is still roughly 90% as strong in low orbit; astronauts feel weightless because they are perpetually in orbital free fall."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What primarily determines the swirl direction of water draining from a household sink?",
+      "options": [
+        "The hemisphere in which the sink is located",
+        "The Coriolis force generated by Earth's daily rotation",
+        "The basin shape, plumbing jets, and initial water currents",
+        "The altitude of the building relative to sea level"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Coriolis effect is far too weak at small scales; plumbing alignment and basin geometry dictate how sink water swirls."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of Earth's surface gravity is still present at the orbital altitude of the International Space Station (~400 km up)?",
+      "answer": 90,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Earth's gravity is still roughly 90% as strong at ISS altitude; astronauts float only because they are in constant orbital free fall."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Chameleons change color by dispersing or concentrating colored pigments in their skin cells.",
+      "answer": false,
+      "explanation": "Chameleons shift colors structurally by altering the distance between nanoscale guanine crystals, not by dispersing pigments."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Trees gain the bulk of their physical mass by absorbing nutrients and mass from the soil.",
+      "answer": false,
+      "explanation": "Trees build their physical bulk from carbon dioxide absorbed directly from the air during photosynthesis."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Astronauts float in orbit because Earth's gravitational pull drops to zero in space.",
+      "answer": false,
+      "explanation": "Gravity in low Earth orbit is still about 90% of surface strength; weightlessness is caused by perpetual free fall."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Household sinks drain clockwise in the Southern Hemisphere and counterclockwise in the Northern Hemisphere due to Earth's rotation.",
+      "answer": false,
+      "explanation": "The Coriolis force is far too weak on sink-sized scales; drain direction is dictated by basin geometry and plumbing currents."
+    }
+  ]
+}

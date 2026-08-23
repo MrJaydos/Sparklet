@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.851Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This frog intentionally breaks its own bones to produce claws",
+      "body": "When attacked, the African hairy frog actively breaks the bones in its own toes. The snapped phalanges puncture straight through the frog's toe pads, transforming into razor-sharp, cat-like claws for self-defense. Once the danger subsides, the frog relaxes its muscles, allowing the bone claws to retract beneath the skin while the damaged tissue regenerates.",
+      "imageWikipediaTitle": "Trichobatrachus robustus",
+      "sources": [
+        {
+          "title": "Trichobatrachus robustus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trichobatrachus_robustus"
+        },
+        {
+          "title": "The Wolverines of the amphibian world",
+          "publisher": "Harvard Gazette",
+          "url": "https://news.harvard.edu/gazette/story/2008/06/the-wolverines-of-the-amphibian-world/"
+        },
+        {
+          "title": "'Horror frog' breaks own bones to produce claws",
+          "publisher": "New Scientist",
+          "url": "https://www.newscientist.com/article/dn13991-horror-frog-breaks-own-bones-to-produce-claws/"
+        }
+      ],
+      "readMoreUrl": "https://news.harvard.edu/gazette/story/2008/06/the-wolverines-of-the-amphibian-world/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dung beetles navigate at night using the light of the Milky Way",
+      "body": "Rolling a ball of dung in a straight line is crucial for nocturnal dung beetles trying to escape competitors. To maintain course in the dark, African dung beetles orient themselves using the glowing band of the Milky Way. Researchers confirmed this stellar navigation by fitting beetles with tiny cardboard hats that blocked their view of the sky, causing them to roll in aimless circles.",
+      "imageWikipediaTitle": "Scarabaeus satyrus",
+      "sources": [
+        {
+          "title": "Scarabaeus satyrus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scarabaeus_satyrus"
+        },
+        {
+          "title": "Dung beetles navigate by the Milky Way",
+          "publisher": "Lund University",
+          "url": "https://www.lunduniversity.lu.se/article/dung-beetles-navigate-milky-way"
+        }
+      ],
+      "readMoreUrl": "https://www.lunduniversity.lu.se/article/dung-beetles-navigate-milky-way",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1904 Olympic marathon was the most chaotic race in history",
+      "body": "The 1904 Olympic marathon in St. Louis featured bizarre mishaps from start to finish. The official winner, Thomas Hicks, was kept moving by his trainers with doses of strychnine poison, raw egg whites, and brandy. Another runner placed fourth despite taking an hour-long nap in an orchard after eating rotten apples, while one participant was chased a mile off course by feral dogs.",
+      "imageWikipediaTitle": "Athletics at the 1904 Summer Olympics – Men's marathon",
+      "sources": [
+        {
+          "title": "Athletics at the 1904 Summer Olympics – Men's marathon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Athletics_at_the_1904_Summer_Olympics_%E2%80%93_Men%27s_marathon"
+        },
+        {
+          "title": "St. Louis 1904: The strangest marathon in history",
+          "publisher": "Olympics.com",
+          "url": "https://olympics.com/en/news/st-louis-1904-the-strangest-marathon-in-history"
+        },
+        {
+          "title": "The 1904 Olympic Marathon May Have Been the Weirdest Event in Sports History",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-1904-olympic-marathon-may-have-been-the-weirdest-event-in-sports-history-253765/"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/history/the-1904-olympic-marathon-may-have-been-the-weirdest-event-in-sports-history-253765/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Swallowed chewing gum does not take seven years to digest",
+      "body": "The common warning that swallowed gum lingers in your stomach for seven years is completely untrue. While human digestive enzymes cannot break down the synthetic gum base, your gastrointestinal tract treats gum just like other indigestible matter. Muscular contractions known as peristalsis steadily push the wad along, typically expelling it in stool within two to three days without causing harm.",
+      "imageWikipediaTitle": "Chewing gum",
+      "sources": [
+        {
+          "title": "Chewing gum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chewing_gum"
+        },
+        {
+          "title": "Chewing gum: Is it harmful to swallow?",
+          "publisher": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058446"
+        },
+        {
+          "title": "What Happens If You Swallow Gum?",
+          "publisher": "KidsHealth",
+          "url": "https://kidshealth.org/en/kids/swallowed-gum.html"
+        }
+      ],
+      "readMoreUrl": "https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058446",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pearlfish find shelter by swimming inside a sea cucumber's anus",
+      "body": "Seeking protection from predators, the slender pearlfish lives inside the body cavity of a sea cucumber. Sea cucumbers breathe by pumping water through their cloaca—their combined opening for respiration and excretion. When the cucumber opens wide to breathe, the pearlfish slips inside, often tailfirst. Some pearlfish species live peacefully as lodgers, while others nibble on the host's regenerating internal gonads.",
+      "imageWikipediaTitle": "Pearlfish",
+      "sources": [
+        {
+          "title": "Pearlfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pearlfish"
+        },
+        {
+          "title": "The fish that lives in a sea cucumber's bottom",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/the-fish-that-lives-in-a-sea-cucumbers-bottom.html"
+        },
+        {
+          "title": "Sea Cucumber and Pearlfish",
+          "publisher": "Smithsonian Ocean",
+          "url": "https://ocean.si.edu/ocean-life/invertebrates/sea-cucumber-and-pearlfish"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/the-fish-that-lives-in-a-sea-cucumbers-bottom.html",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the African hairy frog deploy sharp claws when threatened?",
+      "options": [
+        "It deliberately breaks its own toe bones to pierce through the skin",
+        "It sheds outer scales to expose underlying bone spikes",
+        "It ejects venomous mineralized teeth from its toes",
+        "It rasps its toenails against rough rocks to sharpen them"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hairy frog snaps the bones in its toes, pushing the sharp broken ends through the skin pads to act as claws."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What celestial guide do nocturnal African dung beetles use to roll their dung balls in straight lines?",
+      "options": [
+        "The glowing band of the Milky Way",
+        "The position of the North Star",
+        "Reflections from Venus",
+        "The Earth's magnetic poles"
+      ],
+      "correctIndex": 0,
+      "explanation": "African dung beetles are the first known animals proven to navigate by orienting to the light gradient of the Milky Way."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unusual cocktail did trainers administer to keep winner Thomas Hicks moving during the 1904 Olympic marathon?",
+      "options": [
+        "Strychnine, egg whites, and brandy",
+        "Morphine, salt tablets, and wine",
+        "Ether, coffee grounds, and molasses",
+        "Arsenic, warm honey, and beer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hicks was dosed with small amounts of strychnine (a stimulant in low doses), raw eggs, and brandy to finish the grueling race."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What actually happens to chewing gum when you swallow it?",
+      "options": [
+        "It passes naturally through the digestive tract within a few days",
+        "It dissolves completely in stomach acid within two hours",
+        "It stays stuck in the stomach lining for up to seven years",
+        "It hardens into a permanent indigestible mass in the liver"
+      ],
+      "correctIndex": 0,
+      "explanation": "While the synthetic gum base is indigestible, normal intestinal contractions push it out with stool in two to three days."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where does the pearlfish enter a sea cucumber to hide from predators?",
+      "options": [
+        "Through its cloaca (anus)",
+        "Through its mouth tentacle ring",
+        "Under its dorsal skin folds",
+        "Inside its hollow tube feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pearlfish slip into the sea cucumber's cloaca when the cucumber opens it to inhale water for respiration."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "According to the famous urban legend, how many years does swallowed chewing gum supposedly remain stuck in your stomach?",
+      "answer": 7,
+      "min": 1,
+      "max": 20,
+      "unit": "years",
+      "explanation": "The popular seven-year myth is false—swallowed gum passes through the digestive tract in just a few days."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Dung beetles can navigate at night using the Milky Way.",
+      "answer": true,
+      "explanation": "African dung beetles are indeed the first animals proven to orient their movements using the glow of the Milky Way."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Swallowed chewing gum stays trapped in your stomach for seven years.",
+      "answer": false,
+      "explanation": "Swallowed gum cannot be broken down by enzymes, but normal intestinal contractions pass it out of the body within days."
+    }
+  ]
+}

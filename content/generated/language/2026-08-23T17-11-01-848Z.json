@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.848Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to Count to Three in Thai",
+      "body": "Counting from one to three in Thai uses หนึ่ง (neung, pronounced nung), สอง (song, pronounced sawng), and สาม (sam, pronounced sahm). In traditional Thai numerals, they appear as ๑, ๒, and ๓. Because of centuries of ancient trade and migration across Southeast Asia, Thai numerals share ancestral linguistic roots with Southern Chinese numeral systems, making their pronunciations noticeably similar to Cantonese and Min Nan words for numbers.",
+      "imageWikipediaTitle": "Thai numerals",
+      "sources": [
+        {
+          "title": "Thai numbers",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/thai.htm"
+        },
+        {
+          "title": "Thai language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Thai-language"
+        },
+        {
+          "title": "Thai numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thai_numerals"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Thai-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Goblin Behind the Word \"Nightmare\"",
+      "body": "A nightmare has nothing to do with horses. The word stems from the Old English \"mare\" (or mære), a mythological demon in Germanic folklore. Legend held that this malevolent spirit sat upon a sleeping person's chest, causing sleep paralysis, suffocation, and terrifying visions. Over centuries, the term shifted from naming the nocturnal creature itself to describing any deeply frightening dream.",
+      "imageWikipediaTitle": "The Nightmare",
+      "sources": [
+        {
+          "title": "The Folklore Origins of 'Nightmare'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-of-nightmare"
+        },
+        {
+          "title": "Nightmare",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nightmare"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/word-history-of-nightmare",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Your Cappuccino Is Named After Italian Monks",
+      "body": "Your morning cappuccino owes its name to Catholic friars. In 16th-century Italy, the Franciscan order of Capuchin friars (Frati Cappuccini) wore distinctive brown hooded habits—cappuccio being Italian for hood. When European coffeehouses blended dark espresso with steamed, frothed milk, they noticed the drink's warm hue matched the color of the Capuchins' robes, bestowing the beverage with its monastic title.",
+      "imageWikipediaTitle": "Cappuccino",
+      "sources": [
+        {
+          "title": "Where Do Cappuccinos Get Their Name?",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/where-do-cappuccinos-get-their-name"
+        },
+        {
+          "title": "Cappuccino",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/cappuccino"
+        },
+        {
+          "title": "Cappuccino",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cappuccino"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/cappuccino",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Arabic Merchant Roots of Tagalog Gratitude",
+      "body": "The standard Tagalog word for thank you is salamat (ᜐᜎᜋᜆ᜔ / salamat, pronounced sah-LAH-maht). Rather than coming from Spanish or indigenous Austronesian roots, the word reached the Philippine islands via ancient maritime trade routes. Islamic and Arab traders introduced the Semitic greeting salām (meaning peace or safety), which languages like Tagalog and Malay adapted into an everyday expression of gratitude.",
+      "imageWikipediaTitle": "Baybayin",
+      "sources": [
+        {
+          "title": "Tagalog language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Tagalog-language"
+        },
+        {
+          "title": "Tagalog language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tagalog_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Tagalog-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to Three in Greek",
+      "body": "To count to three in Modern Greek, say ένα (éna, pronounced EH-nah), δύο (dýo, pronounced THEE-oh), and τρία (tría, pronounced TREE-ah). Because Greek is an ancient Indo-European language, these numeral roots directly built familiar English prefixes and mathematical terms, including mono- (from mónos, meaning alone or one), duo, and trio.",
+      "imageWikipediaTitle": "Greek alphabet",
+      "sources": [
+        {
+          "title": "Greek numbers",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/greek.htm"
+        },
+        {
+          "title": "Greek language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Greek-language"
+        },
+        {
+          "title": "Greek numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greek_numerals"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Greek-language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which Thai word means the number two?",
+      "options": [
+        "สอง (song)",
+        "หนึ่ง (neung)",
+        "สาม (sam)",
+        "สี่ (si)"
+      ],
+      "correctIndex": 0,
+      "explanation": "หนึ่ง (neung) is one, สอง (song) is two, and สาม (sam) is three in Thai."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the \"mare\" in \"nightmare\" originally believed to be?",
+      "options": [
+        "A folklore goblin that sat on sleeping people",
+        "A wild female horse roaming at night",
+        "A dark nocturnal ocean tide",
+        "A poisonous flowering nightshade plant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Old English mare was a mythical goblin or demon believed to suffocate sleeping victims and cause terrifying dreams."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was the coffee drink \"cappuccino\" named after Capuchin friars?",
+      "options": [
+        "Its brown color resembled their hooded habits",
+        "Monks invented the espresso machine",
+        "It was traditionally brewed only on saint feast days",
+        "The froth formed the shape of a monk's tonsure"
+      ],
+      "correctIndex": 0,
+      "explanation": "The mixture of espresso and steamed milk matched the brown hue of the robes worn by Capuchin (cappuccio) friars."
+    },
+    {
+      "cardIndex": 3,
+      "question": "The Tagalog word for thank you, \"salamat\", derives from which language root?",
+      "options": [
+        "Arabic",
+        "Spanish",
+        "Portuguese",
+        "Sanskrit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Salamat originates from the Arabic word 'salām' (peace), spread across Southeast Asia by early maritime merchants."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do you say the number three in Modern Greek?",
+      "options": [
+        "τρία (tría)",
+        "ένα (éna)",
+        "δύο (dýo)",
+        "τέσσερα (téssera)"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Greek, ένα (éna) is one, δύο (dýo) is two, and τρία (tría) is three."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The word \"nightmare\" originally referred to a frightening female horse appearing in dreams.",
+      "answer": false,
+      "explanation": "It comes from the Old English \"mare\", a mythological demon believed to sit on sleepers' chests and cause suffocating dreams."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The coffee drink \"cappuccino\" was named after the brown hooded robes of Catholic monks.",
+      "answer": true,
+      "explanation": "The coffee's warm brown color matched the robes of the Italian Capuchin friars (Frati Cappuccini)."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.853Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body recycles 95 percent of its digestive bile",
+      "body": "Digesting dietary fats requires bile acids, but manufacturing them from scratch takes heavy metabolic work. Instead of discarding them, your digestive tract runs a remarkable recycling loop. After bile breaks down fats in your small intestine, specialized transporter proteins in the terminal ileum absorb about 95 percent of the bile acids directly into the bloodstream, shuttling them straight back to the liver to be reused.",
+      "imageWikipediaTitle": "Bile acid",
+      "sources": [
+        {
+          "title": "Physiology, Bile",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK470209/"
+        },
+        {
+          "title": "Enterohepatic circulation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Enterohepatic_circulation"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK470209/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Training in heat trains your sweat glands to conserve salt",
+      "body": "When you spend one to two weeks exercising in hot conditions, your body fundamentally reorganizes how it cools down. Your sweat glands start sweating earlier and in greater volume to dissipate heat faster. Crucially, your adrenal glands increase aldosterone output, prompting sweat ducts to reabsorb sodium and chloride. An acclimated athlete loses up to 50 percent less salt per liter of sweat than an unacclimated person.",
+      "imageWikipediaTitle": "Perspiration",
+      "sources": [
+        {
+          "title": "Physiology, Heat Loss",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534833/"
+        },
+        {
+          "title": "Heat acclimatization",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heat_acclimatization"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK534833/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your kidneys act as your body's altitude and oxygen sensors",
+      "body": "Although bone marrow manufactures your red blood cells, your kidneys decide how many to make. Specialized interstitial cells in the renal cortex constantly monitor oxygen levels in your blood. When you travel to high altitudes or experience low oxygen, these cells stabilize a protein called HIF-1, triggering the release of erythropoietin (EPO). This hormone travels to bone marrow to rapidly ramp up red blood cell production.",
+      "imageWikipediaTitle": "Erythropoietin",
+      "sources": [
+        {
+          "title": "Physiology, Erythropoietin",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK538232/"
+        },
+        {
+          "title": "Erythropoietin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Erythropoietin"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK538232/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eating pure protein prompts your pancreas to release glucagon",
+      "body": "Most people associate insulin with food and glucagon only with fasting, but a high-protein, low-carb meal triggers both. Insulin surges to help your muscle cells take up dietary amino acids. However, without carbohydrates, that insulin spike would dangerously crash your blood sugar. To prevent hypoglycemia, your pancreas simultaneously secretes glucagon, signaling your liver to release stored glucose into the bloodstream and keep your blood sugar perfectly steady.",
+      "imageWikipediaTitle": "Glucagon",
+      "sources": [
+        {
+          "title": "Physiology, Glucagon",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK535359/"
+        },
+        {
+          "title": "Glucagon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glucagon"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK535359/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Millions of microscopic hairs escalator-sweep your lungs clean",
+      "body": "Your respiratory tract is lined with millions of microscopic, hair-like cilia covered by a layer of sticky mucus that traps dust, bacteria, and allergens. These cilia beat in synchronized waves roughly 10 to 15 times per second, moving the mucus blanket upward like a continuous escalator. This process, called mucociliary clearance, pushes debris up into your throat, where you swallow or cough it away harmlessly.",
+      "imageWikipediaTitle": "Cilium",
+      "sources": [
+        {
+          "title": "Physiology, Mucociliary Clearance",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK544329/"
+        },
+        {
+          "title": "Mucociliary clearance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mucociliary_clearance"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544329/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where are most bile acids reabsorbed back into the bloodstream for recycling?",
+      "options": [
+        "Terminal ileum (small intestine)",
+        "Stomach lining",
+        "Ascending colon",
+        "Gallbladder wall"
+      ],
+      "correctIndex": 0,
+      "explanation": "Around 95% of bile acids are reabsorbed in the terminal ileum and shuttled back to the liver via the portal vein."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does heat acclimation change the composition of human sweat?",
+      "options": [
+        "It reduces the concentration of sodium in sweat",
+        "It increases sweat saltiness to cool faster",
+        "It halts sweat production until core temperature spikes",
+        "It converts sweat into a lipid-based barrier"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heat acclimation increases aldosterone activity, prompting sweat ducts to reabsorb sodium and cutting salt loss by up to 50%."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which organ senses low blood oxygen and secretes erythropoietin (EPO) to boost red blood cell production?",
+      "options": [
+        "Kidneys",
+        "Liver",
+        "Spleen",
+        "Lungs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specialized interstitial cells in the kidneys monitor oxygen delivery and secrete EPO to prompt bone marrow production."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does eating a pure protein meal cause the pancreas to release glucagon alongside insulin?",
+      "options": [
+        "To prevent blood sugar from crashing due to the insulin surge",
+        "To break down protein directly in the stomach",
+        "To slow down heart rate during digestion",
+        "To block muscle cells from absorbing amino acids"
+      ],
+      "correctIndex": 0,
+      "explanation": "Glucagon prompts the liver to release stored glucose, counterbalancing insulin to prevent hypoglycemia when eating carbs-free meals."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the mucociliary escalator transport trapped dust and bacteria out of the respiratory tract?",
+      "options": [
+        "Microscopic cilia beat upward in synchronized waves",
+        "Strong muscle contractions squeeze the trachea shut",
+        "Acidic fluid dissolves debris on the airway surface",
+        "Air pressure changes suction debris into the bloodstream"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cilia beat in coordinated rhythm 10 to 15 times per second to push the mucus layer upward toward the throat."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of the bile acids your liver secretes into your intestines is reabsorbed and recycled?",
+      "answer": 95,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "About 95% of bile acids are reabsorbed in the terminal ileum and returned to the liver through enterohepatic circulation."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "By what percentage can heat acclimation reduce the concentration of salt lost in your sweat?",
+      "answer": 50,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Heat-adapted sweat glands reabsorb significantly more electrolytes, cutting sweat sodium loss by up to 50%."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Your kidneys determine how many red blood cells your bone marrow creates",
+      "answer": true,
+      "explanation": "Kidney cells detect blood oxygen levels and release erythropoietin (EPO), directly directing bone marrow production."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Glucagon is only released when you are starving or skipping meals",
+      "answer": false,
+      "explanation": "A high-protein meal triggers glucagon release alongside insulin to keep blood sugar from crashing while amino acids are absorbed."
+    }
+  ]
+}

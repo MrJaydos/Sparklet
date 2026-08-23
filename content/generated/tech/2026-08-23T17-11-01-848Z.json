@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.848Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 0.34-second clock drift caused a catastrophic missile defense failure",
+      "body": "In 1991, an Iraqi Scud missile struck a US military barracks in Dhahran, killing 28 soldiers. The Patriot defense system failed to intercept it due to a tiny arithmetic error. The system converted time from an integer to a 24-bit floating-point number. Over 100 hours of continuous operation, rounding error accumulated to roughly 0.34 seconds. At supersonic speeds, that fractional delay threw radar tracking off by more than half a kilometer.",
+      "imageWikipediaTitle": "MIM-104 Patriot",
+      "sources": [
+        {
+          "title": "Patriot Missile Defense: Software Problem Led to System Failure at Dhahran, Saudi Arabia",
+          "publisher": "U.S. Government Accountability Office",
+          "url": "https://www.gao.gov/products/imtec-92-26"
+        },
+        {
+          "title": "MIM-104 Patriot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MIM-104_Patriot"
+        }
+      ],
+      "readMoreUrl": "https://www.gao.gov/products/imtec-92-26",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ninety percent of modern microphones rely on an invention from 1962",
+      "body": "Nearly every smartphone, hearing aid, laptop, and baby monitor uses an electret microphone. Invented in 1962 by Bell Labs scientists James West and Gerhard Sessler, it replaced bulky external power supplies with a permanently charged dielectric material called an electret. By eliminating the need for high-voltage polarization, West and Sessler created a durable, microscopic acoustic sensor so cheap to manufacture that billions are produced around the world each year.",
+      "imageWikipediaTitle": "Electret microphone",
+      "sources": [
+        {
+          "title": "James E. West | National Inventors Hall of Fame",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/james-e-west"
+        },
+        {
+          "title": "Electret microphone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electret_microphone"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/james-e-west",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A melted candy bar in a radar lab gave birth to the microwave oven",
+      "body": "In 1945, engineer Percy Spencer was testing a cavity magnetron—a high-powered vacuum tube used in military radar systems—at Raytheon. Standing in front of the active tube, he noticed the peanut chocolate bar in his pocket had completely melted into mush. Intrigued, Spencer tested unpopped popcorn kernels and watched them burst across the room. Raytheon patented the technology that year, producing the first commercial microwave oven, the 750-pound Radarange.",
+      "imageWikipediaTitle": "Microwave oven",
+      "sources": [
+        {
+          "title": "Who Invented the Microwave Oven? | Inside Adams",
+          "publisher": "Library of Congress",
+          "url": "https://blogs.loc.gov/inside_adams/2019/10/who-invented-the-microwave-oven/"
+        },
+        {
+          "title": "Microwave oven",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microwave_oven"
+        }
+      ],
+      "readMoreUrl": "https://blogs.loc.gov/inside_adams/2019/10/who-invented-the-microwave-oven/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Airplane 'black boxes' are deliberately painted bright orange",
+      "body": "Despite their universal nickname, aviation flight recorders are never painted black. Standardized international regulations require both the cockpit voice recorder and flight data recorder to be coated in a vivid, high-visibility hue officially known as \"international orange.\" Paired with reflective strips, this fluorescent coating makes the steel and titanium capsules far easier for salvage crews and divers to spot amidst charred wreckage, deep ocean mud, or dense jungle foliage.",
+      "imageWikipediaTitle": "Flight recorder",
+      "sources": [
+        {
+          "title": "Flight Data Recorder (FDR)",
+          "publisher": "SKYbrary",
+          "url": "https://skybrary.aero/articles/flight-data-recorder-fdr"
+        },
+        {
+          "title": "Flight recorder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flight_recorder"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flight_recorder",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Unix clock will run out of time on January 19, 2038",
+      "body": "Many digital systems track time by counting the number of seconds elapsed since January 1, 1970, stored as a 32-bit signed integer. On January 19, 2038, at precisely 03:14:07 UTC, this counter will reach its maximum capacity of 2,147,483,647 seconds. The very next second, the number will flip to negative 2,147,483,648, causing vulnerable systems to misinterpret the date as December 13, 1901, risking widespread software crashes.",
+      "imageWikipediaTitle": "Year 2038 problem",
+      "sources": [
+        {
+          "title": "Year-2038 problem - Glossary | CSRC",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://csrc.nist.gov/glossary/term/year-2038-problem"
+        },
+        {
+          "title": "Year 2038 problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Year_2038_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Year_2038_problem",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What software bug caused the Patriot missile system to fail during the Gulf War in 1991?",
+      "options": [
+        "Accumulated floating-point rounding error in its internal clock",
+        "A severe buffer overflow triggered by incoming radar data",
+        "An unhandled null pointer exception during tracking",
+        "A division-by-zero error when calculating missile velocity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Converting clock integers into 24-bit binary floating-point numbers accumulated a 0.34-second drift after 100 hours, miscalculating incoming missile positions."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What key engineering advance allowed electret microphones to become small and cheap enough for billions of devices?",
+      "options": [
+        "A permanently charged dielectric material eliminating high-voltage power supplies",
+        "Using fiber optic light pulses instead of vibrating diaphragms",
+        "Replacing all internal metal wiring with liquid conductive gel",
+        "Eliminating acoustic chambers in favor of radio frequency detection"
+      ],
+      "correctIndex": 0,
+      "explanation": "James West and Gerhard Sessler used an electret—a permanently charged dielectric material—removing the bulky, expensive high-voltage power supply previously required."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What accidental observation led Percy Spencer to invent the microwave oven?",
+      "options": [
+        "A candy bar melted in his pocket near an active radar magnetron",
+        "A cup of water boiled instantly when placed near a radio transmitter",
+        "Ice cubes melted unusually fast beside an active cathode-ray tube",
+        "Bread dough rose rapidly on top of a television broadcast tower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Percy Spencer noticed his chocolate peanut candy bar had melted while standing near a high-power military radar magnetron at Raytheon."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What color are commercial airplane flight recorders ('black boxes') required to be painted?",
+      "options": [
+        "Bright international orange",
+        "Matte black",
+        "High-visibility neon yellow",
+        "Polished metallic silver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aviation regulations require flight recorders to be painted high-visibility international orange with reflective tape to aid post-crash recovery."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What will happen to vulnerable 32-bit signed Unix timestamps on January 19, 2038?",
+      "options": [
+        "The integer counter will overflow and wrap around to the year 1901",
+        "The system clock will permanently freeze at midnight",
+        "The computer will reset its system calendar to January 1, 1970",
+        "The timestamp counter will switch automatically into hexadecimal text"
+      ],
+      "correctIndex": 0,
+      "explanation": "When a 32-bit signed integer exceeds 2,147,483,647, the sign bit flips, wrapping the value to negative 2,147,483,648, which corresponds to December 13, 1901."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many seconds did the 1991 Patriot missile defense system's internal clock drift after 100 hours of continuous uptime?",
+      "answer": 0.34,
+      "min": 0.01,
+      "max": 5,
+      "unit": "seconds",
+      "explanation": "A drift of just 0.34 seconds shifted the radar tracking window by over 500 meters, allowing an incoming Scud missile to slip through undetected."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of microphones manufactured globally today are based on the electret microphone design?",
+      "answer": 90,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Electret microphones account for roughly 90% of all microphones produced annually, powering smartphones, headsets, laptops, and hearing aids."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In what year will 32-bit signed integer Unix timestamps overflow their maximum limit?",
+      "answer": 2038,
+      "min": 2025,
+      "max": 2100,
+      "unit": "year",
+      "explanation": "On January 19, 2038, the 32-bit signed second counter since January 1, 1970 will overflow, causing the Year 2038 problem (Y2K38)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Airplane flight data recorders are painted black, which is why they are called 'black boxes'.",
+      "answer": false,
+      "explanation": "Flight recorders are required by international aviation standards to be painted bright 'international orange' to make them easier to locate after crashes."
+    }
+  ]
+}

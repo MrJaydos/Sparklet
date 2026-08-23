@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.851Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Roman Dining Floors Deliberately Decorated with Trash",
+      "body": "Wealthy ancient Romans entertained dinner guests with trompe l'œil floor mosaics called asarotos oikos, or 'unswept house.' Hand-laid with thousands of colored stone tesserae, these intricate mosaics realistically depicted food scraps scattered across the floor—including half-eaten figs, lobster shells, wishbones, and even mice nibbling on crumbs. Conceived by Greek artist Sosos of Pergamon, the design transformed messy remnants of lavish banquets into permanent, humorous displays of wealth.",
+      "imageWikipediaTitle": "Asarotos oikos",
+      "sources": [
+        {
+          "title": "Roman Mosaics",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/917/roman-mosaics/"
+        },
+        {
+          "title": "Asarotos oikos",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asarotos_oikos"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/article/917/roman-mosaics/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Scottish Working Songs That Thickened Wool",
+      "body": "In the Scottish Highlands and Outer Hebrides, women transformed the grueling task of 'waulking'—manually pounding freshly woven tweed against wooden boards to shrink and thicken the fabric—into a vibrant musical tradition. Working in rhythm, women sang Gaelic call-and-response waulking songs that gradually increased in tempo. It was culturally forbidden to repeat a song during a single session, driving the preservation of hundreds of epic verses, local gossip, and improvised folklore.",
+      "imageWikipediaTitle": "Waulking",
+      "sources": [
+        {
+          "title": "Scottish Tradition 3: Waulking Songs from Barra",
+          "publisher": "Smithsonian Folkways Recordings",
+          "url": "https://folkways.si.edu/scottish-tradition-3-waulking-songs-from-barra/celtic-world/music/album/smithsonian"
+        },
+        {
+          "title": "Waulking song",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Waulking_song"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Waulking_song",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Intricate Butter Sculptures Melted the Morning After",
+      "body": "During the annual Butter Lamp Festival, Tibetan Buddhist monks spend weeks crafting towering, vibrant sculptures using cold yak butter mixed with mineral pigments. Working in freezing rooms so their body heat does not soften the medium, artists sculpt sacred deities, lotus flowers, and mythical animals. Despite immense labor, the masterworks are intentionally dismantled or allowed to melt right after the festival concludes, serving as a profound meditation on impermanence.",
+      "imageWikipediaTitle": "Butter sculpture",
+      "sources": [
+        {
+          "title": "Butter Sculpture at the Smithsonian",
+          "publisher": "Smithsonian Folklife",
+          "url": "https://folklife.si.edu/talkstory/2014/butter-sculpture-at-the-smithsonian"
+        },
+        {
+          "title": "Butter sculpture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Butter_sculpture"
+        }
+      ],
+      "readMoreUrl": "https://folklife.si.edu/talkstory/2014/butter-sculpture-at-the-smithsonian",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 'Breathing' Clay Pots That Ferment Korean Cuisine",
+      "body": "For thousands of years, Korean culinary traditions have relied on onggi, traditional earthenware vessels prized as 'breathing pottery.' Made from porous clay and coated with natural wood-ash glaze, onggi are fired at temperatures that create microscopic pores throughout the ceramic walls. These tiny vents allow fresh oxygen to enter and fermentation gases to escape while keeping moisture and contaminants out—creating the perfect microclimate for aging kimchi, soy sauce, and fermented pastes.",
+      "imageWikipediaTitle": "Onggi",
+      "sources": [
+        {
+          "title": "Korean Onggi Pottery",
+          "publisher": "Smithsonian Folklife",
+          "url": "https://folklife.si.edu/magazine/korean-onggi-pottery"
+        },
+        {
+          "title": "Onggi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Onggi"
+        }
+      ],
+      "readMoreUrl": "https://folklife.si.edu/magazine/korean-onggi-pottery",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 12-Foot Wooden Horn That Communicated Across Alps",
+      "body": "Spanning up to 12 feet long, the traditional Swiss alphorn was historically carved from solid Alpine spruce curved by the weight of winter snow. Lacking valves, keys, or finger holes, the instrument relies entirely on the musician's lip tension to produce natural harmonic overtones. Swiss herdsmen used its carrying acoustic power—audible up to 6 miles across mountain valleys—to signal neighboring villages and soothe cows during evening milking.",
+      "imageWikipediaTitle": "Alphorn",
+      "sources": [
+        {
+          "title": "Alphorn",
+          "publisher": "Switzerland Tourism",
+          "url": "https://www.myswitzerland.com/en-us/experiences/alphorn/"
+        },
+        {
+          "title": "Alphorn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alphorn"
+        }
+      ],
+      "readMoreUrl": "https://www.myswitzerland.com/en-us/experiences/alphorn/",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did ancient Roman 'asarotos oikos' floor mosaics depict?",
+      "options": [
+        "Discarded banquet food scraps and scavenging mice",
+        "Astrological charts and constellations",
+        "Portraits of household ancestors and deities",
+        "Heroic naval battle formations"
+      ],
+      "correctIndex": 0,
+      "explanation": "Asarotos oikos translates to 'unswept house' and depicted realistic, scattered banquet remnants like shells, bones, and mice."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What traditional rule governed Scottish Gaelic waulking songs during a tweed-making session?",
+      "options": [
+        "A song could never be repeated during the same session",
+        "Only male clan leaders were allowed to lead the chorus",
+        "Singers had to perform in complete darkness",
+        "Songs could only be sung while facing due north"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waulking etiquette strictly forbade repeating any song during a session, encouraging singers to remember and improvise hundreds of verses."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why are intricate Tibetan yak butter sculptures dismantled or melted after the festival?",
+      "options": [
+        "To embody the Buddhist teaching on the impermanence of all things",
+        "To prevent dangerous bacteria from contaminating the monastery",
+        "To recycle the fat into temple oil lamps for the winter",
+        "To feed sacred migratory mountain birds"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Tibetan Buddhist practice, destroying the labor-intensive butter sculptures serves as a direct ritual meditation on impermanence."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why are traditional Korean onggi pots known as 'breathing pottery'?",
+      "options": [
+        "Microscopic pores let air and fermentation gases circulate without leaking liquid",
+        "The clay visibly expands and contracts as ambient humidity changes",
+        "They make an audible whistling sound as internal gas builds up",
+        "They are lined with live moss that generates oxygen inside the jar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Onggi clay creates fine micropores during firing, allowing essential gas exchange for fermentation while preventing liquid leaks."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does an alphorn player change musical notes without valves or keys?",
+      "options": [
+        "By modulating lip tension to sound different natural harmonic overtones",
+        "By covering and uncovering vent holes along the horn's underside",
+        "By sliding an inner wooden sleeve in and out of the main pipe",
+        "By rotating an adjustable wooden mute inside the bell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the alphorn is a natural horn without keys, pitch is controlled entirely through the player's embouchure and lip tension."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "Across how many miles can the acoustic sound of a traditional Swiss alphorn carry through Alpine valleys?",
+      "answer": 6,
+      "min": 1,
+      "max": 20,
+      "unit": "miles",
+      "explanation": "Thanks to mountain acoustics and its long conical bore, an alphorn's low, rich tones can travel up to 6 miles (10 km)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Ancient Roman floor mosaics only depicted gods, mythological heroes, and victory scenes.",
+      "answer": false,
+      "explanation": "Wealthy Romans frequently commissioned humorous 'unswept floor' mosaics showing realistic food trash and mice left behind after a banquet."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Traditional Korean fermentation crocks are sealed airtight to prevent outside air from entering.",
+      "answer": false,
+      "explanation": "Onggi are intentionally semi-porous 'breathing pots' that allow oxygen exchange and gas release, which is vital for proper fermentation."
+    }
+  ]
+}

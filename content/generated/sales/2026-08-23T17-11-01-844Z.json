@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.845Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking a simple question makes people buy",
+      "body": "Instead of telling customers why they should purchase a product, asking them whether they intend to do so dramatically increases compliance. Known as the mere measurement effect or question-behavior effect, simply answering a question about future behavior primes the underlying intention and makes the action far more accessible in memory. Field studies show asking consumers about intention can increase actual purchase rates by over 35%.",
+      "imageWikipediaTitle": "Consumer behaviour",
+      "sources": [
+        {
+          "title": "The Question-Behavior Effect: An Integrative Review",
+          "publisher": "PubMed Central (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4878147/"
+        },
+        {
+          "title": "Question-behavior effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Question-behavior_effect"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4878147/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frame prices per day to make big costs feel tiny",
+      "body": "Reframing a recurring cost as a tiny daily expenditure dramatically increases sign-ups. Known as pennies-a-day framing, quoting a $365 annual subscription as 'just $1 a day' reduces perceived financial burden. Research demonstrates that consumers compare the reframed amount to trivial daily expenses like a cup of coffee rather than major budgetary commitments, significantly elevating conversion rates without lowering the actual price.",
+      "imageWikipediaTitle": "Penny",
+      "sources": [
+        {
+          "title": "Pennies-a-day framing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pennies-a-day_framing"
+        },
+        {
+          "title": "Mental accounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_accounting"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pennies-a-day_framing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why calling a feature 'advanced' reduces adoption",
+      "body": "When introducing new software or product capabilities, labeling them 'advanced' often intimidates prospective users and depresses usage. Behavioral studies in feature adoption show that users assume advanced tools require technical training and risk error. Renaming the exact same features to outcome-focused descriptions, like 'power tools' or 'shortcut filters,' eliminates intimidation and significantly raises customer engagement.",
+      "imageWikipediaTitle": "Software usability",
+      "sources": [
+        {
+          "title": "Usability engineering",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Usability_engineering"
+        },
+        {
+          "title": "Cognitive load",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_load"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cognitive_load",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a simple pause after stating price defends your margin",
+      "body": "Negotiators who speak immediately after stating their price frequently bid against themselves by rushing to justify or discount the quote. Research in conversational turn-taking and negotiation shows that maintaining comfortable silence signals confidence and shifts cognitive processing back to the buyer. Tolerating an initial silent interval of several seconds reliably yields higher final settlement prices compared to nervously filling the void.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        },
+        {
+          "title": "Silence in conversational interaction",
+          "publisher": "PubMed Central (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8900481/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negotiation",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Selling the next step beats pitching the whole product",
+      "body": "High-performing sales conversations focus entirely on securing commitment to the immediate next micro-step rather than closing the ultimate transaction. Psychologically, agreeing to a 10-minute demonstration or sample review presents negligible risk, preventing decision fatigue. By establishing small, low-friction commitments sequentially, prospects develop momentum and behavioral consistency that make the final buying decision feel like a natural progression.",
+      "imageWikipediaTitle": "Sales",
+      "sources": [
+        {
+          "title": "Sales process",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sales_process"
+        },
+        {
+          "title": "Commitment device",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commitment_device"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sales_process",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the 'question-behavior effect' in persuasion and sales?",
+      "options": [
+        "Asking people about their future intentions increases their likelihood of performing the action",
+        "Interrogating buyers causes them to become defensive and reject proposals",
+        "Asking rhetorical questions confuses consumers into overspending",
+        "Posing trivia questions distracts shoppers from checking prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simply asking people if they intend to perform a behavior primes their memory and increases actual follow-through."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does 'pennies-a-day' framing successfully boost customer conversion?",
+      "options": [
+        "It forces customers to make payment using spare physical change",
+        "It makes buyers compare the price to small daily expenses instead of large budgets",
+        "It hides hidden processing fees until checkout is complete",
+        "It prevents banks from declining high-value transactions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Framing an annual cost as a tiny daily amount shifts mental comparison to petty cash items like coffee."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does labeling product features 'advanced' often hurt user adoption?",
+      "options": [
+        "Customers assume advanced features are broken or unreleased",
+        "It intimidates users by implying complex training and a high risk of error",
+        "Advanced features are legally restricted to licensed corporate buyers",
+        "It makes the product look outdated compared to standard models"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 'advanced' label introduces unnecessary cognitive friction and fear of making mistakes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What common mistake do sales reps make immediately after stating a price?",
+      "options": [
+        "Rushing to speak and offering discounts before the buyer even responds",
+        "Writing the quote down on paper",
+        "Maintaining direct eye contact",
+        "Asking for the buyer's credit card number too quietly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Failing to tolerate silence often leads sellers to bid against themselves by hastily justifying or discounting."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is pitching small intermediate steps more effective than pushing for the final sale?",
+      "options": [
+        "It prolongs the contract negotiation so legal fees increase",
+        "Low-friction commitments build behavioral momentum without triggering decision fatigue",
+        "It hides the true price of the product until delivery",
+        "Buyers prefer signing dozens of separate micro-contracts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Securing easy micro-commitments creates momentum and reduces the perceived risk of saying yes."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what percentage can asking consumers about their buying intentions increase actual purchase rates?",
+      "answer": 35,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Research on the question-behavior effect shows intent measurement can boost subsequent purchases by over 35%."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Highlighting features as 'advanced' makes software users eager to try them.",
+      "answer": false,
+      "explanation": "Labeling tools 'advanced' often triggers intimidation and cognitive load; action-oriented labels perform much better."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "In negotiation, staying silent right after stating your price signals confidence and protects margins.",
+      "answer": true,
+      "explanation": "Tolerating silence prevents nervous self-discounting and gives the buyer room to process the figure."
+    }
+  ]
+}

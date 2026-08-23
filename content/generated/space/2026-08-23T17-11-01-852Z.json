@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.852Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Moon's gravity is so lumpy it can pull satellites out of orbit",
+      "body": "Earth's gravity is relatively smooth, but the Moon is covered in massive gravitational anomalies called mascons. Formed when asteroid impacts created giant basins later flooded by dense basaltic lava, these subterranean heavy spots tug unevenly on orbiting spacecraft. Without regular thruster corrections, low-altitude lunar satellites will steadily have their orbits distorted until they crash into the rugged lunar surface.",
+      "imageWikipediaTitle": "Gravitation of the Moon",
+      "sources": [
+        {
+          "title": "GRAIL Creates Detailed Gravity Map of the Moon",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/mission_pages/grail/news/grail20130530.html"
+        },
+        {
+          "title": "Mass concentration (astronomy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mass_concentration_(astronomy)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mass_concentration_(astronomy)",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jupiter's spectacular auroras are powered from the inside out",
+      "body": "Unlike Earth's auroras, which flare up when energetic solar winds collide with our upper atmosphere, Jupiter's most powerful auroral displays are internally driven. The gas giant's volcanic moon, Io, spews over a ton of sulfur dioxide gas into space every second. Jupiter's rapid ten-hour rotation sweeps up these charged particles, accelerating them along magnetic field lines into polar skies in an unending, super-charged light show.",
+      "imageWikipediaTitle": "Aurora",
+      "sources": [
+        {
+          "title": "NASA's Juno Spacecraft Identifies Origins of Jupiter's Intense Auroral Features",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/nasas-juno-reveals-origins-of-jupiters-intense-auroral-features"
+        },
+        {
+          "title": "Aurora",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aurora"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Aurora",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Astronauts can see blinding light flashes with their eyes closed",
+      "body": "Beginning with Apollo 11, astronauts traveling beyond Earth's thick magnetic bubble reported mysterious white streaks and flashes of light while trying to sleep. This phenomenon occurs when high-energy cosmic rays zip directly through the spacecraft hull and penetrate an astronaut's eyeball. As these relativistic subatomic particles strike the retina or trigger Cherenkov radiation in the eye's fluid, the optic nerve registers bright, phantom flashes in total darkness.",
+      "imageWikipediaTitle": "Cosmic ray visual phenomena",
+      "sources": [
+        {
+          "title": "Space Radiation and the Human Body",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/hrp/radiation"
+        },
+        {
+          "title": "Cosmic ray visual phenomena",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cosmic_ray_visual_phenomena"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cosmic_ray_visual_phenomena",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The James Webb Space Telescope doesn't orbit Earth",
+      "body": "Most space telescopes, including Hubble, circle Earth in low orbit. But the James Webb Space Telescope operates about 1.5 million kilometers away at the second Sun-Earth Lagrange point. At this gravitational balance point, the combined pulls of Earth and the Sun match the orbital period of the observatory. This allows Webb to orbit the Sun in sync with Earth while permanently shielding its delicate infrared instruments from planetary heat.",
+      "imageWikipediaTitle": "James Webb Space Telescope",
+      "sources": [
+        {
+          "title": "Webb Orbit",
+          "publisher": "NASA",
+          "url": "https://webb.nasa.gov/content/about/orbit.html"
+        },
+        {
+          "title": "James Webb Space Telescope",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_Webb_Space_Telescope"
+        }
+      ],
+      "readMoreUrl": "https://webb.nasa.gov/content/about/orbit.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Three of Jupiter's largest moons are locked in a cosmic clockwork",
+      "body": "Jupiter's moons Io, Europa, and Ganymede perform a synchronized orbital dance known as the Laplace resonance. For every single orbit Ganymede completes around Jupiter, Europa completes exactly two, and volcanic Io completes exactly four. This precise 4:2:1 ratio causes the moons to gravitationally pull on one another at regular intervals, warping their orbits and continuously flexing their interiors with tidal friction to generate vast internal heat.",
+      "imageWikipediaTitle": "Orbital resonance",
+      "sources": [
+        {
+          "title": "Laplace Resonance and Jupiter's Moons",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/edu/news/2021/6/8/studying-jupiters-icy-ocean-moons-with-nasa-science/"
+        },
+        {
+          "title": "Orbital resonance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Orbital_resonance"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Orbital_resonance",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do unpowered low-orbit satellites around the Moon eventually crash into its surface?",
+      "options": [
+        "Atmospheric drag from the Moon's dense exosphere",
+        "Uneven mass concentrations beneath impact basins distort orbits",
+        "The Moon's global magnetic field slows them down",
+        "Solar radiation pressure pushes them inward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Subterranean basalt deposits called mascons create lumpy gravitational tugs that steadily deform and destabilize low lunar orbits."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary source of charged particles powering Jupiter's most intense auroras?",
+      "options": [
+        "Solar wind collisions during geomagnetic storms",
+        "Volcanic sulfur dioxide ejected by its moon Io",
+        "Water geysers erupting from Europa",
+        "Helium rain in Jupiter's upper atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Io expels over a ton of volcanic gas per second into Jupiter's magnetic field, fueling the planet's powerful, permanent auroral light show."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What causes astronauts in deep space to perceive flashes of light with their eyes shut?",
+      "options": [
+        "Pressure build-ups in the optic nerve caused by microgravity",
+        "High-energy cosmic rays passing through the eyeball and retina",
+        "Static electrical charges on spacecraft windows",
+        "Oxygen deprivation during sleep cycles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Relativistic cosmic ray particles penetrate the spacecraft hull and astronaut's eye, physically stimulating the retina."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where does the James Webb Space Telescope operate?",
+      "options": [
+        "In low Earth orbit alongside Hubble",
+        "In an elliptical orbit around the Moon",
+        "At the Sun-Earth L2 Lagrange point 1.5 million km away",
+        "In a trailing orbit behind Mars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Webb orbits the Sun at the second Sun-Earth Lagrange point (L2), roughly 1.5 million kilometers from Earth."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What orbital ratio defines the Laplace resonance between Io, Europa, and Ganymede?",
+      "options": [
+        "1:2:3",
+        "4:2:1",
+        "3:2:1",
+        "8:4:1"
+      ],
+      "correctIndex": 1,
+      "explanation": "For every four orbits Io completes, Europa completes two, and Ganymede completes exactly one."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many tons of volcanic gas does Jupiter's moon Io eject into space every single second?",
+      "answer": 1,
+      "min": 0.1,
+      "max": 20,
+      "unit": "tons",
+      "explanation": "Io spews roughly 1 ton of sulfur dioxide and other volcanic material each second, feeding Jupiter's magnetosphere."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many million kilometers away from Earth is the James Webb Space Telescope located?",
+      "answer": 1.5,
+      "min": 0.2,
+      "max": 15,
+      "unit": "million km",
+      "explanation": "Webb orbits the Sun-Earth L2 point roughly 1.5 million kilometers (nearly 1 million miles) from Earth."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Jupiter's auroras are primarily triggered by solar wind storms, just like Earth's.",
+      "answer": false,
+      "explanation": "Jupiter's most powerful auroral displays are internally driven by volcanic particles from its moon Io, not solar wind."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Astronauts can see bright streaks of light even in pitch darkness with their eyes closed.",
+      "answer": true,
+      "explanation": "High-energy cosmic rays penetrate straight through eyelids and eye fluids, directly exciting the retina."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The James Webb Space Telescope orbits Earth in high altitude.",
+      "answer": false,
+      "explanation": "Webb does not orbit Earth at all; it orbits the Sun at the Sun-Earth L2 Lagrange point 1.5 million kilometers away."
+    }
+  ]
+}

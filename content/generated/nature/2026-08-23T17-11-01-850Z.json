@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.850Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This goose migrates over the Himalayas in air thin enough to suffocate humans",
+      "body": "Every year, bar-headed geese migrate directly over the Himalayas, flying at altitudes exceeding 7,000 meters where oxygen levels drop to less than half of sea level. To power their wings in this thin air, the birds rely on specialized hemoglobin that binds oxygen exceptionally fast. They also possess hyper-dense networks of capillaries in their flight muscles and hyperventilate without disrupting their blood chemistry.",
+      "imageWikipediaTitle": "Bar-headed goose",
+      "sources": [
+        {
+          "title": "Bar-headed goose",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bar-headed_goose"
+        },
+        {
+          "title": "Tracking Bar-headed Geese Across the Himalayas",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/centers/werc/science/tracking-bar-headed-geese-across-himalayas"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/centers/werc/science/tracking-bar-headed-geese-across-himalayas",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "New Zealand's tuatara reptile has a functioning third eye on top of its head",
+      "body": "The tuatara, a reptile native to New Zealand, has a functioning third eye located right on top of its head. Known as a parietal eye, it comes complete with its own lens, retina, cornea, and nerve connection to the brain. While it is covered by opaque scales in adults, hatchling tuataras have a visible translucent window to sense light cycles, helping regulate circadian rhythms and hormone production.",
+      "imageWikipediaTitle": "Tuatara",
+      "sources": [
+        {
+          "title": "Tuatara",
+          "publisher": "New Zealand Department of Conservation",
+          "url": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/"
+        },
+        {
+          "title": "Tuatara",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tuatara"
+        }
+      ],
+      "readMoreUrl": "https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cut this tiny flatworm into hundreds of pieces and every piece grows a new body",
+      "body": "Planarian flatworms possess extraordinary regenerative abilities: slice one into hundreds of pieces, and every single fragment can regrow into an entire, fully functioning worm. This is powered by pluripotent stem cells called neoblasts, which make up roughly a fifth of the worm's body. These stem cells can differentiate into any cell type, reconstructing a complete brain, eyes, and digestive system in under two weeks.",
+      "imageWikipediaTitle": "Planarian",
+      "sources": [
+        {
+          "title": "Planarian regeneration: a classic model system for modern biology",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3337677/"
+        },
+        {
+          "title": "Planarian",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planarian"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3337677/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tiny reef fish became the first fish known to pass the mirror test",
+      "body": "Scientists long believed self-recognition was exclusive to large-brained mammals like chimpanzees and dolphins. However, the tiny bluestreak cleaner wrasse became the first fish to pass the classic mirror self-recognition test. When marked with a brown gel on their throats, the fish swam to mirrors, inspected the spot, and then scraped their bodies against rocks to remove it—demonstrating an awareness of their own reflection.",
+      "imageWikipediaTitle": "Bluestreak cleaner wrasse",
+      "sources": [
+        {
+          "title": "If a fish can pass the mark test, what are the implications for consciousness and self-awareness testing in animals?",
+          "publisher": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000068"
+        },
+        {
+          "title": "Bluestreak cleaner wrasse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bluestreak_cleaner_wrasse"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000068",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Periodical cicadas use prime numbers to outsmart forest predators",
+      "body": "Periodical cicadas spend either 13 or 17 years living underground as nymphs before tunneling to the surface simultaneously by the millions. Biologists believe these life cycles evolved as prime numbers because they make it mathematically impossible for local predators with shorter, multi-year population cycles to regularly synchronize with the cicadas' emergence. When they finally emerge, their overwhelming numbers simply satiate every predator in the forest.",
+      "imageWikipediaTitle": "Periodical cicadas",
+      "sources": [
+        {
+          "title": "Periodical Cicadas",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/periodical-cicadas.htm"
+        },
+        {
+          "title": "Periodical cicadas",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Periodical_cicadas"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/periodical-cicadas.htm",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do bar-headed geese survive extreme low-oxygen conditions while flying over the Himalayas?",
+      "options": [
+        "They carry supplemental air stored inside internal bladders",
+        "They have specialized hemoglobin and dense muscle capillaries",
+        "They only flap their wings once every few minutes to save oxygen",
+        "They enter a semi-dormant state and glide purely on thermals"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bar-headed geese rely on high-affinity hemoglobin, dense capillaries in flight muscles, and safe hyperventilation to fly at high altitudes."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What unusual anatomical feature does New Zealand's tuatara possess?",
+      "options": [
+        "A third eye on top of its head with a lens and retina",
+        "Two hearts that beat at completely different rhythms",
+        "An ear canal capable of detecting ultrasonic frequencies",
+        "Glands that produce venom through hollow back scales"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tuataras have a parietal 'third eye' on top of their skulls with a lens, retina, and nerve connection to help regulate circadian rhythms."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What allows planarian flatworms to regenerate entire bodies from tiny tissue fragments?",
+      "options": [
+        "Symbiotic bacteria that reconstruct missing cell walls",
+        "A high density of pluripotent stem cells called neoblasts",
+        "A rigid exoskeleton that preserves the blueprint of the body",
+        "The ability to absorb and incorporate DNA from surrounding soil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neoblasts are adult pluripotent stem cells comprising roughly 20% of a planarian's body, enabling full regeneration of any organ."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did bluestreak cleaner wrasses demonstrate self-awareness in mirror experiments?",
+      "options": [
+        "By attacking reflections of rival species while ignoring their own",
+        "By using mirrors to guide other fish toward hidden food sources",
+        "By inspecting a throat mark in a mirror and trying to scrape it off",
+        "By changing their color patterns to match their reflection's movement"
+      ],
+      "correctIndex": 2,
+      "explanation": "When marked with colored gel, cleaner wrasses checked their reflection and attempted to scrape the mark off against rocks."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do periodical cicadas emerge in prime-numbered intervals of 13 or 17 years?",
+      "options": [
+        "Prime intervals minimize synchronization with predator population cycles",
+        "It takes exactly that long to digest the sap of hardwood tree roots",
+        "Soil temperature cycles naturally fluctuate in 13- and 17-year rhythms",
+        "Prime numbers prevent different cicada broods from interbreeding"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime numbers make it mathematically difficult for predators with 2-, 3-, 4-, or 5-year cycles to regularly align with the cicadas' emergence."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many years can periodical cicada nymphs spend underground before emerging as adults?",
+      "answer": 17,
+      "min": 1,
+      "max": 30,
+      "unit": "years",
+      "explanation": "Periodical cicadas spend either 13 or 17 years underground, representing some of the longest lifespans of any known insect."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The tuatara has a functioning third eye complete with a lens and retina.",
+      "answer": true,
+      "explanation": "This sounds like myth, but tuataras truly possess a parietal third eye on their heads that connects directly to the brain."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Only large-brained mammals like apes and dolphins can recognize themselves in a mirror.",
+      "answer": false,
+      "explanation": "The bluestreak cleaner wrasse, a small reef fish, passed the mirror self-recognition test by attempting to scrape off marks seen only in reflections."
+    }
+  ]
+}

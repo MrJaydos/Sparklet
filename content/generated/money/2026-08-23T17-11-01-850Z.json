@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.850Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Natural Disasters Don't Actually Stimulate Economies",
+      "body": "In 1850, French economist Frédéric Bastiat dismantled the claim that destruction fuels economic activity. When a child breaks a window, the baker pays a glazier to fix it, creating visible business. But Bastiat highlighted the unseen cost: the baker can no longer spend that money on a new suit or book. Destruction does not create new wealth; it merely forces people to spend scarce resources restoring what was already there.",
+      "imageWikipediaTitle": "Frédéric Bastiat",
+      "sources": [
+        {
+          "title": "That Which is Seen, and That Which is Not Seen",
+          "publisher": "Library of Economics and Liberty",
+          "url": "https://www.econlib.org/library/Bastiat/basEss1.html"
+        },
+        {
+          "title": "Parable of the broken window",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parable_of_the_broken_window"
+        }
+      ],
+      "readMoreUrl": "https://www.econlib.org/library/Bastiat/basEss1.html",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why US Dollar Bills Were Printed Green",
+      "body": "In the 1860s, the US government issued paper Demand Notes to fund the Civil War. Officials chose green ink for the reverse side specifically because nineteenth-century cameras could only take black-and-white photos. Counterfeiters had been photographing paper banknotes and using the resulting plates to print fakes, but the patented green tint could not be chemically stripped or photographed cleanly. The anti-counterfeiting ink worked so well that green remained the standard.",
+      "imageWikipediaTitle": "Greenback (1860s money)",
+      "sources": [
+        {
+          "title": "Currency History",
+          "publisher": "Bureau of Engraving and Printing",
+          "url": "https://www.bep.gov/currency/history"
+        },
+        {
+          "title": "Greenback (1860s money)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greenback_(1860s_money)"
+        }
+      ],
+      "readMoreUrl": "https://www.bep.gov/currency/history",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Competing Businesses Open Right Next Door",
+      "body": "In 1929, mathematician Harold Hotelling modeled why competing businesses clump together. If two rival ice cream vendors share a beach, spreading out maximizes convenience for sunbathers. However, if one vendor moves closer to the center, they steal customers from their rival without losing any of their own. The only stable equilibrium is for both vendors to end up back-to-back in the middle, explaining why rival gas stations and fast-food chains crowd together.",
+      "imageWikipediaTitle": "Harold Hotelling",
+      "sources": [
+        {
+          "title": "Why are similar shops next to each other?",
+          "publisher": "Plus Magazine",
+          "url": "https://plus.maths.org/content/why-are-similar-shops-next-each-other"
+        },
+        {
+          "title": "Hotelling's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hotelling%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://plus.maths.org/content/why-are-similar-shops-next-each-other",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Day One Trader Broke the Bank of England",
+      "body": "On September 16, 1992, known as Black Wednesday, investor George Soros bet $10 billion that the British pound was overvalued in Europe's Exchange Rate Mechanism. The Bank of England desperately hiked interest rates from 10% to 15% in a single day and burned through billions in foreign reserves to prop up the currency. The central bank failed, Britain crashed out of the mechanism, and Soros’s fund netted an estimated $1 billion profit.",
+      "imageWikipediaTitle": "Black Wednesday",
+      "sources": [
+        {
+          "title": "Black Wednesday: The day the pound was broken",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/business-19616185"
+        },
+        {
+          "title": "Black Wednesday",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Black_Wednesday"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/business-19616185",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the First Number Mentioned Traps Your Brain",
+      "body": "In behavioral economics, anchoring describes how an initial number heavily distorts subsequent financial judgment. In famous experiments by Daniel Kahneman and Amos Tversky, participants who watched a rigged wheel of fortune stop at 65 estimated African representation in the UN at 45%, while those seeing 10 estimated just 25%. Even when starting figures are entirely random, they anchor expectations, pulling subsequent salary negotiations and retail price estimates toward the initial benchmark.",
+      "imageWikipediaTitle": "Amos Tversky",
+      "sources": [
+        {
+          "title": "What is Anchoring in Negotiation?",
+          "publisher": "Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/what-is-anchoring-in-negotiation/"
+        },
+        {
+          "title": "Anchoring (cognitive bias)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/what-is-anchoring-in-negotiation/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the central point of the Broken Window Fallacy?",
+      "options": [
+        "Destruction stimulates long-term economic growth by employing workers",
+        "Repairing damage redirects capital away from creating new goods",
+        "Property destruction increases the velocity of money without cost",
+        "Windows are the most vulnerable capital asset in modern retail"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bastiat showed that money spent repairing damage is money that cannot be spent producing new, additive goods and services."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did the US Treasury choose green ink for the 1860s Demand Notes?",
+      "options": [
+        "Green dye was the cheapest pigment produced domestically",
+        "Civil War cameras could not easily photograph and replicate green ink",
+        "Green was the official color of the Union Army uniforms",
+        "It matched the color of British bank notes used in trade"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nineteenth-century black-and-white photographic counterfeiting techniques could not replicate the special green tint without distorting the plates."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Hotelling's Law, why do competing retailers cluster right next to each other?",
+      "options": [
+        "Local zoning laws mandate that competing businesses share single plazas",
+        "Moving to the center lets a business capture the most market share",
+        "Clustering cuts supply chain transportation expenses in half",
+        "Customers refuse to visit stores that lack adjacent competitors"
+      ],
+      "correctIndex": 1,
+      "explanation": "In spatial competition, moving toward the center captures market share from the competitor without losing one's own outer territory."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What dramatic step did the Bank of England take on Black Wednesday to defend the pound?",
+      "options": [
+        "They banned all currency trading for 48 hours",
+        "They hiked interest rates from 10% to 15% in hours",
+        "They replaced all paper banknotes with silver coins",
+        "They petitioned the IMF to freeze international short selling"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bank of England raised interest rates from 10% to 12%, then announced a further hike to 15% in a failed bid to attract buyers."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the anchoring bias affect financial negotiations?",
+      "options": [
+        "It causes buyers to always reject the first proposed price",
+        "It pulls all subsequent counter-offers toward the first number mentioned",
+        "It makes negotiators forget their original spending limit entirely",
+        "It prevents people from negotiating unless a contract is signed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anchoring occurs when an initial number establishes a psychological baseline that heavily influences all subsequent estimates and counter-offers."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How much profit (in billions of USD) did George Soros's Quantum Fund make by shorting the British pound on Black Wednesday?",
+      "answer": 1,
+      "min": 0.1,
+      "max": 10,
+      "unit": "billion USD",
+      "explanation": "Soros's Quantum Fund pocketed roughly $1 billion in profit in a single day when Britain was forced to devalue the pound."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Natural disasters stimulate the economy because rebuilding creates thousands of new jobs.",
+      "answer": false,
+      "explanation": "Rebuilding replaces destroyed assets instead of creating new wealth, diverting capital that would have funded other growth."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "US dollar bills were originally dyed green simply because green pigment was the cheapest available.",
+      "answer": false,
+      "explanation": "Green ink was selected because nineteenth-century black-and-white cameras could not photographically replicate it for counterfeit plates."
+    }
+  ]
+}

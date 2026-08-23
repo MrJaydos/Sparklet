@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.846Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1908 Siberia Blast Leveled 80 Million Trees Without Leaving a Crater",
+      "body": "In 1908, a massive aerial explosion over Siberia flattened roughly 80 million trees across 2,150 square kilometers. Yet search expeditions found no impact crater and no remnants of a meteor on the ground. Scientists determined a stony meteor roughly 50 to 60 meters wide entered Earth's atmosphere and detonated 5 to 10 kilometers above the surface, releasing energy equivalent to roughly 10 to 15 megatons of TNT.",
+      "imageWikipediaTitle": "Tunguska event",
+      "sources": [
+        {
+          "title": "Tunguska event",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/event/Tunguska-event"
+        },
+        {
+          "title": "Tunguska event",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tunguska_event"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/event/Tunguska-event",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Nurse Who Survived the Disasters of Three Sister Ships",
+      "body": "Ocean liner stewardess and nurse Violet Jessop was aboard all three Olympic-class sister ships during their most catastrophic accidents. She was on the RMS Olympic when it collided with a warship in 1911, escaped the sinking Titanic in a lifeboat in 1912, and survived the HMHS Britannic's sinking after it struck a naval mine in 1916. During the Britannic evacuation, her lifeboat was sucked into the ship's propellers, but she leapt out and survived.",
+      "imageWikipediaTitle": "Violet Jessop",
+      "sources": [
+        {
+          "title": "Violet Jessop",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/biography/Violet-Jessop"
+        },
+        {
+          "title": "Violet Jessop",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Violet_Jessop"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Violet-Jessop",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nero Did Not Fiddle While Rome Burned",
+      "body": "Popular legend claims Emperor Nero played the fiddle and celebrated while Rome was consumed by fire in 64 CE. In reality, the violin-family fiddle was not invented until the 16th century—over 1,400 years later. Historical records from Tacitus indicate Nero was in the coastal city of Antium, roughly 50 kilometers away, when the fire began. Upon hearing the news, he returned to Rome, organized relief efforts, opened his private gardens to refugees, and distributed grain.",
+      "imageWikipediaTitle": "Great Fire of Rome",
+      "sources": [
+        {
+          "title": "The Great Fire of Rome",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/1479/the-great-fire-of-rome/"
+        },
+        {
+          "title": "Great Fire of Rome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Fire_of_Rome"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/article/1479/the-great-fire-of-rome/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 12-Year-Old Girl Found the First Complete Ichthyosaur Skeleton",
+      "body": "In 1811, 12-year-old Mary Anning and her brother Joseph uncovered the fossilized skull and 17-foot skeleton of an ichthyosaur along the cliffs of Lyme Regis in England. Despite lacking formal scientific education and facing exclusion from scientific societies due to her gender, Anning went on to discover the first complete plesiosaur skeleton and the first British pterosaur. Her groundbreaking field discoveries fundamentally reshaped paleontology and supported the emerging concept of prehistoric extinction.",
+      "imageWikipediaTitle": "Mary Anning",
+      "sources": [
+        {
+          "title": "Mary Anning: the unsung hero of fossil discovery",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html"
+        },
+        {
+          "title": "Mary Anning",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mary_Anning"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/mary-anning-unsung-hero.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Great Wall of China Cannot Be Seen from Space with the Naked Eye",
+      "body": "A persistent myth asserts that the Great Wall of China is the only man-made structure visible from space with the naked eye. In reality, astronauts in low Earth orbit cannot distinguish the Great Wall without cameras or binoculars. Because the wall is constructed from local stone and soil, its colors blend into the surrounding terrain, and its average width of just a few meters is far below the resolving power of human vision from orbit.",
+      "imageWikipediaTitle": "Great Wall of China",
+      "sources": [
+        {
+          "title": "China's Wall Less and More Viewable from Space",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html"
+        },
+        {
+          "title": "Great Wall of China",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was no impact crater found at the site of the 1908 Tunguska explosion?",
+      "options": [
+        "The meteor detonated in the atmosphere before hitting the ground",
+        "It landed in a deep volcanic lake that concealed the crater",
+        "The explosion was caused by an underground natural gas eruption",
+        "Tectonic shifts closed the crater within a few years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The meteor exploded 5 to 10 kilometers above ground as an airburst, flattening millions of trees without creating an impact crater."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which three sister ships did ocean liner stewardess Violet Jessop survive accidents on?",
+      "options": [
+        "Olympic, Titanic, and Britannic",
+        "Lusitania, Mauritania, and Aquitania",
+        "Queen Mary, Queen Elizabeth, and Andrea Doria",
+        "Titanic, Lusitania, and Republic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Violet Jessop survived a collision on the RMS Olympic (1911), the sinking of the Titanic (1912), and the sinking of the Britannic (1916)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where was Emperor Nero when the Great Fire of Rome began in 64 CE?",
+      "options": [
+        "In the coastal town of Antium, roughly 50 km away",
+        "On the roof of his imperial palace in central Rome",
+        "Leading a military campaign in Gaul",
+        "Watching gladiatorial games in Pompeii"
+      ],
+      "correctIndex": 0,
+      "explanation": "Historical accounts, including Tacitus, record that Nero was in Antium and rushed back to Rome upon hearing about the fire."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which prehistoric marine reptile was first fully uncovered by Mary Anning at age 12?",
+      "options": [
+        "Ichthyosaur",
+        "Mosasaur",
+        "Megalodon",
+        "Spinosaurus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mary Anning and her brother Joseph uncovered the fossilized skull and 17-foot skeleton of an ichthyosaur in 1811."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is the Great Wall of China not visible from low Earth orbit with the unaided eye?",
+      "options": [
+        "It blends into local materials and is too narrow for human eye resolution",
+        "It was built entirely in underground tunnels",
+        "Atmospheric moisture permanently obscures northern China",
+        "The wall is made entirely of reflective marble"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the wall is narrow and made of local stone and dirt, it blends into the landscape and lacks enough contrast or width to be seen without magnification."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Roughly how many square kilometers of Siberian forest were flattened by the 1908 Tunguska explosion?",
+      "answer": 2150,
+      "min": 100,
+      "max": 10000,
+      "unit": "km²",
+      "explanation": "The 1908 airburst leveled roughly 80 million trees across an area of 2,150 square kilometers."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How old was Mary Anning when she helped discover the first complete ichthyosaur skeleton?",
+      "answer": 12,
+      "min": 5,
+      "max": 40,
+      "unit": "years",
+      "explanation": "At just 12 years old, Mary Anning uncovered a 17-foot ichthyosaur skeleton in Lyme Regis in 1811."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Emperor Nero played the fiddle while Rome burned to the ground in 64 CE.",
+      "answer": false,
+      "explanation": "The fiddle was not invented until the 16th century, and Nero was actually 50 km away in Antium when the fire started."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Great Wall of China is visible from space with the unaided human eye.",
+      "answer": false,
+      "explanation": "Astronauts confirm that the Great Wall blends into surrounding terrain and is too narrow to see without optical aid."
+    }
+  ]
+}

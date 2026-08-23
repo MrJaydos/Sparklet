@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-23T17:11:01.849Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first .com domain in history was registered for a Lisp machine maker",
+      "body": "On March 15, 1985, Symbolics Inc. registered symbolics.com, creating the world's very first commercial .com domain. Symbolics was an MIT spin-off that designed and manufactured specialized workstations engineered specifically to execute the Lisp programming language. The registration occurred years before the World Wide Web existed, when the internet connected only a few thousand hosts. The domain remains online today as a historic internet museum.",
+      "imageWikipediaTitle": "Symbolics",
+      "sources": [
+        {
+          "title": "Symbolics.com Is First Domain Registered",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/tdih/march/15/"
+        },
+        {
+          "title": "Symbolics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Symbolics"
+        }
+      ],
+      "readMoreUrl": "https://www.computerhistory.org/tdih/march/15/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A fundamental compression algorithm was created to skip a final exam",
+      "body": "In 1951, MIT graduate student David Huffman faced a choice from his professor, Robert Fano: take a comprehensive final exam, or find an optimal binary encoding method. Huffman struggled with the problem for months and nearly gave up. As he threw his notes in the trash, the recursive tree structure suddenly clicked. Huffman coding outperformed his professor's algorithm and became a cornerstone of formats like JPEG, MP3, and Gzip.",
+      "imageWikipediaTitle": "Huffman coding",
+      "sources": [
+        {
+          "title": "Professor David Huffman, data compression pioneer, dies at 74",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/1999/huffman-1013"
+        },
+        {
+          "title": "Huffman coding",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Huffman_coding"
+        }
+      ],
+      "readMoreUrl": "https://news.mit.edu/1999/huffman-1013",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Quicksort was invented to translate Russian text on magnetic tape",
+      "body": "In 1959, British computer scientist Tony Hoare was studying machine translation at Moscow State University. Translating Russian into English required looking up words in a dictionary stored sequentially on magnetic tape. Sorting the sentences alphabetically first eliminated time-consuming tape rewinds. To sort the words efficiently in memory, Hoare designed Quicksort, a recursive divide-and-conquer algorithm that remains one of the fastest and most widely implemented sorting methods in computer science.",
+      "imageWikipediaTitle": "Quicksort",
+      "sources": [
+        {
+          "title": "Sir Antony Hoare - ACM A.M. Turing Award",
+          "publisher": "Association for Computing Machinery",
+          "url": "https://amturing.acm.org/award_winners/hoare_4622187.cfm"
+        },
+        {
+          "title": "Quicksort",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quicksort"
+        }
+      ],
+      "readMoreUrl": "https://amturing.acm.org/award_winners/hoare_4622187.cfm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Modern code can still trigger a mechanical bell from 1963",
+      "body": "In the original 1963 ASCII character specification, byte value 0x07 was defined as the BEL character. On early teleprinters like the Teletype Model 33, receiving this byte caused a small metal hammer to strike a physical brass bell, alerting operators to incoming messages. Over sixty years later, sending the ASCII 7 escape sequence to a modern command-line terminal still triggers an audible beep or visual flash.",
+      "imageWikipediaTitle": "Teletype Model 33",
+      "sources": [
+        {
+          "title": "RFC 20: ASCII format for Network Interchange",
+          "publisher": "Internet Engineering Task Force",
+          "url": "https://www.ietf.org/rfc/rfc20.txt"
+        },
+        {
+          "title": "Bell character",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bell_character"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bell_character",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The smiley emoticon was invented to defuse campus flame wars",
+      "body": "On September 19, 1982, computer scientist Scott Fahlman posted a message to a Carnegie Mellon University bulletin board proposing :-) for jokes and :-( for serious posts. Readers had been misinterpreting sarcastic online quips as literal statements, sparking angry flame wars across the campus network. Fahlman's three-character joke marker solved the tone problem, quickly spreading across ARPANET to become the universal ancestor of modern digital emoticons.",
+      "imageWikipediaTitle": "Smiley",
+      "sources": [
+        {
+          "title": "Original Bboard Post in which :-) was proposed",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Smiley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Smiley"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What type of computers did Symbolics Inc., the owner of the world's first .com domain, manufacture?",
+      "options": [
+        "Lisp machines",
+        "IBM mainframes",
+        "Home gaming consoles",
+        "Unix supercomputers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Symbolics was an MIT spin-off dedicated to building specialized workstations engineered exclusively to run Lisp."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did David Huffman originally develop his famous data compression algorithm?",
+      "options": [
+        "To fulfill a term assignment and skip taking a final exam",
+        "To reduce the size of military telegraph transmissions",
+        "To fit more software onto the Apollo guidance computer",
+        "To win a cash prize offered by Bell Labs"
+      ],
+      "correctIndex": 0,
+      "explanation": "His MIT professor offered students the choice to solve an open coding problem instead of taking a final exam."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What practical problem led Tony Hoare to invent the Quicksort algorithm in 1959?",
+      "options": [
+        "Sorting Russian dictionary terms on magnetic tape for machine translation",
+        "Ranking search results for early military mainframes",
+        "Optimizing radar signals for British air traffic control",
+        "Calculating ballistic trajectories for artillery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hoare was translating Russian to English in Moscow and needed to sort sentences to reduce tape rewinds."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the ASCII 7 (BEL) character physically do on 1960s teleprinters?",
+      "options": [
+        "It struck a physical metal chime to alert human operators",
+        "It ejected the current sheet of paper",
+        "It automatically locked the keyboard",
+        "It severed the teleprinter connection"
+      ],
+      "correctIndex": 0,
+      "explanation": "ASCII 7 caused a small hammer to strike an internal brass bell on electromechanical terminals like the Teletype Model 33."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What problem was Scott Fahlman trying to solve when he proposed the :-) emoticon in 1982?",
+      "options": [
+        "Misunderstandings on bulletin boards caused by subtle sarcasm",
+        "Excessive bandwidth use from typing full emotional words",
+        "Formatting errors on terminal screens without punctuation",
+        "A lack of punctuation marks on experimental keyboards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman introduced :-) on CMU bulletin boards so users could clearly distinguish humorous posts from serious ones."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year was symbolics.com, the world's very first .com domain name, registered?",
+      "answer": 1985,
+      "min": 1975,
+      "max": 1999,
+      "unit": "",
+      "explanation": "Symbolics.com was registered on March 15, 1985, years before the World Wide Web debuted."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Modern software terminals still support ASCII control codes originally created to ring physical hardware bells.",
+      "answer": true,
+      "explanation": "Printing the ASCII 7 (BEL) code from 1963 still triggers an audible terminal bell or visual alert in modern command-line software."
+    }
+  ]
+}
