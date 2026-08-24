@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-24T17:21:09.780Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why faces look more attractive in a crowd",
+      "body": "When you view someone standing in a group, your visual system automatically computes an average representation of all the faces present. Because individual facial asymmetries and unusual features get blended out in this mental snapshot, each person's face is perceived as closer to the statistical average—a hallmark of evolutionary attractiveness. This perceptual phenomenon, dubbed the \"cheerleader effect,\" makes people reliably rate individuals as more attractive in group photos than in isolation.",
+      "imageWikipediaTitle": "Cheerleader effect",
+      "sources": [
+        {
+          "title": "Hierarchical encoding makes individuals in a group seem more attractive",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24163333/"
+        },
+        {
+          "title": "Cheerleader effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cheerleader_effect"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/24163333/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain thinks rhymes are more truthful",
+      "body": "When evaluated for truthfulness, rhyming statements like \"woes unite foes\" are judged as significantly more accurate than identical sentiments phrased plainly, such as \"woes unite enemies.\" Cognitive psychologists call this the rhyme-as-reason effect. Rhyming increases \"cognitive fluency\"—how effortlessly the brain processes the words. The brain mistakes this subjective ease of processing for objective validity, quietly tricking listeners into trusting poetic phrasing over dry, unrhymed reality.",
+      "imageWikipediaTitle": "Rhyme",
+      "sources": [
+        {
+          "title": "Birds of a feather flock conjointly (?): rhyme as reason in aphorisms",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10825701/"
+        },
+        {
+          "title": "Rhyme-as-reason effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rhyme-as-reason_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Rhyme-as-reason_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How completely random rewards create superstitions",
+      "body": "In 1948, behavioral psychologist B. F. Skinner placed hungry pigeons in automated cages that dispensed food every 15 seconds, completely independent of the birds' behavior. Instead of waiting passively, six out of eight pigeons developed elaborate rituals: one spun counter-clockwise, another thrust its head into a corner, and others swung their necks. Because the food arrived while they happened to be moving, their brains falsely linked the random reward to their specific action.",
+      "imageWikipediaTitle": "B. F. Skinner",
+      "sources": [
+        {
+          "title": "'Superstition' in the pigeon",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16596489/"
+        },
+        {
+          "title": "Operant conditioning chamber",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operant_conditioning_chamber"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Operant_conditioning_chamber",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why we care more about one person than millions",
+      "body": "When charity appeals describe a single, named child in crisis with a photograph, donations surge dramatically compared to appeals citing statistical data on millions of starving people. Known as the identifiable victim effect, this bias occurs because individual stories trigger powerful emotional resonance in our social brain. In contrast, vast numbers trigger abstract analytical thinking, which paradoxically suppresses emotional empathy and paralyzes the impulse to help.",
+      "imageWikipediaTitle": "Empathy",
+      "sources": [
+        {
+          "title": "Sympathy and callousness: The impact of deliberative thought on donations to identifiable victims",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17393422/"
+        },
+        {
+          "title": "Identifiable victim effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Identifiable_victim_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Identifiable_victim_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rare delusion that everyone is a master of disguise",
+      "body": "In 1927, French psychiatrists documented a woman who believed her favorite stage actresses were constantly stalking her by disguising themselves as doctors, neighbors, and random strangers. Named the Fregoli delusion after Italian quick-change actor Leopoldo Fregoli, this disorder stems from a breakdown in the brain's facial recognition network. The brain registers a sense of familiarity before verifying facial features, falsely convincing the patient that different people are all a single individual in disguise.",
+      "imageWikipediaTitle": "Leopoldo Fregoli",
+      "sources": [
+        {
+          "title": "Fregoli syndrome: a case report and review of literature",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19830588/"
+        },
+        {
+          "title": "Fregoli delusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fregoli_delusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fregoli_delusion",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What perceptual mechanism causes the \"cheerleader effect\"?",
+      "options": [
+        "The brain computes an average composite face that smooths out individual flaws",
+        "Group settings trigger adrenaline, heightening overall romantic attraction",
+        "Visual contrast makes the single most attractive person stand out more",
+        "Social pressure automatically makes viewers rate group members higher"
+      ],
+      "correctIndex": 0,
+      "explanation": "Our visual system computes an ensemble average of all faces in a group, which tends to be more symmetrical and attractive than individual faces alone."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do people consistently judge rhyming aphorisms as more truthful than unrhymed statements?",
+      "options": [
+        "Rhymes are processed with greater cognitive fluency, which the brain confuses with truth",
+        "Rhyming phrases stimulate rapid dopamine release in the auditory cortex",
+        "Listeners subconsciously assume rhyming phrases come from classical literature",
+        "Unrhymed statements take twice as long to comprehend"
+      ],
+      "correctIndex": 0,
+      "explanation": "The rhyme-as-reason effect happens because rhyming increases processing fluency, which the brain misinterprets as factual accuracy."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did pigeons in B.F. Skinner's 1948 experiment develop superstitious rituals?",
+      "options": [
+        "Food was dispensed at fixed time intervals regardless of their actions",
+        "They received mild electric shocks whenever they stood completely still",
+        "They learned by imitating ritualistic motions of birds in neighboring cages",
+        "The food dispenser only opened when a bird turned counter-clockwise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because food arrived on a timer regardless of behavior, birds accidentally associated whatever movement they were making with the arrival of food."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the identifiable victim effect in psychology?",
+      "options": [
+        "People donate far more aid to a single named individual than to large statistical groups",
+        "Witnesses consistently misidentify innocent bystanders as perpetrators",
+        "Charity donors only contribute if their own personal identity is publicly recognized",
+        "Victims of trauma struggle to identify the faces of people who helped them"
+      ],
+      "correctIndex": 0,
+      "explanation": "Individual stories activate emotional empathy in the brain, while large statistics trigger detached analytical reasoning that suppresses giving."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What characterizes the Fregoli delusion?",
+      "options": [
+        "Believing different strangers are actually a single familiar person in disguise",
+        "Believing a close relative has been replaced by an identical imposter",
+        "Believing that one is already physically dead and decomposing",
+        "Losing the ability to recognize one's own reflection in mirrors"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Fregoli delusion, the brain erroneously triggers a feeling of familiarity for unfamiliar faces, leading the person to believe one individual is wearing various disguises."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In B. F. Skinner's 1948 study where food was dropped on a timer with zero training, what percentage of pigeons developed superstitious rituals?",
+      "answer": 75,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "6 out of 8 pigeons (75%) developed distinct superstitious rituals, such as hopping or spinning, believing their movements produced the food."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Whether a statement rhymes or not has no measurable impact on how factually accurate people think it is.",
+      "answer": false,
+      "explanation": "The rhyme-as-reason effect proves that rhyming increases cognitive fluency, tricking the human brain into evaluating statements as more truthful."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Highlighting large statistical figures about a disaster elicits more charitable donations than sharing one individual's story.",
+      "answer": false,
+      "explanation": "The identifiable victim effect shows that massive statistics prompt cold analytical calculation, whereas a single identifiable story sparks powerful emotional generosity."
+    }
+  ]
+}
