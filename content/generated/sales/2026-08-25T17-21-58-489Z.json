@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.489Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why highlighting a single option makes your whole pitch stick",
+      "body": "When buyers scan a pricing table or feature list, isolation dictates what they remember. Known as the Von Restorff effect, a single item that differs visually or conceptually from surrounding elements—such as a highlighted package in a contrasting color—commands outsized attention and recall. By intentionally distinguishing your preferred proposal tier, you anchor the buyer's evaluation without overwhelming them with text.",
+      "imageWikipediaTitle": "Psychological pricing",
+      "sources": [
+        {
+          "title": "Von Restorff effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Von_Restorff_effect"
+        },
+        {
+          "title": "The Von Restorff Effect in Visual Search and Memory",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8546114/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Von_Restorff_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why buyers cannot read your poker face in negotiations",
+      "body": "Negotiators often cave under pressure because they assume counterparts can clearly see their anxiety, eagerness, or bluffing. Psychological research calls this the illusion of transparency. In negotiation experiments, participants consistently overestimate their counterparts' ability to gauge their true bottom line and emotional state by more than double. Reminding yourself that your internal tension remains largely invisible prevents unnecessary, panicked concessions.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Illusion of transparency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusion_of_transparency"
+        },
+        {
+          "title": "The illusion of transparency: biased assessments of others' ability to read one's emotional states",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9588537/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusion_of_transparency",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Offer three equal packages to uncover your client's hidden priorities",
+      "body": "Pitching a single proposal forces a rigid yes-or-no decision. Instead, offer Multiple Equivalent Simultaneous Offers (MESO)—three distinct packages of equal value to you, each trading off variables like price, delivery speed, and payment terms. When clients choose their favorite, they reveal their true priorities without feeling cornered, while perceiving you as an exceptionally flexible and collaborative partner.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "The MESO Approach in Negotiation",
+          "publisher": "Program on Negotiation at Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/the-meso-approach-in-negotiation/"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/the-meso-approach-in-negotiation/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Shrink your concessions to signal you have reached your bottom line",
+      "body": "When negotiating price or terms, the rhythm of your concessions speaks louder than the amount. Bargaining studies show that offering progressively smaller concessions—such as conceding $300, then $100, then $25—signals to your counterpart that you are exhausting your flexibility. Conversely, giving equal or escalating chunks invites the other party to keep pressing, falsely signaling that more value remains untapped.",
+      "imageWikipediaTitle": "Bargaining",
+      "sources": [
+        {
+          "title": "Negotiation Tactics for Conceding Sparingly",
+          "publisher": "Program on Negotiation at Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/negotiation-tactics-for-conceding-sparingly/"
+        },
+        {
+          "title": "Bargaining",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bargaining"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/negotiation-tactics-for-conceding-sparingly/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Reading your slides aloud hurts your prospect's retention",
+      "body": "Presenters often display bullet-heavy slides and read them verbatim, assuming duplicate channels reinforce the message. Cognitive load theory proves the opposite: the redundancy effect occurs when the brain must process identical visual text and auditory speech at once, causing cognitive interference. To keep buyers engaged and receptive, pair clean visual graphics on screen with your spoken commentary instead of duplicating text.",
+      "imageWikipediaTitle": "Cognitive load",
+      "sources": [
+        {
+          "title": "Cognitive load",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_load"
+        },
+        {
+          "title": "Applying Cognitive Load Theory to Medical Education",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4030614/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cognitive_load",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the Von Restorff effect in sales presentation design?",
+      "options": [
+        "A visually distinctive item is remembered significantly better than uniform items",
+        "Buyers always pick the lowest numerical price presented to them",
+        "Presenting more than four choices guarantees client indecision",
+        "Prospects remember the opening sentence of a pitch above all else"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Von Restorff (isolation) effect shows that an item standing out visually or conceptually commands greater attention and recall."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the illusion of transparency mean for negotiators?",
+      "options": [
+        "Buyers assume contract terms are publicly visible to competitors",
+        "People systematically overestimate how well others can read their internal emotions",
+        "Negotiators believe their counterparts are always hiding critical information",
+        "Sharing pricing openly always guarantees a successful closing rate"
+      ],
+      "correctIndex": 1,
+      "explanation": "The illusion of transparency causes negotiators to believe their anxiety, eagerness, or bluffing is far more obvious than it really is."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the MESO strategy structure a sales pitch?",
+      "options": [
+        "By presenting one non-negotiable take-it-or-leave-it offer",
+        "By offering three distinct packages of equal value to the seller simultaneously",
+        "By delaying pricing discussions until the second in-person meeting",
+        "By offering a steep discount in exchange for immediate signing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Multiple Equivalent Simultaneous Offers present three equal-value options at once, uncovering buyer priorities without rigid friction."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why should a negotiator make progressively smaller concessions?",
+      "options": [
+        "It signals to the counterpart that flexibility is running out and a limit is near",
+        "It guarantees that the negotiation will conclude within two rounds",
+        "It hides the true value of the underlying product",
+        "It forces the buyer to make an immediate equal concession"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tapering concession sizes (e.g., $300, then $100, then $25) clearly communicates that the negotiator is approaching their walk-away limit."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does reading slide text verbatim reduce a prospect's comprehension?",
+      "options": [
+        "It triggers the redundancy effect, overloading working memory channels",
+        "It violates standard professional copyright presentation rules",
+        "It reduces the speaker's vocal clarity by restricting airflow",
+        "It makes clients assume the presenter cannot remember their pitch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Simultaneously processing identical text and spoken audio overloads working memory, creating cognitive interference."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many distinct packages of equal value does the MESO framework recommend presenting simultaneously?",
+      "answer": 3,
+      "min": 1,
+      "max": 10,
+      "unit": "packages",
+      "explanation": "Offering 3 equal-value proposals at once gives clients meaningful choice while revealing their true priorities."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Counterparts in a negotiation can easily read your nervousness and tell when you are bluffing.",
+      "answer": false,
+      "explanation": "Research on the illusion of transparency shows people overestimate by more than double how easily others can detect their true internal state."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Displaying bullet points on screen while reading them aloud reinforces learning through dual channels.",
+      "answer": false,
+      "explanation": "Cognitive load theory shows that matching identical spoken and written text causes the redundancy effect, overloading working memory."
+    }
+  ]
+}

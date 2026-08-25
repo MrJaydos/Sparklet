@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.502Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fulmar chicks defend themselves by vomiting lethal oil on predators",
+      "body": "When threatened in the nest, Northern fulmar chicks projectile-vomit a foul, sticky stomach oil up to several feet. For predatory birds like gulls, this defense is deadly: the oil destroys the waterproofing on their feathers, causing them to become waterlogged and either drown or freeze. Even parent fulmars approach their nests cautiously, landing downwind to avoid being blasted by their own young.",
+      "imageWikipediaTitle": "Fulmarus glacialis",
+      "sources": [
+        {
+          "title": "Northern Fulmar Life History",
+          "publisher": "Cornell Lab of Ornithology",
+          "url": "https://www.allaboutbirds.org/guide/Northern_Fulmar/overview"
+        },
+        {
+          "title": "Northern fulmar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Northern_fulmar"
+        }
+      ],
+      "readMoreUrl": "https://www.allaboutbirds.org/guide/Northern_Fulmar/overview",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A French town made it illegal for flying saucers to land in its vineyards",
+      "body": "In 1954, Lucien Jeune, mayor of the French wine-making village of Châteauneuf-du-Pape, signed an official municipal decree banning extraterrestrial vehicles. The decree stated that the landing and takeoff of flying saucers or flying cigars inside municipal limits was strictly prohibited, and any alien craft would be immediately impounded. Passed amid a national UFO craze, the decree remains on the town's books today.",
+      "imageWikipediaTitle": "Châteauneuf-du-Pape",
+      "sources": [
+        {
+          "title": "French town refuses to lift 62-year UFO ban",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/world-europe-37812543"
+        },
+        {
+          "title": "Châteauneuf-du-Pape",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teauneuf-du-Pape"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/world-europe-37812543",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Touching a baby bird won't cause its parents to abandon it",
+      "body": "The persistent warning that touching a fallen baby bird will leave a human scent that drives its mother away is entirely false. Almost all songbirds have a minimal sense of smell and cannot detect human scent on their chicks. If you find a healthy, unfeathered baby bird out of its nest, gently placing it back will not repel its parents, who will gladly resume caring for it.",
+      "imageWikipediaTitle": "Nestling",
+      "sources": [
+        {
+          "title": "What to Do If You Find a Baby Bird",
+          "publisher": "U.S. Fish and Wildlife Service",
+          "url": "https://www.fws.gov/story/what-do-if-you-find-baby-bird"
+        },
+        {
+          "title": "When You Find a Baby Bird Out of the Nest, What Should You Do?",
+          "publisher": "National Audubon Society",
+          "url": "https://www.audubon.org/news/when-you-find-baby-bird-out-nest-what-should-you-do"
+        }
+      ],
+      "readMoreUrl": "https://www.fws.gov/story/what-do-if-you-find-baby-bird",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This wasp turns cockroaches into compliant zombies with brain surgery",
+      "body": "The emerald cockroach wasp does not kill its prey outright; it performs precise neurosurgery. First, it delivers a paralyzing sting to the cockroach's thorax. Then, it inserts its stinger directly into the roach's brain, injecting venom that blocks dopamine pathways to disable its escape reflex. The docile cockroach remains fully alive while the wasp leads it by its antennae back to a burrow to feed its growing larva.",
+      "imageWikipediaTitle": "Ampulex compressa",
+      "sources": [
+        {
+          "title": "Stinging a Cockroach into a Zombie",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2423407/"
+        },
+        {
+          "title": "Emerald cockroach wasp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emerald_cockroach_wasp"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2423407/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "\"Macaroni\" in Yankee Doodle was an exaggerated 18th-century fashion trend",
+      "body": "When Yankee Doodle \"stuck a feather in his cap and called it macaroni,\" he was not referring to pasta. In 18th-century England, a \"macaroni\" was a flamboyant dandy obsessed with extravagant continental fashion, towering wigs, and affected manners. British troops sang the verse to mock unsophisticated American colonists, joking that an American yokel thought merely sticking a feather in his hat made him the height of cosmopolitan European style.",
+      "imageWikipediaTitle": "Macaroni (fashion)",
+      "sources": [
+        {
+          "title": "Yankee Doodle",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/ihas.200000025/"
+        },
+        {
+          "title": "Macaroni (fashion)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Macaroni_(fashion)"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/ihas.200000025/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the stomach oil vomited by Northern fulmars prove deadly to predatory birds?",
+      "options": [
+        "It breaks down feather waterproofing, causing birds to drown or freeze",
+        "It contains a neurotoxin that stops the heart on contact",
+        "It glues the predator's beak permanently shut",
+        "It bursts into flames when exposed to sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fulmar stomach oil strips the protective waterproof coating from other birds' feathers, leaving them vulnerable to hypothermia and drowning."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did the French town of Châteauneuf-du-Pape officially ban by municipal decree in 1954?",
+      "options": [
+        "The landing and takeoff of flying saucers",
+        "Drinking wine before the age of twenty-one",
+        "Naming pets after Roman Catholic saints",
+        "Playing accordion music after midnight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amid a 1954 UFO craze, the mayor signed a decree outlawing flying saucers and flying cigars within the town limits."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is the belief that mother birds abandon chicks handled by humans incorrect?",
+      "options": [
+        "Most songbirds have almost no sense of smell",
+        "Parent birds recognize chicks purely by body temperature",
+        "Human scent actually attracts bird parents back to nests",
+        "Birds abandon chicks only if they see a predator nearby"
+      ],
+      "correctIndex": 0,
+      "explanation": "Most songbirds have an extremely limited olfactory sense and will not notice human scent on a chick that is returned to its nest."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the emerald cockroach wasp manipulate a cockroach to feed its larva?",
+      "options": [
+        "It stings the roach's brain to disable its escape reflex",
+        "It lays microscopic eggs inside the roach's eyes",
+        "It mimics roach pheromones to make it walk willingly",
+        "It freezes the roach in a cocoon of hardened silk"
+      ],
+      "correctIndex": 0,
+      "explanation": "The wasp delivers a targeted venom injection into the brain that removes the cockroach's motivation to run away, turning it into a compliant host."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did the word \"macaroni\" refer to in the 18th-century lyrics of \"Yankee Doodle\"?",
+      "options": [
+        "A flamboyant, fashion-obsessed British subculture",
+        "A high-ranking Italian military officer",
+        "An expensive breed of European horse",
+        "A popular brand of tricorn military hat"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 18th-century Britain, 'macaronis' were young men who dressed in flamboyant, over-the-top continental fashion and wore towering powdered wigs."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In what year did the French village of Châteauneuf-du-Pape pass a law officially banning flying saucers?",
+      "answer": 1954,
+      "min": 1900,
+      "max": 2020,
+      "unit": "",
+      "explanation": "The decree was passed in 1954 during a nationwide wave of UFO sightings across France and remains on the books today."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "If you touch a fallen baby bird, its mother will abandon it because of human scent.",
+      "answer": false,
+      "explanation": "Most birds have a very poor sense of smell and will readily continue caring for a chick that has been placed back in its nest."
+    }
+  ]
+}

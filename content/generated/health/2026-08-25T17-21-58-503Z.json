@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.503Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spicy food doesn't burn your mouth—it triggers your heat sensors",
+      "body": "When you eat chili peppers, capsaicin doesn't cause a chemical burn. Instead, it binds directly to TRPV1 receptors on nerve endings in your mouth. These sensors normally detect dangerous heat above 43°C (109°F). Capsaicin tricks them into firing at room temperature, prompting your brain to react with sweating, tearing, and blood vessel dilation to cool down a burn that does not physically exist.",
+      "imageWikipediaTitle": "Capsaicin",
+      "sources": [
+        {
+          "title": "Capsaicin",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537096/"
+        },
+        {
+          "title": "Capsaicin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Capsaicin"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537096/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Roughly 90 percent of your body's serotonin is produced in your gut",
+      "body": "Serotonin is widely known as a brain neurotransmitter that regulates mood, but only a small fraction lives in the central nervous system. About 90 percent of your body's serotonin is synthesized by enterochromaffin cells in the gut lining. There, it regulates intestinal contractions, fluid secretion, and pain perception, while sending sensory signals back up to the brain via the vagus nerve.",
+      "imageWikipediaTitle": "Serotonin",
+      "sources": [
+        {
+          "title": "Physiology, Serotonin",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545168/"
+        },
+        {
+          "title": "Serotonin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Serotonin"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK545168/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your blood pressure drops by 10 to 20 percent while you sleep",
+      "body": "Every night when you enter healthy sleep, your sympathetic nervous system relaxes and your parasympathetic system takes over. This shift causes blood vessels to dilate and heart rate to slow, dropping blood pressure by 10 to 20 percent. Known as nocturnal dipping, this nightly lull gives arteries and the heart critical recovery time; losing this dip significantly elevates long-term stroke and heart attack risk.",
+      "imageWikipediaTitle": "Blood pressure",
+      "sources": [
+        {
+          "title": "Nocturnal Hypertension",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK538190/"
+        },
+        {
+          "title": "Nocturnal blood pressure",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nocturnal_blood_pressure"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK538190/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Without your brain's brake, your heart beats at 100 beats per minute",
+      "body": "Your heart contains its own natural pacemaker, the sinoatrial node, which generates electrical pulses on its own. Without any outside nervous system input, these cells naturally fire around 100 times per minute. The reason your resting heart rate is much lower—typically 60 to 80 beats per minute—is that your vagus nerve continuously releases acetylcholine, acting like a constant brake pedal to conserve energy.",
+      "imageWikipediaTitle": "Sinoatrial node",
+      "sources": [
+        {
+          "title": "Physiology, Sinoatrial Node",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK459233/"
+        },
+        {
+          "title": "Sinoatrial node",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sinoatrial_node"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459233/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The midafternoon energy slump is hardwired into your biological clock",
+      "body": "People often blame a heavy lunch for feeling drowsy around 2:00 PM, but the slump happens even if you fast. Human alertness follows a biphasic circadian rhythm with two natural sleep-drive peaks: one late at night and a smaller one roughly seven to eight hours after waking. Core body temperature dips slightly during this afternoon window, causing a biological lull in vigilance whether you have eaten or not.",
+      "imageWikipediaTitle": "Circadian rhythm",
+      "sources": [
+        {
+          "title": "Circadian Rhythms and Sleep",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/05.html"
+        },
+        {
+          "title": "Circadian rhythm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Circadian_rhythm"
+        }
+      ],
+      "readMoreUrl": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod2/05.html",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does eating spicy food cause a sensation of intense physical heat?",
+      "options": [
+        "Capsaicin activates nerve receptors that normally detect painful heat",
+        "Capsaicin causes microscopic chemical burns on mouth tissues",
+        "Capsaicin rapidly raises blood temperature inside the tongue",
+        "Capsaicin dissolves the protective mucosal lining of the mouth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Capsaicin binds to TRPV1 receptors, which normally alert the brain to thermal heat above 43°C (109°F)."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where is approximately 90% of your body's serotonin synthesized?",
+      "options": [
+        "The prefrontal cortex",
+        "The gastrointestinal tract",
+        "The liver",
+        "The thyroid gland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enterochromaffin cells lining your digestive tract produce roughly 90% of the body's total serotonin."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is 'nocturnal dipping' in human cardiovascular health?",
+      "options": [
+        "A 10 to 20 percent drop in blood pressure during sleep",
+        "A surge in growth hormone during REM sleep",
+        "A sharp decrease in core body temperature before dreaming",
+        "A temporary cessation of kidney filtration overnight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Healthy individuals experience a 10% to 20% drop in blood pressure during nighttime sleep, easing strain on the cardiovascular system."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is a typical resting heart rate lower than the natural firing rate of the sinoatrial node?",
+      "options": [
+        "Blood volume decreases while resting",
+        "Arterial valves restrict pacemaker electrical flow",
+        "Vagus nerve signals continuously slow the heart down",
+        "Oxygen levels in resting muscle suppress the heartbeat"
+      ],
+      "correctIndex": 2,
+      "explanation": "The sinoatrial node naturally fires around 100 bpm, but parasympathetic vagus nerve activity acts as a constant brake to lower it to 60–80 bpm."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary biological cause of the common midafternoon energy slump?",
+      "options": [
+        "A natural secondary circadian dip in alertness",
+        "Sudden lactic acid buildup in brain tissue",
+        "Total depletion of liver glycogen stores",
+        "An automatic drop in blood oxygen levels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human circadian biology is biphasic, naturally creating a dip in alertness and core body temperature roughly 7–8 hours after waking."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of your body's total serotonin is produced in your gut rather than your brain?",
+      "answer": 90,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Around 90% of your serotonin is manufactured in your digestive tract to control intestinal motility and signaling."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "By what percentage does normal, healthy blood pressure drop during overnight sleep?",
+      "answer": 15,
+      "min": 0,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Healthy individuals experience a 10% to 20% drop in blood pressure overnight, averaging around 15%."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Without parasympathetic nervous system braking, at what rate (in bpm) would your heart's sinoatrial node naturally fire?",
+      "answer": 100,
+      "min": 40,
+      "max": 180,
+      "unit": "bpm",
+      "explanation": "The sinoatrial node has an intrinsic rate of about 100 beats per minute, which the vagus nerve slows down at rest."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Spicy food physically burns your tongue and damages mouth tissue.",
+      "answer": false,
+      "explanation": "Capsaicin tricks temperature-sensing TRPV1 receptors into signaling heat to your brain without causing any physical thermal damage."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The midafternoon energy slump is purely caused by eating a heavy lunch.",
+      "answer": false,
+      "explanation": "The afternoon dip occurs due to an innate circadian rhythm that peaks in sleepiness 7–8 hours after waking, even in fasting individuals."
+    }
+  ]
+}

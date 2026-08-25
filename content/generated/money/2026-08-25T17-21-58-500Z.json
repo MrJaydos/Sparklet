@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.500Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Bad Used Cars Push Good Ones Out of the Market",
+      "body": "In 1970, economist George Akerlof published \"The Market for Lemons,\" showing how asymmetric information ruins markets. When buyers cannot inspect a used car's true quality, they will only offer an average price. Owners of high-quality cars refuse to sell at that discount and withdraw, leaving behind only defective \"lemons.\" This dynamic can cause entire markets to collapse. Akerlof won the 2001 Nobel Prize in Economic Sciences for this breakthrough.",
+      "imageWikipediaTitle": "George Akerlof",
+      "sources": [
+        {
+          "title": "George A. Akerlof - Facts",
+          "publisher": "Nobel Prize Outreach AB",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/facts/"
+        },
+        {
+          "title": "The Market for Lemons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2001/akerlof/facts/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Precious Metal at the Tip of the Washington Monument",
+      "body": "In 1884, the peak of the Washington Monument was capped with a 100-ounce pyramid of pure aluminum. At the time, separating aluminum from its ore was so extraordinarily complex that the metal was rarer and more valuable than silver. Napoleon III reportedly reserved aluminum cutlery for his most esteemed banquet guests. Just two years later, in 1886, the Hall-Héroult smelting process was invented, causing aluminum production to soar and its price to plummet.",
+      "imageWikipediaTitle": "Washington Monument",
+      "sources": [
+        {
+          "title": "Aluminum: Common Metal, Uncommon Past",
+          "publisher": "Science History Institute",
+          "url": "https://www.sciencehistory.org/stories/magazine/aluminum-common-metal-uncommon-past/"
+        },
+        {
+          "title": "Hall–Héroult process",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process"
+        }
+      ],
+      "readMoreUrl": "https://www.sciencehistory.org/stories/magazine/aluminum-common-metal-uncommon-past/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Famous Economic Curve Sketched on a Cloth Napkin",
+      "body": "In December 1974, economist Arthur Laffer had dinner at a Washington restaurant with White House officials Dick Cheney and Donald Rumsfeld. To argue that excessively high tax rates could actually decrease total government revenue by discouraging work and investment, Laffer sketched a simple bell-shaped curve on a cloth cocktail napkin. That original cloth napkin became a cornerstone of supply-side economics and is now preserved in the Smithsonian National Museum of American History.",
+      "imageWikipediaTitle": "Laffer curve",
+      "sources": [
+        {
+          "title": "Laffer Curve Napkin",
+          "publisher": "Smithsonian National Museum of American History",
+          "url": "https://americanhistory.si.edu/collections/search/object/nmah_1439217"
+        },
+        {
+          "title": "Laffer curve",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Laffer_curve"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/search/object/nmah_1439217",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deadly-Looking Blades That Ancient Merchants Used as Cash",
+      "body": "During China's Eastern Zhou period, between roughly 600 and 200 BCE, bronze knives and farming spades transformed directly into currency. Known as knife money, these cast bronze blades featured inscriptions denoting their value or issuing city and had ring-shaped handles so merchants could string hundreds together for easy transport. Over centuries, the blades gradually shrank and simplified, eventually giving way to the iconic round Chinese coins with square center holes.",
+      "imageWikipediaTitle": "Knife money",
+      "sources": [
+        {
+          "title": "Knife money",
+          "publisher": "British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/C_1984-0906-1"
+        },
+        {
+          "title": "Knife money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Knife_money"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Knife_money",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Illegal $20 Gold Coin That Sold for $18.9 Million",
+      "body": "In 1933, the US Mint struck 445,500 Saint-Gaudens twenty-dollar gold coins, but President Franklin D. Roosevelt took the country off the gold standard before they were released. Almost all were ordered melted into bars. A handful secretly escaped into private hands, making them contraband subject to government seizure. Only one was granted legal authorization to be owned privately, and in 2021 it fetched an astonishing $18.9 million at auction.",
+      "imageWikipediaTitle": "1933 double eagle",
+      "sources": [
+        {
+          "title": "1933 Double Eagle",
+          "publisher": "Smithsonian National Museum of American History",
+          "url": "https://americanhistory.si.edu/collections/search/object/nmah_1402283"
+        },
+        {
+          "title": "1933 double eagle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1933_double_eagle"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/search/object/nmah_1402283",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What market problem did George Akerlof describe in 'The Market for Lemons'?",
+      "options": [
+        "Information asymmetry causes low-quality goods to drive out high-quality ones",
+        "Agricultural cartels artificially inflate the price of citrus fruits",
+        "Overprinting fiat currency leads inevitably to rapid hyperinflation",
+        "High interest rates discourage banks from making small business loans"
+      ],
+      "correctIndex": 0,
+      "explanation": "When buyers cannot verify quality, they offer average prices, which drives sellers of premium goods out of the market."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was aluminum chosen as the capstone for the Washington Monument in 1884?",
+      "options": [
+        "It was considered a rare luxury metal more valuable than silver",
+        "It was the cheapest and most common metal available",
+        "It was the only metal known to survive lightning strikes without melting",
+        "It had just been discovered that year in Virginia mines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Before the 1886 Hall-Héroult smelting process, pure aluminum was extremely difficult to refine and prized as a precious metal."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where did Arthur Laffer famously draw his tax curve during a 1974 dinner with White House officials?",
+      "options": [
+        "On a cloth cocktail napkin",
+        "On the back of a paper menu",
+        "On a crisp twenty-dollar bill",
+        "In the margins of a daily newspaper"
+      ],
+      "correctIndex": 0,
+      "explanation": "Laffer sketched the relationship between tax rates and revenue on a cloth napkin, which is now preserved in the Smithsonian."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What practical feature did ancient Chinese knife money have on its handle?",
+      "options": [
+        "A circular ring for stringing coins together",
+        "A sharp spike for testing metal purity",
+        "A hollow compartment for holding spices",
+        "A hidden notch for cracking open grain seeds"
+      ],
+      "correctIndex": 0,
+      "explanation": "The circular ring at the end allowed traders to string hundreds of knife coins onto a cord for secure, easy transport."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why were nearly all 1933 Saint-Gaudens Double Eagle gold coins melted down?",
+      "options": [
+        "The US abandoned the gold standard and recalled gold coins",
+        "The coins suffered from a major alloy contamination",
+        "The dies cracked and created illegible engravings",
+        "The metal was urgently requisitioned for military radios"
+      ],
+      "correctIndex": 0,
+      "explanation": "When President Franklin D. Roosevelt ended the gold standard in 1933, the Mint ordered the entire production melted into gold bars."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What was the weight of the aluminum apex pyramid placed atop the Washington Monument in 1884?",
+      "answer": 100,
+      "min": 10,
+      "max": 500,
+      "unit": "oz",
+      "explanation": "The aluminum capstone weighed 100 ounces (about 6.25 pounds), which represented a major display of a precious metal at the time."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How much did the only legally privately owned 1933 Double Eagle gold coin sell for at auction in 2021?",
+      "answer": 18.9,
+      "min": 1,
+      "max": 50,
+      "unit": "million $",
+      "explanation": "The 1933 Double Eagle fetched $18.9 million at Sotheby's in June 2021, setting a record for the most valuable coin ever sold."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Aluminum has always been an inexpensive, everyday industrial metal.",
+      "answer": false,
+      "explanation": "Until modern smelting was invented in 1886, extracting aluminum was so hard that it was more precious than silver."
+    }
+  ]
+}

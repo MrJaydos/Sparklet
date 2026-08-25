@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.492Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deadliest Maritime Disaster in US History Was Almost Forgotten",
+      "body": "In April 1865, the overcrowded steamboat Sultana exploded on the Mississippi River, killing an estimated 1,168 or more passengers—mostly released Union prisoners of war journeying home after the Civil War. Despite exceeding the Titanic's American death toll, the tragedy received little national press coverage because it coincided with the hunt for John Wilkes Booth following Abraham Lincoln's assassination.",
+      "imageWikipediaTitle": "Sultana (steamboat)",
+      "sources": [
+        {
+          "title": "Today in History - April 27: The Sultana Disaster",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/april-27/"
+        },
+        {
+          "title": "Sultana (steamboat)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sultana_(steamboat)"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/april-27/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Healthy Cook Who Unknowingly Infected Dozens with Typhoid",
+      "body": "In the early 1900s, Irish cook Mary Mallon became the first person in the United States identified as an asymptomatic carrier of Salmonella Typhi. While feeling completely healthy, she unknowingly infected at least 53 people, leading to three deaths. Refusing to believe she harbored lethal bacteria without showing symptoms, Mallon was forcibly quarantined on New York's North Brother Island for nearly three decades until her death.",
+      "imageWikipediaTitle": "Mary Mallon",
+      "sources": [
+        {
+          "title": "The curious case of Typhoid Mary",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/"
+        },
+        {
+          "title": "Mary Mallon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mary_Mallon"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3959940/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The WWII Myth That Carrots Give You Night Vision Was Radar Cover",
+      "body": "During the 1940 Blitz, the British Royal Air Force developed airborne interception radar to shoot down German bombers in the dark. To prevent German intelligence from discovering the secret technology, the British Air Ministry launched a propaganda campaign claiming RAF fighter aces owed their sharp nocturnal vision to eating copious amounts of carrots. The deception was so convincing that British civilians began planting and eating carrots en masse.",
+      "imageWikipediaTitle": "Carrot",
+      "sources": [
+        {
+          "title": "A Carrot A Day Keeps The Luftwaffe Away: Carrots And Night Vision",
+          "publisher": "Imperial War Museums",
+          "url": "https://www.iwm.org.uk/history/carrots-and-night-vision"
+        },
+        {
+          "title": "Carrot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carrot"
+        }
+      ],
+      "readMoreUrl": "https://www.iwm.org.uk/history/carrots-and-night-vision",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sled Dogs Raced 674 Miles Across Blizzard Alaska to Stop an Epidemic",
+      "body": "In January 1925, an outbreak of diphtheria threatened to wipe out the isolated town of Nome, Alaska. With subzero blizzards grounding airplanes and winter ice sealing the port, twenty mushers and roughly 150 sled dogs formed a relay to transport lifesaving antitoxin across 674 miles of frozen wilderness. They completed the brutal journey in just five and a half days, saving hundreds of lives.",
+      "imageWikipediaTitle": "1925 serum run to Nome",
+      "sources": [
+        {
+          "title": "Today in History - February 2: The Great Race of Mercy",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/february-02/"
+        },
+        {
+          "title": "1925 serum run to Nome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1925_serum_run_to_Nome"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/february-02/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Swiss Businessman's Horror at One Battle Created the Red Cross",
+      "body": "In 1859, Swiss merchant Henry Dunant arrived in northern Italy hoping to meet Napoleon III, but instead stumbled upon the aftermath of the Battle of Solferino, where nearly 40,000 wounded soldiers lay abandoned without medical care. Traumatized by the suffering, Dunant organized local volunteers to help all wounded regardless of nationality. His subsequent book spurred European nations to establish the International Red Cross and sign the First Geneva Convention in 1864.",
+      "imageWikipediaTitle": "Henry Dunant",
+      "sources": [
+        {
+          "title": "Founding and early years of the ICRC (1863-1914)",
+          "publisher": "International Committee of the Red Cross",
+          "url": "https://www.icrc.org/en/document/founding-and-early-years-icrc-1863-1914"
+        },
+        {
+          "title": "First Geneva Convention",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_Geneva_Convention"
+        }
+      ],
+      "readMoreUrl": "https://www.icrc.org/en/document/founding-and-early-years-icrc-1863-1914",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which major news event overshadowed the deadly 1865 Sultana steamboat disaster in American newspapers?",
+      "options": [
+        "The assassination of Abraham Lincoln and manhunt for his killer",
+        "The signing of the Emancipation Proclamation",
+        "The sinking of the battleship USS Maine",
+        "The outbreak of the Spanish-American War"
+      ],
+      "correctIndex": 0,
+      "explanation": "The explosion occurred on April 27, 1865, right as national media was fixated on the capture and death of Lincoln's assassin, John Wilkes Booth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was Mary Mallon able to spread typhoid fever without realizing she had the disease?",
+      "options": [
+        "She was an asymptomatic carrier of Salmonella Typhi",
+        "She had received an experimental live-bacteria vaccine",
+        "She was handling untreated toxic hospital waste",
+        "She was genetically immune to all bacterial infections"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mallon was the first person in the US recognized as an asymptomatic carrier, shedding Salmonella Typhi without ever experiencing symptoms herself."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the British Air Ministry claim Royal Air Force pilots got their night vision from eating carrots?",
+      "options": [
+        "To conceal the invention of airborne radar from Germany",
+        "To encourage children to eat surplus rations",
+        "To trick the German military into importing useless crops",
+        "To boost wartime sales for struggling British farmers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The story was military disinformation to explain how RAF fighter pilots were spotting German bombers in pitch darkness without revealing airborne radar."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What disease threatened Nome, Alaska in 1925, sparking the famous 674-mile sled dog serum run?",
+      "options": [
+        "Diphtheria",
+        "Smallpox",
+        "Typhoid fever",
+        "Cholera"
+      ],
+      "correctIndex": 0,
+      "explanation": "A deadly diphtheria epidemic broke out among Nome's children, requiring a rapid delivery of antitoxin across the ice-bound territory."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which battle's horrific aftermath inspired Henry Dunant to establish the International Red Cross?",
+      "options": [
+        "Battle of Solferino",
+        "Battle of Waterloo",
+        "Battle of Gettysburg",
+        "Battle of Sedan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dunant witnessed roughly 40,000 unattended wounded soldiers after the 1859 Battle of Solferino, prompting his push for neutral battlefield medical aid."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many miles did twenty sled dog teams cover in a relay across frozen Alaska to deliver antitoxin to Nome in 1925?",
+      "answer": 674,
+      "min": 100,
+      "max": 1500,
+      "unit": "miles",
+      "explanation": "The mushers and dog teams covered the 674-mile route through blizzard conditions in just five and a half days."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "A person must show physical symptoms of a disease to spread a bacterial infection like typhoid.",
+      "answer": false,
+      "explanation": "Asymptomatic carriers like Mary Mallon can harbor, multiply, and shed pathogenic bacteria like Salmonella Typhi while remaining completely healthy."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Eating large quantities of carrots noticeably improves human night vision in the dark.",
+      "answer": false,
+      "explanation": "The claim was a British military deception during WWII fabricated to hide the secret adoption of airborne interception radar from the Germans."
+    }
+  ]
+}

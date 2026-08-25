@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.495Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Beethoven's Ninth Symphony shaped the standard length of compact discs",
+      "body": "When Sony and Philips negotiated the standard size for compact discs in 1979, Sony vice president Norio Ohga insisted on a specific duration: 74 minutes. A classically trained singer, Ohga wanted the format to hold Beethoven's Ninth Symphony without interruption. The longest recorded performance in Philips's archives, conducted by Wilhelm Furtwängler in 1951, ran approximately 74 minutes, determining the CD's 12-centimeter physical diameter.",
+      "imageWikipediaTitle": "Compact disc",
+      "sources": [
+        {
+          "title": "Compact disc",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/compact-disc"
+        },
+        {
+          "title": "Compact disc",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compact_disc"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/compact-disc",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1950 mechanical mouse was one of the earliest learning machines",
+      "body": "In 1950, mathematician Claude Shannon built Theseus, a motorized magnetic mouse that solved mazes using artificial intelligence. Running across an aluminum grid, Theseus was steered by an electromagnet beneath the floor, controlled entirely by telephone relay switches. When Theseus hit a wall, it turned until finding a path. Once it reached the cheese, the relays stored the winning route, allowing Theseus to run the maze flawlessly next time.",
+      "imageWikipediaTitle": "Claude Shannon",
+      "sources": [
+        {
+          "title": "Claude Shannon",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Claude-Shannon"
+        },
+        {
+          "title": "Theseus (robot)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theseus_(robot)"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Claude-Shannon",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Grace Hopper built the first compiler after colleagues said computers only do math",
+      "body": "In the early 1950s, programming required tedious numeric code. Computer pioneer Grace Hopper envisioned translating human-readable English words into machine instructions. When she proposed the idea, peers dismissed it, insisting digital computers were strictly calculation engines incapable of understanding language. Undeterred, Hopper created the A-0 System in 1952, the world's first compiler, establishing the foundation for modern programming languages like COBOL.",
+      "imageWikipediaTitle": "Grace Hopper",
+      "sources": [
+        {
+          "title": "Grace Hopper",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Grace-Hopper"
+        },
+        {
+          "title": "Grace Hopper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grace_Hopper"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Grace-Hopper",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An island-hopping Hawaiian radio network laid the foundation for Ethernet",
+      "body": "In 1971, University of Hawaii researchers created ALOHAnet to connect computers across islands without expensive telephone lines. Instead of reserving dedicated broadcast slots, ALOHAnet allowed nodes to transmit radio data packets whenever ready. If two stations transmitted simultaneously and collided, both paused for a random delay before retrying. Engineer Robert Metcalfe studied this collision-handling concept to develop Ethernet for wired local area networks.",
+      "imageWikipediaTitle": "ALOHAnet",
+      "sources": [
+        {
+          "title": "ALOHANET",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/ALOHANET"
+        },
+        {
+          "title": "ALOHAnet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ALOHAnet"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/ALOHANET",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Public-key cryptography was invented in secret four years before RSA",
+      "body": "In 1977, researchers published the RSA encryption algorithm, enabling secure digital communication across open networks without sharing secret keys in advance. However, British mathematician Clifford Cocks had conceived the exact same mathematical principle in 1973 at the UK intelligence agency GCHQ. Because his breakthrough was classified as a top-secret military development, Cocks could not publish his work, keeping his discovery secret until GCHQ declassified it in 1997.",
+      "imageWikipediaTitle": "Public-key cryptography",
+      "sources": [
+        {
+          "title": "Public-key cryptography",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/public-key-cryptography"
+        },
+        {
+          "title": "Clifford Cocks",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clifford_Cocks"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/public-key-cryptography",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was the standard Compact Disc format engineered to hold 74 minutes of audio?",
+      "options": [
+        "To fit Beethoven's Ninth Symphony without interruption",
+        "To match the standard playback time of a 12-inch vinyl LP",
+        "To fit exactly one gigabyte of uncompressed audio data",
+        "To match the length of standard magnetic cassette tapes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sony executive Norio Ohga insisted on 74 minutes so Beethoven's Ninth Symphony could fit entirely on one disc."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Claude Shannon's 1950 robotic mouse 'Theseus' remember the correct path through a maze?",
+      "options": [
+        "Electromechanical telephone relays beneath the floor stored the route",
+        "An onboard magnetic tape cassette recorded wheel rotations",
+        "An early microchip processor ran a binary search algorithm",
+        "A chemical sensor followed a scent trail left on the aluminum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Theseus used an electromagnet underneath the floor controlled by switching relays to store the maze layout in memory."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What fundamental computing breakthrough did Grace Hopper develop in 1952?",
+      "options": [
+        "The first computer compiler (A-0 System)",
+        "The first computer mouse",
+        "The relational database model",
+        "The graphical user interface"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grace Hopper created the A-0 compiler to translate readable instructions into machine code, proving computers could handle language."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did ALOHAnet handle data packet collisions when multiple stations broadcasted simultaneously?",
+      "options": [
+        "Stations waited for a random time interval before retransmitting",
+        "A central controller permanently blocked the colliding nodes",
+        "Transmitters switched from radio waves to undersea telegraph lines",
+        "Transmitters boosted signal wattage to overpower conflicting packets"
+      ],
+      "correctIndex": 0,
+      "explanation": "ALOHAnet pioneered random backoff delays during collisions, a mechanism Robert Metcalfe adapted to build Ethernet."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was Clifford Cocks's 1973 discovery of public-key cryptography kept unknown for decades?",
+      "options": [
+        "It was classified as a top-secret development by British intelligence agency GCHQ",
+        "Academic journals rejected his original paper as mathematically unproven",
+        "Cocks lost his research notebook in a laboratory fire",
+        "A patent dispute prevented GCHQ from publicly announcing the algorithm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cocks worked for GCHQ, which classified public-key cryptography as a military secret until declassifying it in 1997."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many minutes of audio was the standard Compact Disc format engineered to hold?",
+      "answer": 74,
+      "min": 30,
+      "max": 150,
+      "unit": "minutes",
+      "explanation": "Philips and Sony settled on 74 minutes to accommodate the longest known recording of Beethoven's Ninth Symphony."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Machines could not learn and store physical maze paths before modern microprocessors were invented.",
+      "answer": false,
+      "explanation": "In 1950, Claude Shannon's electromechanical mouse Theseus learned and remembered maze routes using telephone relay switches."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Public-key cryptography was first discovered in academia in the late 1970s.",
+      "answer": false,
+      "explanation": "British mathematician Clifford Cocks invented public-key cryptography in 1973 at GCHQ, four years before the RSA team, but it remained classified until 1997."
+    }
+  ]
+}

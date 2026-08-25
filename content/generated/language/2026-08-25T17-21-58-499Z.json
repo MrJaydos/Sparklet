@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.499Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Korean speakers must learn two different ways to count to three",
+      "body": "Korean uses two separate numeral systems. To count to three using native Korean numbers, you say 하나 (hana, HAH-nah), 둘 (dul, dool), and 셋 (set, set). These native words are reserved for counting people, objects, and hours. However, for minutes, money, phone numbers, and math, Korean switches entirely to Sino-Korean numbers derived from Chinese characters: 일 (il, eel), 이 (i, ee), and 삼 (sam, sahm).",
+      "imageWikipediaTitle": "Hangul",
+      "sources": [
+        {
+          "title": "Korean numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Korean_numerals"
+        },
+        {
+          "title": "Korean language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Korean-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Korean-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Japanese meals begin with \"I humbly receive\"",
+      "body": "Before eating in Japan, diners clasp their hands and say いただきます (itadakimasu, ee-tah-dah-kee-MAHS). Rather than meaning \"enjoy your meal,\" the phrase literally translates to \"I humbly receive.\" Derived from the polite verb いただく (itadaku), meaning to place an honored gift atop one's head, it expresses gratitude not only to the chef and farmers who prepared the food, but also to the living plants and animals consumed.",
+      "imageWikipediaTitle": "Japanese cuisine",
+      "sources": [
+        {
+          "title": "Etiquette in Japan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Etiquette_in_Japan"
+        },
+        {
+          "title": "What do the Japanese say before and after meals?",
+          "publisher": "Web Japan",
+          "url": "https://web-japan.org/kidsweb/explore/food/q6.html"
+        }
+      ],
+      "readMoreUrl": "https://web-japan.org/kidsweb/explore/food/q6.html",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the ancient Greeks thought all foreigners sounded like babble",
+      "body": "The word \"barbarian\" began as ancient onomatopoeia. In Ancient Greece, the word βάρβαρος (bárbaros, BAHR-bah-ross) originally described anyone who did not speak Greek. To Hellenic ears, foreign languages sounded like unintelligible, repetitive stammering: \"bar-bar-bar.\" It was not initially an insult about physical savagery or lack of manners, but a linguistic label for foreign speech that sounded completely nonsensical to Greek listeners.",
+      "imageWikipediaTitle": "Barbarian",
+      "sources": [
+        {
+          "title": "Barbarian",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barbarian"
+        },
+        {
+          "title": "Greek Word Study Tool: barbaros",
+          "publisher": "Perseus Digital Library",
+          "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=ba/rbaros"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Barbarian",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How an Indian temple chariot inspired the word \"juggernaut\"",
+      "body": "Today, a \"juggernaut\" describes an unstoppable, crushing force, but the term originates from the Hindu deity Jagannath. It comes from the Sanskrit title जगन्नाथ (Jagannātha, juh-guhn-NAHTH), meaning \"Lord of the Universe.\" During the annual Ratha Yatra festival in Puri, India, massive multi-ton wooden chariots are hauled through packed crowds. Sensationalized 14th-century European travel accounts falsely claimed fanatical pilgrims routinely threw themselves beneath the rolling wheels to perish.",
+      "imageWikipediaTitle": "Jagannath",
+      "sources": [
+        {
+          "title": "Juggernaut",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Juggernaut"
+        },
+        {
+          "title": "Jagannatha",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Jagannatha-Hindu-god"
+        },
+        {
+          "title": "Definition of JUGGERNAUT",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/juggernaut"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Jagannatha-Hindu-god",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the Spanish word \"ojalá\" is secretly Arabic",
+      "body": "When Spanish speakers exclaim ojalá (oh-hah-LAH) to mean \"I hope so\" or \"if only,\" they are preserving centuries of Islamic history in the Iberian Peninsula. The word descends directly from the Arabic invocation لو شاء الله (law šā’ Allāh, law shah-al-LAH), meaning \"if God wills.\" Borrowed into Old Spanish during the Middle Ages, it remained an essential part of the language long after Arabic rule in Spain ended.",
+      "imageWikipediaTitle": "Al-Andalus",
+      "sources": [
+        {
+          "title": "Arabic language influence on Spanish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic_language_influence_on_Spanish"
+        },
+        {
+          "title": "Spanish language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Spanish-language"
+        },
+        {
+          "title": "Definition of OJALÁ",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/ojal%C3%A1"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Spanish-language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which numbering system is used in Korean to count individual objects, people, and hours?",
+      "options": [
+        "Native Korean numerals",
+        "Sino-Korean numerals",
+        "Roman numerals",
+        "Japanese loanwords"
+      ],
+      "correctIndex": 0,
+      "explanation": "Native Korean numerals (하나, 둘, 셋) are used for counting hours, people, and objects, whereas Sino-Korean numerals are used for minutes, money, and dates."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the Japanese phrase said before meals, \"itadakimasu\", literally translate to?",
+      "options": [
+        "\"Enjoy the meal\"",
+        "\"I humbly receive\"",
+        "\"Delicious food awaits\"",
+        "\"Thank you to the chef\""
+      ],
+      "correctIndex": 1,
+      "explanation": "Derived from the humble verb itadaku, it literally means \"I humbly receive,\" honoring both the preparers and the living things that became the food."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did the ancient Greek word \"bárbaros\" originally imitate?",
+      "options": [
+        "The bleating of sheep",
+        "The sound of clashing bronze shields",
+        "The repetitive babble of foreign, non-Greek speech",
+        "The roaring of ocean waves"
+      ],
+      "correctIndex": 2,
+      "explanation": "The word began as onomatopoeia for foreign languages, which sounded to ancient Greek ears like repetitive \"bar-bar-bar\" syllables."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where does the English word \"juggernaut\" get its name?",
+      "options": [
+        "A Norse mythical siege weapon",
+        "Enormous temple chariots of the Hindu deity Jagannath",
+        "A Persian armored elephant unit",
+        "A medieval French battering ram"
+      ],
+      "correctIndex": 1,
+      "explanation": "The word comes from Sanskrit Jagannātha (\"Lord of the Universe\"), whose massive annual festival chariots in Puri captured European imaginations."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which Arabic phrase is the ancestor of the Spanish word \"ojalá\" (\"I hope so\")?",
+      "options": [
+        "Law šā’ Allāh (\"if God wills\")",
+        "Shukran jazilan (\"thank you very much\")",
+        "As-salamu alaykum (\"peace be upon you\")",
+        "Ahlan wa sahlan (\"welcome\")"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ojalá derives from the Andalusian Arabic phrase law šā’ Allāh, which means \"if God wills.\""
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "For roughly how many centuries did Muslim rule last in parts of the Iberian Peninsula, leaving hundreds of Arabic loanwords in Spanish?",
+      "answer": 8,
+      "min": 1,
+      "max": 20,
+      "unit": "centuries",
+      "explanation": "From 711 CE until the fall of Granada in 1492 CE, nearly 8 centuries of Islamic presence deeply influenced the vocabulary of the Spanish language."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The word \"barbarian\" was coined by the Greeks to describe physically savage, uncivilized warriors.",
+      "answer": false,
+      "explanation": "It originally had nothing to do with brutality; it was a linguistic label mocking anyone who spoke a non-Greek language that sounded like \"bar-bar\" babble."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Devotees of the Hindu deity Jagannath routinely committed ritual suicide by throwing themselves under festival chariots.",
+      "answer": false,
+      "explanation": "The notion of systematic ritual suicide was a sensationalized Western myth stemming from exaggerated travel accounts and crowd accidents."
+    }
+  ]
+}

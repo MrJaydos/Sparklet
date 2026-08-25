@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.496Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"The Morning Star is the Evening Star\" shocked 19th-century logicians",
+      "body": "If words only point to real-world objects, then stating that the Morning Star is the Evening Star should convey the exact same information as saying Venus is Venus. Yet the first statement represents an astronomical discovery. Gottlob Frege resolved this paradox in 1892 by distinguishing between an object's reference (the physical entity) and its sense (the way that entity is presented to our minds).",
+      "imageWikipediaTitle": "Gottlob Frege",
+      "sources": [
+        {
+          "title": "Gottlob Frege",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/frege/"
+        },
+        {
+          "title": "Gottlob Frege (1848—1925)",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/frege/"
+        },
+        {
+          "title": "Sense and reference",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sense_and_reference"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/frege/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The dilemma that exposed a major blind spot in utilitarian math",
+      "body": "Philosopher Bernard Williams asked what happens when a traveler named Jim must choose: shoot one innocent captive to save nineteen others, or refuse and watch a warlord execute all twenty. Standard utilitarianism claims Jim has an obvious moral duty to shoot. Williams countered that this ignores personal integrity—the idea that our deepest moral commitments cannot simply become pawns dictated by another person's evil project.",
+      "imageWikipediaTitle": "Bernard Williams",
+      "sources": [
+        {
+          "title": "Bernard Williams",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/williams-bernard/"
+        },
+        {
+          "title": "Integrity",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/integrity/"
+        },
+        {
+          "title": "Bernard Williams",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bernard_Williams"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/integrity/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why defining \"good\" as anything physical always leaves an open question",
+      "body": "If \"good\" simply meant \"causing pleasure,\" asking whether a pleasurable act is good would be as silly as asking if an unmarried man is a bachelor. In 1903, G.E. Moore pointed out that for any natural definition—like pleasure or evolutionary survival—we can still meaningfully ask: \"Yes, but is it good?\" Because that question always stays open, Moore argued goodness cannot be reduced to physical facts.",
+      "imageWikipediaTitle": "G. E. Moore",
+      "sources": [
+        {
+          "title": "Moral Non-Naturalism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/moral-non-naturalism/"
+        },
+        {
+          "title": "George Edward Moore (1873—1958)",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/moore/"
+        },
+        {
+          "title": "Open-question argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Open-question_argument"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/moral-non-naturalism/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a locked room proves you can act willingly without having a choice",
+      "body": "In 1689, John Locke imagined a sleeping man carried into a room to converse with a dear companion. Upon waking, the man enthusiastically chooses to stay and talk, completely unaware that the door is locked from the outside. Locke noted that while the man stayed voluntarily, he lacked the freedom to leave. The thought experiment proved that voluntary action does not require having alternative physical possibilities.",
+      "imageWikipediaTitle": "John Locke",
+      "sources": [
+        {
+          "title": "John Locke",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/locke/"
+        },
+        {
+          "title": "John Locke: Knowledge and Faith",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/locke-kn/"
+        },
+        {
+          "title": "An Essay Concerning Human Understanding",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/An_Essay_Concerning_Human_Understanding"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/locke/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a young idealist drafted a contract to protect his future self from himself",
+      "body": "Philosopher Derek Parfit described a young socialist nobleman who inherits land and pledges to give it away to peasants. Knowing people often grow selfish with age, he signs a binding legal contract and tells his wife never to revoke it, even if his older self later demands it. Parfit used this scenario to argue that our future selves might practically function as entirely distinct people with competing moral claims.",
+      "imageWikipediaTitle": "Derek Parfit",
+      "sources": [
+        {
+          "title": "Personal Identity and Ethics",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/identity-ethics/"
+        },
+        {
+          "title": "Personal Identity",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/identity-personal/"
+        },
+        {
+          "title": "Reasons and Persons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reasons_and_Persons"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/identity-ethics/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did Gottlob Frege explain why \"The Morning Star is the Evening Star\" conveys new information?",
+      "options": [
+        "By arguing that the two terms refer to entirely different celestial bodies",
+        "By distinguishing between an object's reference and its mode of presentation (sense)",
+        "By proving that identity statements are always mathematically uncertain",
+        "By asserting that language cannot describe physical astronomical objects"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frege showed that two expressions can have the same physical reference (Venus) while presenting different senses (modes of presentation)."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What core philosophical critique did Bernard Williams make using the \"Jim and the Indians\" thought experiment?",
+      "options": [
+        "Utilitarianism fails to account for an individual's personal integrity and moral boundaries",
+        "Utilitarian calculations always result in the death of innocent people",
+        "Human actions are entirely determined by biological instincts rather than ethics",
+        "Moral duty can only be decided through democratic voting procedures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Williams argued utilitarianism reduces moral agency to impersonal math, ignoring a person's integrity and core life projects."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the core premise of G.E. Moore's Open Question Argument?",
+      "options": [
+        "No ethical claim can ever be debated in plain language",
+        "For any natural property like pleasure, asking whether it is genuinely good remains an open question",
+        "Morality is an illusion created purely by evolutionary competition",
+        "Pleasure and moral goodness are mathematically identical concepts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because one can always meaningfully ask if a natural quality (such as pleasure) is good, \"good\" cannot simply be defined by that quality."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did John Locke demonstrate with his thought experiment of the man in the locked room?",
+      "options": [
+        "A person can act voluntarily even when alternative choices are physically impossible",
+        "Nobody can ever be held accountable for actions taken while indoors",
+        "Sleepwalking removes all moral responsibility for legal crimes",
+        "Physical imprisonment always eliminates a person's ability to reason"
+      ],
+      "correctIndex": 0,
+      "explanation": "The man willingly chose to stay and talk, even though the locked door prevented him from having the physical freedom to leave."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In Derek Parfit's thought experiment, why does the young Russian nobleman bind his future self with a contract?",
+      "options": [
+        "He fears his older self will lose his socialist ideals and revoke the gift to the peasants",
+        "He wants to prevent his wife from inheriting his family estate",
+        "He believes legal contracts expire automatically when a person turns fifty",
+        "He seeks to prove that property ownership is physically impossible"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parfit used the scenario to explore whether a person's future self can be viewed as a distinct moral entity whose future wishes can be restricted."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "If an action produces pleasure or aids survival, it is by definition morally good.",
+      "answer": false,
+      "explanation": "G.E. Moore's Open Question Argument showed that natural qualities like pleasure are not synonymous with goodness, as asking if they are truly good remains an open debate."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "You cannot perform an action willingly unless you have the physical freedom to choose otherwise.",
+      "answer": false,
+      "explanation": "Locke's locked room thought experiment demonstrated that a person can act entirely willingly while being physically prevented from doing otherwise."
+    }
+  ]
+}

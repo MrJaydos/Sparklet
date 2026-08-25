@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.493Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The frog that freezes solid and comes back to life",
+      "body": "During harsh Alaskan winters, the wood frog survives temperatures as low as minus eighteen degrees Celsius by freezing solid. Up to two-thirds of its body water turns to ice. Its heart stops beating, blood flow ceases, and breathing halts entirely for months. To survive, the frog floods its cells with glucose and urea, natural antifreeze compounds that prevent cellular damage until spring thaws them out.",
+      "imageWikipediaTitle": "Wood frog",
+      "sources": [
+        {
+          "title": "Wood Frog",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/gaar/learn/nature/wood-frog-page.htm"
+        },
+        {
+          "title": "Wood frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wood_frog"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/gaar/learn/nature/wood-frog-page.htm",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How unstable subatomic particles prove time is relative",
+      "body": "Muons created in Earth's upper atmosphere have a fleeting lifespan of just 2.2 microseconds before decaying. Even moving near the speed of light, classical physics says they should travel only six hundred meters, decaying long before reaching the ground. Yet detectors on Earth measure millions of them. Because they travel at 99.8% the speed of light, Einstein's special relativity dilates their internal clock, allowing them to reach sea level.",
+      "imageWikipediaTitle": "Muon",
+      "sources": [
+        {
+          "title": "Muon Experiment",
+          "publisher": "HyperPhysics",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/muon.html"
+        },
+        {
+          "title": "Experimental testing of time dilation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Experimental_testing_of_time_dilation"
+        }
+      ],
+      "readMoreUrl": "http://hyperphysics.phy-astr.gsu.edu/hbase/Relativ/muon.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the periodic table predicted undiscovered elements",
+      "body": "When Dmitri Mendeleev organized the first periodic table in 1869, he noticed gaps in the pattern of elemental properties. Instead of assuming errors, he predicted that undiscovered elements belonged there. He even detailed their atomic masses, densities, and chemical reactions before anyone had seen them. Years later, newly discovered elements like gallium and germanium matched his specific predictions with astonishing accuracy, cementing the predictive power of the scientific method.",
+      "imageWikipediaTitle": "Dmitri Mendeleev",
+      "sources": [
+        {
+          "title": "Development of the Periodic Table",
+          "publisher": "American Chemical Society",
+          "url": "https://www.acs.org/education/whatischemistry/landmarks/periodic-table.html"
+        },
+        {
+          "title": "Mendeleev's predicted elements",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mendeleev%27s_predicted_elements"
+        }
+      ],
+      "readMoreUrl": "https://www.acs.org/education/whatischemistry/landmarks/periodic-table.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The worm that can rebuild its entire body from a sliver",
+      "body": "Planarian flatworms possess one of nature's most astonishing regenerative abilities. If you slice a planarian into tiny fragments, a piece as small as one three-hundredth of the original body can regrow an entirely functional new worm in weeks, complete with brain, eyes, and digestive tract. This total regeneration is driven by adult pluripotent stem cells called neoblasts, which make up roughly twenty percent of the flatworm's cellular body.",
+      "imageWikipediaTitle": "Planarian",
+      "sources": [
+        {
+          "title": "Stem Cells Drive Planarian Regeneration",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/stem-cells-drive-planarian-regeneration"
+        },
+        {
+          "title": "Planarian",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Planarian"
+        }
+      ],
+      "readMoreUrl": "https://www.nih.gov/news-events/nih-research-matters/stem-cells-drive-planarian-regeneration",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ultra-light solid made of nearly ninety-nine percent air",
+      "body": "Often nicknamed \"frozen smoke\" for its translucent, ghostly appearance, silica aerogel holds the distinction of being one of the world's least dense solids. Composed of up to 99.8% air, it is created by carefully drying a gel until the liquid is replaced by gas without shrinking the structure. Despite being almost weightless, aerogel is an extraordinary thermal insulator that NASA uses to insulate Mars rovers and capture space dust.",
+      "imageWikipediaTitle": "Aerogel",
+      "sources": [
+        {
+          "title": "Aerogel",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://stardust.jpl.nasa.gov/tech/aerogel.html"
+        },
+        {
+          "title": "Aerogel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aerogel"
+        }
+      ],
+      "readMoreUrl": "https://stardust.jpl.nasa.gov/tech/aerogel.html",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What chemical compounds prevent cellular damage when the wood frog freezes solid?",
+      "options": [
+        "Glucose and urea",
+        "Ethanol and lactic acid",
+        "Sodium chloride and calcium",
+        "Hemoglobin and insulin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wood frogs flood their cells with glucose and urea, which act as cryoprotectants to prevent deadly ice crystals from forming inside cells."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are short-lived cosmic ray muons able to reach detectors on Earth's surface?",
+      "options": [
+        "Relativistic time dilation slows their internal clock",
+        "They are accelerated by Earth's magnetic poles",
+        "They absorb high-energy photons from solar wind",
+        "They bounce repeatedly off atmospheric gas molecules"
+      ],
+      "correctIndex": 0,
+      "explanation": "Traveling at near-light speed, muons experience time dilation, stretching their 2.2-microsecond lifespan relative to an observer on Earth."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did Dmitri Mendeleev handle missing elements when designing the periodic table?",
+      "options": [
+        "He left gaps and accurately predicted their properties",
+        "He invented hypothetical elements that were later disproven",
+        "He compressed the table to remove any empty spaces",
+        "He assumed his atomic mass calculations were incorrect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mendeleev left empty spaces in his table and used surrounding patterns to predict the mass, density, and chemistry of undiscovered elements."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which specialized cell type enables planarians to regenerate entire bodies from tiny fragments?",
+      "options": [
+        "Neoblasts",
+        "Osteocytes",
+        "Fibroblasts",
+        "Keratinocytes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neoblasts are adult pluripotent stem cells comprising roughly 20% of a planarian's cells, capable of differentiating into every tissue type."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What percentage of silica aerogel's volume is typically composed of air?",
+      "options": [
+        "Up to 99.8%",
+        "Around 75.0%",
+        "Exactly 50.0%",
+        "Roughly 25.5%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Silica aerogel is a synthetic porous ultralight material that can consist of up to 99.8% air by volume."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of silica aerogel's volume consists of trapped air?",
+      "answer": 99.8,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Silica aerogel is up to 99.8% air, earning it the nickname 'frozen smoke' and making it an exceptional thermal insulator."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Time passes at the exact same rate for an object regardless of how fast it travels.",
+      "answer": false,
+      "explanation": "Special relativity proves that as an object approaches the speed of light, time slows down relative to a stationary observer."
+    }
+  ]
+}

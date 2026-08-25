@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.498Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 75-cent accounting error unmasked a Cold War spy ring",
+      "body": "In 1986, astronomer Clifford Stoll investigated a 75-cent billing discrepancy in the mainframe accounting system at Lawrence Berkeley Laboratory. Rather than dismiss the tiny rounding error, Stoll traced it to an unauthorized user hijacking network accounts. Over ten months, he tracked the intruder through phone switches and satellite links, eventually exposing Markus Hess, a German hacker selling stolen military software and network data to the Soviet KGB.",
+      "imageWikipediaTitle": "The Cuckoo's Egg (book)",
+      "sources": [
+        {
+          "title": "The Cuckoo's Egg (book)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)"
+        },
+        {
+          "title": "Stalking the wily hacker",
+          "publisher": "OSTI",
+          "url": "https://www.osti.gov/biblio/5948332"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the delete key's code is made entirely of ones",
+      "body": "In 7-bit ASCII encoding, the delete character (DEL) is represented by binary 1111111, or decimal 127. This was not an arbitrary design. In the 1960s, computer data was frequently stored on punched paper tape, where a hole represented a binary 1. Because punched holes could never be unpunched, the only way to overwrite a mistyped character was to punch out every remaining position in that row, creating an all-ones byte that software ignored.",
+      "imageWikipediaTitle": "Punched tape",
+      "sources": [
+        {
+          "title": "ASCII",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ASCII"
+        },
+        {
+          "title": "ASCII format for Network Interchange",
+          "publisher": "IETF Datatracker",
+          "url": "https://datatracker.ietf.org/doc/html/rfc20"
+        }
+      ],
+      "readMoreUrl": "https://datatracker.ietf.org/doc/html/rfc20",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A corporate patent threat accidentally created the PNG format",
+      "body": "In late 1994, computing firm Unisys announced it would enforce its patent on the LZW compression algorithm powering GIF images, demanding royalties from commercial software developers. Outraged programmers rebelled, organizing an online protest called Burn All GIFs Day and designing an open replacement from scratch in just months. The resulting format, PNG (Portable Network Graphics), introduced patent-free compression, 24-bit truecolor support, and 256 levels of alpha transparency.",
+      "imageWikipediaTitle": "Portable Network Graphics",
+      "sources": [
+        {
+          "title": "Portable Network Graphics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portable_Network_Graphics"
+        },
+        {
+          "title": "PNG (Portable Network Graphics) Specification",
+          "publisher": "World Wide Web Consortium (W3C)",
+          "url": "https://www.w3.org/TR/PNG/"
+        }
+      ],
+      "readMoreUrl": "https://www.w3.org/TR/PNG/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How an obscure accounting symbol became the email address delimiter",
+      "body": "In 1971, computer engineer Ray Tomlinson created the first network email system across ARPANET. To route messages to specific users on specific remote computers, he needed a separator character that would never appear in a person's username. Glancing at his Model 33 Teletype keyboard, Tomlinson picked the rarely used '@' sign because it literally indicated a user 'at' a particular host computer. The choice transformed a minor bookkeeping glyph into a global standard.",
+      "imageWikipediaTitle": "Ray Tomlinson",
+      "sources": [
+        {
+          "title": "Ray Tomlinson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+        },
+        {
+          "title": "Standard for the Format of ARPA Internet Text Messages",
+          "publisher": "IETF Datatracker",
+          "url": "https://datatracker.ietf.org/doc/html/rfc822"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ray_Tomlinson",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The digital smiley face was invented to prevent online flamewars",
+      "body": "On September 19, 1982, computer scientist Scott Fahlman posted a message on Carnegie Mellon University's electronic bulletin board proposing `:-)` as a joke marker and `:-(` for serious warnings. Faculty and students had been misinterpreting sarcastic comments as literal crisis alerts, sparking heated arguments. Fahlman's quick suggestion rapidly propagated across the early ARPANET, establishing punctuation-based emoticons as a universal convention for expressing tone in text code.",
+      "imageWikipediaTitle": "Emoticon",
+      "sources": [
+        {
+          "title": "Smiley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Smiley"
+        },
+        {
+          "title": "Original Bboard Thread in which :-) was proposed",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What led astronomer Clifford Stoll to uncover Markus Hess and a Soviet KGB-backed hacker ring in 1986?",
+      "options": [
+        "A 75-cent mainframe billing discrepancy",
+        "A crashed supercomputer at the Pentagon",
+        "An unencrypted email sent to the FBI",
+        "A virus embedded in floppy disk boot sectors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stoll traced a tiny 75-cent accounting mismatch in Berkeley's computer time records, exposing unauthorized users stealing military data."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was the ASCII delete character (DEL) assigned the binary code 1111111 (127)?",
+      "options": [
+        "To punch out every hole on paper tape to overwrite errors",
+        "To represent the highest number an 8-bit chip could hold",
+        "Because it was the first key located on standard teletypes",
+        "To prevent transmission over copper telegraph wires"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because paper tape holes couldn't be unpunched, punching all 7 holes turned any byte into 1111111 (DEL), which software was coded to ignore."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What prompted software developers to create the PNG image format in 1995?",
+      "options": [
+        "Patent enforcement and royalty demands over GIF's compression algorithm",
+        "The inability of GIFs to display on the World Wide Web",
+        "A security vulnerability that allowed malware in JPEGs",
+        "A mandate from the US Department of Defense"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unisys's decision to enforce its patent on LZW compression used in GIFs spurred developers to build the patent-free PNG format."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did Ray Tomlinson select the '@' symbol for network email in 1971?",
+      "options": [
+        "It rarely appeared in usernames and naturally meant 'at'",
+        "It was the only unused key on his Teletype keyboard",
+        "It stood for 'Automated Transmission'",
+        "ARPANET hardware required a non-alphabetic control code"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tomlinson wanted a character not used in personal names that indicated the user was located 'at' a specific host computer."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What problem was computer scientist Scott Fahlman trying to solve when he proposed ':-)' in 1982?",
+      "options": [
+        "Preventing misunderstanding of sarcasm on text bulletin boards",
+        "Compressing text messages on slow dial-up modems",
+        "Marking corrupted packets in ARPANET transmissions",
+        "Teaching non-programmers basic syntax rules"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman proposed ':-)' on CMU bulletin boards so readers wouldn't mistake jokes and humorous sarcasm for serious announcements."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How large was the accounting discrepancy that led sysadmin Clifford Stoll to uncover a Soviet KGB hacker ring in 1986 (in US cents)?",
+      "answer": 75,
+      "min": 1,
+      "max": 500,
+      "unit": "cents",
+      "explanation": "A 75-cent imbalance between mainframe computer usage and billing records triggered a 10-month hunt that exposed an international cyber espionage ring."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "In 7-bit ASCII encoding, what decimal number represents the 'Delete' (DEL) character?",
+      "answer": 127,
+      "min": 10,
+      "max": 255,
+      "unit": "",
+      "explanation": "DEL is 127 (binary 1111111), designed so any character on punched paper tape could be erased by punching out all 7 hole positions."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The PNG file format was created simply as an upgrade to provide animated web graphics.",
+      "answer": false,
+      "explanation": "PNG was created in response to Unisys enforcing patents on GIF's compression algorithm, providing an open, patent-free format (and PNG does not support animation natively)."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Digital emoticons like ':-)' were originally invented by commercial mobile phone companies for SMS text messaging.",
+      "answer": false,
+      "explanation": "Emoticons were proposed in 1982 by Carnegie Mellon computer scientist Scott Fahlman on a campus bboard system, years before mobile SMS existed."
+    }
+  ]
+}

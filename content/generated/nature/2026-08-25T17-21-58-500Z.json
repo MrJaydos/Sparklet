@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.500Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Common shrews shrink their own skulls to survive the winter",
+      "body": "To survive freezing winters without hibernating, the Eurasian common shrew shrinks its skull by up to 20 percent and its brain volume by nearly 30 percent. Known as Dehnel's phenomenon, this dramatic reduction lowers the mammal's metabolic energy demands when food is scarce. When spring arrives, the shrew's skull and brain tissue regrow to nearly their original size.",
+      "imageWikipediaTitle": "Sorex araneus",
+      "sources": [
+        {
+          "title": "Shrews shrink their heads to survive winter",
+          "publisher": "Max Planck Society",
+          "url": "https://www.mpg.de/11697223/shrews-shrink-skulls-winter"
+        },
+        {
+          "title": "Dehnel's phenomenon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dehnel%27s_phenomenon"
+        }
+      ],
+      "readMoreUrl": "https://www.mpg.de/11697223/shrews-shrink-skulls-winter",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The barreleye fish sees through a transparent, fluid-filled shield",
+      "body": "The deep-sea Pacific barreleye fish features tubular green eyes encased inside a transparent, fluid-filled dome atop its head. While the two small dark indentations on its snout look like eyes, they are actually olfactory organs called nares. The fish's actual glowing green lenses can rotate upward to spot the silhouettes of prey against sunlight or forward to watch food enter its mouth.",
+      "imageWikipediaTitle": "Macropinna microstoma",
+      "sources": [
+        {
+          "title": "Deep-sea sightings: barreleye fish",
+          "publisher": "Monterey Bay Aquarium Research Institute",
+          "url": "https://www.mbari.org/story/deep-sea-sightings-barreleye-fish/"
+        },
+        {
+          "title": "Macropinna microstoma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Macropinna_microstoma"
+        }
+      ],
+      "readMoreUrl": "https://www.mbari.org/story/deep-sea-sightings-barreleye-fish/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spotted salamanders are the only known vertebrates with photosynthetic cells",
+      "body": "Spotted salamanders harbor green algae directly inside their developing embryos and body cells. The algae invade embryonic tissues and provide oxygen and glucose through photosynthesis, fueling rapid embryo growth. In return, the salamander embryo produces nitrogen-rich waste that fertilizes the algae. This is the first confirmed case of an endosymbiotic solar-powered partnership inside vertebrate cells.",
+      "imageWikipediaTitle": "Ambystoma maculatum",
+      "sources": [
+        {
+          "title": "Photosynthetic vertebrate",
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/news.2010.384"
+        },
+        {
+          "title": "Ambystoma maculatum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ambystoma_maculatum"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ambystoma_maculatum",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Figs are not fruit—they are inverted flowers pollinated by tiny wasps",
+      "body": "Botanically, a fig is not a fruit, but a syconium: an inverted cluster of hundreds of tiny inward-facing flowers. Because the flowers are sealed inside a fleshy pouch, wind and typical pollinators cannot reach them. Instead, specialized female fig wasps crawl through a tiny opening, losing their wings in the process, to pollinate the hidden blossoms and lay eggs before dying inside.",
+      "imageWikipediaTitle": "Ficus carica",
+      "sources": [
+        {
+          "title": "Fig Wasps",
+          "publisher": "United States Forest Service",
+          "url": "https://www.fs.usda.gov/wildflowers/pollinators/pollinator-of-the-month/fig_wasp.shtml"
+        },
+        {
+          "title": "Fig wasp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fig_wasp"
+        }
+      ],
+      "readMoreUrl": "https://www.fs.usda.gov/wildflowers/pollinators/pollinator-of-the-month/fig_wasp.shtml",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Box jellyfish have 24 true eyes but completely lack a brain",
+      "body": "Box jellyfish possess 24 distinct eyes arranged in clusters called rhopalia around the bell. Four of these clusters include camera-type eyes complete with corneas, lenses, and retinas capable of forming sharp images, alongside simpler light-sensing pits. Despite having zero central brain or centralized nervous system, they use these visual inputs to navigate mangrove roots and actively hunt prey.",
+      "imageWikipediaTitle": "Box jellyfish",
+      "sources": [
+        {
+          "title": "What is the most venomous marine animal?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/box-jellyfish.html"
+        },
+        {
+          "title": "Box jellyfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Box_jellyfish"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/box-jellyfish.html",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What unusual adaptation helps the Eurasian common shrew survive harsh winters?",
+      "options": [
+        "It stores fat by expanding its tail volume",
+        "It shrinks its skull and brain size to cut energy use",
+        "It replaces its red blood cells with antifreeze proteins",
+        "It enters a continuous six-month dormant freeze"
+      ],
+      "correctIndex": 1,
+      "explanation": "Through Dehnel's phenomenon, common shrews shrink their skull volume and brain mass before winter to drastically reduce metabolic demands, regrowing them in spring."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where are the actual eyes of the Pacific barreleye fish located?",
+      "options": [
+        "On the very tip of its snout beside its jaws",
+        "Inside a transparent, fluid-filled dome on its head",
+        "Along the lateral line running down its flanks",
+        "Underneath its chin pointing toward the seabed"
+      ],
+      "correctIndex": 1,
+      "explanation": "The barreleye's tubular green eyes sit within a clear fluid-filled shield atop its head, while the dark spots on its snout are olfactory nares."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do spotted salamander embryos benefit from their symbiotic relationship with green algae?",
+      "options": [
+        "The algae shield the embryos from freezing water temperatures",
+        "The algae produce venom that repels aquatic predators",
+        "The algae provide oxygen and glucose via photosynthesis directly inside cells",
+        "The algae glow in the dark to attract prey to the nest"
+      ],
+      "correctIndex": 2,
+      "explanation": "Algae enter the salamander's cells and tissues, supplying oxygen and metabolic energy through photosynthesis while consuming embryonic waste."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is a fig from a botanical perspective?",
+      "options": [
+        "A single swollen seed pod with external nectar glands",
+        "An inverted flower cluster containing hundreds of internal blossoms",
+        "A parasitic gall caused by wasp larvae in tree bark",
+        "A true berry produced without any pollination"
+      ],
+      "correctIndex": 1,
+      "explanation": "A fig is a syconium, an enclosed stem structure containing hundreds of miniature internal flowers that can only be pollinated by entering wasps."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many eyes does a box jellyfish possess despite lacking a central brain?",
+      "options": [
+        "2",
+        "8",
+        "24",
+        "100"
+      ],
+      "correctIndex": 2,
+      "explanation": "Box jellyfish have 24 eyes distributed across four sensory structures called rhopalia, including complex camera eyes with lenses and retinas."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what maximum percentage can a common shrew shrink its brain mass to survive winter?",
+      "answer": 30,
+      "min": 5,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Eurasian common shrews shrink their brain mass by up to nearly 30% in winter to conserve precious calories, regrowing tissue in spring."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many eyes does a box jellyfish have across its body?",
+      "answer": 24,
+      "min": 2,
+      "max": 50,
+      "unit": "",
+      "explanation": "Box jellyfish have 24 distinct eyes grouped into four sensory clusters, some capable of forming true images despite the animal having no brain."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The two dark spots on the front of a barreleye fish's snout are its eyes.",
+      "answer": false,
+      "explanation": "The spots on its snout are olfactory organs (nares); the actual eyes are glowing green tubular spheres resting inside the transparent dome on top of its head."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A fig is an ordinary single fruit that develops from an outward-facing blossom.",
+      "answer": false,
+      "explanation": "A fig is actually an inverted cluster of hundreds of inward-facing flowers that bloom entirely inside a sealed fleshy chamber."
+    }
+  ]
+}

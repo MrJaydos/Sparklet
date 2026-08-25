@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-25T17:21:58.501Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Stick Charts That Mapped Ocean Swells Without Land",
+      "body": "Long before satellite navigation, sailors across the Marshall Islands navigated thousands of miles of open Pacific using stick charts called mattang, rebbelib, and meddo. Built from coconut-palm midribs and tied with fiber, curved sticks marked wave swells deflected by islands, while cowrie shells pinpointed island locations. Rather than being taken to sea, these charts were memorized onshore through tactile study.",
+      "imageWikipediaTitle": "Marshallese stick chart",
+      "sources": [
+        {
+          "title": "Navigation Chart (Rebbelib)",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/313725"
+        },
+        {
+          "title": "Marshallese stick chart",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marshallese_stick_chart"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/art/collection/search/313725",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ottoman Shadow Puppets Crafted from Translucent Camel Hide",
+      "body": "In traditional Turkish Karagöz theater, puppeteers create vivid silhouettes on a backlit cloth screen using figures cut from camel or water-buffalo hide. Craftsmen scrape the leather thin until it becomes semi-transparent, punch details with chisels, and stain it using natural vegetable dyes. Held against the muslin screen with horizontal wooden rods, the puppets glow with luminous, stained-glass colors as a single master puppeteer voices every character.",
+      "imageWikipediaTitle": "Karagöz and Hacivat",
+      "sources": [
+        {
+          "title": "Karagöz",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/karagoz-00180"
+        },
+        {
+          "title": "Karagöz and Hacivat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karag%C3%B6z_and_Hacivat"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/karagoz-00180",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Knotted Strings That Administered the Inca Empire",
+      "body": "Without a written phonetic alphabet, the Inca Empire managed millions of people across four thousand kilometers of mountainous terrain using knotted cords called khipus. Made from cotton or camelid fiber, each khipu encoded information through cord color, spin direction, knot type, and placement in a base-10 decimal system. Specially trained record-keepers, called khipukamayuqs, used them to track taxes, census data, storehouse supplies, and military troop movements.",
+      "imageWikipediaTitle": "Quipu",
+      "sources": [
+        {
+          "title": "Quipu",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/313320"
+        },
+        {
+          "title": "Quipu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quipu"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/art/collection/search/313320",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Traditional Pizza Makers Spin Dough in the Air",
+      "body": "When Neapolitan pizza makers twirl disc-shaped dough high in the air, the acrobatic motion is far more than street theater. Known as pizzaiuoli, these artisans spin the dough to evenly stretch it outward using centrifugal force while avoiding rolling pins that crush delicate gas pockets. The rapid movement also oxygenates the fermented dough and preserves the outer rim, ensuring the crust blisters into an airy, puffed border in a wood-fired oven.",
+      "imageWikipediaTitle": "Neapolitan pizza",
+      "sources": [
+        {
+          "title": "Art of Neapolitan Pizzaiuolo",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722"
+        },
+        {
+          "title": "Neapolitan pizza",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neapolitan_pizza"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/art-of-neapolitan-pizzaiuolo-00722",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Indonesian Orchestras Where No Two Ensembles Share a Tuning",
+      "body": "An Indonesian gamelan is treated not as a collection of separate instruments, but as a single sacred entity. Comprising bronze metallophones, tuned gongs, and drums, every gamelan is forged, tuned, and painted as an indivisible set. No standard pitch exists across ensembles; instead, each village's gamelan is uniquely tuned to its own distinct scale variations. Playing instruments from two different sets together would clash, making every gamelan orchestra completely one-of-a-kind.",
+      "imageWikipediaTitle": "Gamelan",
+      "sources": [
+        {
+          "title": "Gamelan",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/gamelan-01607"
+        },
+        {
+          "title": "Gamelan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gamelan"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/gamelan-01607",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did Marshallese navigators traditionally use stick charts?",
+      "options": [
+        "They took them on voyages as nautical maps",
+        "They memorized them on land before sailing",
+        "They floated them on the water to test current speed",
+        "They aligned them with constellations at night"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marshallese stick charts were pedagogical tools studied and memorized onshore; navigators relied entirely on tactile memory and sensory cues at sea."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What material is traditionally scraped and dyed to make Turkish Karagöz shadow puppets?",
+      "options": [
+        "Papyrus reeds",
+        "Woven silk",
+        "Camel or water-buffalo hide",
+        "Thin sheets of copper"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karagöz puppets are crafted from translucent scraped camel or water-buffalo hide and stained with natural pigments to glow on the backlit screen."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What numerical counting system did Inca administrators encode into their knotted khipus?",
+      "options": [
+        "Base-10 (decimal)",
+        "Base-2 (binary)",
+        "Base-20 (vigesimal)",
+        "Base-60 (sexagesimal)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inca khipus used knots tied in specific tiered positions to represent units, tens, hundreds, and thousands in a base-10 decimal system."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do traditional Neapolitan pizzaiuoli spin dough in the air instead of using rolling pins?",
+      "options": [
+        "To dry out excess moisture from the sauce",
+        "To stretch the dough with centrifugal force while preserving air pockets",
+        "To cool down the dough before baking",
+        "To coat the crust evenly with flour dust"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spinning stretches dough naturally with centrifugal force and keeps the crust airy, whereas a rolling pin crushes delicate fermented air pockets."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why can't instruments from two different traditional Indonesian gamelans usually be played together?",
+      "options": [
+        "Each gamelan is forged and tuned to its own unique pitch intervals",
+        "Different ensembles use incompatible electric amplifiers",
+        "Religious taboos forbid musicians from touching other instruments",
+        "Each set is cast from incompatible metals that warp tone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every gamelan is forged and tuned as an indivisible unit with its own custom tuning, so instruments from different sets clash musically."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Marshallese stick charts were waterproof nautical maps carried on canoes during voyages.",
+      "answer": false,
+      "explanation": "Stick charts were instructional models studied and memorized on land; navigators navigated open waters purely by memory, wave feel, and star paths."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Neapolitan pizza makers spin dough in the air purely as an entertaining show for customers.",
+      "answer": false,
+      "explanation": "Tossing dough oxygenates it and uses centrifugal force to stretch it evenly without flattening the delicate air bubbles needed for a light crust."
+    }
+  ]
+}
