@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-26T18:46:46.801Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask how many animals Moses put on the ark, and your brain barely notices the error",
+      "body": "In a 1981 experiment, researchers asked participants: \"How many animals of each kind did Moses take on the Ark?\" Most answered \"two,\" failing to notice that Noah built the ark, not Moses. Even when specifically warned that questions might contain factual distortions, up to 80% of people still miss the error because our brains prioritize overall semantic context over word-by-word precision.",
+      "imageWikipediaTitle": "Noah's Ark",
+      "sources": [
+        {
+          "title": "Knowledge neglect: Failures to notice contradictions with stored knowledge",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2856711/"
+        },
+        {
+          "title": "Moses illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moses_illusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Moses_illusion",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Agreeing to a tiny request makes you vastly more likely to agree to a huge one later",
+      "body": "In a classic 1966 Stanford study, researchers asked homeowners to place an enormous, ugly \"Drive Carefully\" billboard on their front lawns. Only 17% agreed. However, when another group was first asked to sign a small petition supporting safe driving two weeks earlier, an astounding 55% later agreed to let researchers install the giant billboard on their property.",
+      "imageWikipediaTitle": "Billboard",
+      "sources": [
+        {
+          "title": "Attitudes and Persuasion",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/12-3-attitudes-and-persuasion"
+        },
+        {
+          "title": "Foot-in-the-door technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Foot-in-the-door_technique",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rare 2% of people can accurately recognize faces they saw just once decades ago",
+      "body": "While typical humans struggle to identify unfamiliar faces seen hours earlier, roughly 1% to 2% of the population are \"super-recognizers.\" First identified by Harvard researchers in 2009, these individuals possess an extraordinary innate ability to memorize and recognize human faces despite heavy disguises, aging, or low lighting. Law enforcement agencies now deploy super-recognizers to spot suspects from blurry surveillance footage.",
+      "imageWikipediaTitle": "Facial recognition system",
+      "sources": [
+        {
+          "title": "Super-recognizers: people with extraordinary face recognition ability",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4767228/"
+        },
+        {
+          "title": "Super recogniser",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Super_recogniser"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Super_recogniser",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Doing a good deed secretly gives your brain permission to act selfishly later",
+      "body": "Known as moral licensing, psychological research shows that establishing good moral credentials subconsciously encourages people to make selfish or unethical choices afterward. In controlled experiments, participants who bought eco-friendly green products or affirmed egalitarian beliefs were significantly more likely in subsequent tasks to cheat on tests, pocket unearned money, or express biased opinions compared to control groups.",
+      "imageWikipediaTitle": "Morality",
+      "sources": [
+        {
+          "title": "Self-licensing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-licensing"
+        },
+        {
+          "title": "Moral licensing and moral cleansing",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3878959/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Self-licensing",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "93% of American drivers believe their driving skills are above average",
+      "body": "In a famous 1981 study by psychologist Ola Svenson, American and Swedish drivers were asked to evaluate their driving competence compared to their peers. Remarkably, 93% of US college-student drivers rated their skills as better than the median driver. Because by definition only 50% can be above the median, this illusory superiority demonstrates how our minds systematically distort reality to flatter our self-image.",
+      "imageWikipediaTitle": "Driving",
+      "sources": [
+        {
+          "title": "Illusory superiority",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusory_superiority"
+        },
+        {
+          "title": "What Is Social Psychology?",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/12-1-what-is-social-psychology"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusory_superiority",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do most people answer \"two\" when asked how many animals Moses took on the ark?",
+      "options": [
+        "Moses genuinely built an earlier version of the ark",
+        "The brain prioritizes overall context over precise semantic errors",
+        "Visual processing overrides auditory memory",
+        "Cognitive fatigue sets in immediately during trivia tests"
+      ],
+      "correctIndex": 1,
+      "explanation": "Known as the Moses illusion, our brains process language top-down and easily overlook incorrect terms that share strong semantic context with the topic."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the psychological tactic of securing a small agreement before making a larger request?",
+      "options": [
+        "The door-in-the-face technique",
+        "The foot-in-the-door technique",
+        "The anchoring heuristic",
+        "The framing effect"
+      ],
+      "correctIndex": 1,
+      "explanation": "The foot-in-the-door technique increases compliance for large demands by first getting someone to commit to a minor initial request."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unique skill characterizes \"super-recognizers\"?",
+      "options": [
+        "Photographic memory for written text",
+        "Exceptional ability to recognize human faces across time and disguises",
+        "Total immunity to optical illusions",
+        "Ability to read emotions purely through vocal tone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Super-recognizers make up roughly 1–2% of the population and excel at identifying faces seen briefly years before or in poor conditions."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the phenomenon of \"moral licensing\" affect human behavior?",
+      "options": [
+        "Doing a good deed makes people subconsciously more permissive of bad behavior later",
+        "Punishing wrongdoing immediately cures future selfish instincts",
+        "Watching someone else act ethically forces you to mirror them",
+        "Guilt leads to sustained lifelong ethical improvements"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moral licensing occurs when acting ethically gives people psychological license to make selfish or biased choices shortly afterward."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is it mathematically impossible for 93% of drivers to be better than the median driver?",
+      "options": [
+        "The median is always zero",
+        "By definition, exactly 50% of any population falls above the median",
+        "Only professional racers can be above the median",
+        "Driving skill cannot be quantified numerically"
+      ],
+      "correctIndex": 1,
+      "explanation": "The median divides a dataset into two equal halves, meaning exactly 50% of drivers can be above the median."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In a 1966 study, what percentage of homeowners agreed to a giant lawn billboard after first signing a small petition?",
+      "answer": 55,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Signing a tiny petition first caused compliance for the giant billboard to surge from 17% to 55%."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In a 1981 study, what percentage of US college-student drivers rated their driving ability as above average?",
+      "answer": 93,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "An overwhelming 93% of US drivers believed they were more skilled than the median driver."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "People carefully verify the factual accuracy of individual words when comprehending sentences.",
+      "answer": false,
+      "explanation": "The Moses illusion proves that when words fit the overall topic, people routinely overlook gross factual errors."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Performing an ethical act makes a person consistently more ethical in the hours that follow.",
+      "answer": false,
+      "explanation": "Due to moral licensing, performing a good deed often frees people to act more selfishly or cheat in subsequent tasks."
+    }
+  ]
+}
