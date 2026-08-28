@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.828Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why temporal landmarks make prospects more receptive",
+      "body": "Pitching prospective buyers at the start of a week, month, or quarter significantly increases response rates. Known as the fresh start effect, temporal landmarks act as psychological resets. Research led by Hengchen Dai and Katherine Milkman shows that people naturally disconnect from past habits and become far more open to new goals and tools right after these boundary moments, making them ideal times to initiate new sales conversations.",
+      "imageWikipediaTitle": "Calendar",
+      "sources": [
+        {
+          "title": "Fresh start effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fresh_start_effect"
+        },
+        {
+          "title": "The Fresh Start Effect: Temporal Landmarks Motivate Aspirational Behavior",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4175787/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fresh_start_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why saying 'thank you' beats apologizing for delays",
+      "body": "When facing a project delay or customer issue, saying 'Thank you for your patience' preserves customer satisfaction far better than saying 'Sorry for the delay.' Controlled communication studies show that apologies direct attention to the seller's mistake, sparking negative feelings. In contrast, expressing gratitude shines a light on the customer's positive traits—such as patience and cooperation—reinforcing their self-esteem and leaving them feeling valued.",
+      "imageWikipediaTitle": "Customer service",
+      "sources": [
+        {
+          "title": "Saying 'Thank You' or 'Sorry': The Impact of Service Recovery Communication on Customer Satisfaction",
+          "publisher": "Frontiers in Psychology",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.724779/full"
+        },
+        {
+          "title": "Saying 'Thank You' or 'Sorry': The Impact of Service Recovery Communication on Customer Satisfaction",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8477005/"
+        }
+      ],
+      "readMoreUrl": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.724779/full",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking buyers to fill in the blanks seals the pitch",
+      "body": "If you want prospects to remember key benefits, let them generate the conclusions. First documented by psychologists Norman Slamecka and Peter Graf, the generation effect shows that people recall information significantly better when they actively produce it rather than passively reading it. In a pitch, asking a prospect guided questions to calculate their own cost savings or articulate their main workflow bottleneck cements the insight far deeper than any slide.",
+      "imageWikipediaTitle": "Recall (memory)",
+      "sources": [
+        {
+          "title": "Generation effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Generation_effect"
+        },
+        {
+          "title": "The Generation Effect in Memory",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5799986/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Generation_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frame core metrics as positive gains rather than avoided losses",
+      "body": "The way you label an identical product attribute alters how buyers perceive overall quality. In classic experiments by Irwin Levin and Gary Gaeth, consumers rated ground beef significantly tastier and higher in quality when labeled '75% lean' rather than '25% fat.' In sales conversations, framing performance metrics around success—like a '99% satisfaction rate' rather than a '1% return rate'—activates favorable mental associations that enhance the product's entire perceived value.",
+      "imageWikipediaTitle": "Cognitive psychology",
+      "sources": [
+        {
+          "title": "Framing effect (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)"
+        },
+        {
+          "title": "Framing Effects in Medical Decision Making",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3181861/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Framing_effect_(psychology)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pricing a single unit first unlocks larger commitments",
+      "body": "When pitching high-volume packages or large donations, ask prospects what they would commit to a single unit before presenting the full request. Pioneered by behavioral researcher Christopher Hsee, the unit asking technique prompts buyers to evaluate one person, seat, or license with focused empathy and concrete evaluation. Once they set a high per-unit baseline, they apply that benchmark to the total package, dramatically increasing total deal size.",
+      "imageWikipediaTitle": "Donation",
+      "sources": [
+        {
+          "title": "Unit asking",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unit_asking"
+        },
+        {
+          "title": "The Unit Asking Technique and Large-Scale Donations",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624732/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Unit_asking",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the 'fresh start effect' in persuasion and behavioral psychology?",
+      "options": [
+        "People are more receptive to change right after temporal landmarks like new weeks or months",
+        "Discounts offered to first-time buyers close at twice the rate of repeat offers",
+        "Pitches delivered in the early morning convert better than afternoon meetings",
+        "Restarting a stalled negotiation with an entirely new proposal increases deal size"
+      ],
+      "correctIndex": 0,
+      "explanation": "Temporal landmarks like Mondays, new months, and new quarters act as psychological resets, making people more open to aspirational goals."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does saying 'Thank you for your patience' outperform 'Sorry for the wait'?",
+      "options": [
+        "It subtly shifts legal liability away from the company",
+        "It highlights the customer's positive traits rather than the seller's mistake",
+        "It reduces the perceived duration of the delay by half",
+        "It prevents customers from requesting financial compensation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gratitude highlights the customer's patience and positive identity, whereas apologies draw focus to the service failure."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the 'generation effect' improve pitch retention?",
+      "options": [
+        "Younger generations recall visual data better than spoken text",
+        "Information is retained better when the listener actively produces or calculates it",
+        "Presenting multi-generational case studies builds stronger client trust",
+        "Repeating a core message across multiple meetings embeds it in memory"
+      ],
+      "correctIndex": 2,
+      "explanation": "The generation effect proves that actively calculating or verbalizing an idea leads to significantly stronger recall than passive reading."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did Levin and Gaeth find when comparing '75% lean' and '25% fat' labels?",
+      "options": [
+        "Consumers rated the '75% lean' meat as tastier and higher quality despite identical content",
+        "Consumers noticed no difference because both statements mean the exact same thing",
+        "Consumers preferred the '25% fat' label because it sounded more authentic",
+        "Consumers were willing to pay less for '75% lean' meat due to perceived dryness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Positive attribute framing ('75% lean') activates positive mental associations, leading to superior overall product ratings."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the 'unit asking' technique increase total pitch commitments?",
+      "options": [
+        "It breaks the final price into unbundled add-on charges",
+        "It offers a single free trial unit before asking for a contract",
+        "It asks what a buyer would give for one unit first, setting a high baseline per unit",
+        "It limits the buyer to purchasing only one package at a time"
+      ],
+      "correctIndex": 2,
+      "explanation": "Evaluating one individual unit triggers concrete valuation and empathy, establishing a higher baseline rate for the entire bundle."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In Dai and Milkman's landmark study on the fresh start effect, by what percentage did gym visits jump at the start of a new week compared to baseline?",
+      "answer": 33,
+      "min": 5,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Gym attendance surged by 33.4% on Mondays, illustrating how the start of a week acts as a powerful psychological reset."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Saying 'I am sorry for the delay' is more effective at soothing frustrated clients than saying 'Thank you for your patience'.",
+      "answer": false,
+      "explanation": "Research shows gratitude outperforms apologies because it highlights the client's positive character rather than dwelling on the mistake."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Prospects retain sales figures best when all calculations are completely laid out on presentation slides.",
+      "answer": false,
+      "explanation": "The generation effect shows that prompting prospects to calculate or articulate numbers themselves creates much stronger memory retention."
+    }
+  ]
+}

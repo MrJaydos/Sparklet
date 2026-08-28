@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.841Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain cannot feel any physical pain",
+      "body": "While your brain processes pain signals sent from every other tissue in your body, brain tissue itself contains zero pain receptors. This allows neurosurgeons to perform operations directly on awake patients once local anesthesia numbs the scalp, bone, and meninges. Headaches do not originate inside brain tissue; they arise when nerves in surrounding blood vessels, muscles, and protective membranes become irritated or inflamed.",
+      "imageWikipediaTitle": "Human brain",
+      "sources": [
+        {
+          "title": "Neuroanatomy, Somatosensory Pain and Temperature",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539858/"
+        },
+        {
+          "title": "Nociception",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nociception"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539858/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eating less calcium can actually increase kidney stone risk",
+      "body": "Because the most common kidney stones consist of calcium oxalate, people often assume cutting calcium from their diet prevents them. In reality, dietary calcium binds to oxalate in your gut before it can be absorbed. When calcium intake drops, unbound oxalate passes freely into your bloodstream and concentrates in your kidneys, sharply raising the likelihood of painful stone formation.",
+      "imageWikipediaTitle": "Kidney stone disease",
+      "sources": [
+        {
+          "title": "Eating, Diet, & Nutrition for Kidney Stones",
+          "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases",
+          "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition"
+        },
+        {
+          "title": "Kidney stone disease",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kidney_stone_disease"
+        }
+      ],
+      "readMoreUrl": "https://www.niddk.nih.gov/health-information/urologic-diseases/kidney-stones/eating-diet-nutrition",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single drop of blood circuits your whole body in 60 seconds",
+      "body": "At rest, your heart pumps approximately five liters of blood every minute, circulating your entire blood volume through the vascular network in about 60 seconds. A single red blood cell leaves the heart, travels through major arteries, navigates narrow capillary beds to deliver oxygen, and returns through the veins in one minute flat. During intense exercise, this round trip accelerates to roughly 15 seconds.",
+      "imageWikipediaTitle": "Circulatory system",
+      "sources": [
+        {
+          "title": "Physiology, Cardiovascular Hemodynamics",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534827/"
+        },
+        {
+          "title": "Circulatory system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Circulatory_system"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK534827/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You have taste receptors in your gut and lungs",
+      "body": "Taste receptors are not restricted to your tongue. Cells equipped with identical taste-sensing proteins line your gastrointestinal tract, pancreas, and airways. In the gut, sweet and bitter receptors detect chemical contents to regulate digestive hormone secretion. In your respiratory system, bitter receptors detect noxious bacterial compounds and trigger microscopic cilia to beat faster, clearing harmful microbes out of the lungs.",
+      "imageWikipediaTitle": "Taste receptor",
+      "sources": [
+        {
+          "title": "Extraoral taste receptors",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699884/"
+        },
+        {
+          "title": "Taste receptor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taste_receptor"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3699884/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your lungs always retain over a liter of unbreathable air",
+      "body": "No matter how forcefully you exhale, you cannot empty your lungs completely. A healthy adult always retains roughly 1.2 liters of air, called the residual volume. This permanent reserve prevents your millions of microscopic alveoli from collapsing under surface tension after every breath. It also maintains continuous oxygen and carbon dioxide exchange with your blood between breaths, keeping oxygen levels stable.",
+      "imageWikipediaTitle": "Lung volumes",
+      "sources": [
+        {
+          "title": "Physiology, Residual Volume",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK541098/"
+        },
+        {
+          "title": "Lung volumes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lung_volumes"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541098/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why can neurosurgeons perform operations on the brain tissue of awake patients without causing direct brain pain?",
+      "options": [
+        "Brain tissue contains no nociceptors (pain receptors)",
+        "The brain suppresses its own pain signals with endorphins",
+        "Brain tissue cools down to numb itself during surgery",
+        "Sensory nerves only send signals away from the brain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brain tissue itself lacks pain receptors entirely; headaches originate in the surrounding blood vessels, muscles, and meninges."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does reducing dietary calcium often increase the risk of calcium oxalate kidney stones?",
+      "options": [
+        "It prevents calcium from binding oxalate in the digestive tract",
+        "It causes the kidneys to produce excess uric acid",
+        "It raises stomach acidity to dangerous levels",
+        "It stops the liver from filtering blood properly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dietary calcium binds oxalate in the gut so it gets excreted in stool. Without calcium, free oxalate enters the blood and concentrates in the kidneys."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Roughly how long does it take for a red blood cell to complete a full circuit through the resting human body?",
+      "options": [
+        "60 seconds",
+        "10 seconds",
+        "5 minutes",
+        "15 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "At rest, the heart pumps your entire blood volume (about five liters) through the circulatory system once every 60 seconds."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What function do bitter taste receptors serve when activated in human airway tissues?",
+      "options": [
+        "They trigger cilia to beat faster and clear out pathogens",
+        "They make inhaled air feel sweeter to the brain",
+        "They temporarily shut down the vocal cords",
+        "They prevent oxygen from entering the bloodstream"
+      ],
+      "correctIndex": 0,
+      "explanation": "Airway bitter receptors detect bacterial byproducts and stimulate cilia to speed up clearance of mucus and microbes."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary function of the lungs' residual volume?",
+      "options": [
+        "Preventing alveoli from collapsing and sustaining continuous gas exchange",
+        "Cooling blood as it circulates through the chest cavity",
+        "Storing emergency oxygen for up to thirty minutes",
+        "Balancing the weight of the lungs against the ribcage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Residual volume keeps alveoli open and allows gas exchange into the bloodstream to continue smoothly between breaths."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "At rest, how many seconds does it take for a single drop of blood to make a full circuit through your body?",
+      "answer": 60,
+      "min": 5,
+      "max": 300,
+      "unit": "s",
+      "explanation": "Your heart pumps your entire five-liter blood volume in roughly 60 seconds at rest, dropping to 15 seconds during hard exercise."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many liters of air permanently remain in an adult's lungs even after the hardest possible exhale?",
+      "answer": 1.2,
+      "min": 0.1,
+      "max": 4,
+      "unit": "L",
+      "explanation": "The residual volume of about 1.2 liters keeps your air sacs from collapsing after every breath."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A headache occurs because your brain tissue is physically hurting.",
+      "answer": false,
+      "explanation": "The brain has no pain receptors; headaches stem from nerves in surrounding blood vessels, muscles, and membranes."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Cutting calcium from your diet helps prevent calcium kidney stones.",
+      "answer": false,
+      "explanation": "Lower calcium intake allows more unbound oxalate to enter the bloodstream and form stones in the kidneys."
+    }
+  ]
+}

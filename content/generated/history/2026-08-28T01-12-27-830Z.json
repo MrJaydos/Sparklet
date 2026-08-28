@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.830Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Most Heavily Armed Tree-Trimming Operation in Military History",
+      "body": "In August 1976, after North Korean soldiers killed two US officers attempting to prune a poplar tree in the Demilitarized Zone, the US responded with Operation Paul Bunyan. To chop down that single tree, the US and South Korea deployed over 800 heavily armed troops, 27 attack helicopters, B-52 bombers escorted by fighter jets, and an offshore aircraft carrier battle group. The tree was cut down in 42 minutes without further casualties.",
+      "imageWikipediaTitle": "Operation Paul Bunyan",
+      "sources": [
+        {
+          "title": "Korean axe murder incident",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Korean_axe_murder_incident"
+        },
+        {
+          "title": "The Axe Murder Incident and Operation Paul Bunyan",
+          "publisher": "U.S. Army",
+          "url": "https://www.army.mil/article/260021/the_axe_murder_incident_and_operation_paul_bunyan"
+        }
+      ],
+      "readMoreUrl": "https://www.army.mil/article/260021/the_axe_murder_incident_and_operation_paul_bunyan",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When the Catholic Church Put a Corpse on Trial",
+      "body": "In 897 CE, Pope Stephen VI ordered the decomposing corpse of his predecessor, Pope Formosus, to be exhumed from its tomb, dressed in full papal vestments, and propped up on a throne to face trial. A deacon was assigned to speak for the dead pontiff. Found guilty of perjury and illegally assuming the papacy, Formosus had three fingers stripped of blessing and his body thrown into the Tiber River.",
+      "imageWikipediaTitle": "Cadaver Synod",
+      "sources": [
+        {
+          "title": "Cadaver Synod",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cadaver_Synod"
+        },
+        {
+          "title": "The Cadaver Synod: Putting a Dead Pope on Trial",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/1897/the-cadaver-synod-putting-a-dead-pope-on-trial/"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/article/1897/the-cadaver-synod-putting-a-dead-pope-on-trial/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Eccentric Will That Sparked the Great Stork Derby",
+      "body": "When wealthy Canadian lawyer Charles Vance Millar died in 1926, his will set off an unprecedented baby race. Having no direct heirs, he stipulated that the bulk of his estate be given to whichever Toronto mother gave birth to the most children during the ten years following his death. In 1938, the Ontario Supreme Court awarded the $750,000 fortune equally to four mothers who each gave birth to nine babies.",
+      "imageWikipediaTitle": "Great Stork Derby",
+      "sources": [
+        {
+          "title": "Great Stork Derby",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Stork_Derby"
+        },
+        {
+          "title": "Great Stork Derby",
+          "publisher": "The Canadian Encyclopedia",
+          "url": "https://www.thecanadianencyclopedia.ca/en/article/great-stork-derby"
+        }
+      ],
+      "readMoreUrl": "https://www.thecanadianencyclopedia.ca/en/article/great-stork-derby",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The King Whose Poison Immunity Backfired on the Battlefield",
+      "body": "Terrified of assassination, King Mithridates VI of Pontus spent decades ingesting tiny, non-lethal doses of various poisons combined with antidotes to build physiological tolerance—a practice now known as mithridatism. His strategy worked too well: when defeated by Roman general Pompey in 63 BCE, Mithridates attempted to end his own life by swallowing lethal poison. Because his body resisted the toxins, he was forced to ask a bodyguard to run him through with a sword.",
+      "imageWikipediaTitle": "Mithridates VI of Pontus",
+      "sources": [
+        {
+          "title": "Mithridates VI Eupator",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mithridates_VI_Eupator"
+        },
+        {
+          "title": "Mithridates VI",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Mithridates_VI/"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/Mithridates_VI/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Sixteen Horses Failed to Separate Two Hollow Spheres",
+      "body": "In 1654, German scientist Otto von Guericke demonstrated the immense power of atmospheric pressure to Emperor Ferdinand III. He joined two hollow copper hemispheres together with a greased leather seal and pumped the air out from the inside. Two teams of eight heavy draft horses pulling in opposite directions could not tear the spheres apart. Only when Guericke turned a valve to let air back in did the hemispheres fall apart under their own weight.",
+      "imageWikipediaTitle": "Magdeburg hemispheres",
+      "sources": [
+        {
+          "title": "Magdeburg hemispheres",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magdeburg_hemispheres"
+        },
+        {
+          "title": "Otto von Guericke",
+          "publisher": "Linda Hall Library",
+          "url": "https://www.lindahall.org/about/news/scientist-of-the-day/otto-von-guericke"
+        }
+      ],
+      "readMoreUrl": "https://www.lindahall.org/about/news/scientist-of-the-day/otto-von-guericke",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the United States launch the massive military deployment known as Operation Paul Bunyan in 1976?",
+      "options": [
+        "To capture a rogue general hiding in the DMZ",
+        "To cut down a single poplar tree safely",
+        "To construct a new border observation tower",
+        "To rescue downed pilots behind enemy lines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Following the deadly Axe Murder Incident, the US deployed overwhelming force to back up an engineering crew cutting down a single obstructionist tree."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was unusual about the defendant in the 897 CE 'Cadaver Synod'?",
+      "options": [
+        "The defendant was a child under five years old",
+        "The defendant was an exhumed, decomposing papal corpse",
+        "The defendant was tried entirely via carrier pigeon",
+        "The defendant was a church cat accused of witchcraft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pope Stephen VI had the corpse of Pope Formosus exhumed, dressed in papal robes, and placed on a throne to stand trial."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What condition did Canadian lawyer Charles Vance Millar set for inheriting the bulk of his estate?",
+      "options": [
+        "Building the largest public park in Toronto",
+        "Giving birth to the most children in Toronto within ten years",
+        "Refusing all alcoholic beverages for thirty years",
+        "Solving a complex mathematical cipher within five years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Millar's will left his fortune to whichever Toronto mother had the most children during the decade following his death, sparking the 'Great Stork Derby'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why was King Mithridates VI unable to commit suicide using poison after his defeat by Rome?",
+      "options": [
+        "His guards had secretly replaced the poison with water",
+        "He had spent decades building immunity to various poisons",
+        "His physician administered a miracle antidote in secret",
+        "Roman forces seized the poison bottle before he could drink it"
+      ],
+      "correctIndex": 1,
+      "explanation": "By regularly ingesting non-lethal doses of toxins over decades, Mithridates made himself immune to poison, forcing him to die by the sword instead."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What kept the two Magdeburg hemispheres joined against the pull of sixteen horses?",
+      "options": [
+        "Industrial iron clamps hidden inside",
+        "A chemical glue invented by Guericke",
+        "Atmospheric pressure pressing against the internal vacuum",
+        "Strong natural magnetic lodestones"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pumping out the air inside created a vacuum, leaving surrounding atmospheric air pressure to hold the two halves together with tremendous force."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many children did each of the four winning mothers give birth to during the 10-year Great Stork Derby contest?",
+      "answer": 9,
+      "min": 1,
+      "max": 20,
+      "unit": "babies",
+      "explanation": "Four Toronto mothers tied for first place by each giving birth to 9 babies during the 10-year span from 1926 to 1936."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many total draft horses were hitched in opposing teams to pull apart Otto von Guericke's evacuated hemispheres in 1654?",
+      "answer": 16,
+      "min": 2,
+      "max": 50,
+      "unit": "horses",
+      "explanation": "Two teams of 8 horses (16 total) pulling in opposite directions failed to overcome the atmospheric force holding the vacuum-sealed spheres together."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "King Mithridates VI of Pontus successfully avoided death by assassination using poison, but later could not poison himself when he wanted to.",
+      "answer": true,
+      "explanation": "Decades of consuming sub-lethal poison doses made him so immune to common toxins that his attempted suicide failed, requiring a sword strike."
+    }
+  ]
+}

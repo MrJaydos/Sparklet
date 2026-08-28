@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.833Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to Count to Three in Arabic",
+      "body": "Arabic is spoken by over 300 million people, and its counting system is straightforward to learn. To count to three in Modern Standard Arabic, begin with واحد (wāḥid, pronounced *WAH-hid*), meaning one. Two is اثنان (ithnān, pronounced *ith-NAHN*), and three is ثلاثة (thalāthah, pronounced *tha-LAH-thah*). Across the Middle East and North Africa, these numbers are also written using Eastern Arabic numerals: ١, ٢, and ٣.",
+      "imageWikipediaTitle": "Arabic numerals",
+      "sources": [
+        {
+          "title": "Arabic language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Arabic-language"
+        },
+        {
+          "title": "Arabic numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic_numerals"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Arabic-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"Prestige\" Originally Meant a Juggler's Trick",
+      "body": "Today, prestige conveys distinction, wealth, and high social standing. Yet for centuries, it meant something entirely fraudulent. Borrowed from Latin *praestigium*, the French word *prestige* originally referred to a juggler's trick, an optical illusion, or deceptive sleight of hand. It was not until the 19th century that French and English speakers shifted the term's meaning from \"blinding illusion\" to the glamorous aura that commands widespread admiration.",
+      "imageWikipediaTitle": "Stage magic",
+      "sources": [
+        {
+          "title": "prestige",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/prestige"
+        },
+        {
+          "title": "Prestige",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prestige"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/prestige",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to Show Gratitude in Polish",
+      "body": "In Poland, expressing basic politeness begins with a single handy word: *dziękuję* (pronounced *jen-KOO-yeh*). Derived from an Old High German root shared with the English verb \"to thank,\" this phrase serves in formal and informal situations alike. If you want to say \"thank you very much,\" simply add *bardzo* (*BAR-dzoh*) to say *dziękuję bardzo*, one of the most practical everyday phrases in the Polish language.",
+      "imageWikipediaTitle": "Polish language",
+      "sources": [
+        {
+          "title": "dziękuję",
+          "publisher": "Cambridge Dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/polish-english/dziekuje"
+        },
+        {
+          "title": "Polish language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Polish-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Polish-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"Cynics\" Are Named After Stray Dogs",
+      "body": "Modern cynics are known for distrusting human sincerity, but the original Cynics were ancient Greek philosophers nicknamed after dogs. The term derives from the Greek *kynikos* (dog-like), rooted in *kyōn* (dog). Ancient Athenians applied the label to Diogenes of Sinope and his followers because they rejected social etiquette, lived on the street with minimal possessions, and shamelessly defied convention in public—behaving, critics argued, just like stray dogs.",
+      "imageWikipediaTitle": "Diogenes",
+      "sources": [
+        {
+          "title": "Cynic",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Cynic"
+        },
+        {
+          "title": "cynic",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/cynic"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Cynic",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Every \"Galaxy\" Is Etymologically Made of Milk",
+      "body": "Deep space telescopes photograph billions of galaxies, but the word itself has humble dairy roots. It comes from the ancient Greek *galaxias*, an adjective meaning \"milky,\" derived from *gala*, the Greek root for milk. Ancient astronomers coined the phrase *galaxias kyklos*—the \"milky circle\"—to describe the glowing band of starlight arching across the night sky. In the 19th century, astronomers expanded the word beyond our own Milky Way to describe other star systems.",
+      "imageWikipediaTitle": "Galaxy",
+      "sources": [
+        {
+          "title": "galaxy",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/galaxy"
+        },
+        {
+          "title": "Galaxies",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/universe/galaxies/"
+        },
+        {
+          "title": "Galaxy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Galaxy"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/universe/galaxies/",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the Arabic word for the number two?",
+      "options": [
+        "ithnān",
+        "wāḥid",
+        "thalāthah",
+        "arba'ah"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Arabic, 'wāḥid' is one, 'ithnān' is two, and 'thalāthah' is three."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did the word \"prestige\" originally mean before acquiring its modern definition?",
+      "options": [
+        "A juggler's trick or optical illusion",
+        "A formal military honor",
+        "A royal inheritance",
+        "An act of supreme bravery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derived from Latin 'praestigium', 'prestige' originally referred to sleight of hand, illusion, or trickery before shifting to mean high status."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the Polish phrase \"dziękuję bardzo\" mean?",
+      "options": [
+        "Thank you very much",
+        "You're very welcome",
+        "Good morning",
+        "Excuse me, please"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Dziękuję' means 'thank you' and 'bardzo' means 'very much' in Polish."
+    },
+    {
+      "cardIndex": 3,
+      "question": "The word \"cynic\" originates from an ancient Greek word meaning what?",
+      "options": [
+        "Dog-like",
+        "Solitary",
+        "Doubtful",
+        "Cold-hearted"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Cynic' comes from the Greek 'kynikos' (dog-like), referring to how Diogenes and his followers lived shamelessly in public like stray dogs."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What substance is the word \"galaxy\" linguistically derived from?",
+      "options": [
+        "Milk",
+        "Water",
+        "Honey",
+        "Dust"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Galaxy' comes from the Greek 'galaxias', meaning 'milky', which itself derives from 'gala', the Greek word for milk."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Roughly how many million people speak Arabic as a native or second language worldwide?",
+      "answer": 300,
+      "min": 50,
+      "max": 1000,
+      "unit": "million",
+      "explanation": "Over 300 million people speak Arabic across North Africa and the Middle East."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The word \"prestige\" has always been an honorable term denoting high social standing.",
+      "answer": false,
+      "explanation": "For centuries, 'prestige' meant a fraudulent illusion or juggler's trick before taking on its positive meaning in the 1800s."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The philosophical label \"Cynic\" was derived from the ancient Greek word for a dog.",
+      "answer": true,
+      "explanation": "Critics called Diogenes and his followers 'kynikos' (dog-like) because of their public disregard for polite social norms."
+    }
+  ]
+}

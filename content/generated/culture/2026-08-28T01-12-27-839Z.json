@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.839Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Elaborate Bread Sculptures Made to Celebrate Spring in Sardinia",
+      "body": "In Sardinian villages, women practice Su Coccu, shaping ceremonial bread called Pane Coccoi into breathtaking works of temporary art. Using only fine durum wheat dough, razor blades, and brass scissors, bakers sculpt intricate birds, roses, fish, and lacework before baking. Prepared for Easter and weddings, these crisp, gilded creations are deeply symbolic gifts that demonstrate familial affection and extraordinary culinary craftsmanship.",
+      "imageWikipediaTitle": "Coccoi a pitzus",
+      "sources": [
+        {
+          "title": "Coccoi a pitzus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coccoi_a_pitzus"
+        },
+        {
+          "title": "Coccoi a pitzus",
+          "publisher": "SardegnaTurismo",
+          "url": "https://www.sardegnaturismo.it/en/explore/coccoi-pitzus"
+        }
+      ],
+      "readMoreUrl": "https://www.sardegnaturismo.it/en/explore/coccoi-pitzus",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Japanese Technique of Growing Wood Without Cutting Trees",
+      "body": "Developed in Kyoto around the 14th century, daisugi is a sustainable forestry technique inspired by bonsai pruning. Foresters heavily prune base cedar trees, encouraging shoots to grow perfectly straight, knot-free vertical poles directly out of the mother trunk. The poles can be harvested every 20 years while keeping the parent tree alive for centuries, yielding exceptionally dense timber historically prized for tea houses and decorative alcoves.",
+      "imageWikipediaTitle": "Daisugi",
+      "sources": [
+        {
+          "title": "Daisugi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daisugi"
+        },
+        {
+          "title": "Daisugi: The 600-Year-Old Japanese Technique for Growing Trees on Other Trees",
+          "publisher": "Earth.Org",
+          "url": "https://earth.org/daisugi-the-600-year-old-japanese-technique-for-growing-trees-on-other-trees/"
+        }
+      ],
+      "readMoreUrl": "https://earth.org/daisugi-the-600-year-old-japanese-technique-for-growing-trees-on-other-trees/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Century-Old Singing Greeting Cards Recorded on Phonograph Records",
+      "body": "Before digital audio, phonopost allowed people to mail spoken letters and musical greetings on playable phonograph postcards. Introduced in the early 20th century and popular through the 1950s, a grooved vinyl coating laminated onto cardboard let senders record personal voices at public booths. Recipients simply placed the postcard onto a standard gramophone turntable to hear their loved ones speak across continents.",
+      "imageWikipediaTitle": "Phonopost",
+      "sources": [
+        {
+          "title": "Phonopost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phonopost"
+        },
+        {
+          "title": "The Postcard You Can Listen To",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/the-postcard-you-can-listen-to-180954005/"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/arts-culture/the-postcard-you-can-listen-to-180954005/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Polish Village Where Every House Is Covered in Painted Flowers",
+      "body": "In the southeastern Polish village of Zalipie, residents have maintained a vibrant folk tradition for over a century: painting colorful floral patterns on every surface. The custom began when women covered indoor soot stains with whitewash and decorative floral daubs. Today, villagers paint outdoor walls, wooden barns, doghouses, bridges, and wells with elaborate folk blooms, culminating each spring in the annual Malowana Chata competition.",
+      "imageWikipediaTitle": "Zalipie, Lesser Poland Voivodeship",
+      "sources": [
+        {
+          "title": "Zalipie, Lesser Poland Voivodeship",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zalipie,_Lesser_Poland_Voivodeship"
+        },
+        {
+          "title": "Painted Village Zalipie",
+          "publisher": "Poland Travel",
+          "url": "https://www.poland.travel/en/discover/villages-and-towns/painted-village-zalipie"
+        }
+      ],
+      "readMoreUrl": "https://www.poland.travel/en/discover/villages-and-towns/painted-village-zalipie",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The African Board Game Played Across the World for Millennia",
+      "body": "Mancala is among the oldest known two-player strategy games still played today, with stone boards dating back thousands of years across Africa and the Middle East. Played by sowing and capturing seeds, pebbles, or shells in rows of hollow pits, it relies strictly on mathematical calculation and foresight rather than chance. Hundreds of cultural variations exist worldwide, including Kalah, Oware, and Bao.",
+      "imageWikipediaTitle": "Mancala",
+      "sources": [
+        {
+          "title": "Mancala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mancala"
+        },
+        {
+          "title": "Mancala games",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/term/x113110"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mancala",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What primary tools are used to carve decorative patterns in Sardinian Pane Coccoi?",
+      "options": [
+        "Wooden stamps and molds",
+        "Scissors and razor blades",
+        "Laser etchers",
+        "Paintbrushes and food coloring"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bakers meticulously shape the durum wheat dough using small brass scissors, razor blades, and serrated wheels to form intricate motifs."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary benefit of the Japanese daisugi forestry technique?",
+      "options": [
+        "It speeds up tree growth to just two months",
+        "It produces straight lumber without felling the parent tree",
+        "It turns cedar trees into edible sap producers",
+        "It makes wood completely fireproof"
+      ],
+      "correctIndex": 1,
+      "explanation": "Daisugi prunes cedar shoots atop a mother trunk, yielding perfectly straight timber repeatedly without killing the base tree."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did recipients play vintage phonopost greeting cards?",
+      "options": [
+        "By shining light through them",
+        "By dipping them in hot water",
+        "By placing them on a standard gramophone turntable",
+        "By winding a small spring inside the envelope"
+      ],
+      "correctIndex": 2,
+      "explanation": "Phonopost cards had a thin vinyl recording layer pressed directly onto the postcard that could be played on a phonograph."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did the tradition of painting floral murals in Zalipie, Poland, originally begin?",
+      "options": [
+        "To hide soot stains on smoke-filled interior walls",
+        "To mark houses protected by local knights",
+        "To camouflage buildings from enemy planes",
+        "To attract rare pollinating bees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Women originally used whitewash and floral daubs to conceal soot spots from wood stoves that lacked proper ventilation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What core game mechanic defines the ancient game family of Mancala?",
+      "options": [
+        "Rolling six-sided dice to move across a board",
+        "Sowing and capturing seeds or tokens in carved pits",
+        "Flipping hidden tiles to find matching symbols",
+        "Drawing cards to build hands of matching suits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mancala games are pit-and-pebble strategy games based on picking up and 'sowing' tokens one by one around hollows on a board."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many years does it typically take to harvest straight cedar poles using the Japanese daisugi pruning technique?",
+      "answer": 20,
+      "min": 5,
+      "max": 100,
+      "unit": "years",
+      "explanation": "Daisugi shoots grow into harvest-ready timber in roughly 20 years, far faster than growing an entire tree from seed."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "Mancala is a single specific board game invented in modern times.",
+      "answer": false,
+      "explanation": "Mancala is actually a vast ancient family of pit-and-pebble 'count-and-capture' games played across Africa and Asia for thousands of years."
+    }
+  ]
+}

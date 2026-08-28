@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.837Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dung beetles navigate using the glow of the Milky Way",
+      "body": "While many animals navigate by the sun, the moon, or polarized light, African dung beetles are the only known animals that orient themselves using the Milky Way galaxy. After carving out a dung ball, the beetle climbs atop it, performs an orientation dance, and rolls the ball in a straight line away from competitors by aligning itself with the starry gradient across the night sky.",
+      "imageWikipediaTitle": "Scarabaeus satyrus",
+      "sources": [
+        {
+          "title": "Scarabaeus satyrus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scarabaeus_satyrus"
+        },
+        {
+          "title": "Dung beetles navigate using the Milky Way galaxy",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2013/01/130124123019.htm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Scarabaeus_satyrus",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The resurrection plant can lose 95% of its water and still come back to life",
+      "body": "Native to the Chihuahuan Desert, the false rose of Jericho can survive losing almost all of its water. In severe droughts, its stems curl inward into a tight, tumbleweed-like ball to protect its inner tissues, entering a state of dormancy where its metabolism virtually stops. Once rain arrives, the plant rehydrates and fully unfurls back into green foliage within just a few hours.",
+      "imageWikipediaTitle": "Selaginella lepidophylla",
+      "sources": [
+        {
+          "title": "Selaginella lepidophylla",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Selaginella_lepidophylla"
+        },
+        {
+          "title": "Resurrection plant",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/plant/resurrection-plant"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Selaginella_lepidophylla",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The oldest individual trees on Earth have survived for nearly 5,000 years",
+      "body": "High in the windswept White Mountains of California and Nevada, Great Basin bristlecone pines thrive in brutal alpine conditions where few other plants can survive. Their dense, resinous wood resists rot, fungi, and boring insects, and they grow at an exceptionally slow pace. The oldest confirmed living specimen, nicknamed Methuselah, took root more than 4,800 years ago—before Egypt built the Great Pyramid of Giza.",
+      "imageWikipediaTitle": "Pinus longaeva",
+      "sources": [
+        {
+          "title": "Pinus longaeva",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pinus_longaeva"
+        },
+        {
+          "title": "Bristlecone Pines",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/grba/learn/nature/bristlecone-pines.htm"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/grba/learn/nature/bristlecone-pines.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Koalas have fingerprints that can fool forensic crime scene investigators",
+      "body": "Koalas and humans share a remarkably similar adaptation: distinct dermatoglyphs on their fingers. A koala's fingertips feature the same intricate patterns of loops, ridges, and whorls seen on human hands. Even under a scanning electron microscope, forensic specialists struggle to tell koala and human prints apart. Because koalas diverged from human ancestors roughly 100 million years ago, this trait is an extraordinary example of convergent evolution for grasping branches.",
+      "imageWikipediaTitle": "Koala",
+      "sources": [
+        {
+          "title": "Koala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Koala"
+        },
+        {
+          "title": "Koalas Have Fingerprints Like Us",
+          "publisher": "Science",
+          "url": "https://www.science.org/content/article/koalas-have-fingerprints-us"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Koala",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's most toxic frog is completely harmless when raised in captivity",
+      "body": "A single wild golden poison frog carries enough batrachotoxin in its skin secretions to kill 10 to 20 adult humans. Yet specimens born or raised in captivity produce no toxins whatsoever. The frogs cannot synthesize the lethal poison on their own; instead, they sequester and concentrate batrachotoxin from their wild diet of toxic beetles and ants. Deprived of those specific insects, the frogs grow up entirely harmless.",
+      "imageWikipediaTitle": "Golden poison frog",
+      "sources": [
+        {
+          "title": "Golden poison frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Golden_poison_frog"
+        },
+        {
+          "title": "Golden Poison Frog",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/golden-poison-frog"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/golden-poison-frog",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which celestial feature do certain nocturnal dung beetles use to roll their dung balls in straight lines?",
+      "options": [
+        "The North Star",
+        "The Milky Way",
+        "The rings of Saturn",
+        "Jupiter"
+      ],
+      "correctIndex": 1,
+      "explanation": "African dung beetles use the gradient of the Milky Way to orient themselves and roll balls in straight paths."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How much of its water content can the resurrection plant lose while still being able to recover when rehydrated?",
+      "options": [
+        "Up to 25%",
+        "Up to 50%",
+        "Up to 75%",
+        "Up to 95%"
+      ],
+      "correctIndex": 3,
+      "explanation": "The resurrection plant can lose about 95% of its water, curling into a ball until rain allows it to revive."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Approximately how old is Methuselah, one of the oldest known living Great Basin bristlecone pines?",
+      "options": [
+        "About 1,200 years old",
+        "About 2,500 years old",
+        "Over 4,800 years old",
+        "Over 10,000 years old"
+      ],
+      "correctIndex": 2,
+      "explanation": "Methuselah is over 4,800 years old, having germinated before the construction of the Great Pyramid of Giza."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why are koala fingerprints particularly fascinating to forensic scientists?",
+      "options": [
+        "They are identical to kangaroo prints",
+        "They have no ridges or whorls",
+        "They are virtually indistinguishable from human fingerprints",
+        "They change pattern every season"
+      ],
+      "correctIndex": 2,
+      "explanation": "Koala fingertips produce loops and whorls so similar to human fingerprints that forensic experts struggle to tell them apart."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do golden poison frogs raised in captivity lack their deadly toxicity?",
+      "options": [
+        "They need sunlight to activate venom",
+        "Their poison glands only develop in the wild",
+        "They acquire their toxins from eating wild insects",
+        "Captive water neutralizes the batrachotoxin"
+      ],
+      "correctIndex": 2,
+      "explanation": "Golden poison frogs do not synthesize batrachotoxin themselves; they accumulate it from their wild prey."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of its total water content can the resurrection plant lose and still survive to unfurl again?",
+      "answer": 95,
+      "min": 20,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The plant can lose up to 95% of its moisture during extreme drought, entering metabolic dormancy until water arrives."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly how many years old is Methuselah, one of Earth's oldest living individual trees?",
+      "answer": 4850,
+      "min": 500,
+      "max": 8000,
+      "unit": "years",
+      "explanation": "Methuselah is over 4,850 years old, surviving millennia in the high-altitude White Mountains."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many adult humans could the poison in a single wild golden poison frog potentially kill?",
+      "answer": 20,
+      "min": 1,
+      "max": 100,
+      "unit": "",
+      "explanation": "A single wild frog carries roughly one milligram of batrachotoxin, enough to kill up to 20 humans."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Only primates possess unique fingerprints with epidermal ridges and whorls.",
+      "answer": false,
+      "explanation": "Koalas, which are marsupials, independently evolved fingerprints with loops and whorls almost identical to humans."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Golden poison frogs produce their own lethal poison inside their venom glands from birth.",
+      "answer": false,
+      "explanation": "Golden poison frogs cannot synthesize poison internally; their toxicity is acquired entirely from their wild insect diet."
+    }
+  ]
+}

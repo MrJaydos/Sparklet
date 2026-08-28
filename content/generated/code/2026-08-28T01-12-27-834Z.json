@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.834Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A computer scientist invented the smiley face to stop online flame wars",
+      "body": "In September 1982, computer scientist Scott Fahlman noticed that text jokes on Carnegie Mellon's digital bulletin board were sparking serious arguments when readers missed the sarcasm. To solve this, he posted a message proposing :-) to mark jokes and :-( for serious posts. The three-character sequence quickly spread across ARPANET, establishing modern emoticons and giving early programmers a universal way to convey nuance in plain text.",
+      "imageWikipediaTitle": "Scott Fahlman",
+      "sources": [
+        {
+          "title": "Smiley Lore :-)",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Scott Fahlman",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scott_Fahlman"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The internet protocol designed to transmit data using homing pigeons",
+      "body": "On April Fools' Day in 1990, network engineer David Waitzman published RFC 1149, an official specification for transmitting Internet Protocol packets using homing pigeons. Eleven years later, the Bergen Linux User Group actually tested it in Norway. They released pigeons carrying tiny memory cards with data packets over five kilometers. While it suffered 55 percent packet loss and took 73 minutes, the avian network successfully transmitted four complete response packets.",
+      "imageWikipediaTitle": "IP over Avian Carriers",
+      "sources": [
+        {
+          "title": "RFC 1149: Standard for the Transmission of IP Datagrams on Avian Carriers",
+          "publisher": "Internet Engineering Task Force",
+          "url": "https://datatracker.ietf.org/doc/html/rfc1149"
+        },
+        {
+          "title": "IP over Avian Carriers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IP_over_Avian_Carriers"
+        }
+      ],
+      "readMoreUrl": "https://datatracker.ietf.org/doc/html/rfc1149",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the tiny website icon accidentally became the first bookmark tracker",
+      "body": "When Microsoft introduced the favicon feature in Internet Explorer 5 in 1999, the browser only requested the 16x16 icon file from a web server when a user added the page to their Favorites list. Webmasters quickly realized that by checking server access logs for requests of that tiny image file, they could track exactly how many visitors had bookmarked their website without asking users or running any client-side JavaScript.",
+      "imageWikipediaTitle": "Favicon",
+      "sources": [
+        {
+          "title": "How to Add a Favicon to your Site",
+          "publisher": "World Wide Web Consortium",
+          "url": "https://www.w3.org/2005/10/howto-favicon"
+        },
+        {
+          "title": "Favicon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Favicon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Favicon",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the '@' symbol was chosen for all email addresses",
+      "body": "In 1971, computer engineer Ray Tomlinson created the first networked email system for ARPANET. He needed a character to separate the user's name from their host computer, but it had to be a symbol that would never appear in a person's name or title. Looking at his Teletype Model 33 keyboard, he picked the little-used '@' sign, which neatly conveyed that the recipient was located 'at' a specific remote machine.",
+      "imageWikipediaTitle": "Ray Tomlinson",
+      "sources": [
+        {
+          "title": "Raymond Tomlinson",
+          "publisher": "Internet Hall of Fame",
+          "url": "https://www.internethalloffame.org/inductee/raymond-tomlinson/"
+        },
+        {
+          "title": "Ray Tomlinson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+        }
+      ],
+      "readMoreUrl": "https://www.internethalloffame.org/inductee/raymond-tomlinson/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "NASA still debugs and updates probes running on less memory than an email",
+      "body": "Launched in 1977, NASA's Voyager 1 spacecraft operates on six interconnected computers with a total memory of just 69.63 kilobytes. Even as Voyager entered interstellar space over 15 billion miles away, engineers at the Jet Propulsion Laboratory continue to write and upload software patches to bypass failing memory chips and thrusters. Traveling at the speed of light, each command takes over 22 hours to reach the probe.",
+      "imageWikipediaTitle": "Voyager 1",
+      "sources": [
+        {
+          "title": "NASA's Voyager Team Focuses on Software Patch, Thrusters",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/nasas-voyager-team-focuses-on-software-patch-thrusters"
+        },
+        {
+          "title": "Voyager 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voyager_1"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/nasas-voyager-team-focuses-on-software-patch-thrusters",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did computer scientist Scott Fahlman invent the smiley emoticon :-) in 1982?",
+      "options": [
+        "To clarify humorous posts and prevent online arguments",
+        "To bypass character limits on ARPANET messaging",
+        "To replace ASCII control characters with visual icons",
+        "To create the first graphical desktop avatar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman proposed :-) on a CMU bulletin board so sarcastic or humorous text would not be mistaken for serious hostility."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What physical medium did RFC 1149 specify for transmitting Internet Protocol data packets?",
+      "options": [
+        "Homing pigeons",
+        "Submarine acoustic pulses",
+        "Amateur radio morse code",
+        "Laser pointers bounced off mirrors"
+      ],
+      "correctIndex": 0,
+      "explanation": "RFC 1149 defined 'A Standard for the Transmission of IP Datagrams on Avian Carriers', using homing pigeons."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did early webmasters use Internet Explorer 5's favicon feature to track visitor behavior?",
+      "options": [
+        "Favicon requests only occurred when someone bookmarked a site",
+        "The icon embedded a unique tracking cookie on the visitor's hard drive",
+        "Browsers uploaded history logs whenever fetching the icon",
+        "The icon's color changed based on user click patterns"
+      ],
+      "correctIndex": 0,
+      "explanation": "IE5 only fetched favicon.ico when a user added the page to Favorites, turning server log requests into an accidental bookmark count."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did Ray Tomlinson choose the '@' symbol for email addresses in 1971?",
+      "options": [
+        "It was rarely used in names and indicated the user's host machine",
+        "It was the only non-alphanumeric key on his keyboard",
+        "It was required by ARPANET's hardware routing protocols",
+        "It stood for 'Automated Telecommunication' in DARPA code"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tomlinson wanted an uncommon keyboard character to separate the user from their host, and '@' naturally conveyed location."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Approximately how much total computer memory does NASA's Voyager 1 probe have across its onboard computers?",
+      "options": [
+        "70 kilobytes",
+        "16 megabytes",
+        "512 megabytes",
+        "2 gigabytes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voyager 1 operates with approximately 69.63 kilobytes of total memory distributed across six onboard computers."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "When Norwegian engineers tested transmitting internet data via homing pigeons (RFC 1149), what percentage of data packets was lost?",
+      "answer": 55,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The 2001 test sent 9 packets via pigeons over 5 kilometers, experiencing a 55% packet loss rate."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many kilobytes of total memory do all the computers onboard NASA's Voyager 1 spacecraft have combined?",
+      "answer": 70,
+      "min": 1,
+      "max": 2000,
+      "unit": "KB",
+      "explanation": "Voyager 1 operates its interstellar instruments with roughly 69.63 KB of memory—far less than a single modern smartphone photo."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Emoticons like the text smiley face were created by graphic designers at commercial advertising agencies.",
+      "answer": false,
+      "explanation": "The text smiley :-) was created in 1982 by computer scientist Scott Fahlman to prevent miscommunication on a university message board."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The '@' symbol in email addresses was originally selected because it literally means 'at' a host computer.",
+      "answer": true,
+      "explanation": "Ray Tomlinson deliberately chose '@' because it did not appear in names and intuitively signified that the recipient was 'at' a specific machine."
+    }
+  ]
+}

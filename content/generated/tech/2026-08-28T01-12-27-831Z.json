@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.831Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Microscopic silicon springs allow your smartphone to detect gravity",
+      "body": "Smartphones detect orientation and steps using microscopic electromechanical systems (MEMS) etched directly into silicon chips. Inside each sensor, a microscopic mass suspended on tiny silicon springs shifts when the phone moves. As the mass moves, the distance between interlaced comb-like fingers changes, altering electrical capacitance. Circuitry measures these microscopic capacitance changes in real time to determine whether you are holding the screen vertically or horizontally.",
+      "imageWikipediaTitle": "Microelectromechanical systems",
+      "sources": [
+        {
+          "title": "Microelectromechanical systems (MEMS)",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://www.nist.gov/laboratories/tools-instruments/microelectromechanical-systems-mems"
+        },
+        {
+          "title": "Microelectromechanical systems",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Microelectromechanical_systems"
+        }
+      ],
+      "readMoreUrl": "https://www.nist.gov/laboratories/tools-instruments/microelectromechanical-systems-mems",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Electronic paper uses charged ink capsules to mimic printed books",
+      "body": "Unlike glowing LED screens that emit light constantly, E-ink displays reflect ambient light just like real paper. The display contains millions of microcapsules, each suspended in clear fluid with positively charged white particles and negatively charged black particles. Applying a negative electrical field pulls white pigment to the surface, making pixels appear white, while a positive field pulls black pigment up. Once set, the particles stay in place without consuming any battery power.",
+      "imageWikipediaTitle": "Electronic paper",
+      "sources": [
+        {
+          "title": "Joseph Jacobson: Electronic Ink",
+          "publisher": "Lemelson-MIT",
+          "url": "https://lemelson.mit.edu/resources/joseph-jacobson"
+        },
+        {
+          "title": "Electronic paper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electronic_paper"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Electronic_paper",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1950s checksum algorithm prevents mistyped credit card numbers",
+      "body": "The sixteen digits on your credit card are not completely random. The final digit is a check digit calculated by the Luhn algorithm, patented by IBM engineer Hans Peter Luhn in 1954. By doubling every second digit from right to left and summing the results, the system quickly validates numbers with simple arithmetic. The algorithm instantly catches almost all accidental single-digit typos and adjacent number swaps before a transaction is ever sent over the network.",
+      "imageWikipediaTitle": "Luhn algorithm",
+      "sources": [
+        {
+          "title": "Hans Peter Luhn",
+          "publisher": "IBM",
+          "url": "https://www.ibm.com/history/hans-peter-luhn"
+        },
+        {
+          "title": "Luhn algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luhn_algorithm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Luhn_algorithm",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "NASA invented modern smartphone camera sensors to miniaturize space probes",
+      "body": "In the 1990s, NASA jet propulsion engineer Eric Fossum needed lightweight, low-power cameras for interplanetary scientific missions. Traditional charge-coupled device (CCD) sensors consumed too much electricity and produced bulky hardware. Fossum developed the CMOS Active Pixel Sensor, integrating image capture and signal processing directly onto a single silicon chip. This miniaturization breakthrough drastically cut power consumption and manufacturing costs, eventually becoming the standard camera technology found inside billions of modern smartphones.",
+      "imageWikipediaTitle": "Active-pixel sensor",
+      "sources": [
+        {
+          "title": "Eric R. Fossum: CMOS Active Pixel Sensor",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/eric-r-fossum"
+        },
+        {
+          "title": "Active-pixel sensor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Active-pixel_sensor"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Active-pixel_sensor",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A standard kitchen teapot became the most famous test model in computer graphics",
+      "body": "In 1975, University of Utah researcher Martin Newell needed a mathematical model of a familiar object to test 3D rendering algorithms. During tea, his wife Sandra suggested sketching their simple white Melitta teapot. Its cylindrical body, curved spout, hollow handle, and self-shadowing properties made it an ideal challenge for lighting and surface algorithms. The \"Utah teapot\" became computer graphics' definitive benchmark, appearing as an easter egg in software like Blender and Pixar movies.",
+      "imageWikipediaTitle": "Utah teapot",
+      "sources": [
+        {
+          "title": "Utah Teapot",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/206"
+        },
+        {
+          "title": "Utah teapot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utah_teapot"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Utah_teapot",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What physical mechanism allows a smartphone MEMS accelerometer to detect device orientation?",
+      "options": [
+        "Capacitance changes caused by a microscopic suspended mass moving on silicon springs",
+        "A droplet of liquid mercury completing different circuits as it sloshes",
+        "A spinning mechanical flywheel that resists changes in rotational momentum",
+        "A miniature internal compass measuring fluctuations in background magnetic fields"
+      ],
+      "correctIndex": 0,
+      "explanation": "MEMS sensors use a microscopic mass suspended by silicon springs; movement shifts the mass, altering electrical capacitance between tiny comb-like structures."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do E-ink screens consume almost zero power while displaying a static page of text?",
+      "options": [
+        "Pigment particles physically stay in place after electric fields reposition them",
+        "The display generates its own power from ambient light hitting the screen",
+        "Liquid crystals freeze permanently into solid form when power drops",
+        "The screen relies entirely on phosphorescent chemical glow after being charged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electronic ink is bistable: electricity is only needed to move the black and white pigment particles, which then stay suspended in place without power."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the original purpose of the Luhn algorithm patented by IBM in 1954?",
+      "options": [
+        "To catch accidental single-digit typos and number swaps before processing",
+        "To encrypt bank account numbers against malicious interception",
+        "To compress long identification numbers so they fit on magnetic strips",
+        "To generate cryptographically secure randomized identification numbers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hans Peter Luhn designed the checksum formula to quickly detect human transcription errors and swapped adjacent digits using basic arithmetic."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did NASA engineer Eric Fossum invent the CMOS Active Pixel Sensor in the 1990s?",
+      "options": [
+        "To create lightweight, low-power digital cameras for deep-space missions",
+        "To decode high-speed optical laser transmissions between orbital satellites",
+        "To allow infrared heat cameras to withstand the extreme cold of outer space",
+        "To capture high-speed video footage during rocket atmospheric re-entry"
+      ],
+      "correctIndex": 0,
+      "explanation": "NASA needed miniature, low-power cameras for interplanetary probes, leading Eric Fossum to invent the CMOS Active Pixel Sensor that now powers smartphone cameras."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did researcher Martin Newell choose a Melitta teapot to create his 3D graphics model in 1975?",
+      "options": [
+        "Its handle, spout, and curves offered diverse geometric and lighting challenges",
+        "It was the only symmetrical object available inside his computer laboratory",
+        "A kitchenware company sponsored the university's rendering research",
+        "Teapots were the only objects simple enough for 1970s mainframe memory limits"
+      ],
+      "correctIndex": 0,
+      "explanation": "The teapot's intersecting curves, hollow handle, spout, and ability to cast shadows upon itself made it the perfect test subject for early 3D rendering algorithms."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In what year did IBM engineer Hans Peter Luhn patent his checksum algorithm for detecting number typos?",
+      "answer": 1954,
+      "min": 1930,
+      "max": 1990,
+      "unit": "",
+      "explanation": "Hans Peter Luhn patented the formula in 1954, and it remains the standard validation checksum for credit cards and IMEI numbers worldwide."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Smartphones detect screen orientation using miniature spinning mechanical gyroscopes.",
+      "answer": false,
+      "explanation": "Smartphones use solid-state MEMS chips where microscopic silicon springs flex and alter electrical capacitance, not spinning mechanical wheels."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "E-ink displays require continuous battery power to keep an image visible on the screen.",
+      "answer": false,
+      "explanation": "E-ink is bistable: electricity is only needed to move the pigment particles, after which they remain in place with zero power consumption."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The core image sensor technology inside modern smartphone cameras was originally developed for NASA spacecraft.",
+      "answer": true,
+      "explanation": "NASA JPL scientist Eric Fossum invented the CMOS active pixel sensor in the 1990s to drastically reduce camera weight and power on space probes."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.835Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a bullshitter is more dangerous to truth than a liar",
+      "body": "In his famous essay On Bullshit, philosopher Harry Frankfurt distinguished lying from bullshitting. A liar knows the truth and deliberately conceals it, still respecting that truth matters. A bullshitter, however, does not care whether what they say is true or false. Their sole goal is manipulating the listener's impression of them. Frankfurt argued this indifference makes bullshitting a far greater threat to civilized discourse than deliberate deception.",
+      "imageWikipediaTitle": "Harry Frankfurt",
+      "sources": [
+        {
+          "title": "On Bullshit",
+          "publisher": "Princeton University Press",
+          "url": "https://press.princeton.edu/books/hardcover/9780691122946/on-bullshit"
+        },
+        {
+          "title": "On Bullshit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/On_Bullshit"
+        }
+      ],
+      "readMoreUrl": "https://press.princeton.edu/books/hardcover/9780691122946/on-bullshit",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How speaking a sentence can perform a real-world action",
+      "body": "Philosophers once assumed sentences only exist to state facts as true or false. In 1955, linguist and philosopher J.L. Austin challenged this with performative utterances. When you say \"I promise,\" \"I name this ship,\" or \"I do\" during marriage vows, you are not describing an action—you are actively performing it. Language does not just depict reality; under the right social conditions, speaking creates new commitments and social facts.",
+      "imageWikipediaTitle": "J. L. Austin",
+      "sources": [
+        {
+          "title": "Speech Acts",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/speech-acts/"
+        },
+        {
+          "title": "Performative utterance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Performative_utterance"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/speech-acts/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your smartphone might literally be part of your mind",
+      "body": "In 1998, philosophers Andy Clark and David Chalmers proposed the extended mind thesis. They imagined Otto, a man with Alzheimer's disease who relies on a notebook to store addresses. If Otto accesses that notebook as reliably as a person without memory loss accesses biological recall, the notebook functions identically to neural memory. Clark and Chalmers argued that cognitive processes do not stop at your skull—they extend into your tools.",
+      "imageWikipediaTitle": "David Chalmers",
+      "sources": [
+        {
+          "title": "Embodied Cognition",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/embodied-cognition/"
+        },
+        {
+          "title": "Extended mind thesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Extended_mind_thesis"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/embodied-cognition/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why no scientific hypothesis can ever be tested in total isolation",
+      "body": "When an experiment fails, which idea was wrong? The Duhem-Quine thesis reveals that you never test a single hypothesis in a vacuum. Every test relies on auxiliary assumptions, from background physical laws to the reliability of your measuring equipment. When observations clash with predictions, logic only proves there is an error somewhere in the entire interconnected network of beliefs—it cannot pinpoint whether your core hypothesis or an unnoticed assumption failed.",
+      "imageWikipediaTitle": "Willard Van Orman Quine",
+      "sources": [
+        {
+          "title": "Underdetermination of Scientific Theory",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/underdet/"
+        },
+        {
+          "title": "Duhem–Quine thesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duhem%E2%80%93Quine_thesis"
+        }
+      ],
+      "readMoreUrl": "https://iep.utm.edu/underdet/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When prejudice steals someone's credibility as a knower",
+      "body": "In 2007, philosopher Miranda Fricker coined the term \"testimonial injustice\" to describe a distinct ethical wrong: deflating someone's credibility purely due to identity prejudice. When a listener distrusts a speaker because of their race, gender, or social status, the speaker is not just disbelieved—they are wronged specifically in their capacity as a knower. Fricker showed that knowledge and social power are deeply entwined, making fair listening a core requirement of justice.",
+      "imageWikipediaTitle": "Miranda Fricker",
+      "sources": [
+        {
+          "title": "Epistemic Injustice",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/epistemic-injustice/"
+        },
+        {
+          "title": "Epistemic injustice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epistemic_injustice"
+        }
+      ],
+      "readMoreUrl": "https://iep.utm.edu/epistemic-injustice/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to philosopher Harry Frankfurt, what makes a bullshitter fundamentally different from a liar?",
+      "options": [
+        "A bullshitter is completely indifferent to whether their claims are true or false.",
+        "A bullshitter always tells accidental half-truths.",
+        "A bullshitter uses formal logical fallacies intentionally.",
+        "A bullshitter speaks only in metaphors and riddles."
+      ],
+      "correctIndex": 0,
+      "explanation": "Frankfurt argued that while liars care enough about the truth to conceal it, bullshitters ignore truth entirely to manipulate impressions."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What makes a \"performative utterance\" distinct from standard descriptive statements?",
+      "options": [
+        "It performs an action instead of just describing a fact.",
+        "It can only be spoken by elected government officials.",
+        "It is logically impossible to prove true or false.",
+        "It requires poetic rhythm to be legally valid."
+      ],
+      "correctIndex": 0,
+      "explanation": "J.L. Austin identified performative utterances (like 'I promise' or 'I do') as speech acts that execute actions rather than report facts."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the core claim of Clark and Chalmers' \"extended mind thesis\"?",
+      "options": [
+        "External tools like notebooks can function as literal parts of human cognitive systems.",
+        "Human consciousness is an illusion generated by artificial intelligence.",
+        "Telepathy will inevitably replace spoken human communication.",
+        "The human brain uses only ten percent of its capacity without external aids."
+      ],
+      "correctIndex": 0,
+      "explanation": "The extended mind thesis argues that tools reliably coupled with our brains function as genuine components of our cognitive processes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does the Duhem-Quine thesis state about testing scientific hypotheses?",
+      "options": [
+        "A hypothesis is always tested alongside an entire web of background assumptions.",
+        "Experiments can instantly falsify any theory with mathematical certainty.",
+        "Only quantum physics theories are subject to experimental uncertainty.",
+        "Scientific observations are never influenced by previous theories."
+      ],
+      "correctIndex": 0,
+      "explanation": "The Duhem-Quine thesis asserts that hypotheses cannot be tested in isolation because experiments always depend on auxiliary assumptions."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is \"testimonial injustice\" in Miranda Fricker's philosophical framework?",
+      "options": [
+        "Giving a speaker less credibility due to prejudice against their identity.",
+        "Refusing to testify in a public legal proceeding.",
+        "Plagiarizing another scholar's written testimony.",
+        "Believing a claim without any mathematical proof."
+      ],
+      "correctIndex": 0,
+      "explanation": "Testimonial injustice occurs when prejudice causes a hearer to assign a deflated level of credibility to a speaker's word."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A bullshitter is simply someone who tells a deliberate lie.",
+      "answer": false,
+      "explanation": "Harry Frankfurt showed that while liars know the truth and hide it, bullshitters do not care whether what they say is true or false."
+    }
+  ]
+}

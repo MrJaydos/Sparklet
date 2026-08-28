@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.836Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Australia Swapped Paper Cash for Plastic",
+      "body": "In 1988, Australia became the first country to issue polymer banknotes after researchers at the Commonwealth Scientific and Industrial Research Organisation and the Reserve Bank developed non-fibrous plastic currency. The move eliminated paper-wear issues and introduced optically variable devices to defeat modern photocopiers. Today, dozens of countries print their notes on polymer because they last roughly 2.5 to 4 times longer than paper banknotes and are fully recyclable.",
+      "imageWikipediaTitle": "Polymer banknote",
+      "sources": [
+        {
+          "title": "Plastic banknotes",
+          "publisher": "CSIRO",
+          "url": "https://www.csiro.au/en/about/history-achievements/innovations/banknotes"
+        },
+        {
+          "title": "Polymer Banknotes",
+          "publisher": "Reserve Bank of Australia Museum",
+          "url": "https://museum.rba.gov.au/displays/polymer-banknotes/"
+        },
+        {
+          "title": "Polymer banknote",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Polymer_banknote"
+        }
+      ],
+      "readMoreUrl": "https://museum.rba.gov.au/displays/polymer-banknotes/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Economics Nobel Prize Was Never in Alfred Nobel's Will",
+      "body": "Alfred Nobel's 1895 will established five prizes: physics, chemistry, medicine, literature, and peace. He never created an economics prize. The award widely called the Nobel Prize in Economics is actually the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel. Established in 1968 by Sweden's central bank to celebrate its 300th anniversary, it is funded by the bank rather than the Nobel Foundation, though administered alongside the original prizes.",
+      "imageWikipediaTitle": "Nobel Memorial Prize in Economic Sciences",
+      "sources": [
+        {
+          "title": "The Prize in Economic Sciences",
+          "publisher": "Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/"
+        },
+        {
+          "title": "The Nobel Prize",
+          "publisher": "Sveriges Riksbank",
+          "url": "https://www.riksbank.se/en-gb/about-the-riksbank/history/the-nobel-prize/"
+        },
+        {
+          "title": "Nobel Memorial Prize in Economic Sciences",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nobel_Memorial_Prize_in_Economic_Sciences"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Edible Currency That Ruled Central Asian Trade",
+      "body": "For centuries across Tibet, Mongolia, and Siberia, compacted tea bricks served as the preferred currency over metallic coins. Made from compressed tea leaves, ash, and ox blood as a binder, each standardized brick was scored so it could be broken into smaller denominations. Tea money was immune to metal shortages, retained its value across vast borders, and could be brewed or eaten in emergencies, remaining legal tender in parts of the region until World War II.",
+      "imageWikipediaTitle": "Tea brick",
+      "sources": [
+        {
+          "title": "Tea brick currency",
+          "publisher": "The British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/C_1904-0604-1"
+        },
+        {
+          "title": "Tea brick",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tea_brick"
+        }
+      ],
+      "readMoreUrl": "https://www.britishmuseum.org/collection/object/C_1904-0604-1",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Business Titans Worked for the US Government for Exactly $1",
+      "body": "During World War I and World War II, prominent corporate executives flocked to Washington to run wartime production agencies for an official salary of just $1 per year. They took a single dollar because the federal Antideficiency Act strictly forbids the US government from accepting unpaid, voluntary services. Under federal law, without a formal employment contract and a token wage, these corporate leaders could not legally act on behalf of the government.",
+      "imageWikipediaTitle": "Dollar-a-year man",
+      "sources": [
+        {
+          "title": "Antideficiency Act (1884)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/antideficiency-act"
+        },
+        {
+          "title": "Dollar-a-year man",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dollar-a-year_man"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dollar-a-year_man",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Ancient Rome Diluted Its Silver to Fund Wars",
+      "body": "During the reign of Augustus, the Roman denarius coin was nearly pure silver, hovering around 95% fineness. Over the next three centuries, Roman emperors facing ballooning military budgets repeatedly reduced the coin's silver content while keeping its face value unchanged. By the late third century, during the reign of Claudius Gothicus, the denarius contained less than 2% silver—essentially becoming bronze washed in a thin silver coat, triggering runaway inflation across the empire.",
+      "imageWikipediaTitle": "Denarius",
+      "sources": [
+        {
+          "title": "The Debasement of Roman Currency",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/1787/the-debasement-of-roman-currency/"
+        },
+        {
+          "title": "Roman imperial currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roman_imperial_currency"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/article/1787/the-debasement-of-roman-currency/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What innovation in physical currency did Australia pioneer in 1988?",
+      "options": [
+        "Issuing the world's first polymer banknotes",
+        "Embedding digital microchips into paper bills",
+        "Adding radioactive isotopes to deter counterfeiting",
+        "Printing currency that glows in the dark"
+      ],
+      "correctIndex": 0,
+      "explanation": "Australia introduced polymer plastic banknotes in 1988 to dramatically improve bill durability and defeat modern color photocopiers."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Who originally created and funded the prestigious Nobel Memorial Prize in Economic Sciences?",
+      "options": [
+        "Sveriges Riksbank (Sweden's central bank)",
+        "Alfred Nobel in his original 1895 will",
+        "The International Monetary Fund",
+        "The United Nations Department of Economic Affairs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sweden's central bank created the economics prize in 1968 to celebrate its 300th anniversary; it was never part of Alfred Nobel's will."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why were tea bricks practical as a currency in Central Asia for hundreds of years?",
+      "options": [
+        "They were durable, divisible, and consumable in an emergency",
+        "They were legally redeemable for silver bullion in London",
+        "Their strong aroma prevented insects from eating merchant saddlebags",
+        "They were lighter than gold per unit of value"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tea bricks were compact, easy to break into smaller units, immune to metal shortages, and could be brewed or eaten if food ran out."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did corporate executives who volunteered for wartime US agencies receive a token salary of $1 per year?",
+      "options": [
+        "Federal law strictly forbids the US government from accepting unpaid voluntary labor",
+        "The $1 fee covered the administrative manufacturing cost of a security badge",
+        "The US tax code required nonzero income to grant government clearances",
+        "Military regulations required everyone in federal buildings to be a salaried employee"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Antideficiency Act prohibits federal agencies from accepting uncompensated voluntary services, necessitating an official $1 wage."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did Roman emperors handle budget deficits over three centuries of imperial rule?",
+      "options": [
+        "They slashed the denarius's silver content from 95% to under 2%",
+        "They switched the empire entirely to paper credit notes",
+        "They abolished all silver coinage in favor of solid platinum",
+        "They fixed prices by doubling the silver weight in every coin"
+      ],
+      "correctIndex": 0,
+      "explanation": "To finance deficits, emperors continually debased the denarius, gradually reducing its silver purity to less than 2% and spurring inflation."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did Australia become the first country in the world to issue plastic polymer banknotes?",
+      "answer": 1988,
+      "min": 1950,
+      "max": 2020,
+      "unit": "",
+      "explanation": "Australia released its first polymer banknote in 1988 for its bicentennial celebrations, pioneering plastic money globally."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "By the late third century, what percentage of silver remained in the Roman denarius, down from roughly 95% under Augustus?",
+      "answer": 2,
+      "min": 0,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Centuries of debasement diluted the denarius into a bronze coin containing under 2% silver, fueling runaway Roman inflation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Alfred Nobel established the Nobel Prize in Economics in his 1895 will.",
+      "answer": false,
+      "explanation": "Alfred Nobel only endowed prizes in Physics, Chemistry, Medicine, Literature, and Peace; Sweden's central bank established the economics prize in 1968."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Federal law forbids the United States government from accepting free, uncompensated labor from corporate leaders.",
+      "answer": true,
+      "explanation": "Under the Antideficiency Act, government agencies cannot accept voluntary uncompensated labor, leading to the famous '$1-a-year' contracts."
+    }
+  ]
+}

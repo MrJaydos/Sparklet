@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.838Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Opah Is the World's First Fully Warm-Blooded Fish",
+      "body": "While nearly all fish are cold-blooded, matching the temperature of the water around them, the deep-sea opah keeps its entire body warm. By constantly flapping its large pectoral fins, it generates heat inside its thick breast muscles. Specialized blood vessels in its gills act as countercurrent heat exchangers, preventing warmth from escaping into cold ocean water.",
+      "imageWikipediaTitle": "Opah",
+      "sources": [
+        {
+          "title": "Warm-Blooded Fish Reveals New Way to Stay Warm",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/feature-story/warm-blooded-fish-reveals-new-way-stay-warm"
+        },
+        {
+          "title": "Opah",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Opah"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/feature-story/warm-blooded-fish-reveals-new-way-stay-warm",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Elephants Can Hear Low-Frequency Rumbles Through Their Feet",
+      "body": "Elephants communicate over miles using deep, low-frequency rumbles called infrasound. These vocalizations create seismic ground vibrations that travel far across open landscapes. Specialized vibration sensors called Pacinian corpuscles in the pads of an elephant's feet detect these subtle tremors. The sound waves travel up their leg bones directly to the middle ear, letting them pinpoint distant herds and thunderstorms.",
+      "imageWikipediaTitle": "African elephant",
+      "sources": [
+        {
+          "title": "How Elephants Listen With Their Feet",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/news/how-elephants-listen-with-their-feet"
+        },
+        {
+          "title": "Elephant cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elephant_cognition"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/news/how-elephants-listen-with-their-feet",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Daddy Longlegs Are Not the Most Venomous Spiders on Earth",
+      "body": "A persistent myth claims daddy longlegs possess the deadliest venom of all spiders but cannot bite humans because their fangs are too weak. In reality, the name often refers to harvestmen, which are not even true spiders and have zero venom glands. When the name refers to cellar spiders, their fangs can pierce human skin, but their venom causes nothing worse than a mild, temporary sting.",
+      "imageWikipediaTitle": "Pholcidae",
+      "sources": [
+        {
+          "title": "Daddy-Longlegs",
+          "publisher": "UC Riverside Department of Entomology",
+          "url": "https://spiders.ucr.edu/daddy-long-legs"
+        },
+        {
+          "title": "Is the daddy long-legs the most poisonous spider?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/zoology/item/is-the-daddy-long-legs-the-most-poisonous-spider/"
+        },
+        {
+          "title": "Pholcidae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pholcidae"
+        }
+      ],
+      "readMoreUrl": "https://spiders.ucr.edu/daddy-long-legs",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Time a Dead Pope Was Exhumed and Put on Trial",
+      "body": "In 897 CE, Pope Stephen VI ordered the rotting corpse of his predecessor, Pope Formosus, to be dug up, dressed in ceremonial papal robes, and placed on a throne to face trial. A deacon was assigned to speak on behalf of the deceased pontiff. The corpse was found guilty of perjury and illegally serving as bishop, had three fingers chopped off, and was hurled into the Tiber River.",
+      "imageWikipediaTitle": "Cadaver Synod",
+      "sources": [
+        {
+          "title": "Cadaver Synod",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/event/Cadaver-Synod"
+        },
+        {
+          "title": "Cadaver Synod",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cadaver_Synod"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/event/Cadaver-Synod",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dracula Ants Snap Their Jaws at Over 200 Miles per Hour",
+      "body": "The Dracula ant possesses the fastest predatory strike recorded in the animal kingdom. Instead of using muscles to bite directly, it presses the tips of its mandibles together, loading tension like a spring before sliding them past each other. The snapping jaw closes at up to 90 meters per second—over 200 miles per hour—in just 15 microseconds, stunning prey with overwhelming momentum.",
+      "imageWikipediaTitle": "Mystrium camillae",
+      "sources": [
+        {
+          "title": "The Snap-Jawed Dracula Ant Has the Fastest Reflexes in the Animal Kingdom",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/smart-news/snap-jawed-dracula-ant-has-fastest-reflexes-animal-kingdom-180970977/"
+        },
+        {
+          "title": "Mystrium camillae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mystrium_camillae"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/smart-news/snap-jawed-dracula-ant-has-fastest-reflexes-animal-kingdom-180970977/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the opah keep its entire body warm in deep ocean water?",
+      "options": [
+        "By flapping pectoral fins and using heat-exchanging gill vessels",
+        "By absorbing heat from hydrothermal vents on the sea floor",
+        "By digesting massive quantities of high-fat jellyfish",
+        "By basking under sunlight at the surface before deep dives"
+      ],
+      "correctIndex": 0,
+      "explanation": "The opah generates heat by flapping its large pectoral fins and uses specialized countercurrent blood vessels in its gills to retain warmth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do elephants detect distant seismic ground vibrations produced by other herds?",
+      "options": [
+        "Through vibration sensors in the pads of their feet",
+        "By inserting their trunks into underground burrows",
+        "Using magnetic receptors embedded in their tusks",
+        "Through sensory whiskers positioned along their lower jaw"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pacinian corpuscles in the foot pads pick up seismic vibrations that travel up the elephant's leg bones to the middle ear."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is the claim that daddy longlegs are the world's most venomous spiders incorrect?",
+      "options": [
+        "Harvestmen have no venom glands, and cellar spiders have mild venom",
+        "Their venom only affects cold-blooded animals",
+        "They produce an internal antivenom that neutralizes their own bite",
+        "They secrete toxins through leg joints rather than fangs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Harvestmen produce no venom at all, while true cellar spiders have mild venom that causes only minor irritation in humans."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Who was placed on trial during the 897 CE 'Cadaver Synod' in Rome?",
+      "options": [
+        "The exhumed corpse of Pope Formosus",
+        "A papal horse accused of blasphemy",
+        "A bronze cathedral statue alleged to be possessed",
+        "A pack of stray dogs that interrupted a sacred mass"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pope Stephen VI had the rotting corpse of Pope Formosus dug up, robed, and propped on a throne to stand trial."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the Dracula ant achieve the fastest strike speed in the animal kingdom?",
+      "options": [
+        "By pressing its mandible tips together to load elastic tension",
+        "By firing compressed chemical jets behind its jaw joints",
+        "By flicking its antennae at high velocity",
+        "By rapidly expanding hydraulic fluids in its head"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dracula ants press their mandibles together like a spring, releasing them in a snap that reaches over 200 mph in 15 microseconds."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "At what top speed can a Dracula ant snap its jaws shut?",
+      "answer": 200,
+      "min": 25,
+      "max": 400,
+      "unit": "mph",
+      "explanation": "Dracula ants snap their mandibles at over 200 mph (90 m/s), completing the strike in just 15 microseconds."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All fish species are cold-blooded animals whose body temperature matches the surrounding water.",
+      "answer": false,
+      "explanation": "The opah is fully warm-blooded, generating heat with its pectoral muscles and conserving it through specialized gill blood vessels."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Daddy longlegs have the deadliest spider venom on Earth, but their fangs are too weak to pierce human skin.",
+      "answer": false,
+      "explanation": "Harvestmen have zero venom glands, and cellar spiders have fangs that can bite but venom that is virtually harmless to humans."
+    }
+  ]
+}

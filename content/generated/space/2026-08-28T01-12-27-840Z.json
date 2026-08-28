@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-08-28T01:12:27.840Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tiny asteroid sports its very own set of rings",
+      "body": "In 2014, astronomers were stunned to discover two dense, narrow rings circling 10199 Chariklo, a minor planet just 250 kilometers across. Rings were once thought to belong exclusively to giant gas planets like Saturn and Uranus. Chariklo, which orbits between Saturn and Uranus, proved that even small rocky bodies can sustain stable, icy ring systems.",
+      "imageWikipediaTitle": "10199 Chariklo",
+      "sources": [
+        {
+          "title": "First Ring System Around Asteroid",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso1410/"
+        },
+        {
+          "title": "10199 Chariklo",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/solar-system/asteroids/10199-chariklo/"
+        },
+        {
+          "title": "10199 Chariklo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/10199_Chariklo"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/solar-system/asteroids/10199-chariklo/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A dwarf planet spinning so fast it deformed into a rugby ball",
+      "body": "Located far beyond Neptune in the Kuiper Belt, the dwarf planet Haumea completes a full rotation every 3.9 hours. This blistering spin makes it the fastest-rotating large body in our solar system. Centrifugal forces have stretched the icy world out of a spherical shape into a dramatically elongated triaxial ellipsoid resembling an American football.",
+      "imageWikipediaTitle": "Haumea",
+      "sources": [
+        {
+          "title": "Haumea",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/dwarf-planets/haumea/"
+        },
+        {
+          "title": "Haumea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haumea"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/dwarf-planets/haumea/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Two moons in our solar system are larger than the planet Mercury",
+      "body": "While Mercury is an official planet, it is not the largest rocky or icy sphere orbiting the Sun. Jupiter's moon Ganymede measures 5,268 kilometers across, and Saturn's moon Titan spans 5,150 kilometers. Both dwarf Mercury, which has a diameter of just 4,880 kilometers. If they orbited the Sun directly, both would easily qualify as major planets.",
+      "imageWikipediaTitle": "Ganymede (moon)",
+      "sources": [
+        {
+          "title": "Ganymede",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/jupiter/moons/ganymede/"
+        },
+        {
+          "title": "Titan",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/saturn/moons/titan/"
+        },
+        {
+          "title": "Ganymede (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ganymede_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/jupiter/moons/ganymede/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 'Bermuda Triangle of Space' is a radiation trap over South America",
+      "body": "Above South America and the southern Atlantic Ocean lies the South Atlantic Anomaly, a region where Earth's inner Van Allen radiation belt dips unusually close to the surface. As satellites and the International Space Station pass through, high-energy protons bombard electronics, triggering computer crashes. Astronauts passing through even report seeing phantom flashes of light in their eyes caused by ionizing particles.",
+      "imageWikipediaTitle": "South Atlantic Anomaly",
+      "sources": [
+        {
+          "title": "Hubble and the Bermuda Triangle of Space",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/missions/hubble-space-telescope/the-bermuda-triangle-of-space/"
+        },
+        {
+          "title": "South Atlantic Anomaly",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/South_Atlantic_Anomaly"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/missions/hubble-space-telescope/the-bermuda-triangle-of-space/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The far side of the Moon is not actually dark",
+      "body": "Popular culture often refers to the Moon's uncharted hemisphere as the 'dark side,' but it experiences daytime and nighttime just like the side facing Earth. Because the Moon is tidally locked, the same face always points toward us. When Earth experiences a New Moon, the far side is fully bathed in direct sunlight, basking in two continuous weeks of daytime.",
+      "imageWikipediaTitle": "Far side of the Moon",
+      "sources": [
+        {
+          "title": "Moon Phases and Eclipses",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/moon/phases-and-eclipses/"
+        },
+        {
+          "title": "Far side of the Moon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Far_side_of_the_Moon"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/moon/phases-and-eclipses/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which minor planet was the first asteroid discovered to possess its own ring system?",
+      "options": [
+        "10199 Chariklo",
+        "Ceres",
+        "4 Vesta",
+        "433 Eros"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2014, astronomers confirmed that 10199 Chariklo has two distinct, dense rings despite its small size."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is the dwarf planet Haumea stretched into an elongated football shape?",
+      "options": [
+        "Its rapid 3.9-hour rotational spin",
+        "Gravitational tides from Neptune",
+        "A recent collision with a comet",
+        "Its powerful internal magnetic field"
+      ],
+      "correctIndex": 0,
+      "explanation": "Haumea rotates once every 3.9 hours, creating centrifugal forces that warp its shape into a triaxial ellipsoid."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which of these moons is physically larger in diameter than the planet Mercury?",
+      "options": [
+        "Ganymede",
+        "Europa",
+        "Earth's Moon",
+        "Io"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ganymede has a diameter of 5,268 km, making it larger than Mercury's diameter of 4,880 km."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What causes spacecraft instruments to glitch inside the South Atlantic Anomaly?",
+      "options": [
+        "Earth's radiation belt dipping unusually low",
+        "Atmospheric methane friction",
+        "An intense localized gravitational pull",
+        "Subterranean volcanic heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The inner Van Allen radiation belt dips closest to Earth's surface here, exposing spacecraft to intense proton bombardment."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What happens to the Moon's far side during a New Moon phase seen from Earth?",
+      "options": [
+        "It is fully illuminated by the Sun",
+        "It plunges into total darkness",
+        "It enters Earth's shadow",
+        "It experiences solar eclipse totality"
+      ],
+      "correctIndex": 0,
+      "explanation": "During a New Moon, the side facing Earth is dark while the far side is in full daylight."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many hours does it take dwarf planet Haumea to complete one full rotation on its axis?",
+      "answer": 3.9,
+      "min": 1,
+      "max": 24,
+      "unit": "hours",
+      "explanation": "Haumea rotates every 3.9 hours, stretching it out into a football-like ellipsoid."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Only giant gas planets can have ring systems.",
+      "answer": false,
+      "explanation": "The discovery of rings around the small asteroid Chariklo proved that rocky minor planets can host rings too."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The far side of the Moon never receives sunlight.",
+      "answer": false,
+      "explanation": "The far side gets just as much sunlight as the near side; during a New Moon, it is in full daylight."
+    }
+  ]
+}
