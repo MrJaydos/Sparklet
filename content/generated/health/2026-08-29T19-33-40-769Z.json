@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.769Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your voice sounds deeper to you than to anyone else",
+      "body": "When you speak, people around you only hear airborne sound waves traveling into their ears. But you also hear your vocal cords vibrating through the bones of your own skull. Bone conduction boosts lower, bass frequencies while dampening higher pitches. When you listen to a recording, you hear your voice without that internal acoustic bass boost, which is why it often sounds surprisingly thin or high-pitched.",
+      "imageWikipediaTitle": "Bone conduction",
+      "sources": [
+        {
+          "title": "Why does my voice sound different on a recording?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/item/why-does-my-voice-sound-different-on-a-recording/"
+        },
+        {
+          "title": "Bone conduction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone_conduction"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/item/why-does-my-voice-sound-different-on-a-recording/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your stomach replaces its entire inner lining every few days",
+      "body": "The hydrochloric acid inside your stomach is potent enough to break down tough connective tissue and kill bacteria. To prevent your stomach from digesting itself, a specialized layer of epithelial mucus cells coats the organ wall. Because these cells endure constant chemical exposure and wear, your body rapidly sheds and replaces the entire surface lining of your stomach roughly every two to seven days.",
+      "imageWikipediaTitle": "Gastric mucosa",
+      "sources": [
+        {
+          "title": "Histology, Stomach",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK535359/"
+        },
+        {
+          "title": "Gastric mucosa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gastric_mucosa"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK535359/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why cold weather gives you an instant urge to urinate",
+      "body": "When you step out into freezing air, your body immediately triggers vasoconstriction, narrowing the blood vessels in your skin and extremities to conserve core heat. This shunts a large volume of blood inward, causing a temporary spike in central blood pressure. To normalize this pressure, your kidneys immediately filter out excess water from your bloodstream, rapidly filling your bladder in a physiological response known as cold-induced diuresis.",
+      "imageWikipediaTitle": "Vasoconstriction",
+      "sources": [
+        {
+          "title": "Why does cold weather make you pee?",
+          "publisher": "UAMS Health",
+          "url": "https://uamshealth.com/medical-services/urology/why-does-cold-weather-make-you-pee/"
+        },
+        {
+          "title": "Cold diuresis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cold_diuresis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cold_diuresis",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your knee-jerk reflex bypasses your brain entirely",
+      "body": "When a doctor taps the tendon below your kneecap, your leg kicks forward before you even realize what happened. That is because the patellar reflex is a monosynaptic reflex arc that completely bypasses the brain. Stretching the quadriceps tendon sends an electrical nerve impulse directly into your spinal cord, which immediately fires a motor signal back to contract the muscle, producing a protective kick in just a few milliseconds.",
+      "imageWikipediaTitle": "Patellar reflex",
+      "sources": [
+        {
+          "title": "Neuroanatomy, Reflex Arc",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539882/"
+        },
+        {
+          "title": "Patellar reflex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Patellar_reflex"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539882/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your tongue has a unique print just like your fingers",
+      "body": "Fingerprints and retinas are well-known biometric markers, but your tongue is just as distinct. Every human tongue displays a unique combination of 3D geometric shape, surface texture, and distribution of sensory papillae. Because it rests protected inside the mouth, it is shielded from environmental wear and scarring, while its physiological patterns remain virtually unchanged over time, making tongue biometrics a powerful tool for forensic identification.",
+      "imageWikipediaTitle": "Tongue",
+      "sources": [
+        {
+          "title": "Tongue Print: A Novel Biometric and Diagnostic Tool",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6489569/"
+        },
+        {
+          "title": "Tongue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tongue"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6489569/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does your recorded voice sound higher-pitched to you than how you normally hear it?",
+      "options": [
+        "Your vocal cords vibrate differently when recorded",
+        "You normally hear your voice deepened by skull bone conduction",
+        "Microphones filter out the lowest frequencies of speech",
+        "Your inner ear numbs low frequencies when speaking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bone conduction through your skull enhances lower, deeper frequencies when you speak, an effect missing from airborne recordings."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How often does the epithelial lining of the human stomach renew itself?",
+      "options": [
+        "Every 2 to 7 days",
+        "Every 3 to 4 months",
+        "Once every year",
+        "Only once during childhood"
+      ],
+      "correctIndex": 0,
+      "explanation": "To survive caustic stomach acid and digestive enzymes, the stomach rapidly sheds and replaces its mucosal lining every 2 to 7 days."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What causes 'cold-induced diuresis,' the sudden urge to urinate in chilly weather?",
+      "options": [
+        "Cold temperatures relax the bladder muscles",
+        "Constricted blood vessels raise blood pressure, prompting kidneys to filter fluid",
+        "The body converts stored glycogen directly into urine",
+        "Cold air stimulates extra hormone production in the adrenal glands"
+      ],
+      "correctIndex": 1,
+      "explanation": "Peripheral vasoconstriction redirects blood to the core, raising central blood pressure and prompting the kidneys to filter out fluid."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the knee-jerk (patellar) reflex happen so rapidly?",
+      "options": [
+        "The reflex arc routes directly through the spinal cord, bypassing the brain",
+        "Electrical impulses travel through blood vessels instead of nerves",
+        "The brain anticipates the tap and pre-activates the knee muscle",
+        "The kneecap acts as an independent electrical capacitor"
+      ],
+      "correctIndex": 0,
+      "explanation": "The patellar reflex is a monosynaptic arc in the spinal cord, triggering muscle contraction without waiting for the brain."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which part of the mouth has a distinct physiological pattern unique to each individual, like a fingerprint?",
+      "options": [
+        "The uvula",
+        "The tongue",
+        "The hard palate",
+        "The tonsils"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tongue's 3D shape, texture, and papillae distribution create a unique anatomical print that remains stable over time."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "Roughly how many days does it take for your stomach's epithelial lining to completely replace itself?",
+      "answer": 5,
+      "min": 1,
+      "max": 60,
+      "unit": "days",
+      "explanation": "Due to constant acid exposure, your stomach completely renews its surface mucus cells every 2 to 7 days."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Your recorded voice sounds strange because microphones distort your real vocal pitch.",
+      "answer": false,
+      "explanation": "Recordings capture what you actually sound like to others; your skull's bone conduction makes your voice sound artificially deeper to yourself."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Every muscle reflex requires a command signal from your brain to move.",
+      "answer": false,
+      "explanation": "Tendon reflexes like the knee-jerk reflex form monosynaptic loops directly in the spinal cord, bypassing the brain entirely."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Your tongue print is just as unique to you as your fingerprint.",
+      "answer": true,
+      "explanation": "The tongue's distinct combination of 3D geometric shape, surface ridges, and papillae is unique to every person and stable over time."
+    }
+  ]
+}

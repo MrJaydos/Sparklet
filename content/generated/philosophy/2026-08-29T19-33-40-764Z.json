@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.764Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why showing facts to an echo chamber only makes things worse",
+      "body": "Philosopher C. Thi Nguyen showed that epistemic bubbles and echo chambers work completely differently. In a bubble, members simply lack outside information; exposing them to new facts pops the bubble. But in an echo chamber, outside sources have been pre-emptively discredited as malicious or untrustworthy. When outsiders bring counter-evidence into an echo chamber, members see it as proof of an outside conspiracy, actively reinforcing their dogma.",
+      "imageWikipediaTitle": "Echo chamber (media)",
+      "sources": [
+        {
+          "title": "Escape the echo chamber",
+          "publisher": "Aeon",
+          "url": "https://aeon.co/essays/why-its-as-hard-to-escape-an-echo-chamber-as-it-is-a-cult"
+        },
+        {
+          "title": "Echo chamber (media)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Echo_chamber_(media)"
+        }
+      ],
+      "readMoreUrl": "https://aeon.co/essays/why-its-as-hard-to-escape-an-echo-chamber-as-it-is-a-cult",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why wealth is a terrible measure of a good life",
+      "body": "In the 1980s, economist Amartya Sen and philosopher Martha Nussbaum proposed the Capability Approach, arguing that human well-being cannot be measured by income or subjective happiness alone. Real progress depends on what people are actually capable of being and doing—such as being well-nourished, moving freely, participating in politics, and being educated. Two people with identical incomes may have drastically different capabilities if one lives under oppression or disability.",
+      "imageWikipediaTitle": "Amartya Sen",
+      "sources": [
+        {
+          "title": "The Capability Approach",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/capability-approach/"
+        },
+        {
+          "title": "Amartya Sen’s Capability Approach",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/sen-cap/"
+        },
+        {
+          "title": "Capability approach",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Capability_approach"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/capability-approach/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why preventing suffering matters far more than promoting happiness",
+      "body": "Classical utilitarianism tells us to maximize overall happiness, but philosopher Karl Popper argued this goal is dangerously flawed. Attempting to engineer a society's perfect happiness often leads to authoritarian utopian schemes. Instead, Popper proposed negative utilitarianism: ethics should prioritize minimizing preventable suffering rather than maximizing pleasure. Pain creates an urgent moral claim that pleasure simply cannot match—you are obligated to help someone in agony, but not to entertain someone who is content.",
+      "imageWikipediaTitle": "Karl Popper",
+      "sources": [
+        {
+          "title": "Karl Popper",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/popper/"
+        },
+        {
+          "title": "Consequentialism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/consequentialism/"
+        },
+        {
+          "title": "Negative utilitarianism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negative_utilitarianism"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/popper/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The difference between doing what you want and having free will",
+      "body": "Philosopher Harry Frankfurt argued that free will is not just doing what you want, but wanting what you want. He distinguished first-order desires (a craving to smoke) from second-order desires (the reflective desire to not want that craving). An unwilling addict who desperately wants to quit still acts on their addiction, but lacks free will because their first-order urge overpowers their second-order volition. True autonomy requires alignment between your reflective self and your desires.",
+      "imageWikipediaTitle": "Harry Frankfurt",
+      "sources": [
+        {
+          "title": "Compatibilism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/compatibilism/"
+        },
+        {
+          "title": "Harry Frankfurt",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/frankfur/"
+        },
+        {
+          "title": "Harry Frankfurt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harry_Frankfurt"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/compatibilism/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why holding people responsible is an emotional instinct, not a physics problem",
+      "body": "In 1962, philosopher P. F. Strawson bypassed the endless debate over whether physics leaves room for free will. He argued that human morality is grounded in \"reactive attitudes\"—natural interpersonal reactions like resentment, gratitude, and forgiveness. Even if the universe were proved completely deterministic, we could never abandon these emotional reactions without reducing other human beings to mere broken machines. Holding others accountable is woven into the very fabric of human relationships.",
+      "imageWikipediaTitle": "P. F. Strawson",
+      "sources": [
+        {
+          "title": "Moral Responsibility",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/moral-responsibility/"
+        },
+        {
+          "title": "P. F. Strawson: 'Freedom and Resentment'",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/freed-re/"
+        },
+        {
+          "title": "P. F. Strawson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/P._F._Strawson"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/moral-responsibility/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to C. Thi Nguyen, why is an echo chamber harder to break than an epistemic bubble?",
+      "options": [
+        "Echo chambers actively train members to distrust all outside voices",
+        "Echo chambers have legal protections against outside communication",
+        "Epistemic bubbles require complex encryption to maintain",
+        "Members of echo chambers lack internet access"
+      ],
+      "correctIndex": 0,
+      "explanation": "In an echo chamber, outside sources are pre-emptively discredited, causing external counter-evidence to be viewed with suspicion rather than open-mindedness."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary focus of Amartya Sen and Martha Nussbaum's Capability Approach?",
+      "options": [
+        "What real freedoms and abilities people have to achieve well-being",
+        "Maximizing the total Gross Domestic Product of a nation",
+        "Equalizing the amount of cash held in personal bank accounts",
+        "Measuring subjective pleasure on a numerical scale"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Capability Approach evaluates human development by what individuals are actually able to do and be, rather than merely counting their income or possessions."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does negative utilitarianism differ from classical utilitarianism?",
+      "options": [
+        "It prioritizes minimizing suffering over maximizing pleasure",
+        "It argues that only selfish actions have moral worth",
+        "It claims pleasure cannot be experienced by humans",
+        "It states that all moral rules should be entirely discarded"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negative utilitarianism, advocated by Karl Popper, holds that reducing and preventing suffering is the primary moral duty rather than attempting to engineer maximum pleasure."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Harry Frankfurt's theory of free will, what defines an 'unwilling addict'?",
+      "options": [
+        "Their first-order urge overpowers their second-order desire to quit",
+        "They have no desires whatsoever regarding their addiction",
+        "They have never thought about stopping their substance use",
+        "They only experience physical symptoms without mental cravings"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frankfurt's unwilling addict has a second-order desire not to want the drug, but their first-order desire still wins out, robbing them of true free will."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did P. F. Strawson call everyday emotions like resentment, gratitude, and forgiveness?",
+      "options": [
+        "Reactive attitudes",
+        "Categorical imperatives",
+        "Epistemic intuitions",
+        "Synthetic a priori judgments"
+      ],
+      "correctIndex": 0,
+      "explanation": "Strawson argued that our 'reactive attitudes' form the unavoidable emotional foundation of moral responsibility, independent of theoretical debates over determinism."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Exposing someone in an echo chamber to opposing facts is usually enough to change their mind.",
+      "answer": false,
+      "explanation": "Unlike epistemic bubbles, echo chambers pre-emptively discredit outside sources, meaning counter-evidence is often interpreted as proof of an outside conspiracy."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Equalizing financial income guarantees equal real-world opportunities for all individuals.",
+      "answer": false,
+      "explanation": "Income is only a means; capabilities depend on personal health, mobility, and social structures, so identical incomes can yield vastly different levels of freedom."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Classical utilitarianism treats minimizing suffering as far more urgent than maximizing pleasure.",
+      "answer": false,
+      "explanation": "Classical utilitarianism weighs pleasure and pain equally; it was Karl Popper's negative utilitarianism that argued minimizing suffering has clear moral priority."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "According to Harry Frankfurt, an action is free as long as you act on what you desire at the moment.",
+      "answer": false,
+      "explanation": "Frankfurt argued that freedom requires second-order volitions—meaning you must endorse and want to have the first-order desire moving you to act."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "P. F. Strawson argued that discovering the universe is deterministic would cause humanity to abandon moral blame.",
+      "answer": false,
+      "explanation": "Strawson argued that reactive attitudes like resentment and gratitude are basic human emotional responses that cannot be suspended by theoretical physics."
+    }
+  ]
+}

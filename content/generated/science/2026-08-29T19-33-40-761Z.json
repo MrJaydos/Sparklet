@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.761Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Glassfrogs turn transparent by hiding their blood inside their liver",
+      "body": "While resting during the day, northern glassfrogs become nearly invisible to predators. They achieve this remarkable camouflage by packing up to 89 percent of their red blood cells into their liver, which doubles in size to store them. Because red blood cells absorb light and make tissue opaque, sequestering them makes the frog's muscles and skin almost entirely clear without triggering deadly blood clots.",
+      "imageWikipediaTitle": "Glass frog",
+      "sources": [
+        {
+          "title": "Glassfrogs Hide Red Blood Cells in Their Livers to Turn Transparent",
+          "publisher": "American Museum of Natural History",
+          "url": "https://www.amnh.org/explore/news-blogs/research-posts/glassfrogs-hide-red-blood-cells-to-become-transparent"
+        },
+        {
+          "title": "Glass frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glass_frog"
+        }
+      ],
+      "readMoreUrl": "https://www.amnh.org/explore/news-blogs/research-posts/glassfrogs-hide-red-blood-cells-to-become-transparent",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Helium is the only element that never freezes under normal pressure",
+      "body": "Every other known substance turns solid if you cool it down enough, but helium refuses to freeze at atmospheric pressure, even at absolute zero. Because helium atoms are light and attract each other very weakly, quantum zero-point motion—the tiny, inescapable vibration inherent to all matter—keeps the atoms jiggling enough to remain a fluid. To solidify helium, scientists must apply at least twenty-five atmospheres of pressure.",
+      "imageWikipediaTitle": "Liquid helium",
+      "sources": [
+        {
+          "title": "Liquid Helium",
+          "publisher": "HyperPhysics",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/helium.html"
+        },
+        {
+          "title": "Liquid helium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liquid_helium"
+        }
+      ],
+      "readMoreUrl": "http://hyperphysics.phy-astr.gsu.edu/hbase/quantum/helium.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Naked mole-rats can survive eighteen minutes without oxygen",
+      "body": "When mammals are deprived of oxygen, brain cells quickly starve because glucose metabolism grinds to a halt. Naked mole-rats bypass this fatal bottleneck by switching to fructose metabolism, a biological pathway typically used only by plants. This allows their brain and heart to generate energy through glycolysis without oxygen, letting them survive in subterranean burrows with near-zero air levels for up to eighteen minutes without lasting brain damage.",
+      "imageWikipediaTitle": "Naked mole-rat",
+      "sources": [
+        {
+          "title": "Naked mole-rats can survive 18 minutes without oxygen",
+          "publisher": "University of Illinois Chicago",
+          "url": "https://today.uic.edu/naked-mole-rats-can-survive-18-minutes-without-oxygen/"
+        },
+        {
+          "title": "Naked mole-rat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Naked_mole-rat"
+        }
+      ],
+      "readMoreUrl": "https://today.uic.edu/naked-mole-rats-can-survive-18-minutes-without-oxygen/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea stars pump filtered seawater through their bodies instead of blood",
+      "body": "Unlike vertebrates and most invertebrates, sea stars completely lack blood and a traditional circulatory system. Instead, they rely on a hydraulic network known as a water vascular system. They draw in ocean water through a specialized sieve plate called the madreporite, filter it, and pump it throughout their arms. This pressurized seawater transports nutrients, oxygen, and metabolic waste while mechanically powering thousands of tiny suction-cup tube feet.",
+      "imageWikipediaTitle": "Starfish",
+      "sources": [
+        {
+          "title": "Do starfish have blood?",
+          "publisher": "National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/facts/starfish.html"
+        },
+        {
+          "title": "Starfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starfish"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/starfish.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Particles from deep space routinely alter computer memory on Earth",
+      "body": "High-energy cosmic rays from exploded stars constantly slam into Earth's atmosphere, showering the surface with secondary subatomic particles like neutrons. When a stray neutron strikes a tiny transistor in a microchip, its electrical charge can flip a binary 0 into a 1 or vice versa. Known as a Single Event Upset, this phenomenon causes silent computer crashes, airliner autopilot glitches, and corrupted digital election tallies.",
+      "imageWikipediaTitle": "Single-event upset",
+      "sources": [
+        {
+          "title": "Supercomputing with Cosmic Rays",
+          "publisher": "Los Alamos National Laboratory",
+          "url": "https://www.lanl.gov/science-innovation/science-features/supercomputing-cosmic-rays.php"
+        },
+        {
+          "title": "Single-event upset",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Single-event_upset"
+        }
+      ],
+      "readMoreUrl": "https://www.lanl.gov/science-innovation/science-features/supercomputing-cosmic-rays.php",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do glassfrogs achieve near-total transparency while resting?",
+      "options": [
+        "By shedding their outer layer of pigment cells",
+        "By packing most of their red blood cells into their liver",
+        "By absorbing chlorophyll from resting leaves",
+        "By converting hemoglobin into clear lymph fluid"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glassfrogs concentrate up to 89% of their red blood cells inside their liver to make their muscles and skin transparent while sleeping."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does liquid helium remain fluid at absolute zero under atmospheric pressure?",
+      "options": [
+        "It constantly generates internal nuclear heat",
+        "Its atoms repel each other with strong electric charges",
+        "Quantum zero-point motion keeps the light atoms vibrating",
+        "Atmospheric nitrogen dissolves into it and lowers its freezing point"
+      ],
+      "correctIndex": 2,
+      "explanation": "Quantum zero-point vibrations prevent weakly attracting helium atoms from locking into a solid lattice at normal pressure."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unique biochemical mechanism allows naked mole-rats to survive without oxygen?",
+      "options": [
+        "Burning stored hydrogen sulfide gas",
+        "Switching to plant-like fructose metabolism",
+        "Storing massive amounts of liquid oxygen in their bladders",
+        "Shutting down brain activity entirely into cryptobiosis"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naked mole-rats switch from glucose to fructose glycolysis, allowing vital organs to produce energy without oxygen."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What fluid powers the circulatory and movement systems of sea stars?",
+      "options": [
+        "Filtered seawater",
+        "Hemocyanin-rich copper blood",
+        "Pure lymphatic fluid",
+        "Digestive acid juices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea stars use a water vascular system that takes in and circulates filtered seawater to distribute nutrients and operate their tube feet."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is a Single Event Upset (SEU) in digital electronics?",
+      "options": [
+        "A complete thermal meltdown of a CPU core",
+        "A bit flip in memory caused by ionizing radiation",
+        "A power surge caused by municipal lightning strikes",
+        "A software bug caused by simultaneous multithreading"
+      ],
+      "correctIndex": 1,
+      "explanation": "A Single Event Upset occurs when an ionizing particle, such as a cosmic-ray neutron, strikes a circuit and flips a bit from 0 to 1 or vice versa."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of their red blood cells can glassfrogs pack into their liver to become transparent?",
+      "answer": 89,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Glassfrogs store up to 89% of their red blood cells in their liver to achieve near-total transparency during sleep."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many minutes can a naked mole-rat survive in an environment with zero oxygen without brain damage?",
+      "answer": 18,
+      "min": 1,
+      "max": 60,
+      "unit": "minutes",
+      "explanation": "By switching to fructose metabolism, naked mole-rats can endure up to 18 minutes in an atmosphere with zero oxygen."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Starfish circulate copper-based blue blood through their arms.",
+      "answer": false,
+      "explanation": "Starfish do not possess blood at all; they pump filtered seawater through a hydraulic water vascular system."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Cosmic radiation only affects electronics in outer space, not on Earth's surface.",
+      "answer": false,
+      "explanation": "Secondary subatomic particles created by cosmic rays regularly reach Earth's surface and flip bits in everyday computer chips."
+    }
+  ]
+}

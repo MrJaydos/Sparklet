@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.758Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why speaking your pitch beats sending it in an email",
+      "body": "In experiments at the University of Chicago, evaluators rated job candidates and pitchmakers as significantly more intelligent, thoughtful, and competent when listening to their voice compared to reading a transcript of the exact same words. Human speech conveys subtle pitch, pacing, and inflection cues that text flattens. When high-stakes persuasion matters, hop on a quick call rather than emailing.",
+      "imageWikipediaTitle": "Microphone",
+      "sources": [
+        {
+          "title": "The Sound of Intellect: Articulating Mental Capabilities in Voice",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26408418/"
+        },
+        {
+          "title": "Nicholas Epley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicholas_Epley"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/26408418/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an unexpected extra gift triggers massive reciprocity",
+      "body": "Reciprocity is most powerful when a gift feels spontaneous and personal. In a classic restaurant study, giving diners a single after-dinner mint increased tips by 3%. Giving two mints boosted tips by 14%. But when servers gave one mint, turned away, and spontaneously returned to drop a second mint \"for you nice folks,\" tips jumped by 23%. Personal spontaneity multiplies perceived generosity.",
+      "imageWikipediaTitle": "Peppermint",
+      "sources": [
+        {
+          "title": "Sweetening the Till: The Use of Candy to Increase Restaurant Tipping",
+          "publisher": "Cornell University School of Hotel Administration",
+          "url": "https://scholarship.sha.cornell.edu/articles/124/"
+        },
+        {
+          "title": "Reciprocity (social psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reciprocity_(social_psychology)"
+        }
+      ],
+      "readMoreUrl": "https://scholarship.sha.cornell.edu/articles/124/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pitching \"1 in 20\" beats saying \"5%\"",
+      "body": "Human brains struggle to process abstract percentages, often mistaking small probabilities for negligible noise. Research led by cognitive psychologist Gerd Gigerenzer shows that presenting data as natural frequencies—such as \"1 out of every 20 users\" instead of \"5%\"—makes probabilities dramatically clearer and more memorable. Framing your proof points in tangible counts helps analytical buyers grasp risk and impact without cognitive fatigue.",
+      "imageWikipediaTitle": "Gerd Gigerenzer",
+      "sources": [
+        {
+          "title": "Simple tools for understanding risks: from innumeracy to insight",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1126058/"
+        },
+        {
+          "title": "Frequency format hypothesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frequency_format_hypothesis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1126058/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why warning buyers that \"many make this mistake\" backfires",
+      "body": "Salespeople often warn prospects about widespread industry blunders to create urgency. But highlighting that many people commit an error turns it into a social norm. In an Arizona national park, signs warning that \"many past visitors have removed petrified wood\" nearly tripled theft to 7.9% compared to no sign at all. If you want clients to avoid a pitfall, highlight the desired standard rather than how common the mistake is.",
+      "imageWikipediaTitle": "Petrified Forest National Park",
+      "sources": [
+        {
+          "title": "Petrified Wood Theft",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/pefo/learn/nature/petrified-wood-theft.htm"
+        },
+        {
+          "title": "Petrified Forest National Park",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Petrified_Forest_National_Park"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/pefo/learn/nature/petrified-wood-theft.htm",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pitching your competence first triggers buyer resistance",
+      "body": "When meeting a new client, leading with credentials and technical prowess often invites defensive scrutiny. The Universal Dimensions of Social Cognition model reveals that human brains evaluate warmth and trustworthiness before assessing competence. Buyers first ask, \"What are this person's intentions toward me?\" before caring how capable they are. Establishing empathy and common ground early unlocks an open, receptive audience for your hard capabilities.",
+      "imageWikipediaTitle": "Susan Fiske",
+      "sources": [
+        {
+          "title": "Universal dimensions of social cognition: warmth and competence",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17207640/"
+        },
+        {
+          "title": "Stereotype content model",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stereotype_content_model"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/17207640/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to University of Chicago research, how does speaking a pitch affect an evaluator's perception compared to sending written text?",
+      "options": [
+        "It makes the presenter seem less organized",
+        "It makes the presenter seem significantly more intelligent and competent",
+        "It produces identical evaluations if the words match exactly",
+        "It only works if the speaker uses formal vocabulary"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human vocal cues like pitch and inflection convey mental presence and intellect far better than static written transcripts."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In the classic restaurant tipping experiment, what strategy produced the largest surge in tips (+23%)?",
+      "options": [
+        "Offering a large box of chocolates at the start of the meal",
+        "Leaving a handwritten smiley face on the bill",
+        "Giving one mint, turning away, then returning to offer an unexpected second mint",
+        "Offering diners a choice between two different types of mints"
+      ],
+      "correctIndex": 2,
+      "explanation": "A gift perceived as unexpected and personal triggers significantly stronger reciprocity than standard or pre-planned freebies."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is presenting evidence as '1 in 20' generally more persuasive than saying '5%'?",
+      "options": [
+        "Percentages sound too academic for most business clients",
+        "Natural frequencies are processed more intuitively by the human brain",
+        "Odd numbers are subconsciously perceived as larger than percentages",
+        "Frequencies hide the true margin of error"
+      ],
+      "correctIndex": 1,
+      "explanation": "Research by Gerd Gigerenzer shows natural frequencies make probabilities tangible, reducing cognitive confusion."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did signs warning that 'many visitors steal petrified wood' actually increase theft in an Arizona park?",
+      "options": [
+        "Visitors assumed the park had too many guards to care",
+        "It signaled that stealing was a common, socially normalized behavior",
+        "The signs obstructed the view of park rangers",
+        "The fine amount listed on the sign was too low"
+      ],
+      "correctIndex": 1,
+      "explanation": "Descriptive norms show what others actually do; highlighting widespread misbehavior inadvertently normalizes it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to social cognition research, which trait do people evaluate first when meeting someone new?",
+      "options": [
+        "Competence and technical capability",
+        "Warmth and perceived trustworthiness",
+        "Socioeconomic background",
+        "Physical attractiveness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humans evolved to first judge another person's intent (warmth/friend or foe) before evaluating their ability to carry it out (competence)."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In the Cornell restaurant study, by what percentage did tips jump when servers unexpectedly returned to give a second mint?",
+      "answer": 23,
+      "min": 0,
+      "max": 60,
+      "unit": "%",
+      "explanation": "While a single mint increased tips by 3%, an unexpected, personalized second mint produced a 23% surge in tips."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Reading a written pitch makes the presenter seem just as intelligent as hearing them speak it.",
+      "answer": false,
+      "explanation": "Research demonstrates that hearing a human voice conveys subtle inflection that makes speakers sound significantly more competent than reading their text."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Warning prospects that a mistake is widespread encourages them to avoid it.",
+      "answer": false,
+      "explanation": "Highlighting how common a blunder is frames it as normal behavior, which can backfire and increase the unwanted action."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Clients subconsciously evaluate your trustworthiness before they assess your technical competence.",
+      "answer": true,
+      "explanation": "The Universal Dimensions of Social Cognition model proves the human brain evaluates warmth and intent before judging competence."
+    }
+  ]
+}

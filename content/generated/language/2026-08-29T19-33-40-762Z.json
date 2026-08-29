@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.762Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Russian",
+      "body": "In Russian, the numbers one through three are один (odin, pronounced \"ah-DEEN\"), два (dva, pronounced \"dvah\"), and три (tri, pronounced \"tree\"). Because Russian is an Indo-European language, these numbers share an ancient ancestry with English \"two\" and \"three\", Spanish \"dos\" and \"tres\", and Sanskrit \"dva\" and \"tri\". Counting basic objects in Russian offers an immediate window into the shared roots of languages spanning Europe and South Asia.",
+      "imageWikipediaTitle": "Russian language",
+      "sources": [
+        {
+          "title": "Russian Numbers",
+          "publisher": "Russian Lessons",
+          "url": "https://www.russianlessons.net/lessons/lesson4_main.php"
+        },
+        {
+          "title": "Russian Grammar: Numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Russian_grammar#Numerals"
+        }
+      ],
+      "readMoreUrl": "https://www.russianlessons.net/lessons/lesson4_main.php",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a small red fruit gave us the word \"tawny\"",
+      "body": "The word \"tawny\", describing an orange-brown or brownish-yellow hue, traces back to the Old French word \"tané\", meaning tanned or tawny. This derives from the Medieval Latin \"tannare\" (to tan hides using crushed tree bark). Ultimately, the root connects to the Celtic term for oak bark. Relatedly, \"tangerine\" comes from the port of Tangier in Morocco, but \"tawny\" has entirely separate woodland roots tied to the medieval leather trade.",
+      "imageWikipediaTitle": "Tanning (leather)",
+      "sources": [
+        {
+          "title": "tawny",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/tawny"
+        },
+        {
+          "title": "tawny (adj.)",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/tawny"
+        }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/tawny",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to say \"excuse me\" in Japanese",
+      "body": "To get someone's attention, squeeze through a crowd, or offer a light apology in Japanese, use すみません (sumimasen, pronounced \"soo-mee-mah-sen\"). Derived from the verb 済む (sumu, meaning to end or be settled), it literally means \"it does not end\"—acknowledging that an obligation or inconvenience cannot easily be repaid. It is one of Japan's most versatile everyday phrases, functioning as \"sorry\", \"excuse me\", and even a polite \"thank you\".",
+      "imageWikipediaTitle": "Japanese language",
+      "sources": [
+        {
+          "title": "Basic Japanese Phrases",
+          "publisher": "NHK World-Japan",
+          "url": "https://www.nhk.or.jp/lesson/en/questions/0014.html"
+        },
+        {
+          "title": "Aizuchi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aizuchi"
+        }
+      ],
+      "readMoreUrl": "https://www.nhk.or.jp/lesson/en/questions/0014.html",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How counting steps gave us the \"mile\"",
+      "body": "The English word \"mile\" traces directly to ancient Rome. Roman legions measured long distances by counting pairs of marching steps. The Latin term \"mille passus\" literally translates to \"a thousand paces\", where one pace (passus) equaled two full strides (left foot to left foot again), measuring roughly five Roman feet. The ancient Roman mile spanned about 1,480 meters (4,856 feet), slightly shorter than today's standard statute mile of 5,280 feet.",
+      "imageWikipediaTitle": "Mile",
+      "sources": [
+        {
+          "title": "mile",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/mile"
+        },
+        {
+          "title": "Mile",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mile"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mile",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Greeting someone with peace in Hindi",
+      "body": "The standard greeting across the Hindi-speaking world is नमस्ते (namaste, pronounced \"nuh-muh-stay\") or the more formal नमस्कार (namaskar, pronounced \"nuh-muhs-kar\"). Rooted in ancient Sanskrit, the term joins \"namas\" (meaning bow or obeisance) and \"te\" (meaning to you). Uttered with palms pressed together at chest height and a slight bow, the phrase literally translates to \"I bow to you\", symbolizing mutual respect and honoring the presence of the other person.",
+      "imageWikipediaTitle": "Namaste",
+      "sources": [
+        {
+          "title": "Namaste",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/namaste"
+        },
+        {
+          "title": "Namaste",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Namaste"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Namaste",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the Russian word for the number \"two\"?",
+      "options": [
+        "два (dva)",
+        "один (odin)",
+        "три (tri)",
+        "пять (pyat)"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Russian, the numbers one through three are один (odin), два (dva), and три (tri)."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What medieval practice gave rise to the color word \"tawny\"?",
+      "options": [
+        "Tanning animal hides with tree bark",
+        "Dyeing cloth with saffron flowers",
+        "Baking clay pottery in wood kilns",
+        "Harvesting wild clover for ink"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Tawny\" comes from Old French \"tané\", meaning tanned or tawny, derived from the Latin term for tanning hides with crushed oak bark."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the Japanese phrase すみません (sumimasen) literally mean?",
+      "options": [
+        "It does not end",
+        "I bow to you",
+        "Peace be with you",
+        "Please listen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derived from the verb sumu (to end or be settled), sumimasen literally means \"it does not end\", acknowledging an unpaid obligation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does the Latin root phrase \"mille passus\" literally mean?",
+      "options": [
+        "A thousand paces",
+        "A long march",
+        "Ten thousand feet",
+        "A road of stones"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Mile\" comes from the Latin phrase \"mille passus\", which literally means \"a thousand paces\" (each pace being two full strides)."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the Sanskrit greeting नमस्ते (namaste) literally translate to?",
+      "options": [
+        "I bow to you",
+        "May you live long",
+        "Good health to you",
+        "Peace upon your house"
+      ],
+      "correctIndex": 0,
+      "explanation": "Namaste combines Sanskrit \"namas\" (bow/obeisance) and \"te\" (to you), translating literally to \"I bow to you\"."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many double-stride paces made up one ancient Roman mile (\"mille passus\")?",
+      "answer": 1000,
+      "min": 100,
+      "max": 5000,
+      "unit": "paces",
+      "explanation": "A Roman mile was defined as exactly 1,000 double-stride paces (mille passus), measuring around 4,856 modern feet."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The English word 'mile' was originally defined as 5,280 paces.",
+      "answer": false,
+      "explanation": "The word 'mile' comes from the Latin 'mille passus', meaning exactly 1,000 paces. The 5,280-foot definition was codified much later by English statute."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.767Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Greek Drinking Game Played with Wine Dregs",
+      "body": "At ancient Greek symposia, drinking parties were not complete without a round of kottabos. Guests reclined on couches and hooked one finger through the handle of a wide, shallow wine cup called a kylix. With a flick of the wrist, players flung the remaining wine dregs across the room, aiming to sink floating bronze bowls or knock a balanced disc off a metal stand to predict romantic success.",
+      "imageWikipediaTitle": "Kottabos",
+      "sources": [
+        {
+          "title": "The Symposion in Ancient Greece",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/toah/hd/symp/hd_symp.htm"
+        },
+        {
+          "title": "Kottabos",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kottabos"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/toah/hd/symp/hd_symp.htm",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mediterranean Singing Style That Mimics Sheep and Wind",
+      "body": "In the mountain villages of Sardinia, four men stand in a tight circle to perform Cantu a Tenore, one of the Mediterranean's oldest polyphonic vocal traditions. While the lead singer narrates poetic verses, three accompanying vocalists produce deep, guttural harmonies that deliberately imitate nature: the low bass mimics a bellowing bull, the baritone imitates a bleating sheep, and the tenor echoes the whistling mountain wind.",
+      "imageWikipediaTitle": "Cantu a tenore",
+      "sources": [
+        {
+          "title": "Cantu a Tenore, Sardinian pastoral songs",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/cantu-a-tenore-sardinian-pastoral-songs-00165"
+        },
+        {
+          "title": "Cantu a tenore",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cantu_a_tenore"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/cantu-a-tenore-sardinian-pastoral-songs-00165",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Two-Person Epics That Can Last Eight Hours",
+      "body": "In the Korean storytelling tradition of pansori, an entire multi-hour epic is brought to life by just two performers: a singer (sorikkun) and a barrel drummer (gosu). Holding only a fan, the singer uses expressive body language, spoken dialogue, and intensely expressive, husky vocal techniques to portray dozens of distinct characters. Performances can last up to eight hours, demanding extraordinary vocal endurance and emotional range.",
+      "imageWikipediaTitle": "Pansori",
+      "sources": [
+        {
+          "title": "Pansori epic chant",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/pansori-epic-chant-00070"
+        },
+        {
+          "title": "Pansori",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pansori"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/pansori-epic-chant-00070",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The West African Masquerade Created to Honor Women's Power",
+      "body": "Created by the Yoruba people of West Africa, the Gèlèdé masquerade is a grand festival of song, dance, and carved wooden masks designed to placate and honor the spiritual power of women, known as 'our mothers.' Male dancers wear elaborate headdresses depicting daily village scenes, animals, and ancestors. By dressing in women's attire and dancing with gentle, fluid motions, the community publicly acknowledges female authority, fertility, and wisdom.",
+      "imageWikipediaTitle": "Gelede",
+      "sources": [
+        {
+          "title": "Oral heritage of Gelede",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002"
+        },
+        {
+          "title": "Gelede",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gelede"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/oral-heritage-of-gelede-00002",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Chemical Trick That Made Corn Nutritious",
+      "body": "Around 1500 BCE, Mesoamericans developed nixtamalization: soaking dried maize in an alkaline solution of water and wood ash or slaked lime. Beyond softening tough kernels for grinding into masa dough, this ancient chemistry releases bound niacin (vitamin B3), balances essential amino acids, and multiplies available calcium. When Europeans adopted corn without learning this culinary tradition, millions suffered from pellagra, a debilitating disease caused by severe niacin deficiency.",
+      "imageWikipediaTitle": "Nixtamalization",
+      "sources": [
+        {
+          "title": "Maize in human nutrition: Chemical composition and nutritional value",
+          "publisher": "Food and Agriculture Organization",
+          "url": "https://www.fao.org/4/t0395e/T0395E03.htm"
+        },
+        {
+          "title": "Nixtamalization",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nixtamalization"
+        }
+      ],
+      "readMoreUrl": "https://www.fao.org/4/t0395e/T0395E03.htm",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did guests flick across the room during the ancient Greek drinking game of kottabos?",
+      "options": [
+        "Olive pits",
+        "Wine dregs",
+        "Bronze coins",
+        "Clay dice"
+      ],
+      "correctIndex": 1,
+      "explanation": "Players flicked the leftover sediment (dregs) at the bottom of their wine cups at floating targets across the room."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What do the accompanying vocalists in Sardinian Cantu a Tenore deliberately imitate?",
+      "options": [
+        "Church bells",
+        "Sounds of livestock and wind",
+        "Forest songbirds",
+        "Crashing ocean waves"
+      ],
+      "correctIndex": 1,
+      "explanation": "The three accompanying singers imitate pastoral sounds: a bellowing bull, a bleating sheep, and the whistling wind."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How many performers stage a traditional Korean pansori narrative?",
+      "options": [
+        "Exactly 2",
+        "A choir of 12",
+        "A troupe of 8",
+        "A single unaccompanied soloist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pansori is performed entirely by two people: a solo vocalist (sorikkun) and a barrel drummer (gosu)."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the core cultural purpose of the Yoruba Gèlèdé masquerade?",
+      "options": [
+        "To train young warriors for combat",
+        "To inaugurate a newly elected monarch",
+        "To honor and appease the spiritual power of women",
+        "To summon rainfall during severe droughts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gèlèdé is dedicated to honoring primordial female power, elderly matriarchs, and female ancestors in Yoruba society."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What essential nutrient is unlocked when corn is processed with alkaline lime water?",
+      "options": [
+        "Niacin (Vitamin B3)",
+        "Vitamin C",
+        "Vitamin D",
+        "Iron"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nixtamalization frees chemically bound niacin in corn, protecting populations reliant on maize from developing pellagra."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many hours can an uncut performance of a complete traditional Korean pansori epic last?",
+      "answer": 8,
+      "min": 1,
+      "max": 16,
+      "unit": "hours",
+      "explanation": "A full, unshortened performance of one of the surviving pansori epics can run for up to 8 continuous hours."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "Corn provides all its available niacin naturally when boiled or ground into plain flour.",
+      "answer": false,
+      "explanation": "Niacin in raw corn is bound to carbohydrates and cannot be absorbed by the human digestive system without alkaline treatment."
+    }
+  ]
+}

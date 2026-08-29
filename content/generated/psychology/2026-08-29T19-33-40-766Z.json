@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.766Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 500-millisecond window where your brain goes blind to new information",
+      "body": "If you watch a stream of rapidly flashing images and spot a target, your brain briefly misses a second target that appears between 200 and 500 milliseconds later. Known as the attentional blink, this perceptual gap occurs not in your eyes, but in conscious processing: your brain temporarily locks down resources to encode the first item, letting the second pass unnoticed.",
+      "imageWikipediaTitle": "Attentional blink",
+      "sources": [
+        {
+          "title": "Attentional blink",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Attentional_blink"
+        },
+        {
+          "title": "The attentional blink: where is the bottleneck?",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1693126/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1693126/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Simply seeing something repeatedly tricks your brain into liking it more",
+      "body": "In 1968, psychologist Robert Zajonc demonstrated that showing people unfamiliar geometric shapes, Chinese characters, or nonsense syllables repeatedly caused them to develop positive feelings toward those items. Known as the mere-exposure effect, this subconscious preference occurs even when the images are flashed so quickly that participants have no conscious recollection of ever seeing them.",
+      "imageWikipediaTitle": "Robert Zajonc",
+      "sources": [
+        {
+          "title": "Mere-exposure effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mere-exposure_effect"
+        },
+        {
+          "title": "Mere exposure effect: a test of the perceptual fluency model",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4363293/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mere-exposure_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Expecting a harmless sugar pill to make you sick can trigger real illness",
+      "body": "Placebos are famous for relieving symptoms, but their negative counterpart—the nocebo effect—causes harmless substances to induce real physical suffering. In clinical drug trials, around a quarter of control patients given inert sugar pills report genuine nausea, fatigue, or headaches simply because they were warned about potential side effects. Anticipation triggers real neurological pathways and neurotransmitters that amplify pain.",
+      "imageWikipediaTitle": "Placebo",
+      "sources": [
+        {
+          "title": "Nocebo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nocebo"
+        },
+        {
+          "title": "The nocebo effect: a review of the literature",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804316/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804316/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why craps players throw dice harder when they want high numbers",
+      "body": "In 1975, Harvard psychologist Ellen Langer identified the illusion of control: people consistently act as though they can influence purely random events. Craps players throw dice harder when aiming for high rolls, gamblers wager substantially more money on lottery tickets they picked themselves than on random quick picks, and people mistake chance for skill whenever given personal choice or active physical involvement.",
+      "imageWikipediaTitle": "Craps",
+      "sources": [
+        {
+          "title": "Illusion of control",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusion_of_control"
+        },
+        {
+          "title": "Investigating the illusion of control",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885827/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusion_of_control",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Read a list of sleep-related words, and your brain invents 'sleep'",
+      "body": "When people hear a list of related words like bed, tired, awake, rest, snore, and yawn, roughly half will later confidently recall hearing \"sleep\"—even though it never appeared. Known as the DRM paradigm, this robust memory illusion reveals that human memory does not work like a video recording, but instead reconstructs experiences by activating entire interconnected networks of related concepts.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Deese–Roediger–McDermott paradigm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deese%E2%80%93Roediger%E2%80%93McDermott_paradigm"
+        },
+        {
+          "title": "Creating false memories in the Deese-Roediger-McDermott paradigm",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2783038/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2783038/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What causes the 'attentional blink' when seeing rapid visual stimuli?",
+      "options": [
+        "The physical reflex of the eyelid closing",
+        "Retinal photoreceptors running out of visual pigment",
+        "Cognitive bottleneck while processing the first target",
+        "Temporary drop in blood pressure to the visual cortex"
+      ],
+      "correctIndex": 2,
+      "explanation": "The attentional blink happens because conscious processing of the first stimulus temporarily occupies cognitive bandwidth, leaving the second target unregistered."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does the mere-exposure effect influence our feelings toward unfamiliar items?",
+      "options": [
+        "Repeated exposure makes us like them more",
+        "Repeated exposure causes rapid boredom and dislike",
+        "It only works if we consciously remember each exposure",
+        "It makes us perceive them as dangerous"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zajonc proved that simply being repeatedly exposed to a stimulus increases positive preference toward it, even without conscious awareness."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the nocebo effect?",
+      "options": [
+        "A positive health outcome produced by a fake treatment",
+        "Adverse physical side effects triggered purely by negative expectations",
+        "The sudden failure of an active pharmaceutical drug",
+        "An immunity to common drug side effects"
+      ],
+      "correctIndex": 1,
+      "explanation": "The nocebo effect occurs when expecting negative side effects from an inert substance leads to genuine physical distress and symptoms."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which behavior exemplifies the 'illusion of control' identified by Ellen Langer?",
+      "options": [
+        "Assuming other people are controlling our thoughts",
+        "Believing personal actions or choices influence random chance outcomes",
+        "Underestimating our ability to perform trained physical skills",
+        "Refusing to make any decisions in uncertain situations"
+      ],
+      "correctIndex": 1,
+      "explanation": "The illusion of control is the tendency for people to believe they can influence or control outcomes that are purely governed by chance."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the Deese-Roediger-McDermott (DRM) paradigm demonstrate about memory?",
+      "options": [
+        "People easily create false memories for unmentioned but strongly related words",
+        "Short-term memory can store an unlimited number of words",
+        "Words heard while asleep are remembered perfectly",
+        "Visual memory is always more accurate than verbal memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "The DRM paradigm shows that hearing semantically related words activates unmentioned associate words, leading people to falsely remember them."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many milliseconds after seeing a target does the attentional blink blind spot typically last?",
+      "answer": 500,
+      "min": 50,
+      "max": 2000,
+      "unit": "ms",
+      "explanation": "If a second visual target appears within 200 to 500 milliseconds of the first, the brain often misses it completely."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of clinical trial patients given inert sugar placebos report real negative side effects?",
+      "answer": 25,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Roughly 25% of patients given completely inert sugar pills experience real adverse symptoms due to the nocebo effect."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "You can only develop a liking for a symbol or face if you consciously remember seeing it before.",
+      "answer": false,
+      "explanation": "The mere-exposure effect occurs even when stimuli are flashed so quickly (subliminally) that you have zero conscious memory of seeing them."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Human episodic memory acts like a precise recording that accurately captures raw perceptual inputs.",
+      "answer": false,
+      "explanation": "Human memory is constructive and associative, readily synthesizing false memories of related words or events that never occurred."
+    }
+  ]
+}

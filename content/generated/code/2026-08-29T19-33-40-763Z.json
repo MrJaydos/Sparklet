@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.763Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Weekend frustration created the codes that protect modern memory",
+      "body": "In the late 1940s, mathematician Richard Hamming ran calculations on Bell Labs punch-card computers. Over weekends, unattended machines frequently aborted entire batch jobs whenever a single relay misread a punch card. Frustrated by lost days of work, Hamming asked why computers couldn't just locate and fix their own errors. In 1950, he published Hamming codes, introducing parity bits that allow memory systems to detect and self-correct single-bit errors.",
+      "imageWikipediaTitle": "Richard Hamming",
+      "sources": [
+        {
+          "title": "Richard Hamming",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Richard-Hamming"
+        },
+        {
+          "title": "Hamming code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamming_code"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hamming_code",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The digital smiley was invented to keep online jokes from starting flame wars",
+      "body": "In September 1982, researchers on Carnegie Mellon University's electronic bulletin board debated how to prevent misunderstandings in text-only discussions. Sarcastic remarks were being mistaken for serious safety alerts. Computer scientist Scott Fahlman posted a simple solution: mark humorous posts with :-) and serious ones with :-(. The proposal caught on across early university networks, becoming the ancestor of modern digital emoticons and emoji.",
+      "imageWikipediaTitle": "Smiley",
+      "sources": [
+        {
+          "title": "Smiley Lore :-)",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Smiley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Smiley"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's most deployed database has 600 times more test code than library code",
+      "body": "SQLite runs inside nearly every smartphone, web browser, and operating system on Earth. Yet its core C library consists of only about 155,000 lines of code. To ensure near-perfect reliability, developers maintain over 90 million lines of automated test code—almost 600 times more testing logic than actual operational code. This extreme test suite verifies 100% of machine-code branches, ensuring every potential decision path is thoroughly exercised.",
+      "imageWikipediaTitle": "SQLite",
+      "sources": [
+        {
+          "title": "How SQLite Is Tested",
+          "publisher": "SQLite",
+          "url": "https://www.sqlite.org/testing.html"
+        },
+        {
+          "title": "SQLite",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SQLite"
+        }
+      ],
+      "readMoreUrl": "https://www.sqlite.org/testing.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The unholy loop trick that shocked compiler writers",
+      "body": "In 1983, Lucasfilm programmer Tom Duff needed to speed up graphics processing in C by unrolling a loop. Instead of writing separate cleanup code for leftover iterations, he interleaved a switch statement with a do-while loop. The switch leaped directly into the middle of the loop body. While it looked like an illegal syntax abomination, it conformed strictly to the C language standard and quickly entered programmer folklore as Duff's Device.",
+      "imageWikipediaTitle": "C (programming language)",
+      "sources": [
+        {
+          "title": "Duff's Device",
+          "publisher": "The Jargon File",
+          "url": "http://www.catb.org/~esr/jargon/html/D/Duffs-device.html"
+        },
+        {
+          "title": "Duff's device",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duff%27s_device"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Duff%27s_device",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pixar's co-founder digitized his own hand to pioneer 3D animation",
+      "body": "In 1972, University of Utah student Edwin Catmull, who later co-founded Pixar, created one of the world's first 3D computer animations. Catmull covered his own left hand in plaster, drew a mesh of 350 polygons across the model, and digitized each coordinate by hand. He wrote custom software to render the surface smoothly and animate the fingers flexing. In 2011, the landmark clip was inducted into the U.S. National Film Registry.",
+      "imageWikipediaTitle": "A Computer Animated Hand",
+      "sources": [
+        {
+          "title": "A Computer Animated Hand",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/2011562098/"
+        },
+        {
+          "title": "A Computer Animated Hand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Computer_Animated_Hand"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/A_Computer_Animated_Hand",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Richard Hamming develop error-correcting codes in 1950?",
+      "options": [
+        "Unattended computers aborted entire weekend batch runs after single-bit errors",
+        "To encrypt sensitive Cold War messages for the U.S. military",
+        "To compress long-distance telephone audio over copper wire",
+        "To win a computing optimization prize funded by IBM"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hamming grew frustrated when unattended punch-card machines aborted entire weekend runs due to isolated bit errors instead of correcting them."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What original problem prompted Scott Fahlman to propose the :-) smiley in 1982?",
+      "options": [
+        "Sarcastic forum comments were being misinterpreted as serious warnings",
+        "Early terminal displays could only render punctuation marks",
+        "Universities required messages to specify emotional status for archiving",
+        "Bandwidth limits restricted message lengths to single-line symbols"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman suggested :-) on a Carnegie Mellon bulletin board to clearly label jokes and avoid misunderstandings in text-only discussions."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the size of SQLite's test suite compare to its core library code?",
+      "options": [
+        "It contains nearly 600 times more test code than library code",
+        "The test suite is exactly the same size as the library code",
+        "The library code is 10 times larger than the test suite",
+        "SQLite relies entirely on manual testing without automated test code"
+      ],
+      "correctIndex": 0,
+      "explanation": "SQLite's library is about 155,000 lines of C code, supported by over 90 million lines of automated test code—a ratio of roughly 600 to 1."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What unusual language construct defines Duff's Device in C?",
+      "options": [
+        "A switch statement interleaved directly into a do-while loop",
+        "A recursive function that executes without allocating a stack frame",
+        "A pointer that maps program code directly onto system hardware clocks",
+        "An infinite goto statement terminated by an integer overflow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Duff's Device interleaves a switch statement inside a do-while loop to jump directly into unrolled loop bodies."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did Edwin Catmull obtain 3D coordinates for his landmark 1972 animation?",
+      "options": [
+        "He drew 350 polygons on a plaster cast of his own left hand",
+        "He scanned a clay model with an early laser rangefinder",
+        "He mathematically generated procedural anatomical models",
+        "He converted stereoscopic photographs into digital depth maps"
+      ],
+      "correctIndex": 0,
+      "explanation": "Catmull cast his own left hand in plaster, marked 350 polygons on it, and manually digitized each coordinate to create the 3D model."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "For every single line of library code in SQLite, roughly how many lines of automated test code exist?",
+      "answer": 600,
+      "min": 10,
+      "max": 2500,
+      "unit": "lines",
+      "explanation": "SQLite contains about 155,000 lines of operational C code and over 90,000,000 lines of test code—a ratio of roughly 600 to 1."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Typographic emoticons like :-) were invented in Japan during the late 1990s for mobile phones.",
+      "answer": false,
+      "explanation": "While Japanese graphic emoji arrived in the late 1990s, the :-) text emoticon was invented in 1982 by Scott Fahlman at Carnegie Mellon University."
+    }
+  ]
+}

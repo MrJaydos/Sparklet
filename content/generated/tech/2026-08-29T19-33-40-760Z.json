@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.760Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rounding error in military software cost 28 lives",
+      "body": "In February 1991, an American Patriot missile battery in Dhahran failed to track an incoming Iraqi Scud missile. The battery's internal clock measured time in tenths of a second, but converting 0.1 into a 24-bit binary floating-point number created a tiny rounding error. After running continuously for 100 hours, this error accumulated to 0.34 seconds—enough for the missile to miss its target by more than 500 meters.",
+      "imageWikipediaTitle": "MIM-104 Patriot",
+      "sources": [
+        {
+          "title": "Patriot Missile Defense: Software Problem Led to System Failure at Dhahran, Saudi Arabia",
+          "publisher": "U.S. Government Accountability Office",
+          "url": "https://www.gao.gov/products/imtec-92-26"
+        },
+        {
+          "title": "MIM-104 Patriot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MIM-104_Patriot"
+        }
+      ],
+      "readMoreUrl": "https://www.gao.gov/products/imtec-92-26",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Public-key cryptography was invented years before RSA",
+      "body": "For decades, academic researchers Whitfield Diffie, Martin Hellman, and the creators of RSA were credited with inventing modern public-key cryptography in the late 1970s. However, British intelligence mathematician James Ellis had already conceived non-secret encryption at GCHQ in 1970, and colleague Clifford Cocks designed an equivalent to RSA in 1973. Their breakthrough remained classified top-secret until the British government declassified the documents in 1997.",
+      "imageWikipediaTitle": "Public-key cryptography",
+      "sources": [
+        {
+          "title": "The Story of Public Key Cryptography",
+          "publisher": "GCHQ",
+          "url": "https://www.gchq.gov.uk/information/the-story-of-public-key-cryptography"
+        },
+        {
+          "title": "Clifford Cocks",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clifford_Cocks"
+        }
+      ],
+      "readMoreUrl": "https://www.gchq.gov.uk/information/the-story-of-public-key-cryptography",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why programming crashes are still called 'core dumps'",
+      "body": "Before microchips, computers stored active memory in magnetic core grids: tiny doughnut-shaped ceramic rings threaded onto crisscrossing copper wires. Each ring held a single bit as a clockwise or counterclockwise magnetic charge. When a program suffered a fatal crash, engineers printed out the raw binary contents of every single physical magnetic core for debugging—giving rise to the term \"core dump,\" which software developers still use today.",
+      "imageWikipediaTitle": "Magnetic-core memory",
+      "sources": [
+        {
+          "title": "Magnetic Core Memory",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/revolution/memory-storage/8/309"
+        },
+        {
+          "title": "Magnetic-core memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnetic-core_memory"
+        }
+      ],
+      "readMoreUrl": "https://www.computerhistory.org/revolution/memory-storage/8/309",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The paper that organized the world's digital data",
+      "body": "In the 1960s, computer databases required programmers to know the exact physical location of data on storage disks to retrieve it. In 1970, IBM mathematician Edgar F. Codd published a landmark paper proposing the relational database model. By abstracting data into interrelated tables governed by set theory, Codd separated software logic from hardware storage, laying the foundation for SQL and virtually every modern data system.",
+      "imageWikipediaTitle": "Edgar F. Codd",
+      "sources": [
+        {
+          "title": "Relational Database",
+          "publisher": "IBM",
+          "url": "https://www.ibm.com/history/relational-database"
+        },
+        {
+          "title": "Relational database",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Relational_database"
+        }
+      ],
+      "readMoreUrl": "https://www.ibm.com/history/relational-database",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first computer virus was fought by the first antivirus",
+      "body": "In 1971, computer engineer Bob Thomas created Creeper, an experimental program that hopped between mainframe computers across ARPANET, printing the message: \"I'm the creeper, catch me if you can!\" To remove it, internet pioneer Ray Tomlinson wrote Reaper, a program designed to replicate across the network, find Creeper, and terminate it. Reaper became the world's first digital antivirus software, created specifically to counter the world's first worm.",
+      "imageWikipediaTitle": "Ray Tomlinson",
+      "sources": [
+        {
+          "title": "Bob Thomas Writes Creeper, the First Computer Worm, and Ray Tomlinson Writes Reaper, the First Anti-Virus Software",
+          "publisher": "History of Information",
+          "url": "https://www.historyofinformation.com/detail.php?id=1418"
+        },
+        {
+          "title": "Creeper and Reaper",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Creeper_and_Reaper"
+        }
+      ],
+      "readMoreUrl": "https://www.historyofinformation.com/detail.php?id=1418",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What type of software flaw caused the 1991 Patriot missile defense failure in Dhahran?",
+      "options": [
+        "A binary floating-point timing rounding error",
+        "A malicious computer virus sent over radio",
+        "A physical short circuit in the guidance radar",
+        "A memory buffer overflow caused by too many targets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Converting 0.1 seconds into a 24-bit floating-point value accumulated a 0.34-second time drift over 100 hours of uptime."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where was public-key cryptography secretly discovered years before its civilian disclosure?",
+      "options": [
+        "Bell Labs",
+        "GCHQ (British Intelligence)",
+        "Xerox PARC",
+        "NASA Jet Propulsion Laboratory"
+      ],
+      "correctIndex": 1,
+      "explanation": "James Ellis and Clifford Cocks developed public-key cryptography and RSA equivalents at GCHQ in the early 1970s."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What physical component originally inspired the programming term 'core dump'?",
+      "options": [
+        "Microscopic silicon processor cores",
+        "Magnetic tape reels stored in computer basements",
+        "Doughnut-shaped magnetic ferrite memory rings",
+        "Vacuum tube filaments in central processing units"
+      ],
+      "correctIndex": 2,
+      "explanation": "Early active computer memory used magnetic ferrite core rings, and a 'core dump' printed their raw binary state."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What major breakthrough did Edgar F. Codd introduce to computing in 1970?",
+      "options": [
+        "The relational database model",
+        "The first object-oriented compiler",
+        "The graphical user interface",
+        "The packet-switching network protocol"
+      ],
+      "correctIndex": 0,
+      "explanation": "Edgar F. Codd introduced the relational model, organizing data into tables and paving the way for SQL."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the purpose of Reaper, written by Ray Tomlinson in the 1970s?",
+      "options": [
+        "To encrypt classified military emails",
+        "To spread across ARPANET and delete the Creeper program",
+        "To index all web pages connected to the early internet",
+        "To simulate chess strategies against mainframe users"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reaper was designed to move through ARPANET, find instances of the Creeper worm, and delete them."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many seconds of time drift accumulated in the Patriot missile software to cause its 1991 failure?",
+      "answer": 0.34,
+      "min": 0.01,
+      "max": 5,
+      "unit": "seconds",
+      "explanation": "A tiny fractional rounding error accumulated to 0.34 seconds over 100 hours, throwing targeting off by over 500 meters."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Public-key cryptography was first invented by academic researchers in the late 1970s.",
+      "answer": false,
+      "explanation": "Mathematicians at the British intelligence agency GCHQ discovered non-secret encryption and RSA equivalents between 1970 and 1973."
+    }
+  ]
+}

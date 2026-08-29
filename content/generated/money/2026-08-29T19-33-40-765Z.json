@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.765Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A gifted dressing gown led an 18th-century philosopher into deep debt",
+      "body": "In 1769, French philosopher Denis Diderot received an elegant scarlet dressing gown as a gift. His old, comfortable robe had blended seamlessly with his modest furniture, but the luxurious new robe made his desk, chairs, and tapestries look shabby by comparison. Driven to create harmony, he replaced them all, falling deeply into debt. Economists call this the Diderot effect: the tendency for one upgrade to trigger an endless spiral of new consumption.",
+      "imageWikipediaTitle": "Denis Diderot",
+      "sources": [
+        {
+          "title": "Regrets on Parting with My Old Dressing Gown",
+          "publisher": "Marxists Internet Archive",
+          "url": "https://www.marxists.org/reference/archive/diderot/1769/regrets.htm"
+        },
+        {
+          "title": "Diderot effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diderot_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Diderot_effect",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 17th-century Dutch bank pioneered modern finance without lending deposits",
+      "body": "In 1609, Amsterdam faced an influx of clipped and debased foreign coins that disrupted international trade. The city founded the Amsterdamsche Wisselbank, allowing merchants to deposit assorted coins in exchange for credit in a standardized, stable ledger currency known as bank money. By maintaining near 100% reserves for over a century and settling transactions through simple ledger transfers, the Wisselbank became Europe's financial hub and a prototype for modern central banks.",
+      "imageWikipediaTitle": "Amsterdam Wisselbank",
+      "sources": [
+        {
+          "title": "The Bank of Amsterdam",
+          "publisher": "Economic History Association",
+          "url": "https://eh.net/encyclopedia/the-bank-of-amsterdam/"
+        },
+        {
+          "title": "Amsterdam Wisselbank",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amsterdam_Wisselbank"
+        }
+      ],
+      "readMoreUrl": "https://eh.net/encyclopedia/the-bank-of-amsterdam/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "England's first nationwide property tax was invented to bribe Viking invaders",
+      "body": "During the 10th and 11th centuries, Anglo-Saxon kings faced relentless Viking raids. Rather than fighting every fleet, rulers like King Æthelred raised massive sums of silver to buy peace, payments known as Danegeld. To fund these staggering bribes, the English crown developed the first regular, nationwide land tax in Western European history. Though intended as temporary emergency payments, the highly efficient tax collection machinery survived long after the Viking threat vanished.",
+      "imageWikipediaTitle": "Danegeld",
+      "sources": [
+        {
+          "title": "Danegeld",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Danegeld/"
+        },
+        {
+          "title": "Danegeld",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Danegeld"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/Danegeld/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Assembling your own furniture tricks your brain into overvaluing it",
+      "body": "In 2011, behavioral researchers coined the term IKEA effect to describe a powerful cognitive bias: consumers place a disproportionately high value on products they helped create. In controlled experiments, participants who assembled simple storage boxes or folded origami cranes valued their own amateur work almost as highly as creations made by experts. Putting personal labor into a product infuses it with emotional attachment, leading buyers to believe it is inherently worth more.",
+      "imageWikipediaTitle": "IKEA effect",
+      "sources": [
+        {
+          "title": "The 'IKEA Effect': When Labor Leads to Love",
+          "publisher": "Harvard Business School Working Knowledge",
+          "url": "https://hbswk.hbs.edu/item/the-ikea-effect-when-labor-leads-to-love"
+        },
+        {
+          "title": "IKEA effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IKEA_effect"
+        }
+      ],
+      "readMoreUrl": "https://hbswk.hbs.edu/item/the-ikea-effect-when-labor-leads-to-love",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A pay raise can leave you poorer if you fall for the money illusion",
+      "body": "Coined by economist Irving Fisher, the money illusion describes people's tendency to view wealth in nominal dollar amounts rather than real purchasing power adjusted for inflation. A worker receiving a 2% pay raise during a year with 5% inflation actually suffers a 3% pay cut. Yet psychological experiments show workers feel significantly happier with that nominal raise than with a 2% wage cut during zero inflation, despite having less actual buying power.",
+      "imageWikipediaTitle": "Money illusion",
+      "sources": [
+        {
+          "title": "Money Illusion",
+          "publisher": "Library of Economics and Liberty",
+          "url": "https://www.econlib.org/library/Enc/MoneyIllusion.html"
+        },
+        {
+          "title": "Money illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Money_illusion"
+        }
+      ],
+      "readMoreUrl": "https://www.econlib.org/library/Enc/MoneyIllusion.html",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What triggers the consumption spiral known as the Diderot effect?",
+      "options": [
+        "A single new luxury purchase that makes older possessions feel inadequate",
+        "A sudden drop in the market prices of consumer electronics",
+        "Targeted digital advertisements creating artificial product scarcity",
+        "Receiving an unexpected government tax refund"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Diderot effect occurs when acquiring a new, elevated item makes existing possessions seem inadequate, driving a cascade of matching upgrades."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did the Bank of Amsterdam ensure widespread trust in its ledger money?",
+      "options": [
+        "By maintaining nearly 100% precious metal reserves behind its deposits",
+        "By issuing unbacked paper banknotes backed only by royal decree",
+        "By investing depositors' money into high-yield naval expeditions",
+        "By paying high annual interest rates on all checking accounts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike early fractional-reserve lenders, the Bank of Amsterdam maintained nearly 100% coin reserves, ensuring deposits were fully backed."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did medieval English monarchs establish the nationwide tax known as Danegeld?",
+      "options": [
+        "To raise silver tribute payments demanded by Viking raiders",
+        "To finance the construction of royal stone castles",
+        "To fund maritime trade voyages to the Mediterranean",
+        "To purchase emergency grain reserves during droughts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Danegeld was levied across England to raise massive silver tributes to appease Viking invaders and prevent raiding."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What core cognitive bias defines the 'IKEA effect'?",
+      "options": [
+        "People assign higher value to products they personally assembled or built",
+        "Shoppers purchase more items when moving through maze-like retail layouts",
+        "Consumers prefer flat-pack shipping over pre-built home deliveries",
+        "Buyers assume cheaper items must have inferior materials"
+      ],
+      "correctIndex": 0,
+      "explanation": "The IKEA effect describes how investing personal labor into constructing an item causes people to value it much higher."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the 'money illusion' in economic theory?",
+      "options": [
+        "Judging financial well-being by nominal face value instead of inflation-adjusted purchasing power",
+        "Believing credit cards represent real cash rather than borrowed debt",
+        "Assuming central banks can print unlimited currency without consequences",
+        "Overestimating personal savings due to confusing bank statements"
+      ],
+      "correctIndex": 0,
+      "explanation": "The money illusion happens when people evaluate income in nominal figures rather than what that money can actually buy after inflation."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Buying a long-desired luxury item usually satisfies a consumer's urge to upgrade.",
+      "answer": false,
+      "explanation": "The Diderot effect shows that upgrading one item often highlights the inadequacy of existing possessions, triggering a cycle of further purchases."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "England's first regular nationwide land tax was created to pay off Viking invaders.",
+      "answer": true,
+      "explanation": "Danegeld was established to raise massive silver tributes demanded by Viking armies, creating Western Europe's first regular national land tax."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Receiving a 2% salary raise always increases your real buying power.",
+      "answer": false,
+      "explanation": "If inflation outpaces your raise (such as 5% inflation alongside a 2% raise), your real purchasing power actually declines by 3%."
+    }
+  ]
+}

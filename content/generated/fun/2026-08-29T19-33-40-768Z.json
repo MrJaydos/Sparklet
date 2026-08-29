@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.768Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This desert lizard drinks water through its feet and skin",
+      "body": "The Australian thorny devil survives in arid deserts thanks to a remarkable passive plumbing system. Microscopic capillary channels crisscross the lizard's skin between its scales. When the lizard steps into a puddle or morning dew, capillary action pulls moisture across its body and directly into the corners of its mouth, allowing it to drink without bending down or using a tongue.",
+      "imageWikipediaTitle": "Thorny devil",
+      "sources": [
+        {
+          "title": "Thorny devil",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/thorny-devil"
+        },
+        {
+          "title": "Thorny devil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thorny_devil"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/thorny-devil",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Houseflies taste everything they step on",
+      "body": "Before a fly ever takes a bite, its feet have already sampled the meal. Houseflies have taste receptors called gustatory sensilla scattered across their legs and feet. When a fly lands on food, these chemical sensors instantly identify sugars, salts, and proteins. If the foot receptors detect something edible, they trigger a reflex that automatically lowers the fly's proboscis to begin feeding.",
+      "imageWikipediaTitle": "Housefly",
+      "sources": [
+        {
+          "title": "Housefly",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/housefly"
+        },
+        {
+          "title": "Housefly",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Housefly"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/housefly",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea stars have an eye at the tip of every arm",
+      "body": "Starfish may lack a brain and a face, but they are far from blind. At the very tip of each arm sits a compound eye called an eyespot. Made of dozens of microscopic light-sensitive units, these primitive eyes cannot see fine details or vibrant colors, but they easily detect light, shadow, and large stationary objects, helping the sea star navigate home toward coral reefs.",
+      "imageWikipediaTitle": "Starfish",
+      "sources": [
+        {
+          "title": "Starfish",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/starfish"
+        },
+        {
+          "title": "Starfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starfish"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/starfish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Archerfish shoot down insects with pressurized water jets",
+      "body": "The archerfish hunts land-dwelling insects by turning its mouth into a water gun. By pressing its tongue against a groove in the roof of its mouth and snapping its gill covers shut, it fires a high-velocity stream of water up to two meters into the air. The fish even calculates optical refraction at the water surface, knocking unsuspecting bugs off overhead branches directly into the river.",
+      "imageWikipediaTitle": "Archerfish",
+      "sources": [
+        {
+          "title": "Archer fish",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/archer-fish"
+        },
+        {
+          "title": "Archerfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Archerfish"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/archer-fish",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male seahorses are the ones that get pregnant and give birth",
+      "body": "Seahorses and their close pipefish relatives are the only known animals where males experience true pregnancy. During mating, the female deposits hundreds of eggs into a specialized brood pouch on the male's abdomen. The male fertilizes the eggs internally, nourishes the embryos with oxygen and nutrients, and eventually endures muscular contractions to expel hundreds of fully formed babies into the ocean.",
+      "imageWikipediaTitle": "Seahorse",
+      "sources": [
+        {
+          "title": "Seahorse",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/seahorse"
+        },
+        {
+          "title": "Seahorse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seahorse"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/seahorse",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the thorny devil transport water from desert sand to its mouth?",
+      "options": [
+        "Capillary grooves between its scales channel moisture across its body",
+        "It absorbs water into its bloodstream through hollow quills",
+        "It secretes a sticky gel that condenses air humidity",
+        "It rolls downhill into damp sand to squeeze water into its skin pores"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microscopic capillary channels between the thorny devil's scales passively pull water straight to its mouth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where are a housefly's primary taste receptors located?",
+      "options": [
+        "On its legs and feet",
+        "At the tips of its antennae",
+        "Along the margins of its wings",
+        "Underneath its compound eyes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Houseflies have gustatory sensilla on their feet, allowing them to taste food the moment they land on it."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where are a sea star's light-sensing eyes located?",
+      "options": [
+        "At the tip of each arm",
+        "In the center of its top disc",
+        "Surrounding its central mouth opening",
+        "Along the undersides of its tube feet"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea stars have compound eyespots located at the tips of their arms to detect light, dark, and large landmarks."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does an archerfish hunt insects perched on branches above water?",
+      "options": [
+        "By squirting high-pressure water jets from its mouth",
+        "By slapping the surface with its tail to create a splash",
+        "By leaping out of the water to bite branches",
+        "By producing sonic clicks that stun prey into falling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Archerfish shoot targeted streams of water from their mouths to dislodge insects into the water."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What unusual reproductive role do male seahorses have?",
+      "options": [
+        "They carry fertilized eggs in a brood pouch and give birth",
+        "They build floating bubble nests and guard them without feeding",
+        "They carry eggs glued to their dorsal fins until they hatch",
+        "They digest egg shells from the outside to help offspring hatch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male seahorses carry the eggs inside a brood pouch, nourish the developing embryos, and give birth to live young."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "Up to how many meters into the air can an archerfish shoot a water jet to hit prey?",
+      "answer": 2,
+      "min": 0.2,
+      "max": 8,
+      "unit": "m",
+      "explanation": "Archerfish can accurately shoot jets of water up to 2 meters (over 6 feet) into the air."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Thorny devils must bend down and drink water using their mouths.",
+      "answer": false,
+      "explanation": "Thorny devils can drink just by stepping in a puddle, as capillary skin channels pull water straight to their mouths."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Starfish are completely blind because they do not possess eyes.",
+      "answer": false,
+      "explanation": "Starfish possess functional compound eyespots at the tip of each arm that detect light and shapes."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Male seahorses carry fertilized eggs and give birth to baby seahorses.",
+      "answer": true,
+      "explanation": "Male seahorses are the only known male animals that undergo true pregnancy and deliver offspring."
+    }
+  ]
+}

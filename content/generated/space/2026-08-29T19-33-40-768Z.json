@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.768Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's atmosphere is slowly turning the Moon red with rust",
+      "body": "Rust requires iron, water, and oxygen—a combination seemingly impossible on our airless Moon. Yet spectral data revealed hematite, a form of oxidized iron rust, concentrated at high lunar latitudes. Researchers discovered that Earth's own magnetic field blows upper-atmospheric oxygen across the void to the lunar surface along Earth's magnetotail, gradually oxidizing the Moon's mineral-rich regolith over billions of years.",
+      "imageWikipediaTitle": "Hematite",
+      "sources": [
+        {
+          "title": "The Moon Is Rusting, and Researchers Want to Know Why",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/the-moon-is-rusting-and-researchers-want-to-know-why"
+        },
+        {
+          "title": "Moon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moon"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/the-moon-is-rusting-and-researchers-want-to-know-why",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The planets don't actually orbit the physical center of the Sun",
+      "body": "Every celestial body in the solar system orbits a shared center of mass called the barycenter. Because giant planets like Jupiter and Saturn possess immense mass, their combined gravitational pull constantly shifts this balance point. As a result, the solar system's barycenter frequently hovers just outside the Sun's visible surface, meaning the Sun wobbles through space around a point in empty space.",
+      "imageWikipediaTitle": "Barycenter (astronomy)",
+      "sources": [
+        {
+          "title": "What Is a Barycenter?",
+          "publisher": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/barycenter/en/"
+        },
+        {
+          "title": "Barycenter (astronomy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barycenter_(astronomy)"
+        }
+      ],
+      "readMoreUrl": "https://spaceplace.nasa.gov/barycenter/en/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn's inner moons look like giant cosmic ravioli",
+      "body": "Close-up images from the Cassini spacecraft revealed that Saturn's small shepherd moons, Pan and Atlas, have bizarrely flattened shapes resembling dumplings or flying saucers. As these tiny moons orbit within Saturn's ring system, their weak gravity sweeps up icy dust particles from the surrounding rings. Over eons, this loose material accumulates exclusively along their equators, forming enormous, sharp ridges.",
+      "imageWikipediaTitle": "Pan (moon)",
+      "sources": [
+        {
+          "title": "Cassini Reveals Strange Shapes of Saturn's Moons",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/cassini-reveals-strange-shapes-of-saturns-moons"
+        },
+        {
+          "title": "Pan (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pan_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/cassini-reveals-strange-shapes-of-saturns-moons",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Living in zero gravity accelerates the destruction of red blood cells",
+      "body": "On Earth, the human body constantly creates and destroys about two million red blood cells every second. In microgravity, this balance shifts dramatically. Space travelers experience 'space anemia,' where their bodies destroy roughly three million red blood cells per second—a 54% increase over Earth baseline. This accelerated hemolysis persists throughout the mission, leaving returning astronauts severely fatigued until red cell counts normalize.",
+      "imageWikipediaTitle": "Red blood cell",
+      "sources": [
+        {
+          "title": "Hemolysis contributes to anemia during long-duration space flight",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8782705/"
+        },
+        {
+          "title": "Effect of spaceflight on the human body",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8782705/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Deep-space probes run on the heat of decaying plutonium",
+      "body": "Past Jupiter, sunlight is too dim to power solar panels, so robotic spacecraft rely on Radioisotope Thermoelectric Generators (RTGs). These space batteries contain ceramic pellets of Plutonium-238. As the radioactive plutonium naturally decays, it produces intense heat, which thermocouples convert directly into electricity with zero moving parts, reliably powering legendary missions like Voyager, New Horizons, and Curiosity for decades.",
+      "imageWikipediaTitle": "Radioisotope thermoelectric generator",
+      "sources": [
+        {
+          "title": "About RPS: Overview",
+          "publisher": "NASA",
+          "url": "https://rps.nasa.gov/about-rps/overview/"
+        },
+        {
+          "title": "Radioisotope thermoelectric generator",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Radioisotope_thermoelectric_generator"
+        }
+      ],
+      "readMoreUrl": "https://rps.nasa.gov/about-rps/overview/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where does the oxygen come from that creates rust on the Moon?",
+      "options": [
+        "Subsurface volcanic outgassing",
+        "Comet and asteroid impacts",
+        "Earth's upper atmosphere",
+        "Melted ice caps on the lunar poles"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oxygen escapes Earth's upper atmosphere and is funneled across space along Earth's magnetic tail to oxidize iron on the Moon."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the term for the shared center of mass around which solar system bodies orbit?",
+      "options": [
+        "Lagrange point",
+        "Barycenter",
+        "Aphelion",
+        "Perihelion"
+      ],
+      "correctIndex": 1,
+      "explanation": "The barycenter is the common center of mass between the Sun and orbiting planets like Jupiter, often sitting just outside the Sun itself."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do Saturn's moons Pan and Atlas have equatorial ridges shaped like ravioli?",
+      "options": [
+        "Intense volcanic eruptions along their equators",
+        "Accumulation of icy ring particles swept up as they orbit",
+        "Centrifugal flattening from spinning once per minute",
+        "Erosion caused by continuous solar wind bombardment"
+      ],
+      "correctIndex": 1,
+      "explanation": "Their gravity draws in loose icy material from Saturn's rings, building up tall equatorial ridges over time."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does long-duration spaceflight trigger 'space anemia' in astronauts?",
+      "options": [
+        "By halting bone marrow production entirely",
+        "By destroying red blood cells at a 54% higher rate",
+        "By filtering out hemoglobin through the kidneys",
+        "By depleting dietary iron absorption in the gut"
+      ],
+      "correctIndex": 1,
+      "explanation": "In microgravity, astronauts destroy about 3 million red blood cells per second compared to 2 million on Earth, causing space anemia."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which isotope is primarily used to generate heat and electricity in space probe RTGs?",
+      "options": [
+        "Uranium-235",
+        "Plutonium-238",
+        "Cesium-137",
+        "Cobalt-60"
+      ],
+      "correctIndex": 1,
+      "explanation": "Plutonium-238 is preferred because its steady radioactive decay generates significant heat without emitting dangerous penetrating radiation."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "By what percentage does the rate of red blood cell destruction increase when humans live in microgravity?",
+      "answer": 54,
+      "min": 5,
+      "max": 150,
+      "unit": "%",
+      "explanation": "Microgravity increases red blood cell destruction from 2 million to 3 million cells per second, a 54% surge leading to 'space anemia'."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Iron on the Moon cannot rust because the lunar surface has no atmosphere or oxygen.",
+      "answer": false,
+      "explanation": "Earth's magnetic field carries atmospheric oxygen to the Moon along its tail, allowing hematite rust to form at lunar poles."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "All planets in the solar system orbit the exact geometric center of the Sun.",
+      "answer": false,
+      "explanation": "Planets orbit the solar system's common center of mass (barycenter), which Jupiter and Saturn frequently pull outside the Sun's surface."
+    }
+  ]
+}

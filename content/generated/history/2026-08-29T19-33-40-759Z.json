@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-29T19:33:40.759Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Dead Pope Was Dug Up and Put on Trial",
+      "body": "In 897 CE, Pope Stephen VI had the rotting corpse of his predecessor, Pope Formosus, exhumed from his tomb after nine months underground. Dressed in papal vestments and propped up on a throne, the corpse was assigned a deacon to speak on its behalf. Found guilty of perjury and illegally holding office, Formosus had his papal vestments stripped, his blessing fingers severed, and his body cast into the Tiber.",
+      "imageWikipediaTitle": "Cadaver Synod",
+      "sources": [
+        {
+          "title": "Cadaver Synod",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/event/Cadaver-Synod"
+        },
+        {
+          "title": "Cadaver Synod",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cadaver_Synod"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/event/Cadaver-Synod",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How 600 Parisian Taxis Saved the French Army",
+      "body": "In September 1914, the German army advanced dangerously close to Paris during the First Battle of the Marne. Needing to rush reinforcements to the front lines immediately, General Joseph Gallieni commandeered roughly 600 Parisian taxicabs. Over two days, the taxi fleet transported about 4,000 French infantry soldiers straight into battle. In true Parisian fashion, the cabbies kept their meters running and were later compensated by the French government.",
+      "imageWikipediaTitle": "Renault Taxi de la Marne",
+      "sources": [
+        {
+          "title": "The Taxis Of The Marne",
+          "publisher": "Imperial War Museums",
+          "url": "https://www.iwm.org.uk/history/the-taxis-of-the-marne"
+        },
+        {
+          "title": "Renault Taxi de la Marne",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Renault_Taxi_de_la_Marne"
+        }
+      ],
+      "readMoreUrl": "https://www.iwm.org.uk/history/the-taxis-of-the-marne",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The WWII Battle Where Americans and Germans Fought as Allies",
+      "body": "On May 5, 1945, just days before World War II ended in Europe, an extraordinary battle took place at Austria's Castle Itter. US Army soldiers, anti-Nazi German Wehrmacht troops, an Austrian resistance fighter, and high-profile French prisoners joined forces. Together, they defended the castle against an assault by the Waffen-SS, marking the only documented battle of the war where American and German regular soldiers fought side-by-side.",
+      "imageWikipediaTitle": "Battle of Castle Itter",
+      "sources": [
+        {
+          "title": "The Freemen of Castle Itter",
+          "publisher": "The National WWII Museum",
+          "url": "https://www.nationalww2museum.org/war/articles/freemen-castle-itter"
+        },
+        {
+          "title": "Battle of Castle Itter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Castle_Itter"
+        }
+      ],
+      "readMoreUrl": "https://www.nationalww2museum.org/war/articles/freemen-castle-itter",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Londoners Used to Throw Massive Carnivals on the Frozen Thames",
+      "body": "During the Little Ice Age between the 15th and early 19th centuries, the River Thames froze solid multiple times. Londoners seized the opportunity to host festive \"Frost Fairs\" directly on the ice. The frozen river was transformed into a bustling street fair with food stalls, makeshift taverns, bowling alleys, and printing presses churning out souvenir poems. In 1814, an elephant was even led across the frozen river near Blackfriars Bridge.",
+      "imageWikipediaTitle": "River Thames frost fairs",
+      "sources": [
+        {
+          "title": "Frost Fairs on the River Thames",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/frost-fairs-river-thames"
+        },
+        {
+          "title": "River Thames frost fairs",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/River_Thames_frost_fairs"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/frost-fairs-river-thames",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 751 CE Battle That Brought Paper to the Western World",
+      "body": "In 751 CE, the armies of the Abbasid Caliphate and the Chinese Tang Dynasty collided at the Battle of Talas in Central Asia. The Abbasid victory had an unexpected worldwide consequence: among the Chinese prisoners were master papermakers. The captives shared their centuries-old papermaking secrets with their captors, leading to the creation of Samarkand's first paper mills and eventually spreading lightweight, inexpensive paper across the Islamic world and into medieval Europe.",
+      "imageWikipediaTitle": "Battle of Talas",
+      "sources": [
+        {
+          "title": "The Battle of Talas",
+          "publisher": "UNESCO",
+          "url": "https://en.unesco.org/silkroad/content/battle-talas"
+        },
+        {
+          "title": "Battle of Talas",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Talas"
+        }
+      ],
+      "readMoreUrl": "https://en.unesco.org/silkroad/content/battle-talas",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was unusual about the trial of Pope Formosus at the Cadaver Synod in 897 CE?",
+      "options": [
+        "The defendant was represented by a trained falcon",
+        "His exhumed corpse was dressed in vestments and placed on trial",
+        "The court proceedings were conducted in complete silence",
+        "The jury consisted entirely of foreign monarchs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pope Stephen VI had his predecessor's rotting corpse exhumed, dressed in papal robes, and placed on a throne to face a formal ecclesiastical trial."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why were Parisian taxicabs commandeered during the First Battle of the Marne in 1914?",
+      "options": [
+        "To transport thousands of French infantry soldiers to the front lines",
+        "To evacuate priceless artwork from the Louvre to London",
+        "To deliver peace treaties directly to the German high command",
+        "To blockade advancing enemy tanks on Parisian boulevards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roughly 600 Parisian cabs were used to quickly rush about 4,000 French soldiers to the front lines during a critical German advance."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What made the May 1945 Battle of Castle Itter unique in World War II history?",
+      "options": [
+        "It was the only battle fought without firing a single bullet",
+        "US soldiers and German Wehrmacht troops fought together as allies",
+        "It was the first military engagement conducted entirely by air drops",
+        "French prisoners defeated an SS regiment using only antique weapons"
+      ],
+      "correctIndex": 1,
+      "explanation": "US soldiers, anti-Nazi German Wehrmacht troops, and French prisoners joined forces against attacking Waffen-SS troops."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What extraordinary attraction crossed the frozen River Thames during the 1814 Frost Fair?",
+      "options": [
+        "An elephant walking across the ice",
+        "A full-sized steam locomotive",
+        "A fleet of horse-drawn sleighs from Russia",
+        "A temporary stone cathedral built on the ice"
+      ],
+      "correctIndex": 0,
+      "explanation": "During the final Frost Fair in 1814, an elephant was led across the thick ice near Blackfriars Bridge as part of the festivities."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What crucial technology spread westward after the 751 CE Battle of Talas?",
+      "options": [
+        "Magnetic compass navigation",
+        "Papermaking techniques",
+        "Gunpowder manufacturing",
+        "Movable metal type printing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Captured Chinese artisans taught papermaking to their Arab captors, leading to Samarkand's paper mills and the spread of paper across the Islamic world."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many Parisian taxicabs were commandeered in September 1914 to rush French reinforcements to the Battle of the Marne?",
+      "answer": 600,
+      "min": 50,
+      "max": 3000,
+      "unit": "",
+      "explanation": "General Gallieni requisitioned roughly 600 Parisian taxis to transport 4,000 soldiers to the front lines."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Every papal trial in Roman Catholic history was conducted while the accused was alive.",
+      "answer": false,
+      "explanation": "In 897 CE, Pope Stephen VI had the corpse of Pope Formosus exhumed nine months after burial to undergo a full trial."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "American and German regular soldiers never fought on the same side during World War II.",
+      "answer": false,
+      "explanation": "At the Battle of Castle Itter on May 5, 1945, US soldiers and anti-Nazi German Wehrmacht troops allied against the Waffen-SS."
+    }
+  ]
+}
