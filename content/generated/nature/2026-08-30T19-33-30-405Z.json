@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-08-30T19:33:30.405Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dolphins sleep with only half their brain at a time",
+      "body": "To avoid drowning while asleep, dolphins and whales engage in unihemispheric slow-wave sleep. One brain hemisphere rests for a few hours while the other stays awake to control breathing, maintain vigilance for predators like sharks, and keep the opposite eye open. After resting one side, the brain switches halves, allowing the animal to get a full cycle of sleep without ever losing consciousness or sinking.",
+      "imageWikipediaTitle": "Bottlenose dolphin",
+      "sources": [
+        {
+          "title": "Unihemispheric sleep and asymmetrical sleep in marine mammals",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2649682/"
+        },
+        {
+          "title": "Unihemispheric slow-wave sleep",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2649682/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Arctic terns fly the longest annual migration of any animal on Earth",
+      "body": "Every year, the Arctic tern undertakes an epic journey from its breeding grounds in the Arctic to the ice edges of Antarctica and back. Tracking devices reveal they fly up to 90,000 kilometers annually along winding migratory routes across global oceans. Over a typical thirty-year lifespan, an individual tern can travel over 2.4 million kilometers—equivalent to flying to the Moon and back more than three times.",
+      "imageWikipediaTitle": "Arctic tern",
+      "sources": [
+        {
+          "title": "Tracking of Arctic terns Sterna paradisaea reveals longest animal migration",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2824368/"
+        },
+        {
+          "title": "Arctic tern",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arctic_tern"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2824368/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Virginia opossums rarely catch rabies because their bodies are too cool",
+      "body": "Despite their fierce hissing displays and reputation as disease carriers, Virginia opossums almost never contract or transmit rabies. Their average internal body temperature is unusually low for a mammal, hovering between 34°C and 36°C (94°F to 97°F). This cool physiological baseline creates an inhospitable environment where the rabies virus struggles to replicate and establish a lethal infection, providing opossums with natural protection against the fatal pathogen.",
+      "imageWikipediaTitle": "Virginia opossum",
+      "sources": [
+        {
+          "title": "Didelphis virginiana: Virginia opossum",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Didelphis_virginiana/"
+        },
+        {
+          "title": "Virginia opossum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Virginia_opossum"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Didelphis_virginiana/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Emperor penguins coordinate tiny waves of movement to share warmth",
+      "body": "To survive Antarctic blizzards where temperatures drop below -40°C, male emperor penguins pack into dense huddles containing thousands of birds. To prevent outer birds from freezing while avoiding crushing one another, the colony generates traveling waves. Every thirty to sixty seconds, penguins take coordinated steps of just a few centimeters. This continuous, self-organizing shuffle gradually circulates penguins from the freezing outer edge into the warm center, which can reach 37.5°C.",
+      "imageWikipediaTitle": "Emperor penguin",
+      "sources": [
+        {
+          "title": "Coordinated Movements in Emperor Penguin Huddles",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3107212/"
+        },
+        {
+          "title": "Emperor penguin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emperor_penguin"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3107212/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single fallen whale carcass sustains deep-sea life for nearly a century",
+      "body": "When a dead whale sinks thousands of meters to the ocean floor, it creates a localized biological hotspot known as a whale fall. In the barren deep sea, a 40-ton carcass provides a massive burst of organic nutrients. Scavengers like sleeper sharks strip the soft tissue in months, after which specialized organisms, including bone-eating Osedax worms and sulfur-oxidizing bacteria, colonize the skeleton, sustaining a complex ecological community for up to a century.",
+      "imageWikipediaTitle": "Whale fall",
+      "sources": [
+        {
+          "title": "Bone-eating worms on dead whales in deep water",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1634951/"
+        },
+        {
+          "title": "Whale fall",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whale_fall"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1634951/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do dolphins sleep without drowning in open water?",
+      "options": [
+        "They rest one brain hemisphere at a time",
+        "They float on their backs with nostrils above water",
+        "They enter a state of total paralysis on the sea floor",
+        "They do not sleep at all during their adult lives"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dolphins use unihemispheric sleep, resting one half of their brain while the other remains awake to control breathing and watch for threats."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which animal completes the longest annual migration on Earth?",
+      "options": [
+        "Arctic tern",
+        "Monarch butterfly",
+        "Humpback whale",
+        "Wandering albatross"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arctic terns travel up to 90,000 kilometers every year flying round-trip between the Arctic and Antarctic."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why are Virginia opossums naturally resistant to the rabies virus?",
+      "options": [
+        "Their body temperature is too low for the virus to replicate",
+        "Their blood contains specialized anti-rabies antibodies from birth",
+        "Their thick skin prevents bites from puncturing blood vessels",
+        "Their acidic diet neutralizes viral pathogens in the stomach"
+      ],
+      "correctIndex": 0,
+      "explanation": "With an average body temperature of 34°C to 36°C, opossums are too cool to serve as hospitable hosts for the rabies virus."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do emperor penguins prevent the birds on the outer edge of a winter huddle from freezing?",
+      "options": [
+        "They perform coordinated periodic shuffles to rotate birds inward",
+        "The largest penguins remain permanently on the outside as shields",
+        "They flap their wings in unison to blow warm air outward",
+        "They take turns running laps around the perimeter of the huddle"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coordinated traveling waves of tiny steps allow penguins to steadily circulate between the cold exterior and warm interior of the huddle."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary role of Osedax worms on a deep-sea whale fall?",
+      "options": [
+        "Extracting nutrients directly from the whale's lipid-rich bones",
+        "Hunting small fish attracted to the decaying carcass",
+        "Building hard mineral reefs around the rotting skeleton",
+        "Filtering free-floating plankton from the water column"
+      ],
+      "correctIndex": 0,
+      "explanation": "Osedax, or bone-eating worms, use specialized root tissues and symbiotic bacteria to break down collagen and lipids inside whale bones."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many kilometers can an Arctic tern fly across its annual round-trip migration?",
+      "answer": 90000,
+      "min": 10000,
+      "max": 150000,
+      "unit": "km",
+      "explanation": "Using geolocators, scientists discovered Arctic terns fly zigzagging routes of up to 90,000 kilometers each year."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What temperature in degrees Celsius can the inner core of an emperor penguin huddle reach?",
+      "answer": 38,
+      "min": 0,
+      "max": 60,
+      "unit": "°C",
+      "explanation": "While Antarctic blizzards drop below -40°C, the center of a dense penguin huddle can heat up to nearly 38°C (100°F)."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "For how many years can a single large whale carcass sustain deep-sea organisms?",
+      "answer": 100,
+      "min": 5,
+      "max": 250,
+      "unit": "years",
+      "explanation": "Through successive ecological stages, a single whale skeleton can provide nutrition to deep-sea communities for up to 100 years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Dolphins fall completely unconscious when they go to sleep",
+      "answer": false,
+      "explanation": "Dolphins only rest one brain hemisphere at a time, keeping the other awake to surface for air and watch for predators."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Opossums are common carriers of the rabies virus",
+      "answer": false,
+      "explanation": "Because of their unusually low body temperature, opossums provide an inhospitable host environment for the rabies virus to survive."
+    }
+  ]
+}
