@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.000Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A ceramic teapot became the standard test model for 3D computer graphics",
+      "body": "In 1975, computer scientist Martin Newell needed a moderately complex 3D object to test his rendering algorithms. While sketching over tea, his wife suggested modeling their ceramic Melitta teapot. Newell digitized its coordinates, and the \"Utah Teapot\" became an industry-standard benchmark for testing lighting, shadows, and textures. It has since appeared in Pixar films, screensavers, and virtually every major 3D animation software package.",
+      "imageWikipediaTitle": "Utah teapot",
+      "sources": [
+        {
+          "title": "The Utah Teapot",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/206"
+        },
+        {
+          "title": "Utah teapot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utah_teapot"
+        }
+      ],
+      "readMoreUrl": "https://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/206",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first major internet worm was created by a student trying to measure the web",
+      "body": "In November 1988, Cornell graduate student Robert Tappan Morris released code designed to count connected computers across ARPANET. To bypass defensive dummy processes, Morris programmed the worm to reinfect a machine 14 percent of the time anyway. That aggressive replication caused systems to spawn hundreds of copies, crashing an estimated 6,000 computers—around 10 percent of the internet at the time—and triggering modern cybersecurity coordination.",
+      "imageWikipediaTitle": "Morris worm",
+      "sources": [
+        {
+          "title": "The Morris Worm",
+          "publisher": "Federal Bureau of Investigation",
+          "url": "https://www.fbi.gov/history/famous-cases/morris-worm"
+        },
+        {
+          "title": "Morris worm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Morris_worm"
+        }
+      ],
+      "readMoreUrl": "https://www.fbi.gov/history/famous-cases/morris-worm",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first stored-program computer ran a 17-line program in 1948",
+      "body": "Early computers like ENIAC required physical rewiring or manual switchboard reconfiguration to change tasks. That changed on June 21, 1948, when the Small-Scale Experimental Machine, nicknamed \"Baby,\" booted up at the University of Manchester. Using a cathode-ray tube as electronic random-access memory, Baby successfully executed a 17-instruction program to find the highest proper divisor of a number, proving software could live entirely inside computer memory.",
+      "imageWikipediaTitle": "Manchester Baby",
+      "sources": [
+        {
+          "title": "The Manchester Small-Scale Experimental Machine -- \"The Baby\"",
+          "publisher": "University of Manchester",
+          "url": "https://www.cs.manchester.ac.uk/about/history/baby/"
+        },
+        {
+          "title": "Manchester Baby",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Manchester_Baby"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.manchester.ac.uk/about/history/baby/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lidar mapped the craters of the Moon decades before guiding self-driving cars",
+      "body": "Before light detection and ranging (lidar) guided autonomous vehicles and mapped ancient ruins through dense jungle canopies, it traveled into space. In 1971, Apollo 15 astronauts used an onboard laser altimeter to measure precise distances to the lunar surface using pulsed light. The instrument recorded elevation profiles across hundreds of kilometers with one-meter accuracy, demonstrating how timing reflected photons could construct high-resolution 3D surface topography.",
+      "imageWikipediaTitle": "Lidar",
+      "sources": [
+        {
+          "title": "What is LIDAR?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/lidar.html"
+        },
+        {
+          "title": "Lidar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lidar"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/lidar.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Secret video game Easter eggs began as a programmer's protest for credit",
+      "body": "In the late 1970s, Atari refused to credit game designers on packaging or screen, fearing competitors would poach talent. In response, developer Warren Robinett secretly hid a gray pixel inside the 1979 Atari 2600 game Adventure. Carrying that pixel into a sealed chamber unlocked glowing text reading \"Created by Warren Robinett.\" Discovered after thousands of cartridges shipped, it popularized the concept of hidden software Easter eggs.",
+      "imageWikipediaTitle": "Warren Robinett",
+      "sources": [
+        {
+          "title": "Hunting for Easter Eggs",
+          "publisher": "The Strong National Museum of Play",
+          "url": "https://www.museumofplay.org/blog/hunting-for-easter-eggs/"
+        },
+        {
+          "title": "Easter egg (media)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Easter_egg_(media)"
+        }
+      ],
+      "readMoreUrl": "https://www.museumofplay.org/blog/hunting-for-easter-eggs/",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Martin Newell choose a teapot as the benchmark model for 3D rendering?",
+      "options": [
+        "His wife suggested their ceramic home teapot during tea",
+        "It was the only object in the laboratory made of glass",
+        "Teapots were required by the National Science Foundation",
+        "It was randomly generated by an early computer algorithm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Newell's wife suggested modeling their home Melitta teapot, which had ideal curves, handles, and hollows for testing 3D graphics algorithms."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What caused the 1988 Morris worm to crash thousands of ARPANET computers?",
+      "options": [
+        "It aggressively reinfected computers that already had it, overloading memory",
+        "It permanently erased hard drives with malicious wiper code",
+        "It physically overheated power supplies using infinite compute loops",
+        "It encrypted user files and demanded a Bitcoin ransom"
+      ],
+      "correctIndex": 0,
+      "explanation": "To bypass fake anti-worm processes, the worm was programmed to reinfect machines anyway 14% of the time, causing runaway replication that crashed systems."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What historical milestone did the Manchester 'Baby' achieve in June 1948?",
+      "options": [
+        "It became the first computer to run an electronically stored program",
+        "It connected the first two computers over an acoustic phone line",
+        "It transmitted the first digital audio recording over radio",
+        "It demonstrated the first electronic computer mouse and graphical interface"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Manchester Baby was the world's first stored-program computer, proving software could reside in electronic RAM rather than requiring physical rewiring."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did Apollo 15 use laser altimetry (lidar) in 1971?",
+      "options": [
+        "To measure lunar surface elevations by timing reflected light pulses",
+        "To beam high-speed voice communications directly to mission control",
+        "To detect liquid water trapped inside shadowed polar craters",
+        "To heat the lunar rover's instruments during cold orbital passes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apollo 15 used a pulsed ruby laser altimeter from lunar orbit to measure distances to the Moon's surface with one-meter precision."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did Warren Robinett hide his name in the Atari 2600 game Adventure?",
+      "options": [
+        "Atari refused to give credit or royalties to game designers",
+        "He wanted to hide a cipher for an official Atari promotional contest",
+        "It was a debug tool he accidentally forgot to remove before release",
+        "He was trying to smuggle confidential Atari source code out of the office"
+      ],
+      "correctIndex": 0,
+      "explanation": "Atari kept programmer identities anonymous to prevent rival studios from poaching them, prompting Robinett to secretly hide his name in the game."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of all internet-connected computers was knocked offline by the 1988 Morris worm?",
+      "answer": 10,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "The worm knocked out roughly 6,000 machines—about 10% of the entire internet at the time—spurring the creation of modern cyber incident response."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "ENIAC was the first computer capable of executing programs loaded into internal electronic memory.",
+      "answer": false,
+      "explanation": "ENIAC was originally programmed by manually rearranging patch cables and switches. The 1948 Manchester Baby was the first stored-program computer."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The first video game Easter egg was created as an official marketing promotion by Atari.",
+      "answer": false,
+      "explanation": "It was an unsanctioned act of protest by designer Warren Robinett because Atari refused to credit game creators on cartridges."
+    }
+  ]
+}

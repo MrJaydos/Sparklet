@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.003Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Silver Coin Frozen in the Year 1780",
+      "body": "In 1780, Empress Maria Theresa of Austria died, but her signature silver trade coin never aged. Highly prized for its reliable silver content across the Middle East and Horn of Africa, merchants refused to accept redesigned versions. To preserve trade trust, mints in Austria, Britain, France, and Rome kept striking identical coins for over two centuries, freezing the date at 1780 on every newly minted piece. Over 800 million have been produced since.",
+      "imageWikipediaTitle": "Maria Theresa thaler",
+      "sources": [
+        {
+          "title": "Maria Theresa Thaler",
+          "publisher": "Austrian Mint",
+          "url": "https://www.muenzeoesterreich.at/eng/products/maria-theresa-taler"
+        },
+        {
+          "title": "Maria Theresa thaler",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maria_Theresa_thaler"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Maria_Theresa_thaler",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Economists Track Cardboard Boxes to Predict Recessions",
+      "body": "Because virtually every manufactured item—from electronics and furniture to canned food—ships inside a corrugated cardboard box, packaging demand provides an instant snapshot of real-time commerce. Long before corporate earnings or government GDP reports are published, a drop in cardboard box production signals that factories are slowing output and retailers are cutting orders. Former Federal Reserve Chairman Alan Greenspan famously monitored box shipments as a dependable early warning indicator for economic downturns.",
+      "imageWikipediaTitle": "Corrugated fiberboard",
+      "sources": [
+        {
+          "title": "What do cardboard boxes say about the economy?",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "url": "https://fredblog.stlouisfed.org/2021/04/what-do-cardboard-boxes-say-about-the-economy/"
+        },
+        {
+          "title": "Box indicator",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Box_indicator"
+        }
+      ],
+      "readMoreUrl": "https://fredblog.stlouisfed.org/2021/04/what-do-cardboard-boxes-say-about-the-economy/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When the US Minted Paper Money Worth Three Cents",
+      "body": "During the American Civil War, widespread panic prompted citizens to hoard metal coins for their raw silver and copper value, causing a crippling shortage of small change. Merchants struggled to conduct everyday transactions, briefly resorting to postage stamps. To restore commerce, the US Treasury issued Fractional Currency between 1862 and 1876: tiny paper banknotes denominated in amounts as low as 3, 5, 10, 15, 25, and 50 cents, colloquially nicknamed \"shinplasters.\"",
+      "imageWikipediaTitle": "Fractional currency",
+      "sources": [
+        {
+          "title": "Fractional Currency",
+          "publisher": "Bureau of Engraving and Printing",
+          "url": "https://www.bep.gov/currency/history/fractional-currency"
+        },
+        {
+          "title": "Fractional currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fractional_currency"
+        }
+      ],
+      "readMoreUrl": "https://www.bep.gov/currency/history/fractional-currency",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 15th-Century Crisis When Europe Ran Out of Cash",
+      "body": "In the 15th century, Europe suffered the Great Bullion Famine, a catastrophic shortage of precious metals. Decades of importing luxury goods from Asia drained silver and gold eastward, while major European mines reached technological limits and flooded. With precious metal supplies dwindling, mints across England, France, and Italy shut down entirely. The lack of physical currency paralyzed trade, forced heavy reliance on barter, and intensified European pressure to discover new maritime trading routes.",
+      "imageWikipediaTitle": "Great Bullion Famine",
+      "sources": [
+        {
+          "title": "Great Bullion Famine",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Great_Bullion_Famine/"
+        },
+        {
+          "title": "Great Bullion Famine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Bullion_Famine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Bullion_Famine",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Men's Underwear Sales Can Signal an Economic Slump",
+      "body": "Men's underwear is considered the quintessential non-visible necessity: most men buy it regularly as staple clothing rather than a fashion statement. Economists note that during severe personal financial strain, purchasing new underwear is one of the easiest discretionary expenses to postpone. Former Federal Reserve chair Alan Greenspan tracked national sales data on men's underwear as an unconventional economic barometer, recognizing that a measurable dip in sales reliably signals consumer belt-tightening before broader recessions hit.",
+      "imageWikipediaTitle": "Underpants",
+      "sources": [
+        {
+          "title": "Can men's underwear reveal a recession?",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "url": "https://fredblog.stlouisfed.org/2022/10/can-mens-underwear-reveal-a-recession/"
+        },
+        {
+          "title": "Men's underwear index",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Men%27s_underwear_index"
+        }
+      ],
+      "readMoreUrl": "https://fredblog.stlouisfed.org/2022/10/can-mens-underwear-reveal-a-recession/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did mints around the world continue producing silver coins dated 1780 for centuries?",
+      "options": [
+        "A royal decree prohibited changing coin designs",
+        "Merchants in key trade routes refused redesigned versions",
+        "Mints lost the ability to engrave new date dies",
+        "The coins were only produced for museum exhibits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Merchants across the Middle East and Horn of Africa trusted the exact 1780 design and rejected newer dates, so mints kept striking the original design."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is corrugated cardboard box production considered a leading economic indicator?",
+      "options": [
+        "Boxes are actively traded on global commodity exchanges",
+        "Almost all manufactured physical goods require shipping boxes",
+        "Cardboard recycling generates major government tax revenue",
+        "Cardboard box prices determine national consumer price indices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Packaging demand reflects real-time manufacturing and shipping activity before official GDP and earnings data are published."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the US Treasury issue paper banknotes worth less than a dollar during the 1860s?",
+      "options": [
+        "Citizens hoarded metal coins during the Civil War",
+        "Paper was significantly cheaper to produce than wood pulp",
+        "A constitutional amendment banned copper mining",
+        "To test color printing technology before issuing dollar bills"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wartime hoarding drained metal coins from circulation, forcing the Treasury to print paper Fractional Currency for small change."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What primary factors caused the Great Bullion Famine in 15th-century Europe?",
+      "options": [
+        "Trade deficits with Asia and flooded, depleted European mines",
+        "Widespread pirate raids on royal treasuries",
+        "A papal ban on extracting gold and silver",
+        "Massive destruction of coinage during the Black Death"
+      ],
+      "correctIndex": 0,
+      "explanation": "Outflows of precious metals to Asia to pay for luxury imports combined with exhausted European mines left Europe starved of coin metal."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did economists use the Men's Underwear Index to detect impending recessions?",
+      "options": [
+        "Underwear factories convert to military supply during crises",
+        "Underwear production requires vast amounts of imported raw cotton",
+        "Men easily postpone replacing hidden staple garments when money gets tight",
+        "Underwear prices fluctuate faster than general food prices"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because underwear is a hidden, utilitarian staple, purchasing replacements is one of the easiest small expenses for consumers to delay."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Roughly how many Maria Theresa thalers bearing the year 1780 have been minted worldwide?",
+      "answer": 800000000,
+      "min": 50000000,
+      "max": 3000000000,
+      "unit": "",
+      "explanation": "Over 800 million Maria Theresa thalers bearing the frozen date 1780 have been struck across multiple mints worldwide."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The smallest official paper banknote denomination ever issued by the US government was the one-dollar bill.",
+      "answer": false,
+      "explanation": "During the Civil War era, the US government issued official paper Fractional Currency in denominations as low as 3 cents."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Economic recessions can only be detected using official government statistics like GDP and unemployment.",
+      "answer": false,
+      "explanation": "Economists also track unconventional, real-time indicators like men's underwear sales and corrugated cardboard box shipments."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-31T21:41:34.997Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Law Authorizing Citizens to Seize Islands for Bird Poop",
+      "body": "In 1856, the United States Congress passed the Guano Islands Act, empowering any American citizen to claim uninhabited oceanic islands for the nation—provided they held deposits of bird droppings. Guano was a prized agricultural fertilizer essential for soil replenishment. Under this statute, the US claimed nearly 100 islands and atolls across the Pacific Ocean and Caribbean Sea, including Baker Island and Midway Atoll.",
+      "imageWikipediaTitle": "Guano Islands Act",
+      "sources": [
+        {
+          "title": "Guano Islands Act",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/august-18/"
+        },
+        {
+          "title": "Guano Islands Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guano_Islands_Act"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Guano_Islands_Act",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Single Switch Prevented a Massive Nuclear Detonation on US Soil",
+      "body": "On January 24, 1961, a B-52 bomber carrying two multi-megaton nuclear weapons broke apart midair over Goldsboro, North Carolina. As one bomb descended, five of its six arming mechanisms triggered sequentially, charging its firing capacitors and releasing its parachute. Only a single low-voltage cockpit safety switch prevented a detonation over 250 times more powerful than the Hiroshima blast from incinerating eastern North Carolina.",
+      "imageWikipediaTitle": "1961 Goldsboro B-52 crash",
+      "sources": [
+        {
+          "title": "Goldsboro B-52 Crash",
+          "publisher": "National Security Archive",
+          "url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2021-01-22/goldsboro-b-52-crash-60th-anniversary-documents"
+        },
+        {
+          "title": "1961 Goldsboro B-52 crash",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1961_Goldsboro_B-52_crash"
+        }
+      ],
+      "readMoreUrl": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2021-01-22/goldsboro-b-52-crash-60th-anniversary-documents",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Geologist Exposed the Gilded Age's Greatest Mining Swindle",
+      "body": "In 1872, two prospectors claimed they found a remote plateau littered with diamonds and rubies, luring prominent tycoons and jewelers into investing millions. Clarence King, a geologist with the newly formed U.S. Geological Survey, visited the undisclosed location and quickly spotted anomalies: diamonds and rubies were mixed together in anthills, occasionally displaying jeweler cuts. King exposed the multimillion-dollar fraud, proving the plot had been salted with cheap industrial gems.",
+      "imageWikipediaTitle": "Clarence King",
+      "sources": [
+        {
+          "title": "The Great Diamond Hoax",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/media/images/clarence-king-and-great-diamond-hoax"
+        },
+        {
+          "title": "Great Diamond Hoax of 1872",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Diamond_Hoax_of_1872"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Great_Diamond_Hoax_of_1872",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Removing a Pump Handle Launched Modern Epidemiology",
+      "body": "In 1854, a virulent cholera outbreak struck Soho, London, killing over 600 people in weeks. Prevailing medical dogma attributed the disease to \"miasma,\" or foul airborne vapors. Physician John Snow investigated by mapping each victim's residence, discovering cases clustered tightly around a public water pump on Broad Street. Snow persuaded authorities to remove the pump handle; new infections halted swiftly, establishing that cholera was waterborne and founding modern epidemiology.",
+      "imageWikipediaTitle": "1854 Broad Street cholera outbreak",
+      "sources": [
+        {
+          "title": "Father of Modern Epidemiology",
+          "publisher": "UCLA Department of Epidemiology",
+          "url": "https://www.ph.ucla.edu/epi/snow.html"
+        },
+        {
+          "title": "1854 Broad Street cholera outbreak",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/1854_Broad_Street_cholera_outbreak",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1862 Duel That Rendered Wooden Navies Obsolete Overnight",
+      "body": "On March 8, 1862, the Confederate ironclad CSS Virginia decimated wooden Union warships, surviving heavy cannon fire unharmed. The following day, the Union's innovative turreted ironclad, USS Monitor, arrived to challenge her. For four hours, the armored giants battered each other at point-blank range, neither able to pierce the other's armor. Though tactically inconclusive, the battle instantly made every wooden battle fleet in the world obsolete.",
+      "imageWikipediaTitle": "Battle of Hampton Roads",
+      "sources": [
+        {
+          "title": "Battle of Hampton Roads",
+          "publisher": "Naval History and Heritage Command",
+          "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/civil-war/hampton-roads.html"
+        },
+        {
+          "title": "Battle of Hampton Roads",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Battle_of_Hampton_Roads",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What resource motivated an 1856 US federal law permitting citizens to claim unclaimed oceanic islands?",
+      "options": [
+        "Guano (bird droppings)",
+        "Gold deposits",
+        "Whale oil caches",
+        "Natural rubber"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Guano Islands Act of 1856 allowed Americans to claim uninhabited islands to secure bird droppings, an essential nitrogen-rich fertilizer."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What prevented a nuclear catastrophe when a B-52 bomber broke apart over North Carolina in 1961?",
+      "options": [
+        "A single low-voltage safety switch",
+        "The bomb sank harmlessly in deep marshland",
+        "The nuclear core failed to achieve critical mass",
+        "The bomb's parachutes failed to deploy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Five of the bomb's six arming mechanisms engaged upon descent; only a single low-voltage switch stopped the thermonuclear warhead from detonating."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did geologist Clarence King expose the Great Diamond Hoax of 1872?",
+      "options": [
+        "He noticed rubies and cut diamonds unnaturally clustered in anthills",
+        "He discovered the diamonds were cheap polished quartz crystals",
+        "He caught the swindlers burying gemstones on camera",
+        "He uncovered fraudulent banking receipts in San Francisco"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clarence King inspected the site and spotted cut diamonds and rubies planted together in ant mounds, proving the deposit was staged."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did John Snow halt a deadly 1854 cholera outbreak in London?",
+      "options": [
+        "By persuading officials to remove a contaminated water pump handle",
+        "By enforcing a neighborhood quarantine on Soho",
+        "By fumigating the streets with chlorine gas",
+        "By distributing clean bottled milk to households"
+      ],
+      "correctIndex": 0,
+      "explanation": "By mapping cholera cases, Snow showed the infections centered on the Broad Street water pump, prompting officials to disable it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was the 1862 Battle of Hampton Roads a landmark turning point in naval history?",
+      "options": [
+        "It was the first combat duel between ironclad warships",
+        "It marked the first successful submarine attack",
+        "It featured the first naval aircraft carrier launch",
+        "It was the largest wooden fleet clash ever recorded"
+      ],
+      "correctIndex": 0,
+      "explanation": "The clash between USS Monitor and CSS Virginia proved that wooden warships were completely obsolete against armored ironclads."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Under the Guano Islands Act of 1856, approximately how many islands and atolls were claimed for the United States?",
+      "answer": 100,
+      "min": 5,
+      "max": 500,
+      "unit": "islands",
+      "explanation": "The US claimed nearly 100 islands and atolls worldwide under the law, including Johnston Atoll and Midway Atoll."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Before the mid-19th century, doctors widely believed cholera was spread by foul-smelling air rather than contaminated water.",
+      "answer": true,
+      "explanation": "Miasma theory dominated medical thought until John Snow demonstrated that contaminated water from the Broad Street pump caused the 1854 outbreak."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The historic 1862 clash between the ironclads USS Monitor and CSS Virginia ended with one ship sinking the other.",
+      "answer": false,
+      "explanation": "After four hours of intense point-blank firing, neither ironclad could penetrate the other's armor, ending the duel in a tactical draw."
+    }
+  ]
+}

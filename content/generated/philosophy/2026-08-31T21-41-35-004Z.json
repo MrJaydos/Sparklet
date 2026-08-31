@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.004Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why striving for moral perfection makes you a worse human",
+      "body": "In 1982, philosopher Susan Wolf pointed out a hidden flaw in traditional ethics: being morally perfect makes you terribly boring. A \"moral saint\" whose every waking moment serves others leaves no time to appreciate humor, master the piano, or enjoy good food. Wolf argued that a life devoted entirely to moral goodness lacks the rich, non-moral virtues that make human life meaningful and complete.",
+      "imageWikipediaTitle": "Susan Wolf",
+      "sources": [
+        {
+          "title": "Supererogation",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/supererogation/"
+        },
+        {
+          "title": "Susan Wolf",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Susan_Wolf"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/supererogation/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An apple is spherical in the physical world, but it isn't red",
+      "body": "In his 1689 essay on human understanding, John Locke divided the world into primary and secondary qualities. Primary qualities—like shape, mass, and motion—exist physically in the object itself. Secondary qualities—like color, sound, taste, and smell—do not exist in the world at all. An apple has a physical shape, but its red hue and crisp sweetness are neurological illusions created entirely within your mind.",
+      "imageWikipediaTitle": "John Locke",
+      "sources": [
+        {
+          "title": "Locke's Philosophy of Science",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/locke-philosophy-science/"
+        },
+        {
+          "title": "John Locke: Knowledge and its Limits",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/locke-kn/"
+        },
+        {
+          "title": "Primary/secondary quality distinction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Primary/secondary_quality_distinction"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/locke-philosophy-science/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "What if your red is another person's green?",
+      "body": "John Locke proposed a baffling possibility: two people could look at a ripe tomato and have completely inverted visual experiences. One sees what you call red; the other experiences the internal sensation you call green. Because both grew up calling that sensation \"red,\" they agree on stoplights, color charts, and paintings. No behavioral test or brain scan can definitively prove whether your private qualia match anyone else's.",
+      "imageWikipediaTitle": "Color wheel",
+      "sources": [
+        {
+          "title": "Inverted Qualia",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/qualia-inverted/"
+        },
+        {
+          "title": "Inverted spectrum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inverted_spectrum"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/qualia-inverted/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why publicly stating the obvious changes everything",
+      "body": "In epistemic logic, everyone knowing a fact is not the same as common knowledge. Imagine three children with muddy foreheads. Each sees the other two are muddy, but doesn't know their own status. When an adult announces, \"At least one of you has mud,\" they learn no new private facts. Yet making it public creates common knowledge—they now know that everyone knows—allowing them to deduce their own mud.",
+      "imageWikipediaTitle": "Common knowledge (logic)",
+      "sources": [
+        {
+          "title": "Common Knowledge",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/common-knowledge/"
+        },
+        {
+          "title": "Common knowledge (logic)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_knowledge_(logic)"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/common-knowledge/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ethical dilemma that pits absolute rules against millions of lives",
+      "body": "A captive knows the code to disarm a nuclear weapon set to detonate in one hour. May investigators torture them to save millions? This thought experiment exposes the sharp fracture between utilitarianism, which measures right and wrong solely by outcomes, and deontology, which views certain actions as inherently wrong regardless of consequences. Philosophers caution, however, that real-world interrogations rarely offer such artificial certainty.",
+      "imageWikipediaTitle": "Deontological ethics",
+      "sources": [
+        {
+          "title": "Torture",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/torture/"
+        },
+        {
+          "title": "Ticking time bomb scenario",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ticking_time_bomb_scenario"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/torture/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to philosopher Susan Wolf, what is the major drawback of being a \"moral saint\"?",
+      "options": [
+        "They inevitably burn out and break moral rules",
+        "They lack non-moral virtues like humor, artistic taste, and personal passions",
+        "They face extreme social ostracization from jealous peers",
+        "Their moral choices fail to maximize overall utilitarian happiness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wolf argued that devoting 100% of one's life to morality crowds out non-moral virtues that make human life rich and well-rounded."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Under John Locke's distinction, which of the following is a \"primary quality\" that exists in the physical object itself?",
+      "options": [
+        "Its sweet taste",
+        "Its geometric shape",
+        "Its vibrant red color",
+        "Its floral scent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Primary qualities like shape, size, and motion exist independently in physical objects, whereas color, taste, and scent exist only in the mind."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the \"inverted spectrum\" thought experiment demonstrate about subjective experience?",
+      "options": [
+        "Two people can function identically despite having different internal color experiences",
+        "Color blindness is impossible to diagnose with standard tests",
+        "Human vision cannot perceive primary colors under low light",
+        "Languages create completely distinct color palettes across cultures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Even if your internal perception of red is another person's green, both of you can use the word 'red' and navigate the world identically."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In logic, how does \"common knowledge\" differ from \"mutual knowledge\"?",
+      "options": [
+        "Common knowledge is publicly voted on by a majority",
+        "Common knowledge means everyone knows that everyone knows the information",
+        "Common knowledge is based on intuition rather than empirical evidence",
+        "Common knowledge cannot be forgotten once learned"
+      ],
+      "correctIndex": 1,
+      "explanation": "Common knowledge requires an infinite chain of awareness: everyone knows X, knows that everyone knows X, and so on."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which moral philosophy asserts that certain actions are fundamentally wrong even in a \"ticking time bomb\" crisis?",
+      "options": [
+        "Utilitarianism",
+        "Deontology",
+        "Hedonism",
+        "Consequentialism"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deontological ethics holds that moral duties and human rights are absolute and cannot be broken merely to produce better consequences."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Objects in the physical world possess inherent color and sweetness independently of observers.",
+      "answer": false,
+      "explanation": "John Locke showed that secondary qualities like color and sweetness exist only as neurological perceptions in the observer's mind, not in the physical objects themselves."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Announcing a fact that everyone already knows privately cannot change how rational people behave.",
+      "answer": false,
+      "explanation": "Public announcements transform private knowledge into common knowledge, letting individuals reason about what others know and unlocking new conclusions."
+    }
+  ]
+}

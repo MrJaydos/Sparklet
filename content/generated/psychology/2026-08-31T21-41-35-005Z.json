@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.005Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Try not to think of a white bear, and your brain will obsess over it",
+      "body": "When you actively try to suppress a thought, your brain deploys two competing mechanisms: an intentional search for distractions, and an automatic monitoring process that checks whether the forbidden thought has appeared. Because the monitor constantly looks for the banned topic, it inadvertently keeps the concept primed in memory. The moment your conscious focus wavers or encounters stress, the suppressed thought rebounds with full force.",
+      "imageWikipediaTitle": "Polar bear",
+      "sources": [
+        {
+          "title": "Thought suppression",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3181827/"
+        },
+        {
+          "title": "Ironic process theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ironic_process_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ironic_process_theory",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your memory secretly paints outside the edges of every picture",
+      "body": "Whenever you view a close-up photograph of a scene, your visual memory automatically expands the picture's borders. When asked to draw the scene or recognize it later, people consistently depict seeing more of the background than was ever shown. This cognitive glitch, known as boundary extension, occurs because the brain automatically anticipates the surrounding environment to construct a continuous, 3D mental map of the world.",
+      "imageWikipediaTitle": "Boundary extension",
+      "sources": [
+        {
+          "title": "Boundary extension: A review of an invariant memory bias",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4079541/"
+        },
+        {
+          "title": "Boundary extension",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boundary_extension"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Boundary_extension",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "As you grow older, your brain naturally tunes out bad news",
+      "body": "While young adults dwell heavily on negative stimuli, aging systematically shifts cognitive attention toward positive information. Neuroimaging reveals that older adults show reduced amygdala activation to distressing scenes, but robust responses to pleasant ones. This phenomenon, known as the positivity effect, helps older adults remember happier memories and experience greater emotional stability, driven by an unconscious shift to prioritize meaningful, mood-enhancing experiences in later life.",
+      "imageWikipediaTitle": "Old age",
+      "sources": [
+        {
+          "title": "The Positivity Effect in Aging: Evidence and Explanations",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3949005/"
+        },
+        {
+          "title": "Positivity effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Positivity_effect"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3949005/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Brief bursts of brainwaves during sleep lock in your daytime memories",
+      "body": "During stage 2 non-REM sleep, the brain fires rapid bursts of rhythmic electrical activity lasting roughly one to two seconds, called sleep spindles. Generated in the thalamus, these neural bursts act as a communication bridge between the hippocampus and the cerebral cortex. Spindles actively shield the sleeping brain from outside noise while physically transferring fragile new information into long-term cortical networks, solidifying what you learned throughout the day.",
+      "imageWikipediaTitle": "Electroencephalography",
+      "sources": [
+        {
+          "title": "Brain Basics: Understanding Sleep",
+          "publisher": "National Institute of Neurological Disorders and Stroke",
+          "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+        },
+        {
+          "title": "Sleep spindle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleep_spindle"
+        }
+      ],
+      "readMoreUrl": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Listening to Mozart won't make you or your baby any smarter",
+      "body": "The widespread belief that classical music boosts baby intelligence stems from a 1993 study on college students. Researchers found that listening to Mozart produced a tiny, temporary improvement in spatial reasoning that vanished after 15 minutes. Subsequent replication studies proved that music does not rewire cognitive ability; the brief boost was simply a side effect of mild mental arousal and elevated mood, which can also be triggered by a good cup of tea.",
+      "imageWikipediaTitle": "Wolfgang Amadeus Mozart",
+      "sources": [
+        {
+          "title": "The Mozart effect",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1281386/"
+        },
+        {
+          "title": "Mozart effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mozart_effect"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1281386/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does trying to suppress a forbidden thought often cause it to return more frequently?",
+      "options": [
+        "The brain's background monitor keeps checking for the thought, keeping it primed",
+        "Thought suppression permanently damages working memory capacity",
+        "The hippocampus mistakes forbidden thoughts for physical threats",
+        "Conscious willpower increases blood flow to the occipital lobe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ironic process theory shows that the subconscious monitoring process constantly looks for the forbidden thought, unintentionally keeping it active in memory."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What occurs when people recall a close-up photograph from visual memory?",
+      "options": [
+        "They remember seeing more background surrounding the subject than was actually in the frame",
+        "They invert the colors of the background scenery",
+        "They forget the primary subject and recall only peripheral objects",
+        "They perceive the original image in black and white"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boundary extension causes memory to extrapolate beyond the image borders, recalling unseen background details to build a continuous spatial scene."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does emotional processing typically change as healthy adults grow older?",
+      "options": [
+        "Attention and memory shift to prioritize positive information over negative stimuli",
+        "The amygdala becomes hypersensitive to threatening images",
+        "Negative memories are encoded with far greater detail than positive ones",
+        "Emotional stability sharply declines due to prefrontal degradation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The positivity effect in aging leads older adults to direct attention and memory toward positive experiences while reducing focus on negative stimuli."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What role do sleep spindles play during stage 2 non-REM sleep?",
+      "options": [
+        "They help transfer fragile short-term memories into long-term cortical storage",
+        "They trigger rapid eye movement and vivid narrative dreaming",
+        "They eliminate cerebrospinal fluid from the cerebral cortex",
+        "They temporarily shut down all thalamic activity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sleep spindles are rhythmic neural bursts that coordinate memory consolidation, moving information from the hippocampus to the neocortex."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the actual result of the original 1993 \"Mozart effect\" study?",
+      "options": [
+        "A temporary 10-to-15-minute boost in spatial reasoning among college students",
+        "A permanent increase in general IQ scores for infants",
+        "An enhancement in musical pitch discrimination in older adults",
+        "A long-term improvement in mathematical test performance for schoolchildren"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original study only showed a modest, short-lived improvement in spatial tasks among college students, lasting about 15 minutes due to temporary mood arousal."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many minutes did the temporary spatial reasoning boost last in the original 1993 Mozart effect experiment?",
+      "answer": 15,
+      "min": 1,
+      "max": 120,
+      "unit": "minutes",
+      "explanation": "The modest performance bump in spatial reasoning faded completely within 10 to 15 minutes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Actively trying not to think about an unpleasant thought is the most effective way to eliminate it from your mind.",
+      "answer": false,
+      "explanation": "Suppressing a thought actually keeps it primed in memory, causing it to rebound even more powerfully when conscious effort slips."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Playing classical music to infants permanently boosts their IQ.",
+      "answer": false,
+      "explanation": "Decades of replication studies found no permanent cognitive enhancement; the original study only showed a 15-minute spatial boost in adults."
+    }
+  ]
+}

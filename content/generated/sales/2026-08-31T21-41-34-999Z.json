@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-31T21:41:34.999Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Drop the dollar sign to reduce your buyer's pain of paying",
+      "body": "Showing prices with a currency symbol triggers neural pain centers associated with financial loss. In a Cornell University study, restaurant diners given menus showing bare numerals (like 20 instead of $20.00 or 'twenty dollars') spent over 8% more per table. Omitting currency signs shifts the buyer's focus from the sting of spending money to the perceived quality and value of what you offer.",
+      "imageWikipediaTitle": "Menu",
+      "sources": [
+        {
+          "title": "Fine Dining Restaurant Menu Design: The Impact of Format on Check Averages",
+          "publisher": "Cornell University",
+          "url": "https://scholarship.sha.cornell.edu/chrpubs/105/"
+        },
+        {
+          "title": "Menu engineering",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Menu_engineering"
+        }
+      ],
+      "readMoreUrl": "https://scholarship.sha.cornell.edu/chrpubs/105/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Presenting a physical product in person boosts willingness to pay",
+      "body": "If you can put a physical product directly in front of a buyer, do it. In experiments at Caltech, researchers found that consumers were willing to pay 40% to 60% more for items placed physically within their reach compared to seeing high-resolution photos or text descriptions of the exact same goods. Physical proximity activates appetitive brain systems, creating visceral desire that digital displays simply cannot match.",
+      "imageWikipediaTitle": "Product demonstration",
+      "sources": [
+        {
+          "title": "Paying for Appetitive Values: Physical Proximity and Decision Making",
+          "publisher": "Caltech Authors",
+          "url": "https://authors.library.caltech.edu/20427/"
+        },
+        {
+          "title": "Willingness to pay",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Willingness_to_pay"
+        }
+      ],
+      "readMoreUrl": "https://authors.library.caltech.edu/20427/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Shaking hands before a negotiation unlocks better deals for both sides",
+      "body": "Never skip the pre-meeting handshake. In negotiation studies led by Harvard Business School researchers, bargaining pairs who shook hands before negotiating reached higher joint outcomes and created more mutual value than pairs who did not. A simple handshake establishes a tacit norm of cooperation, reducing the fear that your counterpart is trying to exploit you and encouraging both parties to share honest information.",
+      "imageWikipediaTitle": "Handshake",
+      "sources": [
+        {
+          "title": "Why Handshakes Still Matter in Business",
+          "publisher": "Harvard Business School Working Knowledge",
+          "url": "https://hbswk.hbs.edu/item/why-handshakes-still-matter-in-business"
+        },
+        {
+          "title": "Handshake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Handshake"
+        }
+      ],
+      "readMoreUrl": "https://hbswk.hbs.edu/item/why-handshakes-still-matter-in-business",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask stubborn prospects 'how it works' to open their minds",
+      "body": "When a prospective client insists their existing vendor is unbeatable, arguing back triggers immediate defensiveness. Instead, ask them to explain the step-by-step mechanism of how their current setup handles a complex bottleneck. Cognitive scientists call this the illusion of explanatory depth: realizing they cannot explain the underlying process softens their dogmatism, naturally opening the door for you to present a clearer, superior alternative without conflict.",
+      "imageWikipediaTitle": "Explanation",
+      "sources": [
+        {
+          "title": "Political Extremism Is Supported by an Illusion of Understanding",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4043132/"
+        },
+        {
+          "title": "Illusion of explanatory depth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusion_of_explanatory_depth"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4043132/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Name specific individuals to prevent follow-up tasks from stalling",
+      "body": "When pitching a committee, assigning action items to the whole group often guarantees nobody takes ownership. In classic psychological experiments on diffusion of responsibility, group compliance dropped dramatically unless a single person was directly singled out. When wrapping up a multi-stakeholder sales pitch, never say 'Let the team review this.' Instead, assign each next step to a specific named individual to ensure accountability and keep the deal moving.",
+      "imageWikipediaTitle": "Meeting",
+      "sources": [
+        {
+          "title": "Bystander intervention in emergencies: Diffusion of responsibility",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/5661214/"
+        },
+        {
+          "title": "Diffusion of responsibility",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diffusion_of_responsibility"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/5661214/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Cornell University research, how does omitting currency symbols ($) from price tags affect customer spending?",
+      "options": [
+        "It decreases spending because customers feel confused",
+        "It increases spending by reducing the psychological pain of paying",
+        "It has zero measurable impact on check size",
+        "It increases return rates after purchase"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stripping currency symbols shifts customer focus away from the sensation of losing money, leading to higher spending."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did having a physical product present affect consumer willingness to pay in Caltech experiments?",
+      "options": [
+        "Willingness to pay dropped by 20%",
+        "It had no effect compared to high-resolution digital photos",
+        "Willingness to pay increased by 40% to 60%",
+        "Consumers preferred text descriptions over physical items"
+      ],
+      "correctIndex": 2,
+      "explanation": "Physical proximity activates appetitive brain systems, increasing willingness to pay by 40% to 60% compared to digital displays."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What psychological effect does an opening handshake have in a business negotiation?",
+      "options": [
+        "It signals submissiveness and invites lower offers",
+        "It establishes a cooperative norm that leads to higher joint deal value",
+        "It distracts counterparts from noticing unfavorable terms",
+        "It increases competitive aggressive bargaining"
+      ],
+      "correctIndex": 1,
+      "explanation": "Handshakes signal mutual cooperation, reducing fear of exploitation and helping negotiators discover win-win solutions."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does asking a client to explain step-by-step how their current setup works soften their resistance?",
+      "options": [
+        "It exposes their own gaps in understanding without direct confrontation",
+        "It tires them out so they agree out of fatigue",
+        "It makes them feel flattered by your interest",
+        "It proves your superior technical expertise immediately"
+      ],
+      "correctIndex": 0,
+      "explanation": "The illusion of explanatory depth shows that attempting a mechanistic explanation reveals hidden knowledge gaps, reducing dogmatic defense."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How should sales reps assign follow-up tasks to buying committees to avoid stalling?",
+      "options": [
+        "Send an open email to all attendees without specific names",
+        "Assign each task to an explicit, named individual",
+        "Wait for the committee to volunteer their own deadlines",
+        "Ask the most junior member to coordinate everything"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diffusion of responsibility causes group-wide requests to fail; naming a specific individual creates clear accountability."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what percentage did restaurant check totals increase when currency signs ($) were removed from menus in Cornell research?",
+      "answer": 8,
+      "min": 1,
+      "max": 40,
+      "unit": "%",
+      "explanation": "Removing the currency symbol increased diner spending by over 8% by reducing the psychological pain of paying."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "By about what percentage did willingness to pay increase when buyers saw physical goods in person versus on screen at Caltech?",
+      "answer": 50,
+      "min": 5,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Physical proximity increased willingness to pay by 40% to 60% relative to digital images or text descriptions."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Starting a negotiation with a handshake signals weakness and encourages counterparts to take advantage of you.",
+      "answer": false,
+      "explanation": "Harvard Business School research shows handshaking establishes mutual cooperation and increases total deal value without compromising strength."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Directly refuting a buyer's defense of their current vendor with counterarguments is the fastest way to change their mind.",
+      "answer": false,
+      "explanation": "Direct arguments trigger defensive pushback; asking prospects to explain how their system functions allows them to discover their own gaps."
+    }
+  ]
+}

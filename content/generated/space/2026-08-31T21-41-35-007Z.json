@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.007Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The brightest known object in the universe eats a Sun every day",
+      "body": "In 2024, astronomers confirmed that quasar J0529-4351 is the most luminous object ever observed. Powered by a supermassive black hole with the mass of 17 billion Suns, it devours the equivalent of one solar mass of gas and dust every single day. The friction within its swirling accretion disc makes it shine over 500 trillion times brighter than our Sun.",
+      "imageWikipediaTitle": "Quasar",
+      "sources": [
+        {
+          "title": "Fastest-Growing Black Hole Powered the Brightest Object in the Universe",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso2402/"
+        },
+        {
+          "title": "J0529-4351",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/J0529-4351"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso2402/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn's sponge-like moon tumbles chaotically through space",
+      "body": "Unlike almost every other major moon in the solar system, Saturn's moon Hyperion does not have a fixed rotation period or a stable axis. Because of its irregular potato shape, eccentric orbit, and gravitational tugs from massive nearby Titan, Hyperion tumbles unpredictably through space. Its low density means it is deeply porous, giving it the appearance of a giant cosmic sponge.",
+      "imageWikipediaTitle": "Hyperion (moon)",
+      "sources": [
+        {
+          "title": "Hyperion Overview",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/saturn/moons/hyperion/"
+        },
+        {
+          "title": "Hyperion (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hyperion_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/moons/hyperion/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Apollo 11 astronauts were quarantined for three weeks after landing",
+      "body": "When Apollo 11 splashed down in 1969, Neil Armstrong, Buzz Aldrin, and Michael Collins were not greeted with immediate handshakes. Fearing hypothetical lunar microorganisms, NASA rushed the crew into sealed bio-isolation suits and confined them inside a modified airstream trailer. The astronauts spent 21 days in quarantine before scientists were confident the Moon harbored no dangerous alien pathogens.",
+      "imageWikipediaTitle": "Mobile Quarantine Facility",
+      "sources": [
+        {
+          "title": "50 Years Ago: Apollo 11 in Quarantine",
+          "publisher": "NASA History",
+          "url": "https://www.nasa.gov/history/50-years-ago-apollo-11-in-quarantine/"
+        },
+        {
+          "title": "Mobile Quarantine Facility",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mobile_Quarantine_Facility"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/history/50-years-ago-apollo-11-in-quarantine/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mysterious deceleration of NASA probes was caused by their own heat",
+      "body": "For decades, scientists were baffled by the Pioneer anomaly: both Pioneer 10 and Pioneer 11 probes were decelerating slightly more than expected as they flew into deep space. Some theorists suspected modified gravity. In 2012, researchers finally solved the mystery. Heat radiating asymmetrically from the spacecraft's electrical systems and plutonium generators was subtly pushing backward against the probe.",
+      "imageWikipediaTitle": "Pioneer 10",
+      "sources": [
+        {
+          "title": "Pioneer Anomaly Solved by NASA JPL Researchers",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/pioneer-anomaly-solved"
+        },
+        {
+          "title": "Pioneer anomaly",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pioneer_anomaly"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/pioneer-anomaly-solved",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A giant cosmic nebula so bright it would cast shadows on Earth",
+      "body": "Located 160,000 light-years away in the Large Magellanic Cloud, the Tarantula Nebula is the most luminous star-forming region in our galactic neighborhood. If this stellar nursery were as close to Earth as the famous Orion Nebula—about 1,300 light-years away—it would cover roughly 30 degrees of the night sky, sixty times the width of the full Moon, and shine brightly enough to cast visible shadows.",
+      "imageWikipediaTitle": "Tarantula Nebula",
+      "sources": [
+        {
+          "title": "Panoramic View of the Tarantula Nebula",
+          "publisher": "European Space Agency",
+          "url": "https://esahubble.org/images/heic1206a/"
+        },
+        {
+          "title": "Tarantula Nebula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tarantula_Nebula"
+        }
+      ],
+      "readMoreUrl": "https://esahubble.org/images/heic1206a/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What powers the record-shattering luminosity of quasar J0529-4351?",
+      "options": [
+        "A supermassive black hole consuming roughly one Sun's worth of matter every day",
+        "The head-on collision of two entire spiral galaxies",
+        "Billions of simultaneous supernova explosions in a dense star cluster",
+        "A hypergiant star that is over a trillion times larger than our Sun"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quasar J0529-4351 is powered by a supermassive black hole accreting one solar mass of gas and dust per day, making its accretion disk 500 trillion times brighter than the Sun."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does Saturn's moon Hyperion tumble unpredictably in space rather than spinning steadily?",
+      "options": [
+        "Its irregular shape, eccentric orbit, and gravitational interactions with Titan",
+        "Continuous jet propulsion from subsurface geysers of liquid methane",
+        "A shattered interior caused by a recent collision with a large comet",
+        "Intense magnetic drag produced by Saturn's outermost ring system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hyperion's non-spherical shape, eccentric orbit, and tidal resonance with the nearby massive moon Titan combine to make its rotation chaotic and unpredictable."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why were the Apollo 11 astronauts placed in strict isolation for 21 days after returning from the Moon?",
+      "options": [
+        "To ensure they had not brought back harmful extraterrestrial pathogens",
+        "To protect their weakened immune systems from common Earth viruses",
+        "To readapt their circadian rhythms to Earth's 24-hour day-night cycle",
+        "To monitor radiation sickness caused by cosmic rays during the voyage"
+      ],
+      "correctIndex": 0,
+      "explanation": "NASA established a strict planetary protection protocol to quarantine returning Apollo astronauts until scientists confirmed lunar soil carried no dangerous microorganisms."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What actually caused the decades-long mystery of the Pioneer anomaly?",
+      "options": [
+        "Thermal radiation emitted asymmetrically by the spacecraft's own generators",
+        "Gravitational pull from an undetected dwarf planet beyond Pluto",
+        "Drag caused by unexpectedly dense clouds of interstellar hydrogen",
+        "A breakdown in Einstein's theory of general relativity at extreme distances"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2012, researchers proved that waste heat from onboard electronics and radioisotope thermoelectric generators bounced off the back of the spacecraft, producing a tiny backward thrust."
+    },
+    {
+      "cardIndex": 4,
+      "question": "If the Tarantula Nebula were located at the distance of the Orion Nebula, how would it appear from Earth?",
+      "options": [
+        "It would cover 60 full Moons across the sky and cast visible night shadows",
+        "It would appear as a tiny pinpoint of light only visible through large telescopes",
+        "It would strip away Earth's upper atmosphere with intense ultraviolet bursts",
+        "It would appear identical in size to the Sun but glow deep emerald green"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because of its immense size and star-forming activity, moving the Tarantula Nebula to Orion's distance would make it span 30 degrees across the sky and cast visible shadows on Earth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many trillions of times brighter than our Sun is quasar J0529-4351, the most luminous object known?",
+      "answer": 500,
+      "min": 10,
+      "max": 2000,
+      "unit": "trillion",
+      "explanation": "Quasar J0529-4351 shines over 500 trillion times brighter than the Sun thanks to its black hole accreting one Sun's worth of mass daily."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many total days were the Apollo 11 crew kept in quarantine following their lunar mission?",
+      "answer": 21,
+      "min": 3,
+      "max": 60,
+      "unit": "days",
+      "explanation": "The Apollo 11 astronauts spent 21 days in quarantine between entering the Mobile Quarantine Facility and their final biological clearance."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Apollo 11 astronauts immediately celebrated with public victory parades as soon as their capsule splashed down.",
+      "answer": false,
+      "explanation": "NASA immediately moved the astronauts into a Mobile Quarantine Facility for 21 days to prevent potential contamination from hypothetical lunar pathogens."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The unexplained deceleration of the Pioneer probes proved that our standard models of gravity were wrong.",
+      "answer": false,
+      "explanation": "The Pioneer anomaly was fully explained in 2012 by the recoil force of thermal radiation escaping unevenly from the probes' own power sources."
+    }
+  ]
+}

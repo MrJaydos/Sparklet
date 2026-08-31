@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.002Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A C programmer bent the language to unroll loops inside a switch statement",
+      "body": "In 1983, Lucasfilm programmer Tom Duff needed to speed up graphics rendering in C. He discovered that C's syntax allows case labels to sit directly inside an inner do-while loop. Known as Duff's Device, this valid construct jumps directly into the loop to handle initial leftover iterations before running unrolled batches of eight. It astonished compiler designers and remains one of C's most famous syntactical quirks.",
+      "imageWikipediaTitle": "C (programming language)",
+      "sources": [
+        {
+          "title": "Duff's Device",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duff's_device"
+        },
+        {
+          "title": "Duff's Device",
+          "publisher": "Lysator",
+          "url": "https://www.lysator.liu.se/c/duffs-device.html"
+        }
+      ],
+      "readMoreUrl": "https://www.lysator.liu.se/c/duffs-device.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1950s hacker timed his code to the physical spin of magnetic drum memory",
+      "body": "In the late 1950s, programmer Mel Kaye wrote an unbeatable blackjack game for the Royal McBee LGP-30 computer in raw machine code without an assembler. To maximize speed, Mel calculated the exact physical rotation speed of the computer's magnetic drum memory. He spaced each instruction on the drum so the read head reached the next instruction right as the previous one finished, achieving zero execution delay without hardware buffers.",
+      "imageWikipediaTitle": "LGP-30",
+      "sources": [
+        {
+          "title": "The Story of Mel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Story_of_Mel"
+        },
+        {
+          "title": "The Story of Mel, a Real Programmer",
+          "publisher": "Catb.org",
+          "url": "http://www.catb.org/jargon/html/story-of-mel.html"
+        }
+      ],
+      "readMoreUrl": "http://www.catb.org/jargon/html/story-of-mel.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In 1984, programmers invented a digital arena where rogue code fought to the death",
+      "body": "In 1984, computer scientists D. G. Jones and A. K. Dewdney unveiled Core War, an arena game where programs written in an assembly language called Redcode battle inside shared virtual memory. Programs attack rival processes by overwriting their memory instructions with fatal errors. The simplest warrior program, called Imp, consisted of a single instruction—MOV 0, 1—which continuously copied itself forward through memory, steamrolling everything in its path.",
+      "imageWikipediaTitle": "Core War",
+      "sources": [
+        {
+          "title": "Core War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Core_War"
+        },
+        {
+          "title": "Core War: The Ultimate Programming Game",
+          "publisher": "Core War Information",
+          "url": "http://www.corewar.info/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Core_War",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single oversized network ping could crash computers across the internet in 1996",
+      "body": "In 1996, security researchers exposed the Ping of Death. The internet protocol IPv4 specifies a maximum packet size of 65,535 bytes. Attackers exploited IP packet fragmentation by splitting an oversized payload across multiple packets. When the receiving operating system reassembled the fragments, the total size exceeded 65,535 bytes, triggering an unchecked buffer overflow that instantly crashed Windows, Mac, and Unix machines across the globe before vendors patched the flaw.",
+      "imageWikipediaTitle": "Internet Protocol",
+      "sources": [
+        {
+          "title": "Ping of death",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ping_of_death"
+        },
+        {
+          "title": "The Ping o' Death",
+          "publisher": "Insecure.org",
+          "url": "https://insecure.org/sploits/ping-o-death.html"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ping_of_death",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Software engineers fix impossible bugs by explaining them to yellow rubber ducks",
+      "body": "In their 1999 book The Pragmatic Programmer, Andrew Hunt and David Thomas introduced rubber duck debugging. The technique requires a programmer to explain their code line by line to an inanimate rubber duck sitting on their desk. By forcing the brain to articulate every assumption in spoken language rather than silent thought, engineers routinely spot logic errors and faulty premises without interrupting colleagues or waiting for external code reviews.",
+      "imageWikipediaTitle": "Rubber duck debugging",
+      "sources": [
+        {
+          "title": "Rubber duck debugging",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rubber_duck_debugging"
+        },
+        {
+          "title": "Rubber Duck Debugging",
+          "publisher": "Rubber Duck Debugging",
+          "url": "https://rubberduckdebugging.com/"
+        }
+      ],
+      "readMoreUrl": "https://rubberduckdebugging.com/",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What unique C language feature makes Duff's Device syntactically valid?",
+      "options": [
+        "Case labels placed inside an inner loop body",
+        "Recursive macro expansion within structs",
+        "Dynamic pointer reallocation during compile time",
+        "Direct inline assembly interrupt routines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Duff's Device exploits C's switch syntax, which permits case labels to jump directly into the body of an inner do-while loop."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did 1950s programmer Mel Kaye optimize his code for the LGP-30 computer?",
+      "options": [
+        "By timing instructions to the physical rotation of magnetic drum memory",
+        "By overclocking the vacuum-tube clock generator",
+        "By writing the first optimizing C compiler",
+        "By storing machine instructions on punched cards in reverse"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mel positioned instructions on the magnetic drum so the next command arrived under the read head immediately after the prior one finished."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the goal of competing programs in the 1984 programming game Core War?",
+      "options": [
+        "To overwrite rival programs in shared memory until they crash",
+        "To calculate mathematical primes faster than opponents",
+        "To route simulated network packets across firewalls",
+        "To decrypt encrypted passwords in memory"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Core War, battle programs written in Redcode compete in shared memory to terminate opposing programs by overwriting their instructions."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What caused the 1996 'Ping of Death' exploit to crash receiving computers?",
+      "options": [
+        "Reassembling fragmented packets that exceeded the 65,535-byte IPv4 limit",
+        "Flooding network cards with billions of empty packets per second",
+        "Injecting executable malware into unencrypted DNS queries",
+        "Triggering infinite CPU loops with unclosed TCP handshakes"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Ping of Death sent fragmented IP packets that reassembled into a payload exceeding 65,535 bytes, triggering a fatal buffer overflow."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is rubber duck debugging effective according to software engineering lore?",
+      "options": [
+        "Speaking code aloud forces you to articulate and question hidden assumptions",
+        "Rubber absorbs electromagnetic interference from computer hardware",
+        "It provides an automated test runner interface",
+        "Ducks were the original mascot of the Unix operating system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Verbalizing the purpose of each line of code forces the programmer to slow down and notice discrepancies between intent and reality."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What is the maximum allowed size (in bytes) of an IPv4 packet that attackers exceeded in the 1996 Ping of Death exploit?",
+      "answer": 65535,
+      "min": 1000,
+      "max": 200000,
+      "unit": "bytes",
+      "explanation": "An IPv4 packet's length field is 16 bits, defining a strict maximum size of 65,535 bytes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In standard C programming, switch statement case labels can only appear directly at the top level of the switch block.",
+      "answer": false,
+      "explanation": "Duff's Device proved that C allows case labels to appear inside nested sub-blocks, such as within a do-while loop."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Rubber duck debugging requires specialized software plugins to simulate talking to an artificial reviewer.",
+      "answer": false,
+      "explanation": "Rubber duck debugging is simply the physical practice of explaining code out loud to an inanimate object like a rubber duck."
+    }
+  ]
+}

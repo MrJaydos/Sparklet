@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.008Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The red liquid in meat packaging is not actually blood",
+      "body": "When you open a package of raw red meat, the reddish pool at the bottom is not blood. Nearly all blood is drained during livestock processing. Instead, the fluid is mostly water mixed with myoglobin, an iron-rich protein that stores oxygen inside muscle cells. When myoglobin is exposed to air, its iron oxidizes, giving both the muscle tissue and surrounding moisture their signature bright red color.",
+      "imageWikipediaTitle": "Myoglobin",
+      "sources": [
+        {
+          "title": "Color of Meat and Poultry",
+          "publisher": "Food Safety and Inspection Service",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/color-meat-and-poultry"
+        },
+        {
+          "title": "Myoglobin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myoglobin"
+        }
+      ],
+      "readMoreUrl": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/color-meat-and-poultry",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles require energy to relax, not just to contract",
+      "body": "Muscle contraction feels like active work, but resetting a muscle requires cellular fuel too. To unbind contracted muscle fibers, cells need adenosine triphosphate (ATP) to detach myosin heads from actin filaments. When the body stops producing ATP after death, these cross-bridges remain locked permanently in place. This cellular fuel depletion is the exact biological mechanism behind rigor mortis, causing muscles to stiffen completely.",
+      "imageWikipediaTitle": "Rigor mortis",
+      "sources": [
+        {
+          "title": "Physiology, Rigor Mortis",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK549867/"
+        },
+        {
+          "title": "Rigor mortis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rigor_mortis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK549867/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pineapple tingles on your tongue because it is digesting you",
+      "body": "That stinging, prickly sensation when eating raw pineapple is caused by bromelain, a potent mixture of protein-digesting enzymes. When chewed, bromelain starts breaking down the protective mucosal proteins coating your tongue and the roof of your mouth. Fortunately, your mouth cells regenerate rapidly, and your stomach acid quickly deactivates the enzymes as soon as you swallow.",
+      "imageWikipediaTitle": "Bromelain",
+      "sources": [
+        {
+          "title": "Bromelain",
+          "publisher": "National Center for Complementative and Integrative Health",
+          "url": "https://www.nccih.nih.gov/health/bromelain"
+        },
+        {
+          "title": "Bromelain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bromelain"
+        }
+      ],
+      "readMoreUrl": "https://www.nccih.nih.gov/health/bromelain",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Microscopic eight-legged mites live inside your facial pores",
+      "body": "Almost every adult human hosts thousands of microscopic Demodex mites inside their hair follicles and oil glands, especially around the nose, cheeks, and eyelashes. Measuring about 0.3 millimeters long, these harmless arachnids feed on dead skin cells and sebum. Because they lack an anus, they store metabolic waste inside their bodies throughout their two-week lifespan until they die.",
+      "imageWikipediaTitle": "Demodex folliculorum",
+      "sources": [
+        {
+          "title": "Demodex Infestation",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK568772/"
+        },
+        {
+          "title": "Demodex folliculorum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Demodex_folliculorum"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK568772/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Onions make you cry by synthesizing a volatile gas when sliced",
+      "body": "Chopping an onion breaks its cell walls, mixing previously separated enzymes with amino acid sulfoxides. This reaction produces syn-propanethial-S-oxide, a volatile sulfur-containing compound that vaporizes into the air. When this gas reaches your eyes, it reacts with the aqueous layer of the cornea to stimulate sensory nerve endings. Your brain responds by triggering the lacrimal glands to produce tears and wash the irritant away.",
+      "imageWikipediaTitle": "Syn-propanethial-S-oxide",
+      "sources": [
+        {
+          "title": "Why does chopping an onion make you cry?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/"
+        },
+        {
+          "title": "Syn-propanethial-S-oxide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Syn-propanethial-S-oxide"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the red liquid commonly found pooling in packages of raw red meat?",
+      "options": [
+        "Residual blood plasma",
+        "Water mixed with the oxygen-storing protein myoglobin",
+        "Hemoglobin drained from bone marrow",
+        "Artificial red dye added during packaging"
+      ],
+      "correctIndex": 1,
+      "explanation": "The liquid is mostly water and myoglobin, an oxygen-binding protein in muscle tissue that turns bright red when exposed to air."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do muscles stiffen during rigor mortis after death?",
+      "options": [
+        "Nerves fire continuous contraction signals",
+        "Calcium completely evaporates from muscle cells",
+        "Cells run out of ATP needed to release contracted muscle fibers",
+        "Lactic acid crystallizes inside the muscle tissue"
+      ],
+      "correctIndex": 2,
+      "explanation": "ATP is required to detach myosin heads from actin filaments; without ongoing ATP production, muscle fibers remain locked in place."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What causes the prickly stinging sensation on your tongue when eating fresh pineapple?",
+      "options": [
+        "High citric acid concentration eroding enamel",
+        "Bromelain enzymes breaking down oral mucosal proteins",
+        "Microscopic needle-shaped crystals stabbing taste buds",
+        "A mild allergic histamine reaction in the mouth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bromelain is a group of proteolytic enzymes in pineapple that actively digests the protective mucosal proteins in your mouth."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What do the microscopic Demodex mites living in human facial pores primarily feed on?",
+      "options": [
+        "Red blood cells in capillaries",
+        "Dead skin cells and sebum oil",
+        "Airborne bacteria on the skin surface",
+        "Keratin fibers in the hair shaft"
+      ],
+      "correctIndex": 1,
+      "explanation": "Demodex mites inhabit hair follicles and sebaceous glands, consuming dead skin cells and oily sebum secreted by the skin."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which chemical compound is produced when slicing onions that triggers your tear glands?",
+      "options": [
+        "Syn-propanethial-S-oxide",
+        "Hydrogen cyanide",
+        "Capsaicin vapor",
+        "Acetic acid gas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cutting onions releases enzymes that synthesize volatile syn-propanethial-S-oxide gas, which irritates corneal nerves."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "About how long is an adult Demodex mite living in human facial follicles, in millimeters?",
+      "answer": 0.3,
+      "min": 0.05,
+      "max": 2,
+      "unit": "mm",
+      "explanation": "Demodex mites measure around 0.3 millimeters in length, making them invisible without a microscope."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The red juice pooling in packages of raw steak is blood.",
+      "answer": false,
+      "explanation": "Virtually all blood is drained during processing; the red juice is water mixed with the muscle protein myoglobin."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Muscles require cellular energy (ATP) to relax after contracting.",
+      "answer": true,
+      "explanation": "ATP is required to detach myosin from actin; when ATP depletes after death, muscles lock up in rigor mortis."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The stinging sensation from raw pineapple is caused by its acid content.",
+      "answer": false,
+      "explanation": "The tingle is primarily caused by bromelain, an enzyme mixture that actively breaks down proteins on your tongue."
+    }
+  ]
+}

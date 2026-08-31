@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.001Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Ancient Greeks Drank Wine with Amethyst Crystals",
+      "body": "The word \"amethyst\" comes from the ancient Greek ἀμέθυστος (*amethystos*), meaning \"not intoxicated,\" combining *a-* (\"not\") and *methyein* (\"to be drunk\"). Ancient Greeks and Romans believed the purple gemstone could ward off drunkenness. Wine drinkers wore amethyst rings, carved drinking cups from raw amethyst crystals, and even dropped stones into their wine goblets, trusting the gem’s violet hue would neutralize alcohol's effects.",
+      "imageWikipediaTitle": "Amethyst",
+      "sources": [
+        {
+          "title": "Amethyst",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/amethyst"
+        },
+        {
+          "title": "Amethyst - Word History",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/amethyst"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/amethyst",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Answering \"Good Morning\" with Light in Arabic",
+      "body": "In Arabic, morning greetings are an exchange of poetic blessings. You begin with صباح الخير (*ṣabāḥ al-khayr*, pronounced sah-BAH al-KHARE), which literally translates to \"morning of goodness.\" Rather than simply repeating the phrase, etiquette calls for an even brighter reply: صباح النور (*ṣabāḥ an-nūr*, pronounced sah-BAH an-NOOR), meaning \"morning of light.\" Speakers can also poetically reply with \"morning of roses\" or \"jasmine.\"",
+      "imageWikipediaTitle": "Arabic",
+      "sources": [
+        {
+          "title": "Useful Arabic phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/arabic.php"
+        },
+        {
+          "title": "Arabic language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Arabic-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Arabic-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Counting Pebbles Gave Us the Word \"Calculate\"",
+      "body": "Long before digital processors, ancient Roman accountants kept tally using small stones on counting boards. The Latin word for a small pebble or limestone rock is *calculus*, a diminutive of *calx* (limestone, which also gave us \"calcium\" and \"chalk\"). As pebbles shifted across abacus grids, computing became *calculare*. Over centuries, these humble counting stones evolved linguistically into our modern words for \"calculate,\" \"calculator,\" and advanced \"calculus.\"",
+      "imageWikipediaTitle": "Abacus",
+      "sources": [
+        {
+          "title": "Calculate - Definition and Etymology",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/calculate"
+        },
+        {
+          "title": "Calculus",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/calculus-mathematics"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/calculus-mathematics",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saying Goodbye with a Smile in Turkish",
+      "body": "Turkish separates departures into distinct roles depending on who is leaving. If you are heading out, politeness requires saying *Hoşça kalın* (pronounced hosh-CHA kah-luhn), which means \"stay pleasantly.\" The host or person remaining behind then wishes you safe travels with *Güle güle* (pronounced goo-LEH goo-LEH), translating literally to \"go smilingly\" or \"with laughter.\" This cheerful farewell ensures departures end on a warm, uplifting note.",
+      "imageWikipediaTitle": "Turkish language",
+      "sources": [
+        {
+          "title": "Useful Turkish phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/turkish.php"
+        },
+        {
+          "title": "Turkish language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Turkish-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Turkish-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a Total Flop Is Called a \"Fiasco\"",
+      "body": "When an ambitious plan crashes in ruins, we call it a \"fiasco\"—the Italian word for an ordinary glass bottle or flask. In 19th-century Italian theater, an actor's performance that flopped was called *far fiasco* (\"to make a flask\"). Glassblowing lore suggests Venetian glassmakers who made a mistake while blowing fine crystal would salvage the ruined batch into a cheap, straw-wrapped wine flask, forever linking botched artistry to a simple bottle.",
+      "imageWikipediaTitle": "Fiasco (bottle)",
+      "sources": [
+        {
+          "title": "Fiasco - Word History",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/fiasco"
+        },
+        {
+          "title": "Definition of 'fiasco'",
+          "publisher": "Collins Dictionary",
+          "url": "https://www.collinsdictionary.com/dictionary/english/fiasco"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/fiasco",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did the ancient Greeks believe the gemstone amethyst could prevent?",
+      "options": [
+        "Intoxication and drunkenness",
+        "Seasickness and nausea",
+        "Lightning strikes in storms",
+        "Memory loss in old age"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amethyst comes from Greek amethystos, meaning 'not intoxicated', because the Greeks believed the purple gem neutralized alcohol."
+    },
+    {
+      "cardIndex": 1,
+      "question": "When greeted with صباح الخير (ṣabāḥ al-khayr, \"morning of goodness\") in Arabic, what is the traditional polite response?",
+      "options": [
+        "صباح النور (ṣabāḥ an-nūr, \"morning of light\")",
+        "مع السلامة (ma'a as-salama, \"with peace\")",
+        "شكرا جزيلا (shukran jazilan, \"thank you very much\")",
+        "أهلا وسهلا (ahlan wa sahlan, \"welcome\")"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Arabic etiquette, replying to a 'morning of goodness' with 'morning of light' offers an even brighter blessing in return."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did the Latin root word \"calculus\" originally mean?",
+      "options": [
+        "A small pebble used on counting boards",
+        "A wooden abacus frame",
+        "A notched tally stick",
+        "A mathematical rule"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calculus is the Latin word for a small pebble or limestone stone, which Romans moved across counting boards to do arithmetic."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Turkish etiquette, what does a person staying behind say to someone who is leaving?",
+      "options": [
+        "Güle güle (\"go smilingly\")",
+        "Hoşça kalın (\"stay pleasantly\")",
+        "Merhaba (\"hello\")",
+        "Afiyet olsun (\"bon appétit\")"
+      ],
+      "correctIndex": 0,
+      "explanation": "The person leaving says 'Hoşça kalın' (stay pleasantly), while the host replies 'Güle güle' (go smilingly)."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the Italian word \"fiasco\" literally mean?",
+      "options": [
+        "A glass bottle or flask",
+        "A broken theatrical mask",
+        "A burnt loaf of bread",
+        "A dropped curtain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fiasco is Italian for a bottle or flask; Italian theatrical slang 'far fiasco' (to make a flask) became a metaphor for a complete flop."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The ancient gemstone amethyst was named after a mythical Greek queen of wine.",
+      "answer": false,
+      "explanation": "Amethyst comes from the Greek 'amethystos' meaning 'not intoxicated' (a- 'not' + methyein 'to be drunk'), reflecting its supposed power against alcohol."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word \"fiasco\" originated as Italian slang for a theater failure, literally meaning a glass bottle.",
+      "answer": true,
+      "explanation": "In Italian, 'fiasco' means a flask or bottle; 'far fiasco' ('to make a bottle') was Italian theatrical slang for a botched, ruined performance."
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-08-31T21:41:35.006Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Spiritual Dervish Dance Hand-Tuned to Channel the Cosmos",
+      "body": "In the Mevlevi Sufi tradition founded in 13th-century Turkey, whirling dervishes spin counterclockwise around their central axis for meditation and prayer. During this ritual dance, known as the Sema, dancers turn their right palms toward the sky to receive spiritual blessing and extend their left palms toward the floor, symbolically transmitting divine energy down to Earth while losing awareness of their physical ego.",
+      "imageWikipediaTitle": "Sufi whirling",
+      "sources": [
+        {
+          "title": "Mevlevi Sema ceremony",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/mevlevi-sema-ceremony-00100"
+        },
+        {
+          "title": "Sufi whirling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sufi_whirling"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/mevlevi-sema-ceremony-00100",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Alpine Cattle Homecoming Celebrated with Giant Floral Crowns",
+      "body": "Every autumn across the Alps, herders lead thousands of dairy cattle down from high summer pastures in a celebration called the Almabtrieb. If the summer passed safely without disaster, the lead cow is crowned with an elaborate headdress of alpine flowers, ribbons, and mirrors designed to deflect evil spirits. Accompanied by loud brass cowbells, the procession turns agricultural return into a vibrant village festival.",
+      "imageWikipediaTitle": "Almabtrieb",
+      "sources": [
+        {
+          "title": "Almabtrieb: The Alpine Cattle Drive",
+          "publisher": "Austrian National Tourist Office",
+          "url": "https://www.austria.info/en/things-to-do/traditions/cattle-drive-autumn"
+        },
+        {
+          "title": "Almabtrieb",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Almabtrieb"
+        }
+      ],
+      "readMoreUrl": "https://www.austria.info/en/things-to-do/traditions/cattle-drive-autumn",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The High-Speed Equestrian Ballet Performed in Victorian Dresses",
+      "body": "In Mexico's national sport of charrería, the escaramuza charra is an all-female discipline where teams of eight riders execute high-speed, synchronized routines on horseback. Riding sidesaddle at a full gallop, the horsewomen cross paths within inches of one another. They perform these daring maneuvers while wearing traditional, flowing Adelita dresses with petticoats, honoring the revolutionary women who fought during the Mexican Revolution.",
+      "imageWikipediaTitle": "Escaramuza charra",
+      "sources": [
+        {
+          "title": "Charrería, equestrian tradition of Mexico",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/charreria-equestrian-tradition-of-mexico-01108"
+        },
+        {
+          "title": "Escaramuza charra",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Escaramuza_charra"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/charreria-equestrian-tradition-of-mexico-01108",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Cypriot Needlecraft Said to Have Captivated Leonardo da Vinci",
+      "body": "In the village of Lefkara, Cyprus, women have practiced Lefkaritika embroidery since at least the fourteenth century. Combining ancient Greek motifs with Venetian lace techniques, artisans meticulously pull and cut threads from Irish linen to weave intricate geometric patterns. Legend holds that Leonardo da Vinci visited in 1481 and purchased a Lefkara cloth to adorn the main altar of the Milan Cathedral.",
+      "imageWikipediaTitle": "Lefkara lace",
+      "sources": [
+        {
+          "title": "Lefkara laces or Lefkaritika",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/lefkara-laces-or-lefkaritika-00255"
+        },
+        {
+          "title": "Lefkara lace",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lefkara_lace"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/lefkara-laces-or-lefkaritika-00255",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sweeping Ancestral Houses Built to Face the Realm of Gods",
+      "body": "In South Sulawesi, Indonesia, Toraja families build Tongkonan—wooden ancestral houses crowned by massive, saddleback roofs that curve skyward at both ends like soaring boats or water buffalo horns. Every Tongkonan is strictly oriented facing north, the direction Torajan tradition associates with the realm of the creator god and the origin of life.",
+      "imageWikipediaTitle": "Tongkonan",
+      "sources": [
+        {
+          "title": "Toraja Settlement of Tana Toraja",
+          "publisher": "UNESCO",
+          "url": "https://whc.unesco.org/en/tentativelists/5481/"
+        },
+        {
+          "title": "Tongkonan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tongkonan"
+        }
+      ],
+      "readMoreUrl": "https://whc.unesco.org/en/tentativelists/5481/",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What do the hand positions of a whirling dervish represent during the Mevlevi Sema ceremony?",
+      "options": [
+        "Receiving divine grace from above and channeling it to the earth",
+        "Greeting spectators on both sides of the circular hall",
+        "Maintaining physical balance to prevent dizziness while spinning",
+        "Warding off malevolent spirits from entering the ritual space"
+      ],
+      "correctIndex": 0,
+      "explanation": "The right palm points upward toward the sky to receive blessing, while the left palm points down to transmit it to earth."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are lead cows in the Alpine Almabtrieb procession traditionally fitted with mirrors?",
+      "options": [
+        "To ward off evil spirits and bad luck",
+        "To help herders keep sight of cattle behind them",
+        "To reflect sunlight and prevent cows from overheating",
+        "To signify seniority over younger cows in the herd"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alpine tradition incorporates mirrors into the floral crowns to reflect and repel evil spirits during the trek downhill."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In what distinctive riding position do women in Escaramuza Charra execute their routines?",
+      "options": [
+        "Sidesaddle",
+        "Standing atop the saddle",
+        "Bareback without a saddle",
+        "Standard astride"
+      ],
+      "correctIndex": 0,
+      "explanation": "Escaramuza riders perform high-speed, synchronized maneuvers while riding sidesaddle in traditional Adelita dresses."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which Renaissance figure is traditionally said to have bought Lefkara lace for Milan Cathedral in 1481?",
+      "options": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Sandro Botticelli",
+        "Raphael"
+      ],
+      "correctIndex": 0,
+      "explanation": "Local tradition holds that Leonardo da Vinci visited Lefkara in 1481 and purchased lace for the Duomo di Milano's altar."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In which cardinal direction must traditional Torajan Tongkonan houses strictly face?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tongkonan houses must face north, which Torajan cosmology associates with Puang Matua, the creator god, and the source of life."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Whirling dervish spinning was originally created as a public dance performance for entertainment.",
+      "answer": false,
+      "explanation": "The Sema is a sacred Sufi worship ritual designed as an act of prayer, meditation, and spiritual union, not stage entertainment."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Mexican charrería is an exclusively male rodeo sport.",
+      "answer": false,
+      "explanation": "Escaramuza charra is the officially recognized, all-female competitive discipline of charrería, featuring synchronized horseback routines."
+    }
+  ]
+}
