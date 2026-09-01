@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-01T19:40:26.744Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ancient Egyptians had a surprisingly accurate pregnancy test using barley and wheat",
+      "body": "Around 3,500 years ago, Egyptian medical papyri instructed women to urinate on bags of barley and wheat grains. If the seeds sprouted, the woman was pregnant. In 1963, laboratory researchers tested this ancient method and found it accurately identified pregnancy about 70 percent of the time. The elevated levels of estrogen present in pregnant urine actively stimulate seed germination, making it humanity's first working hormonal pregnancy test.",
+      "imageWikipediaTitle": "Pregnancy test",
+      "sources": [
+        {
+          "title": "Pregnancy Test Timeline",
+          "publisher": "National Institutes of Health",
+          "url": "https://history.nih.gov/display/history/Pregnancy+Test+Timeline"
+        },
+        {
+          "title": "A pregnancy test in Ancient Egypt",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1034444/"
+        },
+        {
+          "title": "Pregnancy test",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pregnancy_test"
+        }
+      ],
+      "readMoreUrl": "https://history.nih.gov/display/history/Pregnancy+Test+Timeline",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cats are physically incapable of tasting anything sweet",
+      "body": "No matter how much your cat begs for a taste of ice cream, it cannot actually taste sweetness. All members of the felid family—including domestic cats, lions, tigers, and cheetahs—share a genetic deletion in the Tas1r2 gene, rendering their sweet taste buds completely non-functional. As strict obligate carnivores that evolved to eat only meat, cats never needed to detect carbohydrates, making them entirely indifferent to sweet flavors.",
+      "imageWikipediaTitle": "Cat",
+      "sources": [
+        {
+          "title": "Pseudogenization of a Sweet-Receptor Gene Accounts for Cats' Indifference towards Sugar",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183521/"
+        },
+        {
+          "title": "Cat senses",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cat_senses"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1183521/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Greenland sharks do not reach reproductive maturity until they are about 150 years old",
+      "body": "Greenland sharks are among the slowest-growing and longest-living vertebrates on Earth, capable of surviving for over 400 years in frigid Arctic waters. But their adolescence takes this longevity to an extreme: female Greenland sharks do not reach sexual maturity until they are roughly 150 years old. That means a shark born during the American Civil War would only recently have reached breeding age.",
+      "imageWikipediaTitle": "Greenland shark",
+      "sources": [
+        {
+          "title": "Greenland shark",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/greenland-shark.html"
+        },
+        {
+          "title": "Eye lens radiocarbon reveals longevity of the Greenland shark (Somniosus microcephalus)",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5121088/"
+        },
+        {
+          "title": "Greenland shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greenland_shark"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/greenland-shark.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single tick bite can make humans permanently allergic to red meat",
+      "body": "A bite from the lone star tick can trigger alpha-gal syndrome, a bizarre condition that makes people allergic to mammal meat. When the tick feeds, it introduces a carbohydrate molecule called alpha-gal into the victim's bloodstream. The human immune system develops antibodies against it. Because beef, pork, and lamb contain alpha-gal, eating red meat hours later triggers severe, potentially life-threatening allergic reactions.",
+      "imageWikipediaTitle": "Amblyomma americanum",
+      "sources": [
+        {
+          "title": "Alpha-gal Syndrome",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/ticks/alpha-gal/index.html"
+        },
+        {
+          "title": "Alpha-gal syndrome",
+          "publisher": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/diseases-conditions/alpha-gal-syndrome/symptoms-causes/syc-20428608"
+        },
+        {
+          "title": "Alpha-gal syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alpha-gal_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://www.mayoclinic.org/diseases-conditions/alpha-gal-syndrome/symptoms-causes/syc-20428608",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 'five-second rule' for dropped food is completely false",
+      "body": "The popular belief that food dropped on the floor remains safe if grabbed within five seconds is a dangerous myth. Scientific experiments show that bacteria transfer can happen in less than a millisecond upon impact. Moisture is the biggest driver: wet foods like watermelon pick up massive bacterial loads almost instantly, while dry foods pick up less. The floor's cleanliness matters far more than the countdown.",
+      "imageWikipediaTitle": "Five-second rule",
+      "sources": [
+        {
+          "title": "Longer Contact Times Increase Cross-Contamination of Enterobacter aerogenes from Surfaces to Food",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5070882/"
+        },
+        {
+          "title": "Five-second rule",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five-second_rule"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5070882/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the Ancient Egyptian grain-sprouting pregnancy test actually work?",
+      "options": [
+        "Elevated estrogen in pregnant urine stimulates seed germination",
+        "Human urine alters soil acidity to kill weed seeds",
+        "Pregnant urine contains unique microscopic fungal spores",
+        "Heat from the woman's body was stored in the grain bags"
+      ],
+      "correctIndex": 0,
+      "explanation": "Elevated levels of estrogen in pregnant urine promote seed sprouting, giving the ancient test around 70% accuracy."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which basic taste are all members of the cat family genetically incapable of detecting?",
+      "options": [
+        "Sweet",
+        "Bitter",
+        "Sour",
+        "Salty"
+      ],
+      "correctIndex": 0,
+      "explanation": "All felids possess a disabled Tas1r2 gene, leaving them completely unable to taste sweet flavors."
+    },
+    {
+      "cardIndex": 2,
+      "question": "At approximately what age do female Greenland sharks reach reproductive maturity?",
+      "options": [
+        "150 years old",
+        "25 years old",
+        "50 years old",
+        "5 years old"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to an extremely slow metabolism, female Greenland sharks do not reach sexual maturity until around 150 years of age."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What unusual food allergy can be triggered by a lone star tick bite?",
+      "options": [
+        "An allergy to red meat and mammalian dairy",
+        "An allergy to wheat gluten",
+        "An allergy to tree nuts",
+        "An allergy to raw shellfish"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lone star tick bites introduce alpha-gal molecules that sensitize the immune system against sugars found in mammalian meat."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to food safety research, what primarily determines how fast bacteria contaminate dropped food?",
+      "options": [
+        "Moisture level of the food and surface cleanliness",
+        "Whether the food stayed on the floor under five seconds",
+        "The ambient air temperature of the room",
+        "The height from which the food fell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bacterial transfer can occur in under a millisecond; wet foods pick up contamination almost instantaneously."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In modern laboratory tests of the Ancient Egyptian grain pregnancy test, what percentage of pregnancies did it accurately detect?",
+      "answer": 70,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Researchers in 1963 found the Egyptian grain test had a roughly 70% success rate because estrogen promotes sprouting."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "At approximately what age do female Greenland sharks reach sexual maturity?",
+      "answer": 150,
+      "min": 10,
+      "max": 300,
+      "unit": "years",
+      "explanation": "Greenland sharks grow less than a centimeter per year and only reach breeding age around 150 years old."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Ancient Egyptians used a urine test on grain seeds that could genuinely detect pregnancy.",
+      "answer": true,
+      "explanation": "Elevated estrogen in pregnant urine actively stimulates grain sprouting, making the test roughly 70% accurate."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Domestic cats enjoy the sweet taste of sugary treats like ice cream.",
+      "answer": false,
+      "explanation": "Cats lack functional sweet taste receptor genes; they are attracted to the fat and protein content, not sweetness."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Dropped food is safe from bacterial contamination as long as you pick it up within five seconds.",
+      "answer": false,
+      "explanation": "Bacterial transfer happens in less than a millisecond upon impact, especially on moist foods."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-01T19:40:26.743Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dracula ants snap their jaws at over 320 kilometers per hour",
+      "body": "The Dracula ant possesses the fastest animal movement ever recorded. By pressing its mandible tips together to build spring-loaded tension and then releasing them, the ant snaps its jaws shut at up to 90 meters per second—over 320 kilometers per hour. This strike takes just 15 microseconds, making it roughly 5,000 times faster than the blink of a human eye.",
+      "imageWikipediaTitle": "Mystrium camillae",
+      "sources": [
+        {
+          "title": "Snap-jaw morphology is specialized for high-speed power amplification in the Dracula ant",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6304135/"
+        },
+        {
+          "title": "Mystrium camillae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mystrium_camillae"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6304135/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Young planthopper insects have real mechanical gears on their legs",
+      "body": "Before reaching adulthood, juvenile planthopper insects rely on interlocking mechanical gear teeth to leap. Located on their hind leg joints, these curved gear strips intermesh perfectly to ensure both legs fire within 30 millionths of a second of each other. This microsecond synchronization prevents the nymph from spinning uncontrollably during high-speed escapes from predators.",
+      "imageWikipediaTitle": "Issus coleoptratus",
+      "sources": [
+        {
+          "title": "Functioning mechanical gears found in nature",
+          "publisher": "University of Cambridge",
+          "url": "https://www.cam.ac.uk/research/news/functioning-mechanical-gears-found-in-nature"
+        },
+        {
+          "title": "Issus coleoptratus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Issus_coleoptratus"
+        }
+      ],
+      "readMoreUrl": "https://www.cam.ac.uk/research/news/functioning-mechanical-gears-found-in-nature",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chocolate only exists thanks to tiny biting midges",
+      "body": "Honeybees cannot pollinate cacao trees because delicate cacao blossoms are far too small and intricate. Instead, global chocolate production relies almost entirely on tiny biting midges about the size of a pinhead. These minuscule flies thrive in moist leaf litter on the rainforest floor, crawling deep inside the flowers to transfer pollen and allow cocoa pods to develop.",
+      "imageWikipediaTitle": "Theobroma cacao",
+      "sources": [
+        {
+          "title": "Chocolate Midge (Forcipomyia)",
+          "publisher": "U.S. Forest Service",
+          "url": "https://www.fs.usda.gov/wildflowers/pollinators/pollinator-of-the-month/chocolate-midge.shtml"
+        },
+        {
+          "title": "Theobroma cacao",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theobroma_cacao"
+        }
+      ],
+      "readMoreUrl": "https://www.fs.usda.gov/wildflowers/pollinators/pollinator-of-the-month/chocolate-midge.shtml",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cuvier's beaked whales can hold their breath for nearly four hours",
+      "body": "The Cuvier's beaked whale holds the record for the deepest and longest dives of any mammal. While hunting squid in deep ocean trenches, these whales routinely plunge nearly 3,000 meters beneath the surface. In 2020, researchers tracked a single dive that lasted an astonishing 3 hours and 42 minutes, enabled by massive muscular oxygen stores and an exceptionally slow metabolic rate.",
+      "imageWikipediaTitle": "Cuvier's beaked whale",
+      "sources": [
+        {
+          "title": "Cuvier's Beaked Whale",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/cuviers-beaked-whale"
+        },
+        {
+          "title": "Extreme diving in a marine mammal",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7512195/"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/cuviers-beaked-whale",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male pufferfish spend days carving geometric sand art on the seabed",
+      "body": "In the waters off southern Japan, male white-spotted pufferfish create massive, symmetrical circular nests on the sandy sea floor. Measuring roughly two meters across—about twenty times the fish's own body length—the intricate ridges and valleys are sculpted entirely using fluttering fins. Female pufferfish inspect the craftsmanship closely before deciding whether to lay their eggs in the center.",
+      "imageWikipediaTitle": "Torquigener albomaculosus",
+      "sources": [
+        {
+          "title": "Role of Huge Geometric Circular Structures in the Reproduction of a Marine Pufferfish",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3698096/"
+        },
+        {
+          "title": "Torquigener albomaculosus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Torquigener_albomaculosus"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3698096/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does the Dracula ant press its mandibles together before snapping them shut?",
+      "options": [
+        "To build spring-loaded tension for explosive speed",
+        "To grind down excess venomous secretions",
+        "To communicate distress vibrations to the colony",
+        "To sharpen the mandible edges against each other"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dracula ants press their mandible tips together to load elastic energy, releasing it in a strike reaching 320 km/h."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What biological purpose do the mechanical gears in juvenile planthoppers serve?",
+      "options": [
+        "Synchronizing both hind legs during explosive jumps",
+        "Chewing tough plant fibers more efficiently",
+        "Generating mating calls by vibrating wing joints",
+        "Gripping onto slippery tree bark during high winds"
+      ],
+      "correctIndex": 0,
+      "explanation": "The interlocking gears ensure both hind legs fire within 30 microseconds, preventing dangerous uncontrolled spinning."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why are honeybees unable to effectively pollinate cacao flowers?",
+      "options": [
+        "The blossoms are too small and intricate for honeybees",
+        "Cacao nectar contains toxins lethal to bees",
+        "Cacao trees only bloom in complete darkness",
+        "The flowers emit chemicals that actively repel bees"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cacao flowers have tiny, complex structures that honeybees cannot enter, leaving pollination to tiny biting midges."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the longest recorded dive time for a Cuvier's beaked whale?",
+      "options": [
+        "3 hours 42 minutes",
+        "1 hour 15 minutes",
+        "48 minutes",
+        "5 hours 30 minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2020, researchers tracked a Cuvier's beaked whale dive lasting 3 hours and 42 minutes (222 minutes)."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the male white-spotted pufferfish construct its large geometric sand nests?",
+      "options": [
+        "By fluttering its fins against the sandy seabed",
+        "By carrying small pebbles in its mouth",
+        "By spitting high-pressure water jets",
+        "By anchoring floating seaweeds into circular walls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male pufferfish use their moving fins to dig grooves and sculpt symmetrical sand ridges spanning two meters."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What is the maximum recorded speed (in km/h) of a Dracula ant's snapping jaws?",
+      "answer": 320,
+      "min": 30,
+      "max": 600,
+      "unit": "km/h",
+      "explanation": "Dracula ants snap their mandibles at up to 90 meters per second (over 320 km/h), the fastest known animal movement."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many minutes was the longest recorded dive by a Cuvier's beaked whale?",
+      "answer": 222,
+      "min": 30,
+      "max": 400,
+      "unit": "min",
+      "explanation": "The record dive lasted 222 minutes (3 hours 42 minutes), plunging thousands of meters deep."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Interlocking mechanical gears are strictly human inventions with no counterpart in living animals.",
+      "answer": false,
+      "explanation": "Juvenile Issus planthopper insects possess functioning interlocking gear teeth on their hind legs to coordinate jumps."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Honeybees are the primary pollinators of cacao trees used to produce chocolate.",
+      "answer": false,
+      "explanation": "Honeybees are far too large for tiny cacao blossoms; pollination relies almost exclusively on pinhead-sized biting midges."
+    }
+  ]
+}
