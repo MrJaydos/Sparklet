@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.632Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask 'Are you helpful?' to triple prospect cooperation",
+      "body": "Before making an ask, try asking prospects if they consider themselves helpful. In a persuasion experiment by communication researchers, asking volunteers 'Do you consider yourself a helpful person?' before requesting their assistance caused compliance to jump from 29% to over 77%. When people publicly affirm an identity trait, they feel strong internal pressure to behave consistently with that label immediately afterward.",
+      "imageWikipediaTitle": "Altruism",
+      "sources": [
+        {
+          "title": "Pre-suasion and trait activation: The 'helpful' question",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6480749/"
+        },
+        {
+          "title": "Self-perception theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-perception_theory"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6480749/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Change three words to slash customer no-shows",
+      "body": "When restaurants ask 'Please call if you need to cancel,' no-show rates hover around 30%. Persuasion researcher Robert Cialdini advised replacing that passive instruction with a simple question: 'Will you please call if you have to cancel?' Pausing for the customer's affirmative 'yes' slashed no-shows to under 10%. Active verbal commitments turn a polite request into an internal promise that people feel compelled to keep.",
+      "imageWikipediaTitle": "Reservation_(commerce)",
+      "sources": [
+        {
+          "title": "Influence: Science and Practice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Influence:_Science_and_Practice"
+        },
+        {
+          "title": "Commitment and consistency",
+          "publisher": "APA PsycNet",
+          "url": "https://doi.apa.org"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Influence:_Science_and_Practice",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Making the first offer locks in your negotiation advantage",
+      "body": "Many negotiators wait for the other side to name a price first, fearing they might undersell. Research by Adam Galinsky and Thomas Mussweiler shows that making the first offer consistently predicts the final agreement. The opening number establishes a cognitive anchor that exerts an invisible gravitational pull on every counteroffer, giving the first mover a decisive structural advantage.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "First offers as anchors: The role of perspective-taking and power in negotiations",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11760897/"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/11760897/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why red backgrounds drive higher auction bids",
+      "body": "Visual atmosphere directly influences willingness to pay depending on the selling model. Research published in the Journal of Consumer Research found that red backgrounds stimulate aggression and competition, driving bidders to place significantly higher bids in auction formats. Conversely, in direct retail negotiations, blue backgrounds reduce aggression and foster cooperation, resulting in higher agreed purchase prices.",
+      "imageWikipediaTitle": "Color_psychology",
+      "sources": [
+        {
+          "title": "The Effect of Background Color on Willingness to Pay",
+          "publisher": "Journal of Consumer Research",
+          "url": "https://academic.oup.com/jcr/article/39/5/947/1812903"
+        },
+        {
+          "title": "Color psychology",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Color_psychology"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Color_psychology",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single mild swear word can amplify your pitch",
+      "body": "Strategic profanity can make persuasive appeals more effective. Psychologists testing communication found that adding a single mild swear word (like 'damn') to the beginning or end of a speech significantly boosted audience agreement and perceived speaker passion without harming speaker credibility. The mild swear acts as a spontaneous cue of authentic conviction.",
+      "imageWikipediaTitle": "Persuasion",
+      "sources": [
+        {
+          "title": "The obscenity of speaker passion: A study of profanity in persuasive speech",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16729519/"
+        },
+        {
+          "title": "Profanity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Profanity"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/16729519/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happened to compliance when experimenters first asked participants 'Do you consider yourself a helpful person?'",
+      "options": [
+        "It jumped from 29% to over 77%",
+        "It dropped due to suspicion",
+        "It remained completely unchanged",
+        "It increased by only 2%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Affirming an identity trait creates internal pressure to behave consistently with that label immediately afterward."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did changing 'Please call if you need to cancel' to 'Will you please call if you have to cancel?' affect no-show rates?",
+      "options": [
+        "No-shows dropped from ~30% to under 10%",
+        "No-shows increased slightly",
+        "Cancellations stopped entirely",
+        "It had zero measurable impact"
+      ],
+      "correctIndex": 0,
+      "explanation": "Getting an active verbal commitment turns a passive request into a personal promise that people feel compelled to honor."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to negotiation research by Galinsky and Mussweiler, who typically holds the advantage?",
+      "options": [
+        "The party who makes the first offer",
+        "The party who waits for the second offer",
+        "The party who makes the most concessions",
+        "Neither side has an advantage"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opening offers serve as powerful cognitive anchors that pull all subsequent counteroffers toward them."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which background color encourages higher bids in competitive auction environments?",
+      "options": [
+        "Red",
+        "Blue",
+        "Green",
+        "White"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red triggers arousal and aggression, which fuels competitive bidding against rival buyers."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does strategically placing a single mild swear word affect a speaker's message?",
+      "options": [
+        "It increases perceived passion and persuasiveness",
+        "It destroys credibility completely",
+        "It confuses the listeners",
+        "It triggers immediate rejection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mild profanity acts as an honest signal of intense personal conviction without diminishing credibility."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of people agreed to help after first answering 'yes' to 'Do you consider yourself a helpful person?'",
+      "answer": 77,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Compliance surged from a baseline of 29% to over 77% after people publicly identified as helpful."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What did restaurant no-show rates drop to when staff asked 'Will you please call if you have to cancel?' instead of 'Please call'?",
+      "answer": 10,
+      "min": 0,
+      "max": 50,
+      "unit": "%",
+      "explanation": "A simple question requiring a verbal 'yes' slashed restaurant no-show rates from 30% down to under 10%."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "In price negotiations, you should always wait for the other side to make the first offer.",
+      "answer": false,
+      "explanation": "Negotiation research shows that making the first offer creates a powerful anchor that skews final terms in your favor."
+    }
+  ]
+}

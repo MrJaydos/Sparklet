@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.631Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Trillions of ghost particles pass through your body every second",
+      "body": "Deep inside the Sun, nuclear fusion produces unfathomable quantities of neutrinos. These subatomic particles have nearly zero mass and carry no electric charge, meaning they almost never interact with normal matter. Approximately 100 trillion solar neutrinos stream through your body every single second, day and night, passing straight through you and the entire Earth without touching a single atom.",
+      "imageWikipediaTitle": "Neutrino",
+      "sources": [
+        {
+          "title": "What is a neutrino?",
+          "publisher": "IceCube Neutrino Observatory",
+          "url": "https://icecube.wisc.edu/science/neutrinos/"
+        },
+        {
+          "title": "Solar neutrino",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_neutrino"
+        }
+      ],
+      "readMoreUrl": "https://icecube.wisc.edu/science/neutrinos/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ancient Roman concrete can heal its own cracks",
+      "body": "Ancient Roman structures like the Pantheon have survived intact for over two millennia, even in harsh marine environments. Scientists discovered the secret: Romans hot-mixed quicklime into their mortar, creating tiny mineral inclusions called lime clasts. When cracks form and rainwater enters, it dissolves these calcium-rich deposits, which recrystallize into calcium carbonate. The concrete chemically heals its own fissures before catastrophic damage occurs.",
+      "imageWikipediaTitle": "Roman concrete",
+      "sources": [
+        {
+          "title": "Riddle solved: Why was Roman concrete so durable?",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/2023/roman-concrete-durability-lime-clasts-0106"
+        },
+        {
+          "title": "Roman concrete",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roman_concrete"
+        }
+      ],
+      "readMoreUrl": "https://news.mit.edu/2023/roman-concrete-durability-lime-clasts-0106",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Honey never spoils if kept sealed",
+      "body": "Sealed pots of edible honey thousands of years old have been excavated from ancient Egyptian tombs. Honey is biologically inhospitable to bacteria and microorganisms for three distinct chemical reasons: it contains very little water, has a naturally acidic pH around 3 to 4.5, and bees add an enzyme called glucose oxidase that continuously generates tiny amounts of antibacterial hydrogen peroxide.",
+      "imageWikipediaTitle": "Honey",
+      "sources": [
+        {
+          "title": "The Science Behind Honey’s Eternal Shelf Life",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/"
+        },
+        {
+          "title": "Honey",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honey"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The math-solving horse that taught science to double-blind",
+      "body": "In the early 1900s, a horse named Clever Hans amazed crowds by solving arithmetic problems, tapping out answers with his hoof. A systematic investigation revealed Hans could not actually do math; instead, he detected involuntary, microscopic changes in his human handler's posture and facial tension as the correct number approached. The discovery established the Clever Hans effect, proving that subconscious experimenter cues can bias research.",
+      "imageWikipediaTitle": "Clever Hans",
+      "sources": [
+        {
+          "title": "Clever Hans",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Clever-Hans"
+        },
+        {
+          "title": "Clever Hans",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clever_Hans"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Clever-Hans",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The moon with rivers and seas made of liquid natural gas",
+      "body": "Saturn's largest moon, Titan, is the only celestial body besides Earth known to possess stable surface liquids. However, surface temperatures hover around minus 179 degrees Celsius, making water as hard as solid granite. Instead, Titan features an active hydrologic cycle powered by hydrocarbons: liquid methane and ethane rain from clouds, carve sprawling river networks across the landscape, and fill polar seas hundreds of feet deep.",
+      "imageWikipediaTitle": "Titan (moon)",
+      "sources": [
+        {
+          "title": "Titan",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/saturn/moons/titan/"
+        },
+        {
+          "title": "Titan (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Titan_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/moons/titan/",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do trillions of solar neutrinos pass through human bodies without causing harm?",
+      "options": [
+        "They carry no charge and have almost zero mass",
+        "They travel faster than the speed of light",
+        "Human skin naturally reflects them",
+        "They convert into harmless photons on contact"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neutrinos rarely interact with matter because they have no electric charge and an exceptionally tiny mass."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What key chemical component allows ancient Roman concrete to heal its own cracks?",
+      "options": [
+        "Lime clasts that dissolve and recrystallize",
+        "Volcanic ash that releases natural resins",
+        "Crushed seashells that produce glue",
+        "Embedded copper filaments that expand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Calcium-rich lime clasts dissolve when water seeps into a crack, recrystallizing into calcium carbonate to seal the gap."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which antibacterial compound is produced in honey by bee enzymes?",
+      "options": [
+        "Hydrogen peroxide",
+        "Ethanol",
+        "Sulfuric acid",
+        "Hydrochloric acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bee enzyme glucose oxidase breaks down glucose to produce gluconic acid and antibacterial hydrogen peroxide."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How was the horse Clever Hans able to correctly answer math questions?",
+      "options": [
+        "By reading involuntary physical cues from observers",
+        "By memorizing rhythmic tapping patterns",
+        "By responding to high-frequency whistles",
+        "By actually understanding basic arithmetic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hans watched human observers for subconscious shifts in posture and tension that signaled when to stop tapping."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What liquid falls as rain and fills the lakes and seas on Saturn's moon Titan?",
+      "options": [
+        "Methane and ethane",
+        "Liquid nitrogen",
+        "Pure water",
+        "Sulfuric acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "At minus 179 °C, water acts like solid rock on Titan, while hydrocarbons like methane and ethane form clouds, rain, and seas."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many solar neutrinos pass through your body every single second?",
+      "answer": 100,
+      "min": 1,
+      "max": 1000,
+      "unit": "trillion",
+      "explanation": "Roughly 100 trillion solar neutrinos pass completely unnoticed through your body every single second."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What is the average surface temperature on Saturn's moon Titan?",
+      "answer": -179,
+      "min": -250,
+      "max": 0,
+      "unit": "°C",
+      "explanation": "At around -179 °C (-290 °F), water is frozen rock-solid, allowing liquid methane and ethane to form rivers and seas."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Ancient Roman concrete lasted millennia simply because it was packed more densely than modern concrete.",
+      "answer": false,
+      "explanation": "Its endurance comes from chemical self-healing: hot-mixed lime clasts dissolve in seeping water and recrystallize to fill cracks."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Pure, sealed honey can remain edible for thousands of years without spoiling.",
+      "answer": true,
+      "explanation": "Because of low moisture, high acidity, and natural hydrogen peroxide, bacteria cannot grow in sealed honey."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The horse Clever Hans was an intentional fraud orchestrated by a deceitful trainer.",
+      "answer": false,
+      "explanation": "Hans's trainer genuinely believed the horse could do math; Hans was unconsciously reacting to subtle human body language."
+    }
+  ]
+}

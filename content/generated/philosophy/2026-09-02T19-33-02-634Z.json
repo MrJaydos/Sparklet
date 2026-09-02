@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.634Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why fearing death makes no sense if you didn't fear not being born",
+      "body": "Roman philosopher Lucretius presented a famous challenge to the fear of death: the symmetry argument. Before you were born, an infinite abyss of time passed without your existence, yet you feel no dread or grief about those missing billions of years. Lucretius argued that the non-existence following death is identical to the non-existence preceding birth. If the past eternity causes you no suffering, fearing the future eternity is entirely irrational.",
+      "imageWikipediaTitle": "Lucretius",
+      "sources": [
+        {
+          "title": "Death",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/death/"
+        },
+        {
+          "title": "Lucretius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lucretius"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/death/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How personal greed and vanity secretly keep entire economies alive",
+      "body": "In 1714, philosopher Bernard Mandeville published The Fable of the Bees, introducing the paradox of \"private vices, public benefits.\" He argued that human vices like vanity, greed, and envy drive commerce, fashion, and employment. If everyone suddenly embraced pure virtue, living frugally and renouncing luxury, businesses would collapse, millions would lose their jobs, and society would crumble. Mandeville showed that a flourishing society paradoxically relies on imperfect human desires.",
+      "imageWikipediaTitle": "Bernard Mandeville",
+      "sources": [
+        {
+          "title": "Bernard Mandeville",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/mandeville/"
+        },
+        {
+          "title": "The Fable of the Bees",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Fable_of_the_Bees"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/mandeville/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The moral paradox of actions that are praiseworthy but never required",
+      "body": "If a soldier throws himself onto a live grenade to save his comrades, we praise him as a hero. Yet if he had chosen not to jump, we would not blame him as a murderer. Philosophers call these acts \"supererogatory\"—good to do, but not wrong to omit. This simple concept creates a major dilemma for strict utilitarianism, which demands always maximizing the greatest good, turning extraordinary heroism into a mandatory daily baseline.",
+      "imageWikipediaTitle": "Ethics",
+      "sources": [
+        {
+          "title": "Supererogation",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/supererogation/"
+        },
+        {
+          "title": "Supererogation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Supererogation"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/supererogation/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How math gives us new facts about reality without checking the world",
+      "body": "Philosophers long assumed statements were either purely definitional (analytic, like \"all bachelors are unmarried\") or learned from empirical observation (synthetic, like \"grass is green\"). Immanuel Kant overturned this division by proposing \"synthetic a priori\" knowledge. He argued that statements like \"7 + 5 = 12\" provide genuinely new, synthetic insights about reality, yet we know them with absolute, universal certainty without needing to conduct physical experiments or count rocks every time.",
+      "imageWikipediaTitle": "Immanuel Kant",
+      "sources": [
+        {
+          "title": "The Analytic/Synthetic Distinction",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/analytic-synthetic/"
+        },
+        {
+          "title": "Analytic–synthetic distinction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/analytic-synthetic/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why physics forces science to admit that abstract numbers are real",
+      "body": "Do mathematical numbers exist independently in reality, or are they mere human inventions? Philosophers Willard Van Orman Quine and Hilary Putnam formulated the indispensability argument: our best physical theories of the universe cannot even be stated without referencing mathematical entities like numbers and functions. Because we commit to believing our best science is true, we must logically accept that mathematical entities physically exist as well.",
+      "imageWikipediaTitle": "Willard Van Orman Quine",
+      "sources": [
+        {
+          "title": "Indispensability Arguments in the Philosophy of Mathematics",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/mathphil-indis/"
+        },
+        {
+          "title": "Indispensability argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indispensability_argument"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/mathphil-indis/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the core premise of Lucretius' symmetry argument regarding the fear of death?",
+      "options": [
+        "Non-existence after death is identical to non-existence before birth",
+        "Life and death balance each other out through cosmic reincarnation",
+        "The pain of dying is exactly mirrored by the pain of being born",
+        "Every living organism lives for a mathematically symmetric lifespan"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lucretius argued that if we feel no fear or sorrow about the eternity before our birth, it is irrational to fear the eternity after our death."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What central paradox did Bernard Mandeville present in 'The Fable of the Bees'?",
+      "options": [
+        "Private vices like greed and luxury generate public economic prosperity",
+        "Bees demonstrate higher moral reasoning than human communities",
+        "Total individual honesty is the sole foundation of flourishing trade",
+        "Societies inevitably collapse whenever personal wealth increases"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mandeville claimed that human desire for luxury, vanity, and pride drives commerce and employment, whereas universal frugality would collapse industry."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In moral philosophy, what is a 'supererogatory' action?",
+      "options": [
+        "An act that is praiseworthy to perform but not blameworthy to omit",
+        "A deed that is legally mandatory but morally neutral",
+        "An action forbidden by law that produces a net good outcome",
+        "A mandatory baseline duty required of all moral agents"
+      ],
+      "correctIndex": 0,
+      "explanation": "Supererogatory acts go above and beyond the call of duty—such as heroic self-sacrifice—making them morally admirable but not strictly obligatory."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to Kant, what defines 'synthetic a priori' knowledge?",
+      "options": [
+        "It provides new knowledge about reality known independently of experience",
+        "It is true purely by the definitions of the words involved",
+        "It can only be verified by conducting physical experiments",
+        "It changes depending on the cultural language of the speaker"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kant argued synthetic a priori judgments (like arithmetic truths) add new informative content without relying on empirical sensory observation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the key claim of the Quine-Putnam indispensability argument?",
+      "options": [
+        "We must accept mathematical entities as real because empirical science requires them",
+        "Mathematical numbers are purely linguistic fictions with no relation to truth",
+        "Physical experiments will eventually replace the need for abstract math",
+        "Scientific theories are invalid unless they avoid mathematical terms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because our best physical theories cannot be formulated without mathematics, Quine and Putnam argued we are ontologically committed to the existence of mathematical entities."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Lucretius argued that death is terrifying because human consciousness wanders aimlessly after death.",
+      "answer": false,
+      "explanation": "Lucretius argued that death is a complete absence of consciousness, perfectly mirroring the abyss of time before you were born."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Universal frugality and personal virtue inevitably maximize economic growth and trade.",
+      "answer": false,
+      "explanation": "Mandeville argued that universal frugality would destroy demand for luxury goods, collapsing trade and creating mass unemployment."
+    }
+  ]
+}

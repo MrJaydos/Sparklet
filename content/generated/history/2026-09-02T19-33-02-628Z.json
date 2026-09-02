@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.628Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A reporter invented the cow that supposedly burned Chicago down",
+      "body": "For over a century, popular lore blamed Catherine O'Leary's clumsy cow for kicking over a lantern and igniting the catastrophic 1871 Great Chicago Fire. In reality, newspaper reporter Michael Ahern admitted years later that he made the story up to make his reporting more sensational. While the blaze did start in or near the O'Leary barn, the Chicago City Council officially exonerated Mrs. O'Leary and her cow in 1997.",
+      "imageWikipediaTitle": "Great Chicago Fire",
+      "sources": [
+        {
+          "title": "The Great Chicago Fire",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/october-08/"
+        },
+        {
+          "title": "Great Chicago Fire",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Chicago_Fire"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/october-08/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History's first spacewalk nearly stranded the cosmonaut outside his ship",
+      "body": "In March 1965, Soviet cosmonaut Alexei Leonov made history by performing the world's first spacewalk. Outside the spacecraft, the vacuum of space caused his spacesuit to balloon so rigidly that his limbs pulled out of their gloves and boots. Unable to squeeze back into the airlock hatch, Leonov made the perilous decision to bleed oxygen out of the suit to depressurize it, barely squeezing back inside before suffering severe oxygen deprivation.",
+      "imageWikipediaTitle": "Alexei Leonov",
+      "sources": [
+        {
+          "title": "The first spacewalk: Alexei Leonov",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/first-spacewalk-alexei-leonov"
+        },
+        {
+          "title": "Alexei Leonov",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alexei_Leonov"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/first-spacewalk-alexei-leonov",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 14th-century siege launched the deadliest pandemic in human history",
+      "body": "In 1346, the Mongol-led Golden Horde laid siege to the Genoese trading port of Caffa on the Crimean Peninsula. When plague struck the attacking army, their commander ordered diseased corpses catapulted over Caffa's fortified walls. Terrified Genoese defenders retreated onto merchant ships bound for Italy, inadvertently ferrying the Black Death across the Mediterranean. Within five years, the pandemic wiped out an estimated one-third to one-half of Europe's entire population.",
+      "imageWikipediaTitle": "Siege of Caffa",
+      "sources": [
+        {
+          "title": "Biological Warfare at the 1346 Siege of Caffa",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://wwwnc.cdc.gov/eid/article/8/9/01-0536_article"
+        },
+        {
+          "title": "Siege of Caffa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Siege_of_Caffa"
+        }
+      ],
+      "readMoreUrl": "https://wwwnc.cdc.gov/eid/article/8/9/01-0536_article",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Six men crossed the Pacific on a handmade balsa raft to prove a theory",
+      "body": "In 1947, Norwegian ethnographer Thor Heyerdahl set out to prove that South Americans could have settled Polynesia before Columbus. He and five companions built Kon-Tiki, a rudimentary 45-foot raft constructed from balsa logs and hemp rope, without using a single nail. Drifting on ocean currents and rudimentary sails, the crew traveled 4,300 miles across open ocean over 101 days before safely crashing onto a reef in French Polynesia.",
+      "imageWikipediaTitle": "Kon-Tiki expedition",
+      "sources": [
+        {
+          "title": "The Kon-Tiki Expedition",
+          "publisher": "The Kon-Tiki Museum",
+          "url": "https://www.kon-tiki.no/expeditions/kon-tiki/"
+        },
+        {
+          "title": "Kon-Tiki expedition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kon-Tiki_expedition"
+        }
+      ],
+      "readMoreUrl": "https://www.kon-tiki.no/expeditions/kon-tiki/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Blood transfusions were deadly gambles until one doctor mixed red cells",
+      "body": "For centuries, blood transfusions were catastrophic rolls of the dice: patients occasionally survived, but many suffered violent reactions and died. In 1900, Austrian physician Karl Landsteiner tested blood serum against red cells from his colleagues and noticed they sometimes clumped together into toxic clumps. This observation revealed distinct blood types—later classified as A, B, AB, and O—revolutionizing medicine, making surgeries and transfusions safe, and earning Landsteiner a Nobel Prize.",
+      "imageWikipediaTitle": "Karl Landsteiner",
+      "sources": [
+        {
+          "title": "Karl Landsteiner – Biographical",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/medicine/1930/landsteiner/biographical/"
+        },
+        {
+          "title": "Karl Landsteiner",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_Landsteiner"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/medicine/1930/landsteiner/biographical/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Who originally fabricated the story that Mrs. O'Leary's cow started the 1871 Great Chicago Fire?",
+      "options": [
+        "A newspaper reporter looking for a colorful scoop",
+        "The Chicago Fire Department chief",
+        "Mrs. O'Leary herself in a courtroom confession",
+        "An insurance investigator seeking evidence of fraud"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reporter Michael Ahern admitted years later that he invented the cow story to make his fire coverage more sensational."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What life-threatening obstacle did Alexei Leonov face during the world's first spacewalk in 1965?",
+      "options": [
+        "His spacesuit inflated so much he could not fit back inside the airlock",
+        "His tether snapped and left him drifting untethered in orbit",
+        "His helmet visor shattered upon exiting the spacecraft",
+        "His primary thruster failed, sending him into an uncontrollable spin"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the vacuum of space, Leonov's suit ballooned and stiffened, forcing him to bleed air pressure to fit through the hatch."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What tactic during the 1346 Siege of Caffa helped spread the Black Death to Europe?",
+      "options": [
+        "Catapulting plague-infected corpses over the city walls",
+        "Poisoning the city's main freshwater reservoir with infected rats",
+        "Sending infected envoys under the guise of peace negotiations",
+        "Smuggling infected wheat sacks into Genoese supply depots"
+      ],
+      "correctIndex": 0,
+      "explanation": "The besieging Golden Horde catapulted plague corpses over Caffa's walls, causing fleeing survivors to sail to Europe with the disease."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the primary purpose of Thor Heyerdahl's 1947 Kon-Tiki expedition?",
+      "options": [
+        "To prove pre-Columbian South Americans could have sailed to Polynesia",
+        "To map previously uncharted currents in the South Pacific",
+        "To test military survival rafts for downed naval aviators",
+        "To locate undiscovered islands along the Tropic of Capricorn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heyerdahl wanted to show that ancient South Americans had the maritime capability to settle Polynesian islands."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What phenomenon led Karl Landsteiner to discover the ABO blood group system in 1900?",
+      "options": [
+        "Clumping of red blood cells when different blood samples were mixed",
+        "Color variations under polarized microscopic lighting",
+        "Differences in how quickly blood clotted at various temperatures",
+        "Varying electrical conductivity across different patient blood samples"
+      ],
+      "correctIndex": 0,
+      "explanation": "Landsteiner noticed that mixing serum from one person with red cells from another often caused agglutination (clumping), revealing distinct blood types."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many days did the six-man crew spend crossing 4,300 miles of open Pacific Ocean aboard the balsa raft Kon-Tiki?",
+      "answer": 101,
+      "min": 10,
+      "max": 300,
+      "unit": "days",
+      "explanation": "The Kon-Tiki drifted 4,300 miles across the Pacific for 101 days before finally landing on a reef in French Polynesia."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The 1871 Great Chicago Fire was started when Catherine O'Leary's cow kicked over a lantern.",
+      "answer": false,
+      "explanation": "Reporter Michael Ahern admitted he invented the cow story; Catherine O'Leary and her cow were formally exonerated by Chicago in 1997."
+    }
+  ]
+}

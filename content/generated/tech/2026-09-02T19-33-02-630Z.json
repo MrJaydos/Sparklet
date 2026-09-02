@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.630Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A missing lookup table entry cost Intel $475 million",
+      "body": "In 1994, mathematician Thomas Nicely discovered an error while calculating prime numbers on a new Pentium PC. Intel's floating-point division unit relied on an accelerated algorithm with a lookup table of over 2,000 values, but an engineer had accidentally omitted five entries. While the bug produced errors in only one out of nine billion random divisions, the public outcry forced Intel to recall and replace defective chips worldwide, costing the company approximately $475 million.",
+      "imageWikipediaTitle": "Pentium FDIV bug",
+      "sources": [
+        {
+          "title": "Pentium FDIV bug",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pentium_FDIV_bug"
+        },
+        {
+          "title": "Pentium Bug",
+          "publisher": "Wolfram MathWorld",
+          "url": "https://mathworld.wolfram.com/PentiumBug.html"
+        },
+        {
+          "title": "Pentium",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/Pentium"
+        }
+      ],
+      "readMoreUrl": "https://mathworld.wolfram.com/PentiumBug.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your computer forgets its memory thousands of times per second",
+      "body": "Dynamic Random-Access Memory (DRAM) stores every single bit of digital data as an electrical charge inside a microscopic capacitor paired with a single transistor. Because these microscopic capacitors inevitably leak their stored voltage within milliseconds, the data fades rapidly. To prevent instant data amnesia, a dedicated memory controller must actively read and rewrite the charge across billions of memory cells hundreds of times every single second in a constant refresh cycle.",
+      "imageWikipediaTitle": "Dynamic random-access memory",
+      "sources": [
+        {
+          "title": "Dynamic random-access memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dynamic_random-access_memory"
+        },
+        {
+          "title": "Dynamic RAM",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/dynamic-RAM"
+        },
+        {
+          "title": "MOS Dynamic RAM Organizes 1024 Bits on a Single Chip",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/siliconengine/metal-oxide-semiconductor-mos-dynamic-ram-organizes-1024-bits-on-a-single-chip/"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/dynamic-RAM",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 19th-century silk weaving loom inspired modern computer software",
+      "body": "In 1804, French inventor Joseph Marie Jacquard revolutionized textile manufacturing with a mechanical loom guided by strings of interchangeable punched cards. Holes in the rigid cardboard allowed specific needles to pass, mechanically dictating which threads were lifted to weave intricate tapestries. Decades later, Charles Babbage adapted this concept to feed mathematical instructions and data into his mechanical computing engines, establishing punched cards as the foundation of computer programming.",
+      "imageWikipediaTitle": "Jacquard machine",
+      "sources": [
+        {
+          "title": "Jacquard machine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jacquard_machine"
+        },
+        {
+          "title": "Jacquard loom",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/Jacquard-loom"
+        },
+        {
+          "title": "The Jacquard loom",
+          "publisher": "Science Museum Group",
+          "url": "https://www.sciencemuseum.org.uk/objects-and-stories/jacquard-loom"
+        }
+      ],
+      "readMoreUrl": "https://www.sciencemuseum.org.uk/objects-and-stories/jacquard-loom",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An accidental touch with a soldering iron created the inkjet printer",
+      "body": "In 1977, Canon engineer Ichiro Endo was experimenting with liquid ink when he accidentally rested a hot soldering iron against the needle of an ink syringe. The sudden heat instantly vaporized a microscopic layer of ink, creating an expanding vapor bubble that forcefully expelled a clean droplet from the needle tip. Recognizing the commercial potential of this thermal pulse, engineers developed thermal inkjet printing, which rapidly replaced noisy mechanical impact printers.",
+      "imageWikipediaTitle": "Inkjet printing",
+      "sources": [
+        {
+          "title": "Inkjet printing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Inkjet_printing"
+        },
+        {
+          "title": "Ink-jet printer",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/ink-jet-printer"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/ink-jet-printer",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Space Shuttle used five identical computers voting on every move",
+      "body": "To prevent catastrophic computer failure during flight, NASA designed the Space Shuttle with a fault-tolerant redundancy system. Four identical primary computers ran the exact same software in lockstep, sampling sensors and voting on every critical thruster and rudder command at microsecond intervals. If any single computer produced a dissenting calculation, the other three outvoted it and disabled its output, while an entirely independent fifth backup computer stood by running alternative software.",
+      "imageWikipediaTitle": "Space Shuttle General Purpose Computer",
+      "sources": [
+        {
+          "title": "Space Shuttle General Purpose Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_Shuttle_General_Purpose_Computer"
+        },
+        {
+          "title": "Computers in the Space Shuttle Avionics System",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/computers/Ch4-4.html"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/computers/Ch4-4.html",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What caused the famous 1994 Intel Pentium FDIV bug?",
+      "options": [
+        "A physical crack in the silicon substrate",
+        "Five missing entries in a hardware lookup table",
+        "A thermal throttling failure in high-load calculations",
+        "A buffer overflow in the motherboard BIOS"
+      ],
+      "correctIndex": 1,
+      "explanation": "An engineer accidentally omitted five table entries in the floating-point divider hardware, causing rare division errors."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does Dynamic RAM (DRAM) require constant electrical refresh cycles?",
+      "options": [
+        "Its capacitors naturally leak their stored electrical charge",
+        "The transistors overheat if not pulsed with fresh power",
+        "Data must be re-encrypted periodically for security",
+        "Clock signals reset memory cells to zero every cycle"
+      ],
+      "correctIndex": 0,
+      "explanation": "DRAM stores bits in microscopic capacitors that rapidly lose voltage, requiring continuous reads and rewrites to prevent data loss."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which 19th-century machine introduced punched cards that later inspired computer programming?",
+      "options": [
+        "The Jacquard weaving loom",
+        "The Watt steam engine",
+        "The Linotype typesetting machine",
+        "The Morse telegraph transmitter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Joseph Marie Jacquard invented a textile loom in 1804 that read punched cards to automatically weave complex patterns."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What accidental event inspired the development of thermal inkjet printing?",
+      "options": [
+        "A hot soldering iron touching an ink-filled syringe",
+        "An overheated typewriter ribbon catching fire",
+        "A static electrical spark jumping across an ink tank",
+        "Boiling water spilling into a laser photocopier"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hot soldering iron touched an ink syringe, causing a vapor bubble to form and propel a tiny droplet out of the needle."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did the Space Shuttle's primary computers handle hardware errors during flight?",
+      "options": [
+        "Four identical computers voted, and dissenting outputs were ignored",
+        "A single supercomputer automatically rebooted within milliseconds",
+        "Pilots manually toggled between mechanical and digital controls",
+        "Data was transmitted to Mission Control on Earth for real-time recalculation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Four redundant computers executed identical code in sync; if one calculated a different result, the remaining three outvoted it."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How much money did Intel spend in 1994 to replace defective Pentium processors caused by the FDIV bug?",
+      "answer": 475,
+      "min": 10,
+      "max": 2000,
+      "unit": "million $",
+      "explanation": "Intel took a $475 million pre-tax charge to replace defective Pentium processors after public backlash."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many identical primary computers operated in parallel on the Space Shuttle to vote on flight commands?",
+      "answer": 4,
+      "min": 1,
+      "max": 12,
+      "unit": "",
+      "explanation": "Four primary computers ran identical software in lockstep to outvote any single faulty computer."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The 1994 Pentium division bug caused arithmetic errors in nearly every calculation performed by the chip.",
+      "answer": false,
+      "explanation": "The FDIV bug was extremely rare, affecting approximately one out of every nine billion random floating-point divisions."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Computer memory retains its stored binary data indefinitely as long as constant power is supplied.",
+      "answer": false,
+      "explanation": "DRAM capacitors constantly leak voltage and will lose their data within milliseconds unless actively refreshed hundreds of times per second."
+    }
+  ]
+}

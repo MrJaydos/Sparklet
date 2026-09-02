@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.633Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1982 message board post birthed the digital smiley face",
+      "body": "On September 19, 1982, computer scientist Scott Fahlman posted a suggestion on a Carnegie Mellon University electronic bulletin board: use `:-)` to designate jokes and `:-(` for non-jokes. Online text lacked tone, causing misunderstandings among students and faculty. Within months, the three-character combination spread across the ARPANET, giving rise to modern digital emoticons.",
+      "imageWikipediaTitle": "Emoticon",
+      "sources": [
+        {
+          "title": "Smiley Lore :-)",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Emoticon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emoticon"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Finding a bug in this computer science book pays $2.56",
+      "body": "Computer scientist Donald Knuth famously offered financial bounties for finding errors in his monumental series The Art of Computer Programming. He rewarded discoverers with a personal check for $2.56, representing one \"hexadecimal dollar\" (256 cents). Recipients rarely cashed them, instead framing the checks as trophies. By 2008, bank fraud forced Knuth to replace real checks with personalized certificates.",
+      "imageWikipediaTitle": "Donald Knuth",
+      "sources": [
+        {
+          "title": "Frequently Asked Questions",
+          "publisher": "Stanford University",
+          "url": "https://cs.stanford.edu/~knuth/faq.html"
+        },
+        {
+          "title": "Knuth's reward check",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Knuth%27s_reward_check"
+        }
+      ],
+      "readMoreUrl": "https://cs.stanford.edu/~knuth/faq.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The C programming language owes its name to a forgotten language called B",
+      "body": "In the early 1970s, Dennis Ritchie developed the C programming language at Bell Labs to rewrite the Unix operating system. The name was not arbitrary: C was an evolutionary successor to \"B\", a stripped-down language Ken Thompson had created for PDP minicomputers. Thompson had named B after BCPL. When Ritchie expanded the language with data types and new syntax, he logically named it C.",
+      "imageWikipediaTitle": "Dennis Ritchie",
+      "sources": [
+        {
+          "title": "The Development of the C Language",
+          "publisher": "Bell Labs",
+          "url": "https://www.bell-labs.com/usr/dmr/www/chist.html"
+        },
+        {
+          "title": "C (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/C_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://www.bell-labs.com/usr/dmr/www/chist.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A remote software patch saved the Mars Pathfinder from fatal resets",
+      "body": "Shortly after landing on Mars in July 1997, NASA's Pathfinder began randomly restarting and losing data. Engineers traced the flaw to \"priority inversion\": a low-priority weather task held a shared resource, blocking a high-priority navigation task and triggering a system reset. From millions of miles away, JPL programmers uploaded a C patch enabling priority inheritance in the operating system, saving the mission.",
+      "imageWikipediaTitle": "Mars Pathfinder",
+      "sources": [
+        {
+          "title": "What Really Happened on Mars?",
+          "publisher": "Cornell University",
+          "url": "https://www.cs.cornell.edu/courses/cs614/1999sp/papers/pathfinder.html"
+        },
+        {
+          "title": "Mars Pathfinder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mars_Pathfinder"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cornell.edu/courses/cs614/1999sp/papers/pathfinder.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A simple love letter script infected ten percent of the internet in 2000",
+      "body": "On May 4, 2000, the ILOVEYOU virus unleashed digital chaos worldwide. Disguised as a romantic text attachment (`LOVE-LETTER-FOR-YOU.TXT.vbs`), the visual basic script exploited Windows default settings to hide its executable file extension. Once opened, it overwrote media files and emailed copies to every contact in the user's Microsoft Outlook address book, infecting an estimated ten percent of all internet-connected personal computers within days.",
+      "imageWikipediaTitle": "ILOVEYOU",
+      "sources": [
+        {
+          "title": "20 Years After ILOVEYOU Virus, Cyber Threat Remains Real",
+          "publisher": "Federal Bureau of Investigation",
+          "url": "https://www.fbi.gov/news/stories/20-years-after-iloveyou-virus-050420"
+        },
+        {
+          "title": "ILOVEYOU",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ILOVEYOU"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/ILOVEYOU",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What three-character sequence did Scott Fahlman propose in 1982 to mark humorous message board posts?",
+      "options": [
+        ":-)",
+        "XD",
+        "<3",
+        ";-P"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fahlman proposed ':-)' on a CMU bulletin board to distinguish jokes from serious posts in plain text."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did Donald Knuth choose $2.56 as the payout value on his reward checks?",
+      "options": [
+        "It represents 256 cents, or one hexadecimal dollar",
+        "It matched the retail price of his first textbook",
+        "It was the minimum amount required to write a bank check",
+        "It was the cost of one minute of mainframe computer time"
+      ],
+      "correctIndex": 0,
+      "explanation": "In base 16 (hexadecimal), 256 cents equals 1.00 hexadecimal dollars (16 squared cents)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What programming language directly preceded Dennis Ritchie's C?",
+      "options": [
+        "B",
+        "A",
+        "Assembly",
+        "Pascal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dennis Ritchie named C as the successor to Ken Thompson's earlier language, B."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What classic concurrency bug caused the Mars Pathfinder lander to repeatedly reset in 1997?",
+      "options": [
+        "Priority inversion",
+        "Integer overflow",
+        "Memory leak",
+        "Off-by-one loop error"
+      ],
+      "correctIndex": 0,
+      "explanation": "A lower-priority task holding a mutex blocked higher-priority tasks, causing a watchdog timer to force reboot the system."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did the 2000 ILOVEYOU virus spread so rapidly across the globe?",
+      "options": [
+        "It emailed itself to all contacts in the victim's Microsoft Outlook address book",
+        "It scanned local networks for unpatched Windows file shares",
+        "It infected the master boot record of floppy disks",
+        "It poisoned internet DNS routing tables"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Visual Basic script automatically sent copies of itself to every contact in the user's Outlook address book."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How much money (in dollars and cents) did Donald Knuth pay in his famous reward checks for each error found in his books?",
+      "answer": 2.56,
+      "min": 0.5,
+      "max": 50,
+      "unit": "$",
+      "explanation": "Knuth paid $2.56 per bug—equal to 256 cents, or one 'hexadecimal dollar'."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of all internet-connected personal computers worldwide was infected by the ILOVEYOU virus in May 2000?",
+      "answer": 10,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "The ILOVEYOU virus infected an estimated 10% of internet-connected PCs globally within days."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Digital smiley emoticons were invented by mobile phone carriers in the 1990s for SMS text messaging.",
+      "answer": false,
+      "explanation": "Computer scientist Scott Fahlman proposed ':-)' on a Carnegie Mellon University bulletin board in 1982 to convey humor in plain text."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The C programming language was named 'C' simply because it was Dennis Ritchie's third attempt at a language.",
+      "answer": false,
+      "explanation": "C was named as an evolutionary successor to Ken Thompson's programming language named B, which derived from BCPL."
+    }
+  ]
+}

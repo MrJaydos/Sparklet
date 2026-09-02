@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.634Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why almost-human faces make our skin crawl",
+      "body": "As human likeness in a robot or digital animation increases, our affinity rises—until it reaches a point where it is almost, but not quite, human. At that threshold, emotional response plunges from empathy into eerie revulsion. Coined by roboticist Masahiro Mori in 1970, this \"uncanny valley\" occurs because slight flaws trigger evolutionary alarm systems that associate near-human abnormalities with disease, corpses, or danger.",
+      "imageWikipediaTitle": "Uncanny valley",
+      "sources": [
+        {
+          "title": "Uncanny valley",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/uncanny-valley"
+        },
+        {
+          "title": "Uncanny valley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Uncanny_valley"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/uncanny-valley",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Having an audience makes simple tasks easier—and hard tasks harder",
+      "body": "Being watched changes how you perform. Known as social facilitation, an audience boosts performance on simple, well-rehearsed tasks by increasing physiological arousal. However, that same arousal impairs performance on complex or unfamiliar tasks. In 1969, psychologist Robert Zajonc famously demonstrated that this instinct is hardwired across biology: even cockroaches ran faster through simple straight tubes when other cockroaches watched from transparent spectator boxes, but faltered in complex mazes.",
+      "imageWikipediaTitle": "Social facilitation",
+      "sources": [
+        {
+          "title": "Social facilitation",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/social-facilitation"
+        },
+        {
+          "title": "Social facilitation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Social_facilitation"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/social-facilitation",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you always remember the start and end of a list, but lose the middle",
+      "body": "Give someone a grocery list or a string of numbers to memorize, and they will reliably recall the first items and the last items while forgetting the middle. First documented by Hermann Ebbinghaus, this U-shaped memory curve combines two mechanisms. Early items benefit from the primacy effect, receiving full attention to transfer into long-term memory. Recent items benefit from the recency effect, lingering in immediate working memory.",
+      "imageWikipediaTitle": "Serial-position effect",
+      "sources": [
+        {
+          "title": "Memory",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/memory-psychology"
+        },
+        {
+          "title": "Serial-position effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Serial-position_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Serial-position_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Deprive your brain of sensory input, and it will invent its own reality",
+      "body": "When stripped of patterned sensory input—such as floating in an isolation tank or staring into uniform diffuse light with static white noise—the human brain starves for information. Within minutes, the visual and auditory cortexes amplify baseline neural firing to search for patterns. This sensory void triggers vivid hallucinations, distorted senses of time, and altered consciousness, proving that perception is an active construction rather than a passive camera.",
+      "imageWikipediaTitle": "Sensory deprivation",
+      "sources": [
+        {
+          "title": "Sensory deprivation",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/sensory-deprivation"
+        },
+        {
+          "title": "Sensory deprivation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sensory_deprivation"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/sensory-deprivation",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "65% of ordinary people obeyed orders to deliver lethal electric shocks",
+      "body": "In 1961, Yale psychologist Stanley Milgram tested how far people would obey an authority figure. Participants, cast as \"teachers,\" were instructed to shock a learner for incorrect answers, increasing power up to 450 volts. Despite hearing actor-learners scream in agony and eventually fall silent, 65% of participants delivered the maximum 450-volt shock when sternly told to continue. The study revealed obedience overrides personal conscience far more easily than expected.",
+      "imageWikipediaTitle": "Milgram experiment",
+      "sources": [
+        {
+          "title": "Milgram experiment",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Milgram-experiment"
+        },
+        {
+          "title": "Milgram experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Milgram_experiment"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Milgram-experiment",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the 'uncanny valley' in psychology and robotics?",
+      "options": [
+        "The dip into eerie revulsion when an artificial figure looks almost, but not quite, human",
+        "A region of the visual cortex dedicated exclusively to detecting optical illusions",
+        "The sudden loss of memory that occurs when walking between rooms",
+        "The tendency to prefer computer-generated voices over human voices"
+      ],
+      "correctIndex": 0,
+      "explanation": "The uncanny valley describes the sharp drop in empathy and comfort that occurs when an artificial likeness appears almost, but not perfectly, human."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does the presence of an audience typically affect human performance, according to social facilitation theory?",
+      "options": [
+        "It enhances performance on simple tasks but hinders complex tasks",
+        "It uniformly degrades performance across all types of activities",
+        "It uniformly improves performance regardless of task difficulty",
+        "It has no measurable effect on physical or mental performance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arousal from an audience enhances dominant, well-learned responses on simple tasks, but disrupts focus during complex, unfamiliar tasks."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which parts of a memorized list are typically best remembered due to the serial-position effect?",
+      "options": [
+        "The first and last items",
+        "Only the items in the exact middle",
+        "The items with the most syllables",
+        "Only the items presented in the second half"
+      ],
+      "correctIndex": 0,
+      "explanation": "The primacy effect preserves the beginning of the list in long-term memory, while the recency effect keeps the end in short-term working memory."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What commonly happens to the human brain when it is completely deprived of patterned sensory input?",
+      "options": [
+        "It amplifies internal neural noise and generates spontaneous hallucinations",
+        "It permanently shuts down the auditory and visual processing centers",
+        "It increases logical reasoning and mathematical problem-solving speed",
+        "It enters a permanent, irreversible deep sleep state"
+      ],
+      "correctIndex": 0,
+      "explanation": "When starved of external stimulus, the brain amplifies its baseline neural signals to seek patterns, producing vivid sensory hallucinations."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In Stanley Milgram's 1961 experiment on obedience, what proportion of participants delivered the maximum 450-volt shock?",
+      "options": [
+        "65%",
+        "1%",
+        "25%",
+        "98%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite hearing the learner scream in pain and fall silent, 65% of participants obeyed the experimenter's commands all the way to 450 volts."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "In Stanley Milgram's 1961 obedience study, what percentage of ordinary participants administered the maximum 450-volt shock?",
+      "answer": 65,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "65% of participants administered the final 450-volt shock, even though psychiatrists had predicted that less than 1% would comply."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The more human a robot or animated character looks, the more likable and trustworthy people always find it.",
+      "answer": false,
+      "explanation": "The uncanny valley shows that near-perfect human likeness triggers sudden revulsion and unease before becoming indistinguishable from real humans."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Performing a task in front of an audience always hurts your performance due to stage fright.",
+      "answer": false,
+      "explanation": "An audience actually boosts performance on simple, well-rehearsed tasks by increasing arousal, though it impairs complex tasks."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "In Stanley Milgram's famous experiment, the majority of people refused to shock a learner when commanded by an authority.",
+      "answer": false,
+      "explanation": "A striking 65% of participants fully obeyed the experimenter and delivered the maximum 450-volt shock."
+    }
+  ]
+}

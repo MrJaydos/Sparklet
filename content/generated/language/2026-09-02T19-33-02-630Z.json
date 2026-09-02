@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.630Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Vietnamese",
+      "body": "Counting to three in Vietnamese uses the words một (1), hai (2), and ba (3). In the native script, they appear as một, hai, and ba, pronounced roughly as \"moht\", \"hye\", and \"bah\". Notice the dot beneath the vowel in một: this diacritic indicates a heavy, low-dropping tone known as \"nặng\". Once you master these basic tones, counting onward in Vietnamese follows a straightforward decimal structure.",
+      "imageWikipediaTitle": "Vietnamese language",
+      "sources": [
+        {
+          "title": "Vietnamese Numbers",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/vietnamese.htm"
+        },
+        {
+          "title": "Vietnamese language",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Vietnamese-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Vietnamese-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"pandemonium\" was invented as the capital of Hell",
+      "body": "When poet John Milton wrote his 1667 epic poem Paradise Lost, he needed a fitting name for the grand palace built by the fallen angels. Combining the Greek prefix pan- (meaning \"all\") with daimonion (meaning \"demon\"), Milton invented \"Pandæmonium\" to mean \"the place of all demons.\" Over subsequent centuries, English speakers adopted the term to describe any scene of wild, chaotic disorder and deafening noise.",
+      "imageWikipediaTitle": "Pandæmonium (Paradise Lost)",
+      "sources": [
+        {
+          "title": "Word of the Day: Pandemonium",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/word-of-the-day/pandemonium-2023-10-31"
+        },
+        {
+          "title": "Pandemonium",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pandemonium"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/word-of-the-day/pandemonium-2023-10-31",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asking \"How are you?\" in Arabic",
+      "body": "In Arabic, the standard way to ask someone how they are doing is كيف حالك (kayfa haluk, pronounced \"kay-fa haa-luk\"). Grammatically, the phrase breaks down into كيف (kayfa, \"how\") and حال (hal, \"condition\" or \"state\"), literally asking \"How is your condition?\" When speaking to a woman, the possessive suffix shifts slightly to كيف حالكِ (kayfa haluki, \"kay-fa haa-loo-kee\"). A common polite reply is بخير (bi-khayr), meaning \"in good health.\"",
+      "imageWikipediaTitle": "Arabic",
+      "sources": [
+        {
+          "title": "Useful Arabic phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/arabic.php"
+        },
+        {
+          "title": "Arabic language",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Arabic-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Arabic-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Bengal cottage style gave us the \"bungalow\"",
+      "body": "The word \"bungalow\" originated in seventeenth-century colonial India. It comes from the Hindi and Bengali term बंगला (bangla, pronounced \"bung-lah\"), which literally translates to \"belonging to Bengal.\" The term originally described traditional single-story, wide-veranda thatched cottages built across Bengal. British administrators adapted this architectural style for cool, ventilated country residences, introducing both the distinctive low-pitched house design and its name into standard English vocabulary worldwide.",
+      "imageWikipediaTitle": "Bungalow",
+      "sources": [
+        {
+          "title": "Bungalow",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/bungalow"
+        },
+        {
+          "title": "Bungalow",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/bungalow"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/bungalow",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Apologizing politely in Korean",
+      "body": "In Korean, the most common formal apology is 죄송합니다 (joesonghamnida, pronounced \"jweh-song-hahm-nee-dah\"). It is derived from the Hanja root 罪悚 (joesong), which literally expresses feelings of sinfulness and fearful unworthiness. Used with colleagues, elders, and strangers, this polite phrase conveys sincere remorse or respectful deference. For mild everyday situations like bumping shoulders in a crowded subway, Koreans also frequently use 미안합니다 (mianhamnida, pronounced \"mee-ahn-hahm-nee-dah\").",
+      "imageWikipediaTitle": "Korean language",
+      "sources": [
+        {
+          "title": "Useful Korean phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/korean.php"
+        },
+        {
+          "title": "Korean language",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Korean-language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Korean-language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the underdot diacritic in the Vietnamese number 'một' (1) signify?",
+      "options": [
+        "A heavy, low-dropping tone",
+        "A high, rising question tone",
+        "A silent vowel",
+        "A nasal consonant ending"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Vietnamese orthography, the dot beneath the vowel represents the \"nặng\" tone, a low-dropping constricted tone."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Who originally coined the word 'pandemonium' in the 17th century?",
+      "options": [
+        "John Milton",
+        "William Shakespeare",
+        "Geoffrey Chaucer",
+        "Dante Alighieri"
+      ],
+      "correctIndex": 0,
+      "explanation": "John Milton coined 'Pandæmonium' in his 1667 epic poem Paradise Lost by combining the Greek roots for 'all' and 'demon.'"
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the literal meaning of the root word 'hal' (حال) in the Arabic greeting 'kayfa haluk'?",
+      "options": [
+        "Condition or state",
+        "Family or household",
+        "Morning light",
+        "Heart and soul"
+      ],
+      "correctIndex": 0,
+      "explanation": "The word 'hal' (حال) means 'state' or 'condition', so 'kayfa haluk' literally asks 'How is your condition?'"
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the geographic origin of the architectural term 'bungalow'?",
+      "options": [
+        "Bengal, India",
+        "Bavaria, Germany",
+        "Brisbane, Australia",
+        "Bogotá, Colombia"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Bungalow' derives from the Hindi/Bengali word 'bangla', meaning 'in the style of Bengal', describing low single-story cottages."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which Korean phrase is standard for a polite, formal apology?",
+      "options": [
+        "죄송합니다 (joesonghamnida)",
+        "감사합니다 (gamsahamnida)",
+        "안녕하세요 (annyeonghaseyo)",
+        "실례합니다 (sillyehamnida)"
+      ],
+      "correctIndex": 0,
+      "explanation": "죄송합니다 (joesonghamnida) is the standard formal way to apologize sincerely in Korean."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The word 'pandemonium' dates back to ancient Greek mythology.",
+      "answer": false,
+      "explanation": "The word was never used in ancient Greece; English poet John Milton coined it in 1667 from Greek roots for his epic poem Paradise Lost."
+    }
+  ]
+}

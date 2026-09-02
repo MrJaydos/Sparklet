@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-09-02T19:33:02.635Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ghost particles arrived hours before the brightest supernova explosion in centuries",
+      "body": "In 1987, underground neutrino detectors in Japan and the United States registered a burst of neutrinos from a dying blue supergiant star in the Large Magellanic Cloud. Remarkably, these particles arrived roughly two to three hours before visible light did. While light was trapped and delayed by the dense, exploding stellar layers, neutrinos escaped almost unimpeded at nearly the speed of light.",
+      "imageWikipediaTitle": "SN 1987A",
+      "sources": [
+        {
+          "title": "SN1987A Neutrinos",
+          "publisher": "NASA Goddard Space Flight Center",
+          "url": "https://imagine.gsfc.nasa.gov/features/yba/sn1987a/neutrinos.html"
+        },
+        {
+          "title": "SN 1987A",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SN_1987A"
+        }
+      ],
+      "readMoreUrl": "https://imagine.gsfc.nasa.gov/features/yba/sn1987a/neutrinos.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A dwarf planet on the edge of our solar system takes over 11,000 years to complete one orbit",
+      "body": "Sedna, discovered in 2003, travels on one of the most elongated orbits in the solar system. At its closest approach, it comes within 76 astronomical units of the Sun, but its journey carries it out to nearly 1,000 AU. Because of this vast distance, Sedna takes approximately 11,400 Earth years to finish a single revolution, having last passed its closest point around the end of Earth's last ice age.",
+      "imageWikipediaTitle": "90377 Sedna",
+      "sources": [
+        {
+          "title": "Sedna",
+          "publisher": "Caltech GPS",
+          "url": "https://web.gps.caltech.edu/~mbrown/sedna/"
+        },
+        {
+          "title": "90377 Sedna",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/90377_Sedna"
+        }
+      ],
+      "readMoreUrl": "https://web.gps.caltech.edu/~mbrown/sedna/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the night sky is dark despite trillions of glowing stars",
+      "body": "If the universe were infinite, timeless, and static, every single line of sight would eventually hit the surface of a star, making the entire night sky blazing white. The darkness of night exists because the universe has a finite age—roughly 13.8 billion years. Light from the most distant stars has not had enough time to reach us, and cosmic expansion shifts much of the remaining light out of the visible spectrum.",
+      "imageWikipediaTitle": "Olbers' paradox",
+      "sources": [
+        {
+          "title": "Why is the Night Sky Dark?",
+          "publisher": "NASA Goddard Space Flight Center",
+          "url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question60.html"
+        },
+        {
+          "title": "Olbers' paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olbers'_paradox"
+        }
+      ],
+      "readMoreUrl": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question60.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The supernova that created the Crab Nebula was visible in broad daylight for 23 days",
+      "body": "On July 4, 1054, Chinese court astronomers recorded a brilliant 'guest star' blazing in the constellation Taurus. The exploding star shone brighter than Venus and remained visible in broad daylight for 23 days, and in the night sky for nearly two years. Today, the expanding wreckage of that blast is known as the Crab Nebula, powered by a rapidly spinning neutron star at its center.",
+      "imageWikipediaTitle": "Crab Nebula",
+      "sources": [
+        {
+          "title": "The Crab Nebula",
+          "publisher": "NASA Chandra X-ray Center",
+          "url": "https://chandra.harvard.edu/photo/2008/crab/"
+        },
+        {
+          "title": "Crab Nebula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crab_Nebula"
+        }
+      ],
+      "readMoreUrl": "https://chandra.harvard.edu/photo/2008/crab/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The famous 72-second cosmic radio signal that was never heard again",
+      "body": "On August 15, 1977, Ohio State University's Big Ear radio telescope picked up an intense narrowband radio signal lasting 72 seconds from the direction of Sagittarius. Astronomer Jerry Ehman was so stunned by how closely it matched the expected signature of an interstellar broadcast that he circled '6EQUJ5' on the printout and scribbled 'Wow!'. Despite decades of searching, the signal has never repeated.",
+      "imageWikipediaTitle": "Wow! signal",
+      "sources": [
+        {
+          "title": "The 'Big Ear' Wow! Signal",
+          "publisher": "Big Ear Radio Observatory",
+          "url": "https://www.bigear.org/wow.htm"
+        },
+        {
+          "title": "Wow! signal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wow!_signal"
+        }
+      ],
+      "readMoreUrl": "https://www.bigear.org/wow.htm",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did neutrinos from Supernova 1987A reach Earth hours before the visible light of the explosion?",
+      "options": [
+        "Neutrinos escaped the dying star immediately while light was delayed by dense stellar material",
+        "Neutrinos travel significantly faster than the speed of light in a vacuum",
+        "The star exploded in a direction that pointed neutrinos directly toward Earth",
+        "Gravitational lensing bent the starlight along a substantially longer path"
+      ],
+      "correctIndex": 0,
+      "explanation": "Neutrinos interact weakly with matter and escaped the collapsing core immediately, whereas photons were trapped by dense outer layers for hours."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Approximately how long does the distant dwarf planet Sedna take to complete a single orbit around the Sun?",
+      "options": [
+        "11,400 Earth years",
+        "248 Earth years",
+        "557 Earth years",
+        "1,200 Earth years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sedna travels along a massive, elongated orbit that takes roughly 11,400 years to make a full circuit around the Sun."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What resolves Olbers' paradox, explaining why the night sky is dark rather than blazing bright?",
+      "options": [
+        "The universe has a finite age, so light from distant stars has not had enough time to reach us",
+        "Interstellar dust absorbs all distant starlight and cools it to absolute zero",
+        "Stars outside our galaxy do not emit radiation in the visible spectrum",
+        "The Sun's gravity blocks incoming light from other star systems at night"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the universe is only 13.8 billion years old, light from only a finite portion of space has had sufficient time to reach Earth."
+    },
+    {
+      "cardIndex": 3,
+      "question": "For how many days was the 1054 supernova that formed the Crab Nebula visible during broad daylight?",
+      "options": [
+        "23 days",
+        "3 days",
+        "120 days",
+        "365 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Historical records from Chinese astronomers show the supernova shone brighter than Venus and remained visible in daylight for 23 days."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did astronomer Jerry Ehman write in red pen on the 1977 printout of an unusual deep-space radio signal?",
+      "options": [
+        "Wow!",
+        "Contact!",
+        "Signal!",
+        "Aliens?"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ehman circled the alphanumeric signal code 6EQUJ5 and wrote 'Wow!' in the margin out of astonishment."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many Earth years does it take for the distant dwarf planet Sedna to orbit the Sun once?",
+      "answer": 11400,
+      "min": 500,
+      "max": 50000,
+      "unit": "years",
+      "explanation": "Sedna's immense, highly elongated orbit takes roughly 11,400 years to complete."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "For how many days was the 1054 supernova that created the Crab Nebula visible in broad daylight?",
+      "answer": 23,
+      "min": 1,
+      "max": 100,
+      "unit": "days",
+      "explanation": "The exploding star shone brighter than Venus and could be seen in the daytime sky for 23 days."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "For how many seconds did Ohio State's Big Ear telescope detect the famous 'Wow!' radio signal?",
+      "answer": 72,
+      "min": 5,
+      "max": 300,
+      "unit": "seconds",
+      "explanation": "The Big Ear telescope's antenna beam took exactly 72 seconds to sweep across the signal source as Earth rotated."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Neutrinos from Supernova 1987A arrived before its light because they traveled faster than light.",
+      "answer": false,
+      "explanation": "Neutrinos travel at nearly the speed of light; they arrived earlier because they escaped the exploding star's dense core instantly, while light was delayed inside."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The night sky is dark primarily because interstellar dust clouds block the light of distant stars.",
+      "answer": false,
+      "explanation": "Dust absorbs starlight and heats up until it reradiates the same energy; the true reason is the finite age and cosmic expansion of the universe."
+    }
+  ]
+}
