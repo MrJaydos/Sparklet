@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-09-03T19:29:36.343Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Breaking things never actually stimulates the economy",
+      "body": "In 1850, French economist Frédéric Bastiat dismantled a persistent economic myth: the idea that destruction fuels growth. If a boy smashes a shop window, onlookers might say he helped the glazier earn money. But Bastiat pointed out the hidden cost: the shopkeeper must now spend money merely repairing what he already owned, rather than buying new shoes or books. Society hasn't gained wealth; it has permanently lost a window.",
+      "imageWikipediaTitle": "Frédéric Bastiat",
+      "sources": [
+        {
+          "title": "Broken Window Fallacy",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/b/broken-window-fallacy.asp"
+        },
+        {
+          "title": "Parable of the broken window",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parable_of_the_broken_window"
+        }
+      ],
+      "readMoreUrl": "https://www.investopedia.com/terms/b/broken-window-fallacy.asp",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first public stock was worth more than Apple and Microsoft combined",
+      "body": "In 1602, the Dutch East India Company, or VOC, revolutionized global finance by issuing the world's first publicly traded corporate stock on the newly founded Amsterdam Stock Exchange. To fund high-risk spice voyages to Asia, the company invited ordinary citizens to buy transferable shares. At its peak during the 1630s, the company was valued at roughly 78 million Dutch guilders—equivalent to over $7 trillion today, dwarfing modern tech giants.",
+      "imageWikipediaTitle": "Dutch East India Company",
+      "sources": [
+        {
+          "title": "Dutch East India Company (VOC)",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/d/dutch-east-india-company.asp"
+        },
+        {
+          "title": "Dutch East India Company",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+        }
+      ],
+      "readMoreUrl": "https://www.investopedia.com/terms/d/dutch-east-india-company.asp",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The simple math that unlocked the early retirement movement",
+      "body": "In 1994, financial planner William Bengen solved a puzzle that terrified retirees: how much can you spend without running out of cash? Analyzing 50 years of market crashes, he found that a retiree with a balanced stock-and-bond portfolio could safely withdraw 4% of their initial savings in year one, adjusting each year for inflation, and reliably survive a 30-year retirement. That calculation became the mathematical foundation of modern retirement planning and the FIRE movement.",
+      "imageWikipediaTitle": "FIRE movement",
+      "sources": [
+        {
+          "title": "Four Percent Rule",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/f/four-percent-rule.asp"
+        },
+        {
+          "title": "Trinity study",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trinity_study"
+        }
+      ],
+      "readMoreUrl": "https://www.investopedia.com/terms/f/four-percent-rule.asp",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Not a single cent of insured money has been lost in this US banking safety net",
+      "body": "During the Great Depression, thousands of US banks collapsed, vaporizing life savings and triggering widespread panics. In response, Congress created the Federal Deposit Insurance Corporation (FDIC) under the Banking Act of 1933. Since FDIC insurance took effect on January 1, 1934, not a single depositor has lost a single cent of insured funds due to a bank failure. That government guarantee stopped panicking crowds from storming bank doors.",
+      "imageWikipediaTitle": "Federal Deposit Insurance Corporation",
+      "sources": [
+        {
+          "title": "FDIC: History",
+          "publisher": "Federal Deposit Insurance Corporation",
+          "url": "https://www.fdic.gov/about/history/"
+        },
+        {
+          "title": "Federal Deposit Insurance Corporation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation"
+        }
+      ],
+      "readMoreUrl": "https://www.fdic.gov/about/history/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1944 hotel meeting that crowned the US dollar as king of world trade",
+      "body": "In July 1944, 730 delegates from 44 Allied nations gathered at a ski resort in Bretton Woods, New Hampshire, to rebuild the shattered global economy. They created the International Monetary Fund and the World Bank, linking world currencies directly to the US dollar at fixed exchange rates. In turn, the United States promised to redeem dollars for gold at exactly $35 per ounce, establishing the dollar as the anchor of modern global finance.",
+      "imageWikipediaTitle": "Bretton Woods Conference",
+      "sources": [
+        {
+          "title": "The Bretton Woods Conference, 1944",
+          "publisher": "Office of the Historian, U.S. Department of State",
+          "url": "https://history.state.gov/milestones/1937-1945/bretton-woods"
+        },
+        {
+          "title": "Bretton Woods system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bretton_Woods_system"
+        }
+      ],
+      "readMoreUrl": "https://history.state.gov/milestones/1937-1945/bretton-woods",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What fundamental economic mistake does the Parable of the Broken Window illustrate?",
+      "options": [
+        "Believing that repairing destruction creates new wealth",
+        "Assuming that price controls prevent inflation",
+        "Overestimating the effect of luxury taxes",
+        "Ignoring the delay in monetary policy transmission"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bastiat showed that repairing damage merely restores what was lost, redirecting resources away from productive new goods."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which financial innovation was introduced by the Dutch East India Company in 1602?",
+      "options": [
+        "The first publicly traded corporate stock",
+        "The first paper banknote",
+        "The first government-backed bond",
+        "The first fiat currency"
+      ],
+      "correctIndex": 0,
+      "explanation": "The VOC became the world's first publicly traded company by issuing transferable shares on the Amsterdam Stock Exchange."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to William Bengen's 4% rule, what can a retiree safely do with a balanced portfolio?",
+      "options": [
+        "Withdraw 4% in year one and adjust that sum for inflation annually for 30 years",
+        "Withdraw exactly 4% of the remaining balance every single year indefinitely",
+        "Invest 4% of their paycheck into index funds to retire in 15 years",
+        "Keep 4% of their portfolio in physical gold to hedge against hyperinflation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bengen's rule specifies withdrawing 4% of the initial portfolio value, then adjusting that dollar amount annually for inflation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How much money has been lost by depositors in FDIC-insured accounts due to bank failures since 1934?",
+      "options": [
+        "Zero dollars",
+        "Roughly $2.4 billion",
+        "Around $150 million",
+        "Over $50 billion"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since its insurance began in 1934, the FDIC has covered 100% of insured deposits in every bank failure."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Under the 1944 Bretton Woods agreement, at what fixed price did the US agree to redeem dollars for gold?",
+      "options": [
+        "$35 per ounce",
+        "$20.67 per ounce",
+        "$50 per ounce",
+        "$100 per ounce"
+      ],
+      "correctIndex": 0,
+      "explanation": "The US pegged the dollar to gold at $35 an ounce, and foreign nations pegged their currencies to the dollar."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "At its peak valuation during the 1630s, what was the estimated modern equivalent value of the Dutch East India Company?",
+      "answer": 7,
+      "min": 1,
+      "max": 25,
+      "unit": "trillion dollars",
+      "explanation": "At roughly 78 million Dutch guilders, the company's peak value reached an estimated $7 trillion in modern dollars."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Under William Bengen's classic retirement rule, what percentage of initial portfolio savings can be safely withdrawn in the first year?",
+      "answer": 4,
+      "min": 1,
+      "max": 15,
+      "unit": "%",
+      "explanation": "Bengen found that withdrawing 4% initially and adjusting for inflation gave a near-zero failure rate over 30 years."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Under the 1944 Bretton Woods agreement, how many US dollars were legally equal to one ounce of gold?",
+      "answer": 35,
+      "min": 5,
+      "max": 150,
+      "unit": "$",
+      "explanation": "The US pegged the dollar at $35 per troy ounce of gold, an anchor that held until 1971."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Natural disasters and war provide a net boost to the economy by stimulating construction and manufacturing.",
+      "answer": false,
+      "explanation": "The broken window fallacy proves that rebuilding merely replaces destroyed wealth that could have funded new productive growth."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "If an FDIC-insured bank fails, depositors typically lose a percentage of their insured savings.",
+      "answer": false,
+      "explanation": "The FDIC guarantees 100% of insured deposits; not a single penny of insured money has ever been lost since 1934."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-03T19:29:36.344Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Much of the White Sand on Tropical Beaches Is Parrotfish Poop",
+      "body": "Parrotfish graze on coral reefs to eat the algae living inside the rock. Using beak-like teeth, they scrape and chomp calcium carbonate coral skeletons, grinding the stone into fine powder with specialized teeth in their throats. Their digestive tracts absorb nutrients and excrete pure coral sand. A single large parrotfish can produce hundreds of pounds of fine white sand each year, shaping the coastlines of tropical islands.",
+      "imageWikipediaTitle": "Parrotfish",
+      "sources": [
+        {
+          "title": "Where does all the sand come from?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/sand.html"
+        },
+        {
+          "title": "Parrotfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Parrotfish"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/sand.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gila Monster Venom Paved the Way for Modern Diabetes Drugs",
+      "body": "Gila monster bites are excruciatingly painful, delivering venom through grooved teeth rather than hollow fangs. Yet tucked inside that defensive toxin is exendin-4, a peptide that mimics human GLP-1 to trigger insulin release only when blood sugar rises. In 2005, scientists synthesized this compound into exenatide, creating a groundbreaking class of drugs that transformed the treatment of type 2 diabetes and inspired modern weight-loss medications.",
+      "imageWikipediaTitle": "Gila monster",
+      "sources": [
+        {
+          "title": "Gila Monster",
+          "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+          "url": "https://nationalzoo.si.edu/animals/gila-monster"
+        },
+        {
+          "title": "Exenatide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Exenatide"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/gila-monster",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bringing Wolves Back to Yellowstone Changed the Shape of Its Rivers",
+      "body": "When gray wolves returned to Yellowstone in 1995 after a 70-year absence, their impact rippled far beyond elk populations. Wary elk began avoiding vulnerable valleys and river gorges, allowing heavily browsed willow and aspen groves to regenerate. The returning trees stabilized eroding riverbanks and provided materials for beavers to build dams. The resulting ponds created habitats for fish and birds while physically altering the park's river channels.",
+      "imageWikipediaTitle": "History of wolves in Yellowstone",
+      "sources": [
+        {
+          "title": "Wolf Restoration",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/yell/learn/nature/wolf-restoration.htm"
+        },
+        {
+          "title": "History of wolves in Yellowstone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_wolves_in_Yellowstone"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/yell/learn/nature/wolf-restoration.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cowbirds Run a Nesting Protection Racket on Other Birds",
+      "body": "Brown-headed cowbirds never build nests of their own, instead sneaking their eggs into the clutches of other bird species. If a targeted foster parent discovers the foreign egg and tosses it out, the cowbird mother often returns to exact revenge. She trashes the host's surviving eggs and nestlings, coercing the foster parents into accepting future cowbird eggs. Biologists call this retaliatory enforcement \"mafia behavior.\"",
+      "imageWikipediaTitle": "Brown-headed cowbird",
+      "sources": [
+        {
+          "title": "Brown-headed Cowbird Overview",
+          "publisher": "All About Birds",
+          "url": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/overview"
+        },
+        {
+          "title": "Brown-headed cowbird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brown-headed_cowbird"
+        }
+      ],
+      "readMoreUrl": "https://www.allaboutbirds.org/guide/Brown-headed_Cowbird/overview",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Saguaro Cactus May Take Nearly a Century to Grow Its First Arm",
+      "body": "The giant saguaro cactus of the Sonoran Desert is an exercise in extreme patience. Seedlings grow at a crawl, often measuring barely an inch tall after ten years of life under the desert sun. A saguaro typically requires 75 to 100 years just to sprout its first iconic branch arm. Fully mature plants can survive for over 150 years, expanding like accordions to absorb tons of water during rare flash rains.",
+      "imageWikipediaTitle": "Saguaro",
+      "sources": [
+        {
+          "title": "Saguaro FAQ",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/sagu/learn/nature/saguaro_faq.htm"
+        },
+        {
+          "title": "Saguaro",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saguaro"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/sagu/learn/nature/saguaro_faq.htm",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do parrotfish contribute significantly to the formation of tropical white sand beaches?",
+      "options": [
+        "By pulverizing seashells with their muscular tails",
+        "By eroding coastal cliffs while building nesting burrows",
+        "By grinding coral skeletons during feeding and excreting the sand",
+        "By filtering mineral sediment through specialized gills"
+      ],
+      "correctIndex": 2,
+      "explanation": "Parrotfish bite off chunks of coral to eat algae, grind the calcium carbonate skeletons with pharyngeal teeth, and excrete fine sand."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What medical breakthrough was developed from a peptide found in Gila monster venom?",
+      "options": [
+        "A blood-thinning drug for stroke prevention",
+        "A GLP-1 receptor agonist medication for type 2 diabetes",
+        "A local anesthetic stronger than novocaine",
+        "An immunosuppressant used in organ transplants"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exendin-4 from Gila monster venom mimics human GLP-1, leading to the diabetes drug exenatide."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did reintroducing wolves to Yellowstone lead to changes in the park's river channels?",
+      "options": [
+        "Wolves dug riverbank dens that rerouted streams",
+        "Wolves altered elk grazing patterns, allowing bank-stabilizing trees to regrow",
+        "Wolves preyed heavily on beaver colonies, destroying their dams",
+        "Wolves drove bison herds into rivers, trampling new paths"
+      ],
+      "correctIndex": 1,
+      "explanation": "Keeping elk moving allowed willows and aspens to regrow along riverbanks, preventing erosion and bringing back dam-building beavers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do female brown-headed cowbirds respond when a host bird rejects their parasitic egg?",
+      "options": [
+        "They abandon that host species permanently",
+        "They destroy the host bird's remaining eggs in retaliation",
+        "They immediately replace the ejected egg with two more",
+        "They provide food to the host to gain acceptance"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a behavior known as mafia behavior, cowbirds return to ransack the nest if the host ejects their egg, coercing future cooperation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Around what age does a wild saguaro cactus typically begin to grow its first iconic arm?",
+      "options": [
+        "5 to 10 years",
+        "20 to 30 years",
+        "75 to 100 years",
+        "140 to 160 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wild saguaros grow at an extremely slow pace, typically sprouting their first side branches only between 75 and 100 years of age."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Up to how many pounds of coral sand can a single adult parrotfish produce in one year?",
+      "answer": 840,
+      "min": 50,
+      "max": 2000,
+      "unit": "lbs",
+      "explanation": "A single parrotfish can grind and excrete up to 840 pounds (around 380 kg) of coral sand every year."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How old is a wild saguaro cactus typically before it grows its very first arm branch?",
+      "answer": 75,
+      "min": 10,
+      "max": 150,
+      "unit": "years",
+      "explanation": "Saguaros grow very slowly in the desert and generally do not grow their first arm until reaching 75 to 100 years of age."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Much of the fine white sand on tropical coral reef beaches consists of fish poop.",
+      "answer": true,
+      "explanation": "Parrotfish bite and grind calcium carbonate coral skeletons to eat algae, excreting thousands of tons of white sand across tropical beaches."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Animal venoms are purely destructive poisons with no practical medical applications.",
+      "answer": false,
+      "explanation": "A peptide discovered in Gila monster venom inspired exenatide, a groundbreaking drug used to manage type 2 diabetes."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Apex predators alter ecosystems almost exclusively by reducing prey numbers through direct hunting.",
+      "answer": false,
+      "explanation": "In Yellowstone, wolves changed elk behavior and grazing locations, allowing riverbank forests to regenerate and reshaping waterways."
+    }
+  ]
+}
