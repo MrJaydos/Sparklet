@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.449Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cut the brain in half, and two separate minds emerge",
+      "body": "In the 1960s, neurobiologist Roger Sperry studied patients whose corpus callosum—the thick bridge of nerve fibers linking the cerebral hemispheres—was surgically severed to treat severe epilepsy. Remarkably, the two halves functioned as distinct conscious systems. If a word flashed only to a patient's left visual field, processed by the right hemisphere, they could not verbally name it. Yet their left hand could pick out the matching object by touch without hesitation.",
+      "imageWikipediaTitle": "Corpus callosum",
+      "sources": [
+        {
+          "title": "Roger W. Sperry - Facts",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/medicine/1981/sperry/facts/"
+        },
+        {
+          "title": "Split-brain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Split-brain"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/medicine/1981/sperry/facts/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The patient who proved memory is not a single system",
+      "body": "In 1953, Henry Molaison underwent brain surgery removing his hippocampi to relieve severe epilepsy. The procedure destroyed his ability to store new long-term memories: he met his doctors every day as complete strangers. Yet when researchers asked him to trace a star while looking only at its mirror reflection, his hands mastered the task over days. His case proved that motor skills and conscious memories inhabit entirely separate neural circuits.",
+      "imageWikipediaTitle": "Hippocampus",
+      "sources": [
+        {
+          "title": "Remembering Henry G. Molaison (1926-2008)",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2649674/"
+        },
+        {
+          "title": "Henry Molaison",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Henry_Molaison"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2649674/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "IQ scores climbed dramatically across the entire twentieth century",
+      "body": "Throughout the twentieth century, raw performance on standardized intelligence tests rose relentlessly across the globe, a trend dubbed the Flynn effect. In industrialized nations, average scores climbed by roughly three IQ points every decade, meaning an average test-taker from 1920 would score far below average today. Because human genetics cannot shift that quickly, scientists attribute the increase to improved nutrition, expanded schooling, and environments dense with abstract visual information.",
+      "imageWikipediaTitle": "Flynn effect",
+      "sources": [
+        {
+          "title": "Are we getting smarter?",
+          "publisher": "American Psychological Association",
+          "url": "https://www.apa.org/monitor/2013/03/smarter"
+        },
+        {
+          "title": "Flynn effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flynn_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.apa.org/monitor/2013/03/smarter",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your eyes reveal whether a smile is genuinely felt or faked",
+      "body": "When you flash a polite, intentional smile, your motor cortex voluntarily fires the zygomaticus major muscle to pull the corners of your mouth upward. But in 1862, French anatomist Guillaume Duchenne discovered that heartfelt amusement activates an involuntary neural pathway. Genuine \"Duchenne smiles\" recruit the orbicularis oculi, bunching the cheeks and crinkling the skin around the eyes into crow's feet—a contraction that most people cannot consciously fake on command.",
+      "imageWikipediaTitle": "Duchenne smile",
+      "sources": [
+        {
+          "title": "Duchenne smile",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/duchenne-smile"
+        },
+        {
+          "title": "Duchenne smile",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duchenne_smile"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.apa.org/duchenne-smile",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "People work harder simply because they know they are being watched",
+      "body": "In the late 1920s, researchers at the Hawthorne Works electric plant in Illinois altered factory lighting to measure its impact on assembly workers. Surprisingly, whether lighting was brightened or drastically dimmed, productivity surged. Even when working conditions worsened, output outpaced baseline rates. The researchers concluded that the physical environment mattered far less than the social one: workers were motivated simply by being singled out, observed, and given attention.",
+      "imageWikipediaTitle": "Hawthorne effect",
+      "sources": [
+        {
+          "title": "Hawthorne effect",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/hawthorne-effect"
+        },
+        {
+          "title": "Hawthorne effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hawthorne_effect"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.apa.org/hawthorne-effect",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which structure connecting the brain's two cerebral hemispheres was severed in split-brain patients?",
+      "options": [
+        "The corpus callosum",
+        "The brainstem",
+        "The hippocampus",
+        "The optic chiasm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Severing the corpus callosum stopped severe seizures from spreading between hemispheres, revealing their independent processing abilities."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What type of memory did Patient H.M. demonstrate was still fully functioning despite his severe amnesia?",
+      "options": [
+        "Motor skill memory (procedural memory)",
+        "Remembering his doctors' names",
+        "Recalling what he ate for breakfast",
+        "Memorizing long lists of new vocabulary"
+      ],
+      "correctIndex": 0,
+      "explanation": "H.M. steadily improved at mirror-drawing tasks over multiple days, proving motor memories rely on circuits outside the hippocampus."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the Flynn effect?",
+      "options": [
+        "The steady rise in average IQ test scores over the twentieth century",
+        "The decline of short-term working memory capacity with age",
+        "The human tendency to overestimate personal cognitive abilities",
+        "The temporary boost in alertness triggered by novel environments"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Flynn effect refers to the sustained, worldwide increase in raw scores on intelligence tests across successive generations."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which muscle contraction distinguishes a genuine 'Duchenne smile' from a polite, fake one?",
+      "options": [
+        "The orbicularis oculi crinkling around the eyes",
+        "The zygomaticus major raising the mouth corners",
+        "The frontalis lifting the center of the forehead",
+        "The masseter tightening the jawline"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spontaneous amusement involuntarily recruits the orbicularis oculi around the eyes, producing crow's feet that are difficult to fake."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What primarily boosted worker productivity during the famous Hawthorne factory studies?",
+      "options": [
+        "The awareness that they were being observed and given attention",
+        "Brighter electric lighting installed on factory floors",
+        "Shorter shifts and higher hourly wages",
+        "Cooler indoor air temperatures during summer shifts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Output rose regardless of whether lighting was increased or dimmed because workers responded positively to being watched and studied."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By roughly how many points did average IQ test scores climb per decade in industrialized nations during the 20th century?",
+      "answer": 3,
+      "min": 1,
+      "max": 15,
+      "unit": "points",
+      "explanation": "Dubbed the Flynn effect, raw IQ performance climbed at a steady rate of about 3 points per decade throughout the twentieth century."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "All long-term memories are stored and processed through a single unified brain system.",
+      "answer": false,
+      "explanation": "Patient H.M. proved that conscious episodic memory and unconscious motor skills rely on distinct, independent brain systems."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A genuine smile can be distinguished from a polite fake by looking at the person's eyes.",
+      "answer": true,
+      "explanation": "Genuine Duchenne smiles involuntarily contract the orbicularis oculi around the eyes, creating crinkles that fake smiles rarely produce."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Improving factory lighting was what increased worker productivity in the Hawthorne experiments.",
+      "answer": false,
+      "explanation": "Production rose even when researchers dimmed the lights; the real driver was the psychological impact of being observed."
+    }
+  ]
+}

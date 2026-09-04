@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.450Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Human breast milk contains complex sugars that babies cannot digest",
+      "body": "The third most abundant ingredient in human breast milk is a family of sugars called oligosaccharides, yet human infants lack the enzymes to digest them. Instead of nourishing the baby directly, these sugars pass untouched into the large intestine. There, they exclusively feed beneficial gut microbes, particularly Bifidobacterium infantis. This friendly bacterium consumes the sugars, crowds out dangerous pathogens, and helps seal the infant's gut wall against infections.",
+      "imageWikipediaTitle": "Breast milk",
+      "sources": [
+        {
+          "title": "Human Milk Oligosaccharides: Every Baby Needs a Sugar Mama",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3406611/"
+        },
+        {
+          "title": "Human milk oligosaccharide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_milk_oligosaccharide"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3406611/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your lungs can balance your blood's acidity in a matter of seconds",
+      "body": "Your blood must maintain a strictly controlled pH between 7.35 and 7.45 to sustain life. Whenever metabolic waste causes acidity to rise, your brainstem detects the shift and instantly accelerates your breathing. Because carbon dioxide dissolved in blood forms carbonic acid, blowing off excess carbon dioxide through faster exhalations swiftly lowers acidity. While your kidneys take hours or days to balance pH, your respiratory system accomplishes it in seconds.",
+      "imageWikipediaTitle": "Acid–base homeostasis",
+      "sources": [
+        {
+          "title": "Physiology, Acid Base Balance",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507807/"
+        },
+        {
+          "title": "Acid–base homeostasis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Acid%E2%80%93base_homeostasis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK507807/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Placebo pills can relieve symptoms even when you know they are fake",
+      "body": "Medical convention long held that placebos require deception to work. Yet multiple clinical trials have shown that 'open-label placebos'—inert pills openly described as inactive sugar capsules—provide significant symptom relief for conditions like chronic back pain and irritable bowel syndrome. The physical act of taking a pill, combined with a supportive clinical environment, activates conditioned neurobiological pathways that release genuine pain-dampening neurotransmitters in the brain, completely independent of conscious belief.",
+      "imageWikipediaTitle": "Placebo",
+      "sources": [
+        {
+          "title": "The power of the placebo effect",
+          "publisher": "Harvard Health Publishing",
+          "url": "https://www.health.harvard.edu/mental-health/the-power-of-the-placebo-effect"
+        },
+        {
+          "title": "Open-label placebo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Open-label_placebo"
+        }
+      ],
+      "readMoreUrl": "https://www.health.harvard.edu/mental-health/the-power-of-the-placebo-effect",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body drops its core temperature by radiating heat through your feet",
+      "body": "To initiate sleep, your body must cool its core by about one to two degrees Fahrenheit. Roughly two hours before your habitual bedtime, your circadian clock triggers vasodilation in your extremities, opening blood vessels in your hands and feet. By shunting warm blood to the skin's surface, your extremities act like biological radiators, dumping heat into the surrounding air. This rapid internal cooling signals the brain that it is time to drift into slumber.",
+      "imageWikipediaTitle": "Thermoregulation",
+      "sources": [
+        {
+          "title": "Physiology, Temperature Regulation",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507838/"
+        },
+        {
+          "title": "Thermoregulation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thermoregulation"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK507838/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Standing up quickly pulls nearly a liter of blood into your lower body",
+      "body": "When you stand up, gravity instantly tugs between 300 and 800 milliliters of blood downward into the veins of your legs and abdomen. This sudden pooling briefly reduces blood return to the heart, causing your blood pressure to dip. Specialized pressure sensors in your carotid arteries and aorta, called baroreceptors, detect the drop within a heartbeat. They trigger an immediate reflex that constricts peripheral blood vessels and speeds up your heart, preventing you from fainting.",
+      "imageWikipediaTitle": "Orthostatic hypotension",
+      "sources": [
+        {
+          "title": "Orthostatic Hypotension",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK448192/"
+        },
+        {
+          "title": "Orthostatic hypotension",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Orthostatic_hypotension"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448192/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does human breast milk contain complex sugars that infants lack the enzymes to digest?",
+      "options": [
+        "They exclusively feed beneficial gut bacteria that protect against infection",
+        "They serve as an emergency calorie reserve for later developmental stages",
+        "They are nonfunctional waste products of mammary cell metabolism",
+        "They exist to condition the infant's tongue to recognize sweetness"
+      ],
+      "correctIndex": 0,
+      "explanation": "Human milk oligosaccharides pass undigested to the colon, where they specifically nourish beneficial bacteria like Bifidobacterium infantis."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do your lungs rapidly lower blood acidity when it rises above safe levels?",
+      "options": [
+        "By exhaling carbon dioxide more rapidly",
+        "By absorbing atmospheric nitrogen into the bloodstream",
+        "By slowing breathing to accumulate extra oxygen",
+        "By secreting bicarbonate directly into pulmonary capillaries"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dissolved carbon dioxide forms carbonic acid in blood, so breathing faster to expel CO2 quickly raises pH back into the normal range."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What distinguishes an 'open-label placebo' in clinical medicine?",
+      "options": [
+        "Patients are explicitly told that the pill contains no active medicine",
+        "The medication is made available over the counter without a prescription",
+        "Neither the doctor nor the patient knows who received the inert pill",
+        "The inactive pill is replaced with an active drug halfway through the trial"
+      ],
+      "correctIndex": 0,
+      "explanation": "In open-label placebo trials, patients take sugar pills knowing full well they are inactive, yet frequently experience measurable symptom relief."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does your body naturally lower its core temperature before you fall asleep?",
+      "options": [
+        "By opening blood vessels in the hands and feet to radiate heat away",
+        "By temporarily shutting down mitochondrial metabolic activity",
+        "By inducing heavy sweating across the torso",
+        "By diverting all warm blood exclusively into the liver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vasodilation in the hands and feet shunts warm core blood to the skin's surface, acting like radiators to dump heat into the surrounding air."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which sensory receptors keep you from fainting when you stand up by detecting drops in blood pressure?",
+      "options": [
+        "Baroreceptors in the carotid arteries and aorta",
+        "Proprioceptors in the knee and ankle joints",
+        "Osmoreceptors in the hypothalamus",
+        "Photoreceptors in the retina"
+      ],
+      "correctIndex": 0,
+      "explanation": "Baroreceptors detect the sudden drop in arterial stretch caused by gravity pooling blood downward, triggering rapid vessel constriction and heart rate acceleration."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "By roughly how many degrees Fahrenheit does your core body temperature drop to help initiate sleep?",
+      "answer": 2,
+      "min": 0,
+      "max": 8,
+      "unit": "°F",
+      "explanation": "A core temperature drop of 1 to 2°F (around 0.5 to 1°C) is an essential biological trigger for sleep onset."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "When you suddenly stand upright, up to how many milliliters of blood can gravity pull down into your lower body?",
+      "answer": 800,
+      "min": 100,
+      "max": 2000,
+      "unit": "mL",
+      "explanation": "Gravity can pull 300 to 800 mL of blood into your legs and abdomen when you stand, requiring immediate baroreceptor reflexes to maintain consciousness."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Every major nutrient in breast milk is meant to be digested and absorbed by the baby's body",
+      "answer": false,
+      "explanation": "The third most abundant component, oligosaccharides, cannot be digested by the infant at all and exists solely to nourish beneficial gut microbes."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Placebos only provide medical relief if patients are tricked into believing they received real medicine",
+      "answer": false,
+      "explanation": "Multiple clinical trials show open-label placebos provide significant symptom relief even when patients are fully aware their pill is chemically inert."
+    }
+  ]
+}

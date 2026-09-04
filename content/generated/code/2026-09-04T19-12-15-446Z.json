@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.446Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a rarely used keyboard symbol was drafted into email",
+      "body": "In 1971, computer engineer Ray Tomlinson created the first network email system on ARPANET. He needed a separator character to stand between a user's name and their host machine—one that wouldn't appear in anyone's personal name. Scanning his Model 33 Teletype keyboard, he chose the @ sign, an obscure commercial shorthand meaning \"at the rate of.\" The keystroke revived a neglected punctuation mark and redefined modern digital identity.",
+      "imageWikipediaTitle": "Ray Tomlinson",
+      "sources": [
+        {
+          "title": "Ray Tomlinson",
+          "publisher": "Internet Hall of Fame",
+          "url": "https://www.internethalloffame.org/inductees/ray-tomlinson"
+        },
+        {
+          "title": "Ray Tomlinson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ray_Tomlinson"
+        }
+      ],
+      "readMoreUrl": "https://www.internethalloffame.org/inductees/ray-tomlinson",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A computer scientist invented the smiley to prevent online flame wars",
+      "body": "In September 1982, Carnegie Mellon University's digital bulletin board was plagued by misunderstanding. Sarcastic jokes regularly triggered fierce arguments because readers could not hear vocal inflection. Computer scientist Scott Fahlman posted a short proposal: mark humorous posts with :-) and serious ones with :-(. The simple typographic convention spread across ARPANET and universities within months, giving text-based digital culture its very first emotional punctuation.",
+      "imageWikipediaTitle": "Smiley",
+      "sources": [
+        {
+          "title": "Smiley Lore :-)",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cs.cmu.edu/~sef/sefSmiley.htm"
+        },
+        {
+          "title": "Smiley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Smiley"
+        }
+      ],
+      "readMoreUrl": "https://www.cs.cmu.edu/~sef/sefSmiley.htm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first webcam was built to monitor an office coffee pot",
+      "body": "In 1991, researchers in the computer lab at the University of Cambridge grew tired of walking down flights of stairs only to find the office coffee machine empty. To solve this, they pointed a video camera at the pot and wrote software to broadcast a 128-by-128 pixel grayscale feed to desktop monitors. In 1993, they connected the feed to the emerging World Wide Web, creating the internet's very first live webcam.",
+      "imageWikipediaTitle": "Trojan Room coffee pot",
+      "sources": [
+        {
+          "title": "The Trojan Room Coffee Pot",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/news/technology-20439301"
+        },
+        {
+          "title": "Trojan Room coffee pot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/technology-20439301",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The entire web's indexing traffic rules depend on an honor system",
+      "body": "In 1994, software engineer Martijn Koster was overwhelmed when an aggressive early web crawler repeatedly crashed his server. Rather than building a restrictive firewall, Koster designed the Robots Exclusion Protocol: a simple text file named robots.txt placed in a website's root directory. It tells automated crawlers which pages they should not visit. Because the file contains plain text instructions with no technical enforcement, search engines only respect it entirely by choice.",
+      "imageWikipediaTitle": "Robots.txt",
+      "sources": [
+        {
+          "title": "RFC 9309: Robots Exclusion Protocol",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc9309.html"
+        },
+        {
+          "title": "Robots.txt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robots.txt"
+        }
+      ],
+      "readMoreUrl": "https://www.rfc-editor.org/rfc/rfc9309.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first electronic spreadsheet made the personal computer essential",
+      "body": "In 1979, Harvard Business School student Dan Bricklin grew exhausted from manually recalculating financial ledger tables whenever a single number changed. Partnering with programmer Bob Frankston, he built VisiCalc for the Apple II. For the first time, changing one cell automatically updated all dependent formulas across the entire grid. VisiCalc became personal computing's original \"killer app\"—business executives bought Apple II computers by the thousands solely to run this single piece of software.",
+      "imageWikipediaTitle": "VisiCalc",
+      "sources": [
+        {
+          "title": "The Software Engine: VisiCalc",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/revolution/personal-computers/17/312"
+        },
+        {
+          "title": "VisiCalc",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/VisiCalc"
+        }
+      ],
+      "readMoreUrl": "https://www.computerhistory.org/revolution/personal-computers/17/312",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Ray Tomlinson choose the @ symbol when creating network email in 1971?",
+      "options": [
+        "It was the only punctuation mark available on his keyboard",
+        "It stood for 'address' in early military computing standards",
+        "It rarely appeared in people's names, avoiding confusion",
+        "It was mandated by ARPANET communication protocols"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tomlinson needed a separator character that would never naturally appear in a person's username, and the obscure accounting @ sign fit perfectly."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What problem prompted Scott Fahlman to propose the :-) emoticon in 1982?",
+      "options": [
+        "A shortage of available characters on early terminal keyboards",
+        "Readers misinterpreting sarcastic jokes on text bulletin boards",
+        "The need to compress emotional words to save network bandwidth",
+        "A competition to design the first digital corporate mascot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without body language or vocal tone, jokes on Carnegie Mellon's text boards caused serious flame wars, prompting Fahlman's punctuation fix."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What everyday problem led Cambridge researchers to create the world's first webcam?",
+      "options": [
+        "Tracking unauthorized entry into their server room at night",
+        "Checking whether an office coffee pot was empty without walking over",
+        "Streaming live lectures to remote university students",
+        "Monitoring outdoor weather conditions for campus staff"
+      ],
+      "correctIndex": 1,
+      "explanation": "Researchers got tired of trekking to the Trojan Room only to find the coffee pot empty, so they rigged a camera to display its level on desktop screens."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does a robots.txt file prevent automated web crawlers from scraping private web pages?",
+      "options": [
+        "It encrypts page contents with a dynamic cryptographic key",
+        "It blocks incoming IP addresses matching known search bots",
+        "It relies on crawlers voluntarily choosing to obey its text instructions",
+        "It redirects unauthorized bots to an infinite loop of empty pages"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Robots Exclusion Protocol has no technical enforcement mechanism; compliant search engines simply choose to respect the file's directives."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is VisiCalc considered personal computing's first 'killer application'?",
+      "options": [
+        "It was the first video game to ship on 5.25-inch floppy disks",
+        "It introduced graphical user interfaces and mouse navigation to businesses",
+        "People bought expensive Apple II computers solely to run this spreadsheet software",
+        "It was the first operating system capable of running multiple programs at once"
+      ],
+      "correctIndex": 2,
+      "explanation": "VisiCalc revolutionized financial forecasting so dramatically that businesses purchased Apple II machines specifically to use the program."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In what year did researchers connect the Trojan Room coffee pot camera to the web, creating the first internet webcam?",
+      "answer": 1993,
+      "min": 1980,
+      "max": 2005,
+      "unit": "",
+      "explanation": "The camera was rigged locally in 1991 and connected to the nascent World Wide Web in November 1993, running until 2001."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In what year was VisiCalc, the world's first electronic spreadsheet program, released?",
+      "answer": 1979,
+      "min": 1970,
+      "max": 1995,
+      "unit": "",
+      "explanation": "Dan Bricklin and Bob Frankston launched VisiCalc for the Apple II in 1979, transforming personal computers into serious business tools."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The @ symbol was invented in the 1970s specifically for computer email addresses.",
+      "answer": false,
+      "explanation": "The @ sign had existed for centuries as an accounting symbol meaning 'at the rate of' before Ray Tomlinson repurposed it for email in 1971."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Emoticons like :-) were originally created by graphic designers for early smartphone messaging.",
+      "answer": false,
+      "explanation": "Computer scientist Scott Fahlman proposed the typographic smiley on a Carnegie Mellon University bulletin board in 1982 to separate jokes from serious posts."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A robots.txt file provides cryptographically enforced security that blocks unauthorized web scrapers.",
+      "answer": false,
+      "explanation": "A robots.txt file is purely advisory; well-behaved search engines choose to obey it, but malicious bots can read and ignore it entirely."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.448Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 20-Year Apprenticeship Behind a Single Puppet",
+      "body": "In Japanese Bunraku puppet theater, bringing a single carved figure to life demands three visible puppeteers moving in synchronized harmony. Mastery is extraordinarily grueling: an apprentice must train for ten years just to operate the puppet's feet. Another ten years are required to handle the left arm. Only after two decades of silent discipline can a performer earn the right to control the head and right arm as master puppeteer.",
+      "imageWikipediaTitle": "Bunraku",
+      "sources": [
+        {
+          "title": "Ningyo Johruri Bunraku puppet theatre",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/ningyo-johruri-bunraku-puppet-theatre-00064"
+        },
+        {
+          "title": "Bunraku",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bunraku"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/ningyo-johruri-bunraku-puppet-theatre-00064",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Martial Art Disguised as an Acrobatic Dance",
+      "body": "In colonial Brazil, enslaved Africans developed a deadly system of unarmed combat while disguised right under the noses of their captors. Because practicing self-defense was strictly forbidden, practitioners masked strikes, sweeps, and evasions as an acrobatic dance accompanied by drums, singing, and the berimbau musical bow. Inside a circle of spectators called a roda, the music's tempo guided fighters, with specific rhythms sounding alarms to instantly turn combat back into harmless dance.",
+      "imageWikipediaTitle": "Capoeira",
+      "sources": [
+        {
+          "title": "Capoeira circle",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/capoeira-circle-00892"
+        },
+        {
+          "title": "Capoeira",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Capoeira"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/capoeira-circle-00892",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sacred Dancers Who Bend Fingers Backward",
+      "body": "Performers in the Royal Ballet of Cambodia achieve joint flexibility so extreme their fingers can curve almost entirely backward to meet their forearms. Training begins in early childhood with daily hand-stretching exercises. In Cambodian tradition, dancers act as sacred messengers between kings and gods. Their mesmerizing performances use a symbolic vocabulary of roughly 4,500 distinct hand and foot gestures, each silently depicting natural cycles like flowering, bearing fruit, or dying.",
+      "imageWikipediaTitle": "Royal Ballet of Cambodia",
+      "sources": [
+        {
+          "title": "Royal ballet of Cambodia",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/royal-ballet-of-cambodia-00060"
+        },
+        {
+          "title": "Royal Ballet of Cambodia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Royal_Ballet_of_Cambodia"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/royal-ballet-of-cambodia-00060",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How 19th-Century Whalers Etched Folk Art into Bone",
+      "body": "During whaling voyages that lasted three to five years, sailors endured months of unbroken boredom between hunts. To pass the idle hours, whalers turned waste materials into intricate folk art known as scrimshaw. Using sail needles and pocketknives, crewmen carved delicate scenes into sperm whale teeth, walrus tusks, and baleen. They rubbed the microscopic grooves with lampblack, soot, or squid ink to make portraits, sailing ships, and mythological figures vividly appear.",
+      "imageWikipediaTitle": "Scrimshaw",
+      "sources": [
+        {
+          "title": "Scrimshaw",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/nebe/learn/historyculture/scrimshaw.htm"
+        },
+        {
+          "title": "Scrimshaw",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scrimshaw"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/nebe/learn/historyculture/scrimshaw.htm",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Ireland Had to Flip Its Own National Emblem",
+      "body": "Ireland is the only sovereign country in the world to feature a musical instrument as its official national emblem: the medieval Gaelic harp. But when the newly formed Irish Free State went to register the emblem in 1922, it encountered an unexpected legal obstacle. Guinness Brewery had already trademarked the right-facing Brian Boru harp back in 1876. To avoid trademark infringement against the beloved stout maker, the government officially mirrored the harp to face left.",
+      "imageWikipediaTitle": "Coat of arms of Ireland",
+      "sources": [
+        {
+          "title": "Irish harping",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/irish-harping-01461"
+        },
+        {
+          "title": "Coat of arms of Ireland",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Ireland"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Ireland",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In traditional Japanese Bunraku puppet theater, what part of the puppet does an apprentice train ten years to control first?",
+      "options": [
+        "The head and eyebrows",
+        "The right hand and props",
+        "The feet and legs",
+        "The left arm and sleeves"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bunraku apprentices spend their first decade mastering the feet, another decade on the left arm, and only then may operate the head and right arm."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did enslaved practitioners in Brazil disguise capoeira as a dance?",
+      "options": [
+        "To practice lethal self-defense without enslavers noticing",
+        "To qualify for Catholic church festivals",
+        "To entertain plantation owners for extra wages",
+        "To synchronize communal field harvesting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Practicing combat was forbidden for enslaved people, so they concealed martial strikes and sweeps within dance rhythms and songs."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Roughly how many distinct codified gestures make up the classical repertoire of the Royal Ballet of Cambodia?",
+      "options": [
+        "Around 50",
+        "Around 350",
+        "Around 1,200",
+        "Around 4,500"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cambodian classical dance relies on roughly 4,500 distinct hand and foot gestures that silently express complex narratives and natural cycles."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What material did 19th-century whalers primarily carve to produce the folk art known as scrimshaw?",
+      "options": [
+        "Sperm whale teeth and bones",
+        "Discarded oak barrel staves",
+        "Lead sounding weights",
+        "Polished sea turtle shells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whalers used sailing needles to etch intricate scenes into sperm whale teeth, walrus tusks, and bone, highlighting the lines with soot."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does the official harp on Ireland's coat of arms face to the left?",
+      "options": [
+        "Guinness had already trademarked the right-facing harp",
+        "Celtic mythology forbade instruments facing eastward",
+        "A printing error on the 1922 constitution was never updated",
+        "King Henry VIII decreed that Irish emblems must face left"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guinness registered the right-facing Brian Boru harp as a trademark in 1876, prompting the Irish government to mirror it leftward in 1922."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many total years of apprenticeship must a Bunraku puppeteer complete before being permitted to operate the puppet's head?",
+      "answer": 20,
+      "min": 2,
+      "max": 40,
+      "unit": "years",
+      "explanation": "A Bunraku puppeteer spends 10 years mastering the feet and another 10 years on the left hand before touching the head."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly how many distinct gestures make up the storytelling vocabulary of the Royal Ballet of Cambodia?",
+      "answer": 4500,
+      "min": 100,
+      "max": 10000,
+      "unit": "gestures",
+      "explanation": "Cambodian classical dancers master roughly 4,500 distinct gestures, training from childhood to achieve the necessary flexibility."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Capoeira originated purely as an acrobatic folk dance for community celebrations.",
+      "answer": false,
+      "explanation": "Capoeira was developed by enslaved Africans as a lethal martial art, disguised as dance to avoid brutal punishment by enslavers."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Ireland is the only sovereign country in the world whose national emblem is a musical instrument.",
+      "answer": true,
+      "explanation": "The medieval harp has served as Ireland's national symbol for centuries, making it unique among all sovereign states."
+    }
+  ]
+}

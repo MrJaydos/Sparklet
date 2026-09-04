@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.447Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The set that broke mathematical logic",
+      "body": "In 1901, Bertrand Russell spotted a flaw in set theory. Consider the set of all sets that do not contain themselves. Does it contain itself? If it does, then by definition it must not. If it doesn't, then by definition it must. This contradiction proved that intuitive mathematics was fundamentally broken, forcing mathematicians to rebuild modern logic from scratch with strict new rules.",
+      "imageWikipediaTitle": "Bertrand Russell",
+      "sources": [
+        {
+          "title": "Russell's Paradox",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/russell-paradox/"
+        },
+        {
+          "title": "Russell's paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Russell%27s_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/russell-paradox/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The infinite-jackpot coin toss that no one will pay to play",
+      "body": "Imagine a casino game: a coin is tossed until it lands tails. If it lands tails on flip one, you win $2; flip two, $4; flip three, $8; doubling each time. Mathematically, the expected payout is infinite. Yet almost nobody would pay more than $20 to enter. Proposed by Nicolas Bernoulli in 1713, this paradox forced economists to realize that money has diminishing marginal utility—each extra dollar means less than the last.",
+      "imageWikipediaTitle": "Daniel Bernoulli",
+      "sources": [
+        {
+          "title": "The St. Petersburg Paradox",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/paradox-stpetersburg/"
+        },
+        {
+          "title": "St. Petersburg paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/St._Petersburg_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/paradox-stpetersburg/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why eyewitness testimony can never prove a miracle",
+      "body": "In 1748, philosopher David Hume argued that human testimony can never rationally establish a miracle. By definition, a miracle violates the laws of nature—laws confirmed by uniform, constant human experience across history. For a report to be believable, it must be more miraculous that the witness is mistaken or lying than that the laws of physics were suspended. Hume concluded that deception and error are always the more probable explanation.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "Miracles",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/miracles/"
+        },
+        {
+          "title": "Of Miracles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Of_Miracles"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/miracles/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The demon that tests whether you truly love your life",
+      "body": "Friedrich Nietzsche proposed a haunting thought experiment in 1882: what if a demon revealed that you must live your exact life over and over for eternity, with every pain, joy, and mistake repeated identically? Would you collapse in despair, or rejoice? Nietzsche called this the ultimate test of psychological greatness: \"amor fati,\" or loving your fate so completely that you would willingly choose to repeat every second forever.",
+      "imageWikipediaTitle": "Friedrich Nietzsche",
+      "sources": [
+        {
+          "title": "Friedrich Nietzsche",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/nietzsche/"
+        },
+        {
+          "title": "Eternal return",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eternal_return"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/nietzsche/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the state has no right to protect you from yourself",
+      "body": "In 1859, John Stuart Mill published the \"harm principle,\" drawing a radical line around personal liberty. He argued that society can only rightfully use power over an individual to prevent harm to others. If an adult engages in self-destructive habits that affect only themselves, the state has no right to intervene. Advice and persuasion are permissible, but coercion is not: over their own body and mind, the individual is sovereign.",
+      "imageWikipediaTitle": "John Stuart Mill",
+      "sources": [
+        {
+          "title": "John Stuart Mill's Moral and Political Philosophy",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/mill-moral-political/"
+        },
+        {
+          "title": "Harm principle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harm_principle"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/mill-moral-political/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What logical contradiction did Bertrand Russell identify in naive set theory?",
+      "options": [
+        "A set of all sets that do not contain themselves cannot consistently contain or exclude itself",
+        "Prime numbers cannot be uniquely factored within infinite sets",
+        "Zero cannot be defined without assuming the existence of negative numbers",
+        "Statements about the future cannot have a determined truth value"
+      ],
+      "correctIndex": 0,
+      "explanation": "If the set contains itself, its definition forbids it from doing so; if it does not contain itself, its definition requires it to."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do people refuse to pay large sums to enter the St. Petersburg coin-toss game despite its infinite expected value?",
+      "options": [
+        "Money has diminishing marginal utility, meaning massive future payouts are valued far less",
+        "Casinos historically rigged the coin flips to prevent payouts beyond five rounds",
+        "The probability of flipping tails on the first toss is mathematically zero",
+        "Expected value formulas do not apply to games with independent coin tosses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Economists solved the paradox by showing that each additional dollar provides less subjective utility, so an infinite theoretical payout has finite practical value."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to David Hume, why can witness testimony never establish that a miracle took place?",
+      "options": [
+        "Witness deception or error is always more probable than a violation of natural laws",
+        "Ancient witnesses lacked the scientific instruments required to record physical anomalies",
+        "Miracles only occur in private, preventing multiple independent observers",
+        "Historical testimony loses half its credibility with every passing century"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hume argued that because laws of nature are backed by uniform, universal experience, it is always statistically more likely that a witness is mistaken or lying."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was Friedrich Nietzsche's primary goal in presenting the concept of eternal recurrence?",
+      "options": [
+        "To test whether a person can psychologically affirm and embrace every detail of their life",
+        "To mathematically prove that time operates as a closed circular loop",
+        "To provide a theological argument for the immortality of the human soul",
+        "To demonstrate that human history inevitably declines over repeating cycles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nietzsche used eternal recurrence as a thought experiment to assess \"amor fati\"—whether someone loves their life enough to willingly relive every moment identically."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Under John Stuart Mill's harm principle, when is society justified in coercively interfering with an adult's choices?",
+      "options": [
+        "Only when their actions cause harm to other people",
+        "Whenever their actions are harmful to their own physical health",
+        "When their choices violate the established religious traditions of the community",
+        "Whenever a democratic majority votes that their behavior is morally corrupting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mill held that an individual has absolute sovereignty over their own body and mind, so coercion is only legitimate to prevent harm to others."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "A game with an infinite mathematical expected value is always worth paying any finite price to enter.",
+      "answer": false,
+      "explanation": "Because money has diminishing marginal utility, rational individuals will only pay a small sum (typically under $25) to enter the St. Petersburg gamble despite its infinite expected payout."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "David Hume argued that it is always more rational to doubt an eyewitness than to believe a miracle occurred.",
+      "answer": true,
+      "explanation": "Hume argued that because natural laws are supported by uniform experience, human error or dishonesty is always more probable than a suspension of physics."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Under Mill's harm principle, the state can legally stop competent adults from harming themselves.",
+      "answer": false,
+      "explanation": "Mill argued that society can only legitimately use coercive power to prevent harm to others; an individual has sovereign autonomy over their own body and mind."
+    }
+  ]
+}

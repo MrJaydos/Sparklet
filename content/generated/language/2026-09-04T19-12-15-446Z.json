@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.446Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Persian reveals an ancient Indo-European bond",
+      "body": "English and Persian share deep ancestral roots as Indo-European languages, and counting makes that kinship obvious. To count to three in Persian, say ۱, ۲, and ۳: یک (yek, pronounced \"yehk\"), دو (do, pronounced \"doh\"), and سه (se, pronounced \"seh\"). While \"do\" and \"se\" sound remarkably close to Spanish dos and tres or French deux and trois, they are not modern borrowings—they evolved naturally from the same prehistoric mother tongue thousands of years ago.",
+      "imageWikipediaTitle": "Persian language",
+      "sources": [
+        {
+          "title": "Persian language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Persian-language"
+        },
+        {
+          "title": "Numbers in Persian",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/persian.htm"
+        },
+        {
+          "title": "Indo-European languages",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indo-European_languages"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Persian-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the formal Russian greeting wishes you good health",
+      "body": "In Russia, greeting someone respectfully is an act of well-wishing. The standard formal greeting is Здравствуйте (zdravstvuyte, pronounced \"ZDRAHST-vuy-tyeh\"). While commonly translated as \"hello,\" it is grammatically an imperative command from the Old East Slavic root zdravie, meaning health. When addressing an elder, teacher, or stranger with Здравствуйте, you are literally declaring: \"Be healthy!\" A shorter, informal greeting among close friends is the casual Привет (privet, pronounced \"pree-VYET\").",
+      "imageWikipediaTitle": "Russian language",
+      "sources": [
+        {
+          "title": "Russian language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Russian-language"
+        },
+        {
+          "title": "Russian language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Russian_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Russian-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your mortgage is etymologically a \"dead pledge\"",
+      "body": "Buying a home often involves a mortgage, a word with an unexpectedly grim origin. Coined in Law French during the Middle Ages, \"mortgage\" combines the Old French mort (dead) and gage (pledge). Medieval jurists, including 17th-century English judge Edward Coke, explained why: the pledge was considered \"dead\" because it terminated under one of two conditions. Either the borrower paid off the debt, killing the loan, or failed to pay, forfeiting the property and killing their ownership forever.",
+      "imageWikipediaTitle": "Mortgage loan",
+      "sources": [
+        {
+          "title": "Definition of MORTGAGE",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/mortgage"
+        },
+        {
+          "title": "mortgage (n.)",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/mortgage"
+        },
+        {
+          "title": "Mortgage loan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mortgage_loan"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/mortgage",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why every window was originally an \"eye of the wind\"",
+      "body": "Long before modern glass panes insulated our living rooms, Nordic houses relied on simple wall or roof openings to admit daylight and vent hearth smoke. English adopted the word \"window\" in the early 13th century from Old Norse vindauga. The compound merges vindr (wind) and auga (eye). To early Norse speakers, an unglazed portal was quite literally a \"wind-eye\"—an opening where breezes rushed through while offering the house a visual portal to the outside world.",
+      "imageWikipediaTitle": "Window",
+      "sources": [
+        {
+          "title": "Definition of WINDOW",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/window"
+        },
+        {
+          "title": "window (n.)",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/window"
+        },
+        {
+          "title": "Window",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Window"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/window",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Mandarin speakers never truly say \"goodbye\"",
+      "body": "English \"goodbye\" originated as a contraction of \"God be with ye,\" marking a solemn final departure. In Mandarin Chinese, however, parting ways is framed as a promise of reunion. The standard everyday farewell is 再见 (zàijiàn, pronounced \"dzai-jyen\"). It combines two simple characters: 再 (zài), meaning \"again\" or \"once more,\" and 见 (jiàn), meaning \"to see.\" Rather than declaring a final farewell, speakers literally reassure each other that they will \"see you again.\"",
+      "imageWikipediaTitle": "Chinese characters",
+      "sources": [
+        {
+          "title": "Chinese languages",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Chinese-languages"
+        },
+        {
+          "title": "Mandarin Chinese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_Chinese"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Chinese-languages",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which language family does Persian belong to, explaining why its numbers sound like Spanish or French?",
+      "options": [
+        "Indo-European",
+        "Afroasiatic",
+        "Sino-Tibetan",
+        "Turkic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Persian is an Indo-European language, sharing an ancient common ancestor with Romance, Germanic, and Slavic tongues."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the formal Russian greeting \"Здравствуйте\" (zdravstvuyte) literally command the listener to do?",
+      "options": [
+        "Be healthy",
+        "Bow your head",
+        "Speak peacefully",
+        "Welcome a friend"
+      ],
+      "correctIndex": 0,
+      "explanation": "Здравствуйте stems from the Old East Slavic root for health (zdravie), literally wishing health upon the recipient."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the literal Old French meaning of the compound word \"mortgage\"?",
+      "options": [
+        "Dead pledge",
+        "Heavy debt",
+        "Home contract",
+        "Bank fee"
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Mortgage\" pairs mort (dead) with gage (pledge) because the deal dies when paid in full or forfeited."
+    },
+    {
+      "cardIndex": 3,
+      "question": "The English word \"window\" originated from an Old Norse compound literally meaning what?",
+      "options": [
+        "Wind-eye",
+        "Sun-door",
+        "Sky-frame",
+        "Air-hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Old Norse vindauga joined vindr (wind) and auga (eye) to describe an unglazed wall opening."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What do the two characters in the Mandarin farewell 再见 (zàijiàn) literally mean?",
+      "options": [
+        "See again",
+        "Walk safely",
+        "Good journey",
+        "Peace returns"
+      ],
+      "correctIndex": 0,
+      "explanation": "再 (zài) means \"again\" and 见 (jiàn) means \"to see,\" turning farewells into a promise to meet once more."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Persian numbers sound like European numbers because they were borrowed from French during colonial trade.",
+      "answer": false,
+      "explanation": "Persian and European languages both belong to the Indo-European family, inheriting similar numbers from a common ancestor."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The formal Russian greeting Здравствуйте literally translates to \"good day.\"",
+      "answer": false,
+      "explanation": "Здравствуйте is an imperative form derived from the Old East Slavic root zdravie, literally commanding the listener to be healthy."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The English word \"window\" is historically related to the word \"wind.\"",
+      "answer": true,
+      "explanation": "It comes from the Old Norse compound vindauga, meaning \"wind-eye,\" combining vindr (wind) and auga (eye)."
+    }
+  ]
+}

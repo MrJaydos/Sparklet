@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.448Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Astronauts in orbit aren't weightless because gravity is gone",
+      "body": "At the altitude of the International Space Station—roughly 400 kilometers up—Earth's gravity is still nearly 90 percent as strong as on the ground. Astronauts float not because gravity vanished, but because they are in constant free fall. The station hurtles sideways at 28,000 kilometers per hour, matching Earth's curvature so perfectly that it perpetually falls around the planet without ever hitting it.",
+      "imageWikipediaTitle": "International Space Station",
+      "sources": [
+        {
+          "title": "Is there gravity in space?",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/is-there-gravity-in-space"
+        },
+        {
+          "title": "Micro-g environment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Micro-g_environment"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/is-there-gravity-in-space",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn's majestic rings are remarkably, absurdly paper-thin",
+      "body": "Spanning up to 282,000 kilometers across, Saturn's ring system dwarfs entire planets, yet in most places the main rings are only about 10 meters thick. Made of billions of icy particles, from microscopic dust grains to bus-sized boulders, the rings are flattened by constant collisions. Proportionally, this cosmic structure is thousands of times thinner than a razor blade, or a sheet of paper stretched across a football stadium.",
+      "imageWikipediaTitle": "Rings of Saturn",
+      "sources": [
+        {
+          "title": "Saturn's rings",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Saturn_s_rings"
+        },
+        {
+          "title": "Rings of Saturn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rings_of_Saturn"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Saturn_s_rings",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A lunar eclipse bathes the Moon in every sunset on Earth",
+      "body": "When Earth slips directly between the Sun and the Moon, you might expect total darkness. Instead, the Moon glows a ghostly reddish copper. Earth's atmosphere acts like a spherical lens, scattering away shorter blue wavelengths of sunlight while bending the remaining red and orange light into the shadow. An astronaut standing on the eclipsed Moon would look up to see Earth encircled by a brilliant red ring of every sunrise and sunset happening at once.",
+      "imageWikipediaTitle": "Lunar eclipse",
+      "sources": [
+        {
+          "title": "What is a lunar eclipse?",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/what-is-a-lunar-eclipse"
+        },
+        {
+          "title": "Lunar eclipse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lunar_eclipse"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/what-is-a-lunar-eclipse",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "High and low pitches travel at different speeds on Mars",
+      "body": "When NASA's Perseverance rover recorded the first audio from Mars, scientists discovered an unexpected acoustic quirk. In the cold, low-pressure atmosphere of carbon dioxide, sound travels at roughly 240 meters per second, compared to 340 on Earth. Even stranger, higher frequencies above 400 hertz travel roughly 10 meters per second faster than bass notes. On Mars, an orchestra playing in the distance would arrive scrambled, with treble reaching your ears before bass.",
+      "imageWikipediaTitle": "Perseverance (rover)",
+      "sources": [
+        {
+          "title": "NASA's Perseverance Rover Listens to Martian Sounds",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/nasas-perseverance-rover-listens-to-martian-sounds"
+        },
+        {
+          "title": "Atmosphere of Mars",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Mars"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/nasas-perseverance-rover-listens-to-martian-sounds",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hundreds of mature Earth trees grew from seeds that orbited the Moon",
+      "body": "In 1971, Apollo 14 astronaut Stuart Roosa carried approximately 500 tree seeds inside his personal kit. While his crewmates walked the lunar surface, Roosa and his botanical payload orbited the Moon 34 times. Back on Earth, the US Forest Service germinated the seeds alongside control batches to study the effects of space exposure. Nearly all sprouted into healthy seedlings, producing hundreds of famous \"Moon Trees\" that flourish in parks and arboretums worldwide today.",
+      "imageWikipediaTitle": "Moon tree",
+      "sources": [
+        {
+          "title": "The 'Moon Trees'",
+          "publisher": "NASA Goddard Space Flight Center",
+          "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/moon_tree.html"
+        },
+        {
+          "title": "Moon tree",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moon_tree"
+        }
+      ],
+      "readMoreUrl": "https://nssdc.gsfc.nasa.gov/planetary/lunar/moon_tree.html",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do astronauts aboard the International Space Station experience weightlessness?",
+      "options": [
+        "Earth's gravitational force drops to nearly zero in low orbit",
+        "The station and astronauts are in continuous free fall around Earth",
+        "The station's metal hull shields occupants from external gravity",
+        "Solar radiation pressure cancels out Earth's gravitational pull"
+      ],
+      "correctIndex": 1,
+      "explanation": "At the station's altitude, Earth's gravity is roughly 90% of what we feel on the surface. Astronauts float because they are falling around Earth at orbital velocity."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the typical thickness of Saturn's main ring system?",
+      "options": [
+        "About 10 meters",
+        "About 5 kilometers",
+        "About 500 kilometers",
+        "About 2,000 kilometers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite stretching over 280,000 kilometers wide, Saturn's main rings average only about 10 meters thick, making them proportionally thinner than a razor blade."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does the Moon take on a reddish hue during a total lunar eclipse?",
+      "options": [
+        "Lunar soil glows red when deprived of solar ultraviolet light",
+        "Earth's atmosphere refracts filtered red sunlight into the shadow",
+        "Infrared heat radiating from Earth's core bounces off the Moon",
+        "The Moon passes through a trail of red interstellar dust"
+      ],
+      "correctIndex": 1,
+      "explanation": "Earth's atmosphere scatters blue light away and refracts longer red wavelengths into Earth's shadow, projecting the light of all global sunrises and sunsets onto the Moon."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What acoustic peculiarity was recorded in the thin atmosphere of Mars?",
+      "options": [
+        "High-pitched frequencies travel faster than low-pitched bass notes",
+        "Sound can only propagate when vibrating through the ground",
+        "Sounds louder than a whisper trigger spontaneous sonic booms",
+        "Low frequencies travel three times faster than high frequencies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because of Mars's cold, low-pressure carbon dioxide atmosphere, sound travels slower overall (~240 m/s), and high pitches travel roughly 10 m/s faster than lower pitches."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the origin of the 'Moon Trees' growing across Earth today?",
+      "options": [
+        "They were grown in lunar soil samples returned by Apollo 11",
+        "Their seeds circled the Moon 34 times on Apollo 14",
+        "They were genetically engineered to survive in a lunar greenhouse",
+        "They were grown from specimens recovered inside an asteroid crater"
+      ],
+      "correctIndex": 1,
+      "explanation": "Astronaut Stuart Roosa carried around 500 tree seeds in his personal kit on Apollo 14. They orbited the Moon, were germinated back on Earth, and grew into healthy trees."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "At the altitude of the International Space Station, roughly what percentage of Earth's surface gravity remains?",
+      "answer": 90,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "About 90% of Earth's gravity is still present 400 km up; astronauts float because they are in constant free fall, not because gravity is absent."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What is the typical thickness of Saturn's main rings in meters?",
+      "answer": 10,
+      "min": 1,
+      "max": 500,
+      "unit": "m",
+      "explanation": "Despite spanning up to 282,000 kilometers across, Saturn's main rings average only about 10 meters thick."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Astronauts float in orbit because there is no gravity in space.",
+      "answer": false,
+      "explanation": "Gravity at the space station's altitude is nearly 90% as strong as on the ground. Astronauts float because they and their spacecraft are in continuous free fall."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Saturn's rings are thick slabs of solid ice hundreds of kilometers deep.",
+      "answer": false,
+      "explanation": "The rings are composed of loose, colliding icy particles and are extraordinarily flat, averaging only about 10 meters in thickness."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The red glow of a total lunar eclipse is caused by light from all of Earth's simultaneous sunrises and sunsets.",
+      "answer": true,
+      "explanation": "Earth's atmosphere scatters away blue light and bends the collective reddish rim of every sunrise and sunset directly onto the lunar surface."
+    }
+  ]
+}

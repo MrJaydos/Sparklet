@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.444Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Cornell student accidentally crippled 10% of the internet in 1988",
+      "body": "On November 2, 1988, Cornell graduate student Robert Tappan Morris released an experimental program to gauge the size of the internet. A programming mistake caused the code to reinfect machines repeatedly, spawning endless copies that consumed system memory and crashed computers. Within hours, the world's first major internet worm crippled roughly 6,000 Unix machines—about 10% of all internet-connected computers at the time. Morris became the first person convicted under the Computer Fraud and Abuse Act.",
+      "imageWikipediaTitle": "Morris worm",
+      "sources": [
+        {
+          "title": "The Morris Worm",
+          "publisher": "Federal Bureau of Investigation",
+          "url": "https://www.fbi.gov/history/famous-cases/morris-worm"
+        },
+        {
+          "title": "Morris worm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Morris_worm"
+        }
+      ],
+      "readMoreUrl": "https://www.fbi.gov/history/famous-cases/morris-worm",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tim Berners-Lee regretted adding the double slash to web addresses",
+      "body": "When Tim Berners-Lee created the World Wide Web at CERN, he designed Uniform Resource Locators (URLs) to navigate online documents. He added the double slash after \"http:\" to distinguish the server's network host from the file path. Berners-Lee later conceded that this syntax was completely unnecessary; a single colon or forward slash would have worked just as well. He apologized for the billions of wasted keystrokes, printed characters, and seconds spent typing the redundant characters worldwide.",
+      "imageWikipediaTitle": "Tim Berners-Lee",
+      "sources": [
+        {
+          "title": "Frequently Asked Questions by the Press - Tim Berners-Lee",
+          "publisher": "World Wide Web Consortium",
+          "url": "https://www.w3.org/People/Berners-Lee/FAQ.html"
+        },
+        {
+          "title": "Web inventor regrets double slash",
+          "publisher": "BBC News",
+          "url": "http://news.bbc.co.uk/2/hi/technology/8306235.stm"
+        },
+        {
+          "title": "Tim Berners-Lee",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+        }
+      ],
+      "readMoreUrl": "https://www.w3.org/People/Berners-Lee/FAQ.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first spreadsheet turned personal computers from toys into business machines",
+      "body": "In 1979, Harvard Business School student Dan Bricklin grew tired of manually recalculating giant financial ledgers on chalkboards. Teaming up with programmer Bob Frankston, he created VisiCalc for the Apple II. Before VisiCalc, microcomputers were largely dismissed as expensive toys for hobbyists. VisiCalc became computing's first \"killer app,\" letting accountants alter a single projection figure and recalculate the entire sheet instantly. Businesses bought tens of thousands of Apple II computers solely to run the program.",
+      "imageWikipediaTitle": "VisiCalc",
+      "sources": [
+        {
+          "title": "VisiCalc Software for the Apple II",
+          "publisher": "Smithsonian Institution",
+          "url": "https://americanhistory.si.edu/collections/search/object/nmah_1064563"
+        },
+        {
+          "title": "VisiCalc",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/VisiCalc"
+        },
+        {
+          "title": "VisiCalc",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/VisiCalc"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/search/object/nmah_1064563",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flash memory was named because of how quickly it erases data",
+      "body": "In the early 1980s, Toshiba engineer Fujio Masuoka invented a semiconductor memory that retained data without power and was erased electrically. While developing it, Masuoka's colleague Shoji Ariizumi watched the erasure process. Unlike older chips that required twenty minutes under ultraviolet light to wipe, the new memory cleared entire blocks simultaneously in a fraction of a second. Ariizumi remarked that this instant erasure resembled a camera flash, giving flash memory its enduring name.",
+      "imageWikipediaTitle": "Flash memory",
+      "sources": [
+        {
+          "title": "Fujio Masuoka",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/fujio-masuoka"
+        },
+        {
+          "title": "flash memory",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/technology/flash-memory"
+        },
+        {
+          "title": "Flash memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flash_memory"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/fujio-masuoka",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Apollo astronauts flew to the Moon using two-digit verbs and nouns",
+      "body": "To navigate lunar space, the Apollo Guidance Computer used a revolutionary control panel called the DSKY, or Display and Keyboard. Rather than typing full sentences or clicking icons, astronauts entered commands as two-digit \"Verb\" and \"Noun\" pairs. Verb 06 meant \"display,\" while Noun 36 represented \"time.\" To instruct the computer to display the engine burn duration or spacecraft velocity, an astronaut punched in \"VERB 06 NOUN 36\" followed by the Enter key, turning complex spaceflight telemetry into a compact numerical language.",
+      "imageWikipediaTitle": "Apollo Guidance Computer",
+      "sources": [
+        {
+          "title": "Computers in Spaceflight: The NASA Experience - Chapter Two: Computers On Board The Apollo Spacecraft",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/computers/Ch2-5.html"
+        },
+        {
+          "title": "Apollo Guidance Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/computers/Ch2-5.html",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What software bug caused the 1988 Morris Worm to crash thousands of internet-connected computers?",
+      "options": [
+        "It repeatedly reinfected the same machines until they ran out of memory",
+        "It permanently deleted the operating system's master boot record",
+        "It overheated computer processing units through an endless math loop",
+        "It encrypted user hard drives and demanded ransom payments"
+      ],
+      "correctIndex": 0,
+      "explanation": "Morris programmed the worm to reinfect a machine roughly 14% of the time to evade fake responses, causing runaway processes that exhausted system memory."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did Tim Berners-Lee initially include a double slash after 'http:' in web addresses?",
+      "options": [
+        "To separate the server's network host from the file path",
+        "To prevent web browsers from confusing text with images",
+        "To comply with an international telecommunications standard",
+        "To automatically encrypt communication with the server"
+      ],
+      "correctIndex": 0,
+      "explanation": "He added the double slash to separate the server's network location from the file path, but later admitted the distinction was completely unnecessary."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was VisiCalc considered personal computing's first 'killer app'?",
+      "options": [
+        "It prompted businesses to purchase Apple II computers specifically to run it",
+        "It introduced the first graphical mouse cursor to desktop operating systems",
+        "It allowed personal computers to communicate over the early internet",
+        "It eliminated the need for microcomputers to have physical keyboards"
+      ],
+      "correctIndex": 0,
+      "explanation": "VisiCalc turned the microcomputer from a hobbyist toy into an essential business machine, driving massive commercial sales of Apple II hardware."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did flash memory get its name at Toshiba in the 1980s?",
+      "options": [
+        "Its simultaneous block erasure reminded an engineer of a camera flash",
+        "The microchip emitted a small spark of light during data writes",
+        "It was developed originally to store digital camera photographs",
+        "The circuits relied on rapid electrical lightning-arc discharges"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engineer Shoji Ariizumi suggested 'flash' because the chip could erase large blocks of memory instantly, much like a camera flash."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did astronauts input operational commands into the Apollo Guidance Computer?",
+      "options": [
+        "By entering pairs of two-digit 'Verb' and 'Noun' numerical codes",
+        "By feeding punched paper tape rolls into the spacecraft console",
+        "By dictating verbal flight instructions into a cockpit microphone",
+        "By flipping switches mapped to celestial coordinates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Astronauts used the DSKY interface to enter numerical 'Verb' (action) and 'Noun' (data specification) pairs to command the computer."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of all computers connected to the nascent internet was disabled by the Morris Worm in 1988?",
+      "answer": 10,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "The Morris Worm incapacitated roughly 6,000 Unix machines, which represented about 10% of the entire internet at the time."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The creator of the world's first major internet worm designed it to destroy computer systems.",
+      "answer": false,
+      "explanation": "Robert Tappan Morris intended his code to passively measure the size of the internet, but an aggressive reinfection flaw caused machines to crash."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The double forward slash in 'http://' was an essential technical requirement for internet routing.",
+      "answer": false,
+      "explanation": "Web inventor Tim Berners-Lee admitted that the double slash was an unnecessary design choice that could have easily been left out."
+    }
+  ]
+}

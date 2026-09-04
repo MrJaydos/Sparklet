@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.447Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why buyers accept price hikes only when tied to rising costs",
+      "body": "When a blizzard hits, raising the price of a snow shovel from $15 to $20 feels like price gouging. In a landmark study by Daniel Kahneman and Richard Thaler, 82% of people judged that sudden hike unfair. Yet when the retailer showed that wholesale supplier costs had risen, customers overwhelmingly accepted the new price. To protect buyer trust during a price increase, always frame the change around rising external expenses rather than corporate margins.",
+      "imageWikipediaTitle": "Snow shovel",
+      "sources": [
+        {
+          "title": "Richard H. Thaler: Integrating Economics with Psychology",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/"
+        },
+        {
+          "title": "Transaction utility",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Transaction_utility"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why discounting upfront fees slashes customer engagement",
+      "body": "Slashing implementation fees might close a sale, but it often sabotages onboarding. Psychologists Hal Arkes and Catherine Blumer sold season theater tickets at three price tiers: full price, a minor discount, and a steep discount. Buyers who paid full price attended significantly more performances during the season than discounted buyers. When clients invest real money upfront, the sunk cost effect compels them to use the purchase. Deep discounts inadvertently signal that your product is disposable.",
+      "imageWikipediaTitle": "Ticket (admission)",
+      "sources": [
+        {
+          "title": "Psychology 2e",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/details/books/psychology-2e"
+        },
+        {
+          "title": "Sunk cost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunk_cost"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sunk_cost",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Context alone can make buyers pay 77% more for the same item",
+      "body": "How much would you pay for a cold bottle of beer on a sweltering beach? Behavioral economist Richard Thaler found participants were willing to pay a median of $2.65 if the beer came from a luxury resort hotel, but only $1.50 if bought from a rundown grocery store—even though both served the exact same drink. Customers evaluate transaction utility: the fairness of the markup based on the vendor's ambiance. Elevating your presentation environment instantly lifts price ceiling.",
+      "imageWikipediaTitle": "Beer bottle",
+      "sources": [
+        {
+          "title": "Richard H. Thaler: Integrating Economics with Psychology",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/"
+        },
+        {
+          "title": "Transaction utility",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Transaction_utility"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your secret negotiation power is what happens if you walk away",
+      "body": "Many negotiators think winning requires aggressive bluster, but research shows your true leverage is your Best Alternative to a Negotiated Agreement (BATNA). Negotiators who enter talks with an attractive, verified alternative consistently set bolder opening targets and concede far less margin. Without a solid backup plan, fear of walking away empty-handed forces you to accept unfavorable terms. Before entering any sales meeting, actively build and quantify your walkaway options to anchor your authority.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Organizational Behavior",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/details/books/organizational-behavior"
+        },
+        {
+          "title": "Best alternative to a negotiated agreement",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Best_alternative_to_a_negotiated_agreement",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your toughest sales competitor is usually 'doing nothing'",
+      "body": "In complex sales, up to 60% of qualified opportunities stall out in no decision. Economists William Samuelson and Richard Zeckhauser discovered that decision-makers exhibit a strong status quo bias, sticking with their current baseline even when superior alternatives exist. Taking action risks visible failure and regret, whereas doing nothing feels safe. To break buyer paralysis, stop pitching how great your solution is. Instead, dramatize the hidden, mounting cost of inaction to make staying still feel dangerous.",
+      "imageWikipediaTitle": "Status quo bias",
+      "sources": [
+        {
+          "title": "World Development Report 2015: Mind, Society, and Behavior",
+          "publisher": "World Bank",
+          "url": "https://www.worldbank.org/en/publication/wdr2015"
+        },
+        {
+          "title": "Status quo bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
+        }
+      ],
+      "readMoreUrl": "https://www.worldbank.org/en/publication/wdr2015",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did 82% of customers condemn a price increase on snow shovels in Kahneman and Thaler's study?",
+      "options": [
+        "The retailer raised prices during a blizzard without any increase in wholesale costs",
+        "The store refused to accept cash payments from winter storm victims",
+        "The quality of the snow shovels was noticeably worse than earlier models",
+        "Competitors were offering heavy seasonal discounts at the same time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Raising prices simply because demand spikes is viewed as unfair price gouging unless justified by an increase in wholesale supplier costs."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Arkes and Blumer's theater ticket experiment, which group attended the most performances?",
+      "options": [
+        "Patrons who received a steep 50% discount",
+        "Patrons who paid the full ticket price",
+        "Patrons who were given free tickets",
+        "Patrons who received a modest $2 discount"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paying full price engaged the sunk cost effect, compelling buyers to attend more shows so their financial investment would not go to waste."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In Richard Thaler's beer experiment, why were beachgoers willing to pay 77% more at a luxury resort than a grocery store?",
+      "options": [
+        "The resort beer included complimentary beachfront delivery",
+        "They perceived a higher price markup as fair given the resort's upscale ambiance",
+        "The resort served an artisanal craft beer rather than standard commercial lager",
+        "The grocery store sold the beer at room temperature rather than chilled"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buyers judge transaction utility; they willingly accept higher prices when the seller's prestige and surroundings justify the higher margin."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In negotiation theory, what does a strong BATNA (Best Alternative to a Negotiated Agreement) provide?",
+      "options": [
+        "Legal protection against buyer breaches of contract",
+        "A guaranteed right to make the opening price offer",
+        "The leverage and confidence to hold firm and walk away from unfavorable terms",
+        "An obligation to split the difference evenly with your counterpart"
+      ],
+      "correctIndex": 2,
+      "explanation": "Having a viable, appealing walkaway alternative eliminates desperation, enabling negotiators to defend their margins and push for better terms."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the most effective way to overcome a prospect's status quo bias during a sales pitch?",
+      "options": [
+        "Offer an immediate 50% discount to force a quick decision",
+        "Dramatize the mounting financial and operational costs of doing nothing",
+        "Expand the pitch to list every single product feature",
+        "Wait for the client's current vendor contracts to naturally expire"
+      ],
+      "correctIndex": 1,
+      "explanation": "Prospects cling to the status quo because change feels risky; highlighting the hidden costs of inaction makes staying put feel dangerous."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of consumers condemned a hardware store for raising snow shovel prices after a blizzard?",
+      "answer": 82,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "In Kahneman, Knetsch, and Thaler's study, 82% of respondents rated a price hike from $15 to $20 after a snowstorm as unfair without rising input costs."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In Richard Thaler's beach experiment, what percentage more were people willing to pay for beer from a luxury resort versus a grocery store?",
+      "answer": 77,
+      "min": 10,
+      "max": 200,
+      "unit": "%",
+      "explanation": "Participants accepted a median price of $2.65 from a luxury hotel versus $1.50 from a run-down grocery store—a 77% markup for the exact same beer."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of complex B2B sales opportunities are estimated to stall out in 'no decision' due to status quo bias?",
+      "answer": 60,
+      "min": 15,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Studies of enterprise sales pipelines show up to 60% of qualified deals stall because buyers default to sticking with their existing baseline."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Customers will tolerate sudden price increases during high-demand emergencies if local supply is scarce.",
+      "answer": false,
+      "explanation": "Consumers view emergency price spikes as unfair gouging unless the business transparently demonstrates that its own supplier costs increased."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Paying full price for a service actually makes customers use it more than if they received a steep discount.",
+      "answer": true,
+      "explanation": "Due to the sunk cost fallacy, customers who make a full upfront investment feel psychologically compelled to use the purchase to avoid waste."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A customer's willingness to pay depends solely on how much they value the physical product itself.",
+      "answer": false,
+      "explanation": "Buyers heavily weigh transaction utility, willingly paying significantly more for the exact same item when purchased in a prestigious environment."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The most effective leverage in negotiation comes from aggressive posturing and bluffing.",
+      "answer": false,
+      "explanation": "Research shows that genuine negotiation power comes from having a strong, concrete walkaway alternative (BATNA) rather than empty bluster."
+    }
+  ]
+}

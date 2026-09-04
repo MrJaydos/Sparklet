@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.443Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Handwashing Was Rejected by the Medical Elite",
+      "body": "In 1847, Hungarian physician Ignaz Semmelweis noticed a chilling pattern at Vienna General Hospital: women in a maternity ward staffed by doctors died of childbed fever at nearly triple the rate of women attended by midwives. He realized doctors were carrying cadaverous particles from autopsies straight to deliveries. When Semmelweis instituted handwashing with chlorinated lime, maternal mortality plummeted from over 18 percent to under 2 percent. Yet his medical peers ridiculed him, dismissing his findings for decades.",
+      "imageWikipediaTitle": "Ignaz Semmelweis",
+      "sources": [
+        {
+          "title": "Historical perspective on hand hygiene in health care",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK144018/"
+        },
+        {
+          "title": "Ignaz Semmelweis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK144018/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "No One Was Burned at the Stake in Salem",
+      "body": "Popular imagination often pictures the 1692 Salem witch trials ending with flames at the stake, but not a single accused person was burned. Under English law, witchcraft was considered a capital felony rather than heresy, which meant execution was carried out by hanging. Nineteen condemned men and women were hanged on Gallows Hill, one elderly farmer named Giles Corey was pressed to death under heavy stones, and at least five others died in prison.",
+      "imageWikipediaTitle": "Salem witch trials",
+      "sources": [
+        {
+          "title": "A Brief History of the Salem Witch Trials",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/a-brief-history-of-the-salem-witch-trials-175162489/"
+        },
+        {
+          "title": "Salem witch trials",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Salem_witch_trials"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/history/a-brief-history-of-the-salem-witch-trials-175162489/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Broom Closet Heist Made the Mona Lisa World-Famous",
+      "body": "Before August 1911, Leonardo da Vinci's Mona Lisa was far from the most famous painting in the world. That changed when Vincenzo Peruggia, an Italian handyman who had helped install glass cases at the Louvre, hid overnight in a closet and walked out with the portrait tucked beneath his smock. The two-year disappearance sparked a global media sensation, drawing thousands of visitors just to stare at the empty wall and catapulting the artwork into worldwide fame.",
+      "imageWikipediaTitle": "Mona Lisa",
+      "sources": [
+        {
+          "title": "Treasures of the World: Mona Lisa",
+          "publisher": "PBS",
+          "url": "https://www.pbs.org/treasuresoftheworld/mona_lisa/mlevel_1/mtheft.html"
+        },
+        {
+          "title": "Mona Lisa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mona_Lisa"
+        }
+      ],
+      "readMoreUrl": "https://www.pbs.org/treasuresoftheworld/mona_lisa/mlevel_1/mtheft.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wooden Submarine That Attacked the British Navy in 1776",
+      "body": "During the American Revolutionary War in 1776, inventor David Bushnell built the Turtle, the world's first submarine used in combat. Constructed from oak reinforced with iron bands, the egg-shaped vessel accommodated a single operator who pedaled foot treads and cranked hand levers to move underwater. Piloted by Sergeant Ezra Lee, the craft submerged in New York Harbor to attach a timed explosive to the British flagship HMS Eagle, inaugurating the era of naval undersea warfare.",
+      "imageWikipediaTitle": "Turtle (submersible)",
+      "sources": [
+        {
+          "title": "Turtle (Submarine)",
+          "publisher": "Naval History and Heritage Command",
+          "url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/turtle.html"
+        },
+        {
+          "title": "Turtle (submersible)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turtle_(submersible)"
+        }
+      ],
+      "readMoreUrl": "https://www.history.navy.mil/browse-by-topic/ships/submarines/turtle.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Man Whose Land Sparked the California Gold Rush Died Broke",
+      "body": "When James Marshall discovered gold flakes at Sutter's Mill in January 1848, property owner John Sutter desperately tried to keep it a secret. He knew the find would ruin his agricultural empire in California's Sacramento Valley. He was right. Over 300,000 prospectors quickly overran his lands, butchering his cattle, trampling crops, and seizing his buildings. Bankrupted by decades of failed legal battles to reclaim his property, the man who sparked the gold rush died nearly penniless.",
+      "imageWikipediaTitle": "John Sutter",
+      "sources": [
+        {
+          "title": "Sutter's Mill",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/places/sutter-s-mill.html"
+        },
+        {
+          "title": "John Sutter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Sutter"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/places/sutter-s-mill.html",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What antiseptic measure did Ignaz Semmelweis introduce in 1847 to drastically lower hospital mortality?",
+      "options": [
+        "Boiling surgical scalpels",
+        "Handwashing with chlorinated lime",
+        "Wearing disposable rubber gloves",
+        "Fumigating wards with sulfur"
+      ],
+      "correctIndex": 1,
+      "explanation": "Semmelweis ordered medical staff to wash their hands in a chlorinated lime solution after autopsies, dropping maternity mortality below 2%."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How were condemned individuals executed during the 1692 Salem witch trials?",
+      "options": [
+        "Hanging",
+        "Burning at the stake",
+        "Drowning in water",
+        "Beheading"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under English law, witchcraft was considered a felony rather than religious heresy, making hanging the legal method of execution."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did Vincenzo Peruggia manage to steal the Mona Lisa from the Louvre in 1911?",
+      "options": [
+        "He dug a tunnel into the museum basement",
+        "He hid in a closet overnight and carried it out",
+        "He replaced it with an identical forged copy",
+        "He held museum guards at gunpoint during closing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Peruggia, a former glazier at the museum, hid in a storage closet overnight and slipped out the next morning with the painting under his clothes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How was the Revolutionary War combat submersible Turtle propelled through the water?",
+      "options": [
+        "Foot pedals and hand cranks",
+        "A small coal-fired steam engine",
+        "Compressed air thrusters",
+        "An underwater tow line from a rowboat"
+      ],
+      "correctIndex": 0,
+      "explanation": "The single operator turned hand cranks and pushed foot treadles to rotate small wooden propellers for horizontal and vertical movement."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What happened to John Sutter's agricultural holdings following the 1848 discovery of gold on his property?",
+      "options": [
+        "He made a fortune by taxing prospectors",
+        "The state government bought his lands at a high price",
+        "Squatters and gold seekers overran and ruined his estate",
+        "He successfully barred all miners through legal injunctions"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hundreds of thousands of prospectors swarmed Sutter's land, slaughtering his livestock and trampling his fields, leaving him financially ruined."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What did the maternal mortality rate drop to (in %) at Vienna General Hospital after doctors began washing hands with chlorinated lime?",
+      "answer": 2,
+      "min": 0,
+      "max": 25,
+      "unit": "%",
+      "explanation": "Semmelweis reduced maternal mortality from over 18% down to less than 2% by requiring doctors to disinfect their hands after performing autopsies."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Convicted witches in Salem, Massachusetts, were burned at the stake.",
+      "answer": false,
+      "explanation": "Under colonial Massachusetts law, witchcraft was punished as a felony by hanging. Nineteen victims were hanged and one was pressed under stones, but none were burned."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The Mona Lisa was already universally considered the world's most famous painting before its 1911 theft.",
+      "answer": false,
+      "explanation": "While appreciated in art circles, the Mona Lisa became a worldwide household name largely due to the international media frenzy surrounding its 1911 disappearance."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "American revolutionaries deployed a combat submarine against the British Royal Navy in 1776.",
+      "answer": true,
+      "explanation": "David Bushnell's hand-cranked wooden submersible, the Turtle, attempted an underwater explosive attack on HMS Eagle in New York Harbor in 1776."
+    }
+  ]
+}

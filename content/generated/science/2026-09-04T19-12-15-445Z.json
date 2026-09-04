@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-04T19:12:15.445Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single drop of blood contains about five million red blood cells",
+      "body": "Your circulatory system produces around two million red blood cells every second to keep you oxygenated. A typical microliter of human blood—just a fraction of a single raindrop—packs approximately four to six million erythrocytes. Each cell carries roughly 270 million hemoglobin molecules, turning every drop into a massive microscopic fleet dedicated to transporting oxygen from your lungs to your tissues.",
+      "imageWikipediaTitle": "Red blood cell",
+      "sources": [
+        {
+          "title": "Blood Basics",
+          "publisher": "American Society of Hematology",
+          "url": "https://www.hematology.org/education/patients/blood-basics"
+        },
+        {
+          "title": "Red blood cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Red_blood_cell"
+        }
+      ],
+      "readMoreUrl": "https://www.hematology.org/education/patients/blood-basics",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Water can stay liquid below freezing if it has nothing to freeze on",
+      "body": "Pure water does not instantly turn to ice at zero degrees Celsius. Liquid water requires a microscopic imperfection, like dust or a rough surface, to kickstart ice crystal formation in a process called nucleation. Without any nucleation sites, ultra-pure water can be supercooled down to roughly minus forty degrees Celsius while remaining entirely liquid, freezing only upon contact with an impurity or shock.",
+      "imageWikipediaTitle": "Supercooling",
+      "sources": [
+        {
+          "title": "Structural transformation in supercooled water",
+          "publisher": "Pacific Northwest National Laboratory",
+          "url": "https://www.pnnl.gov/news-media/structural-transformation-supercooled-water"
+        },
+        {
+          "title": "Supercooling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Supercooling"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Supercooling",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bananas ripen because they breathe out a plant hormone gas",
+      "body": "Bananas produce ethylene, a simple hydrocarbon gas that acts as a natural signaling molecule. When fruit begins to mature, ethylene triggers enzymes that break down starches into sweet sugars and soften the cell walls. Because ethylene is airborne, placing a ripe banana next to unripe avocados, tomatoes, or peaches floods them with the hormone, accelerating their ripening process in days.",
+      "imageWikipediaTitle": "Banana",
+      "sources": [
+        {
+          "title": "Ethylene and Fruit Ripening",
+          "publisher": "UC Davis Postharvest Technology Center",
+          "url": "https://postharvest.ucdavis.edu/produce-facts-sheets/ethylene-and-fruit-ripening"
+        },
+        {
+          "title": "Ethylene",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ethylene"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ethylene",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sunlight takes over one hundred thousand years to escape the Sun's core",
+      "body": "Photons born from nuclear fusion in the Sun's core travel at light speed, yet they take over 100,000 years to reach the surface. The interior is so densely packed with charged plasma that each photon collides with an electron every fraction of a millimeter. Bouncing aimlessly in a chaotic 'random walk,' light takes millennia to diffuse outward, before sprinting to Earth in eight minutes.",
+      "imageWikipediaTitle": "Sun",
+      "sources": [
+        {
+          "title": "The 8-Minute Travel Time of Light to Earth by the Numbers",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/general/the-8-minute-travel-time-of-light-to-earth-by-the-numbers/"
+        },
+        {
+          "title": "Solar core",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_core"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Solar_core",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Glass is a disordered solid, not an extremely slow-flowing liquid",
+      "body": "An enduring urban legend claims antique windowpanes are thicker at the bottom because glass is an ultra-viscous liquid slowly flowing downward over centuries. In reality, glass is an amorphous solid. Its atoms are frozen into a disordered arrangement like a liquid, but their bonds are rigid. Antique glass was uneven simply because historical crown-glass manufacturing produced wavy sheets, and glaziers installed the heavier edge downward.",
+      "imageWikipediaTitle": "Stained glass",
+      "sources": [
+        {
+          "title": "Does Glass Flow?",
+          "publisher": "Corning Museum of Glass",
+          "url": "https://www.cmog.org/article/does-glass-flow"
+        },
+        {
+          "title": "Amorphous solid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amorphous_solid"
+        }
+      ],
+      "readMoreUrl": "https://www.cmog.org/article/does-glass-flow",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Roughly how many red blood cells are contained in a single microliter of human blood?",
+      "options": [
+        "Around 5,000",
+        "Around 50,000",
+        "Around 500,000",
+        "Around 5,000,000"
+      ],
+      "correctIndex": 3,
+      "explanation": "A single microliter of blood typically contains between 4 and 6 million red blood cells."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What must be absent for water to remain liquid well below zero degrees Celsius?",
+      "options": [
+        "Dissolved oxygen",
+        "Nucleation sites like dust or surface flaws",
+        "Direct ambient light",
+        "Atmospheric pressure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without nucleation sites to seed ice crystals, ultra-pure water can be supercooled down to around -40°C without freezing."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which gaseous hormone released by ripening bananas triggers other fruits to ripen?",
+      "options": [
+        "Ethylene",
+        "Methane",
+        "Auxin",
+        "Nitrous oxide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ethylene is an airborne plant hormone that signals fruits to convert starches into sugars and soften."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does light take over 100,000 years to travel from the Sun's core to its surface?",
+      "options": [
+        "Gravity stops photons from moving outward",
+        "Photons repeatedly scatter off dense particles in a random walk",
+        "Nuclear fusion continuously absorbs all generated light",
+        "The core is surrounded by an absolute vacuum"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dense plasma causes photons to scatter billions of times, making their outward journey take over 100,000 years."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are ancient windowpanes often thicker at the bottom?",
+      "options": [
+        "Glass flows downward like a slow liquid over centuries",
+        "Old glass was spun unevenly and installed heavy-side down",
+        "Sunlight melts the top portion over decades",
+        "Moisture in the air condenses and solidifies at the base"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early glassblowing techniques created uneven sheets, and glaziers deliberately set the thicker side at the bottom."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "About how many red blood cells does a healthy human body produce every single second?",
+      "answer": 2000000,
+      "min": 10000,
+      "max": 10000000,
+      "unit": "",
+      "explanation": "The bone marrow produces roughly 2 million red blood cells each second to sustain our oxygen supply."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Roughly how many years does it take a photon created in the Sun's core to escape into space?",
+      "answer": 100000,
+      "min": 100,
+      "max": 1000000,
+      "unit": "years",
+      "explanation": "Dense plasma forces photons into a chaotic 'random walk' that takes over 100,000 years to reach the surface."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Water always freezes as soon as its temperature drops below 0 °C",
+      "answer": false,
+      "explanation": "Pure water lacks nucleation sites to start crystallization, allowing it to remain liquid down to nearly -40 °C."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Antique window glass is thicker at the bottom because glass flows like a slow liquid",
+      "answer": false,
+      "explanation": "Glass is a rigid amorphous solid; antique panes were made uneven by hand and installed with the heavier edge down."
+    }
+  ]
+}
