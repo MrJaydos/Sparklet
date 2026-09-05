@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-05T18:39:42.059Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This spider lives underwater inside a bubble that acts as a gill",
+      "body": "The diving bell spider is the only spider that spends its entire life underwater. It weaves a web dome between aquatic plants and fills it with air bubbles brought down from the surface. This bubble does more than store air—it acts as an external gill, absorbing dissolved oxygen from the surrounding water while venting carbon dioxide. Because of this gas exchange, the spider can remain submerged for well over twenty-four hours at a time.",
+      "imageWikipediaTitle": "Diving bell spider",
+      "sources": [
+        {
+          "title": "An aquatic spider’s bell acts as a gill",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3140724/"
+        },
+        {
+          "title": "Diving bell spider",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diving_bell_spider"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3140724/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The thorny devil can drink water directly through its feet",
+      "body": "Australia's thorny devil survives in arid deserts thanks to skin engineered like a network of drinking straws. Microscopic grooves running between its prickly scales use capillary action to pull moisture against gravity. Whenever the lizard brushes against dew-covered plants or moist desert sand, water is automatically drawn up across its legs and back straight into the corners of its mouth, allowing it to drink without even lowering its head.",
+      "imageWikipediaTitle": "Thorny devil",
+      "sources": [
+        {
+          "title": "Thorny Devil",
+          "publisher": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/reptiles/thorny-devil/"
+        },
+        {
+          "title": "Thorny devil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thorny_devil"
+        }
+      ],
+      "readMoreUrl": "https://australian.museum/learn/animals/reptiles/thorny-devil/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tiny pufferfish sculpts massive sand mandalas on the ocean floor",
+      "body": "On the sandy seabed off southern Japan, male white-spotted pufferfish build breathtaking underwater artwork. Measuring barely twelve centimeters long, a single male spends over a week tirelessly carving trenches with his fins to create a geometrically aligned circular nest up to two meters across. The radial mounds channel ocean currents toward the center, protecting the eggs from turbulent waves while signaling prime fitness to inspecting females.",
+      "imageWikipediaTitle": "Torquigener albomaculosus",
+      "sources": [
+        {
+          "title": "Role of huge geometric circular structures in the reproduction of a marine pufferfish",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3769915/"
+        },
+        {
+          "title": "Torquigener albomaculosus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Torquigener_albomaculosus"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3769915/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Giant kelp can grow up to sixty centimeters in a single day",
+      "body": "Giant kelp forms massive underwater forests along temperate coastlines, sustained by an astonishing growth rate. In nutrient-rich upwelling zones with plenty of sunlight, a single kelp frond can stretch by up to sixty centimeters in a single day. Anchored to rocky reefs by root-like holdfasts, these towering marine algae can reach overall lengths of forty-five meters, creating complex three-dimensional habitats that shelter hundreds of marine species.",
+      "imageWikipediaTitle": "Macrocystis pyrifera",
+      "sources": [
+        {
+          "title": "Giant Kelp",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/giant-kelp"
+        },
+        {
+          "title": "Macrocystis pyrifera",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Macrocystis_pyrifera"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/giant-kelp",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male satin bowerbirds decorate display courts with blue trinkets",
+      "body": "Male satin bowerbirds are relentless artists with a strict aesthetic preference. To win over females, a male erects a specialized avenue of twigs, paints the interior walls with chewed berries, and curates an elaborate outdoor display. He obsessively decorates the courtyard with rare blue objects, from parrot feathers and blossoms to discarded plastic bottle caps. Female bowerbirds inspect several courtyards, judging males on the symmetry of their architecture and the richness of their blue collection.",
+      "imageWikipediaTitle": "Satin bowerbird",
+      "sources": [
+        {
+          "title": "Satin Bowerbird",
+          "publisher": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/birds/satin-bowerbird/"
+        },
+        {
+          "title": "Satin bowerbird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Satin_bowerbird"
+        }
+      ],
+      "readMoreUrl": "https://australian.museum/learn/animals/birds/satin-bowerbird/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the diving bell spider's submerged air bubble sustain it underwater for extended periods?",
+      "options": [
+        "It acts like an external gill by drawing dissolved oxygen directly from the water",
+        "It generates fresh oxygen through symbiotic photosynthesis with algae",
+        "It stores a compressed supply of air under several atmospheres of pressure",
+        "It chemically splits ambient water molecules into breathable oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "The silk bubble functions as a physical gill, allowing oxygen to diffuse inward from the water while carbon dioxide diffuses out."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does the thorny devil collect water from morning dew and moist sand?",
+      "options": [
+        "Microscopic grooves in its skin pull moisture to its mouth via capillary action",
+        "It secretes a hygroscopic mucus that condenses water vapor into droplets",
+        "It absorbs water through specialized pores directly into its bloodstream",
+        "It burrows underground to drink from hidden moisture pockets using its tongue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Microscopic channels between the thorny devil's scales passively transport water across its body to the corners of its mouth."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does the male white-spotted pufferfish construct elaborate circular sand nests?",
+      "options": [
+        "To attract female mates and protect eggs from ocean currents",
+        "To trap small crabs and mollusks in shifting sand trenches",
+        "To camouflage itself from predatory sharks and larger fish",
+        "To store food reserves during winter spawning migrations"
+      ],
+      "correctIndex": 0,
+      "explanation": "The circular structure acts as an aesthetic display to woo females and directs gentle water flow to protect deposited eggs."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Under ideal conditions, how fast can a single frond of giant kelp grow in a single day?",
+      "options": [
+        "Up to 60 centimeters",
+        "Up to 5 centimeters",
+        "Up to 2 meters",
+        "Up to 15 centimeters"
+      ],
+      "correctIndex": 0,
+      "explanation": "In cool, nutrient-rich waters with ample sunlight, giant kelp can surge upward by as much as 60 centimeters in a single day."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which color does the male satin bowerbird obsessively collect to decorate his display court?",
+      "options": [
+        "Blue",
+        "Red",
+        "Yellow",
+        "Green"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male satin bowerbirds selectively seek out blue objects, such as feathers, flowers, and plastic bottle caps, to impress females."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "A 12-centimeter white-spotted pufferfish builds circular sand nests. About how many meters wide are these nests?",
+      "answer": 2,
+      "min": 0.5,
+      "max": 6,
+      "unit": "m",
+      "explanation": "Despite being only about 12 cm long, the male pufferfish constructs a symmetrical sand nest roughly 2 meters across."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Under ideal ocean conditions, how many centimeters can a giant kelp frond grow in a single day?",
+      "answer": 60,
+      "min": 5,
+      "max": 150,
+      "unit": "cm",
+      "explanation": "Giant kelp is among the fastest-growing organisms on Earth, growing up to 60 cm per day."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Spiders cannot breathe underwater without repeatedly surfacing every few minutes for fresh air.",
+      "answer": false,
+      "explanation": "The diving bell spider's bubble acts as an external gill, letting dissolved oxygen in so it can remain submerged for over a day."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Thorny devils must lap up puddles of water with their tongues to stay hydrated.",
+      "answer": false,
+      "explanation": "Thorny devils passively channel moisture from their feet and skin directly to their mouth using capillary grooves between their scales."
+    }
+  ]
+}

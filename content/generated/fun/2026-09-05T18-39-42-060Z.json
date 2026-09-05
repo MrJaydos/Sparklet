@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-05T18:39:42.060Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Beavers have bright orange teeth because they are infused with iron",
+      "body": "A beaver's front incisors aren't discolored from poor hygiene or tree sap. Their enamel is naturally packed with iron, which gives the teeth a distinct reddish-orange hue. This iron-rich mineral structure makes the outer enamel significantly harder and more acid-resistant than typical mammalian teeth. As a beaver gnaws on hardwood, the softer white dentin on the back wears down faster, keeping the iron-clad front edges razor-sharp like wood chisels.",
+      "imageWikipediaTitle": "Beaver",
+      "sources": [
+        {
+          "title": "Beavers' Teeth Are Iron-Clad",
+          "publisher": "Northwestern University",
+          "url": "https://news.northwestern.edu/stories/2015/02/beaver-teeth-iron-dental-health/"
+        },
+        {
+          "title": "Beaver",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beaver"
+        }
+      ],
+      "readMoreUrl": "https://news.northwestern.edu/stories/2015/02/beaver-teeth-iron-dental-health/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Poinsettias are not the deadly holiday poisons everyone thinks they are",
+      "body": "Every winter, pet owners and parents fret over festive poinsettia plants, widely rumored to be lethal if ingested. The panic began in 1919 when an unsubstantiated urban legend blamed an infant's death on a poinsettia leaf. In reality, modern poison-control data shows that poinsettias are remarkably non-toxic. While chewing on them can cause mild nausea, drooling, or an upset stomach due to irritating milky sap, eating them is virtually never fatal.",
+      "imageWikipediaTitle": "Poinsettia",
+      "sources": [
+        {
+          "title": "Poinsettias: Pretty and Safe",
+          "publisher": "National Capital Poison Center",
+          "url": "https://www.poison.org/articles/poinsettias"
+        },
+        {
+          "title": "Poinsettia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Poinsettia"
+        }
+      ],
+      "readMoreUrl": "https://www.poison.org/articles/poinsettias",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pigeons bob their heads to keep their vision steady, not to keep a beat",
+      "body": "When a pigeon struts across a sidewalk, its head appears to rhythmically pump forward and back. But high-speed camera studies show the head never actually moves backward. Instead, the bird thrusts its head forward and holds it locked in place while its body catches up. Because a pigeon's eyes cannot easily track objects while in motion, this freeze-frame maneuver stabilizes its visual field, letting it spot approaching predators and tiny seeds on the ground.",
+      "imageWikipediaTitle": "Rock dove",
+      "sources": [
+        {
+          "title": "Why do pigeons bob their heads?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/zoology/item/why-do-pigeons-bob-their-heads/"
+        },
+        {
+          "title": "Head bobbing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Head_bobbing"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/zoology/item/why-do-pigeons-bob-their-heads/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Touching a bumpy toad will not actually give you warts",
+      "body": "Generations of children were warned that picking up a toad would leave their hands covered in unsightly warts. The myth likely arose simply because toads look like they are covered in warts themselves. In truth, human warts are skin infections caused exclusively by human papillomaviruses (HPV). A toad's signature bumps are actually specialized glands that secrete mild toxins to deter predators. They might taste foul to a dog, but they cannot give humans warts.",
+      "imageWikipediaTitle": "Toad",
+      "sources": [
+        {
+          "title": "Do toads really give you warts?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/zoology/item/do-toads-really-give-you-warts/"
+        },
+        {
+          "title": "Toad",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toad"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/zoology/item/do-toads-really-give-you-warts/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A pangolin's tongue is so long it anchors near its pelvis",
+      "body": "A giant pangolin's tongue can extend up to 16 inches, making it longer than the animal's head and torso combined. Because a tongue that massive cannot fit inside a standard mouth cavity, its muscular base bypasses the jaw entirely. The organ extends through the neck, plunges deep into the chest, and anchors directly to the sternum and pelvic region. When not slurping up thousands of termites, the entire tongue retracts into a specialized abdominal sheath.",
+      "imageWikipediaTitle": "Pangolin",
+      "sources": [
+        {
+          "title": "Pangolin",
+          "publisher": "San Diego Zoo Wildlife Alliance",
+          "url": "https://animals.sandiegozoo.org/animals/pangolin"
+        },
+        {
+          "title": "Pangolin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pangolin"
+        }
+      ],
+      "readMoreUrl": "https://animals.sandiegozoo.org/animals/pangolin",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do beavers' front incisors have a distinctive orange color?",
+      "options": [
+        "The enamel is reinforced with iron",
+        "Wood sap stains the outer tooth layer over time",
+        "A specialized oral bacterium produces orange pigment",
+        "They lack calcium, exposing the orange root layer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beaver enamel incorporates iron, making their teeth extraordinarily hard, acid-resistant, and distinctly orange."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the truth regarding the toxicity of poinsettia plants?",
+      "options": [
+        "They are completely edible and sweet-tasting",
+        "They can cause mild irritation but are almost never fatal",
+        "A single leaf contains enough toxin to kill an infant",
+        "They are only dangerous when their leaves dry out"
+      ],
+      "correctIndex": 1,
+      "explanation": "Despite persistent holiday warnings, poison-control data shows that poinsettias cause mild upset at worst and are virtually never lethal."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do pigeons bob their heads while walking?",
+      "options": [
+        "To stabilize their visual field while moving",
+        "To maintain balance on narrow perches",
+        "To pump air through their specialized respiratory sacs",
+        "To signal dominance to nearby birds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pigeons thrust and hold their heads still so their eyes can process stable images of food and predators while their bodies move."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What actually causes warts on human skin?",
+      "options": [
+        "Toad secretions entering skin pores",
+        "Human papillomaviruses (HPV)",
+        "Tannins released by decaying forest bark",
+        "Bacterial infections from stagnant pond water"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human warts are caused exclusively by HPV strains, not by touching toads or the bumps on their skin."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where does a pangolin's extraordinarily long tongue anchor inside its body?",
+      "options": [
+        "At the base of the skull",
+        "To the hyoid bone inside the throat",
+        "Deep in the chest near the pelvis",
+        "To the upper palate of the mouth"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because it is longer than the animal's head and body combined, the pangolin's tongue extends deep into the chest cavity near the pelvis."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many inches long can a giant pangolin's tongue extend?",
+      "answer": 16,
+      "min": 4,
+      "max": 36,
+      "unit": "in",
+      "explanation": "A giant pangolin's tongue can extend up to 16 inches, making it longer than the animal's head and body combined."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Beavers have naturally orange teeth because of iron built into their enamel.",
+      "answer": true,
+      "explanation": "Beaver incisors are genuinely orange because iron reinforces the enamel, keeping them sharp and durable enough to fell trees."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Eating a poinsettia leaf is fatally poisonous to children and household pets.",
+      "answer": false,
+      "explanation": "While the sap can cause mild stomach upset or drooling, poison-control records show poinsettias are virtually never fatal."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Handling a wild toad can give you warts.",
+      "answer": false,
+      "explanation": "Warts are viral infections caused by HPV. A toad's bumpy skin contains defensive poison glands, not wart-causing viruses."
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-05T18:39:42.058Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How one banker locked his rivals in a library to halt a national panic",
+      "body": "In October 1907, failing trust companies sparked mass bank runs across the United States. With no central bank to provide emergency loans, financier J. Pierpont Morgan took control. On November 2, Morgan gathered dozens of prominent New York bank presidents in his Manhattan library, locked the heavy doors, and pocketed the key. He refused to let anyone leave until dawn, when they finally agreed to pool $25 million to rescue the financial system.",
+      "imageWikipediaTitle": "Panic of 1907",
+      "sources": [
+        {
+          "title": "The Panic of 1907",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/panic-of-1907"
+        },
+        {
+          "title": "Panic of 1907",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Panic_of_1907"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/panic-of-1907",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The gold vault that protected America's most sacred documents",
+      "body": "The U.S. Bullion Depository at Fort Knox is famous for guarding 147 million ounces of gold behind a 20-ton vault door. But during World War II, it safeguarded far more than bullion. Fearing Axis air raids after Pearl Harbor, the government secretly packed the original U.S. Constitution, Declaration of Independence, Articles of Confederation, and Gettysburg Address into armored rail cars bound for Fort Knox. Britain even shipped an original 1215 Magna Carta there for wartime safekeeping.",
+      "imageWikipediaTitle": "United States Bullion Depository",
+      "sources": [
+        {
+          "title": "Fort Knox Facility",
+          "publisher": "United States Mint",
+          "url": "https://www.usmint.gov/about/mint-tours-facilities/fort-knox"
+        },
+        {
+          "title": "United States Bullion Depository",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States_Bullion_Depository"
+        }
+      ],
+      "readMoreUrl": "https://www.usmint.gov/about/mint-tours-facilities/fort-knox",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Depression-era guarantee that ended panic-driven bank runs",
+      "body": "Between 1930 and 1933, roughly 9,000 American banks collapsed as frightened savers rushed to withdraw their deposits. To end the panic, the Banking Act of 1933 created the Federal Deposit Insurance Corporation (FDIC). By backing personal bank accounts with the full faith of the federal government, the law removed the incentive to participate in a bank run. Since FDIC insurance took effect in 1934, not a single depositor has lost a penny of insured funds.",
+      "imageWikipediaTitle": "Federal Deposit Insurance Corporation",
+      "sources": [
+        {
+          "title": "Banking Act of 1933",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/banking-act-of-1933"
+        },
+        {
+          "title": "Federal Deposit Insurance Corporation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/banking-act-of-1933",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The remote mountain resort where 44 nations rebuilt world money",
+      "body": "In July 1944, 730 delegates from 44 Allied nations met at the Mount Washington Hotel in Bretton Woods, New Hampshire, to build a new financial order for the post-war world. Over three weeks, they established the U.S. dollar as the global reserve currency—pegged directly to gold at $35 per ounce—and created both the International Monetary Fund and the World Bank. The system anchored international trade and exchange rates for nearly three decades.",
+      "imageWikipediaTitle": "Bretton Woods system",
+      "sources": [
+        {
+          "title": "Creation of the Bretton Woods System",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/bretton-woods-created"
+        },
+        {
+          "title": "Bretton Woods system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bretton_Woods_system"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/bretton-woods-created",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The multi-billion-dollar aid package that rebuilt Europe's economy",
+      "body": "Signed into law in 1948, the Marshall Plan channeled over $13 billion in U.S. economic aid—more than $150 billion in today's money—to rebuild Western European nations shattered by World War II. Rather than distributing cash blindly, the program required European recipients to jointly plan their recovery, dismantle intra-European trade barriers, and modernize industrial production. This unprecedented economic infusion stimulated rapid growth, contained post-war famine, and laid the groundwork for modern European economic cooperation.",
+      "imageWikipediaTitle": "Marshall Plan",
+      "sources": [
+        {
+          "title": "Marshall Plan (1948)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/marshall-plan"
+        },
+        {
+          "title": "Marshall Plan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marshall_Plan"
+        }
+      ],
+      "readMoreUrl": "https://www.archives.gov/milestone-documents/marshall-plan",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did financier J. Pierpont Morgan secure emergency bailout funds during the Panic of 1907?",
+      "options": [
+        "He locked rival bank executives in his library until they agreed to pool capital",
+        "He convinced the U.S. Treasury to print an emergency trillion-dollar banknote",
+        "He sold his entire art collection at auction to buy up failing bank shares",
+        "He secured a massive loan from the Bank of England overnight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Morgan locked prominent bankers in his private library overnight, refusing to release them until they pledged $25 million to rescue failing trusts."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Besides gold bullion, what precious items were secretly stored at Fort Knox during World War II?",
+      "options": [
+        "The original U.S. Constitution and Britain's Magna Carta",
+        "The crown jewels of France and the Netherlands",
+        "The secret archives of the Vatican Library",
+        "The Mona Lisa and other masterpieces from the Louvre"
+      ],
+      "correctIndex": 0,
+      "explanation": "To protect them from potential enemy air raids, Fort Knox safeguarded founding U.S. documents and an original 1215 Magna Carta during WWII."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Since the FDIC began insuring U.S. bank deposits in 1934, how much insured money have depositors lost?",
+      "options": [
+        "Zero dollars",
+        "Roughly $1.2 billion",
+        "Around $250 million",
+        "About 5% of all deposited funds"
+      ],
+      "correctIndex": 0,
+      "explanation": "The FDIC guarantees insured deposits, and not a single depositor has ever lost a penny of insured money since the agency launched in 1934."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Under the 1944 Bretton Woods agreement, at what fixed price was the U.S. dollar pegged to gold?",
+      "options": [
+        "$35 per ounce",
+        "$20.67 per ounce",
+        "$100 per ounce",
+        "$15 per ounce"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bretton Woods pegged world currencies to the U.S. dollar, which in turn was convertible to gold at exactly $35 per troy ounce until 1971."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What condition did the Marshall Plan impose on Western European recipient nations?",
+      "options": [
+        "They had to coordinate economic recovery plans and lower mutual trade barriers",
+        "They had to adopt the U.S. dollar as their official legal tender",
+        "They had to surrender national gold reserves to the Federal Reserve",
+        "They had to repay all funding with 10% interest within five years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Marshall Plan required European recipients to jointly coordinate economic planning and dismantle trade barriers, fostering European economic unity."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "Roughly how many million troy ounces of gold are held in the U.S. Bullion Depository at Fort Knox?",
+      "answer": 147,
+      "min": 10,
+      "max": 500,
+      "unit": "million oz",
+      "explanation": "Fort Knox holds about 147.3 million troy ounces (over 4,500 metric tons) of gold, accounting for roughly half of the U.S. Treasury's reserves."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly how many U.S. banks collapsed between 1930 and 1933 before federal deposit insurance was established?",
+      "answer": 9000,
+      "min": 1000,
+      "max": 25000,
+      "unit": "",
+      "explanation": "Around 9,000 banks collapsed in the early Depression as panicking customers rushed to withdraw savings, prompting the creation of the FDIC."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Under the 1944 Bretton Woods agreement, how many U.S. dollars was one ounce of gold pegged to?",
+      "answer": 35,
+      "min": 5,
+      "max": 150,
+      "unit": "$",
+      "explanation": "The Bretton Woods system pegged the U.S. dollar to gold at exactly $35 an ounce, an exchange rate that anchored global trade until 1971."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In 1907, J.P. Morgan physically locked rival bank executives in a room until they agreed to fund a bailout.",
+      "answer": true,
+      "explanation": "Morgan pocketed the key to his private library and kept rival bankers locked inside until dawn, when they finally pledged $25 million."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The Fort Knox bullion depository has only ever been used to store gold and silver bullion.",
+      "answer": false,
+      "explanation": "During World War II, Fort Knox stored the U.S. Constitution, the Declaration of Independence, and Britain's Magna Carta to protect them from air raids."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "If an FDIC-insured bank collapses, depositors typically lose a portion of their insured savings.",
+      "answer": false,
+      "explanation": "Since the FDIC was founded in 1933, no depositor has ever lost a single penny of insured funds in a bank failure."
+    }
+  ]
+}
