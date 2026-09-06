@@ -1,0 +1,197 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.707Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A forgotten hardware detail made the 'tar' command require a weird syntax",
+      "body": "Unix utilities usually take command flags preceded by dashes, like 'ls -l'. Yet 'tar' notoriously lets users omit the dash entirely, typing 'tar xvf' instead. That quirky exception exists because tar—short for 'tape archiver'—was written in the 1970s specifically to operate physical magnetic tape drives. Early Unix tape drives had hardware parameters like tape density and drive numbers specified as raw key letters, locking an archaic interface into modern command lines.",
+      "imageWikipediaTitle": "Tar (computing)",
+      "sources": [
+        {
+          "title": "tar(1) - Linux manual page",
+          "publisher": "man7.org",
+          "url": "https://man7.org/linux/man-pages/man1/tar.1.html"
+        },
+        {
+          "title": "tar (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tar_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://man7.org/linux/man-pages/man1/tar.1.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A hidden test message inside PDF files reads 'The quick brown fox'",
+      "body": "Adobe's PostScript language and early rendering engines required font caches to test kerning and character metrics rapidly. Programmers embedded the famous pangram 'The quick brown fox jumps over the lazy dog' directly into foundational imaging code because it contains every letter of the English alphabet. Decades later, the 32-letter sentence remains embedded across modern font rendering routines and document specifications as an industry-wide sanity check.",
+      "imageWikipediaTitle": "The quick brown fox jumps over the lazy dog",
+      "sources": [
+        {
+          "title": "The quick brown fox jumps over the lazy dog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog"
+        },
+        {
+          "title": "Pangram",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pangram"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A developer created Vim by modifying a port for the Commodore Amiga",
+      "body": "Bram Moolenaar originally released Vim in 1991 under the name 'Vi IMitation' because his Amiga home computer lacked a good clone of Unix's vi editor. He ported an existing open-source clone called Stevie to the Amiga, added macros and bug fixes, and distributed it on public-domain floppy disk sets. By 1993, after adding dozens of original features, Moolenaar rebranded the software as 'Vi IMproved', cementing one of tech's most enduring text editors.",
+      "imageWikipediaTitle": "Vim (text editor)",
+      "sources": [
+        {
+          "title": "Vim (text editor)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vim_(text_editor)"
+        },
+        {
+          "title": "Bram Moolenaar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bram_Moolenaar"
+        },
+        {
+          "title": "Vim documentation: version4",
+          "publisher": "vimhelp.org",
+          "url": "https://vimhelp.org/version4.txt.html"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vim_(text_editor)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the world's most critical cryptographic constant is named '0x5A827999'",
+      "body": "Cryptographic algorithms avoid intentional trapdoors by using 'nothing-up-my-sleeve numbers'—constants derived from mathematical constants rather than secret choices. In the SHA-1 and SHA-2 hash functions designed by the NSA, initial hash values and round constants are defined by the fractional parts of square roots and cube roots of consecutive primes. The constant 0x5A827999, for example, represents the first 32 bits of the binary expansion of the square root of 2 divided by 4.",
+      "imageWikipediaTitle": "SHA-1",
+      "sources": [
+        {
+          "title": "FIPS PUB 180-4: Secure Hash Standard (SHS)",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://csrc.nist.gov/publications/detail/fips/180-4/final"
+        },
+        {
+          "title": "Nothing-up-my-sleeve number",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nothing-up-my-sleeve_number"
+        }
+      ],
+      "readMoreUrl": "https://csrc.nist.gov/publications/detail/fips/180-4/final",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The classic Mac OS 'Sad Mac' icon was drawn by the artist behind Pac-Man's look",
+      "body": "When early Apple Macintosh computers crashed before loading the graphical interface, they displayed an icon known as the 'Sad Mac' alongside an error code. The icon was designed by Susan Kare, the pioneering graphic designer hired by Steve Jobs in 1982. Kare drew the Mac's icons pixel-by-pixel on graph paper, creating not only the Sad Mac, but the Command key symbol, the paint bucket, and the Chicago system font.",
+      "imageWikipediaTitle": "Susan Kare",
+      "sources": [
+        {
+          "title": "Susan Kare",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Susan_Kare"
+        },
+        {
+          "title": "Sad Mac",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sad_Mac"
+        },
+        {
+          "title": "Susan Kare, Iconic Designer",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/innovation/how-susan-kare-designed-your-world-180972854/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Susan_Kare",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does the Unix 'tar' command allow flags without a preceding dash?",
+      "options": [
+        "To save memory on computers with less than 64KB RAM",
+        "Because Dennis Ritchie made a typographical error in its first release",
+        "It was originally designed to control physical tape drives with drive-letter arguments",
+        "It was ported directly from an IBM punch-card operating system"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because 'tar' was built in the 1970s for magnetic tape drives, parameters like tape drive numbers and densities were specified as raw key characters without dashes."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is the pangram 'The quick brown fox jumps over the lazy dog' common in rendering code?",
+      "options": [
+        "It was written by Alan Turing during WWII codebreaking tests",
+        "It contains every letter of the English alphabet in a short sentence",
+        "It has an exact byte count of 64 characters for cache alignment",
+        "It was required by early international telegraph standards"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because it contains every letter of the English alphabet, developers use it to quickly test kerning, metrics, and rendering across all characters."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did the acronym 'Vim' originally stand for when first released in 1991?",
+      "options": [
+        "Vi IMitation",
+        "Vi IMproved",
+        "Visual Interface Manager",
+        "Virtual Input Method"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bram Moolenaar created Vim as 'Vi IMitation' for the Commodore Amiga before renaming it to 'Vi IMproved' in 1993."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do cryptographic hash functions use 'nothing-up-my-sleeve numbers'?",
+      "options": [
+        "To maximize data compression before hashing",
+        "To allow faster processing on 8-bit microcontrollers",
+        "To conceal secret encryption keys inside open standards",
+        "To prove the constants were not rigged with a secret algorithmic backdoor"
+      ],
+      "correctIndex": 3,
+      "explanation": "Deriving constants deterministically from known numbers like square roots of primes demonstrates that developers did not plant hidden backdoors."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Who designed the original Apple Macintosh 'Sad Mac' and Command key icons?",
+      "options": [
+        "Jef Raskin",
+        "Steve Wozniak",
+        "Susan Kare",
+        "Andy Hertzfeld"
+      ],
+      "correctIndex": 2,
+      "explanation": "Graphic designer Susan Kare created iconic Macintosh visual elements including the Sad Mac, the Command key symbol, and the Chicago font."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In what year was the first public version of Vim released on Amiga floppy disks?",
+      "answer": 1991,
+      "min": 1980,
+      "max": 2005,
+      "unit": "year",
+      "explanation": "Bram Moolenaar released Vim 1.14 on a public-domain Amiga floppy disk collection in November 1991."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Vim was named 'Vi IMproved' from its very first public release.",
+      "answer": false,
+      "explanation": "Vim originally stood for 'Vi IMitation' when released on the Amiga in 1991; it was only renamed 'Vi IMproved' in 1993."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.705Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An Unauthorized Parachute Drop Won Over Cold War Berlin",
+      "body": "During the 1948 Soviet blockade of West Berlin, American pilot Gail Halvorsen decided to boost children's spirits by dropping chocolate and gum tied to tiny handkerchief parachutes. Halvorsen's unauthorized stunt quickly captured international attention. Rather than reprimand him, military commanders expanded it into Operation Little Vittles. By the end of the airlift, Allied pilots had dropped over 23 tons of candy, helping transform former World War II enemies into steadfast allies.",
+      "imageWikipediaTitle": "Gail Halvorsen",
+      "sources": [
+        {
+          "title": "Gail Halvorsen: The Candy Bomber",
+          "publisher": "Smithsonian National Air and Space Museum",
+          "url": "https://airandspace.si.edu/stories/editorial/gail-halvorsen-candy-bomber"
+        },
+        {
+          "title": "Gail Halvorsen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gail_Halvorsen"
+        }
+      ],
+      "readMoreUrl": "https://airandspace.si.edu/stories/editorial/gail-halvorsen-candy-bomber",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1918 'Spanish Flu' Had Nothing to Do with Spain",
+      "body": "The 1918 influenza pandemic infected an estimated 500 million people, but Spain was never its epicenter. Because World War I was raging, combatant nations like Britain, France, Germany, and the United States strictly censored news of the deadly sickness to preserve military morale. Spain was neutral and maintained an uncensored press, allowing its newspapers to report honestly on the illness. The deluge of Spanish coverage created the false global impression that the disease originated there.",
+      "imageWikipediaTitle": "Spanish flu",
+      "sources": [
+        {
+          "title": "1918 Pandemic (H1N1 virus)",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html"
+        },
+        {
+          "title": "Spanish flu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spanish_flu"
+        }
+      ],
+      "readMoreUrl": "https://www.cdc.gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When a New York Newspaper Convinced Readers Bat-Men Lived on the Moon",
+      "body": "In August 1835, The New York Sun published six front-page articles claiming famed astronomer Sir John Herschel had built an unprecedented telescope in South Africa and observed thriving alien life on the Moon. Readers marveled at reports of sapphire temples, two-legged beavers, and four-foot-tall bat-winged humanoids. Circulation exploded, temporarily making the Sun the most widely read newspaper in the world before editors quietly admitted the entire series was an elaborate satire.",
+      "imageWikipediaTitle": "Great Moon Hoax",
+      "sources": [
+        {
+          "title": "The Great Moon Hoax of 1835",
+          "publisher": "Library of Congress",
+          "url": "https://blogs.loc.gov/headlinesandheroes/2021/08/the-great-moon-hoax-of-1835/"
+        },
+        {
+          "title": "Great Moon Hoax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Moon_Hoax"
+        }
+      ],
+      "readMoreUrl": "https://blogs.loc.gov/headlinesandheroes/2021/08/the-great-moon-hoax-of-1835/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A British Stockbroker Saved 669 Children and Kept It Secret for 50 Years",
+      "body": "In late 1938, 29-year-old London stockbroker Nicholas Winton canceled a Swiss ski vacation after learning about refugee camps in Czechoslovakia. Working from a Prague hotel room, he organized eight train transports to evacuate 669 predominantly Jewish children to safety in Great Britain before the Nazi invasion closed the borders. Winton never told his friends or family; his wife only uncovered his handwritten records in their attic nearly fifty years later.",
+      "imageWikipediaTitle": "Nicholas Winton",
+      "sources": [
+        {
+          "title": "Nicholas Winton and the Rescue of Children from Czechoslovakia, 1938–1939",
+          "publisher": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/nicholas-winton-and-the-rescue-of-children-from-czechoslovakia-1938-1939"
+        },
+        {
+          "title": "Nicholas Winton",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicholas_Winton"
+        }
+      ],
+      "readMoreUrl": "https://encyclopedia.ushmm.org/content/en/article/nicholas-winton-and-the-rescue-of-children-from-czechoslovakia-1938-1939",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The First Hot-Air Balloon Passengers Were a Sheep, a Duck, and a Rooster",
+      "body": "Before human aeronauts took to the sky, scientists worried that the upper atmosphere was unbreathable. On September 19, 1783, inventors Joseph-Michel and Jacques-Étienne Montgolfier demonstrated their new hot-air balloon at Versailles before King Louis XVI. Suspended beneath the canvas sphere in a wicker cage were a sheep, a duck, and a rooster. After an eight-minute flight rising 1,500 feet, the trio landed safely, proving warm-blooded animals could survive aerial ascent.",
+      "imageWikipediaTitle": "Montgolfier brothers",
+      "sources": [
+        {
+          "title": "Montgolfier Balloon",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/september-19/"
+        },
+        {
+          "title": "Montgolfier brothers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Montgolfier_brothers"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/september-19/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What military operation grew out of Gail Halvorsen dropping sweets to children during the Berlin Airlift?",
+      "options": [
+        "Operation Vittles Supply",
+        "Operation Little Vittles",
+        "Operation Candy Drop",
+        "Operation Berlin Care"
+      ],
+      "correctIndex": 1,
+      "explanation": "Halvorsen's handkerchief-parachute drops inspired commanders to officially establish Operation Little Vittles, delivering tons of candy."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did the 1918 influenza pandemic become known worldwide as the 'Spanish Flu'?",
+      "options": [
+        "Spanish physicians were the first to identify and isolate the virus",
+        "The earliest documented patient was an agricultural worker in Madrid",
+        "Spain suffered the highest total death toll of any European nation",
+        "Spain had no wartime press censorship and reported cases while others hid them"
+      ],
+      "correctIndex": 3,
+      "explanation": "Neutral Spain did not censor its press during WWI, creating the mistaken belief that the pandemic began there because other nations hid their outbreaks."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did The New York Sun falsely report discovering on the Moon in its 1835 hoax?",
+      "options": [
+        "Winged humanoids, sapphire temples, and bipedal beavers",
+        "Ruins of an ancient subterranean city built by giants",
+        "Enormous gold deposits and active volcanic geysers",
+        "A frozen ocean containing dormant extraterrestrial fish"
+      ],
+      "correctIndex": 0,
+      "explanation": "The six-part satirical series claimed astronomer John Herschel observed bat-winged humanoids and exotic animals through a powerful telescope."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did Nicholas Winton's rescue of 669 children from Nazi-occupied territory become known?",
+      "options": [
+        "Declassified British military archives revealed his operations in the 1970s",
+        "He published a bestselling memoir shortly after World War II concluded",
+        "His wife discovered an old scrapbook of names and documents in their attic",
+        "A rescued child recognized him decades later on the London Underground"
+      ],
+      "correctIndex": 2,
+      "explanation": "Winton told no one about his mission until his wife, Grete, found his notebooks containing lists of the rescued children in 1988."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did the Montgolfier brothers send animals aboard their 1783 hot-air balloon flight at Versailles?",
+      "options": [
+        "To test whether living creatures could survive breathing at high altitudes",
+        "To comply with a royal decree banning human flight demonstrations",
+        "To evaluate whether livestock could be transported over enemy lines",
+        "To demonstrate the balloon's lift capacity using the King's royal menagerie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because scientists did not know if high-altitude air was breathable, animals were flown first to confirm living creatures could safely ascend and land."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many tons of candy were dropped over West Berlin by Allied pilots during Operation Little Vittles?",
+      "answer": 23,
+      "min": 1,
+      "max": 100,
+      "unit": "tons",
+      "explanation": "Allied pilots dropped over 23 tons of candy, chocolate, and chewing gum to children during the Berlin Airlift."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many refugee children did Nicholas Winton organize trains to rescue from Czechoslovakia before WWII?",
+      "answer": 669,
+      "min": 50,
+      "max": 2000,
+      "unit": "",
+      "explanation": "Winton organized eight trains that evacuated 669 predominantly Jewish children to foster homes in Great Britain."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Allied pilots dropped over twenty tons of candy to children during the Berlin Airlift.",
+      "answer": true,
+      "explanation": "What began as Gail Halvorsen's unauthorized drops of sweets tied to handkerchiefs became Operation Little Vittles, delivering 23 tons of treats."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The devastating 1918 influenza pandemic originated in Spain.",
+      "answer": false,
+      "explanation": "Spain was neutral during WWI and lacked press censorship, so its newspapers freely reported the outbreak, while warring nations suppressed their own news."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Humans were the very first living passengers to fly aboard a hot-air balloon.",
+      "answer": false,
+      "explanation": "In September 1783, the Montgolfier brothers launched a sheep, a duck, and a rooster to test altitude safety before risking human lives."
+    }
+  ]
+}

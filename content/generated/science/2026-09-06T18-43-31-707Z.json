@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.707Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cold welding fuses bare metals instantly on contact in a vacuum",
+      "body": "If two clean, flat pieces of the same metal touch in a vacuum, they instantly merge into a single solid piece. On Earth, metals are covered by a thin layer of oxidized atoms that keeps them separate. In space, without air to form an oxide barrier, the atoms cannot distinguish which piece they belong to, joining through metallic bonds as if they were always one.",
+      "imageWikipediaTitle": "Cold welding",
+      "sources": [
+        {
+          "title": "Cold welding",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cold_welding"
+        },
+        {
+          "title": "Friction and Wear in the Space Environment",
+          "publisher": "NASA",
+          "url": "https://ntrs.nasa.gov/citations/19710014798"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cold_welding",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blue whale's heart rate drops to two beats per minute when diving",
+      "body": "When a blue whale dives hundreds of meters deep to feed on krill, its heart rate slows dramatically to conserve oxygen. Researchers attaching sensor tags to a wild blue whale recorded heart rates plunging as low as two beats per minute during deep dives. At the surface, its heart speeds up to nearly forty beats per minute to repay its oxygen debt.",
+      "imageWikipediaTitle": "Blue whale",
+      "sources": [
+        {
+          "title": "Extreme bradycardia and tachycardia in the world's largest animal",
+          "publisher": "Proceedings of the National Academy of Sciences",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1914273116"
+        },
+        {
+          "title": "Blue whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_whale"
+        }
+      ],
+      "readMoreUrl": "https://www.pnas.org/doi/10.1073/pnas.1914273116",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bismuth is so weakly radioactive its half-life dwarfs the age of the universe",
+      "body": "Long classified as the heaviest stable element, bismuth-209 was discovered in 2003 to be slightly radioactive. It decays by emitting alpha particles, but at an unimaginably sluggish pace: its half-life is roughly 20 quintillion years (2 × 10¹⁹ years). That is more than a billion times longer than the estimated age of the universe, making bismuth practically harmless and functionally stable.",
+      "imageWikipediaTitle": "Bismuth",
+      "sources": [
+        {
+          "title": "Bismuth-209",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bismuth-209"
+        },
+        {
+          "title": "Bismuth",
+          "publisher": "Royal Society of Chemistry",
+          "url": "https://www.rsc.org/periodic-table/element/83/bismuth"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bismuth-209",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mpemba effect: hot water can freeze faster than cold water",
+      "body": "In 1963, Tanzanian schoolboy Erasto Mpemba noticed that warm ice cream mix froze sooner than cold mix. Though seemingly counterintuitive, under certain conditions hot water can freeze faster than cold water. Scientists have proposed several contributing factors, including rapid evaporation reducing mass, increased convection currents, dissolved gases escaping, and subtle changes in hydrogen bonding arrangements.",
+      "imageWikipediaTitle": "Mpemba effect",
+      "sources": [
+        {
+          "title": "Mpemba effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mpemba_effect"
+        },
+        {
+          "title": "Cool experiment: Tanzanian student who discovered the Mpemba effect honoured",
+          "publisher": "Royal Society of Chemistry",
+          "url": "https://www.rsc.org/education/teachers/resources/chemistryinperspective/cip_mpemba.htm"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mpemba_effect",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fungi don't just eat dead wood—some feast on deadly ionizing radiation",
+      "body": "In 1991, researchers inside the ruined Chernobyl nuclear reactor discovered black mold growing along damaged walls. These 'radiotrophic' fungi, rich in the dark pigment melanin, appear to harness ionizing radiation to stimulate growth, analogous to how plants capture sunlight. Laboratory tests showed that gamma radiation accelerates their metabolism, converting deadly electromagnetic energy into usable chemical energy.",
+      "imageWikipediaTitle": "Radiotrophic fungus",
+      "sources": [
+        {
+          "title": "Radiotrophic fungus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Radiotrophic_fungus"
+        },
+        {
+          "title": "Ionizing Radiation Changes the Electronic Properties of Melanin and Enhances the Growth of Melanized Fungi",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000457"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000457",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do two clean pieces of identical metal fuse together on contact in a vacuum?",
+      "options": [
+        "Without air to form an oxide barrier, surface atoms cannot tell the pieces apart",
+        "The vacuum creates massive negative pressure that compresses them",
+        "Cosmic radiation melts the outer atomic layers instantly",
+        "The extreme cold of space triggers superconductive adhesion"
+      ],
+      "correctIndex": 0,
+      "explanation": "In a vacuum, without air forming an intervening oxide film, metallic bonds form seamlessly between touching surfaces of the same metal."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How low can a blue whale's heart rate drop during a deep feeding dive?",
+      "options": [
+        "About 2 beats per minute",
+        "About 15 beats per minute",
+        "About 30 beats per minute",
+        "Its heart stops beating entirely for hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Biologging tags revealed that a diving blue whale's heart rate can plummet to just 2 beats per minute to conserve oxygen."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was bismuth-209 long thought to be a completely stable element?",
+      "options": [
+        "Its half-life is over a billion times longer than the age of the universe",
+        "It only decays when exposed to intense cosmic rays",
+        "It absorbs radiation rather than emitting it",
+        "Its nucleus contains no neutrons to decay"
+      ],
+      "correctIndex": 0,
+      "explanation": "With a half-life of 20 quintillion years, bismuth-209 decays so slowly that detecting its alpha emission took until 2003."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the counterintuitive phenomenon known as the Mpemba effect?",
+      "options": [
+        "Hot water can sometimes freeze faster than cold water",
+        "Boiling water produces less steam under high pressure",
+        "Salted water freezes at a higher temperature than fresh water",
+        "Water expands continuously as it cools from any temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Named after Tanzanian student Erasto Mpemba, the effect describes conditions under which warm water freezes sooner than cold water."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What pigment enables certain fungi around Chernobyl to harness ionizing radiation for growth?",
+      "options": [
+        "Melanin",
+        "Chlorophyll",
+        "Carotenoid",
+        "Hemoglobin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Melanin-rich radiotrophic fungi absorb ionizing gamma radiation and convert it into metabolic chemical energy."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "During deep feeding dives, what is the lowest recorded heart rate of a wild blue whale?",
+      "answer": 2,
+      "min": 1,
+      "max": 30,
+      "unit": "bpm",
+      "explanation": "Sensor tags recorded a blue whale's heart rate slowing to an astonishing 2 beats per minute during deep dives."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Welding two pieces of metal together always requires melting them with intense heat.",
+      "answer": false,
+      "explanation": "Cold welding joins clean, oxide-free pieces of the same metal instantly on contact in a vacuum without applying any heat."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Bismuth is a completely stable, non-radioactive element.",
+      "answer": false,
+      "explanation": "In 2003, bismuth-209 was proven to be radioactive, though its half-life of 20 quintillion years is over a billion times the age of the universe."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Cold water will always freeze faster than hot water under any experimental conditions.",
+      "answer": false,
+      "explanation": "Under certain conditions, hot water freezes faster than cold water due to the Mpemba effect."
+    }
+  ]
+}

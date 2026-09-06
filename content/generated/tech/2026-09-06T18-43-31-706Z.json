@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.706Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your ATM PIN has four digits instead of six",
+      "body": "When inventor John Shepherd-Barron designed the world's first automated teller machine for Barclays in 1967, he initially planned for six-digit identification numbers. However, his wife Caroline told him she could reliably remember only four digits. Shepherd-Barron trimmed the standard, cementing the four-digit PIN worldwide. Because magnetic stripe cards had not yet emerged, early ATMs dispensed cash by reading checks lightly impregnated with mildly radioactive carbon-14, safely detected by an internal Geiger counter.",
+      "imageWikipediaTitle": "Automated teller machine",
+      "sources": [
+        {
+          "title": "The ATM: Cash machine turns 50",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/business-40348731"
+        },
+        {
+          "title": "Automated teller machine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Automated_teller_machine"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/business-40348731",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1963 doctoral thesis invented modern computer graphics",
+      "body": "In 1963, computer scientist Ivan Sutherland unveiled Sketchpad, a pioneering program created on MIT's TX-2 computer. Armed with a light pen, users could draw lines, arcs, and shapes directly onto a glowing cathode-ray tube screen. Sketchpad introduced foundational computing concepts that predated consumer software by decades, including graphical user interfaces, object-oriented programming, and geometric constraints that automatically snapped uneven sketches into perfect circles and perpendicular lines.",
+      "imageWikipediaTitle": "Sketchpad",
+      "sources": [
+        {
+          "title": "Sketchpad",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/technology/Sketchpad"
+        },
+        {
+          "title": "Sketchpad",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sketchpad"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/Sketchpad",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rivals who made electronic synthesizers speak the same language",
+      "body": "In the early 1980s, electronic musical instruments were walled gardens; a keyboard from one brand could not control a synthesizer from another. Instead of battling for proprietary dominance, Roland founder Ikutaro Kakehashi and Sequential Circuits creator Dave Smith co-developed MIDI, the Musical Instrument Digital Interface. Unveiled in 1983, they released the digital communication standard entirely royalty-free and unpatented, uniting fierce industry rivals and sparking decades of computer-driven musical innovation.",
+      "imageWikipediaTitle": "MIDI",
+      "sources": [
+        {
+          "title": "MIDI",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/technology/MIDI"
+        },
+        {
+          "title": "MIDI",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MIDI"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/MIDI",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first working laser was powered by a photographic flashbulb",
+      "body": "In 1960, physicist Theodore Maiman successfully built the world's first working optical laser at Hughes Research Laboratories. While competitors chased complex, expensive setups, Maiman wrapped a spiraling xenon flashlamp around a small cylinder of synthetic pink ruby. When the flash tube fired high-intensity light pulses, the ruby's chromium atoms amplified the photons into a coherent red beam. Leading scientific journals had previously doubted practical lasers were possible, initially rejecting Maiman's discovery.",
+      "imageWikipediaTitle": "Laser",
+      "sources": [
+        {
+          "title": "Theodore Maiman",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Theodore-Maiman"
+        },
+        {
+          "title": "Theodore Maiman",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theodore_Maiman"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Theodore-Maiman",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mathematician who mapped Earth's wrinkles to enable GPS",
+      "body": "GPS satellites orbit thousands of miles above Earth, but calculating exact ground positions requires understanding the planet's irregular, bumpy gravitational shape. In the 1970s and 1980s, mathematician Gladys West programmed the massive IBM 7030 Stretch supercomputer at the Naval Surface Warfare Center to process satellite radar data. Her complex algorithms produced an extraordinarily precise mathematical model of Earth's geoid, establishing the foundational geodesy calculations that enable GPS systems to pinpoint your exact coordinates.",
+      "imageWikipediaTitle": "Gladys West",
+      "sources": [
+        {
+          "title": "Gladys West",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Gladys-West"
+        },
+        {
+          "title": "Gladys West",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gladys_West"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Gladys-West",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did inventor John Shepherd-Barron settle on a 4-digit standard for ATM PINs?",
+      "options": [
+        "His wife told him she could reliably remember only four digits",
+        "Four digits was the maximum memory capacity of early ATM microchips",
+        "British banking regulations legally capped security codes at four numbers",
+        "Rotary telephone dials made entering longer numbers too slow"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shepherd-Barron originally planned a six-digit PIN based on his army serial number, but reduced it to four because his wife Caroline found four digits easier to recall."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What input device did users manipulate to draw directly onto the screen in Ivan Sutherland's 1963 program Sketchpad?",
+      "options": [
+        "A computer mouse",
+        "A light pen",
+        "A graphics tablet stylus",
+        "A mechanical joystick"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sketchpad allowed users to draw, erase, and manipulate geometric shapes directly on a cathode-ray screen using a handheld light pen."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What commercial decision helped MIDI become the universal standard across electronic instruments in the 1980s?",
+      "options": [
+        "It was released completely royalty-free and without patents",
+        "The United States government mandated its use for commercial audio",
+        "Major record labels refused to sign artists using non-MIDI synthesizers",
+        "A single dominant corporation bought out all competing format developers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Its creators, Dave Smith and Ikutaro Kakehashi, chose not to patent MIDI or charge royalties, ensuring instrument manufacturers worldwide would adopt the common standard."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What active medium did Theodore Maiman use inside the world's first operational laser in 1960?",
+      "options": [
+        "Helium-neon gas",
+        "A synthetic ruby crystal",
+        "A gallium-arsenide semiconductor",
+        "Pure liquid dye"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maiman used a cylinder of synthetic pink ruby, energizing its chromium atoms with light from a coiled photographic xenon flashlamp."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What critical mathematical model did Gladys West calculate to lay the groundwork for modern GPS navigation?",
+      "options": [
+        "A precise mathematical model of Earth's gravitational geoid",
+        "The relativistic time dilation of atomic clocks in orbit",
+        "The optimal orbital trajectories for communication satellites",
+        "Atmospheric refraction tables for laser rangefinders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gladys West programmed complex supercomputer simulations of Earth's geoid, accounting for gravitational and tidal irregularities so GPS satellites could accurately locate positions on Earth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many digits long was the ATM personal identification number (PIN) originally designed to be before the inventor shortened it?",
+      "answer": 6,
+      "min": 3,
+      "max": 12,
+      "unit": "digits",
+      "explanation": "John Shepherd-Barron planned for a 6-digit PIN based on his military number, but shortened it to 4 after his wife said she could only reliably remember four numbers."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The world's first ATMs verified customer checks using trace amounts of radioactive material.",
+      "answer": true,
+      "explanation": "The first ATM installed by Barclays in 1967 scanned customer checks printed with harmless, low-level carbon-14 using an internal radiation detector."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "MIDI was patented by Roland and licensed as proprietary technology to other instrument makers.",
+      "answer": false,
+      "explanation": "MIDI was deliberately released unpatented and royalty-free to encourage all electronic music manufacturers to adopt a single universal standard."
+    }
+  ]
+}

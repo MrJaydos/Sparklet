@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.708Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a \"nemesis\" was originally an ancient goddess of balance",
+      "body": "Today, a nemesis is an arch-rival or unbeatable foe. But to the ancient Greeks, Nemesis was the goddess of divine retribution. Her name comes from the Greek verb nemein, meaning \"to distribute\" or \"to deal out what is due.\" She was not an evil villain, but an enforcer of balance who punished mortals guilty of hubris—excessive pride or arrogance—ensuring nobody accumulated undue fortune without paying the price.",
+      "imageWikipediaTitle": "Nemesis",
+      "sources": [
+        {
+          "title": "Nemesis",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Nemesis-Greek-religion"
+        },
+        {
+          "title": "Nemesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nemesis"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Nemesis-Greek-religion",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to say \"welcome\" warmly in Turkish",
+      "body": "When entering a shop, restaurant, or home in Turkey, you will inevitably hear Hoş geldiniz (pronounced hosh gel-dee-neez). Literally meaning \"your arrival is pleasant,\" it is written in Turkish as hoş geldiniz. The polite, expected response is Hoş bulduk (hoosh bool-dook), meaning \"we have found it pleasant.\" This two-part exchange instantly establishes warmth between host and guest.",
+      "imageWikipediaTitle": "Turkish language",
+      "sources": [
+        {
+          "title": "Turkish language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turkish_language"
+        },
+        {
+          "title": "Turkish Greetings and Polite Phrases",
+          "publisher": "BBC Languages",
+          "url": "https://www.bbc.co.uk/languages/turkish/guide/phrases.shtml"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.co.uk/languages/turkish/guide/phrases.shtml",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Italian",
+      "body": "Counting in Italian reveals clear Romance roots from Latin. One is uno (OO-noh), two is due (DOO-eh), and three is tre (TRAY). Written in Italian as uno, due, tre, these three basic numbers closely mirror their French (un, deux, trois) and Spanish (uno, dos, tres) cousins. They stem directly from Latin ūnus, duo, and trēs, echoing across Europe's Romance tongues for millennia.",
+      "imageWikipediaTitle": "Italian language",
+      "sources": [
+        {
+          "title": "Italian language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Italian-language"
+        },
+        {
+          "title": "Italian language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Italian_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Italian-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How an ancient Greek wrestling trick gave us \"anecdote\"",
+      "body": "An anecdote is a brief, amusing real-life story. The word stems from Greek anekdota, meaning \"things unpublished\" (from an-, \"not\", and ekdidonai, \"to publish\"). Byzantine historian Procopius wrote a scathing 6th-century court exposé titled Anekdota, detailing emperor Justinian's scandalous private life. Left unpublished until after Procopius died, his secret memoirs gave birth to our term for revealing, personal vignettes.",
+      "imageWikipediaTitle": "Procopius",
+      "sources": [
+        {
+          "title": "Anecdote",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/anecdote"
+        },
+        {
+          "title": "Procopius",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Procopius-Byzantine-historian"
+        },
+        {
+          "title": "Anecdote",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anecdote"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/anecdote",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saying \"thank you\" with respect in German",
+      "body": "To show gratitude in German, the standard phrase is Danke (pronounced DAHN-kuh). To make it warmer and more polite, speakers say Danke schön (DAHN-kuh shurn), literally \"thank you nicely\" or \"thank you beautifully.\" If someone offers you a gift or opens a door, answering with Danke schön or Vielen Dank (FEE-len dahnk, \"many thanks\") expresses polished appreciation across Germany, Austria, and Switzerland.",
+      "imageWikipediaTitle": "German language",
+      "sources": [
+        {
+          "title": "German language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/German-language"
+        },
+        {
+          "title": "German Phrases",
+          "publisher": "BBC Languages",
+          "url": "https://www.bbc.co.uk/languages/german/guide/phrases.shtml"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.co.uk/languages/german/guide/phrases.shtml",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In ancient Greek belief, what role did the goddess Nemesis originally play?",
+      "options": [
+        "She was an evil sorceress who plotted against Zeus",
+        "She distributed fair retribution and punished arrogant pride",
+        "She was the goddess of underworld labyrinths",
+        "She protected merchants and maritime traders"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nemesis comes from the Greek verb nemein ('to deal out'), representing the divine force punishing hubris to restore balance."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the customary Turkish response when a host says \"Hoş geldiniz\" (welcome)?",
+      "options": [
+        "Lütfen",
+        "Hoş bulduk",
+        "Teşekkür ederim",
+        "Güle güle"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hoş bulduk literally means 'we have found it pleasant,' serving as the standard, polite reply to 'Hoş geldiniz'."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do you count to three in Italian?",
+      "options": [
+        "Uno, due, tre",
+        "Un, deux, trois",
+        "Uno, dos, tres",
+        "Um, dois, três"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Italian, one, two, and three are uno, due, and tre, derived directly from Latin ūnus, duo, and trēs."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the Greek root behind \"anecdote\" originally mean?",
+      "options": [
+        "Things written in verse",
+        "Fictional theater plays",
+        "Unpublished secret items",
+        "Public town announcements"
+      ],
+      "correctIndex": 2,
+      "explanation": "From Greek anekdota ('things unpublished'), the word originally described unpublished, private memoirs by historian Procopius."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the German polite phrase \"Danke schön\" literally translate to?",
+      "options": [
+        "Thank you forever",
+        "Thank you greatly",
+        "Thank you nicely or beautifully",
+        "Thank you with honor"
+      ],
+      "correctIndex": 2,
+      "explanation": "Schön means 'nice' or 'beautiful,' making Danke schön literally mean 'thank you nicely' or 'beautifully.'"
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The ancient Greek goddess Nemesis was considered an evil demon of destruction.",
+      "answer": false,
+      "explanation": "Nemesis was not considered an evil demon, but rather a goddess of cosmic order and balance who punished excessive hubris."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The word \"anecdote\" originally meant unpublished or secret writings.",
+      "answer": true,
+      "explanation": "Derived from Greek 'anekdota' ('not published'), it originally described Procopius's secret memoirs kept hidden during his lifetime."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.712Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your stomach rumbles even when you aren't hungry",
+      "body": "That growling sound from your belly isn't just a signal that you need lunch. Known scientifically as borborygmi, it often stems from the migrating motor complex, an electrical housekeeping cycle that kicks in roughly two hours after your stomach empties. Rhythmic muscular waves sweep residual food particles, mucus, and bacteria down into the intestines, squeezing pockets of gas and fluid along the way to keep your digestive tract clean.",
+      "imageWikipediaTitle": "Gastrointestinal tract",
+      "sources": [
+        {
+          "title": "Physiology, Migrating Motor Complex",
+          "publisher": "National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545169/"
+        },
+        {
+          "title": "Migrating motor complex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Migrating_motor_complex"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK545169/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles waste four times more energy as heat than movement",
+      "body": "When you run, lift, or cycle, your muscles are surprisingly inefficient mechanical engines. Only about 20 to 25 percent of the chemical energy liberated from metabolized fuel is converted into actual mechanical work. The remaining 75 to 80 percent is released directly as thermal energy. This massive heat byproduct is why vigorous exercise quickly raises your core temperature, forcing your body to sweat to prevent dangerous internal overheating.",
+      "imageWikipediaTitle": "Skeletal muscle",
+      "sources": [
+        {
+          "title": "Physiology, Temperature Regulation",
+          "publisher": "National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507838/"
+        },
+        {
+          "title": "Muscle contraction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscle_contraction"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK507838/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A completely fat-free salad prevents your body from absorbing key vitamins",
+      "body": "Drizzling olive oil or dressing over raw vegetables is not just culinary preference—it is nutritional chemistry. Carotenoids like beta-carotene and lycopene, along with vitamins A, D, E, and K, are strictly fat-soluble. Without dietary lipids to stimulate bile release and form transport micelles in your intestines, these nutrients pass straight through unabsorbed. Eating raw vegetables with entirely fat-free dressing results in virtually zero absorption of several essential micronutrients.",
+      "imageWikipediaTitle": "Salad",
+      "sources": [
+        {
+          "title": "Fat-soluble vitamins",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/002405.htm"
+        },
+        {
+          "title": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15321799/"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/15321799/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why scar tissue permanently lacks sweat glands and hair",
+      "body": "When skin repairs deep wounds, emergency fibroblast cells rush in to seal the breach with dense, parallel bundles of collagen. This rapid patching prioritizes quick structural integrity over replicating the intricate, flexible basketweave pattern of undamaged skin. Because the repair machinery focuses strictly on closing the barrier against infection, it omits specialized skin appendages entirely. As a consequence, mature scar tissue permanently lacks hair follicles, sebaceous oil glands, and sweat glands.",
+      "imageWikipediaTitle": "Scar",
+      "sources": [
+        {
+          "title": "Physiology, Wound Healing",
+          "publisher": "National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK535406/"
+        },
+        {
+          "title": "Scar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scar"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK535406/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Every nutrient you eat takes a mandatory detour through your liver",
+      "body": "When your stomach and intestines absorb nutrients, medications, or fluids, they do not pass directly into general circulation. Instead, they drain through a specialized vascular pipeline called the hepatic portal system straight into your liver. This biological checkpoint allows hepatocytes to inspect, process, store, and detoxify absorbed molecules before the blood travels toward your heart and brain, screening out dangerous toxins and regulating the nutrients that enter the rest of your body.",
+      "imageWikipediaTitle": "Liver",
+      "sources": [
+        {
+          "title": "Physiology, Hepatic Portal Vein",
+          "publisher": "National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK544304/"
+        },
+        {
+          "title": "Hepatic portal system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hepatic_portal_system"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544304/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What primary mechanism causes your stomach to rumble hours after a meal?",
+      "options": [
+        "Acid splashing against empty stomach walls",
+        "A housekeeping contraction cycle that sweeps lingering debris down the gut",
+        "Rapid air inhalation triggered by low blood sugar",
+        "The complete collapse of the gastric lining"
+      ],
+      "correctIndex": 1,
+      "explanation": "The migrating motor complex produces cyclic muscular waves that clean out residual debris, pushing gas and fluids along the empty digestive tract."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Roughly what percentage of the energy consumed by working muscles is lost as heat?",
+      "options": [
+        "About 10 to 15 percent",
+        "About 35 to 40 percent",
+        "About 75 to 80 percent",
+        "Nearly 95 to 99 percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Skeletal muscle is only about 20 to 25 percent mechanically efficient; roughly 75 to 80 percent of consumed energy escapes directly as heat."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does consuming a completely fat-free salad hinder nutrient absorption?",
+      "options": [
+        "Raw greens destroy fat-soluble vitamins without oil present",
+        "Fat-soluble vitamins and carotenoids require dietary lipids to form absorbable micelles",
+        "Stomach acid only activates in the presence of triglycerides",
+        "Vegetable fiber permanently binds to vitamins unless coated in oil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vitamins A, D, E, and K, as well as plant carotenoids, dissolve only in fat and require dietary lipids to be packaged and absorbed by the intestines."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is mature scar tissue unable to produce sweat or grow hair?",
+      "options": [
+        "Dense parallel collagen replaces normal tissue without rebuilding specialized skin appendages",
+        "Scar tissue completely cuts off all capillary blood supply permanently",
+        "Nerves in scars release hormones that suppress hair follicle growth",
+        "The epidermis never regrows over healed scar tissue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rapid emergency collagen deposition restores the structural skin barrier quickly, but leaves out complex appendages like sweat glands and hair follicles."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where does blood from the intestines travel first before circulating to the rest of the body?",
+      "options": [
+        "Directly to the kidneys for filtration",
+        "To the heart via the inferior vena cava",
+        "To the spleen for immune cell matching",
+        "To the liver via the hepatic portal vein"
+      ],
+      "correctIndex": 3,
+      "explanation": "The hepatic portal system directs all blood absorbed from the gastrointestinal tract to the liver first for processing, storage, and detoxification."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of the energy burned by your muscles during exercise is released as heat rather than movement?",
+      "answer": 75,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Muscles are only 20 to 25 percent efficient at producing work; about 75 to 80 percent of their energy turns straight into heat."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Stomach rumbling only occurs when your body is signaling hunger.",
+      "answer": false,
+      "explanation": "Stomach growling often results from the migrating motor complex, a routine digestive housekeeping cycle that cleans out an empty gut."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Eating vegetables without any fat maximizes the body's uptake of their vitamins.",
+      "answer": false,
+      "explanation": "Vitamins A, D, E, and K, along with plant carotenoids, need dietary fat to be absorbed; without it, they pass straight through unabsorbed."
+    }
+  ]
+}

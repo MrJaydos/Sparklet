@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.709Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why human intimacy is like a pack of freezing hedgehogs",
+      "body": "In 1851, philosopher Arthur Schopenhauer described a pack of hedgehogs huddled together on a freezing day. To keep warm, they crowd tight, but their sharp quills painfully prick each other. When they pull apart, they freeze again. After repeating this dance, they eventually settle on a moderate distance that balances warmth and pain. For Schopenhauer, this captures the human dilemma: our social nature draws us together, but our mutual defects drive us apart.",
+      "imageWikipediaTitle": "Arthur Schopenhauer",
+      "sources": [
+        {
+          "title": "Arthur Schopenhauer",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/schopenhauer/"
+        },
+        {
+          "title": "Hedgehog's dilemma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hedgehog%27s_dilemma"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/schopenhauer/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an ancient Greek philosopher argued that nothing ever moves or changes",
+      "body": "In the fifth century BCE, Parmenides claimed that change and motion are logical impossibilities. His argument was strict: for something to change, it must come from what is not. But nonexistence cannot exist, cannot be thought, and cannot cause anything. Therefore, reality must be a single, indivisible, and unmoving whole. According to Parmenides, every sensation we have of time, motion, and variety is an elaborate illusion of the senses.",
+      "imageWikipediaTitle": "Parmenides",
+      "sources": [
+        {
+          "title": "Parmenides",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/parmenides/"
+        },
+        {
+          "title": "Parmenides",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/parmenid/"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/parmenides/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why holding a belief without evidence is a moral failure",
+      "body": "In 1877, mathematician and philosopher W.K. Clifford imagined a shipowner sending an aging emigrant vessel to sea. Despite serious doubts about its seaworthiness, the owner talked himself into believing the ship was safe, trusting providence. The ship sank mid-voyage. Clifford argued the owner was morally guilty not merely because lives were lost, but because he adopted a belief without sufficient evidence. For Clifford, believing without proof is always an ethical wrong against society.",
+      "imageWikipediaTitle": "William Kingdon Clifford",
+      "sources": [
+        {
+          "title": "The Ethics of Belief",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/ethics-belief/"
+        },
+        {
+          "title": "Ethics of Belief",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/ethics-b/"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/ethics-belief/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "If every truth could theoretically be known, we must already know everything",
+      "body": "Many philosophers assume that truth is fundamentally discoverable: if something is true, it is at least possible for someone to know it. In 1963, logician Frederic Fitch published a devastating proof against this idea. Using elementary modal logic, Fitch demonstrated that if every truth is knowable, it logically entails that every truth is already known right now. Because unknown truths clearly exist, the premise collapses—some truths are strictly unknowable.",
+      "imageWikipediaTitle": "Logic",
+      "sources": [
+        {
+          "title": "Fitch's Paradox of Knowability",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/fitch-paradox/"
+        },
+        {
+          "title": "Fitch’s Paradox of Knowability",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/fitch-pa/"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/fitch-paradox/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The nine-step thought experiment that asks when a slave becomes free",
+      "body": "In 1974, philosopher Robert Nozick challenged democratic assumptions with a thought experiment called the Tale of the Slave. He outlined nine gradual transitions: a brutal master lets a slave take breaks, work in town, spend surplus wages, and eventually cast one vote among thousands to choose the master's rules. Nozick asked: at which step did the slave become a free person? If no transition marks true liberation, modern citizens may still be subject to ownership.",
+      "imageWikipediaTitle": "Robert Nozick",
+      "sources": [
+        {
+          "title": "Robert Nozick's Political Philosophy",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/nozick-political/"
+        },
+        {
+          "title": "Anarchy, State, and Utopia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anarchy,_State,_and_Utopia"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/nozick-political/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does Arthur Schopenhauer's hedgehog dilemma illustrate about human relationships?",
+      "options": [
+        "We must balance our mutual need for warmth against the pain of getting too close",
+        "True altruism is impossible because humans act only out of self-preservation",
+        "Cold environments naturally force rival species into cooperative alliances",
+        "Social isolation inevitably leads to moral perfection"
+      ],
+      "correctIndex": 0,
+      "explanation": "Schopenhauer used the hedgehog parable to show how humans need closeness for warmth, but must maintain distance to avoid mutual irritation."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did Parmenides argue that change is logically impossible?",
+      "options": [
+        "Because change would require something to arise from \"what is not,\" which cannot exist",
+        "Because physical atoms cannot collide without losing kinetic energy",
+        "Because human perception operates too slowly to register continuous time",
+        "Because mathematics only permits static geometric figures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parmenides argued that change requires nonbeing to produce being, but since \"nothing\" cannot exist or produce anything, change cannot happen."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In W.K. Clifford's \"The Ethics of Belief,\" why was the shipowner morally guilty?",
+      "options": [
+        "He formed a belief without sufficient evidence, regardless of the ship's fate",
+        "He failed to purchase maritime insurance before setting sail",
+        "He intentionally sabotaged the vessel to collect financial compensation",
+        "He relied on empirical data rather than trusting his intuitive instincts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Clifford argued that the shipowner was guilty the moment he accepted the belief without sufficient evidence, even if the ship had safely made the journey."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What surprising conclusion does Fitch's Paradox of Knowability deduce if all truths are knowable?",
+      "options": [
+        "Every truth must already be known right now",
+        "No statement can ever be verified by scientific observation",
+        "Mathematical logic contains an unresolvable contradiction",
+        "Human beings are incapable of forming true beliefs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fitch proved that if we assume every truth can potentially be known, standard logical axioms force the absurd conclusion that all truths are already known."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary ethical question raised by Robert Nozick's \"Tale of the Slave\"?",
+      "options": [
+        "At which step of increasing privileges does a slave actually become free?",
+        "How many hours of labor should a worker owe to the community?",
+        "Why are democratic systems more productive than absolute monarchies?",
+        "Whether physical property rights can exist without a written constitution"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nozick presents nine transitions where a slave receives rights and voting power, asking at what point—if any—the situation stops being slavery."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "A person's beliefs are only morally blameworthy if they lead to tangible real-world harm.",
+      "answer": false,
+      "explanation": "W.K. Clifford's 'Ethics of Belief' argued that believing without sufficient evidence is always morally wrong in itself, even if no harm results."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Ancient Greek philosophers uniformly believed that the physical world was constantly changing.",
+      "answer": false,
+      "explanation": "Parmenides and the Eleatic school argued that true reality is completely motionless and changeless, calling sensory variation an illusion."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Formal logic can prove that there are truths that no human can ever know.",
+      "answer": true,
+      "explanation": "Fitch's Paradox of Knowability demonstrates that assuming all truths are knowable leads to absurdity, meaning unknowable truths must exist."
+    }
+  ]
+}

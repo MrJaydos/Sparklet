@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.711Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An exoplanet where it rains liquid iron",
+      "body": "On the tidally locked exoplanet WASP-76b, daytime temperatures surge past 2,400 degrees Celsius—hot enough to vaporize metallic iron. Powerful atmospheric winds sweep this iron gas into the planet's cooler nightside, where temperatures drop to around 1,500 degrees Celsius. This dramatic cooling forces the metallic vapor to condense into heavy clouds, unleashing torrential downpours of liquid iron droplets across the planet's perpetual darkness.",
+      "imageWikipediaTitle": "WASP-76b",
+      "sources": [
+        {
+          "title": "ESO Telescope Observes Exoplanet Where It Rains Iron",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso2005/"
+        },
+        {
+          "title": "WASP-76b",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/WASP-76b"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso2005/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lightning strikes in reverse on Jupiter",
+      "body": "On Earth, lightning strikes most frequently around the equator, where intense sunlight heats the tropical ground and creates buoyant, moisture-rich updrafts. But data from NASA's Juno spacecraft revealed that Jupiter does the exact opposite. Because weak solar radiation cannot compete with the planet's own internal furnace, warm gas rises predominantly near the poles. As a result, Jupiter's violent lightning storms are heavily concentrated in its polar regions.",
+      "imageWikipediaTitle": "Atmosphere of Jupiter",
+      "sources": [
+        {
+          "title": "NASA's Juno Solves a Nearly 40-Year-Old Jupiter Mystery",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/nasas-juno-solves-a-nearly-40-year-old-jupiter-mystery"
+        },
+        {
+          "title": "Atmosphere of Jupiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Jupiter"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/nasas-juno-solves-a-nearly-40-year-old-jupiter-mystery",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The solar system's first confirmed interstellar visitor",
+      "body": "In October 2017, astronomers detected ʻOumuamua, a fast-moving object skimming through our solar system on an unbound hyperbolic path. Its extreme speed and trajectory confirmed it was the first visitor ever observed arriving from interstellar space. Highly elongated and up to ten times longer than it is wide, the rocky interloper showed non-gravitational acceleration as it left, yet completely lacked the telltale glowing dust or gas coma of an ordinary comet.",
+      "imageWikipediaTitle": "ʻOumuamua",
+      "sources": [
+        {
+          "title": "ESO Observations Show First Interstellar Asteroid is Like Nothing Seen Before",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso1737/"
+        },
+        {
+          "title": "ʻOumuamua",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/%CA%BBOumuamua"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso1737/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A miniature star system hosts seven Earth-sized worlds",
+      "body": "Just forty light-years away sits TRAPPIST-1, an ultracool red dwarf barely larger than Jupiter. Despite its diminutive host, the system contains the largest known family of Earth-sized planets, with seven rocky worlds packed in remarkably tight orbits. All seven circle closer to their star than Mercury is to our Sun. Crucially, three of these temperate worlds orbit within the star's habitable zone, where surface temperatures could potentially allow liquid water to exist.",
+      "imageWikipediaTitle": "TRAPPIST-1",
+      "sources": [
+        {
+          "title": "Ultracool Dwarf and the Seven Planets",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso1706/"
+        },
+        {
+          "title": "TRAPPIST-1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/TRAPPIST-1"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso1706/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Humanity successfully altered an asteroid's orbit",
+      "body": "In September 2022, NASA intentionally steered the 570-kilogram DART spacecraft into Dimorphos, a small asteroid moonlet orbiting a larger rock named Didymos. The spacecraft struck at over 22,000 kilometers per hour, gouging out a massive crater and spewing thousands of tons of debris into space. The kinetic impact shortened Dimorphos's orbital period by 32 minutes—far exceeding mission targets and proving humanity can intentionally deflect a hazardous asteroid.",
+      "imageWikipediaTitle": "Double Asteroid Redirection Test",
+      "sources": [
+        {
+          "title": "ESO Telescopes Spot First Traces of Material Ejected by DART Impact",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso2304/"
+        },
+        {
+          "title": "Double Asteroid Redirection Test",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Double_Asteroid_Redirection_Test"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso2304/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does it rain liquid iron on the exoplanet WASP-76b?",
+      "options": [
+        "Iron vapor from the scorching dayside condenses when swept to the cooler nightside",
+        "Meteor showers composed of pure iron constantly bombard the planet's upper atmosphere",
+        "Deep magma oceans erupt molten metal into low-altitude clouds",
+        "Intense solar radiation strips away the atmosphere, leaving a metallic rain behind"
+      ],
+      "correctIndex": 0,
+      "explanation": "WASP-76b's tidally locked dayside vaporizes iron, which winds carry to the much cooler nightside where it condenses into liquid droplets."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where does lightning strike most frequently on Jupiter, according to NASA's Juno orbiter?",
+      "options": [
+        "Near its equator",
+        "Around its polar regions",
+        "Inside the Great Red Spot",
+        "Exclusively along its magnetic equator"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike Earth's equator-heavy lightning, Jupiter's lightning is concentrated at its poles because internal heat drives atmospheric convection there."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What confirmed that ʻOumuamua originated outside our solar system?",
+      "options": [
+        "Its composition was entirely made of radioactive antimatter",
+        "Its high speed and hyperbolic trajectory showed it was not gravitationally bound to the Sun",
+        "It broadcast an artificial radio transmission toward Earth",
+        "It entered the solar system along Earth's exact orbital plane"
+      ],
+      "correctIndex": 1,
+      "explanation": "ʻOumuamua's excessive velocity and hyperbolic orbit proved it came from deep interstellar space rather than our solar system."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How many Earth-sized rocky planets orbit the ultracool dwarf star TRAPPIST-1?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "10"
+      ],
+      "correctIndex": 2,
+      "explanation": "TRAPPIST-1 hosts seven roughly Earth-sized rocky planets, three of which reside in the star's habitable zone."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the primary goal of NASA's DART mission in 2022?",
+      "options": [
+        "To mine rare minerals from the asteroid Dimorphos",
+        "To test whether slamming a spacecraft into an asteroid could alter its orbit",
+        "To search for microbial life beneath an asteroid's crust",
+        "To place a permanent scientific monitoring station on Didymos"
+      ],
+      "correctIndex": 1,
+      "explanation": "DART was a kinetic impact deflection test designed to demonstrate that intentionally crashing a probe into an asteroid changes its orbital trajectory."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "On the scorched dayside of exoplanet WASP-76b, what temperature in degrees Celsius does it reach to vaporize iron?",
+      "answer": 2400,
+      "min": 500,
+      "max": 5000,
+      "unit": "°C",
+      "explanation": "Dayside temperatures exceed 2,400°C, extreme enough to turn elemental iron into atmospheric vapor."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many Earth-sized planets have astronomers discovered orbiting the single dwarf star TRAPPIST-1?",
+      "answer": 7,
+      "min": 1,
+      "max": 20,
+      "unit": "",
+      "explanation": "Astronomers discovered seven Earth-sized rocky worlds packed tightly around TRAPPIST-1, three of them in its habitable zone."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "By how many minutes did NASA's DART spacecraft shorten the orbital period of the asteroid moonlet Dimorphos?",
+      "answer": 32,
+      "min": 1,
+      "max": 120,
+      "unit": "minutes",
+      "explanation": "The collision shortened Dimorphos's 11-hour-55-minute orbit around Didymos by roughly 32 minutes, far surpassing NASA's minimum target of 73 seconds."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Planetary lightning always occurs most frequently near the equator, just as it does on Earth.",
+      "answer": false,
+      "explanation": "NASA's Juno mission showed that on Jupiter, internal heat drives convection at the poles, making polar lightning far more frequent than equatorial strikes."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The first confirmed interstellar visitor accelerated away from the Sun without showing any visible comet tail.",
+      "answer": true,
+      "explanation": "ʻOumuamua experienced an unexplained non-gravitational push as it sped away, yet telescopes detected no visible gas or dust ejection."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Humanity has never successfully shifted the orbital path of an asteroid in space.",
+      "answer": false,
+      "explanation": "In 2022, NASA's DART mission slammed into Dimorphos and successfully shortened its orbit by roughly 32 minutes."
+    }
+  ]
+}

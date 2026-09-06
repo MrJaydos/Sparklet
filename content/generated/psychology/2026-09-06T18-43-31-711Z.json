@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.711Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why losing a game makes fans think the referees were biased against them",
+      "body": "In 1951, Dartmouth and Princeton played a notoriously brutal football game filled with penalties and broken bones. When psychologists showed the exact same unedited game footage to students from both colleges, Princeton fans saw Dartmouth commit twice as many infractions as their own team, while Dartmouth fans saw both sides commit an equal number. The study revealed that people do not objectively observe events; preexisting allegiances actively construct what we visually perceive.",
+      "imageWikipediaTitle": "American football",
+      "sources": [
+        {
+          "title": "They saw a game; a case study",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13192080/"
+        },
+        {
+          "title": "Hastorf and Cantril study",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hastorf_and_Cantril_study"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/13192080/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why people prefer whatever option is labeled as the default",
+      "body": "When facing choices with an established baseline, people overwhelmingly stick with it, even if switching requires almost no effort. In insurance markets, retirement contributions, and organ donation registers, participation rates swing dramatically depending solely on whether enrollment is automatic or voluntary. Known as the status quo bias, this cognitive shortcut occurs because our brains weigh potential losses from taking action much more heavily than potential gains from changing our course.",
+      "imageWikipediaTitle": "Organ donation",
+      "sources": [
+        {
+          "title": "Status quo bias in decision making",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Status_quo_bias"
+        },
+        {
+          "title": "Default effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Default_effect"
+        },
+        {
+          "title": "Defaults and Donation Decisions",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4011388/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4011388/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you convince yourself you earned what you suffered for",
+      "body": "In a classic 1959 experiment, women who underwent an embarrassing initiation test to join a discussion group rated the subsequent, deliberately boring conversation as fascinating. Women who had an easy initiation found the exact same discussion dull. When we invest significant time, pain, or humiliation into a goal, our brains resolve the tension of 'suffering for nothing' by unconsciously inflating the perceived value of the outcome, a process called effort justification.",
+      "imageWikipediaTitle": "Cognitive dissonance",
+      "sources": [
+        {
+          "title": "The effect of severity of initiation on liking for a group",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13814881/"
+        },
+        {
+          "title": "Effort justification",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Effort_justification"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/13814881/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why winning an argument rarely changes anyone's mind in public",
+      "body": "Presenting undeniable evidence against someone's cherished belief often prompts them to defend it even more fiercely. Psychologists attribute this defensive response to identity protection: when an opinion is tied to social belonging or self-worth, admitting error feels like a personal existential threat. Rather than updating beliefs rationally, the brain mobilizes defensive reasoning to safeguard status, making neutral self-affirmations far more effective at changing minds than factual confrontations.",
+      "imageWikipediaTitle": "Debate",
+      "sources": [
+        {
+          "title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4161688/"
+        },
+        {
+          "title": "Motivated reasoning",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Motivated_reasoning"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4161688/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain registers social rejection the exact same way as physical pain",
+      "body": "When neuroscientists scanned people's brains during a virtual ball-tossing game where other players suddenly excluded them, a surprising region lit up: the dorsal anterior cingulate cortex. This area processes the emotional distress of physical injury. Because ancestral humans depended entirely on group membership for survival, evolution adapted physical pain circuits to signal social exclusion, making being left out feel literally painful.",
+      "imageWikipediaTitle": "Anterior cingulate cortex",
+      "sources": [
+        {
+          "title": "Does rejection hurt? An fMRI study of social exclusion",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14551436/"
+        },
+        {
+          "title": "Social rejection",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Social_rejection"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/14551436/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In the famous 1951 Hastorf and Cantril study of a football game, what did Princeton and Dartmouth students see?",
+      "options": [
+        "Both schools agreed completely on the total number of penalties",
+        "Princeton fans saw Dartmouth commit twice as many infractions as Princeton",
+        "Students only noticed infractions committed by their own team",
+        "Neither school detected any rule violations on the field"
+      ],
+      "correctIndex": 1,
+      "explanation": "Princeton fans saw Dartmouth commit twice as many infractions as their own team, proving allegiances shape how people perceive reality."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does the status quo bias lead people to stick with default options?",
+      "options": [
+        "Our brains calculate that change takes hours of conscious effort",
+        "Default options are always legally binding",
+        "The brain weighs potential losses from taking action more heavily than potential gains",
+        "People inherently distrust making choices for themselves"
+      ],
+      "correctIndex": 2,
+      "explanation": "The status quo bias is driven by loss aversion: people fear the potential downside of making a change more than they value potential benefits."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What happened when women underwent an embarrassing initiation to join a discussion group in Aronson and Mills' 1959 study?",
+      "options": [
+        "They rated the boring discussion as highly interesting and worthwhile",
+        "They immediately walked out and demanded an apology",
+        "They rated the discussion as far more boring than controls did",
+        "They forgot the contents of the initiation entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "To justify the discomfort and embarrassment they endured, their brains inflated the value of the dull discussion."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do people often defend their beliefs more fiercely when presented with contradictory facts?",
+      "options": [
+        "Admitting error is treated by the brain as an identity and status threat",
+        "Logical reasoning declines significantly with age",
+        "Memory automatically erases contradictory facts upon hearing them",
+        "Beliefs are stored in involuntary reflex pathways"
+      ],
+      "correctIndex": 0,
+      "explanation": "When beliefs are tied to social belonging or identity, factual challenges trigger defensive reasoning rather than open-minded updates."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which brain region activates during social exclusion, mirroring physical injury?",
+      "options": [
+        "Occipital lobe",
+        "Dorsal anterior cingulate cortex",
+        "Cerebellum",
+        "Olfactory bulb"
+      ],
+      "correctIndex": 1,
+      "explanation": "The dorsal anterior cingulate cortex processes the emotional distress of physical pain and also lights up during social rejection."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "The pain of social rejection is purely a psychological metaphor.",
+      "answer": false,
+      "explanation": "Brain scans show social rejection activates the dorsal anterior cingulate cortex, the same neural circuitry that processes physical pain distress."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Presenting clear, objective facts is the most effective way to change someone's deeply held belief.",
+      "answer": false,
+      "explanation": "Facts that threaten a person's social identity trigger defensive motivated reasoning, often causing them to entrench their original belief."
+    }
+  ]
+}

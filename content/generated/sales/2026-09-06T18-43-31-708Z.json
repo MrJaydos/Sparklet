@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.709Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why buyers happily overpay for flat-rate pricing",
+      "body": "When customers pay per unit of use, they suffer from what economists call the taxi-meter effect: every passing minute or incremental cost feels like a painful loss. Studies show consumers will pay a substantial premium for unlimited flat-rate plans, even when per-use billing would be far cheaper for their actual usage. Eliminating the anxiety of a ticking meter removes purchase friction and protects your margins.",
+      "imageWikipediaTitle": "Taximeter",
+      "sources": [
+        {
+          "title": "Flat-rate bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flat-rate_bias"
+        },
+        {
+          "title": "The Red and the Black: Mental Accounting of Savings and Debt",
+          "publisher": "Carnegie Mellon University",
+          "url": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/RedandBlack.pdf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flat-rate_bias",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pitch the trend to make social proof twice as effective",
+      "body": "If only a minority currently uses your solution, standard social proof can backfire by highlighting how few people have adopted it. Researchers at Stanford discovered a simple fix: dynamic norms. Describing a trend—such as more and more companies are switching—rather than a static percentage doubled customer adoption rates. Highlighting momentum signals that the future belongs to your solution, making prospects feel urgent about catching up.",
+      "imageWikipediaTitle": "Social proof",
+      "sources": [
+        {
+          "title": "Dynamic Norms Promote Sustainable Behavior, Even for Prevalent Norm-Conflicting Actions",
+          "publisher": "National Library of Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28968175/"
+        },
+        {
+          "title": "Social proof",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Social_proof"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/28968175/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why taking a walk before your pitch unlocks better deals",
+      "body": "Before sitting down at the negotiation table, invite your counterpart for a brief stroll. In studies published in Psychological Science, pairs who walked in physical synchrony showed dramatically higher levels of cooperation and contributed more to shared outcomes in subsequent bargaining tasks. Moving in unison quietly establishes non-conscious rapport and psychological alignment, shifting counterparts from an adversarial mindset into collaborative problem-solvers before negotiations even begin.",
+      "imageWikipediaTitle": "Behavioral synchrony",
+      "sources": [
+        {
+          "title": "Synchrony and cooperation",
+          "publisher": "National Library of Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19141157/"
+        },
+        {
+          "title": "Behavioral synchrony",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Behavioral_synchrony"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/19141157/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why eliminating one small risk beats reducing a massive one",
+      "body": "Decision-makers do not evaluate risk in a straight line. Psychologists demonstrated that buyers will pay far more to eliminate a risk entirely from 5% to 0% than to reduce that same risk from 15% to 5%, even though the second reduction saves twice as much danger. Eliminating risk provides complete psychological certainty. Pitching 100% money-back guarantees or zero setup downtime converts prospects better than promising broad, probabilistic improvements.",
+      "imageWikipediaTitle": "Risk",
+      "sources": [
+        {
+          "title": "Willingness to pay for risk reductions: the zero-risk effect",
+          "publisher": "National Library of Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8511413/"
+        },
+        {
+          "title": "Zero-risk bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zero-risk_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zero-risk_bias",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why repeating your core claim makes prospects believe it",
+      "body": "Human brains mistake cognitive ease for factual accuracy. First documented in 1977, the illusory truth effect proves that simply repeating a statement makes people judge it as more truthful, even when they possess knowledge to the contrary. In complex sales cycles, do not invent new slogans for every meeting. Consistently repeating your central value proposition across discovery calls, pitch decks, and follow-ups makes your claims feel intuitively verified and undeniably true.",
+      "imageWikipediaTitle": "Illusory truth effect",
+      "sources": [
+        {
+          "title": "Knowledge does not protect against illusory truth",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4757488/"
+        },
+        {
+          "title": "Illusory truth effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusory_truth_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4757488/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do customers often choose flat-rate subscriptions even when per-use pricing is cheaper?",
+      "options": [
+        "They want to avoid the continuous psychological pain of a ticking meter",
+        "Per-use pricing requires complicated credit checks",
+        "Flat-rate plans always include free equipment",
+        "Flat-rate contracts cannot be canceled early"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'taxi-meter effect' causes mental friction during every unit of use, leading buyers to pay a premium for unlimited flat pricing."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happens when salespeople frame social proof as a growing trend rather than a static minority?",
+      "options": [
+        "Prospect adoption rates double",
+        "Prospects become suspicious of fake momentum",
+        "Sales cycles lengthen significantly",
+        "Buyers demand larger volume discounts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stanford experiments found dynamic social proof ('more and more people are switching') doubled adoption compared to static percentages."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does engaging in synchronized movement (like walking in step) affect negotiations?",
+      "options": [
+        "It triggers subconscious cooperation and shared problem-solving",
+        "It distracts counterparts from noticing unfavorable deal terms",
+        "It establishes dominant body language over the prospect",
+        "It accelerates deal closing by fatiguing the counterpart"
+      ],
+      "correctIndex": 0,
+      "explanation": "Synchronous physical movement fosters non-conscious rapport, leading counterparts to cooperate significantly more in subsequent negotiations."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does the zero-risk bias demonstrate about buyer decision-making?",
+      "options": [
+        "Buyers pay a premium to eliminate a risk completely over reducing a larger risk partially",
+        "Buyers refuse to purchase warranties unless a previous unit failed",
+        "Prospects consistently prefer high-risk options if the upside is large",
+        "Offering guarantees makes products appear poorly manufactured"
+      ],
+      "correctIndex": 0,
+      "explanation": "The zero-risk bias shows people overvalue reducing risk to absolute zero compared to larger reductions that leave residual uncertainty."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does repeating a sales claim across multiple meetings make prospects believe it more?",
+      "options": [
+        "Cognitive familiarity is subconsciously processed as truth",
+        "Repetition exhausts the prospect's critical reasoning faculties",
+        "Repetition proves the claim has passed regulatory audits",
+        "Buyers assume repeated claims are backed by third-party data"
+      ],
+      "correctIndex": 0,
+      "explanation": "The illusory truth effect occurs because repeated statements are processed more fluently, and the brain instinctively equates fluency with truth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In a Stanford study, what percentage of cafe customers ordered a meatless dish when told people were increasingly switching to plant-based meals?",
+      "answer": 34,
+      "min": 5,
+      "max": 75,
+      "unit": "%",
+      "explanation": "Dynamic framing ('more people are switching') prompted 34% of customers to order meatless, doubling the 17% who did so under static framing."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Customers will reliably calculate and choose pay-per-use plans whenever they cost less than flat-rate options.",
+      "answer": false,
+      "explanation": "The flat-rate bias shows consumers routinely pay higher total costs for unlimited plans just to eliminate the anxiety of tracked usage."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Building rapport in negotiations requires verbal persuasion rather than physical actions like walking in step.",
+      "answer": false,
+      "explanation": "Research in Psychological Science demonstrates that physical synchrony alone significantly increases trust and cooperative bargaining."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Buyers will always choose a pitch that prevents the largest total amount of risk.",
+      "answer": false,
+      "explanation": "Because of the zero-risk bias, buyers consistently prefer eliminating a smaller risk completely over reducing a much larger risk by more."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Well-informed buyers are immune to believing repeated claims that contradict their existing knowledge.",
+      "answer": false,
+      "explanation": "Cognitive experiments show that prior knowledge does not protect buyers from the illusory truth effect; repetition still boosts perceived truth."
+    }
+  ]
+}

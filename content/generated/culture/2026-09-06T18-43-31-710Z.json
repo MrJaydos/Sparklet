@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-09-06T18:43:31.710Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 52 Revolutions of the Mesoamerican Sky Dancers",
+      "body": "In the Mexican ritual of the Voladores, five performers climb a wooden pole up to 30 meters high. While one musician balances on a tiny summit platform playing a wooden flute and drum, the other four launch upside down, suspended only by ankle ropes. Each dancer circles the pole exactly 13 times as the ropes unwind. Together, their 52 rotations recreate the Mesoamerican 52-year calendar cycle, beseeching universal harmony and rain.",
+      "imageWikipediaTitle": "Danza de los Voladores",
+      "sources": [
+        {
+          "title": "Ritual ceremony of the Voladores",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/ritual-ceremony-of-the-voladores-00175"
+        },
+        {
+          "title": "Danza de los Voladores",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Danza_de_los_Voladores"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/ritual-ceremony-of-the-voladores-00175",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Steppe Fiddle Strung from Mare and Stallion Hair",
+      "body": "The morin khuur, or horsehead fiddle, is the defining instrument of Mongolian nomadic culture. Carved with a horse head at its pegbox, the two-stringed instrument produces a rich, cello-like resonance said to mimic the galloping of steeds and steppe winds. Steppe craftsmen traditionally string the instrument using horsehair: the higher-pitched female string holds about 105 hairs from a mare's tail, while the male string binds roughly 130 hairs from a stallion.",
+      "imageWikipediaTitle": "Morin khuur",
+      "sources": [
+        {
+          "title": "Traditional music of the Morin Khuur",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/traditional-music-of-the-morin-khuur-00068"
+        },
+        {
+          "title": "Morin khuur",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Morin_khuur"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/traditional-music-of-the-morin-khuur-00068",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Japanese Mulberry Paper That Outlives Wood Pulp by Centuries",
+      "body": "While modern machine-made paper turns brittle and discolors within decades, traditional Japanese washi can endure for over a thousand years. Handcrafted from the inner bark fibers of the kozo, or paper mulberry bush, washi relies on long, interlocking plant fibers washed in cold river water with wood ash rather than harsh bleaching acids. This neutral pH and structural web make washi extraordinarily resilient, which is why museum conservators worldwide use it to repair ancient manuscripts.",
+      "imageWikipediaTitle": "Washi",
+      "sources": [
+        {
+          "title": "Washi, craftsmanship of traditional Japanese hand-made paper",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/washi-craftsmanship-of-traditional-japanese-hand-made-paper-01001"
+        },
+        {
+          "title": "Washi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Washi"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/washi-craftsmanship-of-traditional-japanese-hand-made-paper-01001",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Belgium Requires a Different Glass for Every Single Beer",
+      "body": "In Belgium, ordering a beer is an exacting cultural ritual where taste and presentation are inseparable. The country produces roughly 1,500 distinct beers, and tradition dictates that almost every brew must be served in its own proprietary glass. Wide chalices trap the dense foam of Trappist ales, flutes sustain the fizz of sour lambics, and tulip glasses concentrate floral aromatics. Traditional bartenders may even refuse to pour a beer if its dedicated glass is unavailable.",
+      "imageWikipediaTitle": "Beer in Belgium",
+      "sources": [
+        {
+          "title": "Beer culture in Belgium",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062"
+        },
+        {
+          "title": "Beer in Belgium",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beer_in_Belgium"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/beer-culture-in-belgium-01062",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Finnish Tradition with More Bathhouses Than Private Cars",
+      "body": "For Finns, the sauna is not a luxury spa treatment; it is a sacred cultural institution deeply tied to health, social equality, and spiritual peace. Historically, women gave birth in saunas and families prepared the dead there because steam made them the cleanest spaces in the home. Today, Finland boasts over 3 million saunas for a population of roughly 5.5 million people—enough for the entire nation to bathe simultaneously, and more than its private cars.",
+      "imageWikipediaTitle": "Finnish sauna",
+      "sources": [
+        {
+          "title": "Sauna culture in Finland",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596"
+        },
+        {
+          "title": "Finnish sauna",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Finnish_sauna"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/sauna-culture-in-finland-01596",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What do the combined 52 revolutions of the descending Voladores sky dancers represent?",
+      "options": [
+        "The 52-year cycle of the Mesoamerican calendar",
+        "The 52 weeks of the agricultural solar year",
+        "The 52 foundational kings of ancient Totonac mythology",
+        "The 52 sacred rivers flowing through central Mexico"
+      ],
+      "correctIndex": 0,
+      "explanation": "Four dancers circle the pole 13 times each, multiplying to 52 rotations that symbolize the complete Mesoamerican calendar round."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What material is traditionally used to make the strings of the Mongolian morin khuur?",
+      "options": [
+        "Tail hair from mares and stallions",
+        "Twisted sheep intestine catgut",
+        "Braided raw silk cords",
+        "Stretched mountain-ibex sinew"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steppe artisans string the morin khuur using tail hair from a mare for the high string and from a stallion for the low string."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is traditional Japanese washi paper able to survive in good condition for over 1,000 years?",
+      "options": [
+        "Its long mulberry fibers and acid-free processing resist decay",
+        "It is soaked in insect-repelling camphor resin while drying",
+        "It is coated with boiled bone glue that seals out oxygen",
+        "It is baked at high heat to crystallize plant cellulose"
+      ],
+      "correctIndex": 0,
+      "explanation": "Washi uses exceptionally long kozo fibers washed with wood ash, creating a neutral pH paper that avoids the self-destructive acids of wood pulp."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In traditional Belgian beer culture, what is customary regarding the glassware used for serving?",
+      "options": [
+        "Nearly every specific beer has its own custom-shaped, dedicated glass",
+        "All beers must be served in identical straight-sided stoneware mugs",
+        "Beers must only be consumed from carved wooden tankards",
+        "The beer head must always be shaved completely flat with a knife"
+      ],
+      "correctIndex": 0,
+      "explanation": "Belgian beer culture pairs almost every beer brand and style with its own bespoke glass shape designed to enhance aroma, head, and carbonation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Approximately how many saunas exist in Finland for its population of roughly 5.5 million people?",
+      "options": [
+        "Over 3 million",
+        "Around 250,000",
+        "Roughly 75,000",
+        "Just under 1 million"
+      ],
+      "correctIndex": 0,
+      "explanation": "Finland has over 3 million saunas—more than one for every two citizens and outnumbering the country's registered private cars."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In the ancient Mexican Voladores ceremony, how many total mid-air rotations do the four dancers complete together?",
+      "answer": 52,
+      "min": 10,
+      "max": 120,
+      "unit": "",
+      "explanation": "Each of the 4 dancers completes 13 turns (4 × 13 = 52), matching the 52-year Mesoamerican calendar cycle."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many saunas exist across Finland, a country of 5.5 million people?",
+      "answer": 3000000,
+      "min": 200000,
+      "max": 8000000,
+      "unit": "",
+      "explanation": "With over 3 million saunas, Finland has enough room for its entire population to take a sauna at the exact same moment."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Modern industrial wood-pulp paper lasts far longer than handmade traditional plant paper.",
+      "answer": false,
+      "explanation": "Industrial wood pulp contains acidic lignin that degrades paper within decades, whereas acid-free washi made from mulberry bark lasts over a millennium."
+    }
+  ]
+}
