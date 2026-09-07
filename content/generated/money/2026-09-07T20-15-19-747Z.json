@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-09-07T20:15:19.747Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Henry Ford Doubled Worker Wages Overnight",
+      "body": "In 1914, Henry Ford shocked American industry by raising assembly-line wages from $2.34 to $5 a day. It wasn't charity—Ford faced a crippling 370% annual employee turnover rate in 1913, having to hire 52,000 men just to keep 14,000 working. The pay spike attracted top mechanics, slashed turnover to 16%, and boosted productivity so dramatically that production costs plummeted. Economists now call this an efficiency wage.",
+      "imageWikipediaTitle": "Ford Model T",
+      "sources": [
+        {
+          "title": "The Five Dollar Day",
+          "publisher": "The Henry Ford",
+          "url": "https://www.thehenryford.org/explore/blog/the-five-dollar-day/"
+        },
+        {
+          "title": "Five-dollar day",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five-dollar_day"
+        }
+      ],
+      "readMoreUrl": "https://www.thehenryford.org/explore/blog/the-five-dollar-day/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most US Hundred-Dollar Bills Are Not in America",
+      "body": "You might rarely carry a $100 bill, but it is the most widely printed US paper denomination. Remarkably, the Federal Reserve estimates that over 60 percent of all $100 bills circulate outside the United States. In countries plagued by hyperinflation, currency controls, or banking instability, physical Benjamin Franklins function as the world's favorite tangible store of value and an unofficial global reserve currency.",
+      "imageWikipediaTitle": "United States one-hundred-dollar bill",
+      "sources": [
+        {
+          "title": "How much U.S. currency is in circulation?",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/faqs/currency_12773.htm"
+        },
+        {
+          "title": "The International Demand for U.S. Currency",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-demand-for-us-currency-20180423.html"
+        },
+        {
+          "title": "United States one-hundred-dollar bill",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States_one-hundred-dollar_bill"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-demand-for-us-currency-20180423.html",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Vaults Packed with Over a Billion Unwanted Dollar Coins",
+      "body": "Under the 2005 Presidential $1 Coin Act, the US Mint was required to strike golden coins honoring every deceased president. But Americans overwhelmingly preferred paper greenbacks over heavy metal coins. By 2011, more than 1.4 billion unwanted dollar coins sat untouched in Federal Reserve vaults, costing taxpayers millions just to store. In response, the US Treasury finally halted their production for regular circulation.",
+      "imageWikipediaTitle": "Presidential dollar coins",
+      "sources": [
+        {
+          "title": "U.S. Coins: Investing in a Public Education Campaign Could Increase the Coin's Circulation",
+          "publisher": "U.S. Government Accountability Office",
+          "url": "https://www.gao.gov/products/gao-12-342"
+        },
+        {
+          "title": "$1 Billion That Nobody Wants",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2011/06/28/137394348/-1-billion-that-nobody-wants"
+        },
+        {
+          "title": "Presidential dollar coins",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Presidential_dollar_coins"
+        }
+      ],
+      "readMoreUrl": "https://www.npr.org/2011/06/28/137394348/-1-billion-that-nobody-wants",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Credit Card Companies Call Their Best Customers \"Deadbeats\"",
+      "body": "If you pay off your credit card balance in full every single month, you might consider yourself a model borrower. In credit card industry jargon, however, you are known as a \"deadbeat\" or \"transactor.\" Credit card issuers make the bulk of their revenue from high revolving interest and penalty fees. Customers who clear their debts on time generate small swipe fees from merchants, but never yield lucrative financing profits.",
+      "imageWikipediaTitle": "Credit card",
+      "sources": [
+        {
+          "title": "Secret History of the Credit Card: The Basics",
+          "publisher": "PBS",
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/credit/more/basics.html"
+        },
+        {
+          "title": "Deadbeat",
+          "publisher": "Investopedia",
+          "url": "https://www.investopedia.com/terms/d/deadbeat.asp"
+        },
+        {
+          "title": "Credit card",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Credit_card"
+        }
+      ],
+      "readMoreUrl": "https://www.pbs.org/wgbh/pages/frontline/shows/credit/more/basics.html",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The King Whose Generosity Crashed Egypt's Economy",
+      "body": "When Mansa Musa, the fourteenth-century ruler of the Mali Empire, traveled to Mecca in 1324, his caravan carried tens of thousands of pounds of pure gold. Throughout his stops in Cairo and Medina, Musa handed out lavish gifts and spent freely on goods. His sudden injection of bullion flooded local markets, devaluing gold so severely that prices skyrocketed. The resulting runaway inflation took more than a decade to normalize.",
+      "imageWikipediaTitle": "Mansa Musa",
+      "sources": [
+        {
+          "title": "Mansa Musa (Musa I of Mali)",
+          "publisher": "National Geographic",
+          "url": "https://education.nationalgeographic.org/resource/mansa-musa-mali-empire/"
+        },
+        {
+          "title": "Mansa Musa",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Mansa_Musa/"
+        },
+        {
+          "title": "Mansa Musa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+        }
+      ],
+      "readMoreUrl": "https://education.nationalgeographic.org/resource/mansa-musa-mali-empire/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Henry Ford double assembly line wages to $5 a day in 1914?",
+      "options": [
+        "To combat an extreme worker turnover rate of 370%",
+        "Because federal minimum wage legislation mandated it",
+        "To settle a violent, months-long union strike",
+        "To comply with an order from President Woodrow Wilson"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ford's factory suffered massive turnover and absenteeism; doubling pay stabilized the workforce and actually lowered per-car production costs."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where are the majority of physical US $100 bills currently located?",
+      "options": [
+        "Circulating outside the United States",
+        "Stored inside Federal Reserve vaults",
+        "Held in domestic US bank branch safes",
+        "Circulating among US retail cash registers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Federal Reserve economists estimate that over 60% of all $100 banknotes circulate abroad, largely in nations with volatile local currencies."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the US Treasury halt production of Presidential $1 coins for regular circulation in 2011?",
+      "options": [
+        "Over 1.4 billion unused coins were stuck in Federal Reserve vaults",
+        "The price of copper and zinc spiked beyond one dollar per coin",
+        "A federal court ruled that depicting deceased presidents was unconstitutional",
+        "Counterfeiters flooded the market with zinc replicas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because Americans refused to use dollar coins instead of paper bills, over 1.4 billion coins accumulated unused in Fed vaults."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does the credit card industry call a cardholder who pays their entire balance on time each month?",
+      "options": [
+        "A deadbeat",
+        "A prime borrower",
+        "A float customer",
+        "A legacy holder"
+      ],
+      "correctIndex": 0,
+      "explanation": "Industry insiders label non-revolving borrowers 'deadbeats' or 'transactors' because they avoid paying profitable interest charges."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What unintended economic consequence occurred in Cairo after Mansa Musa's lavish pilgrimage in 1324?",
+      "options": [
+        "Severe inflation caused by a massive surplus of gold",
+        "A devastating silver shortage that halted foreign trade",
+        "A banking collapse caused by runs on moneylenders",
+        "Immediate deflation that collapsed merchant prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mansa Musa gave away and spent so much gold in Cairo that he devalued the metal, sparking severe inflation that lasted over a decade."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "To keep 14,000 assembly line workers on staff in 1913, how many workers did Ford have to hire that year due to extreme turnover?",
+      "answer": 52000,
+      "min": 10000,
+      "max": 100000,
+      "unit": "",
+      "explanation": "Ford had to hire roughly 52,000 workers a year to maintain a 14,000-man workforce—a 370% turnover rate that vanished after doubling pay."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of all physical US $100 bills is estimated to circulate outside the United States?",
+      "answer": 60,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "The Federal Reserve estimates that over 60% of all $100 bills circulate overseas as a trusted store of value."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "By 2011, how many unwanted Presidential dollar coins were stockpiled inside Federal Reserve vaults?",
+      "answer": 1.4,
+      "min": 0.1,
+      "max": 5,
+      "unit": "billion",
+      "explanation": "Over 1.4 billion unused dollar coins were stacked in government vaults because Americans refused to swap paper $1 bills for metal."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "For roughly how many years did runaway inflation linger in Cairo after Mansa Musa's 1324 gold-spending spree?",
+      "answer": 12,
+      "min": 2,
+      "max": 30,
+      "unit": "years",
+      "explanation": "Historical chroniclers recorded that Mansa Musa's gold giveaway depressed the value of gold and inflated prices in Cairo for at least 12 years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Henry Ford doubled worker pay to $5 a day primarily so his employees could afford to buy the cars they built.",
+      "answer": false,
+      "explanation": "While often remembered as consumer philanthropy, Ford's real motive was halting devastating labor turnover, which required hiring 52,000 men yearly to staff 14,000 jobs."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Credit card companies earn most of their profits from cardholders who pay their balances in full every month.",
+      "answer": false,
+      "explanation": "Card companies make far more money from interest and late fees on revolving balances; those who pay in full are pejoratively termed 'deadbeats.'"
+    }
+  ]
+}

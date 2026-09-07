@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-07T20:15:19.748Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This beetle larva lures frogs into attacking—then eats the frog alive",
+      "body": "In an extraordinary reversal of predator and prey, larvae of the ground beetle genus Epomis actively hunt amphibians. The larva entices a passing frog or toad by waving its antennae and twitching its mouthparts. When the amphibian strikes, the larva dodges the tongue, latches onto the amphibian's chin or throat with hooked mandibles, and slowly consumes its would-be predator alive.",
+      "imageWikipediaTitle": "Epomis",
+      "sources": [
+        {
+          "title": "An Unprecedented Role Reversal: Ground Beetle Larvae (Coleoptera: Carabidae) Lure Amphibians and Prey upon Them",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025161"
+        },
+        {
+          "title": "Epomis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epomis"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0025161",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This predatory songbird hangs toxic grasshoppers until their poison decays",
+      "body": "The loggerhead shrike is a songbird that impales its prey on thorns or barbed wire to anchor it while feeding. When hunting the large eastern lubber grasshopper, which oozes a foul, toxic froth capable of killing small birds, the shrike uses patience. It skewers the insect and leaves it untouched for one to two days. By waiting, the shrike lets sunlight and air break down the toxins before eating.",
+      "imageWikipediaTitle": "Loggerhead shrike",
+      "sources": [
+        {
+          "title": "Eastern Lubber Grasshopper - Romalea microptera",
+          "publisher": "University of Florida",
+          "url": "https://entnemdept.ufl.edu/creatures/ornam/eastern_lubber_grasshopper.htm"
+        },
+        {
+          "title": "Loggerhead shrike",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Loggerhead_shrike"
+        }
+      ],
+      "readMoreUrl": "https://entnemdept.ufl.edu/creatures/ornam/eastern_lubber_grasshopper.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The alligator snapping turtle fishes with a built-in wriggling lure",
+      "body": "The alligator snapping turtle possesses one of nature's cleverest hunting decoys. Resting motionless on a murky riverbed, the turtle opens its massive, beak-like mouth to reveal a bright pink, fleshy growth on its tongue. By twitching this appendage, it mimics a live, wriggling earthworm. When an unsuspecting fish swims in to grab the easy meal, the turtle snaps its jaws shut with crushing force in a fraction of a second.",
+      "imageWikipediaTitle": "Alligator snapping turtle",
+      "sources": [
+        {
+          "title": "Alligator Snapping Turtle",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/alligator-snapping-turtle"
+        },
+        {
+          "title": "Alligator snapping turtle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alligator_snapping_turtle"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/alligator-snapping-turtle",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This butterfly caterpillar tricks ants into raising it on their own young",
+      "body": "The caterpillar of the large blue butterfly survives through chemical espionage. After feeding on wild thyme flowers, it drops to the ground and secretes cocktail mixtures that mimic the scent and acoustic signals of Myrmica red ant larvae. Fooled worker ants carry the imposter deep into their underground nest. Once safely inside the brood chamber, the caterpillar spends months being pampered by its hosts while devouring the ants' actual grubs.",
+      "imageWikipediaTitle": "Large blue",
+      "sources": [
+        {
+          "title": "The large blue butterfly: back from the brink",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/large-blue-butterfly-reintroduction.html"
+        },
+        {
+          "title": "Large blue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Large_blue"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/large-blue-butterfly-reintroduction.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Despite its terrifying name, the vampire squid is a harmless detritivore",
+      "body": "The vampire squid has cloak-like webbing between its arms, dark reddish-black skin, and glaring blue eyes. Yet it neither drinks blood nor pursues live prey. Instead, it is the only known cephalopod that feeds primarily on marine snow—a slow drizzle of decaying plankton, fecal pellets, and organic debris drifting down through the water column, which it gathers using two long, sticky retractile filaments.",
+      "imageWikipediaTitle": "Vampire squid",
+      "sources": [
+        {
+          "title": "Vampire Squid",
+          "publisher": "Monterey Bay Aquarium Research Institute",
+          "url": "https://www.mbari.org/animal/vampire-squid/"
+        },
+        {
+          "title": "Vampire squid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vampire_squid"
+        }
+      ],
+      "readMoreUrl": "https://www.mbari.org/animal/vampire-squid/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does an Epomis beetle larva capture an adult frog or toad?",
+      "options": [
+        "It lures the amphibian into striking, then dodges and attaches with hooked jaws",
+        "It paralyzes the amphibian from a distance with airborne venom",
+        "It burrows into the frog's stomach after being swallowed whole",
+        "It traps the amphibian inside sticky underground silk webs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Epomis larvae wag their antennae to provoke a strike, then evade the tongue and clamp hooked mandibles onto the frog's throat."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does the loggerhead shrike wait up to 48 hours before eating an impaled eastern lubber grasshopper?",
+      "options": [
+        "To allow the insect's defensive toxins to break down",
+        "To attract scavenger insects as secondary prey",
+        "To let the insect ferment into a softer meal",
+        "To claim territorial dominance over rival shrikes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eastern lubber grasshoppers produce lethal toxins that degrade after 24 to 48 hours of exposure to air and sunlight."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the alligator snapping turtle lure prey into its mouth?",
+      "options": [
+        "It twitches a pink, worm-like growth on its tongue",
+        "It emits bioluminescent flashes from its throat",
+        "It releases sweet-smelling chemical attractants into the water",
+        "It waves its front claws to mimic aquatic vegetation"
+      ],
+      "correctIndex": 0,
+      "explanation": "The turtle has a vermiform appendage on its tongue that twitches like an earthworm, tempting fish directly into its jaws."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does a large blue butterfly caterpillar gain entry into a red ant colony?",
+      "options": [
+        "It mimics the scent and acoustic sounds of ant grubs",
+        "It digs its way in while protected by armored scales",
+        "It flies into the colony entrance under cover of darkness",
+        "It stings and paralyzes the guard ants at the entrance"
+      ],
+      "correctIndex": 0,
+      "explanation": "The caterpillar mimics the pheromones and acoustic stridulations of Myrmica ant larvae, prompting workers to adopt it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What forms the primary diet of the deep-sea vampire squid?",
+      "options": [
+        "Marine snow composed of drifting organic debris and fecal pellets",
+        "Small crustaceans and juvenile fish captured by its tentacles",
+        "Blood sucked from wounded deep-sea sharks",
+        "Toxic tube worms living around hydrothermal vents"
+      ],
+      "correctIndex": 0,
+      "explanation": "The vampire squid uses two sticky, thread-like filaments to gather falling marine snow, making it a passive detritivore."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many hours can a loggerhead shrike leave a toxic lubber grasshopper impaled before eating it safely?",
+      "answer": 48,
+      "min": 6,
+      "max": 120,
+      "unit": "hours",
+      "explanation": "Shrikes leave poisonous eastern lubber grasshoppers pinned on thorns for 24 to 48 hours to give their defensive toxins time to degrade."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Some insect larvae can turn the tables and actively prey on adult frogs and toads.",
+      "answer": true,
+      "explanation": "Larvae of Epomis ground beetles actively lure amphibians and feed on them, reversing the classic predator-prey relationship."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The vampire squid actively hunts and kills live fish and crabs in the deep sea.",
+      "answer": false,
+      "explanation": "Vampire squids are detritivores that feed on drifting organic debris called marine snow rather than hunting live prey."
+    }
+  ]
+}

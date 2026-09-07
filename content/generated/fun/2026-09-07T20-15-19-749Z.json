@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-07T20:15:19.749Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An Average Cumulus Cloud Weighs Over a Million Pounds",
+      "body": "A fluffy cumulus cloud drifting across a sunny sky looks weightless, but a typical one-kilometer cloud contains roughly 500,000 kilograms—over 1.1 million pounds—of water droplets. That is the equivalent weight of about 100 elephants floating overhead. Clouds stay aloft because that colossal mass is spread across billions of cubic meters, and tiny droplets are easily kept afloat by gentle, rising warm air currents.",
+      "imageWikipediaTitle": "Cumulus cloud",
+      "sources": [
+        {
+          "title": "How Much Does a Cloud Weigh?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-does-a-cloud-weigh"
+        },
+        {
+          "title": "Cumulus cloud",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cumulus_cloud"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-does-a-cloud-weigh",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nine-Banded Armadillos Always Give Birth to Identical Quadruplets",
+      "body": "While most mammals give birth to genetically diverse offspring, the female nine-banded armadillo almost always produces identical quadruplets. Through a process called obligate polyembryony, a single fertilized egg consistently splits into four separate embryos. When she gives birth, all four pups are always the exact same sex and share one hundred percent of their DNA, creating a litter of natural clones every single breeding cycle.",
+      "imageWikipediaTitle": "Nine-banded armadillo",
+      "sources": [
+        {
+          "title": "Dasypus novemcinctus (nine-banded armadillo)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Dasypus_novemcinctus/"
+        },
+        {
+          "title": "Nine-banded armadillo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nine-banded_armadillo"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Dasypus_novemcinctus/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Oxford University Is Older Than the Aztec Empire",
+      "body": "We tend to imagine the Aztec Empire as ancient history and universities as relatively modern institutions, but the timeline is backwards. Scholars began teaching at the University of Oxford as early as 1096, and it was a thriving academic center by the late twelfth century. The Aztec civilization did not found its capital of Tenochtitlan until 1325—meaning Oxford was lecturing students more than two centuries before the Aztec Empire began.",
+      "imageWikipediaTitle": "University of Oxford",
+      "sources": [
+        {
+          "title": "Introduction and history",
+          "publisher": "University of Oxford",
+          "url": "https://www.ox.ac.uk/about/organisation/history"
+        },
+        {
+          "title": "Tenochtitlan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tenochtitlan"
+        }
+      ],
+      "readMoreUrl": "https://www.ox.ac.uk/about/organisation/history",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male Deep-Sea Anglerfish Melt Into Females as Parasites",
+      "body": "In the pitch-black deep sea, finding a mate is so difficult that male ceratioid anglerfish give up their independence entirely. When a tiny male finds an enormous female, he bites into her flesh. His mouth dissolves, fusing their skin and blood vessels together. Over time, his eyes, brain, and internal organs wither away, leaving only a permanent sperm-producing attachment nourished directly by the female's bloodstream.",
+      "imageWikipediaTitle": "Anglerfish",
+      "sources": [
+        {
+          "title": "The bizarre love life of the anglerfish",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/bizarre-love-life-of-the-anglerfish.html"
+        },
+        {
+          "title": "Anglerfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anglerfish"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/bizarre-love-life-of-the-anglerfish.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Australia's Coat of Arms Features Animals That Cannot Walk Backward",
+      "body": "Australia's national coat of arms prominently features a red kangaroo and an emu flanking a central shield. While chosen partly because they are uniquely Australian wildlife, they carry another symbolic meaning: neither animal can easily move backward. A kangaroo's massive tail and oversized feet make hopping in reverse nearly impossible, and an emu's joint anatomy prevents backward walking, representing a nation committed to always moving forward.",
+      "imageWikipediaTitle": "Coat of arms of Australia",
+      "sources": [
+        {
+          "title": "Commonwealth Coat of Arms",
+          "publisher": "Department of the Prime Minister and Cabinet",
+          "url": "https://www.pmc.gov.au/government/commonwealth-coat-arms"
+        },
+        {
+          "title": "Coat of arms of Australia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coat_of_arms_of_Australia"
+        }
+      ],
+      "readMoreUrl": "https://www.pmc.gov.au/government/commonwealth-coat-arms",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does a typical cumulus cloud stay afloat despite weighing over 500,000 kilograms?",
+      "options": [
+        "It is composed mostly of hydrogen gas instead of water",
+        "The water droplets are dispersed across huge volumes and lifted by updrafts",
+        "Magnetic fields in the upper troposphere repel the cloud",
+        "It only gains weight once it begins to precipitate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the 500,000 kg of water is spread over a billion cubic meters, gentle warm updrafts easily keep the tiny droplets suspended."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What unusual reproductive trait is standard for the nine-banded armadillo?",
+      "options": [
+        "They always give birth to genetically identical quadruplets",
+        "Females can reproduce through virgin birth without mating",
+        "Each litter contains exactly two males and two females",
+        "Offspring hatch from soft-shelled internal eggs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Through obligate polyembryony, a single fertilized armadillo egg splits into four identical embryos every single pregnancy."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which historic event occurred AFTER teaching was already established at Oxford University?",
+      "options": [
+        "The founding of the Aztec capital of Tenochtitlan",
+        "The construction of the Great Pyramid of Giza",
+        "The eruption of Mount Vesuvius over Pompeii",
+        "The coronation of Charlemagne as Holy Roman Emperor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Oxford was teaching students by 1096, while the Aztec capital of Tenochtitlan was not founded until roughly 1325."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does a male deep-sea anglerfish mate with a female?",
+      "options": [
+        "He bites her skin until his tissues dissolve and fuse into her bloodstream",
+        "He builds an elaborate gravel nest on the seafloor to attract her",
+        "He delivers a venomous sting that temporarily paralyzes her",
+        "He stores sperm packets inside bioluminescent lures on her dorsal fin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male anglerfish fuse permanently with females, losing their eyes and organs to become nourished parasites via her bloodstream."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why were the kangaroo and emu chosen for Australia's coat of arms, beyond being native species?",
+      "options": [
+        "They are the fastest runners on the Australian continent",
+        "Neither animal can easily move backward, symbolizing progress",
+        "They were both revered as sacred animals by royal decree",
+        "They were the only animals that survived the great 19th-century droughts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Both animals have physical adaptations that prevent them from easily moving backward, symbolizing a nation always moving forward."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How much does an average one-kilometer cumulus cloud weigh, in kilograms?",
+      "answer": 500000,
+      "min": 5000,
+      "max": 5000000,
+      "unit": "kg",
+      "explanation": "A typical cumulus cloud holds around 500,000 kg (1.1 million lbs) of condensed water droplets—roughly 100 elephants' worth of weight."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Armadillo litters consist of genetically unique fraternal siblings.",
+      "answer": false,
+      "explanation": "Nine-banded armadillos reproduce via obligate polyembryony, meaning litters are always identical quadruplets sharing identical DNA."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The Aztec Empire was founded before the University of Oxford began teaching students.",
+      "answer": false,
+      "explanation": "Teaching began at Oxford around 1096, more than two centuries before Tenochtitlan was founded in 1325."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Kangaroos and emus on Australia's coat of arms were chosen partly because they cannot easily move backward.",
+      "answer": true,
+      "explanation": "Their physical inability to comfortably move in reverse was chosen to symbolize a young country constantly moving forward."
+    }
+  ]
+}
