@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.012Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Physicists once slowed light down to the speed of a bicycle",
+      "body": "In 1999, a Harvard-led research team managed to slow a beam of light from its vacuum speed of 300,000 kilometers per second down to just 17 meters per second—roughly 38 miles per hour. They achieved this by shooting a laser through a Bose-Einstein condensate: a cloud of sodium atoms chilled to within a fraction of a degree above absolute zero, creating an optically dense quantum state that dramatically compresses light waves.",
+      "imageWikipediaTitle": "Slow light",
+      "sources": [
+        {
+          "title": "Physicists Slow Speed of Light",
+          "publisher": "The Harvard Gazette",
+          "url": "https://news.harvard.edu/gazette/story/1999/02/physicists-slow-speed-of-light/"
+        },
+        {
+          "title": "Slow light",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Slow_light"
+        }
+      ],
+      "readMoreUrl": "https://news.harvard.edu/gazette/story/1999/02/physicists-slow-speed-of-light/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Falling raindrops are shaped like hamburger buns, not teardrops",
+      "body": "Artists and weather icons almost always draw raindrops as pointy teardrops. In reality, falling rain begins as nearly spherical beads. As a droplet grows and plummets through the atmosphere, upward air resistance pushes against its underside while air flows around its edges. This flattens the bottom and curves the top, molding the drop into the shape of a miniature hamburger bun until aerodynamic drag eventually breaks it apart.",
+      "imageWikipediaTitle": "Rain",
+      "sources": [
+        {
+          "title": "Are Raindrops Shaped Like Teardrops?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/are-raindrops-shaped-teardrops"
+        },
+        {
+          "title": "Rain",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rain"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/special-topics/water-science-school/science/are-raindrops-shaped-teardrops",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Electric eels can generate more than eight hundred volts of electricity",
+      "body": "Electric eels are not true eels—they are knifefish whose bodies function as living biological batteries. Over eighty percent of their length is packed with thousands of specialized disc-shaped cells called electrocytes. When hunting or defending themselves, nervous system signals open cell membranes to discharge all electrocytes in series. In 2019, scientists identified a species, Electrophorus voltai, capable of delivering discharges reaching 860 volts, the highest voltage recorded in any living creature.",
+      "imageWikipediaTitle": "Electric eel",
+      "sources": [
+        {
+          "title": "Newly Discovered Electric Eel Shocks With Record-Breaking 860 Volts",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/smart-news/newly-discovered-electric-eel-shocks-record-breaking-860-volts-180973105/"
+        },
+        {
+          "title": "Electric eel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Electric_eel"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/smart-news/newly-discovered-electric-eel-shocks-record-breaking-860-volts-180973105/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sound travels nearly five times faster through water than air",
+      "body": "Because sound is mechanical energy carried by colliding molecules, it travels faster when particles are packed closely together. In dry air at room temperature, sound waves move at roughly 343 meters per second. In liquid water, where molecules are crammed thousands of times closer than in a gas, pressure waves transfer energy far more efficiently, accelerating to about 1,500 meters per second. In dense solids like steel, sound exceeds 5,000 meters per second.",
+      "imageWikipediaTitle": "Speed of sound",
+      "sources": [
+        {
+          "title": "How fast does sound travel in the ocean?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/soundspeed.html"
+        },
+        {
+          "title": "Speed of sound",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Speed_of_sound"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/soundspeed.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world retired its physical master kilogram in 2019",
+      "body": "For 130 years, one kilogram was legally defined by a physical artifact: \"Le Grand K,\" a platinum-iridium cylinder stored under three glass bell jars in a French vault. But physical objects can gather surface contamination or shed microscopic atoms. In 2019, the international scientific community officially redefined the kilogram using the Planck constant, a fundamental constant of quantum physics. Mass is now universally reproducible anywhere using an electromagnetic instrument called a Kibble balance.",
+      "imageWikipediaTitle": "Kilogram",
+      "sources": [
+        {
+          "title": "Kilogram: Introduction",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://www.nist.gov/si-redefinition/kilogram-introduction"
+        },
+        {
+          "title": "2019 redefinition of the SI base units",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2019_redefinition_of_the_SI_base_units"
+        }
+      ],
+      "readMoreUrl": "https://www.nist.gov/si-redefinition/kilogram-introduction",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did physicists dramatically slow a light beam to bicycle speeds in 1999?",
+      "options": [
+        "By passing it through a cloud of ultracold sodium atoms",
+        "By firing it into a supermassive synthetic diamond",
+        "By spinning mirrors in a pressurized chamber",
+        "By trapping it inside an optical fiber coil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Physicists passed the laser beam through a Bose-Einstein condensate of ultracold sodium atoms, which dramatically compressed and slowed the light wave."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What actual shape do falling raindrops take as they plunge through the air?",
+      "options": [
+        "Pointed teardrops",
+        "Hamburger buns with flat bottoms",
+        "Perfect spherical beads",
+        "Hollow water cones"
+      ],
+      "correctIndex": 1,
+      "explanation": "Upward air resistance flattens the bottom of a falling raindrop and rounds the top, shaping it like a tiny hamburger bun."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the highest voltage recorded from an electric eel species?",
+      "options": [
+        "120 volts",
+        "450 volts",
+        "860 volts",
+        "2,500 volts"
+      ],
+      "correctIndex": 2,
+      "explanation": "In 2019, researchers measured discharges of up to 860 volts from the newly identified species Electrophorus voltai."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does sound travel roughly five times faster in water than in air?",
+      "options": [
+        "Water has a higher temperature on average",
+        "Water molecules are packed much closer together",
+        "Sound waves polarize when entering liquids",
+        "Gravity accelerates sound waves downward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because sound is a mechanical pressure wave, tightly packed liquid molecules transfer vibrational energy faster than diffuse gas molecules."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What fundamental constant of nature was used to redefine the kilogram in 2019?",
+      "options": [
+        "The speed of light",
+        "The Planck constant",
+        "The gravitational constant",
+        "Avogadro's number"
+      ],
+      "correctIndex": 1,
+      "explanation": "The global metric system redefined the kilogram using the Planck constant via the Kibble balance, replacing the physical platinum-iridium cylinder."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In 1999, physicists passed a laser through ultracold atoms to dramatically slow down light. To about how many miles per hour did it slow?",
+      "answer": 38,
+      "min": 1,
+      "max": 500,
+      "unit": "mph",
+      "explanation": "The light beam slowed to approximately 17 meters per second—roughly 38 mph, about the speed of a bicycle or moderate car."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What is the highest electrical discharge ever measured from an electric eel?",
+      "answer": 860,
+      "min": 50,
+      "max": 2000,
+      "unit": "V",
+      "explanation": "Electrophorus voltai can generate up to 860 volts, easily out-shocking a standard household wall outlet to stun prey."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Falling raindrops have a teardrop shape with a tapered, pointy top.",
+      "answer": false,
+      "explanation": "Raindrops start spherical, and falling through air flattens their bottoms into hamburger bun shapes, never pointed teardrops."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The international kilogram is officially defined by a metal cylinder kept in a vault near Paris.",
+      "answer": false,
+      "explanation": "In 2019, scientists retired 'Le Grand K' and redefined the kilogram using the invariant Planck constant of quantum mechanics."
+    }
+  ]
+}

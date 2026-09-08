@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.019Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A stroke can make half of the entire world invisible to your mind",
+      "body": "Patients with hemispatial neglect do not go blind; their brains simply lose the ability to attend to one side of space, usually following a right-parietal stroke. They might eat food from only the right side of their plate, shave half their face, or draw a clock with every number crammed into the right half. Remarkably, they rarely realize anything is missing until someone points it out.",
+      "imageWikipediaTitle": "Hemispatial neglect",
+      "sources": [
+        {
+          "title": "Unilateral Neglect",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK493156/"
+        },
+        {
+          "title": "Hemispatial neglect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hemispatial_neglect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Hemispatial_neglect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mirror can cure pain in a limb that isn't there",
+      "body": "Amputees often experience agonizing cramps in phantom limbs because the brain sends motor signals to a missing limb but never receives sensory feedback, leaving neural circuits stuck in a clenching loop. In the 1990s, neurologist V.S. Ramachandran introduced the mirror box. By watching the mirror reflection of their intact hand unclench, visual feedback tricks the brain into relaxing the phantom fist, providing immediate relief.",
+      "imageWikipediaTitle": "Mirror box",
+      "sources": [
+        {
+          "title": "Phantom Limb Pain",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK448188/"
+        },
+        {
+          "title": "Mirror box",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirror_box"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mirror_box",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain cells shrink by 60% every night so fluid can wash away waste",
+      "body": "During deep sleep, the brain activates the glymphatic system, a biological plumbing network that acts like a dishwasher. Interstitial space between brain cells expands by about 60 percent, allowing cerebrospinal fluid to rush through tissue and flush out metabolic debris that accumulates during wakefulness. This nightly wash cycle clears toxic compounds, including amyloid-beta proteins linked to Alzheimer's disease, explaining why poor sleep degrades brain health.",
+      "imageWikipediaTitle": "Glymphatic system",
+      "sources": [
+        {
+          "title": "How Sleep Clears the Brain",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/how-sleep-clears-brain"
+        },
+        {
+          "title": "Glymphatic system",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glymphatic_system"
+        }
+      ],
+      "readMoreUrl": "https://www.nih.gov/news-events/nih-research-matters/how-sleep-clears-brain",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Losing your eyesight can trigger vivid hallucinations in a sane mind",
+      "body": "When people suffer significant vision loss from macular degeneration or cataracts, their brains can begin manufacturing elaborate visual hallucinations. Known as Charles Bonnet syndrome, this condition occurs because sensory deprivation causes an understimulated visual cortex to spontaneously fire, projecting vivid images of flowers, complex patterns, or cartoonish strangers. Crucially, patients retain full insight into reality: they know the apparitions are not real, distinguishing the syndrome from psychiatric delusions.",
+      "imageWikipediaTitle": "Charles Bonnet syndrome",
+      "sources": [
+        {
+          "title": "Charles Bonnet Syndrome",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539865/"
+        },
+        {
+          "title": "Charles Bonnet syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_Bonnet_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Charles_Bonnet_syndrome",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your conscious mind can only hold four thoughts at a time",
+      "body": "In 1956, psychologist George Miller proposed that short-term memory could hold seven items, giving rise to the 'magical number seven.' Modern cognitive research shows that without mnemonic tricks, our true working memory capacity is only about four chunks of information. Nelson Cowan demonstrated that when people are prevented from silently rehearsing or grouping items, conscious focus hits an unyielding bottleneck at four items, whether tracking dots, words, or tasks.",
+      "imageWikipediaTitle": "Working memory",
+      "sources": [
+        {
+          "title": "The Magical Mystery Four: How is Working Memory Capacity Limited, and Why?",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/"
+        },
+        {
+          "title": "Working memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Working_memory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Working_memory",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What causes hemispatial neglect after a brain injury?",
+      "options": [
+        "Damage to the retinas or optic nerves",
+        "A breakdown in spatial attention networks",
+        "A complete loss of long-term memories",
+        "Paralysis of the muscles controlling the eyes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemispatial neglect is an attention network disorder, typically caused by damage to the right parietal lobe, rather than a problem with the eyes."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does mirror box therapy relieve phantom limb pain in amputees?",
+      "options": [
+        "It numbs the nerve endings remaining in the stump",
+        "It reflects infrared heat onto injured tissues",
+        "Visual feedback of the intact limb tricks the brain into relaxing",
+        "It reroutes electrical signals to the spinal cord"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seeing the reflection of the intact hand open provides the visual feedback the brain needs to release its painful phantom cramp."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary function of the brain's glymphatic system during sleep?",
+      "options": [
+        "Flushing cerebrospinal fluid through tissue to clear metabolic waste",
+        "Storing daytime memories into permanent long-term storage",
+        "Cutting off blood circulation to conserve glucose",
+        "Generating spontaneous sensory signals to produce dreams"
+      ],
+      "correctIndex": 0,
+      "explanation": "The glymphatic system expands fluid pathways between brain cells during sleep to flush out toxins like amyloid-beta."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What distinguishes Charles Bonnet syndrome hallucinations from psychiatric delusions?",
+      "options": [
+        "Patients can physically touch their hallucinations",
+        "Patients understand that the apparitions are not real",
+        "The hallucinations only occur while sleeping",
+        "The hallucinations only affect auditory processing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patients with Charles Bonnet syndrome maintain full cognitive insight, recognizing that their vivid hallucinations stem from visual loss rather than reality."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to modern cognitive research, what is pure working memory capacity without grouping tricks?",
+      "options": [
+        "About 2 chunks",
+        "About 4 chunks",
+        "About 7 chunks",
+        "About 12 chunks"
+      ],
+      "correctIndex": 1,
+      "explanation": "While George Miller originally suggested seven, modern research led by Nelson Cowan demonstrates unassisted working memory holds only about four chunks."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By what percentage does the space between brain cells expand during deep sleep to let fluid flush out waste?",
+      "answer": 60,
+      "min": 10,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Interstitial space expands by roughly 60% during sleep, allowing cerebrospinal fluid to surge through and clear metabolic debris."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Without grouping tricks or silent rehearsal, how many items can human working memory hold at one time?",
+      "answer": 4,
+      "min": 1,
+      "max": 15,
+      "unit": "",
+      "explanation": "Modern experiments show that unassisted working memory capacity hits a hard limit at roughly 4 chunks of information."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Hemispatial neglect is a form of blindness caused by optic nerve damage.",
+      "answer": false,
+      "explanation": "The eyes function normally; hemispatial neglect is caused by damage to brain attention networks that direct conscious awareness."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A visual reflection in a mirror can trick the brain into relieving physical pain in a missing limb.",
+      "answer": true,
+      "explanation": "Ramachandran's mirror box provides visual feedback of an unclenched hand, tricking the brain into releasing painful phantom spasms."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Experiencing vivid visual hallucinations always indicates a psychiatric disorder such as schizophrenia.",
+      "answer": false,
+      "explanation": "In Charles Bonnet syndrome, sensory deprivation from vision loss causes the brain to spontaneously generate vivid hallucinations in completely sane minds."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Human short-term memory can easily hold seven unrelated items without using grouping strategies.",
+      "answer": false,
+      "explanation": "While Miller proposed 7 ± 2 in 1956, modern cognitive testing proves pure working memory capacity is strictly limited to about 4 chunks."
+    }
+  ]
+}

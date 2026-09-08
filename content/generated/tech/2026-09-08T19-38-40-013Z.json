@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.013Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why digital watches vibrate at exactly 32,768 times per second",
+      "body": "Inside almost every quartz watch beats a tiny tuning fork made of synthetic quartz. When electrified, it oscillates precisely 32,768 times every second. Engineers chose this exact frequency because of binary arithmetic: 32,768 is two raised to the fifteenth power. Passing the electrical pulse through a chain of fifteen simple flip-flop circuits halves the frequency fifteen times, producing an exact one-second tick while sipping minuscule amounts of battery power.",
+      "imageWikipediaTitle": "Quartz clock",
+      "sources": [
+        {
+          "title": "A Walk Through Time - Early Quartz Clocks",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://www.nist.gov/pml/time-and-frequency-division/popular-related/walk-through-time/walk-through-time-quartz-watch"
+        },
+        {
+          "title": "Quartz clock",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Quartz_clock"
+        }
+      ],
+      "readMoreUrl": "https://www.nist.gov/pml/time-and-frequency-division/popular-related/walk-through-time/walk-through-time-quartz-watch",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The quantum discovery that supercharged hard drive storage",
+      "body": "In 1988, physicists Albert Fert and Peter Grünberg discovered giant magnetoresistance (GMR), a quantum mechanical effect where weak magnetic fields cause massive drops in electrical resistance across alternating nanometer-thin layers of metals. Hard drive makers quickly adapted GMR into microscopic read heads. The technology allowed drives to read far tinier magnetic regions, skyrocketing hard drive storage density by more than a thousandfold and earning both scientists the 2007 Nobel Prize in Physics.",
+      "imageWikipediaTitle": "Giant magnetoresistance",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physics 2007",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/physics/2007/summary/"
+        },
+        {
+          "title": "Giant magnetoresistance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant_magnetoresistance"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/physics/2007/summary/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The nuclear defense idea that created the internet's data packets",
+      "body": "During the Cold War, RAND researcher Paul Baran tackled a dire vulnerability: America's centralized telephone network would collapse entirely if a few key switching hubs were struck by nuclear weapons. In 1964, Baran proposed breaking voice and data into small, standardized message blocks that traveled independently across a redundant mesh network. Even if large portions of the network were destroyed, remaining nodes could still route the fragments—giving birth to modern packet switching.",
+      "imageWikipediaTitle": "Packet switching",
+      "sources": [
+        {
+          "title": "Paul Baran and the Origins of the Internet",
+          "publisher": "RAND Corporation",
+          "url": "https://www.rand.org/about/history/baran.html"
+        },
+        {
+          "title": "Packet switching",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Packet_switching"
+        }
+      ],
+      "readMoreUrl": "https://www.rand.org/about/history/baran.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The barbershop quartet recording that became the first email attachment",
+      "body": "Early email was strictly limited to plain ASCII text—sharing images, sounds, or formatted documents was impossible. In 1992, computer scientist Nathaniel Borenstein co-authored MIME (Multipurpose Internet Mail Extensions) to allow email to carry any media type. To prove the protocol worked, Borenstein emailed a message to colleagues containing a photo of his barbershop quartet, The Telephone Chords, along with an audio file of them singing a barbershop jingle about sending email attachments.",
+      "imageWikipediaTitle": "MIME",
+      "sources": [
+        {
+          "title": "MIME Part One: Format of Internet Message Bodies",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc2045"
+        },
+        {
+          "title": "MIME",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MIME"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/MIME",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A jammed laser printer sparked the modern open-source movement",
+      "body": "In 1980, MIT programmer Richard Stallman grew frustrated with a Xerox 9700 laser printer that constantly jammed down the hall without notifying anyone. Previously, programmers modified printer software so it alerted their terminals when a jam occurred. But Xerox provided the new model only under a non-disclosure agreement, withholding the source code. Offended that artificial legal barriers blocked programmers from fixing basic problems, Stallman launched the GNU Project in 1983 to build an entirely free operating system.",
+      "imageWikipediaTitle": "GNU Project",
+      "sources": [
+        {
+          "title": "The GNU Project",
+          "publisher": "Free Software Foundation",
+          "url": "https://www.gnu.org/gnu/thegnuproject.html"
+        },
+        {
+          "title": "GNU Project",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/GNU_Project"
+        }
+      ],
+      "readMoreUrl": "https://www.gnu.org/gnu/thegnuproject.html",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why are quartz watch crystals engineered to oscillate at 32,768 Hz?",
+      "options": [
+        "It is an exact power of two, letting 15 binary stages divide it to 1 Hz",
+        "It matches the resonance frequency of human heartbeats times 1,000",
+        "It is the maximum frequency that human ears cannot detect",
+        "It is the physical oscillation limit of silicon dioxide molecules"
+      ],
+      "correctIndex": 0,
+      "explanation": "32,768 equals 2^15, so a chain of fifteen simple binary flip-flop circuits repeatedly halves the frequency until it reaches an exact 1-second pulse."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did the discovery of giant magnetoresistance (GMR) enable in computing?",
+      "options": [
+        "Microscopic hard drive read heads that drastically increased storage capacity",
+        "The first touchscreens capable of multi-finger sensing",
+        "Solid-state flash memory without spinning parts",
+        "Fiber-optic cables capable of carrying laser signals undersea"
+      ],
+      "correctIndex": 0,
+      "explanation": "GMR read heads could detect much fainter magnetic signals, allowing hard drives to pack data bits over a thousand times closer together."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did Paul Baran propose breaking communications into independent data packets?",
+      "options": [
+        "To build a communications network resilient enough to survive nuclear strikes",
+        "To reduce the electricity consumption of undersea copper cables",
+        "To encrypt military communications using mathematical cyphers",
+        "To broadcast live television feeds over standard telephone lines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Baran conceived packet switching as part of a decentralized mesh network designed so communications could survive the destruction of major nodes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What media was included in the world's first MIME email attachment in 1992?",
+      "options": [
+        "A photo and audio recording of a barbershop quartet",
+        "A spreadsheet tracking the quarterly budget of CERN",
+        "A video clip of Tim Berners-Lee demonstrating the web",
+        "A scanned PDF copy of the United States Constitution"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nathaniel Borenstein demonstrated the MIME standard by sending a photo and audio recording of his barbershop quartet, The Telephone Chords."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What frustration inspired Richard Stallman to launch the GNU Project?",
+      "options": [
+        "A manufacturer withheld the source code to fix a jammed office printer",
+        "Microsoft charged universities high licensing fees for MS-DOS",
+        "Bell Labs restricted access to the C programming language",
+        "IBM banned independent researchers from accessing mainframe time"
+      ],
+      "correctIndex": 0,
+      "explanation": "When Xerox refused to share source code so MIT programmers could program an alert for paper jams, Stallman set out to create a completely free software system."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many times per second (in hertz) does the quartz crystal inside a standard digital watch vibrate?",
+      "answer": 32768,
+      "min": 1000,
+      "max": 100000,
+      "unit": "Hz",
+      "explanation": "Digital watches use 32,768 Hz because it is 2^15, allowing a 15-stage binary counter to cleanly divide it into an exact 1-second tick."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Packet switching was originally invented to help academic researchers share large files between universities.",
+      "answer": false,
+      "explanation": "Packet switching was conceived by Paul Baran at RAND Corporation to create a distributed communication network that could survive nuclear attack."
+    }
+  ]
+}

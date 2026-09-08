@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.016Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A duplicate line of code crippled Apple's encryption",
+      "body": "In 2014, security researchers discovered a catastrophic flaw in Apple's SecureTransport library. An accidental duplicate line—`goto fail;`—was indented inside an `if` statement but lacked enclosing braces. In C, that meant the second statement always executed, bypassing digital signature verification entirely. For months, iOS and OS X devices accepted forged certificates as genuine, allowing eavesdroppers on public Wi-Fi networks to intercept encrypted data undetected.",
+      "imageWikipediaTitle": "Apple Inc.",
+      "sources": [
+        {
+          "title": "Vulnerability Details: CVE-2014-1266",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-1266"
+        },
+        {
+          "title": "Goto fail",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Goto_fail"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Goto_fail",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Deleting two lines of code broke Debian's cryptographic keys",
+      "body": "In 2006, a Debian maintainer removed two lines of code in OpenSSL because the Valgrind debugging tool warned they used uninitialized memory. Unbeknownst to the developer, that uninitialized memory was the primary source of random entropy. The change reduced the possible pool of generated SSH and TLS keys from astronomical numbers to just 32,768 per system architecture. For nearly two years, attackers could trivially predict every cryptographic key generated on Debian and Ubuntu.",
+      "imageWikipediaTitle": "Debian",
+      "sources": [
+        {
+          "title": "DSA-1571-1 openssl -- predictable random number generator",
+          "publisher": "Debian",
+          "url": "https://www.debian.org/security/2008/dsa-1571"
+        },
+        {
+          "title": "Vulnerability Details: CVE-2008-0166",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2008-0166"
+        }
+      ],
+      "readMoreUrl": "https://www.debian.org/security/2008/dsa-1571",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single flipped bit paralyzed the entire ARPANET in 1980",
+      "body": "On October 27, 1980, the precursor to the internet completely ground to a halt. A memory fault in an Interface Message Processor in Virginia flipped a single bit in a routing update's sequence number. The network received contradictory messages claiming to have both the newest and oldest status. Routers entered an infinite loop trying to reconcile the conflict, flooding ARPANET with routing packets until communication across the entire network collapsed for several hours.",
+      "imageWikipediaTitle": "ARPANET",
+      "sources": [
+        {
+          "title": "RFC 789: Vulnerabilities of Network Control Protocols: An Example",
+          "publisher": "Internet Engineering Task Force",
+          "url": "https://datatracker.ietf.org/doc/html/rfc789"
+        },
+        {
+          "title": "ARPANET",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ARPANET"
+        }
+      ],
+      "readMoreUrl": "https://datatracker.ietf.org/doc/html/rfc789",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The malware that crippled the internet using just 62 passwords",
+      "body": "In October 2016, a massive distributed denial-of-service attack knocked Twitter, Netflix, and Reddit offline across North America and Europe. The attack was launched by Mirai, a malware botnet that hijacked hundreds of thousands of internet-connected cameras and routers. Mirai did not exploit complex software zero-days. Instead, it systematically probed IP addresses using a hardcoded list of just 62 factory-default username and password combinations that owners had never bothered to change.",
+      "imageWikipediaTitle": "Mirai (malware)",
+      "sources": [
+        {
+          "title": "Heightened DDoS Threat Posed by Mirai and Other Botnets",
+          "publisher": "Cybersecurity and Infrastructure Security Agency",
+          "url": "https://www.cisa.gov/news-events/alerts/2016/10/24/heightened-ddos-threat-posed-mirai-and-other-botnets"
+        },
+        {
+          "title": "Mirai (malware)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirai_(malware)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mirai_(malware)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A critical bug lurked unseen in Unix code for 25 years",
+      "body": "In 2014, security researcher Stéphane Chazelas discovered \"Shellshock,\" a vulnerability in GNU Bash, the default command shell for Linux and OS X. Bash allowed users to define environment variables containing function definitions, but inadvertently executed any arbitrary code trailing after the definition. The flaw had been introduced into Bash's source code in 1989 and remained completely unnoticed for 25 years, exposing hundreds of millions of web servers, routers, and devices to remote takeover.",
+      "imageWikipediaTitle": "Bash (Unix shell)",
+      "sources": [
+        {
+          "title": "Vulnerability Details: CVE-2014-6271",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-6271"
+        },
+        {
+          "title": "Shellshock (software bug)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shellshock_(software_bug)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Shellshock_(software_bug)",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What syntax error caused the famous 2014 Apple \"goto fail\" security vulnerability?",
+      "options": [
+        "A missing semicolon",
+        "A duplicate \"goto fail;\" statement",
+        "An off-by-one array index",
+        "A flipped boolean operator"
+      ],
+      "correctIndex": 1,
+      "explanation": "A duplicate \"goto fail;\" line was placed outside the conditional check, causing SSL verification to always exit early with success."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did a Debian maintainer delete the lines of code that broke OpenSSL's key generation in 2006?",
+      "options": [
+        "To reduce binary file size",
+        "To satisfy an automated memory debugger warning",
+        "To comply with export regulations",
+        "To speed up cryptographic handshakes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The developer removed the lines because Valgrind flagged uninitialized memory, not realizing that memory supplied critical entropy."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What hardware glitch triggered the total collapse of the ARPANET in October 1980?",
+      "options": [
+        "A severed undersea cable",
+        "A single flipped bit in a router's memory",
+        "A blown vacuum tube in Massachusetts",
+        "An overheated mainframe power supply"
+      ],
+      "correctIndex": 1,
+      "explanation": "A dropped bit in a sequence number created contradictory routing records that flooded the network in an infinite resolution loop."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did the Mirai malware compromise hundreds of thousands of IoT devices in 2016?",
+      "options": [
+        "Exploiting unpatched buffer overflows",
+        "Testing a list of 62 factory-default credentials",
+        "Brute-forcing 2048-bit RSA encryption keys",
+        "Sending malicious packet payloads over Bluetooth"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mirai simply scanned for IP addresses using 62 common default usernames and passwords like \"admin:admin\" that users never changed."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Approximately how long did the Shellshock vulnerability exist in GNU Bash before discovery in 2014?",
+      "options": [
+        "6 months",
+        "5 years",
+        "12 years",
+        "25 years"
+      ],
+      "correctIndex": 3,
+      "explanation": "The faulty parsing code was introduced in Bash version 1.03 in 1989 and lurked undetected until 2014."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many total unique SSH keys could a vulnerable Debian system generate after the 2006 OpenSSL bug?",
+      "answer": 32768,
+      "min": 1000,
+      "max": 1000000,
+      "unit": "keys",
+      "explanation": "Without random entropy, the system could only generate 32,768 distinct keys per architecture, making them trivially guessable."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many default login combinations did the Mirai malware use to assemble its massive botnet?",
+      "answer": 62,
+      "min": 5,
+      "max": 500,
+      "unit": "pairs",
+      "explanation": "Mirai took down major internet services relying on just 62 factory-default username and password combinations."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many years did the Shellshock vulnerability lurk undetected in GNU Bash before discovery?",
+      "answer": 25,
+      "min": 1,
+      "max": 50,
+      "unit": "years",
+      "explanation": "Introduced in 1989 with version 1.03, the flaw went unnoticed across billions of devices for a quarter of a century."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Modern C compilers automatically flag and reject duplicate statements as syntax errors.",
+      "answer": false,
+      "explanation": "In C, repeating a statement like `goto fail;` is completely valid syntax, which is why Apple's fatal duplicate passed compilation."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The 2016 Mirai cyberattacks succeeded by exploiting sophisticated zero-day software vulnerabilities.",
+      "answer": false,
+      "explanation": "Mirai relied on an extraordinarily simple method: guessing 62 factory-default logins that device owners never updated."
+    }
+  ]
+}

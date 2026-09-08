@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.015Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking 'Would you be willing?' yields more agreements than 'Can you?'",
+      "body": "When requesting commitment or action, phrasing the ask around willingness rather than ability shifts psychological processing. Psycholinguistic research demonstrates that questions asking 'Can you?' or 'Could you?' invite people to evaluate practical constraints, logistical hurdles, and schedule conflicts. In contrast, 'Would you be willing?' engages a person's values and self-identity. Refusing 'willingness' feels like acknowledging personal unhelpfulness, which significantly increases compliance rates across direct sales and fundraising pitches.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "The Psychology of Compliance",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3181997/"
+        },
+        {
+          "title": "Compliance (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compliance_(psychology)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Compliance_(psychology)",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How breaking down a package into unbundled items raises willingness to pay",
+      "body": "When sellers bundle multiple products or services together, buyers evaluate the entire package holistically, applying an intuitive mental discount. However, when sellers list the exact components separately with individual item prices before presenting a bundled price, buyers anchor on the individual values. Research on mental accounting shows that presenting partitioned pricing causes consumers to aggregate separate utility evaluations, often increasing their total perceived value and willingness to pay by up to 20% compared to all-inclusive lump sums.",
+      "imageWikipediaTitle": "Price",
+      "sources": [
+        {
+          "title": "Mental accounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_accounting"
+        },
+        {
+          "title": "Partitioned pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Partitioned_pricing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Partitioned_pricing",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why letting prospects make a tiny initial choice increases final commitment",
+      "body": "Salespeople often push for full commitment at the close, but prompting a micro-choice earlier in the pitch substantially cements the sale. According to psychological reactance and commitment theory, allowing a buyer to decide between two trivial options—such as choosing whether an estimate is delivered by email or text—activates self-determination. Once an individual asserts agency in a conversation, backing out later causes cognitive dissonance, sharply increasing their likelihood of finalizing the primary deal.",
+      "imageWikipediaTitle": "Cognitive dissonance",
+      "sources": [
+        {
+          "title": "Cognitive dissonance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_dissonance"
+        },
+        {
+          "title": "Self-determination theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-determination_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Cognitive_dissonance",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How repeating an objection in your own words dismantles buyer resistance",
+      "body": "When a prospect objects, instinctive sales reps rush to counter it. Hostage negotiators and persuasion researchers recommend instead paraphrasing the objection back to the prospect verbatim or near-verbatim until they say, 'That's right.' Active listening triggers an emotional shift known as feeling understood. Studies show that when individuals feel accurately heard, their amygdala calms, defensive barriers drop, and they become significantly more receptive to collaborative problem-solving and alternative terms.",
+      "imageWikipediaTitle": "Active listening",
+      "sources": [
+        {
+          "title": "Active listening",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Active_listening"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Active_listening",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why framing product benefits in round numbers feels more goal-driven",
+      "body": "While exact numbers like $4,912 work best for defending prices and signaling precision, the opposite rule applies to future benefits and milestones. Research on numerical cognition reveals that consumers process round numbers like 'save 10 hours a week' or 'reach 100 new leads' as satisfying, aspirational goals. Rounded figures evoke intuitive, emotional decision-making, whereas non-round figures force analytical processing that invites buyers to scrutinize assumptions and calculate worst-case scenarios.",
+      "imageWikipediaTitle": "Number",
+      "sources": [
+        {
+          "title": "Round number",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Round_number"
+        },
+        {
+          "title": "Mental representation of numbers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_representation_of_numbers"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Round_number",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does asking 'Would you be willing?' yield higher compliance than 'Can you?'",
+      "options": [
+        "It engages personal values and character rather than practical ability",
+        "It legally binds the listener to a verbal contract",
+        "It distracts the listener from financial costs",
+        "It makes the speaker sound more submissive"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phrasing an ask around 'willingness' appeals to a person's self-image and moral identity, making refusal feel unhelpful."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does partitioned pricing influence how buyers evaluate a total offer?",
+      "options": [
+        "It causes buyers to abandon the purchase due to hidden fees",
+        "It anchors buyers on separate utility values, increasing total willingness to pay",
+        "It forces buyers to negotiate only the cheapest component",
+        "It reduces the perceived quality of every included item"
+      ],
+      "correctIndex": 1,
+      "explanation": "Separating components causes mental accounting to aggregate distinct utility values, often boosting overall perceived worth."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What psychological effect occurs when a prospect makes a trivial choice early in a pitch?",
+      "options": [
+        "Choice overload leads them to delay their purchase",
+        "Asserting agency creates commitment that makes later backing out uncomfortable",
+        "They become suspicious of hidden contract terms",
+        "It resets the negotiation anchor to zero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Micro-choices foster autonomy and commitment; later backing out triggers uncomfortable cognitive dissonance."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens when a negotiator paraphrases a prospect's objection back to them accurately?",
+      "options": [
+        "The prospect assumes the negotiator is conceding the entire deal",
+        "The prospect feels understood, which lowers neurological defensiveness",
+        "The prospect repeats the objection more aggressively",
+        "It gives the negotiator legal liability for the stated problem"
+      ],
+      "correctIndex": 1,
+      "explanation": "Accurately reflecting an objection calms defensive reactions and primes the prospect for collaborative solutions."
+    },
+    {
+      "cardIndex": 4,
+      "question": "When presenting aspirational benefits and target milestones, why do round numbers outperform exact figures?",
+      "options": [
+        "Exact figures trigger analytical scrutiny, whereas round numbers feel like intuitive goals",
+        "Buyers believe round numbers represent legal minimums",
+        "Exact figures are harder to pronounce aloud",
+        "Round numbers trick buyers into miscalculating exchange rates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Round numbers trigger intuitive, goal-oriented processing, whereas precise non-round numbers trigger analytical skepticism."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "By what percentage can partitioned pricing (showing separate component prices) increase a buyer's perceived total willingness to pay?",
+      "answer": 20,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Presenting partitioned component values can increase perceived value and willingness to pay by up to 20% over lump-sum bundles."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Directly countering a prospect's objection with factual proof is the fastest way to resolve their resistance.",
+      "answer": false,
+      "explanation": "Countering immediately triggers defensive resistance; accurately summarizing their objection first lowers defensiveness and fosters agreement."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Exact figures are always more persuasive than round numbers in sales pitches.",
+      "answer": false,
+      "explanation": "While exact numbers work well for prices to signal precision, round figures are more motivating for aspirational benefits and milestones."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.016Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single missing shade of blue challenged an entire philosophy of mind",
+      "body": "David Hume famously argued that all human concepts originate as copies of direct sensory impressions: you cannot imagine what you have never sensed. Yet Hume immediately exposed his own loophole: if someone has seen every shade of blue except one, could they imagine the missing tone? Hume conceded they probably could. That admission proved that human minds can construct genuinely new simple ideas without experiencing them first.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "David Hume",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        },
+        {
+          "title": "David Hume",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/hume/"
+        },
+        {
+          "title": "Missing shade of blue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Missing_shade_of_blue"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/hume/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a clever lottery proved that human intuition shatters rational math",
+      "body": "In 1953, French economist Maurice Allais devised a bet that shocked theorists. Given a choice between a guaranteed million dollars or a gamble with a 1% risk of nothing, most people take the certainty. But when identical probabilities are subtracted from both sides, people suddenly switch to the riskier gamble. This simple choice violated expected utility theory, proving human rationality craves absolute certainty far more than pure mathematical value.",
+      "imageWikipediaTitle": "Maurice Allais",
+      "sources": [
+        {
+          "title": "Normative Theories of Rational Choice: Expected Utility",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/rationality-normative-utility/"
+        },
+        {
+          "title": "Allais paradox",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Allais-paradox"
+        },
+        {
+          "title": "Allais paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Allais_paradox"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Allais-paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why terror and vastness reveal the surprising power of human reason",
+      "body": "While beauty brings tranquil pleasure through symmetry and form, Immanuel Kant argued that the \"sublime\" does the exact opposite. Gazing at a raging tempest, a volcanic eruption, or a bottomless chasm first terrifies our senses with our physical insignificance. Yet this sensory defeat triggers an exhilarating realization: although our bodies are tiny and fragile, our rational minds possess the capacity to conceptualize infinite majesty and rise above nature.",
+      "imageWikipediaTitle": "Wanderer above the Sea of Fog",
+      "sources": [
+        {
+          "title": "Kant's Aesthetics and Teleology",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/kant-aesthetics/"
+        },
+        {
+          "title": "Kant's Aesthetics",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/kantaest/"
+        },
+        {
+          "title": "Sublime (philosophy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sublime_(philosophy)"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/kant-aesthetics/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The logic trap that asks whether philosophical definitions can ever teach us anything",
+      "body": "In 1942, philosopher C.H. Langford formalized the \"paradox of analysis.\" If a proposed definition of a concept is completely accurate, it expresses an identity—like saying \"a brother is a male sibling\"—which is trivial and uninformative. But if it reveals something novel and surprising, it cannot be strictly identical to the original concept, making it technically incorrect. Thus, deep conceptual definitions seem doomed to be either unhelpful or false.",
+      "imageWikipediaTitle": "G. E. Moore",
+      "sources": [
+        {
+          "title": "Analysis",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/analysis/"
+        },
+        {
+          "title": "Paradox of Analysis",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/anal-par/"
+        },
+        {
+          "title": "Paradox of analysis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_analysis"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/analysis/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Alan Turing bypassed the question of robot consciousness with a simple parlor game",
+      "body": "Philosophers spent decades debating whether machines could ever truly \"think,\" often getting tangled in murky definitions of consciousness. In 1950, mathematician Alan Turing cut through the impasse with his Imitation Game. Instead of asking what a machine inwardly experiences, he proposed a practical test: if a computer conversing via text can convince a human judge that it is a person, it has achieved functional human intelligence. Thinking is proven through action.",
+      "imageWikipediaTitle": "Alan Turing",
+      "sources": [
+        {
+          "title": "The Turing Test",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/turing-test/"
+        },
+        {
+          "title": "Turing test",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/technology/Turing-test"
+        },
+        {
+          "title": "Turing test",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turing_test"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/turing-test/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What problem did the \"missing shade of blue\" present for David Hume's empiricism?",
+      "options": [
+        "It proved human vision is physiologically limited to primary colors",
+        "It suggested the mind might generate a simple idea without a prior sensory impression",
+        "It demonstrated that physical objects do not have objective color properties",
+        "It showed that language cannot describe intermediate sensory experiences"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hume claimed all ideas come from sensory impressions, but admitted a person could likely imagine a missing intermediate shade of blue without ever having seen it."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What core assumption of classical expected utility theory does the Allais paradox violate?",
+      "options": [
+        "The transitivity of consumer preferences",
+        "The law of diminishing marginal returns",
+        "The independence axiom, which states common consequences shouldn't alter preference",
+        "The assumption that people always prefer more money to less"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Allais paradox shows that people's choices change when identical probabilities are removed from both options, violating the independence axiom."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Immanuel Kant, why does experiencing the sublime ultimately elevate the human spirit?",
+      "options": [
+        "It proves that nature was consciously designed for human survival",
+        "It reveals that the rational mind can conceptualize ideas beyond physical sensory limits",
+        "It completely eliminates fear through rational emotional detachment",
+        "It convinces the observer that sensory perceptions are physical illusions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kant argued that while the sublime overwhelms our physical senses, it awakens our awareness of reason's ability to grasp infinity and moral autonomy."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the paradox of analysis suggest philosophical definitions are trapped?",
+      "options": [
+        "Words change meaning too quickly for definitions to remain true",
+        "If an analysis is correct, it is trivial; if it is informative, it is incorrect",
+        "Logic cannot express subjective emotional concepts accurately",
+        "Every definition requires defining its constituent words in an infinite regress"
+      ],
+      "correctIndex": 1,
+      "explanation": "An analysis that is strictly synonymous merely restates the concept trivially, while one that provides new insight diverges from strict identity."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did Alan Turing propose the Imitation Game instead of asking \"Can machines think?\"",
+      "options": [
+        "He believed thinking required biological brain tissue that machines can never possess",
+        "He thought defining \"thinking\" was too vague, so he replaced it with measurable conversational behavior",
+        "He wanted to prove that computers would replace human clerks within five years",
+        "He argued that consciousness is a mathematical impossibility for electronic devices"
+      ],
+      "correctIndex": 1,
+      "explanation": "Turing considered \"Can machines think?\" too ambiguous to answer meaningfully, replacing it with an operational behavioral test."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Empiricist philosopher David Hume claimed humans can never imagine any color they haven't seen.",
+      "answer": false,
+      "explanation": "In his \"missing shade of blue\" thought experiment, Hume admitted someone could likely imagine a specific missing shade between two known shades."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "People will regularly reject a mathematically superior gamble to secure an outcome that is 100% guaranteed.",
+      "answer": true,
+      "explanation": "The Allais paradox demonstrated that human decision-makers disproportionately favor certainty, even when a slightly risky gamble offers vastly higher expected value."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Alan Turing designed his famous test to determine whether a machine possesses conscious feelings.",
+      "answer": false,
+      "explanation": "Turing intentionally sidestepped internal consciousness, designing the test purely to evaluate whether a machine's conversational behavior is indistinguishable from a human's."
+    }
+  ]
+}

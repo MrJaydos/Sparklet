@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.014Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Japanese \"Arigatō\" Does Not Come from Portuguese",
+      "body": "Despite sounding remarkably like the Portuguese *obrigado*, the Japanese expression for thank you, ありがとう (*arigatō*, pronounced \"ah-ree-GAH-toh\"), has purely domestic roots. It derives from the Classical Japanese *arigatashi*, combining *ari* (\"to exist\") and *katashi* (\"difficult\"), literally meaning \"rare and precious.\" Written records preserve Japanese speakers using earlier forms of the phrase centuries before Portuguese merchants first reached Japan in 1543. The striking phonetic resemblance is merely an etymological coincidence.",
+      "imageWikipediaTitle": "Japanese language",
+      "sources": [
+        {
+          "title": "Arigato",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/arigato"
+        },
+        {
+          "title": "Arigatō",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arigat%C5%8D"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Arigat%C5%8D",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Finnish Counts to Three Completely Differently",
+      "body": "Across Europe, counting from one to three sounds reassuringly familiar: *un, deux, trois* in French; *ein, zwei, drei* in German; *uno, dos, tres* in Spanish. That shared rhythm stems from their common Indo-European ancestry. Finnish breaks the mold completely. As a Uralic language, it counts to three as yksi (pronounced \"OOK-see\"), kaksi (\"KAHK-see\"), and kolme (\"KOL-meh\"). Finnish evolved along an entirely separate ancestral branch native to northeastern Europe.",
+      "imageWikipediaTitle": "Finnish language",
+      "sources": [
+        {
+          "title": "Finnish language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Finnish-language"
+        },
+        {
+          "title": "Finnish language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Finnish_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Finnish-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wishing Wholeness and Peace with Hebrew \"Shalom\"",
+      "body": "In Hebrew, the everyday greeting is שָׁלוֹם (*shalom*, pronounced \"shah-LOHM\"). While commonly translated into English simply as \"peace\" or \"hello,\" the underlying Semitic root *sh-l-m* signifies wholeness, completeness, and unbroken well-being. Because it conveys a wish for an individual's complete safety and harmony, *shalom* serves universally as both a greeting upon arrival and a blessing upon departure, wishing peace to everyone coming and going.",
+      "imageWikipediaTitle": "Shalom",
+      "sources": [
+        {
+          "title": "Shalom",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/shalom-Judaism"
+        },
+        {
+          "title": "Shalom",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/shalom"
+        },
+        {
+          "title": "Shalom",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shalom"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Shalom",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Speaking Stages Are Named After Roman Warship Rams",
+      "body": "In modern English, a \"rostrum\" is an elevated speaker's platform or dais. Its name dates back to 338 BCE, when the Roman Republic defeated the Latin city of Antium in a pivotal naval battle. Roman forces severed the bronze battering rams—called *rostra*, the Latin word for beaks or snouts—from captured enemy warships and fixed them onto the speaker's platform in the Roman Forum. Centuries later, the speaking stage itself inherited the name.",
+      "imageWikipediaTitle": "Rostra",
+      "sources": [
+        {
+          "title": "Rostra",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Rostra"
+        },
+        {
+          "title": "Rostrum",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/rostrum"
+        },
+        {
+          "title": "Rostra",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rostra"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Rostra",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Civil War General's Whiskers Became \"Sideburns\"",
+      "body": "Facial hair extending down the cheeks was not always called sideburns. During the American Civil War, Union General Ambrose Burnside became famous for his striking facial hair: bushy whiskers joined to a thick mustache while leaving his chin clean-shaven. The public soon nicknamed the distinctive look \"burnsides.\" Over the following decades, as the style was trimmed to sit along the sides of the face, English speakers transposed the syllables into the modern term \"sideburns.\"",
+      "imageWikipediaTitle": "Ambrose Burnside",
+      "sources": [
+        {
+          "title": "Ambrose E. Burnside",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/anti/learn/historyculture/ambrose-burnside.htm"
+        },
+        {
+          "title": "Sideburns",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/sideburns"
+        },
+        {
+          "title": "Sideburns",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sideburns"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sideburns",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the historical root of the Japanese word for thank you, \"arigatō\"?",
+      "options": [
+        "A Classical Japanese phrase meaning \"rare and precious\"",
+        "A direct borrowing from the Portuguese word \"obrigado\"",
+        "A Buddhist chant used when making temple offerings",
+        "A Dutch naval expression meaning \"good day\""
+      ],
+      "correctIndex": 0,
+      "explanation": "\"Arigatō\" developed from Old Japanese \"arigatashi\" (difficult to exist, rare), well before Portuguese travelers arrived in 1543."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does counting to three in Finnish differ completely from French, Spanish, and German?",
+      "options": [
+        "Finnish belongs to the Uralic language family, not Indo-European",
+        "Swedish rulers banned traditional European counting terms in Finland",
+        "Finnish numbers were artificially invented by 19th-century poets",
+        "Finnish borrowed its number words directly from Classical Arabic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Finnish is a Uralic language, meaning it originates from a separate language family than the Indo-European languages of western Europe."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Beyond \"peace\" or \"hello,\" what does the underlying root of the Hebrew word \"shalom\" signify?",
+      "options": [
+        "Wholeness and completeness",
+        "Sacred silence",
+        "Divine victory",
+        "Shared bread"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Semitic root sh-l-m conveys wholeness, soundness, and completeness, which is why shalom represents holistic well-being."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did ancient Romans name their public speaking platform the \"rostra\"?",
+      "options": [
+        "It was decorated with bronze ramming beaks taken from captured warships",
+        "Orators were required to wear ceremonial bird masks on stage",
+        "It was carved from a distinctive red volcanic stone called rostrum",
+        "Public addresses were originally given from the prows of merchant boats"
+      ],
+      "correctIndex": 0,
+      "explanation": "Following a 338 BCE naval battle against Antium, Romans decorated the Forum's speaker platform with captured warship rams (rostra)."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which American Civil War figure inspired the original term for facial hair on the cheeks?",
+      "options": [
+        "Union General Ambrose Burnside",
+        "Confederate General Stonewall Jackson",
+        "Union General Ulysses S. Grant",
+        "Confederate General J.E.B. Stuart"
+      ],
+      "correctIndex": 0,
+      "explanation": "General Ambrose Burnside popularized thick cheek-whiskers connected to a mustache; they were called \"burnsides\" before the syllables flipped."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In what year BCE did Roman forces defeat Antium and capture the warship rams that gave speaking platforms the name \"rostra\"?",
+      "answer": 338,
+      "min": 100,
+      "max": 750,
+      "unit": "BCE",
+      "explanation": "The Romans captured the bronze naval rams at the Battle of Antium in 338 BCE and mounted them on the Forum's speaker platform."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Japanese word \"arigatō\" was borrowed from the Portuguese word \"obrigado.\"",
+      "answer": false,
+      "explanation": "Despite their near-identical sound and meaning, \"arigatō\" evolved from native Old Japanese centuries before the Portuguese reached Japan in 1543."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Sideburns received their name because they grow on the side of the face and look singed or burned.",
+      "answer": false,
+      "explanation": "The whiskers were originally named \"burnsides\" after Civil War General Ambrose Burnside, before popular speech swapped the syllables."
+    }
+  ]
+}

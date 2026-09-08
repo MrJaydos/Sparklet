@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.011Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An Enslaved Man Introduced Inoculation to Colonial America",
+      "body": "During a deadly 1721 smallpox outbreak in Boston, minister Cotton Mather championed a radical medical procedure: scratching live smallpox into healthy skin to confer immunity. Mather learned this technique from Onesimus, an enslaved West African man who carried a scar from the procedure in Africa. Despite fierce public resistance and even a small bomb thrown into Mather's home, the trial showed that inoculated patients died at a fraction of the rate of naturally infected victims.",
+      "imageWikipediaTitle": "Cotton Mather",
+      "sources": [
+        {
+          "title": "Smallpox in Boston",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/000/smallpox-in-boston.htm"
+        },
+        {
+          "title": "Onesimus (enslaved person)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Onesimus_(enslaved_person)"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/000/smallpox-in-boston.htm",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The River Fire That Sparked America's Environmental Revolution",
+      "body": "On June 22, 1969, floating oil and industrial debris caught fire on Cleveland's Cuyahoga River, producing flames five stories high. The river had actually ignited more than a dozen times before, but dramatic coverage in Time magazine struck a national nerve. Public outrage over burning waterways catalyzed the modern environmental movement, directly spurring the 1970 creation of the Environmental Protection Agency and the landmark Clean Water Act of 1972.",
+      "imageWikipediaTitle": "Cuyahoga River",
+      "sources": [
+        {
+          "title": "1969 Cuyahoga River Fire",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/cuva/learn/historyculture/1969-cuyahoga-river-fire.htm"
+        },
+        {
+          "title": "Cuyahoga River",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cuyahoga_River"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/cuva/learn/historyculture/1969-cuyahoga-river-fire.htm",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When the Russian Navy Attacked English Fishing Boats in Fog",
+      "body": "In October 1904, the Russian Baltic Fleet sailed thousands of miles toward East Asia to fight the Imperial Japanese Navy. Paralyzed by rumors of stealthy ambushes, panicky Russian lookouts mistook a fleet of British fishing trawlers in the North Sea for Japanese torpedo boats. Russian warships fired hundreds of shells into the fog, sinking one British trawler and damaging others. The bizarre friendly-fire incident nearly dragged Britain into war with Russia.",
+      "imageWikipediaTitle": "Dogger Bank incident",
+      "sources": [
+        {
+          "title": "The Dogger Bank Incident",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/dogger-bank-incident"
+        },
+        {
+          "title": "Dogger Bank incident",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dogger_Bank_incident"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/dogger-bank-incident",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The CIA's Secret Deep-Sea Heist of a Soviet Submarine",
+      "body": "In 1974, the CIA orchestrated one of the most audacious covert salvage missions in history: Project Azorian. To retrieve a sunken Soviet nuclear submarine resting three miles beneath the Pacific Ocean, the agency partnered with billionaire Howard Hughes to invent an elaborate cover story about deep-sea mining. Hughes built a 618-foot vessel equipped with a colossal mechanical claw to hoist the 1,750-ton submarine section unseen from the ocean floor.",
+      "imageWikipediaTitle": "Project Azorian",
+      "sources": [
+        {
+          "title": "Project Azorian",
+          "publisher": "Central Intelligence Agency",
+          "url": "https://www.cia.gov/legacy/museum/exhibit/project-azorian/"
+        },
+        {
+          "title": "Project Azorian",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Project_Azorian"
+        }
+      ],
+      "readMoreUrl": "https://www.cia.gov/legacy/museum/exhibit/project-azorian/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Earthquakes That Made the Mississippi River Flow Backward",
+      "body": "During the winter of 1811 and 1812, a sequence of colossal earthquakes rocked the central United States along the New Madrid Seismic Zone. The tremors were so intense they rang church bells hundreds of miles away in Boston. Near the epicenter in Missouri, ground upheaval violently disrupted the landscape, creating waterfalls on the riverbed and forcing the mighty Mississippi River to briefly reverse its flow for several hours.",
+      "imageWikipediaTitle": "1811–1812 New Madrid earthquakes",
+      "sources": [
+        {
+          "title": "1811-1812 New Madrid Earthquakes",
+          "publisher": "Missouri Department of Natural Resources",
+          "url": "https://dnr.mo.gov/land-geology/geology/earthquakes-hazards/1811-1812-new-madrid-earthquakes"
+        },
+        {
+          "title": "1811–1812 New Madrid earthquakes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1811%E2%80%931812_New_Madrid_earthquakes"
+        }
+      ],
+      "readMoreUrl": "https://dnr.mo.gov/land-geology/geology/earthquakes-hazards/1811-1812-new-madrid-earthquakes",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Who introduced Cotton Mather to the practice of smallpox inoculation in colonial Boston?",
+      "options": [
+        "Benjamin Franklin",
+        "An enslaved man named Onesimus",
+        "A visiting royal physician from London",
+        "A French fur trader"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cotton Mather learned the variolation technique from Onesimus, an enslaved West African man living in his household."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What landmark US federal agency was created in part due to public outrage over the 1969 Cuyahoga River fire?",
+      "options": [
+        "Environmental Protection Agency (EPA)",
+        "Federal Emergency Management Agency (FEMA)",
+        "Department of the Interior",
+        "Occupational Safety and Health Administration (OSHA)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1969 Cuyahoga River fire catalyzed public support for environmental protections, leading to the creation of the EPA in 1970."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In the 1904 Dogger Bank incident, what did Russian warships mistake British fishing trawlers for?",
+      "options": [
+        "German battleships",
+        "Japanese torpedo boats",
+        "French pirate vessels",
+        "Swedish cargo freighters"
+      ],
+      "correctIndex": 1,
+      "explanation": "En route to East Asia during the Russo-Japanese War, Russian officers panicked and mistook British trawlers in the North Sea for Japanese torpedo boats."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What cover story did the CIA use to conceal their attempt to raise a sunken Soviet submarine in 1974?",
+      "options": [
+        "An offshore oil drilling survey",
+        "A commercial deep-sea mining venture",
+        "An Antarctic scientific expedition",
+        "A transatlantic fiber-optic cable laying project"
+      ],
+      "correctIndex": 1,
+      "explanation": "The CIA partnered with billionaire Howard Hughes, claiming the vessel was built to mine manganese nodules from the ocean floor."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What bizarre hydraulic phenomenon occurred along the Mississippi River during the 1811–1812 New Madrid earthquakes?",
+      "options": [
+        "The river completely dried up for a week",
+        "The water boiled due to subterranean heat",
+        "The river briefly flowed backward",
+        "The river split into three permanent deltas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fault uplift created temporary waterfalls and thrusts in the riverbed, forcing the Mississippi to reverse direction for several hours."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "At what depth on the Pacific floor was the sunken Soviet submarine K-129 located when the CIA tried to recover it?",
+      "answer": 16500,
+      "min": 1000,
+      "max": 30000,
+      "unit": "ft",
+      "explanation": "Submarine K-129 rested about 16,500 feet (over 3 miles) below the surface, requiring a custom-built 618-foot ship and claw to reach it."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The famous 1969 Cuyahoga River fire was the first time the Cleveland river had ever caught fire.",
+      "answer": false,
+      "explanation": "The Cuyahoga River had burned at least a dozen times before 1969, but the 1969 blaze received unprecedented national media attention."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The 1811–1812 New Madrid earthquakes caused the Mississippi River to temporarily run backward.",
+      "answer": true,
+      "explanation": "Tectonic uplift along the fault line created temporary dams and rapids in the riverbed, forcing water to flow upstream for several hours."
+    }
+  ]
+}

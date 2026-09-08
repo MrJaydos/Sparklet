@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.019Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your liver hoards enough vitamin B12 to last up to five years",
+      "body": "Most water-soluble vitamins, like vitamin C, pass through your body quickly and must be replenished every few days. Vitamin B12 is the major exception. Your liver hoards an enormous reserve of B12—typically between two and five milligrams. Because your body only consumes about two micrograms a day, you could eat zero vitamin B12 for several years before depleting your liver's emergency pantry and showing signs of deficiency.",
+      "imageWikipediaTitle": "Vitamin B12",
+      "sources": [
+        {
+          "title": "Vitamin B12",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/002403.htm"
+        },
+        {
+          "title": "Vitamin B12 - Health Professional Fact Sheet",
+          "publisher": "NIH Office of Dietary Supplements",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+        },
+        {
+          "title": "Vitamin B12",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vitamin_B12"
+        }
+      ],
+      "readMoreUrl": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your heart acts as an endocrine gland that controls blood pressure",
+      "body": "The heart is famously known as a mechanical pump, but it also functions as an endocrine gland. When high blood volume stretches the muscular walls of your heart's upper chambers, specialized cardiac cells release a hormone called atrial natriuretic peptide. This chemical messenger travels to your kidneys, ordering them to excrete extra sodium and water. The resulting fluid loss reduces total blood volume, bringing your blood pressure safely back down.",
+      "imageWikipediaTitle": "Heart",
+      "sources": [
+        {
+          "title": "Physiology, Atrial Natriuretic Peptide",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK535431/"
+        },
+        {
+          "title": "Atrial natriuretic peptide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atrial_natriuretic_peptide"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK535431/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Severe vitamin C deficiency can cause healed scars to reopen",
+      "body": "A healed scar seems permanent, but collagen tissue requires constant biochemical upkeep. Collagen fibers continually break down and get replaced, a maintenance cycle that relies on vitamin C to cross-link and stabilize new proteins. In advanced scurvy, the body can no longer synthesize functional collagen to replace old fibers. As existing collagen breaks down without replacement, previous scars from years or even decades earlier can physically dissolve and break open.",
+      "imageWikipediaTitle": "Scurvy",
+      "sources": [
+        {
+          "title": "Scurvy",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK493187/"
+        },
+        {
+          "title": "Scurvy",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/000359.htm"
+        },
+        {
+          "title": "Scurvy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scurvy"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/ency/article/000359.htm",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blood-brain barrier blocks nearly all small-molecule medications",
+      "body": "To protect delicate neurons from toxins, bacteria, and wild chemical swings in the bloodstream, your brain is wrapped in a specialized cellular security wall. Capillary endothelial cells are welded shut by extremely tight junctions, reinforced by star-shaped astrocyte cells. While this blood-brain barrier shields brain tissue from harm, it is so effective that it blocks more than 98 percent of small-molecule drugs, making many brain disorders exceptionally difficult to treat.",
+      "imageWikipediaTitle": "Blood–brain barrier",
+      "sources": [
+        {
+          "title": "Physiology, Blood Brain Barrier",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK542284/"
+        },
+        {
+          "title": "Blood–brain barrier",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blood%E2%80%93brain_barrier"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK542284/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your liver neutralizes lethal protein waste through the urea cycle",
+      "body": "Every time your body breaks down dietary protein for energy or tissue repair, it strips off nitrogen groups, producing ammonia. Ammonia is intensely neurotoxic; even slight accumulations disrupt brain metabolism and cause encephalopathy. To keep you alive, your liver continuously runs the urea cycle, a series of five enzyme-driven reactions that transform volatile ammonia into water-soluble urea. Your kidneys then filter this benign urea out of your blood and excrete it in urine.",
+      "imageWikipediaTitle": "Urea cycle",
+      "sources": [
+        {
+          "title": "Biochemistry, Urea Cycle",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537136/"
+        },
+        {
+          "title": "Urea cycle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Urea_cycle"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537136/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How long can a healthy adult's liver reserves of vitamin B12 last without any dietary intake?",
+      "options": [
+        "A few days",
+        "2 to 3 weeks",
+        "2 to 5 years",
+        "An entire lifetime"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike other water-soluble vitamins, the liver stores 2 to 5 milligrams of vitamin B12, enough to cover daily metabolic requirements for 2 to 5 years."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which hormone does the heart release when stretched by excess blood volume?",
+      "options": [
+        "Atrial natriuretic peptide (ANP)",
+        "Aldosterone",
+        "Cortisol",
+        "Erythropoietin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stretching of the atria prompts cardiac muscle cells to secrete ANP, which signals the kidneys to excrete water and sodium to lower blood pressure."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why can old scars break open in people suffering from severe scurvy?",
+      "options": [
+        "Blood pressure spikes and physically tears the tissue",
+        "Vitamin C deficiency stops collagen renewal, causing old scars to degrade",
+        "White blood cells mistakenly target and destroy scar tissue",
+        "Scar tissue naturally dissolves every few years"
+      ],
+      "correctIndex": 1,
+      "explanation": "Collagen requires vitamin C for continuous synthesis and cross-linking; without it, older scar tissue breaks down and cannot be replaced."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What percentage of small-molecule drugs does the blood-brain barrier prevent from entering the brain?",
+      "options": [
+        "Around 25 percent",
+        "Around 50 percent",
+        "Around 75 percent",
+        "Over 98 percent"
+      ],
+      "correctIndex": 3,
+      "explanation": "Because capillary endothelial cells are knit together with tight junctions, the blood-brain barrier excludes over 98% of small-molecule drugs."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What toxic byproduct of protein metabolism does the liver convert into urea?",
+      "options": [
+        "Ammonia",
+        "Uric acid",
+        "Lactic acid",
+        "Bilirubin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Breaking down amino acids produces neurotoxic ammonia, which the liver converts into safe, water-soluble urea via the urea cycle."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "For up to how many years can your liver store enough vitamin B12 to supply your body without any dietary intake?",
+      "answer": 5,
+      "min": 1,
+      "max": 15,
+      "unit": "years",
+      "explanation": "Your liver stores several milligrams of vitamin B12, enough to cover your body's tiny daily requirements for up to 5 years."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of small-molecule pharmaceutical drugs is blocked from entering the brain by the blood-brain barrier?",
+      "answer": 98,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The blood-brain barrier's tight junctions are so restrictive that over 98% of potential small-molecule drugs cannot enter brain tissue."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All water-soluble vitamins wash out of the body within days and cannot be stored for years.",
+      "answer": false,
+      "explanation": "While most water-soluble vitamins are excreted quickly, vitamin B12 is stored in substantial reserves in the liver for 2 to 5 years."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The human heart functions exclusively as a mechanical pump and produces no hormones.",
+      "answer": false,
+      "explanation": "The heart acts as an endocrine gland, producing atrial natriuretic peptide (ANP) to instruct the kidneys to lower blood volume and pressure."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Once a scar has fully healed, it remains stable forever without requiring nutritional maintenance.",
+      "answer": false,
+      "explanation": "Scar tissue undergoes ongoing collagen turnover; severe vitamin C deficiency halts this maintenance and can cause decades-old scars to reopen."
+    }
+  ]
+}

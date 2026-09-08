@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-08T19:38:40.017Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wall Paintings That Chemically Turn into Stone",
+      "body": "True fresco is not paint resting on a wall—it is stone. Renaissance masters like Michelangelo and Giotto applied pigment diluted in plain water directly onto freshly laid, damp lime plaster. As the plaster cured, calcium hydroxide reacted with atmospheric carbon dioxide to produce calcium carbonate: the chemical makeup of limestone. The pigments became permanently locked inside crystalline rock, preserving vibrant Renaissance murals for over half a millennium.",
+      "imageWikipediaTitle": "Fresco",
+      "sources": [
+        {
+          "title": "Fresco",
+          "publisher": "Tate",
+          "url": "https://www.tate.org.uk/art/art-terms/f/fresco"
+        },
+        {
+          "title": "Fresco",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fresco"
+        }
+      ],
+      "readMoreUrl": "https://www.tate.org.uk/art/art-terms/f/fresco",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Painting Contest Won by a Painted Curtain",
+      "body": "In the 5th century BCE, Greek painters Zeuxis and Parrhasius staged an art duel recorded by Pliny the Elder. Zeuxis unveiled painted grapes so startlingly lifelike that wild birds flew down to peck at the canvas. Confident of victory, Zeuxis demanded that Parrhasius pull aside the tattered cloth hiding his competitor's work. Only when Zeuxis reached out did he realize the cloth was the painting—admitting defeat because he had fooled birds, but Parrhasius had fooled a master.",
+      "imageWikipediaTitle": "Trompe-l'œil",
+      "sources": [
+        {
+          "title": "Trompe l'oeil",
+          "publisher": "Tate",
+          "url": "https://www.tate.org.uk/art/art-terms/t/trompe-loeil"
+        },
+        {
+          "title": "Zeuxis and Parrhasius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zeuxis_and_Parrhasius"
+        }
+      ],
+      "readMoreUrl": "https://www.tate.org.uk/art/art-terms/t/trompe-loeil",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Japanese Concept of Finding Beauty in Things That End",
+      "body": "In Japanese aesthetics, mono no aware translates roughly to \"the pathos of things\"—a bittersweet sensitivity to the impermanence of existence. Originating during the Heian period and central to classics like The Tale of Genji, this philosophy holds that things are beautiful precisely because they cannot endure. The fleeting two-week blossom of cherry trees is the classic emblem: if blossoms lasted all year, their beauty would lose its profound emotional power.",
+      "imageWikipediaTitle": "Mono no aware",
+      "sources": [
+        {
+          "title": "Japanese Aesthetics",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/japanese-aesthetics/"
+        },
+        {
+          "title": "Mono no aware",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mono_no_aware"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/japanese-aesthetics/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Brides Wear White (It Isn't About Purity)",
+      "body": "Before 1840, Western brides simply wore their finest clothes in any color—greens, blues, or sensible dark fabrics that could easily be reworn. Everything changed when Britain's Queen Victoria married Prince Albert wearing an ivory-white satin gown. Victoria chose white not as a symbol of purity, but to showcase delicate handmade Honiton lace and rescue the declining British cottage lace industry. Global press illustrations turned Victoria's patriotic wardrobe choice into an enduring worldwide wedding tradition.",
+      "imageWikipediaTitle": "Wedding dress of Queen Victoria",
+      "sources": [
+        {
+          "title": "Why Do Brides Wear White?",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/story/why-do-brides-wear-white"
+        },
+        {
+          "title": "Wedding dress of Queen Victoria",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wedding_dress_of_Queen_Victoria"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wedding_dress_of_Queen_Victoria",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Only Global Holiday Born from a Fight to Speak a Language",
+      "body": "On February 21, 1952, students in Dhaka took to the streets to demand that Bengali be recognized alongside Urdu as an official language of Pakistan. Police opened fire, killing multiple protesters. Their sacrifice sparked the Bengali Language Movement and helped forge Bangladesh's national identity. In 1999, UNESCO formally recognized their courage by declaring February 21 International Mother Language Day, honoring linguistic diversity and the right to speak one's native tongue worldwide.",
+      "imageWikipediaTitle": "Shaheed Minar, Dhaka",
+      "sources": [
+        {
+          "title": "International Mother Language Day",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/en/observances/mother-language-day"
+        },
+        {
+          "title": "International Mother Language Day",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/International_Mother_Language_Day"
+        }
+      ],
+      "readMoreUrl": "https://www.un.org/en/observances/mother-language-day",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What chemical compound locks the pigments into the wall during true fresco painting?",
+      "options": [
+        "Calcium carbonate (limestone)",
+        "Polyvinyl acetate glue",
+        "Lead oxide glaze",
+        "Linseed oil varnish"
+      ],
+      "correctIndex": 0,
+      "explanation": "True fresco binds pigment using calcium carbonate, which forms when wet lime plaster reacts with carbon dioxide in the air."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In the ancient Greek art contest recorded by Pliny, what did Parrhasius paint to defeat Zeuxis?",
+      "options": [
+        "A deceptive fabric curtain",
+        "A flock of flying birds",
+        "A bowl of ripe grapes",
+        "A realistic bronze mirror"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zeuxis fooled birds with his painted grapes, but Parrhasius fooled Zeuxis himself by painting an illusionary curtain."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What central idea does the Japanese aesthetic concept of 'mono no aware' celebrate?",
+      "options": [
+        "The bittersweet beauty of impermanence",
+        "Flawless geometric symmetry",
+        "Eternal physical youth and vitality",
+        "Art made entirely without human hands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mono no aware reflects on the pathos of things, finding poignant beauty in the transient nature of life."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did Queen Victoria choose an ivory-white gown for her wedding in 1840?",
+      "options": [
+        "To promote and support British handmade lace",
+        "To comply with a centuries-old royal purity mandate",
+        "Because bleached silk was the cheapest fabric available",
+        "To match Prince Albert's family crest colors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Victoria selected white silk satin primarily to highlight and revive the struggling British Honiton lace industry."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What historic event inspired UNESCO to establish International Mother Language Day?",
+      "options": [
+        "The 1952 Bengali Language Movement protests in Dhaka",
+        "The founding of the United Nations in 1945",
+        "The decipherment of the Rosetta Stone in Egypt",
+        "The publication of the first Esperanto dictionary"
+      ],
+      "correctIndex": 0,
+      "explanation": "The holiday commemorates students killed in Dhaka in 1952 while protesting for official recognition of the Bengali language."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In what year did Queen Victoria marry Prince Albert in the white gown that popularized the modern bridal tradition?",
+      "answer": 1840,
+      "min": 1700,
+      "max": 1950,
+      "unit": "",
+      "explanation": "Queen Victoria's wedding in 1840 popularized the white wedding gown throughout the Western world."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In what year did UNESCO formally establish International Mother Language Day?",
+      "answer": 1999,
+      "min": 1945,
+      "max": 2020,
+      "unit": "",
+      "explanation": "UNESCO proclaimed International Mother Language Day in 1999 to protect and promote linguistic diversity worldwide."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "True fresco paintings stay bound to walls because artists mix their pigments with durable glues and oils.",
+      "answer": false,
+      "explanation": "In true fresco (buon fresco), pigments are diluted only in water; they chemically lock into place as curing plaster turns into limestone."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Trompe-l'œil optical illusions in painting were first invented during the Italian Renaissance.",
+      "answer": false,
+      "explanation": "Optical illusion painting dates back to antiquity, as seen in the famous 5th-century BCE contest between Zeuxis and Parrhasius."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Before Queen Victoria's 1840 wedding, Western brides routinely wore dresses of any color rather than white.",
+      "answer": true,
+      "explanation": "Until Queen Victoria popularized the white gown to support British lacemakers, brides wore their best clothes in colors like blue, green, or grey."
+    }
+  ]
+}
