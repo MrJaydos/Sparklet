@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-09-09T19:33:12.877Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Two-Dollar Bill Never Actually Went Extinct",
+      "body": "Millions of Americans treat the two-dollar bill as an extinct curiosity, stashing them in scrapbooks or refusing them as counterfeit. In reality, the Federal Reserve still regularly orders and prints them, with over 1.4 billion notes currently in circulation worldwide. Because people hoard $2 bills as lucky novelties instead of spending them, they rarely flow through cash registers—creating a self-fulfilling illusion that the currency is no longer in production.",
+      "imageWikipediaTitle": "United States two-dollar bill",
+      "sources": [
+        {
+          "title": "$2 Note",
+          "publisher": "U.S. Currency Education Program",
+          "url": "https://www.uscurrency.gov/denominations/2"
+        },
+        {
+          "title": "Currency in Circulation: Volume",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/paymentsystems/coin_currcircvolume.htm"
+        },
+        {
+          "title": "United States two-dollar bill",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/United_States_two-dollar_bill"
+        }
+      ],
+      "readMoreUrl": "https://www.uscurrency.gov/denominations/2",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Fed Uses Street Gossip to Guide the Economy",
+      "body": "Eight times a year, the Federal Reserve publishes the Beige Book, an informal economic survey drawn from interviews with local shopkeepers, farmers, and factory managers across its twelve districts. While central bankers rely heavily on statistical computer models, they deliberately preserve this anecdotal tradition. Street-level gossip, casual observations, and front-line hiring struggles often reveal emerging economic shifts and supply bottlenecks months before backward-looking government data registers them.",
+      "imageWikipediaTitle": "Federal Reserve",
+      "sources": [
+        {
+          "title": "The Beige Book",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/monetarypolicy/beigebookdefault.htm"
+        },
+        {
+          "title": "Beige Book",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Beige_Book"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/monetarypolicy/beigebookdefault.htm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Revolutionary Cash That Was \"Not Worth a Continental\"",
+      "body": "To fund the Revolutionary War, the Continental Congress printed $241 million in paper money without gold backing or taxation authority. As the presses ran constantly, the currency hyperinflated into near-total worthlessness. By 1781, Continentals traded for less than one percent of their original face value, popularizing the American idiom \"not worth a continental.\" The financial catastrophe stung so deeply that the framers of the US Constitution explicitly prohibited individual states from printing paper money.",
+      "imageWikipediaTitle": "Continental currency",
+      "sources": [
+        {
+          "title": "Continental Currency",
+          "publisher": "George Washington's Mount Vernon",
+          "url": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/continental-currency/"
+        },
+        {
+          "title": "Continental currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Continental_currency"
+        }
+      ],
+      "readMoreUrl": "https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/continental-currency/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Hundred-Dollar Bill Costs Under Ten Cents to Make",
+      "body": "Printing a crisp $100 bill costs the US government only about 8.6 cents in linen, cotton paper, and color-shifting ink. Even a basic $1 bill costs roughly 2.8 cents to produce. The colossal gap between a banknote's negligible manufacturing cost and its real-world purchasing power represents seigniorage—instant government revenue created out of thin air. In a typical year, this manufacturing spread generates tens of billions of dollars returned directly to the US Treasury.",
+      "imageWikipediaTitle": "Federal Reserve Note",
+      "sources": [
+        {
+          "title": "How much does it cost to produce currency and coin?",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "url": "https://www.federalreserve.gov/faqs/currency_12771.htm"
+        },
+        {
+          "title": "Federal Reserve Note",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Federal_Reserve_Note"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Every Bridge on Euro Banknotes Is Completely Made Up",
+      "body": "Every euro banknote features an architectural window on the front and a grand bridge on the back. Yet none of these landmarks exist in the real world. To prevent jealous diplomatic squabbles over which member nation's historic monuments deserved a spot on the common currency, the European Central Bank designed completely fictional bridges. Each represents a generic European architectural era—from Classical to Modern—symbolizing connection and openness without favoring any single country.",
+      "imageWikipediaTitle": "Euro banknotes",
+      "sources": [
+        {
+          "title": "Banknotes - Design elements",
+          "publisher": "European Central Bank",
+          "url": "https://www.ecb.europa.eu/euro/banknotes/design/html/index.en.html"
+        },
+        {
+          "title": "Euro banknotes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Euro_banknotes"
+        }
+      ],
+      "readMoreUrl": "https://www.ecb.europa.eu/euro/banknotes/design/html/index.en.html",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do $2 bills rarely appear in everyday transactions despite being in active production?",
+      "options": [
+        "Banks are legally barred from dispensing them without a customer permit",
+        "People hoard them as lucky keepsakes rather than spending them",
+        "Retail stores are required by federal law to return them immediately to the Fed",
+        "They are only designated as legal tender within federal government buildings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the public perceives $2 bills as rare collector's items, people hoard them in drawers and scrapbooks instead of circulating them through retail registers."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What distinguishes the Federal Reserve's 'Beige Book' from standard central bank economic reports?",
+      "options": [
+        "It compiles informal interviews with local businesses rather than purely quantitative data",
+        "It is generated entirely by autonomous algorithms without human intervention",
+        "It is classified top-secret and only accessible by the President",
+        "It tracks only international black-market transactions and currency smuggling"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Beige Book gathers anecdotal reports from street-level business owners across all 12 Fed districts to catch economic shifts before official statistics reflect them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What legal consequence resulted from the hyperinflation of America's Revolutionary War 'Continental' currency?",
+      "options": [
+        "The US Constitution forbade individual states from issuing paper money",
+        "The newly formed United States banned the use of physical money for twenty years",
+        "Paper currency was outlawed entirely until after the American Civil War",
+        "The US government adopted the British pound as legal tender until 1860"
+      ],
+      "correctIndex": 0,
+      "explanation": "To prevent a repeat of the Continental's disastrous hyperinflation, Article I, Section 10 of the US Constitution prohibited states from issuing their own paper currency."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What financial term describes the government profit made between the cost to print money and its face value?",
+      "options": [
+        "Seigniorage",
+        "Arbitrage",
+        "Amortization",
+        "Deadweight loss"
+      ],
+      "correctIndex": 0,
+      "explanation": "Seigniorage is the difference between the face value of newly minted money and the actual physical cost incurred by the government to produce it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did the European Central Bank choose fictional bridges for euro banknotes?",
+      "options": [
+        "To avoid political accusations of national favoritism among member states",
+        "European copyright treaties forbid depicting existing public infrastructure",
+        "The illustrations serve as architectural blueprints for proposed EU transit projects",
+        "The design committee ran out of time to photograph genuine European landmarks"
+      ],
+      "correctIndex": 0,
+      "explanation": "By creating stylized, fictional bridges representing broad historical styles, the European Central Bank ensured no single nation felt overlooked or unfairly favored."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Roughly how many two-dollar bills are currently in active circulation worldwide?",
+      "answer": 1.4,
+      "min": 0.1,
+      "max": 10,
+      "unit": "billion",
+      "explanation": "Over 1.4 billion $2 bills are in circulation, but because people hoard them as novelties, they rarely show up in cash registers."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "About how many cents does it cost the US government to physically manufacture a single $100 bill?",
+      "answer": 9,
+      "min": 1,
+      "max": 100,
+      "unit": "cents",
+      "explanation": "It costs the Bureau of Engraving and Printing only about 8.6 cents to print a $100 bill, generating over $99 in seigniorage profit per note."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The United States government stopped printing two-dollar bills decades ago.",
+      "answer": false,
+      "explanation": "The Federal Reserve regularly orders and prints new $2 bills, and over 1.4 billion notes remain in active circulation."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Printing a $100 bill costs the US government under ten cents.",
+      "answer": true,
+      "explanation": "Despite high-tech 3D ribbons and color-shifting ink, the Bureau of Engraving and Printing manufactures each $100 bill for approximately 8.6 cents."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The bridges illustrated on euro banknotes depict real historical bridges located across Europe.",
+      "answer": false,
+      "explanation": "Every bridge on euro banknotes is an imaginary composite design created specifically to avoid national favoritism among member countries."
+    }
+  ]
+}

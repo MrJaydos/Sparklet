@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-09-09T19:33:12.879Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why cliff-nesting seabirds lay distinctly pear-shaped eggs",
+      "body": "Common murres breed in dense colonies on bare, precarious cliff ledges high above the crashing ocean, building no nests to hold their clutch. Their single egg has an extreme pyriform, or pear-shaped, contour. If kicked or caught by an ocean gale, the egg spins tightly in a small circle around its tapered point rather than rolling straight over the sheer drop.",
+      "imageWikipediaTitle": "Common murre",
+      "sources": [
+        {
+          "title": "Common Murre",
+          "publisher": "Audubon",
+          "url": "https://www.audubon.org/field-guide/bird/common-murre"
+        },
+        {
+          "title": "Common Murre",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_murre"
+        },
+        {
+          "title": "Murre",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/animal/murre"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Common_murre",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Thousands of fireflies sync their flashes into a single heartbeat",
+      "body": "In the Appalachian mountains every spring, thousands of Photinus carolinus fireflies perform a coordinated light show. Rather than flashing randomly, males synchronize their bioluminescent pulses into collective waves of light, followed by sudden, complete darkness for several seconds. This synchronized rhythm prevents visual clutter, allowing perched females to recognize mates of their own species against the pitch-black forest floor.",
+      "imageWikipediaTitle": "Photinus carolinus",
+      "sources": [
+        {
+          "title": "Synchronous Fireflies",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/grsm/learn/nature/fireflies.htm"
+        },
+        {
+          "title": "Photinus carolinus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Photinus_carolinus"
+        },
+        {
+          "title": "Firefly",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/animal/firefly-insect"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/grsm/learn/nature/fireflies.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male seahorses carry, nourish, and give birth to hundreds of babies",
+      "body": "Seahorses and their pipefish relatives are the only animals where males undergo true pregnancy. A female deposits hundreds of unfertilized eggs into the male's specialized abdominal brood pouch. The male fertilizes them internally, providing oxygen, calcium, and nutrients through a placenta-like fluid network. Weeks later, he undergoes vigorous muscular labor contractions to expel fully formed miniature fry into the open sea.",
+      "imageWikipediaTitle": "Seahorse",
+      "sources": [
+        {
+          "title": "Seahorse",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/animal/seahorse"
+        },
+        {
+          "title": "Seahorse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seahorse"
+        },
+        {
+          "title": "Dwarf Seahorse",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/dwarf-seahorse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Seahorse",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A tiny crustacean outweighs all eight billion humans on Earth",
+      "body": "Individual Antarctic krill measure only about six centimeters in length, yet their collective population forms one of the largest animal biomasses on the planet. Scientists estimate their total mass at roughly 400 to 500 million metric tons—substantially surpassing the combined weight of all humans alive today. In the Southern Ocean, their enormous swarms are so dense they can be tracked from orbit by satellites.",
+      "imageWikipediaTitle": "Antarctic krill",
+      "sources": [
+        {
+          "title": "Krill",
+          "publisher": "Australian Antarctic Program",
+          "url": "https://www.antarctica.gov.au/about-antarctica/animals/krill/"
+        },
+        {
+          "title": "Antarctic krill",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Antarctic_krill"
+        },
+        {
+          "title": "Krill",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/animal/krill"
+        }
+      ],
+      "readMoreUrl": "https://www.antarctica.gov.au/about-antarctica/animals/krill/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ginkgo biloba is the sole survivor of an entire prehistoric plant kingdom",
+      "body": "The distinctive fan-leafed Ginkgo biloba is a living fossil with no living relatives. It is the only surviving species of Ginkgophyta, an entire division of plants that flourished alongside early dinosaurs over two hundred million years ago. While every other species in its division went extinct millions of years ago, Ginkgo survived virtually unchanged in remote valleys of China, possessing remarkable resistance to pollution, fungal rot, and insect pests.",
+      "imageWikipediaTitle": "Ginkgo biloba",
+      "sources": [
+        {
+          "title": "Ginkgo biloba (maidenhair tree)",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://www.kew.org/plants/ginkgo-biloba"
+        },
+        {
+          "title": "Ginkgo biloba",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ginkgo_biloba"
+        },
+        {
+          "title": "Ginkgo",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/plant/ginkgo-tree"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/plants/ginkgo-biloba",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the pear-like shape of a common murre egg protect it on cliff ledges?",
+      "options": [
+        "It locks directly into small crevices in the granite rock",
+        "It spins tightly in a circle rather than rolling off the edge",
+        "It cushions impacts if dropped onto stones from heights",
+        "It prevents predatory gulls from opening their jaws wide enough"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the egg is tapered at one end, any sudden push causes it to roll in a tight arc around its point rather than tumbling in a straight line off the cliff."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do Photinus carolinus fireflies synchronize their flashes in the Great Smoky Mountains?",
+      "options": [
+        "To confuse predatory nocturnal bats and owls",
+        "To generate sufficient collective heat to stay warm",
+        "To clear visual clutter so females can spot species-specific signals",
+        "To lure competing insect species away from female perches"
+      ],
+      "correctIndex": 2,
+      "explanation": "Flashing in unison eliminates visual noise across the dark forest floor, making it easy for stationary females to recognize mates of their own species."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unique reproductive role do male seahorses perform?",
+      "options": [
+        "They carry, nourish, and give birth to embryos in a brood pouch",
+        "They guard external nests by fanning eggs with their dorsal fins",
+        "They regurgitate nutrient-rich fluid to feed newborn larvae",
+        "They carry fertilized eggs stuck externally along their tails"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male seahorses receive unfertilized eggs from females, fertilize them, provide nutrients through a placenta-like fluid inside a pouch, and undergo muscular labor."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the total biomass of Antarctic krill compare to that of the entire human population?",
+      "options": [
+        "It represents roughly one-tenth of human biomass",
+        "It is approximately equal to total human biomass",
+        "It substantially surpasses the combined weight of all living humans",
+        "It matches the weight of humanity's livestock combined"
+      ],
+      "correctIndex": 2,
+      "explanation": "Antarctic krill have an estimated total biomass of 400 to 500 million metric tons, easily exceeding the collective weight of all eight billion people on Earth."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What makes Ginkgo biloba unique in plant taxonomy?",
+      "options": [
+        "It is the only surviving species of an entire ancient plant division",
+        "It is the only gymnosperm that reproduces using flowers",
+        "It is the direct genetic ancestor of all modern broadleaf trees",
+        "It is the only plant capable of surviving without photosynthetic chlorophyll"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ginkgo biloba is a living fossil and the sole survivor of Ginkgophyta, an entire division of plants that dates back more than 200 million years."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "Estimated total biomass of all Antarctic krill on Earth:",
+      "answer": 400,
+      "min": 50,
+      "max": 1500,
+      "unit": "million metric tons",
+      "explanation": "Scientists estimate Antarctic krill biomass at 400 to 500 million metric tons, outweighing all eight billion humans combined."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Common murre eggs are pear-shaped so they roll straight back into the center of a nest.",
+      "answer": false,
+      "explanation": "Murres do not build nests at all; the tapered shape causes the egg to spin tightly in a circle on bare rock so it does not tumble off cliffs."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Only female animals ever carry and give biological birth to offspring.",
+      "answer": false,
+      "explanation": "Male seahorses and pipefishes develop a specialized brood pouch where they fertilize, nourish, and give live birth to hundreds of young."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Ginkgo trees are closely related to modern broadleaf trees like oaks and maples.",
+      "answer": false,
+      "explanation": "Ginkgo biloba is a gymnosperm and the sole surviving member of an ancient division dating back over 200 million years, unrelated to flowering trees."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-09T19:33:12.880Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flying squirrels glow bubblegum pink under ultraviolet light",
+      "body": "In 2019, researchers accidentally discovered that North American flying squirrels emit a bright bubblegum-pink glow under ultraviolet light. Biologists tested museum specimens dating back a century alongside wild squirrels, finding that all three native species fluoresce. While glowing fur is common in marine animals, it is extraordinarily rare in mammals. Scientists suspect the fluorescence aids nighttime navigation through snowy forests or helps squirrels communicate in the dark.",
+      "imageWikipediaTitle": "Southern flying squirrel",
+      "sources": [
+        {
+          "title": "Flying squirrels glow pink under ultraviolet light",
+          "publisher": "Field Museum",
+          "url": "https://www.fieldmuseum.org/about/press/flying-squirrels-glow-pink-under-ultraviolet-light"
+        },
+        {
+          "title": "New World flying squirrel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/New_World_flying_squirrel"
+        }
+      ],
+      "readMoreUrl": "https://www.fieldmuseum.org/about/press/flying-squirrels-glow-pink-under-ultraviolet-light",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "George Washington's famous false teeth were never made of wood",
+      "body": "Despite popular legend, George Washington never wore wooden dentures. His dental prostheses were actually crafted from carved hippopotamus and elephant ivory, cow teeth, brass screws, and genuine human teeth—some likely purchased from enslaved workers at Mount Vernon. Because porous ivory stained easily from wine and food, Washington's dentures quickly took on a yellowish-brown, grained hue. This discolored, aged appearance likely convinced observers that the first president was chewing with carved timber.",
+      "imageWikipediaTitle": "George Washington's teeth",
+      "sources": [
+        {
+          "title": "False Teeth Myth",
+          "publisher": "George Washington's Mount Vernon",
+          "url": "https://www.mountvernon.org/george-washington/health/washingtons-teeth/false-teeth-myth/"
+        },
+        {
+          "title": "George Washington's teeth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_Washington%27s_teeth"
+        }
+      ],
+      "readMoreUrl": "https://www.mountvernon.org/george-washington/health/washingtons-teeth/false-teeth-myth/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The machine that invented cotton candy was patented by a dentist",
+      "body": "In 1897, dentist William J. Morrison teamed up with candy maker John C. Wharton to invent the world's first electric spun-sugar machine. Marketed as \"Fairy Floss,\" the confection melted crystalline sugar and spun it through tiny holes using centrifugal force. The duo introduced the treat at the 1904 St. Louis World's Fair, selling over 68,000 wooden boxes. Morrison later served as president of the Tennessee State Dental Association.",
+      "imageWikipediaTitle": "Cotton candy",
+      "sources": [
+        {
+          "title": "Fairy Floss, Cotton Candy, and Dentists",
+          "publisher": "Library of Congress",
+          "url": "https://blogs.loc.gov/inside_adams/2021/12/cotton-candy/"
+        },
+        {
+          "title": "Cotton candy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cotton_candy"
+        }
+      ],
+      "readMoreUrl": "https://blogs.loc.gov/inside_adams/2021/12/cotton-candy/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Owls cannot roll their eyes because their eyeballs are actually tubes",
+      "body": "Unlike humans, owls cannot move or roll their eyes to look around. Their eyes are elongated tubes rather than spheres, held rigidly in place by bony structures called sclerotic rings. To scan their surroundings, owls rely on extraordinarily flexible necks containing 14 cervical vertebrae—twice as many as humans. This unique anatomy allows an owl to swivel its head up to 270 degrees in either direction without shifting its body or pinching off blood flow.",
+      "imageWikipediaTitle": "Great horned owl",
+      "sources": [
+        {
+          "title": "Why Can't Owls Move Their Eyes?",
+          "publisher": "National Audubon Society",
+          "url": "https://www.audubon.org/news/why-cant-owls-move-their-eyes"
+        },
+        {
+          "title": "Owl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Owl"
+        }
+      ],
+      "readMoreUrl": "https://www.audubon.org/news/why-cant-owls-move-their-eyes",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea sponges sneeze to purge debris without having a brain or muscles",
+      "body": "Despite having no brain, nerves, or muscles, sea sponges regularly perform a coordinated, full-body \"sneeze.\" When sediment and loose debris clog the sponge's internal water-filtration canals, the animal slowly contracts its entire surface over several hours. This rhythmic squeeze secretes mucus sheets laden with trapped waste, washing out its delicate internal plumbing. It is one of the most complex behavioral responses discovered in an animal lacking a nervous system.",
+      "imageWikipediaTitle": "Sponge",
+      "sources": [
+        {
+          "title": "Sponges Sneeze to Clean Their Pores",
+          "publisher": "Max Planck Society",
+          "url": "https://www.mpg.de/19082338/sponges-sneeze"
+        },
+        {
+          "title": "Sponge",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sponge"
+        }
+      ],
+      "readMoreUrl": "https://www.mpg.de/19082338/sponges-sneeze",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What unusual color do North American flying squirrels glow when exposed to ultraviolet light?",
+      "options": [
+        "Hot bubblegum pink",
+        "Electric neon green",
+        "Deep ocean blue",
+        "Bright golden yellow"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2019, biologists discovered that all three native species of North American flying squirrels fluoresce vivid hot pink under UV light."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What were George Washington's famous false teeth actually made of?",
+      "options": [
+        "Carved oak and pine wood",
+        "Porcelain and vulcanized rubber",
+        "Animal ivory, cow teeth, and human teeth",
+        "Solid lead and silver alloys"
+      ],
+      "correctIndex": 2,
+      "explanation": "Washington never had wooden teeth; his dentures were made from hippo and elephant ivory, cow teeth, and real human teeth."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unexpected profession did one of cotton candy's co-inventors hold?",
+      "options": [
+        "Dentist",
+        "Astronomer",
+        "Blacksmith",
+        "Watchmaker"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dentist William J. Morrison co-invented the electric spun-sugar machine in 1897 and later led the Tennessee State Dental Association."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why are owls unable to roll or move their eyes within their sockets?",
+      "options": [
+        "Their eyes are fixed tubes locked by bony rings",
+        "Their optic nerves are too rigid to allow motion",
+        "Their eye muscles fuse together at maturity",
+        "Their eyelids are permanently fused shut"
+      ],
+      "correctIndex": 0,
+      "explanation": "Owl eyes are elongated tubes anchored by bony sclerotic rings, meaning owls must swivel their entire heads to shift their gaze."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does a sea sponge clear debris from its internal canals without muscles or nerves?",
+      "options": [
+        "By releasing acidic digestive enzymes",
+        "By performing a slow, full-body 'sneeze' contraction",
+        "By detaching its outer layer of cells entirely",
+        "By heating the surrounding water with chemical reactions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sponges undergo slow, coordinated whole-body contractions lasting hours to expel mucus sheets trapping clogging sediment."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "Up to how many degrees can an owl swivel its head in either direction without moving its body?",
+      "answer": 270,
+      "min": 90,
+      "max": 360,
+      "unit": "°",
+      "explanation": "Owls have 14 neck vertebrae—double the human count—allowing them to rotate their heads 270 degrees to compensate for immovable eyes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "George Washington's false teeth were carved out of wood.",
+      "answer": false,
+      "explanation": "Washington never had wooden dentures; his prostheses were crafted from hippo and elephant ivory, cow teeth, and human teeth, which stained over time."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Cotton candy was co-invented by a practicing dentist.",
+      "answer": true,
+      "explanation": "Dentist William J. Morrison co-patented the electric spun-sugar machine in 1897 and even served as head of the Tennessee State Dental Association."
+    }
+  ]
+}
