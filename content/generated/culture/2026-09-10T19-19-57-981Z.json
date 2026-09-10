@@ -1,0 +1,211 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.981Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Welsh Rhyming Battle with a Real Horse Skull",
+      "body": "Every midwinter in Wales, revelers parade the Mari Lwyd: a real horse skull mounted on a wooden pole, draped in a white sheet, with spring-loaded jaws that snap at onlookers. At each home, the troupe sings verses demanding entry. Residents must improvise rhyming retorts in a witty contest called the pwngc. When the householders eventually run out of rhymes, they must welcome the horse inside and share festive food and ale.",
+      "imageWikipediaTitle": "Mari Lwyd",
+      "sources": [
+        {
+          "title": "The Mari Lwyd",
+          "publisher": "National Museum Wales",
+          "url": "https://museum.wales/articles/1264/The-Mari-Lwyd/"
+        },
+        {
+          "title": "Mari Lwyd",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mari_Lwyd"
+        }
+      ],
+      "readMoreUrl": "https://museum.wales/articles/1264/The-Mari-Lwyd/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 3,000-Year-Old Chalk Horse Preserved by Endless Weeding",
+      "body": "Etched into a hill in Oxfordshire, the 110-meter-long Uffington White Horse is Britain's oldest known hill figure, dating to the late Bronze Age around 1000 BCE. Created by packing crushed white chalk into deep trenches, the figure survives only because humans never stopped weeding it. Without regular scouring—a communal festival where locals clear encroaching turf and hammer fresh chalk into the lines—the horse would have vanished beneath grass within decades.",
+      "imageWikipediaTitle": "Uffington White Horse",
+      "sources": [
+        {
+          "title": "History of the Uffington White Horse",
+          "publisher": "English Heritage",
+          "url": "https://www.english-heritage.org.uk/visit/places/uffington-white-horse/history/"
+        },
+        {
+          "title": "Uffington White Horse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Uffington_White_Horse"
+        }
+      ],
+      "readMoreUrl": "https://www.english-heritage.org.uk/visit/places/uffington-white-horse/history/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1,300-Year-Old Night Fishing Guided by Fire and Leashed Birds",
+      "body": "On dark, moonless nights along Japan's Nagara River, master fishermen conduct ukai, an ancient method of fishing using trained cormorants. Suspended iron braziers burn bright pine fires from wooden boats, startling sweetfish called ayu. Working deftly by firelight, each master controls up to a dozen cormorants on individual hemp leashes. Special throat rings prevent the birds from swallowing marketable fish, which are gently retrieved and stored fresh.",
+      "imageWikipediaTitle": "Cormorant fishing on the Nagara River",
+      "sources": [
+        {
+          "title": "Gifu Ukai Cormorant Fishing",
+          "publisher": "Japan National Tourism Organization",
+          "url": "https://www.japan.travel/en/spot/1449/"
+        },
+        {
+          "title": "Cormorant fishing on the Nagara River",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cormorant_fishing_on_the_Nagara_River"
+        }
+      ],
+      "readMoreUrl": "https://www.japan.travel/en/spot/1449/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Curses Inscribed Backwards and Thrown into Roman Baths",
+      "body": "Visitors to the thermal spring at Aquae Sulis in modern-day Bath, England, didn't just come to bathe—they came to settle grudges. Roman Britons scratched vengeful prayers onto sheets of lead or pewter, then rolled them up and cast them into the spring dedicated to the goddess Sulis Minerva. Over 130 tablets have been uncovered, often invoking horrifying sleeplessness on thieves, with words deliberately inscribed backwards or scrambled to add supernatural power.",
+      "imageWikipediaTitle": "Bath curse tablets",
+      "sources": [
+        {
+          "title": "Curse Tablets",
+          "publisher": "The Roman Baths, Bath",
+          "url": "https://www.romanbaths.co.uk/curse-tablets"
+        },
+        {
+          "title": "Bath curse tablets",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bath_curse_tablets"
+        }
+      ],
+      "readMoreUrl": "https://www.romanbaths.co.uk/curse-tablets",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 600-Year-Old Mechanical Clock Still Chiming in Prague",
+      "body": "Mounted on Prague's Old Town Hall, the Prague Orloj was installed in 1410, making it the oldest astronomical clock still in operation. Every hour, mechanical figures of the Twelve Apostles parade past windows while a sculpture of Death pulls a tolling cord and flips an hourglass. Beyond tracking hours, its astrolabe dial charts the positions of the Sun and Moon against the zodiac, preserving medieval cosmology through six centuries of continuous mechanical care.",
+      "imageWikipediaTitle": "Prague astronomical clock",
+      "sources": [
+        {
+          "title": "Astronomical Clock (Staroměstský orloj)",
+          "publisher": "Prague City Tourism",
+          "url": "https://www.prague.eu/en/object/places/319/astronomical-clock-staromestsky-orloj"
+        },
+        {
+          "title": "Prague astronomical clock",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prague_astronomical_clock"
+        }
+      ],
+      "readMoreUrl": "https://www.prague.eu/en/object/places/319/astronomical-clock-staromestsky-orloj",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happens during the Welsh midwinter tradition of the Mari Lwyd when residents run out of rhyming verses?",
+      "options": [
+        "They must pay a cash fine to the church",
+        "They must let the horse troupe inside and feed them",
+        "They must carry the horse skull to the next house",
+        "They are banned from the next winter festival"
+      ],
+      "correctIndex": 1,
+      "explanation": "In the pwngc rhyming contest, once householders run out of witty rebuttals, hospitality rules require them to invite the Mari Lwyd in for food and ale."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How has the prehistoric Uffington White Horse survived for roughly 3,000 years without disappearing?",
+      "options": [
+        "Its lines are cut into solid granite bedrock",
+        "Communities regularly weeded and re-chalked it over millennia",
+        "A natural underground salt spring halts plant growth",
+        "It was buried in protective silt until Victorian archaeologists found it"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because soil and turf would swallow the chalk trenches within decades, local communities preserved the horse through periodic communal 'scouring' festivals."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In traditional Japanese ukai fishing, how do fishermen prevent cormorants from swallowing the fish they catch?",
+      "options": [
+        "By feeding them beforehand so they are completely full",
+        "By fitting loose rings near the base of their throats",
+        "By training them to spit catch into a wooden basin",
+        "By snatching the fish with handheld nets before the birds swallow"
+      ],
+      "correctIndex": 1,
+      "explanation": "A small ring or collar tied around the neck allows cormorants to swallow tiny fish but holds larger, marketable sweetfish in their gullet for the fisherman."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why were many ancient curse tablets deposited at the Roman baths in Bath written backwards or with scrambled letters?",
+      "options": [
+        "To conceal the writer's identity from Roman law enforcement",
+        "To give the curses magical power and make them accessible to gods",
+        "Because scribes could write only by looking into water mirrors",
+        "To squeeze more words onto scarce scraps of lead"
+      ],
+      "correctIndex": 1,
+      "explanation": "Reversing letters or word order was a recognized magical formula meant to invert the target's fortunes and address the supernatural realm directly."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which animated figure rings a chime and turns an hourglass every hour on the Prague astronomical clock?",
+      "options": [
+        "A medieval king wearing a golden crown",
+        "A skeleton representing Death",
+        "An astronomer holding a brass telescope",
+        "An angel playing a herald's trumpet"
+      ],
+      "correctIndex": 1,
+      "explanation": "A mechanical sculpture of Death rings a tolling bell and inverts an hourglass on the hour, serving as a medieval memento mori."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "Around how many meters long is England's prehistoric Uffington White Horse hill figure?",
+      "answer": 110,
+      "min": 20,
+      "max": 350,
+      "unit": "m",
+      "explanation": "The late Bronze Age figure stretches 110 meters across the hillside, visible from miles away."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Up to how many leashed cormorants can a single master fisherman handle at once during Nagara River ukai?",
+      "answer": 12,
+      "min": 2,
+      "max": 30,
+      "unit": "",
+      "explanation": "An usho (fishing master) deftly maneuvers up to 12 birds at the same time using individual hemp cords."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In what year was the astronomical clock of Prague (the Orloj) first installed?",
+      "answer": 1410,
+      "min": 1100,
+      "max": 1800,
+      "unit": "",
+      "explanation": "Installed in 1410, the Prague Orloj is the oldest operating astronomical clock in the world."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Welsh Mari Lwyd costume is built around a carved wooden replica of a horse head.",
+      "answer": false,
+      "explanation": "The Mari Lwyd traditionally uses a real horse skull, cleaned and mounted on a pole with an articulated snapping jaw."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The Roman curse tablets found in Bath were mostly political plots aimed at assassinating emperors.",
+      "answer": false,
+      "explanation": "Almost all the Bath tablets addressed petty everyday crimes, asking the goddess to curse thieves who had stolen cloaks, rings, or coins."
+    }
+  ]
+}

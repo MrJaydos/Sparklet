@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.979Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Does logic prove tomorrow's events are already carved in stone?",
+      "body": "Aristotle asked a troubling question: is the statement 'There will be a sea battle tomorrow' true or false right now? If it is already true, the battle is unavoidable; if false, it cannot occur. To rescue free choice from logical fatalism, Aristotle argued that claims about future contingent events have no truth value today. They become true or false only when the battle actually happens.",
+      "imageWikipediaTitle": "Aristotle",
+      "sources": [
+        {
+          "title": "Future Contingents",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/future-contingents/"
+        },
+        {
+          "title": "Problem of future contingents",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Problem_of_future_contingents"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/future-contingents/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In classical logic, a single contradiction lets you prove literally anything",
+      "body": "If you accept two contradictory statements as true—like 'it is raining' and 'it is not raining'—classical logic completely shatters. Under the Principle of Explosion, that single contradiction allows you to validly deduce any statement whatsoever, from the moon being made of cheese to two plus two equaling five. To stop one error from destroying an entire reasoning system, logicians created paraconsistent logics that tolerate localized contradictions.",
+      "imageWikipediaTitle": "Principle of explosion",
+      "sources": [
+        {
+          "title": "Paraconsistent Logic",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/logic-paraconsistent/"
+        },
+        {
+          "title": "Principle of explosion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Principle_of_explosion"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/logic-paraconsistent/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In pure rational math, casting an election ballot is a waste of time",
+      "body": "In 1957, political theorist Anthony Downs outlined a troubling puzzle: in any major election, the mathematical probability of your single vote deciding the outcome is virtually zero. Because traveling to the polls takes real time, money, and effort, standard rational choice theory dictates that voting is entirely irrational. Known as the Paradox of Voting, this problem forces philosophers to explain why millions still show up to cast ballots.",
+      "imageWikipediaTitle": "Voting",
+      "sources": [
+        {
+          "title": "Voting",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/voting/"
+        },
+        {
+          "title": "Paradox of voting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paradox_of_voting"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/voting/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Socrates believed you have never knowingly acted against your own best interests",
+      "body": "When people abandon diets or procrastinate, they blame akrasia—a failure of willpower. But in Plato's dialogue Protagoras, Socrates argued that weakness of will is an illusion. He insisted that humans always choose what they perceive as the greatest good in that moment. When you indulge in a bad habit, you have not lost control; you have simply made an intellectual error, mistaking immediate gratification for your true well-being.",
+      "imageWikipediaTitle": "Socrates",
+      "sources": [
+        {
+          "title": "Weakness of Will",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/weakness-will/"
+        },
+        {
+          "title": "Akrasia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Akrasia"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/weakness-will/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "John Locke argued your mind was born completely blank, without any innate ideas",
+      "body": "In 1689, English philosopher John Locke challenged the popular belief that humans enter the world equipped with innate moral or mathematical truths. In his Essay Concerning Human Understanding, Locke compared the newborn mind to a tabula rasa—a blank slate or empty piece of white paper. He argued that every idea, concept, and memory you will ever possess is constructed entirely from sensory experience and subsequent internal reflection.",
+      "imageWikipediaTitle": "John Locke",
+      "sources": [
+        {
+          "title": "John Locke",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/locke/"
+        },
+        {
+          "title": "Tabula rasa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tabula_rasa"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/locke/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Aristotle's solution to the sea battle dilemma, what is the truth value of a claim about a future contingent event?",
+      "options": [
+        "It is strictly true",
+        "It is strictly false",
+        "It lacks a truth value until the event occurs",
+        "It is both true and false simultaneously"
+      ],
+      "correctIndex": 2,
+      "explanation": "Aristotle argued that statements about future contingent events are neither true nor false today; they only gain truth value when reality unfolds."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the Principle of Explosion state happens when a system of classical logic accepts a contradiction?",
+      "options": [
+        "Any statement whatsoever can be proven true",
+        "Only the opposite of the contradiction becomes true",
+        "The system ignores the contradiction and continues",
+        "Logical deduction halts and produces no output"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the Principle of Explosion (ex falso quodlibet), a single accepted contradiction allows any arbitrary statement to be logically proven."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does rational choice theory consider voting in a large election to be irrational?",
+      "options": [
+        "Candidates rarely fulfill their campaign promises",
+        "The probability of casting the decisive tie-breaking vote is virtually zero",
+        "Voting machines have an unavoidable margin of error",
+        "Elections are decided purely by campaign donations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the odds of casting the single decisive vote are microscopic while voting takes time and effort, rational choice theory views voting as irrational."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did Socrates explain why someone chooses immediate gratification over long-term health?",
+      "options": [
+        "Their primal instincts overpowered their reason",
+        "They made an intellectual error about what was truly good",
+        "They deliberately chose to cause themselves harm",
+        "They were possessed by uncontrollable emotional impulses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Socrates denied weakness of will, arguing people always pursue what they judge best in the moment—bad choices are errors in judgment, not loss of control."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What Latin term did John Locke use to describe the human mind at birth?",
+      "options": [
+        "Tabula rasa",
+        "Cogito ergo sum",
+        "Deus ex machina",
+        "A priori"
+      ],
+      "correctIndex": 0,
+      "explanation": "Locke compared the newborn mind to a tabula rasa—a blank slate—arguing that all knowledge originates from experience rather than innate ideas."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Socrates believed that people often act against their own best judgment due to a lack of willpower.",
+      "answer": false,
+      "explanation": "Socrates denied that weakness of will (akrasia) exists; he argued people only make bad choices because of flawed knowledge, not broken willpower."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "John Locke believed humans are born with innate concepts of basic morality and mathematics.",
+      "answer": false,
+      "explanation": "Locke rejected innate knowledge, arguing that the mind starts as a blank slate (tabula rasa) and gains all ideas through experience."
+    }
+  ]
+}

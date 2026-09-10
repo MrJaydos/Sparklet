@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.973Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Locked doors at a garment factory transformed American labor law",
+      "body": "On March 25, 1911, fire engulfed the Triangle Shirtwaist Factory in Manhattan. Trapped behind doors locked by management to prevent unauthorized breaks and petty theft, 146 garment workers—mostly immigrant teenage girls and young women—perished. Public outrage galvanized labor unions and spurred New York to pass 36 reform statutes. These measures mandated automatic sprinklers, outward-opening exit doors, and fire drills, establishing the foundation of modern workplace safety regulations.",
+      "imageWikipediaTitle": "Triangle Shirtwaist Factory fire",
+      "sources": [
+        {
+          "title": "The Triangle Factory Fire",
+          "publisher": "Cornell University ILR School",
+          "url": "https://trianglefire.ilr.cornell.edu/"
+        },
+        {
+          "title": "Today in History - March 25: Triangle Shirtwaist Fire",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/march-25/"
+        },
+        {
+          "title": "Triangle Shirtwaist Factory fire",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Triangle_Shirtwaist_Factory_fire"
+        }
+      ],
+      "readMoreUrl": "https://trianglefire.ilr.cornell.edu/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Newspapers invented the mass panic over the 'War of the Worlds' radio broadcast",
+      "body": "On Halloween eve in 1938, Orson Welles broadcast a radio adaptation of H.G. Wells's War of the Worlds. Legend insists millions of listeners took to the streets in terror, believing real Martians had invaded New Jersey. In reality, telephone surveys that evening showed only two percent of radio audiences were tuned in. Sensationalist newspapers wildly exaggerated isolated calls to local police stations, eager to discredit the booming rival medium stealing their advertising revenue.",
+      "imageWikipediaTitle": "The War of the Worlds (1938 radio drama)",
+      "sources": [
+        {
+          "title": "Today in History - October 30: War of the Worlds",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/october-30/"
+        },
+        {
+          "title": "War of the Worlds",
+          "publisher": "PBS",
+          "url": "https://www.pbs.org/wgbh/americanexperience/films/war-worlds/"
+        },
+        {
+          "title": "The War of the Worlds (1938 radio drama)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds_(1938_radio_drama)"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/october-30/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The messenger who inspired the marathon never died delivering news of victory",
+      "body": "Popular folklore claims the Greek messenger Pheidippides ran 26 miles from Marathon to Athens, gasped out victory against the Persians, and collapsed dead. But Herodotus, writing decades after the 490 BCE battle, told a different story. Pheidippides was a professional courier who ran roughly 150 miles (240 kilometers) from Athens to Sparta over rugged mountain terrain in about 36 hours to request urgent military aid—and survived. Centuries later, Roman-era writers fabricated the fatal victory sprint.",
+      "imageWikipediaTitle": "Pheidippides",
+      "sources": [
+        {
+          "title": "Battle of Marathon",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Battle_of_Marathon/"
+        },
+        {
+          "title": "Pheidippides",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pheidippides"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/Battle_of_Marathon/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Machu Picchu was never truly lost—local farmers lived there all along",
+      "body": "When American historian Hiram Bingham reached Machu Picchu in July 1911, he announced to the world that he had uncovered the lost citadel of the Incas. In truth, the site had never vanished. Several Indigenous Quechua families were actively living and farming crops on the ancient agricultural terraces when Bingham arrived. An 11-year-old local boy, Pablito Alvarez, guided Bingham directly to the overgrown stone ruins, which locals had known about for generations.",
+      "imageWikipediaTitle": "Machu Picchu",
+      "sources": [
+        {
+          "title": "Today in History - July 24: Machu Picchu",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/july-24/"
+        },
+        {
+          "title": "Machu Picchu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Machu_Picchu"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/july-24/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A lawyer who had never visited Asia drew the border dividing India and Pakistan",
+      "body": "In 1947, the British government appointed Sir Cyril Radcliffe, an English barrister who had never traveled east of Paris, to draw the boundary dividing British India into two independent nations. Given just five weeks to partition millions of square kilometers, Radcliffe worked from outdated maps and census data. The resulting boundary violently cleaved communities and farmland, triggering the forced migration of roughly 14 million people and sectarian bloodshed that claimed hundreds of thousands of lives.",
+      "imageWikipediaTitle": "Radcliffe Line",
+      "sources": [
+        {
+          "title": "The Road to Partition",
+          "publisher": "The National Archives",
+          "url": "https://www.nationalarchives.gov.uk/education/resources/the-road-to-partition/"
+        },
+        {
+          "title": "Radcliffe Line",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Radcliffe_Line"
+        }
+      ],
+      "readMoreUrl": "https://www.nationalarchives.gov.uk/education/resources/the-road-to-partition/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why were so many garment workers unable to escape the 1911 Triangle Shirtwaist Factory fire?",
+      "options": [
+        "Management had locked the exit doors",
+        "An explosion collapsed the building's only stairwell",
+        "The fire began directly on the outdoor fire escapes",
+        "Metal security shutters were bolted from the outside"
+      ],
+      "correctIndex": 0,
+      "explanation": "Factory bosses routinely locked exit doors to prevent workers from taking unauthorized breaks or stealing scraps of fabric."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did American newspapers dramatically sensationalize the public reaction to the 1938 'War of the Worlds' broadcast?",
+      "options": [
+        "To lobby Congress to outlaw science fiction radio dramas",
+        "To discredit the rising medium of radio, which competed for advertising",
+        "Orson Welles paid reporters to fabricate sensational stories",
+        "The military requested a test of civil defense warning channels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Print newspapers were losing critical ad revenue to radio and seized on isolated reports to depict radio broadcasting as reckless and dangerous."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to the ancient historian Herodotus, what feat did Pheidippides actually perform before Marathon?",
+      "options": [
+        "He ran roughly 150 miles to Sparta to request military reinforcement",
+        "He rowed a reconnaissance skiff across the Aegean Sea to spy on the Persians",
+        "He sprinted 26 miles to Athens, announced victory, and dropped dead",
+        "He guided the Athenian army across the mountains in a midnight ambush"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herodotus wrote that Pheidippides ran approximately 150 miles (240 km) to Sparta over two days to seek military aid, surviving the trek."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Who led Hiram Bingham directly to the ruins of Machu Picchu in July 1911?",
+      "options": [
+        "An 11-year-old local Quechua boy",
+        "A team of British military cartographers",
+        "A Catholic friar who owned an imperial Spanish map",
+        "A band of treasure hunters fleeing local authorities"
+      ],
+      "correctIndex": 0,
+      "explanation": "An 11-year-old boy named Pablito Alvarez guided Bingham up the mountain terraces, where local Indigenous families were actively living and farming."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How long was British lawyer Cyril Radcliffe given to draw the border dividing India and Pakistan in 1947?",
+      "options": [
+        "Just five weeks",
+        "Two full years",
+        "Six months",
+        "Ten days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Radcliffe was given roughly five weeks to draw thousands of miles of border separating hundreds of millions of people."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many garment workers died in the 1911 Triangle Shirtwaist Factory fire in New York City?",
+      "answer": 146,
+      "min": 20,
+      "max": 500,
+      "unit": "",
+      "explanation": "146 workers died, predominantly young immigrant women, sparking an overhaul of US factory fire codes and labor laws."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many kilometers did the Greek courier Pheidippides actually run from Athens to Sparta to request military aid?",
+      "answer": 240,
+      "min": 25,
+      "max": 500,
+      "unit": "km",
+      "explanation": "Pheidippides ran roughly 240 kilometers (150 miles) across mountainous terrain in about 36 hours—and survived."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many million people were displaced across new borders during the hasty 1947 Partition of India?",
+      "answer": 14,
+      "min": 1,
+      "max": 50,
+      "unit": "million",
+      "explanation": "The hastily drawn Radcliffe Line displaced approximately 14 million people in one of the largest mass migrations in human history."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Millions of Americans panicked in the streets after hearing Orson Welles's 1938 'War of the Worlds' radio broadcast.",
+      "answer": false,
+      "explanation": "Only about two percent of surveyed radio listeners were even tuned in; newspapers vastly exaggerated isolated calls to smear radio as an irresponsible rival."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The messenger who inspired the marathon ran 26 miles from the battlefield to Athens and died of exhaustion.",
+      "answer": false,
+      "explanation": "Herodotus recorded that Pheidippides actually ran 150 miles to Sparta to request military aid and survived; the dying messenger tale was invented centuries later."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Machu Picchu was completely uninhabited and forgotten until Hiram Bingham discovered it in 1911.",
+      "answer": false,
+      "explanation": "Local Quechua families were actively farming the terraces when Bingham arrived, and an 11-year-old local boy guided him directly to the ruins."
+    }
+  ]
+}

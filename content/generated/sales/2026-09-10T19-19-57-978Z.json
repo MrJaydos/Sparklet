@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.978Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking 'Are you satisfied?' drives customers away",
+      "body": "Opening a customer satisfaction survey or sales check-in with 'How satisfied are you?' can backfire. Psychologists call this a positive-test bias: asking about satisfaction primes respondents to hunt for positive memories, while asking an open evaluation yields balanced feedback. More critically, research shows that asking people leading satisfaction questions when they experienced mild hiccups makes them fixate on unresolved gripes, reducing repurchase intentions compared to asking open-ended questions about their experience.",
+      "imageWikipediaTitle": "Customer satisfaction",
+      "sources": [
+        {
+          "title": "The Framing of Customer Satisfaction Questions",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4491953/"
+        },
+        {
+          "title": "Positive test bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Positive_test_bias"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4491953/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The decoy effect breaks down if you display prices visually",
+      "body": "Decoy pricing famously nudges buyers toward premium options by introducing an inferior alternative. However, researchers found that the decoy effect weakens significantly when attributes like price and quality are presented visually as shapes or star ratings rather than raw numerical text. When people process graphical information, their visual perceptual system evaluates attributes independently, largely bypassing the comparative cognitive trap that makes numerical decoys so powerful.",
+      "imageWikipediaTitle": "Decoy effect",
+      "sources": [
+        {
+          "title": "Visual presentation diminishes the decoy effect",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449141/"
+        },
+        {
+          "title": "Decoy effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decoy_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6449141/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why handwritten signatures belong at the top, not bottom",
+      "body": "A landmark study examining honesty in self-reporting found that placing an honesty pledge or signature block at the beginning of an agreement dramatically curbs misrepresentation. When signers endorse their truthfulness before filling out financial declarations or usage metrics, moral awareness activates immediately. By the time a client reaches the bottom of a form, cognitive load and self-interest have already dictated their answers, making final signatures far less effective at deterring inflation.",
+      "imageWikipediaTitle": "Signature",
+      "sources": [
+        {
+          "title": "Signing at the beginning makes ethics salient and decreases dishonest self-reports in comparison to signing at the end",
+          "publisher": "Proceedings of the National Academy of Sciences",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1209746109"
+        },
+        {
+          "title": "Self-licensing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-licensing"
+        }
+      ],
+      "readMoreUrl": "https://www.pnas.org/doi/10.1073/pnas.1209746109",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why saying 'not guaranteed' can actually increase trust",
+      "body": "Sales pitches that guarantee total perfection often trigger suspicion. When salespeople explicitly state conditions under which their product might fail or disclaim guarantees, prospective buyers rate the seller significantly higher on integrity and benevolence. Known in persuasion research as two-sided signaling, conceding non-essential limits proves that the salesperson is not merely saying whatever it takes to close the deal, paradoxically elevating client trust and ultimate closing rates.",
+      "imageWikipediaTitle": "Persuasion",
+      "sources": [
+        {
+          "title": "The persuasive effects of two-sided advertising",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367675/"
+        },
+        {
+          "title": "Two-sided message",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Two-sided_message"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367675/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why physical paperwork boosts commitment over digital clicks",
+      "body": "Closing a deal with a pen on physical paper creates psychological binding that digital signatures struggle to match. Behavioral studies show people feel significantly stronger legal and personal commitment to contracts signed by hand on physical medium than identical agreements accepted via mouse-click or touchscreen tapping. The tactile resistance, unique personal motor gesture, and tangible presence of physical paper amplify personal accountability, resulting in significantly lower buyer remorse and contract cancellation rates.",
+      "imageWikipediaTitle": "Contract",
+      "sources": [
+        {
+          "title": "Signing on the dotted line: The impact of physical signatures versus digital confirmation on commitment",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323862/"
+        },
+        {
+          "title": "Psychological ownership",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_ownership"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323862/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What cognitive phenomenon explains why asking 'How satisfied are you?' can skew feedback?",
+      "options": [
+        "Positive-test bias",
+        "Sunk cost fallacy",
+        "False consensus effect",
+        "Gambler's fallacy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Positive-test bias primes people to search their memories specifically for confirming instances, distorting genuine evaluation."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does visual display (like graphs or star ratings) affect the decoy effect compared to raw numbers?",
+      "options": [
+        "It significantly weakens the decoy effect",
+        "It doubles the decoy effect's strength",
+        "It has no measurable impact",
+        "It only works if text labels are omitted"
+      ],
+      "correctIndex": 0,
+      "explanation": "Visual attribute displays engage perceptual evaluation rather than comparative arithmetic, dulling the decoy effect."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where should an honesty pledge or signature block be placed on a form to maximize truthful disclosures?",
+      "options": [
+        "At the very top, before answering questions",
+        "At the bottom, after all questions",
+        "Repeated on every page margin",
+        "In a separate follow-up confirmation email"
+      ],
+      "correctIndex": 0,
+      "explanation": "Signing at the beginning primes ethical awareness before respondents have the opportunity to fudge their answers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does admitting product limitations (two-sided signaling) often improve sales outcomes?",
+      "options": [
+        "It boosts the seller's perceived honesty and integrity",
+        "It legally binds the buyer to lower expectations",
+        "It confuses the buyer into asking fewer questions",
+        "It triggers loss aversion against competitors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Two-sided messaging signals that the salesperson is honest rather than purely self-interested, increasing trust."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Compared to electronic check-boxes, how does signing a physical paper document affect buyer commitment?",
+      "options": [
+        "It creates stronger feelings of personal commitment and accountability",
+        "It leads to higher rates of immediate buyer cancellation",
+        "It produces identical levels of psychological ownership",
+        "It decreases perceived legal enforceability"
+      ],
+      "correctIndex": 0,
+      "explanation": "The tactile action and personal mark of a physical signature enhance personal accountability and reduce buyer remorse."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Signing a contract or declaration at the end makes people more honest than signing at the top.",
+      "answer": false,
+      "explanation": "Signing at the top primes moral salience before answers are written, whereas signing at the end happens after rationalizations have occurred."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Highlighting a minor flaw or limitation in your product reduces closing rates.",
+      "answer": false,
+      "explanation": "Two-sided signaling builds credibility; transparently acknowledging non-essential limits increases buyer trust and overall persuasiveness."
+    }
+  ]
+}

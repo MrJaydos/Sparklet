@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.975Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of Earth's freshwater is frozen solid",
+      "body": "It feels like rivers and lakes dominate our freshwater supply, but they hold only about one percent of it. Roughly 69 percent of all freshwater on Earth is locked away in ice caps, glaciers, and permanent snow cover, predominantly in Antarctica and Greenland. Another 30 percent sits hidden deep underground as groundwater. All the surface lakes, swamps, and rushing rivers combined account for a tiny fraction of what remains.",
+      "imageWikipediaTitle": "Glacier",
+      "sources": [
+        {
+          "title": "Where is Earth's Water?",
+          "publisher": "US Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water-located"
+        },
+        {
+          "title": "Water distribution on Earth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Water_distribution_on_Earth"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/special-topics/water-science-school/science/where-earths-water-located",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Continents drift at the speed of human fingernails",
+      "body": "Earth's solid crust is broken into massive tectonic plates that glide atop the semi-fluid mantle beneath them. Although continental drift reshapes oceans and drives mountain ranges skyward, the motion happens in ultra-slow motion. On average, tectonic plates creep across the globe at roughly two to five centimeters per year. That is almost exactly the same rate at which human fingernails grow, moving entire continents by mere inches across an average human lifetime.",
+      "imageWikipediaTitle": "Plate tectonics",
+      "sources": [
+        {
+          "title": "Understanding plate motions",
+          "publisher": "US Geological Survey",
+          "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html"
+        },
+        {
+          "title": "Plate tectonics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plate_tectonics"
+        }
+      ],
+      "readMoreUrl": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The sea gets its salt from ordinary rain and river rock",
+      "body": "The ocean was not filled with saltwater all at once. When rain falls through the air, it absorbs carbon dioxide and becomes slightly acidic. As this rain washes over rocks on land, it slowly breaks down minerals, freeing charged ions like sodium and chloride. Rivers quietly wash billions of tons of these dissolved minerals into the oceans. Once there, evaporating water leaves the salt behind, steadily seasoning the sea over billions of years.",
+      "imageWikipediaTitle": "Seawater",
+      "sources": [
+        {
+          "title": "Why is the ocean salty?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/whysalty.html"
+        },
+        {
+          "title": "Seawater",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seawater"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/whysalty.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Autumn leaves don't turn orange—they stop being green",
+      "body": "We tend to think trees manufacture colorful pigments to paint autumn landscapes. In reality, the yellow and orange carotenoid pigments were inside the leaves all spring and summer, busy harvesting light for photosynthesis. They were simply masked by vast quantities of vivid green chlorophyll. As daylight fades and temperatures chill in autumn, trees halt chlorophyll production and break down existing green molecules, unmasking the warm colors that were hiding in plain sight.",
+      "imageWikipediaTitle": "Autumn leaf color",
+      "sources": [
+        {
+          "title": "The Science of Fall Colors",
+          "publisher": "US Forest Service",
+          "url": "https://www.fs.usda.gov/visit/fall-colors/science-of-fall-colors"
+        },
+        {
+          "title": "Autumn leaf color",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Autumn_leaf_color"
+        }
+      ],
+      "readMoreUrl": "https://www.fs.usda.gov/visit/fall-colors/science-of-fall-colors",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lightning regularly strikes the exact same place",
+      "body": "The popular myth that lightning never strikes the same place twice is dangerously wrong. Lightning follows the path of least electrical resistance to ground, which means tall, pointed, and conductive objects are struck repeatedly. The Empire State Building in New York City is struck by lightning roughly 25 times every year, and has been struck as many as eight separate times in a single 24-minute window during an intense storm.",
+      "imageWikipediaTitle": "Lightning",
+      "sources": [
+        {
+          "title": "Lightning Myths and Facts",
+          "publisher": "National Weather Service",
+          "url": "https://www.weather.gov/safety/lightning-myths"
+        },
+        {
+          "title": "Lightning",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lightning"
+        }
+      ],
+      "readMoreUrl": "https://www.weather.gov/safety/lightning-myths",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where is the vast majority of Earth's freshwater located?",
+      "options": [
+        "In lakes and surface rivers",
+        "Locked in glaciers and ice caps",
+        "Suspended in atmospheric clouds",
+        "Stored inside plants and soil"
+      ],
+      "correctIndex": 1,
+      "explanation": "About 69% of Earth's freshwater is frozen in glaciers and ice caps, mainly in Antarctica and Greenland."
+    },
+    {
+      "cardIndex": 1,
+      "question": "At what approximate rate do Earth's tectonic plates move each year?",
+      "options": [
+        "A few millimeters every century",
+        "Two to five centimeters, similar to fingernail growth",
+        "Several meters across the seafloor",
+        "Dozens of kilometers during sudden shifts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tectonic plates creep along at roughly 2 to 5 centimeters per year, which closely matches the growth rate of fingernails."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary source of the dissolved salt in Earth's oceans?",
+      "options": [
+        "Melted polar ice sheets",
+        "Rainwater weathering and washing minerals from land rocks",
+        "Decomposing organic matter from prehistoric marine life",
+        "Acidic gases condensing out of the atmosphere"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slightly acidic rainwater dissolves mineral ions from land rocks, and rivers carry them to the sea where evaporation leaves them behind."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do many deciduous leaves appear yellow and orange in autumn?",
+      "options": [
+        "Freezing temperatures cause leaves to synthesize new pigments",
+        "Green chlorophyll breaks down, revealing pigments already present",
+        "The tree pumps excess mineral sap into dying foliage",
+        "Intense sunlight bleaches chlorophyll into orange carotenoids"
+      ],
+      "correctIndex": 1,
+      "explanation": "Carotenoid pigments are present all summer to assist photosynthesis, but only become visible once green chlorophyll degrades in autumn."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does the common phrase 'lightning never strikes twice' fail in reality?",
+      "options": [
+        "Lightning bolts always travel in twin pairs",
+        "Tall conductive structures regularly receive dozens of strikes",
+        "Ground charge takes days to dissipate after a single strike",
+        "Thunderstorms generate magnetic fields that attract strikes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lightning follows the path of least resistance; tall, isolated structures like the Empire State Building are struck dozens of times yearly."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of Earth's total freshwater is locked away in glaciers and ice caps?",
+      "answer": 69,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "About 69% of all freshwater is trapped in glaciers and ice sheets, while lakes and rivers make up only about 1%."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "On average, how many times is the Empire State Building struck by lightning each year?",
+      "answer": 25,
+      "min": 1,
+      "max": 150,
+      "unit": "",
+      "explanation": "The Empire State Building is struck by lightning roughly 25 times every year because it provides a direct path to ground."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Earth's continents drift across the planet at roughly the same rate human fingernails grow.",
+      "answer": true,
+      "explanation": "Tectonic plates move at an average speed of 2 to 5 centimeters per year, which closely matches human fingernail growth."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Deciduous trees manufacture yellow and orange pigments specifically when autumn arrives.",
+      "answer": false,
+      "explanation": "Carotenoid pigments are inside leaves all summer long; they only become visible once dominant green chlorophyll breaks down."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Lightning avoids striking the same location twice during a thunderstorm.",
+      "answer": false,
+      "explanation": "Lightning repeatedly strikes tall, conductive structures; the Empire State Building is struck roughly 25 times annually."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.982Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flip a face upside down, and your brain stops noticing grotesque distortions",
+      "body": "In 1980, psychologist Peter Thompson took a portrait of British Prime Minister Margaret Thatcher, sliced out her eyes and mouth, and pasted them upside down. Displayed upside down, the altered face looked completely normal. But turn it right-side up, and it transforms into an unsettling, monstrous grimace. The Thatcher effect revealed that human brains process upright faces holistically as integrated patterns, but revert to checking isolated features when an image is flipped.",
+      "imageWikipediaTitle": "Thatcher effect",
+      "sources": [
+        {
+          "title": "Margaret Thatcher: a new illusion",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7432985/"
+        },
+        {
+          "title": "Thatcher effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thatcher_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thatcher_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When a word is on the tip of your tongue, your brain still knows how it sounds",
+      "body": "In 1966, Harvard psychologists Roger Brown and David McNeill deliberately induced tip-of-the-tongue states by reading definitions of obscure words like \"sampan\" and \"ambergris.\" They found that stranded participants could accurately identify the target word's first letter 57% of the time and guessed its syllable count with impressive precision. The study proved our brains store word meanings (semantics) and word sounds (phonology) in separate neurological filing cabinets.",
+      "imageWikipediaTitle": "Tip of the tongue",
+      "sources": [
+        {
+          "title": "The 'tip of the tongue' phenomenon",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/5922048/"
+        },
+        {
+          "title": "Tip of the tongue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tip_of_the_tongue"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tip_of_the_tongue",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain judges weight, sound, and brightness by percentage, not pounds",
+      "body": "In the 1830s, German physician Ernst Heinrich Weber made a foundational discovery in psychophysics: our senses do not detect absolute differences, but proportional ones. If you are holding 100 grams, adding two grams feels immediately noticeable. But if you hold 1,000 grams, you need at least twenty extra grams to perceive any change. Known as Weber's Law, this constant ratio governs human vision, hearing, and touch across nearly all sensory experiences.",
+      "imageWikipediaTitle": "Ernst Heinrich Weber",
+      "sources": [
+        {
+          "title": "Weber's law",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/Webers-law"
+        },
+        {
+          "title": "Weber–Fechner law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/Webers-law",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The trapezoidal room that tricks your brain into seeing giants and dwarfs",
+      "body": "Built by ophthalmologist Adelbert Ames Jr. in 1946, an Ames room appears perfectly rectangular through a single peephole. In reality, the back wall is angled steeply away, and the floor slopes upward toward a lower ceiling. Because your brain spent a lifetime learning that rooms have parallel walls and right angles, it refuses to abandon that assumption. Instead, it alters the perceived size of people walking across, making them appear to shrink or grow.",
+      "imageWikipediaTitle": "Ames room",
+      "sources": [
+        {
+          "title": "Ames Room",
+          "publisher": "Exploratorium",
+          "url": "https://www.exploratorium.edu/exhibits/ames-room"
+        },
+        {
+          "title": "Ames room",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ames_room"
+        }
+      ],
+      "readMoreUrl": "https://www.exploratorium.edu/exhibits/ames-room",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The psychological trick where context invents emotions that aren't there",
+      "body": "In the 1910s, filmmaker Lev Kuleshov took identical footage of an actor's blank, neutral face and cut it next to three different images: a bowl of soup, a child in a coffin, and a woman on a couch. Viewers raved about the actor's subtle brilliance, claiming they saw hunger, crushing sorrow, and desire. The Kuleshov effect demonstrated that our minds construct emotional expressions from surrounding context rather than reading faces in isolation.",
+      "imageWikipediaTitle": "Kuleshov effect",
+      "sources": [
+        {
+          "title": "The Kuleshov Effect: the influence of contextual framing on emotional attributions",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16844974/"
+        },
+        {
+          "title": "Kuleshov effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kuleshov_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kuleshov_effect",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does the Thatcher illusion disappear when a distorted face is turned upside down?",
+      "options": [
+        "The brain switches from holistic face processing to analyzing isolated features",
+        "The optical nerve cannot transmit inverted color signals to the visual cortex",
+        "Upside-down images bypass the brain and are processed entirely within the retina",
+        "Facial recognition neurons shut off completely during inverted viewing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Upright faces are processed holistically as integrated wholes, but inverted faces are analyzed piece-by-piece, masking local misorientations."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Brown and McNeill's 1966 study, what could people in a tip-of-the-tongue state correctly identify over half the time?",
+      "options": [
+        "The target word's first letter",
+        "The target word's exact Latin origin",
+        "The year they first learned the target word",
+        "The rhyming synonym of the word"
+      ],
+      "correctIndex": 0,
+      "explanation": "Participants correctly identified the first letter 57% of the time, proving semantic and phonological memories are retrieved separately."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Weber's Law, what determines whether you notice a change in physical stimulus intensity?",
+      "options": [
+        "A constant proportional ratio relative to the original stimulus",
+        "A fixed, absolute increase regardless of starting intensity",
+        "The emotional state of the observer during the measurement",
+        "The ambient room temperature and air pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Weber's Law states that the just-noticeable difference is a constant fraction of the original stimulus intensity."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does an observer looking through an Ames room peephole see people drastically change size?",
+      "options": [
+        "The brain assumes the room has normal right angles and parallel walls",
+        "Curved glass in the peephole refracts light at variable angles",
+        "Optical sensors in the human retina distort depth in dim illumination",
+        "The walls are lined with miniature magnifying mirrors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The brain relies on prior assumptions of rectangular rooms, distorting perceived human size rather than seeing the true trapezoidal geometry."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did Lev Kuleshov demonstrate by cutting between a neutral face and various objects?",
+      "options": [
+        "Context leads viewers to perceive emotions that the face never actually expressed",
+        "Audiences cannot distinguish professional actors from untrained volunteers",
+        "Rapid film cuts cause temporary visual blindness in adult viewers",
+        "Facial expressions are universally interpreted identically regardless of setting"
+      ],
+      "correctIndex": 0,
+      "explanation": "Viewers read hunger, sadness, or desire into an identical neutral expression depending entirely on the surrounding images."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In the famous 1966 tip-of-the-tongue study, what percentage of the time could people guess the first letter of the blocked word?",
+      "answer": 57,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Harvard researchers found participants correctly named the initial letter 57% of the time, even when completely unable to say the word."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Our brains recognize upside-down faces using the exact same holistic processing as upright faces.",
+      "answer": false,
+      "explanation": "The Thatcher illusion proves upright faces are processed holistically, while upside-down faces are parsed as disjointed individual features."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Adding five grams of weight feels equally noticeable whether you are holding a smartphone or a heavy bowling ball.",
+      "answer": false,
+      "explanation": "Under Weber's Law, our perception of change is proportional: 5 grams is obvious on a light object but undetectable on a heavy one."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Human emotional recognition relies heavily on surrounding context, not just facial muscle movements.",
+      "answer": true,
+      "explanation": "The Kuleshov effect proved that viewers project distinct emotions onto an identical neutral face based solely on adjacent context."
+    }
+  ]
+}

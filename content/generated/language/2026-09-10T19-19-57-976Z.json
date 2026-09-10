@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.976Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wishing peace with the warm Swahili greeting 'Jambo'",
+      "body": "When meeting someone in East Africa, the friendly Swahili greeting is jambo (pronounced JAHM-boh). It originates as an abbreviation of hujambo (hoo-JAHM-boh), which literally asks: \"Are there any issues with you?\" In Swahili script and writing, the reassuring reply is sijambo (see-JAHM-boh), meaning \"I have no troubles.\" For tourists, habari (hah-BAH-ree), meaning \"what is the news?\", is an equally common, beloved way to start conversations across Kenya and Tanzania.",
+      "imageWikipediaTitle": "Swahili language",
+      "sources": [
+        {
+          "title": "Swahili Phrasebook",
+          "publisher": "Peace Corps",
+          "url": "https://www.peacecorps.gov/tanzania/learn/materials/"
+        },
+        {
+          "title": "Swahili language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Swahili_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Swahili_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Tagalog reveals deep Austronesian roots",
+      "body": "To count to three in Tagalog (the national basis of Filipino), you say: isa (ee-SAH) for one, dalawa (dah-lah-WAH) for two, and tatlo (taht-LOH) for three. In traditional Baybayin script, these are written ᜁ94 (isa), ᜇᜎ46 (dalawa), and ᜆᜆ᜔ᜎᜓ (tatlo). These numbers descend directly from Proto-Austronesian, sharing historical kinship with Hawaiian 'ekahi, 'elua, 'ekolu and Malagasy isa, roa, telo across thousands of oceanic miles.",
+      "imageWikipediaTitle": "Baybayin",
+      "sources": [
+        {
+          "title": "Tagalog Grammar Notes",
+          "publisher": "Peace Corps",
+          "url": "https://www.peacecorps.gov/philippines/learn/materials/"
+        },
+        {
+          "title": "Tagalog grammar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tagalog_grammar"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tagalog_grammar",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saying 'thank you' with ancient grace in Turkish",
+      "body": "Expressing gratitude in Turkish is elegantly done with teşekkür ederim (teh-shek-KYUR eh-deh-reem), meaning \"I give thanks.\" The root teşekkür entered Ottoman Turkish from the Arabic word tashakkur, meaning gratitude. If you want a shorter, casual version with friends, a quick teşekkürler (teh-shek-KYUR-lehr) works like \"thanks!\" In response, locals warmly say bir şey değil (beer shey deh-YEEL), literally translating to \"it is nothing.\"",
+      "imageWikipediaTitle": "Turkish alphabet",
+      "sources": [
+        {
+          "title": "Turkish Language",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/95041926/"
+        },
+        {
+          "title": "Turkish vocabulary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turkish_vocabulary"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Turkish_vocabulary",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an 'assassin' was originally an eater of hashish",
+      "body": "The word \"assassin\" traces to the Arabic term hashshāshīn (حشاشين, pronounced hahsh-shah-SHEEN), meaning \"hashish-eaters\" or outcasts. It was applied as a derogatory label to the Nizari Isma'ili sect of Shia Muslims during the Crusades. Marco Polo and European Crusaders popularized sensational tales claiming the group's fanatical, targeted killers were drug-fueled before carrying out political murders from their mountain fortress of Alamut, permanently cementing the word into Western languages.",
+      "imageWikipediaTitle": "Alamut Castle",
+      "sources": [
+        {
+          "title": "The Ismailis in the Middle Ages",
+          "publisher": "Institute of Ismaili Studies",
+          "url": "https://www.iis.ac.uk/publications-heritage/ismailis-middle-ages/"
+        },
+        {
+          "title": "Order of Assassins",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Order_of_Assassins"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Order_of_Assassins",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an 'amateur' literally does things solely out of love",
+      "body": "Today, calling someone an \"amateur\" often implies inexperience, clumsiness, or lack of skill. But the word entered English from French, directly rooted in the Latin amator, meaning \"lover\"—from amare, \"to love.\" An amateur originally designated a connoisseur or devotee who pursued an art, sport, or science entirely out of personal passion rather than for money. In contrast, a professional did it simply as their profession and source of livelihood.",
+      "imageWikipediaTitle": "Amateur sports",
+      "sources": [
+        {
+          "title": "Amateur Definition & Etymology",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/amateur"
+        },
+        {
+          "title": "Amateur",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amateur"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Amateur",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the Swahili greeting question 'Hujambo?' literally ask?",
+      "options": [
+        "Where are you traveling from?",
+        "Are there any issues or troubles with you?",
+        "Have you eaten today?",
+        "May the sun shine on your path"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hujambo literally asks whether you have any troubles, to which the reply sijambo means 'I have no troubles.'"
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which ancient language family links Tagalog numbers (isa, dalawa, tatlo) to Hawaiian and Malagasy?",
+      "options": [
+        "Sino-Tibetan",
+        "Austroasiatic",
+        "Austronesian",
+        "Indo-European"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tagalog numbers descend from Proto-Austronesian, explaining their close similarity across thousands of miles of ocean to Hawaiian and Malagasy."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the Turkish reply 'bir şey değil' literally translate to?",
+      "options": [
+        "It is nothing",
+        "Go with God",
+        "Much respect",
+        "Until tomorrow"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Bir şey değil' literally means 'it is not a thing' or 'it is nothing', used just like 'you're welcome'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "From which Arabic term does the English word 'assassin' originate?",
+      "options": [
+        "Hashshāshīn ('hashish-eaters')",
+        "Mujāhidīn ('strugglers')",
+        "Fidā'iyīn ('self-sacrificers')",
+        "Sayyāfīn ('swordsmen')"
+      ],
+      "correctIndex": 0,
+      "explanation": "The word comes from 'hashshāshīn', a derogatory label applied to the Nizari Isma'ilis during the Middle Ages."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the original Latin meaning behind the word 'amateur'?",
+      "options": [
+        "Unskilled laborer",
+        "One who loves or does something for love",
+        "A beginner student",
+        "Someone without money"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rooted in Latin amator ('lover') from amare ('to love'), an amateur originally meant someone who engaged in an art or sport purely out of love."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "The word 'amateur' was invented as an insult for someone with substandard skills.",
+      "answer": false,
+      "explanation": "It comes from the Latin 'amator' (lover) and originally celebrated someone who practiced an art solely out of devotion and love, not for cash."
+    }
+  ]
+}

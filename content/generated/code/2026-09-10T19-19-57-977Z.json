@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.977Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Every Java file secretly spells out 'CAFEBABE'",
+      "body": "Open any compiled Java class file in a hex editor, and the very first four bytes are always CA FE BA BE. When James Gosling and the Oak team were creating the language in the early 1990s, they needed a 32-bit magic number to identify valid compiled bytecode. Inspired by a local cafe in Palo Alto where they often drank espresso, they chose hexspeak paying homage to coffee.",
+      "imageWikipediaTitle": "James Gosling",
+      "sources": [
+        {
+          "title": "The Java Virtual Machine Specification: The class File Format",
+          "publisher": "Oracle",
+          "url": "https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html"
+        },
+        {
+          "title": "Hexspeak",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hexspeak"
+        }
+      ],
+      "readMoreUrl": "https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A jammed office printer sparked the free software movement",
+      "body": "In 1980, MIT's Artificial Intelligence Lab received an advanced Xerox 9700 laser printer. Previously, programmer Richard Stallman had modified printer drivers so machines would notify users when paper jammed. But Xerox refused to share the new printer's source code, even after Stallman pleaded for access. Enraged by proprietary software blocking basic cooperation, Stallman launched the GNU Project in 1983, giving birth to the modern free software and open-source movements.",
+      "imageWikipediaTitle": "Richard Stallman",
+      "sources": [
+        {
+          "title": "The GNU Project",
+          "publisher": "Free Software Foundation",
+          "url": "https://www.gnu.org/gnu/thegnuproject.html"
+        },
+        {
+          "title": "Free software movement",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Free_software_movement"
+        }
+      ],
+      "readMoreUrl": "https://www.gnu.org/gnu/thegnuproject.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "MIT's Space Cadet keyboard had seven modifier keys",
+      "body": "In the late 1970s, computer scientist Tom Knight designed a legendary keyboard for MIT Lisp machines dubbed the \"Space Cadet.\" To let hackers invoke thousands of commands without touching a mouse, it featured seven modifier keys: Shift, Control, Meta, Super, Hyper, Front, and Top. Users could generate over 8,000 distinct characters. While the physical hardware vanished, its legacy survives: modern operating systems still recognize the \"Super\" key, and Emacs still maps \"Meta.\"",
+      "imageWikipediaTitle": "Space-cadet keyboard",
+      "sources": [
+        {
+          "title": "GNU Emacs Manual: Modifier Keys",
+          "publisher": "Free Software Foundation",
+          "url": "https://www.gnu.org/software/emacs/manual/html_node/emacs/Modifier-Keys.html"
+        },
+        {
+          "title": "Space-cadet keyboard",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space-cadet_keyboard"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Space-cadet_keyboard",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 16-bit math shortcut doomed the NSA's Clipper Chip",
+      "body": "In 1993, the United States government unveiled the Clipper Chip, an encryption microprocessor meant to secure phones while giving federal agents a built-in wiretap backdoor. But in 1994, computer scientist Matt Blaze exposed a fatal design blunder. The chip's Law Enforcement Access Field validated itself with a tiny 16-bit checksum. Because that meant only 65,536 possible combinations, an ordinary workstation could brute-force a fake identifier in 42 minutes, entirely disabling government eavesdropping.",
+      "imageWikipediaTitle": "Clipper chip",
+      "sources": [
+        {
+          "title": "Escrowed Encryption Standard (EES)",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://csrc.nist.gov/pubs/fips/185/final"
+        },
+        {
+          "title": "Clipper chip",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clipper_chip"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Clipper_chip",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The internet sacrificed 16 million addresses just for localhost",
+      "body": "Whenever a program connects to `127.0.0.1`, it talks to itself through the loopback device. But under IPv4 rules, that single address isn't alone: the entire `127.0.0.0/8` block, spanning 16,777,216 addresses, is reserved exclusively for local communication. In 1981, internet pioneers assigned all of Class A network 127 to loopback simply because 127 was the very last Class A slot available. Despite severe global IPv4 exhaustion, those 16 million addresses remain locked away.",
+      "imageWikipediaTitle": "IP address",
+      "sources": [
+        {
+          "title": "Assigned Numbers (RFC 790)",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc790.txt"
+        },
+        {
+          "title": "Localhost",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Localhost"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Localhost",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What 4-byte hex sequence appears at the start of every compiled Java .class file?",
+      "options": [
+        "0xDEADBEEF",
+        "0xCAFEBABE",
+        "0xFEEDFACE",
+        "0xBAADF00D"
+      ],
+      "correctIndex": 1,
+      "explanation": "James Gosling and the Oak team chose 0xCAFEBABE as the magic number for Java bytecode in homage to a local cafe."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What proprietary hardware issue directly inspired Richard Stallman to launch the GNU Project?",
+      "options": [
+        "A printer driver that wouldn't notify users of paper jams",
+        "A monitor firmware bug causing severe screen flicker",
+        "A hard drive controller encrypting user file systems",
+        "A network router arbitrarily blocking university traffic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Xerox refused to provide source code for its 9700 laser printer, preventing Stallman from adding automated jam alerts."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the MIT Space Cadet keyboard include modifier keys like Meta, Super, and Hyper?",
+      "options": [
+        "To let programmers generate thousands of commands without a mouse",
+        "To play complex text-based mainframe video games",
+        "To provide real-time hardware diagnostics for vacuum tubes",
+        "To translate Western characters into Russian Cyrillic"
+      ],
+      "correctIndex": 0,
+      "explanation": "With seven modifier keys, users could produce over 8,000 characters and invoke complex commands without needing a mouse."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did computer scientist Matt Blaze break the NSA's Clipper Chip backdoor in 1994?",
+      "options": [
+        "He stole the master private escrow key from an agency safe",
+        "He brute-forced its weak 16-bit checksum in under an hour",
+        "He discovered a physical short-circuit flaw in the silicon casing",
+        "He reverse-engineered the Skipjack algorithm using an acoustic microphone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blaze discovered the chip's Law Enforcement Access Field relied on an easily brute-forced 16-bit checksum."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was network 127 selected as the IPv4 loopback (localhost) address block?",
+      "options": [
+        "It was the very last Class A network number available in 1981",
+        "It was chosen by random coin flip at an early IETF meeting",
+        "It represented the number of milliseconds in a standard ping",
+        "It honored the room number where ARPANET was invented"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1981's RFC 790, network 127 was the final unassigned Class A network before Class B began at 128."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many minutes did it take computer scientist Matt Blaze to brute-force a valid Clipper Chip checksum in 1994?",
+      "answer": 42,
+      "min": 1,
+      "max": 300,
+      "unit": "minutes",
+      "explanation": "Because the checksum was only 16 bits long (65,536 possible values), Blaze cracked it in roughly 42 minutes on an ordinary computer workstation."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many unique IPv4 addresses are reserved solely for the 'localhost' loopback network?",
+      "answer": 16777216,
+      "min": 1,
+      "max": 100000000,
+      "unit": "",
+      "explanation": "Network 127.0.0.0/8 reserves 16,777,216 addresses (2²⁴) for loopback communication, even though almost all software only uses 127.0.0.1."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The hexadecimal signature 'CAFEBABE' in Java class files was an inside joke about coffee.",
+      "answer": true,
+      "explanation": "James Gosling and his team chose 0xCAFEBABE as an homage to their favorite local cafe in Palo Alto where they regularly drank espresso."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The free software movement began as a protest against the commercial sale of computers.",
+      "answer": false,
+      "explanation": "It was actually sparked by frustration over proprietary printer software when Xerox refused to share source code for a paper-jam alert."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The IP address 127.0.0.1 is the only IPv4 address reserved for communicating with localhost.",
+      "answer": false,
+      "explanation": "The entire 127.0.0.0/8 block—consisting of over 16.7 million IP addresses—is reserved strictly for local loopback."
+    }
+  ]
+}

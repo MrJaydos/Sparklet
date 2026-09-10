@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-10T19:19:57.974Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Civilian GPS accuracy improved tenfold overnight in May 2000",
+      "body": "Before May 2, 2000, the United States military intentionally degraded civilian satellite signals through a setting called Selective Availability. Receivers were limited to an accuracy of roughly 100 meters to prevent adversaries from targeting precision weapons. When President Bill Clinton directed the military to turn the degradation off at midnight, accuracy instantly improved to roughly 20 meters. This single policy change unlocked consumer turn-by-turn navigation, modern geocaching, and ridesharing apps.",
+      "imageWikipediaTitle": "Global Positioning System",
+      "sources": [
+        {
+          "title": "Selective Availability",
+          "publisher": "GPS.gov",
+          "url": "https://www.gps.gov/systems/gps/modernization/sa/"
+        },
+        {
+          "title": "Selective Availability",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Selective_Availability"
+        }
+      ],
+      "readMoreUrl": "https://www.gps.gov/systems/gps/modernization/sa/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World Wide Web was deliberately given away for free",
+      "body": "In the early 1990s, inventor Tim Berners-Lee could have patented or monetized the web. Instead, on April 30, 1993, CERN directors published an official declaration releasing the World Wide Web software into the public domain royalty-free. Giving away the basic browser, web server, and library of code for anyone to copy and modify prevented the nascent internet from splintering into proprietary, subscription-based networks, sparking the explosive global spread of the open web.",
+      "imageWikipediaTitle": "Tim Berners-Lee",
+      "sources": [
+        {
+          "title": "The birth of the Web",
+          "publisher": "CERN",
+          "url": "https://home.cern/science/computing/birth-web"
+        },
+        {
+          "title": "History of the World Wide Web",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+        }
+      ],
+      "readMoreUrl": "https://home.cern/science/computing/birth-web",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Apollo guidance computers kickstarted the commercial microchip industry",
+      "body": "In 1962, silicon integrated circuits were fragile, unproven novelties costing roughly $1,000 each. NASA took an enormous technical gamble by committing to them for the Apollo Guidance Computer. By 1963, the Apollo project was buying roughly 60 percent of all integrated circuits manufactured in the United States. This massive, reliable government demand forced manufacturers to standardize mass production, driving component failure rates down and slashing individual chip prices to under $20 within several years.",
+      "imageWikipediaTitle": "Apollo Guidance Computer",
+      "sources": [
+        {
+          "title": "Computers in Spaceflight: The NASA Experience",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/computers/Ch2-5.html"
+        },
+        {
+          "title": "Apollo Guidance Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/computers/Ch2-5.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The entire internet was once mapped in a single text file",
+      "body": "In the early days of the ARPANET, every computer name and numerical address lived in a single text file called HOSTS.TXT. Maintained manually by computer scientist Elizabeth Feinler at the Stanford Research Institute, network administrators had to download this master file to connect to other machines. As thousands of computers joined the network, the central file became unmanageable. In 1983, Paul Mockapetris invented the Domain Name System, replacing the static list with automated, distributed lookups.",
+      "imageWikipediaTitle": "Domain Name System",
+      "sources": [
+        {
+          "title": "Paul Mockapetris",
+          "publisher": "Internet Hall of Fame",
+          "url": "https://www.internethalloffame.org/inductee/paul-mockapetris/"
+        },
+        {
+          "title": "Domain Name System",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Domain_Name_System"
+        }
+      ],
+      "readMoreUrl": "https://www.internethalloffame.org/inductee/paul-mockapetris/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first interactive video game was built to entertain bored lab visitors",
+      "body": "In October 1958, physicist William Higinbotham realized that visitors touring Brookhaven National Laboratory found static science exhibits dull. To liven up annual visitors' day, he wired an analog computer—originally designed to calculate missile trajectories—to a 5-inch oscilloscope screen. Players rotated knobs to bounce a bright dot of light over an inverted net. Named Tennis for Two, the game drew hundreds of enthusiastic guests who waited in long lines before being dismantled after two years.",
+      "imageWikipediaTitle": "Tennis for Two",
+      "sources": [
+        {
+          "title": "The First Video Game?",
+          "publisher": "Brookhaven National Laboratory",
+          "url": "https://www.bnl.gov/about/history/tennis.php"
+        },
+        {
+          "title": "Tennis for Two",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tennis_for_Two"
+        }
+      ],
+      "readMoreUrl": "https://www.bnl.gov/about/history/tennis.php",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was civilian GPS accuracy restricted to roughly 100 meters prior to May 2000?",
+      "options": [
+        "Technical limits of early consumer microchips",
+        "A deliberate military degradation feature called Selective Availability",
+        "Severe radio interference caused by solar storms",
+        "An insufficient number of satellites in medium Earth orbit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selective Availability was an intentional signal error injected by the US military to deny high-accuracy satellite navigation to potential adversaries."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What historic action did CERN take on April 30, 1993, regarding the World Wide Web?",
+      "options": [
+        "It patented web protocols and charged small licensing fees",
+        "It released the web software into the public domain royalty-free",
+        "It transferred ownership of the web to the United Nations",
+        "It restricted web server software exclusively to universities"
+      ],
+      "correctIndex": 1,
+      "explanation": "CERN released the web source code into the public domain with no royalties, ensuring an open global standard rather than fragmented corporate silos."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did NASA's Apollo guidance computer project influence the silicon microchip industry?",
+      "options": [
+        "NASA bought about 60% of all US integrated circuits in 1963, driving mass production",
+        "NASA patented the first silicon planar transistor at Kennedy Space Center",
+        "NASA banned military use of microchips to keep costs manageable",
+        "NASA required all silicon chips to be manufactured in zero gravity"
+      ],
+      "correctIndex": 0,
+      "explanation": "NASA's massive early commitment to integrated circuits provided the scale manufacturers needed to refine yields and dramatically reduce prices."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What system did Paul Mockapetris invent in 1983 to replace the internet's manual HOSTS.TXT file?",
+      "options": [
+        "The Domain Name System (DNS)",
+        "The Border Gateway Protocol (BGP)",
+        "The File Transfer Protocol (FTP)",
+        "The Dynamic Host Configuration Protocol (DHCP)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paul Mockapetris invented DNS to provide a scalable, automated distributed directory service, replacing the bottleneck of downloading a single central text file."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What hardware displayed the visuals for the pioneering 1958 game 'Tennis for Two'?",
+      "options": [
+        "A 5-inch oscilloscope screen",
+        "A color cathode-ray television",
+        "A matrix of flashing vacuum tubes",
+        "A mechanical paper teleprinter"
+      ],
+      "correctIndex": 0,
+      "explanation": "William Higinbotham built Tennis for Two using an analog computer and a 5-inch oscilloscope display to plot the tennis court and moving ball."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Before the US military disabled Selective Availability in May 2000, civilian GPS accuracy was intentionally degraded to how many meters?",
+      "answer": 100,
+      "min": 10,
+      "max": 500,
+      "unit": "m",
+      "explanation": "Civilian GPS was intentionally degraded to roughly 100 meters until President Clinton ordered the restriction turned off, immediately improving accuracy to ~20 meters."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of all integrated circuits produced in the United States in 1963 was purchased by the Apollo program?",
+      "answer": 60,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "NASA bought roughly 60% of US-produced integrated circuits in 1963 for Apollo, subsidizing manufacturing scale and plunging prices from $1,000 to under $20."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "CERN aggressively patented the World Wide Web architecture before licensing it to tech companies.",
+      "answer": false,
+      "explanation": "CERN explicitly released all web software into the public domain on April 30, 1993, royalty-free, allowing the web to remain an open global platform."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "NASA's Apollo Guidance Computer project consumed over half of all US-manufactured microchips in 1963.",
+      "answer": true,
+      "explanation": "NASA consumed about 60 percent of the nation's entire integrated circuit production in 1963, driving the commercial viability of modern semiconductors."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The internet has always translated website names into addresses through automated directory servers.",
+      "answer": false,
+      "explanation": "Until DNS was invented in 1983, every single ARPANET host had to manually download a single master text file (HOSTS.TXT) maintained at Stanford."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Atari's 1972 release of Pong was the first interactive digital tennis video game.",
+      "answer": false,
+      "explanation": "Physicist William Higinbotham created Tennis for Two on an analog computer and oscilloscope screen in 1958, 14 years before Pong was released."
+    }
+  ]
+}
