@@ -48,6 +48,8 @@ export async function POST(req: NextRequest) {
       stripeCurrentPeriodEnd: true,
       appleExpiresAt: true,
       appleRevoked: true,
+      googleExpiresAt: true,
+      googleRevoked: true,
     },
   });
 

@@ -50,6 +50,8 @@ export async function GET() {
         stripeCurrentPeriodEnd: true,
         appleExpiresAt: true,
         appleRevoked: true,
+        googleExpiresAt: true,
+        googleRevoked: true,
       },
     }),
     prisma.userCardInteraction.count({ where: { userId, completed: true } }),

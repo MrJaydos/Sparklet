@@ -12,7 +12,7 @@ export function UpgradeClient({
   activating,
 }: {
   premium: boolean;
-  premiumSource: "app_store" | "stripe" | null;
+  premiumSource: "app_store" | "play_store" | "stripe" | null;
   /** true when we just got redirected back from a successful Checkout —
    * the webhook may not have landed yet even though the browser already has. */
   activating: boolean;
@@ -33,14 +33,19 @@ export function UpgradeClient({
     return () => clearInterval(id);
   }, [activating, premium, router]);
 
-  if (premium && premiumSource === "app_store") {
+  if (premium && (premiumSource === "app_store" || premiumSource === "play_store")) {
+    const store = premiumSource === "app_store" ? "iOS" : "Android";
+    const where =
+      premiumSource === "app_store"
+        ? "on your device under Settings → [your name] → Subscriptions"
+        : "in the Play Store under Menu → Payments & subscriptions";
     return (
       <div className={cardClass}>
         <div className="text-lg font-semibold text-violet-300">✨ You&apos;re Premium</div>
         <p className="mt-1 text-sm text-neutral-400">
           Ads are off and Deeper / Extra-deep reading is unlocked on every card. This
-          subscription was purchased through the iOS app — manage or cancel it on your device
-          under Settings → [your name] → Subscriptions, not here.
+          subscription was purchased through the {store} app — manage or cancel it {where}, not
+          here.
         </p>
       </div>
     );

@@ -2,7 +2,11 @@ import { DefaultSession } from "next-auth";
 
 declare module "next-auth" {
   interface Session {
-    user: { id: string; premium: boolean; premiumSource: "app_store" | "stripe" | null } &
+    user: {
+      id: string;
+      premium: boolean;
+      premiumSource: "app_store" | "play_store" | "stripe" | null;
+    } &
       DefaultSession["user"];
   }
 }
@@ -17,5 +21,7 @@ declare module "@auth/core/adapters" {
     stripeCurrentPeriodEnd: Date | null;
     appleExpiresAt: Date | null;
     appleRevoked: boolean;
+    googleExpiresAt: Date | null;
+    googleRevoked: boolean;
   }
 }

@@ -57,6 +57,56 @@ Client claims are verified server-side; keep it that way:
 - The daily card goal is distinct from the fixed `DAILY_GOAL_XP` ring (`src/lib/xp.ts`): crossing the card goal shows a one-time-per-day full-screen "goal reached" interstitial in the feed (gated via `sparklet.goalHit`, a date string), separate from the XP ring's own small celebration. Don't merge the two — they answer different questions ("did I hit my count today" vs "did I hit my XP today").
 - Session-only state (cards/topics seen this session, for the check-in recap) lives in refs/state inside `Feed.tsx` and resets on reload — it is not persisted or synced with the daily (server-backed) counters.
 
+## Billing — three rails, one derived answer
+
+Premium is **never stored as a boolean**. Each rail writes its own columns and
+`isPremium()` (src/lib/billing.ts) derives entitlement at read time, so a
+missed webhook or store notification expires access safely at period end
+instead of granting it forever. Preserve that property when touching any of
+this.
+
+| Rail | Columns | Verify | Server push |
+| --- | --- | --- | --- |
+| Stripe (web) | `stripe*` | checkout/portal | `/api/billing/webhook` |
+| Apple (iOS) | `apple*` | `/api/billing/apple/verify` | `/api/billing/apple/notifications` |
+| Google Play (Android) | `google*` | `/api/billing/google/verify` | `/api/billing/google/notifications` |
+
+Each store rail is `@unique` on its purchase identity, so one store
+subscription unlocks exactly one account — the DB constraint is the actual
+enforcement, and the routes turn the resulting P2002 into a 409 saying
+something true rather than a 500.
+
+`isBillingEnabled()` deliberately still keys on Stripe alone. It answers "can
+the person looking at this page buy premium", and its callers are web UI plus
+the shared depth gate — a Play or App Store subscription is only purchasable
+inside the respective app. Widening it would put locks and Upgrade CTAs in
+front of web users with no way to unlock them.
+
+### Google Play: what is still needed to make it live
+
+The server side is written and tested; none of it has seen real Google
+traffic, and it cannot until the setup below exists. Until then
+`isGooglePlayBillingEnabled()` is false, `/api/billing/google/verify` answers
+503, and nothing else in the app changes.
+
+1. A Play Console app record for `com.sparklet.android`, and the client
+   uploaded to at least an internal testing track (Play Billing cannot be
+   tested from a debug build sideloaded over adb).
+2. Subscription products created in Play Console.
+3. A Google Cloud service account with Play Developer API access, linked to
+   the Play Console account, and its JSON key set as
+   `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON` (whole JSON, single line).
+4. A Pub/Sub topic for Real-Time Developer Notifications, with a push
+   subscription pointing at `/api/billing/google/notifications`.
+
+Note the RTDN endpoint verifies nothing about the *sender* — a Pub/Sub push
+carries no signature, unlike Apple's signed JWS or Stripe's signed header.
+What makes it safe is that it applies nothing from the payload: the purchase
+token is re-verified against Google and only Google's answer is written, so a
+forged notification can at most make the server re-fetch state it already had.
+Adding an OIDC token or URL secret when the subscription is created is worth
+doing, but as defence in depth, not as the thing holding it up.
+
 ## Layout notes
 
 - Feed composition (unseen pool, due spaced-repetition reviews slotted first, score-weighted shuffle, quiz/guess interleaving) lives in `src/lib/feed.ts` + `src/components/feed/Feed.tsx`; the Feed component also owns view/dwell reporting and the push-reminder soft-ask.

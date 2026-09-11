@@ -58,24 +58,39 @@ model User {
   appleExpiresAt             DateTime?
   appleRevoked               Boolean   @default(false) // refund/chargeback
 
-  accounts          Account[]
-  sessions          Session[]
-  interactions      UserCardInteraction[]
-  comments          Comment[]
-  reports           Report[]
-  notifications     Notification[]
-  reviewStates      SpacedRepetitionState[]
-  quizAttempts      UserQuizAttempt[]
-  guessAttempts     UserGuessAttempt[]
-  misconceptionAttempts UserMisconceptionAttempt[]
-  explanationAttempts   UserExplanationAttempt[]
-  savedCards        SavedCard[]
-  interests         UserInterest[]
-  suggestions       CardSuggestion[]
-  xpEvents          XpEvent[]
-  pushSubscriptions PushSubscription[]
-  sentFriendRequests     Friendship[] @relation("FriendRequestsSent")
-  receivedFriendRequests Friendship[] @relation("FriendRequestsReceived")
+  // ---- Billing (Google Play) ----
+  // Same derived-at-read-time philosophy again — see src/lib/google-play.ts.
+  // Like Apple, Google has no single Stripe-style status string: premium is
+  // "not revoked and not yet expired".
+  //
+  // The purchase token is the subscription's identity and is @unique for the
+  // same reason appleOriginalTransactionId is — one Play subscription unlocks
+  // one Sparklet account. It survives renewals, but Google issues a NEW token
+  // on resubscribe/upgrade and points it at the old one via
+  // linkedPurchaseToken, so the stored value is replaced on the owning user's
+  // row rather than accumulating.
+  googlePurchaseToken String?   @unique
+  googleExpiresAt     DateTime?
+  googleRevoked       Boolean   @default(false) // refund/chargeback/revocation
+
+  accounts               Account[]
+  sessions               Session[]
+  interactions           UserCardInteraction[]
+  comments               Comment[]
+  reports                Report[]
+  notifications          Notification[]
+  reviewStates           SpacedRepetitionState[]
+  quizAttempts           UserQuizAttempt[]
+  guessAttempts          UserGuessAttempt[]
+  misconceptionAttempts  UserMisconceptionAttempt[]
+  explanationAttempts    UserExplanationAttempt[]
+  savedCards             SavedCard[]
+  interests              UserInterest[]
+  suggestions            CardSuggestion[]
+  xpEvents               XpEvent[]
+  pushSubscriptions      PushSubscription[]
+  sentFriendRequests     Friendship[]               @relation("FriendRequestsSent")
+  receivedFriendRequests Friendship[]               @relation("FriendRequestsReceived")
 }
 
 // Web Push subscription (one per browser/device the user enabled reminders
@@ -148,8 +163,8 @@ model OAuthStateBackup {
 // ---------- Sparklet domain models ----------
 
 model Category {
-  id          String  @id @default(cuid())
-  slug        String  @unique
+  id          String @id @default(cuid())
+  slug        String @unique
   name        String
   description String
   colorHex    String
@@ -191,15 +206,15 @@ model Card {
   sources     Json // [{ title, publisher, url }]
   readMoreUrl String
 
-  published         Boolean @default(false) // gated until source URLs are validated
-  reviewNote        String? // why validation failed / was reported, for manual review
-  score             Int     @default(0) // denormalized upvotes - downvotes
+  published  Boolean @default(false) // gated until source URLs are validated
+  reviewNote String? // why validation failed / was reported, for manual review
+  score      Int     @default(0) // denormalized upvotes - downvotes
 
-  depthGroupId    String?    @default(cuid()) // groups depth variants of one fact
-  depthLevel      DepthLevel @default(STANDARD)
-  embedding       Json? // title+body embedding, for near-duplicate detection
-  lastValidatedAt DateTime? // last time source URLs were re-checked
-  contentHash       String  @unique // dedupe across seed runs
+  depthGroupId      String?    @default(cuid()) // groups depth variants of one fact
+  depthLevel        DepthLevel @default(STANDARD)
+  embedding         Json? // title+body embedding, for near-duplicate detection
+  lastValidatedAt   DateTime? // last time source URLs were re-checked
+  contentHash       String     @unique // dedupe across seed runs
   generationBatchId String?
   modelUsed         String?
   enrichedAt        DateTime? // deploy-time quiz/guess backfill has examined this card
@@ -217,24 +232,19 @@ model Card {
   // title + body, kept in sync by Postgres. Powers search + related cards.
   search Unsupported("tsvector")?
 
-  category      Category              @relation(fields: [categoryId], references: [id])
-  batch         GenerationBatch?      @relation(fields: [generationBatchId], references: [id])
-  interactions  UserCardInteraction[]
-  comments      Comment[]
-  reports       Report[]
-  notifications Notification[]
-  reviewStates  SpacedRepetitionState[]
-  quizCards     QuizCard[]
-  guessCards    GuessCard[]
-  misconceptionCards   MisconceptionCard[]
-  explanationAttempts  UserExplanationAttempt[]
-  savedBy       SavedCard[]
+  category            Category                 @relation(fields: [categoryId], references: [id])
+  batch               GenerationBatch?         @relation(fields: [generationBatchId], references: [id])
+  interactions        UserCardInteraction[]
+  comments            Comment[]
+  reports             Report[]
+  notifications       Notification[]
+  reviewStates        SpacedRepetitionState[]
+  quizCards           QuizCard[]
+  guessCards          GuessCard[]
+  misconceptionCards  MisconceptionCard[]
+  explanationAttempts UserExplanationAttempt[]
+  savedBy             SavedCard[]
 
-  @@index([categoryId, published])
-  // Drives the deploy-time article backfill's "what's left to do" scan.
-  @@index([articleAt])
-  @@index([depthGroupId])
-  @@index([requestedById, createdAt])
   // One row per depth level per group. POST /api/cards/[id]/depth checks
   // "does this variant exist yet" and creates it in two separate steps with
   // a slow LLM call in between, so two concurrent requests for the same
@@ -243,6 +253,11 @@ model Card {
   // the @default(cuid()), giving every STANDARD card its own group), so
   // this can only ever reject that race.
   @@unique([depthGroupId, depthLevel])
+  @@index([categoryId, published])
+  // Drives the deploy-time article backfill's "what's left to do" scan.
+  @@index([articleAt])
+  @@index([depthGroupId])
+  @@index([requestedById, createdAt])
   @@index([search], type: Gin)
 }
 
@@ -265,13 +280,13 @@ model RejectedContentHash {
 }
 
 model UserCardInteraction {
-  id        String    @id @default(cuid())
+  id        String   @id @default(cuid())
   userId    String
   cardId    String
-  viewedAt  DateTime  @default(now())
-  liked     Boolean   @default(false)
-  completed Boolean   @default(false)
-  vote      Int       @default(0) // -1, 0, or 1
+  viewedAt  DateTime @default(now())
+  liked     Boolean  @default(false)
+  completed Boolean  @default(false)
+  vote      Int      @default(0) // -1, 0, or 1
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
   card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)

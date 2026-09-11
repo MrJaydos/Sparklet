@@ -18,6 +18,14 @@ export function getStripe(): Stripe | null {
 // even a working checkout to unlock it again. Same idea for the Upgrade CTAs
 // — no point showing them (or a lock icon) for a subscription that can't be
 // bought yet.
+// Deliberately still keyed on Stripe alone, even now that Google Play is a
+// third rail. This answers "can the person looking at this page actually buy
+// premium", and every caller is web UI or the shared depth gate — a Play
+// subscription is only purchasable inside the Android app. Widening it to
+// "any rail is configured" would put locks and Upgrade CTAs in front of web
+// users with no way to unlock them, which is precisely the failure the
+// comment above is guarding against. See isGooglePlayBillingEnabled() in
+// src/lib/google-play.ts for the Android-side question.
 export function isBillingEnabled(): boolean {
   return !!process.env.STRIPE_SECRET_KEY;
 }
@@ -35,7 +43,11 @@ type AppleBillingUser = {
   appleExpiresAt: Date | null;
   appleRevoked: boolean;
 };
-type BillingUser = StripeBillingUser & AppleBillingUser;
+type GooglePlayBillingUser = {
+  googleExpiresAt: Date | null;
+  googleRevoked: boolean;
+};
+type BillingUser = StripeBillingUser & AppleBillingUser & GooglePlayBillingUser;
 
 // Derived, not stored: a missed cancellation webhook expires access safely
 // at period end rather than granting it forever. No trial-length or
@@ -55,20 +67,31 @@ export function isPremiumViaAppStore(user: AppleBillingUser): boolean {
   return !user.appleRevoked && !!user.appleExpiresAt && user.appleExpiresAt.getTime() > Date.now();
 }
 
-// Derived, not stored: a missed cancellation webhook (or Apple server
-// notification) expires access safely at period end rather than granting it
-// forever, on either rail.
+// Google Play, like Apple, has no separate "trialing" status — a trial just
+// carries a normal expiry — so the same shape works. See
+// src/lib/google-play.ts for what sets these fields.
+export function isPremiumViaGooglePlay(user: GooglePlayBillingUser): boolean {
+  return !user.googleRevoked && !!user.googleExpiresAt && user.googleExpiresAt.getTime() > Date.now();
+}
+
+// Derived, not stored: a missed cancellation webhook (or store notification)
+// expires access safely at period end rather than granting it forever, on any
+// of the three rails.
 export function isPremium(user: BillingUser): boolean {
-  return isPremiumViaStripe(user) || isPremiumViaAppStore(user);
+  return isPremiumViaStripe(user) || isPremiumViaAppStore(user) || isPremiumViaGooglePlay(user);
 }
 
 // Which platform the user's active subscription (if any) is on — for
 // deciding what "manage subscription" should point at. A user can in theory
-// have a live subscription on both — prefer app_store, since that's the one
-// Stripe's customer portal can't touch, and telling them the wrong place to
-// cancel is worse than being right about the other one.
-export function premiumSource(user: BillingUser): "app_store" | "stripe" | null {
+// have a live subscription on more than one; the store rails are preferred
+// over Stripe for the same reason as before, since Stripe's customer portal
+// can't touch them and telling someone the wrong place to cancel is worse
+// than being right about the other one.
+export type PremiumSource = "app_store" | "play_store" | "stripe";
+
+export function premiumSource(user: BillingUser): PremiumSource | null {
   if (isPremiumViaAppStore(user)) return "app_store";
+  if (isPremiumViaGooglePlay(user)) return "play_store";
   if (isPremiumViaStripe(user)) return "stripe";
   return null;
 }
