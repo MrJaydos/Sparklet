@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-09-11T19:21:16.864Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Diving Blue Whale's Heart Can Slow to Two Beats per Minute",
+      "body": "As the largest animal on Earth, a blue whale possesses a 400-pound heart roughly the size of a golf cart. When diving deep in search of krill, however, the whale conserves oxygen by plunging its heart rate down to just two to four beats per minute. Between heartbeats, its stretchy, elastic aorta acts like a pressure reservoir, smoothly pushing blood forward to supply vital organs until the next pulse.",
+      "imageWikipediaTitle": "Blue whale",
+      "sources": [
+        {
+          "title": "Blue Whale",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/blue-whale"
+        },
+        {
+          "title": "Blue whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_whale"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/blue-whale",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bowhead Whales Can Live More Than Two Centuries",
+      "body": "Bowhead whales are the longest-living mammals on the planet, easily surpassing 200 years of age. Biologists only confirmed their extraordinary lifespan when traditional Inupiat whalers discovered antique stone and slate harpoon heads embedded deep in the blubber of harvested whales—weapons manufactured in the 1880s. Specialized gene variants help bowheads continuously repair damaged DNA and resist cancer, allowing them to cruise Arctic waters across multiple human generations.",
+      "imageWikipediaTitle": "Bowhead whale",
+      "sources": [
+        {
+          "title": "Bowhead Whale",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/bowhead-whale"
+        },
+        {
+          "title": "Bowhead whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bowhead_whale"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/bowhead-whale",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Venus Flytraps Count Prey Touches to Avoid False Alarms",
+      "body": "Closing a carnivorous trap consumes valuable energy, so the Venus flytrap uses a clever counting mechanism to avoid snapping shut on falling raindrops or debris. Inside each trap lobe sit delicate trigger hairs. A single touch generates an electrical signal that primes the leaf. Only if a second hair is bent within twenty seconds will the trap snap shut. Three more touches trigger digestive acid production.",
+      "imageWikipediaTitle": "Venus flytrap",
+      "sources": [
+        {
+          "title": "Venus Flytrap",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/000/venus-flytrap.htm"
+        },
+        {
+          "title": "Venus flytrap",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/plant/Venus-flytrap"
+        },
+        {
+          "title": "Venus flytrap",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus_flytrap"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/000/venus-flytrap.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe Crab Blood Protects Modern Medicine From Contamination",
+      "body": "Horseshoe crabs have roamed Earth's shallow coastal waters for over 440 million years, surviving with bright blue, copper-based blood. Their blood contains unique immune cells called amebocytes that are extraordinarily sensitive to bacterial endotoxins. Even in microscopic amounts, dangerous toxins cause these amebocytes to coagulate into a solid gel instantly. Medical manufacturers rely on this natural reaction to test intravenous drugs, vaccines, and surgical implants for harmful contamination.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Horseshoe Crab Blood: The Miracle Liquid Used in Medicine",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/horseshoe-crab-blood.html"
+        },
+        {
+          "title": "Horseshoe crab",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_crab"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/horseshoe-crab-blood.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea Turtles Navigate Thousands of Miles Using Earth's Magnetic Field",
+      "body": "After hatching on sandy beaches, young loggerhead sea turtles embark on epic multi-year migrations spanning thousands of miles across the open Atlantic Ocean. To navigate featureless open water without landmarks, they rely on geomagnetic imprinting. Turtles detect both the angle and intensity of Earth's magnetic field lines, forming an internal magnetic map. Decades later, adult females use this invisible sensory compass to return precisely to their natal nesting grounds.",
+      "imageWikipediaTitle": "Loggerhead sea turtle",
+      "sources": [
+        {
+          "title": "Loggerhead Turtle",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/loggerhead-turtle"
+        },
+        {
+          "title": "Loggerhead sea turtle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/loggerhead-turtle",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happens to a blue whale's heart rate when it makes a deep dive?",
+      "options": [
+        "It speeds up to deliver more oxygen to muscles",
+        "It slows down to as few as two beats per minute",
+        "It completely stops beating until the whale surfaces",
+        "It remains constant thanks to its massive aorta"
+      ],
+      "correctIndex": 1,
+      "explanation": "To conserve oxygen on deep foraging dives, a blue whale can slow its heart down to between two and four beats per minute."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did researchers first confirm that bowhead whales can live for well over a century?",
+      "options": [
+        "By carbon-dating their baleen plates",
+        "By counting rings inside their earplugs",
+        "By discovering 19th-century antique harpoon points in their blubber",
+        "By analyzing ancient DNA from shed skin cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stone and slate harpoon heads dating from the 1880s were recovered embedded in living bowhead whales caught in the 2000s."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How many touches to its trigger hairs does a Venus flytrap require before snapping shut?",
+      "options": [
+        "Just one touch",
+        "Two touches within about twenty seconds",
+        "Ten rapid touches in one second",
+        "Five continuous touches over five minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "The plant requires two hair triggers within roughly 20 seconds to close, preventing false alarms caused by debris or wind."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is horseshoe crab blood widely harvested by the pharmaceutical industry?",
+      "options": [
+        "It carries more oxygen than any vertebrate blood",
+        "It coagulates into a gel in the presence of bacterial endotoxins",
+        "It can be transfused into human patients of any blood type",
+        "It cures fungal infections through natural copper ions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Horseshoe crab blood contains amebocytes that clot immediately when exposed to bacterial endotoxins, making it ideal for contamination testing."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do loggerhead sea turtles navigate across thousands of miles of open ocean to their birth beaches?",
+      "options": [
+        "By sensing Earth's magnetic field angle and intensity",
+        "By following ocean temperature gradients alone",
+        "By navigating by the constellations and the Moon",
+        "By detecting the distinct scent of their home beach on the wind"
+      ],
+      "correctIndex": 0,
+      "explanation": "Loggerheads use geomagnetic imprinting to read the inclination and intensity of Earth's magnetic field, creating an internal global navigation map."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "To how few beats per minute can a diving blue whale's heart slow down to conserve oxygen?",
+      "answer": 2,
+      "min": 1,
+      "max": 30,
+      "unit": "bpm",
+      "explanation": "During deep foraging dives, a blue whale's heart rate plunges to just 2 to 4 beats per minute."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many years can a bowhead whale live, making it the longest-lived mammal on Earth?",
+      "answer": 200,
+      "min": 50,
+      "max": 350,
+      "unit": "years",
+      "explanation": "Bowhead whales can survive for more than 200 years in Arctic waters, aided by exceptional DNA repair mechanisms."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Some individual whales alive today were born before the invention of the electric light bulb.",
+      "answer": true,
+      "explanation": "Because bowhead whales live over 200 years, some individuals cruising the Arctic today were born well before the commercial electric bulb debuted in 1879."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A Venus flytrap snaps shut the instant any object brushes against a single trigger hair.",
+      "answer": false,
+      "explanation": "A flytrap requires two separate trigger-hair touches within roughly twenty seconds to snap shut, which prevents false alarms from raindrops or dust."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Horseshoe crabs are true crabs belonging to the crustacean family.",
+      "answer": false,
+      "explanation": "Despite their common name, horseshoe crabs are chelicerates, meaning they are much more closely related to spiders, ticks, and scorpions than to true crabs."
+    }
+  ]
+}

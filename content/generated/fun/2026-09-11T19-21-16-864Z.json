@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-11T19:21:16.864Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Crickets are literal thermometers you can count",
+      "body": "In 1897, physicist Amos Dolbear noticed that snowy tree crickets chirp in direct proportion to surrounding air temperature. Crickets are cold-blooded, and chemical reactions that drive their wing muscles speed up as warmth increases. If you count how many times a cricket chirps in 15 seconds and add 40, the sum gives you a surprisingly accurate reading of the temperature in degrees Fahrenheit.",
+      "imageWikipediaTitle": "Cricket (insect)",
+      "sources": [
+        {
+          "title": "Dolbear's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dolbear%27s_law"
+        },
+        {
+          "title": "Can you tell the temperature by listening to the chirping of a cricket?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/meteorology-climatology/item/can-you-tell-the-temperature-by-listening-to-the-chirping-of-a-cricket/"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/meteorology-climatology/item/can-you-tell-the-temperature-by-listening-to-the-chirping-of-a-cricket/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spiders walk using built-in hydraulic pressure, not muscle extension",
+      "body": "Unlike mammals, spiders lack extensor muscles to straighten their legs. Instead, they operate on hydraulic pressure. A spider flexes its muscles inward, but extends its legs outward by pumping hemolymph—spider blood—from its cephalothorax into its limbs under high pressure. When a spider dies, its heart stops pumping fluid, pressure drops to zero, and the flexor muscles naturally contract, causing the legs to curl tightly inward.",
+      "imageWikipediaTitle": "Spider",
+      "sources": [
+        {
+          "title": "Spider locomotion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spider_locomotion"
+        },
+        {
+          "title": "Spider: Form and function",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/spider-arachnid"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spider_locomotion",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea urchins grind through solid rock with self-sharpening teeth",
+      "body": "Sea urchins carve hideaways out of hard stone using a five-jawed apparatus called Aristotle's lantern. Their teeth never go dull because they are biological marvels of engineering: tough calcite needle crystals are embedded in a softer magnesium-calcite matrix. As the tooth scrapes against rock, the softer material wears away deliberately along predetermined fracture zones, continuously revealing a razor-sharp chisel edge that stays sharp for the urchin's entire life.",
+      "imageWikipediaTitle": "Sea urchin",
+      "sources": [
+        {
+          "title": "Aristotle's lantern",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aristotle%27s_lantern"
+        },
+        {
+          "title": "Aristotle's lantern",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/Aristotles-lantern"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/Aristotles-lantern",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Humans have far more than just five senses",
+      "body": "Aristotle popularized the idea that humans possess only five senses: sight, smell, taste, hearing, and touch. But modern neuroscientists recognize that humans possess anywhere from 14 to more than 20 distinct sensory systems. These include proprioception (sensing limb positions without looking), equilibrioception (balance), thermoception (temperature), and nociception (pain). Touch alone breaks down into separate receptors for pressure, vibration, light contact, and skin stretch.",
+      "imageWikipediaTitle": "Sense",
+      "sources": [
+        {
+          "title": "Sense",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sense"
+        },
+        {
+          "title": "How Many Senses Does a Human Have?",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/story/how-many-senses-does-a-human-have"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/story/how-many-senses-does-a-human-have",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mimic octopus impersonates venomous animals on command",
+      "body": "Discovered off Indonesia in 1998, the mimic octopus takes camouflage to theatrical heights. Rather than simply blending into the background, it actively impersonates over a dozen poisonous marine creatures. To scare off damselfish, it buries six arms in the sand and extends two banded arms in opposite directions, flawlessly imitating a venomous sea snake. Facing other threats, it morphs into a spiky lionfish or flattens its body to glide like a toxic sole.",
+      "imageWikipediaTitle": "Mimic octopus",
+      "sources": [
+        {
+          "title": "Mimic octopus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mimic_octopus"
+        },
+        {
+          "title": "Mimic octopus",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/mimic-octopus"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/mimic-octopus",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Dolbear's Law, how can you estimate Fahrenheit temperature using a snowy tree cricket?",
+      "options": [
+        "Count chirps in 15 seconds and add 40",
+        "Divide chirps per minute by 10",
+        "Count chirps in one minute and subtract 32",
+        "Multiply chirps in 5 seconds by 7"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a cricket's metabolic rate tracks ambient warmth, adding 40 to the chirps counted in 15 seconds gives a close estimate of degrees Fahrenheit."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do the legs of a dead spider curl inward?",
+      "options": [
+        "Loss of fluid pressure removes the hydraulic force that extends them",
+        "Their exoskeleton shrinks rapidly as it dries in air",
+        "Muscles run out of calcium and freeze in an outward stretch",
+        "Predators break the extensor tendons after death"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spiders rely on pressurized blood fluid to push their legs outward; when the heart stops, pressure drops and inward-pulling flexor muscles take over."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do sea urchins grind into hard rock without blunting their teeth?",
+      "options": [
+        "Their teeth chip away selectively to maintain a sharp chisel edge",
+        "They coat their mouthparts in concentrated hydrochloric acid",
+        "They regrow an entirely new set of teeth every twenty-four hours",
+        "They only grind rocks softened by symbiotic burrowing bacteria"
+      ],
+      "correctIndex": 0,
+      "explanation": "Urchin teeth combine hard calcite crystals with a softer matrix, so scraping deliberately breaks off outer layers to keep a sharp edge exposed."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which sensory system lets you touch your nose with your eyes closed?",
+      "options": [
+        "Proprioception",
+        "Nociception",
+        "Thermoception",
+        "Equilibrioception"
+      ],
+      "correctIndex": 0,
+      "explanation": "Proprioception uses internal receptors in muscles and joints to track the location and movement of your body parts without visual feedback."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the mimic octopus defend itself against aggressive damselfish?",
+      "options": [
+        "It hides six arms and shapes the other two to mimic a banded sea snake",
+        "It releases toxic ink that numbs the attacker's gills",
+        "It inflates its body like a spiny pufferfish",
+        "It flashes neon bioluminescent warning rings"
+      ],
+      "correctIndex": 0,
+      "explanation": "By burying six arms and pointing two banded arms in opposite directions, it convincingly imitates a banded sea snake, a natural predator of damselfish."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "According to Dolbear's Law, how many chirps in 15 seconds do you add to what fixed number to estimate Fahrenheit temperature?",
+      "answer": 40,
+      "min": 10,
+      "max": 80,
+      "unit": "",
+      "explanation": "Dolbear's Law states that counting a cricket's chirps over 15 seconds and adding 40 provides a reliable estimate of the temperature in Fahrenheit."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Spiders extend their legs outward using extensor muscles, just like mammals do.",
+      "answer": false,
+      "explanation": "Spiders completely lack leg extensor muscles; they use hydraulic fluid pressure from pumped blood to extend their legs outward."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Humans have only five distinct senses: sight, hearing, taste, smell, and touch.",
+      "answer": false,
+      "explanation": "Modern neurologists recognize 14 to over 20 human senses, including balance, pain, temperature, and joint position awareness."
+    }
+  ]
+}

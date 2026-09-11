@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-11T19:21:16.865Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why starting a low-carb diet causes an instant drop on the scale",
+      "body": "Stepping on the scale during the first few days of a low-carbohydrate diet often reveals sudden, dramatic weight loss. But it is not melted body fat. Your body stores surplus carbohydrates as glycogen in the liver and skeletal muscle, and each gram of stored glycogen binds roughly three to four grams of water. When carbohydrate intake plummets, your body burns through its glycogen reserves, releasing several pounds of bound water directly into your urine.",
+      "imageWikipediaTitle": "Glycogen",
+      "sources": [
+        {
+          "title": "Glycogen",
+          "publisher": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/articles/23509-glycogen"
+        },
+        {
+          "title": "Glycogen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glycogen"
+        },
+        {
+          "title": "Relationship between muscle water and glycogen recovery after prolonged exercise in the heat",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25911631/"
+        }
+      ],
+      "readMoreUrl": "https://my.clevelandclinic.org/health/articles/23509-glycogen",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why drinking alcohol makes you urinate far more liquid than you consumed",
+      "body": "Drinking beer or wine produces far more urine than the volume of liquid swallowed. Alcohol is a powerful chemical diuretic that acts directly on your brain. It suppresses the pituitary gland from releasing vasopressin, also known as antidiuretic hormone. Without vasopressin signaling the kidneys to reabsorb water back into the bloodstream, kidney collecting ducts remain wide open. Excess water drains straight into the bladder, which rapidly triggers severe full-body dehydration.",
+      "imageWikipediaTitle": "Vasopressin",
+      "sources": [
+        {
+          "title": "Antidiuretic Hormone (ADH)",
+          "publisher": "Cleveland Clinic",
+          "url": "https://my.clevelandclinic.org/health/articles/22421-antidiuretic-hormone-adh"
+        },
+        {
+          "title": "Vasopressin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vasopressin"
+        },
+        {
+          "title": "Inhibition of vasopressin secretion by alcohol",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1758244/"
+        }
+      ],
+      "readMoreUrl": "https://my.clevelandclinic.org/health/articles/22421-antidiuretic-hormone-adh",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your heart muscle never gets tired like your legs do",
+      "body": "Sprint up a hill and your leg muscles burn with fatigue within minutes, yet your heart beats non-stop for decades without resting. Cardiac muscle cells possess extraordinary stamina because roughly 40 percent of their internal volume is occupied by mitochondria, the cell's energy-generating powerhouses. In contrast, normal skeletal muscle cells contain only about two to eight percent mitochondria. This dense biological engine provides a near-limitless supply of energy, preventing the heart from ever fatiguing.",
+      "imageWikipediaTitle": "Cardiac muscle",
+      "sources": [
+        {
+          "title": "Physiology, Cardiac Muscle",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK535356/"
+        },
+        {
+          "title": "Cardiac muscle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiac_muscle"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK535356/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eating carrots won't give you superhuman night vision",
+      "body": "The widespread belief that eating carrots gives you sharp night vision was actually a British wartime deception. During the 1940 Blitz, the Royal Air Force equipped night-fighter planes with newly developed, secret airborne interception radar. To explain how British pilots like John Cunningham shot down German bombers in total darkness without revealing their radar technology, the Air Ministry launched an aggressive propaganda campaign claiming their aviators ate massive quantities of vitamin A-rich carrots.",
+      "imageWikipediaTitle": "Carrot",
+      "sources": [
+        {
+          "title": "A WWII Propaganda Campaign Popularized the Myth That Carrots Help You See in the Dark",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/a-wwii-propaganda-campaign-popularized-the-myth-that-carrots-help-you-see-in-the-dark-2888/"
+        },
+        {
+          "title": "Carrot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carrot"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/arts-culture/a-wwii-propaganda-campaign-popularized-the-myth-that-carrots-help-you-see-in-the-dark-2888/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The universal blood donor rule flips completely for plasma",
+      "body": "While almost everyone knows O-negative is the universal red blood cell donor, the rule reverses for blood plasma. Red blood cells from type O donors lack A and B surface antigens, making them safe for anyone. However, type O plasma contains antibodies that attack A and B blood. People with type AB blood produce neither antibody in their liquid plasma. Because of this, type AB plasma is the universal plasma donor, given safely in emergency trauma cases.",
+      "imageWikipediaTitle": "Blood type",
+      "sources": [
+        {
+          "title": "Blood Types Explained",
+          "publisher": "American Red Cross",
+          "url": "https://www.redcrossblood.org/donate-blood/blood-types.html"
+        },
+        {
+          "title": "Blood types",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/003344.htm"
+        },
+        {
+          "title": "Blood type",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blood_type"
+        }
+      ],
+      "readMoreUrl": "https://www.redcrossblood.org/donate-blood/blood-types.html",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does cutting carbohydrates cause sudden, dramatic weight loss in the first few days?",
+      "options": [
+        "Your body rapidly excretes water that was bound to stored glycogen",
+        "Your body enters immediate ketosis and burns several pounds of visceral fat",
+        "Muscles break down structural protein to generate emergency blood sugar",
+        "The digestive tract shrinks significantly within 24 hours of carb restriction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each gram of glycogen stored in muscle and liver binds roughly 3 to 4 grams of water, which is released when glycogen is burned."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does drinking alcohol cause your body to produce an excessive volume of urine?",
+      "options": [
+        "It blocks vasopressin, preventing kidneys from reabsorbing water",
+        "It speeds up glomerular filtration by drastically elevating blood pressure",
+        "It directly stimulates the bladder lining to contract more frequently",
+        "It increases sodium excretion, pulling water into the kidneys via osmosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alcohol suppresses the pituitary gland's secretion of vasopressin (ADH), signaling kidneys to dump water instead of reabsorbing it."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What cellular feature allows heart muscle to beat continuously for decades without fatigue?",
+      "options": [
+        "Mitochondria make up about 40% of cardiac cell volume",
+        "Cardiac cells produce energy entirely through anaerobic fermentation",
+        "Heart muscle fibers replace damaged contractile proteins every few hours",
+        "Cardiac cells store enough glucose to run independently for months"
+      ],
+      "correctIndex": 0,
+      "explanation": "Around 40% of cardiac cell space is filled with mitochondria, providing an immense, steady supply of ATP to sustain constant beating."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did the belief that carrots grant superior night vision become widespread?",
+      "options": [
+        "British wartime propaganda used it to hide the invention of radar",
+        "Early nutritional studies accidentally overdosed pilots with beta-carotene",
+        "Carrots were the only vegetable rationed to Royal Air Force aviators",
+        "Night-shift factory workers in WWII reported sharper eyesight after eating them"
+      ],
+      "correctIndex": 0,
+      "explanation": "The British Air Ministry claimed aviator John Cunningham's nighttime success came from carrots to keep their airborne radar secret."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which blood type is considered the universal donor for blood plasma transfusions?",
+      "options": [
+        "Type AB",
+        "Type O negative",
+        "Type O positive",
+        "Type A"
+      ],
+      "correctIndex": 0,
+      "explanation": "Type AB plasma contains neither anti-A nor anti-B antibodies, making it safe to administer to patients of any blood type."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "For each gram of glycogen your body stores, roughly how many grams of water are stored alongside it?",
+      "answer": 3,
+      "min": 1,
+      "max": 10,
+      "unit": "g",
+      "explanation": "Each gram of glycogen binds 3 to 4 grams of water, explaining why depleting glycogen triggers immediate water weight loss."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly what percentage of a cardiac muscle cell's volume is made up of energy-producing mitochondria?",
+      "answer": 40,
+      "min": 5,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Mitochondria comprise about 40% of heart muscle cell volume, compared to just 2% to 8% in normal skeletal muscle."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Initial rapid weight loss on a low-carb diet is mostly burned body fat.",
+      "answer": false,
+      "explanation": "Early weight loss on low-carb diets is primarily water weight released as stored liver and muscle glycogen reserves are depleted."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Eating extra carrots will noticeably improve your vision in the dark.",
+      "answer": false,
+      "explanation": "Carrots supply vitamin A to prevent night blindness, but extra carrots do not enhance normal vision; the myth was British WWII deception."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Type O is the universal donor for all blood components, including plasma.",
+      "answer": false,
+      "explanation": "Type O is the universal donor for red blood cells, but type AB is the universal donor for plasma because it lacks anti-A and anti-B antibodies."
+    }
+  ]
+}

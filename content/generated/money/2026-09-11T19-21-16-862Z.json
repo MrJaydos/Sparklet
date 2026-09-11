@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-11T19:21:16.863Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "One nation’s piggy bank owns 1.5% of every listed company on Earth",
+      "body": "Norway’s Government Pension Fund Global holds more than $1.7 trillion in assets, funded by surplus tax revenue from North Sea petroleum extraction. Rather than spending its oil windfall at home—which could overheat the domestic economy—Norway invests almost exclusively abroad in equities, fixed income, and real estate across over 70 countries. As a result, this single national fund owns roughly 1.5% of all publicly listed corporate shares on Earth.",
+      "imageWikipediaTitle": "Government Pension Fund of Norway",
+      "sources": [
+        {
+          "title": "About the fund",
+          "publisher": "Norges Bank Investment Management",
+          "url": "https://www.nbim.no/en/the-fund/about-the-fund/"
+        },
+        {
+          "title": "Government Pension Fund of Norway",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Government_Pension_Fund_of_Norway"
+        }
+      ],
+      "readMoreUrl": "https://www.nbim.no/en/the-fund/about-the-fund/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "India invalidated 86% of its circulating cash overnight",
+      "body": "On the evening of November 8, 2016, India announced that its two highest-denomination banknotes—the 500 and 1,000 rupee bills—would cease to be legal tender at midnight, giving citizens just four hours' warning. The sudden demonetization instantly wiped out 86% of the country’s circulating physical currency. Intended to combat untaxed \"black money\" and counterfeiting, the move forced hundreds of millions of people into serpentine bank queues for weeks to swap their worthless cash.",
+      "imageWikipediaTitle": "2016 Indian banknote demonetisation",
+      "sources": [
+        {
+          "title": "India rupees: Anger as banks reopen after note ban",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-india-37913823"
+        },
+        {
+          "title": "2016 Indian banknote demonetisation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/2016_Indian_banknote_demonetisation",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The law that created the US dollar made mint fraud punishable by death",
+      "body": "The Coinage Act of 1792 officially established the United States dollar, created the nation's first federal mint in Philadelphia, and introduced a decimal currency system based on the Spanish milled dollar. To protect the infant republic's currency from corruption, Congress added a terrifying deterrent: Section 19 mandated the death penalty for any Mint officer or employee who embezzled precious metals or deliberately debased gold or silver coins for personal profit.",
+      "imageWikipediaTitle": "Coinage Act of 1792",
+      "sources": [
+        {
+          "title": "Coinage Act of 1792",
+          "publisher": "United States Mint",
+          "url": "https://www.usmint.gov/learn/history/historical-documents/coinage-act-of-1792"
+        },
+        {
+          "title": "Coinage Act of 1792",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coinage_Act_of_1792"
+        }
+      ],
+      "readMoreUrl": "https://www.usmint.gov/learn/history/historical-documents/coinage-act-of-1792",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the speed of money reveals an economy’s true health",
+      "body": "In economics, the size of the money supply tells only half the story; what matters equally is the velocity of money—the rate at which a single currency unit changes hands to buy goods and services. When consumer confidence is high, money circulates rapidly as paychecks are swiftly spent and re-spent. But during severe recessions or bouts of deep uncertainty, velocity plummets as people and corporations hoard liquidity, stifling economic activity even when central banks pump out cash.",
+      "imageWikipediaTitle": "Velocity of money",
+      "sources": [
+        {
+          "title": "Velocity of M2 Money Stock",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "url": "https://fred.stlouisfed.org/series/M2V"
+        },
+        {
+          "title": "Velocity of money",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Velocity_of_money"
+        }
+      ],
+      "readMoreUrl": "https://fred.stlouisfed.org/series/M2V",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The single number economists use to measure global inequality",
+      "body": "Conceived by Italian statistician Corrado Gini in 1912, the Gini coefficient measures income or wealth distribution across a society on a scale from 0 to 1. A score of 0 represents perfect equality, where every citizen earns the exact same income. A score of 1 represents absolute inequality, where one person captures all national income while everyone else gets zero. Real-world national income coefficients generally span from roughly 0.25 in Scandinavian economies to over 0.60 in South Africa.",
+      "imageWikipediaTitle": "Gini coefficient",
+      "sources": [
+        {
+          "title": "Gini index",
+          "publisher": "World Bank",
+          "url": "https://data.worldbank.org/indicator/SI.POV.GINI"
+        },
+        {
+          "title": "Gini coefficient",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gini_coefficient"
+        }
+      ],
+      "readMoreUrl": "https://data.worldbank.org/indicator/SI.POV.GINI",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Approximately what percentage of all publicly traded corporate shares worldwide is owned by Norway’s sovereign wealth fund?",
+      "options": [
+        "Around 1.5%",
+        "Roughly 8%",
+        "Over 15%",
+        "About 0.1%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Norway's Government Pension Fund Global holds roughly 1.5% of all listed company shares across the world."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What percentage of India’s circulating physical currency was wiped out overnight by the 2016 demonetisation policy?",
+      "options": [
+        "86%",
+        "25%",
+        "50%",
+        "99%"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 500 and 1,000 rupee notes that were abruptly cancelled accounted for roughly 86% of the country's circulating cash."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What penalty did the Coinage Act of 1792 prescribe for US Mint employees caught embezzling or debasing coins?",
+      "options": [
+        "Death",
+        "A fine of $1,000",
+        "Banishment to Europe",
+        "Life imprisonment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Section 19 of the 1792 Coinage Act made embezzling or corruptly debasing gold or silver coins punishable by death."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does the 'velocity of money' measure in an economy?",
+      "options": [
+        "How frequently a unit of currency changes hands to buy goods and services",
+        "The speed at which central banks print physical banknotes",
+        "How rapidly consumer prices inflate over a calendar year",
+        "The transaction speed of interbank digital wire transfers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The velocity of money measures the frequency with which an average currency unit is spent on goods and services in a given period."
+    },
+    {
+      "cardIndex": 4,
+      "question": "On the Gini coefficient scale, what does a score of 0 represent?",
+      "options": [
+        "Perfect income equality across all individuals",
+        "Absolute inequality where one person earns all income",
+        "Zero national debt relative to gross domestic product",
+        "An economy with zero inflation and steady prices"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Gini coefficient of 0 indicates complete equality, where every member of a population earns the identical share of income."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of all publicly traded company shares in the world does Norway’s sovereign wealth fund own?",
+      "answer": 1.5,
+      "min": 0.1,
+      "max": 10,
+      "unit": "%",
+      "explanation": "Norway's fund owns roughly 1.5% of every listed stock on Earth, holding over $1.7 trillion in global assets."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of India's circulating physical cash was declared void overnight in November 2016?",
+      "answer": 86,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "The banned 500 and 1,000 rupee bills made up 86% of India's total cash supply in circulation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Norway's sovereign wealth fund invests most of its oil profits directly into domestic Norwegian businesses.",
+      "answer": false,
+      "explanation": "To prevent rampant inflation and domestic overheating, the fund is legally mandated to invest almost entirely outside Norway."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The earliest US federal coinage law punished corrupt Mint employees with death.",
+      "answer": true,
+      "explanation": "The Coinage Act of 1792 explicitly established the death penalty for Mint workers who embezzled or debased gold or silver coins."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "A higher Gini coefficient score indicates a more equal distribution of income in a country.",
+      "answer": false,
+      "explanation": "The Gini scale runs from 0 (complete equality) to 1 (complete inequality), so a higher score indicates greater economic inequality."
+    }
+  ]
+}
