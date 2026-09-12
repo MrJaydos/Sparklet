@@ -15,12 +15,18 @@ TikTok-style vertical learning feed: short fact-checked cards with real sources,
 ```bash
 npm run dev                # dev server (the user's own often occupies :3000 — use PORT=3001)
 npm run lint               # eslint
-npx tsc --noEmit           # typecheck (no test suite exists; this + lint is the bar)
+npx tsc --noEmit           # typecheck
+npm test                   # node:test (built-in runner, no framework) over src/**/*.test.ts
 npx prisma migrate dev     # apply/create migrations locally (needs Postgres)
 npm run db:seed            # seed categories
 npm run seed:content       # import /content JSON (validates every source URL — slow)
 npm run generate:content -- --category sales --count 10   # or --all / --top-up
 ```
+
+Those three are the bar. There is no integration or browser suite: the unit
+tests cover pure logic only (billing entitlement today), since anything
+touching the DB or a provider needs credentials CI doesn't have — so a change
+to something stateful is still verified by hand, per `.claude/skills/verify/SKILL.md`.
 
 Deploys run `scripts/start-prod.sh`: `prisma migrate deploy` + category seed block startup; content import and card enrichment run in the background after. A schema migration committed to `main` applies itself on the next deploy — no manual step.
 
@@ -92,12 +98,30 @@ traffic, and it cannot until the setup below exists. Until then
 1. A Play Console app record for `com.sparklet.android`, and the client
    uploaded to at least an internal testing track (Play Billing cannot be
    tested from a debug build sideloaded over adb).
-2. Subscription products created in Play Console.
+2. Subscription products created in Play Console. If more than one
+   subscription product ever exists, set `GOOGLE_PLAY_PRODUCT_IDS`
+   (comma-separated) to the ones that grant premium — unset means any
+   subscription under the package entitles, which is only correct while
+   premium is the only thing on sale.
 3. A Google Cloud service account with Play Developer API access, linked to
    the Play Console account, and its JSON key set as
    `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON` (whole JSON, single line).
 4. A Pub/Sub topic for Real-Time Developer Notifications, with a push
    subscription pointing at `/api/billing/google/notifications`.
+
+Two things about the Play rail that are easy to get backwards, both pinned by
+`src/lib/google-play.test.ts`:
+
+- `SUBSCRIPTION_STATE_CANCELED` means auto-renew is off, **not** that access has
+  ended — the user keeps the period they paid for, until `expiryTime`. Only
+  states that genuinely carry no entitlement (on hold, paused, pending) set
+  `googleRevoked`; expiry handles the rest, exactly as on the Apple rail, where
+  `appleRevoked` comes from `revocationDate` and never from a cancellation.
+- A failed verification is classified as retryable or not
+  (`isRetryablePlayFailure`). A 5xx, a 401/403 or a network error is transient,
+  so the RTDN route answers 503 and Pub/Sub redelivers; a 404/410/400 or a
+  non-premium product never changes on redelivery, so it is acknowledged and
+  logged instead of retried until the retention window closes.
 
 Note the RTDN endpoint verifies nothing about the *sender* — a Pub/Sub push
 carries no signature, unlike Apple's signed JWS or Stripe's signed header.

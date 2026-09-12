@@ -6,6 +6,7 @@ import { isPremium } from "@/lib/billing";
 import {
   applyGooglePurchase,
   isGooglePlayBillingEnabled,
+  isRetryablePlayFailure,
   verifyGooglePurchase,
 } from "@/lib/google-play";
 
@@ -39,8 +40,14 @@ export async function POST(req: NextRequest) {
   let purchase;
   try {
     purchase = await verifyGooglePurchase(parsed.data.purchaseToken);
-  } catch {
-    return NextResponse.json({ error: "could not verify purchase" }, { status: 400 });
+  } catch (err) {
+    // Google being unreachable is not a verdict on the token, and not the
+    // client's fault: 503 tells the app to try again on the next launch or
+    // restore. A 400 here reads as "your purchase is invalid" and would send
+    // someone with a perfectly good subscription to support instead.
+    return isRetryablePlayFailure(err)
+      ? NextResponse.json({ error: "could not reach Google to verify; try again" }, { status: 503 })
+      : NextResponse.json({ error: "could not verify purchase" }, { status: 400 });
   }
 
   // Already linked to a different account — one Play subscription unlocks one

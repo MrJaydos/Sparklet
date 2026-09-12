@@ -54,17 +54,37 @@ test("adding the google rail left the apple rail untouched", () => {
   assert.equal(isPremiumViaAppStore({ appleExpiresAt: future(), appleRevoked: true }), false);
 });
 
+// isPremiumViaStripe() short-circuits on an unset STRIPE_SECRET_KEY, so the
+// Stripe rail is dead in a bare test environment — and any assertion about
+// preferring another rail over it would pass no matter which one
+// premiumSource() actually checks first. Configure it for the duration.
+function withStripeConfigured(fn: () => void): void {
+  const before = process.env.STRIPE_SECRET_KEY;
+  process.env.STRIPE_SECRET_KEY = "sk_test_not_a_real_key";
+  try {
+    fn();
+  } finally {
+    if (before === undefined) delete process.env.STRIPE_SECRET_KEY;
+    else process.env.STRIPE_SECRET_KEY = before;
+  }
+}
+
 // Store rails win over Stripe: Stripe's customer portal can't cancel them, and
 // pointing someone at the wrong place to cancel is worse than being right
 // about the other one.
 test("premiumSource prefers store rails over stripe", () => {
-  const stripeLive = {
-    ...none,
-    stripeSubscriptionStatus: "active",
-    stripeCurrentPeriodEnd: future(),
-  };
-  assert.equal(premiumSource({ ...stripeLive, googleExpiresAt: future() }), "play_store");
-  assert.equal(premiumSource({ ...stripeLive, appleExpiresAt: future() }), "app_store");
+  withStripeConfigured(() => {
+    const stripeLive = {
+      ...none,
+      stripeSubscriptionStatus: "active",
+      stripeCurrentPeriodEnd: future(),
+    };
+    // Guards the guard: if this said null, the two assertions below would be
+    // comparing against a rail that wasn't live in the first place.
+    assert.equal(premiumSource(stripeLive), "stripe");
+    assert.equal(premiumSource({ ...stripeLive, googleExpiresAt: future() }), "play_store");
+    assert.equal(premiumSource({ ...stripeLive, appleExpiresAt: future() }), "app_store");
+  });
   assert.equal(premiumSource(none), null);
 });
 

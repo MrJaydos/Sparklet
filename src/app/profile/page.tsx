@@ -18,7 +18,26 @@ import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
 import { HistoryList, type HistoryRow } from "@/components/HistoryList";
 
 export const metadata = { title: "Profile — Sparklet" };
+
 export const dynamic = "force-dynamic";
+
+// A store-billed subscription can't be managed from here — each store owns
+// cancellation, and pointing someone at the wrong place is worse than saying
+// nothing. Keyed by premiumSource so a newly added rail can't silently fall
+// through to an unlabelled badge: that is exactly what happened when Google
+// Play landed and only /upgrade learned about it.
+const STORE_BILLING_COPY = {
+  app_store: {
+    label: "📱 Purchased through the iOS app",
+    manage:
+      "This subscription is billed by Apple, not Sparklet — manage or cancel it on your device under Settings → [your name] → Subscriptions.",
+  },
+  play_store: {
+    label: "📱 Purchased through the Android app",
+    manage:
+      "This subscription is billed by Google Play, not Sparklet — manage or cancel it in the Play Store under Menu → Payments & subscriptions.",
+  },
+} as const;
 
 function formatWhen(d: Date) {
   const days = Math.floor((Date.now() - d.getTime()) / 86_400_000);
@@ -173,6 +192,11 @@ export default async function ProfilePage() {
     revalidatePath("/profile");
   }
 
+  const storeBilling =
+    session.user.premiumSource && session.user.premiumSource !== "stripe"
+      ? STORE_BILLING_COPY[session.user.premiumSource]
+      : null;
+
   return (
     <>
       <AppHeader
@@ -254,21 +278,18 @@ export default async function ProfilePage() {
               <p className="mt-1 text-xs text-neutral-400">
                 Ad-free, with unlimited Deeper and Extra-deep reading.
               </p>
-              {session.user.premiumSource === "app_store" && (
+              {storeBilling && (
                 <>
                   <p className="mt-2 flex items-center gap-1.5 text-xs font-medium text-neutral-300">
-                    📱 Purchased through the iOS app
+                    {storeBilling.label}
                   </p>
-                  <p className="mt-1 text-xs text-neutral-500">
-                    This subscription is billed by Apple, not Sparklet — manage or cancel it on
-                    your device under Settings → [your name] → Subscriptions.
-                  </p>
+                  <p className="mt-1 text-xs text-neutral-500">{storeBilling.manage}</p>
                 </>
               )}
               {/* Independent of premiumSource above: a user could (rarely) have a live
-                  subscription on both platforms, e.g. they subscribed on the web first and
-                  separately bought in the app — the App Store one can't be managed here, but
-                  don't hide their ability to stop the Stripe one just because App Store is
+                  subscription on two platforms, e.g. they subscribed on the web first and
+                  separately bought in the app — the store one can't be managed here, but
+                  don't hide their ability to stop the Stripe one just because a store rail is
                   the one driving the "you're premium" badge. */}
               {isPremiumViaStripe(user) && (
                 <BillingButton

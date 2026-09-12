@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   applyGooglePurchaseByToken,
   isGooglePlayBillingEnabled,
+  isRetryablePlayFailure,
   verifyGooglePurchase,
 } from "@/lib/google-play";
 
@@ -73,16 +74,34 @@ export async function POST(req: NextRequest) {
   try {
     const purchase = await verifyGooglePurchase(purchaseToken);
     await applyGooglePurchaseByToken(purchase);
-  } catch {
-    // Deliberately diverges from the Apple notifications route, which
-    // acknowledges everything. There the payload is self-contained and signed,
-    // so a failure to verify it will fail identically on redelivery. Here the
-    // work is an outbound call to Google plus a DB write, and both fail
-    // transiently — a 5xx asks Pub/Sub to redeliver, which is exactly what
-    // should happen when a refund couldn't be recorded because the API
-    // blipped. Pub/Sub gives up on its own after the subscription's retention
-    // window, so this cannot retry forever.
-    return NextResponse.json({ error: "could not reconcile" }, { status: 503 });
+  } catch (err) {
+    if (isRetryablePlayFailure(err)) {
+      // Deliberately diverges from the Apple notifications route, which
+      // acknowledges everything. There the payload is self-contained and
+      // signed, so a failure to verify it will fail identically on redelivery.
+      // Here the work is an outbound call to Google plus a DB write, and both
+      // fail transiently — a 5xx asks Pub/Sub to redeliver, which is exactly
+      // what should happen when a refund couldn't be recorded because the API
+      // blipped. Pub/Sub gives up on its own after the subscription's
+      // retention window, so this cannot retry forever.
+      return NextResponse.json({ error: "could not reconcile" }, { status: 503 });
+    }
+
+    // Permanent, though: an unknown or aged-out token, or a product that
+    // doesn't entitle, answers identically however often Pub/Sub resends it.
+    // Retrying those until the retention window closes would look like a
+    // backlog of unrecorded refunds and be nothing of the kind, so
+    // acknowledge and log instead — a notification about a token Google won't
+    // describe is worth a human's attention, not a retry loop. Entitlement is
+    // left alone and lapses at the stored expiry on its own, which is the
+    // whole point of deriving it rather than storing a boolean. The token
+    // itself is not logged: it's the subscription's credential.
+    console.error(
+      `[billing/google] RTDN could not be reconciled and will not be retried: ${
+        err instanceof Error ? err.message : String(err)
+      }`
+    );
+    return NextResponse.json({ received: true });
   }
 
   return NextResponse.json({ received: true });

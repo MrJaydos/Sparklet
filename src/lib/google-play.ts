@@ -42,6 +42,19 @@ export function isGooglePlayBillingEnabled(): boolean {
   return serviceAccount() !== null;
 }
 
+// Optional allowlist of subscription product ids that grant premium, as a
+// comma-separated env var. Unset keeps today's behaviour — any subscription
+// under PACKAGE_NAME entitles — which is correct while premium is the only
+// product Play Console sells. Set it the moment a second subscription product
+// exists, or buying the cheaper one would unlock everything. Checked against
+// the product ids Google returns, never anything the client sent.
+function allowedProductIds(): string[] {
+  return (process.env.GOOGLE_PLAY_PRODUCT_IDS ?? "")
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+}
+
 let auth: GoogleAuth | null | undefined;
 function getAuth(): GoogleAuth | null {
   if (auth !== undefined) return auth;
@@ -51,6 +64,42 @@ function getAuth(): GoogleAuth | null {
   // transitively imports billing.
   auth = credentials ? new GoogleAuth({ credentials, scopes: [SCOPE] }) : null;
   return auth;
+}
+
+/**
+ * A verification that didn't produce an answer, carrying whether asking again
+ * later could plausibly produce one. That single bit is what separates
+ * acknowledging a Real-Time Developer Notification from asking Pub/Sub to
+ * redeliver it, and a "try again" from a "that token is not a purchase" in the
+ * client-driven route.
+ */
+export class PlayVerificationError extends Error {
+  constructor(
+    message: string,
+    readonly retryable: boolean
+  ) {
+    super(message);
+    this.name = "PlayVerificationError";
+  }
+}
+
+/**
+ * Whether a failed verification is worth retrying. Anything that isn't a
+ * PlayVerificationError — a DNS failure, a socket reset, the auth library
+ * failing to mint a token — is transient by assumption: treating an unknown
+ * failure as permanent is how a refund gets silently dropped.
+ */
+export function isRetryablePlayFailure(err: unknown): boolean {
+  return err instanceof PlayVerificationError ? err.retryable : true;
+}
+
+// 5xx/408/429 are transient by definition. 401/403 mean the service account's
+// credentials or Play API access are wrong — a deployment gap someone can fix,
+// so a redelivery afterwards should still land rather than having been dropped
+// while the endpoint was misconfigured. Everything else (400 malformed, 404
+// unknown token, 410 aged out) fails identically however often it is resent.
+function statusIsRetryable(status: number): boolean {
+  return status >= 500 || status === 408 || status === 429 || status === 401 || status === 403;
 }
 
 // What the two callers actually need out of a subscription, normalised away
@@ -65,56 +114,57 @@ export type GooglePurchase = {
   linkedPurchaseToken: string | null;
 };
 
-type SubscriptionV2Response = {
+export type SubscriptionV2Response = {
   subscriptionState?: string;
   linkedPurchaseToken?: string;
-  lineItems?: Array<{ expiryTime?: string }>;
+  lineItems?: Array<{ expiryTime?: string; productId?: string }>;
 };
 
 // States that mean "this subscription is not currently entitling anyone".
+//
 // EXPIRED is deliberately absent: an expired subscription is handled by the
 // expiry timestamp alone, exactly as Apple's is, so a clock comparison
 // remains the single source of truth for the common case.
+//
+// CANCELED is deliberately absent too, and that one is load-bearing. In the
+// Play API it does NOT mean "access has ended" — it means auto-renew is off
+// and the subscription has not expired yet, so the user keeps the period they
+// have already paid for, until expiryTime. Listing it here cut premium off the
+// instant someone cancelled, which also contradicted the Apple rail, where
+// appleRevoked comes from revocationDate (refund/chargeback) and never from a
+// cancellation. IN_GRACE_PERIOD is absent for the same reason: still entitled.
+//
+// PENDING is present because the opposite holds there — the purchase exists
+// but payment hasn't completed, so nothing has been bought yet.
 const REVOKED_STATES = new Set([
-  "SUBSCRIPTION_STATE_CANCELED",
+  "SUBSCRIPTION_STATE_PENDING",
   "SUBSCRIPTION_STATE_ON_HOLD",
   "SUBSCRIPTION_STATE_PAUSED",
   "SUBSCRIPTION_STATE_PENDING_PURCHASE_CANCELED",
 ]);
 
 /**
- * Verifies a purchase token against Google and normalises the result.
- * Throws if billing isn't configured or Google rejects the token — callers
- * map that to a 4xx/503 rather than trusting anything the client said.
+ * Google's answer about a subscription → what this app stores.
  *
- * Note what is NOT trusted here: the client sends only the opaque purchase
- * token. Expiry, entitlement and revocation all come back from Google, so a
- * forged or replayed token can't grant anything — the Android equivalent of
- * why apple-iap.ts verifies the JWS signature rather than reading its
- * payload.
+ * Split out from the fetch so the entitlement rules — which states revoke,
+ * which expiry governs, which products count — are testable without a network
+ * or a service account. src/lib/google-play.test.ts pins them.
  */
-export async function verifyGooglePurchase(purchaseToken: string): Promise<GooglePurchase> {
-  const googleAuth = getAuth();
-  if (!googleAuth) throw new Error("google play billing not configured");
-
-  const client = await googleAuth.getClient();
-  const { token } = await client.getAccessToken();
-  if (!token) throw new Error("could not obtain a Play Developer API access token");
-
-  const url =
-    `https://androidpublisher.googleapis.com/androidpublisher/v3/applications/` +
-    `${encodeURIComponent(PACKAGE_NAME)}/purchases/subscriptionsv2/tokens/` +
-    `${encodeURIComponent(purchaseToken)}`;
-
-  const response = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
-  if (!response.ok) {
-    // Includes 404 for a token that never existed and 410 for one Google has
-    // aged out — both mean "don't grant anything", which is what throwing
-    // achieves here.
-    throw new Error(`play developer api returned ${response.status}`);
+export function normalizeSubscription(
+  purchaseToken: string,
+  body: SubscriptionV2Response
+): GooglePurchase {
+  const allowed = allowedProductIds();
+  if (allowed.length > 0) {
+    const products = (body.lineItems ?? [])
+      .map((item) => item.productId)
+      .filter((value): value is string => typeof value === "string");
+    if (!products.some((product) => allowed.includes(product))) {
+      // A real purchase of something that isn't premium. Permanent: the same
+      // token will describe the same product forever.
+      throw new PlayVerificationError("purchase is not for a premium product", false);
+    }
   }
-
-  const body = (await response.json()) as SubscriptionV2Response;
 
   // A subscription can have several line items (a plan change mid-cycle);
   // the furthest expiry is the one that actually governs access.
@@ -136,6 +186,51 @@ export async function verifyGooglePurchase(purchaseToken: string): Promise<Googl
 }
 
 /**
+ * Verifies a purchase token against Google and normalises the result.
+ * Throws if billing isn't configured or Google rejects the token — callers
+ * map that to a 4xx/503 rather than trusting anything the client said, using
+ * isRetryablePlayFailure() to decide which.
+ *
+ * Note what is NOT trusted here: the client sends only the opaque purchase
+ * token. Expiry, entitlement and revocation all come back from Google, so a
+ * forged or replayed token can't grant anything — the Android equivalent of
+ * why apple-iap.ts verifies the JWS signature rather than reading its
+ * payload.
+ */
+export async function verifyGooglePurchase(purchaseToken: string): Promise<GooglePurchase> {
+  const googleAuth = getAuth();
+  // Retryable: no credentials is a deployment gap that may be fixed by the
+  // time a notification is redelivered.
+  if (!googleAuth) throw new PlayVerificationError("google play billing not configured", true);
+
+  const client = await googleAuth.getClient();
+  const { token } = await client.getAccessToken();
+  if (!token) {
+    throw new PlayVerificationError("could not obtain a Play Developer API access token", true);
+  }
+
+  const url =
+    `https://androidpublisher.googleapis.com/androidpublisher/v3/applications/` +
+    `${encodeURIComponent(PACKAGE_NAME)}/purchases/subscriptionsv2/tokens/` +
+    `${encodeURIComponent(purchaseToken)}`;
+
+  const response = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+  if (!response.ok) {
+    // Includes 404 for a token that never existed and 410 for one Google has
+    // aged out — both mean "don't grant anything", which is what throwing
+    // achieves here. Neither is worth retrying; a 5xx or a credential problem
+    // is (see statusIsRetryable).
+    throw new PlayVerificationError(
+      `play developer api returned ${response.status}`,
+      statusIsRetryable(response.status)
+    );
+  }
+
+  const body = (await response.json()) as SubscriptionV2Response;
+  return normalizeSubscription(purchaseToken, body);
+}
+
+/**
  * Absolute-upsert onto a known user, mirroring applyAppleTransaction: writes
  * whatever Google says rather than incrementing or toggling, since a token
  * can be resubmitted on every app launch and a notification redelivered.
@@ -153,24 +248,32 @@ export async function applyGooglePurchase(
   userId: string,
   purchase: GooglePurchase
 ): Promise<ApplyResult> {
-  // Resubscribing issues a fresh token that supersedes the old one. Release
-  // the superseded token first, or its unique claim blocks the new row and
-  // this returns "claimed" against the user's own previous subscription.
-  if (purchase.linkedPurchaseToken) {
-    await prisma.user.updateMany({
-      where: { googlePurchaseToken: purchase.linkedPurchaseToken },
-      data: { googlePurchaseToken: null },
-    });
-  }
-
   try {
-    await prisma.user.update({
-      where: { id: userId },
-      data: {
-        googlePurchaseToken: purchase.purchaseToken,
-        googleExpiresAt: purchase.expiresAt,
-        googleRevoked: purchase.revoked,
-      },
+    // One transaction so a failed claim doesn't leave the superseded token
+    // released. Resubscribing issues a fresh token that supersedes the old
+    // one, and releasing the old one keeps a dangling unique claim from
+    // outliving the subscription it described — but if the new token turns out
+    // to belong to another account, that release has to roll back with the
+    // rest, or this would strip a token off a row while telling the caller
+    // nothing changed. The superseded row keeps its expiry: it is time
+    // somebody paid for, and it lapses on its own (the same reason nothing
+    // here is stored as a boolean).
+    await prisma.$transaction(async (tx) => {
+      if (purchase.linkedPurchaseToken) {
+        await tx.user.updateMany({
+          where: { googlePurchaseToken: purchase.linkedPurchaseToken },
+          data: { googlePurchaseToken: null },
+        });
+      }
+
+      await tx.user.update({
+        where: { id: userId },
+        data: {
+          googlePurchaseToken: purchase.purchaseToken,
+          googleExpiresAt: purchase.expiresAt,
+          googleRevoked: purchase.revoked,
+        },
+      });
     });
     return "ok";
   } catch (err) {
