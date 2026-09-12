@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.112Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first 3D computer animation was a plaster cast of a future Pixar founder's hand",
+      "body": "In 1972, long before founding Pixar, computer graphics pioneer Edwin Catmull created the world's first 3D computer-animated film. Catmull painstakingly drew 350 polygons across a plaster cast of his own left hand, measured their coordinates, and wrote software to render the model in motion. The resulting four-minute silent short was so revolutionary that the Library of Congress inducted it into the National Film Registry in 2011.",
+      "imageWikipediaTitle": "A Computer Animated Hand",
+      "sources": [
+        {
+          "title": "Complete National Film Registry Listing",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/programs/national-film-preservation-board/film-registry/complete-national-film-registry-listing/"
+        },
+        {
+          "title": "A Computer Animated Hand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Computer_Animated_Hand"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/programs/national-film-preservation-board/film-registry/complete-national-film-registry-listing/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1973 court ruling stripped ENIAC of its title as the first electronic computer",
+      "body": "For decades, textbooks celebrated the massive 1945 ENIAC as the world's first electronic computer. That changed in 1973, when a federal judge invalidated the ENIAC patent following a bitter corporate lawsuit. The court found that ENIAC co-inventor John Mauchly had derived key concepts—including binary arithmetic and regenerative capacitor memory—from a visit with physicist John Atanasoff, who had built a desktop-sized computing prototype at Iowa State College years earlier.",
+      "imageWikipediaTitle": "Atanasoff–Berry computer",
+      "sources": [
+        {
+          "title": "The Atanasoff-Berry Computer",
+          "publisher": "Iowa State University",
+          "url": "https://www.ece.iastate.edu/the-atanasoff-berry-computer/"
+        },
+        {
+          "title": "Atanasoff–Berry computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atanasoff%E2%80%93Berry_computer"
+        }
+      ],
+      "readMoreUrl": "https://www.ece.iastate.edu/the-atanasoff-berry-computer/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first practical silicon solar cell powered a toy Ferris wheel in 1954",
+      "body": "In April 1954, Bell Labs researchers Daryl Chapin, Calvin Fuller, and Gerald Pearson unveiled the world's first practical silicon solar cell. It converted roughly 6% of sunlight into electricity, an efficiency high enough to power a small toy Ferris wheel during press demonstrations. Just four years later, the technology made its way into orbit aboard the Vanguard 1 satellite, powering its transmitter continuously for more than six years.",
+      "imageWikipediaTitle": "Solar cell",
+      "sources": [
+        {
+          "title": "April 25, 1954: Bell Labs Demonstrates the First Practical Silicon Solar Cell",
+          "publisher": "American Physical Society",
+          "url": "https://www.aps.org/publications/apsnews/200904/physicshistory.cfm"
+        },
+        {
+          "title": "Vanguard 1",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/mission/vanguard-1/"
+        },
+        {
+          "title": "Solar cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_cell"
+        }
+      ],
+      "readMoreUrl": "https://www.aps.org/publications/apsnews/200904/physicshistory.cfm",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The word 'hacker' began as high praise among model train enthusiasts",
+      "body": "Decades before the word became synonymous with cybercriminals, \"hacker\" emerged as a badge of honor at the MIT Tech Model Railroad Club in the late 1950s. Student members spending hours wiring telephone relays, track switches, and power supplies called any clever, unorthodox technical improvement a \"hack.\" Anyone who devised an ingenious shortcut or elegant hardware modification was proudly dubbed a \"hacker,\" creating a culture centered on curiosity and creative problem-solving.",
+      "imageWikipediaTitle": "Tech Model Railroad Club",
+      "sources": [
+        {
+          "title": "Hackers - Tech Model Railroad Club",
+          "publisher": "Massachusetts Institute of Technology",
+          "url": "https://tmrc.mit.edu/hackers-ref.html"
+        },
+        {
+          "title": "Hacker culture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hacker_culture"
+        }
+      ],
+      "readMoreUrl": "https://tmrc.mit.edu/hackers-ref.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The modern internet was born in a single 24-hour network shutdown",
+      "body": "The modern internet did not arrive through a gradual software update. On January 1, 1983, known as \"Flag Day,\" the US military's ARPANET abruptly shut down its original communications protocol, NCP, and switched entirely to TCP/IP. Every connected host computer across the entire network had to convert simultaneously on that single day or lose network access completely. The high-stakes cutover established the standard routing language that still underpins all web traffic today.",
+      "imageWikipediaTitle": "ARPANET",
+      "sources": [
+        {
+          "title": "Brief History of the Internet",
+          "publisher": "Internet Society",
+          "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
+        },
+        {
+          "title": "Flag day (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_day_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Whose hand was digitized to create the world's first 3D computer animation in 1972?",
+      "options": [
+        "Steve Jobs",
+        "Edwin Catmull",
+        "George Lucas",
+        "Alan Kay"
+      ],
+      "correctIndex": 1,
+      "explanation": "Edwin Catmull, who later co-founded Pixar, mapped 350 polygons onto a plaster model of his own left hand to produce the landmark short film."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did a US federal court invalidate the patent for the ENIAC computer in 1973?",
+      "options": [
+        "The patent application was submitted past the legal deadline",
+        "Its key concepts were derived from John Atanasoff's earlier machine",
+        "Military inventions were declared ineligible for private patents",
+        "The computer failed to perform stored program calculations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Judge Earl Larson ruled that ENIAC co-inventor John Mauchly derived fundamental concepts, including binary math and capacitor memory, from John Atanasoff."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which 1958 satellite proved the practical viability of silicon solar cells by transmitting from orbit for years?",
+      "options": [
+        "Sputnik 1",
+        "Explorer 1",
+        "Vanguard 1",
+        "Telstar 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Vanguard 1 was equipped with Bell Labs silicon solar cells, allowing its radio transmitter to operate continuously until 1964."
+    },
+    {
+      "cardIndex": 3,
+      "question": "At which university club did the term 'hacker' originate in the late 1950s?",
+      "options": [
+        "Stanford Artificial Intelligence Laboratory",
+        "MIT Tech Model Railroad Club",
+        "Harvard Computing Society",
+        "UC Berkeley Amateur Radio Club"
+      ],
+      "correctIndex": 1,
+      "explanation": "Members of MIT's Tech Model Railroad Club used 'hack' to describe clever, unconventional technical fixes to their relay control systems."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What communications protocol was permanently retired during ARPANET's 1983 'Flag Day'?",
+      "options": [
+        "HTTP",
+        "NCP (Network Control Program)",
+        "Ethernet",
+        "X.25"
+      ],
+      "correctIndex": 1,
+      "explanation": "ARPANET permanently disabled NCP on January 1, 1983, forcing every connected computer to adopt TCP/IP."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of sunlight could Bell Labs' first practical silicon solar cell convert into electricity in 1954?",
+      "answer": 6,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Bell Labs' 1954 solar cell operated at about 6% efficiency, proving that sunlight could directly generate usable electrical current."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "ENIAC was legally recognized as the very first electronic digital computer ever invented.",
+      "answer": false,
+      "explanation": "A 1973 federal court ruling invalidated the ENIAC patent, finding that core concepts had been borrowed from John Atanasoff's earlier prototype."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The word 'hacker' was originally coined to describe criminals who break into computers.",
+      "answer": false,
+      "explanation": "It originated as praise among MIT model train hobbyists who devised clever, harmless electrical modifications."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The internet transitioned to the modern TCP/IP standard through a single mandatory cutover date.",
+      "answer": true,
+      "explanation": "On January 1, 1983, ARPANET shut down its original NCP protocol entirely, requiring every machine to switch to TCP/IP immediately."
+    }
+  ]
+}

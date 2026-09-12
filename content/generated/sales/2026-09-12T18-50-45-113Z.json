@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.113Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Framing requests as choices boosts compliance",
+      "body": "When asking a prospect to take action, pairing your request with 'feel free' or 'it's entirely up to you' significantly improves agreement. Known in behavioral science as the But You Are Free technique, it neutralizes psychological reactance. By explicitly reminding the counterpart of their autonomy, their instinctive urge to resist pressure vanishes, making them far more likely to voluntarily consent to your proposal.",
+      "imageWikipediaTitle": "Autonomy",
+      "sources": [
+        {
+          "title": "But You Are Free technique",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/But_You_Are_Free_technique"
+        },
+        {
+          "title": "Testing the 'But You Are Free' Technique: A Meta-Analysis",
+          "publisher": "Communication Studies",
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/10510974.2012.727941"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/But_You_Are_Free_technique",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why saying 'should' in negotiation backfires",
+      "body": "Telling a negotiating partner what they 'should' do often triggers instant defensiveness. Linguistic research on moral imperatives shows that normative words like 'should' or 'ought' subtly imply judgment, shifting the conversation from problem-solving to an evaluation of integrity. Replacing 'You should consider this tiered plan' with 'One option that addresses your timeline is...' keeps focus squarely on shared objectives rather than personal obligation.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Defensiveness (psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Defensiveness_(psychology)"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negotiation",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Offer non-overlapping packages to prevent choice paralysis",
+      "body": "When presenting tiered options, ensure each package caters to a distinct customer profile rather than just offering slightly more of the same feature. Choice overload research led by Sheena Iyengar showed that when distinctions between alternatives blur, buyers postpone decisions entirely. Clear categorical differentiation helps buyers instantly identify their matching profile, drastically shortening the sales cycle.",
+      "imageWikipediaTitle": "Overchoice",
+      "sources": [
+        {
+          "title": "Overchoice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Overchoice"
+        },
+        {
+          "title": "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?",
+          "publisher": "Columbia University",
+          "url": "https://faculty.chicagobooth.edu/sheena-iyengar/research"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Overchoice",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The power of summarizing before pitching a solution",
+      "body": "Before pitching your solution, summarize your client's core problem in their own terms and ask, 'Did I capture that accurately?' In hostage negotiation and executive coaching, this active listening loop triggers what Chris Voss terms the 'That's right' breakthrough. Reaching mutual confirmation signals deep empathy, which lowers defensive barriers and establishes psychological safety before any commercial terms are discussed.",
+      "imageWikipediaTitle": "Active listening",
+      "sources": [
+        {
+          "title": "Active listening",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Active_listening"
+        },
+        {
+          "title": "Reflective listening",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reflective_listening"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Active_listening",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why open-ended questions beat yes-or-no qualifiers",
+      "body": "Asking 'Do you have budget for this quarter?' invites a protective 'No'. In contrast, opening with 'How is your team allocating budget for these priorities?' turns a binary confrontation into a cooperative exploration. Open-ended inquiries prevent early conversational dead ends, giving prospects space to explain complex constraints without feeling cornered into rejecting the pitch outright.",
+      "imageWikipediaTitle": "Question",
+      "sources": [
+        {
+          "title": "Closed-ended question",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Closed-ended_question"
+        },
+        {
+          "title": "Open-ended question",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Open-ended_question"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Open-ended_question",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What psychological barrier does reminding a prospect of their freedom to choose help overcome?",
+      "options": [
+        "Psychological reactance",
+        "The anchoring heuristic",
+        "Choice blindness",
+        "The halo effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reminding prospects they are free to decline directly disarms psychological reactance, their defensive instinct against being coerced."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does using the word 'should' often harm sales negotiations?",
+      "options": [
+        "It implies moral obligation or judgment, triggering defensiveness",
+        "It makes the salesperson sound unconfident",
+        "It confuses the client about pricing tiers",
+        "It makes the pitch take too much time"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normative words like 'should' subtly evaluate the counterpart's behavior rather than focusing on shared business problems."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How can sellers prevent choice paralysis when offering multi-tier options?",
+      "options": [
+        "Provide dozens of minor feature variations",
+        "Make packages distinctly target different user profiles",
+        "Keep the exact differences hidden until payment",
+        "Offer only one tier with no upgrades"
+      ],
+      "correctIndex": 1,
+      "explanation": "Clearly differentiated, non-overlapping categories help buyers quickly self-identify, avoiding the paralysis caused by comparing minor variations."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the primary benefit of summarizing a client's problem before presenting a solution?",
+      "options": [
+        "It proves the meeting took sufficient time",
+        "It creates mutual understanding and lowers defensive barriers",
+        "It forces the client into a legal commitment",
+        "It eliminates all need for follow-up emails"
+      ],
+      "correctIndex": 1,
+      "explanation": "Summarizing accurately demonstrates active listening, building rapport and ensuring the prospect feels genuinely understood before hearing a pitch."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are open-ended questions preferred over yes-or-no questions in sales discovery?",
+      "options": [
+        "They prevent binary rejections and uncover underlying constraints",
+        "They guarantee the prospect agrees to sign immediately",
+        "They make sales scripts easier to memorize",
+        "They prevent the prospect from asking questions in return"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open-ended questions avoid early conversational dead ends and encourage prospects to explain their actual needs and context."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Reminding a prospect that they are completely free to say no makes them more likely to walk away.",
+      "answer": false,
+      "explanation": "The 'But You Are Free' technique shows that explicitly affirming someone's autonomy actually increases compliance by removing perceived pressure."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Using authoritative language like 'you should' makes negotiators appear more persuasive.",
+      "answer": false,
+      "explanation": "Language like 'should' implies judgment, which consistently triggers defensive reactance rather than persuasion."
+    }
+  ]
+}

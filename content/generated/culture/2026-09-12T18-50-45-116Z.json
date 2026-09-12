@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.116Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sculpted Coffins That Turn Funerals into Celebrations",
+      "body": "In Ghana's Greater Accra region, Ga artisans sculpt burial coffins into giant chili peppers, luxury cars, fish, and airplanes. Known as abebuu adekai, or proverb boxes, these custom vessels celebrate the deceased's profession, personality, or unfulfilled dreams. Originating in the mid-20th century with master carpenters like Kane Kwei, the vibrant sculptures reflect a cultural conviction that ancestors must enter the afterlife with prestige, transforming grief into collective celebration.",
+      "imageWikipediaTitle": "Fantasy coffin",
+      "sources": [
+        {
+          "title": "Cocoa pod coffin by Kane Kwei",
+          "publisher": "British Museum",
+          "url": "https://www.britishmuseum.org/collection/object/E_Af1993-01-1"
+        },
+        {
+          "title": "Fantasy coffin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fantasy_coffin"
+        }
+      ],
+      "readMoreUrl": "https://www.britishmuseum.org/collection/object/E_Af1993-01-1",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Complex Island Maps Traced Without Lifting a Finger",
+      "body": "In the archipelago of Vanuatu, master practitioners trace intricate, symmetrical labyrinths into sand, volcanic ash, or clay using a single finger. Known as sandroing, each geometric design must be drawn in one continuous, uninterrupted stroke. More than ephemeral art, these compositions serve as an ingenious mnemonic system, encoding ancestral songs, mythologies, ritual laws, and navigational knowledge across an island nation with over one hundred indigenous spoken languages.",
+      "imageWikipediaTitle": "Vanuatu sand drawing",
+      "sources": [
+        {
+          "title": "Vanuatu sand drawing",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/sand-drawing-00073"
+        },
+        {
+          "title": "Vanuatu sand drawing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vanuatu_sand_drawing"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/sand-drawing-00073",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Malian Fabric Dyed with Fermented River Mud",
+      "body": "Mali's iconic bògòlanfini textile turns handwoven cotton into intricate patterned garments using fermented river mud. Artists first steep raw cotton in a rich tannic bath brewed from mashed tree leaves, turning the fabric yellow. They then paint geometric motifs with iron-rich mud gathered from riverbeds and fermented in clay pots for up to a year. The iron reacts chemically with the tannins, creating a jet-black dye that washing cannot fade.",
+      "imageWikipediaTitle": "Bògòlanfini",
+      "sources": [
+        {
+          "title": "Textile: Bògòlanfini",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/317641"
+        },
+        {
+          "title": "Bògòlanfini",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/B%C3%B2g%C3%B2lanfini"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/art/collection/search/317641",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Swirling Street Art Born on Buenos Aires Delivery Carts",
+      "body": "In early 20th-century Buenos Aires, immigrant cart-painters transformed mundane horse-drawn delivery wagons into mobile art with a decorative style called filete porteño. Characterized by vivid pigments, illusionistic shading, acanthus leaves, and national ribbons, each painting almost always features a pithy rhyming proverb. Though Buenos Aires banned the decorative style on city buses in 1975 for being overly ornate, fileteadores kept the craft alive on cafe windows, instruments, and signs.",
+      "imageWikipediaTitle": "Fileteado",
+      "sources": [
+        {
+          "title": "Filete porteño in Buenos Aires, a traditional painting technique",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/filete-porteno-in-buenos-aires-a-traditional-painting-technique-01069"
+        },
+        {
+          "title": "Fileteado",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fileteado"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/filete-porteno-in-buenos-aires-a-traditional-painting-technique-01069",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 21-String Gourd Harp That Holds Centuries of History",
+      "body": "Constructed from a massive halved calabash gourd wrapped in cowhide, the kora is a 21-string harp-lute central to West Africa's Mandinka culture. Plucked using only the thumbs and index fingers of both hands, its layered, cascading sound resembles a blend of classical harp and flamenco guitar. For centuries, hereditary bardic historians called griots have used the instrument to accompany oral epics, preserving dynastic genealogies and cultural history without writing.",
+      "imageWikipediaTitle": "Kora (instrument)",
+      "sources": [
+        {
+          "title": "Kora",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/501309"
+        },
+        {
+          "title": "Kora (instrument)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kora_(instrument)"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/art/collection/search/501309",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What do the shapes of Ghana's fantasy coffins typically represent?",
+      "options": [
+        "The deceased person's sins or moral failures",
+        "The deceased's trade, status, or personal dreams",
+        "Astrological star alignments recorded at death",
+        "Universal patterns mandated by religious laws"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ga fantasy coffins are sculpted as objects like fish, tools, or vehicles to celebrate the deceased's livelihood, passions, or social standing."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What rule governs traditional sand drawing in Vanuatu?",
+      "options": [
+        "It must be drawn using three fingers at once",
+        "It must be executed underwater on reef flats",
+        "It must be drawn in a single continuous line without lifting the finger",
+        "It can only be drawn using a polished human bone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Master storytellers in Vanuatu create each intricate, symmetrical drawing in one continuous, unbroken stroke."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How is the permanent black color created in Malian bògòlanfini (mud cloth)?",
+      "options": [
+        "Iron in fermented river mud reacts with plant tannins in the cloth",
+        "Crushed charcoal is mixed with melted animal tallow",
+        "The fabric is scorched over an open volcanic clay kiln",
+        "Volcanic ash is bonded to cotton with bee venom"
+      ],
+      "correctIndex": 0,
+      "explanation": "A chemical reaction occurs between the iron in aged river mud and the tannins from pre-soaked tree leaves, creating an indelible black dye."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where did the painting tradition of filete porteño first emerge in Buenos Aires?",
+      "options": [
+        "On horse-drawn delivery carts",
+        "On the hulls of transatlantic steamships",
+        "On the wooden ceilings of Jesuit cathedrals",
+        "On traditional leather tango shoes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Immigrant cart-painters developed filete porteño in the early 20th century to decorate humble delivery wagons carrying food across Buenos Aires."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many strings are found on a standard traditional West African kora?",
+      "options": [
+        "7",
+        "12",
+        "21",
+        "36"
+      ],
+      "correctIndex": 2,
+      "explanation": "The traditional Mandinka kora features 21 strings split into two parallel ranks, plucked exclusively with the thumbs and index fingers."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many strings are stretched across a traditional West African kora?",
+      "answer": 21,
+      "min": 4,
+      "max": 50,
+      "unit": "",
+      "explanation": "A traditional kora has 21 strings arranged in two parallel rows and is played using only two fingers on each hand."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Ga fantasy coffins are somber objects designed to evoke solemn mourning and grief.",
+      "answer": false,
+      "explanation": "Fantasy coffins are joyous, colorful celebrations of a person's life, created to usher them into the ancestral realm with pride and triumph."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Traditional mud cloth gets its black patterns from charcoal or soot.",
+      "answer": false,
+      "explanation": "The dark color is produced by a chemical reaction between iron in fermented riverbed mud and organic tannins applied to the fabric."
+    }
+  ]
+}

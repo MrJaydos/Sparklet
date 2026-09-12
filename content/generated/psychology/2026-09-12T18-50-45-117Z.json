@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.117Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Morning light can treat winter depression as effectively as medication",
+      "body": "Seasonal affective disorder strikes when shorter winter days disrupt the brain's circadian clock, reducing serotonin activity and overproducing melatonin. Clinical trials show that sitting before a 10,000-lux light box for thirty minutes each morning can alleviate symptoms as effectively as standard antidepressant medications. The intense artificial light mimics sunrise, signaling the hypothalamus to reset sleep-wake cycles and boost daytime alertness without pharmaceutical side effects.",
+      "imageWikipediaTitle": "Seasonal affective disorder",
+      "sources": [
+        {
+          "title": "Seasonal Affective Disorder",
+          "publisher": "National Institute of Mental Health",
+          "url": "https://www.nimh.nih.gov/health/topics/seasonal-affective-disorder"
+        },
+        {
+          "title": "Seasonal affective disorder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seasonal_affective_disorder"
+        }
+      ],
+      "readMoreUrl": "https://www.nimh.nih.gov/health/topics/seasonal-affective-disorder",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When your conscious mind wakes up before your body can move",
+      "body": "Sleep paralysis occurs when your conscious mind wakes up while your body remains trapped in rapid eye movement (REM) atonia. During REM sleep, the brainstem floods motor neurons with inhibitory neurotransmitters—glycine and GABA—to prevent you from physically acting out dreams. If you awaken before this chemical block clears, you experience complete physical paralysis alongside hypnopompic hallucinations, often sensing a menacing intruder in the room.",
+      "imageWikipediaTitle": "Sleep paralysis",
+      "sources": [
+        {
+          "title": "Sleep Paralysis",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK562322/"
+        },
+        {
+          "title": "Sleep paralysis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleep_paralysis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK562322/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why doubling your options doesn't double your decision time",
+      "body": "Hick's Law reveals that decision time does not increase in a straight line as choices multiply—it scales logarithmically. Every time the total number of options doubles, the time required to choose increases by a constant interval rather than doubling. This happens because the human brain navigates menus and environments through rapid, hierarchical elimination, subdividing possibilities in half rather than scanning every individual option one by one.",
+      "imageWikipediaTitle": "Hick's law",
+      "sources": [
+        {
+          "title": "Hick's law",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/hicks-law"
+        },
+        {
+          "title": "Hick's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hick%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.apa.org/hicks-law",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pushing someone feels morally different from flipping a switch",
+      "body": "In moral psychology, brain scans reveal why people treat two identical outcomes differently. When asked to flip a switch diverting a runaway trolley to kill one person instead of five, subjects activate analytical, working-memory networks. But when asked to physically push a stranger off a bridge to stop the train, the brain's emotional centers—notably the amygdala—flare instantly, triggering a powerful, visceral moral veto against direct physical violence.",
+      "imageWikipediaTitle": "Trolley problem",
+      "sources": [
+        {
+          "title": "trolley problem",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/trolley-problem"
+        },
+        {
+          "title": "Trolley problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trolley_problem"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.apa.org/trolley-problem",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why two identical lines look completely different on railroad tracks",
+      "body": "In the Ponzo illusion, two identical horizontal lines appear drastically different in length when drawn over converging railroad tracks. The human visual system automatically interprets converging lines as parallel tracks receding into three-dimensional depth. Because the brain assumes the upper bar is farther away in space, your visual cortex scales up its perceived size to account for distance, tricking your conscious perception into seeing it as significantly longer.",
+      "imageWikipediaTitle": "Ponzo illusion",
+      "sources": [
+        {
+          "title": "Ponzo illusion",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/ponzo-illusion"
+        },
+        {
+          "title": "Ponzo illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ponzo_illusion"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.apa.org/ponzo-illusion",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does morning bright light therapy help relieve the symptoms of seasonal affective disorder?",
+      "options": [
+        "It increases core body temperature to match summer levels",
+        "It resets the circadian clock and balances serotonin and melatonin",
+        "It generates ultraviolet radiation that synthesizes endorphins",
+        "It activates the visual cortex to stimulate long-term memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Exposure to 10,000-lux light resets the hypothalamus's circadian pacemaker, regulating the timing of melatonin and serotonin release."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What causes the physical inability to move during an episode of sleep paralysis?",
+      "options": [
+        "A sudden drop in blood pressure to skeletal muscles",
+        "Lactic acid buildup from rapid eye movement sleep",
+        "Chemical inhibition of motor neurons by GABA and glycine during REM sleep",
+        "A temporary disconnect between the left and right cerebral hemispheres"
+      ],
+      "correctIndex": 2,
+      "explanation": "During REM sleep, inhibitory neurotransmitters like GABA and glycine suppress motor neuron activity to keep you from acting out dreams; in sleep paralysis, this persists after waking."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Hick's Law, how does reaction time change as the number of choices increases?",
+      "options": [
+        "It increases exponentially with each added option",
+        "It increases logarithmically with the number of options",
+        "It increases linearly by a fixed number of seconds per option",
+        "It remains constant until choices exceed seven items"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hick's Law states that decision time scales logarithmically, meaning doubling the options increases reaction time by a constant increment rather than doubling it."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In moral psychology studies using the trolley problem, why do most people refuse to push a person off a footbridge?",
+      "options": [
+        "The scenario strongly activates emotional brain regions like the amygdala",
+        "Working-memory networks become completely shut down by visual stimuli",
+        "People cannot calculate the mathematical difference between one and five lives",
+        "Subjects believe the footbridge itself is structurally unstable"
+      ],
+      "correctIndex": 0,
+      "explanation": "Direct, personal physical harm triggers intense emotional responses in areas like the amygdala and medial prefrontal cortex, overriding utilitarian calculations."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What causes the two identical horizontal bars in the Ponzo illusion to look different in size?",
+      "options": [
+        "The higher bar reflects more light into the pupil",
+        "The brain uses converging lines as depth cues and scales up the perceived size of the farther bar",
+        "The human eye has greater vertical resolution than horizontal resolution",
+        "Peripheral vision blurs the lower line, making it seem shorter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Your brain interprets the converging lines as three-dimensional perspective; assuming the top line is farther away, it calculates that it must be larger to produce the same retinal image."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many lux of brightness does a standard clinical light box emit to treat seasonal depression?",
+      "answer": 10000,
+      "min": 500,
+      "max": 30000,
+      "unit": "lux",
+      "explanation": "Clinical light boxes deliver 10,000 lux—roughly 20 to 50 times brighter than typical indoor room lighting, which averages only 200 to 500 lux."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of the general population experiences sleep paralysis at least once in their life?",
+      "answer": 8,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Epidemiological studies show that about 8% of the general public experiences sleep paralysis, though rates approach 30% among university students and shift workers."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Sitting in front of a bright therapeutic lamp can treat seasonal depression as effectively as antidepressant medication.",
+      "answer": true,
+      "explanation": "Clinical trials have shown that 30 minutes of daily 10,000-lux bright light therapy matches the efficacy of standard antidepressant drugs like SSRIs for seasonal affective disorder."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "People experiencing sleep paralysis are still asleep and merely having a vivid nightmare that they are awake.",
+      "answer": false,
+      "explanation": "EEG recordings confirm that patients in sleep paralysis have fully conscious, waking brain activity, but the chemical muscle paralysis of REM sleep has failed to disengage."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Human vision determines an object's perceived size purely by the physical size of the image projected onto the retina.",
+      "answer": false,
+      "explanation": "The visual cortex continuously rescales perceived size using depth and perspective cues, which is why identical retinal projections look different in the Ponzo illusion."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.114Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Walking through a brain wouldn't reveal a single thought",
+      "body": "In 1714, philosopher Gottfried Wilhelm Leibniz proposed a famous thought experiment: imagine a machine capable of thinking, enlarged to the scale of a mill so you could walk inside. Looking around, you would see gears, levers, and mechanical collisions, but nothing resembling a conscious thought or feeling. Leibniz argued that physical matter and mechanical motion, no matter how intricate, can never explain subjective experience.",
+      "imageWikipediaTitle": "Gottfried Wilhelm Leibniz",
+      "sources": [
+        {
+          "title": "Leibniz's Philosophy of Mind",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/leibniz-mind/"
+        },
+        {
+          "title": "Leibniz's gap",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leibniz%27s_gap"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/leibniz-mind/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Living forever might be the ultimate existential curse",
+      "body": "Living forever sounds like the ultimate human dream, but philosopher Bernard Williams argued it would be a living nightmare. Examining the fictional case of Elina Makropulos, who drank an elixir granting centuries of life, Williams argued that endless time inevitably destroys human purpose. If your identity and core desires stay constant, you eventually exhaust every possible pursuit, sinking into inescapable boredom. Without the finite boundary of death, our choices lose urgency and meaning.",
+      "imageWikipediaTitle": "Bernard Williams",
+      "sources": [
+        {
+          "title": "Philosophy of Immortality",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/immortal/"
+        },
+        {
+          "title": "Bernard Williams",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bernard_Williams"
+        }
+      ],
+      "readMoreUrl": "https://iep.utm.edu/immortal/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Science doesn't progress smoothly—it shatters and resets",
+      "body": "We often imagine science as a steady, upward climb toward absolute truth, with each generation adding bricks to a shared tower. In 1962, historian and philosopher Thomas Kuhn argued science actually advances through disruptive revolutions. During quiet eras of \"normal science,\" researchers solve puzzles inside an accepted framework. But when unexplained anomalies pile up, the entire framework shatters in a paradigm shift—forcing scientists to adopt a new worldview that cannot even be directly compared to the old one.",
+      "imageWikipediaTitle": "Thomas Kuhn",
+      "sources": [
+        {
+          "title": "Thomas Kuhn",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/thomas-kuhn/"
+        },
+        {
+          "title": "The Structure of Scientific Revolutions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Structure_of_Scientific_Revolutions"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/thomas-kuhn/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why modern work disconnects us from our own human nature",
+      "body": "In his 1844 manuscripts, Karl Marx argued that industrial capitalism doesn't just exploit laborers financially—it deeply alienates them from their own humanity. He identified four distinct fractures: workers lose control over the goods they create, experience work as meaningless repetition rather than creative fulfillment, forfeit their innate human drive for free and purposeful activity, and turn against one another as economic rivals. Instead of expressing who we are, our labor becomes a foreign power ruling over us.",
+      "imageWikipediaTitle": "Karl Marx",
+      "sources": [
+        {
+          "title": "Alienation",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/alienation/"
+        },
+        {
+          "title": "Marx's theory of alienation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marx%27s_theory_of_alienation"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/alienation/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "What if your conscious mind has zero control over your actions?",
+      "body": "In 1874, biologist and philosopher Thomas Henry Huxley compared human consciousness to the steam whistle on a locomotive engine. The whistle sounds as the train moves, but its noise exerts zero influence on the machinery pulling the carriages. This view, known as epiphenomenalism, suggests that while physical brain processes create your thoughts, feelings, and intentions, those conscious states have no causal power over your body. You are not the driver of your actions—merely a conscious passenger.",
+      "imageWikipediaTitle": "Thomas Henry Huxley",
+      "sources": [
+        {
+          "title": "Epiphenomenalism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/epiphenomenalism/"
+        },
+        {
+          "title": "Epiphenomenalism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epiphenomenalism"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/epiphenomenalism/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Leibniz's Mill thought experiment, what would you see if you walked inside a giant thinking brain?",
+      "options": [
+        "Pure abstract concepts floating in open space",
+        "Only mechanical parts pushing each other, with no thoughts",
+        "The exact biochemical code of human memories",
+        "A single central processor directing consciousness"
+      ],
+      "correctIndex": 1,
+      "explanation": "Leibniz argued that inside an enlarged thinking machine, you would only observe mechanical parts in motion, never subjective conscious experience."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did philosopher Bernard Williams argue that living forever would ultimately become meaningless?",
+      "options": [
+        "The human brain physically runs out of memory storage",
+        "You would inevitably forget how to communicate with others",
+        "An immortal person would eventually exhaust all desires and suffer endless boredom",
+        "Surviving family members would inevitably turn against you"
+      ],
+      "correctIndex": 2,
+      "explanation": "Williams argued that finite human desires would eventually be exhausted over endless time, resulting in inescapable, soul-crushing boredom."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Thomas Kuhn, how does science primarily progress over historical eras?",
+      "options": [
+        "Through a steady, cumulative addition of facts without disruption",
+        "Through revolutionary paradigm shifts that periodically replace old frameworks",
+        "By strictly following a single, unchanging scientific method",
+        "Purely through accidental technological inventions rather than theory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kuhn argued that science undergoes periods of routine puzzle-solving until mounting anomalies trigger a crisis, leading to a revolutionary paradigm shift."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Marx's theory of alienation, what is one key way industrial capitalism disconnects workers?",
+      "options": [
+        "It forces workers to personally consume every item they manufacture",
+        "It strips workers of control over their products and makes work repetitive",
+        "It prohibits laborers from speaking or interacting with colleagues",
+        "It requires physical laborers to master advanced mathematical theory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Marx argued that capitalism alienates workers from their products, the creative process, their human nature, and their fellow workers."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the philosophy of epiphenomenalism claim about conscious intentions?",
+      "options": [
+        "They directly trigger and guide all voluntary muscle contractions",
+        "They are supernatural entities independent of brain biology",
+        "They are caused by brain activity but exert no causal power over physical actions",
+        "They only occur during sleep when bodily movement is suppressed"
+      ],
+      "correctIndex": 2,
+      "explanation": "Epiphenomenalism holds that mental states are byproducts of physical brain processes, possessing no physical causal power of their own."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Philosophers have argued that an eternal life would inevitably lead to meaningless, unbearable boredom.",
+      "answer": true,
+      "explanation": "Bernard Williams argued in 'The Makropulos Case' that without the finite limits of mortality, human desires would eventually be exhausted, rendering immortality a curse."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Science progresses through a steady, unbroken accumulation of knowledge toward absolute truth.",
+      "answer": false,
+      "explanation": "Thomas Kuhn showed that science advances through disruptive paradigm shifts, periodically overturning accepted frameworks when unexplained anomalies accumulate."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Every major philosophy of mind agrees that your conscious decisions directly cause your physical actions.",
+      "answer": false,
+      "explanation": "Epiphenomenalism argues that conscious thoughts are mere byproducts of brain activity with zero causal influence over physical movement."
+    }
+  ]
+}

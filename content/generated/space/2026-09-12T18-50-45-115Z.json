@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.115Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mars has a moon that rises in the west and sets in the east twice a day",
+      "body": "Looking up from the surface of Mars reveals an uncanny celestial motion. Phobos, the planet’s innermost moon, circles Mars in just 7 hours and 39 minutes—far faster than Mars's own 24.6-hour rotation. Because it overtakes the planet's spin, Phobos appears to rise in the west and plunge below the eastern horizon. Traveling across the sky in around four hours, it completes this backward journey twice every single Martian day.",
+      "imageWikipediaTitle": "Phobos (moon)",
+      "sources": [
+        {
+          "title": "Phobos: Facts",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/mars/moons/phobos/"
+        },
+        {
+          "title": "Phobos (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phobos_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mars/moons/phobos/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Hubble Space Telescope has no thrusters and turns using spinning wheels",
+      "body": "Firing rocket thrusters near a space telescope would release exhaust plumes that could coat its delicate mirrors in grime. Instead, the Hubble Space Telescope maneuvers using pure physics. Inside the spacecraft, heavy mechanical flywheels called reaction wheels spin at thousands of revolutions per minute. Accelerating or braking these wheels causes the telescope to turn smoothly in the opposite direction. To dump accumulated rotational energy, magnetic torquers push against Earth’s magnetic field.",
+      "imageWikipediaTitle": "Hubble Space Telescope",
+      "sources": [
+        {
+          "title": "Hubble Space Telescope",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/mission/hubble/"
+        },
+        {
+          "title": "Hubble Space Telescope",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hubble_Space_Telescope"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/hubble/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun loses four million tons of mass every single second",
+      "body": "Deep within the Sun's core, nuclear fusion crushes 600 million metric tons of hydrogen into helium each second. During this reaction, about 0.7 percent of the hydrogen mass does not become helium—it transforms directly into radiant light and heat according to Einstein's equation, E=mc². Consequently, the Sun sheds roughly four million metric tons of mass every second. Yet over its entire 4.6-billion-year lifespan, it has lost less than 0.1 percent of its bulk.",
+      "imageWikipediaTitle": "Sun",
+      "sources": [
+        {
+          "title": "Sun: Facts",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/sun/facts/"
+        },
+        {
+          "title": "Sun",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sun"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/sun/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fall toward a black hole and tidal gravity will stretch you into spaghetti",
+      "body": "If an astronaut fell feet-first toward a stellar-mass black hole, gravity would pull far harder on their boots than on their head. This extreme difference across just a few feet is an overwhelming tidal force. It would stretch an object vertically into a long, thin strand while squeezing it inward horizontally. Coined by physicist Stephen Hawking, this genuine astrophysical process is known as spaghettification, and it routinely tears wandering stars into ribbon-like cosmic debris.",
+      "imageWikipediaTitle": "Spaghettification",
+      "sources": [
+        {
+          "title": "Black Holes",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/universe/black-holes/"
+        },
+        {
+          "title": "Spaghettification",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spaghettification"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/universe/black-holes/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The most distant world ever explored resembles a cosmic snowman",
+      "body": "On New Year's Day in 2019, NASA's New Horizons spacecraft flew past Arrokoth, an icy world four billion miles from Earth in the Kuiper Belt. It remains the most distant and primitive object humanity has ever visited up close. Instead of a sphere, Arrokoth consists of two distinct, flattened lobes joined at a narrow neck. Preserved in the deep freeze of space, its contact-binary shape reveals how planets gently coalesced in the early solar system.",
+      "imageWikipediaTitle": "486958 Arrokoth",
+      "sources": [
+        {
+          "title": "New Horizons: Arrokoth",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/mission/new-horizons/arrokoth/"
+        },
+        {
+          "title": "486958 Arrokoth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/486958_Arrokoth"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/new-horizons/arrokoth/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does the moon Phobos appear to rise in the west and set in the east from the Martian surface?",
+      "options": [
+        "It orbits Mars faster than Mars rotates on its axis",
+        "It revolves backwards in a retrograde orbit",
+        "Mars's magnetic field repels the moon toward the east",
+        "Solar radiation pressure pushes it backwards across the sky"
+      ],
+      "correctIndex": 0,
+      "explanation": "Phobos circles Mars in less than 8 hours, easily outpacing the 24.6-hour rotation of Mars and making it appear to travel west-to-east."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does the Hubble Space Telescope steer and aim without using rocket thrusters?",
+      "options": [
+        "By adjusting heavy internal liquid ballast",
+        "By accelerating and braking internal spinning reaction wheels",
+        "By deploying tiny solar sails to catch sunlight",
+        "By firing bursts of pressurized nitrogen gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hubble changes its orientation by altering the speed of heavy internal reaction wheels, conserving momentum without spraying optics-fouling exhaust."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Roughly how much mass does the Sun convert directly into radiant energy every second via fusion?",
+      "options": [
+        "400 tons",
+        "40,000 tons",
+        "4 million metric tons",
+        "4 billion metric tons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nuclear fusion converts about 4 million metric tons of matter into pure electromagnetic energy every single second."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What causes the phenomenon of 'spaghettification' near a black hole?",
+      "options": [
+        "Friction against superheated swirling accretion gas",
+        "Magnetic confinement twisting objects into spirals",
+        "Relativistic frame dragging of empty spacetime",
+        "A drastic difference in gravitational pull between an object's near and far sides"
+      ],
+      "correctIndex": 3,
+      "explanation": "Extreme gravitational tidal gradients pull significantly harder on the near side of an object than the far side, stretching it lengthwise."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What unexpected shape did NASA's New Horizons discover when imaging the Kuiper Belt object Arrokoth?",
+      "options": [
+        "Two flattened lobes fused together like a snowman",
+        "A hollow ring-like structure",
+        "A long, spindle-shaped cylinder",
+        "A cluster of three separate orbiting spheres"
+      ],
+      "correctIndex": 0,
+      "explanation": "Arrokoth is a pristine contact binary consisting of two flattened lobes that gently merged early in the solar system's formation."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many hours does Mars's moon Phobos take to complete one full orbit around the planet?",
+      "answer": 7.6,
+      "min": 1,
+      "max": 48,
+      "unit": "hours",
+      "explanation": "Phobos orbits Mars in just 7 hours and 39 minutes (about 7.6 hours), far faster than the 24.6-hour Martian day."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many million metric tons of mass does the Sun convert into pure energy every single second?",
+      "answer": 4,
+      "min": 0.1,
+      "max": 50,
+      "unit": "million tons",
+      "explanation": "Nuclear fusion inside the Sun's core converts roughly 4 million metric tons of mass into radiant light and heat every second."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many billion miles from Earth was Arrokoth when New Horizons flew past it in 2019?",
+      "answer": 4,
+      "min": 0.5,
+      "max": 15,
+      "unit": "billion miles",
+      "explanation": "Arrokoth is the most distant world ever explored, orbiting more than 4 billion miles from Earth in the Kuiper Belt."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "From the surface of any planet, every natural moon always rises in the east and sets in the west.",
+      "answer": false,
+      "explanation": "Mars's moon Phobos orbits faster than the planet spins, causing it to rise in the west and set in the east."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Space telescopes use small rocket thrusters to turn and aim at astronomical targets.",
+      "answer": false,
+      "explanation": "Exhaust fumes would contaminate delicate optical mirrors; Hubble steers entirely using internal spinning reaction wheels."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "\"Spaghettification\" is a formal astrophysical term for tidal stretching near a black hole.",
+      "answer": true,
+      "explanation": "Popularized by Stephen Hawking, spaghettification is the genuine scientific term for vertical stretching and lateral compression caused by tidal forces."
+    }
+  ]
+}

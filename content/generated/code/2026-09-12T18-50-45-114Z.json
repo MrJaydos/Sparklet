@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.114Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A space probe discovered its own memory leak millions of miles from Earth",
+      "body": "In 2002, NASA engineers realized the Deep Space 1 probe was losing memory. Its on-board software was leaking data buffers, slowly starving the spacecraft of RAM. Rather than letting it crash, engineers wrote and uploaded a remote patch while the probe was 200 million miles away. It successfully reclaimed lost memory and allowed Deep Space 1 to complete its extended mission to comet Borrelly.",
+      "imageWikipediaTitle": "Deep Space 1",
+      "sources": [
+        {
+          "title": "Deep Space 1",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/missions/deep-space-1"
+        },
+        {
+          "title": "Deep Space 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deep_Space_1"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/missions/deep-space-1",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single print command sparked the creation of PostScript and Adobe",
+      "body": "In the late 1970s at Xerox PARC, John Warnock and Chuck Geschke developed 'Interpress' to describe pages for laser printers with mathematical precision. When Xerox refused to commercialize it quickly, the two computer scientists quit in 1982 to launch Adobe. They rebuilt the concept as PostScript, a Turing-complete programming language that revolutionized desktop publishing by treating every letter and graphic as executable code.",
+      "imageWikipediaTitle": "PostScript",
+      "sources": [
+        {
+          "title": "John Warnock and Chuck Geschke",
+          "publisher": "Computer History Museum",
+          "url": "https://computerhistory.org/profile/john-warnock-and-chuck-geschke/"
+        },
+        {
+          "title": "PostScript",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PostScript"
+        }
+      ],
+      "readMoreUrl": "https://computerhistory.org/profile/john-warnock-and-chuck-geschke/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The father of the computer mouse used a block of wood and two wheels",
+      "body": "In 1964, Douglas Engelbart and Bill English built the world's first computer mouse at the Stanford Research Institute. Carved from a hollowed-out block of carved wood, it housed two perpendicular metal wheels that tracked movement across a desk. Patented as an 'X-Y position indicator for a display system,' SRI nicknamed it 'mouse' because the cord trailing out the back resembled a tail.",
+      "imageWikipediaTitle": "Computer mouse",
+      "sources": [
+        {
+          "title": "The First Computer Mouse",
+          "publisher": "SRI International",
+          "url": "https://www.sri.com/hoi/computer-mouse-and-interactive-computing/"
+        },
+        {
+          "title": "Computer mouse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_mouse"
+        }
+      ],
+      "readMoreUrl": "https://www.sri.com/hoi/computer-mouse-and-interactive-computing/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ken Thompson built Unix's core text editor in just one week",
+      "body": "In 1969, Ken Thompson sat down to write a text editor for the fledgeling Unix operating system. Borrowing ideas from the earlier QED editor, he created 'ed' in less than a week. Designed for slow teletype terminals that printed on physical rolls of paper, ed kept output to an absolute minimum—often responding to syntax errors with nothing more than a cryptic question mark.",
+      "imageWikipediaTitle": "Ken Thompson",
+      "sources": [
+        {
+          "title": "An Overview of the ed Text Editor",
+          "publisher": "FreeBSD",
+          "url": "https://docs.freebsd.org/en/books/design-44bsd/"
+        },
+        {
+          "title": "Ed (text editor)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ed_(text_editor)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ed_(text_editor)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fast inverse square root constant remained an enigma for years",
+      "body": "When id Software open-sourced Quake III Arena in 2005, developers marveled at a bizarre C function that calculated 1/√x up to four times faster than hardware division. The algorithm used the mysterious hexadecimal constant 0x5F3759DF to seed a brilliant bit-level floating-point approximation. Despite widespread attribution to John Carmack, the trick originated decades earlier among engineers at Ardent Computer.",
+      "imageWikipediaTitle": "Fast inverse square root",
+      "sources": [
+        {
+          "title": "Fast Inverse Square Root",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_inverse_square_root"
+        },
+        {
+          "title": "Origin of Quake3's Fast InvSqrt()",
+          "publisher": "Beyond3D",
+          "url": "https://www.beyond3d.com/content/articles/8/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_inverse_square_root",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did NASA fix the memory leak threatening Deep Space 1 in 2002?",
+      "options": [
+        "By uploading a remote software patch across millions of miles",
+        "By switching to a backup analog control unit",
+        "By forcing an ungraceful hardware restart from ground control",
+        "By relying on an autonomous AI self-repair routine"
+      ],
+      "correctIndex": 0,
+      "explanation": "NASA engineers remotely beamed a patch across 200 million miles of space to fix the spacecraft's buffer leak."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What kind of language is PostScript technically classified as?",
+      "options": [
+        "A Turing-complete programming language",
+        "A plain-text markup language like Markdown",
+        "A binary database query format",
+        "A hardware-level machine bytecode"
+      ],
+      "correctIndex": 0,
+      "explanation": "PostScript is a full, Turing-complete stack-based programming language, not just a static graphics description."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What material was used to encase Douglas Engelbart's first prototype mouse in 1964?",
+      "options": [
+        "Carved wood",
+        "Molded bakelite",
+        "Sheet aluminum",
+        "Blown glass"
+      ],
+      "correctIndex": 0,
+      "explanation": "The original 1964 prototype built at SRI International was carved from a block of wood with two tracking wheels."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did the original Unix text editor 'ed' produce extremely terse error messages?",
+      "options": [
+        "It was designed for slow paper teletype printers",
+        "The computer ran out of memory for string constants",
+        "Ken Thompson disliked verbose language",
+        "Unix had an operating system limit of 1-character errors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Printing onto physical paper teletypes was slow and wasted paper, so ed printed only '?' on errors."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Who actually authored the original fast inverse square root algorithm popularized in Quake III?",
+      "options": [
+        "Engineers at Ardent Computer",
+        "John Carmack",
+        "Bjarne Stroustrup",
+        "Dennis Ritchie"
+      ],
+      "correctIndex": 0,
+      "explanation": "While popularized by John Carmack in Quake III, the algorithm originated with Greg Walsh and Cleve Moler at Ardent Computer."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many millions of miles away from Earth was Deep Space 1 when engineers successfully patched its memory leak?",
+      "answer": 200,
+      "min": 10,
+      "max": 500,
+      "unit": "million miles",
+      "explanation": "Engineers beamed the software fix over 200 million miles across the solar system."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "John Carmack invented the famous fast inverse square root algorithm found in Quake III's source code.",
+      "answer": false,
+      "explanation": "Carmack included the code in Quake III, but the trick was actually developed in the late 1980s by engineers at Ardent Computer."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "PostScript files are just static vector images, not full computer programs.",
+      "answer": false,
+      "explanation": "PostScript is a complete, Turing-complete programming language with loops, conditionals, and variables."
+    }
+  ]
+}

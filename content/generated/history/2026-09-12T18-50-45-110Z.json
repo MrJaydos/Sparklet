@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.110Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "To save Galveston from hurricanes, engineers raised the entire city on jackscrews",
+      "body": "The 1900 hurricane that struck Galveston, Texas, remains the deadliest natural disaster in United States history, claiming an estimated 6,000 to 12,000 lives. To protect against future surges, engineers undertook an extraordinary project: they built a massive three-mile seawall and literally jacked up the entire city. Using thousands of hand-turned jackscrews and millions of tons of dredged sand, workers raised over 2,000 buildings up to 17 feet off the ground.",
+      "imageWikipediaTitle": "1900 Galveston hurricane",
+      "sources": [
+        {
+          "title": "The 1900 Galveston Hurricane",
+          "publisher": "National Weather Service",
+          "url": "https://www.weather.gov/hgx/galveston1900"
+        },
+        {
+          "title": "1900 Galveston hurricane",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1900_Galveston_hurricane"
+        }
+      ],
+      "readMoreUrl": "https://www.weather.gov/hgx/galveston1900",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Thomas Jefferson rebuilt the Library of Congress from his personal study",
+      "body": "In August 1814, invading British troops torched the U.S. Capitol, destroying the congressional library's entire 3,000-volume collection. Retired president Thomas Jefferson immediately offered his personal library at Monticello as a replacement. In 1815, Congress purchased his 6,487 books for $23,950. Jefferson’s eclectic holdings in science, philosophy, and world literature permanently transformed the institution from a narrow legislative reference collection into a world-class national library.",
+      "imageWikipediaTitle": "Library of Congress",
+      "sources": [
+        {
+          "title": "Thomas Jefferson's Library",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/exhibits/jefferson/jefflib.html"
+        },
+        {
+          "title": "Library of Congress",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Library_of_Congress"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/exhibits/jefferson/jefflib.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Humanity's most famous early ancestor was named after a Beatles song",
+      "body": "In November 1974, paleoanthropologist Donald Johanson spotted an arm bone eroding from an Ethiopian ravine. Careful excavation uncovered roughly 40 percent of an adult female hominin dating back 3.2 million years. Back at camp, the team celebrated by playing the Beatles' 'Lucy in the Sky with Diamonds' on a tape recorder, inspiring the fossil's famous nickname. Lucy proved that human ancestors walked upright millions of years before developing large brains.",
+      "imageWikipediaTitle": "Lucy (Australopithecus)",
+      "sources": [
+        {
+          "title": "AL 288-1 (Lucy)",
+          "publisher": "Smithsonian Institution",
+          "url": "https://humanorigins.si.edu/evidence/human-fossils/fossils/al-288-1"
+        },
+        {
+          "title": "Lucy (Australopithecus)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lucy_(Australopithecus)"
+        }
+      ],
+      "readMoreUrl": "https://humanorigins.si.edu/evidence/human-fossils/fossils/al-288-1",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The crew of the Mary Celeste vanished without a single mark of violence",
+      "body": "On December 5, 1872, the British merchant ship Dei Gratia spotted the American brigantine Mary Celeste drifting off the Azores. A boarding party found the ship fully seaworthy, with six months of untouched food, cargo intact, and the captain's log left open on his desk. Yet Captain Benjamin Briggs, his family, and seven crew members had disappeared completely. Their lone missing lifeboat ensured the event became history's most baffling maritime mystery.",
+      "imageWikipediaTitle": "Mary Celeste",
+      "sources": [
+        {
+          "title": "What happened to the Mary Celeste?",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/what-happened-mary-celeste"
+        },
+        {
+          "title": "Mary Celeste",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mary_Celeste"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/what-happened-mary-celeste",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An Antarctic expedition survived 492 days stranded in pack ice with zero casualties",
+      "body": "In January 1915, Ernest Shackleton’s polar exploration ship Endurance was crushed and sunk by drifting Antarctic ice, stranding 28 men hundreds of miles from civilization. Over the next 16 months, the crew camped on moving ice floes before navigating tiny lifeboats through freezing seas to desolate Elephant Island. Shackleton then traversed 800 miles of stormy ocean in a small open boat to summon help, ultimately rescuing every single man alive.",
+      "imageWikipediaTitle": "Imperial Trans-Antarctic Expedition",
+      "sources": [
+        {
+          "title": "Ernest Shackleton and the Endurance Expedition",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/ernest-shackleton-trans-antarctic-expedition"
+        },
+        {
+          "title": "Imperial Trans-Antarctic Expedition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/ernest-shackleton-trans-antarctic-expedition",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did engineers protect Galveston from future storms after the 1900 hurricane?",
+      "options": [
+        "They raised the city up to 17 feet using thousands of jackscrews",
+        "They relocated the entire port and population 20 miles inland",
+        "They excavated a network of subterranean drainage tunnels",
+        "They built an offshore archipelago of artificial breakwater islands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engineers constructed a seawall and pumped dredged sand beneath thousands of raised structures to elevate Galveston up to 17 feet."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did Thomas Jefferson sell his personal library to Congress in 1815?",
+      "options": [
+        "To replace the original collection destroyed by British troops",
+        "To clear his debts with European trading houses",
+        "To establish the first national archive of agricultural patents",
+        "To supply books for the newly chartered Library of the Senate"
+      ],
+      "correctIndex": 0,
+      "explanation": "British forces burned the Capitol and its 3,000-volume library in 1814, prompting Jefferson to sell his 6,487 books to replenish it."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did the 3.2-million-year-old hominin fossil 'Lucy' get her name?",
+      "options": [
+        "From a Beatles song playing on a tape recorder at the camp",
+        "From the daughter of the expedition's chief sponsor",
+        "From the Latin word 'lucere', meaning 'to illuminate'",
+        "From the Afar village located closest to the discovery site"
+      ],
+      "correctIndex": 0,
+      "explanation": "Researchers celebrated finding the hominin while repeatedly playing 'Lucy in the Sky with Diamonds' by the Beatles in camp."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What condition was the Mary Celeste in when boarding parties found it drifting in 1872?",
+      "options": [
+        "Fully seaworthy with ample provisions, but completely deserted",
+        "Sunk to its gunwales with shattered masts and missing cargo",
+        "Heavily burned with the crew dead in the lower hold",
+        "Paralyzed by a violent mutiny among the remaining crew"
+      ],
+      "correctIndex": 0,
+      "explanation": "The ship had plenty of food, water, and cargo aboard without damage, yet all ten people aboard had vanished in a lifeboat."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many of the 28 men on Ernest Shackleton's Endurance crew died during their Antarctic ordeal?",
+      "options": [
+        "Zero",
+        "Seven",
+        "Fourteen",
+        "Twenty-two"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite losing their ship to pack ice and being stranded for over 16 months, all 28 crew members survived."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many books did Thomas Jefferson sell to Congress in 1815 to rebuild the Library of Congress?",
+      "answer": 6487,
+      "min": 500,
+      "max": 25000,
+      "unit": "books",
+      "explanation": "Jefferson sold his entire private collection of 6,487 volumes for $23,950, more than doubling the size of the original library."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of Lucy's skeleton was recovered during excavations in Ethiopia?",
+      "answer": 40,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "About 40% of Lucy's skeleton was preserved, an unusually complete recovery for a 3.2-million-year-old hominin fossil."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The Mary Celeste was found with hot tea and warm meals still sitting on the dining table.",
+      "answer": false,
+      "explanation": "Sensational newspaper reports and a fictional short story by Arthur Conan Doyle invented the warm meals; in reality, no food was served."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Every single member of Ernest Shackleton's 28-man Endurance crew survived their ship's destruction.",
+      "answer": true,
+      "explanation": "Despite being stranded on Antarctic pack ice for over a year and enduring an 800-mile lifeboat voyage, all 28 crew members survived."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-12T18:50:45.112Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stretching a rubber band and heating it makes it shrink, not expand",
+      "body": "If you stretch a rubber band and heat it with a hair dryer, it actually shrinks instead of expanding. Most materials expand with heat because their atoms vibrate further apart. But rubber consists of tangled polymer chains. In an unstretched state, these chains are coiled and disorderly. When stretched, they straighten out. Adding heat increases thermal agitation, causing the chains to kink and curl back into random tangles, pulling the rubber band tighter.",
+      "imageWikipediaTitle": "Rubber band",
+      "sources": [
+        {
+          "title": "Rubber Band Heat Engine",
+          "publisher": "Exploratorium",
+          "url": "https://www.exploratorium.edu/snacks/rubber-band-heat-engine"
+        },
+        {
+          "title": "Gough–Joule effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gough%E2%80%93Joule_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gough%E2%80%93Joule_effect",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ocean is naturally blue, not just reflecting the sky",
+      "body": "Look at a deep swimming pool with white tiles, and the water still appears vivid blue. The ocean is not blue merely because it reflects the sky. Water molecules naturally absorb red, orange, and yellow wavelengths of light through molecular vibrations. As sunlight passes through water, these warm colors are filtered out, leaving predominantly blue light to be scattered back to your eyes.",
+      "imageWikipediaTitle": "Color of water",
+      "sources": [
+        {
+          "title": "Water Color",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-color"
+        },
+        {
+          "title": "Color of water",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Color_of_water"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-color",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea otters stay warm with one million hairs per square inch",
+      "body": "Unlike whales and seals, sea otters have no layer of blubber to survive frigid ocean waters. Instead, they rely on the densest fur in the animal kingdom, packing up to one million hairs per square inch. This double-layered coat traps a thin layer of dry air directly against their skin, acting as a waterproof barrier so freezing seawater never actually touches their body.",
+      "imageWikipediaTitle": "Sea otter",
+      "sources": [
+        {
+          "title": "How many hairs does a sea otter have?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/how-many-hairs-does-a-sea-otter-have"
+        },
+        {
+          "title": "Sea otter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/faqs/how-many-hairs-does-a-sea-otter-have",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun's outer atmosphere is hundreds of times hotter than its surface",
+      "body": "As you step back from a campfire, the air gets colder. Yet the Sun does the opposite. Its visible surface, the photosphere, is about 5,500 degrees Celsius, but the corona—the outer atmosphere stretching millions of kilometers into space—soars to over one million degrees Celsius. Scientists believe magnetic field lines tangled by plasma churn immense energy directly into this upper halo, creating one of astrophysics' greatest puzzles.",
+      "imageWikipediaTitle": "Corona",
+      "sources": [
+        {
+          "title": "Solar Corona",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://www.swpc.noaa.gov/phenomena/solar-corona"
+        },
+        {
+          "title": "Coronal heating problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coronal_heating_problem"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Coronal_heating_problem",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body rebuilds your entire skeleton roughly every ten years",
+      "body": "Your bones might seem like permanent, rigid scaffolding, but bone is dynamic living tissue. Specialized cells called osteoclasts constantly dissolve old, micro-damaged bone, while osteoblasts lay down fresh mineralized tissue. Through this continuous remodeling process, your body replaces roughly ten percent of its adult bone mass every year. As a result, you walk around with an entirely refreshed skeleton roughly every ten years.",
+      "imageWikipediaTitle": "Bone remodeling",
+      "sources": [
+        {
+          "title": "Bone Health and Osteoporosis",
+          "publisher": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "url": "https://www.niams.nih.gov/health-topics/bone-health-and-osteoporosis"
+        },
+        {
+          "title": "Bone remodeling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone_remodeling"
+        }
+      ],
+      "readMoreUrl": "https://www.niams.nih.gov/health-topics/bone-health-and-osteoporosis",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happens when you apply heat to a stretched rubber band?",
+      "options": [
+        "It contracts and pulls tighter",
+        "It expands and sags",
+        "It loses its elasticity permanently",
+        "It immediately crystallizes into a solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heat increases thermal motion in the straightened polymer chains, causing them to curl up and contract."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does deep water naturally appear blue?",
+      "options": [
+        "It reflects the nitrogen in Earth's atmosphere",
+        "Its molecules absorb red and yellow light through vibration",
+        "Dissolved salt ions emit blue light under sunlight",
+        "Microscopic algae scatter blue wavelengths"
+      ],
+      "correctIndex": 1,
+      "explanation": "Water molecules absorb the longer red, orange, and yellow wavelengths, leaving blue light to scatter back."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do sea otters stay warm in icy water without a blubber layer?",
+      "options": [
+        "By maintaining an exceptionally high body temperature of 45 °C",
+        "By packing up to one million hairs per square inch to trap air",
+        "By secreting an oily antifreeze compound onto their skin",
+        "By constantly shivering their skeletal muscles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Their ultra-dense fur traps an insulating layer of dry air right against the skin, keeping seawater from touching them."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is surprising about the temperature of the Sun's corona?",
+      "options": [
+        "It drops to near absolute zero despite sunlight",
+        "It is much hotter than the visible surface beneath it",
+        "It remains constant day and night regardless of solar flares",
+        "It matches the core temperature of 15 million degrees"
+      ],
+      "correctIndex": 1,
+      "explanation": "The corona reaches over one million degrees Celsius, far hotter than the 5,500 °C surface below."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Roughly how much of an adult human's bone mass is replaced each year?",
+      "options": [
+        "About 1%",
+        "About 10%",
+        "About 50%",
+        "Bone mass is never replaced after adulthood"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bone remodeling replaces about 10% of adult skeletal tissue each year, renewing the skeleton every decade."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many hairs can a sea otter pack into a single square inch of its fur?",
+      "answer": 1000000,
+      "min": 20000,
+      "max": 3000000,
+      "unit": "hairs",
+      "explanation": "Sea otters boast up to one million hairs per square inch, the densest coat of any mammal on Earth."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly every how many years does an adult human body completely turn over its skeleton?",
+      "answer": 10,
+      "min": 1,
+      "max": 40,
+      "unit": "years",
+      "explanation": "Because your body remodels roughly 10% of its bone mass each year, your skeleton is completely replaced about every decade."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Stretching and heating a rubber band causes it to expand like other materials.",
+      "answer": false,
+      "explanation": "Thermal agitation makes the stretched polymer chains kink back into random tangles, causing the band to contract."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Water appears blue simply because it reflects the sky.",
+      "answer": false,
+      "explanation": "Even indoors or under cloudy skies, deep water is inherently blue because water molecules absorb red light."
+    }
+  ]
+}
