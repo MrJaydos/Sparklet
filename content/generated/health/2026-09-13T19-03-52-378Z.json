@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-13T19:03:52.378Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of your daily calories are burned doing absolutely nothing",
+      "body": "While intense workouts get all the credit for weight management, resting metabolism quietly burns the vast majority of your energy. Basal Metabolic Rate—the baseline fuel needed just to keep your heart pumping, lungs expanding, liver filtering, and body warm—accounts for 60 to 75 percent of total daily calorie expenditure. In contrast, purposeful exercise typically accounts for only 5 to 15 percent of what you burn each day.",
+      "imageWikipediaTitle": "Basal metabolic rate",
+      "sources": [
+        {
+          "title": "Metabolism",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/metabolism.html"
+        },
+        {
+          "title": "Basal metabolic rate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Basal_metabolic_rate"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/metabolism.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your eyes actually project the entire world upside down",
+      "body": "Light passing through your cornea and lens crosses at a focal point, projecting an image onto your retina that is inverted and horizontally flipped. You never notice because your brain's visual cortex reconstructs the sensory code right-side up. In 1896, psychologist George Stratton wore optical prisms that inverted his vision; within days, his brain adapted, allowing him to navigate and reach for objects normally.",
+      "imageWikipediaTitle": "Retina",
+      "sources": [
+        {
+          "title": "How the Eyes Work",
+          "publisher": "National Eye Institute",
+          "url": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work"
+        },
+        {
+          "title": "Retina",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Retina"
+        }
+      ],
+      "readMoreUrl": "https://www.nei.nih.gov/learn-about-eye-health/healthy-vision/how-eyes-work",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can lower far more weight than you can lift",
+      "body": "Muscles perform two main dynamic actions: concentric contractions, where fibers shorten to lift a load, and eccentric contractions, where fibers lengthen under tension to lower it. During eccentric lengthening, muscles can produce 20 to 50 percent more force while consuming significantly less cellular energy. A giant structural protein called titin acts like a molecular bungee cord, absorbing mechanical tension passively so your muscles resist heavy descent with minimal metabolic effort.",
+      "imageWikipediaTitle": "Eccentric contraction",
+      "sources": [
+        {
+          "title": "Physiology, Muscle Contraction",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537140/"
+        },
+        {
+          "title": "Eccentric contraction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eccentric_contraction"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Eccentric_contraction",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hair and fingernails do not keep growing after death",
+      "body": "A persistent myth claims that hair and fingernails continue to lengthen for days after someone passes away. In reality, cell division and biological growth stop immediately when the heart ceases pumping oxygen and glucose. The illusion occurs because post-mortem dehydration causes the surrounding skin to shrink and pull backward. As soft tissues dry out, previously buried hair follicles and nail beds become exposed, making them look longer.",
+      "imageWikipediaTitle": "Nail (anatomy)",
+      "sources": [
+        {
+          "title": "Do Hair and Nails Continue to Grow After Death?",
+          "publisher": "McGill University",
+          "url": "https://www.mcgill.ca/oss/article/general-science/do-hair-and-nails-continue-grow-after-death"
+        },
+        {
+          "title": "List of common misconceptions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+        }
+      ],
+      "readMoreUrl": "https://www.mcgill.ca/oss/article/general-science/do-hair-and-nails-continue-grow-after-death",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain locks in memories with rapid bursts of sleep spindles",
+      "body": "During stage 2 non-REM sleep, your brain produces short, rhythmic bursts of electrical activity called sleep spindles, oscillating at 11 to 16 hertz. Lasting only one to two seconds, these bursts mediate a high-speed dialogue between your hippocampus and cerebral cortex. They act like a wireless data transfer, moving fragile short-term memories into stable neocortical networks and solidifying newly learned motor skills, from piano scales to tennis serves.",
+      "imageWikipediaTitle": "Sleep spindle",
+      "sources": [
+        {
+          "title": "Brain Basics: Understanding Sleep",
+          "publisher": "National Institute of Neurological Disorders and Stroke",
+          "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+        },
+        {
+          "title": "Sleep spindle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleep_spindle"
+        }
+      ],
+      "readMoreUrl": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What proportion of daily energy expenditure does Basal Metabolic Rate (BMR) typically account for?",
+      "options": [
+        "10 to 20 percent",
+        "30 to 45 percent",
+        "60 to 75 percent",
+        "85 to 95 percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Basal Metabolic Rate maintains basic vital functions like breathing, circulation, and cell repair, burning 60% to 75% of daily calories."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How is an optical image physically oriented when it strikes the retina at the back of the eye?",
+      "options": [
+        "Right-side up and mirrored",
+        "Inverted upside down and reversed",
+        "Completely flat and two-dimensional without orientation",
+        "Upright but magnified threefold"
+      ],
+      "correctIndex": 1,
+      "explanation": "Light rays cross as they pass through the lens, projecting an upside-down and backwards image that the visual cortex corrects."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why can your muscles generate greater force while lowering a weight compared to lifting it?",
+      "options": [
+        "Concentric contractions recruit more motor units simultaneously",
+        "Eccentric lengthening uses passive structural proteins like titin to resist load",
+        "Muscles consume three times more ATP during lengthening",
+        "Tendons completely disengage during the lowering phase"
+      ],
+      "correctIndex": 1,
+      "explanation": "During eccentric contractions, the giant protein titin and cross-bridge mechanics provide passive resistance, producing up to 50% more force."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What causes the optical illusion that fingernails and hair continue growing after death?",
+      "options": [
+        "Keratin cells continue dividing without oxygen",
+        "Surrounding skin dehydrates and retracts, exposing more of the base",
+        "Rigor mortis pushes hair shafts outward from follicles",
+        "Post-mortem nerve twitches stretch existing tissue"
+      ],
+      "correctIndex": 1,
+      "explanation": "As moisture evaporates, skin shrinks back from the cuticles and scalp, making nails and hair appear to have grown."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary cognitive role of sleep spindles observed during stage 2 sleep?",
+      "options": [
+        "Clearing cerebrospinal fluid from the brainstem",
+        "Transferring short-term memories from the hippocampus to long-term storage",
+        "Inducing temporary muscle paralysis to prevent acting out dreams",
+        "Suppressing body temperature regulation to conserve energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sleep spindles facilitate communication between the hippocampus and cortex to consolidate memories and motor skills."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of a typical sedentary person's daily calories is burned purely by resting basal metabolism?",
+      "answer": 70,
+      "min": 20,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Basal metabolic rate accounts for 60% to 75% of total energy burn, powering essential organs even if you stay in bed all day."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "By up to what percentage can your muscles generate more force when lowering a load compared to lifting it?",
+      "answer": 50,
+      "min": 5,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Muscles can generate 20% to 50% more force eccentrically (lowering) than concentrically (lifting) due to passive tension from proteins like titin."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Physical exercise accounts for the majority of the calories you burn in a typical day.",
+      "answer": false,
+      "explanation": "Exercise typically makes up only 5% to 15% of daily energy burn; basal metabolism uses 60% to 75% just keeping organs functioning."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The optical image projected onto the retina at the back of the eye is oriented right-side up.",
+      "answer": false,
+      "explanation": "The eye's lens acts like a camera lens, inverting and reversing the image onto the retina before the brain reinterprets it."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Your muscles can generate significantly more force when lowering a weight than when lifting it.",
+      "answer": true,
+      "explanation": "Eccentric muscle contractions recruit passive structural tension from proteins like titin, generating 20% to 50% more force than lifting."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Human fingernails and hair continue growing for several days after death.",
+      "answer": false,
+      "explanation": "Growth halts immediately without blood flow; shrinking, dehydrating skin retracts to expose more of the nail and hair."
+    }
+  ]
+}

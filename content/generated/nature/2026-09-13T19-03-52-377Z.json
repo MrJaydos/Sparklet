@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-13T19:03:52.377Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe crab blood guards modern medicine from lethal bacteria",
+      "body": "Horseshoe crabs have blue, copper-based blood containing specialized immune cells called amebocytes. When these cells detect even trace amounts of bacterial endotoxins, they rupture and form an impermeable jelly-like clot around the pathogen. The biomedical industry harvests this blood to produce Limulus Amebocyte Lysate, an indispensable testing agent used globally to certify that injectable vaccines, IV fluids, and surgical implants are completely free of dangerous bacterial contamination.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Why is horseshoe crab blood so important?",
+          "publisher": "National Ocean Service",
+          "url": "https://oceanservice.noaa.gov/factoids/horseshoe-crab-blood.html"
+        },
+        {
+          "title": "Limulus amebocyte lysate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Limulus_amebocyte_lysate"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/factoids/horseshoe-crab-blood.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horn sharks screw their spiral egg cases into rock crevices",
+      "body": "Unlike many sharks that give live birth, the California horn shark lays tough, leathery egg cases shaped like heavy-duty screws. After depositing an egg, the mother picks it up with her mouth and carefully wedges it into a deep rock crevice. The spiral flanges act like screw threads, locking the egg securely into place so ocean surges and hungry predators cannot dislodge it during its multi-month incubation.",
+      "imageWikipediaTitle": "Horn shark",
+      "sources": [
+        {
+          "title": "Horn Shark",
+          "publisher": "Monterey Bay Aquarium",
+          "url": "https://www.montereybayaquarium.org/animals/animals-a-to-z/horn-shark"
+        },
+        {
+          "title": "Horn shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horn_shark"
+        }
+      ],
+      "readMoreUrl": "https://www.montereybayaquarium.org/animals/animals-a-to-z/horn-shark",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male anglerfish fuse permanently into their mates' bodies",
+      "body": "In the pitch-black abyss, finding a mate is so difficult that male ceratioid anglerfish take extreme measures. Far smaller than females, a male bites into a female's flank and releases enzymes that dissolve his own lips and her skin. Their blood vessels fuse into a shared circulatory system. Over time, the male loses his eyes, gut, and fins, living out the rest of his life as a permanent, blood-fed sperm provider.",
+      "imageWikipediaTitle": "Ceratiidae",
+      "sources": [
+        {
+          "title": "The bizarre love life of the anglerfish",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/bizarre-love-life-of-the-anglerfish.html"
+        },
+        {
+          "title": "Ceratiidae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ceratiidae"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/bizarre-love-life-of-the-anglerfish.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Egg-eating snakes crack shells using spines inside their throat",
+      "body": "The African egg-eating snake subsists entirely on bird eggs and has lost virtually all its teeth. Instead, it stretches its jaws wide enough to swallow eggs several times the diameter of its head. Once inside its esophagus, specialized hypapophyses—sharp, downward-pointing bony projections extending from its neck vertebrae—saw through the shell as the snake flexes. It swallows the nutritious liquid contents and regurgitates the crushed shell in a tidy pellet.",
+      "imageWikipediaTitle": "Dasypeltis",
+      "sources": [
+        {
+          "title": "Dasypeltis scabra",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Dasypeltis_scabra/"
+        },
+        {
+          "title": "Dasypeltis scabra",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dasypeltis_scabra"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Dasypeltis_scabra/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Deep-sea sea pigs walk the ocean floor on hydraulic water feet",
+      "body": "Scotoplanes, affectionately known as sea pigs, are abyssal sea cucumbers that dwell thousands of meters beneath the surface. Lacking rigid skeletons, they walk across soft mud using specialized tube feet powered by internal hydraulic fluid pressure. Inflating and deflating these elongated appendages allows them to march forward in search of freshly fallen marine snow—decaying organic fallout from the sunlit waters above—making them vital scavengers of the abyssal plain.",
+      "imageWikipediaTitle": "Scotoplanes",
+      "sources": [
+        {
+          "title": "Sea pig",
+          "publisher": "Monterey Bay Aquarium Research Institute",
+          "url": "https://www.mbari.org/animal/sea-pig/"
+        },
+        {
+          "title": "Scotoplanes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scotoplanes"
+        }
+      ],
+      "readMoreUrl": "https://www.mbari.org/animal/sea-pig/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What gives horseshoe crab blood its distinctive blue color?",
+      "options": [
+        "Copper-based hemocyanin",
+        "High concentrations of iodine",
+        "Blue microscopic algae",
+        "Fluorescent bile pigments"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horseshoe crabs use hemocyanin, a copper-based protein, to transport oxygen through their bloodstream, which turns blue when oxygenated."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does a female horn shark wedge her spiral egg cases into rocky crevices?",
+      "options": [
+        "To anchor them securely against ocean surges and predators",
+        "To incubate them with heat from volcanic hydrothermal vents",
+        "To hide them inside sea urchin colonies for protection",
+        "To puncture the outer membrane so oxygenated seawater can enter"
+      ],
+      "correctIndex": 0,
+      "explanation": "The spiral flanges work like threads on a screw, locking the egg into tight rock gaps so strong currents and predators cannot dislodge it."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What happens to a male ceratioid anglerfish after biting onto a female?",
+      "options": [
+        "His skin and blood vessels fuse permanently into hers",
+        "He deposits sperm externally and dies within hours",
+        "He is consumed whole by the female for nourishment",
+        "He detaches after fertilization to locate a new mate"
+      ],
+      "correctIndex": 0,
+      "explanation": "The male's tissues and circulatory system physically merge with the female's, transforming him into a permanent, blood-nourished mate."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the African egg-eating snake crack bird eggs swallowed whole?",
+      "options": [
+        "With sharp bony projections on its neck vertebrae",
+        "By swallowing stones to grind the shell in its gizzard",
+        "By squeezing against rocks until the egg cracks externally",
+        "With unusually concentrated digestive acids in its stomach"
+      ],
+      "correctIndex": 0,
+      "explanation": "The snake flexes specialized vertebral hypapophyses inside its throat that saw through the shell before the liquid contents enter the stomach."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do deep-sea sea pigs (Scotoplanes) walk across abyssal mud?",
+      "options": [
+        "By pumping water to inflate and deflate hydraulic tube feet",
+        "By beating thousands of microscopic cilia across their belly",
+        "Using jointed chitin legs similar to deep-sea crabs",
+        "By undulating wide muscular fins along their sides"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea pigs lack solid bones and walk across deep ocean sediment using tube feet powered by internal water pressure."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All animal blood is red because it relies on iron to transport oxygen.",
+      "answer": false,
+      "explanation": "Horseshoe crabs and many mollusks use hemocyanin, a copper-rich protein that turns their oxygenated blood bright blue."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Deep-sea anglerfish pairs travel together throughout the ocean to reproduce.",
+      "answer": false,
+      "explanation": "In many ceratioid anglerfish species, tiny males physically fuse into the female's body and share her bloodstream for the rest of their lives."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Snakes that consume whole eggs must digest the tough mineral shells in their stomachs.",
+      "answer": false,
+      "explanation": "African egg-eating snakes slice open shells in their throat with spinal bones, digest the liquid, and spit out the crushed shell pellet."
+    }
+  ]
+}

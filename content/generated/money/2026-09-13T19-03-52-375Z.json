@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-13T19:03:52.375Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Thousands of US Banks Printed Their Own Money",
+      "body": "Between 1837 and 1863, the United States had no federal paper currency. Instead, over 1,500 state-chartered banks printed their own private banknotes, producing more than 8,000 distinct paper designs. Dishonest operators, known as \"wildcat banks,\" opened branches in remote wilderness locations where wild animals roamed. This deliberate isolation ensured depositors could not easily make the journey to redeem their paper notes for genuine gold or silver coin.",
+      "imageWikipediaTitle": "Free banking era",
+      "sources": [
+        {
+          "title": "Free Banking Era",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/free-banking-era"
+        },
+        {
+          "title": "Free banking era",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Free_banking_era"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/free-banking-era",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Creator of GDP Warned It Was Never Meant to Measure Well-Being",
+      "body": "In 1934, economist Simon Kuznets delivered a landmark report to the US Senate introducing Gross National Product, the foundation of modern GDP. Kuznets gave governments a tool to track production during the Great Depression, but added an explicit warning: \"the welfare of a nation can scarcely be inferred from a measure of national income.\" He insisted that measuring raw market output ignores inequality, unpaid work, leisure, and human quality of life.",
+      "imageWikipediaTitle": "Simon Kuznets",
+      "sources": [
+        {
+          "title": "BEA: History",
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "url": "https://www.bea.gov/about/history"
+        },
+        {
+          "title": "Simon Kuznets",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Simon_Kuznets"
+        }
+      ],
+      "readMoreUrl": "https://www.bea.gov/about/history",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Adam Smith Mentioned the \"Invisible Hand\" Only Once in His Masterpiece",
+      "body": "Modern debates frequently invoke the \"invisible hand\" as Adam Smith's central thesis, assuming he championed completely unregulated free markets. In reality, across the roughly 1,000 pages of his 1776 foundational text, The Wealth of Nations, the phrase appears exactly once. Far from endorsing unrestrained self-interest, Smith used the metaphor narrowly to explain why domestic merchants prefer investing capital close to home rather than overseas, unintentionally bolstering national industry and employment.",
+      "imageWikipediaTitle": "Adam Smith",
+      "sources": [
+        {
+          "title": "The Wealth of Nations",
+          "publisher": "Library of Economics and Liberty",
+          "url": "https://www.econlib.org/library/Smith/smWN.html"
+        },
+        {
+          "title": "Invisible hand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Invisible_hand"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Invisible_hand",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Decades-Long US Plan That Confiscated Raisins to Control Prices",
+      "body": "Under a 1949 federal agricultural marketing order, the US government required raisin growers to surrender a portion of their annual crop to a state-run reserve without upfront payment. In peak years, officials seized up to 47% of the harvest to artificially restrict market supply and maintain high commodity prices. The confiscated raisins were dumped overseas or distributed to school lunches until the Supreme Court ruled the seizure unconstitutional in 2015.",
+      "imageWikipediaTitle": "Raisin",
+      "sources": [
+        {
+          "title": "Horne v. Department of Agriculture",
+          "publisher": "Oyez",
+          "url": "https://www.oyez.org/cases/2014/14-275"
+        },
+        {
+          "title": "Horne v. Department of Agriculture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horne_v._Department_of_Agriculture"
+        }
+      ],
+      "readMoreUrl": "https://www.oyez.org/cases/2014/14-275",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Europe Killed Off Its 500-Euro Banknote",
+      "body": "In 2016, the European Central Bank voted to permanently halt production of the €500 banknote. While ordinary shoppers almost never handled the high-denomination bill, criminals dubbed it the \"Bin Laden\" because its concentrated value made illicit cash movement trivial. A single standard shoebox packed with €500 notes held over six million euros. Production ceased in 2019, although existing bills still remain legal tender to preserve public trust in European currency.",
+      "imageWikipediaTitle": "500 euro note",
+      "sources": [
+        {
+          "title": "ECB ends production and issuance of €500 banknote",
+          "publisher": "European Central Bank",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2016/html/pr160504.en.html"
+        },
+        {
+          "title": "500 euro note",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/500_euro_note"
+        }
+      ],
+      "readMoreUrl": "https://www.ecb.europa.eu/press/pr/date/2016/html/pr160504.en.html",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "During the US Free Banking Era (1837–1863), why were shady institutions nicknamed \"wildcat banks\"?",
+      "options": [
+        "They operated out of remote wilderness to make note redemption difficult",
+        "Their banknotes were stamped with depictions of wild cats",
+        "They primarily lent funds to pioneer fur trappers",
+        "They charged interest rates that were considered predatory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wildcat banks set up shop in remote, hard-to-reach locations so depositors could not easily travel to redeem paper notes for specie."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did Simon Kuznets warn the US Senate about when introducing national income accounting in 1934?",
+      "options": [
+        "National income statistics cannot measure a nation's true welfare",
+        "Calculating GDP would cause chronic federal budget deficits",
+        "Economic output would inevitably decline within ten years",
+        "Paper currency would lose value if production was tracked"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kuznets explicitly cautioned that the economic output captured by GDP cannot be equated with national well-being or human happiness."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How many times does the phrase \"invisible hand\" appear in Adam Smith's The Wealth of Nations?",
+      "options": [
+        "Exactly once",
+        "Over 50 times",
+        "At the start of every chapter",
+        "Zero times"
+      ],
+      "correctIndex": 0,
+      "explanation": "Across roughly 1,000 pages, Smith used the metaphor of the invisible hand only a single time, specifically discussing domestic investment."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did the US government seize portions of farmer harvests under the 1949 raisin marketing order?",
+      "options": [
+        "To restrict market supply and keep raisin prices artificially high",
+        "To build a strategic food stockpile for potential foreign wars",
+        "To punish growers who refused to join state farming unions",
+        "To replace imported sugars during wartime rationing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The federal government withheld raisins from the open market to restrict supply and maintain elevated commodity prices for growers."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was the €500 banknote nicknamed the \"Bin Laden\" prior to its cancellation?",
+      "options": [
+        "It was rarely seen by the public and favored for illicit financing",
+        "It featured an architectural bridge resembling Middle Eastern motifs",
+        "It was banned exclusively in countries fighting terrorism",
+        "It was first introduced during military operations in 2001"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bill earned its nickname because ordinary people rarely saw it, while criminals exploited its high value density to transport illicit cash."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many distinct paper banknote designs were in circulation across the US during the Free Banking Era?",
+      "answer": 8000,
+      "min": 500,
+      "max": 30000,
+      "unit": "",
+      "explanation": "Over 1,500 private banks issued more than 8,000 varieties of paper notes before a uniform national currency was established."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What maximum percentage of their raisin harvest were American growers forced to surrender to the federal reserve in peak years?",
+      "answer": 47,
+      "min": 5,
+      "max": 90,
+      "unit": "%",
+      "explanation": "In high-yield seasons, the federal raisin reserve took nearly half of a farmer's crop to prop up commercial prices."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The US federal government has always issued all paper currency circulating in America.",
+      "answer": false,
+      "explanation": "Between 1837 and 1863, private state-chartered banks issued thousands of independent paper currencies without any federal paper money."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Gross Domestic Product was designed by its creator to serve as a scorecard for national well-being.",
+      "answer": false,
+      "explanation": "Simon Kuznets designed it strictly to track monetary market production and cautioned Congress against treating it as a measure of welfare."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The 'invisible hand' is the foundational, repeatedly stated thesis of Adam Smith's The Wealth of Nations.",
+      "answer": false,
+      "explanation": "The phrase appears only once in the entire book, where it describes domestic trade preferences rather than general deregulation."
+    }
+  ]
+}
