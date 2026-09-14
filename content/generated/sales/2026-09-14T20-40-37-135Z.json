@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.135Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Match your pitch route to your buyer's mental bandwidth",
+      "body": "According to the Elaboration Likelihood Model, buyers evaluate proposals along two distinct pathways. The central route scrutinizes data, logic, and concrete ROI, while the peripheral route relies on gut impressions, presenter charisma, and polished design. When prospects are overwhelmed, busy, or non-technical, deep analytical spreadsheets trigger cognitive fatigue. Conversely, when presenting to dedicated, analytical decision-makers, superficial charm backfires; only rigorous, well-reasoned arguments create lasting commitments.",
+      "imageWikipediaTitle": "Elaboration likelihood model",
+      "sources": [
+        {
+          "title": "Psychology 2e: Attitudes and Persuasion",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/details/books/psychology-2e"
+        },
+        {
+          "title": "Elaboration likelihood model",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elaboration_likelihood_model"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Elaboration_likelihood_model",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Win over one internal champion to break committee resistance",
+      "body": "In Solomon Asch's classic conformity experiments, individuals agreed with an obviously incorrect group consensus on roughly a third of trials. However, introducing just a single dissenting partner who voiced the right answer caused conformity rates to plummet by over seventy-five percent. In enterprise sales, winning over an entire buying committee at once is unrealistic. Securing one internal champion breaks the group's united front, granting silent skeptics social permission to support your pitch.",
+      "imageWikipediaTitle": "Asch conformity experiments",
+      "sources": [
+        {
+          "title": "Psychology 2e: Conformity, Compliance, and Obedience",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/details/books/psychology-2e"
+        },
+        {
+          "title": "Asch conformity experiments",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Asch_conformity_experiments"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Asch_conformity_experiments",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the simplest negotiation rule beats complex bargaining tactics",
+      "body": "In political scientist Robert Axelrod's landmark tournaments analyzing negotiation strategies, the decisive winner was Tit-for-Tat, an algorithm containing just four lines of code. It begins by offering cooperation, mirrors the counterpart's previous move on every subsequent turn, and immediately forgives past betrayals whenever cooperation resumes. In high-stakes business dealmaking, this transparent predictability protects against exploitation while preventing destructive grudge cycles, consistently outperforming devious, calculating bargaining tactics over long-term relationships.",
+      "imageWikipediaTitle": "Tit for tat",
+      "sources": [
+        {
+          "title": "Prisoner's Dilemma",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/prisoner-dilemma/"
+        },
+        {
+          "title": "Tit for tat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tit_for_tat"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/prisoner-dilemma/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why winning an aggressive bidding war can quietly ruin your margin",
+      "body": "In competitive procurement auctions, winning a deal often carries a painful trap known as the winner's curse. When rival vendors bid aggressively for a contract with uncertain delivery costs, the winner is statistically most likely to have severely underestimated the true expenses. Nobel laureates Paul Milgrom and Robert Wilson demonstrated that without a strict, pre-calculated walkaway price, outbidding competitors in a multi-party RFP often guarantees negative profit margins long before delivery begins.",
+      "imageWikipediaTitle": "Winner's curse",
+      "sources": [
+        {
+          "title": "The Prize in Economic Sciences 2020: Press release",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2020/press-release/"
+        },
+        {
+          "title": "Winner's curse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Winner%27s_curse"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Winner%27s_curse",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why clients take credit for wins but blame your product for losses",
+      "body": "The self-serving bias is an ingrained psychological reflex: people attribute successful outcomes to their own skill, while blaming external factors for failures. In B2B sales and renewals, this means clients naturally credit their internal team when your product drives revenue, yet blame your software whenever targets are missed. Top customer success teams combat this tendency by continuously documenting shared milestones, establishing clear paper trails that tie your solution directly to their visible achievements.",
+      "imageWikipediaTitle": "Self-serving bias",
+      "sources": [
+        {
+          "title": "Psychology 2e: Self-Serving Bias",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/details/books/psychology-2e"
+        },
+        {
+          "title": "Self-serving bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-serving_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Self-serving_bias",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to the Elaboration Likelihood Model, which pathway should you target when presenting to a distracted or non-technical buyer?",
+      "options": [
+        "The peripheral route (relying on clear cues, credibility, and simple design)",
+        "The central route (relying on dense spreadsheets and technical data)",
+        "The recursive route (relying on repeated high-pressure ultimatums)",
+        "The antagonistic route (relying on direct confrontation)"
+      ],
+      "correctIndex": 0,
+      "explanation": "When buyers lack time or technical background to scrutinize data, peripheral cues like presenter credibility and simplicity guide their decision."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Solomon Asch's conformity experiments, what happened when just one person in the group broke ranks and disagreed with the majority?",
+      "options": [
+        "Conformity rates plummeted by over 75%",
+        "The remaining group members became more hostile and conformed more",
+        "The participant left the experiment entirely",
+        "Conformity rates remained completely unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Having a single dissenting ally broke the illusion of unanimous consensus, reducing conformity by more than three-quarters."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What core behavior defines the 'Tit-for-Tat' negotiation strategy discovered by Robert Axelrod?",
+      "options": [
+        "Starting cooperatively, then mirroring the counterpart's move and immediately forgiving defection",
+        "Making an aggressive, unyielding first offer and refusing all concessions",
+        "Continuously conceding on minor points to keep the other party happy",
+        "Alternating unpredictably between cooperation and betrayal to confuse rivals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tit-for-Tat starts with cooperation, mirrors the opponent's prior action, and instantly forgives as soon as the counterpart cooperates again."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What causes the 'winner's curse' in competitive procurement bidding?",
+      "options": [
+        "The winning bidder was most likely to have underestimated costs or over-discounted",
+        "The client secretly cancels the contract after awarding it",
+        "The auctioneer changes the delivery requirements after the contract is signed",
+        "Competitors collude to force the winner into bankruptcy"
+      ],
+      "correctIndex": 0,
+      "explanation": "In auctions with cost uncertainty, the winner is statistically the party whose bid was based on the most overly optimistic cost projection."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the self-serving bias affect how clients view business software or services?",
+      "options": [
+        "They credit their own skill for successes and blame the software for failures",
+        "They blame their own staff for software glitches",
+        "They attribute all company outcomes entirely to external vendors",
+        "They view all vendor contracts as equally valuable regardless of results"
+      ],
+      "correctIndex": 0,
+      "explanation": "The self-serving bias leads people to claim personal credit for positive results while deflecting responsibility for setbacks onto external tools."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In Solomon Asch's classic conformity trials, what percentage of participants conformed to an obviously wrong consensus at least once?",
+      "answer": 75,
+      "min": 15,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Fully 75% of participants went along with an obviously incorrect group answer at least once when the group was unanimous."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Highly technical data and comprehensive ROI spreadsheets are always the most persuasive way to close a deal.",
+      "answer": false,
+      "explanation": "Under the Elaboration Likelihood Model, busy or non-technical buyers rely on peripheral cues; dense data often triggers mental fatigue."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The most effective long-term negotiation strategy requires complex, unpredictable bargaining moves.",
+      "answer": false,
+      "explanation": "Robert Axelrod's tournaments showed that Tit-for-Tat—a transparent, four-line rule of reciprocal cooperation and forgiveness—beat all complex strategies."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "In competitive bidding, winning the contract guarantees the best financial outcome for your sales team.",
+      "answer": false,
+      "explanation": "The winner's curse shows that winning bids often reflect the most severe underestimation of costs, resulting in razor-thin or negative margins."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "When your product helps a client achieve record results, they will naturally credit your product for the success.",
+      "answer": false,
+      "explanation": "Due to the self-serving bias, clients instinctively credit their own competence for wins and blame external vendors for missed targets."
+    }
+  ]
+}

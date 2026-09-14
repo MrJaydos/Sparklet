@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.138Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rare neurological disorder makes moving objects appear completely frozen",
+      "body": "People with akinetopsia, or motion blindness, can see stationary objects normally but cannot perceive visual motion. Caused by damage to cortical area V5 (MT) in the brain, the world appears as a succession of static snapshots. Pouring tea looks like a frozen column of liquid, and crossing a street becomes perilous because a car seen far away suddenly appears right in front of them without any intermediate movement.",
+      "imageWikipediaTitle": "Visual cortex",
+      "sources": [
+        {
+          "title": "Akinetopsia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Akinetopsia"
+        },
+        {
+          "title": "Motion Blindness (Akinetopsia)",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK585094/"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK585094/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lying about an impossible event makes your brain remember it as true",
+      "body": "Fabricating details can corrupt your own memory through a phenomenon called the fabrication deflation or fabrication inflation effect. When research participants intentionally invent false autobiographical events or lie about performing actions, follow-up tests show that up to 50% end up believing the invented event truly occurred. The cognitive effort spent generating rich perceptual and contextual details tricks the brain into later mistaking the generated lie for a genuine episodic memory.",
+      "imageWikipediaTitle": "Memory",
+      "sources": [
+        {
+          "title": "Lie-telling can produce false memories",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7004652/"
+        },
+        {
+          "title": "The consequences of lying: Believing our own fabrications",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22197828/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7004652/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An invisible grid of specialized cells acts as your brain's internal GPS",
+      "body": "Deep in the entorhinal cortex, specialized neurons called grid cells create an internal metric coordinate system of physical space. Discovered by Edvard and May-Britt Moser, each grid cell fires at regular periodic locations forming a tessellated hexagonal lattice across the environment. Working with hippocampal place cells, this biological coordinate mesh allows mammals to track distances, calculate trajectories, and navigate their surroundings seamlessly without continuous sensory cues.",
+      "imageWikipediaTitle": "Grid cell",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physiology or Medicine 2014",
+          "publisher": "Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/medicine/2014/press-release/"
+        },
+        {
+          "title": "Grid cell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grid_cell"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/medicine/2014/press-release/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hearing a single syllable can warp your visual perception",
+      "body": "Cross-modal illusions prove your senses do not operate in isolation. In the sound-induced flash illusion, when a single brief flash of light is paired with two rapid beeps, observers consistently perceive two distinct flashes. The auditory cortex rapidly modulates activity in primary visual areas within milliseconds, demonstrating that auditory signals can overrule visual perception when timing and spatial uncertainty allow it.",
+      "imageWikipediaTitle": "Multisensory integration",
+      "sources": [
+        {
+          "title": "Sound alters visual evoked potentials in humans",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5548238/"
+        },
+        {
+          "title": "Sound-induced flash illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sound-induced_flash_illusion"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5548238/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain decides your actions seconds before you become aware of them",
+      "body": "In 1983, neurophysiologist Benjamin Libet recorded electrical activity in the brain while volunteers chose when to flick their wrists. Electrodes detected a 'readiness potential' rise in the motor cortex roughly 350 to 500 milliseconds before participants consciously registered the intent to act. Modern fMRI studies have extended this gap, decoding predictable motor choices in frontal and parietal regions up to several seconds prior to conscious subjective awareness.",
+      "imageWikipediaTitle": "Electroencephalography",
+      "sources": [
+        {
+          "title": "Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6640273/"
+        },
+        {
+          "title": "Neuroscience of free will",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neuroscience_of_free_will"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/6640273/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary symptom of akinetopsia?",
+      "options": [
+        "Inability to perceive visual motion",
+        "Total loss of peripheral vision",
+        "Failure to recognize familiar human faces",
+        "Inability to distinguish between contrasting colors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akinetopsia, or motion blindness, causes people to see moving objects as a series of frozen, disconnected snapshots due to damage in visual area V5/MT."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happens when people repeatedly fabricate details about an unperformed action?",
+      "options": [
+        "They permanently erase earlier childhood memories",
+        "They often end up believing the fabricated action truly occurred",
+        "Their reaction times become permanently halved",
+        "They lose the ability to visualize new scenarios"
+      ],
+      "correctIndex": 1,
+      "explanation": "Generating vivid fabrications provides perceptual details that lead the brain to mistake self-generated lies for genuine episodic memories."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What geometric pattern do grid cells form when mapping physical space?",
+      "options": [
+        "A square checkerboard",
+        "A concentric circular spiral",
+        "A regular hexagonal lattice",
+        "An irregular triangular scatter"
+      ],
+      "correctIndex": 2,
+      "explanation": "Discovered by Edvard and May-Britt Moser, grid cells in the entorhinal cortex fire in periodic hexagonal arrays that create an internal spatial coordinate system."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In the sound-induced flash illusion, what do people perceive when one flash is paired with two quick beeps?",
+      "options": [
+        "A single prolonged flash",
+        "Two distinct flashes",
+        "A flash shifted in color",
+        "No flash at all"
+      ],
+      "correctIndex": 3,
+      "explanation": "Hearing two rapid beeps alongside a single flash tricks the visual cortex into perceiving two separate flashes."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did Benjamin Libet discover about the brain's 'readiness potential' before voluntary action?",
+      "options": [
+        "It appears after the conscious decision is reported",
+        "It only occurs during reflexive, involuntary spasms",
+        "It begins hundreds of milliseconds before conscious awareness of the intent to move",
+        "It is completely absent during voluntary motor choices"
+      ],
+      "correctIndex": 2,
+      "explanation": "Libet found the brain initiates preparatory motor activity roughly 350 to 500 milliseconds before a person feels the conscious urge to act."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many milliseconds before conscious awareness did Libet find the brain begins motor preparation for an action?",
+      "answer": 350,
+      "min": 50,
+      "max": 1500,
+      "unit": "ms",
+      "explanation": "Libet's EEG recordings showed the readiness potential begins roughly 350 to 500 ms before a subject is consciously aware of deciding to move."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "People always clearly remember the difference between their own deliberate lies and actual events.",
+      "answer": false,
+      "explanation": "Deliberately fabricating details can introduce rich imagery that tricks the brain into later accepting the lie as a genuine memory."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Human visual perception operates independently of auditory input.",
+      "answer": false,
+      "explanation": "Illusions like the sound-induced flash effect demonstrate that auditory signals can directly alter what your visual cortex perceives in real time."
+    }
+  ]
+}

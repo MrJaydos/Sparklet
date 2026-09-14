@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.137Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Every possible universe is just as real as our own",
+      "body": "In 1986, philosopher David Lewis proposed a radical idea called modal realism: every possible world actually exists. When you wonder what would have happened if you chose differently today, you are not imagining a fiction—you are describing an event unfolding in a concrete, physical universe disconnected from ours. Lewis argued that treating possible worlds as literal reality provides the simplest, most coherent foundation for logic, probability, and human thought.",
+      "imageWikipediaTitle": "David Lewis (philosopher)",
+      "sources": [
+        {
+          "title": "David Lewis",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/david-lewis/"
+        },
+        {
+          "title": "Modal realism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Modal_realism"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/david-lewis/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Physical objects vanish when no mind is looking at them",
+      "body": "In the 18th century, philosopher George Berkeley challenged the foundation of common sense: what if physical matter does not exist at all? Berkeley argued that all we ever experience are mental perceptions—colors, shapes, textures, and sounds. Under his principle esse est percipi (\"to be is to be perceived\"), tables and apples only exist when a conscious mind observes them. Reality is entirely mental, sustained in existence only by God continually perceiving it.",
+      "imageWikipediaTitle": "George Berkeley",
+      "sources": [
+        {
+          "title": "George Berkeley",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/berkeley/"
+        },
+        {
+          "title": "Subjective idealism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Subjective_idealism"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/berkeley/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Great evil is often driven by thoughtless conformists, not monsters",
+      "body": "Covering the 1961 trial of Nazi bureaucrat Adolf Eichmann in Jerusalem, political philosopher Hannah Arendt expected to see a fanatical monster. Instead, she found an ordinary, painfully unoriginal civil servant who claimed he was merely doing his job. Arendt coined the term \"the banality of evil\" to argue that horrific catastrophes are often committed not by sadistic sociopaths, but by average citizens who unthinkingly surrender their critical judgment to bureaucratic routine.",
+      "imageWikipediaTitle": "Hannah Arendt",
+      "sources": [
+        {
+          "title": "Hannah Arendt",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/arendt/"
+        },
+        {
+          "title": "Eichmann in Jerusalem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eichmann_in_Jerusalem"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/arendt/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rule that forbids brute coincidences in the universe",
+      "body": "In the 17th century, Gottfried Wilhelm Leibniz championed the Principle of Sufficient Reason: for every fact, state of affairs, or event, there must be a reason why it is so and not otherwise. Nothing happens without an explanation. Leibniz argued that brute, causeless coincidences are logically impossible. If the universe had no underlying reason for why things exist the way they do, rational thought and science itself would unravel into meaningless chaos.",
+      "imageWikipediaTitle": "Gottfried Wilhelm Leibniz",
+      "sources": [
+        {
+          "title": "Principle of Sufficient Reason",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/sufficient-reason/"
+        },
+        {
+          "title": "Principle of sufficient reason",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Principle_of_sufficient_reason"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/sufficient-reason/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The philosopher who was exiled for declaring Nature is God",
+      "body": "In 1656, 23-year-old Baruch Spinoza was cast out from Amsterdam's Jewish community with the harshest writ of excommunication on record. His heresy was pantheism: the belief that God and the physical universe are one and the same substance (Deus sive Natura). Spinoza rejected an external creator who answers prayers, judges sins, or bends the laws of physics with miracles. To Spinoza, nature's immutable laws do not serve human purposes—they are the divine order itself.",
+      "imageWikipediaTitle": "Baruch Spinoza",
+      "sources": [
+        {
+          "title": "Baruch Spinoza",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/spinoza/"
+        },
+        {
+          "title": "Spinozism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spinozism"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/spinoza/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to philosopher David Lewis's theory of modal realism, what are 'possible worlds'?",
+      "options": [
+        "Literal, physical universes that exist just as concretely as our own",
+        "Purely abstract mathematical equations without physical existence",
+        "Mental simulations generated by human cognitive limits",
+        "Fictional literary scenarios useful only for linguistic metaphors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lewis argued that all possible worlds are concrete, real physical entities, separated from our world by space and time."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What core claim forms the basis of George Berkeley's philosophical idealism?",
+      "options": [
+        "Physical matter exists independently of whether anyone observes it",
+        "Physical matter does not exist; things only exist when perceived by a mind",
+        "Human senses distort an otherwise perfect material reality",
+        "Only mathematical concepts have genuine physical existence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Berkeley's doctrine 'esse est percipi' argues that material substance is an illusion and objects exist solely as mental perceptions."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did Hannah Arendt mean by the phrase 'the banality of evil'?",
+      "options": [
+        "Extreme evil requires a sadistic, pathologically deranged personality",
+        "Evil actions inevitably lose their emotional impact over generations",
+        "Horrific crimes can be committed by ordinary people mindlessly following orders",
+        "Minor daily misdeeds gradually compound into catastrophic violence"
+      ],
+      "correctIndex": 2,
+      "explanation": "Arendt observed that Adolf Eichmann was not a demonic fanatic, but an unthinking bureaucrat who unquestioningly executed orders."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does Gottfried Wilhelm Leibniz's Principle of Sufficient Reason state?",
+      "options": [
+        "Every true fact or event must have an explanation for why it is so",
+        "Human reason is insufficient to comprehend physical reality",
+        "If a belief provides sufficient utility, it must be considered true",
+        "Only empirical scientific evidence can justify philosophical claims"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Principle of Sufficient Reason asserts that nothing occurs without a reason or cause explaining why it exists as it does."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What controversial philosophical view led to Baruch Spinoza's excommunication in 1656?",
+      "options": [
+        "Pantheism—the belief that God and the natural universe are the identical substance",
+        "Nihilism—the conviction that all moral and religious rules are meaningless",
+        "Dualism—the view that mind and physical body are entirely separate substances",
+        "Polytheism—the belief that distinct deities govern individual natural forces"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spinoza claimed that God and nature are one ('Deus sive Natura'), rejecting a personal creator who interacts with the world."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Bishop Berkeley argued that an unobserved object ceases to exist forever if no human is looking at it.",
+      "answer": false,
+      "explanation": "Berkeley held that objects remain continuously in existence because God's omnipresent mind is always perceiving them."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Mass atrocities are almost always orchestrated and carried out by deeply sadistic, psychopathic individuals.",
+      "answer": false,
+      "explanation": "Arendt's concept of the 'banality of evil' showed that catastrophic harm is frequently carried out by ordinary bureaucrats unthinkingly following procedure."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Baruch Spinoza believed God actively intervenes in the world through miraculous events to help believers.",
+      "answer": false,
+      "explanation": "Spinoza equated God with the fixed, immutable laws of nature itself, explicitly rejecting miracles and divine intervention."
+    }
+  ]
+}

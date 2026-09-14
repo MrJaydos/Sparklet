@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.133Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Polish Officer Volunteered to Infiltrate Auschwitz",
+      "body": "In September 1940, Polish cavalry officer Witold Pilecki intentionally let German soldiers capture him during a Warsaw street roundup. His objective was unprecedented: sneak into Auschwitz concentration camp, organize resistance from within, and gather intelligence for the Allies. Over two and a half years, Pilecki built an underground network and smuggled out detailed reports on mass exterminations before staging a daring nighttime escape in April 1943.",
+      "imageWikipediaTitle": "Witold Pilecki",
+      "sources": [
+        {
+          "title": "Witold Pilecki",
+          "publisher": "United States Holocaust Memorial Museum",
+          "url": "https://encyclopedia.ushmm.org/content/en/article/witold-pilecki"
+        },
+        {
+          "title": "Witold Pilecki",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Witold_Pilecki"
+        }
+      ],
+      "readMoreUrl": "https://encyclopedia.ushmm.org/content/en/article/witold-pilecki",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Viking Helmets Never Actually Had Horns",
+      "body": "The popular image of horned Viking raiders charging into battle is pure 19th-century theater. Not a single archaeological excavation has ever unearthed a horned Viking combat helmet. Real Norse fighters wore simple iron or leather skullcaps, sometimes with nasal guards for face protection. The horned motif was popularized in the 1870s by costume designer Carl Emil Doepler for Richard Wagner's opera cycle 'Der Ring des Nibelungen'.",
+      "imageWikipediaTitle": "Gjermundbu helmet",
+      "sources": [
+        {
+          "title": "Did Vikings really wear horns on their helmets?",
+          "publisher": "History",
+          "url": "https://www.history.com/news/did-vikings-really-wear-horned-helmets"
+        },
+        {
+          "title": "Viking",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Viking-people"
+        }
+      ],
+      "readMoreUrl": "https://www.history.com/news/did-vikings-really-wear-horned-helmets",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Medieval Nun Whose Hologram-Like Visions Led to Modern Science",
+      "body": "In the 12th century, German Benedictine abbess Hildegard of Bingen recorded vivid, radiant visions while composing hymns, founding monasteries, and authoring visionary theological treatises. Remarkably, she also compiled 'Physica' and 'Causae et Curae', documenting hundreds of medicinal plants, animals, and illnesses. Widely regarded as the founder of scientific natural history in Germany, she was officially canonized and named a Doctor of the Church in 2012.",
+      "imageWikipediaTitle": "Hildegard of Bingen",
+      "sources": [
+        {
+          "title": "St. Hildegard",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Saint-Hildegard"
+        },
+        {
+          "title": "Hildegard of Bingen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hildegard_of_Bingen"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Saint-Hildegard",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Only Japanese Passenger on the Titanic Was Branded a Coward",
+      "body": "When RMS Titanic sank in 1912, Masabumi Hosono, a civil servant in Japan's Ministry of Transport, found an empty spot in Lifeboat 10 and survived. Rather than being welcomed home, Hosono faced public disgrace. Japanese newspapers and academics condemned him for betraying the samurai ethos of honorable self-sacrifice by taking a seat ahead of women and children—even though no others were present on deck when the lifeboat lowered.",
+      "imageWikipediaTitle": "Masabumi Hosono",
+      "sources": [
+        {
+          "title": "The Titanic Passenger Condemned as a Coward",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/history/article/titanic-japanese-passenger-condemned-coward"
+        },
+        {
+          "title": "Masabumi Hosono",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Masabumi_Hosono"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Masabumi_Hosono",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Benjamin Franklin Did Not Propose the Turkey as the US National Bird",
+      "body": "A pervasive legend claims Benjamin Franklin campaigned to make the wild turkey America's national symbol over the bald eagle. In reality, Franklin never proposed the turkey to the Great Seal committees. The myth comes from a private letter written to his daughter in 1784, where he jokingly criticized the eagle on a military medal as a bird of 'bad moral character' that steals fish, praising the turkey as a 'respectable' native bird.",
+      "imageWikipediaTitle": "Benjamin Franklin",
+      "sources": [
+        {
+          "title": "Did Benjamin Franklin Want the National Bird to Be a Turkey?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/item/did-benjamin-franklin-want-the-national-bird-to-be-a-turkey/"
+        },
+        {
+          "title": "Benjamin Franklin and the Turkey",
+          "publisher": "The Franklin Institute",
+          "url": "https://fi.edu/en/science-and-education/franklin-hall/benjamin-franklin-and-turkey"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/item/did-benjamin-franklin-want-the-national-bird-to-be-a-turkey/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Polish officer Witold Pilecki intentionally allow himself to be captured by German forces in 1940?",
+      "options": [
+        "To secretly negotiate a surrender",
+        "To assassinate the Auschwitz commandant",
+        "To infiltrate Auschwitz and organize underground resistance",
+        "To protect his family from deportation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pilecki volunteered to be captured so he could infiltrate Auschwitz, document atrocities, and organize prisoner resistance."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Where did the popular depiction of horned Viking helmets originate?",
+      "options": [
+        "Ancient Roman battlefield sketches",
+        "19th-century opera costume designs",
+        "A burial site excavated in Norway",
+        "Medieval monastery tapestry records"
+      ],
+      "correctIndex": 1,
+      "explanation": "Costume designer Carl Emil Doepler created horned helmets for Richard Wagner's opera cycle in the 1870s, creating the modern myth."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What scientific legacy is 12th-century abbess Hildegard of Bingen renowned for?",
+      "options": [
+        "Inventing the compound microscope",
+        "Documenting natural history and medicinal uses of plants and animals",
+        "Calculating planetary orbits",
+        "Formulating the modern periodic table"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hildegard authored 'Physica' and 'Causae et Curae', foundational treatises describing medicinal applications of plants, animals, and minerals."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why was the sole Japanese survivor of the Titanic, Masabumi Hosono, ostracized in Japan?",
+      "options": [
+        "He disguised himself as a woman to board a lifeboat",
+        "He was blamed for steering the ship off course",
+        "He was criticized for surviving instead of going down with the ship",
+        "He refused to testify at the official maritime inquiry"
+      ],
+      "correctIndex": 2,
+      "explanation": "Japanese society and media criticized Hosono for not embracing self-sacrifice, viewing his survival as a disgrace to traditional values."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In what context did Benjamin Franklin praise the turkey over the bald eagle?",
+      "options": [
+        "In a draft of the Declaration of Independence",
+        "In a private letter to his daughter",
+        "During a floor debate in the Continental Congress",
+        "In an editorial published in Poor Richard's Almanack"
+      ],
+      "correctIndex": 1,
+      "explanation": "Franklin mused about the two birds in a private 1784 letter to his daughter, criticizing an eagle motif on a military medal."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many months did Witold Pilecki spend inside Auschwitz gathering intelligence before escaping?",
+      "answer": 31,
+      "min": 1,
+      "max": 60,
+      "unit": "months",
+      "explanation": "Pilecki spent over two and a half years (31 months) building an underground network in Auschwitz before escaping in April 1943."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Viking warriors went into battle wearing horned helmets.",
+      "answer": false,
+      "explanation": "No horned Viking helmet has ever been discovered; the image was invented for 19th-century Wagnerian opera productions."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Benjamin Franklin formally proposed the wild turkey as the official national bird of the United States.",
+      "answer": false,
+      "explanation": "Franklin only praised the turkey in a private letter to his daughter joking about a military insignia; he never proposed it officially."
+    }
+  ]
+}

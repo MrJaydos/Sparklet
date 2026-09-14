@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.131Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Medieval Scholar Behind Both 'Algebra' and 'Algorithm'",
+      "body": "Every time you solve an equation or run computer code, you honor the 9th-century scholar Muḥammad ibn Mūsā al-Khwārizmī (محمد بن موسى الخوارزمي). Working at Baghdad's House of Wisdom, his Latinized surname gave English the word \"algorithm.\" His mathematical treatise also introduced systematic equation-solving, coining \"algebra\" from *al-jabr* (الجبر, \"al-JAH-br\"), which literally translates to the \"reunion of broken parts\" or restoring numerical balance.",
+      "imageWikipediaTitle": "Muhammad ibn Musa al-Khwarizmi",
+      "sources": [
+        {
+          "title": "Abu Ja'far Muhammad ibn Musa Al-Khwarizmi",
+          "publisher": "MacTutor History of Mathematics Archive",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/"
+        },
+        {
+          "title": "al-Khwarizmi | Biography & Facts",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/al-Khwarizmi"
+        },
+        {
+          "title": "Muhammad ibn Musa al-Khwarizmi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/al-Khwarizmi",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Ukrainian Gratitude Shares Roots with English",
+      "body": "While Russian speakers express gratitude with *spasibo*, Ukrainians say Дякую (dyakuyu, pronounced \"DYAH-koo-yoo\"). Rather than sharing an Eastern Slavic religious root, the word arrived through Polish *dziękuję* from Middle High German *danken*. This means Ukrainian gratitude shares its ancient Germanic lineage with the English word \"thank.\" Responding politely is just as essential: speakers say Будь ласка (bud laska, pronounced \"bood LAH-skah\"), meaning \"please\" or \"you are welcome.\"",
+      "imageWikipediaTitle": "Ukrainian language",
+      "sources": [
+        {
+          "title": "Ukrainian language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Ukrainian-language"
+        },
+        {
+          "title": "дякую",
+          "publisher": "Wiktionary",
+          "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8F%D0%BA%D1%83%D1%8E"
+        },
+        {
+          "title": "Ukrainian language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Ukrainian-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wishing Auspicious Blessings with Tibetan 'Tashi Delek'",
+      "body": "On the Tibetan plateau, greeting someone involves far more than a casual hello. The standard phrase is བཀྲ་ཤིས་བདེ་ལེགས (Tashi delek, pronounced \"TAH-shee deh-LEK\"). It pairs *tashi* (auspicious fortune or divine blessings) with *delek* (wellness, goodness, or health). Originally spoken during Losar, the Tibetan New Year, to wish families peace and abundant prosperity, it gradually evolved into the universal everyday greeting used across Tibet and the worldwide diaspora.",
+      "imageWikipediaTitle": "Tashi delek",
+      "sources": [
+        {
+          "title": "Losar | Tibetan festival",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Losar"
+        },
+        {
+          "title": "Tashi delek",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tashi_delek"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Losar",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Italian Dancing Mania Behind the 'Tarantula'",
+      "body": "The fearsome tarantula was not originally named for hairy tropical spiders in the Americas. Its name traces back to the southern Italian seaport of Taranto. During the Middle Ages, locals blamed a local wolf spider for \"tarantism\"—a bizarre nervous condition believed to cause melancholy or madness. The only reputed cure was dancing frantically to rapid, rhythmic music until completely exhausted, giving rise to both the spider's name and the lively Italian folk dance, the *tarantella*.",
+      "imageWikipediaTitle": "Tarantula",
+      "sources": [
+        {
+          "title": "tarantula | spider",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/animal/tarantula"
+        },
+        {
+          "title": "Tarantula",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/tarantula"
+        },
+        {
+          "title": "Tarantula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tarantula"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/tarantula",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Amharic's Formal Greeting Wishes Divine Health",
+      "body": "In Ethiopia's national language, Amharic, the classic respectful greeting is ጤና ይስጥልኝ (tena yistillign, pronounced \"TAY-nah yis-tihl-yign\"). Written in the ancient Ge'ez abugida script, it translates literally to \"May He [God] give you health on my behalf.\" Between close peers and casual friends, speakers frequently swap this formal phrase for a shorter greeting: ሰላም (selam, pronounced \"seh-LAHM\"), meaning \"peace\"—an ancient Semitic root directly shared with Arabic *salam* and Hebrew *shalom*.",
+      "imageWikipediaTitle": "Amharic",
+      "sources": [
+        {
+          "title": "Amharic language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Amharic-language"
+        },
+        {
+          "title": "Amharic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amharic"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Amharic-language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which mathematical term comes from an Arabic phrase meaning the 'reunion of broken parts'?",
+      "options": [
+        "Algebra",
+        "Algorithm",
+        "Calculus",
+        "Geometry"
+      ],
+      "correctIndex": 0,
+      "explanation": "Algebra comes from al-jabr in al-Khwarizmi's treatise, meaning the restoration or reunion of broken parts."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which language family does the Ukrainian word for 'thank you' (Дякую) trace back to via Polish?",
+      "options": [
+        "Germanic",
+        "Turkic",
+        "Uralic",
+        "Celtic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ukrainian Дякую (dyakuyu) arrived through Polish from Middle High German danken, cognate with English 'thank'."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What do the components of the Tibetan greeting བཀྲ་ཤིས་བདེ་ལེགས (Tashi delek) literally wish for?",
+      "options": [
+        "Auspicious fortune and well-being",
+        "Victory over rivals and strength",
+        "Long life and sound sleep",
+        "Abundant harvest and rain"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Tibetan, 'tashi' signifies auspicious blessing or fortune, while 'delek' translates to goodness and well-being."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What medieval Italian phenomenon gave the tarantula its name?",
+      "options": [
+        "A dancing mania linked to the seaport of Taranto",
+        "A venomous sea sponge traded by merchants",
+        "A mythological weaver punished by Roman gods",
+        "An ancient military siege weapon with eight legs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tarantulas were named after Taranto, Italy, where spider bites were blamed for a mania cured by dancing the tarantella."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the literal meaning of the respectful Amharic greeting ጤና ይስጥልኝ (tena yistillign)?",
+      "options": [
+        "May He give you health on my behalf",
+        "May peace be upon your household",
+        "May the dawn bring you light",
+        "May your ancestors bless you"
+      ],
+      "correctIndex": 0,
+      "explanation": "ጤና ይስጥልኝ (tena yistillign) literally wishes 'May He [God] give you health on my behalf' in Amharic."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The Ukrainian word for 'thank you' shares the same etymological root as Russian 'spasibo'.",
+      "answer": false,
+      "explanation": "Russian 'spasibo' derives from 'spasi Bog' (God save), while Ukrainian Дякую (dyakuyu) comes from Germanic roots via Polish."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Tarantulas were named after giant hairy spiders native to the Americas.",
+      "answer": false,
+      "explanation": "The word originally referred to a Mediterranean wolf spider near Taranto, Italy; explorers later applied the name to American spiders."
+    }
+  ]
+}

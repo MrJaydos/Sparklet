@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.134Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A sudden royalty demand created the web's favorite transparent image format",
+      "body": "In 1994, tech company Unisys announced it would collect royalties on software using LZW compression—the mathematical engine powering GIF images. Infuriated developers united to build an open, royalty-free successor. Within months, they created PNG, which officially stood for Portable Network Graphics and tongue-in-cheek for \"PNG's Not GIF.\" Beyond avoiding patent fees, PNG introduced superior 24-bit true color and true variable transparency, replacing GIF for modern web design.",
+      "imageWikipediaTitle": "PNG",
+      "sources": [
+        {
+          "title": "PNG (Portable Network Graphics) Specification",
+          "publisher": "World Wide Web Consortium",
+          "url": "https://www.w3.org/TR/PNG/"
+        },
+        {
+          "title": "PNG",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PNG"
+        }
+      ],
+      "readMoreUrl": "https://www.w3.org/TR/PNG/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A missing unit conversion doomed a $125 million spacecraft",
+      "body": "In September 1999, NASA lost the $125 million Mars Climate Orbiter as it entered the Martian atmosphere. The spacecraft dipped far too close—just 57 kilometers above the surface instead of the planned 150—and disintegrated. An investigation uncovered a simple software blunder: Lockheed Martin's ground software calculated thruster impulse in imperial pound-seconds, while NASA's navigation team expected metric Newton-seconds. The mismatched data steered the robotic explorer fatally off course.",
+      "imageWikipediaTitle": "Mars Climate Orbiter",
+      "sources": [
+        {
+          "title": "Mars Climate Orbiter",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/mars-climate-orbiter/"
+        },
+        {
+          "title": "Mars Climate Orbiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/mars-climate-orbiter/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Modern emoji began as a tiny 12-pixel art project in 1999",
+      "body": "Before smartphones conquered the globe, Japanese interface designer Shigetaka Kurita designed the first set of 176 emoji in 1999 for NTT DOCOMO's mobile web service. Restricted to grids of just 12 by 12 pixels, Kurita drew inspiration from manga symbols, weather icons, and street signs to help users convey tone in 250-character emails. In 2016, New York's Museum of Modern Art added the original 176 pixelated designs to its permanent collection.",
+      "imageWikipediaTitle": "Emoji",
+      "sources": [
+        {
+          "title": "Shigetaka Kurita. Emoji. 1999",
+          "publisher": "Museum of Modern Art",
+          "url": "https://www.moma.org/collection/works/196070"
+        },
+        {
+          "title": "Emoji",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emoji"
+        }
+      ],
+      "readMoreUrl": "https://www.moma.org/collection/works/196070",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first cyberweapon designed to physically destroy industrial hardware",
+      "body": "In 2010, cybersecurity researchers uncovered Stuxnet, a remarkably sophisticated computer worm engineered to sabotage Iran's uranium enrichment facility at Natanz. Unlike ordinary malware that steals data or encrypts files, Stuxnet targeted programmable logic controllers that governed uranium centrifuges. It silently forced the centrifuges to spin dangerously fast and slow, tearing them apart mechanically, all while feeding normal telemetry to monitoring screens so operators never noticed until the machines failed.",
+      "imageWikipediaTitle": "Stuxnet",
+      "sources": [
+        {
+          "title": "Stuxnet Malware and Industrial Control Systems",
+          "publisher": "Cybersecurity and Infrastructure Security Agency",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-10-272-01"
+        },
+        {
+          "title": "Stuxnet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stuxnet"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Stuxnet",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mars rover Curiosity stamps hidden Morse code into Martian sand",
+      "body": "Look closely at the tracks left by NASA's Curiosity rover, and you will find a repeating pattern of dots and dashes in the Martian dirt. NASA engineers cut small, asymmetric holes into Curiosity's aluminum wheels that spell \"JPL\" (.--- .--. .-..) in Morse code. While an intentional tribute to the Jet Propulsion Laboratory, the holes serve a crucial engineering role: cameras track their distinct imprints to measure wheel slip across tricky sand dunes.",
+      "imageWikipediaTitle": "Curiosity (rover)",
+      "sources": [
+        {
+          "title": "Rover Leaves Tracks in First Drive",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/news/rover-leaves-tracks-in-first-drive"
+        },
+        {
+          "title": "Curiosity (rover)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curiosity_(rover)"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/news/rover-leaves-tracks-in-first-drive",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was the PNG image file format originally developed in 1995?",
+      "options": [
+        "To provide a royalty-free alternative to the patented GIF format",
+        "To introduce the first full-color video streaming standard",
+        "To replace JPEG images on NASA space mission cameras",
+        "To serve as the default proprietary file format for Microsoft Windows"
+      ],
+      "correctIndex": 0,
+      "explanation": "Developers created PNG (\"Portable Network Graphics\") after Unisys began enforcing patent royalties on the LZW compression algorithm used in GIFs."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What critical error caused the destruction of NASA's Mars Climate Orbiter in 1999?",
+      "options": [
+        "A solar flare disabled its main communications antenna",
+        "One software team used imperial units while another used metric units",
+        "Its thrusters ran out of propellant months ahead of schedule",
+        "Space debris punctured its primary fuel tank"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lockheed Martin software sent thruster data in imperial pound-seconds, but NASA navigation software interpreted the values as metric Newton-seconds."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What museum acquired the original set of 176 emoji for its permanent collection in 2016?",
+      "options": [
+        "The British Museum",
+        "The Smithsonian National Air and Space Museum",
+        "The Museum of Modern Art (MoMA) in New York",
+        "The Louvre Museum"
+      ],
+      "correctIndex": 2,
+      "explanation": "MoMA acquired Shigetaka Kurita's 1999 set of 176 pixelated emoji, recognizing them as humble digital masterpieces of graphic design."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did the Stuxnet computer worm physically damage equipment at Iran's Natanz facility?",
+      "options": [
+        "It overheated cooling pumps by disabling circuit breakers",
+        "It forced centrifuges to spin at damaging speeds while reporting normal telemetry",
+        "It corrupted hard drives inside the power grid's control rooms",
+        "It opened emergency relief valves to vent cooling gas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stuxnet manipulated programmable logic controllers to alternate centrifuges between dangerously high and low speeds, causing physical failure."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What message is stamped into Martian soil by the wheels of NASA's Curiosity rover?",
+      "options": [
+        "\"NASA\" in binary code",
+        "\"MARS\" in ASCII characters",
+        "\"JPL\" in Morse code",
+        "\"USA\" in Greek lettering"
+      ],
+      "correctIndex": 2,
+      "explanation": "Holes in Curiosity's aluminum wheels spell out \"JPL\" (.--- .--. .-..) in Morse code, which cameras use to monitor wheel rotation and slipping."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How much did NASA's Mars Climate Orbiter mission cost (in millions of dollars) before it was lost due to a metric conversion error?",
+      "answer": 125,
+      "min": 20,
+      "max": 500,
+      "unit": "million $",
+      "explanation": "The $125 million orbiter burned up in the Martian atmosphere because software fed thruster measurements in pound-seconds instead of Newton-seconds."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many icons were in the original set of emoji designed by Shigetaka Kurita in 1999?",
+      "answer": 176,
+      "min": 20,
+      "max": 800,
+      "unit": "",
+      "explanation": "Kurita designed 176 minimalist 12-by-12 pixel symbols, representing weather, emotions, and objects for early Japanese mobile internet."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The PNG image format was created by a commercial corporation to monetize transparent web graphics.",
+      "answer": false,
+      "explanation": "PNG was created by a volunteer developer community as a free, unencumbered replacement after Unisys enforced patent royalties on GIF files."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A robotic spacecraft was once completely destroyed because engineers forgot to convert between imperial and metric units.",
+      "answer": true,
+      "explanation": "NASA's Mars Climate Orbiter burned up in 1999 because Lockheed Martin thruster software used imperial pound-seconds while NASA navigation expected Newton-seconds."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Emoji were invented by Apple engineers for the first iPhone in 2007.",
+      "answer": false,
+      "explanation": "Japanese designer Shigetaka Kurita created the first set of 176 emoji in 1999 for carrier NTT DOCOMO, eight years before the iPhone debuted."
+    }
+  ]
+}

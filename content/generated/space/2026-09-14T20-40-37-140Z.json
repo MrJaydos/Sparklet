@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.140Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first spacewalk nearly turned fatal when the astronaut's suit ballooned",
+      "body": "In 1965, Soviet cosmonaut Alexei Leonov stepped into the void of space for humanity's very first spacewalk. But in the vacuum, his pressurized suit ballooned like an overinflated tire. His hands slipped out of his gloves and his boots out of his feet, leaving him too stiff to squeeze back through the airlock. In desperation, Leonov bled off life-supporting oxygen to deflate his suit, narrowly avoiding suffocation and the bends as he forced himself inside.",
+      "imageWikipediaTitle": "Alexei Leonov",
+      "sources": [
+        {
+          "title": "The First Spacewalk",
+          "publisher": "National Air and Space Museum",
+          "url": "https://airandspace.si.edu/stories/editorial/first-spacewalk"
+        },
+        {
+          "title": "Voskhod 2",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Voskhod_2"
+        }
+      ],
+      "readMoreUrl": "https://airandspace.si.edu/stories/editorial/first-spacewalk",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Uranus was originally named after King George III",
+      "body": "When British astronomer William Herschel discovered the seventh planet in 1781, he named it \"Georgium Sidus\" (George's Star) in honor of his patron, King George III. While British astronomers happily used the patriotic name for decades, international astronomers firmly refused to adopt a British monarch's name. German astronomer Johann Elert Bode proposed Uranus to align with ancient Greco-Roman mythology. It took nearly seventy years before Herschel's original royal moniker was completely abandoned.",
+      "imageWikipediaTitle": "Uranus",
+      "sources": [
+        {
+          "title": "Uranus Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/uranus/facts/"
+        },
+        {
+          "title": "Uranus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Uranus"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/uranus/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You could fly under your own muscle power on Saturn's moon Titan",
+      "body": "If humans ever visit Saturn's giant moon Titan, they could experience human-powered flight by strapping artificial wings to their arms and pedaling. Titan boasts a nitrogen-rich atmosphere about fifty percent denser than Earth's, combined with a feeble surface gravity just fourteen percent of our planet's. Because the thick air provides tremendous aerodynamic lift while the weak gravity exerts little downward pull, human muscle power alone would easily keep an explorer soaring through the alien sky.",
+      "imageWikipediaTitle": "Titan (moon)",
+      "sources": [
+        {
+          "title": "Titan Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+        },
+        {
+          "title": "Titan's atmosphere",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Titan_s_atmosphere"
+        },
+        {
+          "title": "Atmosphere of Titan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmosphere_of_Titan"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/moons/titan/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun is actually pure white, not yellow",
+      "body": "We draw the Sun as bright yellow, but seen from outer space, it shines pure white. The Sun emits light across all wavelengths of the visible spectrum. When sunlight enters Earth's atmosphere, shorter blue wavelengths scatter easily in all directions via Rayleigh scattering. With that blue light scattered across the sky, the direct beam of sunlight reaching our eyes is depleted of cooler tones, causing our star to take on its familiar yellow appearance on Earth.",
+      "imageWikipediaTitle": "Sun",
+      "sources": [
+        {
+          "title": "What Color is the Sun?",
+          "publisher": "Stanford Solar Center",
+          "url": "http://solar-center.stanford.edu/SID/activities/GreenSun.html"
+        },
+        {
+          "title": "Sun Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/sun/facts/"
+        },
+        {
+          "title": "Sun",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sun"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/sun/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Not a single black dwarf star currently exists in the universe",
+      "body": "When medium-sized stars like our Sun exhaust their nuclear fuel, they leave behind white dwarfs—dense stellar embers that glow purely from leftover heat. Over incomprehensible spans of time, these stellar remnants will gradually radiate away every last calorie, eventually becoming cold, dark lumps of carbon called black dwarfs. However, astrophysics calculations show that cooling off completely takes at least a quadrillion years. Because our universe is only 13.8 billion years old, none have formed yet.",
+      "imageWikipediaTitle": "White dwarf",
+      "sources": [
+        {
+          "title": "White Dwarfs",
+          "publisher": "NASA Imagine the Universe!",
+          "url": "https://imagine.gsfc.nasa.gov/science/objects/dwarfs1.html"
+        },
+        {
+          "title": "Black dwarf",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Black_dwarf"
+        }
+      ],
+      "readMoreUrl": "https://imagine.gsfc.nasa.gov/science/objects/dwarfs1.html",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Alexei Leonov struggle to re-enter his spacecraft during humanity's first spacewalk?",
+      "options": [
+        "His suit ballooned in the vacuum and became too rigid to fit the hatch",
+        "His tether wrapped around the spacecraft's thruster nozzle",
+        "The airlock door froze solid in the cold of space",
+        "His radio antenna snapped and wedged into the entryway"
+      ],
+      "correctIndex": 0,
+      "explanation": "In the vacuum of space, internal air pressure inflated Leonov's suit like a rigid balloon, forcing him to bleed off oxygen to squeeze back inside."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did William Herschel originally name the planet Uranus following its discovery in 1781?",
+      "options": [
+        "Georgium Sidus, in honor of King George III",
+        "Caelus, after the Roman god of the sky",
+        "Albion, after the historical poetic name for Britain",
+        "Nova Europa, in honor of the British crown"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herschel named the planet Georgium Sidus after his patron King George III, a moniker that lasted decades before the international community settled on Uranus."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why would a human be able to fly using flapping arm wings on Saturn's moon Titan?",
+      "options": [
+        "Titan has dense air paired with very low surface gravity",
+        "Titan has powerful thermal updrafts fueled by cryovolcanoes",
+        "Titan's atmosphere is made almost entirely of light hydrogen gas",
+        "Titan's magnetic field repels carbon-based objects"
+      ],
+      "correctIndex": 0,
+      "explanation": "Titan's atmosphere is 50% denser than Earth's while gravity is just 14% of Earth's, giving flapping wings enough lift to support human weight."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the true color of the Sun when viewed from space above Earth's atmosphere?",
+      "options": [
+        "Pure white",
+        "Bright yellow",
+        "Warm orange",
+        "Faint green"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Sun emits light evenly across all visible wavelengths, appearing pure white until Earth's atmosphere scatters out shorter blue light."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are there currently no black dwarf stars in the entire universe?",
+      "options": [
+        "White dwarfs take a quadrillion years to cool, and the universe is far too young",
+        "Supermassive black holes swallow all white dwarfs before they can cool",
+        "Quantum fluctuations reignite nuclear fusion before white dwarfs go dark",
+        "Protons decay before a star has time to cool down below room temperature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cooling a white dwarf into a cold, dark black dwarf takes roughly 1,000,000,000,000,000 years, far longer than the universe's current 13.8-billion-year age."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of Earth's surface gravity does Saturn's moon Titan have?",
+      "answer": 14,
+      "min": 1,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Titan's surface gravity is just 14% of Earth's, which combined with its thick atmosphere makes human-powered flight physically possible."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many billions of years old is the universe?",
+      "answer": 13.8,
+      "min": 1,
+      "max": 100,
+      "unit": "billion years",
+      "explanation": "At 13.8 billion years old, our universe is far too young to have produced a black dwarf, which takes at least a quadrillion years to form."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The world's first spacewalk was a smooth mission without life-threatening complications.",
+      "answer": false,
+      "explanation": "Alexei Leonov nearly died when his suit ballooned in the vacuum, forcing him to bleed off vital oxygen to squeeze back through the hatch."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The planet Uranus was named after an ancient deity from the moment it was discovered.",
+      "answer": false,
+      "explanation": "William Herschel originally named it Georgium Sidus (George's Star) after King George III; the mythological name took decades to gain acceptance."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The Sun is physically a yellow star that looks yellow even when viewed from space.",
+      "answer": false,
+      "explanation": "The Sun emits all visible wavelengths and appears brilliant white from space; atmospheric scattering makes it look yellow from Earth."
+    }
+  ]
+}

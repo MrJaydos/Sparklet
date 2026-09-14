@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.139Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Giant Stone Coins That Never Need to Move",
+      "body": "On the Micronesian island of Yap, traditional wealth is measured in rai: giant, circular limestone disks that can measure up to twelve feet across and weigh several metric tons. Because transporting them is dangerous and impractical, transactions occur through public acknowledgment rather than physical exchange. Even after one famous stone was accidentally lost at sea during a storm over a century ago, villagers agreed its value remained intact, and its owners still trade it today.",
+      "imageWikipediaTitle": "Rai stones",
+      "sources": [
+        {
+          "title": "The tiny island with human-sized money",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/travel/article/20180502-the-tiny-island-with-human-sized-money"
+        },
+        {
+          "title": "Rai stones",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rai_stones"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/travel/article/20180502-the-tiny-island-with-human-sized-money",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tarot Cards Were Invented for Card Games, Not Divination",
+      "body": "Long before tarot decks were associated with fortune-telling and mysticism, they were created in 15th-century northern Italy as a card game called tarocchi. Wealthy Renaissance nobles commissioned lavish, hand-painted sets like the Visconti-Sforza deck purely for a trick-taking parlor game similar to modern bridge. The cards were not linked to the occult or future divination until French clergymen and esotericists reinterpreted their allegorical illustrations in the late 18th century.",
+      "imageWikipediaTitle": "Tarot",
+      "sources": [
+        {
+          "title": "Tarot",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/tarot"
+        },
+        {
+          "title": "Tarot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tarot"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/tarot",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Balinese Dance Accompanied by a 100-Man Human Orchestra",
+      "body": "Unlike most traditional Indonesian performing arts, the Balinese Kecak dance uses no gamelan gongs or flutes. Instead, the musical score is created entirely by a chorus of dozens—sometimes more than a hundred—seated men. Chanting rapid, interlocking vocal patterns of \"cak-cak-cak\" while raising and swaying their arms, the performers recreate the battle of the Hindu epic Ramayana, turning their collective voices into a polyrhythmic percussion ensemble without a single instrument.",
+      "imageWikipediaTitle": "Kecak",
+      "sources": [
+        {
+          "title": "Three genres of traditional dance in Bali",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/three-genres-of-traditional-dance-in-bali-00617"
+        },
+        {
+          "title": "Kecak",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kecak"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/three-genres-of-traditional-dance-in-bali-00617",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Wooden Theater Masks That Change Emotion with a Tilt",
+      "body": "In classical Japanese Noh theater, wooden masks appear eerily neutral when viewed straight on, yet master actors make them express intense sorrow or delight. By carving subtle dimensional asymmetries into the wood, artisans ensure that microscopic tilts of the actor's head shift how ambient stage lighting hits the features. Tilting the mask slightly upward catches the light to register a smile, while angling it downward casts deep shadows, projecting profound grief.",
+      "imageWikipediaTitle": "Noh",
+      "sources": [
+        {
+          "title": "Noh theatre",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/art/Noh-theatre"
+        },
+        {
+          "title": "Noh",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noh"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/Noh-theatre",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Medieval Monk Who Invented the Modern Musical Staff",
+      "body": "Before the 11th century, learning church chants required Catholic monks to spend up to ten years memorizing melodies entirely by ear. Italian Benedictine monk Guido of Arezzo revolutionized Western music by introducing a four-line staff with colored lines and letter clefs, allowing precise pitches to be written down and sight-read. He also coined solmization—the ancestor of modern Do-Re-Mi syllables—slashing the time needed to master church repertoire from a decade to mere months.",
+      "imageWikipediaTitle": "Guido of Arezzo",
+      "sources": [
+        {
+          "title": "Guido d'Arezzo",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/biography/Guido-d-Arezzo-Italian-musician"
+        },
+        {
+          "title": "Guido of Arezzo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guido_of_Arezzo"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Guido-d-Arezzo-Italian-musician",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do residents of Yap transfer ownership of giant Rai stones during major transactions?",
+      "options": [
+        "By publicly acknowledging the transfer without physically moving the stone",
+        "By chiseling the new owner's family crest onto the limestone surface",
+        "By rolling the stone into the recipient's village square at sunrise",
+        "By dissolving a small fragment of the stone in sacred well water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because Rai stones can weigh thousands of kilograms, transactions rely on collective oral agreement rather than physically moving the monument."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the original purpose of tarot cards when they were invented in 15th-century Italy?",
+      "options": [
+        "Predicting romantic compatibility for royal weddings",
+        "Playing a trick-taking parlor card game",
+        "Secretly communicating heretical religious codes",
+        "Teaching basic geometry to noble children"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tarot cards were originally created as a trick-taking card game called tarocchi; their association with divination only emerged centuries later in France."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What serves as the musical accompaniment in the traditional Balinese Kecak dance?",
+      "options": [
+        "A large bronze gamelan gong orchestra",
+        "Bamboo xylophones and bronze finger cymbals",
+        "An all-male vocal chorus chanting rhythmic syllables",
+        "A single double-reed woodwind instrument"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kecak is unique in Balinese theater for using no instruments, relying entirely on a seated male chorus chanting interlocking \"cak-cak-cak\" syllables."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do actors in Japanese Noh theater change the facial expressions of their wooden masks?",
+      "options": [
+        "By pulling hidden silk cords concealed inside the headpiece",
+        "By tilting their heads to alter how stage lighting casts shadows",
+        "By swapping masks behind scenic screens between each stanza",
+        "By pressing pressure points on the mask with their thumbs"
+      ],
+      "correctIndex": 1,
+      "explanation": "Skilled Noh actors tilt the subtly asymmetrical mask up to catch light (projecting joy) or downward into shadow (expressing grief)."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which foundational element of Western musical notation was invented by the 11th-century monk Guido of Arezzo?",
+      "options": [
+        "The standard four-line musical staff",
+        "The concept of major and minor key signatures",
+        "The metronome and tempo markings",
+        "The dynamic symbols for piano and forte"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guido of Arezzo invented the four-line musical staff and solmization syllables (Ut-Re-Mi), allowing melodies to be written and sight-read accurately."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What is the maximum diameter reached by the largest traditional Rai stones on the island of Yap, in feet?",
+      "answer": 12,
+      "min": 1,
+      "max": 30,
+      "unit": "feet",
+      "explanation": "The largest limestone Rai disks measure up to 12 feet (3.6 meters) across and weigh several metric tons, making them impossible to carry."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Tarot cards were originally invented as tools for occult divination and fortune-telling.",
+      "answer": false,
+      "explanation": "Tarot cards originated in 15th-century northern Italy as an entertaining parlor card game called tarocchi, with occult uses developing over 300 years later."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The modern system of writing musical notes on pitch lines was invented by a medieval Catholic monk.",
+      "answer": true,
+      "explanation": "Italian Benedictine monk Guido of Arezzo invented the musical staff with pitch lines around 1025 AD to help monks learn chants without years of memorization."
+    }
+  ]
+}

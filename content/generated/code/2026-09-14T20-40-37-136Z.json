@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-09-14T20:40:37.136Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first computer bug report actually held a taped insect",
+      "body": "In September 1947, operators working on the electromechanical Harvard Mark II computer encountered an error. When they investigated relay number 70 in Panel F, they discovered an actual two-inch moth trapped between the electrical contacts. Technician Grace Hopper's team removed the insect with tweezers and taped it into the daily logbook, annotating it as the 'first actual case of bug being found.' The original page remains preserved at the Smithsonian Institution.",
+      "imageWikipediaTitle": "Software bug",
+      "sources": [
+        {
+          "title": "Log Book with Computer Bug",
+          "publisher": "National Museum of American History",
+          "url": "https://americanhistory.si.edu/collections/nmah_334663"
+        },
+        {
+          "title": "First Computer Bug",
+          "publisher": "U.S. Naval History and Heritage Command",
+          "url": "https://www.history.navy.mil/our-collections/photography/numerical-list-of-images/nhhc-series/nh-series/NH-96000/NH-96566-KN.html"
+        },
+        {
+          "title": "Software bug",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Software_bug"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/nmah_334663",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The C programming language has a secret 'goes-to' operator",
+      "body": "Programmers learning C often stumble across code written like `while (x --> 0)`, which appears to introduce a mysterious arrow syntax. It is actually an optical illusion created by two distinct tokens: the postfix decrement operator `--` and the greater-than comparison `>`. The compiler parses it as `(x--) > 0`. Because whitespace is flexible in C, placing the operators side by side creates the convincing visual joke of a single 'goes-to' operator.",
+      "imageWikipediaTitle": "C (programming language)",
+      "sources": [
+        {
+          "title": "What is the \"-->\" operator in C/C++?",
+          "publisher": "Stack Overflow",
+          "url": "https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c"
+        },
+        {
+          "title": "Operators in C and C++",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fastest sorting algorithm swaps memory in place using XOR math",
+      "body": "Traditional variable swapping requires allocating a third temporary variable in memory. In 1953, programmers discovered the XOR swap algorithm, which exchanges two binary values using three successive bitwise XOR operations without any additional storage. Because XOR is reversible and self-inverting, calculating `x ^= y; y ^= x; x ^= y` cleanly transposes the contents of both registers. In early memory-constrained microchips, this bitwise trick saved precious machine cycles.",
+      "imageWikipediaTitle": "Exclusive or",
+      "sources": [
+        {
+          "title": "XOR swap algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/XOR_swap_algorithm"
+        },
+        {
+          "title": "Bitwise operation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bitwise_operation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/XOR_swap_algorithm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The web was invented on a sleek black computer designed by Steve Jobs",
+      "body": "When Tim Berners-Lee wrote the software for the World Wide Web at CERN in late 1990, he did not use a standard PC or terminal. Instead, he coded the world's first browser, server, and hypermedia editor on a NeXTcube computer created by Steve Jobs's post-Apple venture. NeXT's object-oriented NeXTSTEP operating system allowed Berners-Lee to build functional prototypes in months, complete with early rich text and page layout capabilities.",
+      "imageWikipediaTitle": "NeXTcube",
+      "sources": [
+        {
+          "title": "The NeXT Computer",
+          "publisher": "CERN",
+          "url": "https://home.cern/science/computing/birth-web/first-website"
+        },
+        {
+          "title": "NeXT Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/NeXT_Computer"
+        }
+      ],
+      "readMoreUrl": "https://home.cern/science/computing/birth-web/first-website",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Git commits use 40-character hexadecimal strings",
+      "body": "Every commit, tree, and blob recorded in Git is indexed by a 40-character hexadecimal string representing a 160-bit SHA-1 hash. Instead of storing file versions sequentially like older version control tools, Linus Torvalds designed Git as a content-addressable filesystem. The hash is computed from the uncompressed file data and commit metadata. Two identical files, regardless of their filenames or paths, share the exact same hash and take up zero duplicate storage space.",
+      "imageWikipediaTitle": "Git",
+      "sources": [
+        {
+          "title": "Git Internals - Git Objects",
+          "publisher": "Git Documentation",
+          "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects"
+        },
+        {
+          "title": "Git",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Git"
+        }
+      ],
+      "readMoreUrl": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What creature was famously taped into the Harvard Mark II logbook in 1947?",
+      "options": [
+        "A cockroach",
+        "A moth",
+        "A beetle",
+        "A fly"
+      ],
+      "correctIndex": 1,
+      "explanation": "Technicians found a two-inch moth caught between the electrical contacts of relay number 70."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the C expression `x --> 0` actually do?",
+      "options": [
+        "Calls an arrow operator pointing to memory address 0",
+        "Decrements x and compares its previous value to 0",
+        "Performs a bitwise left shift towards zero",
+        "Throws a syntax error in modern compilers"
+      ],
+      "correctIndex": 1,
+      "explanation": "It parses as `(x--) > 0`, combining the postfix decrement `--` with the greater-than comparison `>`."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which bitwise operation allows swapping two variables without an intermediate buffer?",
+      "options": [
+        "AND",
+        "OR",
+        "XOR",
+        "NOT"
+      ],
+      "correctIndex": 2,
+      "explanation": "The XOR operation is self-inverting, meaning three sequential operations exchange two values with zero extra memory."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What computer did Tim Berners-Lee use to develop the first World Wide Web server and browser?",
+      "options": [
+        "IBM Personal Computer XT",
+        "Apple Macintosh II",
+        "NeXTcube",
+        "Commodore Amiga 1000"
+      ],
+      "correctIndex": 2,
+      "explanation": "Berners-Lee developed the first web client and server at CERN using a NeXTcube running NeXTSTEP."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many hexadecimal characters make up a standard Git object ID hash?",
+      "options": [
+        "32",
+        "40",
+        "64",
+        "128"
+      ],
+      "correctIndex": 1,
+      "explanation": "A standard SHA-1 hash is 160 bits long, which renders as exactly 40 hexadecimal digits."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many characters long is the hexadecimal hash string identifying a standard Git commit?",
+      "answer": 40,
+      "min": 8,
+      "max": 128,
+      "unit": "chars",
+      "explanation": "Git uses 160-bit SHA-1 hashes to identify data, which encode into exactly 40 hexadecimal characters."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Grace Hopper coined the term 'bug' to describe a technical malfunction.",
+      "answer": false,
+      "explanation": "The word 'bug' had been standard technical slang for mechanical flaws since Thomas Edison; Hopper's team taped the moth because it was an actual insect."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "C and C++ include a dedicated 'goes-to' operator written as '-->'.",
+      "answer": false,
+      "explanation": "The '--> operator' is actually an optical illusion created by placing postfix decrement `--` directly next to greater-than `>`."
+    }
+  ]
+}
