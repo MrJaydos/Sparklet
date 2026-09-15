@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-15T19:54:31.781Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Irish Pubs Replaced the Banking System for Six Months",
+      "body": "When Ireland's commercial bank workers walked out on strike for six months in 1970, the economy never collapsed. Instead, local pubs took over the banking system. Publicans personally knew their patrons' character and financial standing, allowing them to cash cheques over the bar and assess creditworthiness over a pint. Roughly £5 billion in cheques circulated as an improvised peer-to-peer monetary system until the banks finally reopened.",
+      "imageWikipediaTitle": "Pub",
+      "sources": [
+        {
+          "title": "The day the banks closed in Ireland",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/news/magazine-28956973"
+        },
+        {
+          "title": "1970 Irish bank strike",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1970_Irish_bank_strike"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/magazine-28956973",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Earliest Coins Were Stamped from a Natural Gold Alloy",
+      "body": "Around 600 BCE, the Kingdom of Lydia in modern-day Turkey introduced what historians consider the world's first true standardized coins. Stamped with the emblem of a roaring lion, the coins were minted from electrum, a natural alloy of gold and silver panned from local rivers. By imprinting an official royal seal, the state guaranteed each coin's weight and purity, sparing ancient merchants the tedious necessity of weighing raw bullion at every transaction.",
+      "imageWikipediaTitle": "Lydian coinage",
+      "sources": [
+        {
+          "title": "Lydian Coinage",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Lydian_Coinage/"
+        },
+        {
+          "title": "Lydian coinage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lydian_coinage"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/Lydian_Coinage/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Elite British Trades Quoted Fees in Guineas Instead of Pounds",
+      "body": "Britain introduced the gold guinea in 1663, intending it to equal 20 shillings, or one pound. But fluctuating bullion values led the government in 1717 to permanently fix it at 21 shillings. Even after the Royal Mint ceased minting guineas in 1813, elite British institutions maintained the unit. Barristers, bespoke tailors, and luxury horse auctions quoted fees in guineas rather than pounds to subtly signal prestige while quietly pocketing an extra five percent.",
+      "imageWikipediaTitle": "Guinea (coin)",
+      "sources": [
+        {
+          "title": "The Guinea",
+          "publisher": "The Royal Mint Museum",
+          "url": "https://www.royalmintmuseum.org.uk/journal/history/guinea/"
+        },
+        {
+          "title": "Guinea (coin)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guinea_(coin)"
+        }
+      ],
+      "readMoreUrl": "https://www.royalmintmuseum.org.uk/journal/history/guinea/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Fuel Efficiency Often Makes Us Consume More Energy",
+      "body": "In 1865, English economist William Stanley Jevons noticed that when James Watt's steam engine dramatically improved fuel efficiency, Britain's coal consumption surged rather than fell. Cheaper power made steam viable for dozens of new industrial processes, rapidly multiplying total demand. Now known as the Jevons paradox, this economic phenomenon explains why energy-efficient cars or energy-saving appliances frequently fail to reduce aggregate resource consumption, as lower operating costs stimulate greater overall use.",
+      "imageWikipediaTitle": "William Stanley Jevons",
+      "sources": [
+        {
+          "title": "Jevons paradox",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Jevons-paradox"
+        },
+        {
+          "title": "Jevons paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jevons_paradox"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Jevons-paradox",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Swimmer Who Paid 36 Cents to Cross the Panama Canal",
+      "body": "Panama Canal transit fees are strictly calculated from a vessel's volume, displacement, and weight. In 1928, American travel writer Richard Halliburton swam the entire 50-mile length of the waterway over ten days. Canal authorities treated Halliburton as an official registered vessel, measured his 140-pound displacement, and charged him a transit toll of exactly 36 cents. It remains the lowest toll ever collected in the canal's operational history.",
+      "imageWikipediaTitle": "Richard Halliburton",
+      "sources": [
+        {
+          "title": "The Lowest Toll Ever Paid to Cross the Panama Canal Was 36 Cents",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/the-lowest-toll-ever-paid-to-cross-the-panama-canal-was-36-cents-180952407/"
+        },
+        {
+          "title": "Richard Halliburton",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Richard_Halliburton"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/history/the-lowest-toll-ever-paid-to-cross-the-panama-canal-was-36-cents-180952407/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which local businesses functioned as informal banks during the 1970 Irish bank strike?",
+      "options": [
+        "Post offices",
+        "Pubs",
+        "Train stations",
+        "Churches"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bartenders and pub owners knew their patrons personally, allowing them to assess credit and cash cheques for six months."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What naturally occurring alloy was used to mint the earliest standardized Lydian coins?",
+      "options": [
+        "Electrum",
+        "Bronze",
+        "Pewter",
+        "Sterling silver"
+      ],
+      "correctIndex": 0,
+      "explanation": "Electrum is a natural mix of gold and silver recovered from local riverbeds in ancient Lydia."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How many shillings was a British gold guinea officially fixed at in 1717?",
+      "options": [
+        "15 shillings",
+        "20 shillings",
+        "21 shillings",
+        "25 shillings"
+      ],
+      "correctIndex": 2,
+      "explanation": "A guinea was fixed at 21 shillings (one shilling more than a one-pound sovereign), giving it enduring appeal among elites."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens under the Jevons paradox when a technology becomes more fuel-efficient?",
+      "options": [
+        "Total resource consumption increases",
+        "Total resource consumption drops to zero",
+        "The technology is abandoned due to high costs",
+        "Production stalls due to supply bottlenecks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Greater efficiency lowers the cost of using a resource, which frequently drives widespread adoption and higher aggregate consumption."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How much was swimmer Richard Halliburton charged to transit the Panama Canal in 1928?",
+      "options": [
+        "Zero dollars",
+        "36 cents",
+        "$10.00",
+        "$140.00"
+      ],
+      "correctIndex": 1,
+      "explanation": "Assessed strictly by weight and displacement as a 140-pound vessel, Halliburton was billed exactly 36 cents."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "For how many months were commercial banks closed during the 1970 Irish bank strike?",
+      "answer": 6,
+      "min": 1,
+      "max": 24,
+      "unit": "months",
+      "explanation": "Irish commercial banks were shut for six months from May to November 1970 while pub-based credit sustained commerce."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What was the lowest toll (in cents) ever paid by an individual vessel to cross the Panama Canal?",
+      "answer": 36,
+      "min": 1,
+      "max": 500,
+      "unit": "cents",
+      "explanation": "Swimmer Richard Halliburton paid 36 cents in 1928 based on his 140-pound displacement."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Closing all commercial banks in a modern economy will immediately freeze everyday transactions.",
+      "answer": false,
+      "explanation": "During the six-month Irish bank strike of 1970, trade continued smoothly as local pubs and shops acted as clearinghouses."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Improving the energy efficiency of a machine will always decrease total consumption of that energy source.",
+      "answer": false,
+      "explanation": "The Jevons paradox demonstrates that efficiency gains reduce costs, which often leads to surging demand and greater total use."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "A human swimmer was once officially registered as a ship to cross the Panama Canal.",
+      "answer": true,
+      "explanation": "In 1928, Richard Halliburton was billed as an official vessel based on his body weight displacement, paying a 36-cent toll."
+    }
+  ]
+}

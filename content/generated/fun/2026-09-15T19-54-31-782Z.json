@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-15T19:54:31.782Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US dropped thousands of parachuting mice to fight snakes in Guam",
+      "body": "To battle invasive brown tree snakes that devoured Guam's native birds and triggered routine power blackouts, federal wildlife officials concocted a bizarre solution: airdropped dead mice. Snakes are uniquely vulnerable to acetaminophen, the active ingredient in Tylenol. Scientists glued pain pills inside frozen mice, fitted each carcass with cardboard flaps and ribbons that acted as miniature parachutes, and dropped thousands from helicopters to snag high in the forest canopy, killing the snakes safely.",
+      "imageWikipediaTitle": "Brown tree snake",
+      "sources": [
+        {
+          "title": "How does USGS help manage brown treesnakes on Guam?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/how-does-usgs-help-manage-brown-treesnakes-guam"
+        },
+        {
+          "title": "Brown tree snake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brown_tree_snake"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/faqs/how-does-usgs-help-manage-brown-treesnakes-guam",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Antarctica has a five-story crimson waterfall that is literally rusting",
+      "body": "Pouring from Antarctica’s Taylor Glacier, Blood Falls looks like a gruesome wound in the ice. When first discovered in 1911, explorers suspected red algae caused the deep crimson stain. In reality, the waterfall feeds from an ancient, lightless lake trapped beneath 1,300 feet of glacier. This subterranean water is completely devoid of oxygen and loaded with dissolved iron. The moment it seeps into the air, the iron oxidizes—meaning the waterfall is quite literally rusting.",
+      "imageWikipediaTitle": "Blood Falls",
+      "sources": [
+        {
+          "title": "Blood Falls, Antarctica",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://earthobservatory.nasa.gov/images/84126/blood-falls-antarctica"
+        },
+        {
+          "title": "Blood Falls",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blood_Falls"
+        }
+      ],
+      "readMoreUrl": "https://earthobservatory.nasa.gov/images/84126/blood-falls-antarctica",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A doctor cracked one hand's knuckles for 60 years to test arthritis",
+      "body": "Generations of parents have warned children that popping their knuckles causes arthritis, but California physician Donald Unger decided to test the claim scientifically. For more than sixty years, Unger deliberately cracked the knuckles of his left hand at least twice a day while leaving his right hand untouched as a control. After an estimated 36,500 cracks, X-rays revealed zero difference between his hands and no arthritis in either, earning him an Ig Nobel Prize.",
+      "imageWikipediaTitle": "Cracking joints",
+      "sources": [
+        {
+          "title": "Does knuckle popping lead to arthritis?",
+          "publisher": "Harvard Health Publishing",
+          "url": "https://www.health.harvard.edu/blog/does-knuckle-cracking-cause-arthritis-201405147133"
+        },
+        {
+          "title": "Cracking joints",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cracking_joints"
+        }
+      ],
+      "readMoreUrl": "https://www.health.harvard.edu/blog/does-knuckle-cracking-cause-arthritis-201405147133",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mushrooms are genetically closer to humans than to plants",
+      "body": "Despite sitting in the produce section and being studied by botanists for centuries, mushrooms are genetically closer to you than to a houseplant. Fungi and animals separated from a common ancestor long after plants branched off onto their own evolutionary path. Unlike plants, fungi cannot photosynthesize. They store energy as glycogen rather than starch and construct their cellular walls out of chitin—the very same resilient compound insects and crabs use to construct their exoskeletons.",
+      "imageWikipediaTitle": "Fungus",
+      "sources": [
+        {
+          "title": "Fungi Are Not Plants",
+          "publisher": "Utah State University",
+          "url": "https://herbarium.usu.edu/fun-with-fungi/fungi-plants"
+        },
+        {
+          "title": "Fungus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fungus"
+        }
+      ],
+      "readMoreUrl": "https://herbarium.usu.edu/fun-with-fungi/fungi-plants",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Female ferrets can die if they go into heat and cannot find a mate",
+      "body": "When an unspayed female ferret enters heat, she remains in estrus until copulation stimulates ovulation. If she cannot find a mate, her ovaries continuously flood her bloodstream with high levels of estrogen for weeks or months on end. This sustained hormonal surge suppresses her bone marrow, destroying its ability to produce new red blood cells, white blood cells, and platelets. Left untreated, the resulting aplastic anemia turns fatal, making reproduction a literal life-or-death requirement.",
+      "imageWikipediaTitle": "Ferret",
+      "sources": [
+        {
+          "title": "Estrogen Toxicity in Ferrets",
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/estrogen-toxicity-in-ferrets"
+        },
+        {
+          "title": "Ferret",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ferret"
+        }
+      ],
+      "readMoreUrl": "https://vcahospitals.com/know-your-pet/estrogen-toxicity-in-ferrets",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did wildlife managers drop parachute-equipped dead mice into Guam's forests?",
+      "options": [
+        "To deliver lethal doses of acetaminophen to invasive snakes",
+        "To introduce a new prey species for endangered native owls",
+        "To vaccinate wild mammal populations against rabies",
+        "To track snake migration routes using miniature radio collars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brown tree snakes are uniquely sensitive to acetaminophen, so researchers air-dropped laced mice that snagged in trees to poison them without harming ground animals."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What causes the bright crimson color of Antarctica's Blood Falls?",
+      "options": [
+        "Iron-rich subterranean water rusting upon contact with air",
+        "High concentrations of microscopic red algae blooms",
+        "Volcanic sulfur minerals leaching through the ice",
+        "Organic compounds produced by freeze-tolerant lichen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blood Falls discharges ancient, oxygen-free brine packed with dissolved iron, which oxidizes and turns rust-red when it meets the atmosphere."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did physician Donald Unger discover after cracking the knuckles on only his left hand for 60 years?",
+      "options": [
+        "Neither hand developed arthritis, and both were equally healthy",
+        "His left hand developed severe osteoarthritic inflammation",
+        "His left hand became significantly weaker than his right hand",
+        "His cracked knuckles grew noticeably larger in joint diameter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unger found zero difference in arthritis between his cracked left hand and untouched right hand, helping debunk the long-standing knuckle-cracking myth."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What structural material do fungi share with insect exoskeletons and crab shells?",
+      "options": [
+        "Chitin",
+        "Cellulose",
+        "Keratin",
+        "Collagen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fungi build their cell walls with chitin, the same tough polysaccharide arthropods use to form exoskeletons, reflecting their closer evolutionary kinship with animals than plants."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why can prolonged estrus be fatal to an unspayed female ferret?",
+      "options": [
+        "Sustained high estrogen levels destroy bone marrow production",
+        "The condition causes rapid and irreversible dehydration",
+        "High progesterone levels induce severe stomach ulceration",
+        "Chronic elevated body temperatures trigger organ failure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without mating to induce ovulation, continuous high estrogen levels cause bone marrow suppression, leading to fatal aplastic anemia."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "For how many consecutive years did doctor Donald Unger crack the knuckles on only his left hand to test whether it causes arthritis?",
+      "answer": 60,
+      "min": 5,
+      "max": 80,
+      "unit": "years",
+      "explanation": "Donald Unger cracked the knuckles on his left hand at least twice a day for over 60 years, proving knuckle popping did not trigger arthritis."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Antarctica's Blood Falls gets its red color from blooms of red algae.",
+      "answer": false,
+      "explanation": "Blood Falls is colored by iron-rich brine trapped under the glacier that instantly rusts into red iron oxide upon contact with atmospheric oxygen."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Regularly cracking your knuckles causes arthritis in your fingers.",
+      "answer": false,
+      "explanation": "Knuckle cracking stretches joint capsules and pops gas bubbles in synovial fluid, which multiple medical studies show does not lead to arthritis."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Mushrooms and other fungi are genetically more closely related to animals than to plants.",
+      "answer": true,
+      "explanation": "Fungi share a more recent common ancestor with animals in the supergroup Opisthokonta, sharing traits like chitin production and glycogen storage."
+    }
+  ]
+}

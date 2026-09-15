@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-15T19:54:31.784Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mangroves can filter pure freshwater straight out of the sea",
+      "body": "Thriving along tropical coastlines where other trees would quickly wither and die, red mangroves act as natural desalinators. Their root membranes filter out over 90% of the salt from seawater before drawing it upward. Other species, like black mangroves, take in salty water and pump excess salt crystals out through microscopic glands on their leaves. This leaves their foliage visibly encrusted with white salt crystals while the plant stays hydrated.",
+      "imageWikipediaTitle": "Mangrove",
+      "sources": [
+        {
+          "title": "What is a mangrove forest?",
+          "publisher": "NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/mangroves.html"
+        },
+        {
+          "title": "Mangrove",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mangrove"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/mangroves.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe crab blood clots around bacteria to protect human medicine",
+      "body": "Horseshoe crab blood is bright blue because it carries oxygen with copper-based hemocyanin rather than iron. Inside that blue liquid are specialized immune cells called amebocytes. When these cells detect bacterial endotoxins—even at parts per trillion—they rupture and form an instantaneous gel clot that traps the pathogens. For decades, biomedical labs have used this reaction to certify that vaccines, injectable medicines, and surgical implants are completely free of bacterial contamination.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Why is horseshoe crab blood blue?",
+          "publisher": "NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/horseshoe-crab-blood.html"
+        },
+        {
+          "title": "Horseshoe crab",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_crab"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/horseshoe-crab-blood.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea sponges have survived 600 million years without a single organ",
+      "body": "Sea sponges are among Earth's earliest multicellular animals, yet they have thrived for over 600 million years without a brain, nerves, digestive tract, or heart. Instead, their bodies are porous networks lined with microscopic, whip-tailed cells called choanocytes. By beating these flagella in unison, sponges pump thousands of liters of seawater through their bodies every day. They sieve out bacteria and organic matter directly, feeding their cells without a stomach.",
+      "imageWikipediaTitle": "Sponge",
+      "sources": [
+        {
+          "title": "What is a sea sponge?",
+          "publisher": "NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/sponge.html"
+        },
+        {
+          "title": "Sponge",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sponge"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/sponge.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Coral bleaching is actually a slow race against starvation",
+      "body": "Corals rely on microscopic algae called zooxanthellae living inside their translucent tissues, which provide up to 90% of the coral's energy through photosynthesis. When ocean temperatures rise by just one or two degrees Celsius, heat-stressed corals expel these algal partners, revealing their chalk-white limestone skeletons beneath. The bleached coral does not die immediately, but it begins starving. If surrounding waters cool quickly enough, corals can reacquire algae and fully recover.",
+      "imageWikipediaTitle": "Coral bleaching",
+      "sources": [
+        {
+          "title": "What is coral bleaching?",
+          "publisher": "NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/coral_bleach.html"
+        },
+        {
+          "title": "Coral bleaching",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coral_bleaching"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/coral_bleach.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most deep-sea light is a living burglar alarm",
+      "body": "In the open ocean, the majority of organisms produce their own light through bioluminescence. When marine dinoflagellates or jellyfish are brushed by an approaching predator, a rapid chemical reaction between luciferin and oxygen creates an electric-blue flash within milliseconds. Far from just looking pretty, this burst acts like a burglar alarm: it illuminates the startled attacker, attracting even larger predators to hunt the creature that just disturbed the water.",
+      "imageWikipediaTitle": "Bioluminescence",
+      "sources": [
+        {
+          "title": "What is bioluminescence?",
+          "publisher": "NOAA",
+          "url": "https://oceanservice.noaa.gov/facts/bioluminescence.html"
+        },
+        {
+          "title": "Bioluminescence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bioluminescence"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/bioluminescence.html",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do red mangroves extract freshwater directly from the ocean?",
+      "options": [
+        "They convert salt into glucose via photosynthesis",
+        "Their root membranes filter out over 90% of salt from seawater",
+        "They store salt in hollow trunks until it crystallizes",
+        "They absorb water vapor exclusively through aerial leaf pores"
+      ],
+      "correctIndex": 1,
+      "explanation": "Red mangroves use specialized membranes in their roots to block more than 90% of seawater's salt from entering their vascular system."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is horseshoe crab blood invaluable in manufacturing injectable medical drugs?",
+      "options": [
+        "It contains antiviral proteins that sterilize liquids",
+        "It clots instantly upon detecting trace bacterial endotoxins",
+        "It acts as a shelf-stable preservative for vaccines",
+        "It changes color from blue to red when bacteria multiply"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amebocytes in horseshoe crab blood clot rapidly in the presence of bacterial endotoxins, providing an essential test for medical contamination."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do sea sponges eat without a mouth, stomach, or digestive tract?",
+      "options": [
+        "They absorb nutrients solely from sunlight via chloroplasts",
+        "They pump seawater through internal pores to filter out bacteria",
+        "They dissolve nearby prey by secreting digestive enzymes",
+        "They scavenge whale bones that sink to the seabed"
+      ],
+      "correctIndex": 1,
+      "explanation": "Whip-tailed collar cells beat in unison to draw water through the sponge's pores, trapping microscopic food particles directly."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What primary change occurs in corals during a bleaching event?",
+      "options": [
+        "Corals shed their calcium carbonate shells to conserve energy",
+        "Heat stress causes corals to expel their symbiotic algae",
+        "Acidic water dissolves the outer living tissue of the polyps",
+        "Corals enter an icy winter dormancy that bleaches pigments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Elevated temperatures trigger corals to expel their colorful zooxanthellae algae, exposing their white skeletons and cutting off their main food supply."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does sudden bioluminescent flashing help protect tiny plankton from predators?",
+      "options": [
+        "It produces concentrated heat that burns the attacker",
+        "It permanently blinds nocturnal hunters in the deep sea",
+        "It illuminates the attacker to attract even larger predators",
+        "It emits toxic photochemical compounds into the water"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flash acts as a biological burglar alarm, exposing the attacking predator so that larger hunters in the area can spot and consume it."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of salt can red mangrove root membranes filter out of seawater?",
+      "answer": 90,
+      "min": 20,
+      "max": 99,
+      "unit": "%",
+      "explanation": "Red mangroves exclude over 90% of salt from seawater right at the root surface, allowing them to drink freshwater in the ocean."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "For how many millions of years have sea sponges inhabited Earth without organs?",
+      "answer": 600,
+      "min": 100,
+      "max": 1200,
+      "unit": "million years",
+      "explanation": "Sponges emerged roughly 600 million years ago, making them one of the oldest successful animal groups on the planet."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Horseshoe crab blood is bright blue.",
+      "answer": true,
+      "explanation": "Horseshoe crab blood is genuinely blue because it relies on copper-based hemocyanin rather than iron-based hemoglobin to transport oxygen."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Sea sponges are stationary marine plants.",
+      "answer": false,
+      "explanation": "Despite lacking brains, organs, and adult mobility, sea sponges are true multicellular animals that capture food from pumped water."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A bleached coral is already dead.",
+      "answer": false,
+      "explanation": "Bleached corals are starving because they lost their photosynthetic algae, but they remain alive and can recover if water temperatures drop in time."
+    }
+  ]
+}

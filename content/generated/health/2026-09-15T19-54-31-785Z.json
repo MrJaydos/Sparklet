@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-15T19:54:31.785Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "During pregnancy, your blood volume expands by nearly 50 percent",
+      "body": "To deliver oxygen and nourishment to a developing fetus and placenta, a pregnant body undergoes staggering cardiovascular remodeling. Blood plasma increases first, followed by red blood cells. By the third trimester, total circulating blood volume rises by 40 to 50 percent—adding about 1.5 liters of extra fluid. To circulate this dramatic surge, the heart enlarges slightly and resting cardiac output climbs by up to 50 percent.",
+      "imageWikipediaTitle": "Pregnancy",
+      "sources": [
+        {
+          "title": "Physiology, Maternal Changes",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539704/"
+        },
+        {
+          "title": "Maternal physiological changes in pregnancy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maternal_physiological_changes_in_pregnancy"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539704/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The average human body temperature is no longer 98.6°F",
+      "body": "In 1851, German physician Carl Wunderlich analyzed millions of readings and declared 98.6°F (37°C) the benchmark for normal human body temperature. But modern research shows we have steadily cooled down. A landmark Stanford study found that average resting oral temperature has dropped by about 0.05°F per decade since the 19th century, sitting closer to 97.9°F today. Widespread declines in chronic infections, lower inflammation, and climate-controlled living are the primary drivers.",
+      "imageWikipediaTitle": "Thermometer",
+      "sources": [
+        {
+          "title": "Human body temperature has decreased in United States, study finds",
+          "publisher": "Stanford Medicine",
+          "url": "https://med.stanford.edu/news/all-news/2020/01/human-body-temperature-has-decreased-in-united-states.html"
+        },
+        {
+          "title": "Human body temperature",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_body_temperature"
+        }
+      ],
+      "readMoreUrl": "https://med.stanford.edu/news/all-news/2020/01/human-body-temperature-has-decreased-in-united-states.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your sweat is completely odorless until skin bacteria feast on it",
+      "body": "Fresh perspiration does not smell. Eccrine sweat glands release mostly water and salt to cool you down, while apocrine glands in your armpits secrete proteins and lipids. Neither fluid has an inherent odor. Body odor is generated entirely after the fact: resident skin bacteria, particularly species like Staphylococcus hominis, consume these secretions and metabolize them into volatile sulfur-containing compounds called thioalcohols. The sharp stench is actually the waste product of microscopic microbes.",
+      "imageWikipediaTitle": "Perspiration",
+      "sources": [
+        {
+          "title": "Physiology, Sweat Gland",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482378/"
+        },
+        {
+          "title": "Body odor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Body_odor"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK482378/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wounds inside your mouth heal twice as fast as skin without scarring",
+      "body": "Bite your cheek and the wound disappears in days, leaving no mark. Oral mucosal tissue heals roughly twice as fast as external skin because of unique biology. Saliva contains antibacterial agents and potent growth factors that accelerate cell repair. Even more importantly, mucosal cells maintain a primed, perpetually active genetic state that deploys repair proteins immediately while dampening inflammatory signals. This rapid closure prevents the excessive collagen buildup that produces visible scars.",
+      "imageWikipediaTitle": "Oral mucosa",
+      "sources": [
+        {
+          "title": "Why Wounds Heal Faster in the Mouth",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/why-wounds-heal-faster-mouth"
+        },
+        {
+          "title": "Wound healing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wound_healing"
+        }
+      ],
+      "readMoreUrl": "https://www.nih.gov/news-events/nih-research-matters/why-wounds-heal-faster-mouth",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Lactose intolerance is the biological baseline for adult humans",
+      "body": "Drinking milk into adulthood is often viewed as normal, but globally it is an evolutionary anomaly. Around 65 to 70 percent of adults worldwide cannot digest lactose. All mammal infants produce lactase to digest mother's milk, but the gene normally switches off after weaning. Lactase persistence—the ability to digest dairy as an adult—is a genetic mutation that emerged only in the last 10,000 years among pastoralist cultures in parts of Europe, Africa, and the Middle East.",
+      "imageWikipediaTitle": "Lactase persistence",
+      "sources": [
+        {
+          "title": "Lactose intolerance",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/genetics/condition/lactose-intolerance/"
+        },
+        {
+          "title": "Lactase persistence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lactase_persistence"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/genetics/condition/lactose-intolerance/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "By roughly how much does a person's total blood volume increase during pregnancy?",
+      "options": [
+        "10 to 15 percent",
+        "20 to 25 percent",
+        "40 to 50 percent",
+        "75 to 80 percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "During pregnancy, plasma and red blood cell production surge, expanding circulating blood volume by 40 to 50 percent to support the fetus and placenta."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What has happened to average resting human body temperature since the mid-19th century?",
+      "options": [
+        "It has remained exactly 98.6°F",
+        "It has steadily decreased",
+        "It has increased due to rising global temperatures",
+        "It fluctuates wildly with no clear directional trend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Studies show average human body temperature has cooled by roughly 0.05°F per decade since the 1800s, dropping to around 97.9°F today."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What directly causes human body odor?",
+      "options": [
+        "Toxins excreted through eccrine sweat pores",
+        "Skin bacteria breaking down odorless sweat secretions",
+        "Excessive lactic acid production in muscle tissue",
+        "High dietary sodium radiating through skin layers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fresh sweat is completely odorless; bacteria living on the skin consume its proteins and lipids, releasing pungent sulfurous compounds."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do wounds inside the mouth heal faster and with less scarring than wounds on outer skin?",
+      "options": [
+        "Saliva's extreme acidity destroys all incoming microbes",
+        "Oral mucosal cells stay primed for repair and dampen inflammation",
+        "Mouth tissue lacks blood vessels, preventing swelling",
+        "Chewing motions stimulate continuous collagen scar formation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oral mucosal cells maintain an active genetic priming for rapid healing, and saliva provides growth factors while suppressing excessive scarring."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Approximately what percentage of the global adult human population is lactose intolerant?",
+      "options": [
+        "About 10 to 15 percent",
+        "About 30 to 35 percent",
+        "About 65 to 70 percent",
+        "Over 95 percent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Roughly 65 to 70 percent of adults worldwide cannot digest lactose, as lactase production naturally shuts down after weaning in most mammals."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what percentage does total circulating blood volume expand in a human body during pregnancy?",
+      "answer": 45,
+      "min": 5,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Blood volume expands by 40 to 50 percent—adding about 1.5 liters of fluid to nourish the developing fetus and placenta."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of the world's adult population is lactose intolerant?",
+      "answer": 68,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Roughly 65 to 70 percent of human adults worldwide cannot digest lactose; lactase persistence is an evolutionary mutation found in certain populations."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The standard baseline body temperature for healthy humans is exactly 98.6°F (37°C).",
+      "answer": false,
+      "explanation": "While established as standard in 1851, modern studies show average body temperature has steadily cooled to around 97.9°F (36.6°C)."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Fresh sweat inherently smells bad because it flushes pungent toxins out of the body.",
+      "answer": false,
+      "explanation": "Fresh sweat is completely odorless; body odor only arises when skin bacteria metabolize sweat secretions into sulfurous waste compounds."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Cuts and injuries inside the mouth heal significantly faster than cuts on outer skin.",
+      "answer": true,
+      "explanation": "Oral mucosal wounds heal roughly twice as fast as skin wounds and rarely scar, thanks to saliva growth factors and primed mucosal cells."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Lactose intolerance is a rare metabolic disorder affecting only a small fraction of adults.",
+      "answer": false,
+      "explanation": "Lactose intolerance is the mammalian baseline—roughly 65 to 70 percent of adult humans cannot digest dairy sugars."
+    }
+  ]
+}
