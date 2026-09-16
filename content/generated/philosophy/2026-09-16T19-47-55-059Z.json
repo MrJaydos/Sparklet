@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-16T19:47:55.060Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How an all-powerful deceiver proved your mind exists",
+      "body": "In 1641, René Descartes imagined an omnipotent evil demon dedicated entirely to deceiving him, falsifying every sight, touch, and mathematical calculation. Yet Descartes realized the demon faced an impossible limit: it could never deceive a non-existent thing into thinking it exists. To doubt, wonder, or be tricked, a thinking subject must already exist. Even under total deception, the very act of experiencing illusion guarantees your own mind is real.",
+      "imageWikipediaTitle": "René Descartes",
+      "sources": [
+        {
+          "title": "Descartes' Epistemology",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/descartes-epistemology/"
+        },
+        {
+          "title": "Evil demon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Evil_demon"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/descartes-epistemology/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why intelligence cannot be the foundation of human rights",
+      "body": "If human rights depend on superior intelligence, rationality, or language, a troubling ethical problem arises: human infants and individuals with severe cognitive disabilities lack those capacities. To grant every human moral protection, philosopher Peter Singer argued that moral status cannot depend on intellect, but on sentience—the basic capacity to suffer and feel joy. But once sentience is the standard, excluding non-human animals from moral consideration simply because of their species becomes philosophically indefensible.",
+      "imageWikipediaTitle": "Peter Singer",
+      "sources": [
+        {
+          "title": "The Moral Status of Animals",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/moral-animal/"
+        },
+        {
+          "title": "Argument from marginal cases",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argument_from_marginal_cases"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/moral-animal/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a bent stick in water proves you never directly see reality",
+      "body": "Place a straight stick in a glass of water, and your eyes perceive a crooked, bent shape. Yet the physical stick remains perfectly straight. Early 20th-century philosophers like Bertrand Russell argued this simple illusion carries profound epistemological weight: since the bent shape you see exists only in perception, you cannot be directly observing the physical stick itself. Instead, your mind directly perceives internal mental representations called \"sense data,\" only inferring the outside physical world beyond them.",
+      "imageWikipediaTitle": "Refraction",
+      "sources": [
+        {
+          "title": "Sense-Data",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/sense-data/"
+        },
+        {
+          "title": "Argument from illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argument_from_illusion"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/sense-data/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why objective moral facts would be the strangest things in the universe",
+      "body": "In 1977, philosopher J. L. Mackie argued that all objective moral claims are strictly false. His \"argument from queerness\" noted that if objective values existed, they would be fundamentally unlike anything else in nature: physical properties that somehow carry an intrinsic, built-in demand telling conscious beings how to act. To perceive such supernatural moral properties, humans would require a mysterious, magical sixth sense. Because no such queer entities exist, morality is entirely an invented human framework.",
+      "imageWikipediaTitle": "Ethics",
+      "sources": [
+        {
+          "title": "Moral Anti-Realism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/moral-anti-realism/"
+        },
+        {
+          "title": "Argument from queerness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argument_from_queerness"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/moral-anti-realism/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why mathematical logic suggests your brain is not a computer",
+      "body": "Kurt Gödel proved that any consistent mathematical system contains true statements that the system's own rules can never prove. Physicist Roger Penrose and philosopher J. R. Lucas argued this reveals a fundamental divide between human minds and machines. While an algorithmic computer is strictly bound by formal mechanical rules, human mathematicians can intuitively recognize that these Gödelian statements are true. Therefore, human mathematical understanding cannot be computational, meaning conscious thought transcends digital simulation.",
+      "imageWikipediaTitle": "Roger Penrose",
+      "sources": [
+        {
+          "title": "The Computational Theory of Mind",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/computational-mind/"
+        },
+        {
+          "title": "Penrose–Lucas argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Penrose%E2%80%93Lucas_argument"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/computational-mind/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Descartes conclude that an omnipotent evil demon could never deceive him about his own existence?",
+      "options": [
+        "Because divine intervention prevents total deception",
+        "Because a subject must exist in order to experience being deceived",
+        "Because sensory illusions cannot affect mathematical facts",
+        "Because demons lack physical power over material brains"
+      ],
+      "correctIndex": 1,
+      "explanation": "Descartes argued that even to be deceived or to doubt, a conscious entity must exist to undergo the experience, establishing 'I think, therefore I am.'"
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to the argument from marginal cases, what problem arises if human rights are based purely on rationality?",
+      "options": [
+        "Infants and severely cognitively impaired humans would lack moral status",
+        "Advanced computers would immediately qualify for legal rights",
+        "Moral duties would differ radically across distinct human cultures",
+        "Non-human animals would automatically gain legal voting rights"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because infants and people with profound cognitive impairments lack complex reasoning, basing rights on intellect excludes them unless sentience is the standard."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In the argument from illusion, what term describes the immediate mental representations we directly perceive?",
+      "options": [
+        "Epiphenomena",
+        "Archetypes",
+        "Sense data",
+        "Noumena"
+      ],
+      "correctIndex": 2,
+      "explanation": "Philosophers like Bertrand Russell argued that our direct awareness is of mental 'sense data,' from which we infer the existence of external physical objects."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did J. L. Mackie argue in his 'argument from queerness' that objective moral properties do not exist?",
+      "options": [
+        "Societies frequently disagree on ethical traditions",
+        "Objective values would require bizarre, intrinsically motivating properties alien to nature",
+        "Human language cannot convey abstract philosophical meanings",
+        "Biological evolution demonstrates humans are purely driven by self-interest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mackie argued that objective values would have to be metaphysically bizarre entities with built-in action guidance, requiring an impossible sixth sense to detect."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the Penrose-Lucas argument claim about human mathematical insight based on Gödel's incompleteness theorem?",
+      "options": [
+        "It cannot be fully reproduced by any algorithmic computer",
+        "It is fundamentally contradictory and illogical",
+        "It proves artificial intelligence will inevitably become conscious",
+        "It demonstrates formal mathematics is useless for understanding physics"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because humans can recognize truths that formal computational algorithms are barred from proving, Penrose and Lucas argued the mind is not an algorithmic computer."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Descartes created his evil demon thought experiment to prove that genuine knowledge is completely impossible.",
+      "answer": false,
+      "explanation": "Descartes used radical skepticism as a tool to uncover an indubitable foundation for knowledge, discovering that one's own existence cannot be doubted."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Human rights are universally justified by our species' capacity for rational thought and complex speech.",
+      "answer": false,
+      "explanation": "The argument from marginal cases shows that basing rights on intellect excludes infants and the severely impaired; true moral inclusion relies on sentience."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Prominent philosophers and physicists have argued that Gödel's logic proves human consciousness is non-computable.",
+      "answer": true,
+      "explanation": "The Penrose-Lucas argument uses Gödel's incompleteness theorems to claim that because humans recognize truths machines cannot prove, minds are non-algorithmic."
+    }
+  ]
+}
