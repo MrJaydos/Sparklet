@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.577Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Japanese honeybees defend their hive by baking giant hornets alive",
+      "body": "When an Asian giant hornet scout infiltrates an Asian honeybee nest, hundreds of worker bees immediately swarm it to form a tight bee ball. By vibrating their flight muscles in unison, the bees heat the cluster's core to roughly 47°C. While giant hornets perish at around 45°C, the honeybees can tolerate temperatures approaching 50°C, effectively cooking the predatory intruder without taking lethal heat damage themselves.",
+      "imageWikipediaTitle": "Apis cerana japonica",
+      "sources": [
+        {
+          "title": "Social Defense and Temperature Regulation in the Honeybee",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0032902"
+        },
+        {
+          "title": "Apis cerana japonica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apis_cerana_japonica"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0032902",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Blue horseshoe crab blood protects modern vaccines and medical implants",
+      "body": "Horseshoe crabs carry bright blue, copper-based blood containing specialized immune cells called amebocytes. These cells react with extreme sensitivity to bacterial endotoxins, clotting almost instantly around minuscule traces of contamination. For decades, biomedical manufacturers have used Limulus Amebocyte Lysate, an extract derived from this blood, to test every injectable vaccine, intravenous drug, and surgical implant for dangerous bacterial toxins before use in humans.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Horseshoe crab blood: The miracle vaccine ingredient",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/horseshoe-crab-blood-miracle-vaccine.html"
+        },
+        {
+          "title": "Limulus amebocyte lysate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Limulus_amebocyte_lysate"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/horseshoe-crab-blood-miracle-vaccine.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Caterpillars dissolve almost entirely into liquid before becoming butterflies",
+      "body": "Inside a chrysalis, a caterpillar does not simply sprout wings onto its existing anatomy. Instead, it releases digestive enzymes that break down nearly all its larval muscles, gut, and organ tissues into a rich cellular soup. The adult butterfly is then reconstructed from scratch using clusters of dormant stem-like cells known as imaginal discs, which survived the enzymatic breakdown and were present inside the caterpillar all along.",
+      "imageWikipediaTitle": "Pupa",
+      "sources": [
+        {
+          "title": "What happens inside a caterpillar's chrysalis?",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/what-happens-inside-a-caterpillar-chrysalis.html"
+        },
+        {
+          "title": "Pupa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pupa"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/what-happens-inside-a-caterpillar-chrysalis.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Galápagos finch survives dry seasons by drinking the blood of seabirds",
+      "body": "On the remote, arid Galápagos islands of Wolf and Darwin, freshwater and seeds become critically scarce for much of the year. The vampire ground finch adapted by perching directly on large nesting seabirds, particularly Nazca and blue-footed boobies. By persistently pecking at the base of their feathers until skin breaks, the finches drink flowing blood—a vital fluid source that nourishes them without driving the host birds from their nests.",
+      "imageWikipediaTitle": "Vampire ground finch",
+      "sources": [
+        {
+          "title": "Vampire ground finch",
+          "publisher": "Galápagos Conservation Trust",
+          "url": "https://galapagosconservation.org.uk/wildlife/vampire-ground-finch/"
+        },
+        {
+          "title": "Vampire ground finch",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vampire_ground_finch"
+        }
+      ],
+      "readMoreUrl": "https://galapagosconservation.org.uk/wildlife/vampire-ground-finch/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Female spotted hyenas give birth through an elongated pseudo-penis",
+      "body": "Female spotted hyenas are larger and socially dominant over males, shaped by unusual hormonal exposure during embryonic development. Their external anatomy is heavily masculinized: the clitoris is enlarged into a fully erectile pseudo-penis through which they urinate, mate, and give birth. Because the birth canal passes through this tight muscular organ, delivering cubs is extraordinarily difficult, making first-time births dangerous for both mother and offspring.",
+      "imageWikipediaTitle": "Spotted hyena",
+      "sources": [
+        {
+          "title": "Crocuta crocuta: Spotted hyaena",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Crocuta_crocuta/"
+        },
+        {
+          "title": "Spotted hyena",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spotted_hyena"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Crocuta_crocuta/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do Japanese honeybees kill predatory giant hornets that scout their hive?",
+      "options": [
+        "By suffocating them in sticky tree resin",
+        "By vibrating in a dense ball to heat the hornet past its lethal limit",
+        "By injecting a cocktail of fast-acting paralytic venoms",
+        "By severing the hornet's wings with their mandibles"
+      ],
+      "correctIndex": 1,
+      "explanation": "Japanese honeybees form a tight ball around an intruding hornet and vibrate their flight muscles to reach ~47°C, which is fatal to the hornet."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is horseshoe crab blood widely harvested by the pharmaceutical industry?",
+      "options": [
+        "It provides an abundant source of natural human insulin",
+        "It contains cells that clot instantly in the presence of bacterial endotoxins",
+        "It is used to synthesize broad-spectrum antiviral treatments",
+        "It can serve as a universal blood substitute for human transfusions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Amebocytes in horseshoe crab blood clot rapidly around bacterial endotoxins, making the blood invaluable for testing the safety of medical products."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What happens to the internal tissues of a caterpillar during metamorphosis inside a chrysalis?",
+      "options": [
+        "They remain mostly intact while external appendages form",
+        "They turn entirely into bone to support wing muscles",
+        "They dissolve into a liquid soup before being rebuilt from imaginal discs",
+        "They dry out into a dormant spore-like state"
+      ],
+      "correctIndex": 2,
+      "explanation": "Digestive enzymes break down nearly all larval organs into a cellular soup, and the adult butterfly is rebuilt from clusters called imaginal discs."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the vampire ground finch drink the blood of nesting seabirds?",
+      "options": [
+        "To acquire marine toxins that deter hawks",
+        "To obtain moisture and nutrients when water and seeds are scarce",
+        "To feed parasites that live symbiotically on its feathers",
+        "To mark seabird nests as their exclusive feeding territory"
+      ],
+      "correctIndex": 1,
+      "explanation": "On arid islands where freshwater and plant food are scarce during dry seasons, blood provides crucial hydration and nutrients."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What unique anatomical feature characterizes female spotted hyena reproduction?",
+      "options": [
+        "They lay soft-shelled eggs in subterranean burrows",
+        "They carry developing young inside a marsupial pouch",
+        "They give birth through an elongated pseudo-penis",
+        "They reproduce through obligate asexual parthenogenesis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Female spotted hyenas possess a masculinized clitoris that forms an elongated pseudo-penis through which they urinate, mate, and give birth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "To what temperature (in °C) do Japanese honeybees heat their defensive bee ball to cook an invading hornet?",
+      "answer": 47,
+      "min": 30,
+      "max": 65,
+      "unit": "°C",
+      "explanation": "The bees heat the ball to about 47°C (117°F). Giant hornets die at around 45°C, while the bees can survive temperatures up to 50°C."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Horseshoe crabs have iron-based red blood like vertebrates.",
+      "answer": false,
+      "explanation": "Horseshoe crab blood is bright blue because it relies on copper-based hemocyanin rather than iron-based hemoglobin to transport oxygen."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Inside its chrysalis, a caterpillar merely sprouts wings onto its existing body.",
+      "answer": false,
+      "explanation": "The caterpillar releases enzymes that dissolve almost all of its larval organs into liquid, rebuilding the butterfly from imaginal discs."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Female spotted hyenas give birth through an elongated pseudo-penis.",
+      "answer": true,
+      "explanation": "Female spotted hyenas have heavily masculinized genitalia, including an enlarged clitoris that forms an erectile pseudo-penis used for birth."
+    }
+  ]
+}

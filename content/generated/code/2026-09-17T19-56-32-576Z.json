@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.576Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ten lines of code saved Apollo 14 from an accidental abort",
+      "body": "Hours before Apollo 14's lunar module was scheduled to touch down in 1971, a loose solder ball caused a mechanical abort switch to short-circuit intermittently. If the descent engine fired with that switch closed, the guidance computer would automatically abort the landing. MIT programmer Don Eyles scrambled to write a ten-line patch. Astronaut Edgar Mitchell keyed the instructions into the computer, tricking it into believing an abort was already underway so it ignored the faulty sensor.",
+      "imageWikipediaTitle": "Apollo 14",
+      "sources": [
+        {
+          "title": "Apollo 14 Lunar Surface Journal: Landing at Fra Mauro",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/alsj/a14/a14.landing.html"
+        },
+        {
+          "title": "Apollo 14",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_14"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/alsj/a14/a14.landing.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single misplaced break statement paralyzed AT&T's network",
+      "body": "On January 15, 1990, AT&T's long-distance telephone network suffered an unprecedented collapse. A routine software update to its switches contained a misplaced break statement inside a C conditional block. When one switch suffered a minor hardware glitch and rebooted, it broadcast a recovery message. That routine signal triggered the software flaw in neighboring switches, causing them to crash and reboot in an escalating chain reaction. Over nine hours, 75 million calls failed to connect.",
+      "imageWikipediaTitle": "Telephone exchange",
+      "sources": [
+        {
+          "title": "AT&T crash",
+          "publisher": "Newcastle University",
+          "url": "https://catless.ncl.ac.uk/Risks/9.61.html"
+        },
+        {
+          "title": "1990 AT&T network outage",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1990_AT%26T_network_outage"
+        },
+        {
+          "title": "The Hacker Crackdown: Law and Disorder on the Electronic Frontier",
+          "publisher": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/219"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/1990_AT%26T_network_outage",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Alan Turing ran the first chess algorithm by hand on paper",
+      "body": "In 1948, Alan Turing wrote the algorithm for Turochamp, the world's first computer chess program, years before computers capable of running it existed. In 1952, Turing tested his algorithm against a colleague by acting as the central processor himself. Armed with pencil and paper, Turing calculated each decision rule step-by-step according to his handwritten code, taking over half an hour to calculate every individual move before finally losing the game.",
+      "imageWikipediaTitle": "Alan Turing",
+      "sources": [
+        {
+          "title": "Alan Turing's paper computer chess game played out",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/news/technology-18602447"
+        },
+        {
+          "title": "Turochamp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Turochamp"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/technology-18602447",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A debugging bypass left 50 million Hotmail inboxes wide open",
+      "body": "In August 1999, a group of Swedish hackers uncovered one of the most astonishing security lapses in internet history: Microsoft's Hotmail allowed anyone to access any of its 50 million user accounts without a real password. Developers had left a debugging shortcut in production code that accepted \"eh\" as a master override password. By pasting a modified web link containing a target username, anyone could read private emails instantly, forcing Microsoft into an emergency shutdown.",
+      "imageWikipediaTitle": "Hotmail",
+      "sources": [
+        {
+          "title": "Hotmail flaw exposed",
+          "publisher": "BBC",
+          "url": "http://news.bbc.co.uk/2/hi/science/nature/434685.stm"
+        },
+        {
+          "title": "Hotmail",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hotmail"
+        }
+      ],
+      "readMoreUrl": "http://news.bbc.co.uk/2/hi/science/nature/434685.stm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A silent software race condition plunged 50 million into darkness",
+      "body": "The catastrophic 2003 Northeast blackout across the United States and Canada was sparked by an obscure race condition in General Electric's monitoring software. When a routine transmission alarm stalled while processing simultaneous events, the monitoring program entered an infinite loop. The system silently froze without crashing or warning technicians. Operating blind, utility managers failed to react as overheated power lines sagged into trees, triggering a cascading failure that knocked out power to 50 million people.",
+      "imageWikipediaTitle": "Northeast blackout of 2003",
+      "sources": [
+        {
+          "title": "Final Report on the August 14, 2003 Blackout in the United States and Canada",
+          "publisher": "U.S. Department of Energy",
+          "url": "https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf"
+        },
+        {
+          "title": "Northeast blackout of 2003",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did MIT programmer Don Eyles need to patch Apollo 14's lunar guidance computer right before landing?",
+      "options": [
+        "A solder ball caused an abort switch to short-circuit",
+        "The radar altimeter gave negative altitude readings",
+        "The descent engine burned propellant too quickly",
+        "The mission clock drifted ahead by three hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "A loose solder ball created an intermittent short circuit in the abort switch, threatening an unwanted abort if the descent engine fired."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What specific coding mistake triggered the cascading collapse of AT&T's network in January 1990?",
+      "options": [
+        "A misplaced break statement in a C switch block",
+        "An integer overflow in an 8-bit counter",
+        "A missing semicolon in a configuration file",
+        "A null pointer dereference during packet routing"
+      ],
+      "correctIndex": 0,
+      "explanation": "A break statement nested inside an if clause within a switch statement caused switches to crash whenever they received a neighbor's recovery signal."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did Alan Turing execute his 1948 chess algorithm, Turochamp, in its first recorded match in 1952?",
+      "options": [
+        "He simulated each calculation manually with pencil and paper",
+        "He punched paper tape to run it on the Ferranti Mark 1",
+        "He rewired vacuum tubes on the Colossus computer",
+        "He submitted punch cards to the ENIAC in Pennsylvania"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because hardware of the era was not yet equipped to run it, Turing acted as the CPU himself, working through the instructions on paper."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What flawed shortcut allowed attackers to access any Microsoft Hotmail account in August 1999?",
+      "options": [
+        "A test script that accepted 'eh' as a universal password",
+        "A buffer overflow in the URL parser",
+        "An empty string passed as a session cookie",
+        "A backdoor created by an overseas contractor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A debugging bypass left active on production servers accepted 'eh' as a valid password for any account username."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What software flaw prevented utility operators from noticing failing transmission lines in the 2003 blackout?",
+      "options": [
+        "A race condition that stalled the alarm system in an infinite loop",
+        "A memory leak that rebooted the mainframe every 10 minutes",
+        "A division-by-zero error that crashed the display terminal",
+        "A network packet storm that overwhelmed the telemetry bus"
+      ],
+      "correctIndex": 0,
+      "explanation": "A race condition in GE's XA/21 monitoring software caused incoming alarm events to stall in an infinite loop, silently blinding operators."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many lines of code did MIT programmer Don Eyles write to prevent Apollo 14 from accidentally aborting?",
+      "answer": 10,
+      "min": 2,
+      "max": 100,
+      "unit": "lines",
+      "explanation": "Eyles wrote a ten-line patch keyed into the computer in real time, tricking it into ignoring the faulty abort sensor."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many millions of phone calls were blocked when a software bug paralyzed AT&T's network in 1990?",
+      "answer": 75,
+      "min": 5,
+      "max": 200,
+      "unit": "million",
+      "explanation": "Over nine hours, about 75 million out of 138 million attempted calls were dropped across 114 switching centers."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "In 1999, how many million Hotmail accounts were exposed to unauthorized access by a debugging shortcut?",
+      "answer": 50,
+      "min": 5,
+      "max": 150,
+      "unit": "million",
+      "explanation": "Hotmail's entire user base of 50 million accounts was vulnerable until Microsoft took the servers offline to fix the bypass."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many millions of people lost electrical power during the 2003 Northeast blackout triggered by a software bug?",
+      "answer": 50,
+      "min": 5,
+      "max": 150,
+      "unit": "million",
+      "explanation": "The cascading blackout cut electricity to roughly 50 million people across eight U.S. states and Ontario."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The massive 1990 AT&T network collapse was caused by an aggressive hacker attack.",
+      "answer": false,
+      "explanation": "The collapse was caused entirely by a misplaced 'break' statement in AT&T's own switching software update, triggering cascading reboots."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The world's first computer chess program was executed on an electronic digital computer.",
+      "answer": false,
+      "explanation": "Alan Turing created Turochamp in 1948 before computers could run it; in 1952, he hand-calculated every instruction using pencil and paper."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The 2003 Northeast blackout occurred because physical power lines failed without any software involvement.",
+      "answer": false,
+      "explanation": "A race condition in General Electric's monitoring software caused the alarm system to freeze silently, leaving operators unaware as lines sagged and tripped."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.578Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Healing Language Passed Down in the Andes",
+      "body": "High in the Bolivian Andes, traditional itinerant healers known as the Kallawaya have preserved an exclusive, unwritten language called Machaj Juyai for centuries. Never taught to outsiders or casual speakers, it is transmitted strictly from master to apprentice. Kallawayas use it to conduct healing rituals and classify an extraordinary pharmacopoeia of nearly 1,000 medicinal plant species, safeguarding ancestral knowledge that predates the Inca Empire.",
+      "imageWikipediaTitle": "Kallawaya",
+      "sources": [
+        {
+          "title": "Andean cosmovision of the Kallawaya",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/andean-cosmovision-of-the-kallawaya-00048"
+        },
+        {
+          "title": "Kallawaya language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kallawaya_language"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/andean-cosmovision-of-the-kallawaya-00048",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mysterious Trance State at the Heart of Flamenco",
+      "body": "In Spanish flamenco, technical accuracy takes a backseat to duende—an elusive, spontaneous state of emotional rawness and soul. Described famously by poet Federico García Lorca, duende is not an intellectual concept or practiced skill, but a visceral struggle with mortality and heartbreak that overtakes the singer, dancer, or guitarist. Audiences recognize it instantly: a performance with duende chills the room, transforming entertainment into shared catharsis.",
+      "imageWikipediaTitle": "Flamenco",
+      "sources": [
+        {
+          "title": "Flamenco",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/flamenco-00363"
+        },
+        {
+          "title": "Duende (art)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duende_(art)"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/flamenco-00363",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sacred Hawaiian Dance That Served as a Living Library",
+      "body": "Long before Western contact, ancient Hawaiians preserved their entire cultural memory without a written script through hula kahiko. Accompanied by sacred chants, dancers used precise footwork and hand gestures to encode genealogical lineages, celestial navigation, and royal histories into physical form. Performances were solemn religious duties overseen by priests; making a single mistake in choreography was believed to break the sacred connection and ruin the ritual.",
+      "imageWikipediaTitle": "Hula",
+      "sources": [
+        {
+          "title": "Hula",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/havo/learn/historyculture/hula.htm"
+        },
+        {
+          "title": "Hula",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hula"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/havo/learn/historyculture/hula.htm",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Most Cathedral 'Gargoyles' Aren't Actually Gargoyles",
+      "body": "Most of the stone demons, beasts, and fantastical figures perched along medieval cathedrals are not gargoyles at all. Etymologically rooted in the Old French gargouille—meaning \"throat\" or \"to gurgle\"—a true gargoyle is strictly a functional architectural water spout designed to shoot rainwater away from masonry walls. Carved figures that do not channel water are technically called grotesques or chimeras, designed purely for ornamentation and spiritual symbolism.",
+      "imageWikipediaTitle": "Gargoyle",
+      "sources": [
+        {
+          "title": "Gargoyle",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/technology/gargoyle"
+        },
+        {
+          "title": "Gargoyle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gargoyle"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/gargoyle",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Portuguese Music Built on an Untranslatable Ache",
+      "body": "Emerging from the gritty 19th-century port taverns of Lisbon, Portugal's traditional fado revolves around a single cultural sentiment: saudade. This untranslatable Portuguese concept describes a bittersweet, lingering yearning for people, places, or times that are lost and may never return. Performed by a lone singer accompanied by the distinctive tear-shaped Portuguese guitar, fado transforms melancholic acceptance of fate into an emotionally gripping, communal celebration of sorrow.",
+      "imageWikipediaTitle": "Fado",
+      "sources": [
+        {
+          "title": "Fado, urban popular song of Portugal",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563"
+        },
+        {
+          "title": "Fado",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fado"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary function of Machaj Juyai, the secret language of the Kallawaya healers?",
+      "options": [
+        "Transmitting sacred healing rituals and botanical knowledge",
+        "Hiding commercial trade routes from neighboring empires",
+        "Negotiating treaty alliances between Andean villages",
+        "Singing harvest songs during annual crop festivals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Machaj Juyai is an unwritten, esoteric language transmitted exclusively between Kallawaya master healers and initiates to preserve medical and botanical knowledge."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Spanish flamenco, what does the concept of 'duende' represent?",
+      "options": [
+        "A rigid set of rhythmic foot-tapping rules",
+        "A raw, trance-like state of authentic emotion and soul",
+        "A decorative silk shawl worn by lead soloists",
+        "The ceremonial wooden guitar used in competitions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Duende describes an elusive, heightened emotional state of vulnerability and raw expression that elevates a flamenco performance beyond technical skill."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What key role did traditional hula kahiko play in ancient Hawaiian society before written script?",
+      "options": [
+        "It served as a living oral archive preserving genealogies and history",
+        "It was a military training drill restricted to warriors",
+        "It was a casual game played exclusively by children",
+        "It was a secret theatrical parody mocking foreign traders"
+      ],
+      "correctIndex": 0,
+      "explanation": "Accompanied by solemn chants, hula kahiko used precise body gestures and movements to record genealogical lines, religious myths, and navigational records."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What functional architectural feature separates a true gargoyle from a grotesque?",
+      "options": [
+        "A gargoyle must be sculpted with bat-like wings",
+        "A gargoyle functions as a rainwater drainage spout",
+        "A gargoyle is placed exclusively above the cathedral altar",
+        "A gargoyle is made from cast iron rather than carved stone"
+      ],
+      "correctIndex": 1,
+      "explanation": "The term gargoyle comes from the French word for throat; to be a true gargoyle, the carved figure must actively channel rainwater away from the building."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which cultural concept of bittersweet longing and sorrow lies at the heart of Portuguese fado?",
+      "options": [
+        "Saudade",
+        "Duende",
+        "Ubuntu",
+        "Wabi-sabi"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saudade is a distinctively Portuguese emotional concept expressing deep, melancholic yearning for someone, somewhere, or something permanently lost."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "About how many medicinal plant species are cataloged in the traditional healing pharmacopoeia of Bolivia's Kallawaya healers?",
+      "answer": 980,
+      "min": 100,
+      "max": 3000,
+      "unit": "species",
+      "explanation": "UNESCO recognizes the Kallawaya pharmacopoeia as one of the richest in the world, encompassing roughly 980 medicinal plant species."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Traditional hula originated primarily as festive luau entertainment for visitors.",
+      "answer": false,
+      "explanation": "Traditional hula kahiko was a solemn religious ritual and living historical archive, performed with extreme precision under strict religious laws."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Every carved stone monster perched on a Gothic cathedral is a gargoyle.",
+      "answer": false,
+      "explanation": "Only carved figures that serve as functional drainage spouts are true gargoyles; non-spouting decorative stone beasts are called grotesques or chimeras."
+    }
+  ]
+}

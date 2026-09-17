@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.580Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An unborn baby siphons oxygen directly from its mother's blood",
+      "body": "A developing fetus cannot breathe air, relying entirely on oxygen extracted from maternal blood in the placenta. This exchange is possible because fetal hemoglobin has a higher affinity for oxygen than adult hemoglobin. By binding oxygen more tightly at matching partial pressures, the baby's bloodstream chemically siphons oxygen molecules right across the placental barrier, securing a steady oxygen supply until birth.",
+      "imageWikipediaTitle": "Fetal hemoglobin",
+      "sources": [
+        {
+          "title": "Physiology, Fetal Hemoglobin",
+          "publisher": "NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK549835/"
+        },
+        {
+          "title": "Fetal hemoglobin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fetal_hemoglobin"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK549835/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The shifting colors of a bruise trace a precise chemical breakdown",
+      "body": "When trauma ruptures tiny blood vessels under your skin, trapped red blood cells break down. Immune cells called macrophages digest the leaked hemoglobin, stripping iron to produce biliverdin—the pigment responsible for the injury's greenish tint. Enzymes then convert biliverdin into yellowish-orange bilirubin. As your body slowly clears these breakdown products, the bruise fades from dark purple to green and yellow before vanishing completely.",
+      "imageWikipediaTitle": "Bruise",
+      "sources": [
+        {
+          "title": "Ecchymosis",
+          "publisher": "NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537317/"
+        },
+        {
+          "title": "Bruise",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bruise"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537317/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body sparks a massive stress-hormone surge right after you wake up",
+      "body": "Within 30 to 45 minutes of waking up, your circulating cortisol levels jump by 50 to 75 percent. Known as the cortisol awakening response, this surge is not an anxious reaction to your morning alarm. Governed by your brain's master circadian clock, it acts as a biological ignition switch, raising blood pressure, elevating heart rate, and mobilizing fuel to prepare your body for the day ahead.",
+      "imageWikipediaTitle": "Cortisol",
+      "sources": [
+        {
+          "title": "Physiology, Cortisol",
+          "publisher": "NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK538239/"
+        },
+        {
+          "title": "Cortisol awakening response",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cortisol_awakening_response"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK538239/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Holding your breath while lifting heavy temporarily stalls blood flow to your heart",
+      "body": "Bearing down while holding your breath during heavy exertion—known as the Valsalva maneuver—dramatically increases pressure inside your chest cavity. This high pressure compresses the vena cava, the major vein returning blood to the heart. As venous return drops, the heart pumps less blood with each stroke, causing a momentary dip in blood pressure that can leave lifters feeling dizzy or lightheaded before normal breathing resumes.",
+      "imageWikipediaTitle": "Valsalva maneuver",
+      "sources": [
+        {
+          "title": "Physiology, Valsalva Maneuver",
+          "publisher": "NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537248/"
+        },
+        {
+          "title": "Valsalva maneuver",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valsalva_maneuver"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537248/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why rapid breathing causes your fingers and lips to tingle",
+      "body": "Hyperventilating doesn't overload your body with oxygen—it dumps carbon dioxide too rapidly. This sudden loss of carbon dioxide makes your blood abnormally alkaline, a condition called respiratory alkalosis. The higher blood pH prompts blood proteins to bind more circulating calcium ions, causing free ionized calcium levels to drop. Without enough free calcium, peripheral nerves become hyperexcitable and fire spontaneously, triggering numbness, tingling, and muscle spasms.",
+      "imageWikipediaTitle": "Hyperventilation",
+      "sources": [
+        {
+          "title": "Respiratory Alkalosis",
+          "publisher": "NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482468/"
+        },
+        {
+          "title": "Respiratory alkalosis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Respiratory_alkalosis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK482468/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why is a human fetus able to draw oxygen directly from maternal blood?",
+      "options": [
+        "Fetal hemoglobin has a higher oxygen-binding affinity than adult hemoglobin",
+        "The fetus breathes amniotic fluid enriched with dissolved gaseous oxygen",
+        "Maternal red blood cells physically cross the placenta into the fetus",
+        "Fetal lungs expand rhythmically to create a continuous pressure suction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fetal hemoglobin binds oxygen more tightly than adult hemoglobin, allowing it to pull oxygen across the placental barrier."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which substance is directly responsible for the greenish color of a healing bruise?",
+      "options": [
+        "Biliverdin",
+        "Melanin",
+        "Bilirubin",
+        "Myoglobin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Macrophages break down damaged hemoglobin into green biliverdin, which enzymes later convert into yellow bilirubin."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary function of the cortisol awakening response (CAR)?",
+      "options": [
+        "To ramp up heart rate, blood pressure, and energy mobilization for the day",
+        "To induce drowsiness so you smoothly transition through waking stages",
+        "To halt all digestion until you consume your first carbohydrate meal",
+        "To lower body temperature and preserve glucose until midday"
+      ],
+      "correctIndex": 0,
+      "explanation": "Governed by your circadian clock, the CAR spikes cortisol shortly after waking to activate your cardiovascular system and metabolism."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the Valsalva maneuver cause a sudden drop in cardiac output?",
+      "options": [
+        "Elevated chest pressure compresses large veins, restricting blood return to the heart",
+        "It triggers a rapid surge in oxygen that temporarily stops heart contraction",
+        "It locks the diaphragm, entirely cutting off the heart's coronary blood supply",
+        "It traps blood exclusively within the brain, depriving the rest of the body"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bearing down spikes intrathoracic pressure, which collapses the vena cava and starves the heart of venous blood return."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does hyperventilation cause tingling in the lips and extremities?",
+      "options": [
+        "Purging CO2 raises blood pH, lowering free calcium and exciting peripheral nerves",
+        "Excessive oxygen physically irritates sensory neurons in the fingers and lips",
+        "Blood pressure crashes so low that peripheral capillaries immediately collapse",
+        "The diaphragm pulls spinal nerves taut, disrupting signal transmission to limbs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exhaling too much CO2 causes respiratory alkalosis; the resulting drop in free ionized calcium makes peripheral nerves fire spontaneously."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By roughly what percentage does your circulating cortisol level surge within 45 minutes of waking up?",
+      "answer": 60,
+      "min": 10,
+      "max": 200,
+      "unit": "%",
+      "explanation": "The cortisol awakening response causes blood cortisol to spike by 50% to 75% shortly after waking to help activate your body."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A fetus receives oxygen because maternal blood flows directly into the fetal circulatory system.",
+      "answer": false,
+      "explanation": "Maternal and fetal blood never mix; oxygen transfers across the placental barrier because fetal hemoglobin binds it with higher affinity."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A healing bruise turns green because blood breakdown products are converted into bile pigments.",
+      "answer": true,
+      "explanation": "Enzymes break down hemoglobin into biliverdin and bilirubin—the very same pigments that color digestive bile."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Hyperventilating causes dizziness and tingling because it starves your body of oxygen.",
+      "answer": false,
+      "explanation": "Rapid breathing actually dumps too much carbon dioxide, raising blood pH and reducing free calcium, rather than depleting oxygen."
+    }
+  ]
+}

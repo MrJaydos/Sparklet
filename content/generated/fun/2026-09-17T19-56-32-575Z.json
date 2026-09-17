@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.575Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Starfish survive with seawater instead of blood",
+      "body": "Sea stars don't have a single drop of blood in their bodies. Without bone marrow, red blood cells, or a heart, they rely instead on an intricate hydraulic network called a water vascular system. They pull pure seawater in through a sieve-like opening called the madreporite, circulating it through internal canals to distribute vital nutrients and oxygen to their organs—and to power their hundreds of tiny suction-cup tube feet.",
+      "imageWikipediaTitle": "Starfish",
+      "sources": [
+        {
+          "title": "Do starfish have blood?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/starfish.html"
+        },
+        {
+          "title": "Starfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Starfish"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/starfish.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wombats have backward-facing pouches to keep their joeys clean",
+      "body": "Unlike kangaroos, whose pouches open upward toward their heads, female wombats have pouches that face backward toward their hind legs. Wombats are prolific diggers, spending hours excavating massive underground tunnels with powerful front claws. If a mother's pouch opened forward, flying dirt and rocky debris would instantly fill the pocket and suffocate her nursing joey. The rear-facing pouch keeps the baby clean, sheltered, and dirt-free while mom shovels.",
+      "imageWikipediaTitle": "Common wombat",
+      "sources": [
+        {
+          "title": "Common Wombat",
+          "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+          "url": "https://nationalzoo.si.edu/animals/common-wombat"
+        },
+        {
+          "title": "Wombat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wombat"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/common-wombat",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eastern oysters switch their biological sex as they grow",
+      "body": "Eastern oysters don't stay the same sex throughout their lives. They are protandric hermaphrodites, meaning they begin their adult lives as males and can switch to females as they mature. Producing eggs requires vastly more metabolic energy than producing sperm, so oysters typically transition to female once they grow large enough to accumulate sufficient nutrient reserves. If environmental conditions worsen or food becomes scarce, an oyster can even switch back.",
+      "imageWikipediaTitle": "Eastern oyster",
+      "sources": [
+        {
+          "title": "Eastern Oyster",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/eastern-oyster"
+        },
+        {
+          "title": "Eastern oyster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eastern_oyster"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/eastern-oyster",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Marine iguanas sneeze out crusty salt helmets to stay alive",
+      "body": "Foraging for algae in the Galápagos ocean forces marine iguanas to swallow dangerous amounts of saltwater. Their kidneys cannot process so much sodium, so the reptiles evolved specialized salt-excreting glands positioned between their eyes and nostrils. When internal fluid pressure climbs, the iguanas forcibly sneeze out the concentrated brine in dramatic vapor clouds. The dried salt spray often settles across their foreheads, giving them crusty white helmets.",
+      "imageWikipediaTitle": "Marine iguana",
+      "sources": [
+        {
+          "title": "Marine iguana",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/animal/marine-iguana"
+        },
+        {
+          "title": "Marine iguana",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marine_iguana"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/marine-iguana",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dead bodies do not keep growing hair and fingernails",
+      "body": "Folk legend insists that human hair and fingernails continue to lengthen for days after death. In reality, tissue growth requires active cellular division fueled by glucose and oxygen, which halts the instant the heart stops. The illusion occurs because a deceased body gradually dehydrates. As moisture evaporates, the skin around fingers, toes, and jawlines shrivels and shrinks backward, exposing previously hidden hair follicles and nail beds to make them appear longer.",
+      "imageWikipediaTitle": "Fingernail",
+      "sources": [
+        {
+          "title": "Medical myths",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151163/"
+        },
+        {
+          "title": "List of common misconceptions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151163/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do sea stars circulate oxygen and nutrients without any blood?",
+      "options": [
+        "By pumping filtered seawater through a water vascular system",
+        "By absorbing gas directly across their hard outer calcified plates",
+        "By storing pressurized air in bladder-like dorsal cavities",
+        "By relying on symbiotic bacteria that generate oxygen internally"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sea stars filter ocean water through the madreporite and pump it throughout their water vascular system to nourish organs and operate their tube feet."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do female wombats have backward-facing pouches?",
+      "options": [
+        "To prevent dirt from suffocating their joeys while digging",
+        "To let the joey keep watch for predators behind the mother",
+        "To allow the baby to nurse while running at top speed",
+        "To make it easier for the father to carry the offspring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because wombats spend hours digging burrows with their claws, a forward-facing pouch would quickly fill with soil and debris, endangering the joey."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do eastern oysters typically begin adult life as males before becoming females?",
+      "options": [
+        "Producing eggs requires much more energy than producing sperm",
+        "Male oysters have thicker shells needed to survive juvenile predators",
+        "Water temperature triggers permanent male development only in summer",
+        "Larvae must swim fast using male flagella before settling down"
+      ],
+      "correctIndex": 0,
+      "explanation": "Egg production demands significant metabolic reserves, so oysters typically mature as males first and only switch to female once large enough."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do Galápagos marine iguanas expel the dangerous excess salt they ingest from seawater?",
+      "options": [
+        "They forcibly sneeze out concentrated brine from specialized nasal glands",
+        "They shed their outer skin every week to discard salt crystals",
+        "They secrete salty tears that dissolve directly back into the sea",
+        "They sweat high-salinity droplets from sweat glands along their spine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specialized glands between their eyes and nostrils collect excess salt from the blood, which the iguanas blast out into the air by sneezing."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do fingernails and hair appear to keep growing on a deceased human body?",
+      "options": [
+        "Dehydrating skin shrinks and pulls back, exposing more of the nail and hair",
+        "Dead cells continue rapid division for up to 72 hours post-mortem",
+        "Gravity pulls hair and nail roots outward from decomposing tissue",
+        "Bacteria feeding on dead tissue produce keratin as a metabolic byproduct"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cell division halts when the heart stops; the appearance of growth is entirely an optical illusion caused by desiccation and receding skin."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Starfish have blue, copper-based blood similar to crabs and lobsters.",
+      "answer": false,
+      "explanation": "Starfish have no blood at all; they pump filtered seawater through an internal water vascular system to circulate nutrients and oxygen."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A wombat's pouch opens backward toward its hind legs rather than forward.",
+      "answer": true,
+      "explanation": "Unlike kangaroos, female wombats carry a backward-facing pouch so flying dirt and debris won't bury their young while they burrow."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Human hair and fingernails continue to grow for several days after death.",
+      "answer": false,
+      "explanation": "Cell growth requires oxygen and glucose, which stops at death. Dehydrating skin shrinks and retracts, making nails and hair appear longer."
+    }
+  ]
+}

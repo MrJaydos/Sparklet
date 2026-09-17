@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.573Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A suspicious undertaker invented the automated telephone switchboard",
+      "body": "In 1889, undertaker Almon Brown Strowger noticed his funeral business was mysteriously drying up. Suspecting the local telephone operator—who happened to be married to a competing undertaker—was redirecting grieving callers to her husband, Strowger designed an electromechanical switch that let callers dial numbers directly without human intermediaries. His automated Strowger switch eliminated operator bias and served as the backbone of global telecommunications networks for nearly a century.",
+      "imageWikipediaTitle": "Almon Brown Strowger",
+      "sources": [
+        {
+          "title": "Almon Brown Strowger",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/almon-brown-strowger"
+        },
+        {
+          "title": "Almon Strowger - Automatic Telephone Exchange",
+          "publisher": "Lemelson-MIT",
+          "url": "https://lemelson.mit.edu/resources/almon-strowger"
+        },
+        {
+          "title": "Almon Brown Strowger",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Almon_Brown_Strowger"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/almon-brown-strowger",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 14-year-old conceived electronic television while plowing a farm",
+      "body": "In 1921, 14-year-old Philo Farnsworth was plowing a potato field in Idaho when he looked back at the parallel rows of tilled soil. He realized an electron beam could reproduce images the exact same way: sweeping back and forth across a screen, row by row, fast enough that the human eye blends them into a continuous moving picture. Six years later, his raster-scanning concept successfully transmitted the world's first all-electronic television image.",
+      "imageWikipediaTitle": "Philo Farnsworth",
+      "sources": [
+        {
+          "title": "Today in History - August 19: Philo T. Farnsworth",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/august-19/"
+        },
+        {
+          "title": "Philo Farnsworth - Electronic Television System",
+          "publisher": "Lemelson-MIT",
+          "url": "https://lemelson.mit.edu/resources/philo-farnsworth"
+        },
+        {
+          "title": "Philo Farnsworth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philo_Farnsworth"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/august-19/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A wrong resistor in a circuit box created the implantable pacemaker",
+      "body": "In 1958, American engineer Wilson Greatbatch was building an electronic oscillator to record human heart sounds at the University of Buffalo. Reaching into a tackle box of parts, he accidentally grabbed a 1-megohm resistor instead of a 10,000-ohm one. Installed in the circuit, it pulsed electricity for 1.8 milliseconds and paused for a second before pulsing again—a rhythmic beat that perfectly mimicked a human heartbeat and inspired the first practical implantable cardiac pacemaker.",
+      "imageWikipediaTitle": "Wilson Greatbatch",
+      "sources": [
+        {
+          "title": "Wilson Greatbatch",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/wilson-greatbatch"
+        },
+        {
+          "title": "Wilson Greatbatch - Implantable Cardiac Pacemaker",
+          "publisher": "Lemelson-MIT",
+          "url": "https://lemelson.mit.edu/resources/wilson-greatbatch"
+        },
+        {
+          "title": "Wilson Greatbatch",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wilson_Greatbatch"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/wilson-greatbatch",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "'Wi-Fi' does not stand for Wireless Fidelity",
+      "body": "Contrary to popular belief, 'Wi-Fi' is not an acronym for 'Wireless Fidelity' or anything else. In 1999, the Wireless Ethernet Compatibility Alliance hired commercial branding firm Interbrand to replace their unwieldy technical standard name, 'IEEE 802.11b Direct Sequence.' Interbrand proposed Wi-Fi as a catchy, consumer-friendly play on 'hi-fi.' The alliance later briefly used the marketing tagline 'The Standard for Wireless Fidelity' to help consumers understand the technology, creating a decades-long myth.",
+      "imageWikipediaTitle": "Wi-Fi",
+      "sources": [
+        {
+          "title": "Wi-Fi isn't short for 'Wireless Fidelity'",
+          "publisher": "Boing Boing",
+          "url": "https://boingboing.net/2005/11/08/wifi-isnt-short-for.html"
+        },
+        {
+          "title": "Wi-Fi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wi-Fi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wi-Fi",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's fastest supercomputer was curved to beat the speed of light",
+      "body": "When Seymour Cray designed the Cray-1 supercomputer in 1975, electrical signals traveled through copper wiring at roughly 20 centimeters per nanosecond. To run at a record 80 megahertz, no wire connecting internal components could exceed four feet in length. Cray bent the entire mainframe into a 6.5-foot-wide C-shaped horseshoe. The inward curve drastically shortened the physical distance between circuit modules, keeping propagation delays low enough to make it the fastest machine on Earth.",
+      "imageWikipediaTitle": "Cray-1",
+      "sources": [
+        {
+          "title": "Seymour Cray",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/seymour-cray"
+        },
+        {
+          "title": "Cray-1 Supercomputer",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/revolution/supercomputers/10/7/24"
+        },
+        {
+          "title": "Cray-1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cray-1"
+        }
+      ],
+      "readMoreUrl": "https://www.computerhistory.org/revolution/supercomputers/10/7/24",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did undertaker Almon Strowger invent the automated telephone switchboard?",
+      "options": [
+        "He wanted to reduce long-distance telegraph costs",
+        "He suspected a local operator was routing funeral calls to her husband",
+        "Human switchboard operators frequently went on strike",
+        "The phone company refused to connect commercial storefronts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strowger suspected a switchboard operator married to his competitor was stealing his funeral business, prompting him to invent direct-dial switching."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What everyday sight inspired Philo Farnsworth's breakthrough concept for electronic television?",
+      "options": [
+        "The parallel rows of a plowed farm field",
+        "The back-and-forth motion of typewriter hammers",
+        "The interlocking threads of a textile loom",
+        "Sunlight shining through window blinds"
+      ],
+      "correctIndex": 0,
+      "explanation": "At age 14, Farnsworth realized an electron beam could trace an image line by line, just like the parallel furrows of a plowed field."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What mistake led Wilson Greatbatch to invent the practical implantable cardiac pacemaker?",
+      "options": [
+        "He wired a battery backwards into an amplifier",
+        "He dropped a hot soldering iron onto a transistor",
+        "He grabbed a resistor with 100 times the intended resistance",
+        "He accidentally exposed a circuit to liquid nitrogen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Greatbatch grabbed a 1-megohm resistor instead of a 10,000-ohm resistor, creating an oscillator circuit that pulsed in the rhythm of a heartbeat."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does the term 'Wi-Fi' officially stand for?",
+      "options": [
+        "Wireless Fidelity",
+        "Wireless Frequency Interface",
+        "Wide-Field Internet",
+        "Nothing, as it is not an acronym"
+      ],
+      "correctIndex": 3,
+      "explanation": "'Wi-Fi' was created by a branding firm as a catchy consumer name playing on 'hi-fi' and was never an acronym for Wireless Fidelity."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why was the Cray-1 supercomputer designed in the shape of a curved letter 'C'?",
+      "options": [
+        "To allow Seymour Cray to leave his alphabetical initial on the design",
+        "To create a natural chimney effect for cooling fans",
+        "To keep wire lengths between circuit boards under four feet",
+        "To ensure all maintenance panels could be reached from one rolling chair"
+      ],
+      "correctIndex": 2,
+      "explanation": "Electrical signals could only travel about 20 cm per nanosecond, so curving the chassis kept all wiring under four feet to hit 80 MHz speeds."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How old was Philo Farnsworth when he conceived the line-by-line scanning idea behind electronic television?",
+      "answer": 14,
+      "min": 10,
+      "max": 35,
+      "unit": "years",
+      "explanation": "Farnsworth conceived the raster-scanning principle in 1921 while plowing a farm field at just 14 years old."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "To prevent speed-of-light signal delays in the 1975 Cray-1 supercomputer, what was the maximum length allowed for any wire?",
+      "answer": 4,
+      "min": 1,
+      "max": 20,
+      "unit": "feet",
+      "explanation": "Because signals travel roughly 20 centimeters per nanosecond, Cray kept every connecting wire under four feet."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The term 'Wi-Fi' is an acronym that stands for 'Wireless Fidelity'.",
+      "answer": false,
+      "explanation": "Wi-Fi was invented by branding firm Interbrand simply as a catchy name; it was never an official acronym for anything."
+    },
+    {
+      "cardIndex": 0,
+      "claim": "Automated telephone switching was invented by telecom engineers seeking to lower corporate operating costs.",
+      "answer": false,
+      "explanation": "It was invented by undertaker Almon Strowger to stop a biased operator from redirecting his prospective customers to her husband."
+    }
+  ]
+}

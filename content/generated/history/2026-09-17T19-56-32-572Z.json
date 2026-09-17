@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.572Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Stone Jail Cell Saved One Man From a 30,000-Death Volcanic Blast",
+      "body": "In May 1902, Mount Pelée violently erupted on Martinique, engulfing the city of Saint-Pierre in a 1,000-degree pyroclastic surge. Roughly 30,000 residents perished within minutes. Miraculously, a 27-year-old prisoner named Ludger Sylbaris survived near the city center. His poorly ventilated, semi-underground stone jail cell acted as a makeshift bomb shelter, shielding him from scorching gases and falling debris until rescuers uncovered him four days later.",
+      "imageWikipediaTitle": "Ludger Sylbaris",
+      "sources": [
+        {
+          "title": "Pelée",
+          "publisher": "Smithsonian Institution",
+          "url": "https://volcano.si.edu/volcano.cfm?vn=360120"
+        },
+        {
+          "title": "Ludger Sylbaris",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ludger_Sylbaris"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ludger_Sylbaris",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Suffragist Parade That Stole Woodrow Wilson's Inauguration Crowds",
+      "body": "On March 3, 1913, more than 5,000 suffragists marched down Washington, D.C.'s Pennsylvania Avenue to demand voting rights, organized by Alice Paul. Scheduled the day before Woodrow Wilson's presidential inauguration, the spectacle stole the national spotlight. When Wilson arrived by train at Union Station expecting cheering crowds, he found the streets virtually deserted. An aide reportedly explained that everyone had gone to watch the women march.",
+      "imageWikipediaTitle": "1913 Woman Suffrage Procession",
+      "sources": [
+        {
+          "title": "Today in History - March 3: Woman Suffrage Procession",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/march-03/"
+        },
+        {
+          "title": "1913 Woman Suffrage Procession",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1913_Woman_Suffrage_Procession"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/march-03/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Missed Bus and a Game of Ping-Pong Thawed the Cold War",
+      "body": "Cold War tensions between the United States and China began to thaw over a casual game of table tennis. At the 1971 World Championships in Japan, American player Glenn Cowan missed his team bus and boarded the Chinese team's bus instead. Star player Zhuang Zedong greeted him with a gift. Days later, China invited the US team to visit, marking the first official American delegation to China since 1949 and setting up President Nixon's historic visit.",
+      "imageWikipediaTitle": "Ping-Pong Diplomacy",
+      "sources": [
+        {
+          "title": "Rapprochement with China, 1969–1972",
+          "publisher": "Office of the Historian, U.S. Department of State",
+          "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+        },
+        {
+          "title": "Ping-Pong Diplomacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ping-Pong_Diplomacy"
+        }
+      ],
+      "readMoreUrl": "https://history.state.gov/milestones/1969-1976/rapprochement-china",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Myth That Americans Hated Buying Alaska as 'Seward's Folly'",
+      "body": "History often remembers the 1867 purchase of Alaska as an unpopular national laughingstock dubbed 'Seward's Folly.' In reality, most American newspapers and politicians enthusiastically supported the acquisition negotiated by Secretary of State William H. Seward. At roughly $7.2 million—about two cents per acre—the deal was widely recognized as a strategic bargain that expanded trade and expelled Russian influence from North America. 'Seward's Folly' was merely a catchy insult coined by a vocal minority.",
+      "imageWikipediaTitle": "Alaska Purchase",
+      "sources": [
+        {
+          "title": "Today in History - March 30: Alaska Purchase",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/march-30/"
+        },
+        {
+          "title": "Alaska Purchase",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alaska_Purchase"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/march-30/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Scientists Who Discovered Insulin Sold the Patent for Just One Dollar",
+      "body": "Until 1921, receiving a diagnosis of Type 1 diabetes was an agonizing death sentence, with patients surviving only months on extreme starvation diets. At the University of Toronto, Frederick Banting, Charles Best, James Collip, and J.J.R. Macleod successfully isolated and purified insulin from animal pancreases. Within months, comatose diabetic children awoke and recovered. Believing life-saving medicine belonged to humanity, the researchers sold their patent to the university for just one dollar each.",
+      "imageWikipediaTitle": "Discovery of insulin",
+      "sources": [
+        {
+          "title": "The discovery of insulin: an important milestone in the history of medicine",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407005/"
+        },
+        {
+          "title": "Discovery of insulin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Discovery_of_insulin"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407005/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did prisoner Ludger Sylbaris survive the catastrophic 1902 eruption of Mount Pelée that killed roughly 30,000 people?",
+      "options": [
+        "He was locked inside a thick, poorly ventilated stone jail cell",
+        "He escaped aboard a steamship minutes before the blast",
+        "He hid in a submerged submarine in the harbor",
+        "He climbed into an airtight iron safe inside a bank"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sylbaris's solitary stone confinement cell acted like a bomb shelter, shielding him from the superheated pyroclastic flow."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was Woodrow Wilson's arrival in Washington, D.C. in March 1913 met with virtually empty streets?",
+      "options": [
+        "A sudden blizzard halted public transit across the capital",
+        "The crowds were busy watching the Woman Suffrage Procession nearby",
+        "Wilson arrived unannounced late at night at the wrong station",
+        "A citywide quarantine had closed public streets"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alice Paul staged the 1913 suffrage march on the day before the inauguration, drawing onlookers away from Wilson's arrival."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What accidental incident helped initiate the 1971 diplomatic thaw known as 'Ping-Pong Diplomacy'?",
+      "options": [
+        "An American player accidentally boarded the Chinese team's bus",
+        "A lost tournament paddle was returned with a diplomatic letter",
+        "Two players accidentally swapped luggage at an airport",
+        "A translator mistranslated a comment into an official state invitation"
+      ],
+      "correctIndex": 0,
+      "explanation": "US player Glenn Cowan hopped onto the Chinese team bus by mistake, where world champion Zhuang Zedong struck up a conversation and gave him a gift."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the prevailing public reaction to the 1867 Alaska Purchase when it was negotiated?",
+      "options": [
+        "Broad support across most major newspapers and politicians",
+        "Universal public outrage leading to the secretary of state's firing",
+        "Mass protests by taxpayers refusing to fund the treaty",
+        "Total indifference, because the purchase was kept top secret"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contemporary press records show that 'Seward's Folly' was coined by a vocal minority of critics, while most Americans recognized it as a strategic bargain."
+    },
+    {
+      "cardIndex": 4,
+      "question": "For how much did the discoverers of insulin sell their original patent to the University of Toronto?",
+      "options": [
+        "One dollar each",
+        "100,000 dollars",
+        "Half of all future sales royalties",
+        "Nothing, because hormones could not be legally patented"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frederick Banting famously declared that insulin belonged to the world, selling the patent rights for $1 so treatment would stay accessible."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Approximately how many people were killed when Mount Pelée erupted on the island of Martinique in May 1902?",
+      "answer": 30000,
+      "min": 1000,
+      "max": 100000,
+      "unit": "people",
+      "explanation": "The pyroclastic flow wiped out the entire city of Saint-Pierre, killing about 30,000 residents and leaving almost no survivors."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "When the United States purchased Alaska from the Russian Empire in 1867, roughly how many cents did it pay per acre?",
+      "answer": 2,
+      "min": 0,
+      "max": 50,
+      "unit": "cents",
+      "explanation": "The US paid $7.2 million for roughly 375 million acres, working out to about two cents per acre."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The American public almost universally mocked the purchase of Alaska as a pointless waste of money.",
+      "answer": false,
+      "explanation": "The label 'Seward's Folly' came from a handful of vocal critics; most contemporary newspapers and politicians strongly supported the acquisition."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The scientists who discovered insulin sold their patent rights for just one dollar so the treatment would remain affordable.",
+      "answer": true,
+      "explanation": "Banting, Best, and Collip believed profiting off a life-saving therapy was unethical, selling their patent to the University of Toronto for $1 each."
+    }
+  ]
+}

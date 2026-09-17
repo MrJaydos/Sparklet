@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.579Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The guards in the famous Stanford prison study did not turn cruel on their own",
+      "body": "In 1971, Philip Zimbardo placed college students into simulated guard and prisoner roles, claiming the guards turned cruel spontaneously. However, archival audio recordings and participant interviews later revealed that the researchers actively instructed the guards to act aggressively and gave them specific tactics. Far from proving that ordinary people naturally turn sadistic in uniform, the study demonstrated the power of experimenter demand.",
+      "imageWikipediaTitle": "Stanford prison experiment",
+      "sources": [
+        {
+          "title": "Stanford prison experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment"
+        },
+        {
+          "title": "Conformity, Compliance, and Obedience",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience"
+        }
+      ],
+      "readMoreUrl": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Taste aversion breaks almost every rule of classical conditioning",
+      "body": "Classical conditioning usually requires dozens of rapid pairings, but taste aversion breaks the rules. In 1966, psychologist John Garcia showed that rats developed an enduring disgust for a sweetened flavor after just one exposure if nausea followed hours later. The brain evolved specialized survival circuitry that uniquely links taste to sickness across long delays, while completely ignoring bright lights or loud noises paired with the same illness.",
+      "imageWikipediaTitle": "Conditioned taste aversion",
+      "sources": [
+        {
+          "title": "Conditioned taste aversion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Conditioned_taste_aversion"
+        },
+        {
+          "title": "Classical Conditioning",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning"
+        }
+      ],
+      "readMoreUrl": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a 95% accurate medical test can still be wrong nearly all the time",
+      "body": "Suppose a rare condition affects 1 in 1,000 people, and a screening test has a 5% false-positive rate. If an ordinary person tests positive, what is the chance they are actually sick? Most people, including seasoned doctors, instinctively guess 95%. In reality, the true probability is only about 2%. The human mind fixates on the test's precision while completely ignoring the \"base rate\"—the rarity of the condition itself.",
+      "imageWikipediaTitle": "Base rate fallacy",
+      "sources": [
+        {
+          "title": "Base rate fallacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Base_rate_fallacy"
+        },
+        {
+          "title": "Thinking and Intelligence",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/7-3-thinking-and-intelligence"
+        }
+      ],
+      "readMoreUrl": "https://openstax.org/books/psychology-2e/pages/7-3-thinking-and-intelligence",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your brain is substantially worse at recognizing faces outside your own racial group",
+      "body": "People consistently struggle to recognize unfamiliar faces from a racial background different from their own. In a meta-analysis of 39 studies across three decades, psychologists Christian Meissner and John Brigham found eyewitnesses were 1.4 times more likely to misidentify a face of another race. This effect does not stem from racial prejudice, but from perceptual expertise shaped by the faces you encounter most during everyday life.",
+      "imageWikipediaTitle": "Cross-race effect",
+      "sources": [
+        {
+          "title": "Cross-race effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cross-race_effect"
+        },
+        {
+          "title": "Prejudice, Discrimination, and Stereotypes",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-discrimination-and-stereotypes"
+        }
+      ],
+      "readMoreUrl": "https://openstax.org/books/psychology-2e/pages/12-5-prejudice-discrimination-and-stereotypes",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Feed each eye a different picture, and your brain refuses to blend them",
+      "body": "When your eyes view two completely different, incompatible images at the exact same moment, your brain does not merge them into a composite scene. Instead, your conscious perception flips back and forth every couple of seconds in a process called binocular rivalry. The brain actively suppresses visual input from one eye while spotlighting the other, revealing that conscious vision is an ongoing neural interpretation rather than a passive camera feed.",
+      "imageWikipediaTitle": "Binocular rivalry",
+      "sources": [
+        {
+          "title": "Binocular rivalry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Binocular_rivalry"
+        },
+        {
+          "title": "Sensation versus Perception",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/5-1-sensation-versus-perception"
+        }
+      ],
+      "readMoreUrl": "https://openstax.org/books/psychology-2e/pages/5-1-sensation-versus-perception",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the guards in the Stanford Prison Experiment behave with such cruelty toward the prisoners?",
+      "options": [
+        "They were explicitly instructed and coached by the researchers to act harshly",
+        "They were selected specifically from clinical psychiatric wards",
+        "The prisoners had orchestrated an armed mutiny on the first day",
+        "The guards were severely sleep-deprived by the experimenters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Archival recordings revealed that lead researchers actively trained and pressured the guards to adopt harsh intimidation tactics."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How does conditioned taste aversion (the Garcia effect) violate standard principles of classical conditioning?",
+      "options": [
+        "It establishes a lasting aversion after a single trial, even across long delays",
+        "It only occurs when animals are exposed to electrical shocks",
+        "It requires hundreds of rapid, consecutive pairings to form",
+        "It only develops if a visual flash accompanies the food"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike standard Pavlovian conditioning that requires immediate and repeated pairings, taste aversion links flavor to illness after one trial hours later."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In the base rate fallacy, why do people vastly overestimate the probability of having a rare disease after testing positive?",
+      "options": [
+        "They focus on the test's precision while ignoring how rare the condition is overall",
+        "They mathematically confuse false positives with false negatives",
+        "They assume doctors only test patients who already have severe symptoms",
+        "They mistake percentage accuracy for the total patient population"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because healthy people overwhelmingly outnumber sick people, even a small false-positive rate produces far more false alarms than true cases."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the primary underlying driver of the cross-race effect in facial recognition?",
+      "options": [
+        "Perceptual expertise developed from everyday social exposure to certain face types",
+        "Explicit personal racial animus and conscious bias against other groups",
+        "Biological differences in retinal light processing across populations",
+        "Cognitive fatigue caused by interacting with diverse groups"
+      ],
+      "correctIndex": 0,
+      "explanation": "The cross-race effect reflects visual tuning and perceptual expertise shaped by social environment, not explicit or implicit prejudice."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What happens when your two eyes are simultaneously presented with two completely incompatible images?",
+      "options": [
+        "Your conscious perception flips back and forth between the two images",
+        "The visual cortex permanently fuses them into a single blended overlay",
+        "Your vision completely goes dark until one image is removed",
+        "The dominant eye always suppresses the other eye permanently"
+      ],
+      "correctIndex": 0,
+      "explanation": "In binocular rivalry, the brain alternates conscious awareness between competing visual inputs rather than merging them."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "If a disease affects 1 in 1,000 people and a test is 95% accurate with 5% false positives, what is the % chance a positive person is sick?",
+      "answer": 2,
+      "min": 1,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Because 999 out of 1,000 people are healthy, a 5% false-positive rate generates roughly 50 false alarms for every 1 true case."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Stanford Prison Experiment proved that ordinary people naturally become cruel when given power over others.",
+      "answer": false,
+      "explanation": "Archival recordings and interviews showed that the experimenters actively coached and instructed the guards on how to behave aggressively."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Your brain can develop a lasting aversion to a flavor after just a single instance of nausea hours later.",
+      "answer": true,
+      "explanation": "Conditioned taste aversion evolved as a powerful one-trial survival mechanism that breaks standard learning rules."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The cross-race effect in face recognition is primarily caused by personal racial prejudice.",
+      "answer": false,
+      "explanation": "The effect is driven by visual perceptual expertise gained from everyday social contact, not racial animus."
+    }
+  ]
+}

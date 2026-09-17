@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-17T19:56:32.571Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Irish reveals an ancient family bond",
+      "body": "In Irish (Gaeilge), counting standalone numbers begins with a haon (pronounced \"uh HAYN\"), a dó (\"uh DOE\"), and a trí (\"uh TREE\"). Although Celtic languages diverged from Germanic ones millennia ago, the family resemblance remains unmistakable. \"A trí\" sounds nearly identical to English \"three,\" while \"a haon\" shares its ancient Proto-Indo-European root with Latin \"unus\" and English \"one.\" Across thousands of miles and centuries of history, the counting words never lost their connection.",
+      "imageWikipediaTitle": "Irish language",
+      "sources": [
+        {
+          "title": "Irish Numbers",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/irish.htm"
+        },
+        {
+          "title": "trí",
+          "publisher": "Teanglann",
+          "url": "https://www.teanglann.ie/en/fgb/tr%C3%AD"
+        },
+        {
+          "title": "Irish language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Irish_language"
+        }
+      ],
+      "readMoreUrl": "https://www.omniglot.com/language/numbers/irish.htm",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The wish for vitality behind New Zealand's greeting 'Kia ora'",
+      "body": "In New Zealand, the universal Māori greeting is Kia ora (pronounced \"kee-ah OR-ah\"). While widely used as an informal \"hello\" or \"thank you,\" its literal translation is a powerful wish: \"kia\" acts as a grammatical marker wishing something to be, while \"ora\" means alive, well, or healthy. Greeting someone with \"Kia ora\" literally translates to \"be well\" or \"have life.\" Today, it is embraced nationwide as an everyday symbol of shared Kiwi identity.",
+      "imageWikipediaTitle": "Kia ora",
+      "sources": [
+        {
+          "title": "100 Māori words every New Zealander should know",
+          "publisher": "New Zealand Ministry for Culture and Heritage",
+          "url": "https://nzhistory.govt.nz/culture/maori-language-week/100-maori-words"
+        },
+        {
+          "title": "Te reo Māori – the Māori language",
+          "publisher": "Te Ara - The Encyclopedia of New Zealand",
+          "url": "https://teara.govt.nz/en/te-reo-maori-the-maori-language"
+        },
+        {
+          "title": "Kia ora",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kia_ora"
+        }
+      ],
+      "readMoreUrl": "https://teara.govt.nz/en/te-reo-maori-the-maori-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Japan's morning greeting commends you for waking early",
+      "body": "Greeting someone in the morning in Japanese, you say おはようございます (ohayō gozaimasu; casual: おはよう, ohayō), pronounced \"oh-hah-yoh go-zy-mahs.\" Rather than wishing someone a pleasant day, the phrase stems from the adjective 早い (hayai), meaning \"early.\" With the polite honorific prefix, it literally translates to \"it is early.\" Originally used in traditional theater circles to commend actors and stagehands for arriving early to prepare, it became an everyday acknowledgment of diligent morning effort.",
+      "imageWikipediaTitle": "Japanese language",
+      "sources": [
+        {
+          "title": "Japanese Language: Greetings",
+          "publisher": "Web Japan",
+          "url": "https://web-japan.org/kidsweb/explore/language/language02.html"
+        },
+        {
+          "title": "Easy Japanese: Lesson 1",
+          "publisher": "NHK World-Japan",
+          "url": "https://www.nhk.or.jp/lesson/english/learn/list/1.html"
+        },
+        {
+          "title": "Japanese greetings",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_greetings"
+        }
+      ],
+      "readMoreUrl": "https://web-japan.org/kidsweb/explore/language/language02.html",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an 'addict' was originally an ancient Roman slave",
+      "body": "Today, the word \"addict\" describes someone captive to a harmful habit or substance. But in ancient Roman law, an addictus was a debtor who could not pay what he owed. By decree of a magistrate (\"addicere,\" meaning to adjudge or deliver over), the debtor was legally handed over into physical bondage to his creditor as an indentured slave. English borrowed the term in the 1500s to describe someone utterly bound or surrendered to a master pursuit.",
+      "imageWikipediaTitle": "Ancient Roman law",
+      "sources": [
+        {
+          "title": "The Ancient Roots of 'Addict'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-of-addict"
+        },
+        {
+          "title": "Etymology of addict",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/addict"
+        },
+        {
+          "title": "Addiction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Addiction"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/word-history-of-addict",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How ancient beech tree bark gave us the word 'book'",
+      "body": "Before bound paper pages existed, early Germanic peoples recorded runes by carving them onto thin wooden tablets and bark stripped from beech trees. In Proto-Germanic, the tree was known as *bōkō, which gave rise to *bōks, meaning writing tablet or document. Over the centuries, as parchment rolls and bound volumes replaced carved wood, the name stuck. The botanical connection is still obvious in German, where Buche means \"beech tree\" and Buch means \"book.\"",
+      "imageWikipediaTitle": "Book",
+      "sources": [
+        {
+          "title": "The Beech Tree and the Word 'Book'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/beech-tree-and-the-word-book"
+        },
+        {
+          "title": "Etymology of book",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/book"
+        },
+        {
+          "title": "Book",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Book"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/beech-tree-and-the-word-book",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which Irish counting word shares an ancient Indo-European root with the English word \"three\"?",
+      "options": [
+        "A haon",
+        "A dó",
+        "A trí",
+        "A ceathair"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"A trí\" (pronounced \"uh TREE\") is the Irish word for three and is directly cognate with English \"three\"."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the traditional Māori greeting \"Kia ora\" literally mean?",
+      "options": [
+        "Good sunrise",
+        "Be well or have life",
+        "Welcome home",
+        "Peace to you"
+      ],
+      "correctIndex": 1,
+      "explanation": "Combining \"kia\" (wishing a state) with \"ora\" (life, health, vitality), \"Kia ora\" literally translates to \"be well\" or \"have life\"."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the literal meaning behind the Japanese morning greeting \"ohayō\"?",
+      "options": [
+        "Sun is rising",
+        "It is early",
+        "Good day to you",
+        "Wishing you energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Ohayō\" derives from the Japanese adjective \"hayai\" (early), politely remarking \"it is early\" to acknowledge someone's early morning labor."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In ancient Roman law, what was an \"addictus\"?",
+      "options": [
+        "A temple priest devoted to a deity",
+        "A criminal sentenced to the arena",
+        "A debtor legally surrendered as a slave to his creditor",
+        "A military deserter"
+      ],
+      "correctIndex": 2,
+      "explanation": "An \"addictus\" was an insolvent debtor whom a magistrate legally handed over (\"addicere\") to a creditor as a bound servant."
+    },
+    {
+      "cardIndex": 4,
+      "question": "The English word \"book\" shares its historical linguistic origin with which type of tree?",
+      "options": [
+        "Oak",
+        "Beech",
+        "Birch",
+        "Willow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Proto-Germanic *bōks (book) derives from *bōkō (beech), because early Germanic runes were carved onto slabs of beech wood."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Irish and English are completely unrelated languages from different language families.",
+      "answer": false,
+      "explanation": "Both Irish and English belong to the Indo-European language family, sharing common ancestral roots seen clearly in numbers like Irish \"a trí\" and English \"three\"."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The word \"addict\" originally described medical dependence on drugs.",
+      "answer": false,
+      "explanation": "\"Addict\" originated in ancient Roman law, where an \"addictus\" was a debtor legally surrendered into bondage to their creditor."
+    }
+  ]
+}
