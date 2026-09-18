@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-09-18T19:16:27.490Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Britain was paying off 18th-century debts until 2015",
+      "body": "In 2015, the United Kingdom finally redeemed the last of its \"Consols\"—perpetual government bonds with no fixed maturity date. British taxpayers had spent nearly three centuries paying continuous interest on money borrowed to finance the South Sea Bubble bailout of 1720, the Napoleonic Wars against Napoleon, and the 1835 compensation paid to abolish slavery across the empire. The Treasury repaid £1.9 billion to clear the ancient ledger.",
+      "imageWikipediaTitle": "Consol (bond)",
+      "sources": [
+        {
+          "title": "Government to redeem historic bonds",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/news/government-to-redeem-historic-bonds"
+        },
+        {
+          "title": "UK to pay off debts dating back to South Sea Bubble",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/news/business-30306380"
+        },
+        {
+          "title": "Consol (bond)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Consol_(bond)"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/business-30306380",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "France sent a warship to fetch its gold from the Fed",
+      "body": "In 1965, French President Charles de Gaulle challenged America's \"exorbitant privilege\" of printing paper money backed by gold. Under the Bretton Woods system, foreign nations could swap $35 for an ounce of physical gold. De Gaulle systematically converted France's US dollar reserves into bullion, deploying the French navy to ship tons of gold bars from the Federal Reserve vault in Manhattan back to Paris. This gold drain accelerated Richard Nixon severing gold convertibility in 1971.",
+      "imageWikipediaTitle": "Nixon shock",
+      "sources": [
+        {
+          "title": "The Nixon Shock",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/nixon-shock"
+        },
+        {
+          "title": "Nixon shock",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nixon_shock"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/nixon-shock",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Isaac Newton spent his final decades hunting counterfeiters",
+      "body": "In 1696, Sir Isaac Newton was appointed Warden, and later Master, of the Royal Mint. Rather than treating it as a comfortable sinecure, Newton viewed counterfeiting as treason against the crown. He disguised himself to frequent seedy London taverns, personally interrogated over 100 suspects, and built the criminal case that sent England’s most notorious master counterfeiter, William Chaloner, to the gallows at Tyburn in 1699.",
+      "imageWikipediaTitle": "Isaac Newton",
+      "sources": [
+        {
+          "title": "Mint Papers: Depositions of witnesses against William Chaloner",
+          "publisher": "The Newton Project",
+          "url": "https://www.newtonproject.ox.ac.uk/view/texts/normalized/MINT00067"
+        },
+        {
+          "title": "William Chaloner",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/William_Chaloner"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/William_Chaloner",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How text messages replaced banks across Kenya",
+      "body": "In 2007, Safaricom launched M-Pesa in Kenya, enabling mobile phone users to deposit, send, and withdraw money using simple SMS codes on basic feature phones. Without visiting a traditional bank, millions could pay bills, buy groceries, and receive salaries. Within a decade, the service processed transaction volumes equal to roughly half of Kenya’s entire GDP, and an MIT study found it lifted an estimated 194,000 households out of extreme poverty.",
+      "imageWikipediaTitle": "M-Pesa",
+      "sources": [
+        {
+          "title": "Study: Mobile money lifts Kenyans out of poverty",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/2016/mobile-money-kenyans-out-poverty-1208"
+        },
+        {
+          "title": "M-Pesa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/M-Pesa"
+        }
+      ],
+      "readMoreUrl": "https://news.mit.edu/2016/mobile-money-kenyans-out-poverty-1208",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Five nations met in secret to intentionally crash the dollar",
+      "body": "In September 1985, finance chiefs from the US, Japan, West Germany, France, and Britain convened secretly at New York’s Plaza Hotel. The US dollar had surged 50% in five years, gutting American manufacturers by making exports uncompetitive. The five nations signed the Plaza Accord, agreeing to flood currency markets with coordinated interventions to weaken the dollar. Over the next two years, the US dollar plummeted roughly 40% against the yen and mark.",
+      "imageWikipediaTitle": "Plaza Accord",
+      "sources": [
+        {
+          "title": "The Plaza Accord",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/plaza-accord"
+        },
+        {
+          "title": "Plaza Accord",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plaza_Accord"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/plaza-accord",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which historical event's debts was the United Kingdom still paying interest on until 2015?",
+      "options": [
+        "The South Sea Bubble of 1720",
+        "The American Revolutionary War",
+        "The Norman Conquest of 1066",
+        "The Great Plague of 1665"
+      ],
+      "correctIndex": 0,
+      "explanation": "Britain's perpetual 'Consols' bundled debts from several historic events, including the 1720 South Sea Bubble and the Napoleonic Wars."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did French President Charles de Gaulle send a warship to New York in the 1960s?",
+      "options": [
+        "To transport physical gold bars redeemed for US dollars",
+        "To deliver French naval aid to the United Nations",
+        "To threaten military action over import tariffs",
+        "To recover stolen art from World War II"
+      ],
+      "correctIndex": 0,
+      "explanation": "De Gaulle redeemed France's paper dollar reserves for physical gold at the fixed $35/ounce rate, using the navy to bring the bullion home."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What role did Isaac Newton hold late in life where he personally hunted down counterfeiters?",
+      "options": [
+        "Warden and Master of the Royal Mint",
+        "Chancellor of the Exchequer",
+        "Lord Chief Justice of England",
+        "Governor of the Bank of England"
+      ],
+      "correctIndex": 0,
+      "explanation": "Newton ran the Royal Mint from 1696 until his death, interrogating suspects and gathering evidence that sent counterfeiters to the gallows."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What technology powered Kenya's revolutionary M-Pesa mobile money service when it launched?",
+      "options": [
+        "Basic SMS text messaging on feature phones",
+        "Biometric facial recognition scanners",
+        "NFC contactless smartphone chips",
+        "QR codes displayed on paper cards"
+      ],
+      "correctIndex": 0,
+      "explanation": "M-Pesa allowed users to deposit, transfer, and withdraw money via simple text codes, requiring neither smartphones nor bank branches."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the primary goal of the 1985 Plaza Accord signed by five major economies?",
+      "options": [
+        "To deliberately weaken the overly strong US dollar",
+        "To establish a shared single European currency",
+        "To bail out indebted Latin American nations",
+        "To peg global currencies back to physical gold"
+      ],
+      "correctIndex": 0,
+      "explanation": "The US, Japan, West Germany, France, and the UK agreed to coordinated currency market interventions to bring down the soaring US dollar."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did the British government finally finish paying off debts dating back to the 1720 South Sea Bubble?",
+      "answer": 2015,
+      "min": 1800,
+      "max": 2030,
+      "unit": "",
+      "explanation": "Britain cleared the final £1.9 billion of undated bonds in 2015, resolving debts that had accrued interest for nearly 300 years."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Within a decade of launch, M-Pesa transactions equaled roughly what percentage of Kenya's entire GDP?",
+      "answer": 50,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "M-Pesa grew so rapidly that its annual transaction volume reached approximately half of Kenya's entire gross domestic product."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "By roughly what percentage did the US dollar drop against the Japanese yen and German mark within two years of the 1985 Plaza Accord?",
+      "answer": 40,
+      "min": 5,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Coordinated central bank market interventions caused the US dollar to tumble roughly 40% over the following two years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Before 1971, foreign governments could legally exchange US paper dollars directly for physical gold from the US Treasury.",
+      "answer": true,
+      "explanation": "Under the Bretton Woods system, the US guaranteed foreign central banks could convert dollars to gold at $35 an ounce until Nixon ended it in 1971."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Isaac Newton spent his entire adult life strictly focused on mathematics and physics.",
+      "answer": false,
+      "explanation": "Newton spent his final three decades running the Royal Mint in London, actively acting as a prosecutor and detective against counterfeiters."
+    }
+  ]
+}

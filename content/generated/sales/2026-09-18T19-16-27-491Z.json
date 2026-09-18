@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-18T19:16:27.491Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why pitching future potential beats highlighting proven achievements",
+      "body": "When evaluating candidates or proposals, people routinely favor future promise over past success. Research led by Zakary Tushman and Michael Norton found that evaluators gave higher ratings and committed more compensation to individuals praised for potential compared to those with identical, already-proven track records. Uncertainty sparks greater cognitive engagement, driving buyers to imagine possibilities rather than treat the narrative as a closed, finished chapter.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "The Preference for Potential",
+          "publisher": "Harvard Business School",
+          "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=42296"
+        },
+        {
+          "title": "The Preference for Potential",
+          "publisher": "Stanford Graduate School of Business",
+          "url": "https://www.gsb.stanford.edu/faculty-research/publications/preference-potential"
+        }
+      ],
+      "readMoreUrl": "https://www.hbs.edu/faculty/Pages/item.aspx?num=42296",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pitching multiple smaller proposals together boosts total acceptance",
+      "body": "Presenting several independent decisions in one encounter leads to far better outcomes than spacing them out. Research published in Management Science shows that when choices are evaluated in a bundle—known as choice bracketing—decision-makers accept more overall risk and approve more initiatives. Evaluating single proposals in isolation triggers narrow framing and heightened caution, while viewing decisions together encourages balanced, portfolio-level thinking that welcomes broader commitments.",
+      "imageWikipediaTitle": "Decision-making",
+      "sources": [
+        {
+          "title": "Choice Bracketing",
+          "publisher": "National Bureau of Economic Research",
+          "url": "https://www.nber.org/papers/w7064"
+        },
+        {
+          "title": "Choice bracketing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Choice_bracketing"
+        }
+      ],
+      "readMoreUrl": "https://www.nber.org/papers/w7064",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why round numbers trigger a fast 'gut' decision from buyers",
+      "body": "The way you price an item directly shifts whether buyers evaluate it with feeling or logic. Experiments published in the Journal of Consumer Research found that round prices like $100 feel fluent and drive hedonic, emotion-driven purchases. Non-round prices like $98.76 disrupt intuition and force analytical calculation. If you are pitching a recreational or luxury offering, round pricing accelerates agreement by matching how buyers make emotional decisions.",
+      "imageWikipediaTitle": "Price tag",
+      "sources": [
+        {
+          "title": "A Flat $100 or $98.76? How Round Pricing Shapes Consumer Decisions",
+          "publisher": "The University of Chicago Booth School of Business",
+          "url": "https://www.chicagobooth.edu/review/how-round-pricing-shapes-consumer-decisions"
+        },
+        {
+          "title": "Psychological pricing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_pricing"
+        }
+      ],
+      "readMoreUrl": "https://www.chicagobooth.edu/review/how-round-pricing-shapes-consumer-decisions",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sitting side-by-side turns a tense negotiation into a shared problem",
+      "body": "Where you sit in a meeting alters how your counterpart views your proposals. Studies in environmental psychology show that sitting across a table instinctively creates an adversarial, competitive mindset. Moving to sit adjacent or at a 90-degree angle from your client subtly frames the discussion as collaborative problem-solving. It directs both parties' attention forward toward common materials or a shared screen rather than directly at each other.",
+      "imageWikipediaTitle": "Proxemics",
+      "sources": [
+        {
+          "title": "Spatial behavior: A review of theories and research",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3656338/"
+        },
+        {
+          "title": "Proxemics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Proxemics"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Proxemics",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a simple warm drink makes clients perceive you as generous",
+      "body": "Physical sensations leak directly into interpersonal judgments. In a classic experiment led by Lawrence Williams and John Bargh, participants who briefly held a cup of hot coffee before an interaction judged a target person as significantly warmer, more generous, and more caring than those who held iced coffee. Physical warmth activates the insula, priming feelings of social trust before you even utter your opening sales pitch.",
+      "imageWikipediaTitle": "Embodied cognition",
+      "sources": [
+        {
+          "title": "Experiencing physical warmth promotes interpersonal warmth",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18948540/"
+        },
+        {
+          "title": "Embodied cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Embodied_cognition"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/18948540/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to research on the 'preference for potential,' why do evaluators favor candidates with potential over proven success?",
+      "options": [
+        "Uncertainty prompts greater mental engagement and imagination",
+        "Past achievements are generally assumed to be fabricated",
+        "Hiring proven candidates is significantly more expensive",
+        "Evaluators prefer to take reckless financial gambles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Potential introduces an intriguing uncertainty that encourages people to actively imagine future greatness, whereas proven results feel like a closed story."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary psychological benefit of presenting several proposals together rather than individually?",
+      "options": [
+        "It forces decision-makers into choice overload so they accept everything",
+        "It broadens evaluation framing, leading to greater total risk tolerance and acceptance",
+        "It hides weaker initiatives among stronger ones",
+        "It speeds up meetings by skipping detailed discussions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Broad choice bracketing prompts buyers to view decisions as a portfolio, reducing narrow loss-aversion on each single option."
+    },
+    {
+      "cardIndex": 2,
+      "question": "When is a round price tag (like $100 instead of $98.76) most effective?",
+      "options": [
+        "When selling utilitarian, cost-saving tools",
+        "When the buyer is auditing line-item expenses",
+        "When appealing to hedonic, emotion-driven purchases",
+        "When competing in high-volume commodity trading"
+      ],
+      "correctIndex": 2,
+      "explanation": "Round prices feel fluent and intuitive, complementing emotional or hedonic purchases, whereas non-round numbers trigger analytical scrutiny."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In negotiation seating arrangements, how does moving from opposite sides to an adjacent position impact perceptions?",
+      "options": [
+        "It conveys submissiveness and reduces authority",
+        "It shifts the dynamic from adversarial contest to collaborative problem-solving",
+        "It triggers social discomfort and breaks rapport",
+        "It makes physical gestures invisible"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sitting side-by-side or at right angles redirects attention toward shared materials and cues cooperation rather than opposition."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did holding a warm cup of coffee influence participants' view of a stranger in Williams and Bargh's study?",
+      "options": [
+        "They viewed the person as more physically energetic",
+        "They viewed the person as significantly warmer and more generous",
+        "They became suspicious of the experimenter's motives",
+        "They perceived the person as more technically skilled"
+      ],
+      "correctIndex": 1,
+      "explanation": "Physical warmth triggers insula activity associated with interpersonal warmth, making people evaluate others as more generous and caring."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Highlighting a flawless, proven track record is always more persuasive than emphasizing future potential.",
+      "answer": false,
+      "explanation": "Research shows people often rate future promise higher than identical past achievements because potential sparks active imaginative engagement."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Non-round prices like $99.99 always outperform round numbers across all product categories.",
+      "answer": false,
+      "explanation": "While non-round prices work well for budget utilitarian goods, round prices outperform for emotional, recreational, or luxury purchases."
+    }
+  ]
+}
