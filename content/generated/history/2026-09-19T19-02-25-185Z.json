@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.185Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Olympic handshake myth that covered up a White House snub",
+      "body": "Popular lore claims Adolf Hitler stormed out of the 1936 Berlin Olympics rather than shake track star Jesse Owens’s hand. In truth, Hitler avoided greeting all medalists after officials insisted he congratulate everyone or no one. Owens recalled Hitler gave him a friendly wave from his box. The real snub came back home: President Franklin D. Roosevelt never sent congratulations or invited the four-time gold medalist to the White House.",
+      "imageWikipediaTitle": "Jesse Owens",
+      "sources": [
+        {
+          "title": "Jesse Owens",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Jesse-Owens"
+        },
+        {
+          "title": "Today in History - August 3",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/august-03/"
+        },
+        {
+          "title": "Jesse Owens",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jesse_Owens"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Jesse-Owens",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 19th-century war wiped out over half of Paraguay’s entire population",
+      "body": "Between 1864 and 1870, Paraguay fought the War of the Triple Alliance against Brazil, Argentina, and Uruguay simultaneously. Driven by dictator Francisco Solano López, Paraguay refused to surrender despite overwhelming odds. By the war’s end, battlefield casualties, starvation, and cholera had wiped out roughly 60 percent of the nation’s entire population—including an estimated 70 to 90 percent of its adult men—leaving behind one of history's most severe demographic catastrophes.",
+      "imageWikipediaTitle": "Paraguayan War",
+      "sources": [
+        {
+          "title": "War of the Triple Alliance",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/event/War-of-the-Triple-Alliance"
+        },
+        {
+          "title": "Paraguayan War",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguayan_War"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/event/War-of-the-Triple-Alliance",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Irish veterans invaded Canada to win Ireland’s freedom from Britain",
+      "body": "Between 1866 and 1871, thousands of Irish-American Civil War veterans in the Fenian Brotherhood launched armed raids across the border into British Canada. Their bold strategy was to seize Canadian territory and hold it hostage, bargaining for Ireland’s freedom from the British Empire. Though the military invasions failed, the sudden external threat terrified the fragmented provinces of British North America, directly accelerating the creation of a unified Canadian Confederation in 1867.",
+      "imageWikipediaTitle": "Fenian raids",
+      "sources": [
+        {
+          "title": "Fenian Raids",
+          "publisher": "The Canadian Encyclopedia",
+          "url": "https://www.thecanadianencyclopedia.ca/en/article/fenian-raids"
+        },
+        {
+          "title": "Fenian raids",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fenian_raids"
+        }
+      ],
+      "readMoreUrl": "https://www.thecanadianencyclopedia.ca/en/article/fenian-raids",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Alexander the Great named a conquered city after his favorite warhorse",
+      "body": "Alexander the Great founded or renamed dozens of cities across his conquered territories, routinely naming them Alexandria in his own honor. But after his prized warhorse Bucephalus died in 326 BCE following the brutal Battle of the Hydaspes, Alexander broke tradition. Overcome with grief for the stallion that had carried him into countless battles, he founded Alexandria Bucephalous in modern-day Pakistan, dedicating an entire imperial city to his four-legged companion.",
+      "imageWikipediaTitle": "Bucephalus",
+      "sources": [
+        {
+          "title": "Bucephalus",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Bucephalus/"
+        },
+        {
+          "title": "Bucephala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bucephala"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/Bucephalus/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History’s first successful submarine attack also killed its own crew",
+      "body": "On February 17, 1864, the Confederate submarine CSS H. L. Hunley became the first combat sub to sink an enemy warship by ramming a torpedo into the USS Housatonic. Immediately after the detonation, the submarine mysteriously disappeared. When archaeologists excavated the intact hull in 2000, they solved the riddle: the sub was so close to its explosive charge that the underwater concussion wave killed all eight crewmen instantly at their stations.",
+      "imageWikipediaTitle": "H. L. Hunley (submarine)",
+      "sources": [
+        {
+          "title": "H.L. Hunley",
+          "publisher": "Naval History and Heritage Command",
+          "url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/css-hunley.html"
+        },
+        {
+          "title": "H. L. Hunley (submarine)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/H._L._Hunley_(submarine)"
+        }
+      ],
+      "readMoreUrl": "https://www.history.navy.mil/browse-by-topic/ships/submarines/css-hunley.html",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Adolf Hitler not shake Jesse Owens's hand at the 1936 Berlin Olympics?",
+      "options": [
+        "Hitler stormed out of the stadium in anger after Owens won gold",
+        "Olympic officials told Hitler to publicly congratulate every medalist or none",
+        "Owens refused to approach the German chancellor's viewing box",
+        "The German government banned all contact between officials and foreign athletes"
+      ],
+      "correctIndex": 1,
+      "explanation": "After congratulating only German winners on day one, Olympic officials told Hitler to greet everyone or no one, so he stopped all on-field greetings."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which nation lost an estimated 60 percent of its total population in the War of the Triple Alliance?",
+      "options": [
+        "Uruguay",
+        "Paraguay",
+        "Bolivia",
+        "Argentina"
+      ],
+      "correctIndex": 1,
+      "explanation": "Paraguay suffered catastrophic losses fighting Brazil, Argentina, and Uruguay simultaneously from 1864 to 1870, losing up to 90% of its adult men."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the primary goal of the Fenian Raids into Canada between 1866 and 1871?",
+      "options": [
+        "To annex Canadian territory for the United States after the Civil War",
+        "To capture Canadian land to trade for Ireland's independence from Britain",
+        "To secure Canadian timber and gold to finance an Irish uprising",
+        "To assist French-speaking rebels fighting for an independent Quebec"
+      ],
+      "correctIndex": 1,
+      "explanation": "Irish-American veterans invaded British Canada hoping to capture territory and leverage it to demand Ireland's independence from the British Empire."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which unusual subject did Alexander the Great name a newly founded city after in 326 BCE?",
+      "options": [
+        "His beloved warhorse, Bucephalus",
+        "His childhood tutor, Aristotle",
+        "His personal physician, Philip",
+        "His mother, Queen Olympias"
+      ],
+      "correctIndex": 0,
+      "explanation": "After Bucephalus died following the Battle of the Hydaspes, Alexander founded the city of Alexandria Bucephalous in honor of his faithful steed."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did the crew of the CSS Hunley die after successfully sinking the USS Housatonic in 1864?",
+      "options": [
+        "They drowned when the hull ruptured and rapidly took on water",
+        "They suffocated after being trapped on the seabed for three days",
+        "The blast shockwave from their own torpedo killed them instantly",
+        "Enemy return fire pierced the iron hull and ignited their gunpowder"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Hunley was so close to its spar torpedo that the underwater blast wave traveled through the iron hull and fatally ruptured the crew's lungs and brain tissue."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of Paraguay's entire population died during the War of the Triple Alliance (1864–1870)?",
+      "answer": 60,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Roughly 60% of Paraguay's total population—and up to 90% of its adult men—died from combat, famine, and cholera."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Adolf Hitler famously stormed out of the 1936 Olympics to avoid shaking Jesse Owens's hand.",
+      "answer": false,
+      "explanation": "Hitler had stopped greeting all athletes after Olympic officials insisted he congratulate everyone or no one, and Owens noted Hitler actually waved to him."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Alexander the Great once founded an imperial city named after his favorite warhorse.",
+      "answer": true,
+      "explanation": "In 326 BCE, Alexander founded Alexandria Bucephalous in modern-day Pakistan in tribute to his beloved stallion, Bucephalus."
+    }
+  ]
+}

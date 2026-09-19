@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.192Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Two of Saturn's moons swap their entire orbits every four years",
+      "body": "Saturn's moons Janus and Epimetheus share nearly identical paths around their planet, separated by just 50 kilometers in altitude. Instead of colliding, the inner and faster moon catches up to the outer one every four years. Their mutual gravity gently pulls the outer moon inward while boosting the inner moon outward. The pair smoothly trade orbital tracks and drift apart, repeating their non-destructive celestial waltz indefinitely.",
+      "imageWikipediaTitle": "Janus (moon)",
+      "sources": [
+        {
+          "title": "Janus",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/saturn/moons/janus/"
+        },
+        {
+          "title": "Janus (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Janus_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/moons/janus/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The closest known exoplanet to Earth is just four light-years away",
+      "body": "In 2016, astronomers discovered Proxima Centauri b, a roughly Earth-sized world orbiting Proxima Centauri, the Sun's nearest stellar neighbor at 4.24 light-years away. It orbits within the star's habitable zone, where temperatures could allow liquid surface water. However, living there would be punishing: Proxima Centauri is an active red dwarf whose violent flares subject the planet to hundreds of times more ultraviolet and X-ray radiation than Earth receives.",
+      "imageWikipediaTitle": "Proxima Centauri b",
+      "sources": [
+        {
+          "title": "Planet Found in Habitable Zone around Nearest Star",
+          "publisher": "European Southern Observatory",
+          "url": "https://www.eso.org/public/news/eso1629/"
+        },
+        {
+          "title": "Proxima Centauri b",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Proxima_Centauri_b"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso1629/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pluto's demotion was triggered by the discovery of an icy twin",
+      "body": "In 2005, astronomers discovered Eris, a frozen world lurking in the distant Kuiper Belt. Initially thought to be larger than Pluto, Eris proved to be about 27% more massive. Faced with either crowning dozens of new planets or narrowing the criteria, the International Astronomical Union established a formal definition of a planet in 2006. Because neither world had cleared its surrounding orbital neighborhood of debris, both were classified as dwarf planets.",
+      "imageWikipediaTitle": "Eris (dwarf planet)",
+      "sources": [
+        {
+          "title": "The discovery of Eris, the largest known dwarf planet",
+          "publisher": "California Institute of Technology",
+          "url": "https://web.gps.caltech.edu/~mbrown/planetlila/"
+        },
+        {
+          "title": "Eris (dwarf planet)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eris_(dwarf_planet)"
+        }
+      ],
+      "readMoreUrl": "https://web.gps.caltech.edu/~mbrown/planetlila/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 19-year-old calculated the ultimate weight limit for dead stars",
+      "body": "In 1930, nineteen-year-old Subrahmanyan Chandrasekhar calculated a cosmic tipping point while traveling by steamship from India to England. He determined that no white dwarf star can exceed roughly 1.4 times the mass of our Sun. Beyond this limit, known as the Chandrasekhar limit, electron degeneracy pressure fails to hold off gravity, forcing the stellar corpse to collapse catastrophically into a neutron star or black hole. The discovery earned him a Nobel Prize.",
+      "imageWikipediaTitle": "Subrahmanyan Chandrasekhar",
+      "sources": [
+        {
+          "title": "Subrahmanyan Chandrasekhar – Facts",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/physics/1983/chandrasekhar/facts/"
+        },
+        {
+          "title": "Chandrasekhar limit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chandrasekhar_limit"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/physics/1983/chandrasekhar/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Humanity's first soft landing on a comet bounced back into space",
+      "body": "In November 2014, the European Space Agency's Rosetta probe released the Philae lander toward comet 67P/Churyumov–Gerasimenko for history's first cometary touchdown. Because the comet's gravity is microscopic, Philae relied on thrusters and ice harpoons to secure its footing. Both failed upon impact, sending the lander rebounding roughly a kilometer back into space. Philae drifted for nearly two hours before settling unevenly in the shadowed crevice of an icy cliff.",
+      "imageWikipediaTitle": "Philae (spacecraft)",
+      "sources": [
+        {
+          "title": "Rosetta",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta"
+        },
+        {
+          "title": "Philae (spacecraft)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philae_(spacecraft)"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do Saturn's moons Janus and Epimetheus avoid crashing despite sharing almost the exact same orbit?",
+      "options": [
+        "They orbit in opposite directions around Saturn",
+        "Their mutual gravity causes them to swap orbital tracks every four years",
+        "One moon's orbit is tilted at a right angle to the other",
+        "A strong magnetic field repels them whenever they approach"
+      ],
+      "correctIndex": 1,
+      "explanation": "As the inner moon catches up, gravitational interaction pulls the outer moon inward and pushes the inner one outward, trading places."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why might Proxima Centauri b struggle to support life despite sitting in its star's habitable zone?",
+      "options": [
+        "Its host star blasts it with extreme stellar flares and high radiation",
+        "Its surface temperature is perpetually colder than liquid nitrogen",
+        "It is a gas giant with no solid surface",
+        "It is drifting out of its star system into interstellar space"
+      ],
+      "correctIndex": 0,
+      "explanation": "Proxima Centauri is an active red dwarf that regularly emits violent flares, bathing the planet in intense UV and X-ray radiation."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which celestial body's discovery in 2005 prompted astronomers to formally redefine 'planet' and reclassify Pluto?",
+      "options": [
+        "Sedna",
+        "Eris",
+        "Makemake",
+        "Haumea"
+      ],
+      "correctIndex": 1,
+      "explanation": "The discovery of Eris, an icy body more massive than Pluto in the Kuiper Belt, led the IAU to create the dwarf planet category."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the maximum mass a white dwarf star can reach before collapsing under its own gravity?",
+      "options": [
+        "Roughly 1.4 solar masses",
+        "Roughly 3.0 solar masses",
+        "Roughly 10 solar masses",
+        "Roughly 0.5 solar masses"
+      ],
+      "correctIndex": 0,
+      "explanation": "At roughly 1.4 solar masses (the Chandrasekhar limit), electron degeneracy pressure can no longer prevent gravitational collapse."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What happened when the Philae lander first touched down on comet 67P in 2014?",
+      "options": [
+        "It immediately melted through the comet's icy surface",
+        "Its anchoring harpoons failed and it bounced back into space",
+        "It was destroyed by an erupting cometary geyser",
+        "It lost radio communication permanently upon first impact"
+      ],
+      "correctIndex": 1,
+      "explanation": "Philae's thruster and harpoons failed, causing the lander to bounce nearly a kilometer off the comet before landing again hours later."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Saturn's moons Janus and Epimetheus share the same orbit. Every how many years do they trade places?",
+      "answer": 4,
+      "min": 1,
+      "max": 30,
+      "unit": "years",
+      "explanation": "Every four years, mutual gravity causes the two moons to swap orbital altitudes without colliding."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many light-years away from our solar system is Proxima Centauri b, the nearest known exoplanet?",
+      "answer": 4.24,
+      "min": 1,
+      "max": 40,
+      "unit": "light-years",
+      "explanation": "Proxima Centauri b orbits our closest stellar neighbor, located just 4.24 light-years away."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What is the Chandrasekhar limit: the maximum mass (in solar masses) a white dwarf star can support?",
+      "answer": 1.4,
+      "min": 0.2,
+      "max": 8,
+      "unit": "solar masses",
+      "explanation": "White dwarfs cannot exceed roughly 1.4 times the mass of the Sun without collapsing into neutron stars or black holes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Two moons sharing virtually the same orbit around a planet will inevitably crash into each other.",
+      "answer": false,
+      "explanation": "Janus and Epimetheus avoid collision by exchanging momentum through gravity, safely swapping orbits every four years."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "An exoplanet located within its star's habitable zone is guaranteed to be hospitable to life.",
+      "answer": false,
+      "explanation": "Habitable zones only denote distances where liquid water could exist; violent stellar flares can still strip atmospheres and sterilize worlds."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Pluto was demoted simply because astronomers discovered it was physically shrinking over time.",
+      "answer": false,
+      "explanation": "Pluto was reclassified because the discovery of Eris proved Pluto is one of many similar icy bodies that have not cleared their orbits."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A white dwarf star can never exceed about 1.4 times the mass of our Sun.",
+      "answer": true,
+      "explanation": "Above the Chandrasekhar limit of ~1.4 solar masses, quantum electron pressure fails and the dying star collapses catastrophically."
+    }
+  ]
+}

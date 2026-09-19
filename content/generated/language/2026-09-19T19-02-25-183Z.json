@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.183Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you shouldn't confuse 'two' and 'teeth' in Thai",
+      "body": "Thai is a tonal language where pitch changes word meaning entirely. Counting to three starts with หนึ่ง (nèung, low tone), followed by สอง (sǒng, rising tone), and สาม (sǎam, rising tone). Be careful with your pitch on two: pronounce สอง (sǒng) with a flat tone instead of a rising scoop, and you might accidentally say ซอง (song), meaning an envelope, or confuse it with ฟัน (fan) meaning teeth.",
+      "imageWikipediaTitle": "Thai script",
+      "sources": [
+        {
+          "title": "Thai Alphabet and Pronunciation",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/writing/thai.htm"
+        },
+        {
+          "title": "Thai language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thai_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Thai_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why ancient voting by bean gave us 'impeachment'",
+      "body": "The word \"impeach\" sounds like removing an official, but its ancestor is far stickier. It traces back to the Latin verb impedicare, formed from in- (\"in\") and pedica (\"fetter\" or \"shackle\", from pes, foot). To impeach originally meant to entangle someone's feet or physically hobble them so they could not escape. Over centuries in Anglo-French law, hobbling a suspect physically transformed into legally impeding them through formal accusation.",
+      "imageWikipediaTitle": "Fetter",
+      "sources": [
+        {
+          "title": "Impeach",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/impeach"
+        },
+        {
+          "title": "Definition of IMPEACH",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/impeach"
+        }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/impeach",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saying 'thank you' with grace in Icelandic",
+      "body": "To say \"thank you\" in Icelandic, use Takk (tahk), or the warmer full phrase Takk fyrir (tahk fee-reer), meaning \"thanks for.\" To express deep gratitude, Icelanders say Þakka þér fyrir (thah-ka thyer fee-reer), literally \"I thank you for.\" Notice the letter Þ (thorn), an ancient Germanic rune that survived in Icelandic to make the soft \"th\" sound heard in \"think.\"",
+      "imageWikipediaTitle": "Thorn (letter)",
+      "sources": [
+        {
+          "title": "Icelandic language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Icelandic_language"
+        },
+        {
+          "title": "Thorn (letter)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thorn_(letter)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Icelandic_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a 'curfew' was originally about putting out fires",
+      "body": "Today a curfew orders people off nighttime streets, but medieval Europeans were guarding against fire, not crime. The word comes from the Old French couvre-feu, a compound of couvrir (\"to cover\") and feu (\"fire\"). In wooden medieval towns, an evening bell signaled householders to extinguish or rake ashes over open hearths to prevent rogue embers from burning the city down while residents slept.",
+      "imageWikipediaTitle": "Curfew bell",
+      "sources": [
+        {
+          "title": "Curfew",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/curfew"
+        },
+        {
+          "title": "Curfew bell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curfew_bell"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Curfew_bell",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to say 'hello' warmly in Mongolian",
+      "body": "The universal greeting in Mongolia is Сайн байна уу? (Sain baina uu? / sy-ban-OH), which literally asks: \"Are you well?\" The standard polite response is Сайн (Sain / sy-n), meaning simply \"Good\" or \"Well.\" When traveling across the vast steppe, nomadic herders greet approaching riders with this phrase, checking on their well-being before exchanging news of grazing pastures and livestock.",
+      "imageWikipediaTitle": "Mongolia",
+      "sources": [
+        {
+          "title": "Mongolian language",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/writing/mongolian.htm"
+        },
+        {
+          "title": "Mongolian language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mongolian_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mongolian_language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the Thai word for the number 'one'?",
+      "options": [
+        "หนึ่ง (nèung)",
+        "สอง (sǒng)",
+        "สาม (sǎam)",
+        "สี่ (sìi)"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thai counts 1, 2, 3 as หนึ่ง (nèung), สอง (sǒng), and สาม (sǎam)."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did the Latin root of 'impeach' literally mean?",
+      "options": [
+        "To poison someone",
+        "To fetter or bind the feet",
+        "To cast a black stone",
+        "To break a staff of office"
+      ],
+      "correctIndex": 1,
+      "explanation": "Impeach derives from Latin 'impedicare', meaning to entangle or fetter the feet (pes)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which ancient letter survives in Icelandic to represent the unvoiced 'th' sound?",
+      "options": [
+        "Þ (thorn)",
+        "ß (eszett)",
+        "Ø (slashed o)",
+        "Å (ring a)"
+      ],
+      "correctIndex": 0,
+      "explanation": "The letter Þ (thorn), inherited from Norse runes, produces the soft 'th' sound in Icelandic words like Þakka."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the medieval term 'curfew' (couvre-feu) literally command people to do?",
+      "options": [
+        "Lock their doors",
+        "Cover their fires",
+        "Extinguish street torches",
+        "Report to the town guard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Old French 'couvre-feu' combined 'couvrir' (to cover) and 'feu' (fire) to prevent nighttime town blazes."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the common Mongolian greeting 'Сайн байна уу?' literally ask?",
+      "options": [
+        "Where is your camp?",
+        "Are you well?",
+        "Do your horses run fast?",
+        "May peace be with you"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сайн байна уу? (Sain baina uu?) translates directly to 'Are you well?'"
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The word 'curfew' was originally instituted as a military lockdown to keep criminals off the streets.",
+      "answer": false,
+      "explanation": "Curfew comes from 'couvre-feu' (cover fire); its original purpose was a safety law ordering citizens to cover hearths to prevent wooden towns from burning."
+    }
+  ]
+}

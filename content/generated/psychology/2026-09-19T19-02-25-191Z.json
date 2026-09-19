@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.191Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rare genetic condition left one woman completely incapable of experiencing fear",
+      "body": "Patient S.M. has complete bilateral destruction of the amygdala due to Urbach-Wiethe disease. In landmark psychological tests, researchers exposed her to live venomous snakes, giant spiders, and a terrifying haunted house. S.M. displayed curiosity and enthusiasm, but never fear. While she cannot feel terror or identify fearful facial expressions, she experiences joy, sadness, and anger normally, proving the amygdala is specifically crucial for processing danger.",
+      "imageWikipediaTitle": "Amygdala",
+      "sources": [
+        {
+          "title": "The Human Amygdala and the Induction and Experience of Fear",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030230/"
+        },
+        {
+          "title": "S.M. (patient)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/S.M._(patient)"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3030230/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A horse that appeared to solve math problems was actually reading human eyebrows",
+      "body": "In 1904, a German horse named Clever Hans amazed crowds by tapping out solutions to arithmetic with his hoof. Skeptical psychologist Oskar Pfungst investigated in 1907 and solved the mystery: Hans could not calculate. Instead, the horse detected microscopic, involuntary tension and head tilts in human spectators as his taps approached the correct answer, stopping when they relaxed. When questioners did not know the answer, Hans failed completely.",
+      "imageWikipediaTitle": "Clever Hans",
+      "sources": [
+        {
+          "title": "Clever Hans",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Clever-Hans"
+        },
+        {
+          "title": "Clever Hans",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clever_Hans"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Clever-Hans",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1920 experiment proved that human phobias can be conditioned in just days",
+      "body": "In 1920, psychologist John B. Watson and Rosalie Rayner tested classical conditioning on a nine-month-old infant dubbed Little Albert. Initially fascinated by a tame white rat, Albert was repeatedly startled by a loud iron bar struck behind his head whenever he touched the animal. Albert quickly developed an intense phobia—not just of the rat, but generalized his terror to rabbits, dogs, furry coats, and even a Santa Claus beard.",
+      "imageWikipediaTitle": "Little Albert experiment",
+      "sources": [
+        {
+          "title": "Little Albert experiment",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Little-Albert-experiment"
+        },
+        {
+          "title": "Little Albert experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Little_Albert_experiment"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Little-Albert-experiment",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stare at a bright green square, and your brain will hallucinate red on a blank wall",
+      "body": "In the late 19th century, physiologist Ewald Hering discovered that the human visual system processes color through antagonistic pairs: red versus green, blue versus yellow, and black versus white. When you stare steadily at green, your green-sensitive photoreceptors and ganglion cells adapt and become fatigued. Shift your gaze to a neutral white surface, and the unfatigued red channel fires stronger by comparison, creating a vivid, lingering red afterimage out of thin air.",
+      "imageWikipediaTitle": "Afterimage",
+      "sources": [
+        {
+          "title": "Opponent-process theory",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/science/opponent-process-theory"
+        },
+        {
+          "title": "Opponent-process theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Opponent-process_theory"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/opponent-process-theory",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An optical illusion that fools modern minds fails on people from non-industrial societies",
+      "body": "For over a century, psychologists believed the Müller-Lyer illusion—where inward-pointing arrows make an identical line appear longer—revealed universal brain wiring. But cross-cultural testing proved otherwise: members of rural foraging societies, such as the San of the Kalahari, see both lines as equal. Growing up in a 'carpentered world' of rectangular rooms and sharp right angles trains the visual cortex to interpret angles as 3D depth cues, warping how urban minds perceive flat lines.",
+      "imageWikipediaTitle": "Müller-Lyer illusion",
+      "sources": [
+        {
+          "title": "Müller-Lyer illusion",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/science/Muller-Lyer-illusion"
+        },
+        {
+          "title": "Müller-Lyer illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/M%C3%BCller-Lyer_illusion"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/Muller-Lyer-illusion",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which brain structure was bilaterally damaged in Patient S.M., leaving her unable to experience fear?",
+      "options": [
+        "Hippocampus",
+        "Amygdala",
+        "Cerebellum",
+        "Prefrontal cortex"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patient S.M. suffered complete damage to both amygdalae from Urbach-Wiethe disease, abolishing her ability to feel fear while leaving other emotions intact."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did the horse Clever Hans actually determine when to stop tapping his hoof?",
+      "options": [
+        "By hearing high-frequency whistles",
+        "By sensing subtle, involuntary body language from human onlookers",
+        "By memorizing simple arithmetic tables",
+        "By feeling vibrations through the wooden floorboards"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hans picked up on minute postural changes and facial tension in the spectators, stopping whenever people relaxed upon reaching the right number."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In the Little Albert experiment, what psychological phenomenon caused Albert to fear dogs and furry coats after being conditioned with a white rat?",
+      "options": [
+        "Stimulus generalization",
+        "Operant extinction",
+        "Spontaneous recovery",
+        "Latent learning"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stimulus generalization occurs when a conditioned response transfers to stimuli that share physical similarities with the original conditioned stimulus."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to opponent-process theory, staring at a green image and then looking at a white wall produces an afterimage of which color?",
+      "options": [
+        "Blue",
+        "Yellow",
+        "Red",
+        "Black"
+      ],
+      "correctIndex": 2,
+      "explanation": "The visual system processes red and green as an antagonistic pair; fatiguing green-sensitive neural pathways leaves the red channel dominant."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are people from industrialized societies more susceptible to the Müller-Lyer illusion than members of rural foraging cultures?",
+      "options": [
+        "Industrial diets alter optic nerve development",
+        "Years of reading left-to-right distort length estimation",
+        "Growing up in 'carpentered' environments trains depth perception around 90-degree corners",
+        "Prolonged screen exposure reduces peripheral visual acuity"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 'carpentered world hypothesis' suggests exposure to rectangular architecture conditions the brain to treat converging angles as depth and distance cues."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A person can lose the ability to feel fear entirely while keeping other emotions like happiness and sadness intact.",
+      "answer": true,
+      "explanation": "Bilateral destruction of the amygdala, as seen in Patient S.M., selectively abolishes fear while preserving normal experiences of joy, surprise, and sadness."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Clever Hans's owner was a con artist who deliberately trained the horse to read secret visual codes.",
+      "answer": false,
+      "explanation": "Wilhelm von Osten made no money from exhibitions and truly believed Hans was doing arithmetic; Hans was reading involuntary micro-movements the owner did not know he made."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Müller-Lyer optical illusion fools every sighted human brain in the exact same way.",
+      "answer": false,
+      "explanation": "Cross-cultural studies revealed that people raised in non-carpentered societies without rectangular architecture see the lines as identical in length."
+    }
+  ]
+}

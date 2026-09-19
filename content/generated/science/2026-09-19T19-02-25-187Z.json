@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.187Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A teaspoon of neutron star matter would weigh billions of tons",
+      "body": "When a massive star collapses, gravitational pressure crushes its electrons and protons together into neutrons, eliminating nearly all atomic empty space. The resulting matter is so dense that a single cubic centimeter weighs about 400 million metric tons. If you scooped up a standard teaspoon of neutron star crust and core material on Earth, its gravitational mass would equal roughly a billion tons—equivalent to an entire mountain.",
+      "imageWikipediaTitle": "Neutron star",
+      "sources": [
+        {
+          "title": "Neutron Stars",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/universe/stars/neutron-stars/"
+        },
+        {
+          "title": "Neutron star",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neutron_star"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/universe/stars/neutron-stars/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Koalas have human-like fingerprints that can baffle crime scene detectives",
+      "body": "Koalas and humans last shared a common ancestor roughly 100 million years ago, yet koalas independently evolved unique dermatoglyphs—fingerprints. Their friction ridges feature arches, loops, and whorls virtually identical to human patterns, even under scanning electron microscopes. This remarkable convergent evolution evolved to enhance tactile sensitivity and physical grip while climbing smooth eucalyptus branches and stripping leaves high in forest canopies.",
+      "imageWikipediaTitle": "Koala",
+      "sources": [
+        {
+          "title": "Koala fingerprints",
+          "publisher": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/mammals/koala-fingerprints/"
+        },
+        {
+          "title": "Koala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Koala"
+        }
+      ],
+      "readMoreUrl": "https://australian.museum/learn/animals/mammals/koala-fingerprints/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Water exists in at least twenty different crystal forms of ice",
+      "body": "While standard ice in your freezer is known as ice Ih, water molecules freeze into remarkably diverse configurations under different temperatures and pressures. Scientists have experimentally confirmed at least twenty distinct crystalline forms of ice, numbered up to ice XX. At extreme planetary pressures, water forms superionic ice—where oxygen atoms freeze into a rigid cubic lattice while hydrogen ions freely flow through them like a hot electrical conductor.",
+      "imageWikipediaTitle": "Ice",
+      "sources": [
+        {
+          "title": "Exotic ice reveals its secrets",
+          "publisher": "Lawrence Livermore National Laboratory",
+          "url": "https://www.llnl.gov/article/45586/exotic-ice-reveals-its-secrets"
+        },
+        {
+          "title": "Ice",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ice"
+        }
+      ],
+      "readMoreUrl": "https://www.llnl.gov/article/45586/exotic-ice-reveals-its-secrets",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pure gold can be dissolved by a freshly prepared mixture of two common acids",
+      "body": "Gold is famously noble and unreactive, resisting attack from almost all pure concentrated acids. However, mixing concentrated nitric acid and hydrochloric acid in a 1:3 volume ratio creates aqua regia. Nitric acid oxidizes minute quantities of gold into ions, while hydrochloric acid supplies chloride ions that bind them into soluble chlorauric acid complexes, shifting equilibrium and enabling the liquid mixture to dissolve pure 24-karat gold completely.",
+      "imageWikipediaTitle": "Aqua regia",
+      "sources": [
+        {
+          "title": "Aqua regia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aqua_regia"
+        },
+        {
+          "title": "Gold",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://webbook.nist.gov/chemistry/name-ser/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Aqua_regia",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blue whale produces vocalizations that can travel hundreds of miles underwater",
+      "body": "Blue whales produce low-frequency pulses and groans below 20 hertz, deep within the infrasound range. Because sound waves travel five times faster in seawater than through air and attenuate far less at low frequencies, these booming calls register over 180 decibels. In deep ocean sound channels, where water temperature and pressure focus sound waves, their vocalizations can travel across hundreds and sometimes thousands of kilometers without dissipating.",
+      "imageWikipediaTitle": "Blue whale",
+      "sources": [
+        {
+          "title": "Acoustic Ecology of Blue and Fin Whales",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/feature-story/acoustic-ecology-blue-and-fin-whales"
+        },
+        {
+          "title": "Blue whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_whale"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/feature-story/acoustic-ecology-blue-and-fin-whales",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why is neutron star material so dense that a teaspoon weighs hundreds of millions of tons?",
+      "options": [
+        "Electrons and protons are crushed together, eliminating atomic empty space",
+        "It is composed entirely of super-compressed pure lead and uranium",
+        "The star's high electric charge packs atoms tighter than normal",
+        "Molecules inside the core shrink in diameter by half"
+      ],
+      "correctIndex": 0,
+      "explanation": "Intense gravitational collapse forces protons and electrons together into neutrons, stripping away the vast empty space usually found between atomic nuclei."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which non-primate mammal independently evolved friction ridges virtually identical to human fingerprints?",
+      "options": [
+        "Koala",
+        "Platypus",
+        "Sea otter",
+        "Raccoon"
+      ],
+      "correctIndex": 0,
+      "explanation": "Koalas independently evolved epidermal friction ridges (fingerprints) to help them grip smooth eucalyptus trees."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is superionic ice?",
+      "options": [
+        "A form of ice where oxygen forms a solid lattice while hydrogen ions flow freely",
+        "Ice that forms only in the total absence of magnetic fields",
+        "Frozen heavy water that floats upside down in regular liquid water",
+        "A crystal lattice composed entirely of charged helium ions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under extreme heat and pressure, oxygen atoms freeze into a rigid lattice while hydrogen ions migrate freely through it, conducting electricity."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What combination of acids creates aqua regia, capable of dissolving noble gold?",
+      "options": [
+        "Nitric acid and hydrochloric acid",
+        "Sulfuric acid and acetic acid",
+        "Hydrofluoric acid and citric acid",
+        "Phosphoric acid and carbonic acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aqua regia is a 1:3 mixture of concentrated nitric acid and hydrochloric acid, which synergize to dissolve elemental gold."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do blue whale vocalizations travel across hundreds of miles of ocean?",
+      "options": [
+        "Low-frequency infrasound loses little energy and travels efficiently through water",
+        "Whales reflect high-frequency ultrasound off the ocean floor",
+        "Sound waves convert into electrical currents across salt ions",
+        "Whales align their calls with surface tidal currents"
+      ],
+      "correctIndex": 0,
+      "explanation": "Low-frequency sound waves suffer very little attenuation in water and can travel vast distances along deep ocean acoustic channels."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many distinct crystalline forms of water ice have scientists experimentally confirmed to date?",
+      "answer": 20,
+      "min": 1,
+      "max": 60,
+      "unit": "forms",
+      "explanation": "Scientists have experimentally identified at least 20 different crystalline structures of solid ice under various pressures and temperatures."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Only primates possess unique individualized fingerprints.",
+      "answer": false,
+      "explanation": "Koalas independently evolved dermatoglyphic fingerprints with loops, whorls, and ridges that are indistinguishable from human prints under microscopic review."
+    }
+  ]
+}

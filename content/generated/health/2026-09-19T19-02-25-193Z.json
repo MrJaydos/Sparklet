@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.193Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "99 percent of your body's calcium isn't in your blood—it's locked in your bones",
+      "body": "Calcium is vital for every heartbeat, muscle contraction, and nerve impulse. Yet your bloodstream holds only about one percent of your body's supply. The other 99 percent is banked inside your bones and teeth as a rigid mineral lattice. When your blood calcium drops even marginally, your parathyroid glands signal bone tissue to break down and release stored calcium, preserving heart and nerve function at the expense of bone density.",
+      "imageWikipediaTitle": "Human skeleton",
+      "sources": [
+        {
+          "title": "Calcium: Fact Sheet for Health Professionals",
+          "publisher": "National Institutes of Health",
+          "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+        },
+        {
+          "title": "Calcium in biology",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calcium_in_biology"
+        }
+      ],
+      "readMoreUrl": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your thyroid is the only organ in your body that absorbs and uses iodine",
+      "body": "Every cell in your body relies on thyroid hormones to regulate metabolic speed, heart rate, and temperature. To manufacture these hormones, your thyroid requires iodine. Because no other organ needs iodine in significant quantities, the thyroid actively absorbs nearly all dietary iodine circulating in your bloodstream. Specialized cellular pumps pull iodine atoms against a steep concentration gradient, trapping them at levels dozens of times higher than in blood plasma.",
+      "imageWikipediaTitle": "Thyroid",
+      "sources": [
+        {
+          "title": "Iodine: Fact Sheet for Health Professionals",
+          "publisher": "National Institutes of Health",
+          "url": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/"
+        },
+        {
+          "title": "Thyroid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thyroid"
+        }
+      ],
+      "readMoreUrl": "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your sex hormones are manufactured directly out of cholesterol",
+      "body": "Cholesterol is often discussed solely as a cardiovascular threat, but without it, your body could not synthesize a single steroid hormone. In your adrenal glands and reproductive organs, specialized enzymes convert cholesterol into pregnenolone, the biochemical precursor to testosterone, estrogen, progesterone, and cortisol. When dietary fat or cholesterol drops too severely, your body can struggle to produce adequate sex hormones, impacting reproductive health, mood regulation, and bone density.",
+      "imageWikipediaTitle": "Steroid hormone",
+      "sources": [
+        {
+          "title": "Cholesterol",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/cholesterol.html"
+        },
+        {
+          "title": "Steroid hormone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Steroid_hormone"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/cholesterol.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles rely on a 10-second turbo fuel for explosive power",
+      "body": "When you break into an all-out sprint or lift a maximal weight, your muscle fibers burn through their resting ATP within two to three seconds. Oxygen cannot reach mitochondria fast enough to keep up. To bridge the gap, muscle cells tap phosphocreatine, a specialized high-energy molecule that recharges depleted ATP on contact without needing oxygen or breaking down sugars. However, this immediate energy reserve exhausts completely after roughly eight to ten seconds.",
+      "imageWikipediaTitle": "Phosphocreatine",
+      "sources": [
+        {
+          "title": "Creatine",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/druginfo/natural/873.html"
+        },
+        {
+          "title": "Phosphocreatine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phosphocreatine"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Phosphocreatine",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your pancreas produces digestive enzymes in an inactive state so it won't digest itself",
+      "body": "The pancreas produces powerful digestive enzymes capable of breaking down proteins, fats, and carbohydrates in seconds. To prevent these enzymes from destroying pancreatic tissue from the inside out, the organ synthesizes them as inactive precursors called zymogens. The protein-cleaving enzyme trypsin, for example, is secreted as harmless trypsinogen. It only activates once it safely reaches the small intestine, where a specialized gut enzyme clips its molecular safety latch.",
+      "imageWikipediaTitle": "Pancreas",
+      "sources": [
+        {
+          "title": "Pancreatitis",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/000221.htm"
+        },
+        {
+          "title": "Zymogen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zymogen"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Zymogen",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where is approximately 99 percent of the human body's calcium stored?",
+      "options": [
+        "In skeletal muscle tissue",
+        "In the bloodstream and plasma",
+        "In the bones and teeth",
+        "In the liver and kidneys"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bones and teeth hold 99% of total body calcium, acting as a mineral reservoir to keep blood calcium levels tightly regulated."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does the thyroid gland actively pull iodine from your bloodstream?",
+      "options": [
+        "To neutralize acidic metabolic waste products",
+        "To manufacture metabolism-regulating thyroid hormones",
+        "To protect the vocal cords from inflammation",
+        "To trigger the release of insulin from the pancreas"
+      ],
+      "correctIndex": 1,
+      "explanation": "The thyroid uses iodine as an indispensable building block to synthesize the metabolic hormones thyroxine (T4) and triiodothyronine (T3)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What essential molecule serves as the starting building block for steroid hormones like testosterone and estrogen?",
+      "options": [
+        "Dietary fiber",
+        "Cholesterol",
+        "Hemoglobin",
+        "Glycogen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cholesterol is the biochemical precursor that the adrenal glands and gonads convert into all steroid hormones, including sex hormones and cortisol."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do muscle phosphocreatine stores deplete so quickly during heavy sprinting or lifting?",
+      "options": [
+        "Phosphocreatine is rapidly destroyed by lactic acid",
+        "It donates phosphate to instantly rebuild ATP without oxygen",
+        "The liver stops supplying creatine during exercise",
+        "Muscles convert phosphocreatine into body fat to preserve energy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Phosphocreatine transfers a phosphate group to ADP to reconstitute ATP instantly, but muscles hold only an 8-to-10-second reserve."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the pancreas protect itself from being dissolved by its own protein-digesting enzymes?",
+      "options": [
+        "It maintains an intensely acidic pH that neutralizes all enzymes",
+        "It secretes enzymes as inactive precursors that activate only in the intestine",
+        "It coats its internal lining with a dense layer of keratin",
+        "It cools enzymes to near-freezing temperatures until they are released"
+      ],
+      "correctIndex": 1,
+      "explanation": "Digestive proteases are produced as inactive zymogens; they only become active enzymes after reaching the intestine to avoid self-digestion."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of the human body's total calcium is stored in the bones and teeth?",
+      "answer": 99,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Only about 1% circulates in blood and soft tissues to power muscle contractions and nerve signals; the other 99% is banked in your skeleton."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many seconds of all-out, explosive muscle exertion can your phosphocreatine stores power before running dry?",
+      "answer": 10,
+      "min": 2,
+      "max": 60,
+      "unit": "seconds",
+      "explanation": "Phosphocreatine recharges ATP almost instantly without oxygen, but muscle stores deplete after roughly 8 to 10 seconds of max exertion."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Every major organ in your body uses iodine directly to function.",
+      "answer": false,
+      "explanation": "The thyroid gland is the only organ in the human body that absorbs and uses significant amounts of iodine, using it to build metabolic hormones."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Cholesterol serves no beneficial biological purpose in the human body.",
+      "answer": false,
+      "explanation": "Cholesterol is vital for life; it forms cell membranes and serves as the essential raw material for all steroid hormones, vitamin D, and bile."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Pancreatic digestive enzymes are fully active and potent from the moment they are made.",
+      "answer": false,
+      "explanation": "The pancreas manufactures proteases as inactive precursors called zymogens; if they activated inside the pancreas, they would digest the organ itself."
+    }
+  ]
+}

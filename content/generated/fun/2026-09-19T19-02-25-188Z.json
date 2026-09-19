@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.188Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Flamingos are born gray and turn pink entirely from their diet",
+      "body": "Newly hatched flamingos are covered in fluffy gray down. Their iconic pink plumage comes entirely from carotenoid pigments found in the algae, larvae, and brine shrimp they eat. Specialized liver enzymes break down these compounds into pink and reddish pigments that deposit into growing feathers and skin. Without dietary carotenoids, a flamingo's plumage will not renew its color, and captive birds in zoos gradually fade to a dull, ghostly white.",
+      "imageWikipediaTitle": "Greater flamingo",
+      "sources": [
+        {
+          "title": "Greater flamingo",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/greater-flamingo"
+        },
+        {
+          "title": "Flamingo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flamingo"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/greater-flamingo",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Scientists glued stilts to ants to prove they count their steps",
+      "body": "To navigate flat desert dunes without visible landmarks, the Sahara desert ant relies on a built-in step counter. In a landmark 2006 experiment, researchers glued tiny pig bristles to the legs of some ants to lengthen their stride and trimmed the legs of others. The ants on stilts systematically overshot their nest entrance, while those with shortened legs stopped short, proving that desert ants calculate travel distance by tallying their footsteps.",
+      "imageWikipediaTitle": "Cataglyphis fortis",
+      "sources": [
+        {
+          "title": "The ant odometer: stepping on stilts and stumps",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16809534/"
+        },
+        {
+          "title": "Cataglyphis fortis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cataglyphis_fortis"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/16809534/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Deoxygenated blood is never blue—it only looks that way through skin",
+      "body": "Diagrams in school textbooks often depict deoxygenated blood as blue to distinguish it from bright red arterial blood, fueling a persistent myth. In reality, human venous blood is always a deep, dark red. Veins only appear blue or greenish through the skin because bodily tissue and subcutaneous fat absorb longer red wavelengths of light while scattering shorter blue wavelengths back to the surface. The blood flowing inside is red every second of your life.",
+      "imageWikipediaTitle": "Venous blood",
+      "sources": [
+        {
+          "title": "Why does blood appear blue in our veins if it is actually red?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/biology-and-human-anatomy/item/why-does-blood-appear-blue-in-our-veins-if-it-is-actually-red/"
+        },
+        {
+          "title": "Venous blood",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venous_blood"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/biology-and-human-anatomy/item/why-does-blood-appear-blue-in-our-veins-if-it-is-actually-red/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The common phrase \"blind as a bat\" is completely false",
+      "body": "Despite the popular idiom, not a single one of the world's 1,400 bat species is blind. While insect-hunting microbats rely heavily on echolocation to navigate pitch darkness and intercept bugs, their eyes remain fully functional for long-range navigation. Furthermore, many larger fruit bats do not use echolocation at all; instead, they rely on keen vision adapted for low light, outperforming human eyes in the dark to spot flowers and ripe fruit.",
+      "imageWikipediaTitle": "Bat",
+      "sources": [
+        {
+          "title": "Are bats blind?",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/faqs/are-bats-blind"
+        },
+        {
+          "title": "Bat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bat"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/faqs/are-bats-blind",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Toucans use their massive bills as biological air conditioners",
+      "body": "A toco toucan's bill accounts for up to half of its total surface area, but it isn't just for grabbing fruit. Thermal imaging reveals the bill is lined with an extensive network of superficial blood vessels that act as a controllable thermal radiator. By altering blood flow to the bill's surface, a toucan can dump excess body heat into the air, shedding up to 100% of its resting heat production to keep cool in tropical climates.",
+      "imageWikipediaTitle": "Toco toucan",
+      "sources": [
+        {
+          "title": "Heat exchange from the toucan bill reveals a controllable vascular radiator",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19628866/"
+        },
+        {
+          "title": "Toco toucan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Toco_toucan"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/19628866/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do wild flamingos have vibrant pink plumage?",
+      "options": [
+        "Carotenoid pigments in the food they eat",
+        "A red oil secreted by their preen glands",
+        "Sunlight reacting with keratin in their feathers",
+        "Specialized reflective microstructures in their down"
+      ],
+      "correctIndex": 0,
+      "explanation": "Flamingos hatch gray; their pink coloration comes entirely from carotenoid pigments absorbed from their diet of algae, larvae, and brine shrimp."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did scientists demonstrate that Sahara desert ants count their steps to navigate?",
+      "options": [
+        "By attaching stilts or shortening their legs",
+        "By blindfolding worker ants with microscopic masks",
+        "By testing their orientation inside artificial magnetic fields",
+        "By washing away their pheromone trails with water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ants given pig-bristle stilts overshot their nest entrance, while ants with shortened legs stopped short, proving they count their steps."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do veins look blue through human skin if deoxygenated blood is red?",
+      "options": [
+        "Skin and fat absorb red light and scatter blue wavelengths",
+        "Deoxygenated hemoglobin absorbs all red light completely",
+        "Vein walls are naturally tinted with a blue protective pigment",
+        "Dissolved carbon dioxide shifts the color spectrum of blood cells"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blood is always red; subcutaneous fat and skin tissue absorb longer red wavelengths while scattering blue wavelengths back to the surface."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which of the following is true about bat vision?",
+      "options": [
+        "Not a single known bat species is blind",
+        "All bats are blind and rely entirely on echolocation",
+        "Only vampire bats can see in complete darkness",
+        "Microbats lose their functional vision as adults"
+      ],
+      "correctIndex": 0,
+      "explanation": "None of the world's 1,400 bat species are blind; many fruit bats do not echolocate at all and rely on keen low-light vision to find food."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What surprising physiological role does a toco toucan's massive bill play?",
+      "options": [
+        "It acts as a controllable thermal radiator to shed body heat",
+        "It stores drinking water during prolonged dry seasons",
+        "It amplifies territorial mating calls like a megaphone",
+        "It absorbs solar energy to warm internal organs at dawn"
+      ],
+      "correctIndex": 0,
+      "explanation": "By adjusting blood flow through an extensive network of superficial blood vessels in its beak, a toucan can dump up to 100% of its resting heat production."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "Roughly how many species of bats exist worldwide?",
+      "answer": 1400,
+      "min": 100,
+      "max": 4000,
+      "unit": "",
+      "explanation": "There are over 1,400 bat species worldwide, making up roughly a fifth of all mammal species—and not a single one is blind."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of its resting body heat production can a toucan shed through its bill?",
+      "answer": 100,
+      "min": 10,
+      "max": 150,
+      "unit": "%",
+      "explanation": "By regulating blood flow to its bill's large surface area, a toucan can radiate away up to 100% of its resting body heat to stay cool."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Flamingos are naturally pink from birth regardless of their diet.",
+      "answer": false,
+      "explanation": "Flamingos are born gray; they only turn pink by ingesting carotenoid pigments found in algae and crustaceans."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Desert ants calculate the distance back to their nest by counting their steps.",
+      "answer": true,
+      "explanation": "Experiments altering ant leg lengths with stilts proved desert ants navigate home using an internal step counter."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Deoxygenated blood inside human veins is blue until it touches oxygen.",
+      "answer": false,
+      "explanation": "Human blood is always red; veins only appear blue due to how human skin and subcutaneous tissue absorb and scatter light."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Most bats are completely blind and navigate solely through echolocation.",
+      "answer": false,
+      "explanation": "Every bat species has functional eyes, and many fruit bats rely entirely on keen low-light vision rather than echolocation."
+    }
+  ]
+}

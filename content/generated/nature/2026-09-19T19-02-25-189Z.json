@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.189Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fitzroy River turtles breathe underwater through their cloaca",
+      "body": "Australia's Fitzroy River turtle can stay submerged for up to three weeks at a time without coming up for air. Rather than relying solely on its lungs, it pumps water in and out of specialized sacs called bursae located in its cloaca—its posterior opening. Lined with tiny, blood-rich projections called papillae, these bursae extract dissolved oxygen straight from the river current, functioning effectively as butt gills.",
+      "imageWikipediaTitle": "Fitzroy River turtle",
+      "sources": [
+        {
+          "title": "Rheodytes leukops — Fitzroy River Turtle",
+          "publisher": "Department of Climate Change, Energy, the Environment and Water",
+          "url": "https://www.environment.gov.au/cgi-bin/sprat/public/publicspecies.pl?taxon_id=1761"
+        },
+        {
+          "title": "Fitzroy River turtle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fitzroy_River_turtle"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fitzroy_River_turtle",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tiger moths jam bat sonar with rapid-fire acoustic clicks",
+      "body": "To escape echolocating bats, Bertholdia trigona tiger moths fight sound with sound. Using ribbed organs on their thorax called tymbals, the moths can produce up to 4,500 ultrasonic clicks per second. These rapid bursts directly interfere with the bat's biosonar processing, blurring its perception of distance and causing it to miss its target by several body lengths in mid-air. It is nature's first confirmed acoustic jamming device.",
+      "imageWikipediaTitle": "Bertholdia trigona",
+      "sources": [
+        {
+          "title": "Tiger Moths Jam Bat Sonar",
+          "publisher": "National Science Foundation",
+          "url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=115206"
+        },
+        {
+          "title": "Bat-moth competition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bat-moth_competition"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bat-moth_competition",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Green sea turtles choose their sex based on sand temperature",
+      "body": "Green sea turtle eggs lack sex chromosomes entirely. Instead, the temperature of the nest determines whether hatchlings develop into males or females. In sand cooler than approximately 27.7 degrees Celsius, clutches emerge almost entirely male. When incubation temperatures exceed 31 degrees Celsius, virtually every hatchling is female. With warming global temperatures, some northern Great Barrier Reef rookeries now produce over 99 percent female hatchlings.",
+      "imageWikipediaTitle": "Green sea turtle",
+      "sources": [
+        {
+          "title": "Environmental Warning: Almost All Green Sea Turtles in Northern Great Barrier Reef Are Female",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/feature-story/environmental-warning-almost-all-green-sea-turtles-northern-great-barrier-reef-are"
+        },
+        {
+          "title": "Temperature-dependent sex determination",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Temperature-dependent_sex_determination"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/feature-story/environmental-warning-almost-all-green-sea-turtles-northern-great-barrier-reef-are",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ants use chemical triage to amputate wounded nestmates' limbs",
+      "body": "Florida carpenter ants systematically inspect and perform life-saving surgery on injured comrades. If a nestmate suffers a leg wound on the femur, ants bite off the injured limb cleanly at the joint, resulting in an astonishing 90 percent survival rate. But for wounds lower on the tibia, where blood flow is swifter and infection sets in quickly, ants skip amputation entirely and instead clean the wound with antibiotic secretions.",
+      "imageWikipediaTitle": "Camponotus floridanus",
+      "sources": [
+        {
+          "title": "Wound-dependent leg amputations improve survival in an ant",
+          "publisher": "Current Biology",
+          "url": "https://www.cell.com/current-biology/fulltext/S0960-9822(24)00805-4"
+        },
+        {
+          "title": "Camponotus floridanus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Camponotus_floridanus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Camponotus_floridanus",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cinchona bark cured malaria centuries before modern medicine",
+      "body": "Indigenous Quechua peoples in the Andes brewed tea from the cinchona tree to treat shivering and chills. In the 1600s, Jesuit missionaries realized the bark could cure malaria, leading to worldwide demand. The tree's bark contains quinine, an alkaloid that kills the malaria-causing Plasmodium parasite inside red blood cells. Quinine remained the world's chief antimalarial compound for over three centuries, saving millions of lives worldwide.",
+      "imageWikipediaTitle": "Cinchona",
+      "sources": [
+        {
+          "title": "Cinchona (quinine) tree",
+          "publisher": "Kew Royal Botanic Gardens",
+          "url": "https://www.kew.org/read-and-watch/cinchona-quinine-tree"
+        },
+        {
+          "title": "Cinchona",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cinchona"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/read-and-watch/cinchona-quinine-tree",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the Fitzroy River turtle absorb oxygen while remaining submerged for weeks?",
+      "options": [
+        "Through vascularized bursae in its cloaca",
+        "By absorbing air through permeable skin pores",
+        "Through tiny auxiliary gills behind its eyes",
+        "By storing air in a hollow carapace compartment"
+      ],
+      "correctIndex": 0,
+      "explanation": "Specialized bursae lined with papillae inside the turtle's cloaca extract dissolved oxygen directly from water."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How do Bertholdia trigona tiger moths disrupt attacking bats?",
+      "options": [
+        "They flash blinding bioluminescent pulses",
+        "They click their tymbals to jam bat echolocation",
+        "They drop into sudden freefall while releasing musk",
+        "They emit glue-like silk threads in mid-air"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rapid ultrasonic clicks emitted from thoracic tymbals confuse the bat's echo-processing systems."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What primary factor determines the sex of green sea turtle hatchlings?",
+      "options": [
+        "The salinity of the surrounding sea water",
+        "The temperature of the sand in the nest",
+        "The depth at which the mother digs the nest",
+        "The order in which eggs are laid in the clutch"
+      ],
+      "correctIndex": 1,
+      "explanation": "Green sea turtles undergo temperature-dependent sex determination: warmer nests yield females, cooler nests yield males."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Under what condition do Florida carpenter ants amputate an injured nestmate's leg?",
+      "options": [
+        "When the wound is high up on the femur",
+        "Only when the ant is a reproductive queen",
+        "When the ant suffers a fungal infection on the foot",
+        "Only after cleaning the wound fails for three days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ants selectively amputate legs wounded at the femur, where slow blood flow gives enough time to prevent fatal infection."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which medicinal compound was historically extracted from cinchona tree bark to treat malaria?",
+      "options": [
+        "Morphine",
+        "Quinine",
+        "Aspirin",
+        "Penicillin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cinchona bark contains quinine, an alkaloid that disrupts malaria parasites in the human bloodstream."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many ultrasonic clicks can a tiger moth produce per second to jam a bat's echolocation?",
+      "answer": 4500,
+      "min": 100,
+      "max": 10000,
+      "unit": "",
+      "explanation": "Bertholdia trigona produces up to 4,500 clicks per second, creating a barrage of acoustic noise that confuses attacking bats."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Like humans, sea turtles have their biological sex determined by X and Y chromosomes at conception.",
+      "answer": false,
+      "explanation": "Sea turtles lack sex chromosomes; incubation temperature in the nest determines whether hatchlings become male or female."
+    }
+  ]
+}

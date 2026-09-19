@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.188Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1995 Netscape shortcut made 'typeof null' return 'object' forever",
+      "body": "In 1995, Brendan Eich prototyped JavaScript in ten days. Values were stored with a type tag in their lowest bits; objects were tagged as 000. Because null was represented as the null pointer 0x00, its tag evaluated to zero, causing typeof null to return 'object'. When the TC39 committee later proposed fixing this bug, the fix was rejected because it would have broken millions of existing websites.",
+      "imageWikipediaTitle": "Brendan Eich",
+      "sources": [
+        {
+          "title": "typeof - JavaScript | MDN",
+          "publisher": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+        },
+        {
+          "title": "JavaScript syntax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/JavaScript_syntax"
+        }
+      ],
+      "readMoreUrl": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Python's whitespace rule was designed to eliminate phantom bugs",
+      "body": "In languages like C or Java, programmers indent their code to reflect logic, but compilers ignore whitespace and only read curly braces. When braces and indentation fall out of sync, developers waste hours hunting bugs that look correct to human eyes. Python creator Guido van Rossum eliminated this mismatch by making indentation the syntax itself, guaranteeing that what a programmer sees is always identical to what the interpreter executes.",
+      "imageWikipediaTitle": "Guido van Rossum",
+      "sources": [
+        {
+          "title": "Python Design and History FAQ",
+          "publisher": "Python Software Foundation",
+          "url": "https://docs.python.org/3/faq/design.html"
+        },
+        {
+          "title": "Python (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://docs.python.org/3/faq/design.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Computer byte order was named after an 18th-century satire about eggs",
+      "body": "In 1980, computer scientist Danny Cohen published Internet Engineering Note 137 to resolve the fierce debate over whether microprocessors should store the most significant or least significant byte first. To highlight how absurd the feud was, Cohen borrowed terms from Jonathan Swift's 1726 satire Gulliver's Travels, in which the empires of Lilliput and Blefuscu fight a bloody war over whether soft-boiled eggs should be cracked at the big end or little end.",
+      "imageWikipediaTitle": "Gulliver's Travels",
+      "sources": [
+        {
+          "title": "IEN 137: On Holy Wars and a Plea for Peace",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/ien/ien137.txt"
+        },
+        {
+          "title": "Endianness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Endianness"
+        }
+      ],
+      "readMoreUrl": "https://www.rfc-editor.org/ien/ien137.txt",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The legendary hardware myth behind C's increment operator",
+      "body": "Programmers have long repeated a story that Ken Thompson added the ++ and -- operators to C's predecessor, B, to take advantage of the PDP-11 computer's auto-increment machine instructions. But C co-creator Dennis Ritchie debunked this myth in an official retrospective: Thompson invented both operators around 1969 on a DEC PDP-7, years before the PDP-11 even existed. Thompson simply wanted a concise shorthand for incrementing variables.",
+      "imageWikipediaTitle": "Dennis Ritchie",
+      "sources": [
+        {
+          "title": "The Development of the C Language",
+          "publisher": "Bell Labs",
+          "url": "https://www.bell-labs.com/usr/dmr/www/chist.html"
+        },
+        {
+          "title": "Increment and decrement operators",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Increment_and_decrement_operators"
+        }
+      ],
+      "readMoreUrl": "https://www.bell-labs.com/usr/dmr/www/chist.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why DOS and Windows got stuck using backslashes for file paths",
+      "body": "Unix established the forward slash / as the standard path separator in the early 1970s. But when Microsoft introduced directories in MS-DOS 2.0 in 1983, it couldn't copy Unix. DOS 1.0 had inherited CP/M's convention of using / to signal command-line options, like DIR /W. To keep existing scripts and user habits from breaking, Microsoft adopted the backslash \\ for file paths, saddling Windows developers with escaping path characters ever since.",
+      "imageWikipediaTitle": "MS-DOS",
+      "sources": [
+        {
+          "title": "Naming Files, Paths, and Namespaces",
+          "publisher": "Microsoft Learn",
+          "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file"
+        },
+        {
+          "title": "Backslash",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Backslash"
+        }
+      ],
+      "readMoreUrl": "https://learn.microsoft.com/en-us/windows/win32/fileio/naming-a-file",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does evaluating 'typeof null' in JavaScript return 'object'?",
+      "options": [
+        "JavaScript treats all primitive data types as objects internally",
+        "A 1995 type-tagging shortcut caused the null pointer to share the object tag",
+        "ECMAScript standards mandated it to maintain compatibility with C++",
+        "The original parser confused null with an empty object literal"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brendan Eich gave objects a 000 type tag in 1995; because null was pointer 0x00, its tag matched objects and was never fixed."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did Guido van Rossum enforce indentation for code blocks in Python?",
+      "options": [
+        "To ensure that visual indentation never disagrees with the interpreter's execution logic",
+        "To save disk storage by replacing ASCII braces with single whitespace characters",
+        "To make Python code directly translatable into mathematical equations",
+        "Because early terminal keyboards lacked curly brace keys"
+      ],
+      "correctIndex": 0,
+      "explanation": "In languages with braces, developers often write misleading indentation; Python forces visual structure and execution logic to match."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where do the computer architecture terms 'big-endian' and 'little-endian' originate?",
+      "options": [
+        "A 19th-century railway engineering dispute over track gauges",
+        "Jonathan Swift's satire Gulliver's Travels, about cracking boiled eggs",
+        "A pun coined by Alan Turing regarding magnetic tape reels",
+        "An IBM internal memo describing punch card orientation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Danny Cohen coined the terms in 1980, borrowing from Gulliver's Travels where rival empires fought over which end of an egg to crack."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What hardware actually inspired Ken Thompson to create C's '++' increment operator?",
+      "options": [
+        "None; he added it to the B language on a PDP-7 before the PDP-11 even existed",
+        "The DEC PDP-11's auto-increment addressing mode",
+        "The Intel 4004's dedicated hardware counter register",
+        "IBM System/360's branch-on-index machine instruction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dennis Ritchie confirmed Thompson invented ++ on a PDP-7 simply as concise notation, long before the PDP-11 was built."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did Microsoft choose the backslash (\\) instead of the forward slash (/) for DOS file paths?",
+      "options": [
+        "IBM held a strict patent on using forward slashes in software operating systems",
+        "DOS 1.0 already used the forward slash for command-line options like /W",
+        "The original IBM PC keyboard did not include a forward slash key",
+        "Early dot-matrix printers could not properly print forward slashes"
+      ],
+      "correctIndex": 1,
+      "explanation": "DOS inherited CP/M's use of '/' for command switches, so Microsoft adopted '\\' for directories in DOS 2.0 to avoid breaking scripts."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In what year was Jonathan Swift's satire 'Gulliver's Travels' published, whose egg-cracking war inspired computing's 'endian' terminology?",
+      "answer": 1726,
+      "min": 1500,
+      "max": 1950,
+      "unit": "",
+      "explanation": "Jonathan Swift published Gulliver's Travels in 1726; 254 years later, Danny Cohen adopted its egg satire to describe byte ordering."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In JavaScript, 'typeof null' returns 'object' because null is an object under the language specification.",
+      "answer": false,
+      "explanation": "Null is a primitive value; returning 'object' is an accidental 1995 type-tag bug that was never fixed to avoid breaking websites."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The C programming language's ++ operator was invented to utilize the PDP-11's hardware auto-increment.",
+      "answer": false,
+      "explanation": "Dennis Ritchie debunked this myth: Ken Thompson added ++ to the B language on a PDP-7, years before the PDP-11 existed."
+    }
+  ]
+}

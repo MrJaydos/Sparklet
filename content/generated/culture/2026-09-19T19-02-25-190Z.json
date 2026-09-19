@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-19T19:02:25.190Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Clamshell Beads That Sealed Treaties",
+      "body": "Long before European contact, the Haudenosaunee wove purple and white beads carved from quahog and whelk shells into intricate geometric belts known as wampum. Rather than paper contracts or currency, these belts served as binding treaties and historical records. Council speakers read the woven symbols aloud to recite diplomatic pacts word for word. Because each bead was laced into place by hand, the belts formed a physical, tamper-proof archive of law and memory.",
+      "imageWikipediaTitle": "Wampum",
+      "sources": [
+        {
+          "title": "Wampum: Belts",
+          "publisher": "Onondaga Nation",
+          "url": "https://www.onondaganation.org/culture/wampum/"
+        },
+        {
+          "title": "Wampum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wampum"
+        }
+      ],
+      "readMoreUrl": "https://www.onondaganation.org/culture/wampum/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Naturally Sculpted Boulders Kept on Scholars' Desks",
+      "body": "Beginning in China's Tang dynasty, scholars and poets placed contorted, hollowed limestone boulders on carved wooden stands in their studios. Known as gongshi, or scholar's rocks, these naturally eroded stones were prized for asymmetry, jagged texture, and perforations rather than polished perfection. Scholars contemplated them during meditation and creative work, viewing the water-carved cavities as miniature mountains that captured the dynamic, untamable energy of nature inside a quiet room.",
+      "imageWikipediaTitle": "Chinese scholar's rocks",
+      "sources": [
+        {
+          "title": "Chinese Scholar's Rocks",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/toah/hd/scks/hd_scks.htm"
+        },
+        {
+          "title": "Chinese scholar's rocks",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chinese_scholar%27s_rocks"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/toah/hd/scks/hd_scks.htm",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Giant Desert Drawings Etched by Scraping Dark Pebbles",
+      "body": "Spanning nearly 200 square miles across southern Peru, hundreds of colossal geoglyphs depict creatures like monkeys, hummingbirds, and spiders up to 1,200 feet long. Created between 500 BCE and 500 CE, the Nazca Lines required no complex machinery. Ancient artists simply brushed aside the dark, iron-oxide-coated pebbles covering the desert floor to reveal the pale, yellowish clay beneath. With almost no rain or wind in the region, their shallow scrapes have survived intact for centuries.",
+      "imageWikipediaTitle": "Nazca Lines",
+      "sources": [
+        {
+          "title": "Lines and Geoglyphs of Nasca and Palpa",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/700/"
+        },
+        {
+          "title": "Nazca Lines",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nazca_Lines"
+        }
+      ],
+      "readMoreUrl": "https://whc.unesco.org/en/list/700/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Semaphore Signals Hidden in the Peace Symbol",
+      "body": "In 1958, British designer Gerald Holtom created the modern peace symbol for a march against nuclear weapons. Rather than an abstract squiggle, the emblem encodes the flag semaphore alphabet used by sailors. Holtom combined the gestures for the letters N (two flags held downward at 45 degrees) and D (one flag raised, one lowered), standing for Nuclear Disarmament. Encircling them inside a sphere representing Earth, he deliberately refused to copyright it, offering it freely to humanity.",
+      "imageWikipediaTitle": "Peace symbol",
+      "sources": [
+        {
+          "title": "The story of the peace symbol",
+          "publisher": "Victoria and Albert Museum",
+          "url": "https://www.vam.ac.uk/articles/the-story-of-the-peace-symbol"
+        },
+        {
+          "title": "Peace symbol",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peace_symbol"
+        }
+      ],
+      "readMoreUrl": "https://www.vam.ac.uk/articles/the-story-of-the-peace-symbol",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 19th-Century Fish Prints That Preserved Fishermen's Catches",
+      "body": "Before photography, 19th-century Japanese fishermen needed an irrefutable way to document the size of prized catches. Their solution was gyotaku: coating a fresh fish with non-toxic sumi ink, pressing handmade washi paper onto its wet scales, and lifting away an exact, life-sized print. Because the carbon-based ink washed away completely with clean water, the fish remained edible and could still be sold at market, turning a practical tally into a treasured art form.",
+      "imageWikipediaTitle": "Gyotaku",
+      "sources": [
+        {
+          "title": "Gyotaku: The Japanese Art of Fish Printing",
+          "publisher": "Smithsonian Ocean",
+          "url": "https://ocean.si.edu/ocean-life/fish/gyotaku-japanese-art-fish-printing"
+        },
+        {
+          "title": "Gyotaku",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gyotaku"
+        }
+      ],
+      "readMoreUrl": "https://ocean.si.edu/ocean-life/fish/gyotaku-japanese-art-fish-printing",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was the primary traditional function of Haudenosaunee wampum belts?",
+      "options": [
+        "Serving as official treaties and historical archives",
+        "Functioning strictly as standard everyday currency",
+        "Decorating warrior shields before battle",
+        "Acting as musical notation for ritual songs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Haudenosaunee leaders used woven wampum belts to record laws, ratify peace accords, and recite treaties verbatim."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What qualities made Chinese scholar's rocks (gongshi) prized by scholars?",
+      "options": [
+        "Perfect spherical symmetry and smooth polished surfaces",
+        "Natural asymmetry, jagged textures, and hollow perforations",
+        "Vibrant painted colors and religious inscriptions",
+        "Precious gemstone veins running through the rock"
+      ],
+      "correctIndex": 1,
+      "explanation": "Scholars valued gongshi for their natural, water-eroded shapes—especially asymmetry, jaggedness, and holes that echoed mountain peaks."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did ancient artists create the famous Nazca Lines in the Peruvian desert?",
+      "options": [
+        "By carving deep trenches into bedrock with bronze chisels",
+        "By brushing away dark surface pebbles to reveal pale clay underneath",
+        "By staining the desert floor with squid ink and plant dyes",
+        "By piling white volcanic ash into raised berms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nazca artists cleared away dark, sun-baked surface stones to expose the lighter subsoil beneath."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which two semaphore letters did Gerald Holtom combine to create the peace symbol?",
+      "options": [
+        "P and S, for 'Peace Signs'",
+        "N and D, for 'Nuclear Disarmament'",
+        "H and W, for 'Halt War'",
+        "U and N, for 'United Nations'"
+      ],
+      "correctIndex": 1,
+      "explanation": "The symbol combines the flag semaphore signals for N and D inside a circle representing the world."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did 19th-century Japanese fishermen wash the ink off their gyotaku catches?",
+      "options": [
+        "So the fish could still be sold and eaten at market",
+        "To release the fish alive back into the ocean",
+        "To prevent the ink from contaminating sacred temple grounds",
+        "Because the ink was highly poisonous to the touch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Non-toxic sumi ink washed away cleanly with water, allowing fishermen to record their catch without wasting valuable food."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In what year was the modern peace symbol designed for a British nuclear disarmament march?",
+      "answer": 1958,
+      "min": 1900,
+      "max": 2000,
+      "unit": "",
+      "explanation": "Gerald Holtom designed the symbol in 1958 for a march organized by the Campaign for Nuclear Disarmament."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Wampum beads were originally created by Native Americans to serve as money.",
+      "answer": false,
+      "explanation": "Before European contact introduced currency concepts, wampum was used for ceremonial gifts, diplomatic treaties, and historical records, not commerce."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The Nazca Lines were created by removing only a shallow surface layer of desert pebbles.",
+      "answer": true,
+      "explanation": "Despite their massive scale, the lines were formed simply by scraping away a thin layer of dark, oxidized pebbles to expose the pale clay beneath."
+    }
+  ]
+}
