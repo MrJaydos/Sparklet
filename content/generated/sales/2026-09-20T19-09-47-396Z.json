@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-20T19:09:47.396Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why buyers reject great compromises when you suggest them",
+      "body": "In 1991, Stanford researchers Lee Ross and Constance Stillinger identified reactive devaluation: counterparts devalue a proposal simply because an adversary offered it. When you propose a compromise directly, prospects instinctively assume it favors you at their expense. To bypass this defense, ask guided questions that prompt the client to propose the solution themselves. When buyers formulate the concession, they assign it far greater value and readily agree.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Reactive Devaluation",
+          "publisher": "Beyond Intractability",
+          "url": "https://www.beyondintractability.org/essay/reactive_devaluation"
+        },
+        {
+          "title": "Reactive Devaluation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reactive_devaluation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Reactive_devaluation",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask why they want it to unlock deadlocked negotiations",
+      "body": "Pioneer theorist Mary Parker Follett illustrated integrative bargaining with a classic standoff: two library patrons arguing whether to open a window. Opening it created an unwanted draft; closing it caused stuffiness. By looking past their rigid positions to their underlying interests, Follett opened a window in the next room, providing fresh air without drafts. In sales, asking why a prospect demands a specific term reveals creative compromises neither party initially considered.",
+      "imageWikipediaTitle": "Mary Parker Follett",
+      "sources": [
+        {
+          "title": "Integrative Bargaining",
+          "publisher": "Beyond Intractability",
+          "url": "https://www.beyondintractability.org/essay/integrative_bargaining"
+        },
+        {
+          "title": "Integrative bargaining",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Integrative_bargaining"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Integrative_bargaining",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why vague sales promises freeze buyers in their tracks",
+      "body": "In 1961, economist Daniel Ellsberg demonstrated that people consistently prefer known risks over unknown probabilities, a bias known as ambiguity aversion. When sales pitches rely on vague promises like \"massive cost savings\" or \"swift onboarding,\" buyers treat the unknown as an intolerable threat and stall. Replacing ambiguous marketing buzzwords with explicit, bounded parameters—even modest ones like \"10% to 14% savings in 90 days\"—eliminates uncertainty and accelerates contract approvals.",
+      "imageWikipediaTitle": "Daniel Ellsberg",
+      "sources": [
+        {
+          "title": "Ellsberg paradox",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/Ellsberg-paradox"
+        },
+        {
+          "title": "Ambiguity aversion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ambiguity_aversion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ambiguity_aversion",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why spacing out your sales follow-ups beats clustering them",
+      "body": "In 1885, German psychologist Hermann Ebbinghaus discovered the spacing effect: information is remembered far more effectively when exposures are spaced out over time rather than massed together. Bombarding an unresponsive lead with multiple touchpoints in a single week triggers irritation and cognitive dismissal. Spacing your follow-up cadence across expanding intervals—such as day one, four, ten, and twenty-one—maximizes prospect memory retention, keeps your solution familiar, and dramatically improves response rates.",
+      "imageWikipediaTitle": "Hermann Ebbinghaus",
+      "sources": [
+        {
+          "title": "Spacing effect",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/spacing-effect"
+        },
+        {
+          "title": "Spacing effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spacing_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spacing_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frame pitches inside existing beliefs instead of correcting them",
+      "body": "When salespeople attempt to challenge or correct a buyer's existing assumptions, confirmation bias causes the prospect to dig in and defend their past decisions. First experimentally verified by Peter Wason in 1960, confirmation bias makes people instinctively favor data that validates what they already believe. Rather than trying to prove a customer's current strategy flawed, frame your product as the logical continuation and ultimate validation of their existing philosophy.",
+      "imageWikipediaTitle": "Peter Cathcart Wason",
+      "sources": [
+        {
+          "title": "Confirmation bias",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/confirmation-bias"
+        },
+        {
+          "title": "Confirmation bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Confirmation_bias"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Confirmation_bias",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is reactive devaluation in a sales negotiation?",
+      "options": [
+        "A tendency to discount the value of an offer simply because the opposing side proposed it",
+        "A requirement to discount prices automatically whenever a competitor cuts theirs",
+        "The decrease in perceived product value caused by repeated advertising",
+        "A seller's emotional reaction to having their initial proposal rejected"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reactive devaluation occurs when negotiators rate an offer less favorably simply because it originated from the other party."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Mary Parker Follett's integrative bargaining framework, what should negotiators focus on?",
+      "options": [
+        "Splitting every contested dollar exactly down the middle",
+        "The underlying interests behind demands rather than rigid surface positions",
+        "Forcing the counterpart to make the very first concession",
+        "Limiting negotiations to a single issue at a time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Focusing on underlying interests (the 'why') rather than rigid positions (the 'what') reveals win-win solutions that satisfy both parties."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to ambiguity aversion and the Ellsberg paradox, how do buyers respond to vague sales claims?",
+      "options": [
+        "They assume the upside will be much larger than stated",
+        "They perceive ambiguous outcomes as risky threats and hesitate to commit",
+        "They become curious and ask deeper technical questions",
+        "They immediately accept the claims if delivered with confidence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ambiguity aversion shows people prefer known risks over unknown probabilities; vague claims introduce ambiguity that stalls decisions."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the spacing effect suggest sales professionals should schedule outreach touches?",
+      "options": [
+        "Send all communications within a condensed 48-hour window",
+        "Space follow-ups across expanding intervals over time",
+        "Contact prospects exclusively on the same day of the week",
+        "Reach out twice a day until the prospect responds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ebbinghaus showed that spacing exposures over expanding intervals significantly enhances retention and receptivity compared to clustering them."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is directly attacking a prospect's current strategy counterproductive in sales?",
+      "options": [
+        "Confirmation bias leads prospects to defend their existing choices and reject conflicting data",
+        "Buyers are legally bound to support their past vendors",
+        "It forces the salesperson to reveal proprietary trade secrets",
+        "It violates typical corporate anti-disparagement clauses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to confirmation bias, challenging a buyer's past choices causes them to defend their beliefs; aligning with their philosophy wins agreement faster."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A fair compromise will be valued equally by a buyer regardless of which side proposes it.",
+      "answer": false,
+      "explanation": "Reactive devaluation causes people to automatically devalue terms simply because they were suggested by the other party."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "In negotiations, an agreement where both sides get their core needs fully met is often achievable.",
+      "answer": true,
+      "explanation": "Integrative bargaining demonstrates that uncovering underlying interests rather than surface positions often resolves apparent deadlocks entirely."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Buyers prefer pitch claims with enormous, unbounded potential over modest claims with clear limits.",
+      "answer": false,
+      "explanation": "Ambiguity aversion leads buyers to distrust vague claims; bounded, specific estimates feel safer and accelerate buying decisions."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Directly proving a prospect's current assumptions wrong is the fastest way to persuade them to buy.",
+      "answer": false,
+      "explanation": "Confirmation bias causes people to entrench when challenged; framing solutions as extensions of what they already believe is far more effective."
+    }
+  ]
+}

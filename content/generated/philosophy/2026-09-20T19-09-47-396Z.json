@@ -1,0 +1,183 @@
+{
+  "generatedAt": "2026-09-20T19:09:47.396Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient dream that asked who was dreaming whom",
+      "body": "In the fourth century BCE, Chinese philosopher Zhuangzi dreamed he was a fluttering butterfly, happily unaware of Zhuangzi. When he abruptly awoke, he was undeniably himself again. Yet he faced an unsettling puzzle: had Zhuang Zhou dreamed he was a butterfly, or was a butterfly now dreaming it was Zhuang Zhou? This ancient parable challenged the certainty of waking sensory reality long before European skeptics debated dreams and conscious illusions.",
+      "imageWikipediaTitle": "Zhuang Zhou",
+      "sources": [
+        {
+          "title": "Zhuangzi",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/zhuangzi/"
+        },
+        {
+          "title": "Zhuang Zhou",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhuang_Zhou"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/zhuangzi/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Two identical spheres broke a foundational rule of logic",
+      "body": "Gottfried Wilhelm Leibniz proposed the Identity of Indiscernibles: if two things share every single property, they must be the exact same object. In 1952, philosopher Max Black dismantled this principle with a simple thought experiment. Imagine an empty universe containing only two chemically identical, perfectly symmetrical iron spheres of equal size and temperature. Because each sphere shares every qualitative and relational property with the other, Leibniz’s law declares them one—even though there are clearly two.",
+      "imageWikipediaTitle": "Sphere",
+      "sources": [
+        {
+          "title": "The Identity of Indiscernibles",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/identity-indiscensible/"
+        },
+        {
+          "title": "Identity of indiscernibles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Identity_of_indiscernibles"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/identity-indiscensible/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a melting piece of wax revealed the power of the mind",
+      "body": "In his Meditations, René Descartes held a piece of fresh beeswax near a flame. Cold, it tasted sweet, smelled of flowers, and made a sound when tapped. But as it melted, every sensory trait vanished: it turned hot, liquid, odorless, and silent. Yet no one doubts it remains the same wax. Descartes argued this proves your senses do not reveal what physical objects truly are; only your intellect and rational grasp understand their underlying nature.",
+      "imageWikipediaTitle": "Beeswax",
+      "sources": [
+        {
+          "title": "Descartes' Epistemology",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/descartes-epistemology/"
+        },
+        {
+          "title": "Wax argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wax_argument"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wax_argument",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When a higher command overrules every moral law",
+      "body": "In Fear and Trembling, Søren Kierkegaard explored an existential crisis: God commanding Abraham to sacrifice his son Isaac. Normally, killing one’s child is an unambiguous moral evil. Kierkegaard coined the term \"teleological suspension of the ethical\" to describe moments when universal moral duties are temporarily set aside for a transcendent divine purpose. Abraham’s agonizing trial showed that genuine faith cannot be reduced to conventional ethics—it requires a dizzying leap into the absurd.",
+      "imageWikipediaTitle": "Søren Kierkegaard",
+      "sources": [
+        {
+          "title": "Søren Kierkegaard",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/kierkegaard/"
+        },
+        {
+          "title": "Fear and Trembling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fear_and_Trembling"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/kierkegaard/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient myth designed to keep an ideal society in order",
+      "body": "In The Republic, Plato argued that maintaining a stable civilization required telling citizens a \"noble lie.\" According to this myth, every person is born from the earth with a specific metal mingled into their soul: gold for rulers, silver for guardians, and bronze or iron for farmers and artisans. Plato reasoned that if people believed their social roles were divinely assigned by nature rather than human politics, they would willingly cooperate without resentment or rebellion.",
+      "imageWikipediaTitle": "Plato",
+      "sources": [
+        {
+          "title": "Plato's Ethics and Politics in The Republic",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/plato-ethics-politics/"
+        },
+        {
+          "title": "Noble lie",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Noble_lie"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Noble_lie",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What philosophical paradox did Zhuangzi raise after waking from his butterfly dream?",
+      "options": [
+        "Whether he was a man dreaming of a butterfly or a butterfly dreaming of being a man",
+        "Whether animals possess rational consciousness capable of moral judgment",
+        "Whether dreams last longer than waking human memories",
+        "Whether physical objects continue to exist when no one perceives them"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zhuangzi realized he could not be certain whether he was a waking man recalling a dream or a butterfly currently dreaming of human life."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In his 1952 thought experiment, what did Max Black use two identical spheres to challenge?",
+      "options": [
+        "Newton's laws of universal gravitation",
+        "Leibniz's principle of the Identity of Indiscernibles",
+        "Descartes's distinction between mind and body",
+        "Aristotle's theory of spontaneous generation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Black showed that two distinct spheres could share every single qualitative property, disproving the rule that sharing all properties makes objects identical."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did Descartes discuss melting a piece of beeswax in his Second Meditation?",
+      "options": [
+        "To show that our true understanding of physical objects comes from the intellect, not the senses",
+        "To prove that physical matter is fundamentally an illusion",
+        "To measure how much mass is conserved during physical phase changes",
+        "To argue that fire is the fundamental element of nature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because every sensory trait of the wax vanished upon melting while its identity remained, Descartes showed that reason alone grasps its true nature."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did Kierkegaard mean by the \"teleological suspension of the ethical\"?",
+      "options": [
+        "Ethical rules can be temporarily superseded by a higher divine command",
+        "Human morality naturally evolves as societies become more technologically advanced",
+        "Individuals acting under emotional distress bear zero moral culpability",
+        "Civil laws must strictly reflect philosophical utilitarianism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kierkegaard argued that Abraham's command to sacrifice Isaac represented a transcendent duty that superseded ordinary universal moral laws."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the purpose of the \"noble lie\" described in Plato's Republic?",
+      "options": [
+        "To convince citizens to accept their assigned social roles without resentment",
+        "To mislead invading armies about the city's military defenses",
+        "To conceal the wealth accumulated by philosophical rulers",
+        "To persuade children to practice athletics and gymnastics"
+      ],
+      "correctIndex": 0,
+      "explanation": "Plato proposed the myth of the metals so that citizens would believe their social hierarchy was a natural division, preserving civic harmony."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Descartes believed that human beings come to understand the physical world primarily through sensory observation.",
+      "answer": false,
+      "explanation": "Descartes used the melting wax experiment to show that senses deceive and change completely; only the intellect reveals an object's true nature."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Kierkegaard argued that genuine religious faith can require actions that contradict universal ethical duties.",
+      "answer": true,
+      "explanation": "In Fear and Trembling, Kierkegaard argued that Abraham's trial demonstrated a 'teleological suspension of the ethical' in obedience to divine command."
+    }
+  ]
+}

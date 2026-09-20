@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-20T19:09:47.395Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Brazil Conquered 2,000% Hyperinflation with a Fake Currency",
+      "body": "In 1994, Brazil’s inflation surpassed 2,000% annually. To break the psychology of daily price hikes, economists created the Unidade Real de Valor (URV)—an imaginary unit of account. Stores listed prices in URV, but shoppers still paid in old cruzeiros reais, whose exchange rate adjusted daily. Once citizens trusted that URV prices were stable, the government made URV physical overnight as the Brazilian real, crushing hyperinflation within months.",
+      "imageWikipediaTitle": "Plano Real",
+      "sources": [
+        {
+          "title": "How Fake Money Saved Brazil",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/sections/money/2010/10/04/130329523/how-fake-money-saved-brazil"
+        },
+        {
+          "title": "Unidade Real de Valor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unidade_Real_de_Valor"
+        }
+      ],
+      "readMoreUrl": "https://www.npr.org/sections/money/2010/10/04/130329523/how-fake-money-saved-brazil",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Paradox That Makes Being the World's Top Currency a Trap",
+      "body": "In 1960, economist Robert Triffin identified an inescapable contradiction: to fuel international trade, the issuer of the global reserve currency—the United States—must supply foreign countries with ample currency by running continuous trade deficits. Yet piling up trade deficits and foreign debt gradually erodes international trust in that currency's long-term purchasing power. Meeting the world’s demand for money inevitably threatens the issuer's financial stability.",
+      "imageWikipediaTitle": "Robert Triffin",
+      "sources": [
+        {
+          "title": "What Is the Triffin Dilemma?",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "url": "https://www.stlouisfed.org/open-vault/2020/august/what-is-triffin-dilemma"
+        },
+        {
+          "title": "Triffin dilemma",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Triffin_dilemma"
+        }
+      ],
+      "readMoreUrl": "https://www.stlouisfed.org/open-vault/2020/august/what-is-triffin-dilemma",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "American Silver Made Spain So Rich That the Empire Went Bankrupt",
+      "body": "During the 16th century, the Spanish Empire mined mountains of silver from Potosí and shipped over 16,000 tons to Europe. Rather than creating lasting wealth, the sudden flood of bullion fueled the \"Price Revolution,\" multiplying prices across Europe by up to six times. High inflation wrecked domestic Spanish manufacturing, and despite unprecedented silver shipments, King Philip II declared sovereign bankruptcy four separate times during his reign.",
+      "imageWikipediaTitle": "Cerro Rico",
+      "sources": [
+        {
+          "title": "The Price Revolution in Europe",
+          "publisher": "Economic History Association",
+          "url": "https://eh.net/encyclopedia/the-price-revolution-in-europe/"
+        },
+        {
+          "title": "Price revolution",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Price_revolution"
+        }
+      ],
+      "readMoreUrl": "https://eh.net/encyclopedia/the-price-revolution-in-europe/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Your Bank PIN Has Four Digits Instead of Six",
+      "body": "When Scottish inventor John Shepherd-Barron devised the world's first automated teller machine in 1967, he planned to secure customer accounts with a six-digit personal identification number, modeled after his own military service identifier. However, during testing at home, his wife Caroline warned him that while she could reliably memorize four numbers, six was too frustrating. Shepherd-Barron shrank the requirement, establishing the global four-digit banking standard still used today.",
+      "imageWikipediaTitle": "Personal identification number",
+      "sources": [
+        {
+          "title": "The man who invented the cash machine",
+          "publisher": "BBC News",
+          "url": "http://news.bbc.co.uk/2/hi/technology/6230198.stm"
+        },
+        {
+          "title": "Personal identification number",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Personal_identification_number"
+        }
+      ],
+      "readMoreUrl": "http://news.bbc.co.uk/2/hi/technology/6230198.stm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Overconfident Men Trade Stocks 45% More Often—and Pay the Price",
+      "body": "In a landmark study analyzing 35,000 household brokerage accounts across six years, economists Brad Barber and Terrance Odean discovered that men traded stocks 45% more frequently than women. Driven by psychological overconfidence, this hyperactive trading backfired: transaction costs and mistimed bets reduced men’s annual net returns by 2.65 percentage points, compared to a 1.72 percentage point drop for women. Doing less, it turned out, earned more.",
+      "imageWikipediaTitle": "Overconfidence effect",
+      "sources": [
+        {
+          "title": "Boys Will Be Boys: Gender, Overconfidence, and Common Stock Investment",
+          "publisher": "National Bureau of Economic Research",
+          "url": "https://www.nber.org/papers/w7942"
+        },
+        {
+          "title": "Overconfidence effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Overconfidence_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.nber.org/papers/w7942",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did Brazil's Unidade Real de Valor (URV) function before the real was officially launched?",
+      "options": [
+        "As a virtual unit of account that stabilized pricing before physical notes existed",
+        "As gold-backed certificates issued exclusively to commercial banks",
+        "As an emergency food rationing coupon managed by the army",
+        "As a mandatory electronic credit system restricted to corporate payrolls"
+      ],
+      "correctIndex": 0,
+      "explanation": "The URV existed only on price tags and in daily exchange tables, letting Brazilians get used to stable numbers before physical currency arrived."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to the Triffin dilemma, why does issuing the world's reserve currency create a conflict?",
+      "options": [
+        "The issuing nation must run continuous trade deficits to supply liquidity, eroding confidence in its currency",
+        "Domestic interest rates must remain at zero forever to appease foreign central banks",
+        "The currency issuer must legally forfeit its ability to collect income tax on imports",
+        "Foreign nations must back 100% of their domestic bank loans with physical gold bars"
+      ],
+      "correctIndex": 0,
+      "explanation": "Triffin showed that Supplying the world with enough cash requires perpetual deficits, which ultimately threatens faith in the reserve currency itself."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did the enormous influx of silver from the Americas impact 16th-century Spain?",
+      "options": [
+        "It sparked severe inflation and led King Philip II to declare bankruptcy four times",
+        "It eradicated all foreign debt and financed universal tax relief for Spanish citizens",
+        "It compelled Spain to replace metallic coins with Europe's first paper banknotes",
+        "It turned Spain into the most productive textile manufacturing powerhouse in Europe"
+      ],
+      "correctIndex": 0,
+      "explanation": "The sudden abundance of silver multiplied prices across Europe up to sixfold and wrecked Spain's domestic industries, bankrupting the crown four times."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did ATM inventor John Shepherd-Barron reduce the standard PIN from six digits to four?",
+      "options": [
+        "His wife Caroline told him she could only reliably memorize four digits",
+        "Early mechanical relays could not register numbers higher than 9,999",
+        "Four digits matched the numeric limits of British telephone rotary dials",
+        "International banking treaties restricted personal identification codes to four digits"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shepherd-Barron originally intended to use his six-digit army number, but changed it after his wife found six numbers too difficult to remember."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did Barber and Odean's study find about the impact of frequent stock trading by gender?",
+      "options": [
+        "Men traded 45% more often due to overconfidence, which lowered their net returns",
+        "Men traded less frequently, allowing compounding growth to outperform women",
+        "Women suffered greater losses because they disproportionately traded penny stocks",
+        "Both genders traded at identical volumes with no measurable performance gap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Overconfidence led men to trade 45% more frequently than women, causing trading costs and mistimed bets to reduce their net annual returns by 2.65 points."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "In a study of 35,000 brokerage accounts, by what percentage did men trade stocks more frequently than women?",
+      "answer": 45,
+      "min": 5,
+      "max": 150,
+      "unit": "%",
+      "explanation": "Driven by overconfidence, men traded 45% more often than women, incurring transaction costs that eroded their investment returns."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "A country issuing the world's primary reserve currency must run persistent trade deficits to supply global trade.",
+      "answer": true,
+      "explanation": "The Triffin dilemma proves that global demand for reserve assets forces the host nation to export currency by running persistent trade deficits."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The discovery of massive silver reserves in the New World made 16th-century Spain permanently prosperous.",
+      "answer": false,
+      "explanation": "The flood of silver caused devastating inflation across Europe, damaged domestic industry, and forced Spain into bankruptcy four times."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Four-digit ATM PINs were chosen because 1960s computer memory was too limited to store longer numbers.",
+      "answer": false,
+      "explanation": "The ATM's inventor originally designed a six-digit PIN, but reduced it to four after his wife Caroline found six digits too hard to memorize."
+    }
+  ]
+}
