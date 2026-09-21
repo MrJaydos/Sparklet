@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.777Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Xerox engineer built the first laser printer in secret after his boss threatened to fire him",
+      "body": "In 1969, Xerox researcher Gary Starkweather realized that combining a laser beam with a copier drum could print whole pages in seconds. His Webster facility manager dismissed the idea as an impossible waste of money and warned Starkweather he would be fired if he kept pursuing it. Starkweather secretly moved his research to Xerox PARC in California, where he built the first working laser printer in 1971, launching modern desktop publishing.",
+      "imageWikipediaTitle": "Laser printing",
+      "sources": [
+        {
+          "title": "Gary Starkweather",
+          "publisher": "Lemelson-MIT",
+          "url": "https://lemelson.mit.edu/resources/gary-starkweather"
+        },
+        {
+          "title": "Gary Starkweather",
+          "publisher": "Computer History Museum",
+          "url": "https://computerhistory.org/profile/gary-starkweather/"
+        },
+        {
+          "title": "Gary Starkweather",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gary_Starkweather"
+        }
+      ],
+      "readMoreUrl": "https://lemelson.mit.edu/resources/gary-starkweather",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A fist-sized copper block revolutionized Allied radar during World War II",
+      "body": "In early 1940, British physicists John Randall and Harry Boot invented the resonant cavity magnetron at the University of Birmingham. The compact, fist-sized device generated pulsed microwave beams thousands of times more powerful than previous transmitters. Because it was small enough to fit inside aircraft noses, Allied planes could finally detect surfaced German U-boats at night and through thick cloud cover, fundamentally turning the tide of the Battle of the Atlantic.",
+      "imageWikipediaTitle": "Cavity magnetron",
+      "sources": [
+        {
+          "title": "February 1940: Randall and Boot Invent the Cavity Magnetron",
+          "publisher": "American Physical Society",
+          "url": "https://www.aps.org/publications/apsnews/201902/history.cfm"
+        },
+        {
+          "title": "Cavity magnetron",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cavity_magnetron"
+        }
+      ],
+      "readMoreUrl": "https://www.aps.org/publications/apsnews/201902/history.cfm",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The word 'byte' was deliberately misspelled to prevent typos",
+      "body": "In June 1956, computer scientist Werner Buchholz coined the term 'byte' while designing the IBM 7030 Stretch supercomputer. Buchholz needed a word for a cluster of bits handled as a unit—often six bits in early machines. He intentionally altered the spelling from 'bite' to 'byte' so that a stray mark or accidental typo could never mutate the word into 'bit', saving engineers from catastrophic communication errors.",
+      "imageWikipediaTitle": "Byte",
+      "sources": [
+        {
+          "title": "Why is a Byte Spelled with a 'Y'?",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-byte-bit"
+        },
+        {
+          "title": "Byte",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Byte"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/word-history-byte-bit",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first visible LED was red, and its inventor predicted it would replace the light bulb",
+      "body": "Before 1962, light-emitting diodes emitted only invisible infrared light. While working at General Electric, engineer Nick Holonyak Jr. developed the first practical visible-spectrum LED by growing gallium arsenide phosphide crystals. The device glowed with an unmistakable red beam. While colleagues initially saw it as a novelty, Holonyak boldly predicted that solid-state lighting would eventually render Thomas Edison's incandescent bulb obsolete—a forecast realized five decades later.",
+      "imageWikipediaTitle": "Nick Holonyak",
+      "sources": [
+        {
+          "title": "Nick Holonyak, Jr.",
+          "publisher": "Lemelson-MIT",
+          "url": "https://lemelson.mit.edu/resources/nick-holonyak-jr"
+        },
+        {
+          "title": "Nick Holonyak",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nick_Holonyak"
+        }
+      ],
+      "readMoreUrl": "https://lemelson.mit.edu/resources/nick-holonyak-jr",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first transatlantic telephone cable could handle just 36 calls at once",
+      "body": "Before 1956, transatlantic phone calls depended on temperamental shortwave radio, often garbled by atmospheric weather. That changed with TAT-1, the first submarine telephone cable spanning the Atlantic between Scotland and Newfoundland. Overcoming extreme ocean depths with specially engineered vacuum-tube amplifiers, the deep-sea cable provided crystal-clear audio. Yet despite costing millions of dollars and requiring two years to lay, the entire twin-cable system could carry only 36 simultaneous telephone calls.",
+      "imageWikipediaTitle": "TAT-1",
+      "sources": [
+        {
+          "title": "TAT-1 transatlantic telephone cable repeater unit, 1956",
+          "publisher": "Science Museum Group",
+          "url": "https://collection.sciencemuseumgroup.org.uk/objects/co409165/tat-1-transatlantic-telephone-cable-repeater-unit-1956-repeater"
+        },
+        {
+          "title": "TAT-1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/TAT-1"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/TAT-1",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Gary Starkweather move to Xerox PARC to finish developing the laser printer?",
+      "options": [
+        "His manager threatened to fire him for working on it",
+        "Xerox closed down its East Coast research labs",
+        "Laser printing required components only available in California",
+        "He was recruited away by a rival printing company"
+      ],
+      "correctIndex": 0,
+      "explanation": "Starkweather's boss at Xerox Webster dismissed laser printing as impractical and threatened his job, prompting him to transfer to Xerox PARC."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What key advantage did the cavity magnetron provide to Allied forces in World War II?",
+      "options": [
+        "It allowed microwave radar to be small enough to fit inside aircraft",
+        "It successfully jammed German surface radio communications",
+        "It detected sound waves emitted by submerged U-boats",
+        "It transmitted secure teletype messages across the Atlantic"
+      ],
+      "correctIndex": 0,
+      "explanation": "By generating high-power microwaves in a fist-sized unit, the cavity magnetron let Allied planes carry radar to spot submarines at night."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why was the word 'byte' deliberately spelled with a 'y' instead of an 'i'?",
+      "options": [
+        "To honor pioneer computer scientist John Byte",
+        "To serve as an acronym for 'by eight'",
+        "To prevent it from being accidentally confused with 'bit'",
+        "Because early teletype keyboards lacked the letter 'i'"
+      ],
+      "correctIndex": 2,
+      "explanation": "Werner Buchholz chose the spelling 'byte' in 1956 so transcription errors or smudged documents could not mutate the word into 'bit'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What color was the first practical visible-spectrum LED invented in 1962?",
+      "options": [
+        "Green",
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nick Holonyak Jr. synthesized gallium arsenide phosphide crystals to create the world's first visible LED, which shone bright red."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many simultaneous phone calls could TAT-1, the first transatlantic telephone cable, carry in 1956?",
+      "options": [
+        "36",
+        "360",
+        "3,600",
+        "36,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite being an enormous engineering achievement, TAT-1's analog coaxial cables had enough bandwidth for only 36 simultaneous calls."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many simultaneous telephone calls could the first transatlantic telephone cable carry when it opened in 1956?",
+      "answer": 36,
+      "min": 5,
+      "max": 500,
+      "unit": "calls",
+      "explanation": "When TAT-1 opened in 1956, its advanced undersea coaxial cables could only support 36 phone calls at the same time."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The word 'byte' is short for 'by eight' because it originally referred to an eight-bit number.",
+      "answer": false,
+      "explanation": "The word was coined as a respelling of 'bite' to prevent typos confusing it with 'bit', and early bytes often consisted of six bits."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The inventor of the first visible LED predicted it would eventually make incandescent light bulbs obsolete.",
+      "answer": true,
+      "explanation": "In 1962, Nick Holonyak Jr. correctly predicted that solid-state LED lamps would eventually replace Edison's incandescent filament bulbs."
+    }
+  ]
+}

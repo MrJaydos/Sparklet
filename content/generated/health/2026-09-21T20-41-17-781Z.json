@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.781Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single glass of grapefruit juice can turn a normal pill dose into an overdose",
+      "body": "Grapefruit contains natural chemicals called furanocoumarins that irreversibly disable CYP3A4, an enzyme in your small intestine responsible for breaking down dozens of common medications, including statins and blood pressure drugs. Without this enzyme filtering the drug before it hits your bloodstream, your body can absorb up to several times the intended dose. The inhibitory effect can linger for up to three days after drinking just one glass.",
+      "imageWikipediaTitle": "Grapefruit",
+      "sources": [
+        {
+          "title": "Grapefruit Juice and Some Drugs Don't Mix",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix"
+        },
+        {
+          "title": "Grapefruit–drug interactions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grapefruit%E2%80%93drug_interactions"
+        }
+      ],
+      "readMoreUrl": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Turkey is not what makes you drowsy after Thanksgiving dinner",
+      "body": "For decades, people have blamed the post-holiday slump on tryptophan, an amino acid found in turkey that helps synthesize serotonin and melatonin. In reality, turkey contains roughly the same concentration of tryptophan as chicken, beef, or cheddar cheese. The real culprit is the massive carbohydrate load of the feast. High-carb meals spike insulin, which shunts competing amino acids into muscle cells, leaving tryptophan free to slip past the blood-brain barrier.",
+      "imageWikipediaTitle": "Turkey meat",
+      "sources": [
+        {
+          "title": "Medical myths",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151129/"
+        },
+        {
+          "title": "Tryptophan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tryptophan"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2151129/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your eyes rely on the fastest reflex in the human body to stay in focus while you walk",
+      "body": "When you run or bob your head, the world around you stays remarkably steady thanks to the vestibulo-ocular reflex. Fluid shifting inside the semicircular canals of your inner ear detects rotational movement and fires signals directly to your eye muscles in under 10 milliseconds. This mechanical reflex operates far faster than conscious visual processing, rotating your eyeballs in the exact opposite direction of your head motion to keep images locked onto your retina.",
+      "imageWikipediaTitle": "Vestibulo-ocular reflex",
+      "sources": [
+        {
+          "title": "Physiology, Vestibulo-Ocular Reflex",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK545297/"
+        },
+        {
+          "title": "Vestibulo-ocular reflex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vestibulo-ocular_reflex",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Drinking seawater dehydrates you faster than drinking no water at all",
+      "body": "Seawater has a salt concentration of roughly 3.5 percent, about three times saltier than human blood. Your kidneys filter waste and excess salt by dissolving it in water to create urine, but they can only concentrate urine up to about 2 percent salt. To flush out the massive sodium load from a cup of seawater, your body must pull more fresh water from its own tissues than you actually swallowed, accelerating dehydration.",
+      "imageWikipediaTitle": "Seawater",
+      "sources": [
+        {
+          "title": "Can humans drink seawater?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/drinkseawater.html"
+        },
+        {
+          "title": "Seawater",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seawater"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/drinkseawater.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The popping sound of cracking your knuckles comes from opening a gas cavity, not arthritis",
+      "body": "When you pull or bend a finger to \"crack\" a knuckle, you expand the space inside the synovial joint capsule. This sudden expansion creates negative pressure, causing dissolved gases—primarily carbon dioxide—to rapidly emerge from the synovial fluid into a microscopic cavity. This rapid fluid mechanics event, known as cavitation, produces the sharp crack. Decades of clinical observations confirm that cracking your knuckles does not cause osteoarthritis or joint damage.",
+      "imageWikipediaTitle": "Synovial joint",
+      "sources": [
+        {
+          "title": "Real-Time Visualization of Joint Cavitation: A Retrospective Analysis of a Common Phenomenon",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398549/"
+        },
+        {
+          "title": "Cracking joints",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cracking_joints"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4398549/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does grapefruit juice cause dangerous interactions with certain medications?",
+      "options": [
+        "It disables an intestinal enzyme that normally breaks the drugs down",
+        "It coats the stomach lining and completely blocks drug absorption",
+        "It chemically converts medication molecules into corrosive acids",
+        "It accelerates kidney filtration and flushes medications out instantly"
+      ],
+      "correctIndex": 0,
+      "explanation": "Furanocoumarins in grapefruit inhibit CYP3A4 enzymes in the gut, allowing far more of the drug to enter the bloodstream."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do large holiday feasts actually make people feel drowsy?",
+      "options": [
+        "Turkey contains three times more tryptophan than other poultry",
+        "Carbohydrates trigger an insulin surge that clears competing amino acids",
+        "Digestive bile produces an intoxicating compound in the stomach",
+        "Chewing poultry triggers the rapid release of melatonin on the tongue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Insulin prompts muscles to absorb competing amino acids, allowing tryptophan to cross the blood-brain barrier and produce serotonin and melatonin."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the vestibulo-ocular reflex keep your vision stable when your head moves?",
+      "options": [
+        "It blinks rapidly to refresh the visual scene",
+        "It moves your eyes in the opposite direction of head motion within milliseconds",
+        "It temporarily freezes eye movement to prevent motion blur",
+        "It relies on visual cortex processing to digitally correct perception"
+      ],
+      "correctIndex": 1,
+      "explanation": "Signals from fluid movement in inner ear canals reach eye muscles in under 10 ms, rotating the eyes oppositely to stabilize the image."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does drinking seawater accelerate dehydration in humans?",
+      "options": [
+        "Seawater dissolves the protective lining of the stomach",
+        "Your kidneys need more fresh body water to excrete the salt than you consumed",
+        "Saltwater triggers excessive sweating that exhausts hydration reserves",
+        "Ocean salinity causes red blood cells to absorb fluid and burst"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human kidneys can only produce urine up to roughly 2% salt, while seawater is about 3.5%, requiring the body to sacrifice internal water to excrete it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What physical process produces the popping sound when you crack your knuckles?",
+      "options": [
+        "Tendon fibers snapping loudly across adjacent bone",
+        "Cartilage surfaces grinding directly against each other",
+        "Rapid formation of a gas cavity inside low-pressure synovial fluid",
+        "Microscopic bone fractures instantly fusing back together"
+      ],
+      "correctIndex": 2,
+      "explanation": "Joint distraction drops the fluid pressure below the vapor pressure, forming a microscopic gas cavity through cavitation."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How quickly (in milliseconds) does the vestibulo-ocular reflex fire to move your eyes when your head shifts?",
+      "answer": 10,
+      "min": 1,
+      "max": 100,
+      "unit": "ms",
+      "explanation": "Operating in under 10 milliseconds, the vestibulo-ocular reflex is one of the fastest neural reflexes in the human body."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of typical seawater is made up of dissolved salts?",
+      "answer": 3.5,
+      "min": 0.5,
+      "max": 15,
+      "unit": "%",
+      "explanation": "Seawater averages 3.5% salt, which is nearly double the maximum salinity human kidneys can produce in urine."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Drinking a single glass of grapefruit juice can dangerously alter medication levels for multiple days.",
+      "answer": true,
+      "explanation": "Grapefruit irreversibly inhibits intestinal CYP3A4 enzymes, and normal enzyme levels can take up to 72 hours to regenerate."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Eating roast turkey makes you drowsy because turkey is exceptionally high in tryptophan.",
+      "answer": false,
+      "explanation": "Turkey has similar tryptophan levels to chicken and beef; drowsiness after holiday feasts is driven by heavy carbohydrate intake and insulin."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Cracking your knuckles causes osteoarthritis and long-term joint damage.",
+      "answer": false,
+      "explanation": "Multiple clinical studies have found no link between habitual knuckle cracking and the development of hand osteoarthritis."
+    }
+  ]
+}

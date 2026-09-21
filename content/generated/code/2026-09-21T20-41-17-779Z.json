@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.779Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The programming language that invented modern modular code",
+      "body": "In 1974, MIT computer scientist Barbara Liskov created CLU, a language designed to solve a growing software crisis: large programs collapsed under their own complexity. CLU introduced abstract data types, iterators, and exception handling. Instead of exposing raw memory and internal variables, code could only interact with data through strict, well-defined interfaces. This modular design became the architectural blueprint for modern object-oriented languages, earning Liskov computing's highest prize, the Turing Award.",
+      "imageWikipediaTitle": "Barbara Liskov",
+      "sources": [
+        {
+          "title": "Barbara Liskov wins Turing Award",
+          "publisher": "MIT News",
+          "url": "https://news.mit.edu/2009/turing-liskov-0310"
+        },
+        {
+          "title": "Barbara Liskov",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barbara_Liskov"
+        }
+      ],
+      "readMoreUrl": "https://news.mit.edu/2009/turing-liskov-0310",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1961 computer song that inspired HAL 9000's dying words",
+      "body": "In 1961 at Bell Labs, acoustic researcher Max Mathews and physicist John Kelly programmed an IBM 704 mainframe to sing \"Daisy Bell\" (Bicycle Built for Two). It was the first time a computer ever synthesized the human singing voice, combining digital vocal tract modeling with musical notes. Sci-fi author Arthur C. Clarke visited the lab, heard the haunting machine vocalization, and was so captivated that he wrote it directly into the climax of 2001: A Space Odyssey.",
+      "imageWikipediaTitle": "Max Mathews",
+      "sources": [
+        {
+          "title": "Daisy Bell - National Recording Registry",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/DAISY%20BELL.pdf"
+        },
+        {
+          "title": "Daisy Bell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Daisy_Bell"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/static/programs/national-recording-preservation-board/documents/DAISY%20BELL.pdf",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The internet's very first message crashed after two letters",
+      "body": "On October 29, 1969, student programmer Charley Kline sat at a UCLA terminal attempting to send the first message across ARPANET to Stanford Research Institute. The plan was to transmit the command \"LOGIN\". Kline typed \"L\" and confirmed by phone that Stanford received the character. He typed \"O\", which also transmitted successfully. But when he typed \"G\", a memory buffer overflow crashed the receiving machine. The internet's inaugural transmission was simply \"LO\".",
+      "imageWikipediaTitle": "ARPANET",
+      "sources": [
+        {
+          "title": "The Birthplace of the Internet",
+          "publisher": "UCLA Samueli School of Engineering",
+          "url": "https://samueli.ucla.edu/birthplace-of-the-internet/"
+        },
+        {
+          "title": "ARPANET",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ARPANET"
+        }
+      ],
+      "readMoreUrl": "https://samueli.ucla.edu/birthplace-of-the-internet/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Network anchors hid a computer's 1952 election forecast because it was too accurate",
+      "body": "On election night in 1952, CBS News debuted the UNIVAC I computer to forecast the presidential race between Dwight Eisenhower and Adlai Stevenson. With just seven percent of the national vote counted, UNIVAC projected an Eisenhower landslide with 438 electoral votes. Disbelieving that a computer algorithm could outsmart political pollsters, network executives and engineers dismissed the calculation as a bug and hid it on air. Eisenhower won with 442 electoral votes—just four off UNIVAC's initial projection.",
+      "imageWikipediaTitle": "UNIVAC I",
+      "sources": [
+        {
+          "title": "UNIVAC I Predicts the Election",
+          "publisher": "Computer History Museum",
+          "url": "https://computerhistory.org/stories/univac-predicts-the-election/"
+        },
+        {
+          "title": "UNIVAC I",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://www.census.gov/history/www/innovations/technology/univac_i.html"
+        },
+        {
+          "title": "UNIVAC I",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UNIVAC_I"
+        }
+      ],
+      "readMoreUrl": "https://computerhistory.org/stories/univac-predicts-the-election/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A college coder's hack turned the early web into a visual medium",
+      "body": "In early 1993, the World Wide Web was an austere, text-only medium for exchanging technical documents. Marc Andreessen and Eric Bina, working at the University of Illinois Urbana-Champaign, changed that by adding the <img> tag to their new browser, NCSA Mosaic. For the first time, images rendered inline alongside text instead of opening in a clumsy external window. By making the web colorful and intuitive, Mosaic sparked the 1990s internet boom.",
+      "imageWikipediaTitle": "NCSA Mosaic",
+      "sources": [
+        {
+          "title": "The Birth of the Web Browser: Twenty Years of Mosaic",
+          "publisher": "Library of Congress",
+          "url": "https://blogs.loc.gov/thesignal/2013/04/the-birth-of-the-web-browser-twenty-years-of-mosaic/"
+        },
+        {
+          "title": "NCSA Mosaic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/NCSA_Mosaic"
+        }
+      ],
+      "readMoreUrl": "https://blogs.loc.gov/thesignal/2013/04/the-birth-of-the-web-browser-twenty-years-of-mosaic/",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which programming language developed by Barbara Liskov introduced abstract data types and iterators?",
+      "options": [
+        "CLU",
+        "Pascal",
+        "Simula",
+        "Ada"
+      ],
+      "correctIndex": 0,
+      "explanation": "Barbara Liskov developed CLU at MIT in 1974, pioneering abstract data types, iterators, and modular software design."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What song became the first computer-synthesized human singing performance in 1961?",
+      "options": [
+        "Daisy Bell",
+        "God Save the Queen",
+        "Auld Lang Syne",
+        "Twinkle, Twinkle, Little Star"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bell Labs researchers programmed an IBM 704 to synthesize 'Daisy Bell', which inspired the dying scene of HAL 9000 in 2001: A Space Odyssey."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What were the first two letters successfully transmitted across ARPANET before the system crashed?",
+      "options": [
+        "LO",
+        "HI",
+        "OK",
+        "GO"
+      ],
+      "correctIndex": 0,
+      "explanation": "The UCLA programmer intended to type 'LOGIN', but the Stanford computer crashed after the letters 'L' and 'O'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did CBS News withhold UNIVAC I's 1952 presidential election projection during the broadcast?",
+      "options": [
+        "The landslide prediction was deemed too extreme to be credible",
+        "The computer caught fire in the broadcast studio",
+        "A power outage wiped the computer's memory banks",
+        "Federal election laws barred early algorithmic calls"
+      ],
+      "correctIndex": 0,
+      "explanation": "Commentators believed UNIVAC's projected 438 electoral votes for Eisenhower was a coding error, but Eisenhower actually won 442."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What groundbreaking feature did the NCSA Mosaic browser introduce to the web in 1993?",
+      "options": [
+        "The <img> tag for inline images",
+        "Cascading Style Sheets (CSS)",
+        "JavaScript client scripting",
+        "Video streaming playback"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mosaic introduced the <img> tag, allowing images to display directly alongside text instead of in separate pop-up windows."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many electoral votes did the UNIVAC computer forecast for Dwight Eisenhower in 1952 with just 7% of votes counted?",
+      "answer": 438,
+      "min": 250,
+      "max": 531,
+      "unit": "votes",
+      "explanation": "UNIVAC predicted 438 electoral votes. Network executives hid the number thinking the machine had glitched, but Eisenhower finished with 442."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The first message ever transmitted across the internet was intended to be the word 'HELLO'.",
+      "answer": false,
+      "explanation": "The transmission was meant to be the command 'LOGIN', but the receiving machine crashed on the third letter, leaving only 'LO'."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The UNIVAC computer failed its famous 1952 election night debut because of an algorithm glitch.",
+      "answer": false,
+      "explanation": "UNIVAC's algorithm was remarkably accurate, predicting an Eisenhower landslide of 438 electoral votes; humans hid it believing computers couldn't outsmart pollsters."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Early web browsers could display images directly inside web pages alongside text from the start.",
+      "answer": false,
+      "explanation": "Early web browsers only displayed text; images opened in separate viewer applications until Mosaic introduced the <img> tag in 1993."
+    }
+  ]
+}

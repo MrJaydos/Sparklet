@@ -1,0 +1,192 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.775Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you shouldn't worry in Hakka: the origin of 'kumquat'",
+      "body": "The citrus fruit 'kumquat' gets its name from Cantonese and Hakka Chinese. In Cantonese, it is written 金柑 and pronounced *gam1 gam1*, literally 'gold orange'. But English borrowed the term from Hakka 金橘 (gīm-kwat; pronounced roughly *geem-kwaht*), which translates to 'golden tangerine'. The tiny fruit was brought to Europe in the mid-19th century by botanical collector Robert Fortune, carrying its Cantonese-Hakka name across the globe.",
+      "imageWikipediaTitle": "Kumquat",
+      "sources": [
+        {
+          "title": "kumquat",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/kumquat"
+        },
+        {
+          "title": "kumquat",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/kumquat"
+        },
+        {
+          "title": "Kumquat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kumquat"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Kumquat",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to say a heartfelt 'thank you' in Dutch",
+      "body": "In Dutch, the standard and universally polite way to express gratitude is dank u wel (pronounced *dahnk oo vel*), written simply as dank u wel in the Latin script. For informal settings among friends or family, speakers switch from the formal *u* to informal *je*, saying dank je wel (pronounced *dahnk yuh vel*). Both phrases literally mean 'thank you well', emphasizing genuine appreciation.",
+      "imageWikipediaTitle": "Netherlands",
+      "sources": [
+        {
+          "title": "Dutch Phrases",
+          "publisher": "BBC Languages",
+          "url": "https://www.bbc.co.uk/languages/dutch/guide/phrases.shtml"
+        },
+        {
+          "title": "Dutch language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dutch_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Dutch_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient naval ropes that gave us 'corduroy'",
+      "body": "A popular myth claims 'corduroy' comes from the French *corde du roi*, meaning 'cord of the king'. However, French royal servants never wore the ribbed cloth, and the French word for corduroy is actually *velours côtelé*. The term was actually coined by English fabric merchants in the late 18th century, likely blending 'cord'—referring to the fabric's raised ridges—with 'duroy', an existing coarse woolen fabric produced in England.",
+      "imageWikipediaTitle": "Corduroy",
+      "sources": [
+        {
+          "title": "corduroy",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/corduroy"
+        },
+        {
+          "title": "corduroy",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/corduroy"
+        },
+        {
+          "title": "Corduroy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Corduroy"
+        }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/corduroy",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Portuguese",
+      "body": "Counting to three in Portuguese illustrates its direct descent from Latin: um, dois, três (pronounced *oom, doysh, trays*). Written in the Latin alphabet, these numbers correspond to Latin *unus*, *duo*, and *tres*. Notably, the number one (*um*) inflects for grammatical gender: a speaker says *um livro* (one book, masculine) but *uma mesa* (one table, feminine), and 'two' also shifts to *duas* for feminine nouns.",
+      "imageWikipediaTitle": "Portuguese language",
+      "sources": [
+        {
+          "title": "Portuguese numbers",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/portuguese.htm"
+        },
+        {
+          "title": "Portuguese language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portuguese_language"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Portuguese_language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a small French coin gave us 'gazette'",
+      "body": "Before newspapers were common, the Republic of Venice published official government bulletins on single sheets of paper. In the 16th century, buying or reading one of these news sheets cost one *gazeta*, a small Venetian copper coin. Over time, the name of the coin became synonymous with the news publication itself, giving Italian *gazzetta*, French *gazette*, and English words like *gazette* and *gazetteer*.",
+      "imageWikipediaTitle": "Gazette",
+      "sources": [
+        {
+          "title": "gazette",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/gazette"
+        },
+        {
+          "title": "gazette",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/gazette"
+        },
+        {
+          "title": "Gazette",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gazette"
+        }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/gazette",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the Cantonese/Hakka source for the word 'kumquat' literally translate to?",
+      "options": [
+        "Golden tangerine or orange",
+        "Sweet lemon",
+        "Small sun",
+        "Sour plum"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Cantonese and Hakka (金柑 / 金橘), the characters literally mean 'golden orange' or 'golden tangerine'."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the formal Dutch phrase for 'thank you very much' or 'thank you well'?",
+      "options": [
+        "Dank u wel",
+        "Merci beaucoup",
+        "Takk fyrir",
+        "Bitte schön"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Dank u wel' uses the formal pronoun 'u' to express polite gratitude in Dutch."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where does the word 'corduroy' most likely originate?",
+      "options": [
+        "From English 'cord' combined with 'duroy', a coarse woolen cloth",
+        "From French 'corde du roi', meaning cord of the king",
+        "From an Italian weaving guild founded in Genoa",
+        "From a Spanish royal decree regulating ribbed textiles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'corde du roi' story is a folk etymology; it was an English commercial term likely blending 'cord' and the existing fabric name 'duroy'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Portuguese, what happens to the words for 'one' and 'two' before feminine nouns?",
+      "options": [
+        "They change form to 'uma' and 'duas'",
+        "They gain a nasal prefix",
+        "They remain completely identical to the masculine forms",
+        "They drop their final consonants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Portuguese numbers one and two inflect for grammatical gender, becoming 'uma' and 'duas' for feminine nouns."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was a 'gazeta' originally in 16th-century Venice?",
+      "options": [
+        "A small copper coin used to buy a news bulletin",
+        "A type of horn blown by town criers",
+        "The official printing press of the Doge",
+        "A messenger pigeon used by coastal merchants"
+      ],
+      "correctIndex": 0,
+      "explanation": "A 'gazeta' was a small Venetian copper coin that paid for a reading of the government's official news sheet."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The word 'corduroy' comes from the French phrase 'corde du roi', meaning 'cloth of the king'.",
+      "answer": false,
+      "explanation": "Corduroy was coined by English fabric merchants, likely combining 'cord' with 'duroy' (a coarse woolen fabric). The French term is 'velours côtelé'."
+    }
+  ]
+}

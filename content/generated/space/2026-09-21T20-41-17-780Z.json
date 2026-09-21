@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.780Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single star confirmed Einstein's gravity around our galaxy's monster black hole",
+      "body": "For nearly three decades, astronomers meticulously tracked a star named S2 as it looped around Sagittarius A*, the supermassive black hole at the center of the Milky Way. Orbiting once every 16 years, S2 screams past the black hole at almost three percent of light speed. Its closest approach gradually shifts around the black hole in a rosette pattern, directly confirming the relativistic precession Albert Einstein predicted a century earlier.",
+      "imageWikipediaTitle": "S2 (star)",
+      "sources": [
+        {
+          "title": "Detection of the Schwarzschild precession in the orbit of the star S2 around the Galactic Centre massive black hole",
+          "publisher": "ESO",
+          "url": "https://www.eso.org/public/news/eso2006/"
+        },
+        {
+          "title": "S2 (star)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/S2_(star)"
+        }
+      ],
+      "readMoreUrl": "https://www.eso.org/public/news/eso2006/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Apollo 12 was struck by lightning twice during launch and survived",
+      "body": "Just 36 seconds after lifting off for the Moon in November 1969, Apollo 12's Saturn V rocket was struck by lightning, followed by a second strike 16 seconds later. The electrical surge tripped all three fuel cells, blinding the cockpit with warning lights and scrambling telemetry. The mission was saved when 26-year-old flight controller John Aaron recognized the obscure telemetry glitch and calmly radioed the fix: \"Try SCE to AUX.\"",
+      "imageWikipediaTitle": "Apollo 12",
+      "sources": [
+        {
+          "title": "The Launch of Apollo 12",
+          "publisher": "NASA History Division",
+          "url": "https://history.nasa.gov/afj/ap12fj/01launch_lightning.html"
+        },
+        {
+          "title": "Apollo 12",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_12"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/afj/ap12fj/01launch_lightning.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A space telescope is charting a 3D map of nearly two billion stars",
+      "body": "Launched by the European Space Agency in 2013, the Gaia space observatory is assembling the largest, most accurate multidimensional map of the Milky Way. Operating 1.5 million kilometers from Earth at the L2 Lagrange point, Gaia repeatedly measures the positions, distances, and velocities of nearly two billion stars. Its measurements are so precise they could detect the diameter of a single human hair from 1,000 kilometers away.",
+      "imageWikipediaTitle": "Gaia (spacecraft)",
+      "sources": [
+        {
+          "title": "Gaia overview",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_overview"
+        },
+        {
+          "title": "Gaia (spacecraft)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gaia_(spacecraft)"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_overview",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The discovery that proved asteroids can have their own moons",
+      "body": "Until 1993, astronomers debated whether tiny asteroids had enough gravity to capture and hold natural satellites. That question was answered when NASA's Galileo spacecraft flew past the 31-kilometer-wide asteroid 243 Ida en route to Jupiter. Photos beamed home revealed a tiny, cratered companion just 1.4 kilometers across orbiting Ida. Named Dactyl, it was the first asteroid moon ever discovered, proving small bodies can form stable orbital systems.",
+      "imageWikipediaTitle": "243 Ida",
+      "sources": [
+        {
+          "title": "PIA00069: Asteroid Ida and Its Moon Dactyl",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://www.jpl.nasa.gov/images/pia00069-asteroid-ida-and-its-moon-dactyl"
+        },
+        {
+          "title": "Dactyl (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dactyl_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://www.jpl.nasa.gov/images/pia00069-asteroid-ida-and-its-moon-dactyl",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A deaf astronomer found the yardstick that measured the universe",
+      "body": "In the early 1900s, Henrietta Swan Leavitt analyzed thousands of photographic plates of stars at the Harvard College Observatory. She noticed a striking pattern in Cepheid variables: brighter stars took consistently longer to pulse. This period-luminosity relation gave astronomers their first reliable cosmic yardstick. By comparing a star's apparent brightness with its true brightness derived from its pulse, Edwin Hubble later proved that distant spirals were separate galaxies outside our own.",
+      "imageWikipediaTitle": "Henrietta Swan Leavitt",
+      "sources": [
+        {
+          "title": "Henrietta Swan Leavitt",
+          "publisher": "Harvard Library",
+          "url": "https://library.harvard.edu/about/news/2020-03-23/henrietta-swan-leavitt"
+        },
+        {
+          "title": "Henrietta Swan Leavitt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+        }
+      ],
+      "readMoreUrl": "https://library.harvard.edu/about/news/2020-03-23/henrietta-swan-leavitt",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which astronomical object does the star S2 orbit in an elliptical path every 16 years?",
+      "options": [
+        "Sagittarius A*",
+        "Cygnus X-1",
+        "Proxima Centauri",
+        "Sirius B"
+      ],
+      "correctIndex": 0,
+      "explanation": "S2 orbits Sagittarius A*, the supermassive black hole at the core of the Milky Way galaxy."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What natural event knocked out Apollo 12's electrical instruments seconds after liftoff?",
+      "options": [
+        "Lightning strikes",
+        "A solar flare",
+        "Hailstorm turbulence",
+        "A micrometeoroid strike"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apollo 12 was struck twice by lightning within a minute of liftoff, knocking out its main fuel cells."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary mission of the European Space Agency's Gaia observatory?",
+      "options": [
+        "Creating an ultra-precise 3D map of nearly two billion stars",
+        "Searching for liquid water on Jovian moons",
+        "Imaging the event horizons of supermassive black holes",
+        "Sampling dust in the Kuiper belt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gaia measures the positions, distances, and motions of nearly two billion stars to map the Milky Way."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which spacecraft discovered the first known moon orbiting an asteroid when it flew past 243 Ida?",
+      "options": [
+        "Galileo",
+        "Voyager 1",
+        "Cassini",
+        "New Horizons"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 1993, NASA's Galileo spacecraft photographed the moonlet Dactyl orbiting asteroid 243 Ida."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What property of Cepheid variable stars did Henrietta Swan Leavitt link to their intrinsic brightness?",
+      "options": [
+        "Their pulsation period",
+        "Their surface temperature",
+        "Their rotational speed",
+        "Their magnetic field strength"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leavitt found that a Cepheid's pulsation period directly correlates with its intrinsic luminosity."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many Earth years does it take the star S2 to complete one orbit around Sagittarius A*?",
+      "answer": 16,
+      "min": 2,
+      "max": 100,
+      "unit": "years",
+      "explanation": "S2 takes roughly 16 Earth years to complete its orbit around the Milky Way's central black hole."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "A rocket launch can trigger and conduct lightning strikes even if no lightning was present beforehand.",
+      "answer": true,
+      "explanation": "A rocket's metal body and conductive ionized exhaust trail can trigger electrical discharges from charged clouds."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Asteroids are too small to possess and retain their own orbiting moons.",
+      "answer": false,
+      "explanation": "NASA's Galileo probe proved asteroids can have moons when it discovered Dactyl orbiting Ida in 1993."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Edwin Hubble was the first astronomer to calculate how far away distant galaxies are.",
+      "answer": false,
+      "explanation": "Henrietta Swan Leavitt discovered the Cepheid period-luminosity relation that provided the cosmic yardstick Hubble used."
+    }
+  ]
+}

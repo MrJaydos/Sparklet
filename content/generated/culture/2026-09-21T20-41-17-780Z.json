@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.780Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Island Prison That Guarded Venice's Glass Secrets",
+      "body": "In 1291, the Republic of Venice ordered all glass furnaces relocated to the island of Murano. While officially framed as fire prevention, the decree safeguarded lucrative technical monopolies like cristallo, the world's first crystal-clear glass. Murano glassmakers enjoyed noble privileges and immunity from prosecution, but fleeing the republic was strictly forbidden. Smuggling glassmaking secrets abroad was treated as treason, punishable by banishment or death.",
+      "imageWikipediaTitle": "Murano glass",
+      "sources": [
+        {
+          "title": "Murano glass",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/Murano-glass"
+        },
+        {
+          "title": "Murano glass",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Murano_glass"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/Murano-glass",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Opera Superstars Created by a Brutal Sacrifice",
+      "body": "During the 17th and 18th centuries, an estimated 4,000 Italian boys were castrated each year before puberty to preserve their high vocal pitch. The procedure prevented vocal cords from lengthening while their rib cages and lungs developed into full adult size. The resulting castrati commanded superhuman lung capacity, agility, and soaring vocal range, becoming opera's first international superstars and earning astronomical fortunes before the practice was banned in the late 19th century.",
+      "imageWikipediaTitle": "Castrato",
+      "sources": [
+        {
+          "title": "Castrato",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/castrato"
+        },
+        {
+          "title": "Castrato",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Castrato"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/castrato",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Iconic American Instrument Born in West Africa",
+      "body": "Though central to American bluegrass and country music, the banjo originated among enslaved West Africans in the 17th-century Caribbean and American South. Modelled on West African lute instruments like the Jola akonting, early banjos were crafted from hollowed gourds covered with animal hide and strung with gut. Only in the 1830s did white minstrel performers adopt the instrument, commercializing it into modern folk traditions while obscuring its direct African heritage.",
+      "imageWikipediaTitle": "Banjo",
+      "sources": [
+        {
+          "title": "Banjo",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/banjo"
+        },
+        {
+          "title": "Banjo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Banjo"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/banjo",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Tiny Door That Forced Samurai to Disarm",
+      "body": "In traditional Japanese tea ceremony rooms, guests enter through a doorway called the nijiriguchi, measuring less than three feet high. Master Sen no Rikyū popularized this miniature entrance in the 16th century to dismantle social hierarchy. To pass through, every guest—including powerful feudal warlords—had to crawl inside on their hands and knees. The cramped portal made it impossible to wear samurai swords, enforcing total peaceful equality within the tearoom.",
+      "imageWikipediaTitle": "Chashitsu",
+      "sources": [
+        {
+          "title": "Tea ceremony",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/cha-no-yu"
+        },
+        {
+          "title": "Chashitsu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chashitsu"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/cha-no-yu",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Whirling Dance Once Condemned as an Obscenity",
+      "body": "When the waltz surged across European ballrooms in the late 18th and early 19th centuries, critics and moralists denounced it as a public hazard. Traditional court dances had kept partners largely separated, touching only fingertips. The waltz shocked polite society by requiring couples to face each other in a tight bodily embrace while spinning at breakneck speed. Medical texts and clergy warned it encouraged promiscuity and physical collapse.",
+      "imageWikipediaTitle": "Waltz",
+      "sources": [
+        {
+          "title": "Waltz",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/waltz"
+        },
+        {
+          "title": "Waltz",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Waltz"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/waltz",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did the Republic of Venice order all glass furnaces relocated to the island of Murano in 1291?",
+      "options": [
+        "To protect lucrative glass secrets and prevent urban fire hazards",
+        "To punish glass artisans after an armed rebellion against the Doge",
+        "To isolate glass blowers during an outbreak of the bubonic plague",
+        "To build closer facilities to offshore sandbanks for raw silica"
+      ],
+      "correctIndex": 0,
+      "explanation": "The decree moved glassmakers to Murano to protect Venice from catastrophic fires while strictly guarding prized manufacturing secrets."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What anatomical feature gave European castrati their unprecedented vocal power and range?",
+      "options": [
+        "Enlarged vocal cords stretched through intensive juvenile therapy",
+        "Prepubescent vocal cords paired with an adult male rib cage and lungs",
+        "Surgically widened nasal cavities and throat airways",
+        "An abnormally flexible jaw shape developed from vocal exercises"
+      ],
+      "correctIndex": 1,
+      "explanation": "Castration halted vocal cord growth while chest cavities developed into full adult size, yielding superhuman vocal power and range."
+    },
+    {
+      "cardIndex": 2,
+      "question": "From which ancestral musical tradition did the modern American banjo directly evolve?",
+      "options": [
+        "Celtic lute instruments brought by Irish laborers",
+        "West African gourd-and-skin lutes made by enslaved people",
+        "Spanish vihuela instruments played in colonial Florida",
+        "Indigenous frame drums adapted with extended wooden necks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enslaved West Africans crafted the first American banjos from gourds and animal hides, based on ancestral instruments like the akonting."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the main purpose of the knee-high nijiriguchi entrance in Japanese tearooms?",
+      "options": [
+        "To keep drafts out and retain warmth near the tea hearth",
+        "To compel all guests to enter on their knees as equals without swords",
+        "To block bad spirits from invading the spiritual tearoom sanctuary",
+        "To pay tribute to Buddhist hermits living in low mountain huts"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tiny crawl-in door forced even powerful samurai to drop to their knees and abandon their weapons outside, establishing equality."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did 18th- and 19th-century commentators initially condemn the waltz as scandalous?",
+      "options": [
+        "Partners danced while holding each other in a continuous close embrace",
+        "Dancers performed without chaperones in town squares",
+        "It required dancers to bare their ankles and discard formal shoes",
+        "Its musical accompaniment was composed in banned liturgical rhythms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike earlier courtly dances that kept partners apart, the waltz required couples to hold each other face-to-face in close physical contact."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "During the peak of the castrato craze in 18th-century Italy, roughly how many young boys were castrated each year for their singing voices?",
+      "answer": 4000,
+      "min": 100,
+      "max": 20000,
+      "unit": "",
+      "explanation": "Historians estimate roughly 4,000 boys were castrated annually across Italy in the hopes of launching lucrative operatic careers."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Venetian glassmakers caught attempting to smuggle trade secrets abroad could be sentenced to death.",
+      "answer": true,
+      "explanation": "The Venetian Republic considered glass formulas vital state secrets; fleeing glassmakers risked assassination or execution."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The banjo was originally invented by European-American folk musicians in the Appalachian Mountains.",
+      "answer": false,
+      "explanation": "The banjo originated with enslaved West Africans, who adapted traditional lute designs using gourds and hide in the Americas."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The waltz was celebrated as a dignified, respectable court dance from the moment it was introduced.",
+      "answer": false,
+      "explanation": "When the waltz first emerged, religious authorities and critics condemned it as shockingly intimate, indecent, and corrupting."
+    }
+  ]
+}

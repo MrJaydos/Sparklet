@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.778Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frogs swallow food by pulling their eyeballs down into their mouths",
+      "body": "Frogs don't just use their tongues and throat muscles to eat—they use their eyes. Because a frog has a thin, flexible palate and weak swallowing muscles, it retracts its eyeballs deep into its skull sockets when eating. The back of the eye bulges directly into the roof of the mouth, acting like mechanical pistons that physically shove food down into the stomach. Without blinking, a frog struggles to swallow large prey.",
+      "imageWikipediaTitle": "Frog",
+      "sources": [
+        {
+          "title": "Do frogs use their eyes to swallow?",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15000570/"
+        },
+        {
+          "title": "Frog",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Frog"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/15000570/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Naked mole-rats are completely immune to the burning pain of acid",
+      "body": "Pouring concentrated acid or chili pepper juice on most mammals triggers agonizing burning. Naked mole-rats, however, feel absolutely nothing. Living in subterranean, poorly ventilated tunnels, carbon dioxide builds up to levels that would convert moisture in typical mammalian skin into painful carbonic acid. Mole-rats evolved an altered nerve receptor that completely shuts down in acidic environments, allowing them to sleep peacefully in air that would leave other animals in excruciating pain.",
+      "imageWikipediaTitle": "Naked mole-rat",
+      "sources": [
+        {
+          "title": "Selective inflammatory pain insensitivity in the African naked mole-rat",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18235952/"
+        },
+        {
+          "title": "Naked mole-rat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Naked_mole-rat"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/18235952/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hens can spontaneously transform into roosters",
+      "body": "Under rare conditions, an egg-laying hen can physically transform into a rooster. Female birds develop only their left ovary; their right gonad remains dormant and undeveloped. If disease, an infection, or a tumor damages the left ovary, that dormant right gonad can awaken and develop into an 'ovotestis' that pumps out testosterone. The hen then stops laying eggs, sprouts male plumage and spurs, grows an enlarged comb, and begins crowing at dawn.",
+      "imageWikipediaTitle": "Chicken",
+      "sources": [
+        {
+          "title": "Can a Chicken Really Change Its Sex?",
+          "publisher": "Live Science",
+          "url": "https://www.livescience.com/13441-chicken-sex-change.html"
+        },
+        {
+          "title": "Sex reversal",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sex_reversal"
+        }
+      ],
+      "readMoreUrl": "https://www.livescience.com/13441-chicken-sex-change.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An octopus has three hearts, and swimming stops the biggest one",
+      "body": "An octopus powers its circulation with three separate hearts. Two branchial hearts pump blue, copper-rich blood through the gills to collect oxygen, while a central systemic heart circulates oxygenated blood through the rest of the body. Curiously, the systemic heart stops beating whenever an octopus swims, quickly exhausting the animal. Because swimming literally cuts off its own main circulation, an octopus prefers slowly crawling along the seafloor rather than swimming.",
+      "imageWikipediaTitle": "Octopus",
+      "sources": [
+        {
+          "title": "Octopuses have three hearts: here's why",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/octopuses-have-three-hearts.html"
+        },
+        {
+          "title": "Octopus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Octopus"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/octopuses-have-three-hearts.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cashews grow outside of fruit and have poison-ivy shells",
+      "body": "Cashews do not grow inside normal pods or nuts. Each cashew grows dangling beneath a plump, pear-shaped false fruit known as a cashew apple. Stranger still, the cashew's shell contains an oily resin packed with anacardic acid and urushiol—the exact same toxic compound found in poison ivy. Shelling a raw cashew causes severe skin blistering, which is why commercial cashews are always roasted or steamed to destroy the toxins before being sold.",
+      "imageWikipediaTitle": "Cashew",
+      "sources": [
+        {
+          "title": "How do cashews grow?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/agriculture/item/how-do-cashews-grow/"
+        },
+        {
+          "title": "Cashew",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cashew"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/agriculture/item/how-do-cashews-grow/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do frogs pull their eyeballs down into their heads while eating?",
+      "options": [
+        "To mechanically shove swallowed prey down into their throats",
+        "To shield their corneas from struggling insect legs",
+        "To equalize internal fluid pressure inside their skull",
+        "To trigger saliva production through muscle compression"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because frogs lack strong swallowing muscles and hard palates, retracting their eyes pushes food down the esophagus."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are naked mole-rats completely immune to acid pain?",
+      "options": [
+        "A genetic mutation in their nerve receptors blocks acid signaling",
+        "Their skin is coated in an alkaline mucus that neutralizes acid",
+        "They completely lack sensory pain fibers throughout their body",
+        "Subterranean sulfur deposits desensitized their nervous system"
+      ],
+      "correctIndex": 0,
+      "explanation": "To survive high carbon dioxide levels in crowded burrows, mole-rats evolved altered nerve receptors that shut down in acidic conditions."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How can an adult female chicken spontaneously transform into a rooster?",
+      "options": [
+        "Damage to the left ovary allows a dormant right gonad to become an ovotestis",
+        "A severe drop in coop temperature activates hidden male genes",
+        "Excess dietary calcium permanently reverses estrogen production",
+        "Mating season stress causes the pituitary gland to produce testosterone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Female birds typically rely on a single left ovary. If it fails, the dormant right gonad can awaken and produce testosterone."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens to an octopus's central systemic heart while it swims?",
+      "options": [
+        "It temporarily stops beating",
+        "It beats twice as fast as the other two hearts",
+        "It reverses the flow of oxygenated blood",
+        "It switches from pumping blue blood to red blood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Swimming stops the main systemic heart, rapidly tiring the octopus and making it prefer crawling along the seabed."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are cashews never sold in grocery stores inside their natural shells?",
+      "options": [
+        "The shells contain urushiol, the blistering chemical found in poison ivy",
+        "The shells are completely impervious to standard commercial nutcrackers",
+        "The shells release toxic cyanide gas when exposed to air",
+        "The shells absorb moisture and rot within hours of being picked"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cashew shells contain toxic anacardic acid and urushiol, which cause severe chemical burns unless removed by roasting or steaming."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many hearts does an octopus have pumping blood through its body?",
+      "answer": 3,
+      "min": 1,
+      "max": 8,
+      "unit": "",
+      "explanation": "An octopus has two branchial hearts pumping blood through the gills and one central systemic heart for the rest of its body."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Frogs blink while swallowing simply to protect their eyes from struggling prey",
+      "answer": false,
+      "explanation": "Frogs pull their eyeballs deep into their skulls to physically force food down their throat."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Concentrated acid and capsaicin trigger burning pain in all mammals",
+      "answer": false,
+      "explanation": "Naked mole-rats possess an altered nerve channel that prevents them from feeling acid and capsaicin pain."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "An egg-laying hen can naturally transform into a crowing rooster",
+      "answer": true,
+      "explanation": "If a hen's functioning left ovary is damaged, her dormant right gonad can develop into an ovotestis, turning her into a rooster."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Raw cashews sold in grocery stores are completely unprocessed and unheated",
+      "answer": false,
+      "explanation": "Cashews must be thoroughly roasted or steamed to remove urushiol, the blistering toxin found in poison ivy."
+    }
+  ]
+}

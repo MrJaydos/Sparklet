@@ -1,0 +1,223 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.778Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn is light enough to float in water",
+      "body": "Despite being the second-largest planet in our solar system—over 700 times the volume of Earth—Saturn has an average density of just 0.687 grams per cubic centimeter. That makes it less dense than liquid water, which sits at 1.0 gram per cubic centimeter. If you could build an ocean bathtub colossal enough to hold it, Saturn would bob on the surface like a giant rubber duck.",
+      "imageWikipediaTitle": "Saturn",
+      "sources": [
+        {
+          "title": "Saturn Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/saturn/facts/"
+        },
+        {
+          "title": "Saturn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saturn"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/facts/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sharks are older than trees",
+      "body": "The earliest fossilized shark scales date back roughly 450 million years to the Late Ordovician period, and true early sharks roamed the oceans about 400 million years ago. Meanwhile, the earliest known woody trees, such as Archaeopteris, did not take root on land until roughly 385 million years ago. That means sharks had already been swimming the seas for tens of millions of years before the first forest existed.",
+      "imageWikipediaTitle": "Shark",
+      "sources": [
+        {
+          "title": "Shark evolution: a 400-million-year journey",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/shark-evolution-a-400-million-year-journey.html"
+        },
+        {
+          "title": "Shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shark"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/shark-evolution-a-400-million-year-journey.html",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Diamonds can burn completely into thin air",
+      "body": "Despite being renowned as the hardest natural mineral on Earth, a diamond is made purely of carbon. If you heat a diamond to around 800 degrees Celsius in the presence of oxygen, it catches fire. Because the carbon atoms combine directly with atmospheric oxygen, the entire crystal oxidizes into carbon dioxide gas, disappearing without leaving behind even a trace of ash.",
+      "imageWikipediaTitle": "Diamond",
+      "sources": [
+        {
+          "title": "Antoine-Laurent Lavoisier: The Chemical Revolution",
+          "publisher": "American Chemical Society",
+          "url": "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+        },
+        {
+          "title": "Diamond",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diamond"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Diamond",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your skeleton is never more than ten years old",
+      "body": "Bone might feel like an inert, permanent scaffolding, but it is living tissue in constant flux. Specialized cells called osteoclasts constantly break down aged bone matrix, while osteoblasts lay down fresh mineralized collagen in its place. This continuous cycle, known as bone remodeling, replaces roughly ten percent of your adult skeleton every single year—meaning virtually every bone in your body is completely rebuilt about once a decade.",
+      "imageWikipediaTitle": "Bone",
+      "sources": [
+        {
+          "title": "Histology, Bone Remodeling",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK459139/"
+        },
+        {
+          "title": "Bone remodeling",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bone_remodeling"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK459139/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sunspots are actually brighter than the full Moon",
+      "body": "Through a filtered telescope, sunspots look like ink-black holes punched into the solar surface. But they are not dark at all. Sunspots are intense knots of magnetic fields that cool the local plasma to about 4,000 kelvins—roughly 1,500 degrees cooler than the surrounding photosphere. If you could scoop a typical sunspot into the night sky, it would glow orange and shine roughly ten times brighter than the full Moon.",
+      "imageWikipediaTitle": "Sunspot",
+      "sources": [
+        {
+          "title": "Sunspots",
+          "publisher": "Space Weather Prediction Center",
+          "url": "https://www.swpc.noaa.gov/phenomena/sunspots"
+        },
+        {
+          "title": "Sunspot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunspot"
+        }
+      ],
+      "readMoreUrl": "https://www.swpc.noaa.gov/phenomena/sunspots",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why would Saturn float if placed in a hypothetical ocean large enough to hold it?",
+      "options": [
+        "Its average density is lower than liquid water",
+        "Its magnetic field would repel the ocean",
+        "Its rings act like stabilizing pontoons",
+        "Its outer atmosphere creates a buoyant vacuum seal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Saturn's average density is roughly 0.69 g/cm³, noticeably lower than water's density of 1.0 g/cm³."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which of these lifeforms appeared on Earth first according to the fossil record?",
+      "options": [
+        "Sharks",
+        "Woody trees",
+        "Dinosaurs",
+        "Flowering plants"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early shark ancestors date back roughly 450 million years, preceding the earliest woody trees by tens of millions of years."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What happens when a pure diamond is burned completely in oxygen?",
+      "options": [
+        "It turns entirely into carbon dioxide gas with no ash",
+        "It melts into a puddle of liquid carbon",
+        "It leaves behind a pile of soot and ash",
+        "It fractures into microscopic graphite shards"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because diamonds are pure carbon, heating them with oxygen combusts them entirely into carbon dioxide gas."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What primary biological process replaces an adult human skeleton roughly every decade?",
+      "options": [
+        "Bone remodeling by osteoclasts and osteoblasts",
+        "Continuous cartilage calcification in joints",
+        "Stem cell migration from spinal marrow",
+        "Passive shedding of outer mineral layers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Osteoclasts break down old bone while osteoblasts deposit new matrix, replacing about 10% of skeletal mass each year."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do sunspots appear black against the surface of the Sun?",
+      "options": [
+        "They are cooler than the surrounding surface, creating an optical contrast",
+        "Their intense gravity traps visible light from escaping",
+        "They consist of non-radiating solid carbon crusts",
+        "They are shadows cast by dense clouds in the solar atmosphere"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sunspots glow brilliantly at about 4,000 K, but they appear dark against the far hotter and brighter 5,800 K photosphere."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Water has a density of 1.00 g/cm³. What percentage of water's density is Saturn's average density?",
+      "answer": 69,
+      "min": 10,
+      "max": 150,
+      "unit": "%",
+      "explanation": "Saturn's average density is about 0.69 g/cm³, meaning it is only 69% as dense as liquid water."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "Roughly how many millions of years ago did the earliest shark ancestors appear in the fossil record?",
+      "answer": 450,
+      "min": 100,
+      "max": 800,
+      "unit": "million years",
+      "explanation": "Early shark scales date to around 450 million years ago, long before trees arose about 385 million years ago."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Approximately how many years does it take for bone remodeling to replace an adult human skeleton?",
+      "answer": 10,
+      "min": 1,
+      "max": 40,
+      "unit": "years",
+      "explanation": "With roughly 10% of bone tissue turned over annually, your entire skeleton is refreshed about once every decade."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Because Saturn is a massive gas giant, its overall density exceeds that of liquid water.",
+      "answer": false,
+      "explanation": "Saturn's enormous volume is mostly lightweight hydrogen and helium, giving it an average density of just 0.69 g/cm³."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Sharks existed on Earth before the first trees ever evolved.",
+      "answer": true,
+      "explanation": "Early sharks appeared roughly 450 million years ago, tens of millions of years before woody trees emerged around 385 million years ago."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Diamonds cannot burn in a fire because they are the hardest natural substance on Earth.",
+      "answer": false,
+      "explanation": "Hardness only measures scratch resistance. Because diamonds are pure carbon, they burn into carbon dioxide gas around 800 °C."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Sunspots appear dark because they emit virtually no visible light.",
+      "answer": false,
+      "explanation": "Sunspots glow at around 4,000 K and would shine brighter than the full Moon; they only look dark next to the hotter photosphere."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.776Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Fake Island Kept Two Empires from War for Over a Century",
+      "body": "In 1831, a volcanic island suddenly emerged off the coast of Sicily, rising 60 meters above sea level. Named Graham Island by the British and Ferdinandea by the Kingdom of the Two Sicilies, both powers rushed to claim the strategic Mediterranean outcrop. France and Spain lodged claims as well. Before war could erupt, wave action eroded the loose tephra away. Within six months, the contested prize slipped beneath the waves.",
+      "imageWikipediaTitle": "Graham Island (Mediterranean Sea)",
+      "sources": [
+        {
+          "title": "Graham Island",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Graham_Island_(Mediterranean_Sea)"
+        },
+        {
+          "title": "Campi Flegrei Mar Sicilia",
+          "publisher": "Smithsonian Institution Global Volcanism Program",
+          "url": "https://volcano.si.edu/volcano.cfm?vn=211070"
+        }
+      ],
+      "readMoreUrl": "https://volcano.si.edu/volcano.cfm?vn=211070",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deaf Artist Who Painted the American Revolution's Defining Moments",
+      "body": "John Brewster Jr., born profoundly deaf in 1766 Connecticut, became one of early America's most celebrated portrait painters. Working without formal speech or modern assistive tech, he traveled widely across New England via stagecoach, communicating entirely through writing and gesture. His portraits of merchants, politicians, and families captured the visual spirit of the nascent United States with an extraordinary, direct psychological intensity that rivaled academic artists of the Federal period.",
+      "imageWikipediaTitle": "John Brewster Jr.",
+      "sources": [
+        {
+          "title": "John Brewster Jr.",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/John_Brewster_Jr."
+        },
+        {
+          "title": "John Brewster Jr. Collection",
+          "publisher": "Smithsonian American Art Museum",
+          "url": "https://americanart.si.edu/artist/john-brewster-jr-573"
+        }
+      ],
+      "readMoreUrl": "https://americanart.si.edu/artist/john-brewster-jr-573",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Misspelled Word Gave the World's Driest Desert Its Name",
+      "body": "In 1553, the Spanish chronicler Pedro Cieza de León recorded the hyperarid coastal desert of western South America as Atacama, adapting the indigenous Kunza word accatur, meaning 'black duck' or 'marsh bird.' Early cartographers assumed the bleak desert was completely lifeless, yet ancient human communities flourished along tiny oases for over 10,000 years, cultivating crops using ingenious canal networks fed entirely by snowmelt from the distant Andes mountains.",
+      "imageWikipediaTitle": "Atacama Desert",
+      "sources": [
+        {
+          "title": "Atacama Desert",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atacama_Desert"
+        },
+        {
+          "title": "The Atacama Desert",
+          "publisher": "NASA Earth Observatory",
+          "url": "https://earthobservatory.nasa.gov/images/43269/the-atacama-desert"
+        }
+      ],
+      "readMoreUrl": "https://earthobservatory.nasa.gov/images/43269/the-atacama-desert",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Medieval Treaty Signed on a Raft in the Middle of a River",
+      "body": "In June 1807, Napoleon Bonaparte and Tsar Alexander I met to end the War of the Fourth Coalition. Wary of sovereign protocol, neither ruler would set foot on the other's soil. French engineers solved the standoff by constructing an opulent pavilion atop a giant raft moored in the center of the Neman River at Tilsit. There, floating between two great armies, the emperors negotiated the Treaties of Tilsit, carving Europe into mutual spheres of influence.",
+      "imageWikipediaTitle": "Treaties of Tilsit",
+      "sources": [
+        {
+          "title": "Treaties of Tilsit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Treaties_of_Tilsit"
+        },
+        {
+          "title": "The Treaty of Tilsit",
+          "publisher": "PBS",
+          "url": "https://www.pbs.org/empires/napoleon/n_politic/conquest/page_9.html"
+        }
+      ],
+      "readMoreUrl": "https://www.pbs.org/empires/napoleon/n_politic/conquest/page_9.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 17th-Century King Banned Coffee and Created an Undercover Police Force to Enforce It",
+      "body": "In 1675, King Charles II of England issued a royal proclamation ordering every coffeehouse in the kingdom shut down within eleven days. He feared coffeehouses had become dens of political subversion where citizens gathered to criticize his regime and spread sedition. The public backlash from merchants, politicians, and patrons was so fierce that Charles panicked and rescinded the ban just two days before it was set to take effect, leaving the coffeehouses open.",
+      "imageWikipediaTitle": "English coffeehouses in the 17th and 18th centuries",
+      "sources": [
+        {
+          "title": "Coffeehouse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coffeehouse"
+        },
+        {
+          "title": "The English Coffeehouse: Where News and Politics Brewed",
+          "publisher": "The British Library",
+          "url": "https://www.bl.uk/restoration-18th-century-literature/articles/the-english-coffeehouse"
+        }
+      ],
+      "readMoreUrl": "https://www.bl.uk/restoration-18th-century-literature/articles/the-english-coffeehouse",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What caused the disappearance of Graham Island shortly after European powers claimed it in 1831?",
+      "options": [
+        "A naval bombardment destroyed it",
+        "Wave erosion washed away the loose volcanic tephra",
+        "It sank during a massive earthquake",
+        "An offshore oil drill collapsed the structure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Composed primarily of loose volcanic tephra, Graham Island was rapidly eroded by Mediterranean waves and submerged within six months."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did portrait painter John Brewster Jr. communicate while traveling across early America?",
+      "options": [
+        "Through personal interpreters only",
+        "Using writing and hand gestures",
+        "Via early telegraph transmissions",
+        "He only painted people who knew sign language"
+      ],
+      "correctIndex": 1,
+      "explanation": "Born deaf in 1766, Brewster traveled New England independently, using writing, signs, and gestures to negotiate commissions and direct sitters."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did ancient farming communities survive in the hyperarid Atacama Desert?",
+      "options": [
+        "They relied on massive deep-groundwater pumps",
+        "They diverted snowmelt from the Andes mountains through canals",
+        "They desalinated Pacific ocean water using solar stills",
+        "They only imported food from neighboring rainforest tribes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Settlements in the hyperarid Atacama harnessed snowmelt flowing down from the high Andes via sophisticated canal systems."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where did Napoleon and Tsar Alexander I hold their summit to sign the Treaties of Tilsit in 1807?",
+      "options": [
+        "Inside a neutral Swiss cathedral",
+        "Aboard an anchored British man-of-war",
+        "On an opulent pavilion built on a raft in the Neman River",
+        "In a secret mountain redoubt on the Prussian border"
+      ],
+      "correctIndex": 2,
+      "explanation": "To respect sovereign parity and avoid either ruler stepping on the other's territory, engineers anchored a raft in the center of the Neman River."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did King Charles II attempt to ban coffeehouses throughout England in 1675?",
+      "options": [
+        "Coffee was blamed for spreading the bubonic plague",
+        "He feared patrons gathered there to plot political sedition",
+        "A royal monopoly on beer was losing tax revenue",
+        "Coffee imports were monopolized by an enemy nation"
+      ],
+      "correctIndex": 1,
+      "explanation": "Charles II viewed coffeehouses as hotbeds of political debate where patrons circulated rumors, pamphlets, and criticism of the Crown."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many months did the disputed volcanic Graham Island remain above water before disappearing?",
+      "answer": 6,
+      "min": 1,
+      "max": 36,
+      "unit": "months",
+      "explanation": "Formed in July 1831, Graham Island was completely eroded by wave action by January 1832—just 6 months later."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many days before taking effect did King Charles II back down and cancel his English coffeehouse ban?",
+      "answer": 2,
+      "min": 1,
+      "max": 30,
+      "unit": "days",
+      "explanation": "Charles II rescinded his ban just two days before it was set to take effect, facing massive commercial and public pushback."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "King Charles II successfully shut down all English coffeehouses for several years to suppress dissent.",
+      "answer": false,
+      "explanation": "Public and commercial outrage was so fierce that Charles II retracted the proclamation just days after issuing it, before it even took effect."
+    }
+  ]
+}

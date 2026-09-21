@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.779Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sharks are older than trees and Saturn's rings",
+      "body": "Fossilized shark scales date back roughly 450 million years, meaning primitive sharks patrolled oceans long before the earliest trees took root on land around 385 million years ago. Sharks have survived five mass extinction events, predating trees, dinosaurs, and even Saturn's iconic rings, which formed within the last few hundred million years.",
+      "imageWikipediaTitle": "Shark",
+      "sources": [
+        {
+          "title": "Shark evolution: a 450 million year timeline",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/discover/shark-evolution-a-450-million-year-timeline.html"
+        },
+        {
+          "title": "Evolution of sharks",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Evolution_of_sharks"
+        }
+      ],
+      "readMoreUrl": "https://www.nhm.ac.uk/discover/shark-evolution-a-450-million-year-timeline.html",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single adult oyster can filter up to 50 gallons of water a day",
+      "body": "Eastern oysters are nature's coastal water treatment plants. A single mature oyster can pump and filter up to 50 gallons (about 190 liters) of seawater every day through its specialized gills. By feeding on excess algae and trapping suspended sediment, oyster reefs dramatically improve water clarity and light penetration, helping seagrass beds and marine nurseries flourish.",
+      "imageWikipediaTitle": "Eastern oyster",
+      "sources": [
+        {
+          "title": "Eastern Oyster",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/eastern-oyster"
+        },
+        {
+          "title": "Eastern oyster",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eastern_oyster"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/eastern-oyster",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A kiwi bird lays an egg up to one-fifth of its body weight",
+      "body": "Proportionately, female kiwi birds lay the largest eggs of any living bird. In the final weeks of egg development, the enormous shell occupies almost the entire body cavity, forcing the female to fast because her stomach is completely compressed. The single egg weighs up to 20 percent of her total body mass—proportionately six times larger than an ostrich egg.",
+      "imageWikipediaTitle": "Kiwi (bird)",
+      "sources": [
+        {
+          "title": "Kiwi facts",
+          "publisher": "New Zealand Department of Conservation",
+          "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kiwi/facts/"
+        },
+        {
+          "title": "Kiwi (bird)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kiwi_(bird)"
+        }
+      ],
+      "readMoreUrl": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kiwi/facts/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "All clownfish are born male—and switch sex to lead the group",
+      "body": "In clownfish colonies living among sea anemone tentacles, social hierarchy is strictly tied to sex. Every clownfish hatches as a male. A colony consists of a single large, dominant breeding female, a smaller breeding male, and non-breeding subordinates. If the breeding female dies, the dominant male changes sex permanently into a female, and the largest subordinate rapidly matures into the new breeding male.",
+      "imageWikipediaTitle": "Amphiprioninae",
+      "sources": [
+        {
+          "title": "Amphiprion ocellaris",
+          "publisher": "Florida Museum of Natural History",
+          "url": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/amphiprion-ocellaris/"
+        },
+        {
+          "title": "Amphiprioninae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amphiprioninae"
+        }
+      ],
+      "readMoreUrl": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/amphiprion-ocellaris/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The corpse flower heats up to body temperature to mimic a dead animal",
+      "body": "The titan arum produces the world's largest unbranched flower structure, but blooming is a rare, high-energy spectacle. During peak bloom, the plant uses thermogenesis to heat its central spike to roughly 36 degrees Celsius (98 degrees Fahrenheit)—human body temperature. This warmth vaporizes potent sulfur compounds smelling like decaying carcass, lifting the stench high into the rainforest canopy to trick carrion beetles into pollinating it.",
+      "imageWikipediaTitle": "Amorphophallus titanum",
+      "sources": [
+        {
+          "title": "Amorphophallus titanum (titan arum)",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://www.kew.org/plants/titan-arum"
+        },
+        {
+          "title": "Amorphophallus titanum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amorphophallus_titanum"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/plants/titan-arum",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which of these living groups evolved on Earth before the earliest trees took root on land?",
+      "options": [
+        "Sharks",
+        "Birds",
+        "Flowering plants",
+        "Mammals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shark fossils date back roughly 450 million years, whereas the earliest tree-like plants only appeared about 385 million years ago."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Roughly how much seawater can a single mature eastern oyster filter in one day?",
+      "options": [
+        "Up to 50 gallons",
+        "Around 2 gallons",
+        "Up to 500 gallons",
+        "Less than 1 pint"
+      ],
+      "correctIndex": 0,
+      "explanation": "A single mature eastern oyster can pump and filter up to 50 gallons (about 190 liters) daily, clarifying coastal waters."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is the kiwi bird's egg remarkable compared to eggs laid by other birds?",
+      "options": [
+        "It can weigh up to 20% of the mother's body weight",
+        "It takes over three years to incubate",
+        "It has a flexible, leathery shell like a reptile egg",
+        "It is laid exclusively underwater in riverbeds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relative to the mother's body size, the kiwi lays the largest egg of any living bird, reaching up to one-fifth of her total body mass."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens in a clownfish colony when the dominant breeding female dies?",
+      "options": [
+        "The dominant male permanently changes sex to become the new female",
+        "The colony immediately dissolves and all fish disperse",
+        "The smallest juvenile transforms directly into a female",
+        "A female from a nearby anemone is recruited to lead"
+      ],
+      "correctIndex": 0,
+      "explanation": "All clownfish are born male; when the dominant female dies, the breeding male permanently transitions into a female to lead the colony."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the titan arum (corpse flower) ensure its rotting-meat stench travels far into the forest canopy?",
+      "options": [
+        "It heats its central spike to human body temperature to vaporize the odor",
+        "It squirts volatile liquid droplets high into the air",
+        "It relies on strong desert winds that blow only at night",
+        "It shoots pressurized gas clouds from subterranean tubers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The titan arum uses thermogenesis to warm its central spike up to around 36°C (98°F), vaporizing sulfur compounds so the stench rises into the canopy."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "About how many millions of years ago did the earliest known sharks appear in the fossil record?",
+      "answer": 450,
+      "min": 50,
+      "max": 800,
+      "unit": "million years",
+      "explanation": "Earliest shark scales date to roughly 450 million years ago, predating trees by nearly 65 million years."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many gallons of water can a single mature eastern oyster filter in a single day?",
+      "answer": 50,
+      "min": 5,
+      "max": 200,
+      "unit": "gallons",
+      "explanation": "A mature oyster filters up to 50 gallons (190 liters) daily, keeping coastal estuaries clean and clear."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of a female kiwi's total body weight can her egg reach before laying?",
+      "answer": 20,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "At up to 20% of the mother's body weight, the kiwi lays proportionately the largest egg of any living bird."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Trees evolved on Earth long before sharks appeared in the oceans.",
+      "answer": false,
+      "explanation": "Sharks appeared roughly 450 million years ago, beating the earliest tree-like plants by about 65 million years."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Ostriches lay the largest eggs relative to their body size of any living bird.",
+      "answer": false,
+      "explanation": "Ostriches lay the largest eggs in absolute terms, but relative to body size, their eggs are tiny (~2% of body mass) compared to the kiwi's 20%."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Every clownfish begins its life as a male.",
+      "answer": true,
+      "explanation": "All clownfish hatch as males; only the dominant member of a social group changes sex to become the breeding female."
+    }
+  ]
+}

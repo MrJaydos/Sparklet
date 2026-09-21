@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-09-21T20:41:17.780Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cells in your brain fire when you watch someone else move",
+      "body": "In the 1990s, Italian neuroscientists studying macaque monkeys noticed something bizarre: motor neurons fired when a monkey reached for a peanut, but the exact same neurons also fired when the monkey merely watched a human reach for food. Dubbed mirror neurons, these cells allow the brain to simulate other people's actions and intentions internally, laying the neurological groundwork for imitation, learning, and empathy.",
+      "imageWikipediaTitle": "Mirror neuron",
+      "sources": [
+        {
+          "title": "Mirror neuron",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mirror_neuron"
+        },
+        {
+          "title": "Neuroanatomy, Mirror Neurons",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539845/"
+        },
+        {
+          "title": "Mirror neurons",
+          "publisher": "Scholarpedia",
+          "url": "http://www.scholarpedia.org/article/Mirror_neurons"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539845/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stare at a fixed spot, and the world around it will vanish",
+      "body": "In 1804, Swiss physician Ignaz Troxler discovered that when you fixate your gaze on a single point, unchanging objects in your peripheral vision completely fade from sight within twenty seconds. Your retinal cells rapidly stop responding to static sensory input. Because your visual cortex receives no new signals from those unchanging regions, it simply fills in the blank space with the surrounding background color.",
+      "imageWikipediaTitle": "Troxler's fading",
+      "sources": [
+        {
+          "title": "Troxler's fading",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Troxler%27s_fading"
+        },
+        {
+          "title": "Troxler effect",
+          "publisher": "Scholarpedia",
+          "url": "http://www.scholarpedia.org/article/Troxler_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Troxler%27s_fading",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Thinking in a foreign language makes you more rational",
+      "body": "When people evaluate moral dilemmas or financial risks in a second language rather than their native tongue, their choices become substantially more analytical. Psychologists call this the foreign-language effect. Because a non-native language lacks the deep emotional resonance built during early childhood, it dampens intuitive, gut-level emotional reactions. This subtle psychological distance prompts the brain to rely on deliberate, utilitarian reasoning instead of immediate emotional bias.",
+      "imageWikipediaTitle": "Multilingualism",
+      "sources": [
+        {
+          "title": "Foreign-language effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Foreign-language_effect"
+        },
+        {
+          "title": "Your Morals Depend on Language",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094842"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094842",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why entire groups follow rules nobody secretly believes in",
+      "body": "Pluralistic ignorance occurs when most members of a group privately reject a belief or practice, yet mistakenly assume everyone else supports it. Because people conform to avoid social embarrassment, their outward behavior reinforces the illusion. Classic studies show this dynamic keeps entire college campuses binge drinking despite private discomfort, keeps students silent in confusing lectures, and can sustain outdated social norms for decades simply because nobody speaks up first.",
+      "imageWikipediaTitle": "Conformity",
+      "sources": [
+        {
+          "title": "Pluralistic ignorance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pluralistic_ignorance"
+        },
+        {
+          "title": "Pluralistic ignorance",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/pluralistic-ignorance"
+        },
+        {
+          "title": "Pluralistic ignorance and alcohol on the campus",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8277304/"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/pluralistic-ignorance",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Financial poverty consumes the equivalent of 13 IQ points",
+      "body": "In a landmark 2013 study, researchers tracked Indian sugarcane farmers who receive their entire annual income at harvest. Tested before and after harvest, the exact same individuals scored roughly 25% better on cognitive tests with money in the bank than when broke. Constantly juggling scarce resources consumes so much mental bandwidth that it imposes a cognitive tax equivalent to dropping 13 IQ points—or enduring an entire night of total sleep deprivation.",
+      "imageWikipediaTitle": "Sugarcane",
+      "sources": [
+        {
+          "title": "Poverty impedes cognitive function",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23990553/"
+        },
+        {
+          "title": "Scarcity (social psychology)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scarcity_(social_psychology)"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/23990553/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is unique about the firing pattern of mirror neurons?",
+      "options": [
+        "They only fire during REM sleep",
+        "They fire both when executing an action and when watching someone else do it",
+        "They fire exclusively when experiencing physical pain",
+        "They only activate in response to spoken words"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mirror neurons activate both when an individual carries out a motor action and when they simply observe another individual performing that same action."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What causes peripheral objects to vanish during Troxler's fading?",
+      "options": [
+        "The eye's lens changes its focal length automatically",
+        "Retinal sensory neurons adapt to unchanging visual input and stop firing",
+        "Blood vessels in the retina briefly constrict",
+        "The brain suppresses vision to conserve glucose"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sensory neurons stop firing when stimulation remains unchanging, causing the visual cortex to fill in the missing region with the surrounding backdrop."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does using a foreign language typically alter human decision-making?",
+      "options": [
+        "It increases superstition and panic",
+        "It makes decisions more emotionally volatile",
+        "It encourages more analytical and utilitarian choices by reducing emotional bias",
+        "It prevents people from calculating numerical risks"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because a second language carries less automatic emotional baggage than a native tongue, people show less emotional bias and evaluate problems more logically."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What core misunderstanding defines pluralistic ignorance?",
+      "options": [
+        "Believing a majority agrees with a norm when most people privately reject it",
+        "Assuming that strangers are more intelligent than friends",
+        "Thinking that one's personal opinions are shared by the entire world",
+        "Refusing to accept empirical evidence that contradicts tradition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pluralistic ignorance happens when individuals privately disagree with a collective behavior but publicly comply because they wrongly assume everyone else supports it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In the 2013 sugarcane farmer study, why did farmers perform worse on cognitive tests before harvest?",
+      "options": [
+        "They were suffering from severe physical dehydration",
+        "Financial scarcity and stress consumed critical mental bandwidth",
+        "They worked significantly longer shifts before the harvest",
+        "They had lower baseline literacy rates before harvest"
+      ],
+      "correctIndex": 1,
+      "explanation": "The mental strain of managing acute poverty depletes cognitive bandwidth, creating a temporary drop in performance comparable to losing 13 IQ points."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "By roughly how many IQ points does the chronic mental strain of severe poverty reduce cognitive function?",
+      "answer": 13,
+      "min": 1,
+      "max": 30,
+      "unit": "IQ points",
+      "explanation": "Managing severe scarcity imposes a cognitive tax equivalent to roughly 13 IQ points or an entire night of missed sleep."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "If you keep your eyes locked on a single spot, unchanging objects in your peripheral vision remain visible indefinitely.",
+      "answer": false,
+      "explanation": "Due to Troxler's fading, stationary peripheral objects completely disappear within seconds as sensory receptors adapt to static input."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "People make more emotional and impulsive choices when deliberating in a foreign language.",
+      "answer": false,
+      "explanation": "Thinking in a second language creates emotional detachment, prompting more utilitarian, calculated decisions rather than impulsive gut reactions."
+    }
+  ]
+}
