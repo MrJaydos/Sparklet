@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-22T19:57:41.163Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Property Tax That Bricked Up Britain's Windows",
+      "body": "In 1696, England introduced a property tax on windows to assess wealth without conducting invasive home inspections. Rather than auditing incomes, tax assessors simply counted exterior glass panes from the street. To dodge the levy, homeowners across Britain bricked up their windows. The resulting dark, poorly ventilated rooms contributed to deadly epidemics, leaving behind distinctive \"blind windows\" that remain visible on historic British architecture today.",
+      "imageWikipediaTitle": "Window tax",
+      "sources": [
+        {
+          "title": "The Window Tax",
+          "publisher": "UK Parliament",
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/tyne-and-wear-case-study/about-the-group/housing/window-tax/"
+        },
+        {
+          "title": "Window tax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Window_tax"
+        }
+      ],
+      "readMoreUrl": "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/tyne-and-wear-case-study/about-the-group/housing/window-tax/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Oldest Central Bank Was Founded in Sweden",
+      "body": "While the Bank of England is widely celebrated for pioneering modern central banking, Sweden’s Sveriges Riksbank predates it by 26 years. Founded in 1668, the bank arose from the catastrophic collapse of Stockholms Banco, an earlier private lender that overissued Europe's first banknotes. Determined to protect depositors and prevent private mismanagement, the Swedish parliament placed the new institution under legislative control, establishing the world's first surviving central bank.",
+      "imageWikipediaTitle": "Sveriges Riksbank",
+      "sources": [
+        {
+          "title": "The Riksbank's history",
+          "publisher": "Sveriges Riksbank",
+          "url": "https://www.riksbank.se/en-gb/about-the-riksbank/history/"
+        },
+        {
+          "title": "Sveriges Riksbank",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sveriges_Riksbank"
+        }
+      ],
+      "readMoreUrl": "https://www.riksbank.se/en-gb/about-the-riksbank/history/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Monopoly Was Invented to Warn Against Monopolies",
+      "body": "In 1903, progressive activist Elizabeth Magie patented The Landlord's Game to demonstrate how land monopolies impoverish tenants while enriching property owners. Her game featured two rule sets: a cooperative mode where wealth creation benefited all players, and an alternate cutthroat mode where accumulating properties drove opponents into bankruptcy. Decades later, Parker Brothers bought her patent for $500, discarded the cooperative rules, and marketed the cutthroat version worldwide as Monopoly.",
+      "imageWikipediaTitle": "The Landlord's Game",
+      "sources": [
+        {
+          "title": "Monopoly",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Monopoly-board-game"
+        },
+        {
+          "title": "The Landlord's Game",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Landlord%27s_Game"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Monopoly-board-game",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sunday Speech That Ended the Gold-Backed Dollar",
+      "body": "On August 15, 1971, President Richard Nixon announced on television that the United States would no longer convert foreign-held dollars into gold at thirty-five dollars an ounce. The unilateral decision, known as the Nixon Shock, caught foreign allies off guard and dismantled the 1944 Bretton Woods agreement. By severing the anchor tying international currencies to American gold vaults, Nixon effectively pushed the entire global financial system into today's era of floating fiat money.",
+      "imageWikipediaTitle": "Nixon shock",
+      "sources": [
+        {
+          "title": "Nixon Ends Convertibility of US Dollars to Gold and Announces Wage/Price Controls",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/nixon-shock"
+        },
+        {
+          "title": "Nixon shock",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nixon_shock"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/nixon-shock",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Alaska Pays Every Resident an Annual Oil Dividend",
+      "body": "Since 1982, the state of Alaska has sent an annual cash dividend to every resident who lives there, from newborn infants to retirees, with no restrictions on how it is spent. The money comes from the Alaska Permanent Fund, created in 1976 to invest state oil windfalls for future generations. Dividend checks fluctuate with fund earnings, having exceeded $3,000 per person, creating one of the world’s longest-running models of universal basic income.",
+      "imageWikipediaTitle": "Alaska Permanent Fund",
+      "sources": [
+        {
+          "title": "Permanent Fund Dividend",
+          "publisher": "Alaska Department of Revenue",
+          "url": "https://pfd.alaska.gov/"
+        },
+        {
+          "title": "Alaska Permanent Fund",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alaska_Permanent_Fund"
+        }
+      ],
+      "readMoreUrl": "https://pfd.alaska.gov/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did British homeowners brick up their windows starting in the late 17th century?",
+      "options": [
+        "To evade a property tax assessed on the number of exterior window panes",
+        "To protect against shrapnel and stray bullets during civil wars",
+        "To prevent heat loss during an unseasonably cold mini ice age",
+        "To comply with national building codes requiring privacy walls"
+      ],
+      "correctIndex": 0,
+      "explanation": "England introduced a window tax in 1696 that let tax collectors assess property based on visible window panes, prompting owners to brick them shut."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the world's oldest central bank still in operation today?",
+      "options": [
+        "Bank of England",
+        "Sveriges Riksbank",
+        "Banque de France",
+        "De Nederlandsche Bank"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sweden's Sveriges Riksbank was founded in 1668, predating the Bank of England by 26 years."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the original purpose of the game that became Monopoly?",
+      "options": [
+        "To train Wall Street stockbrokers in corporate mergers",
+        "To teach arithmetic and basic budgeting to school children",
+        "To expose how land monopolists exploit tenants and impoverish rivals",
+        "To promote real estate development in Atlantic City, New Jersey"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elizabeth Magie invented The Landlord's Game in 1903 to illustrate the harmful economic effects of land monopolization."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What major economic shift occurred as a result of the 1971 \"Nixon Shock\"?",
+      "options": [
+        "The United States ended the convertibility of dollars into gold",
+        "The Federal Reserve raised interest rates to 20% overnight",
+        "The US dollar was replaced by the Special Drawing Right in trade",
+        "Foreign banks were banned from buying US Treasury bonds"
+      ],
+      "correctIndex": 0,
+      "explanation": "On August 15, 1971, President Nixon suspended the dollar's convertibility into gold, effectively ending the Bretton Woods system."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where does the money for Alaska's annual Permanent Fund Dividend come from?",
+      "options": [
+        "Federal welfare block grants from the US government",
+        "A state sales tax on luxury tourism and cruise ships",
+        "Earnings from an investment fund seeded with state oil royalties",
+        "Fines levied on commercial fisheries in state waters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alaska's Permanent Fund invests a portion of the state's mineral and oil royalties and pays dividends to residents from fund earnings."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many dollars did Parker Brothers pay Elizabeth Magie in 1935 for the patent rights to her game, which became Monopoly?",
+      "answer": 500,
+      "min": 50,
+      "max": 50000,
+      "unit": "$",
+      "explanation": "Parker Brothers paid Magie just $500 with no ongoing royalties, while the company went on to make millions selling Monopoly."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The Bank of England is the oldest central bank in the world.",
+      "answer": false,
+      "explanation": "Sweden's Sveriges Riksbank was established in 1668, making it 26 years older than the Bank of England (founded in 1694)."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The board game Monopoly was originally invented during the Great Depression to celebrate cutthroat capitalism.",
+      "answer": false,
+      "explanation": "It was created in 1903 as The Landlord's Game by an anti-monopolist to illustrate the dangers of concentrated wealth and rent extraction."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Foreign governments could exchange US dollars directly for gold until 1971.",
+      "answer": true,
+      "explanation": "Foreign central banks could redeem dollars for gold at $35 an ounce until President Nixon unilaterally ended the arrangement on August 15, 1971."
+    }
+  ]
+}

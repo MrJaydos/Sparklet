@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-22T19:57:41.164Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why saying 'you will probably refuse' makes prospects agree",
+      "body": "Opening a request with 'You will probably refuse, but...' significantly increases compliance. First documented in social influence research by Nicolas Guéguen, this reverse psychology tactic removes psychological pressure. By predicting a rejection, the salesperson triggers a desire in the prospect to assert their freedom and demonstrate generosity, paradoxically leading them to accept the request far more often than direct asking.",
+      "imageWikipediaTitle": "Reverse psychology",
+      "sources": [
+        {
+          "title": "Evoking the freedom to refuse: 'You are free to...' and other techniques",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4219291/"
+        },
+        {
+          "title": "Reverse psychology",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reverse_psychology"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4219291/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why giving buyers a warm beverage makes your pitch feel friendlier",
+      "body": "Holding a warm cup of coffee or tea activates the insular cortex, the brain region processing physical temperature and interpersonal warmth. In a landmark study led by Lawrence Williams and John Bargh, participants holding a hot beverage judged a target individual as significantly warmer, more caring, and more trustworthy than those holding iced drinks, without realizing the physical sensation influenced their social judgment.",
+      "imageWikipediaTitle": "Embodied cognition",
+      "sources": [
+        {
+          "title": "Experiencing physical warmth promotes interpersonal warmth",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18948544/"
+        },
+        {
+          "title": "Embodied cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Embodied_cognition"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/18948544/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why adding a visual diagram boosts belief in your sales pitch",
+      "body": "Simply attaching a trivial scientific graph or chart to a product description drastically enhances consumer belief in its effectiveness. Researchers Aner Tal and Brian Wansink found that adding a simple black-and-white chart to a product claim—even one providing no additional information beyond the text—boosted agreement from 67% to 96%. Visual data signals scientific rigor and objective truth to the human brain.",
+      "imageWikipediaTitle": "Chart",
+      "sources": [
+        {
+          "title": "Blinded by science: Visual representations of scientific evidence increase credibility",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24796792/"
+        },
+        {
+          "title": "Chart",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chart"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/24796792/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why revealing production stages makes services feel more valuable",
+      "body": "When websites or presentations display dynamic progress bars showing behind-the-scenes search or processing steps, customers evaluate the service as significantly higher quality. Known as operational transparency, research from Harvard Business School demonstrates that seeing operational effort creates reciprocal appreciation. When customers watch a transparent progress tracker, they willingly wait longer and value the final quote or deliverable much more than an instantaneous result.",
+      "imageWikipediaTitle": "Progress bar",
+      "sources": [
+        {
+          "title": "Operational Transparency",
+          "publisher": "Harvard Business School",
+          "url": "https://www.hbs.edu/faculty/Pages/item.aspx?num=41108"
+        },
+        {
+          "title": "Progress bar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Progress_bar"
+        }
+      ],
+      "readMoreUrl": "https://www.hbs.edu/faculty/Pages/item.aspx?num=41108",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How subtle pupil dilation signals genuine customer interest",
+      "body": "When a buyer becomes genuinely engaged or excited by a proposal, their autonomic nervous system dilates their pupils. Pioneered by psychologist Eckhard Hess, pupillometry reveals that involuntary pupil widening correlates directly with cognitive interest and arousal, bypassing polite verbal answers. Skilled negotiators watch eye responses during pricing and feature reveals to measure authentic excitement before deciding whether to push for closure.",
+      "imageWikipediaTitle": "Pupillometry",
+      "sources": [
+        {
+          "title": "Pupil size as a measure of cognitive processing and interest",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/5852504/"
+        },
+        {
+          "title": "Pupillometry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pupillometry"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/5852504/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What effect does opening a request with 'You will probably refuse, but...' have on compliance?",
+      "options": [
+        "It significantly increases compliance by triggering autonomy",
+        "It causes nearly all prospects to immediately walk away",
+        "It reduces deal size by signaling desperation",
+        "It has no measurable psychological effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Predicting refusal disarms psychological reactance, making prospects assert their independence and generosity by saying yes."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happened when study participants briefly held a warm drink instead of an iced drink?",
+      "options": [
+        "They perceived an unfamiliar person as significantly warmer and more trustworthy",
+        "They spent 40% less money in subsequent negotiations",
+        "They became more skeptical of sales claims",
+        "They experienced severe cognitive fatigue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Physical warmth primes psychological warmth via the insular cortex, causing people to perceive others as more generous and caring."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In Tal and Wansink's study, adding a simple chart containing no new data increased belief from 67% to what?",
+      "options": [
+        "72%",
+        "81%",
+        "96%",
+        "99%"
+      ],
+      "correctIndex": 2,
+      "explanation": "A trivial chart showing identical data boosted belief in a medication's effectiveness from 67% to 96% due to perceived scientific rigor."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the primary benefit of showing customers operational transparency (such as detailed progress bars)?",
+      "options": [
+        "It decreases overall website development costs",
+        "Customers value the output more and are more patient",
+        "It forces competitors to disclose pricing models",
+        "It reduces the need for customer support teams"
+      ],
+      "correctIndex": 1,
+      "explanation": "When people see the behind-the-scenes work being done for them, they appreciate the effort and rate the service higher."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What involuntary physiological response reliably indicates increased cognitive interest and excitement in a prospect?",
+      "options": [
+        "Rapid blinking",
+        "Pupil dilation",
+        "Nose wrinkling",
+        "Ear twitching"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pupil dilation is controlled by the autonomic nervous system and reliably expands during genuine interest and mental arousal."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of people believed a product's claim when a simple graph was added, compared to 67% without it?",
+      "answer": 96,
+      "min": 50,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Tal and Wansink found that adding a simple graph boosted agreement to 96%, even when it contained no new information."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Predicting that a client will say no guarantees you will lose the sale.",
+      "answer": false,
+      "explanation": "Saying 'You will probably refuse, but...' actually boosts compliance by reducing pressure and triggering autonomy."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Delivering digital results instantly is always perceived as better service than showing work in progress.",
+      "answer": false,
+      "explanation": "Operational transparency studies show that seeing the work happen makes people value the result more than an instant response."
+    }
+  ]
+}

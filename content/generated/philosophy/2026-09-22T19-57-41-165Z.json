@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-22T19:57:41.165Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rousseau's hunt reveals why rational cooperation fails without trust",
+      "body": "Two hunters can cooperate to trap a stag, feeding both their families. But if a hare darts past, either hunter can break away to grab a quick, private meal, dooming the stag hunt. Unlike the Prisoner's Dilemma, where betrayal always pays regardless of your partner, Rousseau's Stag Hunt shows that cooperation is everyone's best outcome. The real obstacle isn't selfish greed; it is mutual doubt. Without guaranteed trust, rational actors settle for smaller prizes.",
+      "imageWikipediaTitle": "Jean-Jacques Rousseau",
+      "sources": [
+        {
+          "title": "Game Theory",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/game-theory/"
+        },
+        {
+          "title": "Stag hunt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stag_hunt"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/game-theory/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a broken tool reveals how your mind actually engages with reality",
+      "body": "For centuries, philosophers assumed we navigate reality through detached mental calculation, analyzing objects like scientists. Martin Heidegger overturned this with a simple tool: the hammer. When hammering, you do not consciously analyze the iron head or wooden handle; the tool is seamlessly absorbed into your action. Only when the hammer breaks does it suddenly become an isolated object with distinct physical properties. Practical engagement comes first; theoretical detachment is an afterthought.",
+      "imageWikipediaTitle": "Martin Heidegger",
+      "sources": [
+        {
+          "title": "Martin Heidegger",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/heidegger/"
+        },
+        {
+          "title": "Being and Time",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Being_and_Time"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/heidegger/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The infinite domino chain that proved paradoxes don't need self-reference",
+      "body": "For thousands of years, logicians blamed paradoxes like \"this statement is false\" on circular self-reference. In 1993, philosopher Stephen Yablo disproved this assumption. Imagine an infinite sequence of numbered statements. Statement 1 says every statement after it is false; Statement 2 says every statement after it is false, and so on forever. No single sentence ever refers to itself. Yet if any statement is true, it immediately contradicts itself, proving that logical loops can arise purely from infinity.",
+      "imageWikipediaTitle": "Paradox",
+      "sources": [
+        {
+          "title": "Liar Paradox",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/liar-paradox/"
+        },
+        {
+          "title": "Yablo's paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yablo%27s_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/liar-paradox/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "David Hume looked inside his own mind and found no self at all",
+      "body": "Most people assume they possess an enduring \"self\"—a continuous inner observer anchoring all their experiences. But when 18th-century philosopher David Hume introspected, he discovered something startling: he never caught himself without a specific perception. He only encountered fleeting sensations of warmth, cold, joy, or sorrow. Hume concluded that the unified self is an illusion. The mind is simply a bundle of rapidly shifting impressions, stitched together into a false identity by the glue of memory.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "David Hume",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        },
+        {
+          "title": "Bundle theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bundle_theory"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/hume/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why demanding proof before believing can sometimes destroy the truth",
+      "body": "Philosopher W.K. Clifford famously declared that believing anything without sufficient evidence is always morally wrong. In 1896, William James countered that strict skepticism can backfire. In vital human affairs—like personal relationships, trust, or moral resolve—demanding ironclad proof beforehand prevents the reality from ever emerging. If you refuse to believe someone likes you until they prove it beyond doubt, you ruin the relationship. Sometimes, James argued, faith in a fact can help create the fact.",
+      "imageWikipediaTitle": "William James",
+      "sources": [
+        {
+          "title": "William James",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/james/"
+        },
+        {
+          "title": "The Will to Believe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Will_to_Believe"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/james/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Rousseau's Stag Hunt thought experiment, what causes rational players to abandon the hunt?",
+      "options": [
+        "A lack of trust that the other player will remain cooperative",
+        "The absolute mathematical certainty that betrayal yields more meat",
+        "A physical inability to capture the larger animal",
+        "An innate instinct to actively cause harm to others"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike the Prisoner's Dilemma, cooperation provides the highest reward in a Stag Hunt, but players defect to catch a hare because they fear their partner might abandon them."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to Heidegger, when do we first notice an everyday tool as a distinct, isolated object?",
+      "options": [
+        "When it breaks or fails to function as expected",
+        "When it operates in perfect, seamless harmony with our body",
+        "When we purchase it from a merchant",
+        "When we read an instruction manual describing it"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heidegger showed that working tools remain transparently absorbed in action ('ready-to-hand') until a breakdown forces us into detached theoretical observation ('present-at-hand')."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What common belief about logical paradoxes did Stephen Yablo disprove in 1993?",
+      "options": [
+        "That paradoxes can only be written in Latin",
+        "That all logical paradoxes require circular self-reference",
+        "That contradictions can never arise from infinite sets",
+        "That mathematical logic is entirely free of contradictions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yablo generated a liar-style paradox using an infinite list of sentences where each sentence only refers to subsequent ones, proving self-reference is not necessary for paradoxes."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did David Hume discover when he introspected to find his core self?",
+      "options": [
+        "An enduring, immaterial soul that remains identical over time",
+        "Only a constantly shifting bundle of fleeting perceptions",
+        "A clear mathematical structure governing all human choices",
+        "An innate awareness of moral duty and divine law"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hume found that looking within reveals only passing impressions like warmth, pain, or joy, leading him to conclude that the continuous 'self' is an illusion created by memory."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In 'The Will to Believe', why did William James argue that absolute skepticism can fail?",
+      "options": [
+        "Believing lies is morally superior to staying neutral",
+        "Withholding belief can destroy outcomes that require prior faith to exist",
+        "Scientific evidence is inherently deceitful and untrustworthy",
+        "Logic proves that all personal convictions are automatically true"
+      ],
+      "correctIndex": 1,
+      "explanation": "James argued that in interpersonal trust or moral action, demanding proof before extending belief prevents the cooperation needed to create the positive outcome."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In game theory, rational actors only fail to cooperate when betrayal offers a higher personal reward than cooperation.",
+      "answer": false,
+      "explanation": "In Rousseau's Stag Hunt, mutual cooperation yields the maximum reward for everyone, but actors defect to a smaller prize simply out of fear that others cannot be trusted."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Direct personal introspection reveals an underlying, permanent self that observes our passing thoughts.",
+      "answer": false,
+      "explanation": "David Hume showed that introspection only ever reveals specific, fleeting thoughts and sensations, never an unchanging underlying observer."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Refusing to believe anything without conclusive prior evidence is always the safest path to truth.",
+      "answer": false,
+      "explanation": "William James demonstrated that in social trust and relationships, demanding prior proof prevents the very trust needed to make the relationship real."
+    }
+  ]
+}
