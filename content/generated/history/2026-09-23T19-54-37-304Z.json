@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.304Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Deal That Truly Ended the Cuban Missile Crisis",
+      "body": "In October 1962, the world seemed on the brink of nuclear war until Soviet leader Nikita Khrushchev agreed to dismantle Cuba's missile sites. While public rhetoric framed this as an unconditional Soviet retreat, President John F. Kennedy had made a clandestine concession: the United States secretly agreed to remove its Jupiter nuclear missiles from Turkey. Kennedy demanded absolute secrecy to prevent political backlash at home and reassure nervous NATO allies.",
+      "imageWikipediaTitle": "Cuban Missile Crisis",
+      "sources": [
+        {
+          "title": "The Cuban Missile Crisis, October 1962",
+          "publisher": "Office of the Historian, Foreign Service Institute, United States Department of State",
+          "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis"
+        },
+        {
+          "title": "Cuban Missile Crisis",
+          "publisher": "John F. Kennedy Presidential Library and Museum",
+          "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis"
+        },
+        {
+          "title": "Cuban Missile Crisis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+        }
+      ],
+      "readMoreUrl": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The War of 1812's Deadliest Battle Was Fought After Peace Was Signed",
+      "body": "On January 8, 1815, American forces under General Andrew Jackson decisively defeated an invading British army at the Battle of New Orleans, suffering few casualties while inflicting over 2,000 British losses. Yet the war was technically already settled. British and American diplomats had signed the Treaty of Ghent in Belgium two weeks earlier, on Christmas Eve, 1814. Without telegraphs, news took seven weeks to cross the winter Atlantic by sailboat, arriving long after the smoke cleared.",
+      "imageWikipediaTitle": "Battle of New Orleans",
+      "sources": [
+        {
+          "title": "Treaty of Ghent (1814)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/treaty-of-ghent"
+        },
+        {
+          "title": "The Battle of New Orleans",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/jela/learn/historyculture/the-battle-of-new-orleans.htm"
+        },
+        {
+          "title": "Battle of New Orleans",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_New_Orleans"
+        }
+      ],
+      "readMoreUrl": "https://www.archives.gov/milestone-documents/treaty-of-ghent",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How 730 Delegates Remade the Global Financial Order in 22 Days",
+      "body": "In July 1944, delegates from 44 nations gathered at a secluded resort in Bretton Woods, New Hampshire, tasked with rebuilding the shattered post-WWII economy. In just three weeks, they established the International Monetary Fund (IMF) and the World Bank. The conference pegged major world currencies to the US dollar, which was anchored to gold at $35 per ounce, establishing the dollar as the cornerstone of global trade and shaping world economics for decades.",
+      "imageWikipediaTitle": "Bretton Woods Conference",
+      "sources": [
+        {
+          "title": "The Bretton Woods Conference, 1944",
+          "publisher": "Office of the Historian, Foreign Service Institute, United States Department of State",
+          "url": "https://history.state.gov/milestones/1937-1945/bretton-woods"
+        },
+        {
+          "title": "Bretton Woods Conference",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bretton_Woods_Conference"
+        }
+      ],
+      "readMoreUrl": "https://history.state.gov/milestones/1937-1945/bretton-woods",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Only Revolt of Enslaved People That Founded an Independent Republic",
+      "body": "In 1791, enslaved workers in the French Caribbean colony of Saint-Domingue rose in revolt against brutal plantation slavery. Led by figures like Toussaint Louverture and Jean-Jacques Dessalines, the rebel army repelled British, Spanish, and elite French forces sent by Napoleon. On January 1, 1804, the revolutionaries declared independence and renamed the nation Haiti. It remains the only successful revolution by enslaved people in world history that created a sovereign, free nation.",
+      "imageWikipediaTitle": "Haitian Revolution",
+      "sources": [
+        {
+          "title": "The United States and the Haitian Revolution, 1791–1804",
+          "publisher": "Office of the Historian, Foreign Service Institute, United States Department of State",
+          "url": "https://history.state.gov/milestones/1784-1800/haitian-rev"
+        },
+        {
+          "title": "Haitian Revolution",
+          "publisher": "Library of Congress",
+          "url": "https://guides.loc.gov/haitian-revolution"
+        },
+        {
+          "title": "Haitian Revolution",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haitian_Revolution"
+        }
+      ],
+      "readMoreUrl": "https://guides.loc.gov/haitian-revolution",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Four Teenagers and a Dog Stumbled on 17,000-Year-Old Art",
+      "body": "On September 12, 1940, 18-year-old Marcel Ravidat and three friends were exploring the woods near Montignac, France, when his dog Robot began scratching at a hole left by an uprooted tree. Squeezing down the dark shaft with a makeshift oil lamp, the boys stepped into Lascaux Cave. They discovered nearly 2,000 Upper Paleolithic paintings and engravings of horses, stags, and bulls, dating back 17,000 years—one of humanity's greatest prehistoric art galleries.",
+      "imageWikipediaTitle": "Lascaux",
+      "sources": [
+        {
+          "title": "Prehistoric Sites and Decorated Caves of the Vézère Valley",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/85/"
+        },
+        {
+          "title": "Lascaux",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lascaux"
+        }
+      ],
+      "readMoreUrl": "https://whc.unesco.org/en/list/85/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What secret concession did the United States make to resolve the 1962 Cuban Missile Crisis?",
+      "options": [
+        "Removing American nuclear missiles stationed in Turkey",
+        "Lifting all economic sanctions against the Soviet Union",
+        "Ceding control of the Guantanamo Bay naval base",
+        "Pledging to dismantle NATO within five years"
+      ],
+      "correctIndex": 0,
+      "explanation": "President Kennedy secretly agreed to dismantle US Jupiter missiles in Turkey in exchange for Khrushchev removing Soviet missiles from Cuba."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did the Battle of New Orleans occur in January 1815 after the peace treaty was signed?",
+      "options": [
+        "President Madison rejected the British diplomats' terms",
+        "News of the signed peace treaty took weeks to cross the Atlantic by sailboat",
+        "British troops launched an unsanctioned raid to gain leverage",
+        "Spain had entered the war as a new combatant"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Treaty of Ghent was signed in Belgium in December 1814, but communication delays meant neither army in Louisiana knew the war had ended."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Under the 1944 Bretton Woods agreement, at what fixed price was the US dollar pegged to gold?",
+      "options": [
+        "$20 per ounce",
+        "$35 per ounce",
+        "$50 per ounce",
+        "$100 per ounce"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bretton Woods established the US dollar as the world's premier reserve currency by anchoring its exchange value to gold at $35 per ounce."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What historic distinction makes the Haitian Revolution unique in world history?",
+      "options": [
+        "It was the only rebellion of enslaved people to found a sovereign nation",
+        "It was won entirely without military combat",
+        "It was the first conflict fought with steam-powered warships",
+        "It was the earliest recorded revolt against the Roman Empire"
+      ],
+      "correctIndex": 0,
+      "explanation": "Haiti declared independence in 1804, making it the only country in history established directly by a successful uprising of enslaved people."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Roughly how old are the Paleolithic cave paintings discovered at Lascaux?",
+      "options": [
+        "4,000 years old",
+        "8,000 years old",
+        "17,000 years old",
+        "50,000 years old"
+      ],
+      "correctIndex": 2,
+      "explanation": "Archeologists estimate the intricate animal paintings and engravings inside Lascaux Cave were created around 17,000 years ago."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many Allied nations sent delegates to the 1944 Bretton Woods conference to design the postwar financial system?",
+      "answer": 44,
+      "min": 10,
+      "max": 120,
+      "unit": "nations",
+      "explanation": "Delegates from 44 Allied nations met in New Hampshire for 22 days, creating both the IMF and the World Bank."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many years old are the prehistoric animal paintings discovered inside France's Lascaux Cave?",
+      "answer": 17000,
+      "min": 2000,
+      "max": 45000,
+      "unit": "years",
+      "explanation": "The vivid artwork of bulls, stags, and horses in Lascaux was created approximately 17,000 years ago during the Upper Paleolithic."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Soviet Union withdrew missiles from Cuba in 1962 without the United States making any military concessions.",
+      "answer": false,
+      "explanation": "President Kennedy secretly agreed to pull American Jupiter nuclear missiles out of Turkey in exchange for the Soviet withdrawal."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The Haitian Revolution is the only revolt by enslaved people in history that established an independent nation.",
+      "answer": true,
+      "explanation": "Despite many slave rebellions throughout antiquity and the colonial era, Haiti is the sole sovereign state founded directly by one."
+    }
+  ]
+}

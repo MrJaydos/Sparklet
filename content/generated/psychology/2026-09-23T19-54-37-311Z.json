@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.311Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Schizophrenia does not mean you have a split personality",
+      "body": "In 1908, Swiss psychiatrist Eugen Bleuler coined \"schizophrenia\" from Greek roots meaning \"split mind\" to describe the fragmentation between a person's thoughts, emotions, and behavior. Popular culture quickly confused this with having multiple personalities. In clinical reality, having multiple distinct identities is Dissociative Identity Disorder. Schizophrenia is a psychotic disorder characterized by hallucinations, delusions, and disorganized thinking—not alternate personas sharing one body.",
+      "imageWikipediaTitle": "Schizophrenia",
+      "sources": [
+        {
+          "title": "Schizophrenia",
+          "publisher": "National Institute of Mental Health",
+          "url": "https://www.nimh.nih.gov/health/topics/schizophrenia"
+        },
+        {
+          "title": "Schizophrenia",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia"
+        },
+        {
+          "title": "Schizophrenia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Schizophrenia"
+        }
+      ],
+      "readMoreUrl": "https://www.nimh.nih.gov/health/topics/schizophrenia",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why intense laughter can cause your muscles to completely give out",
+      "body": "For people with cataplexy, a core feature of type 1 narcolepsy, strong positive emotions like genuine laughter, amusement, or sudden surprise trigger immediate muscle weakness. While remaining fully awake and conscious, their knees buckle, jaw slumps, or entire body collapses to the ground. The condition is caused by the autoimmune destruction of hypothalamic neurons producing orexin (hypocretin), a neuropeptide that normally stabilizes wakefulness and keeps rapid-eye-movement (REM) muscle paralysis confined to sleep.",
+      "imageWikipediaTitle": "Cataplexy",
+      "sources": [
+        {
+          "title": "Narcolepsy",
+          "publisher": "National Institute of Neurological Disorders and Stroke",
+          "url": "https://www.ninds.nih.gov/health-information/disorders/narcolepsy"
+        },
+        {
+          "title": "Narcolepsy",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/000926.htm"
+        },
+        {
+          "title": "Cataplexy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cataplexy"
+        }
+      ],
+      "readMoreUrl": "https://www.ninds.nih.gov/health-information/disorders/narcolepsy",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Agoraphobia isn't simply a fear of wide-open outdoor spaces",
+      "body": "While its Greek root translates to \"fear of the marketplace,\" agoraphobia is widely misunderstood as just dreading open fields. Clinically, it is an anxiety disorder characterized by intense fear and avoidance of environments where escape might be difficult or help unavailable during a panic attack. Sufferers frequently avoid crowded malls, enclosed movie theaters, public buses, airplanes, or standing in lines, and severe cases leave individuals unable to leave their homes for years.",
+      "imageWikipediaTitle": "Agoraphobia",
+      "sources": [
+        {
+          "title": "Anxiety Disorders",
+          "publisher": "National Institute of Mental Health",
+          "url": "https://www.nimh.nih.gov/health/topics/anxiety-disorders"
+        },
+        {
+          "title": "Agoraphobia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agoraphobia"
+        }
+      ],
+      "readMoreUrl": "https://www.nimh.nih.gov/health/topics/anxiety-disorders",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Involuntary swearing is surprisingly rare in Tourette syndrome",
+      "body": "Movies and television routinely depict Tourette syndrome as a condition where individuals uncontrollably blurt out profanities and offensive insults. This vocal symptom, known as coprolalia, actually occurs in only about 10% to 15% of people diagnosed with Tourette syndrome. The vast majority of sufferers experience motor tics like rapid blinking, facial grimacing, or shoulder shrugging, alongside simple vocal tics such as clearing the throat, grunting, or repeating harmless syllables.",
+      "imageWikipediaTitle": "Tourette syndrome",
+      "sources": [
+        {
+          "title": "Tourette syndrome",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/001555.htm"
+        },
+        {
+          "title": "Coprolalia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coprolalia"
+        },
+        {
+          "title": "Tourette syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tourette_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/ency/article/001555.htm",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Grief and acute psychological distress can physically reshape your heart",
+      "body": "Long dismissed as poetic melodrama, \"broken heart syndrome\" is a recognized physiological reaction known as Takotsubo cardiomyopathy. Triggered by severe psychological trauma—such as the sudden loss of a spouse or profound terror—a massive surge of stress hormones stuns cardiac muscle cells. The heart's main pumping chamber temporarily weakens and balloons outward, mimicking an acute heart attack in people with otherwise clean, healthy coronary arteries.",
+      "imageWikipediaTitle": "Takotsubo cardiomyopathy",
+      "sources": [
+        {
+          "title": "Takotsubo Cardiomyopathy",
+          "publisher": "National Heart, Lung, and Blood Institute",
+          "url": "https://www.nhlbi.nih.gov/health/takotsubo-cardiomyopathy"
+        },
+        {
+          "title": "Takotsubo cardiomyopathy",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/007671.htm"
+        },
+        {
+          "title": "Takotsubo cardiomyopathy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Takotsubo_cardiomyopathy"
+        }
+      ],
+      "readMoreUrl": "https://www.nhlbi.nih.gov/health/takotsubo-cardiomyopathy",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Eugen Bleuler coin the term 'schizophrenia' in 1908?",
+      "options": [
+        "To describe a split between thoughts, emotions, and behavior",
+        "To describe a person harboring multiple distinct identities",
+        "To classify patients experiencing two separate conscious brains",
+        "To name an illness caused by physical damage dividing the brain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bleuler meant 'split mind' to signify the fragmentation of thinking, feeling, and acting from reality, not multiple personalities."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What typically triggers a sudden loss of muscle tone in people with cataplexy?",
+      "options": [
+        "Strong emotions like laughter or surprise",
+        "A sudden drop in blood glucose",
+        "Exposure to flashing strobe lights",
+        "Consuming meals high in dietary protein"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cataplexy is classically provoked by intense positive emotions, especially laughter or amusement, leaving the person conscious but temporarily weak."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary psychological driver of agoraphobia?",
+      "options": [
+        "Fear of being in places where escape might be difficult during panic",
+        "An irrational fear of encountering wild animals outdoors",
+        "Dread of natural sunlight and open outdoor skies",
+        "Compulsive anxiety triggered by social criticism from strangers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Agoraphobia centers on the fear of having panic symptoms in places from which escape is difficult or embarrassing, or where help isn't available."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What percentage of people with Tourette syndrome actually experience coprolalia (involuntary obscene speech)?",
+      "options": [
+        "About 10% to 15%",
+        "Roughly 50% to 60%",
+        "Nearly 85% to 90%",
+        "Virtually 100%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Despite widespread media depiction, coprolalia affects only about 10% to 15% of people with Tourette syndrome."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What triggers Takotsubo cardiomyopathy, also known as broken heart syndrome?",
+      "options": [
+        "A massive surge of stress hormones caused by severe psychological trauma",
+        "A permanent blockage in the main coronary arteries",
+        "A chronic bacterial infection damaging heart valves",
+        "An autoimmune destruction of peripheral blood vessels"
+      ],
+      "correctIndex": 0,
+      "explanation": "Severe emotional shock floods the body with stress hormones like adrenaline, temporarily stunning the heart muscle and causing the left ventricle to balloon."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of people diagnosed with Tourette syndrome actually experience coprolalia (involuntarily shouting obscenities)?",
+      "answer": 10,
+      "min": 1,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Despite popular media tropes, coprolalia affects only about 10% to 15% of people with Tourette syndrome; most have motor tics like blinking or throat-clearing."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Schizophrenia is characterized by a person possessing multiple distinct personalities.",
+      "answer": false,
+      "explanation": "Schizophrenia causes a split from reality through delusions and hallucinations; having distinct alternate identities is Dissociative Identity Disorder."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Agoraphobia is defined strictly as a phobic dread of wide-open outdoor spaces.",
+      "answer": false,
+      "explanation": "Agoraphobia involves avoiding any situation where escape is hard or help unavailable during panic, including crowded buses, elevators, or waiting in line."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Most people diagnosed with Tourette syndrome uncontrollably shout vulgar or obscene language.",
+      "answer": false,
+      "explanation": "Involuntary cursing (coprolalia) affects only about 10% to 15% of people with Tourette syndrome; most experience subtle motor or vocal tics."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Severe psychological grief can trigger a medical condition that physically balloons and weakens the heart.",
+      "answer": true,
+      "explanation": "Takotsubo cardiomyopathy, or broken heart syndrome, is caused by acute emotional shock triggering a hormone flood that temporarily alters the heart's shape."
+    }
+  ]
+}

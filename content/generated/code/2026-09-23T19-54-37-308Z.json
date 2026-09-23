@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.308Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1965 coding paper coined the idea of software bloat",
+      "body": "In 1965, computer scientist Mary K. Hawes published an analysis of program size and memory growth. Long before personal computers existed, she warned that software tends to expand to consume all available memory regardless of hardware upgrades. Niklaus Wirth later popularized this observation in 1995 as Wirth's Law, famously noting that software gets slower faster than hardware gets faster, formalizing decades of developer frustration.",
+      "imageWikipediaTitle": "Niklaus Wirth",
+      "sources": [
+        {
+          "title": "Wirth's Law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wirth%27s_law"
+        },
+        {
+          "title": "A Plea for Lean Software",
+          "publisher": "Computer History Museum",
+          "url": "https://www.computerhistory.org/collections/catalog/102658156"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Wirth%27s_law",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Unix represents absolute zero time as midnight, January 1, 1970",
+      "body": "Unix time measures modern clock time as the total number of elapsed seconds since the Unix Epoch. Ken Thompson and Dennis Ritchie picked midnight UTC on January 1, 1970, simply because it was a convenient, round date near the operating system's birth. Earlier early PDP-7 versions originally counted time in 60-Hz ticks, which would have overflowed a 32-bit counter in under three years.",
+      "imageWikipediaTitle": "Dennis Ritchie",
+      "sources": [
+        {
+          "title": "Unix time",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unix_time"
+        },
+        {
+          "title": "The Unix Time-Sharing System",
+          "publisher": "Nokia Bell Labs",
+          "url": "https://www.bell-labs.com/usr/dmr/www/hist.html"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Unix_time",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ping command was named after naval active sonar pulses",
+      "body": "In December 1983, network engineer Mike Muuss wrote a tiny debugging tool to diagnose abnormal network behavior. He modeled it on the acoustic pulses sent by submarines to detect distant hulls. The tool sends ICMP Echo Request packets and waits for an Echo Reply. Despite a common myth that it stands for 'Packet InterNet Groper,' Muuss confirmed the acronym was invented by others after the fact.",
+      "imageWikipediaTitle": "Sonar",
+      "sources": [
+        {
+          "title": "The Story of the PING Program",
+          "publisher": "U.S. Army Research Laboratory",
+          "url": "https://ftp.arl.army.mil/~mike/ping.html"
+        },
+        {
+          "title": "Ping (networking utility)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ping_(networking_utility)"
+        }
+      ],
+      "readMoreUrl": "https://ftp.arl.army.mil/~mike/ping.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a spreadsheet error flipped Reinhart-Rogoff austerity economics",
+      "body": "In 2010, Harvard economists Carmen Reinhart and Kenneth Rogoff published a famous paper claiming economic growth drops sharply once national debt hits 90% of GDP. World leaders cited it to justify austerity budgets. In 2013, graduate student Thomas Herndon tried replicating their figures and discovered an accidental Microsoft Excel coding glitch: the formula had omitted five countries from an average calculation by highlighting only cells 30 through 44 instead of 30 through 49.",
+      "imageWikipediaTitle": "Spreadsheet",
+      "sources": [
+        {
+          "title": "Growth in a Time of Debt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Growth_in_a_Time_of_Debt"
+        },
+        {
+          "title": "Replicating Reinhart and Rogoff",
+          "publisher": "University of Massachusetts Amherst Political Economy Research Institute",
+          "url": "https://peri.umass.edu/publication/item/533-does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogoff"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Growth_in_a_Time_of_Debt",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Margaret Hamilton coined the term 'software engineering' to earn respect",
+      "body": "During the Apollo program at MIT, writing code was considered secondary craftwork rather than serious science. Margaret Hamilton led the team developing Apollo's onboard flight software and began aggressively using the title 'software engineering.' Colleagues initially laughed at her for comparing code to real hardware engineering. The term stuck once her software autonomously prioritized vital landing radar tasks during the Apollo 11 moon descent, preventing a catastrophic abort.",
+      "imageWikipediaTitle": "Margaret Hamilton (software engineer)",
+      "sources": [
+        {
+          "title": "Margaret Hamilton (software engineer)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+        },
+        {
+          "title": "Margaret Hamilton: 'They thought our code was magical'",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/history/alsj/a11/a11.hamilton.html"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/history/alsj/a11/a11.hamilton.html",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the core observation behind Wirth's Law?",
+      "options": [
+        "Software becomes slower faster than hardware becomes faster",
+        "Source code complexity doubles every two years",
+        "Bugs increase proportionally to the number of programmers",
+        "Compilers introduce more errors than humans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Niklaus Wirth observed that software expands and bloats faster than hardware improvements can speed it up."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did early Unix developers stop counting time in 60-Hz machine ticks?",
+      "options": [
+        "A 32-bit counter would overflow in less than three years",
+        "Hardware clocks could not maintain 60-Hz precision",
+        "The tick method was blocked by an IBM patent",
+        "Daylight saving time could not be calculated with ticks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Counting 60-Hz ticks in a 32-bit integer ran out of range in roughly 2.5 years, prompting the shift to counting whole seconds."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where did Mike Muuss get the name for the 'ping' utility?",
+      "options": [
+        "The pulse sound of submarine active sonar",
+        "The acronym 'Packet InterNet Groper'",
+        "The tabletop game Ping-Pong",
+        "The whistling sound of a teletype terminal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Muuss named it after the sonar pulses of naval acoustics; the famous acronym was a backronym coined later."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What coding error in Reinhart and Rogoff's spreadsheet helped undercut their austerity conclusions?",
+      "options": [
+        "An Excel formula omitted five countries by highlighting rows 30–44 instead of 30–49",
+        "A macro inverted debt percentages into negative numbers",
+        "A floating-point rounding bug duplicated GDP values",
+        "A column header mislabeled debt-to-GDP as interest rates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thomas Herndon found that the authors accidentally selected only rows 30 to 44 in an average formula, skipping five key nations."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did Margaret Hamilton actively insist on using the phrase 'software engineering' during Apollo?",
+      "options": [
+        "To establish software development as a legitimate engineering discipline",
+        "To meet a contractual requirement from the U.S. Navy",
+        "To distinguish her code from Soviet missile guidance systems",
+        "To satisfy MIT's patent licensing office"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hamilton coined and popularized the term so software would be treated with the same scientific rigor and respect as hardware engineering."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many countries were accidentally left out of an Excel average formula in a landmark 2010 Harvard debt study?",
+      "answer": 5,
+      "min": 1,
+      "max": 25,
+      "unit": "countries",
+      "explanation": "The formula averaged rows 30 to 44 instead of 30 to 49, leaving 5 countries completely out of the calculation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The networking utility 'ping' was originally created as an acronym for 'Packet InterNet Groper'.",
+      "answer": false,
+      "explanation": "Creator Mike Muuss named it directly after submarine active sonar; the popular acronym was invented later as a backronym."
+    }
+  ]
+}

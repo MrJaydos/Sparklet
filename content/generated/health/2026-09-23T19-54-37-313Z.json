@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.313Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why breathing through your nose delivers more oxygen than mouth breathing",
+      "body": "Your paranasal sinuses continuously produce high concentrations of nitric oxide. When you breathe through your nose, this gas hitchhikes into your lungs, dilating pulmonary blood vessels and opening airways. This natural vasodilator boosts arterial oxygen uptake by 10 to 18 percent compared to breathing through your mouth, which bypasses the sinus reservoir completely. Inhaling through your nose is not just a filter—it is an active chemical booster for your respiration.",
+      "imageWikipediaTitle": "Paranasal sinuses",
+      "sources": [
+        {
+          "title": "Nasal nitric oxide in man",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1745376/"
+        },
+        {
+          "title": "Paranasal sinuses",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paranasal_sinuses"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1745376/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why newborn babies receive an immediate vitamin K injection at birth",
+      "body": "Human babies enter the world with dangerously low levels of vitamin K. The nutrient crosses the placenta poorly during pregnancy, breast milk contains minimal amounts, and a newborn's sterile gut cannot synthesize it yet. Because vitamin K is critical for synthesizing blood clotting proteins, infants are vulnerable to vitamin K deficiency bleeding, which can trigger sudden hemorrhaging in the brain. A single injection given shortly after birth provides protective stores until regular feeding begins.",
+      "imageWikipediaTitle": "Infant",
+      "sources": [
+        {
+          "title": "Vitamin K Deficiency Bleeding",
+          "publisher": "Centers for Disease Control and Prevention",
+          "url": "https://www.cdc.gov/ncbddd/vitamink/facts.html"
+        },
+        {
+          "title": "Vitamin K deficiency bleeding",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vitamin_K_deficiency_bleeding"
+        }
+      ],
+      "readMoreUrl": "https://www.cdc.gov/ncbddd/vitamink/facts.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your first weeks of weightlifting make you stronger without larger muscles",
+      "body": "When you start lifting weights, noticeable strength gains appear within the first two to four weeks—long before your muscle fibers physically enlarge. These initial gains are almost entirely neurological. Your central nervous system adapts by recruiting larger pools of motor units simultaneously, firing electrical impulses more rapidly, and dampening the reflexive inhibitory signals that normally hold your muscles back. You are not building new muscle tissue yet; you are mastering motor control.",
+      "imageWikipediaTitle": "Strength training",
+      "sources": [
+        {
+          "title": "Neural adaptations to strength training",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5407963/"
+        },
+        {
+          "title": "Muscle hypertrophy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscle_hypertrophy"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5407963/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Chilling cooked starch turns fast carbs into prebiotic fiber",
+      "body": "Cooking starches like rice or potatoes unravels their molecular structure, making them rapid, easy-to-digest carbohydrates. But cooling them in the refrigerator triggers retrogradation: starch chains realign into tight, crystalline spirals that digestive enzymes cannot break apart. This transforms a notable portion of digestible starch into resistant starch. Instead of spiking your blood sugar, it passes into the colon intact, acting as prebiotic fiber that feeds beneficial bacteria and produces protective short-chain fatty acids.",
+      "imageWikipediaTitle": "Resistant starch",
+      "sources": [
+        {
+          "title": "Resistant Starch",
+          "publisher": "Harvard T.H. Chan School of Public Health",
+          "url": "https://www.hsph.harvard.edu/nutritionsource/resistant-starch/"
+        },
+        {
+          "title": "Resistant starch",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Resistant_starch"
+        }
+      ],
+      "readMoreUrl": "https://www.hsph.harvard.edu/nutritionsource/resistant-starch/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why taking a multivitamin turns your urine bright neon yellow",
+      "body": "If your urine turns bright neon yellow after taking a daily multivitamin, your body is simply dumping excess riboflavin, also known as vitamin B2. Because riboflavin is water-soluble, your body cannot store large amounts; the small intestine absorbs what it needs and the kidneys rapidly excrete the rest. The vitamin contains a fluorescent chemical ring called isoalloxazine—from the Latin flavus, meaning yellow—that vividly glows yellow-green under normal light.",
+      "imageWikipediaTitle": "Riboflavin",
+      "sources": [
+        {
+          "title": "Riboflavin — Health Professional Fact Sheet",
+          "publisher": "National Institutes of Health",
+          "url": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/"
+        },
+        {
+          "title": "Riboflavin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Riboflavin"
+        }
+      ],
+      "readMoreUrl": "https://ods.od.nih.gov/factsheets/Riboflavin-HealthProfessional/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does nasal breathing increase oxygen uptake in your lungs compared to mouth breathing?",
+      "options": [
+        "It carries nitric oxide produced in your sinuses directly into your lungs",
+        "It compresses air to double the atmospheric pressure in your trachea",
+        "It filters out nitrogen so only pure oxygen enters the alveoli",
+        "It lowers the temperature of air to increase red blood cell affinity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Paranasal sinuses produce nitric oxide, a natural vasodilator that hitches a ride on nasal inhales to dilate pulmonary vessels and increase oxygen absorption."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are newborn infants routinely administered a vitamin K injection shortly after birth?",
+      "options": [
+        "To stimulate the rapid development of their digestive enzymes",
+        "To protect against fatal bleeding disorders due to poor initial clotting factors",
+        "To kickstart the growth of their skeletal bones and teeth",
+        "To trigger the production of protective antibodies against skin infections"
+      ],
+      "correctIndex": 1,
+      "explanation": "Babies are born with virtually no vitamin K stores and a sterile gut, putting them at high risk of fatal internal hemorrhage without an injection."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What primarily drives strength increases during the first few weeks of starting weight training?",
+      "options": [
+        "Rapid enlargement and hypertrophy of individual muscle fibers",
+        "Neural adaptations that recruit and fire motor units more efficiently",
+        "Thickening of bone mineral density in the skeletal joints",
+        "A sudden doubling in the body's circulating testosterone levels"
+      ],
+      "correctIndex": 1,
+      "explanation": "Early strength leaps stem from your nervous system coordinating and activating motor units more effectively, long before muscle tissue physically grows."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens when you cook starchy foods like rice or potatoes and then let them cool in the fridge?",
+      "options": [
+        "The carbohydrates ferment into dietary alcohol and volatile organic acids",
+        "The starches realign into resistant starch that bypasses digestion to feed gut bacteria",
+        "The food loses more than half of its total caloric content permanently",
+        "Enzymes convert the starch entirely into insoluble dietary cellulose"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cooling cooked starches causes retrogradation, reorganizing digestible amylose into resistant starch that functions like prebiotic fiber."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does taking a high-dose multivitamin often turn urine a fluorescent neon yellow?",
+      "options": [
+        "The body is rapidly flushing out excess, water-soluble riboflavin (vitamin B2)",
+        "The liver is detoxifying excess synthetic binding agents found in pill coatings",
+        "High vitamin levels cause mild, harmless dehydration that concentrates urobilin",
+        "Artificial yellow dyes in the capsules pass directly into the urinary tract"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excess riboflavin (vitamin B2) cannot be stored and is filtered by the kidneys into urine, where its natural chemical structure glows yellow under light."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what percentage can inhaling through your nose boost blood oxygen uptake compared to breathing through your mouth?",
+      "answer": 15,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Inhaled sinus nitric oxide dilates lung vessels, enhancing blood oxygenation by 10 to 18 percent compared to mouth breathing."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Lifting weights in the first two weeks makes you stronger primarily by enlarging your muscle fibers.",
+      "answer": false,
+      "explanation": "Early strength increases are driven almost entirely by neurological adaptations—your brain recruiting and coordinating motor units—not muscle hypertrophy."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Refrigerating cooked rice or potatoes changes their chemical structure into fiber that blunts blood sugar spikes.",
+      "answer": true,
+      "explanation": "Cooling cooked starchy food causes retrogradation, turning digestible starch into resistant starch that acts as prebiotic fiber in the colon."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Neon-yellow urine after taking a multivitamin is a sign of dangerous vitamin toxicity or severe dehydration.",
+      "answer": false,
+      "explanation": "Bright yellow urine after taking supplements is just your kidneys safely flushing out excess, harmless water-soluble riboflavin (vitamin B2)."
+    }
+  ]
+}

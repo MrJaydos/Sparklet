@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.305Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why every compact disc has an exact 15 mm hole in the center",
+      "body": "When Philips and Sony standardized the Compact Disc in the late 1970s, engineering teams debated its dimensions. While Sony championed playing time, Philips engineer Joop Sinjou resolved the central spindle hole size with an everyday item. He took a Dutch 10-cent coin, known as a dubbeltje, placed it on a table, and declared that to be the diameter. The coin measured exactly 15 millimeters across, establishing the worldwide standard.",
+      "imageWikipediaTitle": "Compact disc",
+      "sources": [
+        {
+          "title": "The History of the CD - The 'Spindle Hole'",
+          "publisher": "Philips",
+          "url": "https://www.philips.com/a-w/research/technologies/cd/spindle-hole.html"
+        },
+        {
+          "title": "Compact Disc",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Compact_disc"
+        }
+      ],
+      "readMoreUrl": "https://www.philips.com/a-w/research/technologies/cd/spindle-hole.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first webcam was rigged to check a coffee pot",
+      "body": "In 1991, researchers in the computer laboratory at the University of Cambridge grew tired of walking down flights of stairs only to find an empty coffee pot. Quentin Stafford-Fraser and Paul Jardetzky mounted an old video camera pointing at the pot, capturing three frames per minute. When web browsers added image support in 1993, the feed went online as the Trojan Room coffee pot, becoming the internet's very first webcam.",
+      "imageWikipediaTitle": "Trojan Room coffee pot",
+      "sources": [
+        {
+          "title": "The Trojan Room Coffee Pot",
+          "publisher": "University of Cambridge Computer Laboratory",
+          "url": "https://www.cl.cam.ac.uk/coffee/"
+        },
+        {
+          "title": "Trojan Room coffee pot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot"
+        }
+      ],
+      "readMoreUrl": "https://www.cl.cam.ac.uk/coffee/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blue LED's stubborn chemistry earned a Nobel Prize",
+      "body": "Red and green LEDs existed by the 1960s, but creating full-color displays and energy-efficient white light required blue LEDs, which eluded scientists for three decades. The hurdle was growing high-quality gallium nitride crystals. In the early 1990s, Shuji Nakamura, Isamu Akasaki, and Hiroshi Amano cracked the material synthesis. Their perseverance earned the 2014 Nobel Prize in Physics, revolutionizing modern lighting and smartphone screens with an energy savings of up to 90 percent.",
+      "imageWikipediaTitle": "Light-emitting diode",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physics 2014 - Popular Information",
+          "publisher": "Nobel Prize Outreach AB",
+          "url": "https://www.nobelprize.org/prizes/physics/2014/popular-information/"
+        },
+        {
+          "title": "Light-emitting diode",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Light-emitting_diode"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/physics/2014/popular-information/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A blind teenager's whistle gave phone phreakers free long-distance calls",
+      "body": "In the 1950s and 60s, AT&T routed telephone calls using in-band audio tones. A 2600-hertz tone signaled to the trunk line that a call had ended, opening the line for new operator routing. Blind teenager Joe Engressia discovered he could whistle at exactly 2600 Hz. Later, telephone 'phreakers' found that a toy whistle packed inside Cap'n Crunch cereal boxes emitted precisely the same tone, allowing anyone to place free long-distance calls.",
+      "imageWikipediaTitle": "Blue box",
+      "sources": [
+        {
+          "title": "Secrets of the Little Blue Box",
+          "publisher": "Slate",
+          "url": "https://slate.com/technology/2013/02/secrets-of-the-little-blue-box-by-ron-rosenbaum-the-classic-1971-esquire-story-about-phone-phreaks.html"
+        },
+        {
+          "title": "2600 hertz",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2600_hertz"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/2600_hertz",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first electronic musical instrument was played without touching it",
+      "body": "In 1920, Russian physicist Léon Theremin was researching proximity sensors for the Soviet government when he noticed an audio oscillator changed pitch as his hand moved nearby. Realizing its musical potential, he invented the theremin. Played entirely without physical contact, the instrument relies on two metal antennas that sense the electrical capacitance of the performer's hands—one controlling pitch and the other controlling volume.",
+      "imageWikipediaTitle": "Theremin",
+      "sources": [
+        {
+          "title": "Leon Theremin and the Instrument That Bears His Name",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/arts-culture/leon-theremin-and-instrument-bears-his-name-180974868/"
+        },
+        {
+          "title": "Theremin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Theremin"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Theremin",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What object determined the exact 15-millimeter diameter of the center hole in a Compact Disc?",
+      "options": [
+        "A standard camera lens cap",
+        "A Dutch 10-cent coin",
+        "A standard AA battery",
+        "A pocket watch face"
+      ],
+      "correctIndex": 1,
+      "explanation": "Philips engineer Joop Sinjou placed a Dutch 10-cent coin (a dubbeltje), which measured 15 mm across, onto a table to fix the hole's diameter."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the subject of the internet's very first live webcam stream in 1991?",
+      "options": [
+        "A laboratory coffee pot",
+        "A university parking lot",
+        "A pet ferret cage",
+        "A server rack temperature display"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cambridge researchers pointed a video camera at the Trojan Room coffee pot so people across the building wouldn't make a wasted trip to an empty brewer."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the invention of the blue LED take 30 years longer than red and green LEDs?",
+      "options": [
+        "Blue light required rare radioactive isotopes",
+        "Silicon chips melted at the required operational frequency",
+        "Researchers struggled to synthesize high-quality gallium nitride crystals",
+        "Glass bulbs could not transmit blue wavelengths without shattering"
+      ],
+      "correctIndex": 2,
+      "explanation": "The core engineering bottleneck was mastering the difficult chemical synthesis of gallium nitride, which was finally solved in the early 1990s."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What precise audio frequency allowed early phone phreakers to take control of telephone trunks?",
+      "options": [
+        "440 Hz",
+        "1000 Hz",
+        "2600 Hz",
+        "4320 Hz"
+      ],
+      "correctIndex": 2,
+      "explanation": "A 2600-hertz tone told AT&T's automated switching equipment that the remote end had hung up, allowing the caller to issue new routing commands."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does a musician control pitch and volume on a theremin?",
+      "options": [
+        "By varying the distance of their hands from two metal antennas",
+        "By blowing across tuned ceramic reeds",
+        "By tilting a mercury balance switch with their feet",
+        "By interrupting infrared beams with reflective rings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The theremin is played without touching; the player's hands alter the capacitance of two antenna circuits to shift pitch and volume."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What is the exact diameter of the center spindle hole of a standard Compact Disc?",
+      "answer": 15,
+      "min": 5,
+      "max": 35,
+      "unit": "mm",
+      "explanation": "The 15 mm hole was modeled directly on the Dutch 10-cent 'dubbeltje' coin by Philips engineer Joop Sinjou."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What audio frequency, emitted by a Cap'n Crunch toy whistle, allowed phone phreakers to hack telephone lines?",
+      "answer": 2600,
+      "min": 200,
+      "max": 8000,
+      "unit": "Hz",
+      "explanation": "At 2600 Hz, AT&T switches mistook the tone for an operator disconnect signal, granting control of the trunk."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "The theremin requires physical contact with capacitive touch strips to produce musical notes.",
+      "answer": false,
+      "explanation": "The theremin is entirely non-contact: the performer's hands move freely through electromagnetic fields around two metal antennas."
+    }
+  ]
+}

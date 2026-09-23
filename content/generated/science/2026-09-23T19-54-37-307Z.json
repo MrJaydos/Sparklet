@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.307Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Glass sponges can weave flexible fiber-optic cables naturally",
+      "body": "Deep beneath the ocean, the Venus' flower basket sponge constructs an intricate glass skeleton out of biosilica. Its structural glass fibers transmit light just like commercial fiber-optic telecommunication cables. Unlike industrial glass fiber, which requires high temperatures and snaps easily, the sponge's fibers form at near-freezing temperatures. Natural organic layers surround each fiber, making the glass surprisingly flexible and resistant to shattering.",
+      "imageWikipediaTitle": "Euplectella aspergillum",
+      "sources": [
+        {
+          "title": "Biological glass fibers: Correlation between optical and structural properties",
+          "publisher": "Proceedings of the National Academy of Sciences",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.132572799"
+        },
+        {
+          "title": "Venus' flower basket",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus%27_flower_basket"
+        }
+      ],
+      "readMoreUrl": "https://www.pnas.org/doi/10.1073/pnas.132572799",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hot metal sparks from a grinder are mostly burning iron",
+      "body": "When an angle grinder cuts steel, the brilliant shower of sparks is not just glowing-hot friction debris. Mechanical friction tears microscopic fragments of iron from the metal, heating them above their ignition point in air. The tiny particles rapidly oxidize—literally burning in atmospheric oxygen—which releases chemical energy and heats them far beyond the initial friction temperature, turning them into blazing streaks of light.",
+      "imageWikipediaTitle": "Angle grinder",
+      "sources": [
+        {
+          "title": "Spark testing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spark_testing"
+        },
+        {
+          "title": "Fire Investigation: Pyrophoric and Friction Sparks",
+          "publisher": "National Institute of Justice",
+          "url": "https://www.ojp.gov/pdffiles1/nij/grants/247458.pdf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spark_testing",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Water expands instantly when pressurized into exotic Ice VII",
+      "body": "Under everyday conditions, water freezes into familiar hexagonal ice when cooled below 0 °C. But slam room-temperature water with tens of thousands of atmospheres of pressure, and it instantly solidifies into Ice VII. This cubic crystalline form packs water molecules tightly enough to remain solid at temperatures exceeding several hundred degrees Celsius, conditions found deep inside icy moons and within the Earth's mantle.",
+      "imageWikipediaTitle": "Ice VII",
+      "sources": [
+        {
+          "title": "Ice VII",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ice_VII"
+        },
+        {
+          "title": "Water freezes into Ice VII in billionths of a second under shock compression",
+          "publisher": "Lawrence Livermore National Laboratory",
+          "url": "https://www.llnl.gov/article/43336/water-freezes-ice-vii-billionths-second-under-shock-compression"
+        }
+      ],
+      "readMoreUrl": "https://www.llnl.gov/article/43336/water-freezes-ice-vii-billionths-second-under-shock-compression",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Humans naturally glow in visible light",
+      "body": "Every living human body emits ultra-weak visible light, peaking in the late afternoon. This phenomenon, known as biophoton emission, is roughly one thousand times weaker than the sensitivity threshold of the naked human eye. Highly sensitive cryogenic cameras revealed that metabolic reactions involving free radicals constantly release photons, creating a subtle biological glow that fluctuates throughout our circadian cycle.",
+      "imageWikipediaTitle": "Biophoton",
+      "sources": [
+        {
+          "title": "Imaging of Ultraweak Spontaneous Photon Emission from Human Body Displaying Diurnal Rhythm",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006256"
+        },
+        {
+          "title": "Biophoton",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Biophoton"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006256",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single teaspoon of honeybee venom contains millions of peptide molecules",
+      "body": "Honeybee venom delivers a complex chemical cocktail dominated by melittin, a powerful peptide that makes up about fifty percent of the venom's dry weight. Melittin works by physically puncturing cell membranes, forming circular pores that cause cells to rupture and leak their contents. This triggers an immediate release of pain signaling molecules and localized inflammation, warning predators against disturbing the hive.",
+      "imageWikipediaTitle": "Melittin",
+      "sources": [
+        {
+          "title": "Apitoxin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apitoxin"
+        },
+        {
+          "title": "Melittin: a natural peptide with multiple pharmacological actions",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8301168/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8301168/",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What allows Venus' flower basket glass fibers to resist shattering compared to industrial optical fiber?",
+      "options": [
+        "Synthetic metallic coatings",
+        "Concentric organic layers buffering the glass",
+        "Extremely high formation temperatures",
+        "High concentrations of lead"
+      ],
+      "correctIndex": 1,
+      "explanation": "Organic sheaths between structural silica layers cushion mechanical stresses, making the biological fibers remarkably flexible."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do metal grinder sparks glow so brightly in the air?",
+      "options": [
+        "Friction alone provides all the thermal energy",
+        "They release stored electrical charge",
+        "Microscopic iron bits burn by reacting with oxygen",
+        "Grinding wheels are infused with phosphor powder"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mechanical friction heats tiny iron flecks enough to ignite them in atmospheric oxygen, an exothermic reaction that produces brilliant light."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is unique about Ice VII compared to everyday ice?",
+      "options": [
+        "It only forms below absolute zero",
+        "It remains a solid crystal at temperatures above 100 °C under extreme pressure",
+        "It expands to ten times the volume of liquid water",
+        "It consists of single atoms rather than molecules"
+      ],
+      "correctIndex": 1,
+      "explanation": "Enormous pressure packs water into cubic Ice VII, allowing it to stay solid even at temperatures of several hundred degrees Celsius."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why can't people see the biophoton light emitted by the human body?",
+      "options": [
+        "It is emitted strictly in the ultraviolet spectrum",
+        "It is absorbed entirely by human skin pigmentation",
+        "It is roughly 1,000 times dimmer than human eye sensitivity",
+        "It only emits during deep sleep"
+      ],
+      "correctIndex": 2,
+      "explanation": "The visible light emitted by metabolic reactions in the body is about a thousand times too faint for the human eye to detect."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does melittin, the primary toxin in bee venom, induce immediate pain?",
+      "options": [
+        "It paralyzes involuntary lung muscles",
+        "It punches pores directly into cell membranes, causing them to burst",
+        "It blocks all calcium channels in the bloodstream",
+        "It solidifies the water inside local tissue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Melittin forms pores in cell membranes, rupturing cells and stimulating sensory pain receptors."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "Compared to the minimum sensitivity threshold of the human eye, roughly how many times dimmer is the natural visible light emitted by a human body?",
+      "answer": 1000,
+      "min": 10,
+      "max": 100000,
+      "unit": "x dimmer",
+      "explanation": "Our bodies emit visible biophotons through metabolic reactions, but at roughly 1,000 times below the threshold of human vision."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of the dry weight of honeybee venom consists of the single membrane-rupturing peptide melittin?",
+      "answer": 50,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Melittin makes up approximately 50% of dry bee venom, driving its destructive pore-forming toxicity."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Grinder sparks are simply molten metal fragments heated entirely by mechanical friction.",
+      "answer": false,
+      "explanation": "Friction merely heats the iron fragments to their ignition temperature; the sparks flare brightly because the iron chemically burns in atmospheric oxygen."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The human body naturally emits visible light, not just infrared heat.",
+      "answer": true,
+      "explanation": "Metabolic reactions produce ultra-weak visible light (biophotons), though it is roughly a thousand times too faint to see with the naked eye."
+    }
+  ]
+}

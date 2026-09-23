@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.312Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Venus spins so slowly that you could easily outrun its sunrise on foot",
+      "body": "Because Venus rotates in retrograde at a sluggish crawl of about 6.5 kilometers per hour at its equator, the boundary between day and night moves slower than a typical human jog. An astronaut strolling steadily along the equator could keep pace with twilight, staying perpetually in sunset. However, Venus's crushing pressure of 90 atmospheres and surface temperature of 465°C make taking that stroll entirely impossible.",
+      "imageWikipediaTitle": "Venus",
+      "sources": [
+        {
+          "title": "Venus: Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/venus/facts/"
+        },
+        {
+          "title": "Venus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venus"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/venus/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jupiter's magnetic tail stretches all the way past Saturn's orbit",
+      "body": "Jupiter possesses the largest planetary magnetic field in the solar system. Blown back by the solar wind, its magnetotail extends into an immense teardrop shape that stretches roughly 700 million kilometers behind the gas giant. When NASA's Voyager 2 spacecraft was approaching Saturn in 1981, instruments detected that it was actually passing directly through the outer reaches of Jupiter's extended magnetic tail.",
+      "imageWikipediaTitle": "Magnetosphere of Jupiter",
+      "sources": [
+        {
+          "title": "Jupiter's Magnetosphere",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/jupiter/magnetosphere/"
+        },
+        {
+          "title": "Magnetosphere of Jupiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnetosphere_of_Jupiter"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/jupiter/magnetosphere/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Astronomers discovered a star moving at 8% the speed of light",
+      "body": "Deep in the center of the Milky Way, a star designated S4716 hurtles around Sagittarius A*, our galaxy's supermassive black hole. At its closest approach, it comes within 100 astronomical units of the event horizon. Traveling along this tight four-year orbit, S4716 accelerates to an astonishing 24,000 kilometers per second—about 8% of the speed of light—making it one of the fastest stars ever recorded.",
+      "imageWikipediaTitle": "Sagittarius A*",
+      "sources": [
+        {
+          "title": "Observation of S4716—a Star with a 4 yr Orbit around Sgr A*",
+          "publisher": "The Astrophysical Journal",
+          "url": "https://iopscience.iop.org/article/10.3847/1538-4357/ac752f"
+        },
+        {
+          "title": "S4716",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/S4716"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/S4716",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The moon Europa is so smooth it lacks virtually any tall mountains",
+      "body": "Jupiter's ice moon Europa has one of the smoothest natural surfaces in the solar system. Because its outer crust is a dynamic sheet of floating water ice, large impact craters and towering peaks cannot easily survive over geological timescales. The warm underlying ocean and tidal flexing cause fractures that fill with slush and freeze flat, leaving Europa with elevation variations rarely exceeding a few hundred meters.",
+      "imageWikipediaTitle": "Europa (moon)",
+      "sources": [
+        {
+          "title": "Europa: In Depth",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/jupiter/moons/europa/facts/"
+        },
+        {
+          "title": "Europa (moon)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Europa_(moon)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/jupiter/moons/europa/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Titan is the only place besides Earth with a known liquid cycle",
+      "body": "Saturn's largest moon, Titan, boasts a full hydrological system, but with one chilling twist: it is built on liquid methane and ethane rather than water. At surface temperatures of –179°C, methane evaporates into clouds, condenses into heavy rainfall, carves meandering river networks, and collects in sprawling polar seas like Kraken Mare. It is the only extraterrestrial world known to maintain standing liquid bodies on its surface.",
+      "imageWikipediaTitle": "Titan (moon)",
+      "sources": [
+        {
+          "title": "Titan: In Depth",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+        },
+        {
+          "title": "Lakes of Titan",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lakes_of_Titan"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/saturn/moons/titan/facts/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Roughly how fast does the surface of Venus rotate at its equator?",
+      "options": [
+        "About 6.5 km/h",
+        "About 65 km/h",
+        "About 450 km/h",
+        "About 1,670 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Venus rotates extremely slowly at approximately 6.5 km/h at its equator, well within human running speed."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which spacecraft passed through Jupiter's magnetotail while approaching Saturn?",
+      "options": [
+        "Voyager 2",
+        "New Horizons",
+        "Cassini",
+        "Pioneer 10"
+      ],
+      "correctIndex": 0,
+      "explanation": "Voyager 2 detected Jupiter's immense magnetic tail stretching hundreds of millions of kilometers when approaching Saturn in 1981."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What fraction of the speed of light does the star S4716 reach during its closest approach to Sagittarius A*?",
+      "options": [
+        "About 8%",
+        "About 25%",
+        "About 50%",
+        "About 0.1%"
+      ],
+      "correctIndex": 0,
+      "explanation": "At its closest point to the supermassive black hole, S4716 hits roughly 24,000 km/s, which is around 8% the speed of light."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is Europa's surface remarkably smooth compared to other moons?",
+      "options": [
+        "A shifting ice shell over a warm ocean levels out high relief over time",
+        "Strong solar winds constantly sandblast the surface flat",
+        "Atmospheric winds blow dust into all craters and valleys",
+        "Extreme gravity crushes all elevated features flat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tidal flexing and an active subsurface ocean keep the ice crust moving, filling cracks and erasing tall mountains over geological time."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What liquid fills the lakes, rivers, and rain clouds on Titan?",
+      "options": [
+        "Methane and ethane",
+        "Liquid nitrogen",
+        "Liquid water and ammonia",
+        "Sulfuric acid"
+      ],
+      "correctIndex": 0,
+      "explanation": "At –179°C, liquid methane and ethane take the role water plays on Earth, forming clouds, rain, and seas."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How fast does Venus's equator rotate, in kilometers per hour?",
+      "answer": 6.5,
+      "min": 1,
+      "max": 100,
+      "unit": "km/h",
+      "explanation": "Venus takes 243 Earth days to spin once, giving its equator an equatorial rotational speed of just 6.5 km/h."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of the speed of light does the star S4716 reach near our galaxy's central black hole?",
+      "answer": 8,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "S4716 accelerates to roughly 24,000 km/s, or about 8% of the speed of light, as it swings around Sagittarius A*."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "Icy moons with little atmosphere are covered in rugged, towering mountain ranges.",
+      "answer": false,
+      "explanation": "Europa is remarkably smooth; its floating ice crust constantly flexes and fractures, filling relief with slush and erasing tall peaks."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Earth is the only planetary body in our solar system with active rain and open seas.",
+      "answer": false,
+      "explanation": "Saturn's moon Titan has a full hydrological cycle with methane-ethane clouds, heavy rains, river valleys, and permanent lakes."
+    }
+  ]
+}

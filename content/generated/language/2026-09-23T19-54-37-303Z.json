@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.303Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Chinese speakers shout \"Add oil!\" to cheer you on",
+      "body": "When Mandarin and Cantonese speakers want to cheer someone on, they shout 加油 (jiāyóu, pronounced \"jee-ah yoh\"), which literally translates to \"add oil!\" Originating in Guangdong and Hong Kong as a motoring metaphor for stepping on the gas pedal, it quickly spread across the Sinosphere as an all-purpose rallying cry meaning \"keep going!\" or \"you can do it!\" In 2018, the literal English translation \"add oil\" was officially added to the Oxford English Dictionary.",
+      "imageWikipediaTitle": "Add oil",
+      "sources": [
+        {
+          "title": "Add oil: Oxford English Dictionary adds Hong Kong phrase",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/world-asia-china-45902096"
+        },
+        {
+          "title": "Add oil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Add_oil"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/world-asia-china-45902096",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a hearing mistake turned \"a napron\" into \"an apron\"",
+      "body": "If you spilled sauce in the 14th century, you reached for \"a napron,\" borrowed from Old French *naperon* (a small tablecloth). Over generations of spoken English, listeners misheard the syllable boundary: \"a napron\" gradually blurred into \"an apron.\" This linguistic process, known as rebracketing or false splitting, also transformed \"a nadder\" into \"an adder\" and \"a noumpere\" into \"an umpire\"—while running in reverse when \"an ekename\" became \"a nickname.\"",
+      "imageWikipediaTitle": "Apron",
+      "sources": [
+        {
+          "title": "Apron",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/apron"
+        },
+        {
+          "title": "Rebracketing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rebracketing"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/apron",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Bengali reveals ancient Indo-European roots",
+      "body": "Bengali is spoken by over 230 million native speakers across Bangladesh and India. To count to three, say ১ (এক, ek, pronounced \"ek\"), ২ (দুই, dui, pronounced \"doo-ee\"), and ৩ (তিন, tin, pronounced \"teen\"). Because Bengali belongs to the Indo-European language family, these everyday numbers share ancestral roots with Western tongues: *ek* traces to ancient roots for oneness, *dui* connects to Latin *duo*, and *tin* descends from the same ancestral source as English *three*.",
+      "imageWikipediaTitle": "Bengali numerals",
+      "sources": [
+        {
+          "title": "Bengali numbers",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/numbers/bengali.htm"
+        },
+        {
+          "title": "Bengali numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bengali_numerals"
+        }
+      ],
+      "readMoreUrl": "https://www.omniglot.com/language/numbers/bengali.htm",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the word \"oxymoron\" is secretly an oxymoron itself",
+      "body": "An oxymoron pairs contradictory terms, like \"deafening silence\" or \"seriously funny.\" But the word itself is an inside joke: it is an autological term that demonstrates its own definition. Coined from ancient Greek ὀξύς (*oxús*, pronounced \"ok-SOOS\"), meaning \"sharp\" or \"keen,\" and μωρός (*mōrós*, pronounced \"moh-ROS\"), meaning \"foolish\" or \"dull\" (the ancestor of \"moron\"), the word *oxymoron* literally translates to \"pointedly foolish\" or \"sharp-stupid.\"",
+      "imageWikipediaTitle": "Oxymoron",
+      "sources": [
+        {
+          "title": "Oxymoron",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/oxymoron"
+        },
+        {
+          "title": "Oxymoron",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oxymoron"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/oxymoron",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the Japanese farewell \"sayōnara\" literally means \"if that is so\"",
+      "body": "In Japan, parting with さようなら (sayōnara, pronounced \"sah-yoh-nah-rah\") is much heavier than a casual \"see you later.\" Etymologically, it is a shortening of the classical phrase *sayō naraba* (左様ならば), meaning \"if that is so\" or \"since it must be that way.\" Samurai once concluded meetings by stating \"if it must be so, I shall depart.\" Because of this solemn sense of finality, modern speakers rarely use it with close friends, preferring casual phrases like またね (mata ne).",
+      "imageWikipediaTitle": "Sayonara",
+      "sources": [
+        {
+          "title": "Sayonara",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/sayonara"
+        },
+        {
+          "title": "Sayonara",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sayonara"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/sayonara",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the literal translation of the popular Chinese rallying cry 'jiayou' (加油)?",
+      "options": [
+        "Light a fire",
+        "Add oil",
+        "Climb higher",
+        "Run faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "'Jiayou' literally means 'add oil,' originating as a motoring metaphor for stepping on the gas pedal."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What linguistic phenomenon caused 'a napron' to evolve into 'an apron' in English?",
+      "options": [
+        "Rebracketing",
+        "Vowel shift",
+        "Back-formation",
+        "Clipping"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rebracketing occurs when speakers mishear syllable boundaries between words, shifting 'a napron' into 'an apron.'"
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which Indo-European number word shares ancestral roots with the Bengali word for two, 'dui' (দুই)?",
+      "options": [
+        "Latin 'duo'",
+        "Mandarin 'èr'",
+        "Arabic 'ithnan'",
+        "Turkish 'iki'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bengali 'dui' and Latin 'duo' (along with French 'deux') trace back to the Proto-Indo-European root *dwóh₁."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What do the ancient Greek roots of the word 'oxymoron' literally mean?",
+      "options": [
+        "Wisely spoken",
+        "Sharp-foolish",
+        "False truth",
+        "Double meaning"
+      ],
+      "correctIndex": 1,
+      "explanation": "Coined from 'oxús' (sharp) and 'mōrós' (foolish/dull), 'oxymoron' literally translates to 'sharp-foolish.'"
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did the classical Japanese phrase behind 'sayōnara' (左様ならば) originally mean?",
+      "options": [
+        "Until tomorrow",
+        "Go in peace",
+        "If that is so",
+        "Safe travels"
+      ],
+      "correctIndex": 2,
+      "explanation": "'Sayōnara' shortens 'sayō naraba,' meaning 'if that is so'—a phrase samurai used when formally taking their leave."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year was the literal translation \"add oil\" officially inducted into the Oxford English Dictionary?",
+      "answer": 2018,
+      "min": 1995,
+      "max": 2024,
+      "unit": "",
+      "explanation": "The Oxford English Dictionary officially added the Hong Kong English phrase 'add oil' in October 2018."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Bengali is one of the most spoken languages on Earth. Approximately how many million native speakers use it?",
+      "answer": 230,
+      "min": 50,
+      "max": 500,
+      "unit": "million",
+      "explanation": "Bengali has roughly 230 million native speakers, making it the 6th or 7th most spoken native language worldwide."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The English word 'apron' originally started with the letter 'a' when it entered the language.",
+      "answer": false,
+      "explanation": "It was originally 'a napron' (from Old French naperon) until speakers misdivided the phrase as 'an apron.'"
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Japanese speakers commonly use 'sayōnara' to say goodbye to close friends at the end of an ordinary day.",
+      "answer": false,
+      "explanation": "Because 'sayōnara' carries a strong sense of finality, Japanese speakers prefer casual phrases like 'mata ne' (see you) in daily life."
+    }
+  ]
+}

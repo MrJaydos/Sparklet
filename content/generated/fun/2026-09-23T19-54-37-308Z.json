@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.308Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Great Wall of China is not visible from space with the naked eye",
+      "body": "It is one of the most persistent space myths: that China's Great Wall is the only human structure visible from orbit or the Moon. In reality, Apollo astronauts confirmed it is entirely invisible from lunar distance, and astronauts aboard the International Space Station cannot spot it without telephoto lenses. Because the wall was built from local stone and soil, its color blends seamlessly into the surrounding terrain.",
+      "imageWikipediaTitle": "Great Wall of China",
+      "sources": [
+        {
+          "title": "China's Wall Less Great in View from Space",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html"
+        },
+        {
+          "title": "Great Wall of China",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/vision/space/workinginspace/great_wall.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Freshwater fish never drink water, but saltwater fish drink constantly",
+      "body": "Whether a fish drinks depends entirely on osmosis. Because a freshwater fish's internal fluids are saltier than the river around it, water naturally diffuses into its tissues through its skin and gills. Drinking would cause it to swell up, so it never drinks and urinates constantly. Saltwater fish face the opposite danger: the salty ocean leaches moisture out of them, forcing them to gulp seawater continuously and excrete the excess salt.",
+      "imageWikipediaTitle": "Osmoregulation",
+      "sources": [
+        {
+          "title": "Do fish drink water?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/fish-drink-water.html"
+        },
+        {
+          "title": "Osmoregulation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Osmoregulation"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/fish-drink-water.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The kiwi is the only bird with nostrils at the tip of its beak",
+      "body": "While nearly all birds breathe through nostrils positioned near the base of their skull, New Zealand's flightless kiwi has them located right at the tip of its long bill. Because their eyes are tiny and weak, kiwis hunt almost entirely by scent. Plunging their sensitive beaks into damp soil and rotting leaf litter, they sniff out earthworms, beetle larvae, and seeds hidden beneath the surface.",
+      "imageWikipediaTitle": "Kiwi (bird)",
+      "sources": [
+        {
+          "title": "Kiwi",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/kiwi"
+        },
+        {
+          "title": "Kiwi (bird)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kiwi_(bird)"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/kiwi",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Gentoo penguins propose to mates by offering a pristine pebble",
+      "body": "On the rocky shores of Antarctica, a smooth pebble is the ultimate romantic currency. Male Gentoo penguins scour entire beaches to locate round, flawless stones to present at the feet of prospective partners. If the female accepts the gift, the pair uses the pebbles to build an elevated circular nest that protects their eggs from freezing runoff and icy meltwater—and rival penguins routinely sneak in to steal prize rocks.",
+      "imageWikipediaTitle": "Gentoo penguin",
+      "sources": [
+        {
+          "title": "Gentoo Penguin",
+          "publisher": "British Antarctic Survey",
+          "url": "https://www.bas.ac.uk/about-antarctica/wildlife/penguins/gentoo-penguin/"
+        },
+        {
+          "title": "Gentoo penguin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gentoo_penguin"
+        }
+      ],
+      "readMoreUrl": "https://www.bas.ac.uk/about-antarctica/wildlife/penguins/gentoo-penguin/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The corpse flower heats itself up to human body temperature",
+      "body": "The titan arum produces one of the largest flowering structures on Earth, but it avoids sweet floral scents. Instead, it unleashes a stench of rotting flesh and sweaty socks to lure carrion beetles and flesh flies. To disperse this foul odor high into the rainforest canopy, the central spike (spadix) can heat itself up to roughly 37 degrees Celsius (98 degrees Fahrenheit)—mimicking the warmth of a freshly dead mammal.",
+      "imageWikipediaTitle": "Amorphophallus titanum",
+      "sources": [
+        {
+          "title": "Titan arum",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://www.kew.org/plants/titan-arum"
+        },
+        {
+          "title": "Amorphophallus titanum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amorphophallus_titanum"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/plants/titan-arum",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why is the Great Wall of China impossible to see from low Earth orbit with the naked eye?",
+      "options": [
+        "It was built from materials matching the surrounding landscape",
+        "It is completely covered by dense forest canopy",
+        "It is narrower than human visual acuity at any orbital distance",
+        "It reflects sunlight at an angle that avoids low-orbit satellites"
+      ],
+      "correctIndex": 0,
+      "explanation": "The wall was built with local clay, stone, and dirt, blending seamlessly with the color and texture of surrounding hills."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do freshwater fish avoid actively drinking water?",
+      "options": [
+        "Their bodies naturally absorb water through osmosis",
+        "Freshwater lacks the minerals needed for basic digestion",
+        "Gulping water activates a toxic reflex in their stomach",
+        "They obtain all necessary hydration strictly from food"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because their internal fluids are saltier than the river, water diffuses into their bodies automatically via osmosis."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What unique anatomical feature sets the kiwi apart from all other living birds?",
+      "options": [
+        "Its nostrils are located at the very tip of its beak",
+        "It possesses two functional tongues for digging",
+        "Its lungs can extract oxygen directly from damp soil",
+        "It lacks external ear openings completely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kiwis are the only birds with nostrils at the end of their bill, which helps them sniff out invertebrates underground."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do male Gentoo penguins present smooth pebbles to prospective mates?",
+      "options": [
+        "To construct raised nests that protect eggs from meltwater",
+        "To grind down tough squid beaks inside their gizzards",
+        "To weigh down their bodies for deep Antarctic dives",
+        "To demonstrate their physical diving strength to females"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pebbles form an elevated nesting mound that prevents eggs and newly hatched chicks from freezing in icy runoff."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the titan arum mimic a decaying carcass to attract pollinating insects?",
+      "options": [
+        "It heats its central spike to human body temperature",
+        "It secretes real animal blood proteins onto its petals",
+        "It turns from vibrant green to rotting white overnight",
+        "It produces rhythmic vibrations that mimic breathing"
+      ],
+      "correctIndex": 0,
+      "explanation": "The plant heats its central spike up to around 37 °C (98 °F) to help vaporize its foul scent and mimic dead animal heat."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "To what temperature in degrees Celsius (°C) can the central spike of a blooming corpse flower heat itself?",
+      "answer": 37,
+      "min": 20,
+      "max": 55,
+      "unit": "°C",
+      "explanation": "The corpse flower heats its central spike to roughly 37 °C (98.6 °F)—matching human body temperature—to propel its rotten smell far into the canopy."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Great Wall of China is the only human-made structure visible from space with the naked eye.",
+      "answer": false,
+      "explanation": "Astronauts confirm the Great Wall cannot be seen without telephoto lenses because its materials blend into the surrounding hills."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Freshwater fish drink river water continuously to stay hydrated.",
+      "answer": false,
+      "explanation": "Freshwater fish absorb water through osmosis; drinking would cause them to swell up, so they never drink and urinate constantly."
+    }
+  ]
+}

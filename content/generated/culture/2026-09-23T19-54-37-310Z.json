@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-23T19:54:37.310Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 700-Year-Old Tattoo Parlor Marking Jerusalem Pilgrims",
+      "body": "Inside the Old City of Jerusalem, the Razzouk family has inked Christian pilgrims for twenty-seven generations. Originating in Egypt as Coptic tattooists, they brought centuries-old, hand-carved olive wood printing blocks to the holy city around 1300. The carved wooden stamps act as stencils for intricate crosses, saints, and resurrection scenes, preserving a pilgrimage rite that once granted travelers physical proof of their journey.",
+      "imageWikipediaTitle": "Razzouk Tattoo",
+      "sources": [
+        {
+          "title": "The world's oldest tattoo shop",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/travel/article/20200318-the-worlds-oldest-tattoo-shop"
+        },
+        {
+          "title": "Razzouk Tattoo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Razzouk_Tattoo"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/travel/article/20200318-the-worlds-oldest-tattoo-shop",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sahel Beauty Pageant Where Men Spend Hours on Makeup",
+      "body": "In the nomadic Wodaabe culture of the Sahel, annual beauty contests reverse conventional pageant roles. During the Gerewol festival, young men spend up to six hours applying yellow clay, dark eyeliner, and shaved hairlines to accentuate their features. Dancing for hours in searing heat, competitors roll their eyes and bare wide smiles to emphasize facial symmetry and white teeth, all under the scrutinizing gaze of female judges.",
+      "imageWikipediaTitle": "Guérewol",
+      "sources": [
+        {
+          "title": "The Nomads Who Turn Beauty Contests Upside Down",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/culture/article/20191025-the-nomads-who-turn-beauty-contests-upside-down"
+        },
+        {
+          "title": "Guérewol",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gu%C3%A9rewol"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/culture/article/20191025-the-nomads-who-turn-beauty-contests-upside-down",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The West African Drums Engineered to Mimic Human Speech",
+      "body": "Long before telegraphs or radio, West African communities broadcast news across vast distances using the dùndún, or talking drum. Because tonal languages like Yoruba rely on pitch to distinguish words, drummers replicate speech melodies rather than arbitrary Morse-like codes. By squeezing leather cords running along the drum's hourglass wooden frame, a skilled musician alters drumhead tension in real time, faithfully reproducing pitch inflections, proverbs, and intricate spoken poetry.",
+      "imageWikipediaTitle": "Talking drum",
+      "sources": [
+        {
+          "title": "Talking drum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Talking_drum"
+        },
+        {
+          "title": "Dundun (Talking Drum)",
+          "publisher": "Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/501725"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Talking_drum",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secret Slang That Shielded Gay Britons from Arrest",
+      "body": "Before homosexuality was decriminalized in England in 1967, queer communities relied on Polari, a coded subcultural language, to communicate safely in public. Blending Romani, Italian, sailors' cant, rhyming slang, and Yiddish, Polari allowed speakers to identify each other and warn of undercover police without drawing suspicion. Words like \"naff\" (bad style) and \"drag\" (theatrical clothing) quietly slipped from Polari into mainstream English, where they remain everyday vocabulary today.",
+      "imageWikipediaTitle": "Polari",
+      "sources": [
+        {
+          "title": "Polari: The code language for gay men",
+          "publisher": "British Library",
+          "url": "https://www.bl.uk/lgbtq-histories/articles/polari-the-code-language-for-gay-men"
+        },
+        {
+          "title": "Polari",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Polari"
+        }
+      ],
+      "readMoreUrl": "https://www.bl.uk/lgbtq-histories/articles/polari-the-code-language-for-gay-men",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Japanese Solo Comedians Who Never Stand Up",
+      "body": "In the centuries-old Japanese art of rakugo, a lone performer sits atop a silk cushion on an empty stage to act out entire multi-character comedies. Armed with only two props—a folding paper fan and a hand towel—the storyteller never rises. Instead, they shift distinct personalities instantly with subtle head turns, eye movements, and vocal pitch changes, miming everything from slurping hot soba noodles to slicing open letters.",
+      "imageWikipediaTitle": "Rakugo",
+      "sources": [
+        {
+          "title": "Rakugo: The Japanese Art of Verbal Storytelling",
+          "publisher": "Web Japan",
+          "url": "https://web-japan.org/trends/11_culture/pop202011_rakugo.html"
+        },
+        {
+          "title": "Rakugo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rakugo"
+        }
+      ],
+      "readMoreUrl": "https://web-japan.org/trends/11_culture/pop202011_rakugo.html",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What tool has the Razzouk family historically used as stencils for pilgrim tattoos?",
+      "options": [
+        "Carved olive wood blocks",
+        "Perforated copper sheets",
+        "Parchment transfer paper",
+        "Etched bone needles"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Razzouk family has preserved centuries-old, hand-carved olive wood stamps used to imprint tattoo designs directly onto skin before inking."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What facial features do Wodaabe men deliberately exaggerate during the Gerewol dance?",
+      "options": [
+        "Flaring nostrils and arched eyebrows",
+        "Puffed cheeks and squinted eyes",
+        "Wide eye rolls and bared white teeth",
+        "Pursed lips and lowered eyelids"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dancers roll their eyes and bare wide smiles to highlight facial symmetry and show off the whiteness of their teeth and eyes."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does a drummer modulate the pitch on a West African talking drum?",
+      "options": [
+        "By squeezing the leather cords along its hourglass body",
+        "By loosening screws along the metal rim",
+        "By striking different colored zones on the drumhead",
+        "By pouring water into an internal chamber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Squeezing the longitudinal leather strings tightens the drumheads, instantly raising the pitch to mimic spoken vocal inflections."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did British queer communities primarily develop and speak Polari in the mid-20th century?",
+      "options": [
+        "To memorize theatrical scripts in shorthand",
+        "To evade arrest and identify allies before homosexuality was legalized",
+        "To negotiate trade prices with foreign sailors",
+        "To perform satirical radio skits anonymously"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polari served as a coded protective language that allowed LGBTQ+ Britons to converse in public without alerting undercover police."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which two everyday props does a traditional Japanese rakugo performer use on stage?",
+      "options": [
+        "A bamboo flute and a wooden bowl",
+        "A folding paper fan and a small hand towel",
+        "A pair of hand cymbals and a silk scarf",
+        "A wooden dagger and a lacquered cup"
+      ],
+      "correctIndex": 1,
+      "explanation": "A rakugo storyteller sits on a cushion and uses only a paper fan (sensu) and a cotton towel (tenugui) to pantomime all actions."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "For how many continuous family generations has the Razzouk family practiced tattooing pilgrims?",
+      "answer": 27,
+      "min": 5,
+      "max": 60,
+      "unit": "generations",
+      "explanation": "The Razzouk craft has been passed down directly through 27 generations, tracing back to Coptic Christian traditions around 1300."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "West African talking drums communicate using an arbitrary dot-and-dash code similar to Morse code.",
+      "answer": false,
+      "explanation": "Talking drums reproduce the actual pitch, tone, and rhythmic cadence of tonal spoken languages like Yoruba, not an artificial symbolic cipher."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Common slang words like 'drag' and 'naff' originated from the underground language Polari.",
+      "answer": true,
+      "explanation": "Both terms originated in British theatre and Polari slang before crossing over into mainstream English vocabulary."
+    }
+  ]
+}
