@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-09-24T20:12:47.088Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Treasury Secretary Who Put His Own Face on the First Dollar Bill",
+      "body": "When the United States printed its very first paper dollar bills in 1862 to fund the Civil War, George Washington was nowhere to be found. Instead, Treasury Secretary Salmon P. Chase put his own face on the front of the one-dollar note. Chase’s critics accused him of using federal currency to campaign for the presidency. Washington did not claim his iconic spot on the one-dollar bill until seven years later, in 1869.",
+      "imageWikipediaTitle": "Salmon P. Chase",
+      "sources": [
+        {
+          "title": "$1 Note",
+          "publisher": "U.S. Currency Education Program",
+          "url": "https://www.uscurrency.gov/denominations/1"
+        },
+        {
+          "title": "Salmon P. Chase",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Salmon_P._Chase"
+        }
+      ],
+      "readMoreUrl": "https://www.uscurrency.gov/denominations/1",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1930 US Tariff Sparked a Trade War That Crushed World Commerce",
+      "body": "In May 1930, 1,028 economists signed an open letter pleading with President Herbert Hoover to veto the Smoot-Hawley Tariff Act. Hoover signed it anyway, sharply raising duties on over 20,000 imported goods. Predictably, trading partners retaliated with crippling tariffs on American exports. Within four years, worldwide trade plummeted by roughly two-thirds. Rather than insulating American farmers and factories, the tariff helped turn a Wall Street crash into a devastating worldwide depression.",
+      "imageWikipediaTitle": "Smoot–Hawley Tariff Act",
+      "sources": [
+        {
+          "title": "Protectionism in the Interwar Period",
+          "publisher": "Office of the Historian, U.S. Department of State",
+          "url": "https://history.state.gov/milestones/1921-1936/protectionism"
+        },
+        {
+          "title": "Smoot–Hawley Tariff Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Smoot%E2%80%93Hawley_Tariff_Act"
+        }
+      ],
+      "readMoreUrl": "https://history.state.gov/milestones/1921-1936/protectionism",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rising Metal Prices Forced the US to Strip Silver from Pocket Change",
+      "body": "Until 1965, everyday American dimes and quarters were made of 90% pure silver. But as industrial demand pushed silver prices past $1.29 an ounce, the metal inside each coin became worth more than its face value. People began hoarding change, leaving retail registers and vending machines starved for coins. To stop the shortage, President Lyndon B. Johnson signed the Coinage Act of 1965, replacing silver with a cheaper copper-nickel sandwich that still fills our pockets today.",
+      "imageWikipediaTitle": "Coinage Act of 1965",
+      "sources": [
+        {
+          "title": "Remarks at the Signing of the Coinage Act",
+          "publisher": "The American Presidency Project",
+          "url": "https://www.presidency.ucsb.edu/documents/remarks-the-signing-the-coinage-act"
+        },
+        {
+          "title": "Coinage Act of 1965",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coinage_Act_of_1965"
+        }
+      ],
+      "readMoreUrl": "https://www.presidency.ucsb.edu/documents/remarks-the-signing-the-coinage-act",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World’s Model Central Bank Was Founded to Rebuild a War Fleet",
+      "body": "In 1690, the French navy crushed the Anglo-Dutch fleet off Beachy Head, leaving England vulnerable to sea invasion. King William III desperately needed £1.2 million to build new warships, but royal finances were depleted and lenders refused him credit. In 1694, Parliament offered an unprecedented deal: private investors who funded the navy were granted a royal charter to establish a joint-stock bank with rights to issue circulating banknotes. That emergency war financing became the Bank of England.",
+      "imageWikipediaTitle": "Bank of England",
+      "sources": [
+        {
+          "title": "History of the Bank of England",
+          "publisher": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/about/history"
+        },
+        {
+          "title": "Bank of England",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bank_of_England"
+        }
+      ],
+      "readMoreUrl": "https://www.bankofengland.co.uk/about/history",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The New York Stock Exchange Began with 24 Men Under a Tree",
+      "body": "In the spring of 1792, financial speculation had triggered New York’s first banking panic. Seeking to restore public trust and cut out unlicensed auctioneers, twenty-four prominent merchants and brokers gathered on Wall Street on May 17, 1792. Under the shade of a buttonwood—or sycamore—tree, they signed a two-sentence pact agreeing to trade only with each other and charge a minimum commission of 0.25%. That informal outdoor meeting laid the foundation for the New York Stock Exchange.",
+      "imageWikipediaTitle": "Buttonwood Agreement",
+      "sources": [
+        {
+          "title": "Today in History - May 17: The New York Stock Exchange",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/may-17/"
+        },
+        {
+          "title": "Buttonwood Agreement",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Buttonwood_Agreement"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/may-17/",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Whose portrait appeared on the very first US one-dollar paper banknote issued in 1862?",
+      "options": [
+        "Salmon P. Chase",
+        "George Washington",
+        "Benjamin Franklin",
+        "Abraham Lincoln"
+      ],
+      "correctIndex": 0,
+      "explanation": "Treasury Secretary Salmon P. Chase placed his own likeness on the inaugural $1 legal tender note in 1862."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did foreign nations respond to the passage of the 1930 Smoot-Hawley Tariff Act?",
+      "options": [
+        "They retaliated by enacting steep tariffs against American exports",
+        "They agreed to peg their domestic currencies to the US dollar",
+        "They formed the World Trade Organization to mediate disputes",
+        "They suspended all maritime shipping routes to North America"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trade partners retaliated with their own tariffs on US products, causing international trade to plunge by about two-thirds."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the United States eliminate silver from circulating dimes and quarters in 1965?",
+      "options": [
+        "The silver value exceeded face value, triggering widespread coin hoarding",
+        "Silver reserves were needed entirely for space program satellites",
+        "Foreign counterfeiters perfected an undetectable silver duplicate",
+        "A severe copper surplus drove down the production cost of alternatives"
+      ],
+      "correctIndex": 0,
+      "explanation": "When the market price of silver surpassed $1.29 an ounce, the coins were worth more melted down than spent, causing acute shortages."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What urgent crisis prompted the founding of the Bank of England in 1694?",
+      "options": [
+        "Funding the construction of a new navy to fight France",
+        "Halting runaway inflation caused by gold debasement",
+        "Financing the rebuilding of London after the Great Fire",
+        "Paying off reparations following the English Civil War"
+      ],
+      "correctIndex": 0,
+      "explanation": "King William III needed £1.2 million to rebuild the naval fleet after being defeated by France at Beachy Head."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where was the historic 1792 agreement that founded the New York Stock Exchange signed?",
+      "options": [
+        "Under a buttonwood tree on Wall Street",
+        "Inside Federal Hall after a session of Congress",
+        "In the back room of a Dutch coffeehouse",
+        "Aboard a merchant ship anchored in New York Harbor"
+      ],
+      "correctIndex": 0,
+      "explanation": "Twenty-four brokers met outdoors under a buttonwood (sycamore) tree on Wall Street to sign the pact."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did George Washington first appear on the US one-dollar bill?",
+      "answer": 1869,
+      "min": 1780,
+      "max": 1950,
+      "unit": "",
+      "explanation": "Salmon P. Chase appeared on the first paper $1 bill in 1862; Washington was not added until 1869."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "By what percentage did world trade fall between 1929 and 1934 following the Smoot-Hawley Tariff Act?",
+      "answer": 66,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Retaliatory trade barriers and economic collapse caused international commerce to plunge by roughly two-thirds between 1929 and 1934."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of silver did circulating US dimes and quarters contain before 1965?",
+      "answer": 90,
+      "min": 20,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Prior to 1965, US dimes and quarters were struck from 90% silver and 10% copper."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many brokers signed the 1792 Buttonwood Agreement that created the New York Stock Exchange?",
+      "answer": 24,
+      "min": 5,
+      "max": 150,
+      "unit": "",
+      "explanation": "Exactly 24 merchants and brokers signed the agreement under a buttonwood tree outside 68 Wall Street."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "George Washington has appeared on the US one-dollar bill ever since paper dollars were first printed.",
+      "answer": false,
+      "explanation": "Treasury Secretary Salmon P. Chase placed his own face on the inaugural 1862 paper dollar; Washington wasn't featured until 1869."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Circulating US dimes and quarters have always been made from copper and nickel.",
+      "answer": false,
+      "explanation": "Until the Coinage Act of 1965, standard circulating US dimes and quarters were made of 90% silver."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The New York Stock Exchange was founded inside a grand neoclassical trading hall on Wall Street.",
+      "answer": false,
+      "explanation": "The NYSE began informally under a sycamore (buttonwood) tree on Wall Street where 24 brokers signed a two-sentence agreement."
+    }
+  ]
+}

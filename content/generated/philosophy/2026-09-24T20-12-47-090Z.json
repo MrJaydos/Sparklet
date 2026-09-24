@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-24T20:12:47.090Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a shopper's grocery list works backwards from a detective's notes",
+      "body": "Philosopher G.E.M. Anscombe imagined a shopper carrying a grocery list while a detective shadows him, recording everything he places in his cart. Both lists end up identical, but their relationship to reality is opposite. If the shopper buys butter instead of margarine, his action is wrong; the world must match his list. But if the detective writes butter when the shopper bought margarine, his note is wrong; his list must match the world.",
+      "imageWikipediaTitle": "G. E. M. Anscombe",
+      "sources": [
+        {
+          "title": "Gertrude Elizabeth Margaret Anscombe",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/anscombe/"
+        },
+        {
+          "title": "Direction-of-fit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Direction-of-fit"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/anscombe/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 6th-century prisoner saved free will by redefining eternity",
+      "body": "Facing execution in 524 AD, Roman philosopher Boethius wrestled with an agonizing puzzle: if God foreknows every action tomorrow, how can human choices be free? His solution redefined eternity. Eternity is not endless time stretching forward and backward; it is the complete, simultaneous possession of all moments at once. Just as looking down from a high tower at travellers moving along a road does not force their steps, timelessly viewing choices does not cause them.",
+      "imageWikipediaTitle": "Boethius",
+      "sources": [
+        {
+          "title": "Boethius",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/boethius/"
+        },
+        {
+          "title": "Boethius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boethius"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/boethius/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you can consciously see forty-eight speckles without knowing they exist",
+      "body": "In 1949, philosopher Gilbert Ryle challenged the popular theory that our minds directly perceive mental images called 'sense-data.' Imagine looking directly at a speckled hen. Your visual impression contains a precise, determinate number of speckles—say, exactly forty-eight. Yet you cannot report that number without stopping to count them. If conscious experiences are completely transparent and immediately known to the mind, how can an image possess forty-eight speckles while your mind remains utterly unaware of the count?",
+      "imageWikipediaTitle": "Hen",
+      "sources": [
+        {
+          "title": "The Problem of Perception",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/perception-problem/"
+        },
+        {
+          "title": "Speckled hen paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Speckled_hen_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Speckled_hen_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the master in Hegel's struggle for recognition ends up powerless",
+      "body": "In his 1807 work Phenomenology of Spirit, G.W.F. Hegel described two beings entering a struggle to the death for recognition. One yields out of terror, becoming a slave, while the victor becomes master. But the master soon encounters an existential trap: the recognition he receives comes from an unfree servant, making it worthless. Meanwhile, the slave transforms physical nature through labor, achieving genuine self-awareness and independence, while the idle master becomes completely dependent on the slave's work.",
+      "imageWikipediaTitle": "Georg Wilhelm Friedrich Hegel",
+      "sources": [
+        {
+          "title": "Georg Wilhelm Friedrich Hegel",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hegel/"
+        },
+        {
+          "title": "Master–slave dialectic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Master%E2%80%93slave_dialectic"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/hegel/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "David Hume's brutal test that consigned entire libraries to the flames",
+      "body": "Scottish philosopher David Hume argued that all human knowledge splits into two mutually exclusive prongs. The first prong is 'Relations of Ideas'—logical and mathematical truths that are intuitively certain, like geometry, but tell us nothing about reality. The second prong is 'Matters of Fact'—empirical observations derived from the senses, which describe reality but can never be proven with absolute certainty. Hume declared that any book addressing neither abstract math nor empirical facts is pure illusion and should be burned.",
+      "imageWikipediaTitle": "David Hume",
+      "sources": [
+        {
+          "title": "David Hume",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/hume/"
+        },
+        {
+          "title": "Hume's fork",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hume%27s_fork"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/hume/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Anscombe's shopping list thought experiment, what distinguishes the shopper's list from the detective's list?",
+      "options": [
+        "The items written on the two lists are completely different",
+        "Their 'direction of fit': whether the list must match reality or reality must match the list",
+        "The detective's list is legally binding in court while the shopper's is not",
+        "The shopper relies on memory while the detective uses direct sensory data"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anscombe introduced direction of fit: a belief (the detective's list) must conform to reality, whereas an intention or desire (the shopping list) aims to make reality conform to it."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Boethius reconcile divine foreknowledge with human free choice?",
+      "options": [
+        "He argued that God directly intervenes to change human outcomes",
+        "He defined eternity as timeless simultaneity, observing all events without causing them",
+        "He claimed human beings possess no genuine free will at all",
+        "He stated that God's knowledge is limited strictly to past events"
+      ],
+      "correctIndex": 1,
+      "explanation": "Boethius argued that God exists in an eternal present, viewing past, present, and future at once like a watcher on a tower, which observes actions without predetermining them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What central problem does the Speckled Hen paradox raise for theories of conscious perception?",
+      "options": [
+        "How a conscious visual scene can contain specific details without the mind knowing them",
+        "Whether animals experience colors the same way human beings do",
+        "Why optical illusions cause people to see movement in stationary images",
+        "Whether hens are capable of counting individual physical objects"
+      ],
+      "correctIndex": 0,
+      "explanation": "The paradox challenges sense-data theory by pointing out that a visual impression can have a definite number of speckles even though you cannot identify the number without counting."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the master in Hegel's dialectic ultimately fail to achieve true self-consciousness?",
+      "options": [
+        "The master loses a subsequent duel against another master",
+        "The recognition comes from an unfree servant and the master relies entirely on the slave's labor",
+        "The slave escapes and leaves the master with no physical estate",
+        "The master is forced to work the land himself due to economic shifts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hegel showed that the master's recognition is hollow because the slave is unfree, while the master becomes idle and helpless without the slave's productive labor."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to Hume's Fork, what is true of 'Relations of Ideas' like geometry and arithmetic?",
+      "options": [
+        "They are uncertain and constantly revised by physical observation",
+        "They describe physical reality through empirical sensory experiments",
+        "They are logically certain by definition but convey no facts about the physical world",
+        "They cannot be verified by human reason under any circumstances"
+      ],
+      "correctIndex": 2,
+      "explanation": "Relations of Ideas are discoverable by pure thought and logically necessary, but because they are true by definition, they tell us nothing about whether physical things actually exist."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Beliefs and desires that describe the exact same event function in the exact same logical direction.",
+      "answer": false,
+      "explanation": "Beliefs and desires have opposite 'directions of fit': when reality contradicts a belief, you correct the belief; when reality contradicts a desire, you act to change reality."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "In classic philosophical theology, eternity means time stretching endlessly into the future.",
+      "answer": false,
+      "explanation": "Boethius defined eternity not as infinite linear duration, but as timelessness—the complete, simultaneous possession of all moments at once."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "In Hegel's master-slave dialectic, the master gains total independence while the slave remains powerless.",
+      "answer": false,
+      "explanation": "Hegel argued the reverse: the master becomes dependent on the slave's work and hollow praise, while the slave achieves real autonomy by shaping the world through labor."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "David Hume argued that pure mathematical truths can never prove whether physical objects actually exist.",
+      "answer": true,
+      "explanation": "Under Hume's Fork, math consists of 'Relations of Ideas'—logically certain and true by definition, but incapable of proving any empirical 'Matters of Fact' about the physical world."
+    }
+  ]
+}

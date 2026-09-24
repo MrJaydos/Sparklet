@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-24T20:12:47.089Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Match your pitch language to your buyer's delivery timeline",
+      "body": "When pitching a solution starting next week, focus on concrete feasibility: exact onboarding steps, day-to-day operations, and execution timelines. But if the contract begins next year, pitch abstract desirability: high-level vision, strategic alignment, and long-term transformation. Construal level theory shows that imminent decisions make buyers think concretely about \"how,\" while distant decisions trigger abstract thinking about \"why.\" Aligning your pitch with their mental horizon stops proposals from feeling mismatched.",
+      "imageWikipediaTitle": "Construal level theory",
+      "sources": [
+        {
+          "title": "Construal-Level Theory of Psychological Distance",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3152826/"
+        },
+        {
+          "title": "Construal level theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Construal_level_theory"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Construal_level_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Affirm a buyer's core strength before critiquing their system",
+      "body": "Pointing out costly flaws in a prospect's current workflow often sparks immediate defensive resistance rather than eagerness to buy. Persuasion researchers discovered a reliable solution: self-affirmation. Before revealing where their operation is falling short, prompt prospects to reflect on a core organizational value or recent triumph. Affirmed individuals feel secure in their competence, which disarms ego-defensive biases and allows them to evaluate uncomfortable critiques of their existing setup with objective clarity.",
+      "imageWikipediaTitle": "Self-affirmation",
+      "sources": [
+        {
+          "title": "The Psychology of Change: Self-Affirmation and Social Psychological Intervention",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366409/"
+        },
+        {
+          "title": "Self-affirmation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-affirmation"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366409/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your 'take-it-or-leave-it' first offer kills the deal",
+      "body": "Opening a negotiation with your absolute best and fairest price seems honest, but it regularly destroys deals. Dubbed Boulwarism after corporate negotiator Lemuel Boulware, this rigid first-and-final offer triggers intense psychological reactance. Counterparts reject even objectively generous terms because the strategy robs them of agency and the satisfaction of winning concessions. Gradually negotiating toward the exact same target price yields dramatically higher closing rates and leaves the other party feeling genuinely satisfied.",
+      "imageWikipediaTitle": "Boulwarism",
+      "sources": [
+        {
+          "title": "Boulwarism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Boulwarism"
+        },
+        {
+          "title": "Boulwarism",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Boulwarism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Boulwarism",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ask follow-up questions to build instant sales rapport",
+      "body": "Scripted discovery calls often feel like interrogations to prospective buyers. In a landmark Harvard study analyzing thousands of business and interpersonal conversations, researchers found that asking more questions increased how much conversational partners liked each other. Crucially, follow-up questions—inquiries directly building on the prospect's preceding answer—were far more powerful than pre-planned questions. They demonstrate active listening, convey responsiveness, and foster genuine trust without triggering defensive barriers.",
+      "imageWikipediaTitle": "Active listening",
+      "sources": [
+        {
+          "title": "It Doesn't Hurt to Ask: Question-Asking Increases Liking",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5824984/"
+        },
+        {
+          "title": "Active listening",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Active_listening"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5824984/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Trade mismatched priorities to break price deadlocks",
+      "body": "When a negotiation stalls over price, arguing numbers rarely helps. Negotiation science shows the most effective breakthrough is \"logrolling\": trading concessions across issues that each side values differently. If payment terms matter deeply to your cash flow but delivery timing matters more to your client, conceding on speed in exchange for a larger upfront deposit creates mutual value. You solve the client's pressing problem while protecting your financial margin.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/negotiation"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Negotiation",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to construal level theory, how should you pitch a product whose contract starts far in the future?",
+      "options": [
+        "Focus on abstract vision and desirability rather than granular logistics",
+        "Detail the exact daily onboarding steps and technical minutiae",
+        "Offer steep immediate discounts to force a fast closing date",
+        "Avoid mentioning long-term benefits until after implementation"
+      ],
+      "correctIndex": 0,
+      "explanation": "Construal level theory shows that distant decisions trigger abstract thinking focused on desirability ('why'), while imminent decisions focus on concrete feasibility ('how')."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does self-affirmation reduce a prospect's defensiveness when hearing about flaws in their current setup?",
+      "options": [
+        "It distracts them so they forget to verify your claims",
+        "It reassures their self-worth, allowing them to evaluate critique objectively",
+        "It legally binds them to accept your diagnostic report",
+        "It convinces them that competitors are facing the exact same problem"
+      ],
+      "correctIndex": 1,
+      "explanation": "Self-affirmation theory demonstrates that reinforcing core competence protects self-integrity, allowing people to face uncomfortable truths without becoming defensive."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does the 'Boulwarism' strategy of making a single, non-negotiable best offer often backfire?",
+      "options": [
+        "It robs counterparts of the agency and psychological satisfaction of negotiating concessions",
+        "It forces the seller to disclose trade secrets during the initial proposal",
+        "It violates federal antitrust laws across commercial industries",
+        "It signals that the product is overpriced and lacking market demand"
+      ],
+      "correctIndex": 0,
+      "explanation": "Take-it-or-leave-it offers trigger psychological reactance; buyers reject even fair terms when denied the satisfaction of winning concessions through negotiation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Harvard conversational research, which type of question was most effective at increasing interpersonal liking?",
+      "options": [
+        "Follow-up questions that build directly on what the other person just said",
+        "Scripted qualification questions designed to test product-market fit",
+        "Rhetorical questions highlighting common industry pain points",
+        "Direct yes-or-no questions that accelerate the discovery process"
+      ],
+      "correctIndex": 0,
+      "explanation": "Huang and colleagues found that follow-up questions signal active listening and responsiveness, generating far greater interpersonal liking than scripted inquiries."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is 'logrolling' in negotiation?",
+      "options": [
+        "Trading concessions on issues with mismatched priorities to create mutual value",
+        "Stalling talks indefinitely until the counterparty lowers their price floor",
+        "Demanding concessions across every single term without offering anything back",
+        "Forcing all negotiation points to be settled one-by-one in strict alphabetical order"
+      ],
+      "correctIndex": 0,
+      "explanation": "Logrolling breaks deadlocks by trading concessions on issues valued differently by each party, expanding total value without compromising key margins."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The further away a project's start date is, the less buyers care about the exact day-to-day execution details.",
+      "answer": true,
+      "explanation": "Construal level theory proves that distant decisions trigger abstract evaluations of overall value, making operational logistics largely irrelevant until implementation nears."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Praising a client's competence makes them unwilling to admit their systems need improvement.",
+      "answer": false,
+      "explanation": "Self-affirmation research shows affirming core competence buffers self-worth, making prospects less defensive and more open to recognizing flaws."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Opening a negotiation with your absolute best and final offer leads to the best outcomes.",
+      "answer": false,
+      "explanation": "A 'take-it-or-leave-it' opening triggers reactance; counterparts reject fair offers when denied the satisfaction of negotiating concessions."
+    }
+  ]
+}
