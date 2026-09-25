@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.752Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 21-year-old's master's thesis founded all digital circuit design",
+      "body": "In 1937, 21-year-old MIT student Claude Shannon submitted his master's thesis, showing that George Boole's 19th-century symbolic logic could map directly onto electrical switches and relays. By demonstrating that combinations of open and closed circuits could execute any logical or arithmetic operation, Shannon bridged mathematics and electrical engineering. His thesis effectively invented digital logic design, becoming the theoretical blueprint for every modern computer processor.",
+      "imageWikipediaTitle": "Claude Shannon",
+      "sources": [
+        {
+          "title": "A Symbolic Analysis of Relay and Switching Circuits",
+          "publisher": "MIT Libraries",
+          "url": "https://dspace.mit.edu/handle/1721.1/11173"
+        },
+        {
+          "title": "A Symbolic Analysis of Relay and Switching Circuits",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Symbolic_Analysis_of_Relay_and_Switching_Circuits"
+        }
+      ],
+      "readMoreUrl": "https://dspace.mit.edu/handle/1721.1/11173",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The internet was born on a single coordinated 'flag day'",
+      "body": "On January 1, 1983, the ARPANET underwent a synchronized transition known as a flag day. Every computer on the network was required to replace the legacy Network Control Program with TCP/IP simultaneously. There was no backward compatibility: hosts that had not converted their software by midnight were immediately cut off from the network. This forced cutover established the universal communication standard that defines the modern internet.",
+      "imageWikipediaTitle": "ARPANET",
+      "sources": [
+        {
+          "title": "RFC 801: NCP/TCP Transition Plan",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc801"
+        },
+        {
+          "title": "A Brief History of the Internet",
+          "publisher": "Internet Society",
+          "url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/"
+        },
+        {
+          "title": "Flag day (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_day_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://www.rfc-editor.org/rfc/rfc801",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ethernet was named after a debunked 19th-century physics theory",
+      "body": "In 1973, computer scientist Robert Metcalfe invented Ethernet at Xerox PARC to link personal workstations. He named the technology after the \"luminiferous ether,\" a hypothetical medium that 19th-century physicists once believed carried electromagnetic light waves through empty space. Metcalfe reasoned that the coaxial cable would act as a passive transmission ether, carrying bits across the network so that any connected machine could listen and intercept data packets.",
+      "imageWikipediaTitle": "Ethernet",
+      "sources": [
+        {
+          "title": "Robert M Metcalfe - A.M. Turing Award",
+          "publisher": "Association for Computing Machinery",
+          "url": "https://amturing.acm.org/award_winners/metcalfe_1204225.cfm"
+        },
+        {
+          "title": "Ethernet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ethernet"
+        }
+      ],
+      "readMoreUrl": "https://amturing.acm.org/award_winners/metcalfe_1204225.cfm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rejected homework assignment pioneered public-key cryptography",
+      "body": "In 1974, UC Berkeley undergraduate Ralph Merkle devised a scheme allowing two strangers to establish a shared secret key across an insecure channel. When he submitted the concept as a term project proposal for his computer science class, his instructor dismissed it as unfeasible and rejected the topic. Merkle dropped the course and kept refining the idea, publishing \"Merkle's Puzzles\" in 1978 and establishing the mathematical foundation for modern secure communications.",
+      "imageWikipediaTitle": "Public-key cryptography",
+      "sources": [
+        {
+          "title": "Whitfield Diffie - A.M. Turing Award",
+          "publisher": "Association for Computing Machinery",
+          "url": "https://amturing.acm.org/award_winners/diffie_8371641.cfm"
+        },
+        {
+          "title": "Merkle's puzzles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Merkle%27s_puzzles"
+        }
+      ],
+      "readMoreUrl": "https://amturing.acm.org/award_winners/diffie_8371641.cfm",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1965 metric measures the physical distance between two words",
+      "body": "In 1965, Soviet mathematician Vladimir Levenshtein developed an algorithm to quantify how different two text strings are from one another. The Levenshtein distance counts the minimum number of single-character edits—insertions, deletions, or substitutions—required to transform one word into another. Originally designed to correct transmission errors in binary codes, the algorithm now underpins autocomplete engines, spellcheckers, voice recognition software, and computational biology tools comparing DNA sequences across genomes.",
+      "imageWikipediaTitle": "Levenshtein distance",
+      "sources": [
+        {
+          "title": "Levenshtein distance",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://xlinux.nist.gov/dads/HTML/LevenshteinDistance.html"
+        },
+        {
+          "title": "Levenshtein distance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Levenshtein_distance"
+        }
+      ],
+      "readMoreUrl": "https://xlinux.nist.gov/dads/HTML/LevenshteinDistance.html",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What 19th-century branch of mathematics did Claude Shannon use in 1937 to design digital circuits?",
+      "options": [
+        "Boolean algebra",
+        "Euclidean geometry",
+        "Differential calculus",
+        "Game theory"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shannon showed that George Boole's algebra of true/false values could be implemented using electrical switches."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happened to ARPANET hosts that had not adopted TCP/IP by January 1, 1983?",
+      "options": [
+        "They were permanently severed from the network",
+        "They fell back to an analog dial-up system",
+        "They were automatically assigned a translation proxy",
+        "They received a 90-day grace period"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 'flag day' had no backward compatibility, cutting off any computer that had not migrated from NCP to TCP/IP."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did Robert Metcalfe choose the name 'Ethernet' for his local networking invention?",
+      "options": [
+        "After the 19th-century concept of luminiferous ether carrying light waves",
+        "Because the cables were initially insulated with liquid ether compounds",
+        "As an acronym for Electronic Transmission Hybrid Exchange Routing",
+        "To honor an experimental broadcast satellite named Ether 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "Metcalfe viewed the passive cable as a medium that carried signals everywhere, like the disproven luminiferous ether."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did Ralph Merkle's university professor respond when Merkle first proposed public-key key exchange?",
+      "options": [
+        "He rejected the proposal as unfeasible",
+        "He immediately co-authored a grant proposal for it",
+        "He patented the mathematical algorithm under the university",
+        "He awarded Merkle the department's top thesis prize"
+      ],
+      "correctIndex": 0,
+      "explanation": "Merkle's professor dismissed the idea as muddled and unfeasible, prompting Merkle to drop the course."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which set of operations does the Levenshtein distance algorithm count between two strings?",
+      "options": [
+        "Insertions, deletions, and substitutions",
+        "Swaps, reversals, and concatenations",
+        "Bitwise shifts, masking, and XOR operations",
+        "Vowel stripping and phonetic hashing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Levenshtein distance measures edit distance using single-character insertions, deletions, and substitutions."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How old was Claude Shannon when he wrote the master's thesis that laid the foundation for modern digital circuits?",
+      "answer": 21,
+      "min": 14,
+      "max": 50,
+      "unit": "years old",
+      "explanation": "Claude Shannon was only 21 when his 1937 MIT thesis linked Boolean algebra with electrical relay circuits."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The transition from ARPANET's original networking protocol to TCP/IP was phased in gradually over several years.",
+      "answer": false,
+      "explanation": "The entire network switched on a single synchronized 'flag day' on January 1, 1983, cutting off any computer not ready."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Ethernet was named after a 19th-century physics theory that had already been disproven.",
+      "answer": true,
+      "explanation": "Robert Metcalfe named it after the 'luminiferous ether,' a hypothetical medium disproven by Michelson and Morley in 1887."
+    }
+  ]
+}

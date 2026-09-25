@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.749Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Secret Nuclear Bunker for Congress Was Hidden Under a Luxury Resort",
+      "body": "For three decades, a secret two-story bunker designed to shelter the entire United States Congress sat beneath the luxury Greenbrier resort in West Virginia. Code-named Project Greek Island, the 112,000-square-foot fallout shelter was completed in 1961. It featured 1,100 beds, a 400-seat cafeteria, decontamination chambers, and a television broadcast studio. Kept constantly stocked and staffed by undercover technicians, the bunker was decommissioned after a 1992 investigative report exposed its existence.",
+      "imageWikipediaTitle": "Project Greek Island",
+      "sources": [
+        {
+          "title": "The Congressional Bunker at the Greenbrier",
+          "publisher": "U.S. House of Representatives",
+          "url": "https://history.house.gov/Historical-Highlights/1951-2000/The-Congressional-Bunker-at-the-Greenbrier/"
+        },
+        {
+          "title": "Project Greek Island",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Project_Greek_Island"
+        }
+      ],
+      "readMoreUrl": "https://history.house.gov/Historical-Highlights/1951-2000/The-Congressional-Bunker-at-the-Greenbrier/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Germany Sank 52 of Its Own Warships in a Single Afternoon",
+      "body": "On June 21, 1919, German Admiral Ludwig von Reuter ordered his fleet to commit suicide. Interned at the British naval anchorage of Scapa Flow while peace negotiations dragged on, Reuter feared the Royal Navy would seize his ships. Taking advantage of British patrol boats leaving on exercise, German sailors opened sea cocks, smashed water pipes, and unbolted flood valves. In just five hours, fifty-two warships sank to the seabed, ruining Allied plans to divide the fleet.",
+      "imageWikipediaTitle": "Scuttling of the German fleet at Scapa Flow",
+      "sources": [
+        {
+          "title": "The Scuttling Of The German Fleet At Scapa Flow",
+          "publisher": "Imperial War Museums",
+          "url": "https://www.iwm.org.uk/history/the-scuttling-of-the-german-fleet-at-scapa-flow"
+        },
+        {
+          "title": "Scuttling of the German fleet at Scapa Flow",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scuttling_of_the_German_fleet_at_Scapa_Flow"
+        }
+      ],
+      "readMoreUrl": "https://www.iwm.org.uk/history/the-scuttling-of-the-german-fleet-at-scapa-flow",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Most Powerful Earthquake Ever Measured Shook Chile in 1960",
+      "body": "On May 22, 1960, the most powerful earthquake ever recorded struck near Valdivia in southern Chile. Registering a staggering magnitude of 9.5, the temblor ruptured roughly 1,000 kilometers of fault line and shook the ground for over ten minutes. The cataclysm unleashed devastating tsunamis across the Pacific Ocean, causing waves up to thirty feet high that killed hundreds in Chile and struck Hawaii, Japan, and the Philippines thousands of miles away.",
+      "imageWikipediaTitle": "1960 Valdivia earthquake",
+      "sources": [
+        {
+          "title": "20 Largest Earthquakes in the World",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world"
+        },
+        {
+          "title": "1960 Valdivia earthquake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1960_Valdivia_earthquake"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/programs/earthquake-hazards/science/20-largest-earthquakes-world",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1507 Map That First Gave America Its Name",
+      "body": "In 1507, German cartographer Martin Waldseemüller printed a massive twelve-panel world map titled Universalis Cosmographia. Based on accounts by Italian explorer Amerigo Vespucci, Waldseemüller placed the name 'America' across South America, marking the first time the word appeared on any map. Waldseemüller printed one thousand copies, but only a single original survived in an obscure German castle. In 2003, the Library of Congress acquired this 'America’s birth certificate' for ten million dollars.",
+      "imageWikipediaTitle": "Waldseemüller map",
+      "sources": [
+        {
+          "title": "Universalis cosmographia secundum Ptholomaei traditionem et Americi Vespucii",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/2003626426/"
+        },
+        {
+          "title": "Waldseemüller map",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/2003626426/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Famous 1925 Scopes Monkey Trial Was Staged for Tourism",
+      "body": "The famous 1925 Scopes Monkey Trial is often remembered as a crusading crackdown on modern science, but it actually began as a publicity stunt. Civic leaders in Dayton, Tennessee, concocted the case over drinks at a local drugstore to revive their declining coal town’s economy. Twenty-four-year-old substitute teacher John Scopes agreed to be charged, wasn't even certain he had taught evolution, and never spent a minute in jail as thousands of tourists arrived.",
+      "imageWikipediaTitle": "Scopes Trial",
+      "sources": [
+        {
+          "title": "The Scopes Trial: A Brief History",
+          "publisher": "Library of Congress",
+          "url": "https://blogs.loc.gov/inside_adams/2020/07/scopes-trial-history/"
+        },
+        {
+          "title": "Scopes Trial",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scopes_Trial"
+        }
+      ],
+      "readMoreUrl": "https://blogs.loc.gov/inside_adams/2020/07/scopes-trial-history/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where was the secret Cold War bunker built to shelter the U.S. Congress hidden?",
+      "options": [
+        "Beneath a luxury resort in West Virginia",
+        "Inside a cavern in the Grand Canyon",
+        "Under the Lincoln Memorial in Washington, D.C.",
+        "Deep inside a salt mine in Kansas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Project Greek Island was hidden beneath The Greenbrier luxury resort in White Sulphur Springs, West Virginia."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did German sailors scuttle their own naval fleet at Scapa Flow in June 1919?",
+      "options": [
+        "To avoid their ships being seized and divided by Allied powers",
+        "Because an accidental fire spread across the anchorage",
+        "To clear the harbor for commercial civilian vessels",
+        "In obedience to the final terms of the Treaty of Versailles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Admiral Ludwig von Reuter ordered the ships sunk so British and Allied forces could not seize the German High Seas Fleet."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was the recorded magnitude of the 1960 Valdivia earthquake, the strongest ever measured?",
+      "options": [
+        "9.5",
+        "8.8",
+        "10.2",
+        "9.1"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1960 Valdivia earthquake registered at magnitude 9.5, making it the most powerful earthquake ever recorded."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What historic milestone did Martin Waldseemüller's 1507 world map achieve?",
+      "options": [
+        "It was the first map to use the name 'America'",
+        "It was the first map to show that Earth is spherical",
+        "It first mapped the coastline of Antarctica",
+        "It established the Prime Meridian through Greenwich"
+      ],
+      "correctIndex": 0,
+      "explanation": "Waldseemüller's 1507 Universalis Cosmographia was the first cartographic work to apply the name 'America' to the New World."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did civic leaders in Dayton, Tennessee deliberately organize the 1925 Scopes Monkey Trial?",
+      "options": [
+        "To drum up publicity and tourism for their struggling town",
+        "To enforce a newly passed ban on all public schools",
+        "To launch John Scopes' campaign for governor",
+        "To test the constitutionality of federal tax exemptions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Local business leaders plotted the trial at a drugstore soda fountain to attract national media attention and tourists to Dayton."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many German warships were scuttled in Scapa Flow on June 21, 1919?",
+      "answer": 52,
+      "min": 10,
+      "max": 100,
+      "unit": "ships",
+      "explanation": "Admiral von Reuter's orders sent 52 out of 74 interned German naval vessels to the seabed before British forces could intervene."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What was the moment magnitude of the 1960 Valdivia earthquake, the strongest ever measured?",
+      "answer": 9.5,
+      "min": 8,
+      "max": 10.5,
+      "unit": "magnitude",
+      "explanation": "Registering at magnitude 9.5, the 1960 Valdivia earthquake released roughly a quarter of all seismic energy measured worldwide between 1906 and 2005."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many millions of dollars did the Library of Congress pay in 2003 to acquire the only surviving 1507 Waldseemüller map?",
+      "answer": 10,
+      "min": 1,
+      "max": 50,
+      "unit": "million USD",
+      "explanation": "The Library of Congress purchased the historic 'America's birth certificate' from Prince Johannes Waldburg-Wolfegg for $10 million."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The secret congressional bunker beneath The Greenbrier was discovered by Soviet intelligence during the Cold War.",
+      "answer": false,
+      "explanation": "Soviet intelligence never revealed it; the bunker remained fully secret until an American journalist exposed it in The Washington Post in 1992."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The 1960 Valdivia earthquake in Chile was the most powerful earthquake ever recorded.",
+      "answer": true,
+      "explanation": "Registering at magnitude 9.5 on modern seismic scales, no earthquake of greater magnitude has ever been instrumentally measured."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The 1925 Scopes Trial began because police caught a teacher illegally teaching evolution.",
+      "answer": false,
+      "explanation": "The trial was engineered by local Dayton boosters as a publicity stunt to draw tourists; John Scopes agreed to be charged and was never jailed."
+    }
+  ]
+}

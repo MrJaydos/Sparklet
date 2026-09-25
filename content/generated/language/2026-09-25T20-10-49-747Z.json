@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.747Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to three in Armenian reveals an ancient Indo-European bond",
+      "body": "Armenian forms its own independent branch of the Indo-European language family, written in a unique script created around 405 CE. Counting to three sounds distinct: մեկ (mek, \"mek\"), երկու (yerku, \"yer-KOO\"), and երեք (yerek, \"yeh-REK\"). Despite sounding unfamiliar, historical linguists trace yerku and yerek back to the same prehistoric roots as the English words \"two\" and \"three,\" altered over millennia by regular Armenian sound shifts.",
+      "imageWikipediaTitle": "Armenian alphabet",
+      "sources": [
+        {
+          "title": "Armenian language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Armenian-language"
+        },
+        {
+          "title": "Armenian numerals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenian_numerals"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Armenian-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Mandarin speakers apologize by saying they cannot face you",
+      "body": "In Mandarin Chinese, the standard phrase for \"I am sorry\" or \"excuse me\" is 对不起 (duìbuqǐ, pronounced \"dway-boo-chee\"). It joins 对 (duì, meaning to face or balance), 不 (bù, not), and 起 (qǐ, to rise or hold up). Literally meaning \"unable to face up to you,\" the phrase reflects an ancient cultural view that causing another person trouble disrupts interpersonal harmony, leaving you momentarily unable to look them squarely in the eyes.",
+      "imageWikipediaTitle": "Chinese characters",
+      "sources": [
+        {
+          "title": "sorry | English–Chinese (Simplified) Dictionary",
+          "publisher": "Cambridge Dictionary",
+          "url": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/sorry"
+        },
+        {
+          "title": "Etiquette in Chinese culture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Etiquette_in_Chinese_culture"
+        }
+      ],
+      "readMoreUrl": "https://dictionary.cambridge.org/dictionary/english-chinese-simplified/sorry",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How an ancient Roman kidnapping law gave us the word \"plagiarism\"",
+      "body": "In ancient Rome, a plagiarius was a criminal who kidnapped free citizens into slavery or enticed away another person's enslaved servants, derived from plagium, meaning a net or snare. The term took an intellectual turn in the first century CE when Roman poet Martial complained that a rival was reciting Martial's verses as his own. Martial joked that his poems were freeborn children stolen by a literary kidnapper, coining the concept of plagiarism.",
+      "imageWikipediaTitle": "Martial",
+      "sources": [
+        {
+          "title": "Definition of PLAGIARISM",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/plagiarism"
+        },
+        {
+          "title": "Plagiarism",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/plagiarism"
+        },
+        {
+          "title": "Plagiarism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Plagiarism"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/plagiarism",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Showing gratitude with ancient sacred virtue in Cambodian Khmer",
+      "body": "In Cambodia, the standard phrase for expressing gratitude is អរគុណ (orkun, pronounced \"or-KOON\"). Derived from ancient Sanskrit roots, it combines words signifying sacred virtue and favor, acknowledging the moral goodness of the giver. Cambodians customarily accompany this phrase with the sampeah (សំពះ), placing both palms together in front of the chest in a respectful bow. Raising the hands higher conveys deeper deference when thanking respected elders, teachers, or Buddhist monks.",
+      "imageWikipediaTitle": "Sampeah",
+      "sources": [
+        {
+          "title": "Khmer language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Khmer-language"
+        },
+        {
+          "title": "Sampeah",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sampeah"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Khmer-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"glamour\" and \"grammar\" are historically the exact same word",
+      "body": "\"Glamour\" and \"grammar\" are linguistic twins with a single origin. In medieval Europe, the Latin grammatica encompassed Latin literacy and scholarly learning. Because the uneducated public could not read, complex Latin books were viewed as occult sorcery, associating \"grammar\" with magic spells. In 18th-century Scottish dialect, \"grammar\" morphed phonetically into \"glamour,\" meaning a witch's illusory spell. Scottish novelist Sir Walter Scott later popularized the term, shifting witchcraft into modern charm and allure.",
+      "imageWikipediaTitle": "Walter Scott",
+      "sources": [
+        {
+          "title": "Definition of GLAMOUR",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/glamour"
+        },
+        {
+          "title": "Glamour (presentation)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glamour_(presentation)"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/glamour",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which language family does Armenian belong to?",
+      "options": [
+        "Indo-European",
+        "Kartvelian",
+        "Turkic",
+        "Semitic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Armenian forms its own distinct branch of the Indo-European family, meaning numbers like yerku share deep ancient roots with English."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the Mandarin apology 对不起 (duìbuqǐ) literally translate to?",
+      "options": [
+        "I bring shame",
+        "Unable to face up to you",
+        "Pardon my haste",
+        "Forgive my clumsy hands"
+      ],
+      "correctIndex": 1,
+      "explanation": "The phrase literally means 'unable to face up to [you],' evoking an imbalance in harmony that makes eye contact uncomfortable."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What kind of criminal was a 'plagiarius' in ancient Roman law?",
+      "options": [
+        "A coin counterfeiter",
+        "A kidnapper or enslaver of free people",
+        "A fraudulent document signer",
+        "A grave robber"
+      ],
+      "correctIndex": 1,
+      "explanation": "A plagiarius was a kidnapper; poet Martial applied the word metaphorically to literary thieves who abducted his verses."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What traditional gesture accompanies the Khmer phrase for thank you, អរគុណ (orkun)?",
+      "options": [
+        "Pressing palms together in a bow (sampeah)",
+        "Tapping one's right wrist twice",
+        "Touching hand to heart",
+        "A firm two-handed handshake"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Cambodia, saying 'orkun' is traditionally accompanied by the sampeah bow with palms pressed together."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Before it came to mean style or allure, what did the Scottish dialect word \"glamour\" mean?",
+      "options": [
+        "A fine silk garment",
+        "A magic spell or optical illusion",
+        "A glowing lamp",
+        "A mirror's polished surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "Glamour was a Scottish variant of 'grammar' (linked to occult book-learning) that specifically meant an illusory magic spell."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The word \"plagiarism\" was originally coined to describe copyright infringement under Roman law.",
+      "answer": false,
+      "explanation": "Ancient Rome had no formal copyright laws; \"plagiarius\" was the legal term for a kidnapper who stole people, not writing."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word \"glamour\" originally referred to an occult magic spell.",
+      "answer": true,
+      "explanation": "In 18th-century Scots, \"glamour\" was a dialect variant of \"grammar\" (associated with occult scholarship) that meant a magical enchantment."
+    }
+  ]
+}

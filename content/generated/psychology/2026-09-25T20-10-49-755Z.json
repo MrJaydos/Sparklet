@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.755Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Watching adults hit an inflatable doll overturned how psychologists thought we learn",
+      "body": "In 1961, psychologist Albert Bandura challenged the dominant behaviorist belief that learning requires direct rewards or conditioning. In his famous Stanford experiment, children watched an adult punch, kick, and shout insults at an inflatable \"Bobo doll.\" When later placed alone with the toy, the children imitated the exact novel attacks and aggressive phrases. The study proved observational learning: human minds acquire complex social behaviors simply by watching others.",
+      "imageWikipediaTitle": "Bobo doll experiment",
+      "sources": [
+        {
+          "title": "Transmission of aggression through imitation of aggressive models",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13686524/"
+        },
+        {
+          "title": "Bobo doll experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bobo_doll_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bobo_doll_experiment",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "People with Anton syndrome are completely blind—yet swear they can see",
+      "body": "Anton syndrome is a rare neuropsychological condition where a patient becomes totally blind following damage to the brain's visual cortex, yet adamantly denies their vision loss. When asked to identify objects or walk across a room, patients confabulate vivid descriptions of surroundings they cannot see and collide with furniture, inventing excuses for their clumsiness. Their conscious mind fails to register that its primary visual feed has been completely severed.",
+      "imageWikipediaTitle": "Anton syndrome",
+      "sources": [
+        {
+          "title": "Anton Syndrome",
+          "publisher": "NCBI Bookshelf",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK538185/"
+        },
+        {
+          "title": "Anton syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anton_syndrome"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK538185/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Speaking two languages delays dementia symptoms by up to five years",
+      "body": "Learning multiple languages builds cognitive reserve, buffering the brain against neurodegenerative damage. Research led by psychologist Ellen Bialystok revealed that lifelong bilingual individuals develop symptoms of Alzheimer's disease an average of 4 to 5 years later than monolinguals with the exact same level of brain deterioration. Even as physical brain tissue degrades, bilingual minds recruit alternative neural pathways to sustain normal daily functioning far longer.",
+      "imageWikipediaTitle": "Cognitive reserve",
+      "sources": [
+        {
+          "title": "Delaying the onset of Alzheimer disease: bilingualism as a form of cognitive reserve",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21060095/"
+        },
+        {
+          "title": "Cognitive reserve",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cognitive_reserve"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/21060095/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A sleep disorder turns off the brain's paralysis switch during dreams",
+      "body": "During normal rapid eye movement (REM) sleep, specialized neurons in the brainstem paralyze skeletal muscles to keep you from acting out dreams. In REM sleep behavior disorder, this paralyzing switch fails. Patients punch, kick, flail, and shout while deep in sleep, often defending against dream attackers. Remarkably, more than 70% of people diagnosed with the disorder eventually develop alpha-synuclein neurodegenerative diseases like Parkinson's or Lewy body dementia.",
+      "imageWikipediaTitle": "Rapid eye movement sleep behavior disorder",
+      "sources": [
+        {
+          "title": "REM Sleep Behavior Disorder: Diagnosis, Clinical Implications, and Future Directions",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29103578/"
+        },
+        {
+          "title": "Rapid eye movement sleep behavior disorder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep_behavior_disorder"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/29103578/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You believe you are finished growing—and your brain has always thought that",
+      "body": "People readily admit their values, personality, and musical tastes have transformed over the previous decade. Yet when asked about the future, people at every stage of life predict they will change very little in the next ten years. Psychologists call this the \"end-of-history illusion.\" Whether you are 18 or 68, the human mind treats the present moment as a watershed where personal evolution finally ends, mistaking the difficulty of imagining future change for its impossibility.",
+      "imageWikipediaTitle": "End-of-history illusion",
+      "sources": [
+        {
+          "title": "The end of history illusion",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23288533/"
+        },
+        {
+          "title": "End-of-history illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/End-of-history_illusion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/End-of-history_illusion",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did Albert Bandura's famous 1961 Bobo doll experiment demonstrate about human learning?",
+      "options": [
+        "Learning requires direct physical rewards or punishments",
+        "Children can acquire novel behaviors purely through observation",
+        "Genetic instincts completely override social observation",
+        "Children only imitate adults of their own gender"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bandura proved observational learning: children imitated novel aggressive acts without receiving any personal reinforcement or reward."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the defining symptom of Anton syndrome (visual anosognosia)?",
+      "options": [
+        "Seeing everything in inverted colors after head trauma",
+        "Complete cortical blindness accompanied by denial of the vision loss",
+        "An inability to recognize familiar human faces",
+        "Hallucinating geometric patterns during migraines"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patients with Anton syndrome suffer cortical blindness but adamantly insist they can see, confabulating descriptions of their surroundings."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does lifelong bilingualism primarily affect the progression of Alzheimer's disease?",
+      "options": [
+        "It completely stops the accumulation of amyloid plaques",
+        "It delays the clinical onset of symptoms by building cognitive reserve",
+        "It reverses established neurodegeneration within months",
+        "It speeds up atrophy by overburdening language networks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bilingualism does not stop physical brain degradation, but its cognitive reserve delays the onset of symptoms by 4 to 5 years."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do individuals with REM sleep behavior disorder physically act out their dreams?",
+      "options": [
+        "Their motor cortex shuts down while dreaming",
+        "The brainstem mechanism that paralyzes muscles during REM sleep fails",
+        "They suffer from chronic daytime sleep deprivation",
+        "Their auditory cortex stays active to monitor room noises"
+      ],
+      "correctIndex": 1,
+      "explanation": "During normal REM sleep, the brainstem induces muscle paralysis; in REM sleep behavior disorder, this paralyzing switch fails."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the psychological phenomenon known as the 'end-of-history illusion'?",
+      "options": [
+        "Believing society has reached its highest technological peak",
+        "Underestimating how much one's personality and values will change in the future",
+        "Remembering historical events that never actually took place",
+        "Losing the ability to recall how one felt during childhood"
+      ],
+      "correctIndex": 1,
+      "explanation": "The end-of-history illusion describes how people recognize past personal changes but predict they will change very little in the future."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By about how many years on average does lifelong bilingualism delay the clinical onset of Alzheimer's symptoms?",
+      "answer": 5,
+      "min": 1,
+      "max": 15,
+      "unit": "years",
+      "explanation": "Research shows lifelong bilinguals develop Alzheimer's symptoms 4 to 5 years later than monolinguals with identical brain deterioration."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Children only learn new behaviors when they are directly rewarded or punished for them.",
+      "answer": false,
+      "explanation": "Bandura's Bobo doll experiment proved children acquire complex behaviors simply by observing others, without direct reinforcement."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A person can be completely blind yet genuinely unaware that they cannot see.",
+      "answer": true,
+      "explanation": "In Anton syndrome, damage to the visual cortex causes cortical blindness along with anosognosia—patients truly believe they can see."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Bilingualism physically prevents the brain plaques and tangles that cause Alzheimer's disease.",
+      "answer": false,
+      "explanation": "Bilingual brains accumulate the same physical pathology as monolinguals, but alternate neural pathways delay symptoms by 4 to 5 years."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Adults accurately predict how much their core values and personality will change over the next decade.",
+      "answer": false,
+      "explanation": "The end-of-history illusion shows that people at every age dramatically underestimate how much they will change in the coming decade."
+    }
+  ]
+}

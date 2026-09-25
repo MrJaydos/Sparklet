@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.752Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bulls don't actually care about the color red",
+      "body": "Matadors wave crimson capes in bullrings, but bulls are not enraged by red. Like most cattle, they are dichromatic and lack the photoreceptors needed to distinguish red from green. What actually provokes the bull is the sharp, fluttering motion of the cloth. Toreros historically chose red fabric not to provoke the animal, but simply to conceal bloodstains from the audience.",
+      "imageWikipediaTitle": "Spanish Fighting Bull",
+      "sources": [
+        {
+          "title": "Why Do Bulls Charge at the Color Red?",
+          "publisher": "Live Science",
+          "url": "https://www.livescience.com/33703-bulls-charge-red.html"
+        },
+        {
+          "title": "Bullfighting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bullfighting"
+        }
+      ],
+      "readMoreUrl": "https://www.livescience.com/33703-bulls-charge-red.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The South American wolf whose urine smells just like weed",
+      "body": "The maned wolf of South America marks its territory with an unmistakable signature: urine that smells almost identical to burning marijuana. The scent is caused by pyrazines, chemical compounds that create sharp aromatic defenses. In 2006, the smell was so pungent at Rotterdam Zoo that local police were summoned to hunt down illegal drug smokers, only to discover the culprits were four-legged residents marking their enclosure.",
+      "imageWikipediaTitle": "Maned wolf",
+      "sources": [
+        {
+          "title": "Maned Wolf",
+          "publisher": "Smithsonian's National Zoo and Conservation Biology Institute",
+          "url": "https://nationalzoo.si.edu/animals/maned-wolf"
+        },
+        {
+          "title": "Maned wolf",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maned_wolf"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/maned-wolf",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You definitely cannot swim through a blue whale's aorta",
+      "body": "Popular science folklore often claims a human could comfortably swim through the massive arteries of a blue whale's heart. But when scientists preserved an intact, 440-pound blue whale heart at the Royal Ontario Museum in 2015, they measured its main aorta at roughly nine inches across. While large enough to insert a human head, navigating your whole body through it is physically impossible.",
+      "imageWikipediaTitle": "Blue whale",
+      "sources": [
+        {
+          "title": "Blue whale's enormous heart is preserved",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/science-environment-34015694"
+        },
+        {
+          "title": "Blue whale",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blue_whale"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/science-environment-34015694",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Uncooked rice will not cause birds to explode",
+      "body": "An enduring wedding superstition warns guests never to throw raw rice, claiming birds swallow the dry grains, expand from absorbing moisture, and violently explode. In reality, wild birds routinely feast on dry grains without harm. When a university biologist formally tested the myth by feeding dry rice to dozens of doves and pigeons alongside water, every bird digested the grains effortlessly with zero distress.",
+      "imageWikipediaTitle": "Domestic pigeon",
+      "sources": [
+        {
+          "title": "Does Wedding Rice Make Birds Explode?",
+          "publisher": "Live Science",
+          "url": "https://www.livescience.com/32644-does-rice-make-birds-explode.html"
+        },
+        {
+          "title": "List of common misconceptions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+        }
+      ],
+      "readMoreUrl": "https://www.livescience.com/32644-does-rice-make-birds-explode.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cow tipping is an urban legend that defies basic physics",
+      "body": "Late-night pranksters boast about sneaking into pastures to shove sleeping cows over, but the prank is pure myth. For starters, cows do not sleep standing up; they lie down to reach deep sleep. Furthermore, a 2005 physics study calculated that knocking over a standing 1,500-pound cow requires nearly 3,000 newtons of force—demanding at least two to four people pushing with full athletic power against an animal that simply steps aside.",
+      "imageWikipediaTitle": "Cattle",
+      "sources": [
+        {
+          "title": "Cow Tipping Myth Debunked",
+          "publisher": "Live Science",
+          "url": "https://www.livescience.com/39327-cow-tipping-myth-busted.html"
+        },
+        {
+          "title": "Cow tipping",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cow_tipping"
+        }
+      ],
+      "readMoreUrl": "https://www.livescience.com/39327-cow-tipping-myth-busted.html",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do bulls charge at a matador's cape during a bullfight?",
+      "options": [
+        "They react to the fluttering movement of the fabric",
+        "The bright red color triggers an aggressive instinct",
+        "The cape is treated with a chemical irritant",
+        "They are trained to attack any object held above head height"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bulls lack red photoreceptors and cannot distinguish red from green; they charge because of the cape's sudden, fluttering movement."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did police once investigate the maned wolf exhibit at the Rotterdam Zoo?",
+      "options": [
+        "The wolves' urine smelled strikingly like marijuana",
+        "Visitors reported hearing human-like screaming",
+        "A wolf was spotted balancing on a high security fence",
+        "The animals were hoarding stolen visitor possessions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Maned wolf urine contains pyrazines, which produce a pungent scent nearly identical to cannabis smoke."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is the myth that a human can swim through a blue whale's aorta false?",
+      "options": [
+        "The aorta is only about nine inches in diameter",
+        "The vessel collapses shut whenever blood isn't pumping",
+        "The blue whale's heart is located outside its ribcage",
+        "Whale arteries are filled with dense fibrous webbing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Measurements of a preserved blue whale heart revealed the aorta is roughly nine inches across, far too small for a person to swim through."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What actually happens when birds eat uncooked white rice thrown at weddings?",
+      "options": [
+        "They safely digest the rice just like any other dry grain",
+        "Their crops swell and choke off their airway",
+        "The rice expands and ruptures their stomach lining",
+        "They regurgitate it immediately because of the texture"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wild birds regularly forage on dry grains; their digestive systems break down raw rice easily without causing harm."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why is traditional cow tipping practically impossible in real life?",
+      "options": [
+        "Cows lie down to sleep deeply and easily shift weight when pushed",
+        "Cows are nocturnal and stay awake guarding the herd",
+        "Cows secrete a slick oil on their hide that prevents pushing",
+        "Cows lock their knees and become bolted to the turf"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cows sleep lying down and readily regain their footing; pushing one over requires thousands of newtons of force that a human cannot muster alone."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What is the actual diameter of a blue whale's main artery (the aorta), in inches?",
+      "answer": 9,
+      "min": 2,
+      "max": 40,
+      "unit": "inches",
+      "explanation": "The aorta of a preserved blue whale heart measured roughly 9 inches (23 cm) across—far too narrow for a human to swim through."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Bulls become enraged during bullfights because they hate the color red.",
+      "answer": false,
+      "explanation": "Cattle are colorblind to red; bulls charge at the fluttering movement of the cape, not its color."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The urine of the maned wolf smells so much like cannabis that police have investigated zoos.",
+      "answer": true,
+      "explanation": "Pyrazines in maned wolf urine create a scent virtually indistinguishable from marijuana, once prompting police to search Rotterdam Zoo."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A blue whale's main artery is large enough for a human to swim through.",
+      "answer": false,
+      "explanation": "A blue whale's aorta is only around nine inches across, making swimming through it physically impossible."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Throwing dry rice at weddings is dangerous because it makes birds' stomachs explode.",
+      "answer": false,
+      "explanation": "Birds eat dry raw grains all the time in the wild; raw rice is easily digested and causes no harm."
+    }
+  ]
+}

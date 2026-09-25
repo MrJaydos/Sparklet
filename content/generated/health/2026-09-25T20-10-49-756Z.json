@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.756Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why you still feel like you are spinning after you come to a dead stop",
+      "body": "When you spin in circles and abruptly stop, fluid inside your inner ear's semicircular canals—called endolymph—keeps swirling due to inertia. This moving fluid deflects a gelatinous structure called the cupula, bending microscopic hair cells that signal rotation to your brain. Because your eyes and joints report that you are stationary, this conflicting sensory input produces the disorienting illusion of movement known as vertigo.",
+      "imageWikipediaTitle": "Semicircular canals",
+      "sources": [
+        {
+          "title": "Physiology, Vestibular System",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK532978/"
+        },
+        {
+          "title": "Semicircular canals",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Semicircular_canals"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK532978/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You inherit virtually all of your mitochondrial DNA solely from your mother",
+      "body": "Every cell in your body relies on mitochondria to generate cellular fuel, and these organelles carry their own distinct circular genome. Unlike your nuclear chromosomes, which combine DNA from both parents, mitochondrial DNA is passed down almost exclusively along maternal lines. During fertilization, a sperm delivers its nuclear genome, but its few paternal mitochondria are selectively tagged and degraded by the egg, leaving only the mother's mitochondrial lineage to multiply.",
+      "imageWikipediaTitle": "Mitochondrial DNA",
+      "sources": [
+        {
+          "title": "Mitochondrial DNA",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/"
+        },
+        {
+          "title": "Mitochondrial DNA",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mitochondrial_DNA"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You do not lose half of your body heat through your uncovered head",
+      "body": "A popular myth claims that between 40 and 45 percent of human body heat escapes through an uncovered head. This misconception stemmed from 1950s military survival experiments in which volunteers wore insulated Arctic suits with their heads bare, so naturally almost all heat escaped from the only exposed skin. In reality, your head represents roughly nine percent of your body surface area, and heat loss is proportional to exposed skin.",
+      "imageWikipediaTitle": "Hypothermia",
+      "sources": [
+        {
+          "title": "Medical myths",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2603553/"
+        },
+        {
+          "title": "List of common misconceptions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2603553/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body recycles iron so ruthlessly that you lose only a tiny fraction each day",
+      "body": "Iron is essential for building hemoglobin and shuttling oxygen, but it is chemically reactive and toxic in excess. Because humans have no active physiological mechanism to excrete excess iron through the kidneys or liver, the body relies on strict recycling. Macrophage cells constantly dismantle aged red blood cells, stripping out their iron atoms and returning them to circulation. As a result, healthy adult men lose only about one to two milligrams of iron per day.",
+      "imageWikipediaTitle": "Human iron metabolism",
+      "sources": [
+        {
+          "title": "Physiology, Iron Absorption",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK448204/"
+        },
+        {
+          "title": "Human iron metabolism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Human_iron_metabolism"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK448204/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your bladder signals the first urge to urinate when it is barely one-quarter full",
+      "body": "A healthy adult bladder can expand to hold between 400 and 600 milliliters of liquid, but you do not have to wait until it reaches maximum capacity to feel the need to go. Stretch receptors embedded in the muscular bladder wall begin firing action potentials to your spinal cord and brain once the volume reaches roughly 150 milliliters. This early warning system gives you ample time to locate a restroom long before involuntary reflexes take over.",
+      "imageWikipediaTitle": "Urinary bladder",
+      "sources": [
+        {
+          "title": "Physiology, Bladder",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534249/"
+        },
+        {
+          "title": "Urinary bladder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Urinary_bladder"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK534249/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What causes the sensation of dizziness after you abruptly stop spinning?",
+      "options": [
+        "Fluid in your inner ear keeps swirling due to inertia",
+        "Your brain runs dangerously low on oxygen during rotation",
+        "Blood pools in your feet and starves the vestibular nerve",
+        "Your eardrums vibrate out of sync with your optic nerve"
+      ],
+      "correctIndex": 0,
+      "explanation": "Endolymph fluid inside your semicircular canals continues moving after you stop, bending sensory hair cells and signaling false motion to your brain."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do humans inherit mitochondrial DNA almost exclusively from their mothers?",
+      "options": [
+        "Sperm cells contain no mitochondria whatsoever",
+        "Paternal mitochondria from the sperm are marked and destroyed inside the egg",
+        "Paternal mitochondrial DNA is converted into standard nuclear chromosomes",
+        "Mitochondria are only synthesized days after embryo implantation"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fertilized egg selectively recognizes and degrades the few paternal mitochondria brought by the sperm, leaving only maternal mitochondria."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did mid-20th-century military trials conclude that humans lose half their heat through their heads?",
+      "options": [
+        "Volunteers wore insulated Arctic suits with their heads completely bare",
+        "Infrared sensors were faulty and exaggerated facial temperatures",
+        "The head receives more than half of the body's total blood supply in cold weather",
+        "Cold air directly thins the skull's bone density"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the volunteers' bodies were fully insulated while their heads were uncovered, the head was virtually the only exposed surface from which heat could escape."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the human body maintain balanced iron levels over time?",
+      "options": [
+        "By strictly controlling intestinal absorption, since it cannot actively excrete excess iron",
+        "By filtering excess iron through the kidneys into daily urine",
+        "By converting surplus iron into harmless volatile gases exhaled via the lungs",
+        "By sweating out large amounts of elemental iron through apocrine glands"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because humans have no physiological mechanism to excrete excess iron, iron balance depends on tight absorption control and internal recycling."
+    },
+    {
+      "cardIndex": 4,
+      "question": "At approximately what volume does an adult bladder first trigger the urge to urinate?",
+      "options": [
+        "Around 150 milliliters",
+        "Around 400 milliliters",
+        "Around 600 milliliters",
+        "Around 30 milliliters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stretch receptors begin signaling the brain at around 150 mL, providing an early warning well before the bladder reaches its 400–600 mL capacity."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "According to the medical 'rule of nines', what percentage of an adult human's total body surface area is the head and neck?",
+      "answer": 9,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "The head and neck make up only about 9% of total body surface area, disproving the myth that half your body heat escapes through your head."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "About how many milligrams of iron does a healthy adult man lose per day through shedding skin and mucosal cells?",
+      "answer": 1,
+      "min": 0,
+      "max": 20,
+      "unit": "mg",
+      "explanation": "Because your body recycles iron with near-complete efficiency, healthy adult men lose only about 1 to 2 mg of iron daily."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many milliliters of urine does an adult bladder hold when stretch receptors first urge you to urinate?",
+      "answer": 150,
+      "min": 20,
+      "max": 500,
+      "unit": "mL",
+      "explanation": "Even though total bladder capacity is 400 to 600 mL, your body sounds the first alarm at roughly 150 mL to give you plenty of time."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The dizziness you feel after spinning is caused by fluid in your inner ear that is still physically moving.",
+      "answer": true,
+      "explanation": "It sounds like an illusion, but endolymph fluid literally continues to swirl inside your semicircular canals due to physical momentum."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A child inherits mitochondrial DNA equally from both biological parents.",
+      "answer": false,
+      "explanation": "Human mitochondrial DNA is inherited almost exclusively from the mother because the egg destroys paternal mitochondria after fertilization."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Humans lose nearly half of their total body heat through their head.",
+      "answer": false,
+      "explanation": "Heat loss is roughly proportional to exposed skin area; the head accounts for only about 9 percent of total body surface."
+    }
+  ]
+}

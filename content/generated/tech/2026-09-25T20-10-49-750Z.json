@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.750Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Internet standards are called \"Requests for Comments\" because graduate students were shy",
+      "body": "When graduate student Steve Crocker drafted the very first technical specification for ARPANET in April 1969, he worried about overstepping his authority. The working group had no official standing, and Crocker feared senior researchers would dismiss their work as arrogant. To sound humble, he titled the document \"Request for Comments.\" The self-effacing label stuck, becoming the permanent designation for every architectural standard that governs the global internet today.",
+      "imageWikipediaTitle": "Request for Comments",
+      "sources": [
+        {
+          "title": "Host Software (RFC 1)",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc1.txt"
+        },
+        {
+          "title": "Request for Comments",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Request_for_Comments"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Request_for_Comments",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The distress signal \"SOS\" was never an acronym",
+      "body": "Despite popular belief, \"SOS\" never stood for \"Save Our Souls\" or \"Save Our Ship.\" International radiotelegraph delegates chose the sequence in 1906 purely for its distinct acoustic rhythm in Morse code: three dots, three dashes, and three dots. Transmitted as one continuous code symbol without spaces, the pattern cut sharply through static and was virtually impossible to misinterpret, making it far more reliable than earlier, ambiguous distress signals.",
+      "imageWikipediaTitle": "SOS",
+      "sources": [
+        {
+          "title": "What does SOS stand for?",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/what-does-sos-stand-for"
+        },
+        {
+          "title": "SOS",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SOS"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/what-does-sos-stand-for",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's erratic spin has forced computers to swallow 27 leap seconds",
+      "body": "Atomic clocks tick with relentless precision, but Earth's rotation slows down unevenly due to tidal friction from the Moon. To keep solar time and atomic clocks aligned, metrologists have inserted 27 leap seconds into official world time since 1972. Because computer operating systems expect time to move forward predictably, these sudden 61-second minutes have repeatedly crashed major web servers and disrupted financial networks, prompting international regulators to vote to phase them out.",
+      "imageWikipediaTitle": "Leap second",
+      "sources": [
+        {
+          "title": "Leap Seconds FAQs",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://www.nist.gov/pml/time-and-frequency-division/leap-seconds-faqs"
+        },
+        {
+          "title": "Leap second",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leap_second"
+        }
+      ],
+      "readMoreUrl": "https://www.nist.gov/pml/time-and-frequency-division/leap-seconds-faqs",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 1901 wireless signal defied the physics of its day",
+      "body": "In 1901, leading physicists insisted that radio waves could never travel across the Atlantic Ocean. Because electromagnetic radiation travels in straight lines, experts believed the curve of the Earth would inevitably send signals into space. Guglielmo Marconi tested the limits anyway, successfully detecting the Morse code letter \"S\" sent 2,100 miles from England to Newfoundland. Unbeknownst to scientists at the time, his signal had ricocheted off a charged upper atmospheric layer called the ionosphere.",
+      "imageWikipediaTitle": "Guglielmo Marconi",
+      "sources": [
+        {
+          "title": "First Transatlantic Radio Signal",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/december-12/"
+        },
+        {
+          "title": "Guglielmo Marconi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/december-12/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Python programming language was named after British sketch comedy",
+      "body": "When Dutch programmer Guido van Rossum began designing a new scripting language in December 1989, he wanted a name that was short, unique, and slightly irreverent. Being an avid fan of the surreal British comedy troupe Monty Python, he named the project after their BBC television series, \"Monty Python's Flying Circus.\" Early Python documentation and tutorials even leaned into the joke, featuring spam, cheese shops, and dead parrots as standard code examples.",
+      "imageWikipediaTitle": "Python (programming language)",
+      "sources": [
+        {
+          "title": "General Python FAQ: Why is it called Python?",
+          "publisher": "Python Software Foundation",
+          "url": "https://docs.python.org/3/faq/general.html"
+        },
+        {
+          "title": "Python (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://docs.python.org/3/faq/general.html",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Steve Crocker title the first ARPANET specification 'Request for Comments'?",
+      "options": [
+        "To sound humble and avoid offending senior researchers",
+        "Because US military regulations strictly required public feedback",
+        "He intended the document to be a temporary personal memo",
+        "It was a requirement imposed by the mainframe computer manufacturer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Steve Crocker and his fellow graduate students lacked official authority and chose the modest title to avoid sounding presumptuous."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was 'SOS' chosen as the international maritime distress signal in 1906?",
+      "options": [
+        "It stood for 'Save Our Ship' in maritime law",
+        "Its Morse code pattern was distinct, continuous, and easy to recognize",
+        "It stood for 'Save Our Souls' in early radio codes",
+        "It was the personal radio callsign of the inventor of wireless telegraphy"
+      ],
+      "correctIndex": 1,
+      "explanation": "SOS was selected because three dots, three dashes, and three dots form an unmistakable rhythm that cuts through radio static without pauses."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why have metrologists added 27 leap seconds to official world time since 1972?",
+      "options": [
+        "Atomic clocks run slightly slower at sea level",
+        "Earth's rotation gradually slows due to tidal friction from the Moon",
+        "Solar flares periodically speed up satellite transmission speeds",
+        "The speed of light varies slightly depending on Earth's orbital position"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tidal friction from the Moon gradually decelerates Earth's spin, requiring occasional extra seconds to keep atomic clocks aligned with the Sun."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did Marconi's 1901 wireless signal reach across the Atlantic despite Earth's curvature?",
+      "options": [
+        "It was amplified by an underwater telegraph cable",
+        "It bounced off the charged ionosphere in the upper atmosphere",
+        "Radio waves naturally curve along Earth's magnetic field lines",
+        "A network of relay ships repeated the transmission across the sea"
+      ],
+      "correctIndex": 1,
+      "explanation": "Radio waves reflected off the ionosphere—an electrically charged atmospheric layer whose existence was confirmed partly by Marconi's test."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What inspired Guido van Rossum to name his programming language 'Python'?",
+      "options": [
+        "His pet Burmese python",
+        "The BBC comedy series Monty Python's Flying Circus",
+        "An ancient Greek mythological serpent",
+        "An acronym for Practical Yield Threaded Hybrid Object Network"
+      ],
+      "correctIndex": 1,
+      "explanation": "Van Rossum was reading published scripts from Monty Python while looking for a hobby programming project over Christmas week in 1989."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many leap seconds have metrologists inserted into official world time since the system began in 1972?",
+      "answer": 27,
+      "min": 0,
+      "max": 100,
+      "unit": "seconds",
+      "explanation": "Since 1972, exactly 27 leap seconds have been added to keep atomic clocks synchronized with Earth's slowing rotation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Internet standards were titled 'Request for Comments' because graduate students were worried about sounding too bossy.",
+      "answer": true,
+      "explanation": "Graduate student Steve Crocker used the humble title in 1969 to avoid offending senior researchers, and the name became permanent."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The distress signal 'SOS' is an acronym for 'Save Our Souls' or 'Save Our Ship'.",
+      "answer": false,
+      "explanation": "SOS was chosen in 1906 solely because three dots, three dashes, and three dots created an unmistakable, continuous Morse code rhythm."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Turn-of-the-century physicists believed Marconi's transatlantic radio transmission would easily work.",
+      "answer": false,
+      "explanation": "Physicists believed radio waves traveled in straight lines and would shoot into space rather than curve over Earth's horizon."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Python programming language was named after the family of constrictor snakes.",
+      "answer": false,
+      "explanation": "Creator Guido van Rossum named Python after the British comedy troupe Monty Python, whose scripts he was reading in 1989."
+    }
+  ]
+}

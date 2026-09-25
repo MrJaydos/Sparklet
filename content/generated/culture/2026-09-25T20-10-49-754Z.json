@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.754Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 12-Year-Old Who Solved Vanilla's Greatest Secret",
+      "body": "Vanilla is one of the world's most prized spices, yet for centuries after European contact, the orchid remained fruitless outside Mexico because only native Melipona bees could pollinate it. In 1841, on the island of Réunion, an enslaved twelve-year-old boy named Edmond Albius invented a practical hand-pollination technique using a bamboo sliver. His simple manual method unlocked commercial vanilla cultivation across the globe and remains the standard practice used today.",
+      "imageWikipediaTitle": "Edmond Albius",
+      "sources": [
+        {
+          "title": "Edmond Albius",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/biography/Edmond-Albius"
+        },
+        {
+          "title": "Edmond Albius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Edmond_Albius"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/biography/Edmond-Albius",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancient Songs That Map Continents from Memory",
+      "body": "For tens of thousands of years, Indigenous Australians navigated vast desert landscapes without written maps by memorizing songlines. Each songline is an oral map preserved in traditional music, poetry, and storytelling. As travelers walked, singing the verses in strict sequence described the exact location of waterholes, rock formations, and changes in vegetation across hundreds of miles. Travelers who spoke entirely different languages could still follow the path simply by recognizing the rhythm and melody.",
+      "imageWikipediaTitle": "Songline",
+      "sources": [
+        {
+          "title": "Songlines: Tracking the Seven Sisters",
+          "publisher": "National Museum of Australia",
+          "url": "https://www.nma.gov.au/exhibitions/songlines"
+        },
+        {
+          "title": "Songline",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Songline"
+        }
+      ],
+      "readMoreUrl": "https://www.nma.gov.au/exhibitions/songlines",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 300-Year-Old Tree Huggers Who Defied an Army",
+      "body": "In 1730, soldiers sent by the Maharaja of Jodhpur arrived at the village of Khejarli in Rajasthan, India, to log sacred Khejri trees for royal lime kilns. The local Bishnoi people, whose 15th-century religious tenets strictly forbid harming animals or felling green trees, refused to stand aside. Led by a woman named Amrita Devi, 363 villagers clung to the tree trunks, willingly sacrificing their lives before the horrified king halted the slaughter and granted the forest permanent protection.",
+      "imageWikipediaTitle": "Khejarli massacre",
+      "sources": [
+        {
+          "title": "Bishnoi",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Bishnoi"
+        },
+        {
+          "title": "Khejarli massacre",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khejarli_massacre"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Bishnoi",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Alpine Cow Tournaments Settled by Pushing, Not Goring",
+      "body": "In the Valais canton of Switzerland, the undisputed stars of spring pasture traditions are female Hérens cattle. Unlike docile dairy cows, these stocky, horned animals naturally battle one another to establish a herd hierarchy. Farmers formalize this behavior into non-violent tournaments called Combats de Reines (Battles of the Queens). Without human coercion, two cows lock horns and engage in a pushing contest until the weaker cow turns away, allowing the victor to eventually claim the title Queen of Queens.",
+      "imageWikipediaTitle": "Combat de Reines",
+      "sources": [
+        {
+          "title": "Cow fights - Combats de Reines",
+          "publisher": "Switzerland Tourism",
+          "url": "https://www.myswitzerland.com/en/experiences/events/cow-fights/"
+        },
+        {
+          "title": "Combat de Reines",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Combat_de_Reines"
+        }
+      ],
+      "readMoreUrl": "https://www.myswitzerland.com/en/experiences/events/cow-fights/",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The French Myth Behind Mexico's Iconic Mariachi",
+      "body": "A persistent cultural myth claims the word \"mariachi\" was coined in the 1860s from the French word mariage, alleging the musical groups were popularized by performing at French soldiers' weddings. However, historical linguists debunked this by uncovering church archives and letters written in Jalisco dating to 1852—a full decade before the French intervention. The term was already used across western Mexico for festive music and stages, likely stemming from indigenous Piname, Cora, or Coca roots.",
+      "imageWikipediaTitle": "Mariachi",
+      "sources": [
+        {
+          "title": "Mariachi, string music, song and trumpet",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/mariachi-string-music-song-and-trumpet-00575"
+        },
+        {
+          "title": "Mariachi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mariachi"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/mariachi-string-music-song-and-trumpet-00575",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was vanilla unable to produce pods outside Mexico before Edmond Albius's 1841 invention?",
+      "options": [
+        "The plant required a specific soil fungus found only in Mexico",
+        "Only native Mexican Melipona bees naturally pollinated the flower",
+        "European climates were too cold for the vine to flower",
+        "The plant's seeds could only germinate after passing through local birds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vanilla orchids have a protective membrane preventing self-pollination, which only native Mexican bees naturally penetrated."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Indigenous Australian songlines allow people to navigate across unfamiliar desert landscapes?",
+      "options": [
+        "They encoded numerical coordinates matching constellations",
+        "Their verses described physical landmarks, waterholes, and terrain in sequence",
+        "Singers projected their voices so distant tribes could echo back directions",
+        "The rhythm of the songs allowed travelers to calculate walking speed and time"
+      ],
+      "correctIndex": 1,
+      "explanation": "Songline verses acted as spoken acoustic maps, describing land features, vegetation shifts, and vital waterholes in precise geographic order."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did 363 Bishnoi villagers sacrifice their lives in the 1730 Khejarli massacre?",
+      "options": [
+        "To protect sacred trees from being cut down by royal soldiers",
+        "To prevent an imperial army from looting an ancient temple",
+        "To stop a desert river from being diverted away from their village",
+        "To protest a heavy salt and grain tax imposed by the Maharaja"
+      ],
+      "correctIndex": 0,
+      "explanation": "Guided by their religion's strict conservation rules, the villagers embraced sacred Khejri trees to shield them from royal woodcutters."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What uniquely characterizes the participants in Switzerland's traditional Combat de Reines?",
+      "options": [
+        "They are young bull calves competing under human handlers",
+        "They are female Hérens cows that naturally spar for herd dominance",
+        "They are teams of oxen pulling heavy stone sledges",
+        "They are rodeo-trained dairy cattle led through obstacle courses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Female Hérens cows possess a natural instinct to establish herd hierarchy by locking horns and shoving until one yields."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did historians disprove the theory that the word \"mariachi\" came from the French word \"mariage\"?",
+      "options": [
+        "Letters from Jalisco documented mariachi music a decade before French troops arrived",
+        "French imperial archives explicitly forbade soldiers from attending Mexican dances",
+        "Linguistic analysis proved the word descended directly from Classical Latin",
+        "Emperor Maximilian wrote an edict renaming an existing indigenous flute ensemble"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mexican correspondence from 1852 mentions mariachi celebrations, proving the term predated the 1860s French invasion by ten years."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did 12-year-old Edmond Albius invent the hand-pollination technique that allowed vanilla to become a global crop?",
+      "answer": 1841,
+      "min": 1750,
+      "max": 1920,
+      "unit": "",
+      "explanation": "In 1841, Edmond Albius's simple bamboo-stick method unlocked commercial vanilla cultivation worldwide."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "How many Bishnoi villagers sacrificed their lives clinging to trees during the 1730 Khejarli massacre?",
+      "answer": 363,
+      "min": 50,
+      "max": 1000,
+      "unit": "",
+      "explanation": "363 Bishnoi villagers were slaughtered protecting sacred Khejri trees before the Maharaja halted the logging."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Virtually every natural vanilla pod harvested in the world comes from a flower pollinated by human hands.",
+      "answer": true,
+      "explanation": "Because vanilla's natural bee pollinator lives only in Mexico, almost all commercial vanilla worldwide is hand-pollinated using Edmond Albius's technique."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The Swiss Combat de Reines pits bulls against each other in violent blood sports similar to bullfighting.",
+      "answer": false,
+      "explanation": "The bouts feature female Hérens cows engaging in natural, bloodless shoving matches that end immediately when one cow turns away."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word \"mariachi\" comes from the French word for wedding, \"mariage.\"",
+      "answer": false,
+      "explanation": "Mexican letters from 1852 describe mariachi musicians a decade before the French military arrived in Mexico."
+    }
+  ]
+}

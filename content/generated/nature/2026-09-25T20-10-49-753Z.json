@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.753Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The bearded vulture survives almost entirely on a diet of solid bones",
+      "body": "While most scavengers fight over fresh meat, the bearded vulture waits for the carcass to be stripped down to the skeleton. Bone makes up roughly 85 to 90 percent of its adult diet. To digest dense calcium and mineral-rich bone, its stomach produces powerful acid with an estimated pH around 1. The bird can swallow bone fragments up to ten inches long and dissolve them completely within twenty-four hours.",
+      "imageWikipediaTitle": "Bearded vulture",
+      "sources": [
+        {
+          "title": "Bearded Vulture",
+          "publisher": "San Diego Zoo Wildlife Alliance",
+          "url": "https://animals.sandiegozoo.org/animals/bearded-vulture"
+        },
+        {
+          "title": "Bearded vulture",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bearded_vulture"
+        }
+      ],
+      "readMoreUrl": "https://animals.sandiegozoo.org/animals/bearded-vulture",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The giant Amazon water lily's underside inspired modern glass architecture",
+      "body": "Floating in the Amazon basin, the leaves of Victoria amazonica can reach three meters across and hold up to forty-five kilograms without sinking. Their secret lies underneath: a network of hollow, air-filled ribs radiating from the center, reinforced by transverse struts. In 1850, gardener Joseph Paxton studied this cantilevered framework to design London's Crystal Palace, proving that biological engineering could create unprecedentedly light, vast, and strong iron-and-glass structures.",
+      "imageWikipediaTitle": "Victoria amazonica",
+      "sources": [
+        {
+          "title": "Victoria amazonica (giant waterlily)",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://www.kew.org/plants/giant-waterlily"
+        },
+        {
+          "title": "Victoria amazonica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Victoria_amazonica"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/plants/giant-waterlily",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Weaver ants build canopy nests by using their larvae like living glue dispensers",
+      "body": "To construct arboreal nests high in tree canopies, weaver ants coordinate extraordinary cooperative engineering. Chains of worker ants pull living leaves together, straining under collective muscle power to bend the foliage into tight chambers. Meanwhile, other workers fetch silk-producing larvae from their nursery. Gently squeezing each larva with their mandibles, workers weave the silk back and forth across leaf seams, expending the young's future cocoon material to bind the colony's shelter.",
+      "imageWikipediaTitle": "Weaver ant",
+      "sources": [
+        {
+          "title": "Green Tree Ant",
+          "publisher": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/insects/green-tree-ant/"
+        },
+        {
+          "title": "Weaver ant",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weaver_ant"
+        }
+      ],
+      "readMoreUrl": "https://australian.museum/learn/animals/insects/green-tree-ant/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The underwater traps of bladderwort plants strike in less than a millisecond",
+      "body": "Carnivorous bladderworts hunt using the fastest known predatory traps in the plant kingdom. Beneath murky pond water, each millimeter-sized bladder pumps out fluid to build severe negative internal pressure. When a tiny organism brushes external trigger hairs, a trapdoor opens instantly. Water rushes inside, swallowing the prey in roughly five hundred microseconds—far faster than the blink of an eye. The door then seals shut, and digestive enzymes dissolve the catch.",
+      "imageWikipediaTitle": "Utricularia",
+      "sources": [
+        {
+          "title": "Utricularia - carnivorous bladderworts",
+          "publisher": "Royal Botanic Gardens, Kew",
+          "url": "https://www.kew.org/plants/bladderworts"
+        },
+        {
+          "title": "Utricularia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Utricularia"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/plants/bladderworts",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mariana snailfish thrives under crushing ocean pressure eight kilometers deep",
+      "body": "At depths exceeding 8,000 meters in the Mariana Trench, the Mariana snailfish is one of the deepest-living vertebrates ever discovered. At this abyss, hydrostatic pressure reaches over 1,000 times atmospheric pressure at sea level. The snailfish survives because it lacks air-filled swim bladders, possesses uncalcified, flexible bones, and concentrates high levels of trimethylamine N-oxide in its cells, a stabilizing molecule that prevents vital proteins from being distorted by the extreme force.",
+      "imageWikipediaTitle": "Pseudoliparis swirei",
+      "sources": [
+        {
+          "title": "New species of Mariana Trench snailfish is deepest yet",
+          "publisher": "University of Washington",
+          "url": "https://www.washington.edu/news/2017/11/28/deepest-fish-mariana-trench-snailfish/"
+        },
+        {
+          "title": "Pseudoliparis swirei",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pseudoliparis_swirei"
+        }
+      ],
+      "readMoreUrl": "https://www.washington.edu/news/2017/11/28/deepest-fish-mariana-trench-snailfish/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What makes up roughly 85 to 90 percent of an adult bearded vulture's diet?",
+      "options": [
+        "Solid bones",
+        "Rotting fruit",
+        "Live freshwater fish",
+        "Insect larvae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bearded vultures are the only known vertebrates whose diet consists almost entirely of bone, dissolved by stomach acid with a pH near 1."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What structural feature allows the giant Amazon water lily leaf to support heavy weight?",
+      "options": [
+        "Hollow, air-filled ribs and struts underneath",
+        "A thick bark-like top crust",
+        "Air bladders floating on the water's surface",
+        "Microscopic mineral deposits within its stems"
+      ],
+      "correctIndex": 0,
+      "explanation": "An intricate underside network of hollow, air-filled ribs provides structural rigidity, inspiring Joseph Paxton's Crystal Palace design."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do weaver ants seal tree leaves together when constructing their nests?",
+      "options": [
+        "They squeeze silk from their own living larvae",
+        "They regurgitate sticky tree sap",
+        "They chew wood into paper pulp",
+        "They melt leaf wax using friction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Worker weaver ants hold silk-producing larvae in their jaws, using them like living spools to weave leaf edges together."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do carnivorous bladderwort plants catch aquatic prey in under a millisecond?",
+      "options": [
+        "By opening a vacuum trap that sucks water inside",
+        "By clamping spiny jaws together with muscular tissue",
+        "By delivering a paralyzing electric discharge",
+        "By snapping sticky adhesive tentacles around prey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bladderworts pump water out of internal bladders to create a vacuum, engulfing prey in about 500 microseconds when triggered."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which cellular adaptation protects the Mariana snailfish from being crushed by deep-sea pressure?",
+      "options": [
+        "High levels of the protein-stabilizing molecule TMAO",
+        "A thick outer shell made of calcium carbonate",
+        "A pressurized swim bladder filled with nitrogen",
+        "Reinforced, crystalline iron bones"
+      ],
+      "correctIndex": 0,
+      "explanation": "Trimethylamine N-oxide (TMAO) stabilizes cellular proteins against severe hydrostatic pressure eight kilometers deep."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of an adult bearded vulture's diet consists entirely of bones?",
+      "answer": 85,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Bearded vultures get 85 to 90 percent of their diet from bones, using specialized stomach acid to digest them within 24 hours."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "At what depth in meters was the Mariana snailfish discovered living in the ocean?",
+      "answer": 8000,
+      "min": 1000,
+      "max": 11000,
+      "unit": "m",
+      "explanation": "The Mariana snailfish thrives around 8,000 meters (roughly 26,200 feet) down, near the absolute limit for vertebrate life."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Vultures survive solely by eating soft, decomposing meat",
+      "answer": false,
+      "explanation": "The bearded vulture specializes in bones, which make up roughly 85 to 90 percent of its diet, dissolved by stomach acid near pH 1."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Plants move far too slowly to catch fast aquatic prey",
+      "answer": false,
+      "explanation": "Carnivorous bladderworts spring their underwater suction traps in roughly 500 microseconds, faster than almost any animal strike."
+    }
+  ]
+}

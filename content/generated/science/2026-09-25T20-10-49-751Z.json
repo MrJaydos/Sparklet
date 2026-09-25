@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-25T20:10:49.751Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of the fat you lose is exhaled into thin air",
+      "body": "When you burn body fat, where does that lost mass actually go? Many assume fat converts directly into energy, muscle, or sweat. But according to the law of conservation of mass, fat molecules are broken down through oxidation into carbon dioxide and water. For every ten kilograms of human fat lost, approximately 8.4 kilograms escape through your lungs as exhaled carbon dioxide, while the remaining 1.6 kilograms become water excreted in urine, sweat, and breath.",
+      "imageWikipediaTitle": "Adipose tissue",
+      "sources": [
+        {
+          "title": "When somebody loses weight, where does the fat go?",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4266258/"
+        },
+        {
+          "title": "Lipolysis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lipolysis"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4266258/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How woodpeckers strike trees without brain trauma",
+      "body": "A woodpecker slams its beak into tree trunks at velocities exceeding six meters per second, experiencing deceleration forces topping one thousand times Earth's gravity. To survive thousands of daily impacts without brain damage, the bird relies on an extraordinary anatomical cushion: its hyoid bone. Attached to the tongue, this flexible bone splits, loops completely over the skull, and anchors above the beak, functioning like an internal seatbelt that diverts concussive forces safely around the brain.",
+      "imageWikipediaTitle": "Woodpecker",
+      "sources": [
+        {
+          "title": "A Biological Shock Absorbing System in Woodpecker Skull",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3197170/"
+        },
+        {
+          "title": "Woodpecker",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Woodpecker"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3197170/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why slicing an onion instantly triggers your tears",
+      "body": "Chopping an onion does not just release strong aromas; it unleashes a chemical defense system. Slicing damages plant cells, allowing an enzyme called alliinase to mix with sulfoxides that are normally kept separated. This reaction rapidly synthesizes syn-propanethial-S-oxide, a volatile sulfur compound. When this gas drifts upward and dissolves into the moisture of your eyes, it forms tiny amounts of mild sulfuric acid, prompting your lacrimal glands to flush out the irritant with tears.",
+      "imageWikipediaTitle": "Onion",
+      "sources": [
+        {
+          "title": "Why does chopping an onion make you cry?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/"
+        },
+        {
+          "title": "Syn-propanethial-S-oxide",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Syn-propanethial-S-oxide"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body never replaces all of its cells",
+      "body": "A popular health myth claims that your body replaces every single cell every seven years, making you physically a new person. While your gut lining regenerates in days and red blood cells live about four months, many critical tissues never turn over. Most neurons in your cerebral cortex, the crystallin proteins forming your eye lenses, and many heart muscle cells remain with you from birth to death, carrying your earliest memories and lifelong biological history.",
+      "imageWikipediaTitle": "Neuron",
+      "sources": [
+        {
+          "title": "Does the human body replace itself every 7 years?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/biology-and-human-anatomy/item/does-the-human-body-replace-itself-every-7-years/"
+        },
+        {
+          "title": "Cerebral cortex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cerebral_cortex"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/biology-and-human-anatomy/item/does-the-human-body-replace-itself-every-7-years/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The night sky is dark because the universe had a beginning",
+      "body": "If the universe were static, eternal, and filled with an infinite sea of stars, the night sky would blaze with blinding light, because every line of sight would eventually hit a stellar surface. The darkness between stars—known as Olbers' paradox—proves that the universe had a beginning. Because the cosmos is only 13.8 billion years old, light from the most distant stars has simply not had enough time to cross space and reach our eyes.",
+      "imageWikipediaTitle": "Olbers' paradox",
+      "sources": [
+        {
+          "title": "Why is the night sky dark?",
+          "publisher": "NASA",
+          "url": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question62.html"
+        },
+        {
+          "title": "Olbers' paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olbers%27_paradox"
+        }
+      ],
+      "readMoreUrl": "https://starchild.gsfc.nasa.gov/docs/StarChild/questions/question62.html",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "When a person loses weight, through what organ does the vast majority of that fat mass leave the body?",
+      "options": [
+        "The skin (as sweat)",
+        "The lungs (as exhaled carbon dioxide)",
+        "The kidneys (as urine)",
+        "The digestive tract (as solid waste)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Biochemical oxidation converts about 84% of lost fat mass into carbon dioxide, which is exhaled through the lungs."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What anatomical feature loops over a woodpecker's skull to cushion impacts exceeding 1,000 g?",
+      "options": [
+        "The hyoid apparatus (tongue bone)",
+        "The clavicle bone",
+        "A shock-absorbing cervical vertebra",
+        "An enlarged frontal sinus"
+      ],
+      "correctIndex": 0,
+      "explanation": "The elongated hyoid bone branches from the tongue and wraps entirely around the skull, dispersing impact shocks."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What happens chemically when you cut into an onion that makes your eyes water?",
+      "options": [
+        "Enzymes create a volatile gas that turns into mild acid in your tears",
+        "Capsaicin gas burns nerve endings in the cornea",
+        "Citric acid sprays out in microscopic liquid droplets",
+        "Hydrogen cyanide gas is released as an insecticide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cell damage lets alliinase produce syn-propanethial-S-oxide, which forms tiny traces of sulfuric acid in eye moisture."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which of these human cell types stays with you from birth to death without being replaced?",
+      "options": [
+        "Skin epithelial cells",
+        "Red blood cells",
+        "Most cerebral cortex neurons",
+        "Intestinal lining cells"
+      ],
+      "correctIndex": 2,
+      "explanation": "Unlike skin or gut cells that renew constantly, neurons in the cerebral cortex generally last an entire lifetime."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What key fact about the universe resolves Olbers' paradox and explains why the night sky is dark?",
+      "options": [
+        "Interstellar dust permanently absorbs all distant light",
+        "The universe has a finite age, so distant starlight has not reached us yet",
+        "Stars automatically dim after their local dusk",
+        "Earth's atmosphere reflects starlight back into space"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the universe began roughly 13.8 billion years ago, light from stars beyond the observable horizon hasn't had time to reach Earth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "When a human burns body fat, what percentage of that lost mass is exhaled through the lungs as carbon dioxide?",
+      "answer": 84,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Roughly 84% of metabolized fat mass is exhaled as CO2, while only 16% is excreted as water."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many times Earth's gravity (g-force) can a woodpecker experience when drumming against a tree without brain injury?",
+      "answer": 1000,
+      "min": 50,
+      "max": 5000,
+      "unit": "g",
+      "explanation": "Woodpeckers routinely endure deceleration forces topping 1,000 g, cushioned by their hyoid apparatus and skull structure."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "When you lose weight, the majority of your body fat is converted directly into energy and heat.",
+      "answer": false,
+      "explanation": "Mass is conserved during metabolism; 84% of fat mass is exhaled as carbon dioxide, and 16% is excreted as water."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Every single cell in the human body is replaced roughly once every seven years.",
+      "answer": false,
+      "explanation": "While skin and gut cells regenerate rapidly, most cerebral cortex neurons and lens proteins stay with you for life."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "In a static, eternal, and infinitely large universe filled with stars, the night sky would shine as bright as the Sun.",
+      "answer": true,
+      "explanation": "In an eternal, infinite universe, every line of sight would inevitably terminate on a star, illuminating the entire sky."
+    }
+  ]
+}
