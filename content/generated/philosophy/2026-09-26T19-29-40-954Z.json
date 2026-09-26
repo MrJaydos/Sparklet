@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-09-26T19:29:40.954Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The two envelopes that break simple probability",
+      "body": "Imagine two sealed envelopes containing cash. You are told one has twice as much as the other. You pick one at random. Before opening it, you calculate your odds: if yours holds $x$, the other holds either $0.5x$ or $2x$ with equal 50% probability, giving an expected value of $1.25x$. Math says you should switch. But by the same logic, you should immediately switch right back forever.",
+      "imageWikipediaTitle": "Two envelopes problem",
+      "sources": [
+        {
+          "title": "The Two-Envelope Paradox",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/two-envelope-paradox/"
+        },
+        {
+          "title": "Two envelopes problem",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Two_envelopes_problem"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/two-envelope-paradox/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The crocodile's promise that trapped classical logic in an endless loop",
+      "body": "In an ancient Greek thought experiment, a crocodile snatches a child from the Nile and makes a deal: guess what I will do, and if you are right, I will return the child safely. The quick-thinking father says, \"You will not return the child.\" The crocodile is paralyzed. If he keeps the child, the father was right, so he must return it. But if he returns it, the father lied, so he must keep it.",
+      "imageWikipediaTitle": "Crocodile paradox",
+      "sources": [
+        {
+          "title": "Insolubles",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/insolubilia/"
+        },
+        {
+          "title": "Crocodile paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crocodile_paradox"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Crocodile_paradox",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a single floating hand proved empty space is an absolute reality",
+      "body": "In 1768, Immanuel Kant challenged Gottfried Leibniz's view that space is just the relative distance between objects. Imagine an empty universe containing nothing except a single human hand. Is it a left hand or a right hand? Internally, both hands have identical proportions, angles, and distances between fingers. Yet a left hand can never fit into a right glove. Kant argued this handedness proves space is an absolute, independent reality, not just relations between things.",
+      "imageWikipediaTitle": "Incongruent counterparts",
+      "sources": [
+        {
+          "title": "Kant's Views on Space and Time",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/kant-spacetime/"
+        },
+        {
+          "title": "Incongruent counterparts",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Incongruent_counterparts"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/kant-spacetime/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why an optical illusion proved that seeing is actually thinking",
+      "body": "Stare at the famous duck-rabbit drawing, and it suddenly flips: a duck's bill becomes a rabbit's ears. In his Philosophical Investigations, Ludwig Wittgenstein pointed out that the physical drawing doesn't change, and neither does the light hitting your retina. Yet your conscious experience completely transforms. Wittgenstein used this \"aspect seeing\" to show that perception is never just raw sensory data. We do not merely see lines on paper; our concepts actively interpret and organize what we perceive.",
+      "imageWikipediaTitle": "Rabbit–duck illusion",
+      "sources": [
+        {
+          "title": "Ludwig Wittgenstein",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/wittgenstein/"
+        },
+        {
+          "title": "Rabbit–duck illusion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rabbit%E2%80%93duck_illusion"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/wittgenstein/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The paradox Plato invented to dismantle his own greatest theory",
+      "body": "Plato believed individual things are only what they are by participating in a perfect, abstract Form. A group of men are all \"men\" because they resemble the ideal Form of Man. But in his dialogue Parmenides, Plato spotted a devastating flaw: to explain why ordinary men and the Form of Man resemble each other, you need a \"third man\"—a higher Form. That third Form requires a fourth, triggering an infinite regress that threatens his entire metaphysical system.",
+      "imageWikipediaTitle": "Third man argument",
+      "sources": [
+        {
+          "title": "Plato's Parmenides",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/plato-parmenides/"
+        },
+        {
+          "title": "Third man argument",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Third_man_argument"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/plato-parmenides/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In the Two Envelopes Paradox, what flawed expected value calculation suggests you should always switch envelopes?",
+      "options": [
+        "The other envelope has an expected value of 1.25 times your current envelope",
+        "The other envelope is guaranteed to contain double your amount",
+        "Opening the envelope reduces its probability of winning",
+        "Switching gives you a 75% chance of picking the larger sum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Assuming an equal 50% chance of getting 0.5x or 2x produces an expected value of 0.5(0.5x) + 0.5(2x) = 1.25x, creating the illusion of an automatic 25% gain."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What statement did the father make to paralyze the crocodile in the Crocodile Paradox?",
+      "options": [
+        "\"You will not return the child.\"",
+        "\"You will eat the child tomorrow.\"",
+        "\"I will not guess your intentions.\"",
+        "\"You do not know what you will do.\""
+      ],
+      "correctIndex": 0,
+      "explanation": "If the crocodile devours the child, the father was correct and earned the child back; if the crocodile returns it, the father was wrong."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did Immanuel Kant use the example of incongruent counterparts (left and right hands) to demonstrate?",
+      "options": [
+        "Space is an absolute, independent reality rather than just relations between objects",
+        "Our senses are fundamentally deceptive about physical shapes",
+        "Left-handedness is biologically rarer than right-handedness",
+        "Geometry can only be understood through tactile sensations"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because left and right hands share identical internal dimensions yet cannot be superimposed, Kant argued their handedness depends on space as an absolute framework."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What philosophical point did Ludwig Wittgenstein make using the duck-rabbit illusion?",
+      "options": [
+        "Visual perception is not merely raw sensory data, but is shaped by our concepts",
+        "The human brain cannot process two animals simultaneously",
+        "Language is inherently visual rather than auditory",
+        "Optical illusions prove that the external world does not exist"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the physical drawing and sensory input remain unchanged while our interpretation flips, Wittgenstein showed perception involves conceptual 'aspect seeing'."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What problem does Plato's Third Man Argument identify in his Theory of Forms?",
+      "options": [
+        "It triggers an infinite regress of forms to explain resemblance between things and their form",
+        "It proves that physical objects are more real than abstract concepts",
+        "It demonstrates that numbers cannot exist independently of minds",
+        "It shows that bad qualities cannot have corresponding ideal forms"
+      ],
+      "correctIndex": 0,
+      "explanation": "Explaining the shared resemblance between particulars and their Form requires positing another Form, which in turn requires another, ad infinitum."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "In the two envelopes problem, calculating an expected value of 1.25x proves switching envelopes is a mathematically sound strategy.",
+      "answer": false,
+      "explanation": "The Two Envelopes Paradox proves this calculation is fallacious, because applying it symmetrically would require you to switch envelopes endlessly."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A human left hand and right hand have identical internal measurements yet cannot fit the same three-dimensional space.",
+      "answer": true,
+      "explanation": "As Kant noted, every internal length and angle between fingers is identical, yet no rotation in 3D space can make a left hand occupy the exact space of a right hand."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Plato presented his Theory of Forms as an unassailable doctrine that he never critically challenged.",
+      "answer": false,
+      "explanation": "Plato himself formulated the devastating 'Third Man Argument' in his dialogue Parmenides, pointing out a major flaw in his own theory."
+    }
+  ]
+}

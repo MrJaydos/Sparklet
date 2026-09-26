@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-26T19:29:40.952Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The First Index Fund Was Mocked as \"Un-American\"",
+      "body": "In 1975, John Bogle launched the First Index Investment Trust, creating the world's first retail index fund. Instead of paying managers to pick stocks, it simply tracked the S&P 500. Wall Street dismissed it as \"Bogle's Folly\" and blasted settling for average returns as un-American. The fund raised just $11.3 million of its $150 million goal. Over decades, tiny fees allowed index funds to outperform the vast majority of active stock pickers.",
+      "imageWikipediaTitle": "John C. Bogle",
+      "sources": [
+        {
+          "title": "Index Funds",
+          "publisher": "Investor.gov",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/index-funds"
+        },
+        {
+          "title": "Vanguard 500 Index Fund",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vanguard_500_Index_Fund"
+        }
+      ],
+      "readMoreUrl": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-funds-etfs/index-funds",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Eight Nations Secretly Pooled Gold to Defend the Dollar",
+      "body": "In 1961, the United States and seven European allies formed the London Gold Pool to keep the market price of gold pegged at $35 per ounce. Member central banks agreed to sell their own bullion whenever global demand pushed prices up. But escalating US spending during the 1960s sparked intense speculative runs. In March 1968, after member nations burned through thousands of tons of gold in a futile defense, the pool collapsed.",
+      "imageWikipediaTitle": "Gold reserve",
+      "sources": [
+        {
+          "title": "London Gold Pool",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/london-gold-pool"
+        },
+        {
+          "title": "London Gold Pool",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/London_Gold_Pool"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/london-gold-pool",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When Central Banks Charged Lenders to Hold Cash",
+      "body": "For centuries, interest was the basic reward for saving money. But in 2014, facing sluggish economic growth and deflation risks, the European Central Bank did the unthinkable: it pushed its benchmark deposit rate below zero. Under negative rates, commercial banks were charged a fee to store excess reserves overnight. The policy aimed to penalize banks for hoarding cash, prodding them to lend money out to businesses and consumers instead.",
+      "imageWikipediaTitle": "European Central Bank",
+      "sources": [
+        {
+          "title": "What are negative interest rates?",
+          "publisher": "European Central Bank",
+          "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/why-negative-interest-rate.en.html"
+        },
+        {
+          "title": "Negative interest on excess reserves",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negative_interest_on_excess_reserves"
+        }
+      ],
+      "readMoreUrl": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me-more/html/why-negative-interest-rate.en.html",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Even Isaac Newton Lost a Fortune in a Stock Bubble",
+      "body": "In 1720, Britain succumbed to mania over the South Sea Company. Physicist Isaac Newton bought shares early and sold for a 100% profit. But as share prices skyrocketed higher, jealousy and excitement lured him back in near the peak. When the bubble burst, Newton lost roughly £20,000—worth millions today. The disaster prompted his famous remark: \"I can calculate the motions of heavenly bodies, but not the madness of people.\"",
+      "imageWikipediaTitle": "South Sea Company",
+      "sources": [
+        {
+          "title": "What was the South Sea bubble?",
+          "publisher": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/explainers/what-was-the-south-sea-bubble"
+        },
+        {
+          "title": "South Sea Company",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/South_Sea_Company"
+        }
+      ],
+      "readMoreUrl": "https://www.bankofengland.co.uk/explainers/what-was-the-south-sea-bubble",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1920 Theory That Taxes Pollution Instead of Work",
+      "body": "Most taxes penalize things society wants more of, such as labor, enterprise, and investment. In 1920, British economist Arthur Pigou proposed an alternative: taxing negative externalities—unpriced harms inflicted on third parties, like smog or water pollution. By charging polluters for their damage, Pigovian taxes ensure market prices reflect true societal costs. Instead of heavy-handed government mandates, simple price signals give companies a direct financial incentive to clean up.",
+      "imageWikipediaTitle": "Arthur Cecil Pigou",
+      "sources": [
+        {
+          "title": "Externalities: Prices Do Not Capture All Costs",
+          "publisher": "International Monetary Fund",
+          "url": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities"
+        },
+        {
+          "title": "Pigovian tax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pigovian_tax"
+        }
+      ],
+      "readMoreUrl": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Externalities",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What was a primary criticism Wall Street leveled at John Bogle's first index fund in the 1970s?",
+      "options": [
+        "Settling for average market returns was considered un-American",
+        "It was illegal under federal investment laws",
+        "Its operating fees were far too high for ordinary investors",
+        "It invested exclusively in foreign government debt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Critics dubbed it 'Bogle's Folly' and claimed settling for market average returns instead of picking winners was un-American."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the primary goal of the London Gold Pool established in 1961?",
+      "options": [
+        "To peg the market price of gold at $35 per ounce",
+        "To replace European paper money with gold coins",
+        "To confiscate privately owned bullion across Western Europe",
+        "To fund the reconstruction of post-war European ports"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eight central banks pooled their reserves to sell gold whenever market demand pushed its price above the $35 target."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the European Central Bank cut its deposit rate below zero in 2014?",
+      "options": [
+        "To penalize banks for hoarding cash and encourage lending",
+        "To reward consumers who built large personal savings",
+        "To eliminate physical paper money from circulation",
+        "To force commercial banks to buy sovereign gold"
+      ],
+      "correctIndex": 0,
+      "explanation": "Negative rates made it costly for commercial banks to park cash overnight, nudging them to issue loans to businesses and consumers."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which renowned scientist lost a fortune after reinvesting near the peak of the 1720 South Sea Bubble?",
+      "options": [
+        "Galileo Galilei",
+        "Isaac Newton",
+        "Robert Hooke",
+        "Charles Darwin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Newton initially doubled his money, but reinvested near the top and lost roughly £20,000 when the bubble collapsed."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary economic goal of a Pigovian tax?",
+      "options": [
+        "To eliminate all private corporate profits",
+        "To force polluters to pay for the negative externalities they create",
+        "To replace all income taxes with import tariffs",
+        "To encourage companies to hire more low-wage workers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arthur Pigou showed that taxing activities that inflict unpriced harms on society aligns market prices with true social costs."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many millions of dollars did John Bogle's first index fund raise during its 1976 launch, despite a $150 million goal?",
+      "answer": 11.3,
+      "min": 1,
+      "max": 150,
+      "unit": "million $",
+      "explanation": "Mocked as 'Bogle's Folly,' the fund raised only $11.3 million—less than 8% of what underwriters originally targeted."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "At what fixed dollar price per ounce did the London Gold Pool attempt to defend gold between 1961 and 1968?",
+      "answer": 35,
+      "min": 10,
+      "max": 100,
+      "unit": "$",
+      "explanation": "Under the Bretton Woods system, eight central banks pooled gold reserves to keep the market price locked at $35 per troy ounce."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Wall Street immediately embraced index funds for their sensible logic and low fees.",
+      "answer": false,
+      "explanation": "Financial institutions initially ridiculed the first index fund as 'Bogle's Folly' and called accepting market returns un-American."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "A central bank can set interest rates below zero, effectively charging commercial banks to store money.",
+      "answer": true,
+      "explanation": "The European Central Bank, Bank of Japan, and others introduced negative rates to discourage cash hoarding and spur lending."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Isaac Newton avoided financial ruin in the South Sea Bubble by cashing out his shares early.",
+      "answer": false,
+      "explanation": "Newton made a 100% profit on his initial sale, but fear of missing out made him buy back in near the peak, losing £20,000."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-26T19:29:40.953Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why prospects notice almost none of your pitch slip-ups",
+      "body": "When a slide glitches or you flub a statistic, your heart races because you assume the entire room is fixated on your mistake. In reality, psychology's spotlight effect proves people consistently overestimate how much others notice them. In landmark trials, participants predicted that half the room would notice an embarrassing shirt, but only 23% did. Buyers focus on their own problems, not your stumbles, so brushing past a mistake keeps your pitch completely intact.",
+      "imageWikipediaTitle": "Spotlight effect",
+      "sources": [
+        {
+          "title": "The Spotlight Effect in Social Judgment",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10653513/"
+        },
+        {
+          "title": "Spotlight effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spotlight_effect"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/10653513/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why thinking like your buyer beats feeling with them",
+      "body": "Sales advice often urges deep empathy, but research shows cognitive perspective-taking outperforms emotional empathy at the bargaining table. In negotiation experiments led by psychologist Adam Galinsky, negotiators instructed to step into their counterpart's shoes and deduce their underlying interests uncovered non-obvious trade-offs and secured larger joint gains. In contrast, negotiators primed with emotional empathy often conceded too much without discovering creative solutions. Understanding a client's incentives beats merely absorbing their feelings.",
+      "imageWikipediaTitle": "Perspective-taking",
+      "sources": [
+        {
+          "title": "Why It Pays to Get Inside the Head of Your Opponent",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18399893/"
+        },
+        {
+          "title": "Perspective-taking",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Perspective-taking"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/18399893/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Directing buyer attention to one feature inflates its importance",
+      "body": "Nobel laureate Daniel Kahneman observed that nothing in life is as important as you think it is while you are thinking about it. This quirk, known as the focusing illusion, heavily shapes sales pitches. When a seller focuses a prospect's attention onto a single distinctive feature, the buyer unconsciously magnifies its weight relative to all other criteria. By steering early conversation toward your sharpest differentiator, you make that single metric dominate the final purchase evaluation.",
+      "imageWikipediaTitle": "Focusing effect",
+      "sources": [
+        {
+          "title": "Would You Be Happier If You Were Richer? A Focusing Illusion",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16809527/"
+        },
+        {
+          "title": "Focusing effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Focusing_effect"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/16809527/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Get prospects to invest small effort early to seal the deal",
+      "body": "B.M. Staw's research on escalation of commitment shows that once people invest resources into an endeavor, they feel a psychological need to justify that investment by seeing it through. In sales, inviting a prospect to complete a short workflow audit, share internal data, or co-create a requirement brief turns them from passive observers into committed stakeholders. Having invested their own time and labor, they become significantly more motivated to close the deal and validate their effort.",
+      "imageWikipediaTitle": "Escalation of commitment",
+      "sources": [
+        {
+          "title": "Knee-Deep in the Big Muddy: A Study of Escalating Commitment",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/947474/"
+        },
+        {
+          "title": "Escalation of commitment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Escalation_of_commitment"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/947474/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bringing a teammate to negotiations uncovers better win-win deals",
+      "body": "Solo negotiators frequently fall into the trap of assuming a fixed pie where one side's gain is the other's loss. Research by Leigh Thompson and colleagues revealed that bargaining in teams of two or three dramatically increases the discovery of integrative, win-win agreements. Teams process complex trade-offs more effectively, share more information, and ask broader questions than lone bargainers. Adding a second colleague to your sales negotiation consistently creates higher joint economic value for both parties.",
+      "imageWikipediaTitle": "Integrative negotiation",
+      "sources": [
+        {
+          "title": "Team Negotiation: An Examination of Integrative and Distributive Bargaining",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8656333/"
+        },
+        {
+          "title": "Integrative negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Integrative_negotiation"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/8656333/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Thomas Gilovich's classic spotlight effect study, what percentage of observers actually noticed a participant's embarrassing t-shirt?",
+      "options": [
+        "About 23%",
+        "About 50%",
+        "About 75%",
+        "Less than 5%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Participants estimated that roughly 50% of the room would notice their embarrassing shirt, but in reality, only about 23% did."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to negotiation research by Adam Galinsky and colleagues, why does cognitive perspective-taking outperform emotional empathy?",
+      "options": [
+        "Perspective-taking decodes interests and finds trade-offs without over-conceding",
+        "Empathy makes counterparts feel defensive and walk away from talks",
+        "Perspective-taking forces counterparts to accept aggressive demands",
+        "Empathy prevents negotiators from forming any rapport"
+      ],
+      "correctIndex": 0,
+      "explanation": "Galinsky found perspective-taking uncovers underlying interests and win-win trade-offs, whereas emotional empathy often prompts bargainers to concede value needlessly."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the 'focusing illusion' affect a buyer during a sales conversation?",
+      "options": [
+        "Directing attention to one feature causes buyers to exaggerate its overall importance",
+        "Highlighting multiple features makes buyers ignore the price tag entirely",
+        "Focusing on competitor flaws makes buyers distrust both brands equally",
+        "Concentrating on costs causes buyers to systematically undervalue product quality"
+      ],
+      "correctIndex": 0,
+      "explanation": "The focusing illusion describes how focusing attention on a specific attribute causes people to overestimate its significance in their overall evaluation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does asking a prospect to invest initial effort, like sharing internal data, boost closing rates?",
+      "options": [
+        "It triggers escalation of commitment, motivating them to justify their invested time",
+        "It forces the prospect to sign a legally binding preliminary agreement",
+        "It prevents the prospect from evaluating any competing solutions",
+        "It eliminates the buyer's need for executive sign-off"
+      ],
+      "correctIndex": 0,
+      "explanation": "When prospects invest time and effort early, psychological escalation of commitment makes them want to justify that effort by completing the deal."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What major advantage do small teams have over solo negotiators in business bargaining?",
+      "options": [
+        "Teams discover more integrative, win-win trade-offs and create higher joint value",
+        "Teams intimidate counterparties into accepting lower profit margins",
+        "Teams eliminate the need to share any proprietary information",
+        "Teams reach agreements in half the time of lone negotiators"
+      ],
+      "correctIndex": 0,
+      "explanation": "Research by Thompson and colleagues showed multi-person teams process complex information better and uncover creative win-win trade-offs that solo bargainers miss."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In a landmark study on the spotlight effect, what percentage of people in a room actually noticed a participant's embarrassing shirt?",
+      "answer": 23,
+      "min": 1,
+      "max": 80,
+      "unit": "%",
+      "explanation": "While participants predicted that roughly 50% of the room noticed their embarrassing Barry Manilow t-shirt, only 23% actually did."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Feeling deep emotional empathy for your counterpart produces better negotiation deals than analyzing their strategic interests.",
+      "answer": false,
+      "explanation": "Adam Galinsky's research revealed that cognitive perspective-taking uncovers win-win trade-offs, while emotional empathy often leads negotiators to concede too much."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Negotiating in a small team consistently generates higher joint value than sending your best single negotiator alone.",
+      "answer": true,
+      "explanation": "Thompson and colleagues found that teams share more information and process complex trade-offs better than solo bargainers, creating higher total value."
+    }
+  ]
+}
