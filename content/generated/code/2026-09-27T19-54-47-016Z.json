@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.016Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Strict trade barriers forced Brazilian programmers to invent Lua",
+      "body": "In the 1980s and early 1990s, Brazil enforced strict trade protectionism that barred the import of foreign computer hardware and software. Because local developers could not easily buy or license commercial tools from abroad, computer scientists at Rio's Pontifical Catholic University designed Lua from scratch in 1993. Built to run efficiently on resource-constrained hardware, the ultra-compact embeddable language became a global standard, scripting massive game worlds from World of Warcraft to Roblox.",
+      "imageWikipediaTitle": "Lua (programming language)",
+      "sources": [
+        {
+          "title": "The Evolution of Lua",
+          "publisher": "Lua.org",
+          "url": "https://www.lua.org/history.html"
+        },
+        {
+          "title": "Lua (programming language)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+        }
+      ],
+      "readMoreUrl": "https://www.lua.org/history.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In 1986, the internet backbone slowed down by 99.9 percent",
+      "body": "Between 1986 and 1988, the infant internet suffered repeated congestion collapses. Across a critical backbone link between Berkeley and Lawrence Berkeley Laboratory, data transfer speeds plummeted from 32,000 bits per second to just 40 bits per second. Packets were dropped, causing sending computers to retransmit aggressively and swamp the network. Computer scientist Van Jacobson halted the panic loops by creating TCP congestion control, introducing the slow-start algorithm that still stabilizes internet traffic today.",
+      "imageWikipediaTitle": "Transmission Control Protocol",
+      "sources": [
+        {
+          "title": "RFC 2001 - TCP Slow Start, Congestion Avoidance, Fast Retransmit, and Fast Recovery Algorithms",
+          "publisher": "IETF Datatracker",
+          "url": "https://datatracker.ietf.org/doc/html/rfc2001"
+        },
+        {
+          "title": "TCP congestion control",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/TCP_congestion_control"
+        }
+      ],
+      "readMoreUrl": "https://datatracker.ietf.org/doc/html/rfc2001",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In 1999, NASA handed control of a deep-space probe to Lisp code",
+      "body": "Millions of miles from Earth, NASA's Deep Space 1 spacecraft became the first probe piloted entirely by autonomous software without human intervention. In May 1999, an experimental artificial intelligence program called the Remote Agent took command of the spacecraft for several days. Written primarily in Common Lisp, the software detected unexpected simulated hardware failures, formulated its own recovery plans, and fired thrusters to keep the mission on track, proving computers could pilot interplanetary flights.",
+      "imageWikipediaTitle": "Deep Space 1",
+      "sources": [
+        {
+          "title": "Remote Agent",
+          "publisher": "NASA Ames Research Center",
+          "url": "https://ti.arc.nasa.gov/tech/asr/groups/rsim/remote-agent/"
+        },
+        {
+          "title": "Remote Agent",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Remote_Agent"
+        }
+      ],
+      "readMoreUrl": "https://ti.arc.nasa.gov/tech/asr/groups/rsim/remote-agent/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "One man managed the entire internet's address book for 30 years",
+      "body": "From the earliest days of ARPANET until 1998, computer scientist Jon Postel personally administered the master directory of the internet. As the original head of the Internet Assigned Numbers Authority, Postel assigned IP address blocks, registered network port numbers, and authorized top-level domains like .com and .org. He also personally edited every Request for Comments document across three decades, maintaining the master registry of the expanding global network largely from his university lab.",
+      "imageWikipediaTitle": "Jon Postel",
+      "sources": [
+        {
+          "title": "RFC 2468: I REMEMBER IANA",
+          "publisher": "IETF Datatracker",
+          "url": "https://datatracker.ietf.org/doc/html/rfc2468"
+        },
+        {
+          "title": "Jon Postel",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jon_Postel"
+        }
+      ],
+      "readMoreUrl": "https://datatracker.ietf.org/doc/html/rfc2468",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why computer code treats zero as success and non-zero as failure",
+      "body": "In standard programming logic, zero denotes false and non-zero denotes true. Yet in Unix and C command-line programs, returning an exit status of 0 signals complete success, while numbers from 1 to 255 indicate errors. This inversion was intentional: a process can only succeed in one intended way, but it can fail for hundreds of different reasons. Reserving zero for success leaves up to 255 distinct error codes to pinpoint precisely what went wrong.",
+      "imageWikipediaTitle": "Unix",
+      "sources": [
+        {
+          "title": "exit - terminate a process",
+          "publisher": "The Open Group",
+          "url": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html"
+        },
+        {
+          "title": "Exit status",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Exit_status"
+        }
+      ],
+      "readMoreUrl": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/exit.html",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What historical circumstance led Brazilian computer scientists to create Lua in 1993?",
+      "options": [
+        "Strict national trade barriers restricted importing foreign commercial software",
+        "A government mandate ordered all schools to teach native Brazilian code",
+        "A fiber-optic blackout cut off South America from US servers",
+        "A copyright lawsuit outlawed the use of C in academic research"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brazil's strict protectionist trade policies made purchasing foreign software licenses nearly impossible, prompting researchers to build Lua."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Van Jacobson resolve the 1986 internet congestion collapse?",
+      "options": [
+        "By replacing copper cables with early fiber-optic lines",
+        "By inventing the TCP slow-start congestion control algorithm",
+        "By capping all consumer connections at 300 baud",
+        "By restricting data file transfers to nighttime hours"
+      ],
+      "correctIndex": 1,
+      "explanation": "Van Jacobson designed congestion avoidance and slow start to stop routers from drowning in runaway packet retransmissions."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which programming language powered NASA's autonomous Remote Agent on Deep Space 1 in 1999?",
+      "options": [
+        "Common Lisp",
+        "Fortran 77",
+        "C++",
+        "Ada 95"
+      ],
+      "correctIndex": 0,
+      "explanation": "NASA Ames built the core reasoning and planning software of the Remote Agent in Common Lisp."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which pioneer personally administered global IP addresses and domain names until 1998?",
+      "options": [
+        "Jon Postel",
+        "Tim Berners-Lee",
+        "Marc Andreessen",
+        "Linus Torvalds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jon Postel managed the Internet Assigned Numbers Authority (IANA) and edited RFC documents for almost three decades."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does Unix convention use an exit status of 0 to mean success instead of failure?",
+      "options": [
+        "Success happens in only one way, leaving non-zero numbers to describe errors",
+        "Early teleprinters jammed mechanically if sent a non-zero code",
+        "A compiler bug inverted boolean values and was grandfathered in",
+        "Hardware registers would clear to zero only when programs ran cleanly"
+      ],
+      "correctIndex": 0,
+      "explanation": "A process has one success state, but reserving non-zero numbers provides up to 255 distinct error codes to report failures."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "During the 1986 internet collapse, by what factor did data throughput drop across a key link between Berkeley and LBL?",
+      "answer": 800,
+      "min": 10,
+      "max": 5000,
+      "unit": "x",
+      "explanation": "Throughput plummeted from 32,000 bits per second down to just 40 bits per second—an 800-fold drop."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "For roughly how many years did Jon Postel edit the internet's Requests for Comments (RFC) series?",
+      "answer": 29,
+      "min": 5,
+      "max": 50,
+      "unit": "years",
+      "explanation": "Postel managed RFCs and network address assignments from RFC 1 in 1969 until his death in 1998."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Lua was created by an American studio specifically to script World of Warcraft.",
+      "answer": false,
+      "explanation": "Lua was created in 1993 by Brazilian university researchers to circumvent protectionist import trade barriers on foreign software."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Interplanetary space probes are always steered in real time by ground controllers on Earth.",
+      "answer": false,
+      "explanation": "In 1999, Deep Space 1's Remote Agent AI autonomously detected failures, devised recovery plans, and fired thrusters without human input."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Unix exit codes follow standard boolean logic, where 1 means true/success and 0 means false/failure.",
+      "answer": false,
+      "explanation": "Unix inverts boolean logic for program exits: 0 means success, while non-zero values communicate specific error codes."
+    }
+  ]
+}

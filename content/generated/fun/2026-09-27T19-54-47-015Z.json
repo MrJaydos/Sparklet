@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.015Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Giraffes have no vocal cords and communicate through low-frequency humming",
+      "body": "For decades, naturalists assumed giraffes were essentially mute. While they lack formal vocal cords, researchers recording zoo herds discovered that giraffes actually produce low-frequency nocturnal hums around 92 hertz. These deep vibrations, largely undetectable during noisy daylight hours, likely help herd members maintain contact in the dark without alerting nearby predators.",
+      "imageWikipediaTitle": "Giraffe",
+      "sources": [
+        {
+          "title": "Giraffes hum at night, scientists discover",
+          "publisher": "Wired",
+          "url": "https://www.wired.co.uk/article/giraffes-hum-at-night"
+        },
+        {
+          "title": "Giraffe",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giraffe"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Giraffe",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Swifts can stay airborne for ten straight months without ever touching down",
+      "body": "Common swifts spend nearly their entire non-breeding lives in midair. Biologists tracking them with miniaturized data loggers discovered that individual birds often fly uninterrupted for ten months straight across Europe and Africa. They feed on airborne insects, drink raindrops on the wing, and even sleep during high-altitude glides, landing only when it is time to lay eggs and raise chicks.",
+      "imageWikipediaTitle": "Common swift",
+      "sources": [
+        {
+          "title": "These birds can fly for 10 months straight without landing",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/animals/article/common-swifts-flying-ten-months"
+        },
+        {
+          "title": "Common swift",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_swift"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Common_swift",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A species of jellyfish lives entirely inside the cells of other animals",
+      "body": "Not all cnidarians drift gracefully through the open sea. *Polypodium hydriforme* is an extraordinary parasitic jellyfish relative that spends most of its life inside the unfertilized eggs of sturgeon and paddlefish. It absorbs nutrients through the yolk, grows into an inside-out stolon, and turns right-side-out only when the fish spawns, emerging into freshwater to form free-swimming tentacles.",
+      "imageWikipediaTitle": "Polypodium hydriforme",
+      "sources": [
+        {
+          "title": "Polypodium hydriforme",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Polypodium_hydriforme/"
+        },
+        {
+          "title": "Polypodium hydriforme",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Polypodium_hydriforme"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Polypodium_hydriforme",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sea otters have up to one million hairs per square inch of skin",
+      "body": "Unlike whales and seals, sea otters possess no blubber layer to buffer against freezing ocean water. Instead, they rely entirely on the densest fur in the animal kingdom, packing up to one million hairs into a single square inch. This plush coat traps a thin layer of air bubbles right against their skin, creating a waterproof barrier that keeps them dry and warm.",
+      "imageWikipediaTitle": "Sea otter",
+      "sources": [
+        {
+          "title": "Sea Otter Anatomy",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/centers/werc/science/sea-otter-anatomy"
+        },
+        {
+          "title": "Sea otter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sea_otter"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Sea_otter",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The platypus does not have a stomach",
+      "body": "When platypuses eat aquatic worms, shrimp, and insect larvae, the food bypasses a traditional stomach entirely. Millions of years ago, monotremes lost the genes required to produce digestive acids and pepsin enzymes. Instead, a platypus's gullet connects straight to its intestines, which use neutral-pH enzymes to break down meals directly without ever soaking them in stomach acid.",
+      "imageWikipediaTitle": "Platypus",
+      "sources": [
+        {
+          "title": "How Animals Lost Their Stomachs",
+          "publisher": "National Geographic",
+          "url": "https://www.nationalgeographic.com/science/article/how-animals-lost-their-stomachs"
+        },
+        {
+          "title": "Platypus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Platypus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Platypus",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do giraffes acoustically communicate with one another at night?",
+      "options": [
+        "High-pitched ultrasonic chirps",
+        "Low-frequency rhythmic humming",
+        "Piercing barks and whistles",
+        "Audible teeth-clicking"
+      ],
+      "correctIndex": 1,
+      "explanation": "Giraffes produce deep, low-frequency nocturnal hums around 92 hertz to stay in contact in the dark."
+    },
+    {
+      "cardIndex": 1,
+      "question": "For how long can a common swift stay continuously airborne without landing?",
+      "options": [
+        "Around 3 weeks",
+        "Up to 2 months",
+        "Up to 10 months",
+        "Over 3 years"
+      ],
+      "correctIndex": 2,
+      "explanation": "Common swifts can stay aloft for ten consecutive months, eating, drinking, and sleeping while flying."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where does the parasitic cnidarian Polypodium hydriforme spend much of its life cycle?",
+      "options": [
+        "Inside the egg cells of sturgeon",
+        "Inside the intestines of sea turtles",
+        "Within deep-sea hydrothermal vents",
+        "Attached to the gills of reef sharks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Polypodium hydriforme develops inside the immature eggs of sturgeon and paddlefish before emerging into freshwater."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do sea otters maintain body heat without having an insulating blubber layer?",
+      "options": [
+        "They maintain a constantly elevated core temperature of 115°F",
+        "They have the densest fur of any animal, trapping an insulating air layer",
+        "They absorb heat by sunbathing on black volcanic rocks",
+        "Their skin produces a thick, oily wax that acts as a wet suit"
+      ],
+      "correctIndex": 1,
+      "explanation": "With up to one million hairs per square inch, sea otter fur traps an insulating layer of dry air directly against the skin."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What common digestive organ do platypuses completely lack?",
+      "options": [
+        "Gallbladder",
+        "Stomach",
+        "Pancreas",
+        "Liver"
+      ],
+      "correctIndex": 1,
+      "explanation": "Platypuses lost their stomach and acid-producing genes; their esophagus connects directly to their intestines."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many consecutive months can a common swift stay airborne without landing once?",
+      "answer": 10,
+      "min": 1,
+      "max": 24,
+      "unit": "months",
+      "explanation": "Common swifts can spend 10 straight months flying non-stop, sleeping and feeding midair."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many hairs can be packed into a single square inch of sea otter skin?",
+      "answer": 1000000,
+      "min": 50000,
+      "max": 3000000,
+      "unit": "hairs",
+      "explanation": "Sea otters boast the densest coat in the animal kingdom, with up to 1,000,000 hairs per square inch."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Giraffes are completely mute animals that cannot make vocal sounds.",
+      "answer": false,
+      "explanation": "While they lack typical vocal cords, giraffes produce distinct low-frequency hums to communicate at night."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "All mammals have a stomach to produce digestive acid for breaking down food.",
+      "answer": false,
+      "explanation": "Monotremes like the platypus and echidna completely lack stomachs; food enters the intestines directly."
+    }
+  ]
+}

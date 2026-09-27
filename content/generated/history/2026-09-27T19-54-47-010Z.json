@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.010Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 50-page speech saved Theodore Roosevelt from an assassin's bullet",
+      "body": "On October 14, 1912, a gunman shot Theodore Roosevelt in the chest from just a few feet away in Milwaukee. The bullet penetrated his thick overcoat, a steel eyeglass case, and a dense, folded 50-page manuscript before lodging in his chest muscle. Realizing he was not coughing blood, Roosevelt declined immediate hospital care. Instead, he took the stage and delivered an 84-minute speech, opening with: \"It takes more than that to kill a Bull Moose.\"",
+      "imageWikipediaTitle": "Attempted assassination of Theodore Roosevelt",
+      "sources": [
+        {
+          "title": "Teddy Roosevelt Shot in Milwaukee",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/october-14/"
+        },
+        {
+          "title": "TR Assassination Attempt, 1912",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/thrb/learn/historyculture/tr-assassination-attempt-1912.htm"
+        },
+        {
+          "title": "Attempted assassination of Theodore Roosevelt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Attempted_assassination_of_Theodore_Roosevelt"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/thrb/learn/historyculture/tr-assassination-attempt-1912.htm",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of the destruction in the 1906 San Francisco earthquake wasn't from shaking",
+      "body": "When a catastrophic magnitude 7.9 earthquake struck San Francisco on April 18, 1906, the violent shaking lasted less than a minute. The true devastation followed: ruptured gas lines ignited dozens of blazes across the city, while shattered underground water mains left firefighters helpless. The resulting inferno raged for three days, destroying more than 28,000 buildings and consuming roughly 80 percent of the city. Historians estimate the fires caused up to 90 percent of the total damage.",
+      "imageWikipediaTitle": "1906 San Francisco earthquake",
+      "sources": [
+        {
+          "title": "The 1906 San Francisco Earthquake",
+          "publisher": "U.S. Geological Survey",
+          "url": "https://www.usgs.gov/programs/earthquake-hazards/science/1906-san-francisco-earthquake"
+        },
+        {
+          "title": "The Great 1906 San Francisco Earthquake",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/april-18/"
+        },
+        {
+          "title": "1906 San Francisco earthquake",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1906_San_Francisco_earthquake"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/programs/earthquake-hazards/science/1906-san-francisco-earthquake",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A mother's handwritten letter secured the right to vote for American women",
+      "body": "In August 1920, ratification of the Nineteenth Amendment hinged on Tennessee, the 36th state needed for approval. The state legislature was deadlocked 48–48. Representative Harry T. Burn, the youngest lawmaker at age 24, wore a red rose signaling his intent to vote against suffrage. But in his pocket was a letter from his mother, Febb Burn, urging him to \"be a good boy\" and vote yes. Burn voted \"aye,\" breaking the tie and enfranchising millions of American women.",
+      "imageWikipediaTitle": "Harry T. Burn",
+      "sources": [
+        {
+          "title": "Tennessee Ratified the 19th Amendment",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/august-18/"
+        },
+        {
+          "title": "19th Amendment to the U.S. Constitution: Women's Right to Vote",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/19th-amendment"
+        },
+        {
+          "title": "Harry T. Burn",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harry_T._Burn"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/august-18/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Operation Dynamo rescued ten times more troops than British planners expected",
+      "body": "In May 1940, over 300,000 Allied soldiers were encircled by German forces on the beaches of Dunkirk, France. British naval planners initially feared that under heavy Luftwaffe bombardment, they could rescue only about 30,000 to 45,000 men before the perimeter collapsed. Instead, between May 26 and June 4, an armada of Royal Navy destroyers and hundreds of civilian \"Little Ships\"—fishing boats, yachts, and lifeboats—evacuated 338,226 British and French troops to safety across the English Channel.",
+      "imageWikipediaTitle": "Dunkirk evacuation",
+      "sources": [
+        {
+          "title": "What Was The Dunkirk Evacuation?",
+          "publisher": "Imperial War Museums",
+          "url": "https://www.iwm.org/history/what-was-the-dunkirk-evacuation"
+        },
+        {
+          "title": "Dunkirk evacuation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunkirk_evacuation"
+        }
+      ],
+      "readMoreUrl": "https://www.iwm.org/history/what-was-the-dunkirk-evacuation",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ceremonial swing uniting the First Transcontinental Railroad was a total miss",
+      "body": "On May 10, 1869, officials gathered at Promontory Summit, Utah, to join the Central Pacific and Union Pacific tracks. A silver-plated hammer was wired directly to the national telegraph network so the impact on a golden spike would instantly broadcast across the country. Central Pacific president Leland Stanford took the historic swing—and missed the spike entirely, striking a rail tie instead. The telegrapher clicked out the prearranged signal \"D-O-N-E\" anyway, triggering nationwide celebrations with church bells and cannons.",
+      "imageWikipediaTitle": "Golden spike",
+      "sources": [
+        {
+          "title": "Golden Spike National Historical Park",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/gosp/learn/historyculture/index.htm"
+        },
+        {
+          "title": "The Transcontinental Railroad Completed",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/may-10/"
+        },
+        {
+          "title": "Golden spike",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Golden_spike"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/gosp/learn/historyculture/index.htm",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What two objects in Theodore Roosevelt's coat pocket helped slow an assassin's bullet in 1912?",
+      "options": [
+        "A steel eyeglass case and a 50-page speech",
+        "A bronze flask and a pocket Bible",
+        "A gold pocket watch and a leather wallet",
+        "A silver cigarette case and a notebook"
+      ],
+      "correctIndex": 0,
+      "explanation": "The bullet penetrated Roosevelt's overcoat, a steel eyeglass case, and his folded 50-page speech manuscript, significantly slowing the round."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What caused the vast majority of property destruction during the 1906 San Francisco earthquake?",
+      "options": [
+        "Massive tsunamis flooding the bay",
+        "Uncontrolled fires that burned for three days",
+        "Giant sinkholes opening across the city",
+        "The initial ground shaking leveling all stone structures"
+      ],
+      "correctIndex": 1,
+      "explanation": "Broken gas mains sparked dozens of fires and severed water mains left firefighters helpless, causing around 90% of the city's destruction."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What convinced Tennessee representative Harry T. Burn to cast the deciding vote ratifying the 19th Amendment?",
+      "options": [
+        "A personal telegram from President Woodrow Wilson",
+        "A handwritten letter from his mother",
+        "A large suffragist rally outside the capitol",
+        "A promise of financial support for his next election"
+      ],
+      "correctIndex": 1,
+      "explanation": "Burn planned to vote against ratification until he received a letter from his mother, Febb Burn, urging him to vote for suffrage."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How many Allied troops did British planners initially estimate they could rescue from Dunkirk in 1940?",
+      "options": [
+        "Around 30,000 to 45,000",
+        "Around 100,000 to 120,000",
+        "Over 300,000",
+        "Fewer than 5,000"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fearing rapid German breakthroughs and air attacks, planners initially expected to save at most 45,000 men before the pocket collapsed."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What went wrong when Leland Stanford swung at the ceremonial Golden Spike in 1869?",
+      "options": [
+        "The golden spike shattered into pieces",
+        "He swung and completely missed the spike",
+        "The silver hammer head snapped off",
+        "The telegraph wire gave him an electric shock"
+      ],
+      "correctIndex": 1,
+      "explanation": "Stanford swung the ceremonial maul and missed the spike entirely, hitting a rail tie. The telegraph operator sent 'DONE' anyway."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many minutes did Theodore Roosevelt speak to a crowd after being shot in the chest?",
+      "answer": 84,
+      "min": 10,
+      "max": 180,
+      "unit": "min",
+      "explanation": "Despite carrying a bullet lodged in his chest muscle, Roosevelt delivered an 84-minute address before agreeing to visit a hospital."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many Allied soldiers were successfully evacuated from Dunkirk during Operation Dynamo in 1940?",
+      "answer": 338226,
+      "min": 25000,
+      "max": 600000,
+      "unit": "troops",
+      "explanation": "While planners hoped to save around 30,000 to 45,000 men, an armada of warships and civilian craft rescued 338,226 troops."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The physical ground shaking caused most of the destruction in the 1906 San Francisco earthquake.",
+      "answer": false,
+      "explanation": "The shaking lasted under a minute; uncontrolled fires sparked by broken gas mains burned for three days, causing up to 90% of the total damage."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Railroad tycoon Leland Stanford successfully struck the Golden Spike to complete the Transcontinental Railroad.",
+      "answer": false,
+      "explanation": "Stanford swung the ceremonial hammer and missed the spike entirely, though telegraphers tapped out 'DONE' to the nation regardless."
+    }
+  ]
+}

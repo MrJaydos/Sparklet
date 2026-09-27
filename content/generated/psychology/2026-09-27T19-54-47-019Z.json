@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.019Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A box of tacks reveals how easily your brain gets trapped by routine",
+      "body": "In Karl Duncker's classic 1945 candle problem, participants were given a candle, a box of thumbtacks, and matches, and asked to fix the candle to the wall so wax would not drip. Most struggled because they viewed the box solely as a container. Duncker termed this \"functional fixedness\"—the cognitive bias where human minds struggle to perceive an object being used in any way other than its customary purpose.",
+      "imageWikipediaTitle": "Candle problem",
+      "sources": [
+        {
+          "title": "Functional fixedness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Functional_fixedness"
+        },
+        {
+          "title": "Functional fixedness",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/functional-fixedness"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/functional-fixedness",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The rare brain glitch that makes ordinary objects look microscopic or giant",
+      "body": "People experiencing Alice in Wonderland syndrome perceive their surroundings or their own body parts in wildly distorted proportions. A coffee cup can appear larger than a sofa, or hands might feel impossibly shrunken—distortions called macropsia and micropsia. First described by psychiatrist John Todd in 1955, the condition stems from temporary disruptions in the brain's parietal cortex, most often triggered by migraines, epilepsy, or childhood viral infections.",
+      "imageWikipediaTitle": "Alice in Wonderland syndrome",
+      "sources": [
+        {
+          "title": "Alice in Wonderland syndrome",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_syndrome"
+        },
+        {
+          "title": "Alice in Wonderland Syndrome",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK542330/"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK542330/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Waking up groggy can impair your brain more than being legally drunk",
+      "body": "That foggy, sluggish feeling when an alarm goes off has a medical name: sleep inertia. During the first 15 to 30 minutes after waking, blood flow in the prefrontal cortex remains suppressed while sleep-inducing adenosine slowly clears. Cognitive tests show that severe sleep inertia degrades decision-making, memory, and reaction times more drastically than 24 hours of sleep deprivation or a blood alcohol content of 0.08%.",
+      "imageWikipediaTitle": "Sleep",
+      "sources": [
+        {
+          "title": "Sleep inertia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sleep_inertia"
+        },
+        {
+          "title": "Sleep Inertia: Current Insights",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5337178/"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5337178/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a roulette ball landing on black 26 times broke a casino in 1913",
+      "body": "On August 18, 1913, at the Casino de Monte Carlo, a roulette wheel landed on black 26 consecutive times. Convinced that red was statistically \"overdue,\" gamblers poured millions of francs onto red, losing massive fortunes on an independent event whose odds were roughly 50-50 on every single spin. This belief that past random outcomes change future independent probabilities is known as the gambler's fallacy.",
+      "imageWikipediaTitle": "Roulette",
+      "sources": [
+        {
+          "title": "Gambler's fallacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gambler%27s_fallacy"
+        },
+        {
+          "title": "Gambler's fallacy",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/topic/gamblers-fallacy"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/gamblers-fallacy",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When your eyes see perfectly, but your brain cannot recognize what they view",
+      "body": "People with visual agnosia have flawless eyesight yet cannot recognize everyday objects by sight. A person handed a key or teacup might describe its metallic gleam, curves, or weight, or even draw it with photographic precision, but have no idea what it is until they touch or hear it. Caused by damage to the brain's ventral pathway, the condition reveals that perceiving visual features and understanding them are distinct mental operations.",
+      "imageWikipediaTitle": "Visual agnosia",
+      "sources": [
+        {
+          "title": "Visual agnosia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Visual_agnosia"
+        },
+        {
+          "title": "Visual Agnosia",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK493156/"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK493156/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What cognitive bias describes the inability to see an object serving any purpose other than its familiar, designed function?",
+      "options": [
+        "Functional fixedness",
+        "Confirmation bias",
+        "Availability heuristic",
+        "The framing effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Functional fixedness, identified by Karl Duncker, prevents people from imagining novel uses for familiar objects."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which neurological condition causes objects and body parts to appear dramatically enlarged or shrunken?",
+      "options": [
+        "Alice in Wonderland syndrome",
+        "Capgras delusion",
+        "Cotard syndrome",
+        "Anton syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Alice in Wonderland syndrome distorts visual perception, causing macropsia (seeing objects larger) or micropsia (seeing objects smaller)."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does severe sleep inertia immediately after waking compare to cognitive impairment from alcohol?",
+      "options": [
+        "It can degrade performance more than a legal driving limit of 0.08% BAC",
+        "It has no measurable effect on reaction time",
+        "It only impairs physical motor control, not decision-making",
+        "It improves abstract reasoning while slowing speech"
+      ],
+      "correctIndex": 0,
+      "explanation": "Research shows sleep inertia in the first 15–30 minutes can impair reaction times and judgment more than 24 hours of wakefulness or a 0.08% BAC."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What core misconception defines the gambler's fallacy?",
+      "options": [
+        "The mistaken belief that past random outcomes influence future independent events",
+        "The tendency to bet more after winning a jackpot",
+        "The preference for high-risk gambles over guaranteed modest rewards",
+        "The belief that casinos always tamper with roulette wheels"
+      ],
+      "correctIndex": 0,
+      "explanation": "The gambler's fallacy assumes independent random events (like roulette spins or coin tosses) are somehow 'due' to balance past results."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What striking ability do many people with visual agnosia retain despite being unable to name an object they see?",
+      "options": [
+        "They can accurately draw the object or identify it by touch",
+        "They can read printed text at triple normal speeds",
+        "They can predict an object's weight with millimeter precision",
+        "They can identify objects behind opaque barriers"
+      ],
+      "correctIndex": 0,
+      "explanation": "People with visual agnosia can see and copy drawings of objects, and instantly identify them once they touch, smell, or hear them."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In 1913, a roulette ball at the Casino de Monte Carlo landed on black how many consecutive times, costing gamblers millions?",
+      "answer": 26,
+      "min": 5,
+      "max": 50,
+      "unit": "",
+      "explanation": "The ball landed on black 26 consecutive times. Gamblers lost millions betting on red, falsely believing red was 'due' to balance the streak."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "People struggle with creative problem-solving mainly because they lack general intelligence.",
+      "answer": false,
+      "explanation": "Functional fixedness shows that even highly intelligent people get mentally stuck because prior knowledge and routine bias how they perceive an object's function."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Waking up from deep sleep can temporarily impair your brain more severely than legal intoxication.",
+      "answer": true,
+      "explanation": "Severe sleep inertia in the first 15 to 30 minutes after waking degrades decision-making and reaction times more than a 0.08% blood alcohol level."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "If an unbiased coin lands on heads ten times in a row, the next flip is mathematically more likely to be tails.",
+      "answer": false,
+      "explanation": "Each coin flip is completely independent; previous flips have zero mathematical influence on future outcomes, keeping the probability at 50%."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Recognizing an object by sight happens automatically as an inseparable part of seeing it.",
+      "answer": false,
+      "explanation": "Visual agnosia demonstrates that perceiving visual data (edges, colors) and accessing the brain's stored meaning of that object are separate neurological systems."
+    }
+  ]
+}

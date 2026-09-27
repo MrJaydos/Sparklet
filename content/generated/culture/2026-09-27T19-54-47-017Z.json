@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.017Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 3,500-Year-Old Ballgame That Bounced Solid Rubber",
+      "body": "Centuries before Europeans encountered natural rubber, ancient Mesoamericans engineered bouncy latex balls weighing up to nine pounds from native tree sap mixed with morning glory juice. Players kept the dense ball airborne using only their hips, thighs, and elbows, caroming it off sloped stone walls. The game was both high-stakes sport and sacred ritual, reenacting cosmic movements of the sun and moon, with some ceremonial contests culminating in human sacrifice.",
+      "imageWikipediaTitle": "Mesoamerican ballgame",
+      "sources": [
+        {
+          "title": "The Mesoamerican Ballgame",
+          "publisher": "The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/toah/hd/tema/hd_tema.htm"
+        },
+        {
+          "title": "Mesoamerican ballgame",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mesoamerican_ballgame"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/toah/hd/tema/hd_tema.htm",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Frenzied Italian Dance Invented to Sweat Out Spider Venom",
+      "body": "Across southern Italy's Apulia region, the frenetic folk dance known as the tarantella originated as an ancient cure for a medical mystery. In the sixteenth and seventeenth centuries, locals believed a bite from the European tarantula triggered \"tarantism\"—a deadly trance characterized by deep melancholy and paralysis. Victims hired traveling musicians who played relentlessly fast rhythms on tambourines and accordions, forcing the afflicted to dance for days until the venom was sweated out.",
+      "imageWikipediaTitle": "Tarantella",
+      "sources": [
+        {
+          "title": "A brief history of tarantism",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3000962/"
+        },
+        {
+          "title": "Tarantella",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/art/tarantella"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/art/tarantella",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1,000-Year-Old Court That Keeps No Written Records",
+      "body": "Every Thursday at noon, eight democratically elected farmers in black robes gather outside the Valencia Cathedral to hold court. Dating back to at least the tenth century, the Tribunal de las Aguas is Europe's oldest continuously functioning legal institution. It settles complex irrigation disputes among local agricultural communities purely through verbal arguments in the Valencian language. Rulings are final, immediate, and enforceable on the spot—without producing a single line of written paperwork.",
+      "imageWikipediaTitle": "Water Tribunal of the plain of Valencia",
+      "sources": [
+        {
+          "title": "Irrigators' tribunals of the Spanish Mediterranean coast: the Council of Wise Men of the plain of Murcia and the Water Tribunal of the plain of Valencia",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/irrigators-tribunals-of-the-spanish-mediterranean-coast-the-council-of-wise-men-of-the-plain-of-murcia-and-the-water-tribunal-of-the-plain-of-valencia-00171"
+        },
+        {
+          "title": "Water Tribunal of the plain of Valencia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Water_Tribunal_of_the_plain_of_Valencia"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/irrigators-tribunals-of-the-spanish-mediterranean-coast-the-council-of-wise-men-of-the-plain-of-murcia-and-the-water-tribunal-of-the-plain-of-valencia-00171",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 130-Year-Old Lunch Network That Rivals Silicon Valley",
+      "body": "Each workday in Mumbai, around 5,000 couriers called dabbawalas transport roughly 200,000 freshly cooked home lunches to office workers across the city, returning the empty containers by afternoon. Relying on suburban trains, bicycles, and handcarts, they navigate immense urban sprawl without computers or barcode scanners. Instead, a simple color-coded alphanumeric code painted on each tin guides deliveries, achieving an astonishing error rate estimated at less than one in several million deliveries.",
+      "imageWikipediaTitle": "Dabbawala",
+      "sources": [
+        {
+          "title": "Dabbawala",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/dabbawala"
+        },
+        {
+          "title": "Dabbawala",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dabbawala"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/dabbawala",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "In the Scottish Caber Toss, Distance Doesn't Count at All",
+      "body": "In traditional Scottish Highland Games, competitors hoist the caber—a full-length larch trunk measuring up to twenty feet long and weighing around 150 pounds. Yet unlike almost every other throwing event in sports, distance is completely irrelevant. The athlete must run, balance the tapered end against their shoulders, and heave the log so it flips end-over-end. The sole scoring goal is alignment: the caber must land pointing directly toward twelve o'clock on an imaginary clock face.",
+      "imageWikipediaTitle": "Caber toss",
+      "sources": [
+        {
+          "title": "Caber toss",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/sports/caber-toss"
+        },
+        {
+          "title": "Caber toss",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Caber_toss"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/sports/caber-toss",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which body parts were primarily used to keep the heavy ball aloft in the traditional Mesoamerican ballgame?",
+      "options": [
+        "Hands and feet",
+        "Hips and elbows",
+        "Head and shoulders",
+        "Chest and palms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Players were forbidden from using their hands or feet; instead, they had to strike the dense rubber ball using their hips, elbows, and thighs."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the frenetic Italian folk dance known as the tarantella originally believed to treat?",
+      "options": [
+        "The bite of a venomous spider",
+        "A severe malarial fever",
+        "Poisoning from wild mushrooms",
+        "A curse cast by the evil eye"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tarantism was attributed to the bite of the local wolf spider, and manic dancing for days was believed to sweat out the poison."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What makes the legal proceedings of Valencia's Water Tribunal unique in European law?",
+      "options": [
+        "Hearings produce no written records whatsoever",
+        "The judges are chosen by papal decree",
+        "Verdicts are only valid if delivered after dark",
+        "Parties are represented exclusively by guild priests"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tribunal de las Aguas conducts all arguments aloud in the Valencian language and issues binding oral decisions without keeping written paperwork."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do Mumbai's dabbawalas accurately route hundreds of thousands of lunchboxes without digital devices?",
+      "options": [
+        "Using color-coded alphanumeric codes painted on the tins",
+        "Using numbered paper tokens pinned to clothing",
+        "Using radio dispatchers who direct couriers",
+        "Using photographic portraits glued to lunchbox lids"
+      ],
+      "correctIndex": 0,
+      "explanation": "A simple shorthand code of colors, letters, and numbers painted on each tiffin tin indicates its origin, transit railway station, and destination building."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How is a throw evaluated in the traditional Scottish caber toss?",
+      "options": [
+        "By how far the log travels horizontally",
+        "By how closely the fallen log aligns with 12 o'clock",
+        "By how many complete rotations the log completes",
+        "By the maximum height the log reaches midair"
+      ],
+      "correctIndex": 1,
+      "explanation": "Distance is irrelevant; judges score the throw based on whether the caber flips end-over-end and points straight ahead toward twelve o'clock."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many home-cooked lunchboxes do Mumbai's dabbawalas deliver to office workers each day?",
+      "answer": 200000,
+      "min": 10000,
+      "max": 1000000,
+      "unit": "",
+      "explanation": "Around 5,000 dabbawalas deliver roughly 200,000 lunches daily across Mumbai with near-flawless accuracy."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The tarantella was originally created as a joyful celebratory dance for Italian weddings.",
+      "answer": false,
+      "explanation": "The dance originated as a manic, exhausting folk therapy intended to cure tarantism, an illness believed to result from spider bites."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The winner of the Scottish caber toss is the athlete who throws the log the furthest distance.",
+      "answer": false,
+      "explanation": "Distance is not measured; the caber toss is judged entirely on whether the log flips over and aligns straight toward twelve o'clock."
+    }
+  ]
+}

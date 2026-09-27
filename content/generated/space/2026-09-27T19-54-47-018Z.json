@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.018Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first photo of Earth from space was taken by a V-2 rocket in 1946",
+      "body": "Eleven years before Sputnik began the space race, soldiers and scientists launched a captured German V-2 rocket from the New Mexico desert. Fastened inside was a 35-millimeter motion picture camera set to snap a frame every second and a half. The rocket soared 105 kilometers high, capturing the first grainy black-and-white view of Earth's curved horizon against space. The camera smashed on impact, but its armored steel cassette survived.",
+      "imageWikipediaTitle": "First images of Earth from space",
+      "sources": [
+        {
+          "title": "The First Photo From Space",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/air-space-magazine/the-first-photo-from-space-13721411/"
+        },
+        {
+          "title": "First images of Earth from space",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_images_of_Earth_from_space"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/air-space-magazine/the-first-photo-from-space-13721411/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stars do not actually twinkle",
+      "body": "Point-like starlight arrives at our planet as a steady, unblinking beam after traveling across trillions of kilometers of vacuum. The glittering twinkle is purely an optical illusion caused by Earth's turbulent atmosphere. Pockets of warm and cold air constantly shift, acting like shifting lenses that bend, distort, and scatter the incoming light. Above the atmosphere, astronauts look out at stars that shine with a piercing, completely unwavering steadiness.",
+      "imageWikipediaTitle": "Scintillation (astronomy)",
+      "sources": [
+        {
+          "title": "Why do stars twinkle?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/astronomy/item/why-do-stars-twinkle/"
+        },
+        {
+          "title": "Scintillation (astronomy)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scintillation_(astronomy)"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/astronomy/item/why-do-stars-twinkle/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Saturn is not the only giant world with rings—Jupiter has them too",
+      "body": "Saturn is famous for icy rings, but Jupiter also possesses its own ring system. Discovered by NASA's Voyager 1 probe in 1979, Jupiter's rings are dark, tenuous, and made of fine microscopic dust particles rather than reflective ice. The dust is constantly replenished when micrometeorites smash into Jupiter's small inner moons—Metis, Adrastea, Amalthea, and Thebe—blasting debris into orbit that gradually spirals down into the giant planet.",
+      "imageWikipediaTitle": "Rings of Jupiter",
+      "sources": [
+        {
+          "title": "Jupiter: Rings",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/jupiter/rings/"
+        },
+        {
+          "title": "Rings of Jupiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rings_of_Jupiter"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/jupiter/rings/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A robotic spacecraft survived 127 minutes on Venus to send back color photos",
+      "body": "Venus is an inferno with surface temperatures around 460 degrees Celsius and crushing atmospheric pressures 89 times greater than Earth. In March 1982, the Soviet Venera 13 lander plunged into this furnace, engineered with heavy titanium plating and pre-chilled internal systems. It was designed to endure just 32 minutes, but defied the hostile environment for over two hours, transmitting the first color panoramas of the Venusian surface and analyzing soil samples before succumbing to the heat.",
+      "imageWikipediaTitle": "Venera 13",
+      "sources": [
+        {
+          "title": "Venera 13",
+          "publisher": "NASA Space Science Data Coordinated Archive",
+          "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-106D"
+        },
+        {
+          "title": "Venera 13",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Venera_13"
+        }
+      ],
+      "readMoreUrl": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-106D",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Our Sun will never explode in a supernova",
+      "body": "Cataclysmic supernova explosions mark the death of massive stars, but the Sun lacks the necessary mass to ever go out with a bang. Stars require roughly eight times the mass of the Sun to trigger a core-collapse supernova. Instead, in about five billion years, our Sun will swell into a red giant, gently blow off its outer layers to form an ethereal planetary nebula, and leave behind a dense, Earth-sized white dwarf that slowly cools over eons.",
+      "imageWikipediaTitle": "Stellar evolution",
+      "sources": [
+        {
+          "title": "Stellar Evolution",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/universe/stars/stellar-evolution/"
+        },
+        {
+          "title": "Stellar evolution",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stellar_evolution"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/universe/stars/stellar-evolution/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What launched the camera that captured the first-ever photograph of Earth from space?",
+      "options": [
+        "A Soviet Sputnik rocket",
+        "A modified German V-2 rocket",
+        "An American Apollo Saturn IB",
+        "A high-altitude weather balloon"
+      ],
+      "correctIndex": 1,
+      "explanation": "In October 1946, scientists launched a modified V-2 rocket from New Mexico carrying a 35mm camera that photographed Earth from 105 km up."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What actually causes stars to twinkle when viewed from Earth's surface?",
+      "options": [
+        "Solar flares occurring across stellar surfaces",
+        "Gravitational waves rippling through space",
+        "Turbulent pockets of shifting air in Earth's atmosphere",
+        "Interstellar dust clouds drifting past the line of sight"
+      ],
+      "correctIndex": 2,
+      "explanation": "Starlight is steady; turbulent air layers of varying temperatures and densities in Earth's atmosphere refract the beam, creating an optical illusion."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where does the dust forming Jupiter's faint ring system primarily come from?",
+      "options": [
+        "Micrometeorite impacts on its small inner moons",
+        "Eruptions from the active volcanoes of Io",
+        "Ice crystals venting out of Europa's subsurface ocean",
+        "Solar wind stripping dust from passing comets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Micrometeorites collide with Jupiter's inner moons—such as Metis and Adrastea—kicking up fine dust that settles into orbit as rings."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How long did the Venera 13 lander survive on the extreme surface of Venus?",
+      "options": [
+        "About 4 minutes",
+        "127 minutes",
+        "Roughly 24 hours",
+        "Three weeks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Built to withstand the 460°C heat and crushing atmospheric pressure for only 32 minutes, Venera 13 survived for 127 minutes in 1982."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why will the Sun never end its life in a core-collapse supernova?",
+      "options": [
+        "It lacks sufficient mass to trigger a core collapse",
+        "It orbits too far from the center of the galaxy",
+        "Its magnetic field prevents explosive collapses",
+        "It contains too much heavy iron in its core"
+      ],
+      "correctIndex": 0,
+      "explanation": "A star must be roughly eight times more massive than the Sun to collapse into a supernova; the Sun will become a white dwarf instead."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year was the very first photograph of Earth taken from space?",
+      "answer": 1946,
+      "min": 1920,
+      "max": 1975,
+      "unit": "",
+      "explanation": "A captured V-2 rocket carried a motion picture camera to an altitude of 105 km in 1946, more than a decade before Sputnik was launched."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many minutes did the Soviet Venera 13 probe survive in the blistering heat on the surface of Venus?",
+      "answer": 127,
+      "min": 10,
+      "max": 300,
+      "unit": "min",
+      "explanation": "Designed to last just 32 minutes in Venus's 460°C atmosphere, Venera 13 held out for an astonishing 127 minutes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Stars twinkle because their light output constantly flickers.",
+      "answer": false,
+      "explanation": "Starlight is steady; twinkling is an optical distortion caused solely by turbulence in Earth's atmosphere."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Jupiter is surrounded by its own planetary ring system.",
+      "answer": true,
+      "explanation": "While Saturn's rings are the most iconic, Jupiter has a faint, dark system of dust rings discovered by Voyager 1 in 1979."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "When our Sun runs out of fuel, it will explode in a massive supernova.",
+      "answer": false,
+      "explanation": "The Sun lacks the mass required for a supernova; it will shed its outer layers as a planetary nebula and leave behind a white dwarf."
+    }
+  ]
+}

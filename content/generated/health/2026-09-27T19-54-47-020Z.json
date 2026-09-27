@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.020Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why motion sickness tricks your brain into thinking you've been poisoned",
+      "body": "Reading in a moving car often causes intense nausea because of sensory conflict. Your inner ear senses turns and acceleration, but your eyes, fixed on stationary pages, report zero movement. Confounded by these opposing signals, your brain defaults to an evolutionary defense: it assumes the sensory hallucination is caused by ingested neurotoxins. To save your life, it triggers immediate nausea and vomiting to purge the imaginary poison.",
+      "imageWikipediaTitle": "Motion sickness",
+      "sources": [
+        {
+          "title": "Motion Sickness",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539706/"
+        },
+        {
+          "title": "Motion Sickness",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/motionsickness.html"
+        },
+        {
+          "title": "Motion sickness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Motion_sickness"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/motionsickness.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Autophagy: How your cells eat their own trash to survive",
+      "body": "Your cells have a built-in waste management system called autophagy, which literally translates to 'self-eating.' When stressed by fasting or exercise, cells systematically hunt down worn-out proteins, damaged mitochondria, and invading pathogens, packing them into vesicles that fuse with acidic lysosomes. This recycling process destroys harmful biological clutter and converts the debris into fresh fuel and building blocks, keeping your tissues youthful and resilient.",
+      "imageWikipediaTitle": "Autophagy",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physiology or Medicine 2016",
+          "publisher": "Nobel Prize Outreach AB",
+          "url": "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
+        },
+        {
+          "title": "Physiology, Autophagy",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534840/"
+        },
+        {
+          "title": "Autophagy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Autophagy"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/medicine/2016/press-release/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Muscle cramps are caused by tired nerves, not a lack of potassium",
+      "body": "Athletes are often told to eat bananas and drink sports drinks to stop sudden muscle cramps, but science shows dehydration and low potassium are rarely the culprits. Cramping athletes have electrolyte blood levels nearly identical to non-cramping peers. Instead, cramps stem from altered neuromuscular control. When a muscle fatigues, sensory spindles fire excessively while inhibitory signals from tendons fail, locking the muscle in an uninhibited, involuntary contraction.",
+      "imageWikipediaTitle": "Cramp",
+      "sources": [
+        {
+          "title": "Cause of Exercise-Associated Muscle Cramps (EAMC) — altered neuromuscular control, dehydration or electrolyte depletion?",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3445111/"
+        },
+        {
+          "title": "Cramp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cramp"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3445111/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The largest single muscle in your body evolved to keep you upright",
+      "body": "The gluteus maximus is the single largest and heaviest muscle in the human body, accounting for a substantial portion of your lower body mass. While our closest primate relatives have relatively small, flat buttocks suited for quadrupedal climbing, humans evolved massive gluteal muscles to power upright bipedalism. They prevent your torso from pitching forward while walking and generate explosive force for running and climbing stairs.",
+      "imageWikipediaTitle": "Gluteus maximus",
+      "sources": [
+        {
+          "title": "Anatomy, Bony Pelvis and Lower Limb: Gluteus Maximus Muscle",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK538193/"
+        },
+        {
+          "title": "Gluteus maximus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gluteus_maximus"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK538193/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why alcohol makes millions of people instantly turn bright red",
+      "body": "For hundreds of millions of people, a single sip of beer causes rapid facial flushing, nausea, and a racing heart. This alcohol flush reaction stems from an inherited genetic variant of the ALDH2 gene. Normally, your liver converts alcohol into toxic acetaldehyde, then swiftly into harmless acetate. People with the deficiency cannot break down acetaldehyde efficiently, allowing the toxic molecule to accumulate in blood vessels and trigger widespread dilation.",
+      "imageWikipediaTitle": "Alcohol flush reaction",
+      "sources": [
+        {
+          "title": "Alcohol Flush Reaction",
+          "publisher": "National Institute on Alcohol Abuse and Alcoholism",
+          "url": "https://www.niaaa.nih.gov/publications/alcohol-flush-reaction"
+        },
+        {
+          "title": "Alcohol flush reaction",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alcohol_flush_reaction"
+        }
+      ],
+      "readMoreUrl": "https://www.niaaa.nih.gov/publications/alcohol-flush-reaction",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to the sensory conflict theory, why does motion sickness cause nausea?",
+      "options": [
+        "Your brain suspects neurotoxin poisoning due to conflicting sensory signals",
+        "Excess stomach acid sloshes against the esophageal sphincter",
+        "Inner ear fluids drain rapidly into the back of your throat",
+        "Blood pressure in your visual cortex drops to dangerous levels"
+      ],
+      "correctIndex": 0,
+      "explanation": "When your inner ear detects motion that your eyes don't see, your brain interprets the mismatch as a neurotoxic hallucination and triggers vomiting to purge suspected poisons."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary function of autophagy inside human cells?",
+      "options": [
+        "Producing red blood cells from bone marrow",
+        "Recycling damaged cellular components and debris into reusable fuel",
+        "Synthesizing new glucose molecules from dietary fats",
+        "Transmitting electrical signals across synapses"
+      ],
+      "correctIndex": 1,
+      "explanation": "Autophagy is the cell's internal cleanup system, packaging dysfunctional proteins and organelles into lysosomes to be recycled into fresh energy and materials."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary physiological trigger of exercise-associated muscle cramps?",
+      "options": [
+        "Abrupt drops in dietary potassium and sodium",
+        "Altered neuromuscular control caused by muscle fatigue",
+        "Severe whole-body dehydration",
+        "Lactic acid crystallizing inside muscle fibers"
+      ],
+      "correctIndex": 1,
+      "explanation": "Research shows muscle fatigue disrupts spinal reflex control, causing motor neurons to fire uncontrollably, whereas electrolyte levels remain normal."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did humans evolve such a uniquely large gluteus maximus compared to other primates?",
+      "options": [
+        "To store surplus fat for long winters",
+        "To maintain an upright torso and power bipedal running",
+        "To cushion the pelvis when sitting on rough terrain",
+        "To pump venous blood upward from the legs"
+      ],
+      "correctIndex": 1,
+      "explanation": "The gluteus maximus evolved to stabilize the human trunk against gravity and provide power during upright running and stair climbing."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What toxic compound accumulates to cause the alcohol flush reaction?",
+      "options": [
+        "Acetaldehyde",
+        "Lactic acid",
+        "Uric acid",
+        "Formaldehyde"
+      ],
+      "correctIndex": 0,
+      "explanation": "A genetic deficiency in the ALDH2 enzyme prevents the rapid breakdown of acetaldehyde, causing toxic accumulation and blood vessel dilation."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly what percentage of the world's total population carries the genetic variant responsible for alcohol flush reaction?",
+      "answer": 8,
+      "min": 1,
+      "max": 40,
+      "unit": "%",
+      "explanation": "About 8% of humanity—over 540 million people, largely of East Asian descent—carries an ALDH2 gene variant that hinders alcohol metabolism."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Motion sickness occurs primarily because moving vehicles agitate the stomach's physical contents.",
+      "answer": false,
+      "explanation": "Motion sickness originates in the brain when conflicting signals from your inner ears and eyes make your brain suspect neurotoxin poisoning."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Sudden muscle cramps during workouts are typically caused by potassium deficiency or dehydration.",
+      "answer": false,
+      "explanation": "Studies show cramping athletes have normal electrolyte and hydration levels; cramps are driven by fatigued nerve reflex circuits firing uncontrollably."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The human gluteus maximus is proportionally far larger than that of any other ape.",
+      "answer": true,
+      "explanation": "Our gluteal muscles are massive compared to those of apes because upright bipedal walking and running require tremendous trunk stabilization."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-09-27T19:54:47.007Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Persian gratitude wishes that your hands never ache",
+      "body": "In Iran, while you can simply say مرسی (merci), the most poetic everyday thank-you is دست شما درد نکنه (dast-e shomā dard nakoneh, pronounced \"dahst-eh sho-MAH dard na-ko-NEH\"). It literally means \"may your hands not ache,\" honoring the physical effort someone spent making your meal or helping you. The customary reply is سلامت باشید (salāmat bāshid, pronounced \"sah-lah-mat BAH-sheed\"), warmly wishing \"may you remain healthy.\"",
+      "imageWikipediaTitle": "Taarof",
+      "sources": [
+        {
+          "title": "Ta'arof",
+          "publisher": "Encyclopaedia Iranica",
+          "url": "https://www.iranicaonline.org/articles/taarof"
+        },
+        {
+          "title": "Taarof",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taarof"
+        }
+      ],
+      "readMoreUrl": "https://www.iranicaonline.org/articles/taarof",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the Greek word for \"please\" also means \"you're welcome\"",
+      "body": "In Greek, a single versatile word handles both asking for a favor and responding to gratitude: παρακαλώ (parakaló, pronounced \"pah-rah-kah-LOH\"). It translates to both \"please\" and \"you're welcome.\" Tracing back to the ancient Greek verb παρακαλέω (parakaléō) — combining παρά (pará, beside) and καλέω (kaléō, to call) — it literally meant \"to summon to one's side.\" Whether ordering coffee or acknowledging an ευχαριστώ (efcharistó, \"thank you\"), you are courteously offering your attention.",
+      "imageWikipediaTitle": "Modern Greek",
+      "sources": [
+        {
+          "title": "An Intermediate Greek-English Lexicon: parakaleo",
+          "publisher": "Perseus Digital Library",
+          "url": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=parakale/w"
+        },
+        {
+          "title": "Modern Greek",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Modern_Greek"
+        }
+      ],
+      "readMoreUrl": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=parakale/w",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How head massages for British royalty gave us \"shampoo\"",
+      "body": "Long before \"shampoo\" meant soapy hair wash, it was an Indian therapeutic massage. The English word comes from Hindi चाँपो (chāmpo, pronounced \"CHAHM-poh\"), the imperative form of चाँपना (chāmpnā, \"to press, knead, or massage\"). In 1814, Bengali traveler and entrepreneur Sake Dean Mahomed opened a vapor bathhouse in Brighton, England, offering herbal steam and warm massages. His treatments became so popular that King George IV appointed him his personal \"Shampooing Surgeon.\"",
+      "imageWikipediaTitle": "Sake Dean Mahomed",
+      "sources": [
+        {
+          "title": "Sake Dean Mahomed: The 'Shampooing Surgeon' of Brighton",
+          "publisher": "English Heritage",
+          "url": "https://www.english-heritage.org.uk/visit/blue-plaques/sake-dean-mahomed/"
+        },
+        {
+          "title": "The Word History of 'Shampoo'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-of-shampoo"
+        },
+        {
+          "title": "Sake Dean Mahomed",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sake_Dean_Mahomed"
+        }
+      ],
+      "readMoreUrl": "https://www.english-heritage.org.uk/visit/blue-plaques/sake-dean-mahomed/",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the ampersand was once recited as the 27th letter",
+      "body": "The symbol \"&\" originated in ancient Rome as a cursive ligature blending the letters e and t, spelling Latin et (\"and\"). By the early 19th century, English schoolchildren recited the symbol as the alphabet's 27th letter. When reciting solitary letters that also functioned as standalone words, students traditionally added the Latin phrase per se (\"by itself\"). Reciting the finale went: \"X, Y, Z, and per se and\" — which quickly slurred into \"ampersand.\"",
+      "imageWikipediaTitle": "Ampersand",
+      "sources": [
+        {
+          "title": "The History of 'Ampersand'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/the-history-of-ampersand"
+        },
+        {
+          "title": "Ampersand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ampersand"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/the-history-of-ampersand",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The legendary misunderstanding behind \"kangaroo\" is a myth",
+      "body": "A famous urban legend claims that when Captain James Cook asked Indigenous Australians what the hopping creature was, they replied \"kangaroo,\" meaning \"I don't understand you.\" In reality, linguist John B. Haviland proved that Cook heard correctly in 1770: gangurru is the Guugu Yimithirr word for the large eastern grey kangaroo. The myth arose decades later when British settlers in Sydney asked local Dharug speakers about \"kangaroos\" — who had never heard the northern word.",
+      "imageWikipediaTitle": "Kangaroo",
+      "sources": [
+        {
+          "title": "The Endeavour voyage: Cook's first Pacific voyage",
+          "publisher": "National Museum of Australia",
+          "url": "https://www.nma.gov.au/defining-moments/resources/endeavour-voyage"
+        },
+        {
+          "title": "The Origin of 'Kangaroo'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-kangaroo"
+        },
+        {
+          "title": "Kangaroo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kangaroo"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/word-history-kangaroo",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the Persian gratitude phrase \"dast-e shomā dard nakoneh\" literally mean?",
+      "options": [
+        "May your journey be safe",
+        "May your hands not ache",
+        "May your house be blessed",
+        "May your life be sweet"
+      ],
+      "correctIndex": 1,
+      "explanation": "It translates literally to \"may your hands not ache,\" honoring the physical effort someone expended to help you."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did the ancient Greek verb root behind \"parakaló\" literally mean?",
+      "options": [
+        "To summon to one's side",
+        "To bend the knee",
+        "To bring a gift",
+        "To offer a prayer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parakaló comes from pará (\"beside\") and kaléō (\"to call\"), literally meaning to summon someone to one's side."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did the word \"shampoo\" originally mean before it referred to hair soap?",
+      "options": [
+        "A scented oil for royal beards",
+        "A herbal tea brewed for relaxation",
+        "A therapeutic full-body massage",
+        "A soft comb made from polished bone"
+      ],
+      "correctIndex": 2,
+      "explanation": "From the Hindi verb chāmpnā (\"to knead or massage\"), shampoo originally meant a therapeutic steam and body massage."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How did the symbol \"&\" get the name \"ampersand\"?",
+      "options": [
+        "From an abbreviation invented by French printer André Persand",
+        "From a schoolroom chant reciting \"and per se and\"",
+        "From a Latin phrase meaning \"joined by nature\"",
+        "From an Old English mining mark for two joined cables"
+      ],
+      "correctIndex": 1,
+      "explanation": "When recited as the 27th letter, schoolchildren said \"& per se and\" (\"and by itself is and\"), which slurred into \"ampersand.\""
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the true linguistic origin of the word \"kangaroo\"?",
+      "options": [
+        "An Indigenous Guugu Yimithirr word for the grey kangaroo",
+        "An Aboriginal phrase meaning \"I do not understand\"",
+        "A Dutch nautical slang term for jumping marsupials",
+        "A Dharug word meaning \"fast hopper of the plains\""
+      ],
+      "correctIndex": 0,
+      "explanation": "Gangurru is the actual Guugu Yimithirr name for the eastern grey kangaroo; the \"I don't understand\" translation is a myth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "In the 19th century, British schoolchildren recited the ampersand as which number letter of the alphabet?",
+      "answer": 27,
+      "min": 20,
+      "max": 35,
+      "unit": "th",
+      "explanation": "Schoolchildren recited the symbol '&' directly after Z as the 27th letter, chanting 'and per se and'."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The ampersand symbol was once recited as part of the standard English alphabet in schools.",
+      "answer": true,
+      "explanation": "In 19th-century British schools, '&' was recited after Z as the 27th letter, chanted as 'X, Y, Z, and per se and'."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The word \"kangaroo\" comes from an Indigenous Australian phrase meaning \"I don't understand.\"",
+      "answer": false,
+      "explanation": "Linguists confirmed gangurru is the Guugu Yimithirr name for the grey kangaroo; the misunderstanding story was an urban legend."
+    }
+  ]
+}
