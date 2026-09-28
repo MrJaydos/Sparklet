@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-28T22:19:12.401Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Elephants can hear seismic rumbles through their feet",
+      "body": "Beyond their trumpet calls, elephants communicate across miles through low-frequency infrasonic rumbles that travel through the ground. Specialized mechanoreceptors called Pacinian corpuscles packed into their feet and trunk tip detect these seismic vibrations. The sound waves travel up their leg bones directly to their middle ear via bone conduction, allowing herds to detect distant thunder, approaching predators, or distant family members.",
+      "imageWikipediaTitle": "African elephant",
+      "sources": [
+        {
+          "title": "African Elephant",
+          "publisher": "Smithsonian's National Zoo & Conservation Biology Institute",
+          "url": "https://nationalzoo.si.edu/animals/african-elephant"
+        },
+        {
+          "title": "Elephant cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elephant_cognition"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/african-elephant",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moray eels hunt with a second set of jaws hidden in their throat",
+      "body": "Most predatory fish suck prey into their mouths by creating negative water pressure. Moray eels, however, have narrow heads that cannot generate sufficient suction. Instead, they bite down with primary jaws while a second set of jaws tucked inside their throat shoots forward into the mouth cavity. These pharyngeal jaws clamp onto the struggling prey and drag it straight down into the eel's esophagus.",
+      "imageWikipediaTitle": "Moray eel",
+      "sources": [
+        {
+          "title": "Moray Eels Attack With Second Set of Hidden Jaws",
+          "publisher": "National Science Foundation",
+          "url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=109985"
+        },
+        {
+          "title": "Pharyngeal jaw",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pharyngeal_jaw"
+        }
+      ],
+      "readMoreUrl": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=109985",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fire ants link bodies to build unsinkable living lifeboats",
+      "body": "When floodwaters submerge their underground colonies, fire ants do not drown. Instead, thousands of worker ants link their claws and jaws together within minutes to form a living, buoyant raft. Trapped air bubbles nestled against the water-repellent hairs of their exoskeletons increase buoyancy, keeping even the bottom layer of ants from suffocating. The colony drifts safely for weeks until reaching dry land.",
+      "imageWikipediaTitle": "Red imported fire ant",
+      "sources": [
+        {
+          "title": "Fire ants self-assemble into waterproof rafts to survive floods",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3093518/"
+        },
+        {
+          "title": "Red imported fire ant",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Red_imported_fire_ant"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3093518/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The aye-aye hunts by tapping wood with a skeletal wire finger",
+      "body": "Madagascar’s aye-aye is the world’s largest nocturnal primate and nature’s woodpecker equivalent. It practices percussive foraging: tapping tree trunks at up to eight times per second with an extraordinarily thin, elongated middle finger. By listening closely to the reverberations, it locates hollow cavities hollowed out by insect larvae. The aye-aye then gnaws through the bark and uses the finger’s 360-degree ball-and-socket joint to hook and extract prey.",
+      "imageWikipediaTitle": "Aye-aye",
+      "sources": [
+        {
+          "title": "Aye-Aye",
+          "publisher": "Duke Lemur Center",
+          "url": "https://lemur.duke.edu/discover/meet-the-lemurs/aye-aye/"
+        },
+        {
+          "title": "Aye-aye",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aye-aye"
+        }
+      ],
+      "readMoreUrl": "https://lemur.duke.edu/discover/meet-the-lemurs/aye-aye/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Whale sharks protect their eyelids-free eyes with miniature teeth",
+      "body": "Whale sharks lack eyelids to protect their vision in open waters. Instead, researchers discovered that each eyeball is shielded by roughly three thousand dermal denticles—the same tooth-like scales that cover shark skin. These armored scales form an eye-covering barrier that resists abrasion from turbulent water and collisions. Combined with the shark’s ability to pull its eyeballs back into its skull, the adaptations provide heavy-duty defense for a gentle giant.",
+      "imageWikipediaTitle": "Whale shark",
+      "sources": [
+        {
+          "title": "Armored eyes of the whale shark",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323965/"
+        },
+        {
+          "title": "Whale shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whale_shark"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7323965/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do elephants detect low-frequency seismic vibrations transmitted through the ground?",
+      "options": [
+        "Through specialized receptors in their feet and trunk that route sound via leg bones",
+        "By pressing their large ear flaps firmly against the ground",
+        "Through hollow cavities in their tusks that resonate like tuning forks",
+        "By tasting chemical traces left in the soil by distant herds"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mechanoreceptors called Pacinian corpuscles in elephant feet and trunks pick up ground vibrations, which travel through their skeleton to the middle ear."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What anatomical feature do moray eels use to drag captured prey into their throats?",
+      "options": [
+        "A second set of jaws that lunges forward from within the throat",
+        "A barbed tongue that impales prey like a harpoon",
+        "A muscular stomach vacuum that generates powerful suction",
+        "Venom glands that liquefy prey tissue on contact"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moray eels possess mobile pharyngeal jaws inside their throat that physically shoot into the oral cavity to grab prey and drag it down."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do fire ant colonies survive severe floods when their subterranean nests are inundated?",
+      "options": [
+        "Workers link their bodies together into a floating, water-repellent raft",
+        "They seal their tunnels with clay to create airtight diving bells",
+        "They enter metabolic torpor and survive submerged underwater for months",
+        "The queen secretes a hydrophobic wax that waterproofs nest chambers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fire ants interlock their claws and jaws to construct living rafts, trapping air bubbles in their body hairs to keep the colony afloat."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What specialized technique does the aye-aye use to locate wood-boring insect grubs?",
+      "options": [
+        "Tapping tree bark rapidly with an elongated middle finger and listening to the echoes",
+        "Sniffing tree trunks with acute chemical receptors on its snout",
+        "Drilling holes with venomous claws that flush insects to the surface",
+        "Peeling back tree bark using oversized beaver-like front paws"
+      ],
+      "correctIndex": 0,
+      "explanation": "Aye-ayes practice percussive foraging by tapping tree trunks up to 8 times per second with a thin middle finger to locate hollow insect chambers."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do whale sharks protect their eyeballs despite completely lacking eyelids?",
+      "options": [
+        "Their eyes are covered in thousands of tiny tooth-like scales called dermal denticles",
+        "They secrete a thick, transparent mucous shield that hardens like glass",
+        "They rely on a clear third eyelid identical to that of birds and reptiles",
+        "They cover their eyes behind sliding bony plates embedded in their skull"
+      ],
+      "correctIndex": 0,
+      "explanation": "Whale shark eyes are armored with about 3,000 tiny dermal denticles on each eyeball to prevent abrasion and injury."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "How many times per second can an aye-aye tap a tree branch to listen for hollow insect tunnels?",
+      "answer": 8,
+      "min": 1,
+      "max": 25,
+      "unit": "taps/s",
+      "explanation": "Aye-ayes can tap wood up to 8 times per second, listening for acoustic reverberations that reveal hidden grubs."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many armored tooth-like scales (dermal denticles) cover a single whale shark eyeball?",
+      "answer": 3000,
+      "min": 100,
+      "max": 10000,
+      "unit": "",
+      "explanation": "Researchers discovered approximately 3,000 dermal denticles covering each whale shark eyeball to protect it from abrasion."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Elephants can only hear sounds transmitted through the air.",
+      "answer": false,
+      "explanation": "Elephants frequently detect low-frequency seismic signals travelling through the earth using sensitive mechanoreceptors in their feet and trunk."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Moray eels have a second, functional set of jaws hidden inside their throat that lunges forward to grab food.",
+      "answer": true,
+      "explanation": "Moray eels possess raptorial pharyngeal jaws that physically launch forward from their throat into their mouth cavity to pull prey down."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Shark teeth are found exclusively inside their mouths.",
+      "answer": false,
+      "explanation": "Shark skin is made of tooth-like scales called dermal denticles, and whale sharks even have thousands of them shielding their eyeballs."
+    }
+  ]
+}

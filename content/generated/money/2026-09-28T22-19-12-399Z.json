@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-09-28T22:19:12.400Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Dutch Tax on Hearth Fires That Sparked Massive Riots",
+      "body": "Before income taxes, governments taxed visible markers of wealth. In 17th-century England and the Dutch Republic, authorities introduced hearth money—a tax levied on every fireplace or stove in a dwelling. Because tax collectors had to physically enter private homes to count hearths, citizens felt their basic privacy was violated. The tax provoked fierce evasion, riots, and chimney-blocking before being repealed after the Glorious Revolution of 1688.",
+      "imageWikipediaTitle": "Hearth tax",
+      "sources": [
+        {
+          "title": "Hearth Tax Online",
+          "publisher": "Centre for Hearth Tax Research",
+          "url": "https://www.hearthtax.org.uk/"
+        },
+        {
+          "title": "Hearth tax",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hearth_tax"
+        }
+      ],
+      "readMoreUrl": "https://www.hearthtax.org.uk/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Yap Islanders Still Own Limestone Coins Anchored at the Ocean Floor",
+      "body": "On the Micronesian island of Yap, limestone discs known as rai stones served as money for centuries. Carved on distant Palau and transported back across rough seas on canoes, the stones could weigh several tons. During one perilous voyage, a massive stone was lost overboard into the deep ocean. The crew testified to its craftsmanship upon returning, and islanders agreed its value survived intact. Yapese families continued buying goods with this unseen sunken coin for generations.",
+      "imageWikipediaTitle": "Rai stones",
+      "sources": [
+        {
+          "title": "Yap's Stone Money",
+          "publisher": "Federal Reserve Bank of Minneapolis",
+          "url": "https://www.minneapolisfed.org/article/1991/yaps-stone-money"
+        },
+        {
+          "title": "Rai stones",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rai_stones"
+        }
+      ],
+      "readMoreUrl": "https://www.minneapolisfed.org/article/1991/yaps-stone-money",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1933 Executive Order That Criminalized Hoarding Gold",
+      "body": "In April 1933, amidst the depths of the Great Depression, President Franklin D. Roosevelt signed Executive Order 6102. It required all Americans to surrender almost all gold coin, gold bullion, and gold certificates to the Federal Reserve in exchange for paper currency at $20.67 per ounce. Violators faced fines of up to $10,000 or ten years in prison. The government then revalued gold to $35 an ounce, devaluing the dollar to stimulate exports.",
+      "imageWikipediaTitle": "Executive Order 6102",
+      "sources": [
+        {
+          "title": "Executive Order 6102",
+          "publisher": "The American Presidency Project",
+          "url": "https://www.presidency.ucsb.edu/documents/executive-order-6102-requiring-gold-coin-gold-bullion-and-gold-certificates-be-delivered"
+        },
+        {
+          "title": "Executive Order 6102",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Executive_Order_6102"
+        }
+      ],
+      "readMoreUrl": "https://www.presidency.ucsb.edu/documents/executive-order-6102-requiring-gold-coin-gold-bullion-and-gold-certificates-be-delivered",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Medieval Practice That Gave Us the Term Bankruptcy",
+      "body": "In Renaissance northern Italy, money changers and merchants conducted financial business from wooden benches called banchi in public marketplaces. When a trader ran out of capital or defaulted on their debts, authorities or aggrieved creditors publicly broke their bench into pieces to symbolize their financial ruin and strip their trading privileges. This custom produced the Italian phrase banca rotta, literally meaning broken bench, the linguistic ancestor of the modern word bankruptcy.",
+      "imageWikipediaTitle": "Bankruptcy",
+      "sources": [
+        {
+          "title": "Bankruptcy",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/bankruptcy"
+        },
+        {
+          "title": "Bankruptcy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bankruptcy"
+        }
+      ],
+      "readMoreUrl": "https://www.etymonline.com/word/bankruptcy",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Brazil Invented a Virtual Currency to Tame 2,000% Inflation",
+      "body": "In 1993, Brazil suffered annual inflation exceeding 2,000%, causing prices to spike daily. Rather than freeze prices, economists launched the Unidade Real de Valor (URV), a virtual accounting currency with no physical bills. Wages, rents, and store prices were quoted in stable URVs, though people still transacted in depreciating cruzeiros based on each day's exchange rate. Once citizens trusted the URV's stable prices, Brazil replaced the old cash with the real, halting hyperinflation.",
+      "imageWikipediaTitle": "Brazilian real",
+      "sources": [
+        {
+          "title": "Plano Real",
+          "publisher": "Central Bank of Brazil",
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/planoreal"
+        },
+        {
+          "title": "Unidade Real de Valor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Unidade_Real_de_Valor"
+        }
+      ],
+      "readMoreUrl": "https://www.bcb.gov.br/en/monetarypolicy/planoreal",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did citizens strongly object to the historic hearth tax?",
+      "options": [
+        "It required tax collectors to inspect the interior of private homes",
+        "It banned the burning of wood for heat",
+        "It applied only to homeless populations",
+        "It forced every house to install brick chimneys"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because assessing the tax required counting indoor fireplaces and stoves, officials entered private living spaces, prompting outrage over privacy invasion."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happened to the value of a Yapese rai stone that sank to the ocean floor during transport?",
+      "options": [
+        "It remained valuable and continued to be traded",
+        "It was declared worthless until recovered",
+        "Its owners were exiled from the island",
+        "It was replaced by shells of equal weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yapese islanders agreed the stone's creation and ownership were legitimate, allowing it to hold value and change hands even while lying deep underwater."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did US Executive Order 6102 require citizens to do in 1933?",
+      "options": [
+        "Surrender their gold coins and bullion to the Federal Reserve",
+        "Pay their income tax exclusively in silver dollars",
+        "Exchange all foreign currency for treasury bonds",
+        "Register all personal bank vaults with local police"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roosevelt's 1933 order made holding significant amounts of gold coin, bullion, or gold certificates illegal, requiring exchange for paper cash."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What physical act in medieval Italian marketplaces gave origin to the word 'bankruptcy'?",
+      "options": [
+        "Smashing the wooden bench of a defaulting merchant",
+        "Tearing up a credit ledger in front of the town hall",
+        "Melting a merchant's personal bronze seal",
+        "Throwing counterfeit coins into the city well"
+      ],
+      "correctIndex": 0,
+      "explanation": "Banca rotta literally translates to 'broken bench,' referencing the public destruction of an insolvent money changer's trading bench."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did Brazil's 1993 virtual currency (URV) function before paper bills were issued?",
+      "options": [
+        "It served as a stable unit for price tags while old cash was still used",
+        "It was only accessible via early electronic credit cards",
+        "It was pegged directly to the physical weight of coffee beans",
+        "It allowed citizens to pay taxes using municipal volunteer hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prices were quoted in stable URVs to anchor public expectations, but transactions were settled daily in old cruzeiros before the new real replaced them entirely."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "Under US Executive Order 6102 in 1933, what was the maximum prison sentence for illegally hoarding gold?",
+      "answer": 10,
+      "min": 1,
+      "max": 30,
+      "unit": "years",
+      "explanation": "Violators of Executive Order 6102 faced up to a $10,000 fine and up to 10 years in federal prison."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Physical currency must be accessible or visible in hand to function as real money.",
+      "answer": false,
+      "explanation": "On Yap, a multi-ton limestone stone lost deep at the bottom of the sea was accepted as legal wealth and traded between families for generations."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Private ownership of monetary gold coins was criminalized by the US government during the Great Depression.",
+      "answer": true,
+      "explanation": "Under Executive Order 6102 in 1933, holding private gold coin or bullion was banned, forcing Americans to surrender their gold for paper cash."
+    }
+  ]
+}

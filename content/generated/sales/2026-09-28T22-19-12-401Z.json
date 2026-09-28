@@ -1,0 +1,224 @@
+{
+  "generatedAt": "2026-09-28T22:19:12.401Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stepping inside four feet triggers an involuntary sales defense",
+      "body": "In 1963, anthropologist Edward T. Hall mapped personal space into distinct zones. In sales meetings, stepping inside four feet (1.2 meters) crosses from the social zone into the personal zone. Unless close rapport already exists, this intrusion triggers involuntary nervous arousal. The prospect leans back, crosses their arms, and subconsciously resists the pitch. Maintaining four to twelve feet of distance allows comfortable, rational evaluation without activating their biological threat response.",
+      "imageWikipediaTitle": "Proxemics",
+      "sources": [
+        {
+          "title": "Proxemics",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Proxemics"
+        },
+        {
+          "title": "Proxemics",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/proxemics"
+        },
+        {
+          "title": "APA Dictionary of Psychology: Proxemics",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/proxemics"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/proxemics",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mentioning a buyer's name acts as an involuntary attention reset",
+      "body": "Cognitive scientist Colin Cherry discovered in 1953 that while the human brain filters out ambient noise, hearing one's own name immediately cuts through the clutter. Modern brain imaging shows that hearing your own name uniquely activates the middle temporal cortex. During a lengthy pitch when a buyer's attention inevitably drifts, casually weaving their first name into a sentence acts as an involuntary neural reset, snapping their focus back to your core point without confrontation.",
+      "imageWikipediaTitle": "Cocktail party effect",
+      "sources": [
+        {
+          "title": "Cocktail party effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cocktail_party_effect"
+        },
+        {
+          "title": "Cocktail party effect",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/cocktail-party-effect"
+        },
+        {
+          "title": "APA Dictionary of Psychology: Cocktail-party effect",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/cocktail-party-effect"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/cocktail-party-effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why novice buyers insist they can easily build your product in-house",
+      "body": "Psychologists Justin Kruger and David Dunning demonstrated that people with minimal domain expertise drastically overestimate their competence. In sales, this surfaces when non-technical executives dismiss complex solutions, claiming their internal team can easily build it in-house. Directly contradicting their claim triggers defensive pride. Persuasive sellers instead provide an objective implementation checklist, letting the prospect encounter the hidden complexities themselves and discover their own operational blind spots without losing face.",
+      "imageWikipediaTitle": "Dunning–Kruger effect",
+      "sources": [
+        {
+          "title": "Dunning–Kruger effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+        },
+        {
+          "title": "Dunning-Kruger effect",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/Dunning-Kruger-effect"
+        },
+        {
+          "title": "APA Dictionary of Psychology: Dunning-Kruger effect",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/dunning-kruger-effect"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/Dunning-Kruger-effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why salespeople overestimate how much buyers agree with them",
+      "body": "In 1977, Stanford psychologist Lee Ross identified the false consensus effect: people routinely assume others share their own preferences, values, and judgments. In sales conversations, reps frequently fall into this trap, assuming a feature they love is equally obvious and urgent to the buyer. This leads to skipped discovery and misaligned proposals. Persuasive negotiators never assume mutual agreement; they explicitly test priorities by asking prospects to rank their decision criteria from most to least critical.",
+      "imageWikipediaTitle": "False consensus effect",
+      "sources": [
+        {
+          "title": "False consensus effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/False_consensus_effect"
+        },
+        {
+          "title": "False consensus effect",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/false-consensus-effect"
+        },
+        {
+          "title": "APA Dictionary of Psychology: False-consensus effect",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/false-consensus-effect"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/false-consensus-effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why diagnostic intake quizzes make prospects feel uniquely understood",
+      "body": "In 1948, psychologist Bertram Forer showed that people evaluate generalized statements as uniquely tailored to themselves, a phenomenon known as the Barnum effect. Persuasive sales teams leverage this through diagnostic intake quizzes and maturity audits. When prospects complete a brief assessment and receive a structured diagnostic report, they perceive the resulting recommendations as deeply customized to their specific operational hurdles. This perceived specificity dramatically elevates buyer trust and accelerates deal sign-off.",
+      "imageWikipediaTitle": "Barnum effect",
+      "sources": [
+        {
+          "title": "Barnum effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barnum_effect"
+        },
+        {
+          "title": "Barnum effect",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/science/Barnum-effect"
+        },
+        {
+          "title": "APA Dictionary of Psychology: Barnum effect",
+          "publisher": "American Psychological Association",
+          "url": "https://dictionary.apa.org/barnum-effect"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/Barnum-effect",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "According to Edward T. Hall's proxemics framework, what is the boundary where the 'social zone' turns into the 'personal zone'?",
+      "options": [
+        "1.5 feet (0.5 meters)",
+        "4 feet (1.2 meters)",
+        "8 feet (2.4 meters)",
+        "12 feet (3.6 meters)"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hall classified 4 to 12 feet as social distance; moving inside 4 feet invades personal space and can trigger defensive arousal in professional settings."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What did Colin Cherry discover about auditory attention in his 1953 cocktail party experiments?",
+      "options": [
+        "People process all background speech equally",
+        "Hearing one's own name penetrates selective auditory filters",
+        "Loud noises always reset visual focus",
+        "Auditory attention resets every thirty seconds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cherry found that while people filter out background chatter, hearing their own name immediately bypasses the filter and captures attention."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the Dunning-Kruger effect typically manifest during a sales conversation with a prospect?",
+      "options": [
+        "Experienced buyers underestimate their available budget",
+        "Novice buyers believe they can easily build or handle the solution in-house",
+        "Prospects reject solutions that offer too many features",
+        "Buyers assume competitors are colluding on pricing"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Dunning-Kruger effect causes people with minimal domain competence to dramatically overestimate their ability and underestimate technical complexity."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What cognitive bias leads salespeople to wrongly assume a buyer shares their enthusiasm for a feature?",
+      "options": [
+        "The framing effect",
+        "The false consensus effect",
+        "The anchor-drop effect",
+        "The sunk cost fallacy"
+      ],
+      "correctIndex": 1,
+      "explanation": "The false consensus effect causes individuals to project their own priorities and beliefs onto others, falsely assuming mutual agreement."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the Barnum effect operate in sales assessments and diagnostic tools?",
+      "options": [
+        "Buyers reject any feedback containing critique",
+        "Prospects perceive general diagnostic feedback as uniquely tailored to them",
+        "Clients only trust advice from licensed specialists",
+        "Prospects demand completely open-source assessment code"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Barnum effect causes individuals to believe generalized feedback is highly specific and custom-tailored to their unique circumstances."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "According to Edward T. Hall's proxemics framework, at what distance (in feet) does the professional 'social zone' cross into the 'personal zone'?",
+      "answer": 4,
+      "min": 1,
+      "max": 15,
+      "unit": "feet",
+      "explanation": "Hall defined 4 to 12 feet as social distance; moving inside 4 feet encroaches on personal space, often triggering an involuntary defensive response."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Hearing your own first name spoken aloud can involuntarily redirect your attention even when your mind is wandering.",
+      "answer": true,
+      "explanation": "The cocktail party effect shows that the human brain's auditory filter automatically flags and prioritizes the sound of one's own name."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "When a prospect wrongly claims they can build your solution in-house, the most persuasive tactic is to directly debunk their technical errors.",
+      "answer": false,
+      "explanation": "Directly attacking a novice's competence triggers defensive pride; providing an objective checklist lets them discover the gap on their own."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Experienced professionals can accurately estimate whether a business partner shares their core priorities.",
+      "answer": false,
+      "explanation": "The false consensus effect causes even experienced professionals to systematically overestimate how much others agree with their priorities."
+    }
+  ]
+}

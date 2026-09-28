@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-28T22:19:12.403Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why talking to a lion would still leave you completely in the dark",
+      "body": "Ludwig Wittgenstein famously claimed that if a lion could speak English, we still couldn't understand it. For Wittgenstein, language is not just a vocabulary code; it is embedded within a shared \"form of life.\" A lion’s existence is driven by predatory instincts, feline senses, and pride hierarchies utterly alien to humans. Even if it spoke fluent sentences, its priorities, concepts, and emotional nuances would be unintelligible to human minds.",
+      "imageWikipediaTitle": "Lion",
+      "sources": [
+        {
+          "title": "Ludwig Wittgenstein",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/wittgenstein/"
+        },
+        {
+          "title": "Philosophical Investigations",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Philosophical_Investigations"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/wittgenstein/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Plato compared democratic elections to a mutinous ship",
+      "body": "In the Republic, Plato warned against pure democracy by imagining a ship whose owner is short-sighted and hard of hearing. Rather than consulting a trained navigator, the quarrelsome crew drugs the owner and flatters their way into steering the vessel. Plato argued that statecraft requires deep knowledge of justice and order—just as sailing requires reading stars and winds—making populist popularity contests a recipe for political shipwreck.",
+      "imageWikipediaTitle": "Plato",
+      "sources": [
+        {
+          "title": "Plato's Ethics and Politics in The Republic",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/plato-ethics-politics/"
+        },
+        {
+          "title": "Ship of State",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ship_of_State"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/plato-ethics-politics/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why stopping to justify saving your spouse is a moral failure",
+      "body": "Imagine two people are drowning, one of whom is your spouse, and you can only rescue one. Philosopher Bernard Williams argued that if you pause to calculate whether universal moral duty permits prioritizing family over a stranger, you have made a serious mistake. Williams called this having \"one thought too many.\" Authentic human devotion and love should motivate immediate action; abstract ethical rules cannot replace genuine personal commitments without hollowing out human life.",
+      "imageWikipediaTitle": "Bernard Williams",
+      "sources": [
+        {
+          "title": "Bernard Williams",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/williams-bernard/"
+        },
+        {
+          "title": "Bernard Williams",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bernard_Williams"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/williams-bernard/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a masked bandit exposed a strange blind spot in logic",
+      "body": "In classical logic, if two things are identical, any fact true of one must be true of the other. But consider this: you know who your father is, yet you do not know who the masked bank robber is. Does that prove your father is innocent? The Masked Man Fallacy shows that substitution breaks down inside human beliefs. Identity in the physical world does not guarantee identity inside someone's mental perception.",
+      "imageWikipediaTitle": "Mask",
+      "sources": [
+        {
+          "title": "Fallacies",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/fallacy/"
+        },
+        {
+          "title": "Masked-man fallacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Masked_man_fallacy"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Masked_man_fallacy",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The four mental traps that Francis Bacon warned blind all thinkers",
+      "body": "In 1620, Francis Bacon argued that human intellect is constantly misled by four deep-seated cognitive illusions, which he called the \"Idols of the Mind.\" These include Idols of the Tribe (flaws common to human senses), the Cave (individual personal biases), the Marketplace (ambiguities caused by everyday language), and the Theatre (dogmas inherited from flawed philosophical systems). To discover scientific truth, Bacon insisted that thinkers must systematically dismantle all four traps.",
+      "imageWikipediaTitle": "Francis Bacon",
+      "sources": [
+        {
+          "title": "Francis Bacon",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/francis-bacon/"
+        },
+        {
+          "title": "Novum Organum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Novum_Organum"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/francis-bacon/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Ludwig Wittgenstein argue we could not understand a talking lion?",
+      "options": [
+        "Lions lack the vocal anatomy to articulate consonants clearly",
+        "A lion's life and sensory world are too alien to share our conceptual meanings",
+        "Predatory instincts prevent animals from understanding cooperative grammar",
+        "Animal brains cannot form mental images of abstract words"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wittgenstein argued that language is embedded in a shared 'form of life'; without shared human biology and culture, words lack mutual meaning."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Plato's Ship of State allegory, what does the unruly crew symbolize?",
+      "options": [
+        "Foreign invaders subverting a nation",
+        "Disciplined civil servants maintaining order",
+        "Demagogues competing for power without true understanding of statecraft",
+        "Scholars who have mastered political philosophy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Plato used the mutinous crew to represent politicians who use flattery and intrigue to win power despite having no knowledge of how to govern."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did Bernard Williams mean by having \"one thought too many\"?",
+      "options": [
+        "Overthinking a simple mathematical proof",
+        "Seeking an abstract moral rule when authentic love should motivate immediate action",
+        "Second-guessing a life-saving rescue after it has succeeded",
+        "Relying on intuition rather than empirical evidence"
+      ],
+      "correctIndex": 1,
+      "explanation": "Williams argued that pausing to verify whether universal duty permits saving your spouse over a stranger replaces authentic affection with cold calculation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What fundamental logical rule fails in the Masked Man Fallacy?",
+      "options": [
+        "The Law of Non-Contradiction",
+        "Inductive generalization from small samples",
+        "Leibniz's substitution of identicals inside statements about beliefs or knowledge",
+        "Modus Ponens in conditional deductions"
+      ],
+      "correctIndex": 2,
+      "explanation": "While identical entities share all physical properties, beliefs about them can differ, meaning you cannot freely substitute identical terms in epistemic statements."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to Francis Bacon, which \"Idols\" arise from the misleading ambiguities of human language?",
+      "options": [
+        "Idols of the Tribe",
+        "Idols of the Cave",
+        "Idols of the Marketplace",
+        "Idols of the Theatre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bacon's Idols of the Marketplace describe the confusion caused by words whose everyday meanings distort clear philosophical and scientific thinking."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many distinct \"Idols of the Mind\" did Francis Bacon identify as the primary barriers to human knowledge?",
+      "answer": 4,
+      "min": 1,
+      "max": 12,
+      "unit": "",
+      "explanation": "Bacon classified human cognitive biases into four Idols: Tribe (human nature), Cave (personal upbringing), Marketplace (language), and Theatre (dogma)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "If a wild animal could pronounce human words, we would immediately understand its thoughts.",
+      "answer": false,
+      "explanation": "Wittgenstein argued that language requires shared lived experience; an animal living in an alien sensory and social reality would use concepts humans cannot grasp."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Plato believed that popular voting was the most reliable way to select political leaders.",
+      "answer": false,
+      "explanation": "In the Republic, Plato argued democratic voting rewards persuasive flattery over governing competence, comparing it to an untrained crew steering a ship."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "If person A is identical to person B, any sentence true of A remains true when replacing A with B.",
+      "answer": false,
+      "explanation": "In epistemic logic, substitution fails: you can believe your neighbor is innocent without believing the masked burglar is innocent, even if they are the same person."
+    }
+  ]
+}
