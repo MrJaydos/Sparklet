@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.868Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Coriolis effect does not determine which way your toilet flushes",
+      "body": "Sinks and household toilets are far too small for the Earth's rotation to overcome everyday forces like water pressure and basin shape. While the Coriolis force shapes massive weather systems like hurricanes over hundreds of miles, a toilet flush is governed entirely by the angle of the water jets and the curvature of the bowl. Given a symmetrical drain, water drains straight down without swirling.",
+      "imageWikipediaTitle": "Coriolis force",
+      "sources": [
+        {
+          "title": "Does water go down the drain counterclockwise in the northern hemisphere and clockwise in the southern hemisphere?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/everyday-oddities/item/does-water-go-down-the-drain-counterclockwise-in-the-northern-hemisphere-and-clockwise-in-the-southern-hemisphere/"
+        },
+        {
+          "title": "Coriolis force",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coriolis_force"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/everyday-oddities/item/does-water-go-down-the-drain-counterclockwise-in-the-northern-hemisphere-and-clockwise-in-the-southern-hemisphere/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Napoleon Bonaparte was not unusually short",
+      "body": "History remembers Napoleon as tiny and angry, but he was actually average height for an 18th-century French man. When measured after his death, he stood 5 feet 2 inches in pre-metric French units, which translates to about 5 feet 7 inches (169 centimeters) today. The enduring myth of his miniature stature was largely sparked by biting British wartime caricatures and confusion over differing French and British measuring systems.",
+      "imageWikipediaTitle": "Napoleon",
+      "sources": [
+        {
+          "title": "Was Napoleon Short?",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/story/was-napoleon-short"
+        },
+        {
+          "title": "Napoleon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Napoleon"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/story/was-napoleon-short",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Baby shrews travel by forming an unbroken conga line",
+      "body": "When a mother white-toothed shrew needs to relocate her litter, she does not carry them one by one. Instead, the family forms a living caravan. The first infant firmly bites the base of the mother's tail, the second baby bites the first baby's tail, and so on. If the mother bolts from danger, the entire chain of clinging offspring is dragged safely behind her like a miniature furry train.",
+      "imageWikipediaTitle": "Shrew",
+      "sources": [
+        {
+          "title": "Shrew",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/animal/shrew"
+        },
+        {
+          "title": "Shrew",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shrew"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/shrew",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pencils have never contained a single trace of lead",
+      "body": "Despite centuries of warnings about getting poisoned by pencil points, pencils have never contained actual lead. In the 1500s, an enormous deposit of pure graphite was discovered in Borrowdale, England. Because chemistry was still in its infancy, locals assumed this dark, shiny mineral was a form of lead and dubbed it 'black lead' or plumbago. Real pencil cores are simply a non-toxic blend of powdered graphite and clay baked in a kiln.",
+      "imageWikipediaTitle": "Pencil",
+      "sources": [
+        {
+          "title": "Who invented the pencil?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/everyday-oddities/item/who-invented-the-pencil/"
+        },
+        {
+          "title": "Pencil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pencil"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/everyday-oddities/item/who-invented-the-pencil/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 'dark side' of the Moon is not actually dark",
+      "body": "Popular culture often treats the Moon's far side as an eternal frozen abyss, but it receives exactly the same amount of sunlight as the side facing Earth. The Moon is tidally locked, meaning it rotates on its axis at the same rate it orbits Earth, keeping one face perpetually pointing at us. When Earth experiences a dark New Moon, the Moon's far side is in full, blazing daylight.",
+      "imageWikipediaTitle": "Far side of the Moon",
+      "sources": [
+        {
+          "title": "Moon Phases & Eclipses",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/moon/phases-and-eclipses/"
+        },
+        {
+          "title": "Far side of the Moon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Far_side_of_the_Moon"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/moon/phases-and-eclipses/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why doesn't household sink or toilet water consistently swirl in opposite directions across the equator?",
+      "options": [
+        "The Coriolis force is far too weak to affect water at household scales",
+        "Plumbing fixtures are magnetically shielded to prevent rotation",
+        "Water molecules repel rotational movement in small volumes",
+        "Earth's gravitational field cancels out Coriolis forces indoors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coriolis forces only noticeably influence large systems like hurricanes; household drains are governed by water jets and bowl shape."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What contributed most to the persistent myth that Napoleon Bonaparte was exceptionally short?",
+      "options": [
+        "British propaganda and differences between French and British inches",
+        "Napoleon passed a law requiring all bodyguards to be under five feet tall",
+        "A childhood illness stunted his skeletal development",
+        "Historical painters were forbidden by imperial decree from showing his legs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Napoleon stood about 5'7\" in modern units (average for his era), but British cartoonists capitalized on longer French inches to mock him."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do mother white-toothed shrews move an entire litter of young to a new location?",
+      "options": [
+        "The young form an unbroken chain by biting each other's tails",
+        "She rolls them into an interlocking protective ball",
+        "She carries them inside an expandable marsupial-like pouch",
+        "She pushes them forward in a floating grass raft"
+      ],
+      "correctIndex": 0,
+      "explanation": "Young white-toothed shrews engage in 'caravanning', gripping tails in an unbroken chain towed safely behind their mother."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What mineral has actually made up the writing core of pencils since the 16th century?",
+      "options": [
+        "Graphite mixed with clay",
+        "Metallic lead alloyed with zinc",
+        "Hardened charcoal compressed with wax",
+        "Pulverized slate bonded with resin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pencils have always used graphite; 16th-century discoverers mistakenly called the dark mineral 'black lead' because of its appearance."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is actually true about the so-called 'dark side' of the Moon?",
+      "options": [
+        "It receives just as much sunlight as the near side",
+        "It is permanently shielded from all solar radiation",
+        "It only receives sunlight during a total solar eclipse",
+        "It has an atmosphere that absorbs all visible light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the Moon rotates as it orbits Earth, the far side experiences normal two-week cycles of continuous daylight and night."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How tall was Napoleon Bonaparte in centimeters according to modern standard measurements?",
+      "answer": 169,
+      "min": 140,
+      "max": 200,
+      "unit": "cm",
+      "explanation": "At roughly 169 cm (5 ft 7 in), Napoleon was of average or slightly above-average height for an 18th-century French man."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Water flushes in opposite directions in the Northern and Southern Hemispheres due to Earth's rotation.",
+      "answer": false,
+      "explanation": "Household toilets and sinks are far too small for the Coriolis force to matter; swirl direction is determined by bowl geometry and water jets."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Napoleon Bonaparte was unusually short compared to typical men of his time.",
+      "answer": false,
+      "explanation": "At roughly 5 feet 7 inches (169 cm) in modern units, Napoleon was average height; British caricaturists popularized the myth of his tiny stature."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Pencils originally contained real lead before being replaced with non-toxic graphite.",
+      "answer": false,
+      "explanation": "Pencils have never contained lead; the graphite discovered in the 1500s was simply misidentified as a variety of lead."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The far side of the Moon receives just as much sunlight as the side facing Earth.",
+      "answer": true,
+      "explanation": "The Moon is tidally locked to Earth, not the Sun, so every part of its surface receives about two weeks of continuous daylight each lunar cycle."
+    }
+  ]
+}

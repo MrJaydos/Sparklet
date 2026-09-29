@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.864Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Caribbean Revolt Forced Napoleon to Sell Louisiana",
+      "body": "In 1803, American envoys went to Paris hoping only to buy the port of New Orleans for up to $10 million. Instead, Napoleon Bonaparte offered the entire 828,000-square-mile Louisiana territory for $15 million—roughly three cents an acre. Napoleon had lost over 20,000 troops to yellow fever and rebellion in Saint-Domingue, now Haiti. Realizing his American empire was lost, he abruptly liquidated the land to finance his European wars.",
+      "imageWikipediaTitle": "Louisiana Purchase",
+      "sources": [
+        {
+          "title": "Louisiana Purchase Treaty (1803)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty"
+        },
+        {
+          "title": "The Louisiana Purchase",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/april-30/"
+        },
+        {
+          "title": "Louisiana Purchase",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louisiana_Purchase"
+        }
+      ],
+      "readMoreUrl": "https://www.archives.gov/milestone-documents/louisiana-purchase-treaty",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Two-Minute Speech That Overshadowed a Two-Hour Oration",
+      "body": "When Abraham Lincoln dedicated the Soldiers' National Cemetery in Gettysburg on November 19, 1863, he was not the keynote speaker. Orator Edward Everett spoke first, delivering a 13,607-word address from memory for over two hours. Lincoln then followed with a brief, 272-word speech lasting barely two minutes. Everett immediately recognized Lincoln's genius, writing to him the next day that Lincoln had captured the day's essence far better in two minutes than he had in two hours.",
+      "imageWikipediaTitle": "Gettysburg Address",
+      "sources": [
+        {
+          "title": "The Gettysburg Address",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/november-19/"
+        },
+        {
+          "title": "The Gettysburg Address",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/gett/learn/historyculture/gettysburg-address.htm"
+        },
+        {
+          "title": "Gettysburg Address",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gettysburg_Address"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/gett/learn/historyculture/gettysburg-address.htm",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Frederick Douglass Rescued the First Call for Women's Suffrage",
+      "body": "At the 1848 Seneca Falls Convention, the demand for women's voting rights was nearly abandoned. Even co-organizer Lucretia Mott warned Elizabeth Cady Stanton that demanding the ballot would make the convention look ridiculous. The resolution appeared doomed until Frederick Douglass, the only African American among 300 delegates, rose to speak. His impassioned defense convinced the assembly that true liberty required political equality for everyone, narrowly securing suffrage in the landmark Declaration of Sentiments.",
+      "imageWikipediaTitle": "Seneca Falls Convention",
+      "sources": [
+        {
+          "title": "The First Women's Rights Convention",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/wori/learn/historyculture/the-first-womens-rights-convention.htm"
+        },
+        {
+          "title": "Seneca Falls Convention",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/july-19/"
+        },
+        {
+          "title": "Seneca Falls Convention",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seneca_Falls_Convention"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/wori/learn/historyculture/the-first-womens-rights-convention.htm",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Emancipation Proclamation Left Thousands in Legal Bondage",
+      "body": "Signed by Abraham Lincoln on January 1, 1863, the Emancipation Proclamation is remembered as the decree that ended slavery. In reality, it legally freed nobody in Union-controlled territory. Lincoln exempted loyal slaveholding border states like Maryland and Missouri to prevent them from seceding, applying freedom solely to Confederate territory in active rebellion. While it transformed the Civil War into an explicit moral struggle and welcomed Black soldiers, nationwide abolition required the Thirteenth Amendment in 1865.",
+      "imageWikipediaTitle": "Emancipation Proclamation",
+      "sources": [
+        {
+          "title": "Emancipation Proclamation (1863)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/emancipation-proclamation"
+        },
+        {
+          "title": "The Emancipation Proclamation",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/september-22/"
+        },
+        {
+          "title": "Emancipation Proclamation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emancipation_Proclamation"
+        }
+      ],
+      "readMoreUrl": "https://www.archives.gov/milestone-documents/emancipation-proclamation",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Only Person to Win Nobel Prizes in Two Different Sciences",
+      "body": "Marie Curie broke barriers in 1903 by sharing the Nobel Prize in Physics for her pioneering work on radioactivity, becoming the first woman laureate. Eight years later, in 1911, she won a second Nobel Prize—this time solo, in Chemistry, for discovering radium and polonium. While five individuals have won multiple Nobels, Curie remains the only person in history honored across two distinct scientific fields, conducting much of her breakthrough research in a poorly ventilated wooden shed.",
+      "imageWikipediaTitle": "Marie Curie",
+      "sources": [
+        {
+          "title": "Marie Curie – Facts",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/"
+        },
+        {
+          "title": "Marie Curie – Facts",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/"
+        },
+        {
+          "title": "Marie Curie",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marie_Curie"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Napoleon suddenly offer to sell the entire Louisiana Territory to the United States?",
+      "options": [
+        "Massive troop losses in Haiti and looming European war ended his colonial ambitions",
+        "A British naval blockade permanently cut off French shipping across the Atlantic",
+        "Spain offered to give France valuable Caribbean islands in exchange for abandoning it",
+        "The United States threatened an immediate military invasion of New Orleans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Devastating military losses to rebellion and disease in Saint-Domingue (Haiti) shattered Napoleon's dreams of an empire in the Americas."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did featured orator Edward Everett react to Abraham Lincoln's two-minute Gettysburg Address?",
+      "options": [
+        "He admitted Lincoln captured the event's meaning better in two minutes than he did in two hours",
+        "He published an editorial complaining that Lincoln's brevity disrespected fallen soldiers",
+        "He stormed off the platform in protest before Lincoln finished speaking",
+        "He gave a follow-up speech attempting to elaborate on Lincoln's points"
+      ],
+      "correctIndex": 0,
+      "explanation": "Everett wrote to Lincoln the next day, acknowledging that Lincoln's concise speech had distilled the occasion far better than his own two-hour oration."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Who delivered the crucial speech ensuring women's voting rights remained in the 1848 Seneca Falls declaration?",
+      "options": [
+        "Frederick Douglass",
+        "Lucretia Mott",
+        "William Lloyd Garrison",
+        "Susan B. Anthony"
+      ],
+      "correctIndex": 0,
+      "explanation": "Frederick Douglass was the only Black delegate among the 300 attendees, and his impassioned defense swayed the convention to keep the voting resolution."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which enslaved people were deliberately excluded from Abraham Lincoln's Emancipation Proclamation?",
+      "options": [
+        "Those living in loyal Union border states such as Maryland and Missouri",
+        "Those living in Confederate cities captured during the first year of war",
+        "Those whose owners swore an oath of future loyalty to the federal government",
+        "Those working in agricultural fields rather than industrial facilities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Lincoln exempted the slaveholding border states that remained loyal to the Union to keep them from seceding."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In which two scientific fields did Marie Curie win her Nobel Prizes?",
+      "options": [
+        "Physics and Chemistry",
+        "Chemistry and Physiology or Medicine",
+        "Physics and Physiology or Medicine",
+        "Physics and Mathematics"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curie shared the 1903 Nobel Prize in Physics for radioactivity research and won the 1911 Nobel Prize in Chemistry for discovering radium and polonium."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many square miles of territory did the United States acquire in the Louisiana Purchase?",
+      "answer": 828000,
+      "min": 100000,
+      "max": 2000000,
+      "unit": "sq mi",
+      "explanation": "The 1803 purchase added about 828,000 square miles, nearly doubling the geographic size of the United States overnight."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many words did Abraham Lincoln speak in the entire Gettysburg Address?",
+      "answer": 272,
+      "min": 50,
+      "max": 1500,
+      "unit": "words",
+      "explanation": "Lincoln's address was just 272 words long and took roughly two minutes to deliver."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The Emancipation Proclamation immediately abolished slavery throughout the entire United States.",
+      "answer": false,
+      "explanation": "It applied exclusively to Confederate states in active rebellion; slavery remained legal in loyal Union border states until the 13th Amendment passed."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Marie Curie is the only woman to have won the Nobel Prize more than once.",
+      "answer": true,
+      "explanation": "Of the five individuals who have won multiple Nobel Prizes, Curie is the only woman, and the only person to win across two different sciences."
+    }
+  ]
+}

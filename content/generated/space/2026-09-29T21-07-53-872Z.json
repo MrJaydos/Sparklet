@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.872Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Mercury has shrunk by miles as its core cools down",
+      "body": "As Mercury's massive iron core cooled over billions of years, the entire planet contracted like a drying apple. Because the rocky crust is brittle, it buckled and fractured into towering, cliff-like ramps called lobate scarps that stretch for hundreds of kilometers and rise up to three kilometers high. Measurements from NASA's MESSENGER spacecraft revealed that Mercury's radius has shrunk by up to seven kilometers since its formation.",
+      "imageWikipediaTitle": "Mercury (planet)",
+      "sources": [
+        {
+          "title": "Mercury: Facts",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mercury/facts/"
+        },
+        {
+          "title": "Mercury (planet)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mercury/facts/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Two colossal radiation bubbles tower over the Milky Way",
+      "body": "In 2010, astronomers analyzing data from NASA's Fermi Gamma-ray Space Telescope discovered two gargantuan, glowing lobes expanding out from the center of our galaxy. Spanning a combined 50,000 light-years from top to bottom, these \"Fermi Bubbles\" glow brightly in high-energy gamma rays and hot gas. Scientists believe they were inflated millions of years ago by an explosive outburst from Sagittarius A*, the supermassive black hole at the galactic core.",
+      "imageWikipediaTitle": "Fermi bubbles",
+      "sources": [
+        {
+          "title": "Fermi Gamma-ray Space Telescope",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/fermi/"
+        },
+        {
+          "title": "Fermi bubbles",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fermi_bubbles"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/fermi/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Moon dust is made of razor-sharp glass shards",
+      "body": "On Earth, wind and water tumble rock fragments into smooth, rounded grains of sand. The Moon has no atmosphere or liquid water to erode anything. Instead, billions of years of micrometeorite bombardment continually pulverized lunar rocks and melted mineral grains into microscopic, jagged glass beads. Apollo astronauts discovered this regolith dust was relentlessly abrasive, clinging to suits via static electricity, wearing through heavy fabric layers, and irritating their eyes and lungs.",
+      "imageWikipediaTitle": "Lunar soil",
+      "sources": [
+        {
+          "title": "The toxic side of the Moon",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon"
+        },
+        {
+          "title": "Lunar soil",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lunar_soil"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Zero gravity shifts two liters of bodily fluid toward the head",
+      "body": "On Earth, gravity constantly pulls blood and other bodily fluids downward into the lower body. In the microgravity of space, that downward force vanishes, causing about two liters of fluid to migrate upward into the chest and head. This sudden fluid shift leaves astronauts with visibly puffy faces, congested sinuses, and noticeably shrunken calves—a condition flight surgeons nickname \"bird legs.\" The body compensates by shedding excess water, shrinking overall blood volume.",
+      "imageWikipediaTitle": "Effect of spaceflight on the human body",
+      "sources": [
+        {
+          "title": "The Human Body in Space",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/humans-in-space/the-human-body-in-space/"
+        },
+        {
+          "title": "Effect of spaceflight on the human body",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/humans-in-space/the-human-body-in-space/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A glowing wall of hydrogen marks the edge of our solar system",
+      "body": "At the farthest frontier of our solar system, the outgoing solar wind slams into the cold interstellar medium drifting between stars. Where these two forces collide, neutral hydrogen atoms from deep space compress into a vast 360-degree boundary known as the \"hydrogen wall.\" First detected as an ultraviolet glow by the Voyager probes and later confirmed by New Horizons, this cosmic barrier marks where our Sun's protective magnetic bubble finally meets the rest of the galaxy.",
+      "imageWikipediaTitle": "Heliosphere",
+      "sources": [
+        {
+          "title": "New Horizons: Mission Overview",
+          "publisher": "NASA Science",
+          "url": "https://science.nasa.gov/mission/new-horizons/"
+        },
+        {
+          "title": "Heliosphere",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Heliosphere"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/mission/new-horizons/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why has Mercury's radius shrunk by an estimated 7 kilometers since its formation?",
+      "options": [
+        "Its rocky crust was eroded away by solar wind",
+        "Its metallic interior slowly cooled and contracted",
+        "Gravitational tidal forces from the Sun compressed it",
+        "Repeated asteroid impacts pulverized the outer layers"
+      ],
+      "correctIndex": 1,
+      "explanation": "As Mercury's massive iron core cooled over billions of years, the planet contracted, buckling its rocky crust into massive scarps."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is believed to have produced the Milky Way's massive Fermi Bubbles?",
+      "options": [
+        "A past energetic outburst from the central supermassive black hole",
+        "Gravitational tidal friction caused by the nearby Andromeda galaxy",
+        "A synchronized burst of supernovae across the galactic rim",
+        "Solar wind emitted collectively by the galactic disk"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Fermi Bubbles are thought to be remnants of a colossal energy eruption from Sagittarius A* millions of years ago."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is lunar dust so sharp and abrasive compared to Earth sand?",
+      "options": [
+        "Strong lunar magnetic fields align mineral crystals into needles",
+        "Volcanic geysers continually deposit fresh obsidian flakes",
+        "Intense cosmic radiation crystallizes salt deposits on the surface",
+        "Lacking wind and water erosion, impact-shattered glass grains stay jagged"
+      ],
+      "correctIndex": 3,
+      "explanation": "Without an atmosphere or flowing water to weather them down, impact-formed glass and rock fragments remain razor-sharp."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What causes astronauts in microgravity to experience \"puffy face and bird legs\"?",
+      "options": [
+        "Roughly two liters of bodily fluid migrating upward from the legs",
+        "Severe allergic reactions to recycled atmospheric gases",
+        "Rapid muscle atrophy occurring in the neck and jaw",
+        "High spacecraft cabin pressure pushing blood upward"
+      ],
+      "correctIndex": 0,
+      "explanation": "Without gravity pulling bodily fluids down into the legs, about two liters of fluid shift toward the chest and head."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the \"hydrogen wall\" at the edge of the solar system?",
+      "options": [
+        "A dense ring of frozen hydrogen comets beyond Pluto",
+        "A region where neutral interstellar hydrogen builds up against solar wind",
+        "A layer of hydrogen gas trapped in the orbit of Neptune",
+        "An artificial magnetic shield created by robotic satellites"
+      ],
+      "correctIndex": 1,
+      "explanation": "The hydrogen wall is a buildup of neutral hydrogen gas where the outward solar wind collides with the interstellar medium."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By how many kilometers has Mercury's radius contracted as its core cooled?",
+      "answer": 7,
+      "min": 1,
+      "max": 35,
+      "unit": "km",
+      "explanation": "MESSENGER data revealed that Mercury's radius has contracted by roughly 7 kilometers (over 4 miles) as its interior cooled."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "How many light-years tall are the Milky Way's two Fermi bubbles combined from top to bottom?",
+      "answer": 50000,
+      "min": 5000,
+      "max": 150000,
+      "unit": "light-years",
+      "explanation": "The two Fermi bubbles stretch roughly 25,000 light-years above and 25,000 light-years below the galactic plane, spanning 50,000 light-years combined."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many liters of bodily fluid typically shift from the legs to the upper body in microgravity?",
+      "answer": 2,
+      "min": 0.5,
+      "max": 8,
+      "unit": "liters",
+      "explanation": "About two liters of fluid migrate from the lower extremities toward the torso and head without gravity pulling it downward."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Mercury has physically shrunk in size since its formation.",
+      "answer": true,
+      "explanation": "MESSENGER spacecraft data confirmed that the cooling of Mercury's massive core has shrunk the planet's radius by roughly 7 kilometers."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Lunar dust is soft and rounded like fine desert sand on Earth.",
+      "answer": false,
+      "explanation": "Without wind or water to erode it, lunar dust consists of sharp, jagged glass and rock fragments formed by meteorite impacts."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Astronauts' faces swell in space because of allergic reactions to spacecraft air.",
+      "answer": false,
+      "explanation": "Puffy faces are caused by fluid shift: microgravity allows roughly two liters of bodily fluids to migrate upward from the legs."
+    }
+  ]
+}

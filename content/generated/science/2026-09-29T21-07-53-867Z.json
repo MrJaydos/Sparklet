@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.867Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The famous tongue taste map is completely wrong",
+      "body": "Generations of textbooks taught that sweet tastes are sensed only at the tip of the tongue, bitter at the back, and sour along the sides. In reality, all taste qualities can be detected across every region containing taste buds. The myth arose in 1942 when an American psychologist misinterpreted a 1901 German study on subtle sensitivity differences, creating a diagram that became accepted fact for decades.",
+      "imageWikipediaTitle": "Tongue map",
+      "sources": [
+        {
+          "title": "How does our sense of taste work?",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK279408/"
+        },
+        {
+          "title": "The Neat and Tidy Map of Tastes on the Tongue You Learned in School Is All Wrong",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/science-nature/neat-and-tidy-map-tastes-tongue-you-learned-school-all-wrong-180963407/"
+        },
+        {
+          "title": "Tongue map",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tongue_map"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tongue_map",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth is permanently leaking its helium into outer space",
+      "body": "Most elements on Earth cycle endlessly through rocks, oceans, and living tissue. Helium is different. Being exceptionally light and chemically inert, atmospheric helium atoms move fast enough to reach escape velocity. Once released into the air, helium drifts into the upper atmosphere and bleeds off into deep space forever. Nearly all commercial helium must be harvested from underground gas pockets, produced over eons by decaying radioactive rocks.",
+      "imageWikipediaTitle": "Atmospheric escape",
+      "sources": [
+        {
+          "title": "Helium: More than Just Balloons",
+          "publisher": "American Chemical Society",
+          "url": "https://www.acs.org/education/resources/highschool/chemmatters/past-issues/archive-2015-2016/helium.html"
+        },
+        {
+          "title": "Atmospheric escape",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Atmospheric_escape"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Atmospheric_escape",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the night sky isn't blazing as bright as the Sun",
+      "body": "If the universe were infinitely old, eternal, and static, every single line of sight from Earth would eventually strike the surface of a distant star. The night sky should glow with blinding brightness. Known as Olbers' paradox, the mystery was solved by modern cosmology: the universe has a finite age of 13.8 billion years, and space is expanding. Light from the most distant stars simply hasn't had enough time to reach us.",
+      "imageWikipediaTitle": "Olbers' paradox",
+      "sources": [
+        {
+          "title": "Why Is Space Dark?",
+          "publisher": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/dark-sky/en/"
+        },
+        {
+          "title": "Olbers' paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Olbers'_paradox"
+        }
+      ],
+      "readMoreUrl": "https://spaceplace.nasa.gov/dark-sky/en/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your cells run on microscopic rotary motors that spin at 9,000 RPM",
+      "body": "Every living cell relies on ATP synthase, a molecular rotary engine made of protein that produces cellular fuel. Driven by a flowing stream of protons across mitochondrial membranes, its central shaft can spin at up to 9,000 revolutions per minute. Because ATP molecules are consumed seconds after creation, an adult body synthesizes and recycles roughly its entire body weight in ATP every single day to stay alive.",
+      "imageWikipediaTitle": "ATP synthase",
+      "sources": [
+        {
+          "title": "Molecule of the Month: ATP Synthase",
+          "publisher": "RCSB Protein Data Bank",
+          "url": "https://pdb101.rcsb.org/motm/72"
+        },
+        {
+          "title": "ATP synthase",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ATP_synthase"
+        }
+      ],
+      "readMoreUrl": "https://pdb101.rcsb.org/motm/72",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Water takes longer to boil away on a scorching pan than a warm one",
+      "body": "Drop water onto a skillet at 150 °C and it instantly hisses and evaporates. But heat that skillet past 200 °C, and the droplet suddenly skitters intact across the hot surface, surviving for minutes. This is the Leidenfrost effect: extreme heat flash-boils the droplet's bottom into a thin layer of vapor. Because steam is a poor thermal conductor, it acts as an insulating cushion, shielding the droplet above from the blistering metal.",
+      "imageWikipediaTitle": "Leidenfrost effect",
+      "sources": [
+        {
+          "title": "Leidenfrost effect",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/science/Leidenfrost-effect"
+        },
+        {
+          "title": "Leidenfrost effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leidenfrost_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Leidenfrost_effect",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where on the human tongue can bitter tastes actually be detected?",
+      "options": [
+        "Only at the very back",
+        "Only along the outer sides",
+        "Across all areas containing taste buds",
+        "Only near the tip"
+      ],
+      "correctIndex": 2,
+      "explanation": "All taste buds across the tongue contain receptor cells capable of detecting all five basic taste qualities."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why does helium released into the atmosphere permanently escape from Earth?",
+      "options": [
+        "It binds with solar radiation and decomposes",
+        "Its atoms are light enough to reach escape velocity",
+        "It is rapidly consumed by upper-atmosphere ozone",
+        "Earth's magnetic field repels noble gas atoms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Helium is so light that thermal energy allows its atoms to exceed Earth's escape velocity and bleed into space."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary reason the night sky is dark rather than blazing bright with starlight?",
+      "options": [
+        "Interstellar dust absorbs all distant starlight",
+        "The universe has a finite age, so distant light hasn't reached us",
+        "Distant stars emit only invisible infrared frequencies",
+        "Stars are too widely spaced to fill our field of view"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because the universe began roughly 13.8 billion years ago, light from stars beyond the observable horizon has not had time to arrive."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Roughly how much ATP does an adult human body synthesize and recycle in a single day?",
+      "options": [
+        "About 50 grams",
+        "Roughly their total body weight",
+        "About 500 milligrams",
+        "Over one ton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because ATP is continuously broken down and regenerated, your cellular engines rebuild roughly your body weight in ATP each day."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What causes water droplets to survive longer on a very hot surface during the Leidenfrost effect?",
+      "options": [
+        "Surface tension thickens the droplet's outer membrane",
+        "An insulating vapor cushion forms beneath the droplet",
+        "The droplet's temperature drops below freezing",
+        "The metal surface becomes chemically hydrophobic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extreme heat instantly vaporizes the droplet's base, creating a steam cushion that insulates the rest of the droplet."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "At peak operation, how many revolutions per minute (RPM) can the cellular motor ATP synthase spin?",
+      "answer": 9000,
+      "min": 500,
+      "max": 30000,
+      "unit": "RPM",
+      "explanation": "ATP synthase can rotate at up to 9,000 RPM, rapidly churning out the ATP molecules that power cellular life."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The human tongue has distinct zones dedicated to tasting sweet, sour, salty, and bitter.",
+      "answer": false,
+      "explanation": "Taste receptors for all basic tastes are distributed across all regions of the tongue that have taste buds."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "If the universe were infinitely old and filled with static stars, the night sky would be as bright as the Sun.",
+      "answer": true,
+      "explanation": "This is Olbers' paradox: every line of sight would eventually terminate on a star's surface, bathing Earth in daylight."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Heating a frying pan to higher temperatures will always cause water droplets to evaporate faster.",
+      "answer": false,
+      "explanation": "Past the Leidenfrost point, an insulating vapor cushion forms beneath the water, making it take much longer to boil away."
+    }
+  ]
+}

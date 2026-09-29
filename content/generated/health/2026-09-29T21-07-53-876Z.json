@@ -1,0 +1,213 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.876Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles refuse to share their stored carbohydrates",
+      "body": "When your liver stores glycogen, it breaks it down into free glucose to stabilize blood sugar and feed your brain. But skeletal muscle lacks an essential enzyme called glucose-6-phosphatase. Once glucose enters a muscle cell and becomes glycogen, it is permanently locked inside. Your muscles can burn this fuel for their own contractions, but cannot release a single molecule back into the bloodstream to help starving tissues elsewhere in your body.",
+      "imageWikipediaTitle": "Glycogen",
+      "sources": [
+        {
+          "title": "Biochemistry, Glycogen",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539877/"
+        },
+        {
+          "title": "Glucose 6-phosphatase",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Glucose_6-phosphatase"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539877/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Blue eyes contain zero blue pigment",
+      "body": "The human eye cannot produce blue pigment. In reality, iris color is determined by a single dark pigment called melanin. In brown eyes, high concentrations of melanin absorb incoming light. But in blue eyes, the iris contains minimal melanin in its outer stroma layer. Instead of absorption, light scattering—the exact same physical Rayleigh-scattering phenomenon that makes the sky appear blue—scatters shorter blue wavelengths back out, creating the optical illusion of blue eyes.",
+      "imageWikipediaTitle": "Eye color",
+      "sources": [
+        {
+          "title": "Is eye color determined by genetics?",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/genetics/understanding/traits/eyecolor/"
+        },
+        {
+          "title": "Eye color",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eye_color"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/genetics/understanding/traits/eyecolor/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Losing weight too quickly dramatically increases your gallstone risk",
+      "body": "Dropping weight too fast can backfire on your gallbladder. When you slash calories drastically or shed over three pounds per week, your liver metabolizes large amounts of body fat and dumps excess cholesterol into your bile. At the same time, eating very little dietary fat prevents the gallbladder from contracting regularly. The sluggish, cholesterol-saturated bile stagnates, causing crystals to precipitate into painful gallstones in up to twenty-five percent of rapid weight-loss dieters.",
+      "imageWikipediaTitle": "Gallstone",
+      "sources": [
+        {
+          "title": "Gallstones (Cholelithiasis)",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK459370/"
+        },
+        {
+          "title": "Gallstones",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/gallstones.html"
+        },
+        {
+          "title": "Gallstone",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gallstone"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/gallstones.html",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Without this nutrient, your liver cannot export fat",
+      "body": "Your liver constantly packages fat into very low-density lipoproteins (VLDL) to ship triglycerides out to bodily tissues for fuel or storage. To assemble the protective shell of these transport particles, your liver requires phosphatidylcholine, synthesized from dietary choline. If your diet lacks choline, this export system completely stalls. Unable to package or ship fats, your liver begins accumulating triglycerides inside its own cells, triggering non-alcoholic fatty liver disease in just weeks.",
+      "imageWikipediaTitle": "Choline",
+      "sources": [
+        {
+          "title": "Choline - Fact Sheet for Health Professionals",
+          "publisher": "Office of Dietary Supplements",
+          "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+        },
+        {
+          "title": "Choline",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Choline"
+        }
+      ],
+      "readMoreUrl": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your testicles require an external climate-control system",
+      "body": "Human sperm development is exceptionally temperature-sensitive. The testes must stay roughly two to three degrees Celsius cooler than your normal core body temperature of thirty-seven degrees Celsius to manufacture viable sperm. Because the abdominal cavity is too warm, the testes hang outside the body in the scrotum. Two specialized muscles—the cremaster and dartos—act as an automatic thermostat, involuntarily contracting to pull the testes closer for warmth and relaxing when overheated.",
+      "imageWikipediaTitle": "Cremaster muscle",
+      "sources": [
+        {
+          "title": "Anatomy, Abdomen and Pelvis: Cremaster Muscle",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK544322/"
+        },
+        {
+          "title": "Cremaster muscle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cremaster_muscle"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK544322/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why are skeletal muscles incapable of releasing stored glycogen as blood glucose?",
+      "options": [
+        "They lack the enzyme glucose-6-phosphatase",
+        "Muscle fibers lack direct capillary contact",
+        "Adrenaline actively neutralizes muscle glycogen",
+        "Glycogen cannot dissolve in muscle cytoplasm"
+      ],
+      "correctIndex": 0,
+      "explanation": "Skeletal muscle lacks glucose-6-phosphatase, preventing it from converting glycogen breakdown products into free glucose for export into the blood."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What physical mechanism creates the appearance of blue eyes in humans?",
+      "options": [
+        "Light scattering through a stroma that lacks heavy melanin",
+        "A specialized blue pigment synthesized by iris melanocytes",
+        "High concentrations of oxidized copper in the iris tissue",
+        "Light refraction through the crystalline lens of the eye"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blue eyes contain no blue pigment; minimal melanin allows shorter blue wavelengths to be scattered back out via Rayleigh scattering."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does rapid weight loss increase the risk of forming gallstones?",
+      "options": [
+        "The liver floods bile with cholesterol while the gallbladder contracts less often",
+        "Excess vitamin C crystallization hardens bile fluid inside the ducts",
+        "Severe dehydration concentrates digestive acid inside the pancreas",
+        "Starvation forces stomach acid backwards into the biliary system"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rapidly burning fat causes the liver to dump excess cholesterol into bile, while reduced food intake leaves the gallbladder dormant, leading to crystallization."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does a dietary deficiency in choline cause fat to accumulate in the liver?",
+      "options": [
+        "The liver cannot produce the lipoprotein capsules needed to export fat",
+        "Choline is the primary fuel source for burning muscle glycogen",
+        "A lack of choline stops the digestive tract from absorbing carbohydrates",
+        "Choline deficiency triggers the pancreas to pump excess insulin into bile"
+      ],
+      "correctIndex": 0,
+      "explanation": "Choline is required to synthesize phosphatidylcholine, an essential structural component of VLDL particles that transport fat out of the liver."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are human testes housed externally in the scrotum rather than inside the abdomen?",
+      "options": [
+        "Sperm production requires a temperature 2 to 3°C below core body heat",
+        "Abdominal muscle contractions would physically crush developing sperm",
+        "The abdominal cavity lacks sufficient arterial blood vessels",
+        "Developing sperm cells require direct absorption of atmospheric oxygen"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spermatogenesis is heat-sensitive and functions optimally at temperatures 2 to 3°C lower than core human body temperature."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of individuals who undergo rapid weight loss develop gallstones?",
+      "answer": 25,
+      "min": 1,
+      "max": 80,
+      "unit": "%",
+      "explanation": "Up to 25% of people on rapid weight-loss diets develop gallstones due to cholesterol-saturated, stagnant bile."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many degrees Celsius cooler than core body temperature must the testes remain for optimal sperm production?",
+      "answer": 3,
+      "min": 1,
+      "max": 10,
+      "unit": "°C",
+      "explanation": "Testicular temperature must stay roughly 2 to 3°C below core body temperature to prevent damage to sperm production."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "During a fast, your body breaks down muscle glycogen to restore falling blood sugar levels.",
+      "answer": false,
+      "explanation": "Muscle tissue lacks the enzyme glucose-6-phosphatase, so its stored glycogen can only be consumed locally by the muscle itself."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Blue eyes get their distinctive shade from a blue pigment produced in the iris.",
+      "answer": false,
+      "explanation": "The human eye produces no blue pigment; blue eyes appear blue solely because low melanin levels allow light scattering to reflect blue wavelengths."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Fatty liver disease is caused exclusively by excessive alcohol consumption or eating too much fat.",
+      "answer": false,
+      "explanation": "A simple dietary deficiency in choline prevents the liver from packaging and exporting fat, causing fatty liver disease on its own."
+    }
+  ]
+}

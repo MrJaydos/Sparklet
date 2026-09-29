@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.874Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The famous marshmallow test was measuring trust, not just willpower",
+      "body": "For decades, the Stanford marshmallow experiment was thought to prove that innate self-control determines life success. But a 2013 University of Rochester study flipped this assumption. When researchers broke promises to children before the test, the kids waited an average of only 3 minutes before eating the treat. When researchers proved reliable, children waited 12 minutes—four times longer. The decision to resist temptation was a rational calculation about whether adults keep their word.",
+      "imageWikipediaTitle": "Stanford marshmallow experiment",
+      "sources": [
+        {
+          "title": "Rational snacking: Young children's decision-making on the marshmallow task is moderated by beliefs about environmental reliability",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3725963/"
+        },
+        {
+          "title": "Stanford marshmallow experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stanford_marshmallow_experiment"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3725963/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Amnesic patients who cannot remember Tetris still dream about falling blocks",
+      "body": "In a 2000 Harvard study, participants played hours of Tetris before bed. The researchers included patients with extensive hippocampal damage who had profound amnesia and could not form new conscious memories. Despite having zero recollection of ever playing or seeing the video game, 60% of the amnesic patients vividly reported seeing falling, rotating geometric shapes as they drifted to sleep. This proved that sleep-onset imagery is generated independently of the brain's conscious episodic memory system.",
+      "imageWikipediaTitle": "Tetris",
+      "sources": [
+        {
+          "title": "Replaying the game: hypnagogic images in normals and amnesics",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11030656/"
+        },
+        {
+          "title": "Tetris effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tetris_effect"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Tetris_effect",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Staying awake for 24 hours nearly triples the risk of signing a false confession",
+      "body": "Interrogators often subject suspects to grueling, sleepless nights, but sleep deprivation warps legal decision-making. In a 2016 study, college students completed computer tasks after being warned that pressing the Escape key would damage data. After either a full night's sleep or 24 hours awake, participants were falsely accused of pressing the key. While only 18% of well-rested students signed a written confession admitting the bogus infraction, 50% of sleep-deprived students signed.",
+      "imageWikipediaTitle": "False confession",
+      "sources": [
+        {
+          "title": "Sleep deprivation and false confessions",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4763777/"
+        },
+        {
+          "title": "False confession",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/False_confession"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4763777/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Being in a rush makes people step right over an injured stranger",
+      "body": "In 1973, Princeton psychologists recruited seminary students to give a talk on the biblical parable of the Good Samaritan. Along the path to the lecture hall, an actor sat slumped in an alley, groaning and coughing. If told they had plenty of time, 63% of students stopped to help. But when researchers told them they were running late, only 10% stopped—with some students literally stepping over the groaning man on their way.",
+      "imageWikipediaTitle": "Parable of the Good Samaritan",
+      "sources": [
+        {
+          "title": "From Jerusalem to Jericho: a study of situational and dispositional variables in helping behavior",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/4794269/"
+        },
+        {
+          "title": "Good Samaritan experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Good_Samaritan_experiment"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Good_Samaritan_experiment",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your body stumbles when stepping onto a stopped escalator",
+      "body": "When you step onto a broken, stationary escalator, your body experiences an unmistakable, clumsy jolt. In 2003, neuroscientists proved this sensation isn't just mental surprise: it is an automatic motor program your brain cannot consciously disable. Even when volunteers knew with complete certainty that a walkway was turned off, their leg muscles preemptively surged with extra speed, and their torsos tilted forward. Your subconscious motor memories completely override what your conscious mind sees.",
+      "imageWikipediaTitle": "Escalator",
+      "sources": [
+        {
+          "title": "The broken escalator phenomenon. Aftereffects of walking onto a moving platform",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12838465/"
+        },
+        {
+          "title": "Broken escalator phenomenon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Broken_escalator_phenomenon"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Broken_escalator_phenomenon",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What factor dramatically increased how long children waited to eat a marshmallow in the 2013 Rochester study?",
+      "options": [
+        "Experiencing a reliable adult who kept promises",
+        "Listening to soothing classical music",
+        "Receiving a monetary reward",
+        "Having a parent present in the room"
+      ],
+      "correctIndex": 0,
+      "explanation": "Children who interacted with a reliable researcher waited an average of 12 minutes, compared to just 3 minutes for those who faced an unreliable adult."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happened when amnesic patients who had played Tetris drifted off to sleep?",
+      "options": [
+        "They reported seeing visual images of falling geometric shapes",
+        "They forgot how to speak English",
+        "They showed no electrical brain activity during sleep onset",
+        "They woke up believing they were computer programmers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sixty percent of amnesic patients experienced visual imagery of falling Tetris blocks despite having zero conscious memory of ever playing the game."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In a 2016 study, what percentage of sleep-deprived participants signed a confession for a computer error they did not commit?",
+      "options": [
+        "50%",
+        "18%",
+        "5%",
+        "85%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Half of the sleep-deprived participants signed the false confession admitting to pressing a forbidden key, compared to only 18% of rested participants."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What dramatically reduced the likelihood that seminary students would stop to help a groaning stranger in the 1973 Princeton study?",
+      "options": [
+        "Being told they were running behind schedule",
+        "Whether they had scored high on religious devotion",
+        "The weather conditions outside",
+        "The age of the groaning stranger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Being told they were in a rush dropped the helping rate from 63% down to just 10%, overriding their preparation to preach on the Good Samaritan."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do people stumble when walking onto an escalator they know is turned off?",
+      "options": [
+        "Subconscious motor habits trigger learned postural adjustments that conscious knowledge cannot suppress",
+        "The metal grooves on escalator steps create an optical illusion of motion",
+        "Elevated electromagnetic fields near escalator motors disrupt inner ear balance",
+        "Lack of airflow in stairwells temporarily impairs depth perception"
+      ],
+      "correctIndex": 0,
+      "explanation": "Even when you consciously know the escalator is stopped, motor circuits automatically fire anticipatory speed and postural adjustments learned from moving escalators."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In the Rochester study, how many minutes did children wait for a second marshmallow after interacting with a reliable adult?",
+      "answer": 12,
+      "min": 1,
+      "max": 30,
+      "unit": "minutes",
+      "explanation": "Children with a reliable adult waited an average of 12 minutes—four times longer than the 3 minutes waited by children who experienced an unreliable adult."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of amnesic patients in the Harvard Tetris study reported seeing falling blocks as they drifted off to sleep?",
+      "answer": 60,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Despite possessing no conscious memory of playing Tetris, 60% of amnesic patients experienced hypnagogic images of falling blocks."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of sleep-deprived participants signed a false confession admitting to an infraction they never committed?",
+      "answer": 50,
+      "min": 5,
+      "max": 95,
+      "unit": "%",
+      "explanation": "While only 18% of well-rested participants signed the false confession, staying awake for 24 hours pushed the rate to 50%."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of seminary students stopped to help an injured stranger when told they were running late?",
+      "answer": 10,
+      "min": 0,
+      "max": 70,
+      "unit": "%",
+      "explanation": "Even though they were on their way to deliver a sermon on the Good Samaritan, only 10% of rushed students stopped to help, compared to 63% of unhurried students."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "A child's ability to delay gratification on the marshmallow test measures purely innate self-control.",
+      "answer": false,
+      "explanation": "Replications show that waiting is heavily influenced by environmental trust: if adults seem unreliable, eating the treat immediately is a rational choice."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "An innocent person who is fully mentally competent would never sign a written confession to a crime they didn't commit.",
+      "answer": false,
+      "explanation": "Sleep deprivation, stress, and suggestive interrogation tactics can lead even competent, innocent people to sign false confessions."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The clumsy jolt you feel on a stopped escalator happens because you mistakenly thought it was moving.",
+      "answer": false,
+      "explanation": "Neuroscientists found the jolt occurs even when you fully know the escalator is broken, because automatic motor reflexes override conscious knowledge."
+    }
+  ]
+}

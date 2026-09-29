@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.869Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The world's first computer music was played in Australia in 1951",
+      "body": "Long before Bell Labs made an IBM mainframe sing in 1961, Australia's first digital computer, CSIRAC, was already performing melodies. In August 1951, mathematician Geoff Hill programmed CSIRAC to play the Colonel Bogey March. The machine had no sound card; Hill carefully timed computational pulses sent to an onboard speaker originally designed to help operators monitor program execution by ear.",
+      "imageWikipediaTitle": "CSIRAC",
+      "sources": [
+        {
+          "title": "CSIRAC (Commonwealth Scientific and Industrial Research Automatic Computer)",
+          "publisher": "CSIRO",
+          "url": "https://csiropedia.csiro.au/csirac/"
+        },
+        {
+          "title": "CSIRAC",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/CSIRAC"
+        }
+      ],
+      "readMoreUrl": "https://csiropedia.csiro.au/csirac/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A fundamental flaw in binary search hid in plain sight for 40 years",
+      "body": "In 2006, computer scientist Joshua Bloch revealed that the standard binary search implementation taught in textbooks since the 1960s contained a critical bug. Programmers routinely calculated midpoints using (low + high) / 2. In large arrays, summing two large positive integers exceeds the maximum 32-bit signed integer, wrapping into a negative number and crashing the program. The subtle flaw lurked undetected in Java's standard libraries for nine years.",
+      "imageWikipediaTitle": "Binary search algorithm",
+      "sources": [
+        {
+          "title": "Extra, Extra - Read All About It: Nearly All Binary Searches and Mergesorts are Broken",
+          "publisher": "Google Research",
+          "url": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/"
+        },
+        {
+          "title": "Binary search algorithm",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Binary_search_algorithm"
+        }
+      ],
+      "readMoreUrl": "https://research.google/blog/extra-extra-read-all-about-it-nearly-all-binary-searches-and-mergesorts-are-broken/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first commercial real-time network cut booking time from 3 hours to 3 seconds",
+      "body": "In 1960, American Airlines and IBM developed SABRE, the world's first large-scale real-time commercial computer system. Before SABRE, booking an airline seat required teams of phone operators manually pulling index cards from lazy Susan turntables, taking up to three hours. Built around two IBM 7090 mainframes and connected by telephone lines to 1,500 terminals across 65 cities, SABRE processed reservations across North America in roughly three seconds.",
+      "imageWikipediaTitle": "Sabre (computer system)",
+      "sources": [
+        {
+          "title": "SABRE: The First Online Reservation System",
+          "publisher": "IBM",
+          "url": "https://www.ibm.com/history/sabre"
+        },
+        {
+          "title": "Sabre (computer system)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sabre_(computer_system)"
+        }
+      ],
+      "readMoreUrl": "https://www.ibm.com/history/sabre",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sudo was invented so university students could unjam a printer",
+      "body": "In 1980, Robert Coggeshall and Cliff Spencer created the command sudo at SUNY Buffalo out of operational desperation. Undergraduate computer science students frequently jammed the department's central line printer and needed root administrative access to restart the print daemon. Instead of sharing the superuser password or granting dangerous unrestricted privileges to students, the engineers wrote a lightweight utility to delegate single, specific administrative commands without exposing the root password.",
+      "imageWikipediaTitle": "Sudo",
+      "sources": [
+        {
+          "title": "A Brief History of Sudo",
+          "publisher": "Sudo",
+          "url": "https://www.sudo.ws/about/history/"
+        },
+        {
+          "title": "Sudo",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sudo"
+        }
+      ],
+      "readMoreUrl": "https://www.sudo.ws/about/history/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A solo developer coded a smash-hit simulation game almost entirely in assembly",
+      "body": "While modern video games rely on high-level languages like C++ and complex game engines, Scottish developer Chris Sawyer wrote 99 percent of the 1999 bestseller RollerCoaster Tycoon directly in raw x86 assembly language. Sawyer wrote roughly 300,000 lines of low-level machine code by hand, reserving C only to interface with Windows DirectX. This extreme optimization enabled the game to simulate hundreds of interactive park guests and intricate ride physics smoothly on modest personal computers.",
+      "imageWikipediaTitle": "RollerCoaster Tycoon (video game)",
+      "sources": [
+        {
+          "title": "Frequently Asked Questions: RollerCoaster Tycoon",
+          "publisher": "Chris Sawyer Software",
+          "url": "https://www.chrissawyergames.com/faq.htm"
+        },
+        {
+          "title": "RollerCoaster Tycoon (video game)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RollerCoaster_Tycoon_(video_game)"
+        }
+      ],
+      "readMoreUrl": "https://www.chrissawyergames.com/faq.htm",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did the CSIRAC computer produce the world's first computer music in 1951?",
+      "options": [
+        "By timing raw processor pulses sent to an onboard diagnostic speaker",
+        "By sending MIDI instructions to an external synthesizer",
+        "By reading musical notation encoded on optical film tracks",
+        "By mechanically striking physical bells using automated relays"
+      ],
+      "correctIndex": 0,
+      "explanation": "CSIRAC had no dedicated audio card; programmer Geoff Hill generated notes by precisely timing CPU instruction pulses sent to a speaker meant for tracking program execution."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was the classic midpoint formula (low + high) / 2 broken in many binary search implementations?",
+      "options": [
+        "Summing two large positive integers can overflow into a negative number",
+        "Integer division truncates decimals toward zero rather than rounding",
+        "Floating-point rounding errors caused endless loop conditions",
+        "The operation executed too slowly on 64-bit microprocessor architectures"
+      ],
+      "correctIndex": 0,
+      "explanation": "When low + high exceeds the maximum 32-bit signed integer value, it overflows to a negative integer, causing an out-of-bounds array access exception."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How fast did the 1960 SABRE reservation system process bookings compared to the previous manual system?",
+      "options": [
+        "About 3 seconds compared to up to 3 hours manually",
+        "About 30 seconds compared to 10 minutes manually",
+        "About 5 minutes compared to 24 hours manually",
+        "About 1 second compared to 2 days manually"
+      ],
+      "correctIndex": 0,
+      "explanation": "SABRE replaced a manual index-card turntable system that took up to three hours per reservation with an online transaction completed in roughly three seconds."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What original problem prompted engineers at SUNY Buffalo to create sudo in 1980?",
+      "options": [
+        "Students needed root privileges to restart a jammed printer without getting full system access",
+        "Researchers needed to share encrypted files across different departmental mainframes",
+        "Administrators needed to track unauthorized remote logins over dial-up modems",
+        "Faculty members needed to prevent students from modifying shared exam files"
+      ],
+      "correctIndex": 0,
+      "explanation": "Undergraduates frequently jammed the departmental line printer; sudo allowed them to run the restart command as root without giving away the superuser password."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What programming language was used to write 99% of the original 1999 RollerCoaster Tycoon?",
+      "options": [
+        "x86 Assembly",
+        "C++",
+        "Turbo Pascal",
+        "Visual Basic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Chris Sawyer wrote virtually the entire simulation in raw x86 assembly language by hand, using C only as a thin wrapper for Windows DirectX."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "For how many years did the integer overflow bug in binary search hide undetected in Java's standard libraries before being discovered?",
+      "answer": 9,
+      "min": 1,
+      "max": 30,
+      "unit": "years",
+      "explanation": "The bug was present from Java's launch until Joshua Bloch documented and fixed it in 2006."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "In 1960, SABRE cut the time to process an airline reservation from 3 hours down to about how many seconds?",
+      "answer": 3,
+      "min": 1,
+      "max": 60,
+      "unit": "seconds",
+      "explanation": "SABRE's networked IBM mainframes processed transactions across North America in roughly three seconds."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The first computer-generated music was synthesized by Bell Labs in the 1960s.",
+      "answer": false,
+      "explanation": "Australia's CSIRAC computer played digital melodies like the Colonel Bogey March in August 1951, a full decade before Bell Labs' famous singing computer."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "The classic textbook formula (low + high) / 2 in binary search is safe from arithmetic errors.",
+      "answer": false,
+      "explanation": "In 32-bit programming, adding two large positive indices can exceed 2,147,483,647, wrapping into a negative integer and crashing the program."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "RollerCoaster Tycoon was written almost entirely in raw assembly language rather than C or C++.",
+      "answer": true,
+      "explanation": "Developer Chris Sawyer wrote 99% of the hit game in x86 machine assembly by hand to maximize speed, using C only for a minimal DirectX wrapper."
+    }
+  ]
+}

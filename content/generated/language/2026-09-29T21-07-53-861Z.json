@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.862Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Myanmar’s Everyday Greeting Wishes Auspicious Blessings",
+      "body": "In Myanmar, the standard greeting is မင်္ဂလာပါ (mingalaba, pronounced \"ming-gah-lah-bah\"). Rather than noting the time of day, this everyday phrase draws from the Buddhist Pali term maṅgala, which translates to \"auspicious blessings\" or \"good fortune,\" combined with the polite verbal suffix ပါ (ba). Coined for use in classrooms during the twentieth century, the phrase quickly became nationwide shorthand for wishing moral prosperity, safety, and well-being to anyone you meet.",
+      "imageWikipediaTitle": "Burmese language",
+      "sources": [
+        {
+          "title": "Mingalaba",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mingalaba"
+        },
+        {
+          "title": "Useful Burmese phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/burmese.php"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mingalaba",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How to Say \"Hello\" in the Cherokee Syllabary",
+      "body": "In the Cherokee language (Tsalagi), the universal greeting is ᎣᏏᏲ (osiyo, pronounced \"oh-see-yoh\"). Written in the unique 85-character syllabary devised by Cherokee scholar Sequoyah in the early 1820s, the term serves as both \"hello\" and an inquiry into whether all is well. Because Sequoyah designed each character to represent a full syllable rather than an individual letter, greeting someone in writing requires just three distinct glyphs: Ꭳ (o), Ꮟ (si), and Ᏺ (yo).",
+      "imageWikipediaTitle": "Cherokee syllabary",
+      "sources": [
+        {
+          "title": "Cherokee Nation Language Department",
+          "publisher": "Cherokee Nation",
+          "url": "https://language.cherokee.org/"
+        },
+        {
+          "title": "Cherokee syllabary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cherokee_syllabary"
+        }
+      ],
+      "readMoreUrl": "https://language.cherokee.org/",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Reverent Bow Behind the Ancient Tamil Greeting",
+      "body": "Spoken by tens of millions across South India, Sri Lanka, and Singapore, the traditional Tamil greeting is வணக்கம் (vaṇakkam, pronounced \"vah-nahk-kum\"). Stemming from the Old Tamil verb root vaṇangu, which means \"to bow,\" \"to revere,\" or \"to bend with respect,\" it is customarily uttered with palms pressed together at chest height. Rather than marking the time of day, this ancient classical greeting honors the person before you with a posture of genuine humility.",
+      "imageWikipediaTitle": "Tamil language",
+      "sources": [
+        {
+          "title": "University of Madras Tamil Lexicon",
+          "publisher": "University of Chicago",
+          "url": "https://dsal.uchicago.edu/dictionaries/tamil-lex/"
+        },
+        {
+          "title": "Vanakkam",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vanakkam"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Vanakkam",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Your \"Rivals\" Were Originally People Sharing Your Stream",
+      "body": "Today, rivals can compete over athletic trophies, corporate promotions, or political office. But etymologically, rivalry was a matter of basic survival. The English word \"rival\" traces back to the Latin rivalis, originally an adjective meaning \"pertaining to a brook\" or \"using the same stream,\" from rivus (stream). Roman legal codes addressed frequent disputes between neighbors who drew irrigation water from the identical channel, forever cementing the idea that shared resources inevitably breed fierce competitors.",
+      "imageWikipediaTitle": "Stream",
+      "sources": [
+        {
+          "title": "Rival Definition & Meaning",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/rival"
+        },
+        {
+          "title": "rival | Etymology, origin and meaning",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/rival"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/rival",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Modern \"Freelancers\" Are Named After Medieval Knights",
+      "body": "Working as a freelancer might feel like a distinctly modern gig-economy lifestyle, but the term began on medieval battlefields. Scottish author Sir Walter Scott popularized the word in his 1819 historical novel Ivanhoe. In the book, a feudal lord threatens to unleash his mercenary soldiers, describing them as \"free lances\"—knights whose weapons and cavalry lances were not pledged to any single monarch or liege lord, but were available for hire to the highest bidder.",
+      "imageWikipediaTitle": "Lance",
+      "sources": [
+        {
+          "title": "Did 'Freelance' Originate with Knights?",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/freelance-origin-meaning"
+        },
+        {
+          "title": "freelance | Etymology, origin and meaning",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/freelance"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/freelance-origin-meaning",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the Burmese greeting mingalaba (မင်္ဂလာပါ) literally wish upon the listener?",
+      "options": [
+        "Auspicious blessings or good fortune",
+        "A peaceful night of restful sleep",
+        "A long life in good health",
+        "Victory over every adversary"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mingalaba derives from the Buddhist Pali word maṅgala, meaning auspicious blessings or good fortune, paired with a polite suffix."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How many characters make up the written Cherokee greeting ᎣᏏᏲ (osiyo) in Sequoyah's syllabary?",
+      "options": [
+        "Three characters",
+        "Five characters",
+        "One single character",
+        "Seven characters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because Sequoyah's writing system is a syllabary, each symbol represents an entire syllable, spelling o-si-yo in just three glyphs: Ꭳ, Ꮟ, and Ᏺ."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the root verb behind the Tamil greeting vaṇakkam (வணக்கம்) literally mean?",
+      "options": [
+        "To bow or bend with respect",
+        "To share daily bread",
+        "To wish good fortune",
+        "To offer illuminating light"
+      ],
+      "correctIndex": 0,
+      "explanation": "Vaṇakkam traces to the Old Tamil root vaṇangu, meaning to bow or bend respectfully, traditionally accompanied by palms pressed together."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the Latin ancestor of the word \"rival\" (rivalis) originally describe?",
+      "options": [
+        "Neighbors who shared the same stream",
+        "Soldiers serving in the same cavalry unit",
+        "Merchants selling goods in the same square",
+        "Gladiators armed with identical weapons"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rivalis derives from rivus (\"stream\"), originally denoting neighbors who shared the same brook and frequently clashed over water rights."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did the phrase \"free lance\" describe when Sir Walter Scott popularized it in Ivanhoe?",
+      "options": [
+        "Mercenary knights available for hire",
+        "Tournament fighters seeking fame",
+        "Squires who had purchased their freedom",
+        "Weaponsmiths serving no lord"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Ivanhoe, Scott used \"free lances\" to describe mercenary warriors whose lances were not pledged to any permanent lord or banner."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many distinct characters make up the Cherokee syllabary created by Sequoyah in the 1820s?",
+      "answer": 85,
+      "min": 20,
+      "max": 200,
+      "unit": "",
+      "explanation": "Sequoyah designed an 85-character syllabary, where each character corresponds to an entire syllable rather than an isolated sound."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "The word \"freelance\" was coined in the 20th century to describe corporate contractors and self-employed workers.",
+      "answer": false,
+      "explanation": "Sir Walter Scott popularized \"free lances\" in his 1819 novel Ivanhoe to describe medieval mercenary knights available for hire."
+    }
+  ]
+}

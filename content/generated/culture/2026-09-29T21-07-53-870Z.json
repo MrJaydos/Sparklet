@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-29T21:07:53.870Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 500-Year-Old Incan Bridge Rebuilt by Hand Every Year",
+      "body": "Suspended high above Peru’s Apurímac River canyon hangs Q’eswachaka, the world’s last remaining Incan rope bridge. Every June, around a thousand members of neighboring Quechua communities dismantle the existing bridge and weave a brand-new 118-foot span entirely by hand. Using twisted cords of tough native grass braided into massive suspension cables, they complete the entire crossing in just three days, renewing a 500-year-old communal Incan engineering tradition.",
+      "imageWikipediaTitle": "Q'eswachaka",
+      "sources": [
+        {
+          "title": "Knowledge, skills and rituals related to the annual renewal of the Q’eswachaka bridge",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/knowledge-skills-and-rituals-related-to-the-annual-renewal-of-the-q-eswachaka-bridge-00894"
+        },
+        {
+          "title": "Q'eswachaka",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Q%27eswachaka"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/knowledge-skills-and-rituals-related-to-the-annual-renewal-of-the-q-eswachaka-bridge-00894",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 900-Year-Old Tannery That Softens Leather with Pigeon Dung",
+      "body": "In the heart of Fez, Morocco, the Chouara Tannery has operated virtually unchanged since the 11th century. To transform raw animal hides into supple leather, workers soak sheep, goat, and cow skins in stone vats filled with pigeon droppings and water. The ammonia in the pigeon feces acts as a natural softening agent, breaking down stiff proteins in the hide before workers tread on them barefoot and dye them with natural pigments like saffron and poppy.",
+      "imageWikipediaTitle": "Chouara Tannery",
+      "sources": [
+        {
+          "title": "Medina of Fez",
+          "publisher": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/187"
+        },
+        {
+          "title": "Chouara Tannery",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chouara_Tannery"
+        }
+      ],
+      "readMoreUrl": "https://whc.unesco.org/en/list/187",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Earthquake-Proof Wooden Pagodas Built Without a Single Nail",
+      "body": "Japan’s ancient wooden pagodas, some standing for over 1,300 years, withstand devastating earthquakes without steel rebar, concrete, or even a single metal nail. Master carpenters achieved this through kigumi, an intricate joinery technique where interlocking wooden joints fit together like three-dimensional puzzle pieces. During tremors, the loose friction between unglued joints dissipates seismic energy, allowing towering multi-story timber structures like Hōryū-ji’s pagoda to sway gently and flex rather than snap.",
+      "imageWikipediaTitle": "Japanese carpentry",
+      "sources": [
+        {
+          "title": "Traditional skills, techniques and knowledge for the conservation and transmission of wooden architecture in Japan",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/traditional-skills-techniques-and-knowledge-for-the-conservation-and-transmission-of-wooden-architecture-in-japan-01618"
+        },
+        {
+          "title": "Japanese carpentry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_carpentry"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/traditional-skills-techniques-and-knowledge-for-the-conservation-and-transmission-of-wooden-architecture-in-japan-01618",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Croatian Gingerbread Hearts Made to Be Looked At, Not Eaten",
+      "body": "In northern Croatia, the craft of making licitars—vividly decorated gingerbread ornaments—dates back to the Middle Ages. Baked from a simple dough of honey, flour, and water, each heart is dipped in bright red opaque glaze and meticulously decorated with swirls of sugar icing. Traditionally gifted as tokens of romantic love, licitars are not intended for eating. Most feature a tiny mirror set into the center so the recipient can see their own reflection in the giver's heart.",
+      "imageWikipediaTitle": "Licitar",
+      "sources": [
+        {
+          "title": "Gingerbread craft from Northern Croatia",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/gingerbread-craft-from-northern-croatia-00356"
+        },
+        {
+          "title": "Licitar",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Licitar"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/gingerbread-craft-from-northern-croatia-00356",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Argentine Tango Was Originally Danced by Pairs of Men",
+      "body": "Before becoming the toast of Parisian high society, tango emerged in the 1880s across the impoverished port slums of Buenos Aires and Montevideo. A massive influx of European laborers created a severe gender imbalance, with men outnumbering women by roughly three to one. To earn dance time with scarce female partners at public milongas, men spent hours practicing the intricate, sensual steps together on cobblestone street corners and in tenement courtyards, mastering both leading and following roles.",
+      "imageWikipediaTitle": "Tango",
+      "sources": [
+        {
+          "title": "Tango",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/tango-00258"
+        },
+        {
+          "title": "Tango",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tango"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/tango-00258",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What primary material is used to construct Peru's Q’eswachaka suspension bridge?",
+      "options": [
+        "Woven native grass",
+        "Braided llama wool",
+        "Interlocking bamboo stalks",
+        "Twisted cedar bark strips"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quechua communities harvest and braid tough native q'oya grass into thick suspension cables, renewing the bridge completely by hand."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why have Moroccan tanners soaked animal hides in pigeon droppings for nearly a millennium?",
+      "options": [
+        "Ammonia in the droppings softens stiff proteins in the leather",
+        "The droppings impart an indelible deep brown dye",
+        "Natural acids in the dung sanitize against rotting",
+        "The guano waterproofs hides for desert conditions"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ammonia in pigeon droppings breaks down stiff structural proteins in raw animal hides, making the leather supple before dyeing."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do traditional Japanese timber pagodas withstand severe earthquakes without nails?",
+      "options": [
+        "Interlocking wooden joints flex and dissipate seismic energy",
+        "Hollow central trunks house giant swinging stone counterweights",
+        "Underground ball-bearing stone foundations absorb all movement",
+        "Flexible rubberized tree resins bond the timber beams together"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kigumi joinery relies on interlocking wooden puzzle-like joints that shift against each other, absorbing and dissipating seismic shock waves."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is a tiny mirror traditionally embedded into the center of a Croatian licitar gingerbread heart?",
+      "options": [
+        "So the recipient sees their own reflection in the giver's heart",
+        "To ward off the evil eye and bring harvest luck",
+        "To help courtship partners check their appearance in public",
+        "To catch candlelight and illuminate holiday displays"
+      ],
+      "correctIndex": 0,
+      "explanation": "When given as a romantic keepsake, the central mirror allows the beloved to literally see themselves inside the giver's heart."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did working-class men frequently dance tango together in late 19th-century Buenos Aires?",
+      "options": [
+        "A severe shortage of women meant men practiced steps with each other",
+        "Religious authorities strictly banned unmarried men and women dancing",
+        "Tango was originally invented as a form of nonviolent martial arts sparring",
+        "Public dance halls were legally segregated by gender until 1910"
+      ],
+      "correctIndex": 0,
+      "explanation": "Due to a massive influx of male immigrants, men heavily outnumbered women and practiced complex tango steps together to compete for dance partners."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many days does it take Quechua communities to completely dismantle and re-weave the 118-foot Q’eswachaka grass bridge?",
+      "answer": 3,
+      "min": 1,
+      "max": 30,
+      "unit": "days",
+      "explanation": "Roughly 1,000 villagers complete the entire 118-foot woven suspension bridge in just three days of intensive communal labor."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Pigeon droppings in traditional Moroccan tanneries are used to dye animal leather black.",
+      "answer": false,
+      "explanation": "Pigeon droppings provide ammonia to soften the hide's tough proteins; dyes come entirely from plant and mineral pigments like saffron and poppy."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Japan's ancient wooden pagodas survived centuries of earthquakes because their joints were nailed rigidly in place.",
+      "answer": false,
+      "explanation": "Pagodas were built without nails using interlocking joints (kigumi); their unglued flexibility dissipates seismic energy by friction."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Argentine tango originated as an aristocratic ballroom dance designed for the high-society elite of Buenos Aires.",
+      "answer": false,
+      "explanation": "Tango was born in the rough port slums and immigrant tenements of Buenos Aires and Montevideo, practiced predominantly by working-class men."
+    }
+  ]
+}
