@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-09-30T21:04:59.084Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The crested rat steals heart-stopping tree poison to ward off predators",
+      "body": "The East African crested rat is the only known mammal that acquires lethal plant poison for its own defense. It gnaws on the bark of the poison arrow tree, which contains ouabain—a cardiotoxin potent enough to kill an elephant. Instead of swallowing the toxic sap, the rat chews it into a paste and slathers it onto specialized sponge-like hairs on its flanks, turning its coat into a lethal trap for attacking predators.",
+      "imageWikipediaTitle": "Lophiomys imhausi",
+      "sources": [
+        {
+          "title": "Lophiomys",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lophiomys"
+        },
+        {
+          "title": "Maned rat",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/animal/maned-rat"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/maned-rat",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tiny male anglerfish fuse their bodies permanently into their mates",
+      "body": "In the pitch-black deep sea, finding a mate is nearly impossible. Ceratioid anglerfish solve this through extreme sexual parasitism. A free-swimming male is tiny—sometimes less than a tenth of the female's size. When he locates a female, he bites into her flesh. Their tissues and blood vessels permanently fuse together. Over time, the male's eyes, mouth, and digestive organs wither away until he becomes a living appendage, nourished entirely by her bloodstream in exchange for sperm.",
+      "imageWikipediaTitle": "Anglerfish",
+      "sources": [
+        {
+          "title": "Anglerfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anglerfish"
+        },
+        {
+          "title": "Anglerfish",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/animal/anglerfish"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/anglerfish",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "New Zealand glowworms build living starry skies to lure insects into traps",
+      "body": "The glowing roofs of New Zealand's Waitomo Caves are not worms at all, but the carnivorous larvae of fungus gnats. Each larva suspends dozens of silk threads beaded with droplets of sticky mucus from the cave ceiling. It then lights up its abdomen with bioluminescent blue-green chemical light. Flying insects, mistaking the luminous cavern ceiling for an open night sky, navigate upward toward the glow and become ensnared in the hanging fishing lines.",
+      "imageWikipediaTitle": "Arachnocampa luminosa",
+      "sources": [
+        {
+          "title": "Arachnocampa luminosa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arachnocampa_luminosa"
+        },
+        {
+          "title": "Glow-worms",
+          "publisher": "New Zealand Department of Conservation",
+          "url": "https://www.doc.govt.nz/nature/native-animals/invertebrates/glow-worms/"
+        }
+      ],
+      "readMoreUrl": "https://www.doc.govt.nz/nature/native-animals/invertebrates/glow-worms/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The basilisk lizard can sprint across open water without sinking",
+      "body": "The common basilisk can sprint across water at speeds of around eight kilometers per hour. When threatened, the lizard drops onto its hind legs and pumps them furiously across the surface. Fringed scales on its toes spread wide upon hitting the water, pushing down an air cavity that generates upward thrust before the surface closes over. By pulling each foot out of the water before the cavity collapses, the lizard stays completely upright and afloat.",
+      "imageWikipediaTitle": "Common basilisk",
+      "sources": [
+        {
+          "title": "Common basilisk",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_basilisk"
+        },
+        {
+          "title": "Basilisk lizard",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/animal/basilisk-lizard"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/animal/basilisk-lizard",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The giant anteater eats 30,000 insects a day without a single tooth",
+      "body": "The giant anteater has no teeth, yet it consumes up to thirty thousand ants and termites every single day. To feed, it uses a sixty-centimeter tongue that flicks in and out of its snout up to 160 times per minute, coated in microscopic spines and sticky saliva. The insects are swallowed whole into a muscular, gizzard-like stomach. There, strong contractions grind the prey against sand and tiny pebbles the anteater deliberately ingests.",
+      "imageWikipediaTitle": "Giant anteater",
+      "sources": [
+        {
+          "title": "Giant anteater",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant_anteater"
+        },
+        {
+          "title": "Giant Anteater",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/giant-anteater"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/giant-anteater",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the African crested rat make its fur poisonous to predators?",
+      "options": [
+        "It synthesizes cardiotoxins internally in specialized skin glands",
+        "It chews toxic tree bark and slathers the paste onto its flanks",
+        "It rolls in decomposing animal carcasses to harvest deadly bacteria",
+        "It eats venomous vipers and secretes their venom into its sweat"
+      ],
+      "correctIndex": 1,
+      "explanation": "The crested rat chews bark from the poison arrow tree and pastes the toxic saliva onto specialized flank hairs, making its coat lethal to biting predators."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happens to a male ceratioid anglerfish after finding a female?",
+      "options": [
+        "He permanently fuses into her body and shares her bloodstream",
+        "He is eaten immediately after fertilizing a floating raft of eggs",
+        "He guards the female's nest on the seabed until the fry hatch",
+        "He molts into a female to help raise the offspring"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male ceratioid anglerfish bite onto the female and fuse with her tissues, withering into a permanent sperm-providing parasite sharing her circulatory system."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What creature is the glowing New Zealand cave glowworm in reality?",
+      "options": [
+        "A species of bioluminescent segmented earthworm",
+        "A flightless subterranean click beetle",
+        "The carnivorous larva of a fungus gnat",
+        "A colonial marine crustacean trapped inland"
+      ],
+      "correctIndex": 2,
+      "explanation": "New Zealand glowworms are the predatory larvae of fungus gnats, using bioluminescence to lure prey into hanging silk snares."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the common basilisk manage to sprint across open water?",
+      "options": [
+        "Its fringed feet slap the surface fast enough to create supportive air cavities",
+        "It secretes an oily film that dramatically lowers surface drag",
+        "It inflates specialized air bladders in its throat to stay buoyant",
+        "It vibrates its belly at high frequency to ride surface tension"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rapid foot strikes push down air pockets that generate upward thrust, supporting the basilisk as long as it extracts each foot before the cavity collapses."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does the toothless giant anteater crush the thousands of insects it eats?",
+      "options": [
+        "It regurgitates them into acidic external digestive pools",
+        "Its muscular stomach grinds them against swallowed sand and pebbles",
+        "Its saliva contains powerful enzymes that melt exoskeletons instantly",
+        "It grinds them against hard keratin ridges on the roof of its mouth"
+      ],
+      "correctIndex": 1,
+      "explanation": "The giant anteater uses a gizzard-like muscular stomach containing swallowed grit and small stones to mechanically grind down insects."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many ants and termites can a single wild giant anteater consume in one day?",
+      "answer": 30000,
+      "min": 1000,
+      "max": 100000,
+      "unit": "",
+      "explanation": "A single giant anteater can swallow roughly 30,000 ants and termites every day using its rapid, two-foot-long tongue."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Mammals cannot be poisonous to predators that bite them.",
+      "answer": false,
+      "explanation": "The African crested rat is genuinely poisonous—it slathers lethal tree cardiotoxins onto specialized hairs along its body to deter and kill predators."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "New Zealand cave glowworms are a species of glowing worm.",
+      "answer": false,
+      "explanation": "New Zealand glowworms are not worms at all, but the carnivorous larvae of fungus gnats that build sticky silk fishing lines."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Some species of lizards can run directly across deep open water without sinking.",
+      "answer": true,
+      "explanation": "The common basilisk can sprint across water by using fringed toes to trap buoyant air pockets on each high-speed step."
+    }
+  ]
+}

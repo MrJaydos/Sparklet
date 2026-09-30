@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-30T21:04:59.086Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Simone de Beauvoir argued womanhood is constructed, not born",
+      "body": "In her 1949 masterpiece The Second Sex, French philosopher Simone de Beauvoir wrote that \"one is not born, but rather becomes, a woman.\" She drew a pioneering distinction between biological sex and socially enforced gender roles. Beauvoir showed that society conditions women to view themselves as \"the Other\"—the passive counterpart to men—rather than autonomous, self-defining subjects with full existential freedom.",
+      "imageWikipediaTitle": "Simone de Beauvoir",
+      "sources": [
+        {
+          "title": "Simone de Beauvoir",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/beauvoir/"
+        },
+        {
+          "title": "The Second Sex",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Second_Sex"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/beauvoir/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The third form of logic that powers scientific breakthroughs and detective work",
+      "body": "Classical logic taught that thinking is either deductive, guaranteeing a conclusion from premises, or inductive, generalizing from repeated observations. But American philosopher Charles Sanders Peirce argued that neither can invent a new explanation. He identified a third mode: abduction, or inference to the best explanation. When confronted with a surprising clue, abduction creatively leaps to the most plausible cause—powering both scientific discovery and detective work.",
+      "imageWikipediaTitle": "Charles Sanders Peirce",
+      "sources": [
+        {
+          "title": "Charles Sanders Peirce",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/peirce/"
+        },
+        {
+          "title": "Abductive reasoning",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abductive_reasoning"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/peirce/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why modern moral debates feel like impossible shouting matches",
+      "body": "In his 1981 landmark After Virtue, philosopher Alasdair MacIntyre argued that modern moral arguments are hopelessly deadlocked because we use fragmented ethical concepts torn from their original traditions. In classical thought, ethics made sense because humans shared a clear purpose, or telos. Stripped of that common horizon, modern terms like \"rights\" and \"utility\" have become incompatible slogans, turning public moral debates into intractable, subjective shouting matches.",
+      "imageWikipediaTitle": "Alasdair MacIntyre",
+      "sources": [
+        {
+          "title": "Alasdair MacIntyre",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/macintyre/"
+        },
+        {
+          "title": "After Virtue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/After_Virtue"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/macintyre/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Mary Wollstonecraft blamed bad education for women's supposed 'weakness'",
+      "body": "In 1792, Mary Wollstonecraft published A Vindication of the Rights of Woman, attacking the Enlightenment assumption that women were naturally less rational than men. She argued that society systematically trained girls to be vain, fragile, and decorative, and then cited that manufactured behavior as proof of inherent weakness. Wollstonecraft insisted that reason is universal, urging equal education so women could develop genuine moral and intellectual autonomy.",
+      "imageWikipediaTitle": "Mary Wollstonecraft",
+      "sources": [
+        {
+          "title": "Mary Wollstonecraft",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/wollstonecraft/"
+        },
+        {
+          "title": "A Vindication of the Rights of Woman",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A_Vindication_of_the_Rights_of_Woman"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/wollstonecraft/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The ancient philosopher who lived in a tub to mock social pretensions",
+      "body": "In fourth-century BCE Athens, Cynic philosopher Diogenes of Sinope lived his philosophy out in the open. Sleeping in a large storage jar and shedding worldly possessions, he deliberately flouted social etiquette to prove that human misery stems from artificial customs like wealth, status, and luxury. When Alexander the Great visited him and offered to grant any wish, Diogenes simply asked the king to move because he was blocking the sunlight.",
+      "imageWikipediaTitle": "Diogenes",
+      "sources": [
+        {
+          "title": "Diogenes of Sinope",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/diogsinc/"
+        },
+        {
+          "title": "Diogenes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Diogenes"
+        }
+      ],
+      "readMoreUrl": "https://iep.utm.edu/diogsinc/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What central claim did Simone de Beauvoir make in The Second Sex?",
+      "options": [
+        "Gender roles are social constructs rather than innate biological destinies",
+        "Biological sex completely dictates moral and intellectual capacity",
+        "Women should abandon language entirely to escape patriarchal thought",
+        "Existential freedom is only attainable by rejecting all social interaction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Beauvoir famously argued that \"one is not born, but rather becomes, a woman,\" distinguishing biological sex from socially enforced gender roles."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What distinguishes abductive reasoning from deduction and induction in Charles Sanders Peirce's logic?",
+      "options": [
+        "It generates new explanatory hypotheses to account for surprising observations",
+        "It mathematically guarantees the truth of a conclusion from premises",
+        "It proves general laws through exhaustive laboratory experiments",
+        "It eliminates all guesswork by relying purely on numerical probabilities"
+      ],
+      "correctIndex": 0,
+      "explanation": "Peirce showed that while deduction proves what must be and induction shows what is, abduction creatively generates hypotheses about what may be."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to Alasdair MacIntyre's After Virtue, why do contemporary moral debates feel irresolvable?",
+      "options": [
+        "Society uses moral concepts that lost their context when the idea of a shared human purpose was abandoned",
+        "Most citizens lack the basic intelligence required to understand classical logic",
+        "Universal human rights have mathematically disproven ancient ethical systems",
+        "Religious institutions hold too much centralized control over political legislation"
+      ],
+      "correctIndex": 0,
+      "explanation": "MacIntyre argued that modern moral terms are fragments left behind after the collapse of teleology—the belief in a shared human purpose or telos."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did Mary Wollstonecraft argue was the primary cause of women's perceived intellectual weakness in 1792?",
+      "options": [
+        "A deliberate social education that trained them to be vain and submissive",
+        "Natural biological differences in the structure of the human brain",
+        "A lack of interest among women in engaging with political philosophy",
+        "Ancient religious doctrines that forbade women from reading literature"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wollstonecraft argued that women's apparent weaknesses were manufactured by a culture that conditioned girls to be pleasing and decorative rather than rational."
+    },
+    {
+      "cardIndex": 4,
+      "question": "When Alexander the Great offered to grant Diogenes of Sinope any wish, how did the philosopher respond?",
+      "options": [
+        "He asked Alexander to step aside because he was blocking the sun",
+        "He requested a permanent pension from the Macedonian treasury",
+        "He demanded that Alexander dissolve the empire and free all citizens",
+        "He asked for a private library to be constructed in Athens"
+      ],
+      "correctIndex": 0,
+      "explanation": "Demonstrating his disdain for political power and material wealth, Diogenes famously asked the emperor to move out of his sunlight."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Simone de Beauvoir believed that gender identities are biologically predetermined at birth.",
+      "answer": false,
+      "explanation": "In The Second Sex, Beauvoir argued that womanhood is culturally constructed (\"one is not born, but rather becomes, a woman\"), separating biology from socially conditioned roles."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Scientific hypotheses cannot be generated purely through deductive or inductive logic alone.",
+      "answer": true,
+      "explanation": "Charles Sanders Peirce proved that deduction only unpacks premises and induction merely evaluates data; a third mode, abduction, is required to generate new hypotheses."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Mary Wollstonecraft argued that men and women naturally possess different standards of reason and morality.",
+      "answer": false,
+      "explanation": "Wollstonecraft maintained that reason is universal and has no sex; differences in behavior stemmed from social conditioning and unequal education."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Ancient Greek Cynicism was originally founded as an attitude of pessimistic distrust in other people's motives.",
+      "answer": false,
+      "explanation": "Unlike modern cynicism, ancient Cynicism was a rigorous philosophy of living in harmony with nature by renouncing wealth, status, and artificial social conventions."
+    }
+  ]
+}

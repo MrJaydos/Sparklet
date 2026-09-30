@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-09-30T21:04:59.085Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why ending a pitch on an odd digit makes numbers seem smaller",
+      "body": "Consumers evaluate numeric prices not just by value, but by phonological and visual patterns. Experiments in consumer psychology show that prices ending in odd digits (like 9 or 7) are perceived as significantly smaller than identical round prices, a phenomenon tied to how memory registers fractional endings. Ending figures in odd numbers disrupts quick mental rounding, causing buyers to anchor primarily on the leftmost digit rather than estimating the total sum upward.",
+      "imageWikipediaTitle": "Psychological pricing",
+      "sources": [
+        {
+          "title": "Left-Digit Bias in Price Cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_pricing"
+        },
+        {
+          "title": "Penny Wise and Pound Foolish: The Left-Digit Effect in Price Cognition",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16305739/"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/16305739/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why making offers in written form first triggers larger concessions",
+      "body": "When parties exchange initial bargaining proposals, presenting complex proposals visually in text rather than purely aloud anchors the counterpart to the written parameters. Psychological studies on negotiation communication media reveal that buyers who receive text-based opening bids exhibit less affective reactance and yield greater total concession value than those confronting identical spoken opening offers, as text prompts systematic analytical evaluation over spontaneous emotional pushback.",
+      "imageWikipediaTitle": "Contract",
+      "sources": [
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        },
+        {
+          "title": "E-negotiations: The impact of communication media on negotiation process and outcome",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15328811/"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/15328811/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why background instrumental tempo alters how fast customers decide",
+      "body": "Retail and dining experiments demonstrate that the tempo of background music directly regulates physical pace and decision speed. In controlled experiments conducted by Ronald Milliman, slow-tempo music (under 72 beats per minute) led shoppers to spend 38% more time moving through store aisles compared to fast-tempo music, directly translating into higher overall sales volume without shoppers consciously noticing the acoustic influence.",
+      "imageWikipediaTitle": "Tempo",
+      "sources": [
+        {
+          "title": "Using Background Music to Affect the Behavior of Supermarket Shoppers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Background_music"
+        },
+        {
+          "title": "The effect of music on consumer behaviour",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24765679/"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/24765679/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why asking prospects to predict their own behavior boosts honesty",
+      "body": "When salespeople ask prospective clients to publicly state what standards or criteria they plan to follow, a strong need for internal consistency takes over. Psychologists refer to this as the question-behavior effect: asking people about their intended future behavior significantly increases the likelihood that their subsequent actions will align with socially desirable norms. Predicting that they will act fairly makes prospects dramatically less likely to renege or offer deceptive pushback.",
+      "imageWikipediaTitle": "Questionnaire",
+      "sources": [
+        {
+          "title": "Question-behavior effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Question-behavior_effect"
+        },
+        {
+          "title": "A meta-analysis of the question-behavior effect",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26651474/"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/26651474/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why mentioning a competitor's exact strengths builds your credibility",
+      "body": "Sales pitches that highlight only a company's own perks trigger buyer skepticism. However, research into two-sided advertising proves that acknowledging a specific advantage of a rival product—such as a competitor's lower price or specialized feature—increases buyer trust in your other claims. Known as two-sided messaging, this strategy convinces the prospect that you are an objective advisor, making your unique competitive differentiators far more persuasive.",
+      "imageWikipediaTitle": "Advertising",
+      "sources": [
+        {
+          "title": "Two-sided message",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Two-sided_message"
+        },
+        {
+          "title": "The Effects of Two-Sided Messages in Advertising",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11494791/"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/11494791/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary psychological driver behind the left-digit effect in pricing?",
+      "options": [
+        "Shoppers round prices up automatically to the nearest hundred",
+        "The mind anchors on the leftmost number before computing fractional endings",
+        "Odd numbers trigger unconscious mathematical skepticism",
+        "Buyers perceive even numbers as higher quality"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because humans process numbers left-to-right, the leftmost digit disproportionately anchors perceived magnitude before the brain evaluates the rest."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do initial written negotiation proposals often lead to better concessions than spoken ones?",
+      "options": [
+        "Written offers legally bind the counterpart instantly",
+        "Written proposals bypass all counter-offers automatically",
+        "Written bids reduce emotional reactance and encourage systematic evaluation",
+        "People cannot remember spoken numbers for more than five seconds"
+      ],
+      "correctIndex": 2,
+      "explanation": "Visual text encourages slower, analytical evaluation rather than immediate, defensive emotional pushback."
+    },
+    {
+      "cardIndex": 2,
+      "question": "In Ronald Milliman's classic retail study, how did slow-tempo background music influence shoppers?",
+      "options": [
+        "It made them leave stores 20% earlier",
+        "It increased their total in-store transit time by 38%",
+        "It caused them to only purchase discounted sale items",
+        "It reduced overall checkout revenue by slowing cashier pace"
+      ],
+      "correctIndex": 1,
+      "explanation": "Slow-tempo music (under 72 BPM) slowed down shoppers' physical movement, keeping them in store aisles 38% longer and increasing sales."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the question-behavior effect influence buyers when asked about their future intentions?",
+      "options": [
+        "It creates cognitive fatigue that stops them from negotiating",
+        "It triggers buyers to automatically contradict their previous statements",
+        "It increases the likelihood that their future actions match their stated intentions",
+        "It forces prospects to reveal confidential budget details"
+      ],
+      "correctIndex": 2,
+      "explanation": "Asking people to predict or state their planned behavior drives commitment to internal consistency, raising alignment with that behavior."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What effect does two-sided messaging have on prospective buyers?",
+      "options": [
+        "It confuses buyers by introducing too many brand options",
+        "It increases perceived seller honesty, making core claims more credible",
+        "It causes prospects to immediately purchase from the rival vendor",
+        "It reduces the perceived value of premium offerings"
+      ],
+      "correctIndex": 1,
+      "explanation": "Conceding an opponent's specific advantage establishes the seller as an objective guide, increasing credibility when pitching your own product."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By what percentage did slow-tempo music increase the time shoppers spent moving through store aisles in retail experiments?",
+      "answer": 38,
+      "min": 5,
+      "max": 90,
+      "unit": "%",
+      "explanation": "Slow background music slowed physical walking pace, keeping shoppers in store aisles 38% longer and raising purchase totals."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "In a sales pitch, you should never praise or acknowledge a competitor's real strengths.",
+      "answer": false,
+      "explanation": "Research on two-sided messaging shows that acknowledging a rival's specific strength boosts your credibility, making your own differentiators far more convincing."
+    }
+  ]
+}

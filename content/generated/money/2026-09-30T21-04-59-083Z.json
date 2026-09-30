@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-09-30T21:04:59.083Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wall Street's Worst Single-Day Crash Fell by Over 22%",
+      "body": "On October 19, 1987, the Dow Jones Industrial Average suffered the sharpest single-day percentage decline in stock market history. The index plunged 22.6%—shedding 508 points in a single session, more than double the worst day of 1929. The panic was accelerated by novel computerized trading algorithms called portfolio insurance, which automatically dumped massive futures contracts into a sliding market, creating a digital feedback loop that overwhelmed human brokers.",
+      "imageWikipediaTitle": "Black Monday (1987)",
+      "sources": [
+        {
+          "title": "The Stock Market Crash of 1987",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+        },
+        {
+          "title": "Black Monday (1987)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Black_Monday_(1987)"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Hyperinflated Currency Backed by Mortgages on Farmland",
+      "body": "In late 1923, Germany was gripped by hyperinflation, with prices doubling every few days and the treasury entirely stripped of gold. To restore trust, the Weimar Republic issued the Rentenmark, backed not by precious metals, but by compulsory mortgages on the nation's agricultural land and industrial property. The government exchanged one new Rentenmark for one trillion old paper marks. Anchored by the tangible value of German real estate, the currency halted runaway inflation almost overnight.",
+      "imageWikipediaTitle": "German Rentenmark",
+      "sources": [
+        {
+          "title": "100 years of the Rentenmark",
+          "publisher": "Deutsche Bundesbank",
+          "url": "https://www.bundesbank.de/en/tasks/topics/100-years-of-the-rentenmark-918234"
+        },
+        {
+          "title": "German Rentenmark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/German_Rentenmark"
+        }
+      ],
+      "readMoreUrl": "https://www.bundesbank.de/en/tasks/topics/100-years-of-the-rentenmark-918234",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Five Bankers Set the World Gold Price with Desk Flags",
+      "body": "From 1919 to 2004, the international benchmark price for gold was decided twice each day inside a wood-paneled room at Nathan Mayer Rothschild & Sons in London. Representatives from five bullion banks sat around a table, each armed with a miniature wooden Union Jack flag. When the chairman proposed a price, bankers raised their flags to signal pending buy or sell orders. Only when all five flags were lowered did supply balance demand, fixing the world gold price.",
+      "imageWikipediaTitle": "Gold fixing",
+      "sources": [
+        {
+          "title": "Gold fixing ends at Rothschild",
+          "publisher": "BBC News",
+          "url": "https://news.bbc.co.uk/2/hi/business/3628795.stm"
+        },
+        {
+          "title": "Gold fixing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gold_fixing"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Gold_fixing",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Pioneer of Paper Banknotes Is Becoming Entirely Cashless",
+      "body": "In 1661, Sweden's Stockholms Banco introduced Europe's very first modern paper banknotes. Today, the nation is on the verge of abandoning physical currency altogether. Less than 1% of the value of all payments in Sweden is now made with physical cash, compared to roughly 10% across the Eurozone. Swedish buses, trains, and thousands of retail storefronts refuse cash entirely, while the country's central bank experiments with an official digital e-krona.",
+      "imageWikipediaTitle": "Cashless society",
+      "sources": [
+        {
+          "title": "A cashless society",
+          "publisher": "Sweden.se",
+          "url": "https://sweden.se/life/society/a-cashless-society"
+        },
+        {
+          "title": "Cashless society",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cashless_society"
+        }
+      ],
+      "readMoreUrl": "https://sweden.se/life/society/a-cashless-society",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Pitchforks and Pennies Saved Depression-Era Family Farms",
+      "body": "During the Great Depression, American farmers devised a collective defense against bank foreclosures known as penny auctions. When a bank seized an insolvent neighbor's homestead and machinery, dozens of local farmers gathered at the public auction armed with clubs and nooses. They intimidated outside speculators from bidding, offered token bids of a few pennies for tractors or livestock, and legally bought everything for pocket change before handing the property right back to the original owner.",
+      "imageWikipediaTitle": "Penny auction (foreclosure)",
+      "sources": [
+        {
+          "title": "Penny Auctions",
+          "publisher": "Iowa PBS",
+          "url": "https://www.iowapbs.org/iowapathways/mypath/2569/penny-auctions"
+        },
+        {
+          "title": "Penny auction (foreclosure)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Penny_auction_(foreclosure)"
+        }
+      ],
+      "readMoreUrl": "https://www.iowapbs.org/iowapathways/mypath/2569/penny-auctions",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "By approximately what percentage did the Dow Jones Industrial Average plunge on Black Monday in October 1987?",
+      "options": [
+        "22.6%",
+        "12.8%",
+        "34.2%",
+        "45.0%"
+      ],
+      "correctIndex": 0,
+      "explanation": "On October 19, 1987, the Dow plummeted 22.61%, making it the largest single-day percentage crash in Wall Street history."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What backed Germany's Rentenmark to successfully end hyperinflation in late 1923?",
+      "options": [
+        "Mortgages on farmland and industrial property",
+        "A gold loan from American commercial banks",
+        "Foreign currency reserves held in Switzerland",
+        "Future customs revenue on imported raw coal"
+      ],
+      "correctIndex": 0,
+      "explanation": "With no gold reserves left, Germany backed the Rentenmark with legal mortgages on domestic agricultural land and industrial assets."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What physical items did bankers raise to signal trading orders during the historic London gold fix?",
+      "options": [
+        "Miniature wooden Union Jack flags",
+        "Polished silver sovereign coins",
+        "Numbered ivory dials",
+        "Red leather tally books"
+      ],
+      "correctIndex": 0,
+      "explanation": "Bankers raised small wooden desk flags to indicate buy or sell interest; the price was fixed only once all five flags were lowered."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Roughly what percentage of the total value of payments in Sweden is made using physical cash today?",
+      "options": [
+        "Less than 1%",
+        "Around 8%",
+        "Around 18%",
+        "Around 28%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cash now accounts for less than 1% of the value of all payments in Sweden, making it one of the world's most cashless nations."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did farmers organize 'penny auctions' during the Great Depression?",
+      "options": [
+        "To buy foreclosed farms for pocket change and return them to the owners",
+        "To pool pennies to bribe county mortgage commissioners",
+        "To sell surplus corn directly to urban relief centers",
+        "To protest new federal crop reduction mandates"
+      ],
+      "correctIndex": 0,
+      "explanation": "Armed farmers intimidated outside buyers into silence, bid pennies on seized goods, and returned the property to their neighbors."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "On Black Monday in October 1987, by what percentage did the Dow Jones drop in a single trading session?",
+      "answer": 23,
+      "min": 5,
+      "max": 60,
+      "unit": "%",
+      "explanation": "The Dow plummeted 22.61% on Black Monday, more than double the worst single-day decline of the 1929 stock market crash."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "For how many years did London bankers meet in person to fix the global benchmark price of gold using desk flags?",
+      "answer": 85,
+      "min": 15,
+      "max": 150,
+      "unit": "years",
+      "explanation": "The ritual ran for 85 years, starting in September 1919 and continuing until Rothschild ended its participation in 2004."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The 1929 stock market crash was the largest single-day percentage drop in Wall Street history.",
+      "answer": false,
+      "explanation": "Black Monday in 1987 was far steeper in a single day: the Dow plunged 22.6%, compared to 12.8% on Black Monday in 1929."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "A national currency can only be stabilized if backed by precious metal reserves like gold or silver.",
+      "answer": false,
+      "explanation": "Germany ended hyperinflation in 1923 by backing the Rentenmark with mortgages on domestic land and industrial property, not gold."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Sweden was among the earliest countries in Europe to issue paper banknotes.",
+      "answer": true,
+      "explanation": "Stockholms Banco issued Europe's first modern paper banknotes in 1661, even though Sweden is now poised to phase out cash entirely."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Penny auctions during the Great Depression were charity fundraisers hosted by lending banks.",
+      "answer": false,
+      "explanation": "Penny auctions were grassroots protests where armed farmers intimidated outside buyers so neighbors could recover farms for pennies."
+    }
+  ]
+}
