@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.713Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pure water will not boil at 100°C without nucleation sites",
+      "body": "We learn that water boils at 100°C, but pure liquid water in a smooth container can easily heat well past its boiling point without producing a single bubble. Bubble formation requires microscopic surface flaws or impurities called nucleation sites. Without them, surface tension traps the liquid phase until an explosive, sudden flash of steam occurs when disturbed.",
+      "imageWikipediaTitle": "Superheating",
+      "sources": [
+        {
+          "title": "Superheating",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Superheating"
+        },
+        {
+          "title": "Superheating of Liquids",
+          "publisher": "National Institute of Standards and Technology",
+          "url": "https://www.nist.gov"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Superheating",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Barn owls fly in near-complete silence thanks to frayed wing feathers",
+      "body": "Most birds produce distinct rushing sounds when flapping, but barn owls can glide right past human ears unnoticed. Their primary flight feathers feature comb-like serrations on the leading edge and a velvety soft down on top. These adaptations break turbulent air into tiny micro-vortices, muffling the acoustic frequencies that rodent prey—and human ears—rely on to detect approaching predators.",
+      "imageWikipediaTitle": "Barn owl",
+      "sources": [
+        {
+          "title": "Silent owl flight",
+          "publisher": "National Science Foundation",
+          "url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=129661"
+        },
+        {
+          "title": "Barn owl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Barn_owl"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Barn_owl",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Ordinary table salt crystals trap and store quantum mechanical defects",
+      "body": "When ordinary table salt crystals are exposed to ionizing radiation, displaced electrons can become trapped inside vacancies where chlorine ions used to sit. Known as F-centers (from the German Farbzentrum, or color center), these trapped electrons absorb visible light. Transparent salt turns yellow, brown, or deep violet, releasing its stored energy as luminescent flashes when dissolved or heated.",
+      "imageWikipediaTitle": "F-center",
+      "sources": [
+        {
+          "title": "F-center",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/F-center"
+        },
+        {
+          "title": "Color Centers in Halide Crystals",
+          "publisher": "Brookhaven National Laboratory",
+          "url": "https://www.bnl.gov"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/F-center",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Water's surface tension is strong enough to support walking lizards",
+      "body": "Common basilisk lizards can literally sprint across open water to escape predators. Weighing up to several hundred grams, they slap their fringed rear feet against the surface rapidly. Each stroke creates an air pocket that pushes the lizard upward before water collapses inward. By combining buoyant air cavity forces and surface tension, they stay afloat across dozens of feet.",
+      "imageWikipediaTitle": "Common basilisk",
+      "sources": [
+        {
+          "title": "Common basilisk",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_basilisk"
+        },
+        {
+          "title": "How Basilisk Lizards Run on Water",
+          "publisher": "Harvard University",
+          "url": "https://news.harvard.edu"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Common_basilisk",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fluorescent minerals absorb invisible ultraviolet light and glow with visible colors",
+      "body": "Certain minerals, such as calcite and willemite, glow brilliant neon greens and reds when bathed in invisible ultraviolet radiation. Activator ions like manganese trap high-energy ultraviolet photons and jump to an excited state. As their electrons fall back down to resting levels, they shed excess energy as lower-energy visible light, instantly transforming drab gray stones into vivid glowing displays.",
+      "imageWikipediaTitle": "Fluorescence",
+      "sources": [
+        {
+          "title": "Fluorescence",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fluorescence"
+        },
+        {
+          "title": "Fluorescent Minerals",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/fluorescent-minerals.htm"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/fluorescent-minerals.htm",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why can pure water in a smooth container heat past 100°C without boiling?",
+      "options": [
+        "It lacks nucleation sites to trigger bubble formation",
+        "Pure water contains no hydrogen bonds",
+        "Atmospheric pressure decreases when water is pure",
+        "Dissolved minerals are required to generate heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Boiling requires nucleation sites—scratches or impurities—where vapor bubbles can overcome surface tension and expand."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What primary feather adaptation allows barn owls to fly almost silently?",
+      "options": [
+        "Feathers coated in specialized frictionless oil",
+        "Comb-like serrations on leading edges that break up turbulence",
+        "Hollow quills that swallow acoustic vibrations",
+        "Completely rigid flight feathers that prevent flexing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Serrated leading-edge combs and soft down break large air currents into tiny micro-vortices, muffling flight noise."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What causes colorless salt crystals to turn vibrant colors after radiation exposure?",
+      "options": [
+        "Electrons trapped within vacant crystal lattice sites",
+        "The complete conversion of sodium atoms into chlorine gas",
+        "Oxidation of microscopic iron impurities on the surface",
+        "The destruction of the salt's outer electron shells"
+      ],
+      "correctIndex": 0,
+      "explanation": "F-centers occur when electrons get trapped in halogen vacancies within a crystal lattice, absorbing specific visible light wavelengths."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do basilisk lizards generate enough upward force to sprint across water?",
+      "options": [
+        "By rapidly slapping their fringed feet to form supporting air pockets",
+        "By producing a hydrophobic oil from their skin glands",
+        "By inflating internal air sacs to lower their body density",
+        "By trapping air underneath large webbed forelimbs"
+      ],
+      "correctIndex": 0,
+      "explanation": "A rapid slap and stroke create air cavities that push the lizard upward before the surrounding water collapses back in."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do fluorescent minerals emit visible light when exposed to ultraviolet rays?",
+      "options": [
+        "They absorb high-energy UV photons and emit lower-energy visible photons",
+        "Ultraviolet light sets off an irreversible combustion reaction",
+        "Electrons absorb visible light and re-emit it as thermal energy",
+        "The minerals reflect UV radiation directly without any energy loss"
+      ],
+      "correctIndex": 0,
+      "explanation": "Excited electrons shed part of their energy, emitting longer-wavelength, lower-energy photons that fall into the visible spectrum."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Water always boils whenever its temperature reaches 100°C at normal atmospheric pressure.",
+      "answer": false,
+      "explanation": "Without nucleation sites like rough edges or dissolved gases, ultra-pure water can superheat far past 100°C without boiling."
+    }
+  ]
+}

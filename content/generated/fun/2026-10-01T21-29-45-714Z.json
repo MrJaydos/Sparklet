@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.714Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe crab blood is bright blue and saves human lives",
+      "body": "Horseshoe crabs have bright blue blood because it uses copper-based hemocyanin rather than iron-rich hemoglobin to transport oxygen. Even weirder, their blood contains specialized immune cells called amebocytes that coagulate instantly around dangerous bacterial endotoxins. Biomedical companies harvest this blue blood to test vaccines, IV drips, and medical implants for contamination, ensuring that life-saving medications injected into humans are safe.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Why is horseshoe crab blood blue?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/horseshoecrab.html"
+        },
+        {
+          "title": "Horseshoe crab",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_crab"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/horseshoecrab.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Common loons are completely unable to walk on dry land",
+      "body": "Common loons are peerless divers, capable of swimming hundreds of feet beneath lake surfaces to spear fish. However, this underwater prowess comes with a severe tradeoff: their legs are positioned at the extreme rear of their bodies to serve as boat propellers. Because their center of gravity is so far forward, loons cannot balance upright or walk on land, and can only clumsily slide forward on their bellies.",
+      "imageWikipediaTitle": "Common loon",
+      "sources": [
+        {
+          "title": "Common Loon Overview",
+          "publisher": "Cornell Lab of Ornithology",
+          "url": "https://www.allaboutbirds.org/guide/Common_Loon/overview"
+        },
+        {
+          "title": "Common loon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_loon"
+        }
+      ],
+      "readMoreUrl": "https://www.allaboutbirds.org/guide/Common_Loon/overview",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Giant anteaters swallow up to 30,000 bugs a day without any teeth",
+      "body": "Giant anteaters possess zero teeth, but they don't need them. Equipped with a two-foot-long tongue coated in microscopic backward-pointing spines and sticky saliva, an anteater can flick its tongue in and out up to 160 times per minute. To avoid painful ant bites, it raids a mound for just about a minute before moving on. Inside its stomach, a muscular, gizzard-like wall grinds thousands of insects using intentionally swallowed sand and stones.",
+      "imageWikipediaTitle": "Giant anteater",
+      "sources": [
+        {
+          "title": "Giant Anteater",
+          "publisher": "Smithsonian's National Zoo",
+          "url": "https://nationalzoo.si.edu/animals/giant-anteater"
+        },
+        {
+          "title": "Giant anteater",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant_anteater"
+        }
+      ],
+      "readMoreUrl": "https://nationalzoo.si.edu/animals/giant-anteater",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Hoatzin chicks hatch with functional claws on their wings",
+      "body": "Native to the Amazon and Orinoco river basins, the prehistoric-looking hoatzin bird hatches with two working claws on the joint of each wing. When a predator like a hawk approaches their tree-branch nest, the nestlings leap into the water below and swim underwater to safety. Once the coast is clear, they use their wing claws and large feet to climb the tree trunk back home. The claws disappear as the chicks mature into adults.",
+      "imageWikipediaTitle": "Hoatzin",
+      "sources": [
+        {
+          "title": "Hoatzin",
+          "publisher": "San Diego Zoo Wildlife Alliance",
+          "url": "https://animals.sandiegozoo.org/animals/hoatzin"
+        },
+        {
+          "title": "Hoatzin",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hoatzin"
+        }
+      ],
+      "readMoreUrl": "https://animals.sandiegozoo.org/animals/hoatzin",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Killdeers stage elaborate fake injuries to lure predators from their nests",
+      "body": "Ground-nesting killdeers use brilliant psychological warfare to protect their vulnerable eggs. When a coyote or raccoon approaches, an adult bird runs into the open, drags one wing along the dirt, and shrieks in apparent agony. Convinced it has spotted an easy, injured meal, the predator follows the bird away from the camouflaged nest. The moment the threat is far enough away, the killdeer abruptly recovers, unfolds its wings, and flies away unharmed.",
+      "imageWikipediaTitle": "Killdeer",
+      "sources": [
+        {
+          "title": "Killdeer Overview",
+          "publisher": "Cornell Lab of Ornithology",
+          "url": "https://www.allaboutbirds.org/guide/Killdeer/overview"
+        },
+        {
+          "title": "Killdeer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Killdeer"
+        }
+      ],
+      "readMoreUrl": "https://www.allaboutbirds.org/guide/Killdeer/overview",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What gives horseshoe crab blood its distinctive bright blue color?",
+      "options": [
+        "Copper-based hemocyanin",
+        "Iron-rich hemoglobin",
+        "A unique blue bacterial parasite",
+        "Excessive sodium in marine water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horseshoe crabs use hemocyanin, a copper-based protein, to transport oxygen through their bloodstream, which turns blue when oxygenated."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why are common loons unable to walk upright on dry land?",
+      "options": [
+        "Their legs are positioned far back on their bodies",
+        "Their foot bones are fused to their hips",
+        "They lack knee joints completely",
+        "Their feet are too fragile to support their weight"
+      ],
+      "correctIndex": 0,
+      "explanation": "A loon's legs are positioned at the extreme rear of its body to act as efficient underwater propellers, leaving it unable to balance upright on land."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do giant anteaters grind up insects if they have no teeth?",
+      "options": [
+        "In a muscular stomach using swallowed sand and stones",
+        "By crushing them with their powerful tongue against their palate",
+        "With digestive acid ten times stronger than human bile",
+        "By soaking bugs in toxic saliva before swallowing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Similar to a bird's gizzard, an anteater's muscular stomach uses small stones and sand swallowed during feeding to crush tough insect exoskeletons."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What unusual anatomical feature do baby hoatzin birds have on their wings?",
+      "options": [
+        "Functional claws for climbing trees",
+        "Waterproof swimming flippers",
+        "Venomous spurs to deter snakes",
+        "Suction pads for gripping wet leaves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hoatzin chicks hatch with two functional claws on each wing, allowing them to climb back up tree branches after diving into water to escape predators."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How does an adult killdeer protect its ground nest from approaching predators?",
+      "options": [
+        "By pretending to have a broken wing",
+        "By playing dead on top of its eggs",
+        "By spraying a foul-smelling chemical mist",
+        "By mimicking the ferocious hiss of a rattlesnake"
+      ],
+      "correctIndex": 0,
+      "explanation": "The killdeer performs a 'broken-wing display,' feigning injury to entice predators away from its nest before suddenly flying to safety."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many ants and termites can a single giant anteater consume in a single day?",
+      "answer": 30000,
+      "min": 1000,
+      "max": 100000,
+      "unit": "bugs",
+      "explanation": "A giant anteater can devour up to 30,000 ants and termites every single day, flicking its tongue up to 160 times per minute."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All animal blood is naturally based on red iron-rich hemoglobin.",
+      "answer": false,
+      "explanation": "Many invertebrates, including horseshoe crabs, use copper-based hemocyanin to carry oxygen, giving their blood an otherworldly bright blue color."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "A killdeer fluttering helplessly on the ground with a drooping wing is severely injured.",
+      "answer": false,
+      "explanation": "The killdeer stages an intentional fake injury known as the broken-wing display to bait predators away from its camouflaged ground nest."
+    }
+  ]
+}

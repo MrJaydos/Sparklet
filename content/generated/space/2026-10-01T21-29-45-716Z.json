@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.716Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Water ice survives in permanent darkness on scorching Mercury",
+      "body": "Despite daytime temperatures reaching 430°C (800°F), Mercury harbors billions of tons of water ice. Because the planet has virtually no axial tilt, the rims of deep craters at its poles shield their floors from direct sunlight forever. In these frigid \"cold traps,\" temperatures remain perpetually below -170°C (-275°F). NASA's MESSENGER mission confirmed that thick deposits of water ice, likely delivered by ancient cometary impacts, have survived there for billions of years.",
+      "imageWikipediaTitle": "Mercury (planet)",
+      "sources": [
+        {
+          "title": "MESSENGER Finds Water Ice and Organic Volatiles at Mercury's Poles",
+          "publisher": "NASA JPL Photojournal",
+          "url": "https://photojournal.jpl.nasa.gov/catalog/PIA16503"
+        },
+        {
+          "title": "Mercury (planet)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mercury_(planet)"
+        }
+      ],
+      "readMoreUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA16503",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth was photographed as a speck smaller than a pixel from deep space",
+      "body": "On Valentine's Day in 1990, NASA's Voyager 1 spacecraft turned its camera backward toward the inner solar system before powering down its imaging equipment forever. From a record distance of roughly six billion kilometers (3.7 billion miles), it captured the iconic \"Pale Blue Dot\" photograph. In the image, our entire planet appears as a tiny crescent occupying just 0.12 of a single pixel, suspended within a beam of scattered sunlight.",
+      "imageWikipediaTitle": "Pale Blue Dot",
+      "sources": [
+        {
+          "title": "Solar System Portrait - Earth as 'Pale Blue Dot'",
+          "publisher": "NASA JPL Photojournal",
+          "url": "https://photojournal.jpl.nasa.gov/catalog/PIA00452"
+        },
+        {
+          "title": "Pale Blue Dot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pale_Blue_Dot"
+        }
+      ],
+      "readMoreUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA00452",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Earth's Moon was born from a cataclysmic collision with another world",
+      "body": "Over four billion years ago, the infant Earth collided with a Mars-sized protoplanet astronomers call Theia. The titanic impact vaporized large portions of both worlds, ejecting a colossal ring of molten debris and vapor into orbit. Computer models show that this swirling ring condensed with astonishing speed—likely within months or a few thousand years—to form the Moon. Lunar rock samples returned by Apollo astronauts share near-identical isotopic signatures with Earth, supporting this violent birth.",
+      "imageWikipediaTitle": "Giant-impact hypothesis",
+      "sources": [
+        {
+          "title": "Origin of the Moon",
+          "publisher": "Lunar and Planetary Institute",
+          "url": "https://www.lpi.usra.edu/education/explore/marvelMoon/background/"
+        },
+        {
+          "title": "Giant-impact hypothesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant-impact_hypothesis"
+        }
+      ],
+      "readMoreUrl": "https://www.lpi.usra.edu/education/explore/marvelMoon/background/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Engineers driving Mars rovers must live on 24.6-hour 'Mars time'",
+      "body": "A Martian day, known as a sol, lasts 24 hours, 39 minutes, and 35 seconds—just slightly longer than a day on Earth. Because solar-powered and active robotic missions on Mars operate during daylight hours, mission controllers at NASA have had to adapt to \"Mars time.\" Team members shift their daily work, eating, and sleeping schedules 40 minutes later each day, wearing custom watches to synchronize their lives with the Martian sun.",
+      "imageWikipediaTitle": "Sol (day on Mars)",
+      "sources": [
+        {
+          "title": "Watchmakers and Mathematicians Team Up on Mars Time",
+          "publisher": "NASA Mars Exploration",
+          "url": "https://mars.nasa.gov/mer/spotlight/mars_time_01.html"
+        },
+        {
+          "title": "Sol (day on Mars)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sol_(day_on_Mars)"
+        }
+      ],
+      "readMoreUrl": "https://mars.nasa.gov/mer/spotlight/mars_time_01.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Every 11 years, the Sun completely flips its magnetic poles",
+      "body": "Our Sun undergoes a regular cycle of magnetic activity that resets roughly every 11 years. As plasma rotates at different speeds across its latitudes, the Sun's magnetic field lines become tangled and twisted into complex knots, spawning sunspots and violent eruptions. Eventually, the magnetic dynamo resets itself through a dramatic polar reversal: the Sun's magnetic north pole becomes the south pole, and vice versa, beginning the entire solar cycle anew.",
+      "imageWikipediaTitle": "Solar cycle",
+      "sources": [
+        {
+          "title": "What Is the Solar Cycle?",
+          "publisher": "NASA Space Place",
+          "url": "https://spaceplace.nasa.gov/solar-cycles/en/"
+        },
+        {
+          "title": "Solar cycle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_cycle"
+        }
+      ],
+      "readMoreUrl": "https://spaceplace.nasa.gov/solar-cycles/en/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How can water ice permanently survive on Mercury despite scorching surface temperatures?",
+      "options": [
+        "It is trapped inside deep, permanently shadowed polar craters",
+        "It is insulated under a miles-thick layer of volcanic ash",
+        "It forms only during the planet's multi-year winter season",
+        "It is constantly replenished by subterranean hydrothermal vents"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because Mercury has virtually no axial tilt, deep craters at its poles never receive sunlight, staying perpetually below -170°C."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Voyager 1's famous 'Pale Blue Dot' photo of Earth, roughly how large does Earth appear?",
+      "options": [
+        "About 0.12 of a single pixel",
+        "Roughly 50 pixels across",
+        "The size of a coin on the raw frame",
+        "Exactly 5 pixels across"
+      ],
+      "correctIndex": 0,
+      "explanation": "From a distance of roughly 6 billion kilometers, Earth was captured as a tiny speck occupying only 0.12 of a single pixel."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to the giant-impact hypothesis, what collision led to the formation of our Moon?",
+      "options": [
+        "Earth collided with a Mars-sized protoplanet named Theia",
+        "Two identical proto-Earths merged into one body",
+        "A giant comet nucleus struck Earth's ocean basin",
+        "Jupiter flung a rogue dwarf planet directly into Earth"
+      ],
+      "correctIndex": 0,
+      "explanation": "The giant-impact hypothesis holds that the young Earth was struck by a Mars-sized body named Theia, and the ejected debris coalesced into the Moon."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How much longer is a Martian solar day (a sol) compared to an Earth day?",
+      "options": [
+        "About 39 minutes",
+        "About 4 hours",
+        "About 2 minutes",
+        "About 12 hours"
+      ],
+      "correctIndex": 0,
+      "explanation": "A Martian sol lasts 24 hours, 39 minutes, and 35 seconds, requiring rover operators to push their schedules back ~40 minutes daily."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What happens to the Sun's magnetic field at the end of each roughly 11-year solar cycle?",
+      "options": [
+        "Its magnetic north and south poles swap places",
+        "Its magnetic field collapses permanently",
+        "Its magnetic field strength permanently doubles",
+        "The field aligns directly with the galactic core"
+      ],
+      "correctIndex": 0,
+      "explanation": "Every 11 years, the Sun's tangled magnetic field resets by reversing its polarity entirely, swapping the north and south magnetic poles."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "From roughly how many billion kilometers away did Voyager 1 photograph Earth as the 'Pale Blue Dot'?",
+      "answer": 6,
+      "min": 1,
+      "max": 20,
+      "unit": "billion km",
+      "explanation": "Voyager 1 took the photo on February 14, 1990, from roughly 6 billion kilometers (3.7 billion miles) away."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly how many years does it take for the Sun to complete one solar activity cycle and flip its magnetic poles?",
+      "answer": 11,
+      "min": 2,
+      "max": 50,
+      "unit": "years",
+      "explanation": "Every 11 years, solar activity peaks and resets with a complete reversal of the Sun's magnetic poles."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Mercury is too close to the Sun to hold any water ice.",
+      "answer": false,
+      "explanation": "Deep polar craters never receive sunlight due to Mercury's negligible tilt, staying cold enough to preserve billions of tons of water ice."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A day on Mars is roughly the same length as a day on Earth.",
+      "answer": true,
+      "explanation": "A Martian sol is 24 hours, 39 minutes, and 35 seconds long—less than 40 minutes longer than an Earth day."
+    }
+  ]
+}

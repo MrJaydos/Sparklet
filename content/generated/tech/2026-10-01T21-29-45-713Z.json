@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.713Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first mobile phone call was placed to a bitter corporate rival",
+      "body": "On April 3, 1973, Motorola engineer Martin Cooper stepped onto a sidewalk on Sixth Avenue in New York City holding a 2.4-pound prototype phone. Instead of calling family or colleagues, Cooper dialed his direct rival: Joel Engel, head of AT&T's Bell Labs mobile program. Cooper announced he was calling from a portable handheld phone. Engel answered in disbelief, met with stunned silence on the other end.",
+      "imageWikipediaTitle": "Martin Cooper (inventor)",
+      "sources": [
+        {
+          "title": "Motorola DynaTAC Cellular Phone",
+          "publisher": "National Museum of American History",
+          "url": "https://americanhistory.si.edu/collections/search/object/nmah_1144081"
+        },
+        {
+          "title": "Martin Cooper (inventor)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Martin_Cooper_(inventor)"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/search/object/nmah_1144081",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first practical TV remote control was powered by tiny xylophone chimes",
+      "body": "In 1956, Zenith engineer Robert Adler solved wireless channel surfing without batteries or electronics in the handset. Early remotes used light beams that stray sunlight accidentally triggered, so Adler turned to acoustics. Pressing a button on the 'Space Command' remote struck an aluminum rod with a spring-loaded hammer. The rod rang at an ultrasonic pitch, and tuned microphones inside the television set picked up the chime to change channels.",
+      "imageWikipediaTitle": "Remote control",
+      "sources": [
+        {
+          "title": "Zenith Space Command 600 Remote Control",
+          "publisher": "National Museum of American History",
+          "url": "https://americanhistory.si.edu/collections/search/object/nmah_1450257"
+        },
+        {
+          "title": "Remote control",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Remote_control"
+        }
+      ],
+      "readMoreUrl": "https://americanhistory.si.edu/collections/search/object/nmah_1450257",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The printed circuit board was invented to replace rat's nests of hand-soldered wires",
+      "body": "Before the 1940s, all electronic devices were assembled by hand, wiring vacuum tubes and capacitors together in tangled, fragile nests. In 1936, Austrian inventor Paul Eisler etched conductive copper pathways directly onto an insulated board, borrowing techniques from printing presses. The British military secretly deployed Eisler's printed circuit boards during World War II inside anti-aircraft proximity fuzes, proving that flat etched boards could survive explosive forces and be mass-produced cheaply.",
+      "imageWikipediaTitle": "Printed circuit board",
+      "sources": [
+        {
+          "title": "Paul Eisler - Printed Circuit Board",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/paul-eisler"
+        },
+        {
+          "title": "Printed circuit board",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Printed_circuit_board"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/paul-eisler",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "TV executives silenced a supercomputer because they didn't believe its election forecast",
+      "body": "On election night in 1952, CBS News brought in the UNIVAC I computer to analyze presidential voting trends in real time. With just seven percent of the vote tallied, the machine projected an overwhelming landslide: Dwight Eisenhower would win 438 electoral votes to Adlai Stevenson's 93. Convinced the computer had malfunctioned, network executives hid the forecast and claimed the computer was stumped. The actual result: Eisenhower won with 442 votes.",
+      "imageWikipediaTitle": "UNIVAC I",
+      "sources": [
+        {
+          "title": "UNIVAC I",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://www.census.gov/history/www/innovations/technology/univac_i.html"
+        },
+        {
+          "title": "UNIVAC I",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/UNIVAC_I"
+        }
+      ],
+      "readMoreUrl": "https://www.census.gov/history/www/innovations/technology/univac_i.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Blu-ray discs hold five times more data than DVDs of the exact same size",
+      "body": "A standard DVD and a Blu-ray disc share identical physical dimensions and thickness, but a single-layer Blu-ray holds 25 gigabytes compared to a DVD's 4.7 gigabytes. The difference comes down to optical physics. DVD players read data using red lasers with a 650-nanometer wavelength, while Blu-ray uses blue-violet lasers at 405 nanometers. Shorter light waves focus into significantly tighter points, allowing microscopic data tracks to be packed more than twice as close together.",
+      "imageWikipediaTitle": "Blu-ray",
+      "sources": [
+        {
+          "title": "Blu-ray Disc Format",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000454.shtml"
+        },
+        {
+          "title": "Blu-ray",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blu-ray"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000454.shtml",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Whom did Martin Cooper call in the world's first handheld mobile phone call in 1973?",
+      "options": [
+        "His chief competitor at AT&T's Bell Labs",
+        "The President of the United States",
+        "His wife at their home in Chicago",
+        "The CEO of Motorola headquarters"
+      ],
+      "correctIndex": 0,
+      "explanation": "Motorola engineer Martin Cooper called Joel Engel, head of AT&T's rival Bell Labs mobile team, to brag that he was speaking from a handheld phone."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Zenith's 1956 'Space Command' TV remote send signals without using batteries?",
+      "options": [
+        "Spring-loaded hammers struck rods to produce ultrasonic chimes",
+        "It harvested energy from ambient radio waves in the room",
+        "A hand-crank dynamo flashed pulses of infrared light",
+        "It emitted low-frequency magnetic pulses through copper coils"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zenith's Space Command remote used mechanical hammers to strike aluminum rods, creating inaudible ultrasonic chimes picked up by the TV."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What military application first proved the practical value of printed circuit boards in WWII?",
+      "options": [
+        "Anti-aircraft artillery proximity fuzes",
+        "Submarine sonar listening arrays",
+        "Enigma decryption machines at Bletchley Park",
+        "Cockpit radar displays for fighter planes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Allied forces used Paul Eisler's printed circuit boards to mass-produce tiny, shock-resistant proximity fuzes inside anti-aircraft shells."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did CBS News executives withhold UNIVAC I's 1952 election prediction during the broadcast?",
+      "options": [
+        "They believed the computer's projected landslide was an error",
+        "The machine suffered a hardware fire in the middle of the show",
+        "Election laws forbade computer projections before midnight",
+        "The computer accidentally predicted a tie between candidates"
+      ],
+      "correctIndex": 0,
+      "explanation": "UNIVAC predicted Dwight Eisenhower would win 438 electoral votes; executives thought the margin was absurdly impossible, but he ended up winning 442."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What primary optical difference enables Blu-ray discs to hold far more data than standard DVDs?",
+      "options": [
+        "A shorter laser wavelength that focuses into smaller spots",
+        "Discs that spin at five times higher rotational speed",
+        "A magnetic reflective layer that prevents optical scattering",
+        "Microscopic prisms that split light into polarized tracks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Blu-ray uses a 405 nm blue-violet laser rather than a 650 nm red laser; shorter wavelengths can be focused into much smaller diffraction spots."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of the nationwide vote had been counted when UNIVAC accurately predicted the 1952 landslide?",
+      "answer": 7,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "With only 7% of votes tallied, UNIVAC projected Eisenhower would win 438 electoral votes—missing his actual total by just four."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many gigabytes of data can a standard single-layer Blu-ray disc store?",
+      "answer": 25,
+      "min": 2,
+      "max": 100,
+      "unit": "GB",
+      "explanation": "A single-layer Blu-ray disc holds 25 GB, more than five times the 4.7 GB capacity of a standard single-layer DVD."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Early wireless television remote controls ran on standard household batteries.",
+      "answer": false,
+      "explanation": "Zenith's 1956 Space Command remote was entirely mechanical; pressing a button physically hammered a rod to emit ultrasonic chime frequencies."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Blu-ray discs are physically thicker and wider than standard DVDs to accommodate more data.",
+      "answer": false,
+      "explanation": "Blu-ray discs and DVDs share identical 12-centimeter diameters and 1.2-millimeter thicknesses; the capacity boost comes from a shorter laser wavelength."
+    }
+  ]
+}

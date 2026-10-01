@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.712Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Nazi Saboteurs Infiltrated America—Then Their Leader Called the FBI",
+      "body": "In June 1942, two German submarines landed eight trained saboteurs on beaches in New York and Florida, laden with explosives, detonators, and cash to destroy American factories and railways. But within days, their leader, George John Dasch, boarded a train to Washington, D.C., checked into a hotel, and phoned the FBI. Dasch turned over $84,000 in operational funds and unraveled the entire mission before a single bomb could be planted.",
+      "imageWikipediaTitle": "Operation Pastorius",
+      "sources": [
+        {
+          "title": "Nazi Saboteurs and Operation Pastorius",
+          "publisher": "Federal Bureau of Investigation",
+          "url": "https://www.fbi.gov/history/famous-cases/nazi-saboteurs-and-operation-pastorius"
+        },
+        {
+          "title": "Operation Pastorius",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Pastorius"
+        }
+      ],
+      "readMoreUrl": "https://www.fbi.gov/history/famous-cases/nazi-saboteurs-and-operation-pastorius",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Five Minutes at Midway Turned the Tide of World War II in the Pacific",
+      "body": "On the morning of June 4, 1942, the Imperial Japanese Navy held naval supremacy in the Pacific. That changed in less than five minutes. At 10:22 a.m., American Douglas SBD Dauntless dive bombers caught Japanese aircraft carriers with decks crowded with refueling planes and live ordnance. Within minutes, bombs fatally struck the carriers Akagi, Kaga, and Sōryū. Japan lost four carriers in total, permanently shattering its offensive naval capability.",
+      "imageWikipediaTitle": "Battle of Midway",
+      "sources": [
+        {
+          "title": "The Battle of Midway",
+          "publisher": "Naval History and Heritage Command",
+          "url": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html"
+        },
+        {
+          "title": "Battle of Midway",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Midway"
+        }
+      ],
+      "readMoreUrl": "https://www.history.navy.mil/browse-by-topic/wars-conflicts-and-operations/world-war-ii/1942/midway.html",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Tumbled Stone in a Desert Cave Uncovered the Oldest Biblical Texts",
+      "body": "In late 1946, Bedouin teenager Muhammed ed-Dhib was searching for a stray goat along the cliffs near the Dead Sea. Tossing a stone into a narrow cave opening, he was startled by the sound of breaking clay. Squeezing inside, he discovered ancient earthenware jars preserving centuries-old parchment scrolls. The accidental find yielded over 25,000 fragments across eleven caves, including biblical manuscripts more than a thousand years older than any previously known.",
+      "imageWikipediaTitle": "Dead Sea Scrolls",
+      "sources": [
+        {
+          "title": "Scrolls from the Dead Sea",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/exhibits/scrolls/"
+        },
+        {
+          "title": "Dead Sea Scrolls",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/exhibits/scrolls/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Charles Lindbergh Was Not the First to Fly Non-Stop Across the Atlantic",
+      "body": "In May 1927, Charles Lindbergh made history as the first person to fly solo non-stop across the Atlantic. But he was not the first to make the non-stop crossing. Eight years earlier, in June 1919, British aviators John Alcock and Arthur Brown flew a modified Vickers Vimy biplane 1,890 miles from Newfoundland to Ireland in just over 16 hours. Lindbergh gained unprecedented fame, but Alcock and Brown pioneered the route.",
+      "imageWikipediaTitle": "Transatlantic flight of Alcock and Brown",
+      "sources": [
+        {
+          "title": "Alcock and Brown: The first non-stop transatlantic flight",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/uk-england-48560370"
+        },
+        {
+          "title": "Transatlantic flight of Alcock and Brown",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Transatlantic_flight_of_Alcock_and_Brown"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/uk-england-48560370",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Roald Amundsen Reached the South Pole Weeks Ahead of Robert Scott",
+      "body": "In late 1911, two expeditions raced toward the South Pole: Norwegian explorer Roald Amundsen and British naval officer Robert Falcon Scott. Amundsen relied on sled dogs and ski expertise honed in the Arctic, while Scott used motor sledges that broke down, Siberian ponies unsuited to deep snow, and man-hauling. Amundsen reached the Pole on December 14, 1911. Scott arrived 33 days later, discovering the Norwegian flag already planted.",
+      "imageWikipediaTitle": "Roald Amundsen",
+      "sources": [
+        {
+          "title": "The race to the South Pole: Scott and Amundsen",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/race-to-south-pole-scott-amundsen"
+        },
+        {
+          "title": "Amundsen's South Pole expedition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amundsen%27s_South_Pole_expedition"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/race-to-south-pole-scott-amundsen",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How did the FBI uncover the 1942 Nazi sabotage plot known as Operation Pastorius?",
+      "options": [
+        "British intelligence decrypted naval Enigma transmissions",
+        "The leader of the saboteurs turned himself in to authorities",
+        "Coast Guard patrols captured all eight men upon landing",
+        "An undercover double agent infiltrated the submarine crew"
+      ],
+      "correctIndex": 1,
+      "explanation": "George John Dasch, leader of the Long Island group, traveled to Washington, D.C., and confessed the entire plot to the FBI."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which type of American aircraft delivered the fatal strikes against Japanese carriers at the Battle of Midway?",
+      "options": [
+        "Douglas SBD Dauntless dive bombers",
+        "Boeing B-17 Flying Fortress heavy bombers",
+        "Grumman F4F Wildcat fighter planes",
+        "Douglas TBD Devastator torpedo bombers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dauntless dive bombers attacked while carrier decks were crowded with refueling aircraft, fatally damaging three carriers in minutes."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What accidental event led to the 1946 discovery of the Dead Sea Scrolls?",
+      "options": [
+        "Farmers plowing a field struck an ancient stone vault",
+        "A Bedouin boy threw a stone into a cave and heard breaking clay",
+        "Flooding washed sealed ceramic jars onto the shore",
+        "An earthquake opened an underground storage chamber"
+      ],
+      "correctIndex": 1,
+      "explanation": "Searching for a lost goat, Bedouin teenager Muhammed ed-Dhib tossed a rock into a cave and shattered one of the ancient storage jars."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Who completed the first non-stop flight across the Atlantic Ocean in 1919?",
+      "options": [
+        "Charles Lindbergh",
+        "John Alcock and Arthur Brown",
+        "Amelia Earhart",
+        "Orville and Wilbur Wright"
+      ],
+      "correctIndex": 1,
+      "explanation": "British aviators John Alcock and Arthur Brown flew non-stop from Newfoundland to Ireland eight years before Lindbergh's solo flight."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What transport choice helped Roald Amundsen reach the South Pole weeks ahead of Robert Falcon Scott?",
+      "options": [
+        "Sled dogs and cross-country skis",
+        "Motorized tracked snow tractors",
+        "Reinforced hot-air balloons",
+        "Specially bred Siberian ponies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amundsen relied on sled dogs and skilled skiing, whereas Scott's motorized sledges broke down and his ponies quickly perished."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By roughly how many years were the Dead Sea Scrolls older than any previously known Hebrew biblical manuscripts?",
+      "answer": 1000,
+      "min": 100,
+      "max": 2500,
+      "unit": "years",
+      "explanation": "Dating between the 3rd century BCE and 1st century CE, the scrolls pushed back surviving biblical texts by over a millennium."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "By how many days did Roald Amundsen beat Robert Falcon Scott to the South Pole in their 1911–1912 race?",
+      "answer": 33,
+      "min": 1,
+      "max": 100,
+      "unit": "days",
+      "explanation": "Amundsen reached the Pole on December 14, 1911, while Scott's struggling party did not arrive until January 17, 1912—33 days later."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Nazi saboteurs successfully detonated explosives at American industrial facilities during World War II.",
+      "answer": false,
+      "explanation": "All eight saboteurs were arrested within two weeks after their leader confessed to the FBI before any bombs were set."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Charles Lindbergh was the first aviator to make a non-stop flight across the Atlantic Ocean.",
+      "answer": false,
+      "explanation": "British aviators John Alcock and Arthur Brown made the first non-stop flight in 1919; Lindbergh was the first to do it solo in 1927."
+    }
+  ]
+}

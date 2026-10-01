@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.715Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The high-stakes midnight cutover that birthed the modern internet",
+      "body": "On January 1, 1983, computer networking faced its ultimate deadline: DARPA permanently turned off the ARPANET's original NCP protocol and mandated TCP/IP across every connected machine. Computers that had not migrated their networking software by midnight were abruptly severed from the network. This synchronized switch, known as \"Flag Day,\" laid the technical foundation for the modern internet. Relieved engineers celebrated surviving the high-stakes cutover with custom pinback badges reading: \"I survived the TCP/IP transition.\"",
+      "imageWikipediaTitle": "ARPANET",
+      "sources": [
+        {
+          "title": "RFC 801: NCP/TCP Transition Plan",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc801.txt"
+        },
+        {
+          "title": "Flag day (computing)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flag_day_(computing)"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Flag_day_(computing)",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Junk email got its name from a noisy Monty Python comedy sketch",
+      "body": "Unsolicited junk email was not named directly after the canned luncheon meat, but after a 1970 Monty Python comedy sketch. In the skit, a chorus of Vikings repeatedly chants the word \"Spam\" with rising volume until it drowns out all other conversation in a diner. Early 1990s Usenet and MUD gamers adopted the term to describe flooding chat channels and message boards with repetitive text, an origin officially documented in internet networking standards.",
+      "imageWikipediaTitle": "Spamming",
+      "sources": [
+        {
+          "title": "RFC 2635: DON'T SPEW - A Set of Guidelines for Mass Unsolicited Mailings and Postings",
+          "publisher": "RFC Editor",
+          "url": "https://www.rfc-editor.org/rfc/rfc2635.txt"
+        },
+        {
+          "title": "Spamming",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spamming"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spamming",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why adding programmers to a late project only makes it later",
+      "body": "In his 1975 classic The Mythical Man-Month, IBM manager Fred Brooks formulated Brooks's Law: \"Adding manpower to a late software project makes it later.\" Brooks explained that new developers require extensive coaching from veterans, temporarily reducing productivity. More critically, communication overhead scales quadratically: while 5 developers manage 10 pairwise communication channels, a team of 20 must navigate 190. Coders spend more time coordinating work than writing software, turning extra hires into pure project delay.",
+      "imageWikipediaTitle": "Brooks's law",
+      "sources": [
+        {
+          "title": "A.M. Turing Award: Frederick P. Brooks, Jr.",
+          "publisher": "Association for Computing Machinery",
+          "url": "https://amturing.acm.org/award_winners/brooks_1002187.cfm"
+        },
+        {
+          "title": "Brooks's law",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brooks%27s_law"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brooks%27s_law",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The coding contest where the messiest, most unreadable code wins",
+      "body": "Since 1984, the International Obfuscated C Code Contest has celebrated software written to be delightfully incomprehensible. Entrants craft valid C programs that double as visual art—formatting source code into ASCII silhouettes of airplanes that compile into working flight simulators, or self-printing palindromes. The competition was founded to showcase the expressive quirks of C and prove that code readability is a human discipline, demonstrating just how much mischief programmers can hide within the rules of a compiler.",
+      "imageWikipediaTitle": "International Obfuscated C Code Contest",
+      "sources": [
+        {
+          "title": "The International Obfuscated C Code Contest",
+          "publisher": "International Obfuscated C Code Contest",
+          "url": "https://www.ioccc.org/"
+        },
+        {
+          "title": "International Obfuscated C Code Contest",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/International_Obfuscated_C_Code_Contest"
+        }
+      ],
+      "readMoreUrl": "https://www.ioccc.org/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Unix's creator named his biggest regret as a single missing letter",
+      "body": "When Unix co-creator Ken Thompson was asked what he would change if he could design the operating system again, his answer was legendary: \"I'd spell creat with an e.\" In early Unix, the system call that creates files was named creat() rather than create(). On the memory-starved PDP-11, saving a single character preserved precious bytes in compiler symbol tables. Because software depends on backward compatibility, that missing letter became permanently locked into global POSIX standards.",
+      "imageWikipediaTitle": "Ken Thompson",
+      "sources": [
+        {
+          "title": "The Open Group Base Specifications Issue 7: creat",
+          "publisher": "The Open Group",
+          "url": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/creat.html"
+        },
+        {
+          "title": "Creat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Creat"
+        }
+      ],
+      "readMoreUrl": "https://pubs.opengroup.org/onlinepubs/9699919799/functions/creat.html",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What synchronized event on January 1, 1983, established TCP/IP as the standard protocol of the ARPANET?",
+      "options": [
+        "Flag Day",
+        "The Great Reboot",
+        "Epoch Zero",
+        "Netcut"
+      ],
+      "correctIndex": 0,
+      "explanation": "On January 1, 1983, known as 'Flag Day', DARPA shut off the original NCP protocol and required all ARPANET hosts to run TCP/IP."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which comedy troupe inspired early internet users to call unsolicited repetitive messages 'spam'?",
+      "options": [
+        "Monty Python",
+        "The Kids in the Hall",
+        "Fawlty Towers",
+        "Second City Television"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early internet users adopted the term from Monty Python's sketch where Vikings chant 'Spam' repeatedly until it drowns out all conversation."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does Brooks's Law state about managing software engineering projects?",
+      "options": [
+        "Adding manpower to a late software project makes it later",
+        "Software complexity doubles every eighteen months",
+        "Every program expands until it exceeds available memory",
+        "Code review catches eighty percent of defects before testing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fred Brooks observed that onboarding new developers consumes existing team bandwidth and increases communication channels quadratically."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the primary objective of the International Obfuscated C Code Contest?",
+      "options": [
+        "Writing valid C programs that are maximally confusing and obscure",
+        "Writing the fastest possible sorting algorithm in under 100 bytes",
+        "Finding security vulnerabilities in open-source C libraries",
+        "Compiling programs without using any header files"
+      ],
+      "correctIndex": 0,
+      "explanation": "Founded in 1984, the IOCCC challenges programmers to write working, syntactically legal C code that is bafflingly unreadable or formatted as visual art."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did Ken Thompson name the Unix file creation system call 'creat' without a final 'e'?",
+      "options": [
+        "To save a byte of memory in compiler symbol tables",
+        "Because PDP-11 keyboards lacked an 'e' key during prototyping",
+        "Because POSIX standards required five-letter function names",
+        "To prevent naming collisions with a Fortran library routine"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thompson omitted the 'e' to save symbol table memory on PDP-11 hardware, a choice that became permanent in Unix and POSIX standards."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "If a software engineering team expands from 5 to 20 developers, how many pairwise communication channels exist between them?",
+      "answer": 190,
+      "min": 20,
+      "max": 500,
+      "unit": "",
+      "explanation": "Using the formula n(n - 1) / 2, a 20-person team must coordinate across 190 channels, illustrating why adding staff creates massive communication overhead."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Junk email is called 'spam' because Hormel's canned meat was originally marketed via unwanted mass mailings.",
+      "answer": false,
+      "explanation": "The term comes from a 1970 Monty Python sketch where Vikings chant 'Spam' to drown out conversation, inspiring early internet users to describe chat flooding as spam."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Adding more programmers to a software project that is behind schedule will help it finish faster.",
+      "answer": false,
+      "explanation": "Brooks's Law shows that adding staff increases communication overhead quadratically while pulling senior engineers away to train new hires, making the project even later."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The Unix file-creation command is spelled 'creat' because early programming languages forbade six-letter names.",
+      "answer": false,
+      "explanation": "Ken Thompson deliberately dropped the final 'e' to save a single byte of memory per symbol on PDP-11 hardware, an omission he later joked was his greatest regret."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.717Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "People who suffer a hemispherectomy can lead normal lives with half a brain",
+      "body": "In cases of severe pediatric epilepsy, surgeons sometimes remove or disconnect an entire cerebral hemisphere. Astonishingly, many children who undergo a hemispherectomy grow up with intact personalities, normal speech, and typical cognitive functions. Functional MRI studies show the remaining hemisphere reorganizes its internal connectivity, rewiring networks that usually span both halves to maintain language, motor control, and reasoning almost entirely within one side.",
+      "imageWikipediaTitle": "Hemispherectomy",
+      "sources": [
+        {
+          "title": "Intrinsic functional connectivity of the human brain after hemispherectomy",
+          "publisher": "Cell Reports",
+          "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31381-6"
+        },
+        {
+          "title": "Hemispherectomy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hemispherectomy"
+        }
+      ],
+      "readMoreUrl": "https://www.cell.com/cell-reports/fulltext/S2211-1247(19)31381-6",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A rare sleep disorder makes people act out violent dreams in real life",
+      "body": "During normal REM sleep, your brainstem activates muscle atonia, temporarily paralyzing your body so you cannot act out your dreams. In REM sleep behavior disorder, this paralysis fails. Individuals kick, punch, leap out of bed, and yell while vividly dreaming of defending themselves from attackers. Longitudinal studies show over 80 percent of patients eventually develop neurodegenerative conditions like Parkinson's disease or Lewy body dementia.",
+      "imageWikipediaTitle": "Rapid eye movement sleep behavior disorder",
+      "sources": [
+        {
+          "title": "REM Sleep Behavior Disorder",
+          "publisher": "National Institute of Neurological Disorders and Stroke",
+          "url": "https://www.ninds.nih.gov/health-information/disorders/rem-sleep-behavior-disorder"
+        },
+        {
+          "title": "Rapid eye movement sleep behavior disorder",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep_behavior_disorder"
+        }
+      ],
+      "readMoreUrl": "https://www.ninds.nih.gov/health-information/disorders/rem-sleep-behavior-disorder",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The weapon focus effect causes witnesses to forget a criminal's face",
+      "body": "When a crime involves a weapon, eyewitness memory of the perpetrator's facial features drops drastically. Eye-tracking experiments show that witnesses fixate disproportionately on the gun or knife itself. This attentional tunneling, driven by high arousal and threat evaluation, starves peripheral details of cognitive resources. In lineups, witnesses are significantly less likely to correctly identify a suspect if a weapon was visible during the incident.",
+      "imageWikipediaTitle": "Weapon focus",
+      "sources": [
+        {
+          "title": "Weapon focus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Weapon_focus"
+        },
+        {
+          "title": "The weapon focus effect: Testing an activation account",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4663996/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4663996/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "People with Synesthesia can see colors when they look at numbers or letters",
+      "body": "For people with grapheme-color synesthesia, every letter or digit involuntarily triggers a specific, unvarying color. A printed black letter 'A' might evoke bright crimson, while '5' looks olive green. Brain imaging reveals heightened cross-activation between adjacent brain areas responsible for word recognition and color processing. Far from being a disorder, synesthetes often exhibit superior working memory and faster pattern recognition for numbers and text.",
+      "imageWikipediaTitle": "Synesthesia",
+      "sources": [
+        {
+          "title": "Neural basis of grapheme-color synesthesia",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3222625/"
+        },
+        {
+          "title": "Grapheme-color synesthesia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grapheme%E2%80%93color_synesthesia"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3222625/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the brain makes sudden muscle jerks right as you fall asleep",
+      "body": "Up to 70 percent of people experience hypnic jerks—involuntary muscle twitches as they drift off to sleep, often paired with a falling sensation. As motor control transitions from the waking reticular activating system to the sleep-promoting ventrolateral preoptic nucleus, descending motor inhibition can misfire. The brain may misinterpret this abrupt muscle relaxation as literally falling, triggering a rapid reflex to re-stabilize the body.",
+      "imageWikipediaTitle": "Hypnic jerk",
+      "sources": [
+        {
+          "title": "Hypnic jerk",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hypnic_jerk"
+        },
+        {
+          "title": "A review of hypnic jerks: Physiological phenomena and clinical implications",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4481805/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4481805/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What surgical procedure involves removing or disconnecting an entire cerebral hemisphere?",
+      "options": [
+        "Hemispherectomy",
+        "Lobotomy",
+        "Corpus callosotomy",
+        "Cingulotomy"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hemispherectomy involves removing or disconnecting an entire cerebral hemisphere to control severe pediatric seizures."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why do people with REM sleep behavior disorder physically act out their dreams?",
+      "options": [
+        "They fail to experience normal muscle paralysis during REM sleep",
+        "Their motor cortex completely shuts down while sleeping",
+        "They lack dopamine receptors in the cerebellum",
+        "Their brain skips the REM phase of sleep entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Normal REM sleep causes muscle atonia (temporary paralysis); in REM sleep behavior disorder, this atonia fails, letting dreamers move."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the presence of a weapon typically affect eyewitness memory of a crime?",
+      "options": [
+        "It narrows attention to the weapon, impairing memory of the perpetrator's face",
+        "It heightens overall memory accuracy for every detail in the room",
+        "It causes complete amnesia for the entire sequence of events",
+        "It leads witnesses to vividly misremember the background environment only"
+      ],
+      "correctIndex": 0,
+      "explanation": "The weapon focus effect shows attention tunnels toward high-threat objects like guns, leaving fewer resources to encode faces."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What neurological condition causes letters or numbers to evoke specific colors?",
+      "options": [
+        "Grapheme-color synesthesia",
+        "Prosopagnosia",
+        "Visual agnosia",
+        "Chromatopsia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Grapheme-color synesthesia links linguistic symbols to vivid, automatic color sensations due to cross-wiring between visual areas."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the involuntary muscle twitch experienced right before falling asleep called?",
+      "options": [
+        "Hypnic jerk",
+        "Cataplexy",
+        "Restless leg syndrome",
+        "Sleep tremor"
+      ],
+      "correctIndex": 0,
+      "explanation": "A hypnic jerk is a benign sleep-onset myoclonus that often occurs alongside a sensation of falling."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "What percentage of patients with REM sleep behavior disorder eventually develop a neurodegenerative disorder?",
+      "answer": 80,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Over 80% of patients with idiopathic REM sleep behavior disorder eventually convert to neurodegenerative synucleinopathies like Parkinson's."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of healthy adults experience sudden hypnic jerks while drifting off to sleep?",
+      "answer": 70,
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Up to 70% of people experience hypnic jerks at sleep onset, making it a very common and normal physiological phenomenon."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Losing half of your brain as a child causes permanent, catastrophic loss of speech and personality.",
+      "answer": false,
+      "explanation": "Children undergoing a hemispherectomy often retain speech, intelligence, and personality because the remaining hemisphere adapts and rewires."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Hypnic jerks while falling asleep are signs of an underlying neurological seizure disorder.",
+      "answer": false,
+      "explanation": "Hypnic jerks are completely normal physiological twitches that happen as motor control systems transition into sleep."
+    }
+  ]
+}

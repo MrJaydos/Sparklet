@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.718Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your heart feeds itself with blood only when it relaxes",
+      "body": "Every organ in your body receives a surge of oxygen-rich blood when the heart contracts. The heart muscle itself is the lone exception. During systole, the squeezing muscle squeezes shut its own internal arteries, while the opened aortic valve flaps partially block blood flow into the coronary entrances. Only during diastole, when the ventricles relax, does fresh blood finally rush through the coronary arteries to nourish the working cardiac tissue.",
+      "imageWikipediaTitle": "Coronary circulation",
+      "sources": [
+        {
+          "title": "Physiology, Coronary Circulation",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK534795/"
+        },
+        {
+          "title": "Coronary circulation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coronary_circulation"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK534795/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pus is actually a microscopic graveyard of immune cells",
+      "body": "When you spot yellowish pus in a wound or blemish, you are looking at evidence of a fierce cellular battle. Pus consists overwhelmingly of neutrophils, the first-responder white blood cells sent to defend against bacterial invaders. After arriving in massive numbers, each neutrophil engulfs pathogens and detonates antimicrobial enzymes. Because these weapons destroy the cell itself, billions of neutrophils die on duty, liquefying alongside digested microbes and cellular debris into pus.",
+      "imageWikipediaTitle": "Pus",
+      "sources": [
+        {
+          "title": "Abscess",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/ency/article/001353.htm"
+        },
+        {
+          "title": "Pus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pus"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pus",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why nearly everyone needs reading glasses in their forties",
+      "body": "Unlike the cells on your skin or gut, the cells inside the lens of your eye are never shed. Throughout your entire life, the lens continuously produces new fiber cells on its outer layers, compacting older cells toward the center. By the time you reach your forties, this continuous layering makes the lens thicker, denser, and significantly less flexible. It can no longer change shape easily to focus on near objects, a universal aging process called presbyopia.",
+      "imageWikipediaTitle": "Presbyopia",
+      "sources": [
+        {
+          "title": "Presbyopia",
+          "publisher": "National Eye Institute",
+          "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/presbyopia"
+        },
+        {
+          "title": "Presbyopia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Presbyopia"
+        }
+      ],
+      "readMoreUrl": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/presbyopia",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You temporarily lose the ability to regulate body temperature in REM sleep",
+      "body": "During rapid eye movement (REM) sleep, your body enters a peculiar state where temperature control shuts down. Your brain essentially stops sweating, shivering, or constricting blood vessels in response to room temperature. In this dream phase, you become virtually poikilothermic—meaning your body temperature drifts passively toward the temperature of your bedroom, much like a reptile. This is why a cold draft in the middle of the night can abruptly wake you straight out of a dream.",
+      "imageWikipediaTitle": "Rapid eye movement sleep",
+      "sources": [
+        {
+          "title": "Brain Basics: Understanding Sleep",
+          "publisher": "National Institute of Neurological Disorders and Stroke",
+          "url": "https://www.ninds.nih.gov/health-information/disorders/brain-basics-understanding-sleep"
+        },
+        {
+          "title": "Rapid eye movement sleep",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rapid_eye_movement_sleep"
+        }
+      ],
+      "readMoreUrl": "https://www.ninds.nih.gov/health-information/disorders/brain-basics-understanding-sleep",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Most of your immune system is stationed inside your gut",
+      "body": "When you think of immunity, you might imagine lymph nodes or bone marrow, but roughly 70 percent of your body's immune cells reside in the digestive tract. Known as gut-associated lymphoid tissue (GALT), this massive immune outpost lines your intestines. Because eating exposes your internal organs to an endless stream of foreign particles, toxins, and microbes, your gut maintains the body's largest standing army of defense cells, constantly distinguishing between harmless food nutrients and dangerous pathogens.",
+      "imageWikipediaTitle": "Gut-associated lymphoid tissue",
+      "sources": [
+        {
+          "title": "The Gut: Where Bacteria and Immune System Meet",
+          "publisher": "Johns Hopkins Medicine",
+          "url": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-gut-where-bacteria-and-immune-system-meet"
+        },
+        {
+          "title": "Gut-associated lymphoid tissue",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gut-associated_lymphoid_tissue"
+        }
+      ],
+      "readMoreUrl": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/the-gut-where-bacteria-and-immune-system-meet",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "When does the heart muscle receive the vast majority of its own blood supply?",
+      "options": [
+        "During diastole, when the heart relaxes",
+        "During systole, at the peak of contraction",
+        "Only during deep inhalation while breathing",
+        "At a completely uniform rate throughout the cycle"
+      ],
+      "correctIndex": 0,
+      "explanation": "When ventricles contract in systole, the muscle clamps shut its own coronary vessels; blood flows into heart tissue primarily during diastole when the muscle relaxes."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What makes up the primary biological component of pus in an infected wound?",
+      "options": [
+        "Dead white blood cells called neutrophils",
+        "Crystallized excess glucose",
+        "A mass of clotted red blood cells and platelets",
+        "Leaked dietary fats and bile salts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pus is primarily composed of billions of dead neutrophils, the first-responder white blood cells that perish after neutralizing pathogens."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does nearly everyone develop difficulty focusing on close objects around their mid-40s?",
+      "options": [
+        "The eye's natural lens continuously adds layers and loses its elasticity",
+        "The optic nerve steadily shrinks in diameter with age",
+        "Tear production becomes too acidic to keep the cornea smooth",
+        "The retina completely runs out of rod photoreceptors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The crystalline lens never sheds cells and continuously adds outer layers, becoming denser and too rigid to change shape for close focusing."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What happens to your body's temperature regulation (shivering and sweating) during REM sleep?",
+      "options": [
+        "It is largely suspended, letting body temperature drift with the room",
+        "It doubles in sensitivity to maintain an elevated body temperature",
+        "Sweating runs continuously at maximum rate regardless of room heat",
+        "Shivering turns on permanently to protect dream formation"
+      ],
+      "correctIndex": 0,
+      "explanation": "During REM sleep, central autonomic thermoregulation is essentially switched off, making you functionally poikilothermic like a reptile."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Approximately what percentage of the human body's immune cells reside in the digestive tract?",
+      "options": [
+        "Around 70 percent",
+        "Less than 5 percent",
+        "About 25 percent",
+        "Roughly 95 percent"
+      ],
+      "correctIndex": 0,
+      "explanation": "About 70% of the body's immune cells are stationed in gut-associated lymphoid tissue (GALT) to protect against pathogens ingested with food and drink."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "At around what age do most adults begin noticing presbyopia, the loss of near-focus vision?",
+      "answer": 45,
+      "min": 20,
+      "max": 70,
+      "unit": "years",
+      "explanation": "Because the crystalline lens stiffens continuously by adding layers throughout life, most adults struggle to focus up close between ages 40 and 50."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What percentage of your body's immune cells are concentrated in your digestive tract?",
+      "answer": 70,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Roughly 70% of the immune system lines the intestines as gut-associated lymphoid tissue (GALT) to monitor foreign food and microbes."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The heart muscle receives the strongest surge of its own blood supply while actively contracting.",
+      "answer": false,
+      "explanation": "Contractions during systole squeeze the heart's intramyocardial blood vessels shut; blood flows into heart tissue mainly during diastole when it relaxes."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Pus is primarily composed of living, multiplying bacteria inside a wound.",
+      "answer": false,
+      "explanation": "While bacteria are present, pus is overwhelmingly made of billions of dead neutrophils (white blood cells) that sacrificed themselves fighting the infection."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Your body shivers and sweats just as actively during dream sleep as it does while awake.",
+      "answer": false,
+      "explanation": "Thermoregulatory mechanisms like sweating, shivering, and blood vessel adjustments are largely suspended during REM dream sleep."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The majority of your body's immune cells are located in your digestive system rather than your bloodstream.",
+      "answer": true,
+      "explanation": "About 70% of all immune cells reside in gut-associated lymphoid tissue (GALT), guarding against foreign pathogens introduced through food."
+    }
+  ]
+}

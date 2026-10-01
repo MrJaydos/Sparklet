@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.711Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a medieval board game gave us the word \"jeopardy\"",
+      "body": "In medieval French chess and board games, players used the phrase jeu parti to describe a match where both sides had an equal chance of winning or losing. Literally meaning a \"divided game,\" it referred to a high-tension stalemate where one wrong move could prove fatal. English speakers borrowed the expression as jeopardy, gradually broadening it from a 50/50 gaming gamble into our general word for peril, danger, or serious risk.",
+      "imageWikipediaTitle": "History of chess",
+      "sources": [
+        {
+          "title": "Jeopardy Definition & Meaning",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/jeopardy"
+        },
+        {
+          "title": "Jeopardy",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/dictionary/jeopardy"
+        },
+        {
+          "title": "Double jeopardy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Double_jeopardy"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/jeopardy",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Cantonese has two completely different ways to say \"thank you\"",
+      "body": "In Cantonese, how you express gratitude depends entirely on what you received. If someone performs a service, holds an elevator, or pours tea, say 唔該 (m̀h gōi, pronounced \"mm-goy\"), which literally asks them not to trouble themselves. But if someone gives you a physical gift, money, or a compliment, use 多謝 (dō jeh, pronounced \"dor-jay\"), meaning \"many thanks.\" Using 唔該 for a birthday present accidentally implies the giver was merely performing a chore.",
+      "imageWikipediaTitle": "Cantonese",
+      "sources": [
+        {
+          "title": "Cantonese language",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Cantonese-language"
+        },
+        {
+          "title": "Useful Cantonese phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/cantonese.php"
+        },
+        {
+          "title": "Cantonese",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cantonese"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Cantonese-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the word \"sincere\" has nothing to do with wax",
+      "body": "A persistent folk tale claims that \"sincere\" comes from the Latin sine cera (\"without wax\"), alleging Roman sculptors rubbed wax into cracked marble to disguise flaws, making an unblemished statue \"waxless.\" Linguists have thoroughly debunked this story. The Latin sincerus actually descends from the Proto-Indo-European roots *sem- (\"one\") and *ker- (\"to grow\"). Etymologically, something sincere is simply \"of a single growth\" — completely pure, unmixed, and whole from the start.",
+      "imageWikipediaTitle": "Marble sculpture",
+      "sources": [
+        {
+          "title": "The Surprising Etymology of 'Sincere'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/sincere-definition-etymology-history"
+        },
+        {
+          "title": "Without Wax?",
+          "publisher": "Snopes",
+          "url": "https://www.snopes.com/fact-check/without-wax/"
+        },
+        {
+          "title": "List of common false etymologies",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_common_false_etymologies"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/sincere-definition-etymology-history",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Tibetan gratitude wishes you a \"great heart\"",
+      "body": "To say \"thank you\" in Tibetan, say ཐུགས་རྗེ་ཆེ། (thuk-jé-ché, pronounced \"took-jay-CHAY\"). The phrase reflects deep Buddhist philosophy rather than mere politeness. The syllable ཐུགས་ (thugs) is an honorific term for the heart or mind, while རྗེ་ཆེ། (rje-che) signifies greatness or noble compassion. Instead of offering a casual acknowledgment, speaking ཐུགས་རྗེ་ཆེ། recognizes the giver's profound kindness, literally honoring their generous deed as an expression of a \"great and compassionate heart.\"",
+      "imageWikipediaTitle": "Tibetan script",
+      "sources": [
+        {
+          "title": "Tibetan language",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Tibetan-language"
+        },
+        {
+          "title": "Useful Tibetan phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/tibetan.php"
+        },
+        {
+          "title": "Tibetan language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tibetan_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Tibetan-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why saying \"thank you\" in Georgian invokes divine grace",
+      "body": "When showing gratitude in Georgia, the universal word is მადლობა (madloba, pronounced \"mahd-LOH-bah\"). This warm expression is built on the root noun მადლი (madli), which translates to \"grace,\" \"blessing,\" or \"virtue.\" Rooted in ancient Christian tradition, offering მადლობა is not just acknowledging a favor; it is an active wish that divine grace and goodness be bestowed upon the person who helped you. To reply casually, say არაფრის (arapris, \"ah-rah-PEECE\"), meaning \"for nothing.\"",
+      "imageWikipediaTitle": "Georgian scripts",
+      "sources": [
+        {
+          "title": "Georgian language",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Georgian-language"
+        },
+        {
+          "title": "Useful Georgian phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/georgian.php"
+        },
+        {
+          "title": "Georgian language",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Georgian_language"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Georgian-language",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did the medieval French gaming phrase 'jeu parti' literally mean?",
+      "options": [
+        "A divided game",
+        "A royal gamble",
+        "A game with no rules",
+        "A surrendered match"
+      ],
+      "correctIndex": 0,
+      "explanation": "In medieval French, 'jeu parti' meant a 'divided game' where both players had even odds, which evolved into the English word 'jeopardy'."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Cantonese, when should you say 多謝 (dō jeh) instead of 唔該 (m̀h gōi)?",
+      "options": [
+        "When receiving a physical gift or compliment",
+        "When someone holds an open elevator door",
+        "When a server brings your restaurant bill",
+        "When asking a passerby for directions"
+      ],
+      "correctIndex": 0,
+      "explanation": "多謝 (dō jeh) is reserved for tangible gifts and compliments, while 唔該 (m̀h gōi) is used for everyday favors and services."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What do linguists identify as the true historical root of the word 'sincere'?",
+      "options": [
+        "Proto-Indo-European roots meaning 'of a single growth'",
+        "A Roman regulation banning wax from marble statues",
+        "An ancient Greek recipe for unadulterated honey",
+        "A medieval French phrase meaning 'spoken truth'"
+      ],
+      "correctIndex": 0,
+      "explanation": "Linguists trace 'sincere' to Latin 'sincerus', from PIE roots meaning 'of a single growth' (pure and unmixed), not the folk myth 'without wax'."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the literal meaning behind the Tibetan expression for 'thank you' (ཐུགས་རྗེ་ཆེ།)?",
+      "options": [
+        "Great compassion / noble heart",
+        "May you live ten thousand years",
+        "A debt of eternal friendship",
+        "Peace upon your ancestors"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Tibetan phrase ཐུགས་རྗེ་ཆེ། (thuk-jé-ché) combines the honorific for heart/mind with 'great nobility', meaning a great and compassionate heart."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What does the root noun of Georgian მადლობა (madloba) literally mean?",
+      "options": [
+        "Grace or divine blessing",
+        "Victory in battle",
+        "Mutual brotherhood",
+        "Golden harvest"
+      ],
+      "correctIndex": 0,
+      "explanation": "მადლობა (madloba) is built from მადლი (madli), meaning 'grace' or 'virtue', invoking divine grace upon the person being thanked."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The word \"sincere\" originally described honest Roman statues crafted without wax.",
+      "answer": false,
+      "explanation": "Linguists have debunked the 'sine cera' (without wax) tale; 'sincere' comes from PIE roots meaning 'of a single growth' or pure."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "In Cantonese, 唔該 (m̀h gōi) is the correct phrase to thank someone for a birthday gift.",
+      "answer": false,
+      "explanation": "唔該 (m̀h gōi) is used for services and favors; physical presents and compliments require 多謝 (dō jeh)."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-10-01T21:29:45.715Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Indonesian Shadow Puppets That Cast Stories from Leather",
+      "body": "In Javanese wayang kulit, flat puppets crafted from water buffalo hide cast shadows against a backlit cotton screen. Guided by a single master puppeteer called a dhalang, performances often last all night. The dhalang manipulates dozens of intricate puppets while voicing every character, conducting a gamelan orchestra, and tapping a wooden mallet to pace the epic Hindu-Javanese narratives.",
+      "imageWikipediaTitle": "Wayang",
+      "sources": [
+        {
+          "title": "Wayang puppet theatre",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/wayang-puppet-theatre-00063"
+        },
+        {
+          "title": "Wayang",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wayang"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/wayang-puppet-theatre-00063",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 100-String Zither That Can Mimic Water and Thunder",
+      "body": "Dating back millennia in Persian music, the santur is a trapezoidal hammered dulcimer strung with dozens of metal wires—typically 72 strings grouped into courses of four. Musicians strike the strings using delicate wooden mallets known as mezrab. Because each note rings out on multiple tightly tuned brass and steel wires, skilled players can evoke rainfall, thunderclaps, and echoing vocal tones.",
+      "imageWikipediaTitle": "Santur",
+      "sources": [
+        {
+          "title": "Santur",
+          "publisher": "Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/501700"
+        },
+        {
+          "title": "Santur",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Santur"
+        }
+      ],
+      "readMoreUrl": "https://www.metmuseum.org/art/collection/search/501700",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Italian Violin Wood Harvested During Dark Winter Moons",
+      "body": "In northern Italy's Val di Fiemme, luthiers have sourced Norway spruce for centuries, supplying legendary instrument makers like Antonio Stradivari. Woodcutters traditionally fell these 'resonance spruces' in late autumn and winter during a waning moon, when tree sap is at its lowest. The slow, uniform high-altitude growth produces tight grain rings that resonate sound with exceptional clarity.",
+      "imageWikipediaTitle": "Picea abies",
+      "sources": [
+        {
+          "title": "The Stradivari Forest",
+          "publisher": "Atlas Obscura",
+          "url": "https://www.atlasobscura.com/places/the-stradivari-forest-paneveggio-italy"
+        },
+        {
+          "title": "Fiemme Valley",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fiemme_Valley"
+        }
+      ],
+      "readMoreUrl": "https://www.atlasobscura.com/places/the-stradivari-forest-paneveggio-italy",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Living Spanish Towers Built from Human Muscle",
+      "body": "In Catalonia, teams known as colles compete to erect castells—multi-tier human towers reaching up to ten stories high. The foundation consists of a dense, pressing crowd called the pinya, which cushions falls and steadies the base. Light, agile children, known as the enxaneta, scramble to the very top and raise four fingers to salute the crowd before the tower safely dismantles.",
+      "imageWikipediaTitle": "Castell",
+      "sources": [
+        {
+          "title": "Human towers",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/human-towers-00364"
+        },
+        {
+          "title": "Castell",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Castell"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/human-towers-00364",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secretive Whistled Cooking That Ferments Mexican Vanilla",
+      "body": "Traditional Mexican vanilla production relies on the 'beneficio', a curing method perfected by the Totonac people of Papantla. Fresh green seed pods have no aroma. Harvesters repeatedly sun-dry the pods during the hot daytime and wrap them tightly in woolen blankets overnight to sweat. Over months of alternating heat and enclosed sweating, enzymes transform bitter glucovanillin into aromatic, fragrant vanillin.",
+      "imageWikipediaTitle": "Vanilla planifolia",
+      "sources": [
+        {
+          "title": "Vanilla planifolia",
+          "publisher": "Kew Royal Botanic Gardens",
+          "url": "https://www.kew.org/plants/vanilla"
+        },
+        {
+          "title": "Vanilla",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vanilla"
+        }
+      ],
+      "readMoreUrl": "https://www.kew.org/plants/vanilla",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What animal material forms the puppets used in Javanese wayang kulit performances?",
+      "options": [
+        "Water buffalo hide",
+        "Woven silk",
+        "Carved birch wood",
+        "Dried palm bark"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wayang kulit puppets are intricately carved and painted from cured water buffalo leather."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What tool does a musician use to strike the strings of a Persian santur?",
+      "options": [
+        "Delicate wooden mallets called mezrab",
+        "Plectrums made of tortoiseshell",
+        "Horsehair bows",
+        "Weighted metal finger rings"
+      ],
+      "correctIndex": 0,
+      "explanation": "The santur is played using lightweight wooden mallets known as mezrab."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why is Norway spruce from the Val di Fiemme prized for crafting string instruments?",
+      "options": [
+        "Tight, uniform grain rings provide exceptional acoustic resonance",
+        "The wood naturally absorbs excess varnish without priming",
+        "It is impervious to beetle damage due to natural toxins",
+        "The high salt content gives the wood a reddish hue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Slow, consistent high-altitude growth produces dense, even grain rings that resonate sound remarkably well."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What role does the 'enxaneta' play in a Catalan castell?",
+      "options": [
+        "The child who climbs to the top and raises a hand to complete the tower",
+        "The ground conductor who directs the team's balance",
+        "The drum player pacing the ascent",
+        "The heavyweight anchor standing in the central core"
+      ],
+      "correctIndex": 0,
+      "explanation": "The enxaneta is typically an agile child who climbs to the very peak and raises a hand to signal the tower's completion."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do fresh vanilla pods need to go through the curing and sweating process?",
+      "options": [
+        "Fresh pods have no aroma until enzymes convert glucovanillin into vanillin",
+        "The process softens the pod's outer thorns",
+        "It eliminates toxic hydrocyanic acid in the raw pod",
+        "It dries the beans so they can be ground into powder"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fresh vanilla pods lack the characteristic scent; enzyme action during sweating and drying releases fragrant vanillin."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many metal strings are typically grouped into courses on a standard Persian santur?",
+      "answer": 72,
+      "min": 10,
+      "max": 150,
+      "unit": "strings",
+      "explanation": "A traditional Persian santur typically features 72 strings arranged in 18 courses of four strings each."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many tiers high can the tallest human towers (castells) reach?",
+      "answer": 10,
+      "min": 3,
+      "max": 20,
+      "unit": "stories",
+      "explanation": "The most elite Catalan castells reach up to 10 tiers of people standing on each other's shoulders."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "Freshly harvested green vanilla pods naturally smell strongly of sweet vanilla.",
+      "answer": false,
+      "explanation": "Raw green vanilla pods are virtually odorless; the iconic scent only develops after weeks of enzymatic curing and sweating."
+    }
+  ]
+}
