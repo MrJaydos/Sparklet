@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-02T21:05:12.815Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Grounding Airplanes on 9/11 Froze the Entire US Banking System",
+      "body": "Until 2004, the American financial system relied on chartered airplanes flying billions of dollars in paper checks across the country each night. When the September 11 attacks grounded all civil aviation, more than $47 billion in physical checks were stranded mid-transit, freezing bank settlements nationwide. To prevent future transit crises, Congress passed the Check 21 Act in 2003, legally allowing banks to process digital check images instead of hauling physical paper.",
+      "imageWikipediaTitle": "Check Clearing for the 21st Century Act",
+      "sources": [
+        {
+          "title": "Frequently Asked Questions about Check 21",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/paymentsystems/check21_faq.htm"
+        },
+        {
+          "title": "Check Clearing for the 21st Century Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Check_Clearing_for_the_21st_Century_Act"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/paymentsystems/check21_faq.htm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Four-Day Bank Shutdown That Convinced Americans to Return Their Cash",
+      "body": "Thirty-six hours after his 1933 inauguration, President Franklin D. Roosevelt took the drastic step of closing every bank in the United States. Weeks of nationwide panic had depleted vault cash as terrified citizens withdrew and hoarded currency. When thoroughly inspected banks reopened on March 13 under the Emergency Banking Act, public faith rebounded so dramatically that Americans queued up to redeposit more than $1 billion within a month, reversing the worst bank run in history.",
+      "imageWikipediaTitle": "Emergency Banking Act",
+      "sources": [
+        {
+          "title": "Bank Holiday of 1933",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/bank-holiday-of-1933"
+        },
+        {
+          "title": "Emergency Banking Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emergency_Banking_Act"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/bank-holiday-of-1933",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Central Bank Costs Taxpayers Nothing and Returns Billions in Profit",
+      "body": "Unlike most government agencies, the Federal Reserve receives zero funding from Congress. Instead, the central bank finances all its operations through interest earned on its portfolio of government bonds and service fees paid by commercial banks. After covering its operational expenses and statutory dividends, the law requires the Fed to transfer any remaining net profit to the US Treasury—returning more than $1 trillion to federal government coffers between 2010 and 2020 alone.",
+      "imageWikipediaTitle": "Federal Reserve",
+      "sources": [
+        {
+          "title": "How is the Federal Reserve funded?",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/faqs/about_12599.htm"
+        },
+        {
+          "title": "Federal Reserve",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Federal_Reserve"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/faqs/about_12599.htm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Dorothy’s Slippers Were Originally Silver, Not Ruby",
+      "body": "In L. Frank Baum’s 1890s novel, Dorothy’s magical shoes were made of silver; Hollywood switched them to ruby to flaunt Technicolor. In 1964, educator Henry Littlefield proposed that Baum wrote the tale as a political allegory about the 1890s currency wars. In this interpretation, the Yellow Brick Road stood for the gold standard, the silver slippers represented populist calls to coin silver, and the deceptive Emerald City symbolized greenback paper money printed in Washington.",
+      "imageWikipediaTitle": "Political interpretations of The Wonderful Wizard of Oz",
+      "sources": [
+        {
+          "title": "The Road to Oz",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/exhibits/oz/ozsect2.html"
+        },
+        {
+          "title": "Political interpretations of The Wonderful Wizard of Oz",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Political_interpretations_of_The_Wonderful_Wizard_of_Oz"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/exhibits/oz/ozsect2.html",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Postwar Pact That Freed the Federal Reserve to Fight Inflation",
+      "body": "During World War II, the Federal Reserve pegged interest rates at rock-bottom levels to help the US government borrow cheaply for the war effort. But when peace arrived, this policy forced the Fed to print money to keep bond prices high, causing inflation to exceed 20%. The landmark 1951 Treasury-Fed Accord finally ended the arrangement, liberating the central bank to set interest rates independently to stabilize prices—establishing modern central bank independence worldwide.",
+      "imageWikipediaTitle": "Treasury-Federal Reserve Accord",
+      "sources": [
+        {
+          "title": "Treasury-Fed Accord",
+          "publisher": "Federal Reserve History",
+          "url": "https://www.federalreservehistory.org/essays/treasury-fed-accord"
+        },
+        {
+          "title": "Treasury-Federal Reserve Accord",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Treasury-Federal_Reserve_Accord"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreservehistory.org/essays/treasury-fed-accord",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did grounding civil airplanes on 9/11 freeze billions of dollars in the US banking system?",
+      "options": [
+        "Banks transported physical paper checks on chartered flights each night",
+        "Stock traders were unable to reach trading floors in New York",
+        "Bank vaults relied on physical data drives flown between branches",
+        "Paper banknotes were printed exclusively on airborne cargo planes"
+      ],
+      "correctIndex": 0,
+      "explanation": "Until Check 21 took effect in 2004, banks had to physically deliver original paper checks across the country via nightly chartered flights to clear payments."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happened when US banks reopened following FDR's nationwide bank holiday in March 1933?",
+      "options": [
+        "A fresh wave of panic forced half of all reopened banks into bankruptcy",
+        "Citizens queued up to deposit over $1 billion within four weeks",
+        "The US government replaced dollar bills with temporary food rations",
+        "Depositors were legally forbidden from depositing currency for a year"
+      ],
+      "correctIndex": 1,
+      "explanation": "Government audits and reassuring radio addresses restored public trust so quickly that depositors returned more than $1 billion to banks in a single month."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does the US Federal Reserve fund its operational expenses?",
+      "options": [
+        "Through annual income tax appropriations granted by Congress",
+        "From interest on its bond holdings and fees charged to commercial banks",
+        "By selling gold bars directly to foreign governments at market price",
+        "Through mandatory payroll deductions on American workers"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Fed receives no tax dollars from Congress; it pays all expenses from bond interest and service fees, remitting remaining net profits to the Treasury."
+    },
+    {
+      "cardIndex": 3,
+      "question": "In Henry Littlefield's monetary reading of The Wonderful Wizard of Oz, what did the slippers symbolize?",
+      "options": [
+        "The populist movement advocating the free coinage of silver",
+        "The establishment of a federal corporate income tax",
+        "The invention of traveler's checks for foreign exchange",
+        "The total valuation of America's sovereign debt"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dorothy's shoes were silver in Baum's novel, representing the 1890s crusade to coin silver alongside gold to expand the national money supply."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What was the major outcome of the 1951 Treasury-Fed Accord?",
+      "options": [
+        "It granted the Federal Reserve independence to set interest rates to control inflation",
+        "It transferred all commercial bank deposits to the federal government",
+        "It pegged the US dollar permanently to the British pound sterling",
+        "It required the Federal Reserve to finance all future wartime deficits directly"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1951 Accord freed the Fed from having to keep government borrowing costs artificially low, establishing modern central bank autonomy."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "When all US flights were grounded on September 11, 2001, how many billions of dollars in paper checks were stranded mid-transit?",
+      "answer": 47,
+      "min": 5,
+      "max": 200,
+      "unit": "billion $",
+      "explanation": "Roughly $47 billion in uncollected paper checks were frozen in transit when aviation stopped, paralyzing the interbank settlement system."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Between 2010 and 2020, how many billions of dollars in net earnings did the Federal Reserve transfer to the US Treasury?",
+      "answer": 1000,
+      "min": 50,
+      "max": 2500,
+      "unit": "billion $",
+      "explanation": "The Fed remitted over $1,000 billion ($1 trillion) in profits to the US Treasury across that decade after paying all its own operating costs."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Before 2004, the US banking system routinely flew billions of dollars in paper checks across the country in chartered planes each night.",
+      "answer": true,
+      "explanation": "Federal law required original paper checks to be physically presented for payment, requiring an entire nightly air fleet until the Check 21 Act authorized digital scans."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The Federal Reserve is funded by annual taxpayer dollars appropriated by Congress.",
+      "answer": false,
+      "explanation": "The Federal Reserve receives zero tax funding; it generates its own revenue from securities and loans, regularly sending billions in surplus profit back to the Treasury."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Dorothy's slippers were bright ruby red in L. Frank Baum's original 1900 novel The Wonderful Wizard of Oz.",
+      "answer": false,
+      "explanation": "Baum wrote Dorothy's slippers as silver; Hollywood made them ruby in the 1939 film adaptation specifically to showcase the vibrant colors of Technicolor."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-10-02T21:05:12.817Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why a picture of eyes nearly triples voluntary payments",
+      "body": "In an office kitchen honesty box where university staff paid for coffee and milk on the honor system, researchers alternated the banner image above the price list between flowers and human eyes. Over ten weeks, staff contributed 2.76 times more money per liter of milk when the staring eyes were displayed. Even a static photograph of a gaze involuntarily activates social surveillance mechanisms, sharply curbing free-riding and boosting payment rates.",
+      "imageWikipediaTitle": "Watching-eye effect",
+      "sources": [
+        {
+          "title": "Cues of being watched enhance cooperation in a real-world setting",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1686213/"
+        },
+        {
+          "title": "Watching-eye effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Watching-eye_effect"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1686213/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why reopening a signed deal can unlock bonus profit for both sides",
+      "body": "Once negotiators sign a contract, they usually walk away. But negotiation pioneer Howard Raiffa showed that asking for a \"post-settlement settlement\" creates unexpected value. Because a binding deal already protects both parties, the fear of exploitation disappears. Proposing to search for adjustments that improve outcomes for either party—with the original deal standing if none are found—allows counterparts to share hidden trade-offs and turn a good compromise into a Pareto-optimal win.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "What is a Post-Settlement Settlement?",
+          "publisher": "Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/what-is-a-post-settlement-settlement/"
+        },
+        {
+          "title": "Howard Raiffa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Howard_Raiffa"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/what-is-a-post-settlement-settlement/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why silent concessions make buyers think you were overcharging",
+      "body": "When you quietly lower your price or accelerate delivery, you might hope the client appreciates your goodwill. Instead, research shows unlabelled concessions trigger zero reciprocity. Counterparts usually interpret silent give-backs as proof that your opening offer was inflated or unfair. To win a concession in return, you must explicitly label the sacrifice: state what it costs your business, explain why it was difficult to grant, and explicitly ask for a reciprocal adjustment.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Label Your Concessions",
+          "publisher": "Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/label-your-concessions/"
+        },
+        {
+          "title": "Deepak Malhotra",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deepak_Malhotra"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/label-your-concessions/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How betting on your own forecasts breaks sales deadlocks",
+      "body": "When a buyer and seller deadlock over future performance—such as product uptime, lead generation, or resale value—endless arguing rarely helps. Max Bazerman and James Gillespie found that contingent contracts break the stalemate. Instead of trying to persuade a skeptical client, draft a clause tying compensation to the disputed metric: offering rebates if goals are missed and bonuses if exceeded. Betting on your own forecast converts defensive skepticism into shared financial upside.",
+      "imageWikipediaTitle": "Contract",
+      "sources": [
+        {
+          "title": "What is a Contingent Contract?",
+          "publisher": "Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/dispute-resolution/contingent-contract/"
+        },
+        {
+          "title": "Contingent contract",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Contingent_contract"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/dispute-resolution/contingent-contract/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why lower starting bids spark higher final selling prices",
+      "body": "Setting an ultra-low starting price seems risky, but in competitive sales and auctions it routinely yields higher final payouts. Researchers studying auction fever found that a rock-bottom barrier to entry draws in a large pool of early bidders. Once participants place an initial bid and invest mental effort, sunk cost psychology and rivalry take over. The psychological need to win supplants original valuation limits, driving final prices well above those of high-reserve listings.",
+      "imageWikipediaTitle": "Auction",
+      "sources": [
+        {
+          "title": "How to Deal with Auction Fever",
+          "publisher": "Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/how-to-deal-with-auction-fever/"
+        },
+        {
+          "title": "Auction fever",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Auction_fever"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/how-to-deal-with-auction-fever/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In the 2006 Newcastle University study, how did displaying an image of eyes affect an office honesty box?",
+      "options": [
+        "It nearly tripled the amount of money paid per liter of milk",
+        "It caused people to stop drinking tea and coffee entirely",
+        "It had no measurable effect compared to images of flowers",
+        "It decreased total contributions due to privacy concerns"
+      ],
+      "correctIndex": 0,
+      "explanation": "Staff contributed 2.76 times more money per liter of milk when the price list featured human eyes instead of flowers."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is a 'post-settlement settlement' in negotiation?",
+      "options": [
+        "Searching for win-win improvements after a binding agreement is already signed",
+        "Suing the other party for breach of contract after closing",
+        "Demanding renegotiation by threatening to walk away from the deal",
+        "Splitting the remaining financial surplus evenly before signing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because a binding deal already exists as a fallback, parties can safely explore mutually beneficial improvements without risk."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to negotiation research, what happens when you make a concession without explicitly labeling it?",
+      "options": [
+        "Counterparts rarely reciprocate and assume your initial price was inflated",
+        "Counterparts immediately match your concession with equal generosity",
+        "Counterparts view your team as exceptionally cooperative and trustworthy",
+        "The negotiation closes 50% faster on average"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlabeled concessions trigger little to no reciprocity because counterparts view them as corrections of an unreasonable opening."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do contingent contracts help resolve deadlocks between buyers and sellers?",
+      "options": [
+        "By linking payouts or penalties to actual future performance metrics",
+        "By forcing both sides to split their financial disagreement in half",
+        "By having an independent judge dictate final contract terms",
+        "By delaying contract signing until a multi-year audit is complete"
+      ],
+      "correctIndex": 0,
+      "explanation": "Contingent contracts align incentives by letting parties bet on their forecasts through performance-based bonuses and rebates."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why can an ultra-low starting bid lead to higher final sale prices in an auction?",
+      "options": [
+        "It attracts many early bidders whose sunk effort triggers competitive rivalry",
+        "It reduces the platform fees charged to the seller",
+        "It signals to buyers that the product is of unmatched luxury quality",
+        "It prevents rival sellers from listing competing items"
+      ],
+      "correctIndex": 0,
+      "explanation": "Early bidding draws people into the process; as they invest effort, sunk-cost psychology and competitive arousal drive bids higher."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "By what multiple did payments per liter of milk increase when a photo of human eyes was placed above an office honesty box?",
+      "answer": 2.76,
+      "min": 1,
+      "max": 6,
+      "unit": "x",
+      "explanation": "Contributions jumped by 2.76 times when eyes replaced flowers, showing the power of subtle surveillance cues."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Once a negotiation reaches a signed agreement, attempting to modify terms will only damage the deal.",
+      "answer": false,
+      "explanation": "Raiffa's post-settlement settlement lets parties safely search for Pareto improvements while keeping the signed deal as a secure fallback."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Quietly making concessions demonstrates goodwill and naturally prompts your counterpart to reciprocate.",
+      "answer": false,
+      "explanation": "Unlabeled concessions are usually seen as proof that your opening offer was unreasonably high, resulting in zero reciprocal concessions."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Setting a high starting reserve is the most reliable way to maximize the final price in a competitive auction.",
+      "answer": false,
+      "explanation": "Low starting bids attract broad early participation, sparking sunk-cost attachment and competitive arousal that frequently drive final prices higher."
+    }
+  ]
+}
