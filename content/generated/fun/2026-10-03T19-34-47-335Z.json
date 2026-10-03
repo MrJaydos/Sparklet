@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.335Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Octopuses literally taste everything they touch with their arms",
+      "body": "An octopus does not just feel its surroundings with its hundreds of suckers—it tastes them. Scientists discovered that octopus suction cups are lined with specialized sensory cells that act as both touch and taste receptors. These chemotactile cells detect molecules dissolved in seawater, allowing the octopus to immediately sample potential prey hiding inside dark crevices without ever putting food near its mouth.",
+      "imageWikipediaTitle": "Octopus",
+      "sources": [
+        {
+          "title": "How octopuses ‘taste’ by touch",
+          "publisher": "Harvard Gazette",
+          "url": "https://news.harvard.edu/gazette/story/2020/10/how-octopuses-taste-by-touch/"
+        },
+        {
+          "title": "Octopus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Octopus"
+        }
+      ],
+      "readMoreUrl": "https://news.harvard.edu/gazette/story/2020/10/how-octopuses-taste-by-touch/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A US law allows citizens to claim any island covered in bird poop",
+      "body": "In 1856, the United States Congress passed the Guano Islands Act, empowering any American citizen to claim uninhabited, unclaimed islands anywhere in the world on behalf of the nation—as long as the island held deposits of bird excrement. In the nineteenth century, guano was a prized agricultural fertilizer and gunpowder ingredient. Under this single law, the United States claimed sovereignty over nearly one hundred islands, atolls, and coral reefs worldwide.",
+      "imageWikipediaTitle": "Guano Islands Act",
+      "sources": [
+        {
+          "title": "Guano Islands Act",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/august-18/"
+        },
+        {
+          "title": "Guano Islands Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guano_Islands_Act"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/august-18/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You definitely do not use only ten percent of your brain",
+      "body": "The persistent urban legend claiming humans only tap ten percent of their brain power is completely untrue. Modern neuroimaging technologies, such as fMRI and PET scans, demonstrate that almost every single region of the brain is active during everyday tasks, even when you are asleep. Evolution would never preserve a three-pound organ consuming twenty percent of the body's daily energy if nine-tenths of it were dead weight.",
+      "imageWikipediaTitle": "Ten percent of the brain myth",
+      "sources": [
+        {
+          "title": "Do We Use Only 10% of Our Brain?",
+          "publisher": "University of Washington",
+          "url": "https://faculty.washington.edu/chudler/tenper.html"
+        },
+        {
+          "title": "Ten percent of the brain myth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ten_percent_of_the_brain_myth"
+        }
+      ],
+      "readMoreUrl": "https://faculty.washington.edu/chudler/tenper.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A wandering pig brought the US and Great Britain to the brink of war",
+      "body": "In 1859, a dispute between the United States and Great Britain nearly ignited an international war on San Juan Island over a single potato patch. An American farmer shot an Irish pig rooting up his tubers, sparking furious local threats. Within weeks, the confrontation escalated to five hundred American soldiers facing off against five British warships carrying over two thousand men. After months of tense standoff, peaceful diplomacy prevailed; the pig was the conflict's sole casualty.",
+      "imageWikipediaTitle": "Pig War (1859)",
+      "sources": [
+        {
+          "title": "The Pig War",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm"
+        },
+        {
+          "title": "Pig War (1859)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pig_War_(1859)"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fresh cranberries bounce down stairs like rubber balls",
+      "body": "If you drop a fresh, ripe cranberry onto a hard floor, it will bounce right back up. Cranberries contain four small internal air pockets that provide remarkable buoyancy and elasticity. In the nineteenth century, a New Jersey grower named John Webb accidentally discovered this when he dumped a bucket down his wooden staircase; firm, healthy berries bounced all the way to the bottom, while bruised ones stayed behind. Commercial growers still sort cranberries using wooden bounce boards today.",
+      "imageWikipediaTitle": "Cranberry",
+      "sources": [
+        {
+          "title": "Why do cranberries bounce?",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/everyday-mysteries/food-agriculture/item/why-do-cranberries-bounce/"
+        },
+        {
+          "title": "Cranberry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cranberry"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/everyday-mysteries/food-agriculture/item/why-do-cranberries-bounce/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do octopuses taste objects before putting them near their mouths?",
+      "options": [
+        "Through microscopic sensory pores on their skin",
+        "Through specialized taste-receptor cells lining their suckers",
+        "By extending a pre-digestive tongue from the arm tip",
+        "By secreting acidic saliva that returns chemical scents"
+      ],
+      "correctIndex": 1,
+      "explanation": "Octopus suckers contain chemotactile receptor cells that sense both physical texture and dissolved chemicals simultaneously."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What resource allowed 19th-century American citizens to claim uninhabited islands for the US?",
+      "options": [
+        "Freshwater springs",
+        "Bird guano deposits",
+        "Wild vanilla orchids",
+        "Pearl oyster beds"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 1856 Guano Islands Act permitted claims on any unclaimed island containing rich bird guano, prized as fertilizer and gunpowder nitrate."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What debunked the claim that humans only use ten percent of their brains?",
+      "options": [
+        "Neuroimaging showed nearly the entire brain is active across normal tasks",
+        "Neurosurgery proved removing ninety percent caused zero deficits",
+        "Brain cells were shown to divide rapidly to replace dormant zones",
+        "Cognitive tests proved memory capacity was entirely limitless"
+      ],
+      "correctIndex": 0,
+      "explanation": "fMRI and PET scans demonstrate that virtually all regions of the brain are functionally active throughout the day, even while asleep."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the only casualty during the 1859 Pig War between the US and Great Britain?",
+      "options": [
+        "A British warship mast",
+        "An American lookout soldier",
+        "A stray pig in a potato patch",
+        "A military carrier pigeon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Despite hundreds of troops and warships mobilizing over the border dispute, the only casualty of the confrontation was the pig that started it."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do fresh cranberries bounce when dropped?",
+      "options": [
+        "They contain a thick layer of rubbery latex under the skin",
+        "They contain four internal air pockets that give them elasticity",
+        "Their seeds act like tiny springs under mechanical pressure",
+        "High sugar concentrations create pressurized fluid inside"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fresh cranberries have four hollow interior air chambers that make them buoyant in bogs and resilient enough to bounce off hard surfaces."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of the body's resting energy budget is consumed by the human brain?",
+      "answer": 20,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "Despite representing only about 2% of adult body mass, the brain consumes roughly 20% of your resting metabolic energy."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Octopuses can taste food using the suckers on their arms.",
+      "answer": true,
+      "explanation": "Octopus suckers house chemotactile cells that detect dissolved chemicals, enabling them to taste whatever they touch."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Humans only use about ten percent of their brain capacity.",
+      "answer": false,
+      "explanation": "Neuroimaging proves that almost every part of the human brain has an active function and is used throughout daily life."
+    }
+  ]
+}

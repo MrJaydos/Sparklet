@@ -1,0 +1,198 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.332Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Diners in Korea Announce \"I Will Eat Well\" Before Eating",
+      "body": "In Korea, good manners begin before taking a single bite. Diners clasp their hands or pick up utensils and announce 잘 먹겠습니다 (jal meokgetseumnida, pronounced \"jahl muk-get-SEUM-nee-dah\"), literally meaning \"I will eat well.\" It is an expression of gratitude honoring the chef, the host, and the meal itself. Once finished, diners conclude with equal courtesy: 잘 먹었습니다 (jal meogeotseumnida, \"jahl mug-ut-SEUM-nee-dah\"), affirming \"I ate well.\"",
+      "imageWikipediaTitle": "Korean cuisine",
+      "sources": [
+        {
+          "title": "Korean Phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/korean.php"
+        },
+        {
+          "title": "Etiquette in South Korea",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Etiquette_in_South_Korea"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Etiquette_in_South_Korea",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Arabic Bids Good Night by Wishing You Awaken to Goodness",
+      "body": "When evening comes to an end, Arabic speakers do not simply wish for sleep. They say تصبح على خير (tiṣbaḥ ʿalā khayr, pronounced \"tis-BAH ah-lah KHARE\"), a blessing that translates to \"May you awaken to goodness.\" Politeness requires an equally thoughtful response. The traditional reply is وأنت من أهله (wa-anta min ahlih, pronounced \"wah-AHN-tah min AH-lih\"), gracefully returning the blessing by saying: \"And may you be among its people.\"",
+      "imageWikipediaTitle": "Arabic",
+      "sources": [
+        {
+          "title": "Arabic Phrases",
+          "publisher": "Omniglot",
+          "url": "https://www.omniglot.com/language/phrases/arabic.php"
+        },
+        {
+          "title": "Arabic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arabic"
+        }
+      ],
+      "readMoreUrl": "https://www.omniglot.com/language/phrases/arabic.php",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Medieval Love Poem Gave Us the Word \"Pamphlet\"",
+      "body": "The humble paper pamphlet owes its name to a 12th-century Latin romantic comedy titled Pamphilus, seu de Amore (\"Pamphilus: or, Concerning Love\"). The bawdy poem became immensely popular across medieval Europe, circulating in slim, unbound quires of paper rather than heavy bound volumes. Anglo-French speakers dubbed such unbound little booklets pamphilets. Over centuries, the term shed its poetic romance and came to designate any short, unbound tract tackling political debate or religion.",
+      "imageWikipediaTitle": "Pamphlet",
+      "sources": [
+        {
+          "title": "Pamphlet Definition & Meaning",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/pamphlet"
+        },
+        {
+          "title": "Pamphlet",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/pamphlet"
+        },
+        {
+          "title": "Pamphlet",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pamphlet"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/dictionary/pamphlet",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Mythical Sea Voyage Behind the Word \"Posh\"",
+      "body": "Popular folklore insists that \"posh\" originated on British ocean liners bound for India as an acronym for \"Port Out, Starboard Home\"—the cooler, shaded cabins prized by wealthy passengers. But lexicographers have scoured decades of ticket stubs, passenger manifests, and ship logs without finding a single instance of the acronym. Instead, \"posh\" emerged in late 19th-century British and Romani slang meaning \"money\" or \"halfpenny,\" which later evolved to describe a stylish dandy.",
+      "imageWikipediaTitle": "Ocean liner",
+      "sources": [
+        {
+          "title": "Is 'Posh' an Acronym for 'Port Out, Starboard Home'?",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/posh-acronym-port-out-starboard-home-origin"
+        },
+        {
+          "title": "Posh",
+          "publisher": "Online Etymology Dictionary",
+          "url": "https://www.etymonline.com/word/posh"
+        },
+        {
+          "title": "Posh",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Posh"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/posh-acronym-port-out-starboard-home-origin",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"Mazal Tov\" Isn't Actually Wishing You Good Luck",
+      "body": "When someone celebrates a wedding or newborn, people worldwide shout מַזָּל טוֹב (mazal tov, pronounced \"mah-ZAHL TOHV\"). While commonly translated as \"good luck,\" it actually means \"good fortune has occurred\"—a celebration of a past happy event, not a wish for future fortune. In ancient astrology, mazal referred to a zodiac constellation. To wish someone future success, Hebrew speakers instead say בְּהַצְלָחָה (b'hatzlacha, pronounced \"beh-hahtz-lah-KHAH\"), which literally means \"with success.\"",
+      "imageWikipediaTitle": "Mazel tov",
+      "sources": [
+        {
+          "title": "Mazel tov Definition & Meaning",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/dictionary/mazel%20tov"
+        },
+        {
+          "title": "Mazel Tov",
+          "publisher": "Jewish Virtual Library",
+          "url": "https://www.jewishvirtuallibrary.org/mazel-tov"
+        },
+        {
+          "title": "Mazel tov",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mazel_tov"
+        }
+      ],
+      "readMoreUrl": "https://www.jewishvirtuallibrary.org/mazel-tov",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What do Korean diners literally express when saying 잘 먹겠습니다 (jal meokgetseumnida) before a meal?",
+      "options": [
+        "I will eat well",
+        "Thank you for this feast",
+        "May peace be with the cook",
+        "Let us share our food"
+      ],
+      "correctIndex": 0,
+      "explanation": "잘 먹겠습니다 literally translates to 'I will eat well,' serving as a polite formula acknowledging the effort of the cook and hosts."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does the Arabic nighttime farewell تصبح على خير (tiṣbaḥ ʿalā khayr) literally wish for the listener?",
+      "options": [
+        "May you awaken to goodness",
+        "Sleep under divine protection",
+        "Peace until the dawn comes",
+        "May your dreams bring joy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rather than focusing simply on sleep, the phrase kindly blesses the listener to wake up in goodness and well-being."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where does the word \"pamphlet\" historically come from?",
+      "options": [
+        "A 12th-century Latin comic love poem",
+        "A French paper mill town named Pamphile",
+        "An ancient Greek word for folded parchment",
+        "A 16th-century London print shop guild"
+      ],
+      "correctIndex": 0,
+      "explanation": "It derives from 'Pamphilus, seu de Amore,' a wildly popular medieval love poem circulated in slim, unbound booklets called 'pamphilets.'"
+    },
+    {
+      "cardIndex": 3,
+      "question": "What do linguistic and maritime records reveal about the word \"posh\"?",
+      "options": [
+        "The 'Port Out, Starboard Home' acronym is an unsubstantiated myth",
+        "It was officially coined on P&O luxury steamship tickets in 1842",
+        "It was created by the British Admiralty to classify first-class berths",
+        "It was popularized by a 1912 advertisement for the RMS Titanic"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exhaustive searches of passenger manifests, tickets, and company logs found no trace of 'Port Out, Starboard Home'; the word stems from 19th-century slang."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did the Hebrew word מַזָּל (mazal) originally mean in ancient astrology?",
+      "options": [
+        "A constellation or zodiac sign",
+        "A roll of ceremonial dice",
+        "A safe harbor for ships",
+        "A divine gift of gold"
+      ],
+      "correctIndex": 0,
+      "explanation": "In ancient astrology, 'mazal' referred to a constellation or planetary sign, which eventually came to represent fortune or destiny."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The word 'posh' originated as an acronym for 'Port Out, Starboard Home' on British ocean liners.",
+      "answer": false,
+      "explanation": "Lexicographers have found zero evidence of this acronym in ship manifests or tickets prior to the mid-20th century; it actually comes from 19th-century slang."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Saying 'Mazal tov' is the traditional Hebrew way to wish someone good luck before a test or risky venture.",
+      "answer": false,
+      "explanation": "'Mazal tov' acknowledges good fortune that has already arrived; to wish future success, Hebrew speakers instead say 'b'hatzlacha' ('with success')."
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.340Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 10,000 steps daily goal started as a marketing gimmick",
+      "body": "The ubiquitous target of 10,000 steps a day was never established by medical researchers. It originated as a marketing campaign for a Japanese pedometer released ahead of the 1964 Tokyo Olympics, dubbed Manpo-kei, meaning \"10,000-steps meter.\" Modern studies show that walking benefits for mortality risk actually level off between 7,500 and 8,000 steps per day for most adults, offering virtually no extra longevity advantage beyond that point.",
+      "imageWikipediaTitle": "Pedometer",
+      "sources": [
+        {
+          "title": "How many steps a day are more optimal?",
+          "publisher": "National Institutes of Health",
+          "url": "https://www.nih.gov/news-events/nih-research-matters/how-many-steps-day-more-optimal"
+        },
+        {
+          "title": "Pedometer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pedometer"
+        }
+      ],
+      "readMoreUrl": "https://www.nih.gov/news-events/nih-research-matters/how-many-steps-day-more-optimal",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Swallowed chewing gum does not sit in your stomach for seven years",
+      "body": "The persistent warning that swallowed gum takes seven years to digest is entirely untrue. While your digestive enzymes cannot break down gum's synthetic or natural rubber base, your gastrointestinal tract treats it like any other insoluble fiber. Your stomach muscles churn it through the pyloric valve, and normal peristaltic contractions push the intact wad through your intestines, expelling it in your stool within two to three days.",
+      "imageWikipediaTitle": "Chewing gum",
+      "sources": [
+        {
+          "title": "Swallowed gum: Is it really harmful?",
+          "publisher": "Mayo Clinic",
+          "url": "https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058446"
+        },
+        {
+          "title": "Chewing gum",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chewing_gum"
+        }
+      ],
+      "readMoreUrl": "https://www.mayoclinic.org/digestive-system/expert-answers/faq-20058446",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Stomach ulcers are caused by bacteria, not stress or spicy food",
+      "body": "For decades, physicians blamed peptic ulcers on emotional stress, acid-heavy diets, and spicy foods. In the 1980s, Australian researchers Robin Warren and Barry Marshall discovered the real culprit: Helicobacter pylori, a spiral bacterium adapted to survive harsh gastric acid. When the medical community dismissed their findings, Marshall famously swallowed a broth of the bacteria to induce acute gastritis and cured himself with antibiotics, earning the pair a Nobel Prize in 2005.",
+      "imageWikipediaTitle": "Helicobacter pylori",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physiology or Medicine 2005",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/medicine/2005/press-release/"
+        },
+        {
+          "title": "Helicobacter pylori",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Helicobacter_pylori"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/medicine/2005/press-release/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your tongue works like an octopus arm, not a typical muscle",
+      "body": "Almost every skeletal muscle in your body moves by pulling on bones across a joint. Your tongue, however, contains no bones at all. It is a muscular hydrostat—a dense weave of eight distinct muscles where fluid-filled cells provide the rigid support structure. Compressing one muscular section creates hydraulic pressure that instantly elongates or curls another, using the exact same anatomical architecture found in elephant trunks, chameleon tongues, and octopus tentacles.",
+      "imageWikipediaTitle": "Muscular hydrostat",
+      "sources": [
+        {
+          "title": "Anatomy, Head and Neck, Tongue Muscles",
+          "publisher": "National Library of Medicine",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK507782/"
+        },
+        {
+          "title": "Muscular hydrostat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Muscular_hydrostat"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK507782/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You spend roughly 10 percent of your waking hours with your eyes closed",
+      "body": "A typical human blinks 15 to 20 times every minute. Because each blink shutters your eyelids for 100 to 400 milliseconds, your eyes remain closed for several seconds out of every minute. Across an entire waking day, this routine flickering adds up to roughly 10 percent of your conscious life spent in darkness. Beyond spreading lubricating tears, brain scans show blinks act as micro-breaks that momentarily reset visual attention circuits.",
+      "imageWikipediaTitle": "Blinking",
+      "sources": [
+        {
+          "title": "Blink-related momentary activation of the default mode network while viewing videos",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538289/"
+        },
+        {
+          "title": "Blinking",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blinking"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3538289/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why was the 10,000-steps-a-day target originally chosen?",
+      "options": [
+        "It was the optimal daily target discovered in a landmark clinical trial",
+        "It was created as a 1965 marketing slogan to sell a Japanese pedometer",
+        "It was the minimum activity required to burn 2,000 calories per day",
+        "It was calculated by the World Health Organization in the 1970s"
+      ],
+      "correctIndex": 1,
+      "explanation": "The 10,000-step benchmark began as an ad campaign for the 1965 Japanese pedometer \"Manpo-kei\" (10,000-steps meter), not from medical research."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What happens to swallowed chewing gum inside your digestive system?",
+      "options": [
+        "It dissolves completely in strong stomach acid within 24 hours",
+        "It stays stuck in the stomach lining for up to seven years",
+        "It passes through your intestines and is excreted within a few days",
+        "It binds permanently to dietary fiber and forms gallstones"
+      ],
+      "correctIndex": 2,
+      "explanation": "While digestive enzymes cannot break down the rubber base, normal intestinal contractions push swallowed gum out in stool within two to three days."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What is the primary biological cause of most peptic stomach ulcers?",
+      "options": [
+        "Chronic psychological stress",
+        "Overconsumption of spicy food",
+        "Infection by the bacterium Helicobacter pylori",
+        "An inherited overproduction of stomach acid"
+      ],
+      "correctIndex": 2,
+      "explanation": "Robin Warren and Barry Marshall proved that Helicobacter pylori bacteria cause peptic ulcers, winning the 2005 Nobel Prize for their discovery."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How does the human tongue move without being attached to any bones?",
+      "options": [
+        "It relies on a dense cartilaginous rod running down its center",
+        "It functions as a muscular hydrostat powered by internal fluid pressure",
+        "It is suspended by magnetic electrical impulses from the jaw",
+        "It is pushed exclusively by saliva pressure from the sublingual gland"
+      ],
+      "correctIndex": 1,
+      "explanation": "The tongue is a muscular hydrostat, meaning its eight interwoven muscles create their own rigid support using internal fluid pressure, like an octopus arm."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Roughly what percentage of your waking hours is spent with your eyes closed due to blinking?",
+      "options": [
+        "About 1 percent",
+        "About 10 percent",
+        "About 25 percent",
+        "About 35 percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blinking 15 to 20 times per minute for hundreds of milliseconds each time means your eyes are closed for roughly 10 percent of your waking hours."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "At roughly how many daily steps do the longevity benefits of walking level off for most older adults?",
+      "answer": 7500,
+      "min": 2000,
+      "max": 20000,
+      "unit": "steps",
+      "explanation": "Studies show mortality risk drops steadily up to about 7,500 daily steps, after which extra steps offer little additional longevity benefit."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "Roughly what percentage of your total waking hours do you spend with your eyes closed simply from blinking?",
+      "answer": 10,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Blinking 15–20 times per minute adds up to several seconds of darkness each minute, or roughly 10% of your waking day."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Swallowed chewing gum remains trapped in your stomach for seven years.",
+      "answer": false,
+      "explanation": "Although your body cannot digest gum's rubber base, normal intestinal contractions expel it in your stool within two to three days."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Chronic emotional stress is the leading cause of stomach ulcers.",
+      "answer": false,
+      "explanation": "The vast majority of peptic ulcers are caused by Helicobacter pylori bacterial infections or pain medications, not stress."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The human tongue has no bones inside it and moves using internal fluid pressure.",
+      "answer": true,
+      "explanation": "The tongue is a muscular hydrostat containing zero bones; like an octopus tentacle, its interwoven muscles act as their own support structure."
+    }
+  ]
+}

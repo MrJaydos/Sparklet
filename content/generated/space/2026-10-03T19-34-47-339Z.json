@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.339Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The computer that steered Apollo 11 to the Moon had just 4 kilobytes of RAM",
+      "body": "Navigating astronauts 400,000 kilometers to the lunar surface required groundbreaking computing, yet the Apollo Guidance Computer operated on just four kilobytes of random-access memory and 72 kilobytes of permanent storage. Its software was physically woven by hand: textile workers threaded copper wires through miniature magnetic rings to represent ones and around them for zeros, creating indestructible core rope memory that survived cosmic radiation.",
+      "imageWikipediaTitle": "Apollo Guidance Computer",
+      "sources": [
+        {
+          "title": "Computers in Spaceflight: The NASA Experience - The Apollo Guidance Computer",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/computers/Ch2-5.html"
+        },
+        {
+          "title": "Apollo Guidance Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/computers/Ch2-5.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An 1859 solar storm was so intense that telegraphs worked with no batteries",
+      "body": "In September 1859, the Sun unleashed a titanic coronal mass ejection that collided with Earth's magnetic field, triggering the largest geomagnetic storm on record. Known as the Carrington Event, it produced auroras so brilliant that night workers could read newspapers by their light across the Caribbean. Surging electrical currents shocked telegraph operators, sparked fires, and allowed operators to transmit messages using only power induced in the atmosphere.",
+      "imageWikipediaTitle": "Carrington Event",
+      "sources": [
+        {
+          "title": "1859's Carrington Event and Its Modern Day Consequences",
+          "publisher": "USGS",
+          "url": "https://www.usgs.gov/news/featured-story/1859s-carrington-event-and-its-modern-day-consequences"
+        },
+        {
+          "title": "Carrington Event",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carrington_Event"
+        }
+      ],
+      "readMoreUrl": "https://www.usgs.gov/news/featured-story/1859s-carrington-event-and-its-modern-day-consequences",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Cold War spy satellites looking for secret nuclear tests found cosmic explosions",
+      "body": "In the late 1960s, the United States deployed Vela satellites to monitor compliance with the Nuclear Test Ban Treaty by watching for telltale gamma radiation from covert Soviet nuclear detonations. Instead, the sensors detected mysterious, blinding flashes of gamma radiation that matched no known weapon signature. By analyzing tiny delays in arrival times across multiple satellites, scientists proved the bursts originated billions of light-years away in deep space.",
+      "imageWikipediaTitle": "Gamma-ray burst",
+      "sources": [
+        {
+          "title": "History of Gamma-Ray Burst Observations",
+          "publisher": "NASA",
+          "url": "https://heasarc.gsfc.nasa.gov/docs/objects/grbs/grb_history.html"
+        },
+        {
+          "title": "Gamma-ray burst",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gamma-ray_burst"
+        }
+      ],
+      "readMoreUrl": "https://heasarc.gsfc.nasa.gov/docs/objects/grbs/grb_history.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An astronaut smuggled a six-iron to the Moon and took the first lunar golf swing",
+      "body": "During Apollo 14 in 1971, commander Alan Shepard clipped a modified six-iron golf club head onto the handle of a lunar excavation tool. Restricted by his pressurized, bulky spacesuit, Shepard could only swing one-handed. He missed the first swing, sliced the second into a crater, but cleanly struck the third. While he famously declared his ball flew miles and miles, photographic analysis confirmed it traveled about 40 yards.",
+      "imageWikipediaTitle": "Apollo 14",
+      "sources": [
+        {
+          "title": "Shepard's Lunar Golf Shots",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/alsj/a14/a14.shepardgolf.html"
+        },
+        {
+          "title": "Apollo 14",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_14"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/alsj/a14/a14.shepardgolf.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A smuggled corned beef sandwich caused a safety uproar in early spaceflight",
+      "body": "During NASA's Gemini 3 mission in 1965, astronaut John Young caught crewmate Gus Grissom completely off guard by pulling a deli corned beef sandwich from his spacesuit pocket. As Grissom took a bite, rye bread crumbs instantly began floating in microgravity, posing a hazard to electrical systems and air vents. Young stashed the sandwich away after seconds, but the unauthorized stunt triggered sharp criticism and a formal inquiry by Congress.",
+      "imageWikipediaTitle": "Gemini 3",
+      "sources": [
+        {
+          "title": "On the Shoulders of Titans: A History of Project Gemini",
+          "publisher": "NASA",
+          "url": "https://history.nasa.gov/SP-4203/ch11-5.htm"
+        },
+        {
+          "title": "Gemini 3",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gemini_3"
+        }
+      ],
+      "readMoreUrl": "https://history.nasa.gov/SP-4203/ch11-5.htm",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How much random-access memory (RAM) did the Apollo Guidance Computer have aboard Apollo 11?",
+      "options": [
+        "4 kilobytes",
+        "512 kilobytes",
+        "16 megabytes",
+        "1 gigabyte"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Apollo Guidance Computer navigated humans to the lunar surface using just 4 kilobytes of RAM and 72 kilobytes of ROM."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What unusual phenomenon occurred on telegraph networks during the 1859 Carrington Event?",
+      "options": [
+        "Lines transmitted messages using induced electrical currents with batteries disconnected",
+        "Undersea transatlantic communication cables melted completely",
+        "Telegraph needles spun backward and reversed the alphabet",
+        "Telegraph poles spontaneously burst into flames worldwide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Geomagnetically induced currents were so powerful that operators disconnected their battery supplies and transmitted messages entirely on atmospheric electricity."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What were the Vela satellites originally designed to monitor when they discovered gamma-ray bursts?",
+      "options": [
+        "Clandestine nuclear weapon detonations",
+        "Incoming Soviet spy aircraft",
+        "Solar radiation storms threatening astronauts",
+        "Collisions between micrometeoroids and satellites"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Vela satellites were launched to detect covert nuclear explosions in violation of the Partial Nuclear Test Ban Treaty."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which Apollo astronaut hit the first golf balls on the surface of the Moon?",
+      "options": [
+        "Alan Shepard",
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "John Young"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apollo 14 commander Alan Shepard attached a six-iron club head to a lunar sampling tool and hit two balls on the Moon in 1971."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did John Young's smuggled sandwich concern NASA officials during Gemini 3?",
+      "options": [
+        "Floating crumbs could short-circuit electronics or block vents",
+        "The deli meat spoiled and caused food poisoning",
+        "The sandwich odor contaminated the suit air supply",
+        "Mustard leaked onto the hatch pressure seal"
+      ],
+      "correctIndex": 0,
+      "explanation": "In zero gravity, loose crumbs float freely, posing serious risks of clogging cabin air circulation or causing electrical fires behind panels."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many kilobytes of RAM did the Apollo Guidance Computer have to steer Apollo 11 to the Moon?",
+      "answer": 4,
+      "min": 1,
+      "max": 256,
+      "unit": "KB",
+      "explanation": "The Apollo Guidance Computer operated on just 4 kilobytes of RAM and 72 kilobytes of ROM to navigate astronauts to the Moon."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Alan Shepard joked that his lunar golf shot flew miles and miles. How far did it actually travel?",
+      "answer": 40,
+      "min": 5,
+      "max": 500,
+      "unit": "yards",
+      "explanation": "Modern photographic analysis showed Shepard's one-handed swing in a stiff spacesuit sent the ball about 40 yards (36 meters)."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Geomagnetic solar storms only threaten orbiting satellites, leaving ground equipment safe.",
+      "answer": false,
+      "explanation": "Severe solar storms induce electrical currents in the ground that can overload power grids and telegraph wires, as seen during the Carrington Event."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Alan Shepard's golf ball on the Moon flew for miles because of the lunar low gravity.",
+      "answer": false,
+      "explanation": "Though Shepard claimed it went 'miles and miles,' his one-handed swing in a rigid spacesuit drove the ball roughly 40 yards."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "NASA astronauts were officially investigated by the U.S. Congress over a smuggled corned beef sandwich.",
+      "answer": true,
+      "explanation": "John Young's prank on Gemini 3 created loose crumb hazards that prompted a congressional hearing into flight crew discipline and safety."
+    }
+  ]
+}

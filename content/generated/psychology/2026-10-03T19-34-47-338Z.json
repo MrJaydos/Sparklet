@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.338Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single word can completely rewrite your memory of an event",
+      "body": "In 1974, psychologists Elizabeth Loftus and John Palmer showed participants film clips of car accidents and asked how fast the cars were going. When the question used the verb \"smashed\" instead of \"hit,\" speed estimates jumped by nearly 9 mph. A week later, 32% of the \"smashed\" group falsely remembered seeing broken glass, compared to only 14% of the \"hit\" group—even though the footage contained no broken glass at all.",
+      "imageWikipediaTitle": "Traffic collision",
+      "sources": [
+        {
+          "title": "Problems with Memory",
+          "publisher": "OpenStax",
+          "url": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory"
+        },
+        {
+          "title": "Misinformation effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Misinformation_effect"
+        }
+      ],
+      "readMoreUrl": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Banning an option makes your brain crave it instantly",
+      "body": "Tell someone they cannot have or do something, and their brain suddenly wants it more than ever. Coined by psychologist Jack Brehm in 1966, \"psychological reactance\" is an emotional state triggered whenever a person feels their freedom of choice is threatened or restricted. To restore their threatened autonomy, minds instinctively inflate the perceived value of the forbidden option and generate a powerful urge to do the very thing that was prohibited.",
+      "imageWikipediaTitle": "Censorship",
+      "sources": [
+        {
+          "title": "Understanding Psychological Reactance: New Perspectives on a Classic Concept",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675534/"
+        },
+        {
+          "title": "Psychological reactance",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Psychological_reactance"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675534/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain gets the eerie sensation of having 'been here before'",
+      "body": "Déjà vu is not a supernatural premonition or a psychic glitch; it is an optical and memory illusion. Research led by cognitive psychologist Anne Cleary shows that déjà vu typically strikes when a new setting shares the exact geometric layout or spatial arrangement of a place you previously visited. Because your brain recognizes the spatial blueprint without consciously recalling the original memory, it misinterprets that familiarity as having lived the current moment before.",
+      "imageWikipediaTitle": "Déjà vu",
+      "sources": [
+        {
+          "title": "The mystery of déjà vu: Examination of history, etiology, and neuropathology",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5854218/"
+        },
+        {
+          "title": "Déjà vu",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/D%C3%A9j%C3%A0_vu"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5854218/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You unconsciously mirror the body language of people you like",
+      "body": "Without realizing it, humans constantly copy the postures, gestures, and facial expressions of the people around them. In 1999, psychologists Tanya Chartrand and John Bargh termed this unconscious mimicry the \"chameleon effect.\" In their experiments, participants unknowingly rubbed their faces or shook their feet when an actor did so. Furthermore, when partners subtly mirrored participants' mannerisms, participants rated those partners as significantly more likable and felt the social interaction flowed more smoothly.",
+      "imageWikipediaTitle": "Chameleon",
+      "sources": [
+        {
+          "title": "The chameleon effect: the perception-behavior link and social interaction",
+          "publisher": "National Library of Medicine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10403314/"
+        },
+        {
+          "title": "Chameleon effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chameleon_effect"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/10403314/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The language you speak changes how your eyes distinguish colors",
+      "body": "In English, light blue and dark blue are shades of the same color, but Russian treats them as distinct fundamental colors: *goluboy* (light blue) and *siniy* (dark blue). In a 2007 study, Russian speakers were roughly 10% faster at distinguishing between shades of blue that crossed this linguistic boundary than shades within the same category. English speakers showed no such advantage, proving that learned language categories actively reshape how the visual cortex processes physical reality.",
+      "imageWikipediaTitle": "Blue",
+      "sources": [
+        {
+          "title": "Russian blues reveal effects of language on color discrimination",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1876524/"
+        },
+        {
+          "title": "Linguistic relativity and color perception",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Linguistic_relativity_and_color_perception"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1876524/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In Elizabeth Loftus and John Palmer's 1974 experiment, how did changing the verb 'hit' to 'smashed' affect participants' memories?",
+      "options": [
+        "Participants estimated higher speeds and falsely recalled broken glass",
+        "Participants forgot the color of the cars involved",
+        "Participants became completely unable to recall the crash",
+        "Participants accurately estimated the speed of both vehicles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Changing 'hit' to 'smashed' boosted estimated speeds by nearly 9 mph and more than doubled false reports of broken glass."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is psychological reactance?",
+      "options": [
+        "The urge to adopt whatever habits your peers practice",
+        "The drive to reclaim personal freedom when an option is restricted or banned",
+        "The tendency to freeze during unexpected emergencies",
+        "The habit of overestimating your own physical abilities"
+      ],
+      "correctIndex": 1,
+      "explanation": "Psychological reactance is an emotional drive that motivates people to restore threatened autonomy, often by desiring the forbidden option more."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to research by Anne Cleary, what commonly triggers the feeling of déjà vu in healthy people?",
+      "options": [
+        "A brief drop in blood sugar affecting the occipital lobe",
+        "An environmental layout matching a place seen before without conscious recall",
+        "A momentary micro-sleep lasting less than a second",
+        "A sudden surge of adrenaline caused by sensory overload"
+      ],
+      "correctIndex": 1,
+      "explanation": "Déjà vu occurs when a new environment shares the geometric layout of an earlier setting, but the brain cannot consciously retrieve the original memory."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did Tanya Chartrand and John Bargh discover about the 'chameleon effect'?",
+      "options": [
+        "People instinctively imitate others' movements and like partners who mirror them",
+        "People change their political opinions depending on who is in the room",
+        "Humans change skin temperature when feeling social embarrassment",
+        "Eyewitnesses blend separate suspects' faces into a single mental image"
+      ],
+      "correctIndex": 0,
+      "explanation": "The chameleon effect is unconscious physical mimicry of postures and gestures, which significantly increases mutual liking and social rapport."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did Russian speakers perform differently from English speakers in color discrimination tasks?",
+      "options": [
+        "They were faster at distinguishing light and dark blue because Russian has distinct words for each",
+        "They were worse at identifying blue shades due to optical fatigue",
+        "They perceived green and blue as identical shades",
+        "They showed no difference in reaction time under any condition"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because Russian treats light blue (goluboy) and dark blue (siniy) as separate basic color categories, Russian speakers discriminate between them faster."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In a 1974 study, what percentage of people falsely remembered seeing broken glass after simply being asked how fast cars 'smashed' into each other?",
+      "answer": 32,
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "explanation": "32% of participants who were asked with 'smashed' falsely remembered broken glass, compared to only 14% of those asked with 'hit'."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "By roughly what percentage were Russian speakers faster at distinguishing light blue from dark blue across their language's color boundary?",
+      "answer": 10,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Russian speakers were roughly 10% faster at distinguishing shades across the goluboy/siniy boundary compared to shades within the same category."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Eyewitness memories of an accident are recorded like video files that remain unaffected by how subsequent questions are phrased.",
+      "answer": false,
+      "explanation": "Memory is reconstructive; simply substituting the word 'hit' with 'smashed' altered speed estimates and made people invent broken glass."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Prohibiting an activity or item inherently reduces people's psychological desire for it.",
+      "answer": false,
+      "explanation": "Psychological reactance causes people to value and crave restricted options more intensely in an effort to restore their threatened autonomy."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Having distinct vocabulary words for different shades of color can measurably speed up your ability to distinguish between them.",
+      "answer": true,
+      "explanation": "Russian speakers distinguish light and dark blue roughly 10% faster than English speakers because their language treats them as separate color categories."
+    }
+  ]
+}

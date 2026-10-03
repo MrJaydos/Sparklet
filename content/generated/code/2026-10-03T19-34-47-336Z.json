@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.336Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A single byte caused Civilization II to crash after 6,000 years of peace",
+      "body": "While the internet loves the myth of 'Nuclear Gandhi'—a bug that never existed—Sid Meier's Civilization II actually suffered from an overflow bug. In Civ II, a civilization's attitude was tracked with an 8-bit unsigned integer. When peace lasted long enough, positive diplomacy points accumulated past 255 and wrapped around to zero. The computer-controlled leader suddenly treated a longtime ally as a hated, bitter enemy, declaring nuclear war out of sheer arithmetic overflow.",
+      "imageWikipediaTitle": "Sid Meier",
+      "sources": [
+        {
+          "title": "Civilization (video game)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Civilization_(video_game)"
+        },
+        {
+          "title": "Nuclear Gandhi",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nuclear_Gandhi"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Nuclear_Gandhi",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The internet's biggest text file format owes its design to an 8-track tape recorder",
+      "body": "When Larry Wall designed the patch and diff tools in 1984, and later the Perl programming language in 1987, he worked around severe Unix storage constraints. Wall used a home reel-to-reel and an 8-track audio workstation setup to conceptualize data streams. His unified diff format—which every modern version control system like Git relies on today—represented file differences so concisely that developers could exchange complete software updates over low-bandwidth USENET threads.",
+      "imageWikipediaTitle": "Larry Wall",
+      "sources": [
+        {
+          "title": "Perl",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Perl"
+        },
+        {
+          "title": "Larry Wall",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Larry_Wall"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Larry_Wall",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first computer mouse required a dedicated circuit board and cost $400 in 1968",
+      "body": "Douglas Engelbart's 1968 'Mother of All Demos' introduced the computer mouse, but the hardware was radically different from modern pointers. Carved out of a single block of wood, Engelbart's prototype used two perpendicular wheels inside to track movement along the X and Y axes. Because the machine could not process mouse clicks fast enough, an entirely separate analog-to-digital converter board had to translate mechanical wheel rotations into machine-readable digital coordinates.",
+      "imageWikipediaTitle": "Computer mouse",
+      "sources": [
+        {
+          "title": "Computer mouse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Computer_mouse"
+        },
+        {
+          "title": "Douglas Engelbart",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Computer_mouse",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a hardware flaw gave the Commodore 64 a screen-flickering typing speed limit",
+      "body": "The Commodore 64 sold millions of units, but its MOS Technology VIC-II graphics chip had a notorious design quirk. Whenever the chip drew text or graphics, it stole memory bus cycles directly from the main processor for 40 to 43 clock cycles per scanline. If a programmer typed or transferred serial data too quickly while the screen displayed graphics, missed clock cycles dropped characters entirely unless the screen was blanked.",
+      "imageWikipediaTitle": "Commodore 64",
+      "sources": [
+        {
+          "title": "MOS Technology VIC-II",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MOS_Technology_VIC-II"
+        },
+        {
+          "title": "Commodore 64",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Commodore_64"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/MOS_Technology_VIC-II",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Early space flights navigated using core rope memory sewn by textile workers",
+      "body": "Before silicon microchips were reliable enough for space, NASA used core rope memory on the Apollo Guidance Computer. Software wasn't flashed onto drives; women from local textile factories physically wove copper wires through magnetic ferrite rings. Passing a wire through a tiny ferrite core represented a binary '1', while bypassing the core represented a '0'. Because human hands threaded every byte, engineers affectionately nicknamed the flight firmware 'LOL memory'—short for Little Old Lady memory.",
+      "imageWikipediaTitle": "Core rope memory",
+      "sources": [
+        {
+          "title": "Core rope memory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Core_rope_memory"
+        },
+        {
+          "title": "Apollo Guidance Computer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apollo_Guidance_Computer"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Core_rope_memory",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did computer AI leaders suddenly declare war in Civilization II after prolonged peace?",
+      "options": [
+        "A deliberate hidden game easter egg",
+        "An 8-bit integer overflowed past 255 to zero",
+        "A floating-point rounding division error",
+        "A memory leak in the save-game file"
+      ],
+      "correctIndex": 1,
+      "explanation": "Diplomacy points accumulated in an unsigned 8-bit integer; once peace pushed points beyond 255, the counter wrapped to zero, making longtime friends instant enemies."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What tool did Larry Wall create in 1984 before designing the Perl programming language?",
+      "options": [
+        "The patch utility",
+        "The Vim editor",
+        "The gzip compression tool",
+        "The bash shell"
+      ],
+      "correctIndex": 0,
+      "explanation": "Larry Wall created the patch utility to allow developers to distribute software updates as compact unified diff files over USENET."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What material was Douglas Engelbart's 1968 prototype computer mouse carved from?",
+      "options": [
+        "Wood",
+        "Bakelite plastic",
+        "Cast aluminum",
+        "Hard rubber"
+      ],
+      "correctIndex": 0,
+      "explanation": "Engelbart's original prototype mouse was carved out of a single block of wood and housed two perpendicular tracking wheels."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did high-speed typing drop characters on the Commodore 64 during graphics display?",
+      "options": [
+        "The keyboard springs were too weak",
+        "The graphics chip stole processor bus cycles",
+        "The operating system had no keyboard buffer",
+        "The tape drive interrupted the CPU"
+      ],
+      "correctIndex": 1,
+      "explanation": "The VIC-II graphics chip stole memory bus cycles directly from the CPU on active scan lines, causing processor stalls that could drop input."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did passing a wire through a ferrite core represent in Apollo's core rope memory?",
+      "options": [
+        "A binary 1",
+        "A binary 0",
+        "A parity check error",
+        "A clock cycle reset"
+      ],
+      "correctIndex": 0,
+      "explanation": "Threading a copper wire through a ferrite core induced voltage to represent a binary '1', while bypassing the core registered as a '0'."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What was the maximum value an 8-bit unsigned integer could store before overflowing in early games?",
+      "answer": 255,
+      "min": 10,
+      "max": 1000,
+      "unit": "",
+      "explanation": "An unsigned 8-bit byte can only hold values from 0 to 255 (2^8 - 1) before rolling over to 0."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The original 1991 Civilization game had a bug that turned peaceful Gandhi into a nuclear warmonger.",
+      "answer": false,
+      "explanation": "Sid Meier confirmed that Gandhi never had a rollover bug in the original 1991 Civilization; the famous bug actually occurred in Civilization II due to an 8-bit diplomatic overflow."
+    }
+  ]
+}

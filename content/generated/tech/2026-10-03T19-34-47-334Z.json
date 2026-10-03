@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-10-03T19:34:47.334Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The tiny hole in airplane windows keeps the cabin from bursting",
+      "body": "Look closely at a commercial passenger window and you will spot a tiny hole in the acrylic. Aircraft windows consist of three panes. The middle pane contains this \"bleed hole,\" which balances air pressure between the passenger cabin and the gap between panes. This directs the immense pressure differential exclusively onto the robust outer pane, keeping the inner pane intact as a safety backup and preventing condensation from clouding your view.",
+      "imageWikipediaTitle": "Cabin pressurization",
+      "sources": [
+        {
+          "title": "Why do aeroplane windows have tiny holes?",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/future/article/20160414-why-do-aeroplane-windows-have-tiny-holes"
+        },
+        {
+          "title": "Cabin pressurization",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cabin_pressurization"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/future/article/20160414-why-do-aeroplane-windows-have-tiny-holes",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Bubble Wrap was originally invented to be trendy textured wallpaper",
+      "body": "In 1957, engineers Alfred Fielding and Marc Chavannes tried to create a futuristic textured wallpaper by sealing two plastic shower curtains together with trapped air bubbles. The wallpaper flopped, as did a later pivot attempting to market the material as greenhouse insulation. Its salvation arrived three years later when Sealed Air pitched it to IBM, who adopted the bubbly sheets as protective packaging for their delicate 1401 mainframe computers.",
+      "imageWikipediaTitle": "Bubble wrap",
+      "sources": [
+        {
+          "title": "The Accidental Invention of Bubble Wrap",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/innovation/accidental-invention-bubble-wrap-180971325/"
+        },
+        {
+          "title": "Bubble wrap",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bubble_wrap"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/innovation/accidental-invention-bubble-wrap-180971325/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Energy-saving LED traffic lights created an unexpected winter hazard",
+      "body": "When cities across North America and Europe swapped power-hungry incandescent traffic lights for energy-efficient LEDs, they slashed electricity use by roughly 80 to 90 percent. But engineers overlooked a crucial side effect: incandescent bulbs waste most of their energy as forward-radiating heat, which kept lenses free of ice and snow. The cool-running LEDs left winter storms free to pack traffic lenses with snow, blinding drivers and forcing cities to install supplemental heating elements.",
+      "imageWikipediaTitle": "Traffic light",
+      "sources": [
+        {
+          "title": "LED Traffic Lights Save Money, But Don't Melt Snow",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/templates/story/story.php?storyId=121464459"
+        },
+        {
+          "title": "Traffic light",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Traffic_light"
+        }
+      ],
+      "readMoreUrl": "https://www.npr.org/templates/story/story.php?storyId=121464459",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first crash test dummy was built for jet ejection seats, not cars",
+      "body": "The world's first anthropomorphic test dummy, nicknamed \"Sierra Sam,\" was created in 1949 not for automakers, but for the United States Air Force. Engineered by Samuel W. Alderson, the 95th-percentile male dummy was built to evaluate high-speed aircraft ejection seats and rocket sled decelerations. Automotive engineers did not adopt Alderson's specialized dummies until the late 1960s, adapting military aerospace tech to measure human crash survivability on the road.",
+      "imageWikipediaTitle": "Crash test dummy",
+      "sources": [
+        {
+          "title": "Sierra Sam",
+          "publisher": "National Museum of the U.S. Air Force",
+          "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195821/sierra-sam/"
+        },
+        {
+          "title": "Crash test dummy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crash_test_dummy"
+        }
+      ],
+      "readMoreUrl": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195821/sierra-sam/",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The elevator brake that made modern skyscrapers possible",
+      "body": "Hoists existed for millennia, but people refused to ride them because a broken cable meant a fatal plummet. In 1852, American inventor Elisha Otis solved this with a spring-operated safety catch: if the hoisting cable snapped, tension released a heavy leaf spring that jammed toothed ratchets directly into the guide rails, locking the cab in place. His dramatic 1854 demonstration—cutting his own elevator's rope above a breathless crowd—sparked the skyscraper boom.",
+      "imageWikipediaTitle": "Elisha Otis",
+      "sources": [
+        {
+          "title": "Elisha Graves Otis",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/elisha-graves-otis"
+        },
+        {
+          "title": "Elisha Otis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Elisha_Otis"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/elisha-graves-otis",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the primary engineering purpose of the tiny bleed hole in an airplane window?",
+      "options": [
+        "Equalizing air pressure so the outer pane carries the cabin load",
+        "Allowing fresh outside air to circulate into the passenger cabin",
+        "Draining liquid water accumulated during heavy rainstorms",
+        "Enabling flight attendants to equalize pressure manually during descent"
+      ],
+      "correctIndex": 0,
+      "explanation": "The hole balances pressure between the cabin and the inter-pane air gap, ensuring the outer pane bears the pressure differential."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was Bubble Wrap originally invented to be used as in 1957?",
+      "options": [
+        "Textured plastic wallpaper",
+        "Thermal greenhouse insulation",
+        "Protective military life raft lining",
+        "Acoustic baffling for sound stages"
+      ],
+      "correctIndex": 0,
+      "explanation": "Inventors Alfred Fielding and Marc Chavannes originally sealed two shower curtains together hoping to sell textured 3D wallpaper."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did early LED traffic light installations cause traffic hazards during winter blizzards?",
+      "options": [
+        "They did not generate enough heat to melt accumulating snow",
+        "Extreme cold caused their electronic control boards to shatter",
+        "Snowdrifts blocked the wireless radio signals used to synchronize them",
+        "Their light reflection off falling snowflakes blinded approaching drivers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unlike incandescent lights that radiated intense waste heat, energy-efficient LEDs stayed cold, allowing blowing snow to pack onto the lenses."
+    },
+    {
+      "cardIndex": 3,
+      "question": "For what purpose was Sierra Sam, the first crash test dummy, built in 1949?",
+      "options": [
+        "Evaluating aircraft ejection seats and rocket sleds",
+        "Testing frontal impacts for passenger automobiles",
+        "Simulating parachute opening shock for airborne troops",
+        "Measuring g-forces on experimental high-speed trains"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sierra Sam was engineered by Samuel Alderson for the U.S. Air Force to test high-altitude ejection seats and rocket sled deceleration."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did Elisha Otis's elevator safety mechanism halt a falling carriage?",
+      "options": [
+        "Releasing a leaf spring that jammed ratchets into the side guide rails",
+        "Clamping hydraulic brake calipers onto vertical steel guide cables",
+        "Deploying an emergency mechanical parachute from the elevator roof",
+        "Dropping heavy iron counterweights into water-filled deceleration cylinders"
+      ],
+      "correctIndex": 0,
+      "explanation": "A loss of rope tension allowed a heavy leaf spring to snap outward, driving toothed pawls into notched ratchets along the guide rails."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "By roughly what percentage did LED traffic lights reduce electrical power consumption compared to traditional incandescent signals?",
+      "answer": 85,
+      "min": 10,
+      "max": 99,
+      "unit": "%",
+      "explanation": "LEDs cut electricity usage by 80 to 90%, but this extreme efficiency meant they lacked the waste heat needed to melt winter snow."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The tiny hole in an airplane window goes all the way through to the outside air.",
+      "answer": false,
+      "explanation": "The bleed hole only pierces the middle pane of a three-pane window to balance pressure across the internal air gap."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Bubble Wrap was originally invented to serve as textured wallpaper.",
+      "answer": true,
+      "explanation": "Its creators sealed two shower curtains together in 1957 aiming to sell decorative 3D wallpaper before finding success in packaging."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Crash test dummies were originally developed by the automobile industry.",
+      "answer": false,
+      "explanation": "The first dummy, Sierra Sam, was developed in 1949 for the U.S. Air Force to test rocket sleds and aircraft ejection seats."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Elisha Otis invented the elevator.",
+      "answer": false,
+      "explanation": "Lifting hoists existed for centuries; Otis invented the critical safety brake that prevented elevators from falling if the cable snapped."
+    }
+  ]
+}
