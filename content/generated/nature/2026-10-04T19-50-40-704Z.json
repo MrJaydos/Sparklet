@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-04T19:50:40.704Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Shark That Walks on Land and Survives Without Oxygen",
+      "body": "Most sharks suffocate if they stop swimming, but the epaulette shark can survive out of water for up to two hours. Native to shallow reefs around Australia and New Guinea, it copes with receding tides by slowing its heart rate, powering down non-essential brain tissue, and crawling between isolated tide pools on muscular, paddle-shaped fins.",
+      "imageWikipediaTitle": "Hemiscyllium ocellatum",
+      "sources": [
+        {
+          "title": "Walking sharks",
+          "publisher": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/fishes/walking-sharks/"
+        },
+        {
+          "title": "Epaulette shark",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Epaulette_shark"
+        }
+      ],
+      "readMoreUrl": "https://australian.museum/learn/animals/fishes/walking-sharks/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Camels Have Oval Red Blood Cells That Can Swell Without Bursting",
+      "body": "Camels are the only mammals with oval red blood cells instead of round ones. When a camel is severely dehydrated, its blood thickens, but these elliptical cells still slip smoothly through narrow capillaries without clumping. When water finally appears, the animal can drink over one hundred liters in minutes; its unique cells swell up to 240 percent of their normal volume without rupturing.",
+      "imageWikipediaTitle": "Dromedary",
+      "sources": [
+        {
+          "title": "Camelus dromedarius (dromedary)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Camelus_dromedarius/"
+        },
+        {
+          "title": "Dromedary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dromedary"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Camelus_dromedarius/",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Wounded Matabele Ants Receive Field Medicine From Their Nestmates",
+      "body": "Raiding termite mounds is perilous work for African Matabele ants, but casualties receive dedicated trauma care. Returning workers carry injured comrades back to the nest, lick their open wounds clean, and apply antibiotic secretions produced by their metapleural glands. When researchers prevented this treatment, infected ants suffered roughly a 90 percent death rate, compared to under ten percent when cared for.",
+      "imageWikipediaTitle": "Megaponera analis",
+      "sources": [
+        {
+          "title": "Ants use antimicrobials to treat infected wounds",
+          "publisher": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-023-43885-w"
+        },
+        {
+          "title": "Megaponera analis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Megaponera_analis"
+        }
+      ],
+      "readMoreUrl": "https://www.nature.com/articles/s41467-023-43885-w",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This Arctic Caterpillar Spends Nearly 90% of Its Life Frozen Solid",
+      "body": "In the high Arctic, the woolly bear caterpillar takes up to fourteen years to mature into a moth—longer than almost any other lepidopteran. With summer feeding windows lasting just a few brief weeks, it spends roughly 90 percent of its existence frozen solid at temperatures as low as minus sixty degrees Celsius, synthesizing natural glycerol antifreezes to protect its cellular membranes.",
+      "imageWikipediaTitle": "Gynaephora groenlandica",
+      "sources": [
+        {
+          "title": "Woolly Bear Caterpillars",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/woollybearcaterpillar.htm"
+        },
+        {
+          "title": "Gynaephora groenlandica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gynaephora_groenlandica"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/woollybearcaterpillar.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Etruscan Shrew Must Eat Twice Its Weight Daily to Avoid Starvation",
+      "body": "Weighing less than two grams, the Etruscan shrew is the world's smallest mammal by mass. Its furious metabolism demands a heart rate reaching up to 1,500 beats per minute—twenty-five beats every second. To supply enough energy to stay alive, it must consume up to double its body weight in insects every single day, and can starve to death in just four hours without food.",
+      "imageWikipediaTitle": "Etruscan shrew",
+      "sources": [
+        {
+          "title": "Suncus etruscus (Etruscan shrew)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Suncus_etruscus/"
+        },
+        {
+          "title": "Etruscan shrew",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Etruscan_shrew"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Suncus_etruscus/",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the epaulette shark travel across exposed reefs when the tide recedes?",
+      "options": [
+        "It uses muscular, paddle-shaped fins to crawl over dry reef flats",
+        "It curls into a ball and rolls with the outgoing waves",
+        "It burrows a meter deep into wet ocean sand",
+        "It inflates its belly with air to glide over shallow rocks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Epaulette sharks can shut down non-essential neural activity and crawl across land between tidal pools using their paddle-like fins."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What shape are camel red blood cells, unlike those of any other mammal?",
+      "options": [
+        "Oval",
+        "Spherical",
+        "Star-shaped",
+        "Crescent-shaped"
+      ],
+      "correctIndex": 0,
+      "explanation": "Camels have oval red blood cells, which flow smoothly through thick, dehydrated blood and swell dramatically without bursting during rehydration."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do Matabele ants treat the wounds of nestmates injured during termite raids?",
+      "options": [
+        "They apply antimicrobial secretions from their metapleural glands",
+        "They cauterize the wounds using formic acid spray",
+        "They amputate the damaged limbs with their mandibles",
+        "They seal cuts with gathered tree sap"
+      ],
+      "correctIndex": 0,
+      "explanation": "Matabele ants apply antibiotic secretions produced in their metapleural glands to infected wounds, dramatically reducing infection mortality."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why does the Arctic woolly bear caterpillar take up to 14 years to develop into a moth?",
+      "options": [
+        "It spends roughly 90% of its life frozen solid, feeding for only brief summer windows",
+        "Its diet consists exclusively of low-nutrient rock lichen",
+        "It stays in subterranean cocoons to avoid predatory birds",
+        "It requires a decade to build sufficient venom reserves"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because high Arctic summers are so short, the caterpillar spends about 90% of its life frozen in winter dormancy, extending development over years."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How quickly can an Etruscan shrew starve to death without food?",
+      "options": [
+        "In around 4 hours",
+        "In around 24 hours",
+        "In about 3 days",
+        "In about a week"
+      ],
+      "correctIndex": 0,
+      "explanation": "With a heart beating up to 1,500 times per minute, the Etruscan shrew burns energy so quickly that it can starve in as little as four hours."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of its multi-year life does the Arctic woolly bear caterpillar spend frozen solid?",
+      "answer": 90,
+      "min": 10,
+      "max": 99,
+      "unit": "%",
+      "explanation": "The Arctic woolly bear caterpillar spends roughly 90% of its 14-year lifespan completely frozen, thawing out for only a few weeks each summer."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What is the peak heart rate of the tiny Etruscan shrew, in beats per minute?",
+      "answer": 1500,
+      "min": 200,
+      "max": 2500,
+      "unit": "",
+      "explanation": "The Etruscan shrew's heart can pump up to 1,500 beats per minute—about 25 beats per second—fueling an extreme metabolic rate."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All sharks will quickly suffocate and die if they stop swimming forward.",
+      "answer": false,
+      "explanation": "While some open-ocean sharks must swim continuously, reef species like epaulette sharks can pump water over their gills while stationary and even survive hours out of water."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Camels survive dry deserts primarily by storing large reservoirs of water inside their humps.",
+      "answer": false,
+      "explanation": "Camel humps store energy-rich fat, not water. Their dehydration resilience relies on specialized kidneys and oval red blood cells that handle dramatic shifts in fluid volume."
+    }
+  ]
+}

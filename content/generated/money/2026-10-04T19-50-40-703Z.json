@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-10-04T19:50:40.703Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Treasury Fund Funded Purely by Guilt",
+      "body": "In 1811, an anonymous citizen sent $5 to the federal government, admitting they had previously defrauded the US Treasury and wished to settle their debt with God. The government deposited the money into a dedicated account known as the Conscience Fund. Since then, thousands of remorseful citizens have mailed in anonymous cash, cashier's checks, and even stamps to atone for stolen military blankets, unpaid taxes, or petty theft.",
+      "imageWikipediaTitle": "United States Department of the Treasury",
+      "sources": [
+        {
+          "title": "Conscience Fund",
+          "publisher": "Bureau of the Fiscal Service",
+          "url": "https://www.fiscal.treasury.gov/conscience-fund/"
+        },
+        {
+          "title": "Conscience Fund",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Conscience_Fund"
+        }
+      ],
+      "readMoreUrl": "https://www.fiscal.treasury.gov/conscience-fund/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Automatic Emergency Brakes of Wall Street",
+      "body": "During the Black Monday crash of October 1987, the Dow Jones plummeted 22.6% in a single day as automated selling overwhelmed the market. In response, regulators created market-wide circuit breakers to force human breathing room. Today, if the S&P 500 index drops 7% or 13% before 3:25 PM, trading across all US stock exchanges halts completely for 15 minutes. If it crashes 20%, markets shut down for the rest of the day.",
+      "imageWikipediaTitle": "Trading curb",
+      "sources": [
+        {
+          "title": "Stock Market Circuit Breakers",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers"
+        },
+        {
+          "title": "Trading curb",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trading_curb"
+        }
+      ],
+      "readMoreUrl": "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Billions in Lost Cash Waiting in State Vaults",
+      "body": "When bank accounts go dormant, paychecks remain uncashed, or security deposits are forgotten, companies cannot simply pocket the money. Under the legal doctrine of escheatment, financial institutions must transfer these abandoned assets to state treasuries for safekeeping. In the United States, state governments hold over $50 billion in unclaimed property. Treasuries maintain free, searchable public databases, allowing rightful owners or their heirs to reclaim forgotten balances indefinitely without paying a cent.",
+      "imageWikipediaTitle": "Escheat",
+      "sources": [
+        {
+          "title": "What is Unclaimed Property?",
+          "publisher": "National Association of Unclaimed Property Administrators",
+          "url": "https://unclaimed.org/"
+        },
+        {
+          "title": "Escheat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Escheat"
+        }
+      ],
+      "readMoreUrl": "https://unclaimed.org/",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "When the US Melted 270 Million Silver Dollars for Britain",
+      "body": "In 1918, Great Britain faced a financial catastrophe in World War I. German propaganda in British India sparked rumors that paper rupees could no longer be redeemed for silver, triggering a run on banks that threatened to disrupt the Allied war effort. To rescue British credit, the US Congress passed the Pittman Act. The US Treasury melted down over 270 million Morgan silver dollars and sold the bullion to Britain to stabilize India’s currency.",
+      "imageWikipediaTitle": "Morgan dollar",
+      "sources": [
+        {
+          "title": "Peace Dollar",
+          "publisher": "United States Mint",
+          "url": "https://www.usmint.gov/learn/coin-and-medal-programs/peace-dollar"
+        },
+        {
+          "title": "Pittman Act",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pittman_Act"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pittman_Act",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Governor's Open Letter of Economic Apology",
+      "body": "In the United Kingdom, the Chancellor tasks the Bank of England with maintaining a strict 2.0% inflation target. If consumer price inflation drifts more than 1 percentage point above or below that benchmark, the Governor is legally obligated to write an open public letter of explanation to the Chancellor. The letter must detail exactly why prices missed the mark, the monetary actions underway to fix it, and when inflation is projected to return to target.",
+      "imageWikipediaTitle": "Bank of England",
+      "sources": [
+        {
+          "title": "Inflation and the 2% target",
+          "publisher": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/monetary-policy/inflation"
+        },
+        {
+          "title": "Monetary Policy Committee (United Kingdom)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Monetary_Policy_Committee_(United_Kingdom)"
+        }
+      ],
+      "readMoreUrl": "https://www.bankofengland.co.uk/monetary-policy/inflation",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What prompted the creation of the US Treasury's Conscience Fund in 1811?",
+      "options": [
+        "An anonymous payment of $5 from a citizen seeking to repay defrauded funds",
+        "A bequest left by a convicted pirate in their final will",
+        "A budget surplus accumulated during the War of 1812",
+        "A mandatory refund pool established for overbilled taxpayers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The fund began in 1811 when an anonymous citizen sent $5 to make amends for previously defrauding the government."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What triggers a Level 3 circuit breaker that halts US stock trading for the remainder of the day?",
+      "options": [
+        "A 20% drop in the S&P 500 index",
+        "A 10% plunge in the Dow Jones Industrial Average",
+        "A technical failure at the New York Stock Exchange",
+        "Three consecutive days of 5% losses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under market-wide circuit breaker rules, a 20% drop in the S&P 500 index triggers a complete shutdown of US stock trading for the rest of the day."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What legal process requires institutions to turn abandoned financial assets over to state governments?",
+      "options": [
+        "Escheatment",
+        "Garnishment",
+        "Sequestration",
+        "Eminent domain"
+      ],
+      "correctIndex": 0,
+      "explanation": "Escheatment is the centuries-old legal doctrine requiring unclaimed property and dormant accounts to be turned over to the state for safekeeping."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did the US Treasury melt over 270 million silver dollars under the 1918 Pittman Act?",
+      "options": [
+        "To sell silver to Britain and avert a currency run in British India",
+        "To eliminate silver backing and switch entirely to gold",
+        "To produce electrical wiring needed for military equipment",
+        "To fund the ongoing construction of the Panama Canal"
+      ],
+      "correctIndex": 0,
+      "explanation": "The US melted down over 270 million silver dollars to supply Britain with silver bullion, quelling a bank run on silver rupees in British India during World War I."
+    },
+    {
+      "cardIndex": 4,
+      "question": "The Governor of the Bank of England must write a public letter to the Chancellor if inflation misses the target by more than what amount?",
+      "options": [
+        "1 percentage point",
+        "0.25 percentage points",
+        "3 percentage points",
+        "5 percentage points"
+      ],
+      "correctIndex": 0,
+      "explanation": "If inflation deviates by more than 1 percentage point from the 2% target (falling below 1% or rising above 3%), the Governor must publish an open letter of explanation."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "During a trading day, what percentage drop in the S&P 500 triggers a Level 1 circuit breaker, pausing US stock trading for 15 minutes?",
+      "answer": 7,
+      "min": 1,
+      "max": 25,
+      "unit": "%",
+      "explanation": "A 7% drop triggers a 15-minute halt; a 13% drop triggers a second 15-minute halt; and a 20% crash closes the market for the day."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly how many billions of dollars in unclaimed property and forgotten funds are held by US state treasuries?",
+      "answer": 50,
+      "min": 5,
+      "max": 200,
+      "unit": "billion $",
+      "explanation": "US state treasuries currently hold over $50 billion in dormant bank accounts, uncashed checks, and forgotten property waiting to be claimed."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Roughly how many millions of silver dollars were melted down by the US Treasury under the 1918 Pittman Act?",
+      "answer": 270,
+      "min": 50,
+      "max": 600,
+      "unit": "million",
+      "explanation": "The US melted down 270,232,722 silver dollars to provide silver bullion to Great Britain and stabilize India's financial system."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Unsolicited anonymous cash sent to the US government to atone for past theft is discarded as untraceable.",
+      "answer": false,
+      "explanation": "The US Treasury maintains an official Conscience Fund specifically to accept and track unsolicited donations from remorseful citizens."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "If you forget about a bank account or paycheck, the issuing bank or employer can legally keep the money after several years.",
+      "answer": false,
+      "explanation": "Under escheatment laws, companies cannot keep abandoned funds; they must hand dormant balances over to state treasuries to be held indefinitely for the rightful owner."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "When UK inflation misses its official target by more than one percentage point, the Governor of the Bank of England is legally required to publish an open explanatory letter.",
+      "answer": true,
+      "explanation": "By law, if UK inflation drifts below 1% or above 3% against the 2% target, the Governor must write an open public letter detailing the causes and remedy."
+    }
+  ]
+}

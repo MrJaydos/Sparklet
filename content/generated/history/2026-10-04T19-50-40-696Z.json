@@ -1,0 +1,233 @@
+{
+  "generatedAt": "2026-10-04T19:50:40.697Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Celestial Omen Was Stitched Into the Bayeux Tapestry in 1066",
+      "body": "In April 1066, Halley’s Comet blazed across European skies. Months later, Duke William of Normandy invaded England and slew King Harold II at the Battle of Hastings. The 230-foot embroidered Bayeux Tapestry immortalized the event, showing Harold swaying nervously on his throne while onlookers gaze at the fiery visitor, labeled \"Isti mirant stella\"—\"These men wonder at the star.\" It remains history’s earliest known pictorial depiction of Halley’s Comet.",
+      "imageWikipediaTitle": "Bayeux Tapestry",
+      "sources": [
+        {
+          "title": "Halley's Comet in the Bayeux Tapestry",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Halley_s_Comet_in_the_Bayeux_Tapestry"
+        },
+        {
+          "title": "Halley's Comet",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/halleys-comet"
+        },
+        {
+          "title": "Bayeux Tapestry",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Shaved Beard Unleashed the Wrath of Genghis Khan",
+      "body": "In 1219, Genghis Khan sent a 500-camel trade caravan to open peaceful relations with the wealthy Khwarazmian Empire in Central Asia. A suspicious governor seized the goods and executed the merchants. Khan sent three ambassadors demanding redress, but the Shah had one beheaded and shaved the beards of the other two. Enraged by this diplomatic insult, the Mongol leader redirected his entire army westward, systematically demolishing the empire within two years.",
+      "imageWikipediaTitle": "Genghis Khan",
+      "sources": [
+        {
+          "title": "The Mongol Conquest of Central Asia",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/1453/the-mongol-conquest-of-central-asia/"
+        },
+        {
+          "title": "Genghis Khan",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Genghis-Khan"
+        },
+        {
+          "title": "Mongol conquest of the Khwarazmian Empire",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Khwarazmian_Empire"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Mongol_conquest_of_the_Khwarazmian_Empire",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rome Lost up to 70,000 Soldiers in a Single Afternoon at Cannae",
+      "body": "In 216 BCE, the Carthaginian general Hannibal met a massive Roman army on an open plain near Cannae, Italy. Hannibal deliberately allowed his center to bow backward while his elite infantry and cavalry closed around the Roman flanks. The resulting double envelopment compressed roughly 80,000 Romans into a suffocating pocket with no room to swing their swords. Rome lost up to 70,000 men in hours—roughly 20% of its adult male citizens.",
+      "imageWikipediaTitle": "Battle of Cannae",
+      "sources": [
+        {
+          "title": "Battle of Cannae",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/Battle_of_Cannae/"
+        },
+        {
+          "title": "Battle of Cannae",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/event/Battle_of_Cannae"
+        },
+        {
+          "title": "Battle of Cannae",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Cannae"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Battle_of_Cannae",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Drunken Party at Sea Plunged England into a 19-Year Civil War",
+      "body": "In November 1120, the White Ship prepared to sail from Normandy to England carrying William Adelin, the sole legitimate son and heir of King Henry I. The young prince supplied barrels of wine to the crew and fellow noble passengers. Heavily intoxicated, the helmsman steered the ship directly into a rock just outside the harbor. The heir drowned, leaving no clear male successor and throwing England into a 19-year dynastic war known as The Anarchy.",
+      "imageWikipediaTitle": "White Ship",
+      "sources": [
+        {
+          "title": "The White Ship",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/The_White_Ship/"
+        },
+        {
+          "title": "White Ship",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/White-Ship"
+        },
+        {
+          "title": "White Ship",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/White_Ship"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/White_Ship",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Science’s Greatest Hoax Stood Undetected for Over 40 Years",
+      "body": "In 1912, amateur archaeologist Charles Dawson unveiled fossil fragments from a Sussex gravel pit, claiming to have discovered humanity’s long-sought evolutionary \"missing link.\" British scientists celebrated \"Piltdown Man\" as proof that large brains evolved before upright walking. In 1953, modern chemical testing shattered the illusion: the specimen was an elaborate forgery cobbled together from a 500-year-old medieval human skull, an orangutan jaw with filed-down teeth, and fossil animal teeth stained with bichromate.",
+      "imageWikipediaTitle": "Piltdown Man",
+      "sources": [
+        {
+          "title": "Piltdown Man",
+          "publisher": "Natural History Museum",
+          "url": "https://www.nhm.ac.uk/our-science/departments-and-staff/library-and-archives/collections/piltdown-man.html"
+        },
+        {
+          "title": "Piltdown man",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Piltdown-man"
+        },
+        {
+          "title": "Piltdown Man",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Piltdown_Man"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Piltdown_Man",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which astronomical object is famously stitched into the 11th-century Bayeux Tapestry?",
+      "options": [
+        "A total solar eclipse",
+        "Halley's Comet",
+        "The Crab Nebula supernova",
+        "A meteor shower"
+      ],
+      "correctIndex": 1,
+      "explanation": "Halley's Comet passed Earth in April 1066, months before the Norman Conquest, and was stitched into the tapestry as an omen of King Harold's doom."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What diplomatic provocation prompted Genghis Khan to invade the Khwarazmian Empire in 1219?",
+      "options": [
+        "The Shah assassinated Genghis Khan's oldest son",
+        "Envoys were beheaded and their beards were shaved",
+        "Khwarazmian forces launched a surprise border raid",
+        "The Shah refused to pay an annual gold tribute"
+      ],
+      "correctIndex": 1,
+      "explanation": "After a trade caravan was seized, Genghis Khan sent three ambassadors; the Shah beheaded one and shaved the beards of the others, sparking the invasion."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Which military tactic allowed Hannibal to inflict crushing casualties on Rome at Cannae in 216 BCE?",
+      "options": [
+        "Tunneling beneath Roman trench lines",
+        "A double envelopment that encircled the Roman forces",
+        "A false surrender followed by a night raid",
+        "Deploying war elephants along the riverbank"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hannibal bowed his center inward while advancing his wings, encircling up to 80,000 Roman troops in one of history's deadliest double envelopments."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What 1120 maritime disaster triggered England's 19-year civil war known as The Anarchy?",
+      "options": [
+        "The sinking of the White Ship with the royal heir aboard",
+        "A French naval blockade that captured King Henry I",
+        "The destruction of the Royal Navy by a coastal hurricane",
+        "A pirate raid that kidnapped Empress Matilda"
+      ],
+      "correctIndex": 0,
+      "explanation": "The White Ship struck a rock after the crew and noble passengers held a drunken party, drowning William Adelin, the king's sole legitimate heir."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did scientific testing in 1953 reveal about the famous 'Piltdown Man' fossil?",
+      "options": [
+        "It was an authentic skull belonging to Homo erectus",
+        "It was a forged mix of a medieval human skull and an orangutan jaw",
+        "It was a modern gorilla skull carved by local miners",
+        "It was a plaster cast created by Victorian museum staff"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chemical testing revealed Piltdown Man was an elaborate hoax combining a medieval human cranium with a stained orangutan jaw and filed-down teeth."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "What percentage of ancient Rome's adult male citizen population was killed in a single afternoon at the Battle of Cannae?",
+      "answer": 20,
+      "min": 1,
+      "max": 60,
+      "unit": "%",
+      "explanation": "With up to 70,000 casualties in just hours, Rome lost roughly one out of every five adult male citizens in a single catastrophic afternoon."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "For how many years did the forged 'Piltdown Man' fossil fool the scientific community before being exposed in 1953?",
+      "answer": 41,
+      "min": 5,
+      "max": 100,
+      "unit": "years",
+      "explanation": "Piltdown Man was presented in 1912 and stood accepted by many leading paleoanthropologists for 41 years until chemical analysis proved it was fake."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The earliest known pictorial depiction of Halley's Comet appears in the medieval Bayeux Tapestry.",
+      "answer": true,
+      "explanation": "Stitched shortly after the 1066 Norman Conquest, the Bayeux Tapestry contains the earliest known visual record showing Halley's Comet."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Genghis Khan's invasion of the Khwarazmian Empire began as an unprovoked surprise war of conquest.",
+      "answer": false,
+      "explanation": "Khan originally sought trade relations; only after his 500-camel caravan was seized and his diplomats murdered did he redirect his army westward."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Piltdown Man was a genuine fossil discovery that was later reclassified under a different species name.",
+      "answer": false,
+      "explanation": "Piltdown Man was entirely fraudulent, fabricated from a medieval human cranium, an orangutan jaw, and stained animal teeth."
+    }
+  ]
+}

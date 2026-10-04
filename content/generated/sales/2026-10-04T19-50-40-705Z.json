@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-10-04T19:50:40.705Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why telling buyers 'don't worry about price' increases anxiety",
+      "body": "When you tell a prospect \"don't worry about hidden fees\" or \"don't stress over implementation delays,\" you trigger Daniel Wegner's ironic process theory. The brain's automatic monitoring system must continuously search for the forbidden thought in order to suppress it. This cognitive rebound keeps the exact fear you told them to disregard hyper-accessible in memory, making buyers substantially more anxious and suspicious about that specific issue.",
+      "imageWikipediaTitle": "Thought suppression",
+      "sources": [
+        {
+          "title": "Ironic process theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ironic_process_theory"
+        },
+        {
+          "title": "Wegner's ironic processes of mental control under cognitive load",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3181823/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Ironic_process_theory",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Place the discounted price on the left to make it feel smaller",
+      "body": "Where you place a price on a proposal page changes how cheap it feels. Research on the SNARC effect shows that human brains mentally map numbers from left to right, associating the left side with smaller magnitudes. When you place a discounted price to the left of the original price rather than the right, buyers process the lower number faster and perceive the cost as significantly smaller, reducing purchase friction.",
+      "imageWikipediaTitle": "Spatial-numerical association of response codes",
+      "sources": [
+        {
+          "title": "Spatial-numerical association of response codes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spatial-numerical_association_of_response_codes"
+        },
+        {
+          "title": "The SNARC effect in visual hemifields and numerical magnitude processing",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5445129/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Spatial-numerical_association_of_response_codes",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why sharing a meal during negotiations unlocks bigger deals",
+      "body": "Shifting a tough negotiation from a conference room to a dining table yields measurable profit. In a study led by researcher Lakshmi Balachandra, pairs who negotiated while eating a meal created 12% more joint value than pairs negotiating across an empty office desk. Eating together triggers biological bonding mechanisms, stabilizing blood sugar and promoting cooperation. This transforms adversarial zero-sum bargaining into collaborative problem-solving.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Should You Eat While You Negotiate?",
+          "publisher": "Program on Negotiation at Harvard Law School",
+          "url": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/should-you-eat-while-you-negotiate/"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://www.pon.harvard.edu/daily/negotiation-skills-daily/should-you-eat-while-you-negotiate/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pitch using 'you' instead of 'our product' to double recall",
+      "body": "Describing what a product does in the third person creates abstract, forgettable pitches. Under the psychological self-reference effect, people process and retain information far more deeply when it connects directly to themselves. Swapping \"our software generates automated reports\" for \"when you log in, your weekly reports are waiting for you\" activates self-relevant memory pathways. This simple phrasing shift makes your features twice as memorable during executive buying decisions.",
+      "imageWikipediaTitle": "Self-reference effect",
+      "sources": [
+        {
+          "title": "Self-reference effect",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-reference_effect"
+        },
+        {
+          "title": "The Self-Reference Effect on Memory: An fMRI Investigation",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3652814/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Self-reference_effect",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Share a minor vulnerability to uncover your buyer's real budget",
+      "body": "Asking blunt questions like \"what is your maximum budget?\" often triggers defensive, guarded answers. Research on reciprocal self-disclosure shows that voluntarily admitting a minor constraint first—such as mentioning an internal scheduling bottleneck or a production limit—creates immediate psychological pressure on your counterpart to match your openness. In high-stakes bargaining, offering a harmless private truth reliably compels the other side to drop their defenses and disclose their real priorities.",
+      "imageWikipediaTitle": "Self-disclosure",
+      "sources": [
+        {
+          "title": "Self-disclosure",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Self-disclosure"
+        },
+        {
+          "title": "Reciprocal self-disclosure and intimacy in social interactions",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6488349/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Self-disclosure",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does telling a prospect 'don't worry about hidden fees' often increase their anxiety?",
+      "options": [
+        "The brain must actively track the forbidden concept to suppress it, keeping the fear accessible",
+        "Buyers assume that any mention of fees violates consumer disclosure laws",
+        "Negative statements trigger an automatic increase in heart rate that mimics fear",
+        "Hearing the word 'fees' causes buyers to forget the rest of the pitch entirely"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ironic process theory shows that thought suppression requires an active monitoring system that constantly searches for the forbidden thought, keeping it top of mind."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to research on the SNARC effect, why should a sale price be placed to the left of the original price?",
+      "options": [
+        "Left-aligned text is processed exclusively by the brain's creative hemisphere",
+        "The human brain naturally maps smaller numbers to the left along a mental number line",
+        "Placing prices on the left forces buyers to read the original price first",
+        "Eye-tracking studies show buyers completely ignore the right side of pricing tables"
+      ],
+      "correctIndex": 1,
+      "explanation": "The SNARC effect shows that people map numbers from left to right, making numbers placed on the left feel naturally smaller in magnitude."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does negotiating while sharing a meal affect deal outcomes compared to meeting in an empty office?",
+      "options": [
+        "It prolongs the meeting without altering final financial terms",
+        "It creates about 12% more joint value by promoting cooperative problem-solving",
+        "It forces both parties to accept the first offer without counter-bidding",
+        "It lowers total deal value by distracting negotiators from key metrics"
+      ],
+      "correctIndex": 1,
+      "explanation": "Studies led by Lakshmi Balachandra found that dining together fosters biological bonding and cooperation, yielding 12% greater joint value."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why is pitching with second-person phrasing ('when you log in') more effective than third-person descriptions?",
+      "options": [
+        "It activates the self-reference effect, encoding features more deeply in the buyer's memory",
+        "Grammar rules require second-person phrasing in formal sales proposals",
+        "Third-person phrasing triggers regulatory compliance audits",
+        "Buyers perceive third-person descriptions as legally binding guarantees"
+      ],
+      "correctIndex": 0,
+      "explanation": "The self-reference effect demonstrates that linking information directly to the self leads to superior cognitive processing and recall."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does voluntarily sharing a small operational constraint help uncover a client's real budget?",
+      "options": [
+        "It prompts reciprocal self-disclosure, compelling the counterpart to match your openness",
+        "It proves your company has zero competitors in the market",
+        "It legally obligates the buyer to disclose confidential financial data",
+        "It signals that your product is underpriced and creates artificial scarcity"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reciprocal self-disclosure creates social pressure for counterparts to match personal or operational openness with their own private truths."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "In a negotiation study by researcher Lakshmi Balachandra, how much more joint value did pairs create when negotiating over a meal versus an office desk?",
+      "answer": 12,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Pairs who negotiated while dining created 12% more joint value, as sharing food stabilized glucose and fostered cooperation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Telling a buyer 'don't worry about the cost' reassures them and lowers their pricing anxiety.",
+      "answer": false,
+      "explanation": "Ironic process theory shows that instructing someone not to think about a concern forces their brain to monitor it, making them more conscious of that exact fear."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Placing a discounted price on either the left or right of the original price has no effect on how cheap it feels.",
+      "answer": false,
+      "explanation": "Because of the SNARC effect, the brain maps smaller numbers to the left, so placing the lower price on the left makes it feel significantly smaller."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Negotiating while eating a meal produces more profitable agreements than bargaining in a conference room.",
+      "answer": true,
+      "explanation": "Research shows that sharing a meal triggers biological bonding and stabilizes glucose, resulting in 12% more joint value."
+    }
+  ]
+}

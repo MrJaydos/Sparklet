@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-10-04T19:50:40.706Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The philosophical ladder you must throw away after climbing it",
+      "body": "In his 1921 work Tractatus Logico-Philosophicus, Ludwig Wittgenstein argued that language can only meaningfully describe physical facts about the world. Matters of ethics, art, and metaphysics cannot be stated in words. This created a dilemma: his own book discussed all three. Wittgenstein embraced the paradox, comparing his sentences to a ladder. Once a reader climbs up and grasps his logic, they must discard the ladder itself, recognizing that ultimate philosophical truths can only be shown, never spoken.",
+      "imageWikipediaTitle": "Ludwig Wittgenstein",
+      "sources": [
+        {
+          "title": "Ludwig Wittgenstein",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/wittgenstein/"
+        },
+        {
+          "title": "Ludwig Wittgenstein",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/wittgens/"
+        },
+        {
+          "title": "Tractatus Logico-Philosophicus",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/wittgenstein/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why flawless game theory makes people walk away empty-handed",
+      "body": "Imagine a pot with two dollars. You and a partner take turns either grabbing the pot or passing to let it double. If both keep passing, you both walk away wealthy. But standard game theory dictates you should defect on the very first turn. Using backward induction, rational players deduce their opponent will take the money on the final round, triggering a chain of distrust. In experiments, real humans ignore this mathematical logic, cooperate, and leave vastly richer.",
+      "imageWikipediaTitle": "Centipede game",
+      "sources": [
+        {
+          "title": "Game Theory",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/game-theory/"
+        },
+        {
+          "title": "Centipede game",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Centipede_game"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Centipede_game",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Can a universe be good if no conscious mind is there to enjoy it?",
+      "body": "To challenge utilitarianism, philosopher G.E. Moore proposed a thought experiment in 1903. Imagine two unpopulated universes that no conscious creature will ever visit. One is breathtakingly beautiful, filled with glowing skies, mountains, and crystal seas. The other is a foul, putrid wasteland of rotting filth. Moore asked: if nobody is around to feel pleasure or disgust, is the beautiful world still better? Utilitarians must say no, but Moore argued beauty holds objective value independent of any observer.",
+      "imageWikipediaTitle": "G. E. Moore",
+      "sources": [
+        {
+          "title": "Moore's Moral Philosophy",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/moore-moral/"
+        },
+        {
+          "title": "G. E. Moore",
+          "publisher": "Internet Encyclopedia of Philosophy",
+          "url": "https://iep.utm.edu/moore/"
+        },
+        {
+          "title": "Principia Ethica",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Principia_Ethica"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/moore-moral/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The simple sentence that threatens to prove Santa Claus is real",
+      "body": "Most famous logical paradoxes rely on self-contradiction, like saying 'this sentence is false.' In 1942, logician Haskell Curry found something stranger: a paradox requiring no negation at all. Consider the claim: 'If this sentence is true, then Santa Claus exists.' If you assume the sentence is true, its condition is satisfied, proving Santa exists. But proving the consequence from the assumption proves the conditional itself is true. Because the sentence is true, Santa Claus must logically exist.",
+      "imageWikipediaTitle": "Haskell Curry",
+      "sources": [
+        {
+          "title": "Curry's Paradox",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/curry-paradox/"
+        },
+        {
+          "title": "Curry's paradox",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Curry%27s_paradox"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/curry-paradox/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why nobody wants a camping trip run by the free market",
+      "body": "Philosopher G.A. Cohen asked readers to picture going camping with close friends. When setting up camp, people naturally share gear, divide chores, and cook together according to ability and need. Nobody charges their friends rent for sitting near the campfire, bills them for catching fish, or demands market rates for pitching a tent. Cohen argued that nearly everyone finds a capitalist camping trip absurd, revealing our shared intuition that collective cooperation is morally superior to market competition.",
+      "imageWikipediaTitle": "G. A. Cohen",
+      "sources": [
+        {
+          "title": "Socialism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/socialism/"
+        },
+        {
+          "title": "G. A. Cohen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/G._A._Cohen"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/socialism/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Ludwig Wittgenstein compare his own philosophical arguments to a ladder?",
+      "options": [
+        "Because readers must climb up his propositions and then discard them as nonsensical",
+        "Because each argument strictly builds upon the empirical sciences",
+        "Because philosophy ascends toward proving religious and spiritual doctrines",
+        "Because logic provides an infinite series of steps that can never be completed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wittgenstein argued that once his logical framework is understood, one sees that ethical and metaphysical truths cannot be spoken, rendering philosophical propositions obsolete."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What does standard game theory predict players will do in the Centipede Game?",
+      "options": [
+        "Defect on the very first move and take the tiny initial pot",
+        "Cooperate until the final round to maximize the jackpot",
+        "Alternate passing and taking randomly based on a coin flip",
+        "Split the prize equally at the exact midpoint of the game"
+      ],
+      "correctIndex": 0,
+      "explanation": "Using backward induction, players anticipate that the other person will defect on the final turn, causing mutual distrust that unwinds cooperation immediately."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was G.E. Moore trying to demonstrate with his 'two worlds' thought experiment?",
+      "options": [
+        "That beauty has intrinsic value even without conscious minds to perceive it",
+        "That a universe without humans is logically impossible to imagine",
+        "That pleasure is the only objective good in moral philosophy",
+        "That physical reality is merely an illusion produced by sensory organs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Moore argued that an unobserved beautiful world is objectively better than an unobserved ugly one, contradicting hedonistic utilitarianism."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What makes Curry's Paradox unique compared to classical paradoxes like the Liar Paradox?",
+      "options": [
+        "It generates an absurd conclusion without using negation or contradiction",
+        "It can only be written using mathematical equations rather than words",
+        "It requires three simultaneous speakers to construct the logical loop",
+        "It only applies to statements made about future events"
+      ],
+      "correctIndex": 0,
+      "explanation": "Curry's Paradox relies purely on self-reference and standard conditional proof rules, proving arbitrary claims without invoking falsehood or negation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What point did philosopher G.A. Cohen make using his camping trip thought experiment?",
+      "options": [
+        "Egalitarian sharing feels natural and moral in small-scale human cooperation",
+        "Private property rights are essential to keep campers from stealing supplies",
+        "Without financial incentives, people will refuse to perform hard camp chores",
+        "Human beings are naturally selfish and cannot function without market pricing"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cohen showed that people universally prefer cooperative, non-market norms during shared activities, arguing this reflects core egalitarian ideals."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Ludwig Wittgenstein believed that language can directly state fundamental truths about ethics.",
+      "answer": false,
+      "explanation": "In the Tractatus, Wittgenstein argued that language can only describe empirical facts; ethics, aesthetics, and metaphysics can only be shown, never spoken."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Strict game-theoretic rationality guarantees players achieve the highest possible payoff.",
+      "answer": false,
+      "explanation": "In the Centipede Game, game-theoretic backward induction forces players to defect on turn one for pocket change, whereas human cooperation yields vastly more."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A logical statement must contradict itself in order to produce a paradox.",
+      "answer": false,
+      "explanation": "Curry's Paradox proves that self-reference and simple conditional reasoning can generate an absurd conclusion without any negation or contradiction."
+    }
+  ]
+}
