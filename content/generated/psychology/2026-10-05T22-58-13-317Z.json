@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.317Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your brain counts to four in an instant, but stumbles at five",
+      "body": "Glance at a plate with three strawberries, and your brain instantly registers the total without counting. This rapid, pre-attentive judgment of quantity is called subitizing. Humans can effortlessly perceive up to four objects in roughly 200 milliseconds. But the moment a fifth object appears, subitizing collapses. Your brain must abandon instant recognition and switch to serial counting, adding roughly 250 to 350 milliseconds of processing time for every single additional item.",
+      "imageWikipediaTitle": "Subitizing",
+      "sources": [
+        {
+          "title": "Subitizing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Subitizing"
+        },
+        {
+          "title": "Subitizing: A type of very fast perception?",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3622086/"
+        },
+        {
+          "title": "Subitizing and counting: dissociable processes?",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17395474/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Subitizing",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The patient who could only say one word, and mapped the speaking brain",
+      "body": "In 1840, a 30-year-old French craftsman named Louis Victor Leborgne lost the power of speech, retaining only a single repeated syllable: \"tan.\" Leborgne understood spoken language perfectly and used expressive gestures, but could vocalize nothing else. When he died in 1861, physician Paul Broca examined his brain and found localized damage in the left frontal lobe. The discovery provided the first solid physical proof that specific cognitive functions reside in distinct regions of the cerebral cortex.",
+      "imageWikipediaTitle": "Broca's area",
+      "sources": [
+        {
+          "title": "Louis Victor Leborgne",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Louis_Victor_Leborgne"
+        },
+        {
+          "title": "The case of Louis Victor Leborgne: The brain that created cognitive neuropsychology",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23843818/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Louis_Victor_Leborgne",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rain doesn't actually make arthritis pain worse—your brain just invents the link",
+      "body": "Millions believe cloudy skies and falling barometric pressure trigger joint flare-ups. To test this, researchers Donald Redelmeier and Amos Tversky tracked arthritis patients twice a month for over a year alongside detailed local weather reports. The statistical correlation between weather changes and joint pain was exactly zero. The human brain readily pairs memorable stormy days with agonizing flare-ups while forgetting sunny days when joints ached, producing an \"illusory correlation\" where no physical relationship exists.",
+      "imageWikipediaTitle": "Rain",
+      "sources": [
+        {
+          "title": "Illusory correlation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Illusory_correlation"
+        },
+        {
+          "title": "Arthritis and the weather: a blinded study",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8614145/"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Illusory_correlation",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Dyslexia isn't about seeing letters backward",
+      "body": "Popular culture depicts dyslexia as a visual glitch where letters flip backward or swap places on the page. In reality, dyslexia is a neurological difference rooted in phonological processing—the brain's ability to isolate, manipulate, and map speech sounds to written symbols. Reversing letters like \"b\" and \"d\" is actually typical for all young children learning to write. People with dyslexia see words clearly, but their brains struggle to translate visual print into the sounds of language.",
+      "imageWikipediaTitle": "Dyslexia",
+      "sources": [
+        {
+          "title": "Dyslexia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dyslexia"
+        },
+        {
+          "title": "Dyslexia: MedlinePlus Genetics",
+          "publisher": "MedlinePlus",
+          "url": "https://medlineplus.gov/genetics/condition/dyslexia/"
+        }
+      ],
+      "readMoreUrl": "https://medlineplus.gov/genetics/condition/dyslexia/",
+      "category": "psychology"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Across cultures, human languages are mathematically biased toward happiness",
+      "body": "In 2015, researchers analyzed billions of words across ten diverse languages—including English, Spanish, Russian, Korean, and Chinese—drawn from books, news, Twitter, and television subtitles. In every single language without exception, people used positive words far more frequently and diversely than negative ones. Known as the Pollyanna Principle, this universal bias shows that despite our instinct to dwell on bad news, human communication is fundamentally wired to skew upbeat.",
+      "imageWikipediaTitle": "Happiness",
+      "sources": [
+        {
+          "title": "Pollyanna principle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pollyanna_principle"
+        },
+        {
+          "title": "Human language reveals a universal positivity bias",
+          "publisher": "PubMed Central",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4352789/"
+        }
+      ],
+      "readMoreUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4352789/",
+      "category": "psychology"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is 'subitizing' in cognitive psychology?",
+      "options": [
+        "The ability to instantly perceive the exact quantity of up to four items without counting",
+        "The tendency to underestimate the duration of repetitive daily tasks",
+        "The unconscious process of lip-reading during loud social events",
+        "The mental conversion of visual shapes into rhythmic auditory pulses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Subitizing refers to the rapid, pre-attentive judgment of small quantities (typically 1 to 4 items) without sequential counting."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What made the case of Louis Victor Leborgne ('Patient Tan') a milestone in neuroscience?",
+      "options": [
+        "He recovered full speech after losing his entire right cerebral hemisphere",
+        "His localized brain damage proved specific brain regions control speech production",
+        "He was the first recorded individual to live without an amygdala",
+        "His symptoms demonstrated that short-term memory operates independently of long-term memory"
+      ],
+      "correctIndex": 1,
+      "explanation": "Broca's autopsy of Leborgne showed damage restricted to the left frontal lobe, proving language production is localized to a specific brain region."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did researchers find when they tracked arthritis patients' pain against daily weather data for over a year?",
+      "options": [
+        "Falling barometric pressure caused severe joint swelling",
+        "Humidity tripled reported joint stiffness in older adults",
+        "There was zero statistical correlation between weather shifts and arthritis pain",
+        "Cold temperatures reduced inflammation but intensified nerve sensitivity"
+      ],
+      "correctIndex": 2,
+      "explanation": "Redelmeier and Tversky found a 0.00 correlation between joint pain and weather; the perceived connection is an illusory correlation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What is the primary underlying cause of dyslexia according to cognitive neuroscience?",
+      "options": [
+        "An optical distortion in the lens of the eye that flips letters",
+        "Difficulty processing and mapping speech sounds to written symbols",
+        "A general deficiency in overall intellectual and reasoning abilities",
+        "An involuntary muscle tremor that disrupts steady eye movement across a page"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dyslexia is a phonological processing difference, making it difficult to match the sounds of spoken language with written letter forms."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did large-scale linguistic analysis reveal about vocabulary usage across major world languages?",
+      "options": [
+        "Negative words are used twice as often as positive words in printed text",
+        "All studied languages share a universal bias toward using positive words more frequently",
+        "Only Western European languages demonstrate an upbeat linguistic bias",
+        "Languages naturally evolve to maintain an exact 50-50 balance between positive and negative words"
+      ],
+      "correctIndex": 1,
+      "explanation": "In a 2015 study across ten diverse languages, every language was found to contain an inherent statistical bias toward positive words."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "Up to how many items can the human brain instantly perceive at a glance without having to count them?",
+      "answer": 4,
+      "min": 1,
+      "max": 15,
+      "unit": "",
+      "explanation": "Human subitizing works automatically for up to 4 items. Once a group reaches 5 or more, the brain is forced to switch to serial counting."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Cold or rainy weather makes arthritis pain noticeably worse.",
+      "answer": false,
+      "explanation": "A landmark 15-month study by Redelmeier and Tversky found a 0.00 correlation between local weather shifts and joint pain; our brains simply remember flare-ups that coincide with bad weather."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Dyslexia is primarily a visual disorder that causes people to see letters reversed or backward.",
+      "answer": false,
+      "explanation": "Dyslexia is a phonological processing difference in the brain, affecting how spoken sounds map to letters, not a problem with physical eyesight."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Across the world's major languages, humans use positive words far more frequently than negative ones.",
+      "answer": true,
+      "explanation": "A 2015 study of ten diverse languages found that every single one possessed a statistically significant bias toward happy and positive vocabulary."
+    }
+  ]
+}

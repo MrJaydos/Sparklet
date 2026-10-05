@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.314Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "This Galápagos Fish Doesn't Swim—It Walks in Lipstick",
+      "body": "Found on the ocean floor around the Galápagos Islands, the red-lipped batfish is an exceptionally clumsy swimmer. Instead of gliding through water, it walks across the sandy seabed using modified pectoral and pelvic fins like miniature legs. Topped with a horn-like snout that lures prey and vivid, crimson lips that resemble freshly applied lipstick, this strange bottom-dweller looks ready for a night out on the reef.",
+      "imageWikipediaTitle": "Red-lipped batfish",
+      "sources": [
+        {
+          "title": "Red-lipped batfish",
+          "publisher": "Galapagos Conservation Trust",
+          "url": "https://galapagosconservation.org.uk/wildlife/red-lipped-batfish/"
+        },
+        {
+          "title": "Red-lipped batfish",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Red-lipped_batfish"
+        }
+      ],
+      "readMoreUrl": "https://galapagosconservation.org.uk/wildlife/red-lipped-batfish/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "British Coal Mines Kept Live Canaries on Duty Until 1986",
+      "body": "The image of a canary in a coal mine feels like a Victorian relic, but the British government did not retire its working mine canaries until December 30, 1986. Over 200 colliery birds were phased out that year in favor of electronic gas detectors called 'electronic noses.' Despite their service, the digital monitors were far more reliable and spared hundreds of birds from dangerous underground shifts.",
+      "imageWikipediaTitle": "Domestic canary",
+      "sources": [
+        {
+          "title": "1986: Coal mine canaries made redundant",
+          "publisher": "BBC News",
+          "url": "http://news.bbc.co.uk/onthisday/hi/dates/stories/december/30/newsid_2547000/2547537.stm"
+        },
+        {
+          "title": "Domestic canary",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Domestic_canary"
+        }
+      ],
+      "readMoreUrl": "http://news.bbc.co.uk/onthisday/hi/dates/stories/december/30/newsid_2547000/2547537.stm",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe Crabs Have Sky-Blue Blood That Protects Modern Medicine",
+      "body": "Horseshoe crabs do not have red blood. Instead of iron-based hemoglobin, their oxygen travels via copper-based hemocyanin, giving their blood an otherworldly milky-blue color. Even stranger, their blood cells clot almost instantaneously in the presence of bacterial endotoxins. For decades, medical labs have harvested this blue fluid to create tests that ensure every human vaccine, IV drip, and surgical implant is completely free of bacterial contamination.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Why is horseshoe crab blood blue?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/factoids/horseshoe-crab-blood.html"
+        },
+        {
+          "title": "Horseshoe crab",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_crab"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/factoids/horseshoe-crab-blood.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Secretary Bird Kills Cobras With a 15-Millisecond Stomp",
+      "body": "The African secretary bird hunts deadly venomous snakes, including cobras and adders, using martial-arts-level precision. When attacking, it stomps downward with its long, muscular legs, striking with roughly 195 Newtons of force—five times its own body weight. Even more impressive is the speed: the entire kick makes contact for a mere 15 milliseconds, about ten times faster than the blink of a human eye, leaving snakes no time to retaliate.",
+      "imageWikipediaTitle": "Secretarybird",
+      "sources": [
+        {
+          "title": "Secretary bird's killer kick revealed",
+          "publisher": "BBC News",
+          "url": "https://www.bbc.com/news/science-environment-35398285"
+        },
+        {
+          "title": "Secretarybird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Secretarybird"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/science-environment-35398285",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Male Bowerbirds Woo Mates by Hoarding Mountains of Blue Trash",
+      "body": "To attract a mate, the male satin bowerbird constructs an elaborate avenue of upright twigs and decorates the surrounding courtyard with a relentless color scheme: pure blue. Males spend weeks scavenging for blue berries, flowers, parrot feathers, and human trash like bottle caps, straws, and clothespins. Female bowerbirds tour multiple bowers like art critics, choosing mates with the most impressive, neatly curated blue exhibits.",
+      "imageWikipediaTitle": "Satin bowerbird",
+      "sources": [
+        {
+          "title": "Satin Bowerbird",
+          "publisher": "Australian Museum",
+          "url": "https://australian.museum/learn/animals/birds/satin-bowerbird-ptilonorhynchus-violaceus/"
+        },
+        {
+          "title": "Satin bowerbird",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Satin_bowerbird"
+        }
+      ],
+      "readMoreUrl": "https://australian.museum/learn/animals/birds/satin-bowerbird-ptilonorhynchus-violaceus/",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How does the red-lipped batfish primarily move along the seafloor?",
+      "options": [
+        "It uses modified fins to walk across the sand",
+        "It propels itself with high-pressure water jets",
+        "It rolls along the bottom like an aquatic tumbleweed",
+        "It hitches rides by latching onto sea turtles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Red-lipped batfish are poor swimmers and instead use their pectoral and pelvic fins like legs to crawl along the ocean floor."
+    },
+    {
+      "cardIndex": 1,
+      "question": "When did British coal mines officially replace working canaries with electronic detectors?",
+      "options": [
+        "1986",
+        "1899",
+        "1945",
+        "1912"
+      ],
+      "correctIndex": 0,
+      "explanation": "Canaries served as toxic gas alarms in British coal mines until December 30, 1986, when electronic detectors replaced them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What gives horseshoe crab blood its distinct milky-blue color?",
+      "options": [
+        "Copper-based hemocyanin",
+        "Iron-based hemoglobin",
+        "High concentrations of dissolved iodine",
+        "A dietary pigment absorbed from blue-green algae"
+      ],
+      "correctIndex": 0,
+      "explanation": "Horseshoe crab blood relies on copper-based hemocyanin to transport oxygen, turning it bright blue when oxygenated."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How do secretary birds disable venomous snakes without getting bitten?",
+      "options": [
+        "They deliver a lightning-fast kick to the snake's head",
+        "They drop stones onto snakes from high altitudes",
+        "They squirt irritating stomach acid into the snake's eyes",
+        "They bury the snakes under loose dirt until they suffocate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Secretary birds deliver a stomp with five times their own body weight in a strike that contacts the snake for only 15 milliseconds."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Which color of objects do male satin bowerbirds obsessively collect to decorate their display grounds?",
+      "options": [
+        "Blue",
+        "Bright red",
+        "Golden yellow",
+        "Deep purple"
+      ],
+      "correctIndex": 0,
+      "explanation": "Male satin bowerbirds gather blue berries, feathers, and plastic items like bottle caps and straws to entice females."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In what year did British coal mines finally retire live canaries in favor of electronic gas detectors?",
+      "answer": 1986,
+      "min": 1880,
+      "max": 2020,
+      "unit": "",
+      "explanation": "The British government didn't phase out the use of live canaries until December 30, 1986, replacing over 200 birds with electronic sensors."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "How many milliseconds does a secretary bird's lethal stomp make contact with a venomous snake?",
+      "answer": 15,
+      "min": 1,
+      "max": 200,
+      "unit": "ms",
+      "explanation": "A secretary bird's kick makes contact for just 15 milliseconds—about ten times faster than the blink of an eye."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "British coal mines stopped using live canaries in the 19th century.",
+      "answer": false,
+      "explanation": "Canaries were used in British coal mines well into the late 20th century, officially retiring only on December 30, 1986."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "All animals with circulatory systems have red blood.",
+      "answer": false,
+      "explanation": "Horseshoe crabs and many mollusks have bright blue blood because they use copper-based hemocyanin instead of iron-based hemoglobin."
+    }
+  ]
+}

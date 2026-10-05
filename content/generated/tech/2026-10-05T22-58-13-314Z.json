@@ -1,0 +1,214 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.314Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A NASA engineer accidentally created the Super Soaker from a leaky heat pump",
+      "body": "In 1982, NASA aerospace engineer Lonnie Johnson was working at the Jet Propulsion Laboratory on a new heat pump that used water instead of Freon. When he tested a homemade nozzle in his bathroom sink, a powerful jet of pressurized water shot across the room into the bathtub. Johnson realized the propulsion mechanism would make an incredible toy, patenting the pressurized water gun that became the world-famous Super Soaker.",
+      "imageWikipediaTitle": "Lonnie Johnson (inventor)",
+      "sources": [
+        {
+          "title": "Lonnie Johnson",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/lonnie-johnson"
+        },
+        {
+          "title": "Lonnie Johnson (inventor)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lonnie_Johnson_(inventor)"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/lonnie-johnson",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Automotive cruise control was invented by a blind engineer",
+      "body": "Ralph Teetor lost his sight in a childhood accident at age five, but grew up to become a gifted mechanical engineer. In the 1940s, while riding with his patent attorney—who constantly accelerated when talking and slowed down when listening—the erratic ride drove Teetor crazy. He spent a decade designing a mechanism to calculate driveshaft speed and mechanically resist the accelerator pedal, patenting modern automotive cruise control in 1950.",
+      "imageWikipediaTitle": "Ralph Teetor",
+      "sources": [
+        {
+          "title": "Ralph Teetor",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/ralph-teetor"
+        },
+        {
+          "title": "Ralph Teetor",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ralph_Teetor"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/ralph-teetor",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The mechanical windshield wiper was rejected as too distracting for drivers",
+      "body": "During a winter 1902 trip to New York City, Alabama inventor Mary Anderson watched a streetcar motorman struggle to see through freezing sleet, repeatedly opening his window to wipe the glass by hand. Anderson designed a spring-loaded rubber blade operated by a lever inside the vehicle and secured a patent in 1905. Automotive companies initially rejected it, claiming the motion would dangerously distract drivers, and her patent expired before wipers became universal.",
+      "imageWikipediaTitle": "Mary Anderson (inventor)",
+      "sources": [
+        {
+          "title": "Mary Anderson",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/mary-anderson"
+        },
+        {
+          "title": "Mary Anderson (inventor)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mary_Anderson_(inventor)"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/mary-anderson",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A walk with a dog through burdock burrs inspired the invention of Velcro",
+      "body": "In 1941, Swiss electrical engineer George de Mestral went hunting in the Alps and returned with his dog covered in burdock burrs. Intrigued by how tenaciously they stuck to fur and wool, he examined them under a microscope. He discovered hundreds of tiny, stiff hooks that snagged onto microscopic loops in the fabric. Mestral spent over a decade perfecting a nylon-weaving process to artificially duplicate the mechanism, patenting Velcro in 1955.",
+      "imageWikipediaTitle": "Velcro",
+      "sources": [
+        {
+          "title": "George de Mestral",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/george-de-mestral"
+        },
+        {
+          "title": "George de Mestral",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_de_Mestral"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/george-de-mestral",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first home video game console used translucent plastic screen overlays",
+      "body": "In 1966, television engineer Ralph Baer drew up plans for a device that transformed ordinary televisions into interactive gaming screens. Released in 1972 as the Magnavox Odyssey, the world's first commercial home video game console had no microprocessor. Because its simple analog circuits could only render glowing white blocks against a black background, players had to tape color-printed translucent plastic sheets onto their TV screens to simulate tennis courts, ski runs, and roulette tables.",
+      "imageWikipediaTitle": "Magnavox Odyssey",
+      "sources": [
+        {
+          "title": "Ralph H. Baer",
+          "publisher": "National Inventors Hall of Fame",
+          "url": "https://www.invent.org/inductees/ralph-h-baer"
+        },
+        {
+          "title": "Magnavox Odyssey",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey"
+        }
+      ],
+      "readMoreUrl": "https://www.invent.org/inductees/ralph-h-baer",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What device was Lonnie Johnson actually trying to develop when he invented the Super Soaker?",
+      "options": [
+        "An eco-friendly heat pump",
+        "A rocket thruster cooling jacket",
+        "An automatic lawn sprinkler",
+        "A submarine bilge pump"
+      ],
+      "correctIndex": 0,
+      "explanation": "Johnson was experimenting in his bathroom with a heat pump that used water instead of Freon when a high-pressure jet gave him the toy idea."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What personal experience motivated Ralph Teetor to invent automotive cruise control?",
+      "options": [
+        "His attorney's erratic driving while talking",
+        "A traffic ticket for speeding on an empty road",
+        "A near-fatal collision on an icy mountain highway",
+        "Testing high-speed engines for military tanks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Teetor was annoyed by his patent attorney repeatedly speeding up when listening and slowing down when talking, inspiring him to automate a steady speed."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did automotive companies initially reject Mary Anderson's patent for the windshield wiper?",
+      "options": [
+        "They argued moving blades would dangerously distract drivers",
+        "The rubber blades scratched early glass windshields",
+        "Early car windows were too small to require cleaning",
+        "Operating the mechanical levers frequently stalled vehicle engines"
+      ],
+      "correctIndex": 0,
+      "explanation": "Automotive manufacturers feared that the motion of sweeping wiper blades would break the driver's focus and cause accidents."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What natural structure inspired George de Mestral to invent Velcro?",
+      "options": [
+        "Microscopic hooks on burdock plant burrs",
+        "Gecko foot pads adhering to glass",
+        "Interlocking barbules on bird flight feathers",
+        "Pine cone scales opening in dry air"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under a microscope, Mestral saw tiny rigid hooks on burdock burrs clinging to tiny loops in fabric and animal fur."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did the 1972 Magnavox Odyssey display colorful backgrounds for games like tennis and roulette?",
+      "options": [
+        "Players taped translucent plastic sheets onto their TV screens",
+        "It required swappable colored bulbs placed behind the television",
+        "It stored pre-rendered 8-bit color sprites in internal ROM",
+        "It only worked with a specialized color CRT display sold by Magnavox"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because the console lacked a microprocessor and only rendered simple white boxes, color backgrounds were printed on clear plastic overlays stuck to the screen."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "At what age did Ralph Teetor, the mechanical engineer who invented automotive cruise control, lose his eyesight?",
+      "answer": 5,
+      "min": 1,
+      "max": 25,
+      "unit": "years old",
+      "explanation": "Teetor lost his sight at age five, developing a heightened sense of touch that helped him engineer intricate mechanical devices."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In what year was the Magnavox Odyssey, the world's first commercial home video game console, released to the public?",
+      "answer": 1972,
+      "min": 1965,
+      "max": 1985,
+      "unit": "",
+      "explanation": "Released in 1972, the Magnavox Odyssey predated microprocessors and launched the home video game industry."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Super Soaker was deliberately invented by toy designers seeking a high-powered water gun.",
+      "answer": false,
+      "explanation": "NASA engineer Lonnie Johnson invented it accidentally in 1982 while developing an eco-friendly heat pump that used water instead of Freon."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Automotive cruise control was invented by an engineer who was completely blind.",
+      "answer": true,
+      "explanation": "Ralph Teetor lost his sight at age five and relied on his keen sense of touch to invent the Speedostat, which became modern cruise control."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Automakers immediately embraced windshield wipers as a vital safety feature when first patented in 1905.",
+      "answer": false,
+      "explanation": "Car companies initially dismissed Mary Anderson's invention, claiming the moving wipers would dangerously distract drivers from the road."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The earliest commercial home video game console used microprocessors to generate on-screen color graphics.",
+      "answer": false,
+      "explanation": "The 1972 Magnavox Odyssey contained no microprocessor; its analog circuits only rendered white dots, requiring color plastic sheets taped to the TV."
+    }
+  ]
+}

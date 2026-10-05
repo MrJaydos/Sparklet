@@ -1,0 +1,196 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.316Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the original Unix pipeline used a single vertical bar",
+      "body": "Doug McIlroy conceived Unix pipelines in 1964, proposing that programs act like garden hoses connected together. Ken Thompson finally implemented the feature overnight in 1973. Seeking a concise syntax, Thompson seized on the vertical bar character. It existed on Model 33 Teletype keyboards but was virtually unused by existing command-line programs, making it the perfect delimiter to stream output from one program directly into another without temporary files.",
+      "imageWikipediaTitle": "Pipeline (Unix)",
+      "sources": [
+        {
+          "title": "A Quarter Century of UNIX",
+          "publisher": "Addison-Wesley / Bell Labs",
+          "url": "https://www.bell-labs.com/usr/dmr/www/hist.html"
+        },
+        {
+          "title": "Pipeline (Unix)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pipeline_(Unix)"
+        }
+      ],
+      "readMoreUrl": "https://www.bell-labs.com/usr/dmr/www/hist.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The punch card column limit that still dictates code formatting",
+      "body": "Many modern style guides still urge programmers to limit lines of code to 80 characters. This arbitrary convention traces directly to 1928, when IBM introduced the standard 80-column rectangular-hole punch card. Decades later, early text terminals like the 1978 DEC VT100 adopted an 80-column text display to maintain backward compatibility with card readers, anchoring a mechanical manufacturing constraint from the 1920s permanently into modern software linters.",
+      "imageWikipediaTitle": "Punched card",
+      "sources": [
+        {
+          "title": "Punched card",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Punched_card"
+        },
+        {
+          "title": "The IBM Punched Card",
+          "publisher": "Columbia University Computing History",
+          "url": "http://www.columbia.edu/cu/computinghistory/cards.html"
+        }
+      ],
+      "readMoreUrl": "http://www.columbia.edu/cu/computinghistory/cards.html",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The fast inverse square root constant that baffled id Software",
+      "body": "In 1999, id Software released Quake III Arena featuring a lightning-fast algorithm to compute the inverse square root needed for 3D physics vector calculations. Bypassing slow floating-point divisions, the code used an unheralded bit manipulation trick centered on the hex constant 0x5f3759df. Accompanied by the legendary code comment 'what the fuck?', the trick cut CPU cycles dramatically years before graphics chips supported dedicated hardware instructions.",
+      "imageWikipediaTitle": "Fast inverse square root",
+      "sources": [
+        {
+          "title": "Fast inverse square root",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_inverse_square_root"
+        },
+        {
+          "title": "Fast Inverse Square Root",
+          "publisher": "Purdue University Department of Computer Science",
+          "url": "https://www.cs.purdue.edu/homes/cs525/archive/2011/fall/lectures/FastInvSqrt.pdf"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Fast_inverse_square_root",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the very first webcam pointed at a Trojan Room coffee pot",
+      "body": "In 1991, researchers in the Computer Laboratory at the University of Cambridge grew tired of walking to the breakroom only to find an empty coffee pot. Quentin Stafford-Fraser and Paul Jardetzky set up a camera capturing a 128-by-128 greyscale frame of the pot every few seconds, serving it to desktop monitors over their local network. In 1993, when web browsers added image support, it went live online as history's first webcam.",
+      "imageWikipediaTitle": "Trojan Room coffee pot",
+      "sources": [
+        {
+          "title": "Trojan Room coffee pot",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Trojan_Room_coffee_pot"
+        },
+        {
+          "title": "The Trojan Room Coffee Pot",
+          "publisher": "University of Cambridge Computer Laboratory",
+          "url": "https://www.cl.cam.ac.uk/coffee/"
+        }
+      ],
+      "readMoreUrl": "https://www.cl.cam.ac.uk/coffee/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a spreadsheet formula error altered global austerity policy",
+      "body": "In 2010, Harvard economists Carmen Reinhart and Kenneth Rogoff published an influential paper arguing that countries with public debt exceeding 90% of GDP experience negative economic growth. Politicians globally cited this figure to justify severe budget cuts. In 2013, University of Massachusetts Amherst graduate student Thomas Herndon replicated their Excel spreadsheet and found an accidental formula glitch: an average calculation omitted five key countries entirely, completely invalidating the dramatic 90% debt cliff claim.",
+      "imageWikipediaTitle": "Growth in a Time of Debt",
+      "sources": [
+        {
+          "title": "Growth in a Time of Debt",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Growth_in_a_Time_of_Debt"
+        },
+        {
+          "title": "Does High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogoff",
+          "publisher": "Political Economy Research Institute, University of Massachusetts Amherst",
+          "url": "https://peri.umass.edu/publication/item/526-does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogoff"
+        }
+      ],
+      "readMoreUrl": "https://peri.umass.edu/publication/item/526-does-high-public-debt-consistently-stifle-economic-growth-a-critique-of-reinhart-and-rogoff",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did Ken Thompson choose the vertical bar '|' for Unix pipelines in 1973?",
+      "options": [
+        "It was virtually unused by existing programs on Teletype keyboards",
+        "It resembled a physical water pipe in early printer manuals",
+        "The ASCII standard had just reserved it exclusively for networking",
+        "It was the only non-alphanumeric key on his keyboard"
+      ],
+      "correctIndex": 0,
+      "explanation": "Thompson chose '|' because it was readily available on Model 33 Teletypes and had no conflicting prior usage in shell commands."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What historical hardware standard inspired the modern 80-character line length limit?",
+      "options": [
+        "IBM's 80-column punch card introduced in 1928",
+        "The width of an 8-inch magnetic floppy disk sector",
+        "The maximum printable characters on a standard typewriter line",
+        "The memory size of early 1970s microprocessors"
+      ],
+      "correctIndex": 0,
+      "explanation": "IBM introduced the 80-column punch card format in 1928, which later defined the standard width of terminal screens like the VT100."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What made the Quake III fast inverse square root code famous among game developers?",
+      "options": [
+        "An obscure magic hexadecimal constant (0x5f3759df)",
+        "It was written in pure machine code by artificial intelligence",
+        "It required zero bytes of random access memory",
+        "It replaced matrix multiplication with bitwise addition"
+      ],
+      "correctIndex": 0,
+      "explanation": "The algorithm relied on an enigmatic hex constant, 0x5f3759df, which allowed fast floating-point approximations via integer bit shifts."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the original purpose of the world's first webcam in 1991?",
+      "options": [
+        "To check if an office coffee pot was full or empty",
+        "To monitor a physics lab laser experiment",
+        "To provide security surveillance for a server rack",
+        "To live-stream weather conditions over Cambridge"
+      ],
+      "correctIndex": 0,
+      "explanation": "Researchers at Cambridge pointed a video camera at their breakroom coffee pot so colleagues could avoid walking over to an empty pot."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What coding error did graduate student Thomas Herndon uncover in Reinhart and Rogoff's 2010 economic study?",
+      "options": [
+        "An Excel formula omitted five entire countries from an average",
+        "A missing semi-colon caused the statistical model to loop",
+        "The spreadsheet converted percentages into decimal integers",
+        "A macro accidentally deleted data from all recession years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Herndon discovered that an Excel AVERAGE formula range omitted five rows of country data, fundamentally distorting the paper's conclusions."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many columns of data did IBM's 1928 punch card standard contain, shaping code line limits for a century?",
+      "answer": 80,
+      "min": 20,
+      "max": 200,
+      "unit": "columns",
+      "explanation": "IBM standardized on 80 columns in 1928, establishing the formatting width that programmers and terminal emulators still follow today."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "At what threshold of debt-to-GDP did Reinhart and Rogoff claim economic growth abruptly collapses before an Excel error was found?",
+      "answer": 90,
+      "min": 10,
+      "max": 200,
+      "unit": "%",
+      "explanation": "The paper claimed growth drops sharply once national debt exceeds 90% of GDP, a threshold widely cited before the spreadsheet bug was caught."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 4,
+      "claim": "Rigorous peer review guaranteed that Reinhart and Rogoff's landmark 2010 debt findings were mathematically sound.",
+      "answer": false,
+      "explanation": "The influential paper contained basic spreadsheet errors, including an Excel cell-selection glitch that excluded five countries from analysis."
+    }
+  ]
+}

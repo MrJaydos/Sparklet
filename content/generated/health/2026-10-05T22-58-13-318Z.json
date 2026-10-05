@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.318Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why your heart can never cramp into a locked muscle spasm",
+      "body": "Skeletal muscles can cramp into sustained, painful contractions called tetanus when stimulated repeatedly. Your heart, however, is physiologically incapable of cramping. Cardiac muscle cells possess an extraordinarily long electrical refractory period lasting roughly 250 milliseconds. Because this pause lasts nearly as long as the mechanical contraction itself, the heart muscle is physically forced to relax and refill with blood between every single beat.",
+      "imageWikipediaTitle": "Cardiac muscle",
+      "sources": [
+        {
+          "title": "Physiology, Cardiac Refractory Period",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539744/"
+        },
+        {
+          "title": "Cardiac muscle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cardiac_muscle"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539744/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Carbon monoxide suffocates cells by binding hemoglobin over 200 times tighter than oxygen",
+      "body": "Carbon monoxide is lethal because it starves tissues of oxygen without triggering any sensation of choking. Inhaled carbon monoxide binds to the iron atom in hemoglobin with an affinity roughly 200 to 250 times greater than oxygen. Once locked in place, it forms carboxyhemoglobin, which not only blocks fresh oxygen from hitching a ride but also prevents hemoglobin from releasing the oxygen it already carries.",
+      "imageWikipediaTitle": "Hemoglobin",
+      "sources": [
+        {
+          "title": "Carbon Monoxide Toxicity",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK430740/"
+        },
+        {
+          "title": "Carbon monoxide poisoning",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carbon_monoxide_poisoning"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK430740/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Rapid decompression turns dissolved blood nitrogen into fizzing bubbles",
+      "body": "While breathing compressed air underwater, ambient pressure forces inert nitrogen gas to dissolve into your blood and fatty tissues. If you ascend toward the surface too quickly, ambient pressure drops precipitously, causing that dissolved nitrogen to rapidly boil out of solution as microscopic gas bubbles. These bubbles lodge in capillaries, tear blood vessel linings, and pinch nerves, producing the agonizing condition called decompression sickness.",
+      "imageWikipediaTitle": "Decompression sickness",
+      "sources": [
+        {
+          "title": "Decompression Sickness",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK537264/"
+        },
+        {
+          "title": "Decompression sickness",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Decompression_sickness"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK537264/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The longest single cells in your body stretch over three feet",
+      "body": "While most human cells are microscopic, the motor neurons that control your feet are astonishing biological cables. Their cell bodies reside in your lower spinal cord, but a single continuous axon fiber stretches all the way down your leg to muscles in your toes, measuring over three feet long in adults. To keep this distant terminal alive, the cell body continuously shuttles vital proteins down its microscopic highway.",
+      "imageWikipediaTitle": "Axon",
+      "sources": [
+        {
+          "title": "Anatomy, Sciatic Nerve",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK482431/"
+        },
+        {
+          "title": "Axon",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Axon"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK482431/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The blood-testis barrier protects developing sperm from your own immune system",
+      "body": "Because sperm production begins at puberty—long after your immune system has cataloged your body's native tissues—developing sperm express novel surface proteins your white blood cells have never seen before. To prevent autoimmune destruction, specialized Sertoli cells construct the blood-testis barrier using ultra-tight cellular junctions. This barrier physically isolates developing sperm from blood and lymph, preventing your immune system from manufacturing antibodies against its own reproductive cells.",
+      "imageWikipediaTitle": "Sertoli cell",
+      "sources": [
+        {
+          "title": "Histology, Sertoli Cells",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK541097/"
+        },
+        {
+          "title": "Blood–testis barrier",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Blood%E2%80%93testis_barrier"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK541097/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What prevents human cardiac muscle from locking into a sustained cramp or spasm (tetanus)?",
+      "options": [
+        "A long electrical refractory period that forces relaxation between beats",
+        "The complete absence of calcium inside heart cells",
+        "Continuous inhibitory signals sent from the optic nerve",
+        "The inability of heart tissue to conduct action potentials"
+      ],
+      "correctIndex": 0,
+      "explanation": "Cardiac muscle cells have a prolonged refractory period of ~250 ms, ensuring the heart relaxes and refills with blood before it can contract again."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why is carbon monoxide exceptionally effective at starving bodily tissues of oxygen?",
+      "options": [
+        "It binds to hemoglobin over 200 times more tightly than oxygen",
+        "It instantly destroys red blood cells upon contact in the lungs",
+        "It paralyzes the diaphragm muscle so you cannot inhale",
+        "It converts dissolved oxygen in blood into carbon dioxide"
+      ],
+      "correctIndex": 0,
+      "explanation": "Carbon monoxide binds hemoglobin with an affinity 200 to 250 times greater than oxygen, locking onto binding sites and altering hemoglobin's release shape."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What physically causes decompression sickness (the bends) in scuba divers?",
+      "options": [
+        "Dissolved nitrogen gas coming out of solution as bubbles during a fast ascent",
+        "Severe chemical burns caused by breathing compressed oxygen",
+        "Sudden electrolyte loss caused by immersion in cold seawater",
+        "Rapid collapse of lung alveoli due to high external pressure"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ascending too quickly drops ambient pressure rapidly, causing dissolved nitrogen in blood and tissues to form bubbles that obstruct circulation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Where are the longest single nerve fibers (axons) in the human body located?",
+      "options": [
+        "Running from the lower spinal cord all the way down to the toes",
+        "Extending from the brainstem down into the small intestine",
+        "Connecting the retina directly to the frontal cortex",
+        "Stretching from the collarbone across the chest to the ribs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Motor axons in the sciatic nerve path originate in the lower spinal cord and travel continuously down the entire leg into the foot."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does the human body maintain a blood-testis barrier around developing sperm?",
+      "options": [
+        "To prevent immune cells from attacking novel proteins on sperm cells",
+        "To keep testosterone from escaping into general blood circulation",
+        "To stop red blood cells from consuming all available testicular glucose",
+        "To block atmospheric oxygen from entering reproductive tissue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because sperm cells develop after puberty, the immune system would treat their novel proteins as foreign invaders without this protective barrier."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many times more tightly does carbon monoxide bind to human hemoglobin compared to oxygen?",
+      "answer": 200,
+      "min": 10,
+      "max": 1000,
+      "unit": "x",
+      "explanation": "Carbon monoxide binds hemoglobin roughly 200 to 250 times more tightly than oxygen, aggressively outcompeting it."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "In inches, roughly how long is the longest single nerve cell in an adult human body?",
+      "answer": 36,
+      "min": 6,
+      "max": 72,
+      "unit": "inches",
+      "explanation": "Motor neurons running from the base of the spinal cord to the toes can measure 3 feet (36 inches) or more in length."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Your heart muscle can cramp into a continuous spasm just like your calves or thighs.",
+      "answer": false,
+      "explanation": "The heart has an unusually long refractory period that prevents tetanus, forcing muscle fibers to fully relax between beats."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Divers get the bends because oxygen in their bloodstream turns into gas bubbles.",
+      "answer": false,
+      "explanation": "Decompression sickness is caused by inert nitrogen gas coming out of solution when external pressure drops, not oxygen."
+    }
+  ]
+}

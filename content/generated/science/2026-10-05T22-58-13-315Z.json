@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.315Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tungsten can stay liquid at temperatures hotter than the surface of the Sun",
+      "body": "Tungsten has the highest melting point of all elements at 3,422°C (6,192°F) and doesn't boil until a blistering 5,555°C (10,031°F). The visible surface of the Sun, the photosphere, burns at approximately 5,500°C. If you placed a pool of molten tungsten on the Sun's surface, it would remain a glowing liquid puddle rather than boiling away into gas.",
+      "imageWikipediaTitle": "Tungsten",
+      "sources": [
+        {
+          "title": "Tungsten - Element information, properties and uses",
+          "publisher": "Los Alamos National Laboratory",
+          "url": "https://periodic.lanl.gov/74.shtml"
+        },
+        {
+          "title": "Tungsten",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tungsten"
+        }
+      ],
+      "readMoreUrl": "https://periodic.lanl.gov/74.shtml",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The human liver can regenerate its entire mass from a tiny remnant",
+      "body": "The human liver is the only internal organ capable of complete natural regeneration. If disease or surgical resection removes up to seventy percent of liver tissue, the remaining healthy cells rapidly enter the cell cycle. Within a few weeks, hepatocytes multiply until the liver regains its original volume and normal metabolic function, a survival mechanism originally evolved to withstand toxic dietary exposure.",
+      "imageWikipediaTitle": "Liver",
+      "sources": [
+        {
+          "title": "Physiology, Liver Regeneration",
+          "publisher": "National Center for Biotechnology Information",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539744/"
+        },
+        {
+          "title": "Liver regeneration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Liver_regeneration"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539744/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Periodical cicadas emerge on prime numbers to outsmart predators",
+      "body": "North American periodical cicadas spend either 13 or 17 years underground as nymphs before emerging simultaneously by the billions. Evolutionary biologists discovered that these numbers are not random—they are primes. Because primes have no divisors besides one and themselves, predators cannot sync their own reproductive cycles to track the cicadas. A predator with a two-, three-, four-, or six-year cycle almost never coincides with an emergence.",
+      "imageWikipediaTitle": "Magicicada",
+      "sources": [
+        {
+          "title": "Periodical Cicadas",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/articles/cicadas.htm"
+        },
+        {
+          "title": "Periodical cicadas",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Periodical_cicadas"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/articles/cicadas.htm",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Scientists can hold and move living bacteria using pure beams of light",
+      "body": "Light carries physical momentum. When a laser beam is tightly focused through a microscope lens, the steep gradient of light intensity pulls microscopic particles toward the beam's center. Known as optical tweezers, this technology allows scientists to grab, hold, and manipulate individual living bacteria, viruses, and strands of DNA without physically touching or puncturing them, earning Arthur Ashkin the 2018 Nobel Prize in Physics.",
+      "imageWikipediaTitle": "Optical tweezers",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physics 2018",
+          "publisher": "Nobel Prize Outreach",
+          "url": "https://www.nobelprize.org/prizes/physics/2018/press-release/"
+        },
+        {
+          "title": "Optical tweezers",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Optical_tweezers"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/physics/2018/press-release/",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Metal feels colder than wood at room temperature even when both are the exact same temperature",
+      "body": "Touch a steel table leg and a wooden tabletop in the same room, and the metal feels significantly colder. Yet both have sat together and reached identical thermal equilibrium. Metal feels colder because it conducts thermal energy roughly one hundred times faster than wood. Your skin's temperature receptors do not sense absolute ambient temperature—they detect the rate at which heat flows out of your fingers.",
+      "imageWikipediaTitle": "Thermal conductivity",
+      "sources": [
+        {
+          "title": "Cold Metal",
+          "publisher": "Exploratorium",
+          "url": "https://www.exploratorium.edu/snacks/cold-metal"
+        },
+        {
+          "title": "Thermal conductivity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thermal_conductivity"
+        }
+      ],
+      "readMoreUrl": "https://www.exploratorium.edu/snacks/cold-metal",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why would a pool of liquid tungsten stay liquid if placed on the surface of the Sun?",
+      "options": [
+        "Tungsten's boiling point exceeds the surface temperature of the Sun",
+        "Tungsten reflects all incoming solar radiation",
+        "The Sun's gravity prevents liquid phase transitions",
+        "Solar magnetic fields hold tungsten atoms together"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tungsten boils at 5,555°C, which is hotter than the Sun's surface temperature of roughly 5,500°C."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What maximum percentage of liver tissue can be surgically removed with the organ still able to regenerate to full size?",
+      "options": [
+        "Up to 70%",
+        "Up to 20%",
+        "Up to 40%",
+        "Only up to 5%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Remaining hepatocytes can rapidly replicate and restore normal volume even if up to 70% of the liver is removed."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why do periodical cicadas emerge in life cycles of 13 and 17 years?",
+      "options": [
+        "Prime-numbered cycles make it difficult for predators to synchronize life cycles with them",
+        "Thirteen and seventeen years match solar radiation cycles",
+        "Prime numbers maximize genetic mutations in underground nymphs",
+        "Soil bacteria eliminate nymphs in even-numbered years"
+      ],
+      "correctIndex": 0,
+      "explanation": "Prime numbers lack divisors, preventing recurring overlap with predators that have shorter annual or multi-year cycles."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What physical phenomenon allows optical tweezers to trap and manipulate microscopic particles?",
+      "options": [
+        "The momentum and radiation pressure of focused laser light",
+        "Electrostatic friction generated on microscope slides",
+        "High-frequency magnetic resonance fields",
+        "Ultrasonic shockwaves created by heating water"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optical tweezers use the radiation pressure and intensity gradient of focused light to trap microscopic objects."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why does room-temperature metal feel much colder than room-temperature wood?",
+      "options": [
+        "Metal conducts heat away from your skin much faster than wood",
+        "Metal cools below room temperature via spontaneous radiation",
+        "Wood emits infrared waves that actively heat human skin",
+        "Metal absorbs finger moisture, triggering evaporative cooling"
+      ],
+      "correctIndex": 0,
+      "explanation": "Both objects are the same temperature, but metal conducts heat away from your skin roughly 100 times faster than wood."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What is the boiling point of the chemical element tungsten (in degrees Celsius)?",
+      "answer": 5555,
+      "min": 2000,
+      "max": 9000,
+      "unit": "°C",
+      "explanation": "Tungsten boils at 5,555°C (10,031°F), exceeding the Sun's surface temperature of roughly 5,500°C."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What maximum percentage of the human liver can be safely removed, with the remaining tissue still able to regenerate to full size?",
+      "answer": 70,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "The human liver can fully regrow to normal size and function even if up to 70% of it is removed."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Aside from 13 years, what is the other prime-numbered emergence cycle of North American periodical cicadas (in years)?",
+      "answer": 17,
+      "min": 2,
+      "max": 30,
+      "unit": "years",
+      "explanation": "North American periodical cicadas emerge exclusively every 13 or 17 years."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "All known chemical elements would instantly vaporize into gas on the surface of the Sun.",
+      "answer": false,
+      "explanation": "Tungsten boils at 5,555°C, higher than the Sun's visible surface temperature (~5,500°C), so it would remain liquid."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "No human internal organ can naturally regrow after losing more than half of its tissue.",
+      "answer": false,
+      "explanation": "The human liver can fully regenerate its original mass even after losing up to 70 percent of its healthy tissue."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "A metal spoon resting on a wooden table is colder than the table it sits on.",
+      "answer": false,
+      "explanation": "Both sit in thermal equilibrium at the exact same temperature; metal just conducts heat away from your fingertips much faster."
+    }
+  ]
+}

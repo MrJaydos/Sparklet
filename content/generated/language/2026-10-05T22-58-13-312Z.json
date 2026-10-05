@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.313Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Thailand's national greeting was only invented in the 1930s",
+      "body": "You might expect an ancient culture's standard greeting to be centuries old, but Thailand's ubiquitous hello, สวัสดี (sawatdee, pronounced \"sah-wahd-DEE\"), was actually coined in the 1930s. Philology professor Phraya Upakit Silapasan adapted it from the Sanskrit word \"svasti,\" meaning well-being or auspiciousness. Previously, Siamese locals greeted each other by asking whether they had eaten yet. The government officially codified \"sawatdee\" in 1943 to modernize public etiquette.",
+      "imageWikipediaTitle": "Wai",
+      "sources": [
+        {
+          "title": "Thai language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Thai-language"
+        },
+        {
+          "title": "Wai",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Wai"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Thai-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why saying goodbye in Hebrew is actually a promise to meet again",
+      "body": "When parting ways in Israel, the standard farewell is להתראות (l'hitra'ot, pronounced \"leh-heet-rah-OHT\"). Rather than a final goodbye, the word is a reciprocal verb derived from the ancient Semitic root ראה (r-'-h), which means \"to see.\" Formed in the reflexive binyan that implies mutual action, \"l'hitra'ot\" literally translates to \"to see one another again.\" It functions just like the French \"au revoir,\" turning every departure into an anticipated reunion.",
+      "imageWikipediaTitle": "Modern Hebrew",
+      "sources": [
+        {
+          "title": "Hebrew language",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/topic/Hebrew-language"
+        },
+        {
+          "title": "Modern Hebrew",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Modern_Hebrew"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Hebrew-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"gossip\" originally meant a godparent",
+      "body": "Long before \"gossip\" described tabloid headlines or idle office chatter, it was a term of sacred family kinship. Derived from Old English \"godsibb\"—a compound of \"god\" and \"sibb\" (meaning relative or kin)—a gossip was originally a godparent or spiritual sponsor at a baptism. Over centuries, the word broadened to describe a woman's close female friend who supported her through childbirth, then to the casual fireside talks they shared, and finally to the rumors themselves.",
+      "imageWikipediaTitle": "Gossip",
+      "sources": [
+        {
+          "title": "The Origin of 'Gossip'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/the-origin-of-gossip"
+        },
+        {
+          "title": "Gossip",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gossip"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/the-origin-of-gossip",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why \"bully\" was originally a term of sweet affection",
+      "body": "Today, a bully is someone who intimidates others, but in the sixteenth century, calling someone a \"bully\" was the warmest of compliments. Borrowed from Middle Dutch \"boel,\" meaning \"lover\" or \"brother,\" it was an affectionate pet name for both sweethearts and dear companions. William Shakespeare famously used it this way in \"A Midsummer Night's Dream,\" hailing a friend as \"bully Bottom.\" The meaning deteriorated across the 1600s from gallant friend to blusterer, and eventually to harasser.",
+      "imageWikipediaTitle": "Bullying",
+      "sources": [
+        {
+          "title": "The History of 'Bully': From Darling to Intimidator",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/word-history-of-bully"
+        },
+        {
+          "title": "Bullying",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bullying"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/word-history-of-bully",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why China has called itself the \"Middle Kingdom\" for 3,000 years",
+      "body": "The Chinese name for China, 中国 (Zhōngguó, pronounced \"jong-gwoh\"), translates literally as the \"Middle Kingdom\" or \"Central State.\" The term was first cast in bronze over 3,000 years ago on the He zun, an eleventh-century BCE ritual vessel from the Western Zhou dynasty. Originally, it referred specifically to the fertile central plains and royal domain of the Yellow River valley, which early dynasties viewed as the geographical and cosmic center of the civilized world.",
+      "imageWikipediaTitle": "He zun",
+      "sources": [
+        {
+          "title": "China",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/China/"
+        },
+        {
+          "title": "China",
+          "publisher": "Encyclopaedia Britannica",
+          "url": "https://www.britannica.com/place/China"
+        },
+        {
+          "title": "Names of China",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Names_of_China"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/China/",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did Thai speakers commonly ask each other as a greeting before \"sawatdee\" was coined in the 1930s?",
+      "options": [
+        "\"Have you eaten yet?\"",
+        "\"How is your harvest?\"",
+        "\"Where are your ancestors?\"",
+        "\"Is your household at peace?\""
+      ],
+      "correctIndex": 0,
+      "explanation": "Before \"sawatdee\" was coined from Sanskrit in the 1930s, Siamese people typically greeted one another by asking if they had eaten."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the literal meaning of the Hebrew farewell \"l'hitra'ot\"?",
+      "options": [
+        "Go in peace",
+        "Until tomorrow",
+        "To see one another again",
+        "May God protect you"
+      ],
+      "correctIndex": 2,
+      "explanation": "\"L'hitra'ot\" uses a reflexive verb pattern from the Semitic root meaning \"to see,\" literally translating to \"to see each other again.\""
+    },
+    {
+      "cardIndex": 2,
+      "question": "What did the word \"gossip\" originally mean in Old English?",
+      "options": [
+        "A village marketplace",
+        "A godparent or spiritual sponsor",
+        "A loud songbird",
+        "A deceitful servant"
+      ],
+      "correctIndex": 1,
+      "explanation": "\"Gossip\" comes from Old English \"godsibb\" (god-relative), which originally referred to a baptismal sponsor or godparent."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What did the word \"bully\" mean when borrowed into sixteenth-century English?",
+      "options": [
+        "Sweetheart or darling",
+        "Horned ox",
+        "Heavy wooden club",
+        "Dishonest merchant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Derived from Middle Dutch \"boel\" (lover or brother), \"bully\" was originally an affectionate term of endearment for loved ones and friends."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where was the phrase \"Zhōngguó\" (Middle Kingdom) first recorded in bronze roughly 3,000 years ago?",
+      "options": [
+        "The He zun ritual vessel",
+        "The Great Wall foundation stones",
+        "The Terracotta Army weapons",
+        "The Oracle bones of Anyang"
+      ],
+      "correctIndex": 0,
+      "explanation": "The earliest known written inscription of \"Zhōngguó\" appears on the He zun, an 11th-century BCE bronze vessel from the Western Zhou dynasty."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "In what year did the Thai government officially establish the word \"sawatdee\" as the nation's formal everyday greeting?",
+      "answer": 1943,
+      "min": 1850,
+      "max": 1990,
+      "unit": "",
+      "explanation": "Despite sounding timeless, \"sawatdee\" was only officially codified by the Thai government in 1943 to modernize public etiquette."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The standard Thai greeting 'sawatdee' has been spoken in Thailand for thousands of years.",
+      "answer": false,
+      "explanation": "\"Sawatdee\" was invented in the 1930s by a university professor from a Sanskrit root and officially promoted by the Thai government in 1943."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The word 'bully' has always referred to someone aggressive or intimidating.",
+      "answer": false,
+      "explanation": "In 16th-century English, \"bully\" was an affectionate pet name meaning sweetheart or darling, derived from Middle Dutch \"boel\" (lover)."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The name 'Zhōngguó' (Middle Kingdom) has been used in Chinese inscriptions for over 3,000 years.",
+      "answer": true,
+      "explanation": "The term \"Zhōngguó\" was cast into the bronze He zun ritual vessel during the Western Zhou dynasty in the 11th century BCE."
+    }
+  ]
+}

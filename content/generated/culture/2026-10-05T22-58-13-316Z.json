@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.316Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Only Fabric Governed by Its Own Act of Parliament",
+      "body": "In Scotland's Outer Hebrides, weavers produce Harris Tweed under strict statutory law. Under the Harris Tweed Act 1993, every inch of fabric bearing the Orb trademark must be handwoven by islanders at their own homes, made from pure virgin wool dyed and spun in the Western Isles. Commercial mills cannot weave it. Dedicated inspectors from the Harris Tweed Authority still examine every 50-meter bolt by hand before stamping it with iron seals.",
+      "imageWikipediaTitle": "Harris Tweed",
+      "sources": [
+        {
+          "title": "Harris Tweed Act 1993",
+          "publisher": "legislation.gov.uk",
+          "url": "https://www.legislation.gov.uk/ukpga/1993/11/enacted"
+        },
+        {
+          "title": "Harris Tweed",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Harris_Tweed"
+        }
+      ],
+      "readMoreUrl": "https://www.legislation.gov.uk/ukpga/1993/11/enacted",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ceremony Where Power Was Proven by Giving Everything Away",
+      "body": "Among Indigenous nations of the Pacific Northwest coast, wealth was measured not by what you hoarded, but by what you gave away. During a ceremonial feast called a potlatch, chiefs validated their status, marked marriages, or transferred titles by distributing lavish gifts—canoes, carved copper shields, and blankets—to rival clans. Canadian colonial authorities found this non-capitalist redistribution so threatening that they formally banned potlatches from 1884 until 1951, arresting hosts who defied the law.",
+      "imageWikipediaTitle": "Potlatch",
+      "sources": [
+        {
+          "title": "Potlatch",
+          "publisher": "The Canadian Encyclopedia",
+          "url": "https://www.thecanadianencyclopedia.ca/en/article/potlatch"
+        },
+        {
+          "title": "Potlatch",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Potlatch"
+        }
+      ],
+      "readMoreUrl": "https://www.thecanadianencyclopedia.ca/en/article/potlatch",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Alabama Quilts That Rivaled Modern Masterpieces",
+      "body": "In the isolated Black community of Gee's Bend, Alabama, generations of women pieced together quilts from work clothes, faded denim, and fertilizer sacks. Developing outside mainstream European needlework traditions, they favored bold improvisation, jagged geometric lines, and asymmetrical rhythm over uniform blocks. When art scholars encountered these utilitarian blankets decades later, major museums exhibited them alongside abstract modernists like Henri Matisse and Paul Klee, celebrating the quilters as pivotal creators of American folk art.",
+      "imageWikipediaTitle": "Gee's Bend quilting",
+      "sources": [
+        {
+          "title": "Gee's Bend Quilters",
+          "publisher": "National Endowment for the Arts",
+          "url": "https://www.arts.gov/honors/heritage/gees-bend-quilters"
+        },
+        {
+          "title": "Gee's Bend quilting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gee%27s_Bend_quilting"
+        }
+      ],
+      "readMoreUrl": "https://www.arts.gov/honors/heritage/gees-bend-quilters",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Ancestral Thumb Piano Engineered to Buzz",
+      "body": "For centuries, the Shona people of Zimbabwe have played the mbira dzaVadzimu to communicate with ancestral spirits during sacred, all-night gatherings called bira. Plucking up to 28 forged iron keys mounted on a hardwood soundboard, players nest the instrument inside a hollow calabash gourd to amplify its sound. Rather than seeking a pure tone, makers attach bottle caps or shells to the body to produce a continuous buzzing rattle believed to summon spiritual presence.",
+      "imageWikipediaTitle": "Mbira",
+      "sources": [
+        {
+          "title": "Art of crafting and playing Mbira/Sansi",
+          "publisher": "UNESCO",
+          "url": "https://ich.unesco.org/en/RL/art-of-crafting-and-playing-mbira-sansi-the-finger-plucking-traditional-musical-instrument-in-malawi-and-zimbabwe-01582"
+        },
+        {
+          "title": "Mbira",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mbira"
+        }
+      ],
+      "readMoreUrl": "https://ich.unesco.org/en/RL/art-of-crafting-and-playing-mbira-sansi-the-finger-plucking-traditional-musical-instrument-in-malawi-and-zimbabwe-01582",
+      "category": "culture"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Black-on-Black Pottery Fired Without a Drop of Glaze",
+      "body": "In the early 20th century, Pueblo potter Maria Martinez revived a lost ceramic technique at San Ildefonso Pueblo, New Mexico. Instead of using chemical glazes, she polished local red clay with a smooth river stone and painted matte designs using liquefied slip. During outdoor pit firing, she smothered the cedar wood fire with dried manure. The intense, oxygen-starved smoke caused a chemical reduction that trapped carbon inside the clay, turning red earth into lustrous, metallic jet-black pottery.",
+      "imageWikipediaTitle": "Maria Martinez",
+      "sources": [
+        {
+          "title": "Maria Martinez",
+          "publisher": "Smithsonian American Art Museum",
+          "url": "https://americanart.si.edu/artist/maria-martinez-3136"
+        },
+        {
+          "title": "Maria Martinez",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maria_Martinez"
+        }
+      ],
+      "readMoreUrl": "https://americanart.si.edu/artist/maria-martinez-3136",
+      "category": "culture"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Where must Harris Tweed be woven to legally bear its protected name and trademark?",
+      "options": [
+        "In commercial mills in Edinburgh",
+        "At weavers' own homes in the Outer Hebrides",
+        "In accredited factories across the Scottish Highlands",
+        "At historic textile guilds in Glasgow"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Harris Tweed Act 1993 strictly dictates that the fabric must be handwoven by islanders at their own homes in the Outer Hebrides."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Pacific Northwest chiefs traditionally demonstrate their status in a potlatch?",
+      "options": [
+        "By giving away valuable possessions to guests",
+        "By building the tallest totem pole in the region",
+        "By winning combat tournaments against rivals",
+        "By collecting tribute payments from neighboring tribes"
+      ],
+      "correctIndex": 0,
+      "explanation": "In potlatch ceremonies, social standing and prestige were proven through radical generosity—redistributing goods and gifts rather than accumulating them."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What raw materials did the quilters of Gee's Bend, Alabama, primarily rely on for their celebrated quilts?",
+      "options": [
+        "Discarded work clothes, denim, and feed sacks",
+        "Imported European silk ribbons",
+        "Machine-printed calico cotton squares",
+        "Unbleached canvas dyed with natural indigo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isolated and resourceful, the women of Gee's Bend pieced quilts from everyday materials like worn-out work clothes, denim, and fertilizer sacks."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why do traditional mbira makers in Zimbabwe attach bottle caps or shells to the instrument?",
+      "options": [
+        "To prevent the iron keys from slipping out of tune",
+        "To create a continuous buzzing overtone that summons spirits",
+        "To act as counterweights that keep the gourd steady",
+        "To track the tempo of dancers during sacred rituals"
+      ],
+      "correctIndex": 1,
+      "explanation": "The attached shells or bottle caps generate a distinctive buzzing rattle that the Shona believe helps bridge the gap to the ancestral spirit realm."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What gives Maria Martinez's famous San Ildefonso blackware pottery its deep jet-black finish?",
+      "options": [
+        "Smothering the outdoor fire to trap carbon smoke in the clay",
+        "Coating the unfired vessel with crushed black volcanic ash",
+        "Applying an ancient mineral glaze containing lead and iron",
+        "Baking the pots inside an electric kiln at extreme heat"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smothering the wood fire with dried manure starved the kiln of oxygen, causing carbon to be trapped directly in the clay and turning it glossy black."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "For how many years was the Indigenous potlatch ceremony legally banned by Canadian authorities?",
+      "answer": 67,
+      "min": 10,
+      "max": 120,
+      "unit": "years",
+      "explanation": "The Canadian government outlawed the potlatch from 1884 to 1951, viewing its redistribution of wealth as an obstacle to assimilation."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Harris Tweed is legally required to be woven by hand in individual homes rather than commercial factories.",
+      "answer": true,
+      "explanation": "Under the Harris Tweed Act 1993, commercial mills are banned from weaving it; every yard must be handwoven in an islander's home."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "San Ildefonso blackware pottery gets its deep black color from a chemical glaze applied before firing.",
+      "answer": false,
+      "explanation": "Maria Martinez used zero glaze; the jet-black color is produced entirely by smothering the fire with manure to trap carbon smoke in the clay."
+    }
+  ]
+}

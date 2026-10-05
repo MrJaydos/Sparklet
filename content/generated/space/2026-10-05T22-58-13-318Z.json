@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-05T22:58:13.318Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Sun is actually pure white, not yellow",
+      "body": "From Earth's surface, the Sun looks warm yellow or orange, but viewed from space, it is pure white. The Sun emits light across all visible wavelengths almost equally. Earth's atmosphere scatters shorter blue and violet wavelengths through a process called Rayleigh scattering, bathing our sky in blue. The remaining direct beam of sunlight, stripped of some of its blue tones, reaches human eyes shifted slightly toward yellow.",
+      "imageWikipediaTitle": "Sun",
+      "sources": [
+        {
+          "title": "What Color is the Sun?",
+          "publisher": "Stanford University",
+          "url": "https://solar-center.stanford.edu/folklore/faq.html"
+        },
+        {
+          "title": "Sun",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sun"
+        }
+      ],
+      "readMoreUrl": "https://solar-center.stanford.edu/folklore/faq.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The most common planets in our galaxy do not exist in our solar system",
+      "body": "Astronomers surveying the Milky Way with space telescopes expected other planetary systems to mirror our own. Instead, they discovered that the galaxy's most common worlds are 'super-Earths'—planets larger than Earth but smaller than Neptune, spanning roughly 1.2 to 3 Earth diameters. In our solar system, this size range is completely absent. Why our cosmic neighborhood skipped the galaxy's favorite planetary size remains an active mystery in astrophysics.",
+      "imageWikipediaTitle": "Super-Earth",
+      "sources": [
+        {
+          "title": "Super-Earth",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/exoplanet-catalog/super-earth/"
+        },
+        {
+          "title": "Super-Earth",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Super-Earth"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/exoplanet-catalog/super-earth/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Space officially begins at an altitude of 100 kilometers",
+      "body": "Aerospace engineer Theodore von Kármán calculated where aeronautics gives way to astronautics. As an aircraft flies higher, thinner air demands greater speed to generate aerodynamic lift. At roughly 100 kilometers above sea level, the atmosphere becomes so tenuous that a craft would need to travel at orbital velocity—around 28,000 kilometers per hour—just to stay airborne. This boundary, the Kármán line, serves as the internationally recognized edge of outer space.",
+      "imageWikipediaTitle": "Kármán line",
+      "sources": [
+        {
+          "title": "Layers of the Atmosphere",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://www.weather.gov/jetstream/layers"
+        },
+        {
+          "title": "Kármán line",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/K%C3%A1rm%C3%A1n_line"
+        }
+      ],
+      "readMoreUrl": "https://www.weather.gov/jetstream/layers",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A cosmic radio flash discharges days of solar energy in a millisecond",
+      "body": "Fast radio bursts are fleeting pulses of deep-space radio waves that last just a few milliseconds yet unleash as much energy as the Sun radiates over several days. First detected in 2007, their origins baffled astronomers for years. In 2020, multiple space observatories caught a burst erupting from a magnetar inside our own Milky Way, confirming that intensely magnetized dead stellar cores can power these ferocious cosmic broadcasts.",
+      "imageWikipediaTitle": "Fast radio burst",
+      "sources": [
+        {
+          "title": "NASA Missions Help Pinpoint the Source of a Unique Cosmic Radio Burst",
+          "publisher": "NASA",
+          "url": "https://www.nasa.gov/universe/nasa-missions-help-pinpoint-the-source-of-a-unique-cosmic-radio-burst/"
+        },
+        {
+          "title": "Fast radio burst",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_radio_burst"
+        }
+      ],
+      "readMoreUrl": "https://www.nasa.gov/universe/nasa-missions-help-pinpoint-the-source-of-a-unique-cosmic-radio-burst/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jupiter has the shortest day of any planet in our solar system",
+      "body": "Jupiter contains more mass than all other solar system planets combined, yet it spins faster than any of them. A single day on the gas giant lasts just 9 hours and 55 minutes. This frantic rotation generates powerful equatorial winds and forces Jupiter's fluid body to flatten at the poles and bulge at the equator, making the planet over 9,000 kilometers wider across its middle than from pole to pole.",
+      "imageWikipediaTitle": "Jupiter",
+      "sources": [
+        {
+          "title": "Jupiter Facts",
+          "publisher": "NASA",
+          "url": "https://science.nasa.gov/jupiter/jupiter-facts/"
+        },
+        {
+          "title": "Jupiter",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jupiter"
+        }
+      ],
+      "readMoreUrl": "https://science.nasa.gov/jupiter/jupiter-facts/",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What is the true color of the Sun when viewed from outer space?",
+      "options": [
+        "Pure white",
+        "Golden yellow",
+        "Pale orange",
+        "Subtle green"
+      ],
+      "correctIndex": 0,
+      "explanation": "Outside Earth's atmosphere, the Sun appears pure white because it emits all visible wavelengths almost equally."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which category of exoplanet is the most common in the galaxy, yet entirely absent from our solar system?",
+      "options": [
+        "Super-Earths",
+        "Hot Jupiters",
+        "Hyper-dense iron worlds",
+        "Gas dwarfs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Super-Earths, which measure between 1.2 and 3 Earth diameters, are widespread in the Milky Way but missing around our Sun."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why does the Kármán line at 100 km altitude define the boundary of space?",
+      "options": [
+        "Aerodynamic flight requires orbital speed to generate lift in air that thin",
+        "Earth's gravity drops to absolute zero at this height",
+        "Atmospheric oxygen is entirely replaced by hydrogen",
+        "Extreme friction causes all conventional metals to melt"
+      ],
+      "correctIndex": 0,
+      "explanation": "At 100 km, generating aerodynamic lift requires flying at orbital velocity (~28,000 km/h), making winged flight impossible."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which type of astronomical object was confirmed in 2020 as a source of fast radio bursts?",
+      "options": [
+        "A magnetar",
+        "A red supergiant star",
+        "A colliding white dwarf binary",
+        "A dormant black hole"
+      ],
+      "correctIndex": 0,
+      "explanation": "Astronomers traced the 2020 radio burst FRB 200428 to a magnetar, an ultra-magnetized neutron star within our own galaxy."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Roughly how long is a single day on Jupiter?",
+      "options": [
+        "About 10 hours",
+        "About 24 hours",
+        "About 58 days",
+        "About 243 days"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jupiter rotates in approximately 9 hours and 55 minutes, giving it the shortest day of any planet in our solar system."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "At what altitude above sea level does the Kármán line officially define the boundary of outer space?",
+      "answer": 100,
+      "min": 20,
+      "max": 500,
+      "unit": "km",
+      "explanation": "The Kármán line sits at 100 km (62 miles), where air is so thin that staying aloft aerodynamically requires orbital speed."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many hours does it take Jupiter to complete one full rotation on its axis (one Jovian day)?",
+      "answer": 10,
+      "min": 2,
+      "max": 48,
+      "unit": "hours",
+      "explanation": "Jupiter rotates in just under 10 hours (9 hours and 55 minutes), the fastest rotation of any planet in the solar system."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "The Sun is naturally yellow in color.",
+      "answer": false,
+      "explanation": "The Sun emits all visible light wavelengths almost equally and is pure white; atmospheric scattering makes it appear yellow from Earth."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Our solar system contains examples of every common planetary size category found in the galaxy.",
+      "answer": false,
+      "explanation": "Super-Earths are the most common planets across the Milky Way, yet our solar system contains no planet between Earth and Neptune in size."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Jupiter has a shorter day than Earth despite being the largest planet in our solar system.",
+      "answer": true,
+      "explanation": "Jupiter completes a full axial rotation in under 10 hours, giving it the shortest day of any solar system planet."
+    }
+  ]
+}
