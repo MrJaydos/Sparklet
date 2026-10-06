@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-10-06T21:20:56.049Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Flipping a Retirement Default Doubled Worker Savings",
+      "body": "In 2001, economists Brigitte Madrian and Dennis Shea revealed the enormous power of inertia in personal finance. When companies required new hires to opt in to a 401(k), only 37% enrolled. But when companies switched to automatic enrollment—requiring workers to actively opt out—participation skyrocketed to 86%. This simple behavioral shift proved so effective that Congress codified automatic enrollment into federal pension law, steering billions into retirement accounts.",
+      "imageWikipediaTitle": "401(k)",
+      "sources": [
+        {
+          "title": "The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior",
+          "publisher": "National Bureau of Economic Research",
+          "url": "https://www.nber.org/papers/w8082"
+        },
+        {
+          "title": "401(k)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/401(k)"
+        }
+      ],
+      "readMoreUrl": "https://www.nber.org/papers/w8082",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 1938 Law Invented the Modern 40-Hour Workweek",
+      "body": "For much of industrial history, employees routinely labored 60 or more hours each week with no overtime pay. That changed in 1938 when President Franklin D. Roosevelt signed the Fair Labor Standards Act. Designed during the Great Depression to encourage businesses to hire more workers rather than overwork existing staff, the law introduced the first federal minimum wage at 25 cents an hour and required employers to pay time-and-a-half for hours beyond 40.",
+      "imageWikipediaTitle": "Fair Labor Standards Act of 1938",
+      "sources": [
+        {
+          "title": "Wages and the Fair Labor Standards Act",
+          "publisher": "US Department of Labor",
+          "url": "https://www.dol.gov/agencies/whd/flsa"
+        },
+        {
+          "title": "Fair Labor Standards Act (1938)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/fair-labor-standards-act"
+        },
+        {
+          "title": "Fair Labor Standards Act of 1938",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938"
+        }
+      ],
+      "readMoreUrl": "https://www.archives.gov/milestone-documents/fair-labor-standards-act",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Income Tax Was Ruled Unconstitutional Before It Was Legal",
+      "body": "In 1894, Congress enacted a modest peacetime income tax of 2% on incomes exceeding $4,000. Just one year later, in Pollock v. Farmers' Loan & Trust Co., the Supreme Court struck the entire law down, ruling that taxing income from rents and dividends was an unapportioned direct tax forbidden by the Constitution. It took nearly two decades of political warfare and the 1913 ratification of the 16th Amendment to finally make federal income taxation legal.",
+      "imageWikipediaTitle": "Sixteenth Amendment to the United States Constitution",
+      "sources": [
+        {
+          "title": "16th Amendment to the U.S. Constitution: Federal Income Tax (1913)",
+          "publisher": "National Archives",
+          "url": "https://www.archives.gov/milestone-documents/16th-amendment"
+        },
+        {
+          "title": "U.S. Reports: Pollock v. Farmers' Loan & Trust Company, 157 U.S. 429 (1895)",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/usrep157429/"
+        },
+        {
+          "title": "Sixteenth Amendment to the United States Constitution",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixteenth_Amendment_to_the_United_States_Constitution"
+        }
+      ],
+      "readMoreUrl": "https://www.archives.gov/milestone-documents/16th-amendment",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why More Workers in the Economy Don't Steal Existing Jobs",
+      "body": "Many people assume an economy contains a fixed amount of work to be done, meaning any new worker—whether an immigrant, a youth, or a retiree—must take a job away from someone else. Economists call this the \"lump of labor fallacy.\" In reality, employment is not a zero-sum game. New workers earn wages and spend them on food, housing, and entertainment, expanding aggregate demand and creating new jobs across the broader economy.",
+      "imageWikipediaTitle": "Lump of labour fallacy",
+      "sources": [
+        {
+          "title": "What Is the Lump of Labor Fallacy?",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "url": "https://www.stlouisfed.org/open-vault/2021/january/what-is-lump-of-labor-fallacy"
+        },
+        {
+          "title": "Lump of labour fallacy",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lump_of_labour_fallacy"
+        }
+      ],
+      "readMoreUrl": "https://www.stlouisfed.org/open-vault/2021/january/what-is-lump-of-labor-fallacy",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How Economists Built the World's Extreme Poverty Line",
+      "body": "In 1990, World Bank researchers sought a single, objective benchmark to measure extreme global deprivation. Examining national poverty thresholds across the world's poorest nations, they discovered that local lines clustered around roughly $31 a month—about one dollar a day. Adjusted periodically for global inflation and purchasing power, this benchmark was updated to $1.90 in 2015 and $2.15 in 2022, providing the foundation for monitoring global progress against severe poverty.",
+      "imageWikipediaTitle": "Extreme poverty",
+      "sources": [
+        {
+          "title": "Poverty: Overview",
+          "publisher": "World Bank",
+          "url": "https://www.worldbank.org/en/topic/poverty/overview"
+        },
+        {
+          "title": "Extreme poverty",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Extreme_poverty"
+        }
+      ],
+      "readMoreUrl": "https://www.worldbank.org/en/topic/poverty/overview",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What happened to 401(k) participation rates when companies shifted from opt-in to automatic enrollment?",
+      "options": [
+        "Participation stayed virtually the same",
+        "Participation surged from 37% to 86%",
+        "Participation dropped because workers felt coerced",
+        "Participation rose modestly from 37% to 45%"
+      ],
+      "correctIndex": 1,
+      "explanation": "Switching the default setting leveraged human inertia, causing 401(k) sign-up rates among new employees to jump to 86%."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the initial federal minimum wage established by the US Fair Labor Standards Act of 1938?",
+      "options": [
+        "$1.00 per hour",
+        "50 cents per hour",
+        "25 cents per hour",
+        "10 cents per hour"
+      ],
+      "correctIndex": 2,
+      "explanation": "The 1938 Fair Labor Standards Act set America's first federal minimum wage at 25 cents per hour alongside mandatory overtime pay."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Why did the US need a constitutional amendment in 1913 to create a permanent federal income tax?",
+      "options": [
+        "The Supreme Court had ruled a previous income tax unconstitutional in 1895",
+        "The President did not have the authority to sign tax bills",
+        "State governments were legally obligated to collect all national revenue",
+        "The original Constitution forbade all forms of federal taxation"
+      ],
+      "correctIndex": 0,
+      "explanation": "In Pollock v. Farmers' Loan & Trust Co., the Supreme Court struck down the 1894 income tax, requiring the 16th Amendment to make it constitutional."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What core misconception defines the economic concept known as the \"lump of labor fallacy\"?",
+      "options": [
+        "That manual labor is more productive than office work",
+        "That an economy has a fixed, static amount of work to be distributed",
+        "That higher wages inevitably lead to mass unemployment",
+        "That saving money during a recession hurts economic growth"
+      ],
+      "correctIndex": 1,
+      "explanation": "The fallacy assumes the amount of work in an economy is fixed, ignoring that new workers also consume goods and generate new jobs."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did World Bank researchers initially determine the global \"dollar-a-day\" poverty line in 1990?",
+      "options": [
+        "By calculating the cost of a basic food basket in the United States",
+        "By averaging national poverty lines across the world's poorest countries",
+        "By dividing the global GDP by total world population",
+        "By surveying the minimum legal wage across European nations"
+      ],
+      "correctIndex": 1,
+      "explanation": "Researchers analyzed domestic poverty thresholds in very low-income nations and found they clustered around $31 per month, or about $1 a day."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "What percentage of new hires enrolled in a 401(k) when enrollment was made automatic instead of opt-in?",
+      "answer": 86,
+      "min": 20,
+      "max": 100,
+      "unit": "%",
+      "explanation": "Simply changing the default choice to automatic enrollment boosted 401(k) participation from 37% to 86%."
+    },
+    {
+      "cardIndex": 1,
+      "prompt": "What was the original US federal minimum wage per hour set by the Fair Labor Standards Act in 1938?",
+      "answer": 0.25,
+      "min": 0.05,
+      "max": 2,
+      "unit": "$",
+      "explanation": "The 1938 Fair Labor Standards Act set the first federal minimum wage at 25 cents per hour."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "The US federal government always had the constitutional authority to tax personal income directly.",
+      "answer": false,
+      "explanation": "The Supreme Court struck down peacetime federal income taxes in 1895; it took the 16th Amendment in 1913 to make direct income taxation legal."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Allowing more workers into the labor force inevitably deprives existing workers of jobs.",
+      "answer": false,
+      "explanation": "This is the 'lump of labor fallacy.' New workers earn and spend wages, expanding aggregate economic demand and creating additional employment."
+    }
+  ]
+}

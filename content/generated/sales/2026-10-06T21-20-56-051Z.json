@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-10-06T21:20:56.051Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why one vivid customer story beats a deck full of statistics",
+      "body": "When selling risk protection or business software, dry failure rates rarely spur action. Daniel Kahneman and Amos Tversky showed that people assess probability through the availability heuristic: judging likelihood by how easily concrete examples come to mind. Quoting broad statistics leaves little mental imprint. Walking a prospect through a vivid, step-by-step account of a specific company's failure makes the threat instantly memorable, driving urgent demand for your solution.",
+      "imageWikipediaTitle": "Availability heuristic",
+      "sources": [
+        {
+          "title": "Availability heuristic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Availability_heuristic"
+        },
+        {
+          "title": "The Prize in Economic Sciences 2002 - Popular Information",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/popular-information/"
+        },
+        {
+          "title": "Judgment under uncertainty: Heuristics and biases",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17835457/"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2002/popular-information/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why quality alone cannot sell a premium product without costly signals",
+      "body": "When buyers cannot verify product quality before purchasing, they assume the worst. Economist George Akerlof demonstrated that this information asymmetry causes buyers to offer only bargain-basement prices, driving premium offerings out of the market. To defend higher pricing, simply claiming superior quality never works. Sellers must provide verifiable, costly signals—such as comprehensive money-back guarantees, independent performance audits, or escrow milestones—that low-quality competitors cannot afford to copy.",
+      "imageWikipediaTitle": "The Market for Lemons",
+      "sources": [
+        {
+          "title": "The Market for Lemons",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Market_for_Lemons"
+        },
+        {
+          "title": "The Prize in Economic Sciences 2001 - Popular Information",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2001/popular-information/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Reframe your price into a different mental bucket to eliminate pushback",
+      "body": "Money is mathematically fungible, but human psychology treats it as rigidly compartmentalized. Nobel laureate Richard Thaler proved that people allocate funds into separate mental accounts, evaluating expenses within those narrow boundaries. In enterprise pitches, buyers often push back aggressively if your price is coded under general overhead. Reframe your solution to draw from an abundant, mandatory, or pre-allocated budget—such as regulatory compliance or workforce training—and purchase friction vanishes without discounting.",
+      "imageWikipediaTitle": "Mental accounting",
+      "sources": [
+        {
+          "title": "Mental accounting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mental_accounting"
+        },
+        {
+          "title": "The Prize in Economic Sciences 2017 - Popular Information",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2017/popular-information/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Pitch to a buyer's must-haves instead of trying to prove perfection",
+      "body": "Salespeople often overwhelm prospects by showcasing dozens of niche features to prove their product is the absolute best. But Nobel laureate Herbert Simon proved that humans practice bounded rationality: instead of maximizing to find the perfect solution, buyers satisfice. They search only until they encounter an option that meets their basic acceptability thresholds. Identify your prospect's three non-negotiable criteria, demonstrate you clear them decisively, and close the deal before decision fatigue sets in.",
+      "imageWikipediaTitle": "Herbert A. Simon",
+      "sources": [
+        {
+          "title": "Bounded rationality",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bounded_rationality"
+        },
+        {
+          "title": "The Prize in Economic Sciences 1978 - Popular Information",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/1978/popular-information/"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/1978/popular-information/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Never let your client tie your pay to factors you cannot control",
+      "body": "In service negotiations, clients frequently push for performance pricing, wanting to pay only if their overall revenue increases. Nobel laureate Bengt Holmström showed why this breaks deals through the informativeness principle: contracts should strictly tie compensation to performance measures the provider directly controls. Linking your payout to a client's bottom line penalizes you for their poor marketing or broader market downturns. Insist on tying incentives exclusively to operational metrics your solution manages.",
+      "imageWikipediaTitle": "Bengt Holmström",
+      "sources": [
+        {
+          "title": "Contract theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Contract_theory"
+        },
+        {
+          "title": "The Prize in Economic Sciences 2016 - Popular Information",
+          "publisher": "The Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2016/popular-information/"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/prizes/economic-sciences/2016/popular-information/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why does recounting one vivid failure story persuade buyers better than broad risk statistics?",
+      "options": [
+        "The availability heuristic leads people to judge risk by how easily specific examples come to mind",
+        "Buyers believe statistical studies are always fabricated by marketing teams",
+        "Broad statistics trigger psychological reactance while personal stories do not",
+        "Abstract numbers activate the brain's pain centers rather than logical centers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The availability heuristic causes people to assess an event's likelihood based on how readily concrete instances can be recalled from memory."
+    },
+    {
+      "cardIndex": 1,
+      "question": "According to George Akerlof's 'Market for Lemons' model, why do premium sellers need costly signals like warranties?",
+      "options": [
+        "Buyers naturally prefer cheaper options regardless of quality differences",
+        "Information asymmetry makes skeptical buyers assume unverified products are defective",
+        "Costly signals legally prevent buyers from negotiating lower prices",
+        "Regulatory bodies require warranties before products can be sold at a premium"
+      ],
+      "correctIndex": 1,
+      "explanation": "Without verifiable, costly signals, buyers assume unknown products are average or low quality ('lemons') and refuse to pay premium prices."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How can salespeople use Richard Thaler's concept of mental accounting to overcome price resistance?",
+      "options": [
+        "By offering an immediate 50% discount to reset their mental budget",
+        "By framing the cost under an abundant or pre-allocated budget category like compliance",
+        "By demanding payment in cash so the transaction feels less abstract",
+        "By insisting that money is completely fungible across all corporate departments"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because buyers categorize money into non-fungible mental accounts, drawing costs from abundant or mandatory budgets bypasses spending hesitation."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What does Herbert Simon's concept of 'satisficing' mean for sales presentations?",
+      "options": [
+        "Buyers systematically calculate the mathematically optimal solution across all competitors",
+        "Buyers look for a product that meets their threshold criteria rather than a perfect product",
+        "Prospects only purchase when completely exhausted by multiple sales pitches",
+        "Clients evaluate features alphabetically to save cognitive effort"
+      ],
+      "correctIndex": 1,
+      "explanation": "Satisficing means decision-makers pick the first option that satisfies their essential acceptability thresholds rather than optimizing indefinitely."
+    },
+    {
+      "cardIndex": 4,
+      "question": "According to Bengt Holmström's informativeness principle, how should performance incentives be structured?",
+      "options": [
+        "Tied strictly to metrics the performing party can directly influence",
+        "Based entirely on the client's final net profit margin",
+        "Split equally between internal performance and macroeconomic growth",
+        "Adjusted retroactively at the end of each fiscal quarter"
+      ],
+      "correctIndex": 0,
+      "explanation": "Holmström showed that contracts are most efficient when incentives depend strictly on measures the performer directly controls, filtering out random noise."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Superior product quality naturally justifies a higher price in the marketplace.",
+      "answer": false,
+      "explanation": "George Akerlof showed that without costly, verifiable signals like warranties, buyers assume unknown products are defective and refuse to pay top dollar."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Corporate buyers treat all company dollars as equally fungible regardless of budget category.",
+      "answer": false,
+      "explanation": "Richard Thaler's mental accounting demonstrates that buyers treat money in different budget buckets as distinct, non-fungible currencies."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "B2B buyers systematically evaluate all available options to select the mathematically optimal product.",
+      "answer": false,
+      "explanation": "Herbert Simon showed that decision-makers satisfice: they choose the first solution that meets their basic acceptability criteria."
+    }
+  ]
+}

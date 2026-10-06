@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-10-06T21:20:56.050Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Crucian carp brew alcohol to survive months under frozen lakes",
+      "body": "When ice caps Scandinavian lakes and seals off oxygen, most fish die in minutes. Crucian carp survive by switching to an extraordinary metabolic pathway. Instead of accumulating lethal lactic acid from anaerobic metabolism like other vertebrates, specialized enzymes convert the acid into ethanol. Crucian carp then vent the alcohol out through their gills into the surrounding water, swimming through months of total winter darkness without a single breath of oxygen.",
+      "imageWikipediaTitle": "Crucian carp",
+      "sources": [
+        {
+          "title": "Fish produce alcohol to survive winter under ice",
+          "publisher": "BBC",
+          "url": "https://www.bbc.com/news/science-environment-40899021"
+        },
+        {
+          "title": "The molecular basis of extreme hypoxia tolerance in crucian carp",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5554522/"
+        },
+        {
+          "title": "Crucian carp",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Crucian_carp"
+        }
+      ],
+      "readMoreUrl": "https://www.bbc.com/news/science-environment-40899021",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Joshua trees rely on a single tiny moth to survive",
+      "body": "Joshua trees cannot self-pollinate, and neither the wind nor honeybees can fertilize them. They rely entirely on the tiny female yucca moth. Equipped with specialized mouthparts, she gathers pollen into a neat ball and deliberately packs it into a flower's stigma to ensure seeds will develop. In return, she lays her eggs inside the ovary, where her newly hatched larvae feed on some of the seeds. Without each other, both species would vanish.",
+      "imageWikipediaTitle": "Yucca brevifolia",
+      "sources": [
+        {
+          "title": "Joshua Trees",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/jotr/learn/nature/jtrees.htm"
+        },
+        {
+          "title": "Yucca brevifolia",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yucca_brevifolia"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/jotr/learn/nature/jtrees.htm",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Tiger beetles run so fast they temporarily go blind",
+      "body": "Tiger beetles are among the fastest insect predators on Earth, sprinting at up to 120 body lengths per second. But this extreme velocity comes at a sensory cost. They move so quickly that their eyes cannot gather enough photons to form visual images while running, plunging them into temporary blindness. To hunt effectively, the beetle must sprint in short, blinding bursts, stop abruptly to visually reacquire its prey, and then launch its next high-speed ambush.",
+      "imageWikipediaTitle": "Tiger beetle",
+      "sources": [
+        {
+          "title": "Tiger beetles run so fast they go blind, Cornell entomologist discovers",
+          "publisher": "Cornell Chronicle",
+          "url": "https://news.cornell.edu/stories/1998/01/tiger-beetles-go-blind-when-they-run-fast"
+        },
+        {
+          "title": "Tiger beetle",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tiger_beetle"
+        }
+      ],
+      "readMoreUrl": "https://news.cornell.edu/stories/1998/01/tiger-beetles-go-blind-when-they-run-fast",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Peatlands cover 3% of Earth's land but store more carbon than all forests",
+      "body": "Peat bogs seem quiet and unremarkable, but they are Earth's most efficient land-based carbon sinks. Covering only about 3% of the global land surface, peatlands lock away nearly 550 gigatonnes of carbon in waterlogged, oxygen-poor soil where dead plant matter cannot decompose. That is roughly double the carbon held in all the world's forests combined. Protecting these wetland ecosystems prevents catastrophic amounts of trapped greenhouse gases from escaping back into the atmosphere.",
+      "imageWikipediaTitle": "Peat",
+      "sources": [
+        {
+          "title": "Peatlands and climate change",
+          "publisher": "International Union for Conservation of Nature",
+          "url": "https://www.iucn.org/resources/issues-brief/peatlands-and-climate-change"
+        },
+        {
+          "title": "Peat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peat"
+        }
+      ],
+      "readMoreUrl": "https://www.iucn.org/resources/issues-brief/peatlands-and-climate-change",
+      "category": "nature"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Giant clams farm millions of solar-powered algae inside their flesh",
+      "body": "Giant clams can weigh over 200 kilograms, but they do not sustain their colossal bulk through filter-feeding alone. Their vibrant, iridescent mantles house millions of single-celled symbiotic algae called zooxanthellae. Specialized cells in the clam act like living fiber-optic lenses, funneling sunlight deep into its tissues so the algae can photosynthesize efficiently. In return, the algae provide the clam with sugars and nutrients, allowing this massive animal to thrive largely on pure sunlight.",
+      "imageWikipediaTitle": "Giant clam",
+      "sources": [
+        {
+          "title": "Giant Clam",
+          "publisher": "NOAA Fisheries",
+          "url": "https://www.fisheries.noaa.gov/species/giant-clam"
+        },
+        {
+          "title": "Giant clam",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Giant_clam"
+        }
+      ],
+      "readMoreUrl": "https://www.fisheries.noaa.gov/species/giant-clam",
+      "category": "nature"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How do crucian carp survive in frozen ponds that contain virtually no dissolved oxygen?",
+      "options": [
+        "They enter a state of complete dehydration until spring",
+        "They convert lactic acid into ethanol and vent it out their gills",
+        "They break down air pockets trapped directly within bottom mud",
+        "They absorb oxygen across their skin from photosynthetic lakebed moss"
+      ],
+      "correctIndex": 1,
+      "explanation": "Crucian carp avoid fatal lactic acid buildup during months of oxygen deprivation by converting it to ethanol, which harmlessly diffuses out their gills."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why cannot Joshua trees reproduce without the assistance of yucca moths?",
+      "options": [
+        "Yucca moths are the only insects that intentionally deposit pollen into their flowers",
+        "Yucca moths coat the tree's seeds with a protective chemical against fungi",
+        "The moths produce an enzyme that softens the tree's hard seed pods",
+        "The tree's flowers only open when triggered by moth pheromones"
+      ],
+      "correctIndex": 0,
+      "explanation": "Female yucca moths deliberately pack pollen into Joshua tree flowers to ensure seeds form, which their emerging caterpillars feed on."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What strange sensory challenge do tiger beetles face when sprinting at top speed?",
+      "options": [
+        "Their antenna sensors overheat and temporarily shut off",
+        "They lose their sense of balance and can only run in straight lines",
+        "Their eyes cannot process photons fast enough, rendering them temporarily blind",
+        "The rushing wind over their heads deafens their auditory organs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tiger beetles sprint so fast that their eyes cannot gather enough light to form images, forcing them to stop intermittently to spot prey."
+    },
+    {
+      "cardIndex": 3,
+      "question": "How much carbon do global peatlands store compared to all of Earth's forests combined?",
+      "options": [
+        "Roughly half as much",
+        "About the same amount",
+        "Roughly twice as much",
+        "Ten times as much"
+      ],
+      "correctIndex": 2,
+      "explanation": "Despite covering only about 3% of Earth's land, peatlands store roughly 550 gigatonnes of carbon—about twice the total stored in all forests combined."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How do giant clams obtain a major portion of their daily nutrition?",
+      "options": [
+        "By farming symbiotic photosynthetic algae inside their exposed tissues",
+        "By secreting digestive enzymes onto passing schools of small fish",
+        "By absorbing sulfur compounds emitted from hydrothermal vents",
+        "By scraping encrusting coral colonies with specialized radula teeth"
+      ],
+      "correctIndex": 0,
+      "explanation": "Giant clams host millions of photosynthetic zooxanthellae algae in their mantles, harvesting the sugars and nutrients they produce from sunlight."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "At top speed, roughly how many body lengths per second can a sprinting tiger beetle travel?",
+      "answer": 120,
+      "min": 10,
+      "max": 300,
+      "unit": "",
+      "explanation": "Tiger beetles can sprint at up to 120 body lengths per second—so fast that their visual system cannot keep up while moving."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "What percentage of the world's land surface is covered by peatlands?",
+      "answer": 3,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "Peatlands cover just 3% of global land, yet they lock away nearly 550 gigatonnes of carbon in their waterlogged soils."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 2,
+      "claim": "Tiger beetles go temporarily blind whenever they run at top speed.",
+      "answer": true,
+      "explanation": "Because they sprint at over 100 body lengths per second, their eyes cannot capture enough light photons to form visual images while in motion."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Tropical rainforests store more carbon than any other terrestrial ecosystem on Earth.",
+      "answer": false,
+      "explanation": "Peatlands hold roughly 550 gigatonnes of carbon—about twice the amount held in all of Earth's forests combined."
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-06T21:20:56.048Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "History's First Recorded Labor Strike Began Over Bread and Beer",
+      "body": "In 1152 BCE, during the reign of Pharaoh Ramesses III, royal artisans constructing tombs in Egypt's Valley of the Kings faced an intolerable crisis: their monthly grain rations were more than two months overdue. Laying down their chisels and brushes, the workers marched to nearby mortuary temples, staged a sit-in, and halted tomb construction. Their protest worked—the royal bureaucracy scrambled to deliver their back pay, establishing history's earliest recorded labor strike.",
+      "imageWikipediaTitle": "Deir el-Medina",
+      "sources": [
+        {
+          "title": "The First Labor Strike in History",
+          "publisher": "World History Encyclopedia",
+          "url": "https://www.worldhistory.org/article/1089/the-first-labor-strike-in-history/"
+        },
+        {
+          "title": "Deir el-Medina",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deir_el-Medina"
+        }
+      ],
+      "readMoreUrl": "https://www.worldhistory.org/article/1089/the-first-labor-strike-in-history/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Original Luddites Weren't Actually Opposed to Technology",
+      "body": "In modern English, \"Luddite\" describes someone hostile to computers or gadgets. Yet the original 19th-century Luddites had no philosophical grievance against machinery. Instead, English textile artisans attacked automated knitting frames to resist aggressive wage cuts, eroding craft standards, and dangerous working conditions. Their rebellion targeted abusive employment practices, not innovation itself—a crucial distinction modern language has completely inverted into a simplistic tale of anti-progress primitives.",
+      "imageWikipediaTitle": "Luddite",
+      "sources": [
+        {
+          "title": "What the Luddites Really Fought Against",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/history/what-the-luddites-really-fought-against-264412/"
+        },
+        {
+          "title": "Luddite",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luddite"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/history/what-the-luddites-really-fought-against-264412/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Military Once Deployed Tanks Against Its Own Veterans",
+      "body": "In the summer of 1932, over 40,000 World War I veterans and their families converged on Washington, D.C. Desperate during the Great Depression, the \"Bonus Army\" demanded immediate payment of cash certificates promised for their military service. Instead of relief, President Herbert Hoover dispatched the U.S. Army. Led by General Douglas MacArthur, soldiers wielding bayonets, tear gas, and six tanks burned the veterans' makeshift camp at Anacostia Flats to the ground.",
+      "imageWikipediaTitle": "Bonus Army",
+      "sources": [
+        {
+          "title": "The Bonus Army Evicted from Washington, D.C.",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/july-28/"
+        },
+        {
+          "title": "Bonus Army",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bonus_Army"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/july-28/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The US Navy Secretly Sprayed Bacteria Over San Francisco in 1950",
+      "body": "In September 1950, a U.S. Navy minesweeper spent six days releasing clouds of Serratia marcescens bacteria just off the coast of San Francisco. Codenamed Operation Sea-Spray, the secret military exercise aimed to measure how easily an enemy could blanket an American coastal city in biological weapons. While military monitors confirmed that nearly all 800,000 residents inhaled the microbes, the experiment led to severe hospital-acquired infections and the death of at least one local patient.",
+      "imageWikipediaTitle": "Operation Sea-Spray",
+      "sources": [
+        {
+          "title": "In 1950, the U.S. Government Tested Biological Warfare on San Francisco",
+          "publisher": "Smithsonian Magazine",
+          "url": "https://www.smithsonianmag.com/smart-news/1950-us-government-tested-biological-warfare-san-francisco-180956660//"
+        },
+        {
+          "title": "Operation Sea-Spray",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Operation_Sea-Spray"
+        }
+      ],
+      "readMoreUrl": "https://www.smithsonianmag.com/smart-news/1950-us-government-tested-biological-warfare-san-francisco-180956660/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Inuit Oral History Solved the 169-Year-Old Franklin Mystery",
+      "body": "In 1845, Sir John Franklin led 129 men aboard HMS Erebus and HMS Terror into the Canadian Arctic to map the Northwest Passage. Both ships vanished, and every crew member perished. For over a century and a half, searchers found only scattered bones and grim rumors. Finally, in 2014 and 2016, Parks Canada archaeologists located both pristine shipwrecks—relying directly on generations of Inuit oral accounts detailing where the vessels were abandoned.",
+      "imageWikipediaTitle": "Franklin's lost expedition",
+      "sources": [
+        {
+          "title": "The Franklin Expedition Wrecks",
+          "publisher": "Parks Canada",
+          "url": "https://parks.canada.ca/lhn-nhs/nu/epavesfranklin-franklinwrecks"
+        },
+        {
+          "title": "Franklin's lost expedition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franklin%27s_lost_expedition"
+        }
+      ],
+      "readMoreUrl": "https://parks.canada.ca/lhn-nhs/nu/epavesfranklin-franklinwrecks",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What prompted history's first recorded labor strike in ancient Egypt in 1152 BCE?",
+      "options": [
+        "Unpaid grain rations for tomb artisans",
+        "Excessive daily working hours",
+        "Dangerous structural collapses in tombs",
+        "A religious dispute over tomb hieroglyphs"
+      ],
+      "correctIndex": 0,
+      "explanation": "Royal tomb builders at Deir el-Medina struck because their grain rations had gone unpaid for more than two months."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What was the actual primary grievance of the 19th-century English Luddites?",
+      "options": [
+        "Religious bans on mechanical devices",
+        "Wage cuts and unfair labor practices",
+        "Fear that locomotives were ungodly",
+        "Opposition to reading and writing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Luddites smashed machinery to protest wage reductions and substandard manufacturing practices, not out of fear of technology."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What were the World War I veterans of the 1932 Bonus Army demanding from the U.S. government?",
+      "options": [
+        "Early cash redemption of promised service certificates",
+        "Free farmland in the American West",
+        "Immediate declaration of war against Germany",
+        "Pardon for draft dodgers"
+      ],
+      "correctIndex": 0,
+      "explanation": "The veterans camped in Washington to lobby Congress for early cash payouts of service bonuses due in 1945."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What was the main purpose of the U.S. Navy's secret Operation Sea-Spray in 1950?",
+      "options": [
+        "Simulating an urban biological attack to measure vulnerability",
+        "Disinfecting San Francisco Bay after a cholera outbreak",
+        "Testing waterproof submarine coatings",
+        "Tracking how ocean currents move radioactive fallout"
+      ],
+      "correctIndex": 0,
+      "explanation": "Operation Sea-Spray sprayed bacteria over San Francisco to see how effectively an airborne biological agent could disperse over a city."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How did modern researchers finally locate the lost wrecks of the 1845 Franklin expedition?",
+      "options": [
+        "By following generations of Inuit oral history",
+        "Through declassified Cold War satellite photography",
+        "By analyzing handwritten coordinates found in London",
+        "By accidentally snagging fishing nets on the hull"
+      ],
+      "correctIndex": 0,
+      "explanation": "Parks Canada archaeologists found HMS Erebus and HMS Terror by taking Inuit oral accounts of the abandonments seriously."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 2,
+      "prompt": "How many total demonstrators, including veterans and their families, gathered in Washington as the 1932 Bonus Army?",
+      "answer": 43000,
+      "min": 5000,
+      "max": 150000,
+      "unit": "",
+      "explanation": "Roughly 43,000 marchers—including 17,000 World War I veterans—camped in Washington before being evicted by federal troops."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "How many years elapsed between the departure of the Franklin expedition in 1845 and the discovery of HMS Erebus in 2014?",
+      "answer": 169,
+      "min": 25,
+      "max": 350,
+      "unit": "years",
+      "explanation": "HMS Erebus was discovered in 2014, exactly 169 years after departing England in 1845."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The original 19th-century Luddites destroyed machinery because they were ideologically opposed to technological progress.",
+      "answer": false,
+      "explanation": "Luddites targeted automated looms to fight predatory wage cuts and worsening working conditions, not technological progress itself."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The U.S. military once conducted a secret open-air biological test by spraying bacteria across an entire American city.",
+      "answer": true,
+      "explanation": "In 1950's Operation Sea-Spray, the U.S. Navy sprayed bacteria across San Francisco to evaluate urban bioweapon vulnerability."
+    }
+  ]
+}
