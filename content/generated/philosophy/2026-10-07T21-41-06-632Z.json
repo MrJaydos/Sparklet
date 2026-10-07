@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.632Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "What if the entire universe popped into existence five minutes ago?",
+      "body": "In 1921, Bertrand Russell observed that there is no logical way to prove the universe did not spring into existence just five minutes ago. Under this hypothesis, humanity was created complete with false memories of childhood, unread books on shelves, and ancient fossils already buried in rock. Because every piece of physical and mental evidence exists strictly in the present moment, radical skepticism about the past is logically impossible to refute.",
+      "imageWikipediaTitle": "Bertrand Russell",
+      "sources": [
+        {
+          "title": "The Analysis of Mind by Bertrand Russell",
+          "publisher": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/2529"
+        },
+        {
+          "title": "Skepticism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/skepticism/"
+        },
+        {
+          "title": "Five-minute hypothesis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Five-minute_hypothesis"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Five-minute_hypothesis",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The soldier, general, and boy who broke Locke's theory of identity",
+      "body": "John Locke argued you are identical only to whoever you remember being. Thomas Reid exposed a logical flaw: a boy is flogged; as an officer, he captures a flag and remembers the beating. As an old general, he remembers the battle, but has forgotten the flogging. Under Locke's rule, the general is the officer, and the officer is the boy, yet the general is not the boy. But in logic, if A equals B and B equals C, A must equal C.",
+      "imageWikipediaTitle": "Thomas Reid",
+      "sources": [
+        {
+          "title": "Thomas Reid",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/reid/"
+        },
+        {
+          "title": "Thomas Reid",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thomas_Reid"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/reid/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A campsite dispute about a squirrel revealed what pragmatism means",
+      "body": "In 1907, philosopher William James encountered campers fiercely debating a squirrel clinging to a tree trunk. A man circles the tree, but the agile squirrel scampers around the trunk to keep the wood between them. Does the man go 'round' the squirrel? James argued the dispute is purely verbal. If 'round' means encircling its physical coordinates, yes. If it means facing its front, sides, and back, no. Pragmatism shows that stubborn philosophical dilemmas often dissolve once practical meanings are clarified.",
+      "imageWikipediaTitle": "William James",
+      "sources": [
+        {
+          "title": "Pragmatism: A New Name for Some Old Ways of Thinking by William James",
+          "publisher": "Project Gutenberg",
+          "url": "https://www.gutenberg.org/ebooks/5649"
+        },
+        {
+          "title": "Pragmatism",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/pragmatism/"
+        },
+        {
+          "title": "Pragmatism",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pragmatism"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Pragmatism",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why human life swings like a pendulum between pain and boredom",
+      "body": "Arthur Schopenhauer argued that permanent human satisfaction is a structural impossibility. According to his pessimistic philosophy, every desire originates from a painful feeling of lack. When we finally satisfy that desire, we feel only fleeting relief before slipping into empty boredom, which soon compels us to chase new desires. Human life, he concluded, swings ceaselessly like a pendulum between the acute pain of unmet longing and the dull numbness of boredom.",
+      "imageWikipediaTitle": "Arthur Schopenhauer",
+      "sources": [
+        {
+          "title": "Arthur Schopenhauer",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/schopenhauer/"
+        },
+        {
+          "title": "The World as Will and Representation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_World_as_Will_and_Representation"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/schopenhauer/",
+      "category": "philosophy"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why choosing how you view someone in your head is a moral act",
+      "body": "In 1970, philosopher Iris Murdoch introduced a mother-in-law, M, who secretly considers her daughter-in-law, D, vulgar and unrefined, though she treats her politely. Over time, without any change in D, M deliberately re-examines D with loving, just attention, coming to see her as delightfully spontaneous. M's external actions never alter. Murdoch showed that morality is not just about outward behavior; choosing how you inwardly perceive others is itself an active, vital moral achievement.",
+      "imageWikipediaTitle": "Iris Murdoch",
+      "sources": [
+        {
+          "title": "Iris Murdoch",
+          "publisher": "Stanford Encyclopedia of Philosophy",
+          "url": "https://plato.stanford.edu/entries/murdoch/"
+        },
+        {
+          "title": "The Sovereignty of Good",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Sovereignty_of_Good"
+        }
+      ],
+      "readMoreUrl": "https://plato.stanford.edu/entries/murdoch/",
+      "category": "philosophy"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What point did Bertrand Russell illustrate with his five-minute hypothesis?",
+      "options": [
+        "Our physical senses frequently produce visual hallucinations",
+        "Empirical evidence cannot logically disprove radical skepticism about the past",
+        "Time slows down as an observer accelerates toward light speed",
+        "Human memories are strictly stored as physical neural connections"
+      ],
+      "correctIndex": 1,
+      "explanation": "Because all memories and physical artifacts exist strictly in the present moment, radical skepticism about the past cannot be logically refuted by empirical evidence."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why did Thomas Reid's 'Brave Officer' story contradict John Locke's theory of personal identity?",
+      "options": [
+        "It showed memory forms through emotion rather than sensory data",
+        "It proved human consciousness cannot survive physical sleep",
+        "It violated the logical rule that identity must be transitive",
+        "It demonstrated that soldiers lose their moral responsibility in war"
+      ],
+      "correctIndex": 2,
+      "explanation": "If A equals B and B equals C, A must equal C. But under Locke's memory view, the general is the officer, and the officer is the boy, yet the general is not the boy."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did William James resolve the camping debate over whether a man circled a squirrel?",
+      "options": [
+        "By mathematically calculating the radius of the man's circular path",
+        "By demonstrating that the disagreement depended entirely on the definition of 'going round'",
+        "By concluding that animals lack objective spatial perception",
+        "By asserting that only scientific instruments can measure motion"
+      ],
+      "correctIndex": 1,
+      "explanation": "James showed that pragmatism resolves purely verbal disputes by clarifying how different practical definitions change the answer."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to Arthur Schopenhauer, between which two states does human existence ceaselessly swing?",
+      "options": [
+        "Pain and boredom",
+        "Fear and anger",
+        "Reason and passion",
+        "Altruism and egoism"
+      ],
+      "correctIndex": 0,
+      "explanation": "Schopenhauer argued that unfulfilled desires cause pain, while satisfying them brings only temporary relief before collapsing into boredom."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What did Iris Murdoch illustrate through the example of the mother-in-law 'M' and daughter-in-law 'D'?",
+      "options": [
+        "Family conflicts always arise from linguistic misunderstandings",
+        "Inner re-evaluation and attention toward others is itself a moral act",
+        "Moral duty is solely defined by outwardly observable behavior",
+        "People never truly change their first impressions of others"
+      ],
+      "correctIndex": 1,
+      "explanation": "Murdoch demonstrated that moral life includes internal mental acts—such as cultivating just, loving attention toward others—even when outward actions do not change."
+    }
+  ],
+  "guesses": [],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Physical artifacts like fossils logically prove that the universe is older than five minutes.",
+      "answer": false,
+      "explanation": "As Bertrand Russell pointed out, all physical fossils exist in the present, so they cannot logically refute the hypothesis that the world was created five minutes ago with fossils already embedded in rock."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "An internal change in how you perceive someone can be a moral act even if your outward behavior never changes.",
+      "answer": true,
+      "explanation": "Iris Murdoch showed that directing loving, honest attention toward another person inwardly is itself an active moral achievement, refuting the idea that ethics only governs external behavior."
+    }
+  ]
+}

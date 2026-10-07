@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.627Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Asking \"How Are You?\" in Japanese Inquires About Your Vital Spirit",
+      "body": "When Japanese speakers ask \"How are you?\", they say お元気ですか (*ogenki desu ka*, pronounced \"oh-GEN-kee DESS-kah\"). The greeting centers on 元気 (*genki*), written with the kanji for \"origin\" (元) and \"vital spirit\" or \"energy\" (気). Rooted in traditional East Asian medicine, where balance in one's life force (*ki*) determines wellness, the phrase literally asks whether your original energy is flowing in its natural, healthy state.",
+      "imageWikipediaTitle": "Japanese language",
+      "sources": [
+        {
+          "title": "Japanese language",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Japanese-language"
+        },
+        {
+          "title": "Japanese greetings",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japanese_greetings"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Japanese-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Counting to Three in Amharic Reveals Ancient Semitic Roots",
+      "body": "Spoken by tens of millions across Ethiopia, Amharic is written in the Ge'ez script. Counting to three showcases its Afroasiatic heritage: አንድ (*and*, pronounced \"ahnd\"), ሁለት (*hulet*, pronounced \"hoo-LEHT\"), and ሦስት (*sost*, pronounced \"sohst\"). The number three, ሦስት (*sost*), preserves the ancient Semitic triconsonantal root *s-l-t*, directly related to Arabic ثلاثة (*thalātha*) and Hebrew שלוש (*shalosh*), linking the Ethiopian highlands to the wider Semitic language family.",
+      "imageWikipediaTitle": "Geʽez script",
+      "sources": [
+        {
+          "title": "Amharic language",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Amharic-language"
+        },
+        {
+          "title": "Amharic",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Amharic"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/topic/Amharic-language",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why Saying Goodbye in Persian Entrusts You to Divine Protection",
+      "body": "When parting ways, Persian speakers commonly bid farewell with خداحافظ (*khodā hāfez*, pronounced \"kho-DAH hah-FEZ\"). The phrase is a compound of two words: *khodā*, the native Persian word for God, and *hāfez*, an Arabic loanword meaning protector or guardian. Rather than simply noting departure, saying خداحافظ is a warm blessing that literally translates to \"May God be your protector,\" ensuring safe travels until your next encounter.",
+      "imageWikipediaTitle": "Persian alphabet",
+      "sources": [
+        {
+          "title": "Persian language",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/Persian-language"
+        },
+        {
+          "title": "Khuda Hafiz",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khuda_Hafiz"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Khuda_Hafiz",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a 16th-Century Bible Translator Invented the \"Scapegoat\"",
+      "body": "In 1530, English Protestant scholar William Tyndale set out to translate the Pentateuch directly from original Hebrew. In Leviticus 16, he encountered the ancient Yom Kippur ritual where a priest casts lots over two goats: one sacrificed for atonement, and one released into the wilderness. To interpret the mysterious Hebrew noun עֲזָאזֵל (*Azazel*, pronounced \"ah-zah-ZEL\"), Tyndale coined a brand-new compound: \"(e)scape goat.\" His invention entered everyday English as an enduring metaphor for bearing blamed burdens.",
+      "imageWikipediaTitle": "The Scapegoat (painting)",
+      "sources": [
+        {
+          "title": "Scapegoat",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/topic/scapegoat"
+        },
+        {
+          "title": "Origin of Scapegoat",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/origin-of-scapegoat"
+        },
+        {
+          "title": "Scapegoat",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Scapegoat"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/origin-of-scapegoat",
+      "category": "language"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How a Deadly Civil War Prison Fence Gave Us the \"Deadline\"",
+      "body": "Today, missing a deadline means a late project, but during the American Civil War, it meant instant death. In 1864, the Confederate prisoner-of-war camp at Andersonville, Georgia, held over 30,000 Union captives in squalor. To prevent escapes, commanders built a wooden railing nineteen feet inside the stockade fence, dubbed the \"dead line.\" Sentries had orders to shoot any captive who touched or crossed it. Decades later, 1920s newspaper reporters adopted the term for strict cutoff times.",
+      "imageWikipediaTitle": "Andersonville National Historic Site",
+      "sources": [
+        {
+          "title": "Andersonville National Historic Site",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/ande/learn/historyculture/index.htm"
+        },
+        {
+          "title": "The Origin of 'Deadline'",
+          "publisher": "Merriam-Webster",
+          "url": "https://www.merriam-webster.com/wordplay/the-origin-of-deadline"
+        },
+        {
+          "title": "Deadline",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deadline"
+        }
+      ],
+      "readMoreUrl": "https://www.merriam-webster.com/wordplay/the-origin-of-deadline",
+      "category": "language"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What does the word \"genki\" (元気) in the Japanese greeting \"ogenki desu ka\" literally refer to?",
+      "options": [
+        "Your original vital energy or spirit",
+        "The warmth of the morning sun",
+        "Your family's honorable reputation",
+        "A peaceful night of restful sleep"
+      ],
+      "correctIndex": 0,
+      "explanation": "Genki combines 元 (origin) and 気 (vital spirit or energy), asking whether your natural life force is healthy and balanced."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which language family links Amharic numbers to Arabic and Hebrew?",
+      "options": [
+        "Semitic",
+        "Indo-European",
+        "Dravidian",
+        "Austronesian"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amharic is a Semitic language, which is why its word for three (sost) shares an ancient root with Arabic thalātha and Hebrew shalosh."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What does the Persian farewell phrase \"khodā hāfez\" literally translate to?",
+      "options": [
+        "May God be your protector",
+        "Until we meet tomorrow",
+        "Walk in quiet peace",
+        "May your road be smooth"
+      ],
+      "correctIndex": 0,
+      "explanation": "The phrase combines Persian khodā (God) with Arabic hāfez (guardian or protector), meaning \"May God protect you.\""
+    },
+    {
+      "cardIndex": 3,
+      "question": "Who coined the word \"scapegoat\" while translating the Hebrew Bible into English in 1530?",
+      "options": [
+        "William Tyndale",
+        "William Shakespeare",
+        "King James I",
+        "Geoffrey Chaucer"
+      ],
+      "correctIndex": 0,
+      "explanation": "William Tyndale coined \"scapegoat\" in 1530 to translate the Hebrew word Azazel in the Book of Leviticus."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Where did the term \"deadline\" originate before becoming newsroom slang?",
+      "options": [
+        "A boundary line at a Civil War prison camp",
+        "A marked depth line on 18th-century sailing ships",
+        "A chalk mark drawn by medieval executioners",
+        "A telegraph cable cutoff point during storms"
+      ],
+      "correctIndex": 0,
+      "explanation": "At Andersonville Civil War prison, guards were ordered to shoot dead any captive who crossed a wooden railing known as the \"dead line.\""
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many feet inside the stockade fence was the original Civil War \"dead line\" placed at Andersonville prison?",
+      "answer": 19,
+      "min": 5,
+      "max": 50,
+      "unit": "feet",
+      "explanation": "Guards built a wooden railing 19 feet inside the stockade wall, shooting any prisoner who stepped beyond it."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 3,
+      "claim": "The word 'scapegoat' originated as ancient English folklore long before printed Bible translations.",
+      "answer": false,
+      "explanation": "Scholar William Tyndale deliberately coined the compound 'scapegoat' in 1530 when translating the Hebrew text of Leviticus into English."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The term 'deadline' originated in newspaper printing presses to describe when wet ink dried.",
+      "answer": false,
+      "explanation": "'Deadline' originated during the American Civil War as a boundary around a prison camp; prisoners who crossed it were shot dead."
+    }
+  ]
+}

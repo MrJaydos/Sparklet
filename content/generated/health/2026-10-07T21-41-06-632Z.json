@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.632Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your sharpest vision spans an area no wider than your thumbnail",
+      "body": "We perceive the visual world as a crisp, high-definition panorama, but only about one to two degrees of your visual field is in razor-sharp focus. This tiny central spot corresponds to the retina's fovea centralis, tightly packed with color-detecting cone cells. Outside this focal pinpoint, your peripheral vision is surprisingly blurry and color-dull. Your brain simply stitches rapid, unconscious eye movements called saccades together to create the seamless illusion of total clarity.",
+      "imageWikipediaTitle": "Fovea centralis",
+      "sources": [
+        {
+          "title": "Anatomy, Head and Neck, Eye Fovea",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK539868/"
+        },
+        {
+          "title": "Fovea",
+          "publisher": "American Academy of Ophthalmology",
+          "url": "https://www.aao.org/eye-health/anatomy/fovea"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK539868/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your muscles have a built-in circuit breaker to prevent tearing",
+      "body": "When you lift something dangerously heavy, your body has an emergency shut-off switch. Deep inside your muscle-tendon junctions lie sensory receptors called Golgi tendon organs. If muscle tension spikes high enough to risk tearing the tissue off bone, these receptors trigger an involuntary spinal reflex known as autogenic inhibition. This instantly suppresses motor neuron signals, forcing your muscle to relax and drop the load before you can tear your own tendons.",
+      "imageWikipediaTitle": "Golgi tendon organ",
+      "sources": [
+        {
+          "title": "Neuroanatomy, Golgi Tendon Reflex",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK542289/"
+        },
+        {
+          "title": "Golgi tendon organ",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Golgi_tendon_organ"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/books/NBK542289/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your skin cells hold microscopic umbrellas over their DNA",
+      "body": "When ultraviolet light strikes your skin, specialized cells called melanocytes manufacture the dark pigment melanin and package it into microscopic packets called melanosomes. Instead of keeping the pigment, melanocytes export these packets into surrounding skin cells called keratinocytes. Once inside, the melanosomes assemble into an umbrella-shaped cap directly over the cell's nucleus. This shield physically absorbs and scatters UV radiation before rays can shatter the genetic code and trigger skin cancer.",
+      "imageWikipediaTitle": "Melanocyte",
+      "sources": [
+        {
+          "title": "Physiology, Melanin",
+          "publisher": "StatPearls Publishing",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK532961/"
+        },
+        {
+          "title": "Melanoma Layers of the Skin",
+          "publisher": "National Cancer Institute",
+          "url": "https://training.seer.cancer.gov/melanoma/anatomy/"
+        }
+      ],
+      "readMoreUrl": "https://training.seer.cancer.gov/melanoma/anatomy/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The real reason you get a stabbing stitch in your side while running",
+      "body": "That sharp, stabbing pain beneath your ribs during a run isn't a muscle spasm or a lack of oxygen to your liver. Formally known as exercise-related transient abdominal pain, the leading medical explanation points to the peritoneum—the two-layered membrane lining your abdominal wall and organs. During repetitive torso movements like running, friction between these membrane layers increases, especially after eating or drinking, irritating the parietal peritoneum and sparking that notorious sharp cramp.",
+      "imageWikipediaTitle": "Peritoneum",
+      "sources": [
+        {
+          "title": "Exercise-Related Transient Abdominal Pain (ETAP)",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281377/"
+        },
+        {
+          "title": "Side stitch",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Side_stitch"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4281377/",
+      "category": "health"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Sleeping in on the weekend cannot erase a week of sleep debt",
+      "body": "Lingering in bed on Saturday morning feels restorative, but it doesn't undo chronic sleep loss. Research shows that while weekend recovery sleep temporarily eases daytime sleepiness, it fails to reverse the metabolic damage caused by a week of sleep deprivation. Catching up on sleep over two days does not restore insulin sensitivity or repair circadian disruptions; in fact, fluctuating sleep schedules between weekdays and weekends often worsen metabolic health by creating 'social jetlag.'",
+      "imageWikipediaTitle": "Sleep",
+      "sources": [
+        {
+          "title": "Ad libitum Weekend Recovery Sleep Fails to Prevent Metabolic Dysregulation and Reduced Insulin Sensitivity Caused by Chronic Sleep Restriction",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6589370/"
+        },
+        {
+          "title": "Can You Catch Up on Sleep?",
+          "publisher": "Sleep Foundation",
+          "url": "https://www.sleepfoundation.org/sleep-deprivation/can-you-catch-up-on-sleep"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6589370/",
+      "category": "health"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Roughly how much of your total visual field is in sharp, high-resolution focus at any given moment?",
+      "options": [
+        "About 1 to 2 degrees",
+        "About 25 degrees",
+        "Roughly 90 degrees",
+        "The entire 180-degree visual arc"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-acuity central vision is restricted to the fovea centralis, which spans only about 1 to 2 degrees of your field of view."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What is the primary function of Golgi tendon organs in your muscles?",
+      "options": [
+        "Detecting dangerous tension and forcing the muscle to relax",
+        "Releasing calcium ions to make muscles contract faster",
+        "Generating explosive ATP energy for maximum lifts",
+        "Cooling muscle fibers down through sweat ducts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Golgi tendon organs sense high mechanical tension and trigger autogenic inhibition, forcing muscles to relax and preventing tears."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How do melanosomes protect skin cells from harmful ultraviolet radiation?",
+      "options": [
+        "They form an umbrella-shaped cap directly over the cell's nucleus",
+        "They reflect UV light outward like a mirror on the skin surface",
+        "They absorb sunlight to generate vitamin C inside lysosomes",
+        "They destroy damaged skin cells before they can duplicate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Melanosomes arrange themselves into a protective supranuclear cap over the keratinocyte's nucleus, shielding its DNA from UV damage."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to current medical consensus, what most likely causes a runner's 'side stitch'?",
+      "options": [
+        "Friction and irritation between layers of the peritoneum",
+        "A severe cramp in the lower lobes of the lungs",
+        "A sudden shortage of oxygen flowing to the liver",
+        "Lactic acid building up along the rib cage muscles"
+      ],
+      "correctIndex": 0,
+      "explanation": "Exercise-related transient abdominal pain is primarily attributed to friction irritating the parietal peritoneum membrane during torso movement."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why doesn't sleeping in on weekends fully erase a week of chronic sleep loss?",
+      "options": [
+        "It fails to restore insulin sensitivity and causes circadian disruption",
+        "The brain cannot enter REM sleep after 8:00 AM",
+        "Excess sleep destroys newly formed memories from the week",
+        "Sleeping past sunrise permanently halts melatonin production"
+      ],
+      "correctIndex": 0,
+      "explanation": "Studies show weekend recovery sleep does not repair metabolic disruptions like reduced insulin sensitivity and can worsen circadian misalignment."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 0,
+      "prompt": "How many degrees of your total visual field are in razor-sharp focus at any given moment?",
+      "answer": 2,
+      "min": 1,
+      "max": 60,
+      "unit": "°",
+      "explanation": "Only about 1 to 2 degrees of your visual field—the width of your thumbnail held at arm's length—is in razor-sharp focus."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "When a muscle lifts an extreme load, your nervous system will forcibly relax it to prevent injury",
+      "answer": true,
+      "explanation": "Golgi tendon organs act as built-in circuit breakers, triggering autogenic inhibition to drop dangerous loads before tendons tear."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "A side stitch while running is caused by your diaphragm cramping from lack of oxygen",
+      "answer": false,
+      "explanation": "Research indicates side stitches stem from friction and irritation of the peritoneal membranes lining the abdominal wall, not oxygen starvation."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Sleeping in on the weekend fully reverses the health consequences of a sleep-deprived work week",
+      "answer": false,
+      "explanation": "While extra weekend sleep reduces subjective fatigue, studies show it fails to restore insulin sensitivity and disrupts your circadian clock."
+    }
+  ]
+}

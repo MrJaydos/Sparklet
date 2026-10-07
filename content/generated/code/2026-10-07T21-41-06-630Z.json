@@ -1,0 +1,205 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.630Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "An homage to Fahrenheit 451 gave the web a censorship error code",
+      "body": "When a web page is blocked due to government censorship or court orders, web servers can return HTTP status code 451. Standardized by the Internet Engineering Task Force in RFC 7725, the code was created by developer Tim Bray in deliberate homage to Ray Bradbury's dystopian novel Fahrenheit 451. Unlike generic error pages, HTTP 451 explicitly tells visitors that information was suppressed by law rather than lost to a technical failure.",
+      "imageWikipediaTitle": "HTTP 451",
+      "sources": [
+        {
+          "title": "RFC 7725: An HTTP Status Code to Report Legal Obstacles",
+          "publisher": "IETF Datatracker",
+          "url": "https://datatracker.ietf.org/doc/html/rfc7725"
+        },
+        {
+          "title": "HTTP 451",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HTTP_451"
+        }
+      ],
+      "readMoreUrl": "https://datatracker.ietf.org/doc/html/rfc7725",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A midnight thunderstorm in Wisconsin inspired fuzz testing",
+      "body": "In 1988, University of Wisconsin professor Barton Miller dialed into his Unix workstation over a 1200-baud modem during a heavy thunderstorm. Electrical interference on the phone line injected random characters into his terminal, repeatedly crashing standard command-line tools. Curious why basic utilities were so fragile, Miller challenged students to build a tool that pummeled software with random input streams. To their shock, over 25 percent of standard Unix utilities crashed.",
+      "imageWikipediaTitle": "Fuzzing",
+      "sources": [
+        {
+          "title": "Fuzz Testing of Application Reliability",
+          "publisher": "University of Wisconsin–Madison",
+          "url": "https://pages.cs.wisc.edu/~bart/fuzz/"
+        },
+        {
+          "title": "Fuzzing",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fuzzing"
+        }
+      ],
+      "readMoreUrl": "https://pages.cs.wisc.edu/~bart/fuzz/",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Debian operating system was named after a college romance",
+      "body": "When Purdue undergraduate Ian Murdock founded a new, community-driven Linux distribution in August 1993, he needed an identity. Murdock combined the first name of his college girlfriend, Debra Lynn, with his own first name to form 'Debian.' Debra and Ian later married, and while their marriage ended years later, the portmanteau lived on to become one of open-source computing's foundational operating systems, anchoring downstream distributions like Ubuntu and Raspberry Pi OS.",
+      "imageWikipediaTitle": "Debian",
+      "sources": [
+        {
+          "title": "About Debian",
+          "publisher": "Debian",
+          "url": "https://www.debian.org/intro/about"
+        },
+        {
+          "title": "Debian",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Debian"
+        }
+      ],
+      "readMoreUrl": "https://www.debian.org/intro/about",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A lunch break game of Go inspired the invention of the QR code",
+      "body": "In 1994, Japanese engineer Masahiro Hara worked at auto-parts supplier Denso Wave, where factory workers struggled to scan dozens of conventional barcodes on single car parts. During a lunchtime game of Go, staring at the arrangement of black and white stones on the board sparked an idea: a two-dimensional matrix could encode data in two directions simultaneously. Hara added three corner finder patterns for high-speed scanning, and Denso Wave released the patent royalty-free.",
+      "imageWikipediaTitle": "QR code",
+      "sources": [
+        {
+          "title": "Masahiro Hara, Motoaki Watabe, Tadao Nozoe, Takayuki Nagaya (QR Code)",
+          "publisher": "European Patent Office",
+          "url": "https://www.epo.org/en/news-events/european-inventor-award/meet-the-inventors/masahiro-hara"
+        },
+        {
+          "title": "QR code",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/QR_code"
+        }
+      ],
+      "readMoreUrl": "https://www.epo.org/en/news-events/european-inventor-award/meet-the-inventors/masahiro-hara",
+      "category": "code"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 512-byte packet limit capped the internet at 13 root server addresses",
+      "body": "The global Domain Name System is anchored by root server addresses lettered A through M—exactly 13 in total. This limit was dictated by protocol constraints: the original 1980s DNS specification relied on UDP packets limited to 512 bytes to avoid network fragmentation. After subtracting headers and protocol metadata, exactly 13 IPv4 server records fit within a single packet. Today, Anycast routing allows hundreds of physical machines worldwide to share and answer those same 13 addresses.",
+      "imageWikipediaTitle": "Root name server",
+      "sources": [
+        {
+          "title": "Root Servers",
+          "publisher": "IANA",
+          "url": "https://www.iana.org/domains/root/servers"
+        },
+        {
+          "title": "Root name server",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Root_name_server"
+        }
+      ],
+      "readMoreUrl": "https://www.iana.org/domains/root/servers",
+      "category": "code"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Which literary work inspired the HTTP error code 451 for legally suppressed web content?",
+      "options": [
+        "Ray Bradbury's Fahrenheit 451",
+        "George Orwell's 1984",
+        "Aldous Huxley's Brave New World",
+        "Franz Kafka's The Trial"
+      ],
+      "correctIndex": 0,
+      "explanation": "RFC 7725 introduced HTTP 451 in direct tribute to Ray Bradbury's novel about book burning and government censorship."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What unexpected event prompted Barton Miller to invent fuzz testing in 1988?",
+      "options": [
+        "Thunderstorm line noise injecting random characters into dial-up sessions",
+        "A hardware short circuit causing keyboard keys to stick indefinitely",
+        "A corrupt magnetic tape scrambling terminal commands during boot",
+        "A stray punch card jamming a campus batch-processing queue"
+      ],
+      "correctIndex": 0,
+      "explanation": "Storm-induced line noise generated random keystrokes that repeatedly crashed Miller's command-line programs, leading to automated fuzzing."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did the Debian operating system get its name?",
+      "options": [
+        "By merging the names of creator Ian Murdock and his girlfriend Debra",
+        "From an acronym representing the Distributed Enterprise Binary Architecture Network",
+        "From a Latin term roughly translating to 'unrestricted by boundaries'",
+        "After the university mainframe system that compiled its first kernel release"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ian Murdock combined 'Deb' from his girlfriend Debra Lynn with his own first name 'Ian' to create the portmanteau Debian."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which board game's pattern inspired Masahiro Hara to invent the 2D QR code?",
+      "options": [
+        "Go",
+        "Chess",
+        "Shogi",
+        "Othello"
+      ],
+      "correctIndex": 0,
+      "explanation": "Looking at the black and white stones on a Go grid during lunch showed Hara how data could be packed across two dimensions."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why are there exactly 13 root server IP addresses in the global Domain Name System?",
+      "options": [
+        "Original UDP responses had a 512-byte limit that could fit only 13 server records",
+        "Only 13 countries participated in the initial 1980s ARPANET governance charter",
+        "Early Unix network kernel tables were hardcoded to store arrays of 13 entries",
+        "The first root DNS zone was mapped to 13 regional telecom switches across the US"
+      ],
+      "correctIndex": 0,
+      "explanation": "To prevent IP packet fragmentation, early DNS replies over UDP were capped at 512 bytes, leaving room for at most 13 address records."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many lettered root server addresses (such as A through M) anchor the global internet Domain Name System?",
+      "answer": 13,
+      "min": 1,
+      "max": 100,
+      "unit": "",
+      "explanation": "The global root DNS system uses exactly 13 lettered addresses, limited by the 512-byte UDP packet constraint of early internet networking."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "HTTP 451 indicates that a web server crashed due to an internal software failure.",
+      "answer": false,
+      "explanation": "HTTP 451 specifically signals that access to the requested resource was blocked because of legal demands or censorship, not a software bug."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "The Linux distribution Debian was named as a romantic portmanteau of two people's names.",
+      "answer": true,
+      "explanation": "Founder Ian Murdock combined the first name of his college girlfriend Debra Lynn with his own name, Ian, to create 'Debian'."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Denso Wave patented the QR code and required licensing royalties for all commercial uses.",
+      "answer": false,
+      "explanation": "While Denso Wave held the patent rights to the QR code, the company chose to release the standard royalty-free to encourage global adoption."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Because there are 13 root DNS addresses, only 13 physical computers host the root of the internet.",
+      "answer": false,
+      "explanation": "Although there are only 13 root IP addresses, Anycast routing distributes the traffic to hundreds of redundant physical servers worldwide."
+    }
+  ]
+}

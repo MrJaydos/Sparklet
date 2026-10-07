@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.628Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Reindeer eyes change color from gold to blue in winter",
+      "body": "During continuous Arctic summer daylight, reindeer eyes reflect a golden color. But when polar winter plunges their world into months of darkness, the reflective tissue layer behind their retina—the tapetum lucidum—shifts to deep turquoise blue. This change compresses collagen fibers in the eye, reflecting less light directly out and scattering more through the retina. The adaptation dramatically increases their retinal sensitivity, helping reindeer spot predators and lichen in the twilight.",
+      "imageWikipediaTitle": "Reindeer",
+      "sources": [
+        {
+          "title": "Reindeer eyes change colour to survive Arctic winter",
+          "publisher": "University College London",
+          "url": "https://www.ucl.ac.uk/news/2013/oct/reindeer-eyes-change-colour-survive-arctic-winter"
+        },
+        {
+          "title": "Reindeer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Reindeer"
+        }
+      ],
+      "readMoreUrl": "https://www.ucl.ac.uk/news/2013/oct/reindeer-eyes-change-colour-survive-arctic-winter",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Horseshoe crabs bleed bright blue to detect bacterial toxins",
+      "body": "Horseshoe crabs have royal blue blood because oxygen is carried by copper-rich hemocyanin instead of iron-rich hemoglobin. Even stranger is its immune defense: specialized cells called amebocytes clot instantly when exposed to bacterial endotoxins, entrapping microbes in a thick gel. Because of this hypersensitivity, biomedical facilities harvest their blood to produce Limulus amebocyte lysate, a critical testing agent used globally to ensure vaccines, IV drips, and medical implants are free from contamination.",
+      "imageWikipediaTitle": "Horseshoe crab",
+      "sources": [
+        {
+          "title": "Why is horseshoe crab blood blue?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/horseshoe-crab-blood.html"
+        },
+        {
+          "title": "Horseshoe crab",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_crab"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/horseshoe-crab-blood.html",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Surinam toad mothers give birth directly out of their backs",
+      "body": "During mating, the male Surinam toad presses fertilized eggs onto the female's back. Her skin swells into individual honeycombed pockets that engulf each egg under a protective skin flap. Inside these subcutaneous chambers, the embryos skip the free-swimming tadpole stage entirely. After roughly four months of development, fully formed juvenile toadlets punch through the mother's skin, bursting out into the open water like tiny popping popcorn kernels before swimming away on their own.",
+      "imageWikipediaTitle": "Common Surinam toad",
+      "sources": [
+        {
+          "title": "Pipa pipa (Surinam Toad)",
+          "publisher": "Animal Diversity Web",
+          "url": "https://animaldiversity.org/accounts/Pipa_pipa/"
+        },
+        {
+          "title": "Common Surinam toad",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Common_Surinam_toad"
+        }
+      ],
+      "readMoreUrl": "https://animaldiversity.org/accounts/Pipa_pipa/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You do not lose forty percent of your body heat through your head",
+      "body": "The popular myth that humans lose up to half their body heat through their head traces back to a flawed 1950s US military experiment. Researchers dressed volunteer soldiers in insulated arctic suits but left their heads completely exposed to freezing air. Naturally, heat escaped where skin was bare. In reality, your head accounts for only about 7 to 10 percent of your body surface, and it loses heat at the exact same rate as any other exposed skin.",
+      "imageWikipediaTitle": "Thermoregulation",
+      "sources": [
+        {
+          "title": "Medical myths",
+          "publisher": "PubMed Central",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2606622/"
+        },
+        {
+          "title": "List of common misconceptions",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_common_misconceptions"
+        }
+      ],
+      "readMoreUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2606622/",
+      "category": "fun"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Loggerhead shrikes impale their prey on thorns and barbed wire",
+      "body": "Nicknamed \"butcherbirds,\" loggerhead shrikes are small songbirds that hunt mice, frogs, and lizards. Lacking the strong talons of birds of prey, they cannot easily hold down thrashing prey to rip into it. Instead, they skewer their catch onto sharp plant thorns, barbed wire fences, or splintered branches. This grisly pantry serves as an anchor while feeding, stores surplus food for later, and even lets the toxins in poisonous lubber grasshoppers degrade before the bird eats.",
+      "imageWikipediaTitle": "Loggerhead shrike",
+      "sources": [
+        {
+          "title": "Loggerhead Shrike Overview",
+          "publisher": "Cornell Lab of Ornithology",
+          "url": "https://allaboutbirds.org/guide/Loggerhead_Shrike/overview"
+        },
+        {
+          "title": "Loggerhead shrike",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Loggerhead_shrike"
+        }
+      ],
+      "readMoreUrl": "https://allaboutbirds.org/guide/Loggerhead_Shrike/overview",
+      "category": "fun"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why do reindeer eyes shift from gold to deep blue during the Arctic winter?",
+      "options": [
+        "To scatter more light across the retina in continuous darkness",
+        "To prevent ultraviolet snow blindness from glacial glare",
+        "To blend in visually and evade predatory wolves",
+        "To insulate their optic nerve against subzero temperatures"
+      ],
+      "correctIndex": 0,
+      "explanation": "Compressing collagen fibers in the reflective tapetum lucidum scatters more light through the retina, dramatically boosting twilight vision."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What property of horseshoe crab blood makes it invaluable to the biomedical industry?",
+      "options": [
+        "Specialized cells that clot instantly around bacterial endotoxins",
+        "A universal oxygen profile suitable for human transfusions",
+        "An antibody cocktail that neutralizes snake venoms",
+        "Enzymes that accelerate red blood cell repair in humans"
+      ],
+      "correctIndex": 0,
+      "explanation": "Amebocytes in horseshoe crab blood clot around minute traces of bacterial endotoxins, making it ideal for contamination testing."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Where do young Surinam toads develop and emerge from during birth?",
+      "options": [
+        "Honeycombed pockets embedded directly in their mother's back skin",
+        "A brooding pouch located under the female's throat",
+        "Mud chambers excavated by the father on river bottoms",
+        "Hollow cavities inside floating aquatic driftwood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Surinam toad embryos develop in subcutaneous pockets on the mother's back, emerging as fully formed toadlets directly into the water."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why did an old military study conclude that people lose most of their body heat through the head?",
+      "options": [
+        "Volunteers wore full arctic suits with only their heads uncovered",
+        "Researchers used thermometers calibrated only for facial skin",
+        "Subjects were immersed neck-deep in subzero water tanks",
+        "The experiments were conducted exclusively on bald participants"
+      ],
+      "correctIndex": 0,
+      "explanation": "The 1950s US military experiment bundled subjects in insulated gear while leaving only their heads exposed, skewing the heat loss data."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why do loggerhead shrikes impale their prey on thorns and barbed wire?",
+      "options": [
+        "To hold food in place because they lack strong gripping talons",
+        "To impress prospective mates with decorative collections",
+        "To ward off rival hawks and owls from their territory",
+        "To soften tough meat using direct sunlight"
+      ],
+      "correctIndex": 0,
+      "explanation": "Because shrikes lack powerful talons like raptors, impaling prey anchors the food so they can pull it apart."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 3,
+      "prompt": "According to medicine's 'Rule of Nines,' roughly what percentage of adult body surface area does the head and neck represent?",
+      "answer": 9,
+      "min": 1,
+      "max": 50,
+      "unit": "%",
+      "explanation": "The head represents about 9% of adult skin surface, losing heat at the exact same rate as any other bare body part."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Reindeer eyes remain the exact same color throughout the entire year.",
+      "answer": false,
+      "explanation": "Reindeer eyes change from gold in summer to deep blue during winter to maximize light sensitivity in Arctic darkness."
+    },
+    {
+      "cardIndex": 1,
+      "claim": "Horseshoe crabs have naturally bright blue blood.",
+      "answer": true,
+      "explanation": "Their blood uses copper-rich hemocyanin to transport oxygen rather than iron-rich hemoglobin, giving it a vibrant blue hue."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "Humans lose forty to fifty percent of their body heat through their head.",
+      "answer": false,
+      "explanation": "The head only accounts for roughly 7% to 10% of body surface area and loses heat at the same rate per square inch as any other skin."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.628Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Standard rail gauge was not copied from ancient Roman chariots",
+      "body": "A widespread legend claims modern train tracks measure 4 feet 8.5 inches because that matched ancient Roman chariot ruts. In truth, pioneering British engineer George Stephenson simply adopted the four-foot-eight-inch width already used by horse-drawn coal tramways in northeast England. When building early steam railways, Stephenson added an extra half-inch to reduce friction and allow locomotives to round curves smoothly.",
+      "imageWikipediaTitle": "Standard-gauge railway",
+      "sources": [
+        {
+          "title": "Railroad Gauge and Roman Chariots",
+          "publisher": "Snopes",
+          "url": "https://www.snopes.com/fact-check/railroad-gauge-chariots/"
+        },
+        {
+          "title": "Railroad gauge",
+          "publisher": "Encyclopedia Britannica",
+          "url": "https://www.britannica.com/technology/gauge-railway"
+        },
+        {
+          "title": "Standard-gauge railway",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Standard-gauge_railway"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/technology/gauge-railway",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The 1890 US Census was calculated in months using punched cards",
+      "body": "By 1888, the US Census Bureau faced a data crisis: compiling the 1880 census by hand had taken nearly eight years. Inventor Herman Hollerith designed an electromechanical tabulating machine where pins pressed against paper cards punched with citizen data. Whenever a pin hit a hole, it dipped into mercury, completing a circuit that advanced a counter dial. Hollerith's system tallied the population in months and became the foundation of IBM.",
+      "imageWikipediaTitle": "Tabulating machine",
+      "sources": [
+        {
+          "title": "The Hollerith Tabulator",
+          "publisher": "U.S. Census Bureau",
+          "url": "https://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html"
+        },
+        {
+          "title": "Tabulating machine",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tabulating_machine"
+        }
+      ],
+      "readMoreUrl": "https://www.census.gov/history/www/innovations/technology/the_hollerith_tabulator.html",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Superglue was rejected twice before anyone realized its value",
+      "body": "In 1942, chemist Harry Coover was searching for clear, shatterproof plastics to build precision gun sights for Allied soldiers during World War II. He synthesized cyanoacrylate, but abandoned the formula because it stubbornly stuck to every laboratory tool it touched. Nine years later, while testing heat-resistant polymers for jet canopies at Eastman Kodak, Coover encountered the compound again. This time, he recognized that its instant, room-temperature bonding was an entirely new kind of adhesive.",
+      "imageWikipediaTitle": "Cyanoacrylate",
+      "sources": [
+        {
+          "title": "Harry Coover - Super Glue",
+          "publisher": "Lemelson-MIT Program",
+          "url": "https://lemelson.mit.edu/resources/harry-coover"
+        },
+        {
+          "title": "Cyanoacrylate",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cyanoacrylate"
+        }
+      ],
+      "readMoreUrl": "https://lemelson.mit.edu/resources/harry-coover",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A carpenter's clock solved the greatest navigation riddle in history",
+      "body": "In the eighteenth century, sailors could calculate latitude using the stars, but determining longitude at sea required knowing the precise time back at a home meridian. Standard pendulum clocks failed on rolling ships subject to humidity and temperature swings. Self-taught Yorkshire carpenter John Harrison spent decades crafting marine chronometers with bimetallic strips and frictionless bearings. His pocket-watch-sized H4 chronometer lost just five seconds across a nine-week Atlantic voyage in 1761.",
+      "imageWikipediaTitle": "Marine chronometer",
+      "sources": [
+        {
+          "title": "John Harrison and the Longitude Problem",
+          "publisher": "Royal Museums Greenwich",
+          "url": "https://www.rmg.co.uk/stories/topics/john-harrison-clock-longitude-problem"
+        },
+        {
+          "title": "Marine chronometer",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marine_chronometer"
+        }
+      ],
+      "readMoreUrl": "https://www.rmg.co.uk/stories/topics/john-harrison-clock-longitude-problem",
+      "category": "tech"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Fossilized algae made volatile nitroglycerin safe to handle as dynamite",
+      "body": "In the 1860s, nitroglycerin was notorious for detonating under the slightest accidental impact or temperature fluctuation, causing fatal factory explosions. Swedish chemist Alfred Nobel discovered that mixing three parts liquid nitroglycerin with one part kieselguhr—a porous, chalky sediment composed of microscopic fossilized diatom shells—turned the liquid into a stable, kneadable paste. Patented in 1867 as dynamite, the mixture could only be detonated by a blasting cap, revolutionizing global mining and infrastructure.",
+      "imageWikipediaTitle": "Dynamite",
+      "sources": [
+        {
+          "title": "Alfred Nobel – Life and Philosophy",
+          "publisher": "Nobel Prize",
+          "url": "https://www.nobelprize.org/alfred-nobel/biographical-information/"
+        },
+        {
+          "title": "Dynamite",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dynamite"
+        }
+      ],
+      "readMoreUrl": "https://www.nobelprize.org/alfred-nobel/biographical-information/",
+      "category": "tech"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "Why did George Stephenson set standard railroad gauge to 4 feet 8.5 inches?",
+      "options": [
+        "To match existing coal tramways, plus a half-inch for curve clearance",
+        "To match the standard rut spacing of ancient Roman military roads",
+        "To conform to British naval shipping cargo width limits",
+        "To fit the maximum width of a standard pair of workhorses"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stephenson adopted the 4 ft 8 in gauge from local coal tramways and added half an inch so locomotive wheels could round curves smoothly."
+    },
+    {
+      "cardIndex": 1,
+      "question": "How did Herman Hollerith's tabulating machine detect data holes punched into cards?",
+      "options": [
+        "Spring-loaded pins passed through holes into mercury to complete circuits",
+        "Photocells detected beams of light shining through the cards",
+        "Mechanical gears fell into holes to physically turn numbered dials",
+        "Pencil graphite drawn through the holes closed an electrical switch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Pins pushed through punched holes dipped into small cups of mercury, closing circuits that advanced electromagnetic counters."
+    },
+    {
+      "cardIndex": 2,
+      "question": "What was Harry Coover trying to invent when he first synthesized cyanoacrylate?",
+      "options": [
+        "Clear, shatterproof plastic for military gun sights",
+        "Heat-resistant rocket engine nozzle coatings",
+        "Waterproof battlefield wound dressings",
+        "Synthetic rubber tires for military trucks"
+      ],
+      "correctIndex": 0,
+      "explanation": "Coover synthesized cyanoacrylate in 1942 while looking for transparent optical plastics for gun sights, discarding it because it stuck to everything."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Why were ordinary pendulum clocks ineffective for finding longitude at sea?",
+      "options": [
+        "Ship motion and temperature changes threw off their delicate mechanisms",
+        "Earth's magnetic poles prevented pendulums from swinging vertically",
+        "The clocks could only run properly in the Northern Hemisphere",
+        "High salt concentrations in the air rusted the pendulums solid"
+      ],
+      "correctIndex": 0,
+      "explanation": "A ship's constant rolling and changes in humidity and temperature ruined the precision required for marine navigation."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What material did Alfred Nobel mix with nitroglycerin to invent dynamite?",
+      "options": [
+        "Kieselguhr (fossilized diatom shells)",
+        "Powdered sulfur and fine charcoal",
+        "Sawdust saturated in liquid paraffin",
+        "Crushed volcanic pumice and clay"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nobel soaked nitroglycerin into kieselguhr, an absorbent diatomaceous earth, creating a safe paste that did not detonate from accidental bumps."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many years did it take the US Census Bureau to hand-tally the 1880 census before adopting Hollerith's machines?",
+      "answer": 8,
+      "min": 1,
+      "max": 20,
+      "unit": "years",
+      "explanation": "Compiling the 1880 census by hand took nearly eight full years, pushing the bureau to adopt punched-card tabulators in 1890."
+    },
+    {
+      "cardIndex": 3,
+      "prompt": "Across a nine-week Atlantic voyage in 1761, how many seconds did John Harrison's H4 marine chronometer lose?",
+      "answer": 5,
+      "min": 1,
+      "max": 60,
+      "unit": "seconds",
+      "explanation": "Harrison's H4 chronometer lost approximately five seconds over 81 days at sea, proving longitude could be accurately determined."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Modern railroad track width was deliberately copied from ancient Roman chariot ruts.",
+      "answer": false,
+      "explanation": "Standard gauge comes from George Stephenson adapting northern English coal tramway widths, not ancient Roman roads."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Superglue was initially rejected by its inventor because it was too sticky.",
+      "answer": true,
+      "explanation": "Harry Coover abandoned cyanoacrylate in 1942 after it ruined his laboratory tools, only realizing its commercial value nine years later."
+    }
+  ]
+}

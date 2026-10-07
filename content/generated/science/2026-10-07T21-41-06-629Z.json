@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.629Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Electrons in electrical wires crawl slower than a snail",
+      "body": "When you flip a wall switch, the light turns on almost instantly because an electromagnetic wave races through the circuit at roughly ninety percent of the speed of light. But the physical electrons carrying that charge do not rush forward. Trapped in constant collisions with copper atoms, they nudge along at a drift speed of roughly a fraction of a millimeter per second—slower than a garden snail.",
+      "imageWikipediaTitle": "Electric current",
+      "sources": [
+        {
+          "title": "Microscopic View of Electric Current",
+          "publisher": "Georgia State University",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/electric/ohmmic.html"
+        },
+        {
+          "title": "Drift velocity",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Drift_velocity"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Drift_velocity",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Your body literally glows in the dark with visible light",
+      "body": "Every living human body literally glows in the dark. Chemical reactions in our cells continuously produce metabolic byproducts that emit visible photons. In 2009, Japanese researchers used ultra-sensitive cryogenic cameras to film this human luminescence for the first time. The emitted light is roughly one thousand times weaker than human eyes can register, and it rises and falls throughout the day, peaking in the late afternoon when cellular activity is highest.",
+      "imageWikipediaTitle": "Bioluminescence",
+      "sources": [
+        {
+          "title": "Imaging of Ultraweak Photon Emission from a Human Body Displaying Diurnal Rhythm",
+          "publisher": "PLOS ONE",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006256"
+        },
+        {
+          "title": "Biophoton",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Biophoton"
+        }
+      ],
+      "readMoreUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006256",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Diamond conducts heat five times better than copper",
+      "body": "Most excellent heat conductors, like silver and copper, rely on free electrons to transfer thermal energy. Diamond has almost no free electrons and acts as an electrical insulator, yet it conducts heat up to five times better than copper at room temperature. Its rigid, tightly packed carbon lattice allows crystal vibrations, known as phonons, to shoot straight through the gemstone with virtually no resistance.",
+      "imageWikipediaTitle": "Diamond",
+      "sources": [
+        {
+          "title": "Thermal Conductivity",
+          "publisher": "Georgia State University",
+          "url": "http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/thcond.html"
+        },
+        {
+          "title": "Material properties of diamond",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Material_properties_of_diamond"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Material_properties_of_diamond",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Jittering pollen grains proved that atoms actually exist",
+      "body": "Until the early twentieth century, many prominent scientists viewed atoms merely as convenient mathematical placeholders rather than real, physical objects. That changed in 1905 when Albert Einstein analyzed Brownian motion—the erratic jittering of microscopic pollen grains suspended in water. He proved mathematically that invisible water molecules were constantly battering the grains. Subsequent experiments confirmed Einstein's equations, providing the first definitive proof that atoms physically exist.",
+      "imageWikipediaTitle": "Brownian motion",
+      "sources": [
+        {
+          "title": "The Nobel Prize in Physics 1926: Jean Baptiste Perrin",
+          "publisher": "Nobel Prize Outreach AB",
+          "url": "https://www.nobelprize.org/prizes/physics/1926/summary/"
+        },
+        {
+          "title": "Brownian motion",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brownian_motion"
+        }
+      ],
+      "readMoreUrl": "https://en.wikipedia.org/wiki/Brownian_motion",
+      "category": "science"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Corals are colonies of animals, not plants or rocks",
+      "body": "Despite looking like colorful underwater rocks or vibrant seafloor plants, corals are genuine animals. Every coral structure is a colony composed of thousands of tiny, soft-bodied creatures called polyps. Related to jellyfish and sea anemones, each polyp secretes a hard outer skeleton made of calcium carbonate for protection. They feed by snaring microscopic prey with stinging tentacles and thrive by sheltering photosynthetic algae within their tissues.",
+      "imageWikipediaTitle": "Coral",
+      "sources": [
+        {
+          "title": "What are corals?",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "url": "https://oceanservice.noaa.gov/facts/coral.html"
+        },
+        {
+          "title": "Coral",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Coral"
+        }
+      ],
+      "readMoreUrl": "https://oceanservice.noaa.gov/facts/coral.html",
+      "category": "science"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "At what physical speed do individual electrons typically drift through a household copper wire?",
+      "options": [
+        "Near the speed of light",
+        "Around the speed of sound",
+        "Less than a millimeter per second",
+        "Several kilometers per hour"
+      ],
+      "correctIndex": 2,
+      "explanation": "While electromagnetic signals propagate near light speed, physical electrons collide continuously and drift at less than a millimeter per second."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why can't humans see the visible light naturally emitted by living human bodies?",
+      "options": [
+        "It is emitted entirely as infrared heat",
+        "It is roughly 1,000 times dimmer than human eyes can detect",
+        "It is trapped inside internal organs and cannot escape skin",
+        "It flashes for only a microsecond during sleep"
+      ],
+      "correctIndex": 1,
+      "explanation": "Human cells emit visible photons as metabolic byproducts, but the light is about 1,000 times weaker than our eyes' detection limit."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How does diamond conduct heat so effectively without free conduction electrons?",
+      "options": [
+        "Through crystal lattice vibrations called phonons",
+        "Through microscopic convection currents of trapped gas",
+        "By rapidly ionizing carbon atoms under heat",
+        "Through electromagnetic induction between facets"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diamond's rigid, lightweight carbon lattice allows vibrational waves called phonons to travel across the crystal with minimal scattering."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which phenomenon did Albert Einstein use in 1905 to mathematically prove that atoms exist?",
+      "options": [
+        "The photoelectric effect",
+        "Brownian motion",
+        "Alpha particle scattering",
+        "Nuclear fission"
+      ],
+      "correctIndex": 1,
+      "explanation": "Einstein showed that the random jiggling of microscopic particles in water is caused by collisions with discrete, physical molecules."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What biological classification do corals belong to?",
+      "options": [
+        "Animals",
+        "Plants",
+        "Fungi",
+        "Mineral deposits"
+      ],
+      "correctIndex": 0,
+      "explanation": "Corals are colonies of invertebrate animals called polyps, which are close relatives of jellyfish and sea anemones."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "How many times weaker is the visible light emitted by human skin compared to the minimum sensitivity of human vision?",
+      "answer": 1000,
+      "min": 10,
+      "max": 50000,
+      "unit": "x",
+      "explanation": "Human bodies emit visible light through cellular metabolism, but it is roughly 1,000 times too faint for our eyes to detect."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "Roughly how many times better is diamond at conducting heat than pure copper at room temperature?",
+      "answer": 5,
+      "min": 1,
+      "max": 50,
+      "unit": "x",
+      "explanation": "Diamond conducts heat about five times faster than copper thanks to phonon vibrations passing through its rigid carbon bonds."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Electrons travel through household electrical wiring near the speed of light.",
+      "answer": false,
+      "explanation": "The electromagnetic field travels near light speed, but the electrons themselves crawl forward at less than a millimeter per second."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Coral reefs are living colonies of animals rather than marine plants or rocks.",
+      "answer": true,
+      "explanation": "Corals are colonies of tiny animal polyps related to jellyfish; their plant-like look comes from their stationary growth and symbiotic algae."
+    }
+  ]
+}

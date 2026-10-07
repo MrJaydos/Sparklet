@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-10-07T21:41:06.631Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A helicopter blade must spin five times faster to fly in Mars' thin air",
+      "body": "Mars' atmosphere has less than 1 percent of Earth's sea-level density, offering almost nothing for helicopter blades to push against. To generate lift, NASA's Ingenuity helicopter spun its carbon-fiber blades at roughly 2,400 to 2,700 revolutions per minute—about five times faster than helicopters on Earth. In April 2021, the four-pound robotic craft made history by achieving the first powered, controlled flight on another world.",
+      "imageWikipediaTitle": "Ingenuity (helicopter)",
+      "sources": [
+        {
+          "title": "Mars Helicopter",
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "url": "https://mars.nasa.gov/technology/helicopter/"
+        },
+        {
+          "title": "Ingenuity (helicopter)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ingenuity_(helicopter)"
+        }
+      ],
+      "readMoreUrl": "https://mars.nasa.gov/technology/helicopter/",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "You can actually see 59 percent of the Moon's surface from Earth",
+      "body": "Because the Moon is tidally locked, it rotates at the exact same rate it orbits Earth, keeping one side facing us. However, we do not see just 50 percent of its surface. The Moon travels in an elliptical orbit and tilts slightly on its axis, causing it to nod and wobble from our vantage point. This rocking motion, called libration, gradually reveals about 59 percent of the lunar surface to observers on Earth.",
+      "imageWikipediaTitle": "Libration",
+      "sources": [
+        {
+          "title": "Libration",
+          "publisher": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/science/libration-astronomy"
+        },
+        {
+          "title": "Libration",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Libration"
+        }
+      ],
+      "readMoreUrl": "https://www.britannica.com/science/libration-astronomy",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Moon's shadow races across Earth faster than the speed of sound",
+      "body": "Standing in the path of a total solar eclipse, you can watch darkness rush toward you at terrifying speed. The Moon travels in its orbit at over 3,600 kilometers per hour. Even after accounting for Earth's rotation, the Moon's umbral shadow sweeps across our planet's surface at a minimum speed of roughly 1,700 kilometers per hour at the equator—well above the speed of sound—and accelerates to over 8,000 kilometers per hour near the poles.",
+      "imageWikipediaTitle": "Solar eclipse",
+      "sources": [
+        {
+          "title": "Solar Eclipse Glossary",
+          "publisher": "NASA Goddard Space Flight Center",
+          "url": "https://eclipse.gsfc.nasa.gov/SEhelp/SEglossary.html"
+        },
+        {
+          "title": "Solar eclipse",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solar_eclipse"
+        }
+      ],
+      "readMoreUrl": "https://eclipse.gsfc.nasa.gov/SEhelp/SEglossary.html",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The first woman in space logged more flight time than all early US astronauts combined",
+      "body": "In June 1963, 26-year-old Soviet cosmonaut Valentina Tereshkova became the first woman to reach space, piloting the Vostok 6 capsule solo. Over three days, she completed 48 orbits around Earth, spending over 70 hours in microgravity. Her single mission logged more flight time than the combined total of all four American Mercury astronauts who had orbited Earth before her. She remains the only woman to have flown a solo space mission.",
+      "imageWikipediaTitle": "Valentina Tereshkova",
+      "sources": [
+        {
+          "title": "Valentina Tereshkova: The First Woman in Space",
+          "publisher": "European Space Agency",
+          "url": "https://www.esa.int/About_Us/ESA_history/50_years_of_humans_in_space/Valentina_Tereshkova_the_first_woman_in_space"
+        },
+        {
+          "title": "Valentina Tereshkova",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Valentina_Tereshkova"
+        }
+      ],
+      "readMoreUrl": "https://www.esa.int/About_Us/ESA_history/50_years_of_humans_in_space/Valentina_Tereshkova_the_first_woman_in_space",
+      "category": "space"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Spacesuits are white to keep astronauts from overheating in direct sunlight",
+      "body": "While many assume spacesuits are white for high visibility in dark space, thermal control is the primary driver. Without an atmosphere to diffuse heat, an astronaut working in direct sunlight faces temperatures exceeding 120 degrees Celsius (250 degrees Fahrenheit). White fabric reflects harsh solar radiation, keeping the suit's cooling systems from being overwhelmed. The stark color also contrasts against the blackness of space, making spacewalkers easy to spot.",
+      "imageWikipediaTitle": "Extravehicular activity",
+      "sources": [
+        {
+          "title": "Why Are Spacesuits White?",
+          "publisher": "National Air and Space Museum",
+          "url": "https://airandspace.si.edu/stories/editorial/why-are-spacesuits-white"
+        },
+        {
+          "title": "Space suit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Space_suit"
+        }
+      ],
+      "readMoreUrl": "https://airandspace.si.edu/stories/editorial/why-are-spacesuits-white",
+      "category": "space"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "At roughly what speed did NASA's Ingenuity helicopter spin its rotor blades to achieve flight on Mars?",
+      "options": [
+        "Around 400 to 500 RPM",
+        "Around 1,000 to 1,200 RPM",
+        "Around 2,400 to 2,700 RPM",
+        "Around 8,000 to 9,000 RPM"
+      ],
+      "correctIndex": 2,
+      "explanation": "Because Mars' air is less than 1% as dense as Earth's, Ingenuity needed rotor speeds around 2,400 to 2,700 RPM to generate sufficient lift."
+    },
+    {
+      "cardIndex": 1,
+      "question": "What percentage of the Moon's total surface can eventually be seen from Earth due to libration?",
+      "options": [
+        "Exactly 50 percent",
+        "About 59 percent",
+        "About 75 percent",
+        "Nearly 90 percent"
+      ],
+      "correctIndex": 1,
+      "explanation": "Orbital eccentricity and axial tilt create a nodding motion called libration, revealing about 59% of the Moon's surface over time."
+    },
+    {
+      "cardIndex": 2,
+      "question": "At what minimum speed does the Moon's shadow travel across Earth's equator during a total solar eclipse?",
+      "options": [
+        "Roughly 350 km/h",
+        "Roughly 850 km/h",
+        "Roughly 1,700 km/h",
+        "Roughly 11,200 km/h"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Moon's umbra travels at supersonic speeds, moving at a minimum of about 1,700 km/h at the equator and even faster near the poles."
+    },
+    {
+      "cardIndex": 3,
+      "question": "What milestone did Soviet cosmonaut Valentina Tereshkova achieve in June 1963?",
+      "options": [
+        "She became the first woman to perform an orbital spacewalk",
+        "She became the first woman in space and remains the only to fly solo",
+        "She became the first person to manually dock two spacecraft",
+        "She spent over one year continuously in Earth orbit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tereshkova orbited Earth 48 times aboard Vostok 6, becoming the first woman in space and the only woman to complete a solo mission."
+    },
+    {
+      "cardIndex": 4,
+      "question": "What is the primary reason extravehicular spacesuits are colored white?",
+      "options": [
+        "To reflect solar radiation and keep astronauts from overheating",
+        "To insulate against high-energy cosmic rays",
+        "To match the exterior paint of the space station",
+        "To dissipate static electricity built up on spacewalks"
+      ],
+      "correctIndex": 0,
+      "explanation": "In direct sunlight, temperatures reach over 120°C; white fabric reflects intense solar radiation to prevent suit cooling systems from failing."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "Due to orbital wobbles known as libration, what percentage of the Moon's surface can be viewed from Earth over time?",
+      "answer": 59,
+      "min": 45,
+      "max": 85,
+      "unit": "%",
+      "explanation": "Instead of only seeing half of the Moon, libration allows observers on Earth to see roughly 59% of its total surface over time."
+    },
+    {
+      "cardIndex": 2,
+      "prompt": "At what minimum speed does the Moon's shadow race across Earth's surface at the equator during a total solar eclipse?",
+      "answer": 1700,
+      "min": 500,
+      "max": 5000,
+      "unit": "km/h",
+      "explanation": "The Moon's umbral shadow travels at supersonic speed across Earth, moving at roughly 1,700 km/h at the equator."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "Observers on Earth can only ever see exactly 50 percent of the Moon's surface.",
+      "answer": false,
+      "explanation": "Because of lunar libration—a slight nodding motion caused by its tilted, elliptical orbit—we can view about 59 percent of the Moon over time."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The first woman to fly into space completed her mission entirely alone without crewmates.",
+      "answer": true,
+      "explanation": "Valentina Tereshkova piloted Vostok 6 completely solo in 1963, and remains the only woman to have flown a solo space mission."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "Spacesuits are colored white primarily so astronauts can easily spot each other against the dark void of space.",
+      "answer": false,
+      "explanation": "While high visibility is helpful, spacesuits are white primarily for thermal protection to reflect solar heat that exceeds 120°C in direct sunlight."
+    }
+  ]
+}
