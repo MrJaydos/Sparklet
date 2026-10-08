@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-08T21:37:04.660Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why expressing disappointment beats anger in a negotiation",
+      "body": "When negotiations hit an impasse, expressing anger feels instinctive, but it backfires. Research shows counterparts make concessions two to three times larger when an opponent expresses disappointment instead of anger. While anger signals hostility and triggers stubborn resistance, disappointment activates interpersonal guilt. It signals that your counterpart failed to meet a fair expectation, motivating them to appease you and restore the relationship by conceding ground.",
+      "imageWikipediaTitle": "Negotiation",
+      "sources": [
+        {
+          "title": "Supplication and appeasement in conflict and negotiation: The interpersonal effects of disappointment, worry, guilt, and regret",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16881798/"
+        },
+        {
+          "title": "Negotiation",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Negotiation"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/16881798/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Showing a list of previous buyers nearly triples prospect compliance",
+      "body": "Before asking a prospect to sign or donate, show them who already did. In landmark field experiments by Peter Reingen, asking prospects for a contribution yielded a 25% agreement rate. But when canvassers first presented a list of four previous contributors, compliance jumped to 43%. When the list showed twelve names, agreement reached over 70%. The longer the visible roster of earlier adopters, the lower the perceived risk of saying yes.",
+      "imageWikipediaTitle": "Social proof",
+      "sources": [
+        {
+          "title": "Test of a list procedure for inducing compliance with a request to donate",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7174697/"
+        },
+        {
+          "title": "Social proof",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Social_proof"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/7174697/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Physically sealing a proposal inside an envelope prevents buyer's remorse",
+      "body": "Closing a deal does not end when a client signs; lingering doubt can easily unravel the agreement. Psychological research led by Dilip Soman revealed that physically placing a document inside an envelope and sealing it shut dramatically reduces attachment to alternative options and silences regret. This physical barrier triggers an embodied cognitive reset: the brain registers the decision as finalized and permanently off the table, protecting against post-meeting second-guessing.",
+      "imageWikipediaTitle": "Embodied cognition",
+      "sources": [
+        {
+          "title": "Sealing the deal: physical enclosure promotes emotional closure",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20566835/"
+        },
+        {
+          "title": "Embodied cognition",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Embodied_cognition"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/20566835/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Unpacking a single problem into specific examples quadruples perceived risk",
+      "body": "Pitching a solution against broad categories like system downtime or security vulnerabilities rarely creates urgency. Amos Tversky and Derek Koehler's support theory demonstrated that when a generic risk is unpacked into specific scenarios—such as server crashes, DNS failures, and malware breaches—people judge the overall probability as far higher. Breaking a vague threat into concrete sub-components inflates perceived danger and dramatically boosts a buyer's willingness to invest in protection.",
+      "imageWikipediaTitle": "Support theory",
+      "sources": [
+        {
+          "title": "Support theory: A nonextensional representation of subjective probability",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7972591/"
+        },
+        {
+          "title": "Support theory",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Support_theory"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/7972591/",
+      "category": "sales"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Asking what would make a prospect reject you uncovers hidden deal-breakers",
+      "body": "During discovery calls, salespeople naturally hunt for pain points that confirm their pitch. But in Peter Wason's classic 1960 experiments, over 80% of people failed simple reasoning tasks because they only tested hypotheses that confirmed their hunches. In sales, asking disconfirming questions—like what would convince you to keep your current vendor—forces buyers to reveal hidden loyalties and contract landmines before you waste weeks chasing a deal doomed to stall.",
+      "imageWikipediaTitle": "Confirmation bias",
+      "sources": [
+        {
+          "title": "On the failure to eliminate hypotheses in a conceptual task",
+          "publisher": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13783234/"
+        },
+        {
+          "title": "Confirmation bias",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Confirmation_bias"
+        }
+      ],
+      "readMoreUrl": "https://pubmed.ncbi.nlm.nih.gov/13783234/",
+      "category": "sales"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "In negotiation research by Gerben van Kleef, which emotional expression prompted larger concessions from counterparts?",
+      "options": [
+        "Disappointment",
+        "Anger",
+        "Indifference",
+        "Flattery"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disappointment signals an unmet social expectation, triggering interpersonal guilt and appeasement, whereas anger prompts retaliation."
+    },
+    {
+      "cardIndex": 1,
+      "question": "In Peter Reingen's field studies on the 'list technique,' what happened to compliance when prospects were shown 12 previous contributors?",
+      "options": [
+        "Compliance exceeded 70%",
+        "Compliance fell to zero",
+        "Compliance remained at 25%",
+        "Compliance plateaued at 43%"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reingen found that compliance jumped from 25% with no list to over 70% when prospects were shown a list of 12 earlier contributors."
+    },
+    {
+      "cardIndex": 2,
+      "question": "According to research on physical enclosure by Dilip Soman and colleagues, how does sealing a signed proposal in an envelope affect decision-making?",
+      "options": [
+        "It promotes emotional closure and suppresses regret",
+        "It makes clients feel trapped and want to cancel",
+        "It increases the likelihood of renegotiation",
+        "It has no measurable cognitive effect"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sealing an agreement physically provides an embodied cognitive cue that the choice is final, reducing second-guessing."
+    },
+    {
+      "cardIndex": 3,
+      "question": "According to Amos Tversky and Derek Koehler's support theory, what happens when a broad risk is 'unpacked' into specific examples?",
+      "options": [
+        "People perceive the overall probability as significantly higher",
+        "People perceive the risk as less likely",
+        "People tune out due to information overload",
+        "Perceived risk remains completely unchanged"
+      ],
+      "correctIndex": 0,
+      "explanation": "Unpacking an umbrella category into concrete components inflates its subjective probability and urgency."
+    },
+    {
+      "cardIndex": 4,
+      "question": "In sales discovery calls, what is the strategic benefit of asking disconfirming questions?",
+      "options": [
+        "It exposes hidden objections and loyalties before deals stall",
+        "It proves to the buyer that your product is flawless",
+        "It forces the buyer to make an immediate purchase",
+        "It prevents the buyer from speaking with competitors"
+      ],
+      "correctIndex": 0,
+      "explanation": "Disconfirming questions counteract confirmation bias by uncovering deal-breaking obstacles that buyers usually withhold."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In Peter Reingen's experiment, what percentage of prospects agreed to donate when shown a list of 12 previous donors, up from a 25% baseline?",
+      "answer": 71,
+      "min": 10,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Showing a list of 12 previous contributors raised compliance from 25% to 71%, proving that longer social proof rosters sharply reduce perceived risk."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "In Peter Wason's classic experiment on confirmation bias, what percentage of participants failed the initial reasoning test by only seeking confirming evidence?",
+      "answer": 80,
+      "min": 20,
+      "max": 95,
+      "unit": "%",
+      "explanation": "Over 80% of participants failed because they only tested hypotheses that confirmed their existing beliefs, a tendency that blinds sales reps in discovery calls."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Showing anger during a tense negotiation forces the other side to make larger concessions.",
+      "answer": false,
+      "explanation": "Research shows anger triggers stubborn resistance and retaliation, whereas expressing disappointment yields concessions 2 to 3 times larger by evoking guilt."
+    },
+    {
+      "cardIndex": 4,
+      "claim": "The best sales discovery questions focus exclusively on confirming your product's fit.",
+      "answer": false,
+      "explanation": "Confirmation bias blinds reps to fatal objections; asking disconfirming questions exposes hidden obstacles before contract negotiations."
+    }
+  ]
+}

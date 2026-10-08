@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-10-08T21:37:04.659Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Adam Smith Mentioned the \"Invisible Hand\" Only Once in His Masterpiece",
+      "body": "Commentators often treat the \"invisible hand\" as the centerpiece of Adam Smith's economic philosophy. Yet in his 1776 foundational treatise, The Wealth of Nations, Smith used the famous phrase exactly once. In that lone passage, he was describing a merchant's domestic preference for investing at home rather than abroad, not proposing an all-encompassing defense of unregulated markets. Across all his published books and essays combined, the phrase appears only three times.",
+      "imageWikipediaTitle": "Adam Smith",
+      "sources": [
+        {
+          "title": "The Invisible Hand",
+          "publisher": "Adam Smith Institute",
+          "url": "https://www.adamsmith.org/the-invisible-hand"
+        },
+        {
+          "title": "Invisible hand",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Invisible_hand"
+        }
+      ],
+      "readMoreUrl": "https://www.adamsmith.org/the-invisible-hand",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "How the March of Dimes Put FDR on the Ten-Cent Coin",
+      "body": "When President Franklin D. Roosevelt died in 1945, the Treasury chose to honor him on the dime rather than a larger denomination. Roosevelt had contracted polio in 1921 and later founded the National Foundation for Infantile Paralysis. In 1938, comedian Eddie Cantor urged radio listeners nationwide to send spare dimes directly to the White House. The resulting \"March of Dimes\" campaign raised millions for polio research, making the ten-cent coin Roosevelt's permanent tribute.",
+      "imageWikipediaTitle": "Roosevelt dime",
+      "sources": [
+        {
+          "title": "Dime",
+          "publisher": "United States Mint",
+          "url": "https://www.usmint.gov/coins/coin-medal-programs/circulating-coins/dime"
+        },
+        {
+          "title": "Roosevelt dime",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roosevelt_dime"
+        }
+      ],
+      "readMoreUrl": "https://www.usmint.gov/coins/coin-medal-programs/circulating-coins/dime",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Private US Businesses Have No Legal Obligation to Accept Cash",
+      "body": "Many shoppers believe the inscription \"This note is legal tender for all debts, public and private\" guarantees a right to pay with physical paper money everywhere. Under federal law, however, private businesses can freely set their own payment policies, including refusing cash in favor of cards or digital payments. Legal tender status requires creditors to accept currency for existing debts, but it does not compel any business to accept cash before agreeing to a sale.",
+      "imageWikipediaTitle": "Legal tender",
+      "sources": [
+        {
+          "title": "Legal Tender Status",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/faqs/currency_12769.htm"
+        },
+        {
+          "title": "Legal tender",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Legal_tender"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/faqs/currency_12769.htm",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The British Banknote Promise That Now Pays Itself",
+      "body": "Every banknote issued by the Bank of England carries the historic inscription: \"I promise to pay the bearer on demand the sum of...\" signed by the Chief Cashier. In the eighteenth and nineteenth centuries, this pledged an immediate exchange for physical gold or silver coin. Britain abandoned the gold standard in 1931, making the promise purely ceremonial. Handing a twenty-pound note to the central bank today legally entitles you only to another twenty-pound note.",
+      "imageWikipediaTitle": "Bank of England note issues",
+      "sources": [
+        {
+          "title": "Current banknotes",
+          "publisher": "Bank of England",
+          "url": "https://www.bankofengland.co.uk/banknotes/current-banknotes"
+        },
+        {
+          "title": "Bank of England note issues",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bank_of_England_note_issues"
+        }
+      ],
+      "readMoreUrl": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+      "category": "money"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "Why the US Pulled Bills Larger Than $100 from Circulation",
+      "body": "Until 1969, the Federal Reserve issued banknotes in denominations of $500, $1,000, $5,000, and $10,000. Originally printed to transfer massive sums between banks before modern digital wire networks existed, these high-value notes saw dwindling public use as electronic accounting took over. On July 14, 1969, the Treasury and the Fed halted their distribution to curb money laundering and organized crime. While still technically legal tender, most were destroyed or bought by collectors.",
+      "imageWikipediaTitle": "Large denominations of United States currency",
+      "sources": [
+        {
+          "title": "Large Denominations",
+          "publisher": "Federal Reserve Board",
+          "url": "https://www.federalreserve.gov/faqs/currency_12600.htm"
+        },
+        {
+          "title": "Large denominations of United States currency",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Large_denominations_of_United_States_currency"
+        }
+      ],
+      "readMoreUrl": "https://www.federalreserve.gov/faqs/currency_12600.htm",
+      "category": "money"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "How many times does the phrase \"invisible hand\" appear in Adam Smith's The Wealth of Nations?",
+      "options": [
+        "Exactly once",
+        "14 times",
+        "53 times",
+        "Never"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smith used the phrase only once in The Wealth of Nations, specifically while discussing domestic trade preferences rather than general market philosophy."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Why was Franklin D. Roosevelt chosen to appear on the US ten-cent coin?",
+      "options": [
+        "His March of Dimes campaign funded the fight against polio",
+        "He authorized the creation of the modern US Mint",
+        "He took the United States off the silver standard",
+        "The dime was the first coin minted during his presidency"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roosevelt founded the charity that created the March of Dimes, linking his legacy directly to the ten-cent coin upon his death in 1945."
+    },
+    {
+      "cardIndex": 2,
+      "question": "Under US federal law, are private businesses required to accept cash for purchases?",
+      "options": [
+        "No, businesses may establish their own payment policies",
+        "Yes, all legal tender must be accepted by law",
+        "Only if the purchase is under $100",
+        "Only for essential goods like groceries and fuel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Federal law protects cash as legal tender for debts, but it does not compel private businesses to accept paper money for retail sales."
+    },
+    {
+      "cardIndex": 3,
+      "question": "If you take a British banknote to the Bank of England to redeem its \"promise to pay,\" what do you receive?",
+      "options": [
+        "An equivalent amount in current banknotes",
+        "A certified amount of fine silver",
+        "A sovereign gold coin",
+        "A government savings bond"
+      ],
+      "correctIndex": 0,
+      "explanation": "Since Britain abandoned the gold standard in 1931, the Bank of England fulfills the promise simply by exchanging the note for other current legal currency."
+    },
+    {
+      "cardIndex": 4,
+      "question": "Why did the US Treasury and Federal Reserve discontinue bills larger than $100 in 1969?",
+      "options": [
+        "Electronic transfers made them obsolete and to curb crime",
+        "Printing costs exceeded the face value of the notes",
+        "A metal shortage prevented backing high denominations",
+        "The Supreme Court ruled high-value paper unconstitutional"
+      ],
+      "correctIndex": 0,
+      "explanation": "High-denomination bills saw declining public demand with the rise of digital transfers, and officials phased them out to combat money laundering."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 1,
+      "prompt": "In what year was the first Roosevelt dime released into circulation by the US Mint?",
+      "answer": 1946,
+      "min": 1920,
+      "max": 1975,
+      "unit": "",
+      "explanation": "The Roosevelt dime debuted in 1946, less than a year after FDR died, honoring both his presidency and his March of Dimes campaign."
+    },
+    {
+      "cardIndex": 4,
+      "prompt": "What was the face value of the highest denomination banknote ever released for public circulation in the US?",
+      "answer": 10000,
+      "min": 500,
+      "max": 50000,
+      "unit": "$",
+      "explanation": "The $10,000 bill was the largest denomination issued for public circulation before the Federal Reserve halted distribution of large bills in 1969."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 0,
+      "claim": "Adam Smith framed the \"invisible hand\" as the central governing law of free-market capitalism.",
+      "answer": false,
+      "explanation": "Smith used the phrase only once in The Wealth of Nations, where he addressed domestic trade choices rather than establishing a universal market doctrine."
+    },
+    {
+      "cardIndex": 2,
+      "claim": "Private businesses in the United States are legally required to accept cash payments.",
+      "answer": false,
+      "explanation": "Federal statute defines cash as legal tender for debts, but private businesses remain legally free to refuse cash and demand digital or card payments."
+    }
+  ]
+}

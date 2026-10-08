@@ -1,0 +1,193 @@
+{
+  "generatedAt": "2026-10-08T21:37:04.658Z",
+  "model": "gemini-flash-latest",
+  "cards": [
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A 1919 Solar Eclipse Made Albert Einstein an Overnight Icon",
+      "body": "In May 1919, British astronomer Arthur Eddington traveled to the island of Príncipe to photograph stars during a total solar eclipse. Albert Einstein's general theory of relativity predicted that the Sun's massive gravity would bend the path of passing starlight. Eddington's measurements confirmed the deflection, offering the first empirical proof of curved spacetime. The dramatic result made front-page news around the globe, toppling centuries of Newtonian physics and turning Einstein into an international household name.",
+      "imageWikipediaTitle": "Eddington experiment",
+      "sources": [
+        {
+          "title": "Albert Einstein's Theory of General Relativity",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/may-29/"
+        },
+        {
+          "title": "Eddington experiment",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eddington_experiment"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/may-29/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Deadliest US Wildfire Happened the Same Night as Chicago's",
+      "body": "On October 8, 1871, the Great Chicago Fire destroyed four square miles and killed roughly 300 people, capturing world headlines. Yet on that exact night, a far deadlier firestorm erupted in Peshtigo, Wisconsin. Spurred by drought and hurricane-force winds, the blaze consumed 1.2 million acres and killed an estimated 1,200 to 2,500 people. It remains the deadliest wildfire in American history, though news of the tragedy took days to escape the ashes.",
+      "imageWikipediaTitle": "Peshtigo fire",
+      "sources": [
+        {
+          "title": "The Great Peshtigo Fire of 1871",
+          "publisher": "National Weather Service",
+          "url": "https://www.weather.gov/grb/peshtigofire"
+        },
+        {
+          "title": "Peshtigo fire",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peshtigo_fire"
+        }
+      ],
+      "readMoreUrl": "https://www.weather.gov/grb/peshtigofire",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "A Ferocious 1888 Blizzard Forced Urban Power and Subways Underground",
+      "body": "In March 1888, the Great Blizzard pummeled the American Northeast with up to 50 inches of snow and 80-mile-per-hour winds. The storm snapped thousands of aboveground telegraph, telephone, and power lines, plunging major cities into dark isolation. The catastrophic failure proved that surface wires were too vulnerable to severe weather. In direct response, cities like New York and Boston mandated that utility lines be buried underground and accelerated plans to build North America's first underground subways.",
+      "imageWikipediaTitle": "Great Blizzard of 1888",
+      "sources": [
+        {
+          "title": "The Great Blizzard of 1888",
+          "publisher": "Library of Congress",
+          "url": "https://www.loc.gov/item/today-in-history/march-12/"
+        },
+        {
+          "title": "Great Blizzard of 1888",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_Blizzard_of_1888"
+        }
+      ],
+      "readMoreUrl": "https://www.loc.gov/item/today-in-history/march-12/",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The World's Oldest Extant Peace Treaty Hangs at the United Nations",
+      "body": "Around 1259 BCE, Egyptian Pharaoh Ramesses II and Hittite King Hattusili III signed an agreement ending decades of war following the Battle of Kadesh. The Treaty of Kadesh is the oldest surviving written peace treaty in world history. Inscribed on silver and clay tablets, it established terms remarkably modern for its era, including mutual defense guarantees, defined borders, and the extradition of political refugees. Today, a replica of the tablet hangs at UN Headquarters in New York.",
+      "imageWikipediaTitle": "Egyptian–Hittite peace treaty",
+      "sources": [
+        {
+          "title": "Treaty of Kadesh",
+          "publisher": "United Nations",
+          "url": "https://www.un.org/ungifts/treaty-kadesh"
+        },
+        {
+          "title": "Egyptian–Hittite peace treaty",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Egyptian%E2%80%93Hittite_peace_treaty"
+        }
+      ],
+      "readMoreUrl": "https://www.un.org/ungifts/treaty-kadesh",
+      "category": "history"
+    },
+    {
+      "type": "TEXT_IMAGE",
+      "title": "The Lewis and Clark Expedition Suffered Only a Single Death",
+      "body": "Between 1804 and 1806, the Lewis and Clark Expedition traveled approximately 8,000 grueling miles from Missouri to the Pacific Ocean and back. Despite harsh winters, dangerous rapids, wild animal encounters, and completely uncharted territory, only one person among dozens of expedition members lost their life: Sergeant Charles Floyd. Medical historians believe Floyd died from a ruptured appendix near modern-day Sioux City, Iowa—a medical emergency that would have proved fatal anywhere in the world at the time.",
+      "imageWikipediaTitle": "Charles Floyd (explorer)",
+      "sources": [
+        {
+          "title": "Sergeant Charles Floyd",
+          "publisher": "National Park Service",
+          "url": "https://www.nps.gov/jeff/learn/historyculture/charles-floyd.htm"
+        },
+        {
+          "title": "Charles Floyd (explorer)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charles_Floyd_(explorer)"
+        }
+      ],
+      "readMoreUrl": "https://www.nps.gov/jeff/learn/historyculture/charles-floyd.htm",
+      "category": "history"
+    }
+  ],
+  "quizzes": [
+    {
+      "cardIndex": 0,
+      "question": "What did Arthur Eddington measure during the 1919 solar eclipse to test Einstein's general relativity?",
+      "options": [
+        "The bending of starlight by the Sun's gravity",
+        "The temperature of the solar corona",
+        "The speed of solar flares traveling toward Earth",
+        "The Moon's gravitational pull on cosmic rays"
+      ],
+      "correctIndex": 0,
+      "explanation": "Eddington photographed stars near the Sun during the total eclipse and confirmed that the Sun's gravitational field bent their light, matching Einstein's prediction."
+    },
+    {
+      "cardIndex": 1,
+      "question": "Which disaster remains the deadliest recorded wildfire in United States history?",
+      "options": [
+        "The Great Chicago Fire of 1871",
+        "The Peshtigo Fire of 1871",
+        "The Great Fire of 1910",
+        "The Camp Fire of 2018"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Peshtigo Fire claimed an estimated 1,200 to 2,500 lives in Wisconsin on the same night as the Chicago blaze, making it America's deadliest wildfire."
+    },
+    {
+      "cardIndex": 2,
+      "question": "How did the Great Blizzard of 1888 permanently transform American urban infrastructure?",
+      "options": [
+        "It led to the creation of the first municipal fire departments",
+        "It required all multi-story buildings to install lightning rods",
+        "It prompted cities to bury utility cables and build subways",
+        "It inspired the construction of elevated wooden highways"
+      ],
+      "correctIndex": 2,
+      "explanation": "After overhead wires snapped across the Northeast, leaving cities cut off, officials mandated burying electrical lines and accelerated underground subway construction."
+    },
+    {
+      "cardIndex": 3,
+      "question": "Which ancient conflict was officially concluded by the Treaty of Kadesh, history's earliest surviving peace treaty?",
+      "options": [
+        "The Peloponnesian War between Athens and Sparta",
+        "The Punic Wars between Rome and Carthage",
+        "The war between Egypt and the Hittite Empire",
+        "The conflict between Assyria and Babylon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Negotiated around 1259 BCE between Ramesses II and Hattusili III, the treaty formally concluded decades of war between Egypt and the Hittites."
+    },
+    {
+      "cardIndex": 4,
+      "question": "How many members of the Lewis and Clark Expedition died during their entire two-year, 8,000-mile journey?",
+      "options": [
+        "18",
+        "7",
+        "33",
+        "1"
+      ],
+      "correctIndex": 3,
+      "explanation": "Only Sergeant Charles Floyd died on the expedition, succumbing to what historians believe was acute appendicitis."
+    }
+  ],
+  "guesses": [
+    {
+      "cardIndex": 4,
+      "prompt": "How many expedition members died during Lewis and Clark's grueling 8,000-mile journey to the Pacific and back?",
+      "answer": 1,
+      "min": 0,
+      "max": 35,
+      "unit": "",
+      "explanation": "Sergeant Charles Floyd was the sole casualty of the entire two-year expedition, likely dying of acute appendicitis."
+    }
+  ],
+  "misconceptions": [
+    {
+      "cardIndex": 1,
+      "claim": "The Great Chicago Fire was the deadliest fire disaster in the United States on October 8, 1871.",
+      "answer": false,
+      "explanation": "The Peshtigo Fire in Wisconsin broke out the same night and claimed between 1,200 and 2,500 lives, far surpassing Chicago's toll of roughly 300."
+    },
+    {
+      "cardIndex": 3,
+      "claim": "The concepts of mutual defense treaties and political refugee extradition originated in modern Europe.",
+      "answer": false,
+      "explanation": "The Treaty of Kadesh included formal terms for mutual defense alliances and the return of political refugees over three millennia ago in 1259 BCE."
+    }
+  ]
+}
