@@ -99,6 +99,12 @@ export default function PrivacyPolicyPage() {
             . Where required by law, we&apos;ll ask for your consent before showing
             personalized ads.
           </p>
+          <p>
+            We measure site traffic with Umami, a privacy-focused analytics tool. It
+            sets no cookies and doesn&apos;t track you across sites; it records
+            aggregate information such as pages visited, referrer, browser, device
+            type and country.
+          </p>
         </section>
 
         <section>
@@ -111,6 +117,7 @@ export default function PrivacyPolicyPage() {
             </li>
             <li>Google and Apple, if you choose to sign in with those providers.</li>
             <li>Google AdSense, to serve ads to free-tier users.</li>
+            <li>Umami, to measure aggregate site traffic.</li>
             <li>
               Stripe, to process payments if you subscribe — we never see or store your
               full card details.

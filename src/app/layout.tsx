@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ServiceWorkerRegistrar } from "@/components/ServiceWorkerRegistrar";
 import { AdsenseScript } from "@/components/AdsenseScript";
+import { UmamiScript } from "@/components/UmamiScript";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
 
@@ -54,6 +55,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-neutral-950 text-neutral-100">
         <ServiceWorkerRegistrar />
         <AdsenseScript />
+        <UmamiScript />
         {children}
         <Footer />
       </body>
