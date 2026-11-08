@@ -16,6 +16,7 @@ import { isBillingEnabled, isPremiumViaStripe } from "@/lib/billing";
 import { PushToggle } from "@/components/PushToggle";
 import { FriendsPanel, type FriendRow } from "@/components/FriendsPanel";
 import { HistoryList, type HistoryRow } from "@/components/HistoryList";
+import { UpgradeLink } from "@/components/UpgradeLink";
 
 export const metadata = { title: "Profile — Sparklet" };
 
@@ -305,12 +306,12 @@ export default async function ProfilePage() {
               <p className="mt-1 text-xs text-neutral-400">
                 Remove ads and unlock unlimited Deeper / Extra-deep reading.
               </p>
-              <Link
-                href="/upgrade"
+              <UpgradeLink
+                source="profile"
                 className="mt-3 inline-block rounded-xl bg-violet-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-violet-500"
               >
                 ✨ Upgrade
-              </Link>
+              </UpgradeLink>
             </>
           )}
         </div>

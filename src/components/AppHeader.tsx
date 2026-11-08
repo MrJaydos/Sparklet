@@ -7,6 +7,7 @@ import { XpRing } from "./feed/XpRing";
 import { NotificationsBell } from "./feed/NotificationsBell";
 import { MenuSheet } from "./feed/MenuSheet";
 import { usePopoverAnchor } from "./feed/usePopoverAnchor";
+import { UpgradeLink } from "@/components/UpgradeLink";
 
 /**
  * The same floating header/hamburger-menu chrome as the feed, minus the
@@ -57,12 +58,12 @@ export function AppHeader({
         </Link>
         <div className="pointer-events-auto flex min-w-0 items-center gap-1.5">
           {billingEnabled && !premium && (
-            <Link
-              href="/upgrade"
+            <UpgradeLink
+              source="header"
               className="hidden whitespace-nowrap rounded-full bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur transition hover:bg-violet-500 min-[1000px]:block"
             >
               ✨ Upgrade
-            </Link>
+            </UpgradeLink>
           )}
           <StreakBadge
             streak={streak}

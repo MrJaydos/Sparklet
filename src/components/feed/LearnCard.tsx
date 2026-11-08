@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import type { FeedCard } from "@/lib/feed";
 import { timeAgo } from "@/lib/time";
 import { CardImage } from "@/components/CardImage";
+import { UpgradeLink } from "@/components/UpgradeLink";
 
 type DepthLevel = "SIMPLE" | "STANDARD" | "DEEP" | "EXTRA_DEEP";
 type DepthVariant = { title: string; body: string; level: DepthLevel };
@@ -440,14 +441,14 @@ export function LearnCard({
                     const locked = (l === "DEEP" || l === "EXTRA_DEEP") && billingEnabled && !premium;
                     if (locked) {
                       return (
-                        <Link
+                        <UpgradeLink
                           key={l}
-                          href="/upgrade"
+                          source="card-depth-lock"
                           onClick={() => setOpenMenu(null)}
                           className="whitespace-nowrap rounded-full border border-neutral-700 bg-neutral-900/95 px-3 py-1 text-xs text-neutral-500 shadow-lg backdrop-blur transition hover:border-violet-500 hover:text-violet-300"
                         >
                           🔒 {label}
-                        </Link>
+                        </UpgradeLink>
                       );
                     }
                     return (

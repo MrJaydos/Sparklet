@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@/lib/analytics";
 
 type Props =
   | { kind: "checkout"; plan: "monthly" | "annual"; label: string; className: string }
@@ -13,6 +14,7 @@ export function BillingButton(props: Props) {
   const go = async () => {
     if (loading) return;
     setLoading(true);
+    if (props.kind === "checkout") track("checkout-click", { plan: props.plan });
     try {
       const res = await fetch(
         props.kind === "checkout" ? "/api/billing/checkout" : "/api/billing/portal",

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import type { FeedQuiz } from "@/lib/feed";
 import { ConfettiBurst, XpReward, vibrate, type XpInfo } from "./Celebration";
+import { track } from "@/lib/analytics";
 
 type QuizResult = {
   correct: boolean;
@@ -49,6 +50,12 @@ export function QuizView({
       if (res.ok) {
         const data: QuizResult = await res.json();
         setResult(data);
+        track("quiz-answer", {
+          correct: data.correct,
+          variant,
+          category: quiz.category.name,
+          signedIn: !isGuest,
+        });
         vibrate(data.correct ? [30, 40, 60] : 20);
         onResult({ xp: data.xp, correct: data.correct, combo: data.combo });
       }

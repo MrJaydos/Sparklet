@@ -35,6 +35,8 @@ import { usePopoverAnchor } from "./usePopoverAnchor";
 import { ConfettiBurst, vibrate, type XpInfo } from "./Celebration";
 import { PushPrompt } from "./PushPrompt";
 import { shareOrCopy } from "@/lib/share";
+import { UpgradeLink } from "@/components/UpgradeLink";
+import { track } from "@/lib/analytics";
 
 const CHECKIN_EVERY = 15; // soft session check-in cadence
 const STORAGE_KEY = "sparklet.categories";
@@ -511,9 +513,15 @@ export function Feed({
     readTimerRef.current = setTimeout(() => {
       if (activeIdRef.current !== cardId || readRef.current.has(cardId)) return;
       readRef.current.add(cardId);
+      // Fires for guests too (they never POST), so this counts dwell-qualified
+      // reads from everyone — not the server-verified XP read.
+      track("card-read", {
+        category: cardsRef.current.find((c) => c.id === cardId)?.category.name ?? "unknown",
+        signedIn: !isGuest,
+      });
       postView(cardId, Date.now() - activeSince);
     }, delay);
-  }, [postView]);
+  }, [postView, isGuest]);
 
   // Long-dwell reporting: when the user moves off a card, tell the server
   // how long they lingered (enters spaced repetition when unusually long).
@@ -839,12 +847,12 @@ export function Feed({
           ) : (
             <>
               {billingEnabled && !premium && (
-                <Link
-                  href="/upgrade"
+                <UpgradeLink
+                  source="feed-header"
                   className="hidden whitespace-nowrap rounded-full bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur transition hover:bg-violet-500 min-[1000px]:block"
                 >
                   ✨ Upgrade
-                </Link>
+                </UpgradeLink>
               )}
               <StreakBadge
                 streak={streak}

@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import type { PopoverAnchor } from "./usePopoverAnchor";
+import { UpgradeLink } from "@/components/UpgradeLink";
 
 export type CategoryOption = {
   slug: string;
@@ -166,14 +166,14 @@ export function CategorySheet({
             const locked = (o.level === "DEEP" || o.level === "EXTRA_DEEP") && billingEnabled && !premium;
             if (locked) {
               return (
-                <Link
+                <UpgradeLink
                   key={o.level}
-                  href="/upgrade"
+                  source="depth-setting-lock"
                   className="rounded-xl border border-neutral-800 bg-neutral-900 px-3 py-2.5 text-left opacity-60 transition hover:border-violet-500 hover:opacity-100"
                 >
                   <span className="block text-sm font-medium text-neutral-300">🔒 {o.label}</span>
                   <span className="block text-xs text-neutral-500">Premium — {o.blurb}</span>
-                </Link>
+                </UpgradeLink>
               );
             }
             return (

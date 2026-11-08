@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { shareOrCopy } from "@/lib/share";
 import type { PopoverAnchor } from "./usePopoverAnchor";
+import { UpgradeLink } from "@/components/UpgradeLink";
 
 export function MenuSheet({
   unread,
@@ -144,12 +145,12 @@ export function MenuSheet({
               </button>
             </form>
             {billingEnabled && !premium && (
-              <Link
-                href="/upgrade"
+              <UpgradeLink
+                source="menu"
                 className="mt-2 flex w-full items-center justify-center rounded-xl bg-violet-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-500"
               >
                 ✨ Go Premium
-              </Link>
+              </UpgradeLink>
             )}
           </>
         )}
